@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/standard-chartered-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/standardchartered
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sc.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.sc.com/en/about/
+- group: company
+  title: ''
+  type: Investors
+  url: https://www.sc.com/en/investors/
+- group: company
+  title: ''
+  type: News
+  url: https://www.sc.com/en/press-releases/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.sc.com/en/careers/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sc.com/en/feed/
+created: '2026-05-05'
+description: A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standard-chartered.png
+layout: provider
+modified: '2026-05-16'
+name: Standard Chartered
+nav: Providers
+network: true
+overview: 'Standard Chartered is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Banks, and Global Banking.
+
+
+  Standard Chartered''s developer surface includes product news, engineering blog, and 6 more developer resources.'
+random_paper: 4
+score:
+  band: minimal
+  composite: 7.0
+  delta: 1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.9
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png
+security:
+- kind: domain-security
+  name: Standard Chartered Domain Security
+  slug: standard-chartered-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: standard-chartered
+tags:
+- Financial
+- Banks
+- Global Banking
+website: https://www.sc.com/
+---

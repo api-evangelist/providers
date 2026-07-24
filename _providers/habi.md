@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/habi-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://habi.co
+- group: company
+  title: ''
+  type: Blog
+  url: https://habi.co/blog
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://centro-ayuda.habi.co/hc/es-419
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://habi.co/terminosycondiciones
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://6215805.hs-sites.com/aviso-de-privacidad
+created: '2026-07-17'
+description: Habi is a Colombian real estate technology company (proptech) that operates as a direct home buyer and seller — an iBuyer model where Habi itself purchases apartments in cash, typically within 10 days, rather than acting as a traditional agency. It operates across Bogota, Medellin, Cali, Barranquilla and 20+ Colombian cities and is expanding into Mexico. Products include Habimetro (an online property valuation simulator), property listings and search, Habi Credit (mortgage financing), Habi Inmobiliaria (assisted longer-term sales), and an allied-agent partner network. The company reports 40,000+ families served, 4,000+ allied real estate agents, and 550+ real estate experts. Backed by Homebrew. This profile was added to the API Evangelist network and enriched from Habi's public surface; the company publishes no public developer API.
+image: https://d1dp0u2gg0hzcd.cloudfront.net/favicon_CO.png
+layout: provider
+modified: '2026-07-19'
+name: Habi
+nav: Providers
+network: true
+overview: 'Habi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, iBuyer, and Colombia.
+
+
+  Habi''s developer surface includes engineering blog and 5 more developer resources.'
+random_paper: 47
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Habi Domain Security
+  slug: habi-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: habi
+tags:
+- Company
+- Proptech
+- Real Estate
+- iBuyer
+- Colombia
+- Mexico
+- Mortgage
+- Home Buying
+website: https://habi.co
+---

@@ -1,0 +1,150 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 25.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: 'Agent-driven commerce surface for the TO THE MARKET store, implementing the Universal Commerce Protocol over a hosted MCP endpoint. Agents can search the catalog, create carts, and run buyer-approved '
+  name: TO THE MARKET Agent Commerce (UCP / MCP)
+  slug: to-the-market-agent-commerce-ucp-mcp
+artifact_total: 5
+common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/to-the-market-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/to-the-market-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/to-the-market-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/to-the-market-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/to-the-market-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/to-the-market-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/to-the-market-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/to-the-market-domain-security.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tothemarket.com/policies/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tothemarket.com/policies/terms-of-service
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tothemarket.com/pages/wholesale-account-sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://tothemarket.com/account/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://tothemarket.com/pages/contact-us
+- group: company
+  title: ''
+  type: Website
+  url: https://tothemarket.com/
+created: '2026-07-17'
+description: 'TO THE MARKET is a mission-driven commerce company that combines TRACERA supply-chain software with a curated catalog of "Global Good" sustainable, ethically sourced products, delivering verified impact, compliance, and transparency to buyers and enterprise sourcing teams. Its Shopify-powered storefront at tothemarket.com exposes a native agent-commerce surface: a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp and a hosted Model Context Protocol (MCP) endpoint, letting AI shopping agents discover the catalog, build carts, and run buyer-approved checkout. Buyer and customer actions authenticate through the Shopify Customer Account API over OAuth2/OpenID Connect.'
+image: https://tothemarket.com/cdn/shop/files/logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: to-the-market-mcp.yml
+  slug: to-the-market-mcpyml
+modified: '2026-07-21'
+name: TO THE MARKET
+nav: Providers
+network: true
+overview: 'TO THE MARKET publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Sustainability, and Supply Chain.
+
+
+  TO THE MARKET''s developer surface includes authentication, signup flow, support, and 11 more developer resources.'
+random_paper: 7
+scopes:
+- name: To The Market Scopes
+  scope_count: 4
+  slug: to-the-market-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 20.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 23.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 20.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: To The Market Authentication
+  slug: to-the-market-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: To The Market Domain Security
+  slug: to-the-market-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: to-the-market
+tags:
+- Company
+- Commerce
+- Ecommerce
+- Sustainability
+- Supply Chain
+- Agent Commerce
+- Shopify
+- MCP
+website: https://tothemarket.com/
+---

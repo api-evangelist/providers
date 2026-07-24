@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Minimal, type-safe GraphQL client API supporting HTTP and in-memory transports, custom scalars, file uploads, and a composable extension system for JavaScript and TypeScript applications.
+  name: GraphQL Request GraphQL API
+  slug: graphql-api
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/graphql-request-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://graffle.js.org
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://graffle.js.org/guides/getting-started
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/graphql-portal
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/graffle-js/graffle
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://github.com/sponsors/jasonkuhrt
+- group: build
+  title: ''
+  type: NpmPackage
+  url: https://www.npmjs.com/package/graphql-request
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/graphql-request-plans.md
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/graphql-request-rate-limits.md
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/graphql-request-finops.md
+created: 2026-06-14
+description: Minimal, isomorphic GraphQL client for JavaScript/TypeScript originally from the Prisma team, now evolved into Graffle — with support for file uploads, batch requests, custom headers, TypeScript type inference, and a powerful extension system. Runs in Node.js and browsers.
+graphqls:
+- description: GraphQL Request (now evolved into **Graffle**) is a minimal, isomorphic GraphQL client library for JavaScript and TypeScript. It does not expose a hosted GraphQL endpoint of its own — instead, it is a
+  name: GraphQL Request GraphQL API
+  slug: graphql-request-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql-request.png
+layout: provider
+modified: 2026-06-14
+name: GraphQL Request
+nav: Providers
+network: true
+overview: 'GraphQL Request publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, GraphQL Client, JavaScript, TypeScript, and Open Source.
+
+
+  GraphQL Request''s developer surface includes documentation, pricing, and 8 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 13.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-request/refs/heads/main/screenshots/graphql-request-2026-06-20T182337.png
+security:
+- kind: domain-security
+  name: Graphql Request Domain Security
+  slug: graphql-request-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: graphql-request
+tags:
+- GraphQL
+- GraphQL Client
+- JavaScript
+- TypeScript
+- Open Source
+- Isomorphic
+website: https://graffle.js.org
+---

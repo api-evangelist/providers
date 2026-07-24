@@ -1,0 +1,181 @@
+---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 17
+  human_in_the_loop: 0
+  name: Openpipe Agentic Access
+  operation_count: 23
+  slug: openpipe-agentic-access
+  summary_line: 23 operations · 17 acting
+api_count: 10
+apis:
+- description: The Chat API from OpenPipe — 1 operation(s) for chat.
+  name: OpenPipe Chat API
+  slug: openpipe-chat-api
+- description: The Check Cache API from OpenPipe — 1 operation(s) for check cache.
+  name: OpenPipe Check Cache API
+  slug: openpipe-check-cache-api
+- description: The Criteria API from OpenPipe — 1 operation(s) for criteria.
+  name: OpenPipe Criteria API
+  slug: openpipe-criteria-api
+- description: The Datasets API from OpenPipe — 3 operation(s) for datasets.
+  name: OpenPipe Datasets API
+  slug: openpipe-datasets-api
+- description: The Local Testing Only Get Latest Logged Call API from OpenPipe — 1 operation(s) for local testing only get latest logged call.
+  name: OpenPipe Local Testing Only Get Latest Logged Call API
+  slug: openpipe-local-testing-only-get-latest-logged-call-api
+- description: The Logs API from OpenPipe — 2 operation(s) for logs.
+  name: OpenPipe Logs API
+  slug: openpipe-logs-api
+- description: The Models API from OpenPipe — 2 operation(s) for models.
+  name: OpenPipe Models API
+  slug: openpipe-models-api
+- description: The Report Anthropic API from OpenPipe — 1 operation(s) for report anthropic.
+  name: OpenPipe Report Anthropic API
+  slug: openpipe-report-anthropic-api
+- description: The Report API from OpenPipe — 1 operation(s) for report.
+  name: OpenPipe Report API
+  slug: openpipe-report-api
+- description: The Unstable API from OpenPipe — 7 operation(s) for unstable.
+  name: OpenPipe Unstable API
+  slug: openpipe-unstable-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: OpenPipe API
+  slug: open-openpipe
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/openpipe-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openpipe-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/openpipe-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OpenPipe
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/openpipe
+- group: company
+  title: ''
+  type: Website
+  url: https://openpipe.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.openpipe.ai/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/openpipe-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/openpipe-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/openpipe-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.openpipe.ai/llms.txt
+created: '2026-05-08'
+description: OpenPipe is a fine-tuning and inference platform for distilling expensive frontier-LLM workloads into smaller, cheaper specialized models. Captures production traces (OpenAI and Anthropic), fine-tunes, evaluates with judges, caches results, and serves the result via OpenAI-compatible API. Also supports proxying to external models.
+finops:
+- name: Openpipe Finops
+  service_category: AI
+  slug: openpipe-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openpipe.png
+layout: provider
+modified: '2026-05-19'
+name: OpenPipe
+nav: Providers
+network: true
+overview: 'OpenPipe publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Check Cache API, Criteria API, and 7 more. Tagged areas include AI, LLM, Fine-Tuning, Distillation, and Inference.
+
+
+  OpenPipe''s developer surface includes authentication, documentation, and 9 more developer resources.'
+plans:
+- name: Openpipe Plans Pricing
+  plan_count: 1
+  slug: openpipe-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 1
+  name: Openpipe Rate Limits
+  slug: openpipe-rate-limits
+score:
+  band: thin
+  composite: 30.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 43.8
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 30.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
+security:
+- kind: authentication
+  name: Openpipe Authentication
+  slug: openpipe-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Openpipe Domain Security
+  slug: openpipe-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: openpipe
+tags:
+- AI
+- LLM
+- Fine-Tuning
+- Distillation
+- Inference
+- OpenAI Compatible
+- Anthropic Compatible
+- Caching
+website: https://openpipe.ai/
+---

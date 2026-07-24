@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/takenos-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://takenos.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.takenos.com/en/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@takenos.com
+created: '2026-07-17'
+description: Takenos is a Latin American fintech offering a digital dollar wallet built for freelancers, remote workers, and businesses who need to receive cross-border payments. It lets users get paid from abroad, hold and save in digital dollars with daily yield, and spend via international (TakeCard) and local (SpicyCard) debit cards plus QR payments. Riding the LATAM stablecoin and onchain-finance wave, it targets remittance friction and local-currency inflation across markets including Argentina and Bolivia. Backed by a $5M seed round (investors include 500 Global). No public developer API is documented; this profile was enriched from public sources.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/takenos.png
+layout: provider
+modified: '2026-07-21'
+name: Takenos
+nav: Providers
+network: true
+overview: 'Takenos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Digital Wallet, and Cross-Border Payments.
+
+
+  Takenos'' developer surface includes support and 3 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 8.4
+  delta: 0.8
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Takenos Domain Security
+  slug: takenos-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: takenos
+tags:
+- Company
+- Fintech
+- Payments
+- Digital Wallet
+- Cross-Border Payments
+- Remittances
+- Stablecoin
+- Latin America
+website: https://takenos.com
+---

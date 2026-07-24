@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dyndrite-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dyndrite.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.dyndrite.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dyndrite.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dyndrite.com/blog?format=rss
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dyndrite
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.dyndrite.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dyndrite.com/privacy-and-terms/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dyndrite.com/privacy-and-terms/eula
+created: '2026-07-17'
+description: Dyndrite develops GPU-accelerated software for digital and additive manufacturing, focused on laser powder bed fusion (LPBF) and other metal 3D-printing processes. Its platform streamlines build preparation, materials development, process qualification, and production automation for industrial manufacturers, machine builders (OEMs), and software vendors. Products include Dyndrite LPBF Pro for end users and the Application Development Kit (ADK) for machine makers, exposing low-level toolpathing control (Vector and Raster Toolpathing APIs) plus a scriptable Python geometry engine. Dyndrite is backed by Amplify Partners and is tracked in the API Evangelist network as an AI/ML and manufacturing automation company. It does not currently publish a public web/REST API, OpenAPI definition, or self-service developer portal; its APIs are embedded scripting and integration interfaces delivered inside its desktop software and ADK.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dyndrite.png
+layout: provider
+modified: '2026-07-18'
+name: Dyndrite
+nav: Providers
+network: true
+overview: 'Dyndrite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Additive Manufacturing, 3D Printing, and Digital Manufacturing.
+
+
+  Dyndrite''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 0
+score:
+  band: minimal
+  composite: 13.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dyndrite Domain Security
+  slug: dyndrite-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: dyndrite
+tags:
+- Company
+- Ai Ml
+- Additive Manufacturing
+- 3D Printing
+- Digital Manufacturing
+- Manufacturing Automation
+- GPU Computing
+- Toolpathing
+website: https://www.dyndrite.com
+---

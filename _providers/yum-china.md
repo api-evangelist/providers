@@ -1,0 +1,167 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: The KFC China Super App is Yum China's digital ordering and loyalty platform providing members with digital ordering, personalized recommendations, loyalty points, and an AI ordering assistant. The pl
+  name: KFC China Super App Platform
+  slug: kfc-super-app
+- description: Pizza Hut China's digital ordering and loyalty platform, part of Yum China's integrated membership ecosystem with shared loyalty infrastructure.
+  name: Pizza Hut China Digital Platform
+  slug: pizza-hut-digital
+artifact_total: 20
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/yum-china-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/yumchina
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/yum-china
+- group: company
+  title: ''
+  type: Website
+  url: https://www.yumchina.com
+- group: company
+  title: ''
+  type: Investors
+  url: https://ir.yumchina.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.yumchina.com/en/news
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.yumchina.com/en/privacy-policy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/yum-china-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/yum-china-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/yum-china-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/yum-china-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/yum-china-context.jsonld
+created: '2026-03-21'
+description: Yum China Holdings is the largest restaurant company in China by system sales, operating KFC, Pizza Hut, Taco Bell, Lavazza, Little Sheep, and Huang Ji Huang restaurants. As the exclusive licensee of Yum! Brands in mainland China, Yum China serves over 16,000 restaurants across China and operates Super App platforms with over 590 million loyalty members.
+features:
+- name: Digital Ordering
+- name: Super App Platform
+- name: AI Ordering Assistant
+- name: Q-Smart AI Restaurant Manager Assistant
+- name: Loyalty Programs (590M+ Members)
+- name: Super Brain AI Operations
+- name: KCOFFEE
+- name: Delivery Management
+- name: Smart Kitchen Operations
+finops:
+- name: Yum China Finops
+  service_category: API
+  slug: yum-china-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yum-china.png
+jsonld:
+- class_count: 10
+  name: Yum China Context
+  property_count: 21
+  slug: yum-china-context
+layout: provider
+modified: '2026-06-03'
+name: Yum China
+nav: Providers
+network: true
+overview: 'Yum China publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, Fast Food, Quick Service Restaurant, Digital Ordering, and Loyalty.
+
+
+  The Yum China catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Yum China''s developer surface includes engineering blog and 11 more developer resources.'
+plans:
+- name: Yum China Plans Pricing
+  plan_count: 3
+  slug: yum-china-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 5
+  name: Yum China Rate Limits
+  slug: yum-china-rate-limits
+score:
+  band: thin
+  composite: 31.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 20.8
+    developer_ergonomics: 2.2
+    discoverability: 92.5
+    governance: 13.2
+    operational_transparency: 36.8
+  previous_composite: 31.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png
+security:
+- kind: domain-security
+  name: Yum China Domain Security
+  slug: yum-china-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: yum-china
+solutions:
+- name: China Restaurant Operations
+- name: Digital Customer Engagement
+- name: AI-Powered Store Management
+- name: Franchise Technology Platform
+tags:
+- Restaurants
+- Fast Food
+- Quick Service Restaurant
+- Digital Ordering
+- Loyalty
+- China
+- Food Technology
+website: https://www.yumchina.com
+---

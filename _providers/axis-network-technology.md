@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/axis-network-technology-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.axisnet.asia/
+created: '2026-07-17'
+description: Axis (axisnet.asia) is a Malaysia-based e-commerce enabler, incorporated in 2009, providing an end-to-end managed e-commerce solution that consolidates business digitalization, inventory solutions, automated e-fulfillment, express and cross-border logistics across 98+ countries, e-commerce marketing, multi-marketplace selling, and training via Axis Academy for individuals and SMEs. It was surfaced as a portfolio lead of bessemer-venture-partners and added to the API Evangelist network as a stub; it publishes no public developer API, documentation, or SDKs at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axis-network-technology.png
+layout: provider
+modified: '2026-07-18'
+name: Axis Network Technology
+nav: Providers
+network: true
+overview: Axis Network Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Logistics, Fulfillment, and Marketplace.
+random_paper: 43
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Axis Network Technology Domain Security
+  slug: axis-network-technology-domain-security
+  summary_line: TLSv1.3
+slug: axis-network-technology
+tags:
+- Company
+- E-Commerce
+- Logistics
+- Fulfillment
+- Marketplace
+- Malaysia
+- SME
+website: https://www.axisnet.asia/
+---

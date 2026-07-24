@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://honey.is
+created: '2026-07-17'
+description: 'Honey was a modern intranet and internal-communications SaaS platform (honey.is) built to connect distributed teams, streamline company-wide communication, drive and quantify employee engagement, and replace outdated intranets. Launched in 2013, it was incubated by the design agency Huge and its parent Interpublic Group in Brooklyn, and raised a $1M seed round from Point Nine Capital in 2015; customers included Capital One, Coca-Cola Hellenic, Lowe''s, and Sesame Street. The company is now defunct: the honey.is domain no longer resolves and it publishes no live website, developer portal, API, or documentation. This profile is retained as a Point Nine portfolio lead with no active API surface to enrich.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/honey.png
+layout: provider
+modified: '2026-07-19'
+name: Honey
+nav: Providers
+network: true
+overview: Honey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intranet, Internal Communications, Employee Engagement, and Collaboration.
+random_paper: 37
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: honey
+tags:
+- Company
+- Intranet
+- Internal Communications
+- Employee Engagement
+- Collaboration
+- Enterprise
+- SaaS
+website: https://honey.is
+---

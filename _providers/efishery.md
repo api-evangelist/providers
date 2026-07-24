@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/efishery-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://efishery.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/efishery
+created: '2026-07-17'
+description: 'eFishery is an Indonesian aquaculture technology ("fishtech") company founded in 2013 in Bandung by Gibran Huzaifah and Chrisna Aditya. Its platform combined an IoT smart auto-feeder (eFeeder) that dispenses feed to fish and shrimp ponds and streams pond telemetry to a smartphone app, with an integrated services layer: eFisheryKu / eFarm farm-management software, eFund (including the Kabayan "pay later" financing product) linking smallholder farmers to lenders, and eFresh / eMart marketplaces connecting farmers to feed suppliers and downstream buyers. The company raised a $90M Series C (2022) and a $200M Series D (2023) at a unicorn valuation, backed by investors including 500 Global, Aqua-Spark, SoftBank Vision Fund 2, Temasek, and Northstar. In late 2024 an audit alleged large-scale financial-statement fraud dating to 2018; both founders resigned and the company underwent multiple rounds of layoffs and restructuring through 2025. This record was surfaced as a 500 Global portfolio
+  company and enriched by the API Evangelist pipeline; eFishery exposes no public developer API or developer portal, and its primary efishery.com domain currently resolves to a parked/forwarding host.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/efishery.png
+layout: provider
+modified: '2026-07-19'
+name: eFishery
+nav: Providers
+network: true
+overview: eFishery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, AgriTech, FishTech, and IoT.
+random_paper: 47
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Efishery Domain Security
+  slug: efishery-domain-security
+  summary_line: DMARC
+slug: efishery
+tags:
+- Company
+- Aquaculture
+- AgriTech
+- FishTech
+- IoT
+- FinTech
+- Marketplace
+- Smart Feeder
+- Indonesia
+website: https://efishery.com
+---

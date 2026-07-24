@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/axcelius-i-ii-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://axcelius.com/
+- group: company
+  title: ''
+  type: InvestorProfile
+  url: https://www.canaan.com/companies/axcelius-i-ii
+created: '2026-07-17'
+description: Axcelius I/II is a biopharmaceutical company-creation vehicle backed by Canaan Partners, formed to found and incubate drug-development companies pursuing treatments for cancer, rare diseases, and neurodegenerative disorders. It is led by managing partner Dennis Podlesak and sponsored at Canaan by general partner Brent Ahrens, and operates from San Francisco, California, with an associated holding entity registered in Connecticut at Canaan's Westport office. Rather than operating as a product company, Axcelius assembles management teams and capital around licensed therapeutic assets and spins them out as standalone biopharma companies; Transposon Therapeutics, developing therapies for ALS and Alzheimer's disease, is its best-documented creation. As of this enrichment pass the vehicle remains in stealth mode with no public developer surface -- no product website beyond a holding page, no documentation, developer portal, SDKs, GitHub organization, or API of any kind.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axcelius-i-ii.png
+layout: provider
+modified: '2026-07-20'
+name: Axcelius I/II
+nav: Providers
+network: true
+overview: Axcelius I/II is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Company Creation, Biopharmaceutical, and Life Sciences.
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Axcelius I Ii Domain Security
+  slug: axcelius-i-ii-domain-security
+  summary_line: TLSv1.2
+slug: axcelius-i-ii
+tags:
+- Company
+- Venture Capital
+- Company Creation
+- Biopharmaceutical
+- Life Sciences
+- Drug Discovery
+- Oncology
+- Rare Disease
+- Neurodegenerative Disease
+- Stealth
+website: https://axcelius.com/
+---

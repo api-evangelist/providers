@@ -1,0 +1,142 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Ion Group Agentic Access
+  operation_count: 3
+  slug: ion-group-agentic-access
+  summary_line: 3 operations
+api_count: 2
+apis:
+- description: Detailed profiling of Special Purpose Acquisition Companies (SPACs). Gain access to real-time content and analytics covering the full spectrum of the SPAC market, from IPO Filing/Pricing, additional f
+  name: Ion Group Dealogic Analytics SPAC API
+  slug: dealogic-analytics-spac-api
+- description: Get list of entities
+  name: Ion Group Entities API
+  slug: ion-group-entities-api
+artifact_total: 9
+collections:
+- collection_type: open
+  name: Ion Group Acuris Entities API
+  slug: open-ion-group
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ion-group-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ion-group-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ion-group-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/iongroup
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/iongroup
+- group: company
+  title: ''
+  type: Website
+  url: https://iongroup.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://iongroup.com/analytics/data-portal/
+created: '2024-04-14'
+description: ION Group is a visionary innovator delivering mission-critical trading and workflow automation software to financial institutions, corporations, central banks, and governments. ION helps customers improve decision-making, simplify complex processes, and empower people through automation.
+finops:
+- name: Ion Group Finops
+  service_category: API
+  slug: ion-group-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ion-group.png
+layout: provider
+modified: '2026-05-19'
+name: Ion Group
+nav: Providers
+network: true
+overview: 'Ion Group publishes 1 API on the [APIs.io](https://apis.io/) network: Entities API. Tagged areas include Analytics, Financial, Financial Services, and Trading.
+
+
+  Ion Group''s developer surface includes authentication, developer portal, and 5 more developer resources.'
+plans:
+- name: Ion Group Plans Pricing
+  plan_count: 3
+  slug: ion-group-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Ion Group Rate Limits
+  slug: ion-group-rate-limits
+score:
+  band: thin
+  composite: 32.6
+  delta: -1.2
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 49.6
+    developer_ergonomics: 19.6
+    discoverability: 47.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 33.8
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/screenshots/ion-group-2026-06-20T183527.png
+security:
+- kind: authentication
+  name: Ion Group Authentication
+  slug: ion-group-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Ion Group Domain Security
+  slug: ion-group-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ion-group
+tags:
+- Analytics
+- Financial
+- Financial Services
+- Trading
+website: https://iongroup.com/
+---

@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://zwitterco.com
+created: '2026-07-17'
+description: ZwitterCo is an advanced water treatment company that manufactures filtration membranes based on zwitterionic chemistry, a surface science that makes membranes attract water rather than organic compounds and thereby resist the organic fouling that limits conventional membranes. Its product families target food and dairy processing (Evolution membranes for whey and milk concentration), industrial and municipal wastewater (Elevation membranes for landfill leachate, refinery streams, and produced water), and extreme high-fouling waste streams (Expedition superfiltration). ZwitterCo is a DCVC portfolio company. It sells physical membrane hardware and treatment systems through direct sales and does not currently publish any public developer portal, API, SDKs, or machine-readable interface; this profile is a company record in the API Evangelist network rather than an API producer.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zwitterco.png
+layout: provider
+modified: '2026-07-21'
+name: Zwitterco
+nav: Providers
+network: true
+overview: Zwitterco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water Treatment, Membranes, Filtration, and Cleantech.
+random_paper: 34
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: zwitterco
+tags:
+- Company
+- Water Treatment
+- Membranes
+- Filtration
+- Cleantech
+- Industrial
+- Wastewater
+- Food and Dairy
+website: https://zwitterco.com
+---

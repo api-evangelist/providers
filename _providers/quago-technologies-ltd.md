@@ -1,0 +1,101 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/quago-technologies-ltd-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://quago.io
+- group: company
+  title: ''
+  type: Blog
+  url: https://quago.io/blog-quago-in-game-analytics/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://quago.io/quago-privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://quago.io/quago-privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://quago.io/quago-contact-us/
+created: '2026-07-17'
+description: Quago Technologies is a gaming analytics and fraud-detection company that uses machine learning and mobile device sensor data to protect and optimize mobile games. Its platform analyzes in-game behavioral and device-sensor patterns - without collecting personally identifiable information - to detect and manage cheating, identify user-acquisition (CPA) fraud, predict player churn, and optimize monetization and lifetime value. Quago is delivered to mobile game studios as an embedded SDK plus a backend analytics service rather than a public developer API; it was surfaced as an a16z portfolio company and added to the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quago-technologies-ltd.png
+layout: provider
+modified: '2026-07-20'
+name: Quago Technologies LTD
+nav: Providers
+network: true
+overview: 'Quago Technologies LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Analytics, Fraud Detection, and Anti-Cheat.
+
+
+  Quago Technologies LTD''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 46
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Quago Technologies Ltd Domain Security
+  slug: quago-technologies-ltd-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: quago-technologies-ltd
+tags:
+- Company
+- Gaming
+- Analytics
+- Fraud Detection
+- Anti-Cheat
+- Machine Learning
+- Mobile
+- User Acquisition
+- SDK
+website: https://quago.io
+---

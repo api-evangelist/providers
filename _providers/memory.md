@@ -1,0 +1,167 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 9.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Timely's REST API (version 1.1) at api.timelyapp.com, secured with OAuth 2.0, for programmatic access to accounts, projects, clients, users, events (time entries), labels and reports.
+  name: Timely API
+  slug: timely-api
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.timely.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.timely.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.timely.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.timely.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.timely.com/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.timely.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.timely.com/help/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.timelyapp.com/join
+- group: start
+  title: ''
+  type: Login
+  url: https://app.timelyapp.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.timely.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.timely.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.timely.com/security/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.timely.com/status/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/memory-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/memory-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/memory-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.timely.com/security/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/memory-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/memory-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/memory-llms.txt
+created: '2026-07-17'
+description: Memory AS (operating as Timely, timely.com) is an Oslo, Norway based software company behind Timely, an AI-powered automatic time tracking and timesheet platform for consultancies, agencies, professional-services firms and SaaS teams. Its Memory tracking engine passively captures work across the apps a person uses and its AutoSheet feature auto-completes timesheets, letting teams auto-capture, auto-allocate and one-click approve time. Timely exposes a REST API at api.timelyapp.com (version 1.1) secured with OAuth 2.0 for building on accounts, projects, clients, users, events (time entries) and reports, and offers 90+ direct integrations with tools such as QuickBooks, Xero, Asana, Jira, GitHub, Slack, Google Calendar and Salesforce. The company is ISO 27001:2022 certified and GDPR-aligned, backed by 500 Global.
+image: https://www.timely.com/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: Memory
+nav: Providers
+network: true
+overview: 'Memory publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Time Tracking, Timesheets, Productivity, and Project Management.
+
+
+  Memory''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+random_paper: 2
+score:
+  band: thin
+  composite: 31.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 41.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 31.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Memory Authentication
+  slug: memory-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Memory Domain Security
+  slug: memory-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: memory
+tags:
+- Company
+- Time Tracking
+- Timesheets
+- Productivity
+- Project Management
+- Professional Services
+- Reporting
+- Automation
+- Artificial Intelligence
+- SaaS
+website: https://www.timely.com
+---

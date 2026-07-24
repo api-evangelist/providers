@@ -1,0 +1,289 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 104
+  human_in_the_loop: 104
+  name: 360Learning Agentic Access
+  operation_count: 164
+  slug: 360learning-agentic-access
+  summary_line: 164 operations · 104 acting · 104 human-in-the-loop
+api_count: 17
+apis:
+- description: The Authentication API from 360Learning — 3 operation(s) for authentication.
+  name: 360Learning Authentication API
+  slug: 360learning-authentication-api
+- description: The Certificate Outlines API from 360Learning — 2 operation(s) for certificate outlines.
+  name: 360Learning Certificate Outlines API
+  slug: 360learning-certificate-outlines-api
+- description: The Classrooms API from 360Learning — 13 operation(s) for classrooms.
+  name: 360Learning Classrooms API
+  slug: 360learning-classrooms-api
+- description: The Courses API from 360Learning — 9 operation(s) for courses.
+  name: 360Learning Courses API
+  slug: 360learning-courses-api
+- description: The Custom Fields API from 360Learning — 3 operation(s) for custom fields.
+  name: 360Learning Custom Fields API
+  slug: 360learning-custom-fields-api
+- description: The Custom Links API from 360Learning — 2 operation(s) for custom links.
+  name: 360Learning Custom Links API
+  slug: 360learning-custom-links-api
+- description: The External IDs API from 360Learning — 2 operation(s) for external ids.
+  name: 360Learning External IDs API
+  slug: 360learning-external-ids-api
+- description: The Groups API from 360Learning — 12 operation(s) for groups.
+  name: 360Learning Groups API
+  slug: 360learning-groups-api
+- description: The Integrations API from 360Learning — 5 operation(s) for integrations.
+  name: 360Learning Integrations API
+  slug: 360learning-integrations-api
+- description: The Learning Needs API from 360Learning — 1 operation(s) for learning needs.
+  name: 360Learning Learning Needs API
+  slug: 360learning-learning-needs-api
+- description: The Operations API from 360Learning — 3 operation(s) for operations.
+  name: 360Learning Operations API
+  slug: 360learning-operations-api
+- description: The Paths API from 360Learning — 18 operation(s) for paths.
+  name: 360Learning Paths API
+  slug: 360learning-paths-api
+- description: The Projects API from 360Learning — 1 operation(s) for projects.
+  name: 360Learning Projects API
+  slug: 360learning-projects-api
+- description: The Skills API from 360Learning — 9 operation(s) for skills.
+  name: 360Learning Skills API
+  slug: 360learning-skills-api
+- description: The Subscriptions API from 360Learning — 8 operation(s) for subscriptions.
+  name: 360Learning Subscriptions API
+  slug: 360learning-subscriptions-api
+- description: The Tags API from 360Learning — 2 operation(s) for tags.
+  name: 360Learning Tags API
+  slug: 360learning-tags-api
+- description: The Users API from 360Learning — 17 operation(s) for users.
+  name: 360Learning Users API
+  slug: 360learning-users-api
+artifact_total: 24
+asyncapis:
+- description: ''
+  name: 360Learning Webhooks
+  slug: 360learning-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://360learning.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://360learning.readme.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://360learning.readme.io/docs/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://360learning.readme.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://360learning.readme.io/docs/get-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.360learning.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://360learning.com/blog/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.360learning.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://360learning.readme.io/changelog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://360learning.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.360learning.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.360learning.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://360learning.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://360learning.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://api.360learning.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/360learning-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/360learning-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/360learning-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/360learning-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/360learning-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/360learning-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/360learning-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/360learning-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/360learning-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://360learning.com/privacy-and-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/360learning-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/360learning-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/360learning-agentic-access.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/360learning-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/360learning-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/360learning-llms.txt
+created: '2026-07-17'
+description: '360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer "Collaborative Learning" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them into groups, build and assign courses and learning paths, schedule instructor-led classrooms with slots and attendance, manage a skills taxonomy and certificates, run bulk operations, and subscribe to near-real-time webhook events. API v2 uses OAuth 2.0 client-credentials auth with a two-tier (company/credential) scope system, cursor pagination via the Link header, and is hosted in EU and US regions.'
+image: https://files.readme.io/d2f83e1cf705d24a2d47d5d49cca3ae5b2a36f208b27a4ce4906eeafe46551ec-small-LogoMain.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: 360learning-mcp.yml
+  slug: 360learning-mcpyml
+modified: '2026-07-17'
+name: 360Learning
+nav: Providers
+network: true
+overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 14 more. Tagged areas include Company, Edtech, Learning Management System, E-Learning, and Training.
+
+
+  The 360Learning catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 25 more developer resources.'
+random_paper: 32
+scopes:
+- name: 360Learning Scopes
+  scope_count: 45
+  slug: 360learning-scopes
+  summary_line: 45 scopes
+score:
+  band: developing
+  composite: 58.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 68.6
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 47.4
+  previous_composite: 58.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: 360Learning Authentication
+  slug: 360learning-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: 360Learning Domain Security
+  slug: 360learning-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: 360Learning Trust Center
+  slug: 360learning-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, ISO 27018, GDPR, UK GDPR, CSA STAR
+slug: 360learning
+tags:
+- Company
+- Edtech
+- Learning Management System
+- E-Learning
+- Training
+- Collaborative Learning
+- HR Tech
+- Skills
+- API
+website: https://360learning.com/
+---

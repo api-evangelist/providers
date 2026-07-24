@@ -1,0 +1,91 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/app-group-ness-czechia-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ness.com/ness-czech/
+- group: company
+  title: ''
+  type: About
+  url: https://www.ness.com/o-nas/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ness-czech-sro/
+created: '2026-07-17'
+description: 'APP Group (renamed Ness Czechia after its acquisition by Ness Digital Engineering) is an enterprise IT services and systems-integration company headquartered in Prague, Czech Republic, with offices in Brno and Ostrava. Operating today as Ness Czech s.r.o., it is one of the most significant SAP providers (SAP Gold Partner) in the Czech Republic and the wider CEE region, delivering system integration, ERP and SAP S/4HANA implementation, business intelligence, data analytics, eGovernment / eHealth registers, core banking, pricing and billing, CRM and portals, IoT, and digital-platform engineering to large enterprises and the public sector. It is not a public API provider: it does not publish a developer portal, OpenAPI specifications, SDKs, or a self-serve API program. This profile was surfaced as an Insight Partners portfolio company and is maintained in the API Evangelist network as a company identity record.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/app-group-ness-czechia.png
+layout: provider
+modified: '2026-07-17'
+name: APP Group  Ness Czechia
+nav: Providers
+network: true
+overview: APP Group  Ness Czechia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Systems Integration, SAP, and ERP.
+random_paper: 39
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: App Group Ness Czechia Domain Security
+  slug: app-group-ness-czechia-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: app-group-ness-czechia
+tags:
+- Company
+- IT Services
+- Systems Integration
+- SAP
+- ERP
+- Digital Engineering
+- Consulting
+- Czech Republic
+- Enterprise Software
+- eGovernment
+website: https://www.ness.com/ness-czech/
+---

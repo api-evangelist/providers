@@ -1,0 +1,126 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/geordie-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.geordie.ai/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/geordie-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.geordie.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.geordie.ai/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.geordie.ai/resources
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.geordie.ai/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.eu.geordie.ai/instance
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.geordie.ai/book-a-demo
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.geordie.ai/legals/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.geordie.ai/legals/privacy-policy
+created: '2026-07-17'
+description: Geordie AI is an enterprise AI governance platform that gives organizations visibility into and control over the autonomous AI agents deployed across their environments. It discovers agents across code, cloud, endpoints, and SaaS; maps each agent's posture (permissions, tools, MCP connections, and system prompts); provides behavioral observability with continuous audit trails and anomaly detection; delivers risk intelligence mapped to standards such as OWASP, NIST, ISO 42001, and the EU AI Act; and offers Beam, a real-time remediation layer that applies deterministic controls at the agent level. Geordie raised a $30M Series A and is used by enterprises including Xapo Bank, Fitch Group, Synthesia, AlphaSense, Owkin, OakNorth, and A+E Global Media. The company is SOC 2, ISO/IEC 27001:2022, and GDPR compliant. This profile was surfaced as a portfolio company of Balderton Capital and General Catalyst and enriched by the API Evangelist pipeline; Geordie publishes no public developer
+  API.
+image: https://www.geordie.ai/images/geordie-og-image.png
+layout: provider
+modified: '2026-07-19'
+name: Geordie AI
+nav: Providers
+network: true
+overview: 'Geordie AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agentic AI, and AI Security.
+
+
+  Geordie AI''s developer surface includes documentation, engineering blog, signup flow, and 8 more developer resources.'
+random_paper: 21
+score:
+  band: emerging
+  composite: 21.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 21.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Geordie Domain Security
+  slug: geordie-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Geordie Trust Center
+  slug: geordie-trust-center
+  summary_line: SOC 2 Type II, SOC 3, ISO/IEC 27001:2022, GDPR
+slug: geordie
+tags:
+- Company
+- AI Governance
+- AI Agents
+- Agentic AI
+- AI Security
+- Observability
+- Compliance
+- Enterprise Security
+- MCP
+website: https://www.geordie.ai/
+---

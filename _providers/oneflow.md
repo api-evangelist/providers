@@ -1,0 +1,181 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 0
+  name: Oneflow Agentic Access
+  operation_count: 28
+  slug: oneflow-agentic-access
+  summary_line: 28 operations · 14 acting
+api_count: 11
+apis:
+- description: Inline collaboration comments on a contract.
+  name: Oneflow Comments API
+  slug: oneflow-comments-api
+- description: Download the files (PDF / signed documents) attached to a contract.
+  name: Oneflow Contract Files API
+  slug: oneflow-contract-files-api
+- description: Create, retrieve, update, publish, copy, and delete contracts.
+  name: Oneflow Contracts API
+  slug: oneflow-contracts-api
+- description: Custom / merge fields on contracts and template types.
+  name: Oneflow Data Fields API
+  slug: oneflow-data-fields-api
+- description: Signatories and viewers belonging to a party.
+  name: Oneflow Participants API
+  slug: oneflow-participants-api
+- description: Counterparty companies or individuals on a contract.
+  name: Oneflow Parties API
+  slug: oneflow-parties-api
+- description: Health check and token validation.
+  name: Oneflow Ping API
+  slug: oneflow-ping-api
+- description: Templates and template types used to create contracts.
+  name: Oneflow Templates API
+  slug: oneflow-templates-api
+- description: Users in an account.
+  name: Oneflow Users API
+  slug: oneflow-users-api
+- description: Subscriptions delivering contract lifecycle events to a callback URL.
+  name: Oneflow Webhooks API
+  slug: oneflow-webhooks-api
+- description: Organizational containers that scope templates and contracts.
+  name: Oneflow Workspaces API
+  slug: oneflow-workspaces-api
+artifact_total: 19
+collections:
+- collection_type: open
+  name: Oneflow Public API
+  slug: open-oneflow
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/oneflow-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/oneflow-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/oneflow-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/oneflow-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/oneflowcom
+- group: company
+  title: ''
+  type: Website
+  url: https://oneflow.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.oneflow.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/oneflow-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/oneflow-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/oneflow-finops.yml
+created: '2026-07-03'
+description: Oneflow is a contract lifecycle management and e-signature platform that turns static documents into smart, data-rich digital contracts - covering creation from templates, negotiation, e-signing, and post-sign lifecycle management. The Oneflow Public API is a REST API at https://api.oneflow.com/v1 authenticated with an account API token (x-oneflow-api-token) plus an acting-user email header (x-oneflow-user-email) for permission checks. It lets teams programmatically create contracts from templates, add parties and participants, fill data fields and products, publish contracts for signing, download signed files, and subscribe to contract lifecycle events via webhooks. API access and webhooks are available on the Business and Enterprise plans.
+finops:
+- name: Oneflow Finops
+  service_category: Contract Lifecycle Management and E-Signature
+  slug: oneflow-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oneflow.png
+layout: provider
+modified: '2026-07-03'
+name: Oneflow
+nav: Providers
+network: true
+overview: 'Oneflow publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Contract Files API, Contracts API, and 8 more. Tagged areas include Contract Management, Contract Lifecycle Management, E-Signature, Digital Contracts, and Document Automation.
+
+
+  Oneflow''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Oneflow Plans Pricing
+  plan_count: 4
+  slug: oneflow-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 4
+  name: Oneflow Rate Limits
+  slug: oneflow-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 37.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Oneflow Authentication
+  slug: oneflow-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Oneflow Domain Security
+  slug: oneflow-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Oneflow Vulnerability Disclosure
+  slug: oneflow-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: oneflow
+tags:
+- Contract Management
+- Contract Lifecycle Management
+- E-Signature
+- Digital Contracts
+- Document Automation
+- CLM
+website: https://oneflow.com
+---

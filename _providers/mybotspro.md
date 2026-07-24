@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mybots.pro
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:service@mybots.pro
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/mybotsjp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mybots-pro
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/mybots.pro
+- group: other
+  title: ''
+  type: Telegram
+  url: https://t.me/mybots_probot
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mybotspro-domain-security.yml
+created: '2026-07-17'
+description: myBots (operated by Global AI Group, Inc.) builds enterprise AI sales and support agents for messaging channels — WhatsApp, Instagram, Telegram, and web chat. Each agent qualifies inbound leads, answers questions in the business's brand voice, books appointments on a connected calendar (Calendly), and runs 24/7 across every messenger a company operates. It is a no-developer SaaS aimed at business teams; as of this profile the product exposes no public API, developer portal, OpenAPI definition, SDKs, or documented webhook surface. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network.
+image: https://mybots.pro/og-image.png
+layout: provider
+modified: '2026-07-20'
+name: Mybots.pro
+nav: Providers
+network: true
+overview: 'Mybots.pro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, Messaging, and Chatbots.
+
+
+  Mybots.pro''s developer surface includes support and 6 more developer resources.'
+random_paper: 38
+score:
+  band: minimal
+  composite: 7.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Mybotspro Domain Security
+  slug: mybotspro-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: mybotspro
+tags:
+- Company
+- AI Agents
+- Conversational AI
+- Messaging
+- Chatbots
+- Customer Support
+- Sales Automation
+- WhatsApp
+- Telegram
+website: https://mybots.pro
+---

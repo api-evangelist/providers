@@ -1,0 +1,122 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cloudlock.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.cisco.com/docs/cloud-security/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.umbrella.com/cloudlock-documentation/docs/cisco-cloudlock-apis
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.cisco.com/docs/cloud-security/cloudlock-api-getting-started/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.cisco.com/docs/cloud-security/cloudlock-api-getting-started/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cloudlock.com/blog/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cloudlock-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cloudlock-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cloudlock-problem-types.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cloudlock-domain-security.yml
+created: '2026-07-17'
+description: CloudLock is a cloud-native Cloud Access Security Broker (CASB) that protects data, users, and applications across SaaS, IaaS, PaaS, and IDaaS environments. Founded in 2011 and acquired by Cisco in 2016, it is now delivered as Cisco Cloudlock within Cisco Umbrella / Cisco Security Cloud. The platform uses an API-driven model to discover sensitive content, detect policy violations, flag anomalous user behavior, and manage cloud application (OAuth) risk. Developers integrate through the Cisco Cloudlock API (v2), a Bearer-token REST API exposing activities, incidents, incident entities, incident aggregates, policies, apps, entities, IP libraries, and anomalies. Originally a portfolio company of Bessemer Venture Partners, CloudLock's developer surface is documented on Cisco DevNet and the Cisco Umbrella documentation hub.
+image: https://cdn.umbrella.marketops.umbrella.com/wp-content/uploads/2022/03/22160233/cisco-umbrella-social-share.jpg
+layout: provider
+modified: '2026-07-18'
+name: CloudLock
+nav: Providers
+network: true
+overview: 'CloudLock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Security, CASB, and Cloud Access Security Broker.
+
+
+  CloudLock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 5 more developer resources.'
+random_paper: 42
+score:
+  band: emerging
+  composite: 16.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 16.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Cloudlock Authentication
+  slug: cloudlock-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Cloudlock Domain Security
+  slug: cloudlock-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: cloudlock
+tags:
+- Company
+- Cloud
+- Security
+- CASB
+- Cloud Access Security Broker
+- Data Loss Prevention
+- Cloud Security
+- SaaS Security
+- Cisco
+website: https://www.cloudlock.com/
+---

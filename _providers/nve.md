@@ -1,0 +1,77 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nve.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/NveCorporation
+created: '2026-07-17'
+description: 'NVE Corporation (nve.com, NASDAQ: NVEC) is a leader in the practical commercialization of spintronics, a nanotechnology that relies on electron spin rather than electron charge to acquire, store, and transmit information. NVE designs and manufactures spintronic GMR and TMR magnetic sensors (analog, angle/rotation, current, gear-tooth, and medical sensors), digital signal isolators (CAN, RS-422/485, PLC, battery-management, and power interfaces), and power-management ICs. Its developer surface is hardware-oriented: PDF datasheets, application notes, reference designs, magnetic-field calculators/web apps, a YouTube channel, and Arduino/embedded sample code on GitHub. NVE publishes no software/web API, OpenAPI or AsyncAPI specification, SDK, or developer API platform.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nve.png
+layout: provider
+modified: '2026-07-20'
+name: NVE Corporation
+nav: Providers
+network: true
+overview: NVE Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Sensors, Spintronics, and Magnetic Sensors.
+random_paper: 23
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: nve
+tags:
+- Company
+- Semiconductors
+- Sensors
+- Spintronics
+- Magnetic Sensors
+- Isolators
+- Power ICs
+- Electronics
+- Hardware
+website: https://nve.com
+---

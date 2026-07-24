@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/peoplise-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://peoplise.com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.logo.com.tr/peoplise
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.logo.com.tr/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.logo.com.tr/logo-destek-merkezi
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.logo.com.tr/logo-gizlilik-politikalari
+created: '2026-07-17'
+description: 'Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey''s largest enterprise-software vendors, and is marketed as "Logo Peoplise" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peoplise.png
+layout: provider
+modified: '2026-07-20'
+name: Peoplise
+nav: Providers
+network: true
+overview: 'Peoplise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, HR Tech, Recruitment, and Hiring.
+
+
+  Peoplise''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 49
+score:
+  band: minimal
+  composite: 10.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Peoplise Domain Security
+  slug: peoplise-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: peoplise
+tags:
+- Company
+- Human Resources
+- HR Tech
+- Recruitment
+- Hiring
+- Talent Acquisition
+- Video Interview
+- Onboarding
+- SaaS
+- Turkey
+website: https://peoplise.com
+---

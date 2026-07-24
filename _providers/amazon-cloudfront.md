@@ -1,0 +1,333 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Amazon Cloudfront Agentic Access
+  operation_count: 9
+  slug: amazon-cloudfront-agentic-access
+  summary_line: 9 operations · 5 acting
+api_count: 3
+apis:
+- description: Operations for managing CloudFront distributions
+  name: Amazon CloudFront Distributions API
+  slug: amazon-cloudfront-distributions-api
+- description: Operations for managing CloudFront functions
+  name: Amazon CloudFront Functions API
+  slug: amazon-cloudfront-functions-api
+- description: Operations for managing cache invalidations
+  name: Amazon CloudFront Invalidations API
+  slug: amazon-cloudfront-invalidations-api
+artifact_total: 53
+collections:
+- collection_type: open
+  name: Amazon CloudFront API
+  slug: open-amazon-cloudfront
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/amazon-cloudfront-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/amazon-cloudfront-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/amazon-cloudfront-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/amazon-cloudfront-domain-security.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://aws.amazon.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/cloudfront/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aws.amazon.com/cloudfront/latest/APIReference/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- group: company
+  title: ''
+  type: Blog
+  url: https://aws.amazon.com/blogs/networking-and-content-delivery/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+- group: start
+  title: ''
+  type: Console
+  url: https://console.aws.amazon.com/cloudfront/
+- group: start
+  title: ''
+  type: Signup
+  url: https://signin.aws.amazon.com/signup?request_type=register
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/AmazonWebServices
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/amazon-cloudfront
+- group: operate
+  title: ''
+  type: Contact
+  url: https://aws.amazon.com/contact-us/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://aws.amazon.com/compliance/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/amazon-cloudfront-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amazon-cloudfront-vocabulary.yaml
+created: '2026-05-11'
+description: Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds across 750+ globally dispersed Points of Presence.
+examples:
+- key_count: 9
+  name: Cloudfront Cache Behavior Example
+  slug: cloudfront-cache-behavior-example
+- key_count: 13
+  name: Cloudfront Distribution Config Example
+  slug: cloudfront-distribution-config-example
+- key_count: 6
+  name: Cloudfront Distribution Example
+  slug: cloudfront-distribution-example
+- key_count: 6
+  name: Cloudfront Distribution List Example
+  slug: cloudfront-distribution-list-example
+- key_count: 2
+  name: Cloudfront Invalidation Batch Example
+  slug: cloudfront-invalidation-batch-example
+- key_count: 4
+  name: Cloudfront Invalidation Example
+  slug: cloudfront-invalidation-example
+- key_count: 6
+  name: Cloudfront Invalidation List Example
+  slug: cloudfront-invalidation-list-example
+- key_count: 5
+  name: Cloudfront Origin Example
+  slug: cloudfront-origin-example
+features:
+- description: Deliver content from 750+ globally distributed Points of Presence for low latency.
+  name: Global Edge Network
+- description: Built-in AWS Shield Standard protection for all CloudFront distributions at no extra cost.
+  name: DDoS Protection
+- description: Deploy serverless code at edge locations with CloudFront Functions and Lambda@Edge.
+  name: Edge Functions
+- description: Secure content delivery with HTTPS and field-level encryption capabilities.
+  name: HTTPS Encryption
+- description: Additional caching layer to reduce load on origins and improve cache hit rates.
+  name: Origin Shield
+finops:
+- name: Amazon Cloudfront Finops
+  service_category: API
+  slug: amazon-cloudfront-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-cloudfront.png
+integrations:
+- description: Serve static content from S3 buckets through CloudFront distributions.
+  name: Amazon S3
+- description: Run Lambda functions at CloudFront edge locations for request customization.
+  name: AWS Lambda@Edge
+- description: Filter malicious traffic with WAF rules applied at the CloudFront edge.
+  name: AWS WAF
+- description: Use ACM SSL/TLS certificates with CloudFront distributions.
+  name: AWS ACM
+- description: Route traffic to CloudFront distributions using Route 53 aliases.
+  name: Amazon Route 53
+json_schemas:
+- name: Amazon CloudFront Distribution
+  property_count: 6
+  slug: amazon-cloudfront-distribution
+- name: CacheBehavior
+  property_count: 9
+  slug: cloudfront-cache-behavior
+- name: DistributionConfig
+  property_count: 13
+  slug: cloudfront-distribution-config
+- name: DistributionList
+  property_count: 6
+  slug: cloudfront-distribution-list
+- name: Distribution
+  property_count: 6
+  slug: cloudfront-distribution
+- name: InvalidationBatch
+  property_count: 2
+  slug: cloudfront-invalidation-batch
+- name: InvalidationList
+  property_count: 6
+  slug: cloudfront-invalidation-list
+- name: Invalidation
+  property_count: 4
+  slug: cloudfront-invalidation
+- name: Origin
+  property_count: 5
+  slug: cloudfront-origin
+json_structures:
+- name: Cloudfront Cache Behavior Structure
+  property_count: 9
+  slug: cloudfront-cache-behavior-structure
+- name: Cloudfront Distribution Config Structure
+  property_count: 13
+  slug: cloudfront-distribution-config-structure
+- name: Cloudfront Distribution List Structure
+  property_count: 6
+  slug: cloudfront-distribution-list-structure
+- name: Cloudfront Distribution Structure
+  property_count: 6
+  slug: cloudfront-distribution-structure
+- name: Cloudfront Invalidation Batch Structure
+  property_count: 2
+  slug: cloudfront-invalidation-batch-structure
+- name: Cloudfront Invalidation List Structure
+  property_count: 6
+  slug: cloudfront-invalidation-list-structure
+- name: Cloudfront Invalidation Structure
+  property_count: 4
+  slug: cloudfront-invalidation-structure
+- name: Cloudfront Origin Structure
+  property_count: 5
+  slug: cloudfront-origin-structure
+jsonld:
+- class_count: 8
+  name: Amazon Cloudfront Context
+  property_count: 40
+  slug: amazon-cloudfront-context
+layout: provider
+modified: '2026-05-19'
+name: Amazon CloudFront
+nav: Providers
+network: true
+overview: 'Amazon CloudFront publishes 3 APIs on the [APIs.io](https://apis.io/) network: Distributions API, Functions API, and Invalidations API. Tagged areas include CloudFront, CDN, Content Delivery, and Edge.
+
+
+  The Amazon CloudFront catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Amazon CloudFront''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 14 more developer resources.'
+plans:
+- name: Amazon Cloudfront Plans Pricing
+  plan_count: 1
+  slug: amazon-cloudfront-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 2
+  name: Amazon Cloudfront Rate Limits
+  slug: amazon-cloudfront-rate-limits
+rules:
+- name: Amazon CloudFront API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: amazon-cloudfront-jsonschema-spectral-rules
+- name: Amazon CloudFront API Rules
+  rule_count: 24
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 11
+  slug: amazon-cloudfront-spectral-rules
+score:
+  band: developing
+  composite: 56.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 65.8
+    contract_quality: 63.7
+    developer_ergonomics: 30.4
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 42.1
+  previous_composite: 56.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/screenshots/amazon-cloudfront-2026-06-20T171615.png
+security:
+- kind: domain-security
+  name: Amazon Cloudfront Domain Security
+  slug: amazon-cloudfront-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Amazon Cloudfront Vulnerability Disclosure
+  slug: amazon-cloudfront-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Amazon Cloudfront Trust Center
+  slug: amazon-cloudfront-trust-center
+  summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+slug: amazon-cloudfront
+tags:
+- CloudFront
+- CDN
+- Content Delivery
+- Edge
+use_cases:
+- description: Fast, secure global content delivery for web applications.
+  name: Website Acceleration
+- description: Live and on-demand video streaming with Media Services integration.
+  name: Video Streaming
+- description: Low-latency API delivery with edge termination and WebSocket support.
+  name: API Acceleration
+- description: Scale patch and software update delivery globally to millions of endpoints.
+  name: Software Distribution
+website: https://aws.amazon.com/cloudfront/
+---

@@ -1,0 +1,220 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 69.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Incognia Agentic Access
+  operation_count: 4
+  slug: incognia-agentic-access
+  summary_line: 4 operations · 4 acting
+api_count: 4
+apis:
+- description: OAuth 2.0 client-credentials token exchange
+  name: Incognia Authentication API
+  slug: incognia-authentication-api
+- description: Report labeled events to tune the risk model
+  name: Incognia Feedback API
+  slug: incognia-feedback-api
+- description: Signup risk assessment
+  name: Incognia Onboarding API
+  slug: incognia-onboarding-api
+- description: Login and payment risk assessment
+  name: Incognia Transactions API
+  slug: incognia-transactions-api
+artifact_total: 9
+common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/incognia-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.incognia.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.incognia.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.incognia.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.incognia.com/docs/us/v5/apis/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.incognia.com/docs/us/v5/apis/incognia-libraries/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.incognia.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.incognia.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.incognia.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.incognia.com/policies/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/inloco
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.incognia.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/incognia-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/incognia-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/incognia-authentication.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/incognia-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/incognia-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/incognia-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/incognia-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/incognia-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/incognia-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.incognia.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/incognia-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/incognia-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/incognia-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/incognia-agentic-access.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Incognia is a location identity and device fingerprinting platform for fraud prevention, providing real-time risk assessments for user onboarding, login, and payment transactions. Its API returns low_risk / high_risk / unknown_risk verdicts by combining privacy-first device recognition, location behavior analysis, and tamper detection, and accepts feedback events (chargebacks, account takeover, identity fraud, accepted/declined outcomes) that continuously tune the risk model. Incognia is used across financial services, fintech, marketplaces, delivery, and gaming to stop account takeover, new-account fraud, and payment fraud while reducing friction for trusted users. Authentication is OAuth 2.0 client credentials, exchanged for short-lived bearer tokens; official SDKs ship for Node.js, Python, Ruby, Java, and Go.
+image: https://www.incognia.com/hubfs/incognia-logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: incognia-mcp.yml
+  slug: incognia-mcpyml
+modified: '2026-07-19'
+name: Incognia
+nav: Providers
+network: true
+overview: 'Incognia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Feedback API, Onboarding API, and 1 more. Tagged areas include Company, Cybersecurity, Fraud Prevention, Device Fingerprinting, and Location Identity.
+
+
+  Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 21 more developer resources.'
+random_paper: 24
+scopes:
+- name: Incognia Scopes
+  scope_count: 0
+  slug: incognia-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 63.7
+    developer_ergonomics: 69.6
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 50.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Incognia Authentication
+  slug: incognia-authentication
+  summary_line: http/oauth2 · 3 schemes
+- kind: domain-security
+  name: Incognia Domain Security
+  slug: incognia-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: incognia
+tags:
+- Company
+- Cybersecurity
+- Fraud Prevention
+- Device Fingerprinting
+- Location Identity
+- Identity Verification
+- Risk Assessment
+- Authentication
+- Fintech
+- Anti-Fraud
+website: https://www.incognia.com/
+---

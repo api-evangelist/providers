@@ -1,0 +1,209 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-23'
+api_count: 11
+apis:
+- description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
+  name: TrueBiz Async Web Presence Review API
+  slug: truebiz-async-web-presence-review-api
+- description: The Fraud Searches API from TrueBiz — 2 operation(s) for fraud searches.
+  name: TrueBiz Fraud Searches API
+  slug: truebiz-fraud-searches-api
+- description: The History API from TrueBiz — 1 operation(s) for history.
+  name: TrueBiz History API
+  slug: truebiz-history-api
+- description: The Industry Discovery API from TrueBiz — 2 operation(s) for industry discovery.
+  name: TrueBiz Industry Discovery API
+  slug: truebiz-industry-discovery-api
+- description: The Industry Discovery History API from TrueBiz — 2 operation(s) for industry discovery history.
+  name: TrueBiz Industry Discovery History API
+  slug: truebiz-industry-discovery-history-api
+- description: Monitoring alerts endpoints allow you to see what alerts TrueBiz has found during monitoring.
+  name: TrueBiz Monitoring Alerts API
+  slug: truebiz-monitoring-alerts-api
+- description: Monitored domain endpoints allow you to see what domains TrueBiz is currently monitoring.
+  name: TrueBiz Monitoring Domains API
+  slug: truebiz-monitoring-domains-api
+- description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
+  name: TrueBiz Web Presence Review API
+  slug: truebiz-web-presence-review-api
+- description: Web Presence Review endpoints allow you to provide an input like a domain, url, or email associated with a website for TrueBiz to review. For business or compliance reasons, you may want to directly b
+  name: TrueBiz Web Presence Review Blocklist API
+  slug: truebiz-web-presence-review-blocklist-api
+- description: Web Presence Review results are stored with TrueBiz until you request their deletion. These endpoints are designed to allow you to access these historical results.
+  name: TrueBiz Web Presence Review History API
+  slug: truebiz-web-presence-review-history-api
+- description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
+  name: TrueBiz Website Status API
+  slug: truebiz-website-status-api
+artifact_total: 14
+common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://ae.truebiz.io/api/v1/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.truebiz.io
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://ae.truebiz.io/api/v1/docs
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/truebiz-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/truebiz-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/truebiz-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/truebiz-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/truebiz-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/truebiz-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/truebiz-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/truebiz-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/truebiz-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/truebiz-llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://truebiz.io/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/truebiz
+- group: operate
+  title: ''
+  type: Support
+  url: https://truebiz.io/contact-us
+- group: start
+  title: ''
+  type: Login
+  url: https://app.truebiz.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://truebiz.io/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://truebiz.io/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://truebiz.io
+created: '2026-07-17'
+description: TrueBiz automates merchant risk assessment by analyzing a business's internet footprint. Its Web Presence Review API scores a merchant's legitimacy and risk from a domain plus submitted business details, returning a rich Company profile with fraud-risk analysis, website content flags, customer reviews, connected people and entities, and domain/hosting intelligence. A Monitoring API watches domains continuously and raises alerts, and Blocklist, Industry Discovery, and Fraud Search endpoints round out the platform. Payments providers and financial institutions use TrueBiz to streamline underwriting and ongoing merchant due diligence. The REST API authenticates with an X-API-KEY header and is documented with an OpenAPI 3.0.2 specification.
+image: https://truebiz.io/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: truebiz-mcp.yml
+  slug: truebiz-mcpyml
+modified: '2026-07-21'
+name: TrueBiz
+nav: Providers
+network: true
+overview: 'TrueBiz publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Async Web Presence Review API, Fraud Searches API, History API, and 8 more. Tagged areas include Company, Security, Fraud Prevention, Business Verification, and Merchant Risk.
+
+
+  TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
+random_paper: 8
+score:
+  band: thin
+  composite: 44.4
+  delta: 1.7
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 55.3
+    developer_ergonomics: 56.5
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 42.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Truebiz Authentication
+  slug: truebiz-authentication
+  summary_line: apiKey/http · 4 schemes
+- kind: domain-security
+  name: Truebiz Domain Security
+  slug: truebiz-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: truebiz
+tags:
+- Company
+- Security
+- Fraud Prevention
+- Business Verification
+- Merchant Risk
+- KYB
+- Underwriting
+- Payments
+- Monitoring
+website: https://truebiz.io
+---

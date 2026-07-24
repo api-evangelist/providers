@@ -1,0 +1,182 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Shopper Approved Agentic Access
+  operation_count: 6
+  slug: shopper-approved-agentic-access
+  summary_line: 6 operations · 2 acting
+api_count: 4
+apis:
+- description: The Orders API from Shopper Approved — 1 operation(s) for orders.
+  name: Shopper Approved Orders API
+  slug: shopper-approved-orders-api
+- description: The Product Reviews API from Shopper Approved — 1 operation(s) for product reviews.
+  name: Shopper Approved Product Reviews API
+  slug: shopper-approved-product-reviews-api
+- description: The Reviews API from Shopper Approved — 3 operation(s) for reviews.
+  name: Shopper Approved Reviews API
+  slug: shopper-approved-reviews-api
+- description: The Statistics API from Shopper Approved — 1 operation(s) for statistics.
+  name: Shopper Approved Statistics API
+  slug: shopper-approved-statistics-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Shopper Approved API
+  slug: open-shopper-approved
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/shopper-approved-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/shopper-approved-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shopper-approved-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shopper-approved-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shopperapproved
+created: '2026-05-02'
+description: Shopper Approved is an e-commerce ratings and reviews platform that helps merchants collect, manage, and display verified customer reviews to improve conversion rates and build trust. The platform powers Google Seller Ratings, enabling reviews to appear in Google Shopping ads and organic search results. Shopper Approved offers a REST API for programmatic access to review data, order submission for review collection, product review management, and site statistics.
+examples:
+- key_count: 4
+  name: Shopper Approved List Reviews Example
+  slug: shopper-approved-list-reviews-example
+- key_count: 4
+  name: Shopper Approved Submit Order Example
+  slug: shopper-approved-submit-order-example
+finops:
+- name: Shopper Approved Finops
+  service_category: API
+  slug: shopper-approved-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shopper-approved.png
+json_schemas:
+- name: Shopper Approved Product Review
+  property_count: 9
+  slug: shopper-approved-product-review
+- name: Shopper Approved Review
+  property_count: 10
+  slug: shopper-approved-review
+json_structures:
+- name: Shopper Approved Review Structure
+  property_count: 0
+  slug: shopper-approved-review-structure
+jsonld:
+- class_count: 23
+  name: Shopper Approved Context
+  property_count: 2
+  slug: shopper-approved-context
+layout: provider
+modified: '2026-05-19'
+name: Shopper Approved
+nav: Providers
+network: true
+overview: 'Shopper Approved publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Product Reviews API, Reviews API, and 1 more. Tagged areas include Reviews, Ratings, Ecommerce, Customer Feedback, and Social Proof.
+
+
+  The Shopper Approved catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Shopper Approved''s developer surface includes authentication and 4 more developer resources.'
+plans:
+- name: Shopper Approved Plans Pricing
+  plan_count: 3
+  slug: shopper-approved-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 5
+  name: Shopper Approved Rate Limits
+  slug: shopper-approved-rate-limits
+rules:
+- name: Shopper Approved API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: shopper-approved-jsonschema-spectral-rules
+- name: Shopper Approved API Rules
+  rule_count: 7
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 4
+  slug: shopper-approved-rules
+score:
+  band: developing
+  composite: 45.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 63.7
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 45.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/screenshots/shopper-approved-2026-06-20T193837.png
+security:
+- kind: authentication
+  name: Shopper Approved Authentication
+  slug: shopper-approved-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Shopper Approved Domain Security
+  slug: shopper-approved-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Shopper Approved Vulnerability Disclosure
+  slug: shopper-approved-vulnerability-disclosure
+  summary_line: Bugcrowd · security.txt · contact published
+slug: shopper-approved
+tags:
+- Reviews
+- Ratings
+- Ecommerce
+- Customer Feedback
+- Social Proof
+---

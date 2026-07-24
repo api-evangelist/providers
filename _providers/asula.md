@@ -1,0 +1,94 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/asula-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://asula.xyz/
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobs.ashbyhq.com/asula
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/asula_labs
+created: '2026-07-17'
+description: Asula is a Bitcoin company building the next generation of financial products at the intersection of bitcoin, blockchain infrastructure, and finance. The company is developing a mobile app that lets people buy, sell, and borrow against their Bitcoin, spanning a mobile wallet with seamless onboarding, cross-chain swaps, and a lending protocol. Asula has raised roughly $6.7M from Electric Capital, Framework Ventures, and Figment Capital, and ships two products, Bedlam and Dawn. As of July 2026 Asula publishes a minimal landing page and careers portal only, with no public developer API, SDK, OpenAPI, or documentation surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asula.png
+layout: provider
+modified: '2026-07-18'
+name: Asula
+nav: Providers
+network: true
+overview: Asula is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Blockchain, and Finance.
+random_paper: 24
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Asula Domain Security
+  slug: asula-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: asula
+tags:
+- Company
+- Crypto
+- Bitcoin
+- Blockchain
+- Finance
+- Fintech
+- Lending
+- Wallet
+website: https://asula.xyz/
+---

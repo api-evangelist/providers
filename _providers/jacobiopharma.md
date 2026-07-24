@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jacobiopharma-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://jacobiopharma.com
+created: '2026-07-17'
+description: Jacobio Pharma (Jacobio Pharmaceutica) is a clinical-stage biopharmaceutical company focused on discovering and developing novel small-molecule cancer therapies against historically "undruggable" oncology targets. Its pipeline spans 10+ clinical programs across six major tumor signaling pathways (including p53, RAS, RB, MYC, immune checkpoints, and tumor metabolism), advanced through proprietary allosteric drug-discovery and iADC platforms, more than 300 global patent applications, and 100+ clinical centers worldwide. Surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network; it publishes a corporate website but no public API or developer surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jacobiopharma.png
+layout: provider
+modified: '2026-07-19'
+name: Jacobio Pharma
+nav: Providers
+network: true
+overview: Jacobio Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Oncology, and Drug Discovery.
+random_paper: 34
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Jacobiopharma Domain Security
+  slug: jacobiopharma-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: jacobiopharma
+tags:
+- Company
+- Pharmaceuticals
+- Biotechnology
+- Oncology
+- Drug Discovery
+- Healthcare
+website: https://jacobiopharma.com
+---

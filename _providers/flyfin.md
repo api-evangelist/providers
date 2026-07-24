@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://flyfin.tax/
+- group: company
+  title: ''
+  type: Blog
+  url: https://flyfin.tax/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://flyfin.tax/contact-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://flyfin.tax/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://flyfin.tax/terms-of-service
+- group: company
+  title: ''
+  type: Partners
+  url: https://flyfin.tax/partner-with-us
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/flyfin-domain-security.yml
+created: '2026-07-17'
+description: FlyFin is an AI-powered tax preparation and filing platform for freelancers, self-employed individuals, 1099 contractors, sole proprietorships, LLCs, S-Corps, C-Corps, partnerships, and W-2 employees. It pairs an A.I. deduction scanner that connects to 2,000+ financial institutions through Plaid with a team of certified CPAs who prepare and file federal and state returns. The product suite includes a quarterly tax calculator, a CPA-certified AI tax assistant for unlimited questions, audit insurance with IRS representation, and Excel tax-summary exports. FlyFin operates as a consumer mobile and web application (iOS and Android) and does not publish a public developer API. It was surfaced as a portfolio company of Accel and added to the API Evangelist network for enrichment.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flyfin.png
+layout: provider
+modified: '2026-07-19'
+name: FlyFin
+nav: Providers
+network: true
+overview: 'FlyFin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Tax, Fintech, and Artificial Intelligence.
+
+
+  FlyFin''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 36
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Flyfin Domain Security
+  slug: flyfin-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: flyfin
+tags:
+- Company
+- Consumer
+- Tax
+- Fintech
+- Artificial Intelligence
+- Accounting
+- Freelance
+- Self-Employed
+website: https://flyfin.tax/
+---

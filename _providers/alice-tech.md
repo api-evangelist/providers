@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/alice-tech-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/alice-tech-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alice-tech-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alicetechnologies.com
+- group: other
+  title: ''
+  type: Product
+  url: https://www.alicetechnologies.com/construction-project-scheduling-software
+- group: other
+  title: ''
+  type: ALICEOptimize
+  url: https://www.alicetechnologies.com/alice-optimize
+- group: commercial
+  title: ''
+  type: ALICEPlan
+  url: https://www.alicetechnologies.com/alice-plan
+- group: other
+  title: ''
+  type: ALICEModel
+  url: https://www.alicetechnologies.com/alice-model
+- group: other
+  title: ''
+  type: InsightsAgent
+  url: https://www.alicetechnologies.com/construction-schedule-insights-agent
+- group: other
+  title: ''
+  type: Company
+  url: https://www.alicetechnologies.com/about
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.alicetechnologies.com/alice-demo
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.alicetechnologies.com/careers-2
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.alicetechnologies.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.alicetechnologies.com
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://blog.alicetechnologies.com/case-studies
+- group: company
+  title: ''
+  type: News
+  url: https://blog.alicetechnologies.com/news
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/alicetechnologies
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/alice-technologies
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@alicetechnologies
+created: '2026-05-25'
+description: ALICE Technologies is a Menlo Park, California construction technology company that builds an AI-driven generative scheduling and construction optioneering platform. The product simulates millions of possible construction sequences for a project — varying crews, equipment, methods, and constraints — to find optimal schedules, accelerate timelines, recover delayed projects, and de-risk capital project delivery. ALICE's suite includes ALICE Optimize (generative scheduling from imported Primavera P6 or Microsoft Project schedules), ALICE Plan (a 2D visual planning canvas overlaid on drawings), ALICE Model (BIM-driven schedule generation from 3D models), and the Schedule Insights Agent (an LLM-powered conversational interface for analysing and recommending schedule changes, including automated DCMA 14-point schedule quality scoring). The platform is sold as SaaS to general contractors, owners and developers, and consultants working on industrial (data centres, energy, semiconductors),
+  infrastructure (rail, highway, tunnels), and commercial projects, with reported impacts including up to 17% reduction in project duration and 14% labor cost savings. ALICE was founded in 2015 by René Morkos (Stanford PhD) and is backed by Merus Capital, Foundamental, Future Ventures, Lightspeed, Blackhorn Ventures, and Brick and Mortar; in 2026 it announced a formal alliance with McKinsey to deploy generative scheduling on capital projects. ALICE integrates by importing from Primavera P6, Primavera Cloud, Microsoft Project, and BIM/drawing formats, but does not publish a public developer API, SDK, or open-source repository — integration is delivered via the product's import/export surface and customer-success engagements.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alice-tech.png
+layout: provider
+modified: '2026-05-25'
+name: ALICE Technologies
+nav: Providers
+network: true
+overview: 'ALICE Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Construction Technology, Scheduling, Generative Scheduling, and Construction Optioneering.
+
+
+  ALICE Technologies'' developer surface includes support, engineering blog, product news, YouTube channel, and 15 more developer resources.'
+random_paper: 6
+score:
+  band: minimal
+  composite: 10.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 7.9
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 10.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alice-tech/refs/heads/main/screenshots/alice-tech-2026-06-20T171521.png
+security:
+- kind: domain-security
+  name: Alice Tech Domain Security
+  slug: alice-tech-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Alice Tech Vulnerability Disclosure
+  slug: alice-tech-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Alice Tech Trust Center
+  slug: alice-tech-trust-center
+  summary_line: SOC 2
+slug: alice-tech
+tags:
+- Construction
+- Construction Technology
+- Scheduling
+- Generative Scheduling
+- Construction Optioneering
+- Project Planning
+- BIM
+- Primavera P6
+- Microsoft Project
+- Schedule Optimization
+- DCMA 14-Point
+- AI
+- LLM
+- Capital Projects
+- Infrastructure
+- Industrial Construction
+website: https://www.alicetechnologies.com
+---

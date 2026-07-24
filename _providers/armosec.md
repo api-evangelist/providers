@@ -1,0 +1,178 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 39
+  human_in_the_loop: 3
+  name: Armosec Agentic Access
+  operation_count: 53
+  slug: armosec-agentic-access
+  summary_line: 53 operations · 39 acting · 3 human-in-the-loop
+api_count: 8
+apis:
+- description: Account API access key management.
+  name: ARMO Access Keys API
+  slug: armosec-access-keys-api
+- description: Connected clusters and workloads.
+  name: ARMO Clusters API
+  slug: armosec-clusters-api
+- description: Jira and collaboration/notification integrations.
+  name: ARMO Integrations API
+  slug: armosec-integrations-api
+- description: KSPM posture and compliance framework results.
+  name: ARMO Posture API
+  slug: armosec-posture-api
+- description: Container registry scanning.
+  name: ARMO Registry API
+  slug: armosec-registry-api
+- description: Runtime incidents (CADR), network and runtime policies.
+  name: ARMO Runtime API
+  slug: armosec-runtime-api
+- description: Correlated security risks and attack chains.
+  name: ARMO Security Risks API
+  slug: armosec-security-risks-api
+- description: Image and workload vulnerability scanning and results.
+  name: ARMO Vulnerabilities API
+  slug: armosec-vulnerabilities-api
+artifact_total: 15
+collections:
+- collection_type: open
+  name: ARMO Platform API
+  slug: open-armosec
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/armosec-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/armosec-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/armosec-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/armosec
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/armosec
+- group: company
+  title: ''
+  type: Website
+  url: https://www.armosec.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://hub.armosec.io/docs/armo-platform
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/armosec-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/armosec-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/armosec-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.armosec.io/blog/
+created: '2026-07-11'
+description: ARMO is the cloud-native and Kubernetes security company behind the leading open-source project Kubescape. ARMO Platform is a runtime-driven CNAPP that unifies Kubernetes Security Posture Management (KSPM), vulnerability and image scanning, compliance frameworks, network and seccomp policy generation, and runtime Cloud Application Detection and Response (CADR) - correlating runtime behavior with posture and vulnerabilities to cut alert noise. ARMO exposes a documented REST API over HTTPS (base https://api.armosec.io/api/v1 in the EU region and https://api.us.armosec.io/api/v1 in the US region), authenticated with an account access key sent in the X-API-KEY header. The API covers clusters, workloads, vulnerabilities, posture and compliance, security risks, runtime incidents, attack chains, network and runtime policies, registry scanning, and integrations. API access is available to platform customers who have generated an Agent Access Key; the endpoints below are documented but
+  the data returned requires a connected account and clusters.
+finops:
+- name: Armosec Finops
+  service_category: Security
+  slug: armosec-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/armosec.png
+layout: provider
+modified: '2026-07-11'
+name: ARMO
+nav: Providers
+network: true
+overview: 'ARMO publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Clusters API, Integrations API, and 5 more. Tagged areas include Kubernetes Security, Cloud Native Security, CNAPP, DevSecOps, and KSPM.
+
+
+  ARMO''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+plans:
+- name: Armosec Plans Pricing
+  plan_count: 4
+  slug: armosec-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 3
+  name: Armosec Rate Limits
+  slug: armosec-rate-limits
+score:
+  band: thin
+  composite: 37.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 53.8
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 37.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Armosec Authentication
+  slug: armosec-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Armosec Domain Security
+  slug: armosec-domain-security
+  summary_line: HSTS · DMARC
+slug: armosec
+tags:
+- Kubernetes Security
+- Cloud Native Security
+- CNAPP
+- DevSecOps
+- KSPM
+- Vulnerability Management
+- Compliance
+- Runtime Security
+- CADR
+- Kubescape
+- Container Security
+website: https://www.armosec.io/
+---

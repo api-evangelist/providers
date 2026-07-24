@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Power your digital workflows using comprehensive property and location intelligence data from LightBox.
+  name: LightBox
+  slug: lightbox
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lightbox-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lightbox-re
+created: '2025-02-17'
+description: Power your digital workflows using comprehensive property and location intelligence data from LightBox.
+finops:
+- name: Lightbox Finops
+  service_category: API
+  slug: lightbox-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightbox.png
+layout: provider
+modified: '2026-04-28'
+name: LightBox
+nav: Providers
+network: true
+overview: LightBox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Location Intelligence, Property Data, and Real Estate.
+plans:
+- name: Lightbox Plans Pricing
+  plan_count: 3
+  slug: lightbox-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 5
+  name: Lightbox Rate Limits
+  slug: lightbox-rate-limits
+score:
+  band: emerging
+  composite: 17.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 17.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/screenshots/lightbox-2026-06-20T184513.png
+security:
+- kind: domain-security
+  name: Lightbox Domain Security
+  slug: lightbox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lightbox
+tags:
+- Location Intelligence
+- Property Data
+- Real Estate
+---

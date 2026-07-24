@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/upcode-academy-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.upcodeacademy.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/upcode-academy-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/upcode-academy-well-known.yml
+created: '2026-07-17'
+description: UpCode Academy was a Singapore-based coding school offering short bootcamps and part-time courses (SQL, Python, Web Development with Ruby on Rails, Data Science, Computer Vision, IoT) taught by industry practitioners. Operated by 40 Tasks, a 500 Global portfolio company whose earlier product was the LOCO location-based search app at 40tasks.com. The company appears defunct - upcodeacademy.com serves a Cloudflare 522 dead-origin error (a bare default server page by December 2025) and 40tasks.com no longer resolves in DNS (domain-squatted since about 2023). No public API surface was found.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upcode-academy.png
+layout: provider
+modified: '2026-07-21'
+name: Upcode Academy
+nav: Providers
+network: true
+overview: Upcode Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Bootcamp, Training, and Data Science.
+random_paper: 32
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Upcode Academy Domain Security
+  slug: upcode-academy-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: upcode-academy
+tags:
+- Company
+- Education
+- Coding Bootcamp
+- Training
+- Data Science
+- Singapore
+- Defunct
+website: https://www.upcodeacademy.com
+---

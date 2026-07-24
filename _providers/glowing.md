@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://glowing.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.glowing.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://glowing.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://glowing.com/premium
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://glowing.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://glowing.com/terms-of-service
+created: '2026-07-17'
+description: 'Glow (glowing.com) is a women''s health and reproductive-health technology company whose consumer mobile apps track periods, ovulation, fertility, pregnancy, and early baby development for a community of more than 25 million members. Its app suite spans Glow (ovulation and fertility), Eve by Glow (period tracking), Glow Nurture (pregnancy), and Glow Baby (infant development), and it layers AI-powered health insights through GlowGPT along with a Glow Premium subscription and a companion Glow Shop for hardware such as basal thermometers, test strips, and a smart breast pump. Surfaced as a portfolio company of Slow Ventures and added to the API Evangelist network, Glow is a consumer app business with no public developer program: no API portal, developer documentation, SDKs, or OpenAPI surface could be located during enrichment.'
+image: https://glowing.com/wp-content/uploads/2023/05/cropped-glow-favicon-300x300.png
+layout: provider
+modified: '2026-07-19'
+name: Glow
+nav: Providers
+network: true
+overview: 'Glow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Women''s Health, Reproductive Health, and Fertility.
+
+
+  Glow''s developer surface includes support, engineering blog, pricing, and 3 more developer resources.'
+random_paper: 45
+score:
+  band: minimal
+  composite: 14.8
+  delta: 0.4
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.4
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 17.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: glowing
+tags:
+- Company
+- Health
+- Women's Health
+- Reproductive Health
+- Fertility
+- Pregnancy
+- Period Tracking
+- Consumer Apps
+- Mobile
+- Femtech
+website: https://glowing.com
+---

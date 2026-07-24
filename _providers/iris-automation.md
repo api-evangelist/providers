@@ -1,0 +1,82 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/iris-automation-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.irisonboard.com/
+created: '2026-07-17'
+description: Iris Automation was a Reno, Nevada deep-tech company that built Casia, a computer-vision detect-and-avoid (DAA) system enabling beyond-visual-line-of-sight (BVLOS) drone operations. Its onboard products (Casia, Casia X) and the ground-based Casia G used industrial cameras and machine-learning to detect non-cooperative intruder aircraft and prevent near mid-air collisions, integrating with MavLink-based autopilots and UAS ground control systems. Iris Automation was acquired by uAvionix in late 2023; the irisonboard.com domain now 301-redirects to uAvionix and the company exposes no public developer API, documentation, or well-known surface of its own.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iris-automation.png
+layout: provider
+modified: '2026-07-19'
+name: Iris Automation
+nav: Providers
+network: true
+overview: Iris Automation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Drones, UAS, and Detect and Avoid.
+random_paper: 43
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Iris Automation Domain Security
+  slug: iris-automation-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: iris-automation
+tags:
+- Company
+- Deep Tech
+- Drones
+- UAS
+- Detect and Avoid
+- Collision Avoidance
+- Computer Vision
+- Aviation
+- BVLOS
+website: https://www.irisonboard.com/
+---

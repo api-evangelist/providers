@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/happytal-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.happytal.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.happytal.com/a-propos
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/happytal
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.happytal.com/legal/cgu-marketplace
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.happytal.com/legal/ppdp
+created: '2026-07-17'
+description: Happytal is a French healthtech and services company founded in 2013 and acquired by La Poste Group's health division (La Poste Santé) in 2022. It operates a hospital concierge service (conciergerie hospitalière) that combines a digital platform with on-site human concierges to simplify the administrative, medical and hotel journey of each patient. Services include in-room delivery, a comfort-products marketplace, private-room and admission paperwork assistance, and support for patients, their families and hospital staff across French healthcare establishments, alongside elder-care/EHPAD offerings and the careside.care business-to-business product for care facilities. Happytal exposes no public developer API; this profile is maintained in the API Evangelist network as a company record enriched from public sources.
+image: https://www.happytal.com/logo-happytal-desktop.svg
+layout: provider
+modified: '2026-07-19'
+name: Happytal
+nav: Providers
+network: true
+overview: Happytal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Health, and France.
+random_paper: 0
+score:
+  band: minimal
+  composite: 14.5
+  delta: 2.8
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 11.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Happytal Domain Security
+  slug: happytal-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: happytal
+tags:
+- Company
+- Consumer
+- Healthcare
+- Health
+- France
+- Concierge
+- Marketplace
+- Elder Care
+- Patient Experience
+- HealthTech
+website: https://www.happytal.com/
+---

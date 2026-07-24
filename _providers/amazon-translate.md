@@ -1,0 +1,264 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Amazon Translate Agentic Access
+  operation_count: 4
+  slug: amazon-translate-agentic-access
+  summary_line: 4 operations · 4 acting
+api_count: 3
+apis:
+- description: The Batch Translation API from Amazon Translate — 2 operation(s) for batch translation.
+  name: Amazon Translate Batch Translation API
+  slug: amazon-translate-batch-translation-api
+- description: The Terminology API from Amazon Translate — 1 operation(s) for terminology.
+  name: Amazon Translate Terminology API
+  slug: amazon-translate-terminology-api
+- description: The Translation API from Amazon Translate — 1 operation(s) for translation.
+  name: Amazon Translate Translation API
+  slug: amazon-translate-translation-api
+artifact_total: 23
+collections:
+- collection_type: open
+  name: Amazon Translate API
+  slug: open-amazon-translate
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/amazon-translate-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/amazon-translate-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/amazon-translate-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/amazon-translate-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/amazon-translate-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://aws.amazon.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/translate/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aws.amazon.com/translate/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- group: company
+  title: ''
+  type: Blog
+  url: https://aws.amazon.com/blogs/machine-learning/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+- group: start
+  title: ''
+  type: Console
+  url: https://console.aws.amazon.com/translate/
+- group: start
+  title: ''
+  type: Signup
+  url: https://signin.aws.amazon.com/signup?request_type=register
+- group: start
+  title: ''
+  type: Login
+  url: https://aws.amazon.com/console/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- group: other
+  title: ''
+  type: Knowledge Center
+  url: https://repost.aws/knowledge-center
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/AmazonWebServices
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/amazon-translate
+- group: operate
+  title: ''
+  type: Contact
+  url: https://aws.amazon.com/contact-us/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/rules/amazon-translate-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/vocabulary/amazon-translate-vocabulary.yaml
+created: '2024-01-15'
+description: Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation for applications and content.
+examples:
+- key_count: 2
+  name: Amazon Translate Example
+  slug: amazon-translate-example
+features:
+- description: Automate operational tasks with Amazon Translate.
+  name: Automation
+- description: Programmatic access to Amazon Translate resources.
+  name: API Access
+finops:
+- name: Amazon Translate Finops
+  service_category: API
+  slug: amazon-translate-finops
+image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+json_schemas:
+- name: Amazon Translate Translation Job
+  property_count: 12
+  slug: amazon-translate-job
+- name: Tag
+  property_count: 2
+  slug: amazon-translate-tag
+json_structures:
+- name: Amazon Translate Job Structure
+  property_count: 0
+  slug: amazon-translate-job-structure
+- name: Amazon Translate Tag Structure
+  property_count: 0
+  slug: amazon-translate-tag-structure
+jsonld:
+- class_count: 7
+  name: Amazon Translate Context
+  property_count: 5
+  slug: amazon-translate-context
+layout: provider
+modified: '2026-05-19'
+name: Amazon Translate
+nav: Providers
+network: true
+overview: 'Amazon Translate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Translation API, Terminology API, and Translation API. Tagged areas include Language Processing, Localization, Machine Translation, NLP, and Translation.
+
+
+  The Amazon Translate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Amazon Translate''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+plans:
+- name: Amazon Translate Plans Pricing
+  plan_count: 3
+  slug: amazon-translate-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 5
+  name: Amazon Translate Rate Limits
+  slug: amazon-translate-rate-limits
+rules:
+- name: Amazon Translate API Rules
+  rule_count: 4
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 3
+  slug: amazon-translate-jsonschema-spectral-rules
+- name: Amazon Translate API Rules
+  rule_count: 12
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 8
+  slug: amazon-translate-spectral-rules
+score:
+  band: strong
+  composite: 63.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 81.6
+    contract_quality: 63.7
+    developer_ergonomics: 41.3
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 52.6
+  previous_composite: 63.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/screenshots/amazon-translate-2026-06-20T171839.png
+security:
+- kind: authentication
+  name: Amazon Translate Authentication
+  slug: amazon-translate-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Amazon Translate Domain Security
+  slug: amazon-translate-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Amazon Translate Vulnerability Disclosure
+  slug: amazon-translate-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Amazon Translate Trust Center
+  slug: amazon-translate-trust-center
+  summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+slug: amazon-translate
+tags:
+- Language Processing
+- Localization
+- Machine Translation
+- NLP
+- Translation
+use_cases:
+- description: Use Amazon Translate to manage and automate cloud operations.
+  name: Cloud Operations
+website: https://aws.amazon.com/translate/
+---

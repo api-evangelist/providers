@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 5
+common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://en.wikipedia.org/wiki/Standard_operating_procedure
+- group: other
+  title: ''
+  type: Standards
+  url: https://www.iso.org/standard/45338.html
+- group: other
+  title: ''
+  type: Regulatory Guidance
+  url: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/standard-operating-procedures-sops
+created: '2025'
+description: Standard Operating Procedures (SOPs) are documented step-by-step instructions for routine operations and processes to ensure consistency, quality, and compliance across an organization. They are essential for regulated industries such as healthcare, pharmaceuticals, finance, food service, aviation, and manufacturing. SOPs establish clear responsibilities, document institutional knowledge, support regulatory compliance, enable process auditing, and facilitate employee onboarding. Software platforms for SOP management include SweetProcess, Trainual, Guru, Document360, and Notion; many offer developer APIs for embedding SOP workflows into other business systems.
+examples:
+- key_count: 15
+  name: Standard Operating Procedures Sop Example
+  slug: standard-operating-procedures-sop-example
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standard-operating-procedures.png
+json_schemas:
+- name: Standard Operating Procedure
+  property_count: 18
+  slug: standard-operating-procedures-sop
+json_structures:
+- name: Standard Operating Procedures Sop Structure
+  property_count: 16
+  slug: standard-operating-procedures-sop-structure
+jsonld:
+- class_count: 21
+  name: Standard Operating Procedures Context
+  property_count: 10
+  slug: standard-operating-procedures-context
+layout: provider
+modified: '2026-05-02'
+name: Standard Operating Procedures
+nav: Providers
+network: true
+overview: 'Standard Operating Procedures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Documentation, Operations, Process Management, and Quality Assurance.
+
+
+  The Standard Operating Procedures catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Standard Operating Procedures'' developer surface includes documentation and 2 more developer resources.'
+random_paper: 34
+rules:
+- name: Standard Operating Procedures API Rules
+  rule_count: 7
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 6
+  slug: standard-operating-procedures-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 21.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 20.8
+    developer_ergonomics: 8.7
+    discoverability: 60.0
+    governance: 73.7
+    operational_transparency: 0.0
+  previous_composite: 21.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/standard-operating-procedures/refs/heads/main/screenshots/standard-operating-procedures-2026-06-20T194459.png
+slug: standard-operating-procedures
+tags:
+- Compliance
+- Documentation
+- Operations
+- Process Management
+- Quality Assurance
+- Regulated Industries
+- Workflow
+website: https://en.wikipedia.org/wiki/Standard_operating_procedure
+---

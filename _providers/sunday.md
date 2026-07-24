@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://getsunday.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getsunday.com/shed
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.getsunday.com/help-center
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getsunday.com/custom-lawn-plan
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sunday-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sunday-domain-security.yml
+created: '2026-07-17'
+description: 'Sunday (Sunday Lawn Care, getsunday.com) is a direct-to-consumer, subscription lawn and yard care brand. It builds a personalized annual plan for each customer''s exact lot from satellite imagery, soil data, and local climate patterns, then ships pesticide-free, phosphorus-free fertilizer, weed control, grass seed, and pest-control products on a seasonal cadence. Plans include Sunny AI guidance and Yard Advisor expert support, plus regional lawn-care guides for 1,700+ US cities. Sunday is a consumer commerce company rather than an API provider: it publishes a machine-readable llms.txt for agents and runs an internal application API (api.getsunday.com), but exposes no public developer portal, OpenAPI, SDKs, or documented API surface. It was surfaced as a portfolio company of Bond Capital and added to the API Evangelist network.'
+image: https://www.getsunday.com/images/square-logo-192.png
+layout: provider
+modified: '2026-07-21'
+name: Sunday
+nav: Providers
+network: true
+overview: 'Sunday is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lawn Care, Consumer, Subscription, and E-Commerce.
+
+
+  Sunday''s developer surface includes engineering blog, support, pricing, and 3 more developer resources.'
+random_paper: 48
+score:
+  band: minimal
+  composite: 10.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Sunday Domain Security
+  slug: sunday-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: sunday
+tags:
+- Company
+- Lawn Care
+- Consumer
+- Subscription
+- E-Commerce
+- Direct to Consumer
+- Home & Garden
+- Agriculture
+website: https://getsunday.com
+---

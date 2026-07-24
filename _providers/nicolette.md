@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nicolette.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://nicolette.com/blog/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://nicolette.com/home/privacy-notice-and-policy/
+created: '2026-07-17'
+description: 'Nicolette, Inc. is a digital health company that empowers patients and families fighting acute health battles by democratizing electronic health record (EHR) data, curated education, and participation tools. Its flagship product, NicoBoard, is a hospital-provided bedside platform for parents of babies in the neonatal intensive care unit (NICU): it visualizes a baby''s plan of care and clinical data, surfaces curated research and education, provides a care-team directory, and offers engagement, insights, and diary tools so parents can partner competently and confidently in their child''s care. NicoBoard ships as iOS and Android apps distributed to families by hospitals. Founded in 2016 and backed by Techstars among others, Nicolette exposes no public developer API, documentation, or SDKs at this time.'
+image: https://nicolette.com/wp-content/uploads/2020/09/nicolette-transparent-logo.png
+layout: provider
+modified: '2026-07-20'
+name: Nicolette
+nav: Providers
+network: true
+overview: 'Nicolette is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Healthcare, NICU, and Patient Engagement.
+
+
+  Nicolette''s developer surface includes engineering blog and 2 more developer resources.'
+random_paper: 49
+score:
+  band: minimal
+  composite: 9.2
+  delta: -0.1
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.3
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 8.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: nicolette
+tags:
+- Company
+- Digital Health
+- Healthcare
+- NICU
+- Patient Engagement
+- Electronic Health Records
+- Mobile App
+website: https://nicolette.com/
+---

@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 24.0
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
+  name: Raycast Extension API (SDK)
+  slug: raycast-extension-api-sdk
+- description: AI access surfaced through the SDK via `AI.ask(prompt)` - no API keys or HTTP endpoint required. Routes prompts across 80+ models from OpenAI, Anthropic, Google, Mistral, Groq, Perplexity, and xAI beh
+  name: Raycast AI API
+  slug: raycast-ai-api
+- description: The Raycast Store distributes community and partner extensions. Publishing is done via the `ray` CLI and a pull request to the github.com/raycast/extensions monorepo; there is no documented public RES
+  name: Raycast Store
+  slug: raycast-store
+artifact_total: 8
+collections:
+- collection_type: open
+  name: Raycast Extension API (SDK)
+  slug: open-raycast
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/raycast-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/raycast
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/raycast
+- group: company
+  title: ''
+  type: Website
+  url: https://www.raycast.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.raycast.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/raycast-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/raycast-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/raycast-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.raycast.com/blog
+created: '2026-06-20'
+description: Raycast is a macOS (and Windows, in beta) productivity launcher that ships an extensions platform, built-in AI, and a Store. Its developer surface is the @raycast/api TypeScript/Node SDK used to build extensions with React - a client-side library, not a public HTTP REST API. Capabilities such as AI, Storage, OAuth, and Preferences are exposed as SDK modules invoked from inside extensions rather than as standalone web endpoints.
+finops:
+- name: Raycast Finops
+  service_category: Productivity and Collaboration
+  slug: raycast-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raycast.png
+layout: provider
+modified: '2026-06-20'
+name: Raycast
+nav: Providers
+network: true
+overview: 'Raycast publishes 2 APIs on the [APIs.io](https://apis.io/) network: Extension API (SDK) and AI API. Tagged areas include Productivity, Launcher, Extensions, SDK, and AI.
+
+
+  Raycast''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Raycast Plans Pricing
+  plan_count: 5
+  slug: raycast-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 4
+  name: Raycast Rate Limits
+  slug: raycast-rate-limits
+score:
+  band: thin
+  composite: 31.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 37.7
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 31.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
+security:
+- kind: domain-security
+  name: Raycast Domain Security
+  slug: raycast-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: raycast
+tags:
+- Productivity
+- Launcher
+- Extensions
+- SDK
+- AI
+- macOS
+website: https://www.raycast.com
+---

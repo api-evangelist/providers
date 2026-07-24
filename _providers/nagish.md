@@ -1,0 +1,103 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nagish-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://rylo.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://rylo.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://rylo.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.rylo.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://rylo.com/legal/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://rylo.com/legal/terms
+created: '2026-07-17'
+description: Nagish (now operating as Rylo, following an $85M raise and rebrand) is a free phone-call captioning and live-transcription service for people who are Deaf, hard of hearing, or have a speech disability. Originally launched as the Nagish app (talknagish.com), the FCC-certified service delivers real-time captions on incoming and outgoing calls, in-person Live Transcribe, voicemail captioning, 50+ language support, and AI-powered quick replies, with transcripts kept private on-device. It is a consumer mobile/telecom product and publishes no public API, SDK, or developer portal. Backed by Canaan Partners and Techstars; profiled in the API Evangelist network as a company lead.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nagish.png
+layout: provider
+modified: '2026-07-20'
+name: Nagish
+nav: Providers
+network: true
+overview: 'Nagish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Captioning, Transcription, and Telecommunications.
+
+
+  Nagish''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Nagish Domain Security
+  slug: nagish-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: nagish
+tags:
+- Company
+- Accessibility
+- Captioning
+- Transcription
+- Telecommunications
+- Deaf and Hard of Hearing
+- Consumer App
+website: https://rylo.com/
+---

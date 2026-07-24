@@ -1,0 +1,171 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 43.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Overshootai Agentic Access
+  operation_count: 17
+  slug: overshootai-agentic-access
+  summary_line: 17 operations · 6 acting
+api_count: 8
+apis:
+- description: Pricing, prepaid balance, and checkout.
+  name: overshoot.ai Billing API
+  slug: overshootai-billing-api
+- description: The Chat API from overshoot.ai — 1 operation(s) for chat.
+  name: overshoot.ai Chat API
+  slug: overshootai-chat-api
+- description: The Healthz API from overshoot.ai — 1 operation(s) for healthz.
+  name: overshoot.ai Healthz API
+  slug: overshootai-healthz-api
+- description: The Metrics API from overshoot.ai — 1 operation(s) for metrics.
+  name: overshoot.ai Metrics API
+  slug: overshootai-metrics-api
+- description: The Models API from overshoot.ai — 2 operation(s) for models.
+  name: overshoot.ai Models API
+  slug: overshootai-models-api
+- description: The Readyz API from overshoot.ai — 1 operation(s) for readyz.
+  name: overshoot.ai Readyz API
+  slug: overshootai-readyz-api
+- description: Create, inspect, keep alive, and delete live video streams.
+  name: overshoot.ai Streams API
+  slug: overshootai-streams-api
+- description: The V1beta API from overshoot.ai — 1 operation(s) for v1beta.
+  name: overshoot.ai V1beta API
+  slug: overshootai-v1beta-api
+artifact_total: 12
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://platform.overshoot.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.overshoot.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.overshoot.ai/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.overshoot.ai/quickstart
+- group: company
+  title: ''
+  type: Blog
+  url: https://overshoot.ai/blogs
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/overshoot-ai
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.overshoot.ai
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:founders@overshoot.ai
+- group: build
+  title: ''
+  type: Packages
+  url: packages/overshootai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/overshootai-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/overshootai-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/overshootai-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Overshoot is real-time AI vision infrastructure. It ingests live video streams over WebRTC (LiveKit) and lets developers query those frames with vision-language models through an OpenAI-compatible chat completions API, returning structured results such as bounding boxes, pixel coordinates, OCR text, and JSON in as little as 200ms. The REST API manages the full stream lifecycle (create, keepalive, inspect, delete), lists available VLMs from Overshoot, Anthropic, Google, and OpenAI, and handles prepaid credit billing. Overshoot is a Y Combinator and a16z portfolio company building the vision layer for accessibility, security monitoring, sports analysis, robotics, retail analytics, and structured data extraction from live video.
+image: https://overshoot.ai/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: overshoot.ai
+nav: Providers
+network: true
+overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer Vision, Video, and Real Time.
+
+
+  overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
+random_paper: 30
+rate_limits:
+- limit_count: 2
+  name: Overshootai Rate Limits
+  slug: overshootai-rate-limits
+score:
+  band: thin
+  composite: 38.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 46.3
+    developer_ergonomics: 54.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 38.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Overshootai Authentication
+  slug: overshootai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Overshootai Domain Security
+  slug: overshootai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: overshootai
+tags:
+- Company
+- Artificial Intelligence
+- Computer Vision
+- Video
+- Real Time
+- Streaming
+- Machine Learning
+- Vision Language Models
+- Inference
+- Developer Tools
+website: https://platform.overshoot.ai
+---

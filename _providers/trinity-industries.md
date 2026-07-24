@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 15
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/trinity-industries-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/trinity-industries
+- group: company
+  title: ''
+  type: Website
+  url: https://www.trin.net
+- group: company
+  title: ''
+  type: Website
+  url: https://www.trinityrail.com
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.trin.net/overview/default.aspx
+created: '2026-05-03'
+description: Trinity Industries, Inc. is a leading manufacturer and lessor of railcars in North America, providing products and services to the industrial, energy, transportation, and construction sectors. The company designs, manufactures, leases, and manages railcars used to transport commodities such as energy products, agricultural goods, construction materials, and consumer staples. Trinity operates a lease fleet of over 140,000 owned and managed railcars through its TrinityRail division.
+features:
+- name: Railcar Manufacturing
+- name: Railcar Leasing
+- name: Fleet Management
+- name: Railcar Maintenance
+- name: Railcar Repair
+- name: Tank Cars
+- name: Covered Hoppers
+- name: Open Hoppers
+- name: Gondolas
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trinity-industries.png
+layout: provider
+modified: '2026-05-03'
+name: Trinity Industries
+nav: Providers
+network: true
+overview: Trinity Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Infrastructure, Logistics, Manufacturing, Railcars, and Transportation.
+press:
+- date: '2026-05-25'
+  title: Companies winning with AI built the data layer first
+  url: https://www.databricks.com/blog/companies-winning-ai-built-data-layer-first
+- date: '2026-05-25'
+  title: Quarterly Report for Quarter Ending MARCH 31, 2026 (Form 10-Q)
+  url: https://www.publicnow.com/view/D52B52510FFC4CA0D3BFD8DC7413E1FF47E1CC9F
+- date: '2026-05-25'
+  title: Trinity Industries Q1 2026 earnings and outlook - TRN
+  url: https://www.stocktitan.net/sec-filings/TRN/10-q-trinity-industries-inc-quarterly-earnings-report-6eae20c2d095.html
+- date: '2026-05-25'
+  title: Leigh Anne Mann - Vice President of Investor Relations at ...
+  url: https://www.linkedin.com/in/leighannealford
+- date: '2026-05-25'
+  title: TrinityRail Enters Joint Venture to Transform North America's ...
+  url: https://www.trin.net/investor/press-releases/news-details/2020/TrinityRail-Enters-Joint-Venture-to-Transform-North-Americas-Rail-Industry/default.aspx
+random_paper: 43
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Trinity Industries Domain Security
+  slug: trinity-industries-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: trinity-industries
+solutions:
+- name: Energy Sector Logistics
+- name: Agricultural Commodity Transport
+- name: Construction Materials Transport
+- name: Chemical Transport
+- name: Consumer Staples Transport
+tags:
+- Infrastructure
+- Logistics
+- Manufacturing
+- Railcars
+- Transportation
+- Fortune 500
+website: https://www.trin.net
+---

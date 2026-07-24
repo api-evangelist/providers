@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Japan grants and subsidies (central J-Grants + 1,916 municipalities)
+  name: LocalGov.jp
+  slug: localgovjp
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/localgov-jp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://localgov.jp/
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
+- group: company
+  title: ''
+  type: Blog
+  url: https://localgov.jp/blog
+created: '2026-05-28'
+description: Japan grants and subsidies (central J-Grants + 1,916 municipalities)
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/localgov-jp.png
+layout: provider
+modified: '2026-05-28'
+name: LocalGov.jp
+nav: Providers
+network: true
+overview: 'LocalGov.jp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+
+
+  LocalGov.jp''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 47
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/localgov-jp/refs/heads/main/screenshots/localgov-jp-2026-06-20T184633.png
+security:
+- kind: domain-security
+  name: Localgov Jp Domain Security
+  slug: localgov-jp-domain-security
+  summary_line: TLSv1.3
+slug: localgov-jp
+tags:
+- Government
+- Public APIs
+website: https://localgov.jp/
+---

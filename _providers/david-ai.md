@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.withdavid.ai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.withdavid.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.withdavid.ai/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.withdavid.ai/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.withdavid.ai/news
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/david-ai-domain-security.yml
+created: '2026-07-17'
+description: David AI is an audio data research company building high-quality speech and conversational datasets to bring AI into the real world through voice. Using a rigorous six-step research process (hypothesize, design, experiment, evaluate, productionize, release), the team produces datasets such as Converse (channel-separated two-speaker English conversations), Atlas (multilingual data spanning 15+ languages with dialect and accent metadata), Chorus (multi-speaker conversations for speaker separation and diarization), and Dialog (expert domain conversations). Its data is licensed to Fortune 100 companies and research labs working on speech recognition, translation, synthesis, and conversational AI. Access is arranged through samples, consultation, and a data license agreement rather than a self-serve API. David AI is backed by Amplify Partners. This profile was added to the API Evangelist network as a portfolio lead and enriched from the company's public web presence.
+image: https://cdn.prod.website-files.com/680b78a664218f03c0d6cce0/68148b899ab2660e77765509_logo-icon.svg
+layout: provider
+modified: '2026-07-18'
+name: David AI
+nav: Providers
+network: true
+overview: 'David AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Machine Learning, Audio Data, and Speech Recognition.
+
+
+  David AI''s developer surface includes support, engineering blog, and 4 more developer resources.'
+random_paper: 2
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: David Ai Domain Security
+  slug: david-ai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: david-ai
+tags:
+- Company
+- AI
+- Machine Learning
+- Audio Data
+- Speech Recognition
+- Conversational AI
+- Voice
+- Datasets
+website: https://www.withdavid.ai
+---

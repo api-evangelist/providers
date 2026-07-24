@@ -1,0 +1,121 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/suppco-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/suppco-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/suppco-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://supp.co/.well-known/security.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/suppco-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://supp.co
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://supp.co/about/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://supp.co/about/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@supp.co
+created: '2026-07-17'
+description: SuppCo is a consumer supplement tracking and optimization platform, describing itself as the world's first real supplement tracker and optimizer. Its iOS and Android app lets people log their supplement stack and get a personalized StackScore across quality, dosing, goal coverage, and nutrient levels, plus a TrustScore that rates products on 29 attributes. It is backed by a database of 160,000+ products, 20,000+ research studies, and 80+ expert protocols from functional-medicine practitioners. SuppCo is in open beta (free, with an optional Pro tier) and was acquired by Function Health. No public developer API, OpenAPI, or developer portal is currently published; this profile captures its public web, security, and legal surface. Surfaced as a portfolio company of Union Square Ventures.
+image: https://supp.co/favicon.ico
+layout: provider
+modified: '2026-07-21'
+name: SuppCo
+nav: Providers
+network: true
+overview: 'SuppCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supplements, Health, Wellness, and Nutrition.
+
+
+  SuppCo''s developer surface includes support and 8 more developer resources.'
+random_paper: 3
+score:
+  band: emerging
+  composite: 17.7
+  delta: 4.5
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 13.2
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Suppco Domain Security
+  slug: suppco-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Suppco Vulnerability Disclosure
+  slug: suppco-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: suppco
+tags:
+- Company
+- Supplements
+- Health
+- Wellness
+- Nutrition
+- Consumer App
+- Mobile
+- Health Data
+website: https://supp.co
+---

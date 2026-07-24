@@ -1,0 +1,132 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 35.6
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: Standard OData service endpoints including service document, metadata document, entity set CRUD operations, and batch processing as defined by the OData v4.01 specification.
+  name: OData Service API
+  slug: odata-service
+- description: The $Batch API from OData — 1 operation(s) for $batch.
+  name: OData $Batch API
+  slug: odata-batch-api
+- description: The $Metadata API from OData — 1 operation(s) for $metadata.
+  name: OData $Metadata API
+  slug: odata-metadata-api
+- description: The OData Service API API from OData — 3 operation(s) for odata service api.
+  name: OData OData Service API API
+  slug: odata-odata-service-api-api
+artifact_total: 9
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/odata-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.odata.org/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.odata.org/documentation/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OData
+- group: docs
+  title: ''
+  type: Reference
+  url: https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/OData/MCP
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.odata.org/blog/feed.xml
+created: '2025-01-01'
+description: OData (Open Data Protocol) is an OASIS standard that defines best practices for building and consuming RESTful APIs. It enables the creation of query-based data services over HTTP, providing a uniform way to describe data and data models, query and edit data, and perform batch operations.
+finops:
+- name: Odata Finops
+  service_category: API
+  slug: odata-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/odata.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-05-19'
+name: OData
+nav: Providers
+network: true
+overview: 'OData publishes 3 APIs on the [APIs.io](https://apis.io/) network: $Batch API, $Metadata API, and OData Service API API. Tagged areas include OASIS Standard, OData, Open Data Protocol, Query Language, and RESTful APIs.
+
+
+  OData''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+plans:
+- name: Odata Plans Pricing
+  plan_count: 3
+  slug: odata-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 5
+  name: Odata Rate Limits
+  slug: odata-rate-limits
+score:
+  band: thin
+  composite: 39.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 52.2
+    developer_ergonomics: 26.1
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 39.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/screenshots/odata-2026-06-20T190618.png
+security:
+- kind: domain-security
+  name: Odata Domain Security
+  slug: odata-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: odata
+tags:
+- OASIS Standard
+- OData
+- Open Data Protocol
+- Query Language
+- RESTful APIs
+website: https://www.odata.org/
+---

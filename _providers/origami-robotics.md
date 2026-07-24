@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/origami-robotics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.origami-robotics.com
+created: '2026-07-17'
+description: Origami Robotics is a Y Combinator (Winter 2026) hardware startup based in Millbrae, California building advanced robotic hands designed specifically for machine learning and general-purpose robotic manipulation. The company designs a high-degrees-of-freedom hand with in-joint motors, co-designed with a matching data-collection glove that eliminates the embodiment gap between human and robot manipulation so that real-world training data transfers directly to deployed robots. Its focus areas include force transparency, avoiding the sim-to-real problems of high-ratio gearboxes, and scaling real-world manipulation data by deploying devices "in the wild." Origami Robotics targets industrial automation in manufacturing and logistics and has sold hands to Physical AI research labs including Amazon. Origami Robotics is a hardware and robotics company; as of this profile it publishes no public API, SDK, developer portal, or machine-readable interface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/origami-robotics.png
+layout: provider
+modified: '2026-07-20'
+name: Origami Robotics
+nav: Providers
+network: true
+overview: Origami Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robotic Hands, Machine Learning, and Manipulation.
+random_paper: 26
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Origami Robotics Domain Security
+  slug: origami-robotics-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: origami-robotics
+tags:
+- Company
+- Robotics
+- Robotic Hands
+- Machine Learning
+- Manipulation
+- Physical AI
+- Hardware
+- Automation
+website: https://www.origami-robotics.com
+---

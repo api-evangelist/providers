@@ -1,0 +1,135 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: true
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 18.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST API for third-party sellers and integrators to connect to the KaBuM! marketplace (operated on the Mirakl platform). Covers category hierarchies, product attribute mapping, product and offer impor
+  name: KaBuM! Marketplace Seller Integration API
+  slug: kabum-marketplace-seller-integration-api
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kabum.com.br/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.kabum.com.br/hotsite/documentacao-hubscore/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.kabum.com.br/hotsite/documentacao-hubscore/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://marketplace-kabum.mirakl.net/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.kabum.com.br/atendimento
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kabum.com.br/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kabum.com.br/termos-de-uso
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kabum.com.br/privacidade
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kabum-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kabum-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/kabum-conventions.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kabum-domain-security.yml
+created: '2026-07-17'
+description: KaBuM! is the largest e-commerce retailer of technology, computer hardware, electronics, and games in Latin America, headquartered in Limeira, Brazil and part of the Magalu (Magazine Luiza) group. Beyond its consumer storefront, KaBuM! operates a third-party seller marketplace on the Mirakl platform and publishes an integration guide for sellers and integrators to connect their ERP/OMS to the marketplace via a REST API — managing product catalog, attribute mapping, offers (price/stock), order retrieval, shipping carriers, document uploads, and tracking/ship confirmation. Authentication is API-key based, write operations are expected to be idempotent, and integrations poll asynchronous import jobs by id. This profile was added to the API Evangelist network from a VC portfolio lead and enriched from KaBuM!'s public integration documentation.
+image: https://logo.clearbit.com/kabum.com.br
+layout: provider
+modified: '2026-07-19'
+name: KaBum!
+nav: Providers
+network: true
+overview: 'KaBum! publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Marketplace, and Technology.
+
+
+  KaBum!''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 7 more developer resources.'
+random_paper: 18
+score:
+  band: emerging
+  composite: 23.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 23.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Kabum Authentication
+  slug: kabum-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Kabum Domain Security
+  slug: kabum-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: kabum
+tags:
+- Company
+- E-Commerce
+- Retail
+- Marketplace
+- Technology
+- Electronics
+- Games
+- Brazil
+- Seller Integration
+- Mirakl
+website: https://www.kabum.com.br/
+---

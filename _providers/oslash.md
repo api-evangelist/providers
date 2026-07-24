@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.oslash.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.oslash.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/oslash-domain-security.yml
+created: '2026-07-17'
+description: OSlash is a productivity tool that lets teams create short, memorable shortcuts — typed as "o/" followed by a keyword — to instantly find and open their documents, dashboards, and internal tools across 100+ connected apps such as Salesforce, Notion, Jira, GitHub, Figma, Asana, HubSpot, and Linear. Delivered as a Chrome extension with enterprise features like SSO and bank-level encryption, OSlash was backed by Accel. As of this profile the public product is marked "Coming Soon" and the company publishes no developer API, SDK, OpenAPI spec, or documentation surface — this remains an enrichment lead with no scored API artifacts beyond a domain-security probe.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oslash.png
+layout: provider
+modified: '2026-07-20'
+name: OSlash
+nav: Providers
+network: true
+overview: 'OSlash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Productivity, Shortcuts, and Knowledge Management.
+
+
+  OSlash''s developer surface includes signup flow and 2 more developer resources.'
+random_paper: 38
+score:
+  band: minimal
+  composite: 9.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Oslash Domain Security
+  slug: oslash-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: oslash
+tags:
+- Company
+- Cloud Saas
+- Productivity
+- Shortcuts
+- Knowledge Management
+- Browser Extension
+- Enterprise
+website: https://www.oslash.com/
+---

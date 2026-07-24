@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://holor.com
+created: '2026-07-17'
+description: Holor Media was an integrated immersive media technology company founded in 2015 and based in Los Angeles and San Francisco. It focused on 360/VR content creation and distribution, building augmented and virtual reality authoring tools aimed at the next generation of social, interactive XR (extended reality) experiences, including interactive 360 apps for the Transformers film franchise. It raised seed funding from 500 Global (formerly 500 Startups), Skyline Ventures, and WI Harper Group. The company is now permanently closed and its former domain (holor.com) is a parked, for-sale listing on Afternic, so there is no active developer surface, API, documentation, or SDK to profile. This record is retained as a historical portfolio lead.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holor-media.png
+layout: provider
+modified: '2026-07-19'
+name: Holor Media
+nav: Providers
+network: true
+overview: Holor Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immersive Media, Augmented Reality, Virtual Reality, and 360 Video.
+random_paper: 34
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: holor-media
+tags:
+- Company
+- Immersive Media
+- Augmented Reality
+- Virtual Reality
+- 360 Video
+- Extended Reality
+- Content Creation
+- Defunct
+website: https://holor.com
+---

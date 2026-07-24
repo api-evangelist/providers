@@ -1,0 +1,294 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Court Listener Agentic Access
+  operation_count: 37
+  slug: court-listener-agentic-access
+  summary_line: 37 operations
+api_count: 21
+apis:
+- description: The Alerts API from CourtListener — 2 operation(s) for alerts.
+  name: CourtListener Alerts API
+  slug: court-listener-alerts-api
+- description: The Audio API from CourtListener — 2 operation(s) for audio.
+  name: CourtListener Audio API
+  slug: court-listener-audio-api
+- description: The Citation API from CourtListener — 1 operation(s) for citation.
+  name: CourtListener Citation API
+  slug: court-listener-citation-api
+- description: The Cited By API from CourtListener — 1 operation(s) for cited by.
+  name: CourtListener Cited By API
+  slug: court-listener-cited-by-api
+- description: The Cites API from CourtListener — 1 operation(s) for cites.
+  name: CourtListener Cites API
+  slug: court-listener-cites-api
+- description: The Courts API from CourtListener — 2 operation(s) for courts.
+  name: CourtListener Courts API
+  slug: court-listener-courts-api
+- description: The Coverage API from CourtListener — 1 operation(s) for coverage.
+  name: CourtListener Coverage API
+  slug: court-listener-coverage-api
+- description: The Docket Alerts API from CourtListener — 2 operation(s) for docket alerts.
+  name: CourtListener Docket Alerts API
+  slug: court-listener-docket-alerts-api
+- description: The Docket Entries API from CourtListener — 2 operation(s) for docket entries.
+  name: CourtListener Docket Entries API
+  slug: court-listener-docket-entries-api
+- description: The Dockets API from CourtListener — 2 operation(s) for dockets.
+  name: CourtListener Dockets API
+  slug: court-listener-dockets-api
+- description: The Financial Disclosures API from CourtListener — 2 operation(s) for financial disclosures.
+  name: CourtListener Financial Disclosures API
+  slug: court-listener-financial-disclosures-api
+- description: The FJC Database API from CourtListener — 2 operation(s) for fjc database.
+  name: CourtListener FJC Database API
+  slug: court-listener-fjc-database-api
+- description: The Jurisdiction API from CourtListener — 1 operation(s) for jurisdiction.
+  name: CourtListener Jurisdiction API
+  slug: court-listener-jurisdiction-api
+- description: The Opinion API from CourtListener — 1 operation(s) for opinion.
+  name: CourtListener Opinion API
+  slug: court-listener-opinion-api
+- description: The Opinion Clusters API from CourtListener — 2 operation(s) for opinion clusters.
+  name: CourtListener Opinion Clusters API
+  slug: court-listener-opinion-clusters-api
+- description: The Opinions API from CourtListener — 2 operation(s) for opinions.
+  name: CourtListener Opinions API
+  slug: court-listener-opinions-api
+- description: The People API from CourtListener — 2 operation(s) for people.
+  name: CourtListener People API
+  slug: court-listener-people-api
+- description: The Positions API from CourtListener — 2 operation(s) for positions.
+  name: CourtListener Positions API
+  slug: court-listener-positions-api
+- description: The RECAP Documents API from CourtListener — 2 operation(s) for recap documents.
+  name: CourtListener RECAP Documents API
+  slug: court-listener-recap-documents-api
+- description: The Search API from CourtListener — 3 operation(s) for search.
+  name: CourtListener Search API
+  slug: court-listener-search-api
+- description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
+  name: CourtListener Visualizations API
+  slug: court-listener-visualizations-api
+artifact_total: 45
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/court-listener-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/court-listener-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/court-listener-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.courtlistener.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://wiki.free.law/c/courtlistener/help/api/rest/v4/overview
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/freelawproject
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/free-law-project
+- group: company
+  title: ''
+  type: Blog
+  url: https://free.law/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://free.law/membership
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/FreeLawProject
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/court-listener-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/court-listener-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/court-listener-finops.yml
+created: '2026-06-13'
+description: CourtListener is a free legal research platform operated by the Free Law Project, a nonprofit organization. It provides a comprehensive REST API for accessing US court opinions, dockets, oral arguments, judge biographical data, financial disclosures, and citation networks from federal and state courts. The platform archives over 9 million case law decisions, 500 million PACER-related items, 3.4 million minutes of oral arguments, and data on 16,000+ judges. Access is available through a membership model with rate limits scaling by tier; an EDU tier is free for academic users.
+examples:
+- key_count: 16
+  name: Court Listener Audio Example
+  slug: court-listener-audio-example
+- key_count: 12
+  name: Court Listener Docket Example
+  slug: court-listener-docket-example
+- key_count: 14
+  name: Court Listener Opinion Example
+  slug: court-listener-opinion-example
+- key_count: 17
+  name: Court Listener Person Example
+  slug: court-listener-person-example
+- key_count: 4
+  name: Court Listener Search Example
+  slug: court-listener-search-example
+finops:
+- name: Court Listener Finops
+  service_category: ''
+  slug: court-listener-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/court-listener.png
+json_schemas:
+- name: Audio
+  property_count: 16
+  slug: court-listener-audio
+- name: citation
+  property_count: 20
+  slug: court-listener-citation
+- name: Court
+  property_count: 16
+  slug: court-listener-court
+- name: coverage
+  property_count: 1
+  slug: court-listener-coverage
+- name: Docket
+  property_count: 12
+  slug: court-listener-docket
+- name: jurisdiction
+  property_count: 13
+  slug: court-listener-jurisdiction
+- name: Opinion
+  property_count: 16
+  slug: court-listener-opinion
+- name: PaginatedResponse
+  property_count: 4
+  slug: court-listener-paginatedresponse
+- name: Person
+  property_count: 17
+  slug: court-listener-person
+jsonld:
+- class_count: 1
+  name: Court Listener Context
+  property_count: 54
+  slug: court-listener-context
+- class_count: 0
+  name: Court Listener Docket Context
+  property_count: 0
+  slug: court-listener-docket
+- class_count: 0
+  name: Court Listener Opinion Context
+  property_count: 0
+  slug: court-listener-opinion
+layout: provider
+modified: '2026-06-13'
+name: CourtListener
+nav: Providers
+network: true
+overview: 'CourtListener publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audio API, Citation API, and 18 more. Tagged areas include Legal, Court Data, Case Law, PACER, and Judicial.
+
+
+  The CourtListener catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
+
+
+  CourtListener''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Court Listener Plans Pricing
+  plan_count: 7
+  slug: court-listener-plans-pricing
+random_paper: 44
+rate_limits:
+- limit_count: 0
+  name: Court Listener Rate Limits
+  slug: court-listener-rate-limits
+rules:
+- name: CourtListener API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: court-listener-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 48.3
+  delta: -1.9
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 65.5
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 5.3
+  previous_composite: 50.2
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/screenshots/court-listener-2026-06-20T175112.png
+security:
+- kind: authentication
+  name: Court Listener Authentication
+  slug: court-listener-authentication
+  summary_line: apiKey/http · 3 schemes
+- kind: domain-security
+  name: Court Listener Domain Security
+  slug: court-listener-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: court-listener
+tags:
+- Legal
+- Court Data
+- Case Law
+- PACER
+- Judicial
+- Citations
+- Oral Arguments
+- Federal Courts
+- State Courts
+- Open Data
+website: https://www.courtlistener.com/
+---

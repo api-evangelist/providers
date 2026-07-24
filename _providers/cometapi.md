@@ -1,0 +1,221 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Cometapi Agentic Access
+  operation_count: 7
+  slug: cometapi-agentic-access
+  summary_line: 7 operations · 6 acting
+api_count: 6
+apis:
+- description: Speech synthesis, transcription, and translation.
+  name: CometAPI Audio API
+  slug: cometapi-audio-api
+- description: Chat completions across LLM providers.
+  name: CometAPI Chat API
+  slug: cometapi-chat-api
+- description: Vector embeddings for retrieval and similarity.
+  name: CometAPI Embeddings API
+  slug: cometapi-embeddings-api
+- description: Text-to-image and image-to-image generation.
+  name: CometAPI Images API
+  slug: cometapi-images-api
+- description: List of supported models routable by CometAPI.
+  name: CometAPI Models API
+  slug: cometapi-models-api
+- description: Text-to-video, image-to-video, and video extension.
+  name: CometAPI Video API
+  slug: cometapi-video-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: CometAPI Unified API
+  slug: open-cometapi-unified-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cometapi-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cometapi-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cometapi-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cometapi-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CometAPI-dev
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cometapi
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cometapi.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://apidoc.cometapi.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://apidoc.cometapi.com/help-center
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apidoc.cometapi.com/how-to-use-cometapi-1792005m0
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/cometapi-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/cometapi-chat-completion-schema.json
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/cometapi-rules.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://www.cometapi.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cometapi.com/blog
+created: '2026-03-16'
+description: CometAPI is an AI API aggregator that consolidates access to 500+ models from multiple providers (OpenAI, Anthropic, Google, xAI, DeepSeek, Alibaba, and more) behind a single OpenAI-compatible REST surface. It supports chat completions, embeddings, image generation, text-to-video and image-to-video, speech synthesis, and audio transcription. CometAPI positions itself as a drop-in replacement for the OpenAI SDK (changing only the base URL and key), with pay-as-you-go pricing reportedly 20-40% cheaper than direct vendor rates, sub-400ms median latency, and 99.9% service availability.
+finops:
+- name: Cometapi Finops
+  service_category: API
+  slug: cometapi-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cometapi.png
+json_schemas:
+- name: CometAPI Chat Completion Response
+  property_count: 6
+  slug: cometapi-chat-completion
+jsonld:
+- class_count: 0
+  name: Cometapi Context
+  property_count: 4
+  slug: cometapi-context
+layout: provider
+modified: '2026-05-19'
+name: CometAPI
+nav: Providers
+network: true
+overview: 'CometAPI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 3 more. Tagged areas include AI, Aggregator, Audio, Chat, and Embeddings.
+
+
+  The CometAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  CometAPI''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+plans:
+- name: Cometapi Plans Pricing
+  plan_count: 3
+  slug: cometapi-plans-pricing
+random_paper: 34
+rate_limits:
+- limit_count: 5
+  name: Cometapi Rate Limits
+  slug: cometapi-rate-limits
+rules:
+- name: CometAPI API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: cometapi-jsonschema-spectral-rules
+- name: CometAPI API Rules
+  rule_count: 9
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 2
+    warn: 3
+  slug: cometapi-rules
+score:
+  band: developing
+  composite: 52.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 62.2
+    developer_ergonomics: 37.0
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 52.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/screenshots/cometapi-2026-06-20T174808.png
+security:
+- kind: authentication
+  name: Cometapi Authentication
+  slug: cometapi-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Cometapi Domain Security
+  slug: cometapi-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Cometapi Trust Center
+  slug: cometapi-trust-center
+  summary_line: trust center published
+slug: cometapi
+tags:
+- AI
+- Aggregator
+- Audio
+- Chat
+- Embeddings
+- Generative AI
+- Images
+- LLM
+- Multi-Model
+- OpenAI-Compatible
+- Video
+website: https://www.cometapi.com/
+---

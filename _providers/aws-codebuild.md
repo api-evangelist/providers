@@ -1,0 +1,166 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Aws Codebuild Agentic Access
+  operation_count: 1
+  slug: aws-codebuild-agentic-access
+  summary_line: 1 operation · 1 acting
+api_count: 1
+apis:
+- description: The AWS CodeBuild API API from AWS CodeBuild — 1 operation(s) for aws codebuild api.
+  name: AWS CodeBuild AWS CodeBuild API API
+  slug: aws-codebuild-aws-codebuild-api-api
+artifact_total: 7
+collections:
+- collection_type: open
+  name: AWS CodeBuild API
+  slug: open-aws-codebuild
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/aws-codebuild-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/aws-codebuild-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/aws-codebuild-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aws-codebuild-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/aws-codebuild-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/codebuild/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aws.amazon.com/codebuild/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/codebuild/latest/APIReference/Welcome.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/codebuild/pricing/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html
+- group: other
+  title: ''
+  type: Endpoints
+  url: https://docs.aws.amazon.com/general/latest/gr/codebuild.html
+- group: build
+  title: ''
+  type: CLI
+  url: https://docs.aws.amazon.com/cli/latest/reference/codebuild/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://aws.amazon.com/tools/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+- group: operate
+  title: ''
+  type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+created: '2026-05-11'
+description: AWS CodeBuild is a fully managed continuous integration build service that compiles source code, runs unit tests, and produces deployable artifacts. It eliminates the need to provision, manage, and scale build servers by providing prepackaged build environments for popular languages and tools, and scales automatically to meet peak build requests. The CodeBuild API uses AWS Signature Version 4 (SigV4) authentication and is accessed via SDKs, the AWS CLI, or direct HTTPS calls to regional service endpoints.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-codebuild.png
+layout: provider
+modified: '2026-05-11'
+name: AWS CodeBuild
+nav: Providers
+network: true
+overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) network: AWS CodeBuild API API. Tagged areas include Build, CI/CD, Continuous Integration, Developer Tools, and DevOps.
+
+
+  AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
+random_paper: 40
+score:
+  band: thin
+  composite: 35.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 56.6
+    developer_ergonomics: 43.5
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 35.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/screenshots/aws-codebuild-2026-06-20T172754.png
+security:
+- kind: authentication
+  name: Aws Codebuild Authentication
+  slug: aws-codebuild-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Aws Codebuild Domain Security
+  slug: aws-codebuild-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Aws Codebuild Vulnerability Disclosure
+  slug: aws-codebuild-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Aws Codebuild Trust Center
+  slug: aws-codebuild-trust-center
+  summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+slug: aws-codebuild
+tags:
+- Build
+- CI/CD
+- Continuous Integration
+- Developer Tools
+- DevOps
+website: https://aws.amazon.com/codebuild/
+---

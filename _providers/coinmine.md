@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/coinmine-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://coinmine.com
+created: '2026-07-17'
+description: Coinmine is a consumer cryptocurrency-mining hardware company known for the Coinmine One, a plug-and-play home mining device that let non-technical owners mine and hold crypto assets from a simple companion app. The company was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the coinmine.com storefront is offline (the Shopify store returns "unavailable"), so no live developer portal, API, or documentation surface could be confirmed. The registrable domain remains active for email (SPF/DMARC configured), and this profile captures the honest, probed security posture of that domain.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinmine.png
+layout: provider
+modified: '2026-07-18'
+name: Coinmine
+nav: Providers
+network: true
+overview: Coinmine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Mining, Blockchain, and Hardware.
+random_paper: 34
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Coinmine Domain Security
+  slug: coinmine-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: coinmine
+tags:
+- Company
+- Cryptocurrency
+- Mining
+- Blockchain
+- Hardware
+- Consumer Electronics
+website: https://coinmine.com
+---

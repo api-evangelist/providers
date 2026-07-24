@@ -1,0 +1,148 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/maxima-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://maxima.ai/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://maxima.ai/security
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/maxima-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://maxima.ai/security
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/maxima-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://maxima.ai
+- group: company
+  title: ''
+  type: About
+  url: https://maxima.ai/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://maxima.ai/blog
+- group: company
+  title: ''
+  type: Careers
+  url: https://maxima.ai/careers
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://maxima.ai/newsroom
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://maxima.ai/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://maxima.ai/legal/terms-of-service
+- group: start
+  title: ''
+  type: Login
+  url: https://app.maximahq.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/maximaai/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@MaximaAIOfficial
+created: '2026-07-17'
+description: Maxima is an AI-native accounting and financial-close automation platform for enterprise finance teams. Its AI agents automate the core work of the accounting close — journal entries, cash coding, payroll entries, bank and balance-sheet reconciliations, flux (variance) analysis, and fixed-asset depreciation — while connecting natively to the systems finance teams already use (the company advertises 150+ integrations across ERPs, banks, and payroll providers). Maxima is an early-stage, enterprise-focused company backed by Kleiner Perkins. It was added to the API Evangelist network as a portfolio lead; as of this pass the company runs a corporate marketing site and a gated web application (app.maximahq.com) and does not publish a public developer API, developer portal, or machine-readable API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maxima.png
+layout: provider
+modified: '2026-07-20'
+name: Maxima
+nav: Providers
+network: true
+overview: 'Maxima is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Accounting, Financial Close, and Fintech.
+
+
+  Maxima''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
+random_paper: 25
+score:
+  band: emerging
+  composite: 18.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 18.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Maxima Domain Security
+  slug: maxima-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Maxima Vulnerability Disclosure
+  slug: maxima-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Maxima Trust Center
+  slug: maxima-trust-center
+  summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 42001
+slug: maxima
+tags:
+- Company
+- Ai
+- Accounting
+- Financial Close
+- Fintech
+- Automation
+- Enterprise
+- Agents
+website: https://maxima.ai
+---

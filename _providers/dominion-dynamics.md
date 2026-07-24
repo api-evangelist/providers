@@ -1,0 +1,131 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.defendthedominion.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.defendthedominion.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.defendthedominion.com/rss.xml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.defendthedominion.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Dominion-Dynamics
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dominion-dynamics-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dominion-dynamics-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/dominion-dynamics-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/dominion-dynamics-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.defendthedominion.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dominion-dynamics-domain-security.yml
+created: '2026-07-17'
+description: Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa, Ontario) building the autonomy stack for the Arctic and other extreme, infrastructure-constrained operating environments. It develops integrated autonomy, edge sensing, communications, and command-and-control systems for defence, security, and critical infrastructure. Its AuraNet platform is a peer-to-peer sensor mesh that fuses EO/IR/SAR imagery, SIGINT/EW/RF signals, telemetry, and structured reporting into a unified local intelligence stream that interoperates with existing allied C2 architectures, and its Aurion product is an open-source government procurement intelligence platform built on Canadian federal open data. Founded by Anduril alum Eliot Pence, the company raised a $139M CAD Series A (2026) led by Georgian. This profile currently has no public developer/API surface; the entry captures the company identity, security.txt, and llms.txt the company publishes.
+image: https://www.defendthedominion.com/og.jpg
+layout: provider
+modified: '2026-07-18'
+name: Dominion Dynamics
+nav: Providers
+network: true
+overview: 'Dominion Dynamics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Defense, National Security, and Autonomy.
+
+
+  Dominion Dynamics'' developer surface includes engineering blog and 10 more developer resources.'
+random_paper: 28
+score:
+  band: minimal
+  composite: 14.9
+  delta: 3.6
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 11.3
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 34.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dominion Dynamics Domain Security
+  slug: dominion-dynamics-domain-security
+  summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Dominion Dynamics Vulnerability Disclosure
+  slug: dominion-dynamics-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: dominion-dynamics
+tags:
+- Company
+- Deep Tech
+- Defense
+- National Security
+- Autonomy
+- Sensing
+- Command and Control
+- Arctic
+- Government
+- Canada
+website: https://www.defendthedominion.com/
+---

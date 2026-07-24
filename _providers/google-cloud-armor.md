@@ -1,0 +1,199 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Google Cloud Armor Agentic Access
+  operation_count: 7
+  slug: google-cloud-armor-agentic-access
+  summary_line: 7 operations · 5 acting
+api_count: 2
+apis:
+- description: Manage security policies for Cloud Armor
+  name: Google Cloud Armor SecurityPolicies API
+  slug: google-cloud-armor-securitypolicies-api
+- description: Manage individual rules within security policies
+  name: Google Cloud Armor SecurityPolicyRules API
+  slug: google-cloud-armor-securitypolicyrules-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Google Cloud Armor API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-cloud-armor-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-cloud-armor-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-cloud-armor-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/google-cloud-armor-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/google-cloud-armor-scopes.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/GoogleCloudPlatform
+- group: start
+  title: ''
+  type: Portal
+  url: https://cloud.google.com/armor
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cloud.google.com/armor/docs/configure-security-policies
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cloud.google.com/armor/docs
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://cloud.google.com/docs/authentication
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.google.com/armor/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://cloud.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://cloud.google.com/armor/docs/support
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/json-ld.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://docs.cloud.google.com/feeds/cloud-armor-release-notes.xml
+created: '2026-03-13'
+description: Google Cloud Armor provides DDoS protection and web application firewall (WAF) capabilities for Google Cloud applications, enabling you to create security policies that protect your services from attacks and unwanted traffic.
+finops:
+- name: Google Cloud Armor Finops
+  service_category: API
+  slug: google-cloud-armor-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-armor.png
+layout: provider
+modified: '2026-05-19'
+name: Google Cloud Armor
+nav: Providers
+network: true
+overview: 'Google Cloud Armor publishes 2 APIs on the [APIs.io](https://apis.io/) network: SecurityPolicies API and SecurityPolicyRules API. Tagged areas include DDoS Protection, Firewall, Google Cloud, Security, and WAF.
+
+
+  The Google Cloud Armor catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Google Cloud Armor''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+plans:
+- name: Google Cloud Armor Plans Pricing
+  plan_count: 3
+  slug: google-cloud-armor-plans-pricing
+random_paper: 22
+rate_limits:
+- limit_count: 5
+  name: Google Cloud Armor Rate Limits
+  slug: google-cloud-armor-rate-limits
+rules:
+- name: Google Cloud Armor API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: google-cloud-armor-jsonschema-spectral-rules
+scopes:
+- name: Google Cloud Armor Scopes
+  scope_count: 2
+  slug: google-cloud-armor-scopes
+  summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 59.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 56.6
+    developer_ergonomics: 45.7
+    discoverability: 60.0
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 59.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/screenshots/google-cloud-armor-2026-06-20T182043.png
+security:
+- kind: authentication
+  name: Google Cloud Armor Authentication
+  slug: google-cloud-armor-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Google Cloud Armor Domain Security
+  slug: google-cloud-armor-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Cloud Armor Vulnerability Disclosure
+  slug: google-cloud-armor-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-cloud-armor
+tags:
+- DDoS Protection
+- Firewall
+- Google Cloud
+- Security
+- WAF
+website: https://cloud.google.com/armor
+---

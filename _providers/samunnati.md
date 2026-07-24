@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/samunnati-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.samunnati.com
+created: '2026-07-17'
+description: Samunnati is an integrated agri-enterprise platform working to de-fragment India's agricultural value chain by connecting farmers, Farmer Producer Organizations (FPOs), and agri enterprises. It combines financial solutions (lending to farmers, FPOs, and agri businesses), trade facilitation and market linkages, and digital marketplaces (FPO Next, Trade Next, and input, output, credit, and consumer marketplaces), alongside innovation, research, and foundation-led community work. Operating across Chennai, Hyderabad, Bengaluru, Delhi, Mumbai, Kolkata, Jaipur, Odisha, Uttar Pradesh, and Bihar, it positions itself as one of India's largest agri enterprises. Samunnati runs several customer-facing digital platforms but does not publish a public developer portal or API at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samunnati.png
+layout: provider
+modified: '2026-07-21'
+name: Samunnati
+nav: Providers
+network: true
+overview: Samunnati is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Agriculture, Agri Finance, and Financial Services.
+random_paper: 7
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Samunnati Domain Security
+  slug: samunnati-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: samunnati
+tags:
+- Company
+- Consumer
+- Agriculture
+- Agri Finance
+- Financial Services
+- Marketplace
+- India
+- FinTech
+website: https://www.samunnati.com
+---

@@ -1,0 +1,127 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 5.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/trackonomy-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://trackonomy.ai
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://trackonomy.ai/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://trackonomy.ai/terms-of-use/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Trackonomy
+- group: company
+  title: ''
+  type: Careers
+  url: https://trackonomy.ai/careers/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://trackonomy.ai/contact-us/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://trackonomy.ai/newsroom/
+- group: operate
+  title: ''
+  type: Support
+  url: https://trackonomy.ai/customer-success-training/
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://trackonomy.ai/customer-success-training/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/trackonomy-llms.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/trackonomy/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCIPF532gccb_Uh5kM8k4deA
+created: '2026-07-17'
+description: Trackonomy is a supply chain visibility company that digitizes real-world operations with barely-there smart label sensors. Its SmartTape and THL Tape products provide item-level tracking, monitoring location, temperature, humidity, and light in real time, while its platform connects, automates, controls, and remediates operations processes at global scale for logistics, industrial, utilities, healthcare, government, and airline customers. Trackonomy is backed by 8VC. It advertises a customizable RESTful API and webhook-based real-time data exchange for platform customers, but publishes no public developer portal, API documentation, or SDKs.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trackonomy.png
+layout: provider
+modified: '2026-07-21'
+name: Trackonomy
+nav: Providers
+network: true
+overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, Supply Chain, Logistics, and Asset Tracking.
+
+
+  Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
+random_paper: 24
+score:
+  band: minimal
+  composite: 13.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 13.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Trackonomy Domain Security
+  slug: trackonomy-domain-security
+  summary_line: TLSv1.3
+slug: trackonomy
+tags:
+- Company
+- Internet of Things
+- Supply Chain
+- Logistics
+- Asset Tracking
+- Smart Labels
+- Sensors
+website: https://trackonomy.ai
+---

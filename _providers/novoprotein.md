@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/novoprotein-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://novoprotein.com.cn
+created: '2026-07-17'
+description: Novoprotein (Suzhou Novoprotein Scientific / 苏州近岸蛋白质科技股份有限公司) is a Chinese biotechnology company specializing in recombinant protein preparation and related life-science reagents and contract research services. Its catalog spans mRNA vaccine raw materials, cytokines and growth factors, Matrigel and culture media, reference and bispecific antibodies, cell lines, target proteins, and viral research products serving drug discovery, cell therapy, and diagnostics customers. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. As a B2B reagent supplier it publishes no public developer API, API documentation, or developer portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novoprotein.png
+layout: provider
+modified: '2026-07-20'
+name: novoprotein
+nav: Providers
+network: true
+overview: novoprotein is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Recombinant Proteins, and Antibodies.
+random_paper: 46
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Novoprotein Domain Security
+  slug: novoprotein-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: novoprotein
+tags:
+- Company
+- Biotechnology
+- Life Sciences
+- Recombinant Proteins
+- Antibodies
+- Reagents
+- Cell Therapy
+- Drug Discovery
+website: https://novoprotein.com.cn
+---

@@ -1,0 +1,95 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.meetme.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.meetme.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.meetme.com/en/termsandconditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.meetme.com/en/privacypolicy/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/meetme-domain-security.yml
+created: '2026-07-17'
+description: MeetMe is a consumer social-discovery and chat platform that helps people find and connect with new people nearby who share their interests, through profiles, feeds, live streaming, and real-time messaging on web and mobile. Operated by The Meet Group as part of the ParshipMeet Group, MeetMe grew out of the myYearbook social network and today runs as a location-aware social networking and dating-adjacent app. It was surfaced as a portfolio company of a16z and Norwest Venture Partners and added to the API Evangelist network. As of this enrichment pass MeetMe publishes no public developer portal, API reference, OpenAPI, or SDKs — this profile captures its identity, legal surface, and live domain-security posture only.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meetme.png
+layout: provider
+modified: '2026-07-20'
+name: MeetMe
+nav: Providers
+network: true
+overview: 'MeetMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Dating, and Messaging.
+
+
+  MeetMe''s developer surface includes support and 4 more developer resources.'
+random_paper: 25
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Meetme Domain Security
+  slug: meetme-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: meetme
+tags:
+- Company
+- Social
+- Social Networking
+- Dating
+- Messaging
+- Live Streaming
+- Consumer
+website: https://www.meetme.com
+---

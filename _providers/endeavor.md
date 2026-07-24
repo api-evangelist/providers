@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/endeavor-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/endeavor-co
+- group: company
+  title: ''
+  type: Website
+  url: https://wmegrp.com/
+- group: other
+  title: ''
+  type: Successor
+  url: https://wmegrp.com/
+- group: other
+  title: ''
+  type: Spinoff
+  url: https://www.tkogrp.com/
+created: '2026-03-21'
+description: Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity; no public developer APIs are currently published.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endeavor.png
+layout: provider
+modified: '2026-04-28'
+name: Endeavor
+nav: Providers
+network: true
+overview: Endeavor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Entertainment, Talent, Media, and Licensing.
+random_paper: 36
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png
+security:
+- kind: domain-security
+  name: Endeavor Domain Security
+  slug: endeavor-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: endeavor
+tags:
+- Sports
+- Entertainment
+- Talent
+- Media
+- Licensing
+- Marketing
+website: https://wmegrp.com/
+---

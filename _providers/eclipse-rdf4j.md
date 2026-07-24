@@ -1,0 +1,166 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Eclipse Rdf4J Agentic Access
+  operation_count: 20
+  slug: eclipse-rdf4j-agentic-access
+  summary_line: 20 operations · 12 acting
+api_count: 7
+apis:
+- description: Inspect named graphs (contexts) in a repository.
+  name: Eclipse RDF4J Contexts API
+  slug: eclipse-rdf4j-contexts-api
+- description: Manage namespace prefix declarations.
+  name: Eclipse RDF4J Namespaces API
+  slug: eclipse-rdf4j-namespaces-api
+- description: Protocol version of the server.
+  name: Eclipse RDF4J Protocol API
+  slug: eclipse-rdf4j-protocol-api
+- description: Manage and inspect RDF repositories.
+  name: Eclipse RDF4J Repositories API
+  slug: eclipse-rdf4j-repositories-api
+- description: Get the number of statements in a repository.
+  name: Eclipse RDF4J Size API
+  slug: eclipse-rdf4j-size-api
+- description: Read and modify the RDF statements in a repository.
+  name: Eclipse RDF4J Statements API
+  slug: eclipse-rdf4j-statements-api
+- description: Group multiple operations in an atomic transaction.
+  name: Eclipse RDF4J Transactions API
+  slug: eclipse-rdf4j-transactions-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: RDF4J Server REST API
+  slug: open-rdf4j-server-rest-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/eclipse-rdf4j-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/eclipse-rdf4j-domain-security.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://rdf4j.org/documentation/programming/getting-started/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://rdf4j.org/documentation/
+- group: learn
+  title: ''
+  type: Tutorials
+  url: https://rdf4j.org/documentation/tutorials/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://rdf4j.org/release-notes/
+- group: operate
+  title: ''
+  type: Issues
+  url: https://github.com/eclipse/rdf4j/issues
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/eclipse/rdf4j/discussions
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/eclipse/rdf4j
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/eclipse/rdf4j/blob/main/LICENSE.md
+- group: company
+  title: ''
+  type: Blog
+  url: https://rdf4j.org/index.xml
+created: '2024-01-01'
+description: Eclipse RDF4J is a powerful open-source Java framework for processing and handling RDF data. It supports creating, parsing, scalable storage, reasoning, and querying with RDF and Linked Data, and ships with an HTTP server (RDF4J Server) and a web-based Workbench. The framework offers an easy-to-use Java API and SPARQL 1.1 support, and integrates with leading RDF database solutions.
+finops:
+- name: Eclipse Rdf4J Finops
+  service_category: API
+  slug: eclipse-rdf4j-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eclipse-rdf4j.png
+layout: provider
+modified: '2026-05-19'
+name: Eclipse RDF4J
+nav: Providers
+network: true
+overview: 'Eclipse RDF4J publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open Source, and RDF.
+
+
+  Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 6 more developer resources.'
+plans:
+- name: Eclipse Rdf4J Plans Pricing
+  plan_count: 3
+  slug: eclipse-rdf4j-plans-pricing
+random_paper: 36
+rate_limits:
+- limit_count: 5
+  name: Eclipse Rdf4J Rate Limits
+  slug: eclipse-rdf4j-rate-limits
+score:
+  band: thin
+  composite: 38.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 47.0
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 52.6
+  previous_composite: 38.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
+security:
+- kind: domain-security
+  name: Eclipse Rdf4J Domain Security
+  slug: eclipse-rdf4j-domain-security
+  summary_line: TLSv1.3
+slug: eclipse-rdf4j
+tags:
+- Eclipse Foundation
+- Java
+- Linked Data
+- Open Source
+- RDF
+- Semantic Web
+- SPARQL
+- Triple Store
+---

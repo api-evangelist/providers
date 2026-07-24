@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://us.dantelabs.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ccgenomics
+created: '2026-07-17'
+description: Cambridge Cancer Genomics (CCG.ai) was a Cambridge, UK precision-oncology company founded in 2015 out of the University of Cambridge, building OncOS, an AI/machine-learning platform that analyzed genomic data from liquid biopsies (circulating tumor DNA) to help oncologists track tumor evolution and personalize cancer treatment. The company was a Y Combinator alumnus in the digital-biology sector and was acquired by Dante Labs in June 2021, after which OncOS was folded into Dante Labs' genomics platform. As of this enrichment pass the CCG.ai domain redirects to a domain-sale marketplace and the company operates no independent public developer or API surface; its historical first-party code lives only in the ccgenomics GitHub organization (research repositories, not published API SDKs).
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cambridge-cancer-genomics.png
+layout: provider
+modified: '2026-07-18'
+name: Cambridge Cancer Genomics
+nav: Providers
+network: true
+overview: Cambridge Cancer Genomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Precision Oncology, Genomics, and Machine Learning.
+random_paper: 41
+score:
+  band: minimal
+  composite: 6.3
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: cambridge-cancer-genomics
+tags:
+- Company
+- Digital Biology
+- Precision Oncology
+- Genomics
+- Machine Learning
+- Healthcare
+- Cancer Research
+- Bioinformatics
+website: https://us.dantelabs.com
+---

@@ -1,0 +1,150 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 13.5
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://blackore.ai/
+- group: other
+  title: ''
+  type: Company
+  url: https://blackore.ai/company
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://blackore.ai/pricing
+- group: auth
+  title: ''
+  type: Security
+  url: https://blackore.ai/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://blackore.ai/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://blackore.ai/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://blackore.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://blackore.ai/terms-of-service
+- group: company
+  title: ''
+  type: Blog
+  url: https://blackore.ai/news
+- group: start
+  title: ''
+  type: SignUp
+  url: https://auth.blackore.ai/u/login/identifier
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.blackore.ai/u/login/identifier
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/black-ore-ai/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/black-ore-technologies-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/black-ore-technologies-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/black-ore-technologies-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/black-ore-technologies-domain-security.yml
+created: '2026-07-17'
+description: Black Ore Technologies is an Austin, Texas AI company building AI infrastructure for tax and financial services. Founded in 2022 by Eyal Shinar (previously founder of the fintech unicorn Fundbox) and Pavel Kapovski, the company emerged from stealth in November 2023 with $60 million in funding led by Andreessen Horowitz (a16z) and Oak HC/FT. Its flagship product, Tax Autopilot, combines proprietary AI with federal and state tax codes to autonomously execute the full lifecycle of complex tax returns for Certified Public Accountants and accounting firms, spanning document ingestion, intelligent extraction, return preparation, workpaper generation, and tax software integration (UltraTax, Lacerte, ProConnect). The platform covers 1040 individual returns plus 1041, 1065, and Schedule K-1/K-3 automation, and is used by 40% of the top 20 leading firms. Black Ore does not publish a public developer API or OpenAPI at this time; its authentication is handled by an Auth0-hosted OpenID Connect
+  tenant at auth.blackore.ai.
+image: https://cdn.prod.website-files.com/68ecfebb353873d3847e78ca/68ecfebb353873d3847e7a29_black-ore-logo.svg
+layout: provider
+modified: '2026-07-18'
+name: Black Ore Technologies
+nav: Providers
+network: true
+overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Tax, and Accounting.
+
+
+  Black Ore Technologies'' developer surface includes pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
+random_paper: 16
+score:
+  band: emerging
+  composite: 22.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 13.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 22.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Black Ore Technologies Authentication
+  slug: black-ore-technologies-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Black Ore Technologies Domain Security
+  slug: black-ore-technologies-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Black Ore Technologies Trust Center
+  slug: black-ore-technologies-trust-center
+  summary_line: SOC 2 Type II
+slug: black-ore-technologies
+tags:
+- Company
+- Artificial Intelligence
+- Financial Services
+- Tax
+- Accounting
+- Fintech
+- Automation
+- Tax Preparation
+website: https://blackore.ai/
+---

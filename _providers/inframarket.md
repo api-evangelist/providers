@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.infra.market
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/inframarket-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://infra.market/vulnerability-disclosure/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/inframarket-domain-security.yml
+created: '2026-07-17'
+description: Infra.Market is a technology-enabled building materials platform serving India's construction and real estate sectors across the entire project lifecycle. Operating as a house of brands, it supplies concrete, aggregates, steel, AAC blocks, plywood, tiles, sanitaryware, paints, plumbing, modular kitchens, hardware, electricals, appliances, and rental equipment through both B2B (direct corporate sales with site delivery) and B2R (retail via dealers and distributors across 17,000+ touchpoints). It is backed by 280+ manufacturing facilities across 22 Indian states under brands including Shalimar Paints, RDC, IVAS, Robo, and Ultrafine, and is headquartered in Thane, Maharashtra. Added to the API Evangelist network as an Accel portfolio company; no public developer API surface has been identified to date.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inframarket.png
+layout: provider
+modified: '2026-07-19'
+name: Infra.Market
+nav: Providers
+network: true
+overview: Infra.Market is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Construction, Building Materials, and Manufacturing.
+random_paper: 50
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Inframarket Domain Security
+  slug: inframarket-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Inframarket Vulnerability Disclosure
+  slug: inframarket-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: inframarket
+tags:
+- Company
+- Ecommerce
+- Construction
+- Building Materials
+- Manufacturing
+- Marketplace
+- B2B
+- India
+website: https://www.infra.market
+---

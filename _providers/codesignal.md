@@ -1,0 +1,237 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 63.5
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
+  name: CodeSignal GraphQL API
+  slug: codesignal-graphql-api
+- description: Outbound webhook events across assessment, candidate, auditor, and live-interview workflows. Deliveries are signed with HMAC-SHA256.
+  name: CodeSignal Webhook API
+  slug: codesignal-webhook-api
+- description: The Organization API from Codesignal — 5 operation(s) for organization.
+  name: Codesignal Organization API
+  slug: codesignal-organization-api
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Codesignal Webhooks
+  slug: codesignal-webhooks
+common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/codesignal-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/codesignal-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/codesignal-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/codesignal-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/codesignal-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/codesignal-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/codesignal-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/codesignal-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/codesignal-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.codesignal.com/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/codesignal-learn-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/codesignal-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/codesignal-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/codesignal-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/codesignal-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://codesignal.com/security/disclosure-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.codesignal.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/codesignal-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.codesignal.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.codesignal.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://codesignal.github.io/developer-docs/graphql/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/codesignal
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.codesignal.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://codesignal.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://codesignal.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.codesignal.com/sign-up
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://codesignal.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://codesignal.com/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://codesignal.com
+created: '2026-07-17'
+description: CodeSignal is a technical interview and skills-assessment platform used by companies to screen, interview, and upskill software engineers. Its developer surface includes a GraphQL API (companies, tests, test sessions, interviews, and interview templates), a versioned Learn REST API (OpenAPI 3.1) for organization members, skill sets, and learning progress, a webhook event API covering assessment, candidate, auditor, and live-interview workflows with HMAC-SHA256 signed deliveries, and an official remote MCP server that lets AI agents work with assessments, candidate sessions, and interviews. CodeSignal is backed by Menlo Ventures.
+image: https://codesignal.com/wp-content/uploads/2022/12/codesignal-fallbck.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: codesignal-mcp.yml
+  slug: codesignal-mcpyml
+modified: '2026-07-18'
+name: Codesignal
+nav: Providers
+network: true
+overview: 'Codesignal publishes 1 API on the [APIs.io](https://apis.io/) network: Organization API. Tagged areas include Company, Technical Interview, Skills Assessment, Hiring, and Recruiting.
+
+
+  The Codesignal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+random_paper: 29
+scopes:
+- name: Codesignal Scopes
+  scope_count: 1
+  slug: codesignal-scopes
+  summary_line: 1 scope · clientCredentials
+score:
+  band: developing
+  composite: 52.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 61.1
+    developer_ergonomics: 56.5
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 39.5
+  previous_composite: 52.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Codesignal Authentication
+  slug: codesignal-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Codesignal Domain Security
+  slug: codesignal-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Codesignal Vulnerability Disclosure
+  slug: codesignal-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Codesignal Trust Center
+  slug: codesignal-trust-center
+  summary_line: trust center published
+slug: codesignal
+tags:
+- Company
+- Technical Interview
+- Skills Assessment
+- Hiring
+- Recruiting
+- Developer Skills
+- Assessment
+- Education
+- GraphQL
+- Webhooks
+website: https://codesignal.com
+---

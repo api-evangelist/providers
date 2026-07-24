@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aprende-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aprende.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://aprende.com/blog/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://aprende.com/preguntas-frecuentes/
+- group: start
+  title: ''
+  type: Login
+  url: https://campus.aprende.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aprende.com/terminos-y-condiciones/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aprende.com/avisos-de-privacidad/
+created: '2026-07-17'
+description: Aprende (Aprende Institute) is an online vocational education platform delivering Spanish-language courses and diplomados to Hispanic entrepreneurs and professionals across the United States and Latin America. The platform offers on-demand, mobile-friendly training across six main areas — gastronomy, entrepreneurship, wellness, beauty, skilled trades, and hospitality/events — taught by expert instructors, and is backed by 500 Global. It operates as a consumer education company with no public developer API surface; this profile tracks its identity and web properties in the API Evangelist network.
+image: https://aprende.com/wp-content/uploads/2020/09/favicon.png
+layout: provider
+modified: '2026-07-18'
+name: Aprende
+nav: Providers
+network: true
+overview: 'Aprende is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, Vocational Training, and Online Courses.
+
+
+  Aprende''s developer surface includes engineering blog and 6 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Aprende Domain Security
+  slug: aprende-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: aprende
+tags:
+- Company
+- Education
+- E-Learning
+- Vocational Training
+- Online Courses
+- EdTech
+- Spanish
+- Latin America
+website: https://aprende.com
+---

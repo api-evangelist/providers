@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gilion.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gilion.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.gilion.com/talk
+- group: start
+  title: ''
+  type: Login
+  url: https://app.gilion.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gilion.com/terms/en-global-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gilion.com/privacy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/gilion-formerly-ark-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.gilion.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gilion-formerly-ark-domain-security.yml
+created: '2026-07-17'
+description: Gilion (formerly ArK) is an AI-powered financial platform, headquartered in Stockholm, that sits between founders and investors to streamline how growth capital is allocated. For companies it offers non-dilutive growth funding for SaaS and technology businesses, including a Growth Loan and Seasonal Credit, underwritten by AI models of a company's trajectory. For banks, funds, and investors it offers an agentic-AI investment platform covering sourcing, due diligence, monitoring, and portfolio reporting. Gilion was rebranded from ArK and is backed by Creandum. The company publishes a public Trust Center (SOC 2 Type 2, CSA STAR, GDPR/CCPA/CPRA) but does not currently expose a public developer API; this profile tracks its security, compliance, and web presence in the API Evangelist network.
+image: https://framerusercontent.com/assets/62T62jjetbr3liDfxk2EGXs8ct0.png
+layout: provider
+modified: '2026-07-19'
+name: Gilion (formerly ArK)
+nav: Providers
+network: true
+overview: 'Gilion (formerly ArK) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Growth Financing, and Venture Debt.
+
+
+  Gilion (formerly ArK)''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+random_paper: 43
+score:
+  band: emerging
+  composite: 17.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gilion Formerly Ark Domain Security
+  slug: gilion-formerly-ark-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Gilion Formerly Ark Trust Center
+  slug: gilion-formerly-ark-trust-center
+  summary_line: SOC 2 Type 2, SOC 2 Type 1, CSA STAR, GDPR, CCPA, CPRA
+slug: gilion-formerly-ark
+tags:
+- Company
+- Fintech
+- Financial Services
+- Growth Financing
+- Venture Debt
+- Artificial Intelligence
+- Investment
+- SaaS
+website: https://www.gilion.com/
+---

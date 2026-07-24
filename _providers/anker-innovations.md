@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://anker.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.anker.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.anker.com/blogs
+- group: operate
+  title: ''
+  type: Support
+  url: https://service.anker.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.anker.com/policies/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.anker.com/policies/terms-of-service
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/anker-innovations-domain-security.yml
+created: '2026-07-17'
+description: Anker Innovations is a global consumer-electronics company headquartered in Shenzhen, China, known for its Anker charging and power products, Soundcore audio, eufy smart-home and security devices, Nebula projectors, and Anker SOLIX portable power and solar storage. Through the Anker Open Platform (developer.anker.com) the company exposes a developer surface that lets partners integrate and control Anker devices from their own applications via API and SDK, gated behind an Open Platform login. This profile was surfaced as a portfolio company of IDG Capital and is being enriched with the API Evangelist pipeline.
+image: https://developer.anker.com/anker.logo.png
+layout: provider
+modified: '2026-07-17'
+name: Anker Innovations
+nav: Providers
+network: true
+overview: 'Anker Innovations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Consumer Electronics, Smart Home, and IoT.
+
+
+  Anker Innovations'' developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 48
+score:
+  band: minimal
+  composite: 14.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Anker Innovations Domain Security
+  slug: anker-innovations-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: anker-innovations
+tags:
+- Company
+- Consumer Technology
+- Consumer Electronics
+- Smart Home
+- IoT
+- Audio
+- Charging
+- Device Management
+- Energy Storage
+website: https://anker.com/
+---

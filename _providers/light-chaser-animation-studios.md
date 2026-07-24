@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://www.zhuiguang.com/
+- group: company
+  title: ''
+  type: About
+  url: http://www.zhuiguang.com/?page_id=22&lang=en
+- group: company
+  title: ''
+  type: Press
+  url: http://www.zhuiguang.com/?cat=4
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/light-chaser-animation-studios-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/light-chaser-animation-studios-llms.txt
+created: '2026-07-17'
+description: 'Light Chaser Animation Studios (追光动画) is a Chinese computer-animation film studio founded in March 2013 by Gary Wang (王微), founder and former CEO of the video platform Tudou, and headquartered in Beijing. The studio produces original CG animated feature films for the Chinese domestic market, drawing on Chinese mythology, literature and history. Its released titles include Little Door Gods (小门神), Tea Pets (阿唐奇遇), Cats and Peachtopia (猫与桃花源), White Snake (白蛇：缘起), New Gods: Nezha Reborn (新神榜：哪吒重生), White Snake 2: Green Snake (白蛇2：青蛇劫起), New Gods: Yang Jian (新神榜：杨戬) and Chang An (长安三万里). Light Chaser is a film-production company rather than a technology vendor: its public web presence is a bilingual WordPress marketing and recruiting site at zhuiguang.com, and as of this enrichment pass it publishes no developer portal, API documentation, SDKs, or machine-readable API artifacts of any kind.'
+image: http://www.zhuiguang.com/wp-content/themes/wdboots/images/logo.png
+layout: provider
+modified: '2026-07-19'
+name: Light Chaser Animation Studios
+nav: Providers
+network: true
+overview: Light Chaser Animation Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Animation, Film, and Media.
+random_paper: 31
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Light Chaser Animation Studios Domain Security
+  slug: light-chaser-animation-studios-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: light-chaser-animation-studios
+tags:
+- Company
+- Consumer
+- Animation
+- Film
+- Media
+- Entertainment
+- Studio
+- China
+website: http://www.zhuiguang.com/
+---

@@ -1,0 +1,273 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 75.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 10
+  human_in_the_loop: 5
+  name: Go1 Agentic Access
+  operation_count: 20
+  slug: go1-agentic-access
+  summary_line: 20 operations · 10 acting · 5 human-in-the-loop
+api_count: 4
+apis:
+- description: The Enrollments API from Go1 — 3 operation(s) for enrollments.
+  name: Go1 Enrollments API
+  slug: go1-enrollments-api
+- description: The Learning objects API from Go1 — 5 operation(s) for learning objects.
+  name: Go1 Learning objects API
+  slug: go1-learning-objects-api
+- description: The Portals API from Go1 — 2 operation(s) for portals.
+  name: Go1 Portals API
+  slug: go1-portals-api
+- description: The Webhooks API from Go1 — 2 operation(s) for webhooks.
+  name: Go1 Webhooks API
+  slug: go1-webhooks-api
+arazzos:
+- description: ''
+  name: _Index
+  slug: _index
+- description: Search the Go1 learning library, enroll a learner, and confirm the enrollment.
+  name: Go1 — discover content and enroll a learner
+  slug: go1-discover-and-enroll
+- description: Create a customer portal and register a webhook subscription for Go1 events.
+  name: Go1 — provision a portal and subscribe to events
+  slug: go1-provision-portal-and-webhook
+artifact_total: 14
+asyncapis:
+- description: ''
+  name: Go1 Webhooks
+  slug: go1-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/go1-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/go1-agentic-access.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/go1-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/go1-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/go1-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/go1-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/go1-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/go1-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/go1-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/go1-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/go1-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/go1-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/go1-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/go1-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/go1-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/go1-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/go1-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.go1.com
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/go1-trust-center.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/go1-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/go1-discover-and-enroll.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/go1-provision-portal-and-webhook.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.go1.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.go1.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.go1.com/docs/overview/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.go1.com/api/rest/2025-01-01/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.go1.com/docs/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.go1.com/en
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.go1.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/go1com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.go1.com/plans
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.go1.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.go1.com/terms/customer-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.go1.com/terms/privacy-policy
+created: '2026-07-17'
+description: Go1 is an AI-powered corporate learning and development (L&D) platform that consolidates employee training into a single subscription. Its content library aggregates courses from 250+ providers across 40+ languages, layered with curation, skill-based learning paths, reporting and the Morgan by Go1 learning agent, and connects to existing HR and business systems through 75+ integrations. The Go1 developer platform exposes a date-versioned REST API (gateway.go1.com, Api-Version header) for discovering learning objects, managing enrollments, provisioning customer portals and subscribing to events via webhooks, secured with OAuth 2.0, plus JavaScript/React embedding SDKs and a webhook-verifier library. Go1 is backed by SoftBank Vision Fund and Y Combinator.
+image: https://www.go1.com/opengraph-image.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: go1-mcp.yml
+  slug: go1-mcpyml
+modified: '2026-07-19'
+name: Go1
+nav: Providers
+network: true
+overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, Edtech, Learning, E-Learning, and Corporate Training.
+
+
+  The Go1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
+random_paper: 8
+scopes:
+- name: Go1 Scopes
+  scope_count: 8
+  slug: go1-scopes
+  summary_line: 8 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 56.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 64.9
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 56.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Go1 Authentication
+  slug: go1-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Go1 Domain Security
+  slug: go1-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Go1 Trust Center
+  slug: go1-trust-center
+  summary_line: trust center published
+slug: go1
+tags:
+- Company
+- Edtech
+- Learning
+- E-Learning
+- Corporate Training
+- Content
+- Learning Management
+- LMS
+- Education
+- Webhooks
+website: https://www.go1.com/
+---

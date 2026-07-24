@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Status of all DigitalOcean services
+  name: DigitalOcean Status
+  slug: digitalocean-status
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/digitalocean-status-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/digitalocean-status-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://status.digitalocean.com/api
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
+created: '2026-05-28'
+description: Status of all DigitalOcean services
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digitalocean-status.png
+layout: provider
+modified: '2026-05-28'
+name: DigitalOcean Status
+nav: Providers
+network: true
+overview: DigitalOcean Status publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
+random_paper: 35
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digitalocean-status/refs/heads/main/screenshots/digitalocean-status-2026-06-20T180024.png
+security:
+- kind: domain-security
+  name: Digitalocean Status Domain Security
+  slug: digitalocean-status-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Digitalocean Status Vulnerability Disclosure
+  slug: digitalocean-status-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: digitalocean-status
+tags:
+- Development
+- Public APIs
+website: https://status.digitalocean.com/api
+---

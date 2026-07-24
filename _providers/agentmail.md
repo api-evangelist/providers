@@ -1,0 +1,330 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 83.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 57
+  human_in_the_loop: 0
+  name: Agentmail Agentic Access
+  operation_count: 119
+  slug: agentmail-agentic-access
+  summary_line: 119 operations · 57 acting
+api_count: 28
+apis:
+- description: The agent API from AgentMail — 2 operation(s) for agent.
+  name: AgentMail agent API
+  slug: agentmail-agent-api
+- description: The api-keys API from AgentMail — 2 operation(s) for api-keys.
+  name: AgentMail api-keys API
+  slug: agentmail-api-keys-api
+- description: The auth API from AgentMail — 1 operation(s) for auth.
+  name: AgentMail auth API
+  slug: agentmail-auth-api
+- description: The domains API from AgentMail — 4 operation(s) for domains.
+  name: AgentMail domains API
+  slug: agentmail-domains-api
+- description: The drafts API from AgentMail — 3 operation(s) for drafts.
+  name: AgentMail drafts API
+  slug: agentmail-drafts-api
+- description: The inboxes > api-keys API from AgentMail — 2 operation(s) for inboxes > api-keys.
+  name: AgentMail inboxes > api-keys API
+  slug: agentmail-inboxes-api-keys-api
+- description: The inboxes API from AgentMail — 2 operation(s) for inboxes.
+  name: AgentMail inboxes API
+  slug: agentmail-inboxes-api
+- description: The inboxes > drafts API from AgentMail — 4 operation(s) for inboxes > drafts.
+  name: AgentMail inboxes > drafts API
+  slug: agentmail-inboxes-drafts-api
+- description: The inboxes > events API from AgentMail — 1 operation(s) for inboxes > events.
+  name: AgentMail inboxes > events API
+  slug: agentmail-inboxes-events-api
+- description: The inboxes > lists API from AgentMail — 2 operation(s) for inboxes > lists.
+  name: AgentMail inboxes > lists API
+  slug: agentmail-inboxes-lists-api
+- description: The inboxes > messages API from AgentMail — 11 operation(s) for inboxes > messages.
+  name: AgentMail inboxes > messages API
+  slug: agentmail-inboxes-messages-api
+- description: The inboxes > metrics API from AgentMail — 2 operation(s) for inboxes > metrics.
+  name: AgentMail inboxes > metrics API
+  slug: agentmail-inboxes-metrics-api
+- description: The inboxes > threads API from AgentMail — 4 operation(s) for inboxes > threads.
+  name: AgentMail inboxes > threads API
+  slug: agentmail-inboxes-threads-api
+- description: The inboxes > webhooks API from AgentMail — 2 operation(s) for inboxes > webhooks.
+  name: AgentMail inboxes > webhooks API
+  slug: agentmail-inboxes-webhooks-api
+- description: The lists API from AgentMail — 2 operation(s) for lists.
+  name: AgentMail lists API
+  slug: agentmail-lists-api
+- description: The metrics API from AgentMail — 2 operation(s) for metrics.
+  name: AgentMail metrics API
+  slug: agentmail-metrics-api
+- description: The organizations API from AgentMail — 1 operation(s) for organizations.
+  name: AgentMail organizations API
+  slug: agentmail-organizations-api
+- description: The pods > api-keys API from AgentMail — 2 operation(s) for pods > api-keys.
+  name: AgentMail pods > api-keys API
+  slug: agentmail-pods-api-keys-api
+- description: The pods API from AgentMail — 2 operation(s) for pods.
+  name: AgentMail pods API
+  slug: agentmail-pods-api
+- description: The pods > domains API from AgentMail — 4 operation(s) for pods > domains.
+  name: AgentMail pods > domains API
+  slug: agentmail-pods-domains-api
+- description: The pods > drafts API from AgentMail — 3 operation(s) for pods > drafts.
+  name: AgentMail pods > drafts API
+  slug: agentmail-pods-drafts-api
+- description: The pods > inboxes API from AgentMail — 2 operation(s) for pods > inboxes.
+  name: AgentMail pods > inboxes API
+  slug: agentmail-pods-inboxes-api
+- description: The pods > lists API from AgentMail — 2 operation(s) for pods > lists.
+  name: AgentMail pods > lists API
+  slug: agentmail-pods-lists-api
+- description: The pods > metrics API from AgentMail — 2 operation(s) for pods > metrics.
+  name: AgentMail pods > metrics API
+  slug: agentmail-pods-metrics-api
+- description: The pods > threads API from AgentMail — 4 operation(s) for pods > threads.
+  name: AgentMail pods > threads API
+  slug: agentmail-pods-threads-api
+- description: The pods > webhooks API from AgentMail — 2 operation(s) for pods > webhooks.
+  name: AgentMail pods > webhooks API
+  slug: agentmail-pods-webhooks-api
+- description: The threads API from AgentMail — 4 operation(s) for threads.
+  name: AgentMail threads API
+  slug: agentmail-threads-api
+- description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
+  name: AgentMail webhooks API
+  slug: agentmail-webhooks-api
+artifact_total: 34
+asyncapis:
+- description: ''
+  name: API Reference
+  slug: agentmail-websockets-asyncapi
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.agentmail.to
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.agentmail.to
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.agentmail.to/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.agentmail.to/quickstart
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.agentmail.to/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.agentmail.to/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.agentmail.to
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.agentmail.to/support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/agentmail-to
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.agentmail.to/changelog
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/agentmail-openapi-original.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/agentmail-websockets-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.agentmail.to/webhooks-overview
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agentmail-openapi-overlay.yaml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/agentmail-authentication.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/agentmail-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/agentmail-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/agentmail-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/agentmail-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/agentmail-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/agentmail-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/agentmail-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/agentmail-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/agentmail-api-catalog.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/agentmail-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.agentmail.to/documentation/resources/security-privacy/soc-2-compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/agentmail-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/agentmail-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/agentmail-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/agentmail-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/agentmail-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/agentmail-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/agentmail-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: 'AgentMail is an API-first email platform that gives AI agents their own email inboxes to autonomously send, receive, reply to, and act on email. Unlike traditional transactional email APIs built for one-way notifications, AgentMail is designed for two-way threaded conversations: agents create inboxes on demand, read and semantically search messages, manage threads and drafts for human-in-the-loop review, apply labels and allow/block lists, and react to inbound mail in real time over webhooks or WebSockets. It ships a REST API (OpenAPI 3.1), an AsyncAPI 2.6 WebSocket surface, Python/Node/Go SDKs, a CLI, a hosted MCP server, and IMAP/SMTP bridges, with API-key permissions, idempotency, multi-tenant pods, custom domains, and SOC 2 Type I/II compliance.'
+image: https://www.agentmail.to/logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: agentmail-mcp.yml
+  slug: agentmail-mcpyml
+modified: '2026-07-17'
+name: AgentMail
+nav: Providers
+network: true
+overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 25 more. Tagged areas include Company, Ai, Email, API, and AI Agents.
+
+
+  The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+random_paper: 28
+score:
+  band: developing
+  composite: 53.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 64.0
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 53.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Agentmail Authentication
+  slug: agentmail-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Agentmail Domain Security
+  slug: agentmail-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Agentmail Trust Center
+  slug: agentmail-trust-center
+  summary_line: SOC 2 Type I, SOC 2 Type II
+slug: agentmail
+tags:
+- Company
+- Ai
+- Email
+- API
+- AI Agents
+- Inbox
+- Messaging
+- Webhooks
+- WebSockets
+- SMTP
+- IMAP
+- MCP
+- Agentic
+- Developer Tools
+website: https://docs.agentmail.to
+---

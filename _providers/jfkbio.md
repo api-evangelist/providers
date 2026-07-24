@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jfkbio-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://jfkbio.com
+created: '2026-07-17'
+description: jfkbio (今复康生物科技 / JFK Bio) is a biotechnology and life-sciences company in China, surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network for enrichment. Its public presence at jfkbio.com is a JavaScript single-page marketing site; no public developer portal, API documentation, OpenAPI definition, or other machine-readable API surface was found during enrichment, so most API artifact types are not applicable to this provider. This profile records what is genuinely observable today (identity and live domain-security posture) and remains a lead pending any future developer or API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jfkbio.png
+layout: provider
+modified: '2026-07-19'
+name: jfkbio
+nav: Providers
+network: true
+overview: jfkbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Healthcare, and Pharmaceuticals.
+random_paper: 17
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Jfkbio Domain Security
+  slug: jfkbio-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: jfkbio
+tags:
+- Company
+- Biotechnology
+- Life Sciences
+- Healthcare
+- Pharmaceuticals
+- China
+website: https://jfkbio.com
+---

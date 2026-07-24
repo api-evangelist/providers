@@ -1,0 +1,319 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 56.7
+  scored_at: '2026-07-23'
+api_count: 34
+apis:
+- description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
+  name: Unlock Subgraphs (GraphQL)
+  slug: unlock-subgraphs-graphql
+- description: The Applications API from Unlock Protocol — 3 operation(s) for applications.
+  name: Unlock Protocol Applications API
+  slug: unlock-protocol-applications-api
+- description: The Auth API from Unlock Protocol — 6 operation(s) for auth.
+  name: Unlock Protocol Auth API
+  slug: unlock-protocol-auth-api
+- description: The Captcha API from Unlock Protocol — 1 operation(s) for captcha.
+  name: Unlock Protocol Captcha API
+  slug: unlock-protocol-captcha-api
+- description: The Certificate API from Unlock Protocol — 1 operation(s) for certificate.
+  name: Unlock Protocol Certificate API
+  slug: unlock-protocol-certificate-api
+- description: The Charges API from Unlock Protocol — 1 operation(s) for charges.
+  name: Unlock Protocol Charges API
+  slug: unlock-protocol-charges-api
+- description: The Checkout API from Unlock Protocol — 2 operation(s) for checkout.
+  name: Unlock Protocol Checkout API
+  slug: unlock-protocol-checkout-api
+- description: The Claim API from Unlock Protocol — 2 operation(s) for claim.
+  name: Unlock Protocol Claim API
+  slug: unlock-protocol-claim-api
+- description: The Contracts API from Unlock Protocol — 1 operation(s) for contracts.
+  name: Unlock Protocol Contracts API
+  slug: unlock-protocol-contracts-api
+- description: The Credit Card Details API from Unlock Protocol — 1 operation(s) for credit card details.
+  name: Unlock Protocol Credit Card Details API
+  slug: unlock-protocol-credit-card-details-api
+- description: The Email API from Unlock Protocol — 3 operation(s) for email.
+  name: Unlock Protocol Email API
+  slug: unlock-protocol-email-api
+- description: The Email Subscriptions API from Unlock Protocol — 2 operation(s) for email subscriptions.
+  name: Unlock Protocol Email Subscriptions API
+  slug: unlock-protocol-email-subscriptions-api
+- description: The Event Collection API from Unlock Protocol — 9 operation(s) for event collection.
+  name: Unlock Protocol Event Collection API
+  slug: unlock-protocol-event-collection-api
+- description: The Events API from Unlock Protocol — 9 operation(s) for events.
+  name: Unlock Protocol Events API
+  slug: unlock-protocol-events-api
+- description: The Hooks API from Unlock Protocol — 2 operation(s) for hooks.
+  name: Unlock Protocol Hooks API
+  slug: unlock-protocol-hooks-api
+- description: The Images API from Unlock Protocol — 1 operation(s) for images.
+  name: Unlock Protocol Images API
+  slug: unlock-protocol-images-api
+- description: The Lock API from Unlock Protocol — 2 operation(s) for lock.
+  name: Unlock Protocol Lock API
+  slug: unlock-protocol-lock-api
+- description: The Lock Settings API from Unlock Protocol — 2 operation(s) for lock settings.
+  name: Unlock Protocol Lock Settings API
+  slug: unlock-protocol-lock-settings-api
+- description: The Locks API from Unlock Protocol — 4 operation(s) for locks.
+  name: Unlock Protocol Locks API
+  slug: unlock-protocol-locks-api
+- description: The Merkle Tree API from Unlock Protocol — 1 operation(s) for merkle tree.
+  name: Unlock Protocol Merkle Tree API
+  slug: unlock-protocol-merkle-tree-api
+- description: The Metadata API from Unlock Protocol — 4 operation(s) for metadata.
+  name: Unlock Protocol Metadata API
+  slug: unlock-protocol-metadata-api
+- description: The Pass API from Unlock Protocol — 2 operation(s) for pass.
+  name: Unlock Protocol Pass API
+  slug: unlock-protocol-pass-api
+- description: The Price API from Unlock Protocol — 1 operation(s) for price.
+  name: Unlock Protocol Price API
+  slug: unlock-protocol-price-api
+- description: The Privy API from Unlock Protocol — 1 operation(s) for privy.
+  name: Unlock Protocol Privy API
+  slug: unlock-protocol-privy-api
+- description: The Purchase API from Unlock Protocol — 6 operation(s) for purchase.
+  name: Unlock Protocol Purchase API
+  slug: unlock-protocol-purchase-api
+- description: The Receipts API from Unlock Protocol — 4 operation(s) for receipts.
+  name: Unlock Protocol Receipts API
+  slug: unlock-protocol-receipts-api
+- description: The Receipts Base API from Unlock Protocol — 1 operation(s) for receipts base.
+  name: Unlock Protocol Receipts Base API
+  slug: unlock-protocol-receipts-base-api
+- description: The Rsvp API from Unlock Protocol — 5 operation(s) for rsvp.
+  name: Unlock Protocol Rsvp API
+  slug: unlock-protocol-rsvp-api
+- description: The Stripe API from Unlock Protocol — 2 operation(s) for stripe.
+  name: Unlock Protocol Stripe API
+  slug: unlock-protocol-stripe-api
+- description: The Subscriptions API from Unlock Protocol — 1 operation(s) for subscriptions.
+  name: Unlock Protocol Subscriptions API
+  slug: unlock-protocol-subscriptions-api
+- description: The Ticket API from Unlock Protocol — 9 operation(s) for ticket.
+  name: Unlock Protocol Ticket API
+  slug: unlock-protocol-ticket-api
+- description: The Transfer API from Unlock Protocol — 2 operation(s) for transfer.
+  name: Unlock Protocol Transfer API
+  slug: unlock-protocol-transfer-api
+- description: The Users API from Unlock Protocol — 8 operation(s) for users.
+  name: Unlock Protocol Users API
+  slug: unlock-protocol-users-api
+- description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
+  name: Unlock Protocol Verifier API
+  slug: unlock-protocol-verifier-api
+artifact_total: 38
+asyncapis:
+- description: ''
+  name: Unlock Protocol Websub Webhooks
+  slug: unlock-protocol-websub-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://unlock-protocol.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.unlock-protocol.com/dashboard
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.unlock-protocol.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.unlock-protocol.com/category/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.unlock-protocol.com/getting-started/what-is-unlock/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.unlock-protocol.com/getting-started/getting-help
+- group: company
+  title: ''
+  type: Blog
+  url: https://unlock-protocol.com/blog
+- group: docs
+  title: ''
+  type: Guides
+  url: https://unlock-protocol.com/guides
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/unlock-protocol
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://docs.unlock-protocol.com/governance/roadmap
+- group: start
+  title: ''
+  type: Login
+  url: https://app.unlock-protocol.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://unlock-protocol.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://unlock-protocol.com/privacy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unlock-protocol-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/unlock-protocol-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unlock-protocol-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unlock-protocol-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/unlock-protocol-locksmith-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unlock-protocol-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/unlock-protocol-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unlock-protocol-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/unlock-protocol-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/unlock-protocol-domain-security.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/unlock-protocol-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/unlock-protocol-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/unlock-protocol-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/unlock-protocol-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/unlock-protocol-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/unlock-protocol-websub-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Unlock Protocol is an open-source, community-governed protocol for onchain memberships and subscriptions. Creators deploy "locks" (membership smart contracts) that mint time-based, optionally recurring membership NFTs ("keys") across Ethereum, Base, Optimism, Polygon, Arbitrum, and other networks. The hosted Locksmith REST API adds off-chain conveniences — metadata storage, event ticketing with QR verification, checkout configuration, receipts, fiat payments via Stripe Connect, WebSub webhooks, and email delivery — while GraphQL subgraphs index the contracts per network. Originally built by Unlock Labs, stewardship passed to the Unlock Protocol Foundation and the Unlock DAO in 2025.
+image: https://github.com/unlock-protocol.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: unlock-protocol-mcp.yml
+  slug: unlock-protocol-mcpyml
+modified: '2026-07-21'
+name: Unlock Protocol
+nav: Providers
+network: true
+overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Captcha API, and 30 more. Tagged areas include Blockchain, Memberships, Subscriptions, NFT, and Ticketing.
+
+
+  The Unlock Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Unlock Protocol''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
+random_paper: 49
+score:
+  band: developing
+  composite: 52.4
+  delta: 0.4
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 58.7
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 34.2
+  previous_composite: 52.0
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Unlock Protocol Authentication
+  slug: unlock-protocol-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Unlock Protocol Domain Security
+  slug: unlock-protocol-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: unlock-protocol
+tags:
+- Blockchain
+- Memberships
+- Subscriptions
+- NFT
+- Ticketing
+- Web3
+- Payments
+website: https://unlock-protocol.com/
+---

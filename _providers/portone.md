@@ -1,0 +1,332 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 86.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 89
+  human_in_the_loop: 34
+  name: Portone Agentic Access
+  operation_count: 147
+  slug: portone-agentic-access
+  summary_line: 147 operations · 89 acting · 34 human-in-the-loop
+api_count: 20
+apis:
+- description: Legacy V1 (Iamport) REST API on api.iamport.kr — token-authenticated (POST /users/getToken with imp_key/imp_secret) payment lookup, cancellation, non-authenticated and scheduled payments, virtual acco
+  name: PortOne REST API (V1, legacy Iamport)
+  slug: portone-rest-api-v1
+- description: The B2b API from PortOne — 26 operation(s) for b2b.
+  name: PortOne B2b API
+  slug: portone-b2b-api
+- description: The Banks API from PortOne — 1 operation(s) for banks.
+  name: PortOne Banks API
+  slug: portone-banks-api
+- description: The Billing Keys API from PortOne — 4 operation(s) for billing keys.
+  name: PortOne Billing Keys API
+  slug: portone-billing-keys-api
+- description: The Cash Receipts API from PortOne — 1 operation(s) for cash receipts.
+  name: PortOne Cash Receipts API
+  slug: portone-cash-receipts-api
+- description: The Checkout Profiles API from PortOne — 1 operation(s) for checkout profiles.
+  name: PortOne Checkout Profiles API
+  slug: portone-checkout-profiles-api
+- description: The Identity Verifications API from PortOne — 5 operation(s) for identity verifications.
+  name: PortOne Identity Verifications API
+  slug: portone-identity-verifications-api
+- description: The Kakaopay API from PortOne — 1 operation(s) for kakaopay.
+  name: PortOne Kakaopay API
+  slug: portone-kakaopay-api
+- description: The Login API from PortOne — 1 operation(s) for login.
+  name: PortOne Login API
+  slug: portone-login-api
+- description: The Payment Events By Cursor API from PortOne — 1 operation(s) for payment events by cursor.
+  name: PortOne Payment Events By Cursor API
+  slug: portone-payment-events-by-cursor-api
+- description: The Payment Gateways API from PortOne — 1 operation(s) for payment gateways.
+  name: PortOne Payment Gateways API
+  slug: portone-payment-gateways-api
+- description: The Payment Reconciliations API from PortOne — 2 operation(s) for payment reconciliations.
+  name: PortOne Payment Reconciliations API
+  slug: portone-payment-reconciliations-api
+- description: The Payment Schedules API from PortOne — 2 operation(s) for payment schedules.
+  name: PortOne Payment Schedules API
+  slug: portone-payment-schedules-api
+- description: The Payment Sessions API from PortOne — 3 operation(s) for payment sessions.
+  name: PortOne Payment Sessions API
+  slug: portone-payment-sessions-api
+- description: The Payments API from PortOne — 18 operation(s) for payments.
+  name: PortOne Payments API
+  slug: portone-payments-api
+- description: The Payments By Cursor API from PortOne — 1 operation(s) for payments by cursor.
+  name: PortOne Payments By Cursor API
+  slug: portone-payments-by-cursor-api
+- description: The Paymentwall API from PortOne — 1 operation(s) for paymentwall.
+  name: PortOne Paymentwall API
+  slug: portone-paymentwall-api
+- description: The Platform API from PortOne — 44 operation(s) for platform.
+  name: PortOne Platform API
+  slug: portone-platform-api
+- description: The Promotions API from PortOne — 1 operation(s) for promotions.
+  name: PortOne Promotions API
+  slug: portone-promotions-api
+- description: The Token API from PortOne — 1 operation(s) for token.
+  name: PortOne Token API
+  slug: portone-token-api
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Portone Webhooks
+  slug: portone-webhooks
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/portone-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/portone-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/portone-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/portone-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/portone-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/portone-io
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/portoneglobal
+- group: company
+  title: ''
+  type: Website
+  url: https://portone.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.portone.io/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/portone-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/portone-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/portone-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://developers.portone.io/opi/ko/support/release-note
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.portone.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.portone.io/opi/ko/quick-guide/payment
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.portone.io/opi/ko/support/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://admin.portone.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://terms.portone.io/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/portone-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/portone-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/portone-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/portone-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/portone-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/portone-overlay.yaml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/portone-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/portone-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/portone-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/portone-decline-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/portone-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/portone-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/portone-sandbox.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/portone-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://iamport.github.io/service-status/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developers.portone.io/api/backward-compatibility
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/portone-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/portone-webhooks.yml
+created: '2026-07-17'
+description: PortOne (formerly Iamport) is a Korea-based payment orchestration platform that lets online businesses integrate one API to reach 100+ Korean and global payment methods and PSPs. The V2 REST API (api.portone.io) covers payments, billing keys, scheduled/recurring payments, identity verification, cash receipts, B2B tax invoices, and partner settlement, with the legacy V1 API still served at api.iamport.kr.
+finops:
+- name: Portone Finops
+  service_category: Payments and Financial Services
+  slug: portone-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/portone.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: portone-mcp.yml
+  slug: portone-mcpyml
+modified: '2026-07-17'
+name: PortOne
+nav: Providers
+network: true
+overview: 'PortOne publishes 19 APIs on the [APIs.io](https://apis.io/) network, including B2b API, Banks API, Billing Keys API, and 16 more. Tagged areas include Payments, Payment Orchestration, Fintech, Korea, and Billing.
+
+
+  The PortOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  PortOne''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, signup flow, CLI, and 30 more developer resources.'
+plans:
+- name: Portone Plans Pricing
+  plan_count: 3
+  slug: portone-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 3
+  name: Portone Rate Limits
+  slug: portone-rate-limits
+score:
+  band: strong
+  composite: 67.4
+  delta: 0.4
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 63.2
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 84.2
+  previous_composite: 67.0
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 69.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Portone Authentication
+  slug: portone-authentication
+  summary_line: http · 3 schemes
+- kind: domain-security
+  name: Portone Domain Security
+  slug: portone-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Portone Vulnerability Disclosure
+  slug: portone-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Portone Trust Center
+  slug: portone-trust-center
+  summary_line: PCI DSS, ISMS
+slug: portone
+tags:
+- Payments
+- Payment Orchestration
+- Fintech
+- Korea
+- Billing
+- Identity Verification
+website: https://portone.io/
+---

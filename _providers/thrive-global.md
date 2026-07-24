@@ -1,0 +1,219 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-23'
+api_count: 8
+apis:
+- description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
+  name: Thrive Global audio experiences API
+  slug: thrive-global-audio-experiences-api
+- description: Partner authentication
+  name: Thrive Global auth API
+  slug: thrive-global-auth-api
+- description: Microsteps, challenges, courses, podcasts, and journey videos
+  name: Thrive Global content API
+  slug: thrive-global-content-api
+- description: Guided meditations — video sessions for relaxation, sleep, and stress management
+  name: Thrive Global meditations API
+  slug: thrive-global-meditations-api
+- description: Chronic condition programs (e.g. GLP-1 Companion)
+  name: Thrive Global programs API
+  slug: thrive-global-programs-api
+- description: Thrive Reset video and audio content
+  name: Thrive Global resets API
+  slug: thrive-global-resets-api
+- description: Search the full Thrive content library (premium capability — contact your Thrive Global representative to enable)
+  name: Thrive Global search API
+  slug: thrive-global-search-api
+- description: Articles, role model stories, and recipes
+  name: Thrive Global stories API
+  slug: thrive-global-stories-api
+artifact_total: 12
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.thriveglobal.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.thriveglobal.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.thriveglobal.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.thriveglobal.com/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.thriveglobal.com/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.thriveglobal.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://thriveglobal.com/articles
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/thriveglobal
+- group: start
+  title: ''
+  type: Login
+  url: https://app.thriveglobal.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://thriveglobal.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://thriveglobal.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://partners-api.thriveglobal.com/status
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/thrive-global-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/thrive-global-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/thrive-global-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/thrive-global-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/thrive-global-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/thrive-global-sandbox.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/thrive-global-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/thrive-global-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/thrive-global-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://thriveglobal.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/thrive-global-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/thrive-global-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: 'Thrive Global is the behavior-change technology company founded by Arianna Huffington that helps employers and healthcare organizations improve wellbeing through Microsteps across five daily behaviors: Connection, Food, Movement, Sleep, and Stress Management. Its Partner API (documented at developers.thriveglobal.com) serves the Thrive content library - Resets, stories, microsteps, challenges, learning courses, podcasts, meditations, soundscapes, bedtime stories, and chronic-condition programs - and an official MCP server at mcp.thriveglobal.com exposes user wellbeing data and actions to AI assistants.'
+image: https://developers.thriveglobal.com/brand-team-leaf-2.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: thrive-global-mcp.yml
+  slug: thrive-global-mcpyml
+modified: '2026-07-21'
+name: Thrive Global
+nav: Providers
+network: true
+overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) network, including audio experiences API, auth API, content API, and 5 more. Tagged areas include Company, Consumer, Wellness, Wellbeing, and Behavior Change.
+
+
+  Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
+random_paper: 2
+score:
+  band: developing
+  composite: 54.4
+  delta: 1.9
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 60.0
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 52.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Thrive Global Authentication
+  slug: thrive-global-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Thrive Global Domain Security
+  slug: thrive-global-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: trust-center
+  name: Thrive Global Trust Center
+  slug: thrive-global-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: thrive-global
+tags:
+- Company
+- Consumer
+- Wellness
+- Wellbeing
+- Behavior Change
+- Content
+- Healthcare
+- Employee Experience
+website: https://www.thriveglobal.com
+---

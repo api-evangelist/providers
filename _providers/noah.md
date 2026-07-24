@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.patchhomes.com
+created: '2026-07-17'
+description: Noah (originally founded as Patch Homes in 2016 and rebranded to Noah in 2020) was a US-based home-equity investment fintech backed by Union Square Ventures. It offered homeowners up-front financing in exchange for a share of their home's future appreciation, as an interest-free, no-monthly-payment alternative to a HELOC or cash-out refinance. The company raised roughly $156M across five rounds from seven investors before ceasing operations in 2024. This record is retained in the API Evangelist network as a historical VC-portfolio lead; no live public API, developer portal, or documentation surface was found during enrichment.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noah.png
+layout: provider
+modified: '2026-07-20'
+name: Noah
+nav: Providers
+network: true
+overview: Noah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Home Equity, Mortgage, and Real Estate.
+random_paper: 14
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: noah
+tags:
+- Company
+- Fintech
+- Home Equity
+- Mortgage
+- Real Estate
+- Lending
+- Financial Services
+- Defunct
+website: https://www.patchhomes.com
+---

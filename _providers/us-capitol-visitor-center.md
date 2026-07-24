@@ -1,0 +1,103 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The US Capitol Visitor Center provides visitor information, guided tours, educational programs, and specialty tours of the United States Capitol building. While no public developer API is available, t
+  name: US Capitol Visitor Center
+  slug: us-capitol-visitor-center
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/us-capitol-visitor-center-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/u-s-capitol-visitor-center
+created: '2024-12-03'
+description: The US Capitol Visitor Center (CVC) serves as the main entrance for visitors to the United States Capitol, providing resources and information to enhance the visitor experience. The Center offers guided tours of the Capitol building, allowing visitors to explore the historic rooms and learn about the legislative process. It also houses exhibits and educational materials that highlight the history and significance of the Capitol and its role in American democracy. The CVC operates under the Architect of the Capitol and offers free guided tours, specialty tours, virtual tours, and educational programs for students and visitors from around the world.
+finops:
+- name: Us Capitol Visitor Center Finops
+  service_category: API
+  slug: us-capitol-visitor-center-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-capitol-visitor-center.png
+jsonld:
+- class_count: 4
+  name: Us Capitol Visitor Center Context
+  property_count: 26
+  slug: us-capitol-visitor-center-context
+layout: provider
+modified: '2026-05-03'
+name: US Capitol Visitor Center
+nav: Providers
+network: true
+overview: 'US Capitol Visitor Center publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Legislative Branch, Tourism, Education, and US Capitol.
+
+
+  The US Capitol Visitor Center catalog on APIs.io includes 1 JSON-LD context.'
+plans:
+- name: Us Capitol Visitor Center Plans Pricing
+  plan_count: 3
+  slug: us-capitol-visitor-center-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 5
+  name: Us Capitol Visitor Center Rate Limits
+  slug: us-capitol-visitor-center-rate-limits
+score:
+  band: emerging
+  composite: 23.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 23.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/screenshots/us-capitol-visitor-center-2026-06-20T200616.png
+security:
+- kind: domain-security
+  name: Us Capitol Visitor Center Domain Security
+  slug: us-capitol-visitor-center-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC
+slug: us-capitol-visitor-center
+tags:
+- Federal Government
+- Legislative Branch
+- Tourism
+- Education
+- US Capitol
+---

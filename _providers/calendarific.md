@@ -1,0 +1,314 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Calendarific Agentic Access
+  operation_count: 3
+  slug: calendarific-agentic-access
+  summary_line: 3 operations
+api_count: 3
+apis:
+- description: List supported countries and their ISO codes.
+  name: Calendarific Countries API
+  slug: calendarific-countries-api
+- description: Retrieve holiday data for any country and year.
+  name: Calendarific Holidays API
+  slug: calendarific-holidays-api
+- description: List supported languages and their ISO codes.
+  name: Calendarific Languages API
+  slug: calendarific-languages-api
+artifact_total: 41
+collections:
+- collection_type: open
+  name: Calendarific Holiday API
+  slug: open-calendarific
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/calendarific-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/calendarific-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/calendarific-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://calendarific.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://calendarific.com/api-documentation
+- group: start
+  title: ''
+  type: Signup
+  url: https://calendarific.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://calendarific.com/login
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://calendarific.com/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/calendarific-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/calendarific-rate-limits.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://calendarific.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://calendarific.com/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://calendarific.com/contact
+- group: operate
+  title: ''
+  type: Contact
+  url: https://calendarific.com/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/calendarific/python-calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/calendarific/node-calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/calendarific/php-calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/calendarific/ruby-calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/calendarific/go-calendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/guibranco/calendarific-sdk-dotnet
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/rchaganti/PSCalendarific
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/Bounceapp/elixir-calendarific
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/calendarific-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/calendarific-vocabulary.yml
+- group: build
+  title: ''
+  type: Tools
+  url: https://github.com/noalimoy/calendarific-mcp-server
+created: '2026-05-28'
+description: Worldwide public holidays REST API covering 230+ countries. Calendarific provides national, local, religious, and observance holiday data with localization across many ISO-639 languages. Used for ecommerce scheduling, HR systems, travel planning, payroll, and global operations.
+examples:
+- key_count: 2
+  name: Calendarific List Countries Example
+  slug: calendarific-list-countries-example
+- key_count: 2
+  name: Calendarific List Holidays Example
+  slug: calendarific-list-holidays-example
+- key_count: 2
+  name: Calendarific List Languages Example
+  slug: calendarific-list-languages-example
+features:
+- description: Coverage of national holidays across more than 230 countries.
+  name: 230+ Countries
+- description: Holiday names and descriptions in many ISO-639 languages (premium).
+  name: Multi-Language Localization
+- description: Filter by national, local, religious, or observance categories.
+  name: Holiday Type Filtering
+- description: Filter by ISO-3166-2 state or region codes.
+  name: Sub-Region Filtering
+- description: Holidays from historical years through 2049.
+  name: Historical and Future Data
+- description: Download holiday data as flat files in addition to API access.
+  name: CSV and XLS Export
+- description: Multiple keys per account for environment separation.
+  name: Multiple API Keys
+finops:
+- name: Calendarific Finops
+  service_category: ''
+  slug: calendarific-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calendarific.png
+integrations:
+- description: Imported holiday data into Google Calendar via custom calendars.
+  name: Google Calendar
+- description: Hydrate Outlook calendars with localized holiday events.
+  name: Microsoft Outlook
+- description: Community Home Assistant sensor uses Calendarific as a data source.
+  name: Home Assistant
+- description: Community ETL examples using Python, SQLite, and Apache Airflow.
+  name: ETL Pipelines
+json_schemas:
+- name: Country
+  property_count: 5
+  slug: calendarific-country
+- name: Holiday
+  property_count: 11
+  slug: calendarific-holiday
+- name: Language
+  property_count: 2
+  slug: calendarific-language
+json_structures:
+- name: Calendarific Country Structure
+  property_count: 5
+  slug: calendarific-country-structure
+- name: Calendarific Holiday Structure
+  property_count: 10
+  slug: calendarific-holiday-structure
+- name: Calendarific Language Structure
+  property_count: 2
+  slug: calendarific-language-structure
+jsonld:
+- class_count: 18
+  name: Calendarific Context
+  property_count: 2
+  slug: calendarific-context
+layout: provider
+modified: '2026-05-29'
+name: Calendarific
+nav: Providers
+network: true
+overview: 'Calendarific publishes 3 APIs on the [APIs.io](https://apis.io/) network: Countries API, Holidays API, and Languages API. Tagged areas include Calendar, Public APIs, Holidays, Worldwide, and Localization.
+
+
+  The Calendarific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Calendarific''s developer surface includes authentication, signup flow, pricing, support, tooling, and 21 more developer resources.'
+plans:
+- name: Calendarific Plans Pricing
+  plan_count: 4
+  slug: calendarific-plans-pricing
+random_paper: 13
+rate_limits:
+- limit_count: 0
+  name: Calendarific Rate Limits
+  slug: calendarific-rate-limits
+rules:
+- name: Calendarific API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: calendarific-jsonschema-spectral-rules
+- name: Calendarific API Rules
+  rule_count: 6
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 4
+  slug: calendarific-rules
+score:
+  band: developing
+  composite: 59.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 84.2
+    contract_quality: 69.0
+    developer_ergonomics: 39.1
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 5.3
+  previous_composite: 59.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
+security:
+- kind: authentication
+  name: Calendarific Authentication
+  slug: calendarific-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Calendarific Domain Security
+  slug: calendarific-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: calendarific
+solutions:
+- description: REST API for embedding holiday data into apps and services.
+  name: Developer API
+- description: CSV and XLS bulk exports for analytics and offline use.
+  name: Data Downloads
+tags:
+- Calendar
+- Public APIs
+- Holidays
+- Worldwide
+- Localization
+use_cases:
+- description: Plan promotions, shipping cutoffs, and customer service hours around local holidays.
+  name: Ecommerce Scheduling
+- description: Populate localized leave calendars and statutory holiday pay.
+  name: HR and Payroll
+- description: Surface holiday windows that affect bookings, demand, and pricing.
+  name: Travel Planning
+- description: Plan global team staffing around local public holidays.
+  name: Workforce Scheduling
+- description: Hydrate enterprise calendars (Google, Outlook) with localized holidays.
+  name: Calendar Sync
+- description: Identify country-specific trading and settlement closures.
+  name: Financial Markets
+website: https://calendarific.com/
+---

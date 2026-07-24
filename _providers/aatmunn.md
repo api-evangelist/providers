@@ -1,0 +1,133 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aatmunn-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aatmunn.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://aatmunn.com/blogs
+- group: start
+  title: ''
+  type: Login
+  url: https://iiop.aatmunn.net/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://aatmunn.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aatmunn.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aatmunn.com/privacy-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trustcenter.aatmunn.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trustcenter.aatmunn.com/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/aatmunn-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://trustcenter.aatmunn.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aatmunn-llms.txt
+created: '2026-07-17'
+description: Aatmunn (formerly Guardhat, founded 2014 in Detroit and headquartered in Livonia, Michigan) is an industrial safety and asset intelligence platform for frontline and deskless workers. Its SPANR / Industrial Internet of People (IIoP) platform unifies workers, workplaces, and assets into one real-time system, connecting devices from any manufacturer and layering AI-driven insights for predictive hazard detection, emergency response, inspections, and compliance. Products include Inspections, Lone Worker Safety, Human Condition Monitoring, Gas Detection, Control Access Zoning, and Asset Tracking, serving 250+ companies across high-risk industries such as oil & gas, chemicals, mining & infrastructure, manufacturing, utilities, and warehousing & logistics. This profile was surfaced as a General Catalyst portfolio company and is maintained by the API Evangelist enrichment pipeline; Aatmunn publishes no public developer API, SDKs, or OpenAPI at this time.
+image: https://cdn.prod.website-files.com/6990c5c020329496a3df0e8f/6990c5c020329496a3df130e_Aatmunn_Logo_Final.png
+layout: provider
+modified: '2026-07-17'
+name: Aatmunn
+nav: Providers
+network: true
+overview: 'Aatmunn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Worker Safety, Industrial IoT, and Asset Intelligence.
+
+
+  Aatmunn''s developer surface includes engineering blog, support, and 10 more developer resources.'
+random_paper: 42
+score:
+  band: emerging
+  composite: 19.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 19.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Aatmunn Domain Security
+  slug: aatmunn-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Aatmunn Vulnerability Disclosure
+  slug: aatmunn-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Aatmunn Trust Center
+  slug: aatmunn-trust-center
+  summary_line: SOC 2 Type 2
+slug: aatmunn
+tags:
+- Company
+- Enterprise
+- Worker Safety
+- Industrial IoT
+- Asset Intelligence
+- Connected Worker
+- Occupational Safety
+- Compliance
+- Frontline Workers
+website: https://aatmunn.com/
+---

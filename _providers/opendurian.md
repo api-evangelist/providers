@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/opendurian-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://opendurian.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://opendurian.com/terms_of_service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://opendurian.com/privacy_policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://opendurian.com/about
+created: '2026-07-17'
+description: OpenDurian is a Bangkok, Thailand based educational technology company delivering hybrid (online plus offline) learning and test preparation. Its platform offers exam-prep courses for TOEIC, IELTS, TOEFL, TCAS and Thai civil-service exams, language instruction in English, Chinese and Japanese, secondary-school mathematics and science courses, an online bookstore, free English-proficiency assessment tools, and extensive practice-test question banks. The company reports reach in the millions of annual users across its learning ecosystem. It is a consumer-facing edtech product; as of this enrichment pass no public developer API, developer portal, or API documentation was found.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendurian.png
+layout: provider
+modified: '2026-07-20'
+name: OpenDurian
+nav: Providers
+network: true
+overview: 'OpenDurian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Test Preparation, and Language Learning.
+
+
+  OpenDurian''s developer surface includes support and 4 more developer resources.'
+random_paper: 6
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Opendurian Domain Security
+  slug: opendurian-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: opendurian
+tags:
+- Company
+- Education
+- EdTech
+- Test Preparation
+- Language Learning
+- E-Learning
+- Thailand
+- Online Courses
+website: https://opendurian.com
+---

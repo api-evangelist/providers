@@ -1,0 +1,329 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 34
+  human_in_the_loop: 0
+  name: Paradox Agentic Access
+  operation_count: 59
+  slug: paradox-agentic-access
+  summary_line: 59 operations · 34 acting
+api_count: 11
+apis:
+- description: OAuth 2.0 token and JWT verification endpoints
+  name: Paradox Authentication API
+  slug: paradox-authentication-api
+- description: Manage custom candidate attribute data
+  name: Paradox Candidate Attributes API
+  slug: paradox-candidate-attributes-api
+- description: Manage candidates including creating, retrieving, updating, deleting, messaging, and unsubscribing
+  name: Paradox Candidates API
+  slug: paradox-candidates-api
+- description: Access company-level data including conversations, groups, schools, areas, and AI assistant
+  name: Paradox Company API
+  slug: paradox-company-api
+- description: Manage location areas
+  name: Paradox Location Areas API
+  slug: paradox-location-areas-api
+- description: Manage location rooms
+  name: Paradox Location Rooms API
+  slug: paradox-location-rooms-api
+- description: Manage locations including creating, retrieving, updating, deleting, and lookup by job location code
+  name: Paradox Locations API
+  slug: paradox-locations-api
+- description: Access and generate reports
+  name: Paradox Reporting API
+  slug: paradox-reporting-api
+- description: Manage interview scheduling, interviewers, settings, rooms, alerts, and history
+  name: Paradox Scheduling API
+  slug: paradox-scheduling-api
+- description: Manage user location permissions
+  name: Paradox User Permissions API
+  slug: paradox-user-permissions-api
+- description: Manage users including creating, retrieving, updating, deleting, deactivating, and reactivating
+  name: Paradox Users API
+  slug: paradox-users-api
+artifact_total: 46
+collections:
+- collection_type: open
+  name: Paradox API
+  slug: open-paradox-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/paradox-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/paradox-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/paradox-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/paradox-scopes.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ParadoxAI
+- group: start
+  title: ''
+  type: Portal
+  url: https://readme.paradox.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://readme.paradox.ai/docs
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://readme.paradox.ai/reference/authentication
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://readme.paradox.ai/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.paradox.ai/
+- group: start
+  title: ''
+  type: Login
+  url: https://olivia.paradox.ai/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.paradox.ai/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.paradox.ai/legal/service-terms
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.paradox.ai/legal/security
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.paradox.ai/faqs
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.paradox.ai/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.paradox.ai/blog
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/paradoxolivia
+- group: company
+  title: ''
+  type: About
+  url: https://www.paradox.ai/about
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/paradox-api-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/paradox-candidate-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/paradox-context.jsonld
+created: '2025-01-01'
+description: APIs and resources for Paradox, a conversational AI recruiting assistant platform powered by Olivia, an AI assistant that automates candidate screening, interview scheduling, and hiring workflows through chat, SMS, and mobile-driven experiences.
+finops:
+- name: Paradox Finops
+  service_category: HR Technology
+  slug: paradox-finops
+image: https://www.paradox.ai/images/paradox-logo.png
+json_schemas:
+- name: AiAssistant
+  property_count: 3
+  slug: paradox-aiassistant
+- name: Area
+  property_count: 4
+  slug: paradox-area
+- name: AreaCreate
+  property_count: 2
+  slug: paradox-areacreate
+- name: Paradox Candidate
+  property_count: 45
+  slug: paradox-candidate
+- name: CandidateCreate
+  property_count: 43
+  slug: paradox-candidatecreate
+- name: CandidateUpdate
+  property_count: 28
+  slug: paradox-candidateupdate
+- name: Conversation
+  property_count: 6
+  slug: paradox-conversation
+- name: Group
+  property_count: 2
+  slug: paradox-group
+- name: Interview
+  property_count: 11
+  slug: paradox-interview
+- name: Interviewer
+  property_count: 4
+  slug: paradox-interviewer
+- name: InterviewSettings
+  property_count: 5
+  slug: paradox-interviewsettings
+- name: Location
+  property_count: 12
+  slug: paradox-location
+- name: LocationCreate
+  property_count: 8
+  slug: paradox-locationcreate
+- name: LocationPermission
+  property_count: 3
+  slug: paradox-locationpermission
+- name: LocationUpdate
+  property_count: 9
+  slug: paradox-locationupdate
+- name: Report
+  property_count: 6
+  slug: paradox-report
+- name: Role
+  property_count: 3
+  slug: paradox-role
+- name: Room
+  property_count: 5
+  slug: paradox-room
+- name: RoomCreate
+  property_count: 2
+  slug: paradox-roomcreate
+- name: SchoolArea
+  property_count: 3
+  slug: paradox-schoolarea
+- name: SuccessResponse
+  property_count: 1
+  slug: paradox-successresponse
+- name: User
+  property_count: 14
+  slug: paradox-user
+- name: UserCreate
+  property_count: 8
+  slug: paradox-usercreate
+- name: UserUpdate
+  property_count: 8
+  slug: paradox-userupdate
+json_structures:
+- name: Paradox Structure
+  property_count: 0
+  slug: paradox-structure
+jsonld:
+- class_count: 0
+  name: Paradox Context
+  property_count: 9
+  slug: paradox-context
+layout: provider
+modified: '2026-05-19'
+name: Paradox
+nav: Providers
+network: true
+overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbot, Conversational AI, and Hiring Automation.
+
+
+  The Paradox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Paradox''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, engineering blog, and 16 more developer resources.'
+plans:
+- name: Paradox Plans Pricing
+  plan_count: 1
+  slug: paradox-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 1
+  name: Paradox Rate Limits
+  slug: paradox-rate-limits
+rules:
+- name: Paradox API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: paradox-jsonschema-spectral-rules
+scopes:
+- name: Paradox Scopes
+  scope_count: 0
+  slug: paradox-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 59.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 63.2
+    contract_quality: 64.6
+    developer_ergonomics: 30.4
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 68.4
+  previous_composite: 59.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
+security:
+- kind: authentication
+  name: Paradox Authentication
+  slug: paradox-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Paradox Domain Security
+  slug: paradox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: paradox
+tags:
+- Artificial Intelligence
+- Candidate Screening
+- Chatbot
+- Conversational AI
+- Hiring Automation
+- HR Technology
+- Interview Scheduling
+- Recruiting
+- SMS
+- Talent Acquisition
+website: https://readme.paradox.ai/
+---

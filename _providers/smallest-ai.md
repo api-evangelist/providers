@@ -1,0 +1,187 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Smallest Ai Agentic Access
+  operation_count: 6
+  slug: smallest-ai-agentic-access
+  summary_line: 6 operations · 4 acting
+api_count: 4
+apis:
+- description: The Atoms platform for building, testing, and deploying production voice agents - orchestrating Waves TTS and Pulse STT with LLM-driven conversation flows, exposed through a developer API and dashboar
+  name: Smallest AI Atoms (Voice Agents)
+  slug: atoms-voice-agents
+- description: Realtime streaming speech synthesis.
+  name: Smallest AI Streaming API
+  slug: smallest-ai-streaming-api
+- description: Synthesize speech from text.
+  name: Smallest AI Text to Speech API
+  slug: smallest-ai-text-to-speech-api
+- description: List prebuilt voices and manage cloned voices.
+  name: Smallest AI Voices API
+  slug: smallest-ai-voices-api
+artifact_total: 15
+asyncapis:
+- description: Realtime, bidirectional text-to-speech over WebSocket for the Smallest AI Waves Lightning v2 model. The client opens a WebSocket connection, sends one or more JSON text payloads, and the server stream
+  name: Smallest AI Waves Realtime TTS (WebSocket)
+  slug: smallest-ai-asyncapi
+collections:
+- collection_type: open
+  name: Smallest AI Waves API
+  slug: open-smallest-ai
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/smallest-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/smallest-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/smallest-ai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/smallest-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/smallest-ai-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/smallest-inc
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/smallest
+- group: company
+  title: ''
+  type: Website
+  url: https://smallest.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.smallest.ai/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/smallest-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/smallest-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/smallest-ai-finops.yml
+created: '2026-06-21'
+description: Smallest AI builds ultra-low-latency voice infrastructure - the Waves text-to-speech engine (Lightning / Lightning v2 models) for realtime speech synthesis and instant voice cloning, plus the Atoms platform for building and deploying production voice agents. The Waves REST API at https://waves-api.smallest.ai/api/v1 generates speech with sub-100ms latency, supports SSE and WebSocket streaming, and exposes voice listing and cloning via a Bearer-authenticated interface.
+finops:
+- name: Smallest Ai Finops
+  service_category: AI and Machine Learning
+  slug: smallest-ai-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smallest-ai.png
+layout: provider
+modified: '2026-06-21'
+name: Smallest AI
+nav: Providers
+network: true
+overview: 'Smallest AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Streaming API, Text to Speech API, and Voices API. Tagged areas include AI, Text to Speech, Voice, Realtime, and Voice Agents.
+
+
+  The Smallest AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Smallest AI''s developer surface includes authentication, documentation, and 10 more developer resources.'
+plans:
+- name: Smallest Ai Plans Pricing
+  plan_count: 4
+  slug: smallest-ai-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 3
+  name: Smallest Ai Rate Limits
+  slug: smallest-ai-rate-limits
+rules:
+- name: Smallest AI API Rules
+  rule_count: 8
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 7
+  slug: smallest-ai-asyncapi-spectral-rules
+score:
+  band: developing
+  composite: 49.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 72.6
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 52.6
+    operational_transparency: 36.8
+  previous_composite: 49.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Smallest Ai Authentication
+  slug: smallest-ai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Smallest Ai Domain Security
+  slug: smallest-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Smallest Ai Vulnerability Disclosure
+  slug: smallest-ai-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Smallest Ai Trust Center
+  slug: smallest-ai-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: smallest-ai
+tags:
+- AI
+- Text to Speech
+- Voice
+- Realtime
+- Voice Agents
+website: https://smallest.ai/
+---

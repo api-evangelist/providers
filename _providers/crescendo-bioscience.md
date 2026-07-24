@@ -1,0 +1,70 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: 'Crescendo Bioscience was a molecular-diagnostics company based in South San Francisco, known for Vectra DA (later Vectra), a multi-biomarker blood test that measures disease activity in rheumatoid arthritis. Backed by Kleiner Perkins and other venture investors, it was acquired by Myriad Genetics in 2014 and its diagnostic product now sits within Myriad. It has no independent public developer surface: no API, developer portal, documentation, or SDKs, and its former domains no longer resolve. Retained in the API Evangelist network as a VC-portfolio lead; no API artifacts apply.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo-bioscience.png
+layout: provider
+modified: '2026-07-18'
+name: Crescendo Bioscience
+nav: Providers
+network: true
+overview: Crescendo Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, Molecular Diagnostics, and Biotechnology.
+random_paper: 50
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: crescendo-bioscience
+tags:
+- Company
+- Healthcare
+- Diagnostics
+- Molecular Diagnostics
+- Biotechnology
+- Life Sciences
+- Rheumatoid Arthritis
+---

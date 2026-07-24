@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://callin.com
+created: '2026-07-17'
+description: 'Callin was a social podcasting and live-streaming platform founded by David Sacks and Axel Ericsson, backed by Craft Ventures, that let creators stream live audio, take listener questions, then record, edit, publish and share the result as a podcast episode. The company was acquired by Rumble (NASDAQ: RUM) in May 2023 and the standalone consumer app was subsequently wound down. As of enrichment the callin.com domain returns only a Cloudflare-gated placeholder and the provider exposes no public API, developer portal, documentation, or SDK surface to enrich.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/callin.png
+layout: provider
+modified: '2026-07-18'
+name: Callin
+nav: Providers
+network: true
+overview: Callin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasting, Audio, and Live Streaming.
+random_paper: 15
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: callin
+tags:
+- Company
+- Consumer
+- Podcasting
+- Audio
+- Live Streaming
+- Social Audio
+- Media
+website: https://callin.com
+---

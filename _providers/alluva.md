@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alluva-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alluva.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.alluva.com/signup
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@alluva.com
+created: '2026-07-17'
+description: Alluva operates a global analyst marketplace centered on cryptocurrency and digital-asset price predictions. Users forecast the future price of assets such as Bitcoin and Ethereum across timeframes from 24 hours to six months, follow leading analysts, and earn redeemable rewards for accurate forecasts with no upfront investment. Asset pages surface detailed analysis and Buy/Hold/Sell recommendations. Alluva also packages its predictive market data for B2B customers - data providers, media houses, and financial institutions - with named clients including 500 Global, Refinitiv, Thomson Reuters, Economic Times, and Times of India. The company is a 500 Global portfolio company. No public API, developer portal, or SDK is published at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alluva.png
+layout: provider
+modified: '2026-07-17'
+name: Alluva
+nav: Providers
+network: true
+overview: 'Alluva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Predictions, Market Data, and Analytics.
+
+
+  Alluva''s developer surface includes signup flow, support, and 2 more developer resources.'
+random_paper: 33
+score:
+  band: minimal
+  composite: 10.7
+  delta: 0.4
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.3
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Alluva Domain Security
+  slug: alluva-domain-security
+  summary_line: TLSv1.3
+slug: alluva
+tags:
+- Company
+- Cryptocurrency
+- Predictions
+- Market Data
+- Analytics
+- Financial Data
+- Blockchain
+website: https://alluva.com
+---

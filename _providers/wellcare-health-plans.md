@@ -1,0 +1,251 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Wellcare Health Plans Agentic Access
+  operation_count: 15
+  slug: wellcare-health-plans-agentic-access
+  summary_line: 15 operations
+api_count: 13
+apis:
+- description: Member diagnosed conditions and clinical data.
+  name: wellcare-health-plans Condition API
+  slug: wellcare-health-plans-condition-api
+- description: Member insurance coverage and enrollment information.
+  name: wellcare-health-plans Coverage API
+  slug: wellcare-health-plans-coverage-api
+- description: Member care encounters and visits.
+  name: wellcare-health-plans Encounter API
+  slug: wellcare-health-plans-encounter-api
+- description: Claims and EOB data for medical, pharmacy, dental, and vision.
+  name: wellcare-health-plans Explanation of Benefits API
+  slug: wellcare-health-plans-explanation-of-benefits-api
+- description: Immunization records and history.
+  name: wellcare-health-plans Immunization API
+  slug: wellcare-health-plans-immunization-api
+- description: Insurance plan details including networks and coverage areas.
+  name: wellcare-health-plans Insurance Plan API
+  slug: wellcare-health-plans-insurance-plan-api
+- description: Physical care delivery locations and addresses.
+  name: wellcare-health-plans Location API
+  slug: wellcare-health-plans-location-api
+- description: Prescribed medications and medication orders.
+  name: wellcare-health-plans Medication Request API
+  slug: wellcare-health-plans-medication-request-api
+- description: Clinical observations, lab results, and vital signs.
+  name: wellcare-health-plans Observation API
+  slug: wellcare-health-plans-observation-api
+- description: Healthcare organizations, hospitals, and facilities.
+  name: wellcare-health-plans Organization API
+  slug: wellcare-health-plans-organization-api
+- description: Patient demographic and identity resources.
+  name: wellcare-health-plans Patient API
+  slug: wellcare-health-plans-patient-api
+- description: Individual healthcare practitioners and clinicians.
+  name: wellcare-health-plans Practitioner API
+  slug: wellcare-health-plans-practitioner-api
+- description: A practitioner's role within an organization and network.
+  name: wellcare-health-plans Practitioner Role API
+  slug: wellcare-health-plans-practitioner-role-api
+artifact_total: 31
+collections:
+- collection_type: open
+  name: WellCare FHIR Patient Access API
+  slug: open-wellcare-fhir-patient-access-api
+- collection_type: open
+  name: WellCare FHIR Provider Directory API
+  slug: open-wellcare-fhir-provider-directory-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/wellcare-health-plans-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wellcare-health-plans-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wellcare-health-plans-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/wellcare-health-plans-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/wellcare
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wellcare.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://partners.centene.com/apis
+- group: start
+  title: ''
+  type: InteroperabilityPortal
+  url: https://www.wellcare.com/en/interoperability-and-patient-access
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/wellcare-health-plans
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/wellcare-health-plans-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/wellcare-health-plans-vocabulary.yml
+description: WellCare Health Plans was a managed care company that focused exclusively on government-sponsored managed care services through Medicaid, Medicare Advantage, and Medicare Prescription Drug Plans before being acquired by Centene Corporation. Now operating under Centene, WellCare provides FHIR- compliant APIs for interoperability and patient access as required by CMS Interoperability and Patient Access final rules (CMS-9115-F). The Centene Developer Partner Portal at partners.centene.com/apis provides access to WellCare FHIR APIs.
+examples:
+- key_count: 2
+  name: Wellcare Fhir Patient Access Api Getpatient Example
+  slug: wellcare-fhir-patient-access-api-getPatient-example
+- key_count: 2
+  name: Wellcare Fhir Patient Access Api Listexplanationofbenefit Example
+  slug: wellcare-fhir-patient-access-api-listExplanationOfBenefit-example
+- key_count: 2
+  name: Wellcare Fhir Provider Directory Api Searchpractitioners Example
+  slug: wellcare-fhir-provider-directory-api-searchPractitioners-example
+finops:
+- name: Wellcare Health Plans Finops
+  service_category: API
+  slug: wellcare-health-plans-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wellcare-health-plans.png
+json_schemas:
+- name: WellCare FHIR Explanation of Benefit
+  property_count: 9
+  slug: wellcare-fhir-eob
+- name: WellCare FHIR Patient
+  property_count: 9
+  slug: wellcare-fhir-patient
+json_structures:
+- name: Wellcare Fhir Patient Structure
+  property_count: 0
+  slug: wellcare-fhir-patient-structure
+jsonld:
+- class_count: 7
+  name: Wellcare Health Plans Context
+  property_count: 27
+  slug: wellcare-health-plans-context
+layout: provider
+modified: '2026-05-19'
+name: wellcare-health-plans
+nav: Providers
+network: true
+overview: 'wellcare-health-plans publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Condition API, Coverage API, Encounter API, and 10 more. Tagged areas include Fortune 500.
+
+
+  The wellcare-health-plans catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  wellcare-health-plans'' developer surface includes authentication and 10 more developer resources.'
+plans:
+- name: Wellcare Health Plans Plans Pricing
+  plan_count: 3
+  slug: wellcare-health-plans-plans-pricing
+press:
+- date: '2026-05-25'
+  title: Centene Completes Acquisition of Apixio - Dec 8, 2020
+  url: https://investors.centene.com/2020-12-08-Centene-Completes-Acquisition-of-Apixio
+- date: '2026-05-25'
+  title: Cohere Health Adds Dr. Mark Leenay to Board of Directors ...
+  url: https://www.prnewswire.com/news-releases/cohere-health-adds-dr-mark-leenay-to-board-of-directors-to-advance-clinical-ai-leadership-and-health-plan-collaborations-302694925.html
+- date: '2026-05-25'
+  title: WellCare Health Plans, Inc.
+  url: https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21044
+- date: '2026-05-25'
+  title: Wellcare Enhances Offering of Affordable, Quality ...
+  url: https://www.prnewswire.com/news-releases/wellcare-enhances-offering-of-affordable-quality-medicare-advantage-and-medicare-prescription-drug-plans-in-2026-302582597.html
+- date: '2026-05-25'
+  title: Wellcare Announces Refreshed Brand in Effort to Better ...
+  url: https://www.prnewswire.com/news-releases/wellcare-announces-refreshed-brand-in-effort-to-better-serve-medicare-members-301366933.html
+random_paper: 18
+rate_limits:
+- limit_count: 5
+  name: Wellcare Health Plans Rate Limits
+  slug: wellcare-health-plans-rate-limits
+rules:
+- name: wellcare-health-plans API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: wellcare-health-plans-jsonschema-spectral-rules
+- name: wellcare-health-plans API Rules
+  rule_count: 9
+  severity_counts:
+    error: 3
+    hint: 1
+    info: 0
+    warn: 5
+  slug: wellcare-health-plans-rules
+scopes:
+- name: Wellcare Health Plans Scopes
+  scope_count: 8
+  slug: wellcare-health-plans-scopes
+  summary_line: 8 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 72.6
+    developer_ergonomics: 19.6
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 50.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Wellcare Health Plans Authentication
+  slug: wellcare-health-plans-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Wellcare Health Plans Domain Security
+  slug: wellcare-health-plans-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: wellcare-health-plans
+tags:
+- Fortune 500
+website: https://www.wellcare.com
+---

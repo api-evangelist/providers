@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cnanotechnology.com/en/
+created: '2026-07-17'
+description: CNANO (Jiangsu Cnano Technology Co., Ltd., Shanghai STAR Market 688116) is a carbon nanotube and graphene materials manufacturer founded in 2011 and headquartered in Zhenjiang, China, with a US arm (Cnano USA) in Santa Clara, California. It develops and mass-produces multi-wall and single-wall carbon nanotube powders, conductive pastes, graphene composite pastes, and conductive masterbatches used as additives in lithium-ion batteries, conductive polymer composites, antistatic coatings, and tire rubber reinforcement. It is one of the largest global producers of multi-wall carbon nanotubes for battery applications. Backed by IDG Capital. This is a physical-materials manufacturer with no public developer API, documentation portal, or SDK surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cnano.png
+layout: provider
+modified: '2026-07-18'
+name: CNANO
+nav: Providers
+network: true
+overview: CNANO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Nanotubes, Graphene, Advanced Materials, and Battery Materials.
+random_paper: 17
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: cnano
+tags:
+- Company
+- Carbon Nanotubes
+- Graphene
+- Advanced Materials
+- Battery Materials
+- Nanotechnology
+- Manufacturing
+website: https://www.cnanotechnology.com/en/
+---

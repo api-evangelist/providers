@@ -1,0 +1,221 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 56.7
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: The Agent API from Sobot — 1 operation(s) for agent.
+  name: Sobot Agent API
+  slug: sobot-agent-api
+- description: The basic-public/service/坐席信息管理 API from Sobot — 6 operation(s) for basic-public/service/坐席信息管理.
+  name: Sobot basic-public/service/坐席信息管理 API
+  slug: sobot-basic-public-service-api
+- description: The Exts API from Sobot — 15 operation(s) for exts.
+  name: Sobot Exts API
+  slug: sobot-exts-api
+- description: The User API from Sobot — 16 operation(s) for user.
+  name: Sobot User API
+  slug: sobot-user-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Sobot Voice Webhooks
+  slug: sobot-voice-webhooks
+common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sobot-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sobot-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.sobot.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.sobot.io/api-reference/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.sobot.io/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.sobot.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.sobot.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sobot.io/blog/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://sg.sobot.io/auth/sign_up
+- group: start
+  title: ''
+  type: Login
+  url: https://sg.sobot.io/auth/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sobot.io/terms-of-services
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sobot.io/privacy-protection-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sobot-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sobot-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sobot-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sobot-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sobot-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sobot-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sobot-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/sobot-voice-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sobot-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sobot-conformance.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/sobot-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sobot-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sobot-online-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sobot-basic-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sobot-voice-overlay.yaml
+created: '2026-07-17'
+description: Sobot is an all-in-one AI-powered contact center and customer engagement platform used by more than 100,000 companies worldwide. Its products span an omnichannel Live Chat workspace, a multilingual AI Chatbot, cloud Voice / call-center with global numbers, a collaborative Ticketing system, a WhatsApp Business API, and outbound Voicebot / telemarketing. Sobot exposes developer APIs for online chat sessions, agent and department management, and voice extension administration, plus first-party SDKs for Android, iOS, HarmonyOS NEXT, Flutter, and Web (JavaScript) so teams can embed chat, voice, and ticketing into their own applications. The developer surface is documented on a Mintlify docs site and secured with HTTP bearer tokens.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sobot.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: sobot-mcp.yml
+  slug: sobot-mcpyml
+modified: '2026-07-21'
+name: Sobot
+nav: Providers
+network: true
+overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agent API, basic-public/service/坐席信息管理 API, Exts API, and 1 more. Tagged areas include Company, Enterprise, Contact Center, Customer Service, and Live Chat.
+
+
+  The Sobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
+random_paper: 41
+score:
+  band: developing
+  composite: 49.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 58.6
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 49.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Sobot Authentication
+  slug: sobot-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Sobot Domain Security
+  slug: sobot-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: sobot
+tags:
+- Company
+- Enterprise
+- Contact Center
+- Customer Service
+- Live Chat
+- Chatbot
+- Voice
+- Ticketing
+- WhatsApp
+- Omnichannel
+- Communications
+- Artificial Intelligence
+website: https://docs.sobot.io/
+---

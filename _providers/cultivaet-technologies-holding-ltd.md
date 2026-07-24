@@ -1,0 +1,73 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cultivaet.ai/
+created: '2026-07-17'
+description: Cultivaet Technologies Holding Ltd. is an AI-driven agricultural technology ("AgriTech for Humanity") startup based in Egypt serving smallholder farmers across the Middle East. Its products include a Farmer AI Companion delivering personalized weather, crop-planning, pest-control and soil-health insights, a Knowledge Platform that collects/analyzes/distributes social and scientific agricultural data, and a Business SaaS connecting farmers with food-industry buyers for sustainable procurement and traceability. The company is backed by 500 Global and Sanabil and is part of the Google Cloud Startups Program (pre-seed, 2024). As of this enrichment pass Cultivaet publishes only a marketing site (cultivaet.ai) with no public API, developer portal, documentation, SDKs, or other developer surface, so no API artifacts were generated.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cultivaet-technologies-holding-ltd.png
+layout: provider
+modified: '2026-07-18'
+name: Cultivaet Technologies Holding Ltd.
+nav: Providers
+network: true
+overview: Cultivaet Technologies Holding Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgriTech, Agriculture, Artificial Intelligence, and Machine Learning.
+random_paper: 44
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: cultivaet-technologies-holding-ltd
+tags:
+- Company
+- AgriTech
+- Agriculture
+- Artificial Intelligence
+- Machine Learning
+- SaaS
+- Sustainability
+- Egypt
+- Middle East
+website: https://cultivaet.ai/
+---

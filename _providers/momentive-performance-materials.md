@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/momentive-performance-materials-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/momentive
+- group: company
+  title: ''
+  type: Website
+  url: https://www.momentive.com
+created: '2026-03-24'
+description: Momentive Performance Materials is a global silicones and advanced materials company that produces specialty silicones, urethane additives, and quartz technologies for industrial and consumer markets.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/momentive-performance-materials.png
+layout: provider
+modified: '2026-04-28'
+name: Momentive Performance Materials
+nav: Providers
+network: true
+overview: Momentive Performance Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Materials, Silicones, and Specialty Chemicals.
+press:
+- date: '2026-05-25'
+  title: NY-MOMENTIVE-PERFORMANCE | Business Wire - Via Ritzau
+  url: https://via.ritzau.dk/pressemeddelelse/3774435/ny-momentive-performance?publisherId=90456
+- date: '2026-05-25'
+  title: Momentive Performance Materials Announces Series Of ...
+  url: https://www.prnewswire.com/news-releases/momentive-performance-materials-announces-series-of-steps-to-accelerate-growth-in-specialty-chemicals-301106762.html
+- date: '2026-05-25'
+  title: Piper Sandler Advises Momentive Performance Materials ...
+  url: https://www.sttinfo.fi/tiedote/69885989/piper-sandler-advises-momentive-performance-materials-on-the-sale-of-its-consumer-sealants-business-to-henkel-corporation?publisherId=58763726
+- date: '2026-05-25'
+  title: Momentive Acquires KCC to Enhance Silicone Capabilities
+  url: https://www.cosmeticsandtoiletries.com/news/companies/news/21843934/momentive-performance-materials-momentive-acquires-kcc-to-enhance-silicone-capabilities
+- date: '2026-05-25'
+  title: Momentive Performance Materials Inc. Upgraded to
+  url: https://www.spglobal.com/ratings/es/regulatory/article/-/view/type/HTML/id/3305974
+random_paper: 40
+score:
+  band: minimal
+  composite: 5.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png
+security:
+- kind: domain-security
+  name: Momentive Performance Materials Domain Security
+  slug: momentive-performance-materials-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: momentive-performance-materials
+tags:
+- Materials
+- Silicones
+- Specialty Chemicals
+website: https://www.momentive.com
+---

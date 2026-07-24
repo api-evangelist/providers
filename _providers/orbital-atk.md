@@ -1,0 +1,98 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/atk
+- group: company
+  title: ''
+  type: Website
+  url: https://www.orbital-atk.com
+- group: other
+  title: ''
+  type: Successor Company
+  url: https://www.northropgrumman.com/
+- group: other
+  title: ''
+  type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Orbital_ATK
+created: '2026-03-24'
+description: Orbital ATK was an American aerospace manufacturer and defense industry company formed in February 2015 by the merger of Orbital Sciences Corporation and the defense and aerospace divisions of Alliant Techsystems. The company produced launch vehicles, satellites, missiles, ammunition, precision-guided munitions, rocket motors, and the Cygnus spacecraft for ISS resupply before being acquired by Northrop Grumman on June 6, 2018 and rebranded as Northrop Grumman Innovation Systems.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orbital-atk.png
+layout: provider
+modified: '2026-04-28'
+name: Orbital ATK
+nav: Providers
+network: true
+overview: Orbital ATK is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Launch Vehicles, Satellites, and Spacecraft.
+press:
+- date: '2026-05-25'
+  title: 'Research Update: Orbital ATK Inc. (Formerly Allia'
+  url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9029481
+- date: '2026-05-25'
+  title: 'Category: Press Releases'
+  url: https://www.govconwire.com/category/press-releases/page/421
+- date: '2026-05-25'
+  title: Press Releases
+  url: https://aerospace.org/press-releases-archive?page=4
+- date: '2026-05-25'
+  title: According to a press release issued this morning Northrop ...
+  url: https://www.facebook.com/Amanda.Mangan.News/posts/according-to-a-press-release-issued-this-morning-northrop-grumman-corporation-an/1589962124360223/
+- date: '2026-05-25'
+  title: Northrop Grumman to Acquire Orbital ATK for $9.2 Billion
+  url: https://kommunikasjon.ntb.no/pressemelding/15882142/northrop-grumman-to-acquire-orbital-atk-for-92-billion?publisherId=4954260
+random_paper: 43
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: orbital-atk
+tags:
+- Aerospace
+- Defense
+- Launch Vehicles
+- Satellites
+- Spacecraft
+- Acquired
+website: https://www.orbital-atk.com
+---

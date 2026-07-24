@@ -1,0 +1,265 @@
+---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 1
+  name: Epic Games Agentic Access
+  operation_count: 17
+  slug: epic-games-agentic-access
+  summary_line: 17 operations · 5 acting · 1 human-in-the-loop
+api_count: 14
+apis:
+- description: Epic Online Services is Epic's free cross-platform backend for games. EOS exposes both a native C/C++ SDK (with Unity, Unreal, and platform wrappers) and a set of REST web services covering identity (
+  name: Epic Online Services (EOS)
+  slug: epic-online-services
+- description: Epic Account Services provides OAuth 2.0 / OIDC sign-in with an Epic Account, exposing user identity, display name, country, preferred language, and linked-account information to integrating games and
+  name: Epic Account Services
+  slug: epic-account-services
+- description: The Epic Games Store publishing surface lets developers upload builds, configure store pages, manage offers, run sales, and integrate with EOS achievements and entitlements. Publishing tools include t
+  name: Epic Games Store Publishing
+  slug: epic-games-store-publishing
+- description: Kids Web Services is Epic's compliance and parental-verification platform for games and online services that handle children's data. KWS exposes REST APIs and an SDK for age verification, parental con
+  name: Kids Web Services (KWS)
+  slug: kids-web-services
+- description: Unreal Engine is profiled separately. See the unreal-engine entry for Unreal SDK / Plugin / Pixel Streaming / RHI / Online Subsystem details.
+  name: Unreal Engine (Pointer)
+  slug: unreal-engine-pointer
+- description: The Achievements API from Epic Games — 2 operation(s) for achievements.
+  name: Epic Games Achievements API
+  slug: epic-games-achievements-api
+- description: The Auth API from Epic Games — 4 operation(s) for auth.
+  name: Epic Games Auth API
+  slug: epic-games-auth-api
+- description: The Connect API from Epic Games — 1 operation(s) for connect.
+  name: Epic Games Connect API
+  slug: epic-games-connect-api
+- description: The Ecom API from Epic Games — 1 operation(s) for ecom.
+  name: Epic Games Ecom API
+  slug: epic-games-ecom-api
+- description: The Leaderboards API from Epic Games — 2 operation(s) for leaderboards.
+  name: Epic Games Leaderboards API
+  slug: epic-games-leaderboards-api
+- description: The PlayerDataStorage API from Epic Games — 1 operation(s) for playerdatastorage.
+  name: Epic Games PlayerDataStorage API
+  slug: epic-games-playerdatastorage-api
+- description: The Sanctions API from Epic Games — 1 operation(s) for sanctions.
+  name: Epic Games Sanctions API
+  slug: epic-games-sanctions-api
+- description: The Stats API from Epic Games — 1 operation(s) for stats.
+  name: Epic Games Stats API
+  slug: epic-games-stats-api
+- description: The TitleStorage API from Epic Games — 1 operation(s) for titlestorage.
+  name: Epic Games TitleStorage API
+  slug: epic-games-titlestorage-api
+artifact_total: 24
+collections:
+- collection_type: open
+  name: Epic Online Services Web API
+  slug: open-epic-games
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/epic-games-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/epic-games-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/epic-games-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/epic-games-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/epic-games-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.epicgames.com
+- group: other
+  title: ''
+  type: Store
+  url: https://store.epicgames.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://dev.epicgames.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dev.epicgames.com/docs
+- group: operate
+  title: ''
+  type: Community
+  url: https://dev.epicgames.com/community
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dev.epicgames.com/docs/web-api-ref
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://dev.epicgames.com/docs/epic-online-services/eos-get-started
+- group: learn
+  title: ''
+  type: Tutorials
+  url: https://dev.epicgames.com/docs/services/en-US/Tutorials
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/EpicGames
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.epicgames.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.epicgames.com/help
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unrealengine.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://store.epicgames.com/en-US/eula
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.epicgames.com/site/en-US/privacypolicy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.epicgames.com/site/en-US/eula
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/EpicGames
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/epicgames
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/epic-games
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@epic
+created: '2024-01-01'
+description: Epic Games is the studio behind Fortnite, the Unreal Engine, the Epic Games Store, MetaHuman, RealityScan, Twinmotion, RAD Game Tools, and the Epic Online Services (EOS) backend. Epic operates a unified developer portal at dev.epicgames.com that hosts the EOS SDK and REST APIs (Auth, Connect, Friends, Presence, Lobby, Sessions, Achievements, Stats, Leaderboards, Player Data Storage, Title Storage, Voice, Sanctions, Anti-Cheat, Reports, P2P, Ecom, User Info), the Unreal Engine documentation, the Epic Games Store publishing tools, and the Kids Web Services (KWS) compliance platform. EOS is cross-platform and runs on Windows, macOS, Linux, PlayStation, Xbox, Switch, iOS, Android, and web. This profile rolls Epic's developer-facing surfaces into a single index; the Unreal Engine surface has its own dedicated profile.
+finops:
+- name: Epic Games Finops
+  service_category: API
+  slug: epic-games-finops
+graphqls:
+- description: Epic Games exposes GraphQL surfaces across several developer-facing products. The primary surface historically lived at `https://graphql.epicgames.com/graphql` and powered the Epic Games Store catalog
+  name: Epic Games GraphQL
+  slug: epic-games-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epic-games.png
+layout: provider
+modified: '2026-05-23'
+name: Epic Games
+nav: Providers
+network: true
+overview: 'Epic Games publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Auth API, Connect API, and 6 more. Tagged areas include Achievements, Anti-Cheat, Cross-Platform, EOS, and Epic Online Services.
+
+
+  Epic Games'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, status page, support, and 17 more developer resources.'
+plans:
+- name: Epic Games Plans Pricing
+  plan_count: 1
+  slug: epic-games-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 2
+  name: Epic Games Rate Limits
+  slug: epic-games-rate-limits
+scopes:
+- name: Epic Games Scopes
+  scope_count: 1
+  slug: epic-games-scopes
+  summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 43.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 51.3
+    developer_ergonomics: 52.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 43.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/screenshots/epic-games-2026-06-20T180759.png
+security:
+- kind: authentication
+  name: Epic Games Authentication
+  slug: epic-games-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Epic Games Domain Security
+  slug: epic-games-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Epic Games Vulnerability Disclosure
+  slug: epic-games-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: epic-games
+tags:
+- Achievements
+- Anti-Cheat
+- Cross-Platform
+- EOS
+- Epic Online Services
+- Game Backend
+- Game Development
+- Games
+- Identity
+- Lobby
+- Matchmaking
+- Multiplayer
+- Sessions
+- Unreal Engine
+- Voice
+website: https://www.epicgames.com
+---

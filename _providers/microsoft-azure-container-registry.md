@@ -1,0 +1,149 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Microsoft Azure Container Registry Agentic Access
+  operation_count: 6
+  slug: microsoft-azure-container-registry-agentic-access
+  summary_line: 6 operations · 2 acting
+api_count: 4
+apis:
+- description: The Blobs API from microsoft-azure-container-registry — 1 operation(s) for blobs.
+  name: microsoft-azure-container-registry Blobs API
+  slug: microsoft-azure-container-registry-blobs-api
+- description: The Manifests API from microsoft-azure-container-registry — 1 operation(s) for manifests.
+  name: microsoft-azure-container-registry Manifests API
+  slug: microsoft-azure-container-registry-manifests-api
+- description: The Repositories API from microsoft-azure-container-registry — 1 operation(s) for repositories.
+  name: microsoft-azure-container-registry Repositories API
+  slug: microsoft-azure-container-registry-repositories-api
+- description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
+  name: microsoft-azure-container-registry Tags API
+  slug: microsoft-azure-container-registry-tags-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Azure Container Registry REST API
+  slug: open-microsoft-azure-container-registry
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/microsoft-azure-container-registry-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/microsoft-azure-container-registry-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/microsoft-azure-container-registry-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AzureCR
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/azure/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/
+description: 'Azure Container Registry is a managed, private Docker registry service for storing and managing container images, Helm charts, and OCI artifacts. This collection documents the REST APIs for repository management, image distribution, geo-replication, task-based builds, and webhook notifications used across cloud-native workloads. - url: https://azure.microsoft.com/en-us/blog/containers-docker-windows-and-trends/ type: Blog'
+finops:
+- name: Microsoft Azure Container Registry Finops
+  service_category: API
+  slug: microsoft-azure-container-registry-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-container-registry.png
+layout: provider
+modified: '2026-05-19'
+name: microsoft-azure-container-registry
+nav: Providers
+network: true
+overview: 'microsoft-azure-container-registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, Repositories API, and 1 more.
+
+
+  microsoft-azure-container-registry''s developer surface includes authentication, developer portal, pricing, documentation, support, and 5 more developer resources.'
+plans:
+- name: Microsoft Azure Container Registry Plans Pricing
+  plan_count: 3
+  slug: microsoft-azure-container-registry-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 5
+  name: Microsoft Azure Container Registry Rate Limits
+  slug: microsoft-azure-container-registry-rate-limits
+score:
+  band: thin
+  composite: 44.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 53.1
+    developer_ergonomics: 32.6
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 44.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-registry/refs/heads/main/screenshots/microsoft-azure-container-registry-2026-06-20T185406.png
+security:
+- kind: authentication
+  name: Microsoft Azure Container Registry Authentication
+  slug: microsoft-azure-container-registry-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Microsoft Azure Container Registry Domain Security
+  slug: microsoft-azure-container-registry-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: microsoft-azure-container-registry
+website: https://portal.azure.com/
+---

@@ -1,0 +1,344 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 88
+  human_in_the_loop: 8
+  name: Wherobots Agentic Access
+  operation_count: 165
+  slug: wherobots-agentic-access
+  summary_line: 165 operations · 88 acting · 8 human-in-the-loop
+api_count: 34
+apis:
+- description: The apikey API from Wherobots — 2 operation(s) for apikey.
+  name: Wherobots apikey API
+  slug: wherobots-apikey-api
+- description: The audit-log API from Wherobots — 2 operation(s) for audit-log.
+  name: Wherobots audit-log API
+  slug: wherobots-audit-log-api
+- description: The catalogs API from Wherobots — 7 operation(s) for catalogs.
+  name: Wherobots catalogs API
+  slug: wherobots-catalogs-api
+- description: The cloud-connections API from Wherobots — 11 operation(s) for cloud-connections.
+  name: Wherobots cloud-connections API
+  slug: wherobots-cloud-connections-api
+- description: The coupon API from Wherobots — 1 operation(s) for coupon.
+  name: Wherobots coupon API
+  slug: wherobots-coupon-api
+- description: The environment-override--preset API from Wherobots — 2 operation(s) for environment-override--preset.
+  name: Wherobots environment-override--preset API
+  slug: wherobots-environment-override-preset-api
+- description: The environment-preset API from Wherobots — 2 operation(s) for environment-preset.
+  name: Wherobots environment-preset API
+  slug: wherobots-environment-preset-api
+- description: The files API from Wherobots — 8 operation(s) for files.
+  name: Wherobots files API
+  slug: wherobots-files-api
+- description: The Flags API from Wherobots — 1 operation(s) for flags.
+  name: Wherobots Flags API
+  slug: wherobots-flags-api
+- description: The foreign-catalog API from Wherobots — 4 operation(s) for foreign-catalog.
+  name: Wherobots foreign-catalog API
+  slug: wherobots-foreign-catalog-api
+- description: The Health API from Wherobots — 1 operation(s) for health.
+  name: Wherobots Health API
+  slug: wherobots-health-api
+- description: The Is Super User API from Wherobots — 1 operation(s) for is super user.
+  name: Wherobots Is Super User API
+  slug: wherobots-is-super-user-api
+- description: The jupyter_lab API from Wherobots — 5 operation(s) for jupyter_lab.
+  name: Wherobots jupyter_lab API
+  slug: wherobots-jupyter-lab-api
+- description: The management API from Wherobots — 16 operation(s) for management.
+  name: Wherobots management API
+  slug: wherobots-management-api
+- description: The me API from Wherobots — 3 operation(s) for me.
+  name: Wherobots me API
+  slug: wherobots-me-api
+- description: The orb API from Wherobots — 1 operation(s) for orb.
+  name: Wherobots orb API
+  slug: wherobots-orb-api
+- description: The organization API from Wherobots — 25 operation(s) for organization.
+  name: Wherobots organization API
+  slug: wherobots-organization-api
+- description: The quota API from Wherobots — 1 operation(s) for quota.
+  name: Wherobots quota API
+  slug: wherobots-quota-api
+- description: The rasterflow API from Wherobots — 1 operation(s) for rasterflow.
+  name: Wherobots rasterflow API
+  slug: wherobots-rasterflow-api
+- description: The runs API from Wherobots — 5 operation(s) for runs.
+  name: Wherobots runs API
+  slug: wherobots-runs-api
+- description: The service API from Wherobots — 3 operation(s) for service.
+  name: Wherobots service API
+  slug: wherobots-service-api
+- description: The service_token_endpoint API from Wherobots — 3 operation(s) for service_token_endpoint.
+  name: Wherobots service_token_endpoint API
+  slug: wherobots-service-token-endpoint-api
+- description: The solution_notebooks API from Wherobots — 3 operation(s) for solution_notebooks.
+  name: Wherobots solution_notebooks API
+  slug: wherobots-solution-notebooks-api
+- description: The sql API from Wherobots — 3 operation(s) for sql.
+  name: Wherobots sql API
+  slug: wherobots-sql-api
+- description: The storage API from Wherobots — 12 operation(s) for storage.
+  name: Wherobots storage API
+  slug: wherobots-storage-api
+- description: The stripe API from Wherobots — 1 operation(s) for stripe.
+  name: Wherobots stripe API
+  slug: wherobots-stripe-api
+- description: The subscriptions API from Wherobots — 7 operation(s) for subscriptions.
+  name: Wherobots subscriptions API
+  slug: wherobots-subscriptions-api
+- description: The superuser API from Wherobots — 18 operation(s) for superuser.
+  name: Wherobots superuser API
+  slug: wherobots-superuser-api
+- description: The union-executions API from Wherobots — 1 operation(s) for union-executions.
+  name: Wherobots union-executions API
+  slug: wherobots-union-executions-api
+- description: The usage API from Wherobots — 5 operation(s) for usage.
+  name: Wherobots usage API
+  slug: wherobots-usage-api
+- description: The user-management API from Wherobots — 2 operation(s) for user-management.
+  name: Wherobots user-management API
+  slug: wherobots-user-management-api
+- description: The users API from Wherobots — 4 operation(s) for users.
+  name: Wherobots users API
+  slug: wherobots-users-api
+- description: The webhook API from Wherobots — 3 operation(s) for webhook.
+  name: Wherobots webhook API
+  slug: wherobots-webhook-api
+- description: The workos API from Wherobots — 1 operation(s) for workos.
+  name: Wherobots workos API
+  slug: wherobots-workos-api
+artifact_total: 40
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.wherobots.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.wherobots.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.wherobots.com/api-playground/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.wherobots.com/get-started/wherobots-cloud/start-notebook/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.wherobots.com/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://wherobots.com/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/wherobots
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://wherobots.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://wherobots.com/free-trial/
+- group: start
+  title: ''
+  type: Login
+  url: https://cloud.wherobots.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://wherobots.com/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://wherobots.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.wherobots.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wherobots-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wherobots-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/wherobots-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/wherobots-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wherobots-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wherobots-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wherobots-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wherobots-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wherobots-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.wherobots.com/auto-retirement-community/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/wherobots-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wherobots-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wherobots-cloud-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wherobots-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://wherobots.com/security/
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/wherobots-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/wherobots-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/wherobots-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://wherobots.com/security/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wherobots-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wherobots.com
+created: '2026-07-17'
+description: Wherobots is a managed cloud platform for geospatial analytics and spatial AI at planetary scale, built by the creators of Apache Sedona. WherobotsDB is a distributed Spatial SQL engine with 300+ spatial functions, raster and vector processing (RasterFlow), Havasu (Apache Iceberg-compatible) tables, and data federation across AWS Glue, Databricks Unity Catalog and S3. Developers reach it through the Wherobots Cloud API and a Spatial SQL API, with Python (DB-API), JDBC and TypeScript SDKs, a CLI, an Apache Airflow provider, a hosted MCP server, and agent skills for AI-assisted geospatial development.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wherobots.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: wherobots-mcp.yml
+  slug: wherobots-mcpyml
+modified: '2026-07-21'
+name: Wherobots
+nav: Providers
+network: true
+overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) network, including apikey API, audit-log API, catalogs API, and 31 more. Tagged areas include Company, Geospatial, Spatial Analytics, Apache Sedona, and Spatial SQL.
+
+
+  Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+random_paper: 20
+score:
+  band: developing
+  composite: 58.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 51.3
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 55.3
+  previous_composite: 58.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Wherobots Authentication
+  slug: wherobots-authentication
+  summary_line: apiKey/http/oauth2 · 3 schemes
+- kind: domain-security
+  name: Wherobots Domain Security
+  slug: wherobots-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Wherobots Vulnerability Disclosure
+  slug: wherobots-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Wherobots Trust Center
+  slug: wherobots-trust-center
+  summary_line: SOC 2, GDPR
+slug: wherobots
+tags:
+- Company
+- Geospatial
+- Spatial Analytics
+- Apache Sedona
+- Spatial SQL
+- Geospatial AI
+- Cloud Data Platform
+- Raster
+- GIS
+website: https://wherobots.com
+---

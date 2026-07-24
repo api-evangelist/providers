@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Calixa Therapeutics was a privately held, San Diego-based biopharmaceutical company focused on developing antibiotics to treat serious infections caused by multi-drug-resistant Gram-negative bacterial pathogens. Its lead compound, CXA-201 (later ceftolozane/tazobactam), was an intravenous therapy for serious hospital-acquired Gram-negative infections. Calixa was acquired by Cubist Pharmaceuticals in December 2009 for approximately $92.5 million (plus up to $310 million in milestone payments) and no longer operates as an independent company. It has no public developer or API surface. This profile exists in the API Evangelist network as a portfolio-lead stub associated with canaan-partners; there are no API artifacts to enrich because it is a defunct pharmaceutical company, not an API provider.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calixa-therapeutics.png
+layout: provider
+modified: '2026-07-18'
+name: Calixa Therapeutics
+nav: Providers
+network: true
+overview: Calixa Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Antibiotics, and Anti-Infectives.
+random_paper: 30
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: calixa-therapeutics
+tags:
+- Company
+- Pharmaceuticals
+- Biotechnology
+- Antibiotics
+- Anti-Infectives
+- Drug Development
+- Life Sciences
+- Healthcare
+- Acquired
+---

@@ -1,0 +1,227 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Quasar Agentic Access
+  operation_count: 12
+  slug: quasar-agentic-access
+  summary_line: 12 operations · 4 acting
+api_count: 10
+apis:
+- description: Operational statistics about the QuasarDB cluster
+  name: Quasar cluster API
+  slug: quasar-cluster-api
+- description: The Login API from Quasar — 1 operation(s) for login.
+  name: Quasar Login API
+  slug: quasar-login-api
+- description: The max-in-buffer-size API from Quasar — 1 operation(s) for max-in-buffer-size.
+  name: Quasar max-in-buffer-size API
+  slug: quasar-max-in-buffer-size-api
+- description: The option API from Quasar — 2 operation(s) for option.
+  name: Quasar option API
+  slug: quasar-option-api
+- description: The parallelism API from Quasar — 1 operation(s) for parallelism.
+  name: Quasar parallelism API
+  slug: quasar-parallelism-api
+- description: The Prometheus API from Quasar — 2 operation(s) for prometheus.
+  name: Quasar Prometheus API
+  slug: quasar-prometheus-api
+- description: The query API from Quasar — 1 operation(s) for query.
+  name: Quasar query API
+  slug: quasar-query-api
+- description: The Status API from Quasar — 2 operation(s) for status.
+  name: Quasar Status API
+  slug: quasar-status-api
+- description: The Tables API from Quasar — 1 operation(s) for tables.
+  name: Quasar Tables API
+  slug: quasar-tables-api
+- description: The tags API from Quasar — 1 operation(s) for tags.
+  name: Quasar tags API
+  slug: quasar-tags-api
+artifact_total: 15
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://doc.quasar.ai/master/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://doc.quasar.ai/master/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://doc.quasar.ai/master/user-guide/api/rest.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://doc.quasar.ai/master/user-guide/howto/index.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bureau14
+- group: company
+  title: ''
+  type: Blog
+  url: https://quasar.ai/blog-news/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://quasar.ai/deployment-pricing/
+- group: operate
+  title: ''
+  type: Support
+  url: https://quasar.ai/support-services/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/quasar-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/quasar-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/quasar-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/quasar-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quasar-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/quasar-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/quasar-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/quasar-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/quasar-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/quasar-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/quasar-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.quasar.ai/
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/quasar-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/quasar-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/quasar-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://quasar.ai/
+created: '2026-07-17'
+description: Quasar (QuasarDB, by Bureau 14) is a distributed, high-performance time-series database built for the hardest data problems, where precision, speed, scale, and accuracy must hold at the same time. It combines live ingestion, lossless-compressed historical retention, and heavy analytics on a single distributed system, deployed in cloud, edge, and appliance form across aerospace and defense, finance, industrial operations, and scientific research. QuasarDB exposes a JWT-authenticated REST API plus native client libraries in Python, Java, Go, .NET, C, PHP, R, and Ruby, and integrates with Grafana, Kafka, Spark, NATS, Prometheus, and Dask.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quasar.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: quasar-mcp.yml
+  slug: quasar-mcpyml
+modified: '2026-07-20'
+name: Quasar
+nav: Providers
+network: true
+overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, including cluster API, Login API, max-in-buffer-size API, and 7 more. Tagged areas include Company, Time Series Database, Database, Analytics, and Infrastructure.
+
+
+  Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 18 more developer resources.'
+random_paper: 41
+score:
+  band: thin
+  composite: 41.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 26.3
+    contract_quality: 37.7
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 41.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Quasar Authentication
+  slug: quasar-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Quasar Domain Security
+  slug: quasar-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: trust-center
+  name: Quasar Trust Center
+  slug: quasar-trust-center
+  summary_line: SOC 2
+slug: quasar
+tags:
+- Company
+- Time Series Database
+- Database
+- Analytics
+- Infrastructure
+- Real-Time Data
+- Aerospace
+- Finance
+website: https://quasar.ai/
+---

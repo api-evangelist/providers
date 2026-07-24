@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/assertsai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.asserts.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://grafana.com/docs/grafana-cloud/monitor-applications/asserts/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.asserts.ai/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.asserts.ai/blog/rss/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/asserts
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.asserts.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.asserts.ai/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/assertsai-llms.txt
+created: '2026-07-17'
+description: Asserts.ai is an observability intelligence platform for Prometheus and OpenTelemetry that automatically models the entities in your infrastructure and application metrics, applies golden-signal and SLO PromQL rules to surface anomalies, and correlates related failures into root-cause workbenches to cut mean-time-to-resolution. It also ships a Data Distiller for reducing metric cardinality and observability cost. Asserts was acquired by Grafana Labs in November 2023 and is now delivered as part of Grafana Cloud; its standalone website, docs, and GitHub organization are archived and no longer maintained.
+image: https://storage.ghost.io/c/00/4c/004c629c-fae8-4899-adc3-1d46a93ea53e/content/images/2023/04/Share-1.png
+layout: provider
+modified: '2026-07-18'
+name: Asserts.ai
+nav: Providers
+network: true
+overview: 'Asserts.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Monitoring, Prometheus, and OpenTelemetry.
+
+
+  Asserts.ai''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+random_paper: 6
+score:
+  band: minimal
+  composite: 13.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Assertsai Domain Security
+  slug: assertsai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: assertsai
+tags:
+- Company
+- Observability
+- Monitoring
+- Prometheus
+- OpenTelemetry
+- Metrics
+- SRE
+- Root Cause Analysis
+- Grafana
+website: https://www.asserts.ai/
+---

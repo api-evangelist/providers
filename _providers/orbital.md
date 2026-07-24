@@ -1,0 +1,189 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Orbital Agentic Access
+  operation_count: 18
+  slug: orbital-agentic-access
+  summary_line: 18 operations · 6 acting
+api_count: 6
+apis:
+- description: The Caches API from Orbital — 1 operation(s) for caches.
+  name: Orbital Caches API
+  slug: orbital-caches-api
+- description: The Connections API from Orbital — 2 operation(s) for connections.
+  name: Orbital Connections API
+  slug: orbital-connections-api
+- description: The Schemas API from Orbital — 2 operation(s) for schemas.
+  name: Orbital Schemas API
+  slug: orbital-schemas-api
+- description: The Services API from Orbital — 2 operation(s) for services.
+  name: Orbital Services API
+  slug: orbital-services-api
+- description: The Taxiql API from Orbital — 1 operation(s) for taxiql.
+  name: Orbital Taxiql API
+  slug: orbital-taxiql-api
+- description: The Types API from Orbital — 2 operation(s) for types.
+  name: Orbital Types API
+  slug: orbital-types-api
+artifact_total: 21
+collections:
+- collection_type: open
+  name: Orbital Query API
+  slug: open-orbital-query-api
+- collection_type: open
+  name: Orbital Schema Management API
+  slug: open-orbital-schema-management-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/orbital-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/orbital-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/orbital-finance
+- group: company
+  title: ''
+  type: Website
+  url: https://orbitalhq.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://orbitalhq.com/docs
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://orbitalhq.com/changelog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://orbitalhq.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://orbitalhq.com/blog
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://orbitalhq.com/llms.txt
+created: '2026-01-05'
+description: Orbital is a data gateway and integration platform that connects APIs, databases, event streams, and other data sources without requiring glue code or manual integration maintenance. The platform delivers self-repairing integrations through instant, on-the-fly orchestration that automatically adapts as APIs and schemas evolve, eliminating the need to write resolvers, generate API clients, or maintain YAML mapping files.
+finops:
+- name: Orbital Finops
+  service_category: API
+  slug: orbital-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orbital.png
+json_schemas:
+- name: Orbital Cache
+  property_count: 3
+  slug: cache
+- name: Orbital Connection
+  property_count: 6
+  slug: connection
+- name: Orbital Query
+  property_count: 5
+  slug: query
+- name: Orbital Schema
+  property_count: 8
+  slug: schema
+- name: Orbital Service
+  property_count: 7
+  slug: service
+- name: Orbital Type
+  property_count: 5
+  slug: type
+jsonld:
+- class_count: 35
+  name: Orbital Context
+  property_count: 0
+  slug: orbital-context
+layout: provider
+modified: '2026-05-19'
+name: Orbital
+nav: Providers
+network: true
+overview: 'Orbital publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Caches API, Connections API, Schemas API, and 3 more. Tagged areas include Data and Gateways.
+
+
+  The Orbital catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Orbital''s developer surface includes documentation, changelog, pricing, engineering blog, and 5 more developer resources.'
+plans:
+- name: Orbital Plans Pricing
+  plan_count: 3
+  slug: orbital-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 5
+  name: Orbital Rate Limits
+  slug: orbital-rate-limits
+rules:
+- name: Orbital API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: orbital-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 47.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 58.4
+    developer_ergonomics: 10.9
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 47.4
+  previous_composite: 47.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/screenshots/orbital-2026-06-20T191159.png
+security:
+- kind: domain-security
+  name: Orbital Domain Security
+  slug: orbital-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: orbital
+tags:
+- Data
+- Gateways
+website: https://orbitalhq.com/
+---

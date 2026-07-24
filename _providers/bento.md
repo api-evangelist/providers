@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bentoforbusiness.com
+- group: other
+  title: ''
+  type: Acquisition
+  url: https://www.usbank.com/about-us-bank/company-blog/article-library/us-bank-to-acquire-small-business-payments-software-company-Bento-Technologies.html
+- group: company
+  title: ''
+  type: Investor
+  url: https://www.anthemis.com/portfolio/bento/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bento-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bento-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bento-llms.txt
+created: '2026-07-17'
+description: 'Bento (Bento Technologies, Inc., dba Bento for Business) was a Chicago- and San Francisco-based small-business fintech that provided card-based payment and expense management for small and mid-size businesses: virtual and physical employee and utility cards, per-card spend controls and category restrictions, real-time spend tracking, and accounting integrations. Bento published a public REST API at api.bentoforbusiness.com (documented at apidocs.bentoforbusiness.com) for issuing employee and utility virtual cards, retrieving card numbers, activating and customizing billing addresses, and reading card transactions, plus outbound webhooks for card transaction completed and declined events; API access was granted per account via an Access Key and Secret Key issued by api-support@bentoforbusiness.com. Bento raised a $2.5M seed round led by Anthemis Group in 2015, with Blumberg Capital, LionBird, Pivot Investment Partners, Edison Partners and Espresso Capital also investing. U.S.
+  Bank agreed to acquire Bento Technologies on August 11, 2021 and closed the acquisition on August 31, 2021, folding the product into U.S. Bank''s small-business spend management offering. The Bento card program was then wound down: card reloads stopped April 30, 2024 and all card program services were discontinued June 25, 2024, with customers directed to alternative providers. The developer surface is retired — apidocs.bentoforbusiness.com and api.bentoforbusiness.com no longer resolve in DNS, and bentoforbusiness.com now redirects to U.S. Bank. This profile is retained as a historical record of a former API provider; there is no live API to consume.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bento.png
+layout: provider
+modified: '2026-07-20'
+name: Bento
+nav: Providers
+network: true
+overview: Bento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Spend Management.
+random_paper: 26
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bento Domain Security
+  slug: bento-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: bento
+tags:
+- Company
+- Financial Services
+- Fintech
+- Payments
+- Spend Management
+- Expense Management
+- Corporate Cards
+- Virtual Cards
+- Small Business
+- Acquired
+website: https://bentoforbusiness.com
+---

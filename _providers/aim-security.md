@@ -1,0 +1,66 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Aim Security was an Israeli cybersecurity company (founded 2022) that built a security platform for enterprise adoption of generative AI and large language models — covering GenAI/LLM data-loss prevention, prompt-injection and jailbreak defense, shadow-AI discovery, and governance guardrails for employee use of AI applications. The company was acquired by Cato Networks and its standalone site (aim.security) now permanently redirects to catonetworks.com; its technology has been folded into the Cato SASE Cloud platform. As of this enrichment pass Aim Security exposes no independent public developer API, documentation portal, SDKs, or MCP server of its own.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aim-security.png
+layout: provider
+modified: '2026-07-17'
+name: Aim Security
+nav: Providers
+network: true
+overview: Aim Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, AI Security, GenAI, and LLM Security.
+random_paper: 20
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: aim-security
+tags:
+- Company
+- Security
+- AI Security
+- GenAI
+- LLM Security
+- Data Loss Prevention
+- Cybersecurity
+- Acquired
+---

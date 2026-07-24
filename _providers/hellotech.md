@@ -1,0 +1,103 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hellotech-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://hellotech.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hellotech.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.hellotech.com/plans
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.hellotech.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hellotech.com/faq
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hellotech.com/privacy
+created: '2026-07-17'
+description: HelloTech is a consumer technology-services company providing in-home and online tech support across the United States through a nationwide network of vetted technicians. Services span computer and printer repair, WiFi and home-networking setup, mobile-device support, audio/video and home-theater installation, TV mounting, smart-home device installation, and home-security setup, offered on-demand or through a HelloTech Home membership plan. HelloTech operates as a consumer services brand and does not publish a public developer API; this profile tracks its public web properties for the API Evangelist network.
+image: https://cdn.hellotech.com/HT-sharing-logo.png
+layout: provider
+modified: '2026-07-19'
+name: HelloTech
+nav: Providers
+network: true
+overview: 'HelloTech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Tech Support, Smart Home, and Home Services.
+
+
+  HelloTech''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
+random_paper: 34
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hellotech Domain Security
+  slug: hellotech-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: hellotech
+tags:
+- Company
+- Consumer
+- Tech Support
+- Smart Home
+- Home Services
+- Installation
+- IT Services
+website: https://hellotech.com/
+---

@@ -1,0 +1,163 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
+  name: PulseMCP Registry API
+  slug: registry
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pulsemcp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pulsemcp.com
+- group: other
+  title: ''
+  type: Servers
+  url: https://www.pulsemcp.com/servers
+- group: build
+  title: ''
+  type: Clients
+  url: https://www.pulsemcp.com/clients
+- group: other
+  title: ''
+  type: Submit
+  url: https://www.pulsemcp.com/submit
+- group: other
+  title: ''
+  type: SubmitUseCase
+  url: https://www.pulsemcp.com/use-cases/submit
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pulsemcp.com/posts
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://www.pulsemcp.com/newsletter
+- group: other
+  title: ''
+  type: Statistics
+  url: https://www.pulsemcp.com/stats
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.pulsemcp.com/api/docs/v0.1
+- group: other
+  title: ''
+  type: WorkWithUs
+  url: https://www.pulsemcp.com/work-with-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.pulsemcp.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.pulsemcp.com/privacy
+- group: auth
+  title: ''
+  type: EditorialDisclosure
+  url: https://www.pulsemcp.com/editorial-disclosure
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:hello@pulsemcp.com
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/pulsemcp
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/dP2evEyTjS
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/pulsemcp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/pulsemcp
+- group: start
+  title: ''
+  type: MCPRegistry
+  url: https://github.com/modelcontextprotocol/registry
+created: '2026-05-25'
+description: PulseMCP is a community platform and directory dedicated to the Model Context Protocol (MCP) — the open protocol for connecting AI assistants and agents to external tools, data, and systems. Founded by Tadas Antanavicius (MCP Steering Committee) and Mike Coughlin in early 2025, PulseMCP curates searchable directories of MCP servers and clients, publishes use cases, runs the "Agentic Loop" newsletter, and operates a Discord community for builders. It also exposes a public PulseMCP Registry API (api.pulsemcp.com, v0.1) implementing the Generic MCP Registry API specification with PulseMCP-specific enriched metadata such as popularity, security analyses, and compatibility data. The PulseMCP GitHub organization additionally maintains MCP servers, the AIR collaboration framework, and shared agentic-engineering templates and artifacts. Access to the API requires contacting PulseMCP for a key and tenant ID; the directory and content are free to browse.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulsemcp.png
+layout: provider
+modified: '2026-05-25'
+name: PulseMCP
+nav: Providers
+network: true
+overview: 'PulseMCP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Model Context Protocol, AI Agents, Agentic Engineering, and Directory.
+
+
+  PulseMCP''s developer surface includes engineering blog, documentation, GitHub presence, and 17 more developer resources.'
+random_paper: 6
+score:
+  band: emerging
+  composite: 16.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 16.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/screenshots/pulsemcp-2026-06-20T192300.png
+security:
+- kind: domain-security
+  name: Pulsemcp Domain Security
+  slug: pulsemcp-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: pulsemcp
+tags:
+- MCP
+- Model Context Protocol
+- AI Agents
+- Agentic Engineering
+- Directory
+- Registry
+- Community
+- Developer Tools
+- LLM Tooling
+- Newsletter
+website: https://www.pulsemcp.com
+---

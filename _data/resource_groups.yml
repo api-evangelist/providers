@@ -1,0 +1,33 @@
+- key: start
+  label: Get Started
+  blurb: Portal, sign-up, and the first successful call
+- key: docs
+  label: Documentation
+  blurb: Reference material describing how the API behaves
+- key: agent
+  label: Agent Surfaces
+  blurb: MCP servers, agent skills, and machine-readable catalogs
+- key: design
+  label: Design & Contract
+  blurb: Pagination, idempotency, versioning, errors, and events
+- key: build
+  label: Build
+  blurb: SDKs, sample code, and the tooling you integrate with
+- key: auth
+  label: Access & Security
+  blurb: Authentication, authorization, and security posture
+- key: learn
+  label: Learn
+  blurb: Tutorials, courses, talks, and written guidance
+- key: operate
+  label: Operate
+  blurb: Status, limits, changes, and where to get help
+- key: commercial
+  label: Commercial
+  blurb: Pricing, plans, and the legal terms of use
+- key: company
+  label: Company
+  blurb: The organization behind the API
+- key: other
+  label: Other
+  blurb: Properties that don't map to a standard resource type

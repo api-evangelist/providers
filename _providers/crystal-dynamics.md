@@ -1,0 +1,106 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/crystal-dynamics-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/crystal-dynamics-well-known.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://crystaldynamics.com
+- group: operate
+  title: ''
+  type: Support
+  url: http://support.crystald.com
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.crystaldynamics.com/careers/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.crystaldynamics.com/news-community/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.crystaldynamics.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.crystaldynamics.com/legal/privacy
+created: '2026-07-17'
+description: Crystal Dynamics is a AAA video game development studio, best known as the home of the Tomb Raider franchise and its Lara Croft character, and part of the Embracer Group. The studio publishes a consumer-facing marketing website, careers portal, player support center, and news/community hub, but exposes no public developer API program, API documentation, developer portal, or SDKs. This profile entered the API Evangelist network as a VC-portfolio stub lead; enrichment confirms there is no public API surface to catalog at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crystal-dynamics.png
+layout: provider
+modified: '2026-07-18'
+name: Crystal Dynamics
+nav: Providers
+network: true
+overview: 'Crystal Dynamics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Video Games, Game Studio, and Entertainment.
+
+
+  Crystal Dynamics'' developer surface includes support, engineering blog, and 6 more developer resources.'
+random_paper: 39
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Crystal Dynamics Domain Security
+  slug: crystal-dynamics-domain-security
+  summary_line: TLSv1.3
+slug: crystal-dynamics
+tags:
+- Company
+- Consumer
+- Video Games
+- Game Studio
+- Entertainment
+- Media
+website: https://crystaldynamics.com
+---

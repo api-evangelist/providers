@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/raincoat-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.raincoat.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.raincoat.com/climate-insurance-101
+created: '2026-07-17'
+description: Raincoat builds embedded, highly scalable parametric climate insurance products and the automated infrastructure that powers them. Founded in 2019 and headquartered in San Juan, Puerto Rico, the company combines real-time environmental and geospatial data with parametric risk models to automatically trigger coverage and deliver instant, direct payouts to beneficiaries after natural disasters such as hurricanes, earthquakes, floods and excess rainfall. Raincoat operates as B2B2C infrastructure, connecting insurers, reinsurers and distribution partners so they can offer embedded disaster protection across Latin America, the Caribbean, the United States and other climate-exposed markets. The company is backed by Anthemis and Two Sigma Ventures. Raincoat publishes no public developer API, developer portal, or API documentation at this time; integration is handled directly through partnership.
+image: https://cdn.prod.website-files.com/612d40cd06decf6c311f4d04/612d40cd06decf44471f4d55_R-Square-256.png
+layout: provider
+modified: '2026-07-20'
+name: Raincoat
+nav: Providers
+network: true
+overview: Raincoat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Parametric Insurance, and Climate.
+random_paper: 33
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Raincoat Domain Security
+  slug: raincoat-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: raincoat
+tags:
+- Company
+- Insurance
+- InsurTech
+- Parametric Insurance
+- Climate
+- Natural Disasters
+- Embedded Insurance
+- Financial Services
+- Risk
+- Geospatial Data
+website: https://www.raincoat.com/
+---

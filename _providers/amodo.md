@@ -1,0 +1,90 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/amodo-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://amodo.eu
+- group: other
+  title: ''
+  type: Company
+  url: https://www.cmtelematics.com/cmt-acquires-amodo/
+created: '2026-07-17'
+description: Amodo was a European connected-insurance and telematics company founded in Zagreb, Croatia, that helped insurers and brokers build and distribute personalized usage-based insurance (UBI) products. Its Connected Insurance Platform combined a mobile telematics SDK, driver-behavior scoring, customer segmentation, and profiling analytics to power models ranging from try-before-you-buy to pay-as-you-drive and pay-per-mile. Over roughly nine years Amodo ran nearly 50 telematics programs worldwide with insurers including AIG, Porsche Versicherungs, Tower Insurance, and P&V, and was named one of the Financial Times' top five insurtech companies. Backed by Speedinvest, Amodo was acquired by Cambridge Mobile Telematics (CMT) in March 2023 and folded into CMT's European operations; the amodo.eu domain now redirects to CMT, and the company no longer maintains an independent public developer or API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amodo.png
+layout: provider
+modified: '2026-07-17'
+name: Amodo
+nav: Providers
+network: true
+overview: Amodo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Telematics, and Usage-Based Insurance.
+random_paper: 18
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Amodo Domain Security
+  slug: amodo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: amodo
+tags:
+- Company
+- Insurance
+- Insurtech
+- Telematics
+- Usage-Based Insurance
+- Connected Insurance
+- Mobile SDK
+- Acquired
+website: https://amodo.eu
+---

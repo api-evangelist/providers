@@ -1,0 +1,237 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: true
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 67.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 1
+  name: Knostic Agentic Access
+  operation_count: 12
+  slug: knostic-agentic-access
+  summary_line: 12 operations · 2 acting · 1 human-in-the-loop
+api_count: 4
+apis:
+- description: VS Code / IDE marketplace extensions with risk assessment
+  name: Knostic extensions API
+  slug: knostic-extensions-api
+- description: Model Context Protocol servers discovered and scanned by AgentMesh
+  name: Knostic mcp API
+  slug: knostic-mcp-api
+- description: On-demand security scans and scan history (API key required)
+  name: Knostic scans API
+  slug: knostic-scans-api
+- description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
+  name: Knostic skills API
+  slug: knostic-skills-api
+artifact_total: 12
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/knostic-agentic-access.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.knostic.ai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://agentmesh.knostic.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://agentmesh.knostic.ai/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://agentmesh.knostic.ai/api
+- group: start
+  title: ''
+  type: Login
+  url: https://agentmesh.knostic.ai/console
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.knostic.ai/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.knostic.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/knostic
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.knostic.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.knostic.ai/privacy-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.knostic.ai/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.knostic.ai/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/knostic-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/knostic-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/knostic-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/knostic-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/knostic-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/knostic-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/knostic-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/knostic-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/knostic-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/knostic-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/knostic-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/knostic-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/knostic-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/knostic-llms.txt
+- group: build
+  title: ''
+  type: Examples
+  url: examples/knostic-list-skills-response.json
+created: '2026-07-17'
+description: 'Knostic secures the AI agent supply chain inside the enterprise. Its platform discovers shadow AI, coding assistants, MCP servers and IDE extensions in use across an organization, then scans them for prompt injection, data exfiltration, secret and PII leakage, and destructive commands. Knostic runs AgentMesh, a public reputation and threat-intelligence service that continuously discovers, tracks and scans AI agent skills, Model Context Protocol servers, and VS Code / IDE marketplace extensions — roughly 80,500 skills, 4,800 MCP servers and 59,900 extensions as of July 2026 — and exposes that catalog with per-version scan verdicts through a REST API whose read endpoints answer anonymous callers. Knostic also ships a substantial open-source portfolio: AgentSonar (shadow-AI network detection), OpenAnt (LLM-based vulnerability discovery), MCP-Scanner, and security and telemetry plugins for OpenClaw agents.'
+examples:
+- key_count: 4
+  name: Knostic List Extensions Response
+  slug: knostic-list-extensions-response
+- key_count: 4
+  name: Knostic List Mcp Response
+  slug: knostic-list-mcp-response
+- key_count: 4
+  name: Knostic List Skills Response
+  slug: knostic-list-skills-response
+image: https://www.knostic.ai/og-image.png
+layout: provider
+modified: '2026-07-19'
+name: Knostic
+nav: Providers
+network: true
+overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including extensions API, mcp API, scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
+
+
+  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 22 more developer resources.'
+random_paper: 49
+rate_limits:
+- limit_count: 0
+  name: Knostic Rate Limits
+  slug: knostic-rate-limits
+score:
+  band: developing
+  composite: 52.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 63.7
+    developer_ergonomics: 60.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 52.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Knostic Authentication
+  slug: knostic-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Knostic Domain Security
+  slug: knostic-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Knostic Trust Center
+  slug: knostic-trust-center
+  summary_line: SOC 2 Type 2
+slug: knostic
+tags:
+- Company
+- Security
+- Artificial Intelligence
+- AI Agents
+- Agent Security
+- Supply Chain Security
+- Model Context Protocol
+- Threat Intelligence
+- Developer Tools
+- Shadow AI
+website: https://www.knostic.ai/
+---

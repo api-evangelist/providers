@@ -1,0 +1,164 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: 'Opendoor for Agents is the partner program that lets licensed real-estate agents submit clients to Opendoor for a cash offer, list Opendoor-owned inventory, and earn referral commissions. Integration '
+  name: Opendoor for Agents
+  slug: opendoor-for-agents
+- description: Opendoor Exclusives is an off-market home marketplace where Opendoor lists inventory it has recently acquired, before those homes hit the MLS. Partner integrations for Exclusives (lender, search porta
+  name: Opendoor Exclusives
+  slug: opendoor-exclusives
+- description: Opendoor maintains brand partnerships with home-search portals, brokerages, lenders, and home-services providers that surface Opendoor cash offers and Exclusives listings inside partner experiences. T
+  name: Opendoor Partner Integrations
+  slug: opendoor-partners
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/opendoor-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.opendoor.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.opendoor.com/about
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.opendoor.com/agents
+- group: other
+  title: ''
+  type: Product
+  url: https://www.opendoor.com/exclusives
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opendoor.com/articles
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.opendoor.com/help
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investor.opendoor.com
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.opendoor.com/careers
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/opendoor-labs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.opendoor.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.opendoor.com/privacy
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/Opendoor
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/Opendoor
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/opendoor
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/opendoor
+created: '2024-01-01'
+description: Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash offer on their home, sell directly to Opendoor, list with Opendoor through its agent network, or browse off-market inventory via Opendoor Exclusives. Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs buying, renovation, listing, and resale at scale and partners with third-party agents and brokerages through its Opendoor for Agents program and Opendoor Exclusives marketplace. Opendoor does not publish a self-serve public developer portal or open REST API; partner and agent integrations are arranged directly through Opendoor's business development and partnerships teams. This profile documents what is publicly findable on Opendoor's partner-facing surfaces.
+finops:
+- name: Opendoor Finops
+  service_category: API
+  slug: opendoor-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendoor.png
+layout: provider
+modified: '2026-05-23'
+name: Opendoor
+nav: Providers
+network: true
+overview: 'Opendoor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Cash Offer, Exclusives, Homes, and iBuyer.
+
+
+  Opendoor''s developer surface includes engineering blog, support, and 14 more developer resources.'
+plans:
+- name: Opendoor Plans Pricing
+  plan_count: 1
+  slug: opendoor-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 2
+  name: Opendoor Rate Limits
+  slug: opendoor-rate-limits
+score:
+  band: emerging
+  composite: 24.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 24.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/screenshots/opendoor-2026-06-20T190956.png
+security:
+- kind: domain-security
+  name: Opendoor Domain Security
+  slug: opendoor-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: opendoor
+tags:
+- Agents
+- Cash Offer
+- Exclusives
+- Homes
+- iBuyer
+- Listings
+- Partners
+- Real Estate
+website: https://www.opendoor.com
+---

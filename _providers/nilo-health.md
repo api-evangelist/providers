@@ -1,0 +1,129 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nilo-health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://nilohealth.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://nilohealth.com/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://nilohealth.com/resources/blog/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://nilohealth.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://app.nilohealth.com/terms-of-use
+- group: start
+  title: ''
+  type: Login
+  url: https://app.nilohealth.com/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@nilohealth.com
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/nilo-health-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://nilohealth.com/trust/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/nilo-health
+created: '2026-07-17'
+description: Nilo Health (nilo.health) is a Berlin-based employee mental health platform that helps businesses support their workforce's mental well-being. Founded in 2019 by Ines Raeth, Catalina Turlea and Jonas Keil, nilo gives teams access to 500+ psychologists for 1:1 video counseling in 50+ languages, alongside self-guided digital programs, group roundtables, and an HR analytics dashboard. It is delivered to employers as a company benefit (SaaS) rather than through a public developer API; there is no published developer portal, API reference, SDKs, or OpenAPI at this time. nilo integrates with HR platforms such as Personio and Lano via partner marketplaces, and publishes a trust center citing ISO/IEC 27001. The company is backed by Speedinvest and was added to the API Evangelist network as a Speedinvest portfolio company.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nilo-health.png
+layout: provider
+modified: '2026-07-20'
+name: Nilo Health
+nav: Providers
+network: true
+overview: 'Nilo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Health, HR, and Employee Benefits.
+
+
+  Nilo Health''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
+random_paper: 38
+score:
+  band: emerging
+  composite: 23.3
+  delta: 3.1
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 20.2
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 41.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Nilo Health Domain Security
+  slug: nilo-health-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Nilo Health Trust Center
+  slug: nilo-health-trust-center
+  summary_line: ISO/IEC 27001
+slug: nilo-health
+tags:
+- Company
+- Mental Health
+- Health
+- HR
+- Employee Benefits
+- Well-being
+- Telehealth
+- SaaS
+website: https://nilohealth.com/
+---

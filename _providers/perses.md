@@ -1,0 +1,156 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 50.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Perses Agentic Access
+  operation_count: 20
+  slug: perses-agentic-access
+  summary_line: 20 operations · 12 acting
+api_count: 5
+apis:
+- description: The Perses REST API provides programmatic access to dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, secrets, users, variables, plugins, validation, and migration resourc
+  name: Perses API
+  slug: perses
+- description: Manage dashboards inside a project.
+  name: Perses Dashboards API
+  slug: perses-dashboards-api
+- description: Manage project-scoped datasources.
+  name: Perses Datasources API
+  slug: perses-datasources-api
+- description: Manage shared datasources across projects.
+  name: Perses Global Datasources API
+  slug: perses-global-datasources-api
+- description: Manage Perses projects (workspaces).
+  name: Perses Projects API
+  slug: perses-projects-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Perses API
+  slug: open-perses
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/perses-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/perses-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://perses.dev/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://perses.dev/perses/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://perses.dev/perses/docs/api/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/perses
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/perses/perses
+- group: operate
+  title: ''
+  type: Community
+  url: https://perses.dev/community/
+- group: company
+  title: ''
+  type: Blog
+  url: https://perses.dev/blog/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/perses/mcp-server
+created: '2026-03-16'
+description: Perses is an open-source monitoring and dashboarding tool designed as a modern alternative for visualizing time-series data with a focus on performance, extensibility, and GitOps. Perses exposes a REST API for managing dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, secrets, users, variables, plugins, validation, and migrations. It is a CNCF sandbox project.
+finops:
+- name: Perses Finops
+  service_category: API
+  slug: perses-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perses.png
+layout: provider
+modified: '2026-05-19'
+name: Perses
+nav: Providers
+network: true
+overview: 'Perses publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasources API, Global Datasources API, and 1 more. Tagged areas include CNCF, Dashboards, Monitoring, Observability, and Open Source.
+
+
+  Perses'' developer surface includes documentation, API reference, GitHub presence, engineering blog, and 6 more developer resources.'
+plans:
+- name: Perses Plans Pricing
+  plan_count: 3
+  slug: perses-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 5
+  name: Perses Rate Limits
+  slug: perses-rate-limits
+score:
+  band: thin
+  composite: 36.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 45.1
+    developer_ergonomics: 30.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/screenshots/perses-2026-06-20T191616.png
+security:
+- kind: domain-security
+  name: Perses Domain Security
+  slug: perses-domain-security
+  summary_line: TLSv1.3
+slug: perses
+tags:
+- CNCF
+- Dashboards
+- Monitoring
+- Observability
+- Open Source
+- Time Series
+- Visualization
+website: https://perses.dev/
+---

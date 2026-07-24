@@ -1,0 +1,131 @@
+---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Themuse Agentic Access
+  operation_count: 4
+  slug: themuse-agentic-access
+  summary_line: 4 operations
+api_count: 2
+apis:
+- description: Employer company profiles that back the job listings.
+  name: The Muse Companies API
+  slug: themuse-companies-api
+- description: Live job openings, searchable by category, level, company, and location.
+  name: The Muse Jobs API
+  slug: themuse-jobs-api
+artifact_total: 7
+collections:
+- collection_type: open
+  name: The Muse Public API
+  slug: open-themuse
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/themuse-agentic-access.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/the-muse
+- group: company
+  title: ''
+  type: Website
+  url: https://www.themuse.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.themuse.com/developers/api/v2
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/themuse-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/themuse-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/themuse-finops.yml
+created: '2026-07-11'
+description: The Muse is a careers and company-profiles platform that helps people find jobs at companies whose values match their own. Its free, documented public REST API (v2) exposes hundreds of thousands of live job openings - searchable by category, experience level, company, and location - alongside rich employer company profiles (industry, size, locations, and behind-the-scenes content). An optional api_key raises rate limits. This makes The Muse a strong source for "job openings", jobs, careers, and recruiting use cases and for building job boards, career sites, and employer-branding integrations.
+finops:
+- name: Themuse Finops
+  service_category: Careers and Recruiting Data
+  slug: themuse-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/themuse.png
+layout: provider
+modified: '2026-07-11'
+name: The Muse
+nav: Providers
+network: true
+overview: 'The Muse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Companies API and Jobs API. Tagged areas include Job Openings, Jobs, Careers, Recruiting, and Employment.
+
+
+  The Muse''s developer surface includes documentation and 6 more developer resources.'
+plans:
+- name: Themuse Plans Pricing
+  plan_count: 3
+  slug: themuse-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 3
+  name: Themuse Rate Limits
+  slug: themuse-rate-limits
+score:
+  band: thin
+  composite: 34.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 8.7
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 34.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: themuse
+tags:
+- Job Openings
+- Jobs
+- Careers
+- Recruiting
+- Employment
+- Company Profiles
+- Job Search
+- Hiring
+- HR Tech
+website: https://www.themuse.com
+---

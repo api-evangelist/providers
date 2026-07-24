@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 15.4
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hyperprobe.co/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.hyperprobe.co/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.hyperprobe.co/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.hyperprobe.co/quickstart
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.hyperprobe.co
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/hyperprobe-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hyperprobe-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hyperprobe-mcp.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/hyperprobe-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hyperprobe-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hyperprobe-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hyperprobe-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hyperprobe-domain-security.yml
+created: '2026-07-17'
+description: Hyperprobe is a runtime data platform for AI-native software development, built by a San Francisco team in Y Combinator's Summer 2026 batch. It lets developers and coding agents (Cursor, Claude Code, Codex, opencode, Windsurf) set live, non-breaking breakpoints in running production services directly from the IDE — capturing exact variable snapshots, injecting logs, and tracing call stacks without pausing threads, redeploying, or changing source code. Probes are read-only and non-blocking with under 1% overhead, and PII is redacted in-process before any data leaves the container's memory boundary (password, secret, token, authorization, cookie, key, signature, ssn and creditCard patterns are masked by default). Hyperprobe ships in-process SDKs for Node.js (@hyperprobe/node-sdk), Java (a bytecode-instrumentation agent), and Python (hyperprobe-agent), a VS Code extension, and an official Model Context Protocol (MCP) server (@hyperprobe/mcp-server) that lets AI assistants autonomously
+  register conditional probes and read real runtime evidence instead of flat logs. The platform can run fully self-hosted via Docker Compose. Originally added to the API Evangelist network as a Y Combinator portfolio lead, this profile has been enriched from Hyperprobe's public developer surface.
+image: https://hyperprobe.co/favicon.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: hyperprobe-mcp.yml
+  slug: hyperprobe-mcpyml
+modified: '2026-07-19'
+name: Hyperprobe
+nav: Providers
+network: true
+overview: 'Hyperprobe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Debugging, Developer Tools, and Runtime.
+
+
+  Hyperprobe''s developer surface includes documentation, getting-started guide, signup flow, CLI, and 9 more developer resources.'
+random_paper: 17
+score:
+  band: emerging
+  composite: 19.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 19.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hyperprobe Domain Security
+  slug: hyperprobe-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: hyperprobe
+tags:
+- Company
+- Observability
+- Debugging
+- Developer Tools
+- Runtime
+- AI
+- MCP
+- SDK
+- Production Debugging
+website: https://hyperprobe.co/
+---

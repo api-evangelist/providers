@@ -1,0 +1,161 @@
+---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 24.0
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: REST API for processing payments, authorizations, cancellations, and refunds through the Toss Payments platform. Supports card, virtual account, mobile phone, bank transfer, and digital wallet payment
+  name: Toss Payments API
+  slug: toss-payments-api
+- description: Legacy REST API for Toss Pay payment transactions, merchant approval flows, refunds, and payment status checks. Operates on the pay.toss.im domain with API key authentication.
+  name: Toss Pay API
+  slug: toss-pay-api
+- description: Event-driven webhook system for receiving real-time notifications on payment status changes, virtual account deposits, cancellations, BrandPay method updates, and marketplace payout results.
+  name: Toss Payments Webhooks
+  slug: toss-payments-webhooks
+- description: API for marketplace and platform operators to disburse funds to registered sellers. Supports seller registration, payout requests, and event-driven payout status updates via webhooks.
+  name: Toss Payments Payouts API
+  slug: toss-payments-payouts-api
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/toss-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://toss.im
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.tosspayments.com/en
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/tosspayments
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/toss
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/viva-republica
+- group: company
+  title: ''
+  type: Blog
+  url: https://toss.tech
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.tosspayments.com/en/overview
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.tosspayments.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/toss_im
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/toss-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/toss-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/toss-finops.yml
+created: 2026-06-13
+description: Toss is a Korean financial super-app operated by Viva Republica that provides REST APIs for payments, banking, credit scoring, identity verification, and financial services across the Toss ecosystem. The Toss Payments platform supports card payments, virtual accounts, mobile phone billing, bank transfers, and digital wallets including TossPay, KakaoPay, NaverPay, and SamsungPay, serving over 30 million registered users across South Korea.
+finops:
+- name: Toss Finops
+  service_category: ''
+  slug: toss-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toss.png
+layout: provider
+modified: 2026-06-13
+name: Toss
+nav: Providers
+network: true
+overview: 'Toss publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include Payments, Fintech, Banking, Korea, and Digital Wallet.
+
+
+  Toss'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Toss Plans Pricing
+  plan_count: 3
+  slug: toss-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 0
+  name: Toss Rate Limits
+  slug: toss-rate-limits
+score:
+  band: thin
+  composite: 31.1
+  delta: -3.2
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 37.7
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 34.3
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/toss/refs/heads/main/screenshots/toss-2026-06-20T195501.png
+security:
+- kind: domain-security
+  name: Toss Domain Security
+  slug: toss-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: toss
+tags:
+- Payments
+- Fintech
+- Banking
+- Korea
+- Digital Wallet
+- Credit Scoring
+- Identity Verification
+- Financial Services
+- Super App
+website: https://toss.im
+---

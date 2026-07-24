@@ -1,0 +1,77 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: docs
+  title: ''
+  type: Reference
+  url: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model
+- group: other
+  title: ''
+  type: ChenNotation
+  url: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Chen_notation
+- group: other
+  title: ''
+  type: CrowsFootNotation
+  url: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation
+created: '2025-01-01'
+description: Entity-Relationship (ER) modeling is a data modeling technique used to describe the data requirements for an information system. ER diagrams visually represent entities (objects or concepts), their attributes, and the relationships between them. ER modeling is a fundamental tool in database design and system analysis, with notation variants including Chen's original notation, Crow's Foot notation, and Barker's notation.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entity-relationship.png
+layout: provider
+modified: '2026-04-28'
+name: Entity Relationship
+nav: Providers
+network: true
+overview: Entity Relationship is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Modeling, Database Design, ER Diagrams, and Systems Analysis.
+random_paper: 23
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/entity-relationship/refs/heads/main/screenshots/entity-relationship-2026-06-20T180730.png
+slug: entity-relationship
+tags:
+- Data Modeling
+- Database Design
+- ER Diagrams
+- Systems Analysis
+website: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model
+---

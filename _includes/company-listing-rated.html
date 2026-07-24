@@ -113,8 +113,13 @@
         <div class="flex-grow-1">
           <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}{% if item.agent_band %} <span class="band-badge band-{{ item.agent_band }} ms-1">{{ item.agent_band | replace: "-", " " }}</span>{% endif %}{% if item.tier %} <span class="tier-badge ms-1">{{ item.tier }}</span>{% endif %}</h5>
           {% if item.description %}
-          <p class="text-muted small mb-0">{{ item.description | truncate: 160 }}</p>
+          <p class="text-muted small mb-1">{{ item.description | truncate: 160 }}</p>
           {% endif %}
+          <div class="d-flex gap-2">
+            <a href="/providers/{{ item.slug }}/" class="btn btn-sm btn-success py-0">Profile</a>
+            <a href="https://apis.io/providers/{{ item.slug }}/" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success py-0">apis.io</a>
+            <a href="https://github.com/api-evangelist/{{ item.slug }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-dark py-0">GitHub</a>
+          </div>
         </div>
         <div class="rate-scores text-end ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3" title="Click to open the full score breakdown">
           {% if item.score %}

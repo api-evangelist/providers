@@ -1,0 +1,148 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 19.2
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: OAuth 2.0 REST API that replaces the legacy SimpleNexus API. The initial release covers Organization and User Management (companies, branches, users) and a modern webhook flow with delivery retries, e
+  name: nCino Mortgage API (formerly SimpleNexus API)
+  slug: ncino-mortgage-api-formerly-simplenexus-api
+artifact_total: 3
+asyncapis:
+- description: ''
+  name: Simplenexus Webhooks
+  slug: simplenexus-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ncino.com/mortgage/us
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.ncinomortgage.com/mortgage
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.ncinomortgage.com/mortgage/docs/getting-started
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.ncinomortgage.com/mortgage/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.ncinomortgage.com/mortgage/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://mortgagehelp.ncino.com
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.ncinomortgage.com/mortgage/docs/postman-collection
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/simplenexus-authentication.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/simplenexus-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/simplenexus-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/simplenexus-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/simplenexus-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/simplenexus-conventions.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/simplenexus-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/simplenexus-llms.txt
+created: '2026-07-17'
+description: SimpleNexus was a mobile-first digital homeownership and mortgage platform, backed by Insight Partners, that connected loan officers, borrowers, real estate agents, and settlement teams across the loan lifecycle. It was acquired by nCino and its product is now delivered as the nCino Mortgage Suite. The developer API has been rehosted at developer.ncinomortgage.com as the nCino Mortgage API, which is explicitly built to replace the legacy SimpleNexus API (v0-SNAPI). The current API is an OAuth 2.0 REST API (base URL https://api.ncinomortgage.com) whose initial release covers Organization and User Management — company administration, branch management, user provisioning — plus a modern webhook flow with delivery retries, event filtering, and increased security.
+image: https://images.simplenexus.com/company/logo/111230/04953f06-848b-4695-9610-f1deeb015708.png
+layout: provider
+modified: '2026-07-21'
+name: SimpleNexus
+nav: Providers
+network: true
+overview: 'SimpleNexus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Fintech, and Financial Services.
+
+
+  The SimpleNexus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  SimpleNexus'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 10 more developer resources.'
+random_paper: 40
+score:
+  band: emerging
+  composite: 27.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 22.6
+    developer_ergonomics: 54.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 27.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Simplenexus Authentication
+  slug: simplenexus-authentication
+  summary_line: oauth2 · 1 scheme
+slug: simplenexus
+tags:
+- Company
+- Mortgage
+- Lending
+- Fintech
+- Financial Services
+- Homeownership
+- Real Estate
+- Webhooks
+website: https://www.ncino.com/mortgage/us
+---

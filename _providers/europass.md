@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/europass-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://europasschina.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://europasschina.com/blog-homepage/
+- group: operate
+  title: ''
+  type: Support
+  url: https://europasschina.com/contact/
+created: '2026-07-17'
+description: 'EuroPass is a Paris-based digital agency founded in 2016 that specializes in Chinese outbound tourism, describing itself as the European leader in implementing Chinese digital solutions for destinations, retailers, transportation, attractions, and hospitality brands. Its services span Chinese social-media management (notably WeChat and Weibo), WeChat mini-programs and stores, e-commerce, digital ticketing, destination marketing, and mobile payment acceptance via WeChat Pay and Alipay so European businesses can serve and transact with Chinese travelers. EuroPass operates as a services and marketing company rather than a developer platform: it publishes no public API, developer portal, SDKs, or technical documentation. This profile was surfaced as a portfolio company of Partech and enriched with the identity and domain-security data available from its public web presence.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/europass.png
+layout: provider
+modified: '2026-07-19'
+name: Europass
+nav: Providers
+network: true
+overview: 'Europass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Agency, Chinese Tourism, Mobile Payments, and WeChat.
+
+
+  Europass'' developer surface includes engineering blog, support, and 2 more developer resources.'
+random_paper: 15
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Europass Domain Security
+  slug: europass-domain-security
+  summary_line: TLSv1.3
+slug: europass
+tags:
+- Company
+- Digital Agency
+- Chinese Tourism
+- Mobile Payments
+- WeChat
+- E-Commerce
+- Destination Marketing
+- Travel Technology
+website: https://europasschina.com/
+---

@@ -1,0 +1,178 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 21.2
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Intezer Platform API 2.0 — submit files, URLs, hashes and endpoint scans for autonomous malware analysis and code-reuse detection, poll analysis status, and retrieve verdicts, sub-analyses and IOCs. A
+  name: Intezer Platform API
+  slug: intezer-platform-api
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://intezer.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://analyze.intezer.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.intezer.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.intezer.com/docs
+- group: company
+  title: ''
+  type: Blog
+  url: https://intezer.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://intezer.com/pricing/
+- group: start
+  title: ''
+  type: Login
+  url: https://analyze.intezer.com/sign-in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://intezer.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://intezer.com/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/intezer
+- group: build
+  title: ''
+  type: Packages
+  url: packages/intezer-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/intezer-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/intezer-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/intezer-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/intezer-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/intezer-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/intezer-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/intezer-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://intezer.com/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/intezer-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/intezer-domain-security.yml
+created: '2026-07-17'
+description: Intezer operates a Forensic AI SOC platform that autonomously triages, investigates and helps respond to every security alert flowing from an organization's EDR, NDR, SIEM, identity, cloud and email-security tooling. Its investigation engine combines Genetic Malware Analysis (code-reuse mapping against a large genome of trusted and malicious software), dynamic and static analysis, memory forensics, sandboxing and agentic AI reasoning to reach a verdict on alerts in under two minutes. The Intezer Platform API 2.0 exposes this analysis surface programmatically — submitting files, URLs, hashes and endpoint scans for analysis, retrieving verdicts and code-reuse results, and querying IOCs — and is offered alongside an official Python SDK, a CLI, and an MCP server that connects AI agents such as Claude, Cursor and Codex to case histories and investigation context.
+image: https://intezer.com/wp-content/uploads/2023/05/intezer-logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: intezer-mcp.yml
+  slug: intezer-mcpyml
+modified: '2026-07-19'
+name: Intezer
+nav: Providers
+network: true
+overview: 'Intezer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Malware Analysis, and Threat Intelligence.
+
+
+  Intezer''s developer surface includes documentation, API reference, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
+random_paper: 4
+score:
+  band: thin
+  composite: 33.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 58.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 33.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Intezer Authentication
+  slug: intezer-authentication
+  summary_line: apiKey/http-bearer · 2 schemes
+- kind: domain-security
+  name: Intezer Domain Security
+  slug: intezer-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Intezer Trust Center
+  slug: intezer-trust-center
+  summary_line: SOC 2 Type II
+slug: intezer
+tags:
+- Company
+- Cybersecurity
+- Security
+- Malware Analysis
+- Threat Intelligence
+- SOC
+- Incident Response
+- Artificial Intelligence
+- Automation
+website: https://intezer.com
+---

@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://onefootball.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://onefootballsupport.zendesk.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://static.onefootball.com/legal/terms-of-use/en
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://static.onefootball.com/legal/app-privacy-policy/en
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Onefootball
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/onefootball-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/onefootball-well-known.yml
+created: '2026-07-17'
+description: Onefootball is a Berlin-based digital football (soccer) media platform that aggregates news, live scores, match coverage, video highlights, and streaming (OneFootball TV) for a global audience across iOS, Android, and the web. Backed by Earlybird and Union Square Ventures, the company partners with clubs, leagues, and publishers to distribute content and operates an official merchandise store and a Web3/club ecosystem. Onefootball does not publish a public developer API or partner developer portal; content ingestion for partners is handled via WordPress REST and private editorial integrations rather than an open, documented API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onefootball.png
+layout: provider
+modified: '2026-07-20'
+name: Onefootball
+nav: Providers
+network: true
+overview: 'Onefootball is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Football, Soccer, and Sports.
+
+
+  Onefootball''s developer surface includes support and 6 more developer resources.'
+random_paper: 0
+score:
+  band: minimal
+  composite: 12.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 12.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Onefootball Domain Security
+  slug: onefootball-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: onefootball
+tags:
+- Company
+- Consumer
+- Football
+- Soccer
+- Sports
+- Media
+- News
+- Streaming
+- Mobile
+website: https://onefootball.com
+---

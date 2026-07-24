@@ -1,0 +1,89 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jump-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://jump.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.jump.com/privacy-security
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.jump.com/legal
+created: '2026-07-17'
+description: Jump is a unified fan experience and ticketing platform built exclusively for professional sports teams. It combines primary and resale ticketing, team-branded mobile apps and websites, marketing and messaging, loyalty, fan identity and wallet, point-of-sale and scanning, dynamic pricing, and a unified fan-data foundation into a single system that teams own and control. Jump also embeds agentic AI agents to automate pricing, inventory, and revenue operations. It serves teams across the NBA, MLB, WNBA, NWSL, USL, and NCAA and is backed by Battery Ventures, Forerunner Ventures, Index Ventures, and Menlo Ventures. Jump connects to the tools teams already use through integration APIs, but publishes no public developer portal, OpenAPI, or self-serve API documentation.
+image: https://cdn.prod.website-files.com/6620094ee446b5040f183aed/6865a7c9b810980812aca69d_Why.png
+layout: provider
+modified: '2026-07-19'
+name: Jump
+nav: Providers
+network: true
+overview: Jump is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Ticketing, Fan Experience, and Events.
+random_paper: 36
+score:
+  band: minimal
+  composite: 11.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Jump Domain Security
+  slug: jump-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: jump
+tags:
+- Company
+- Sports
+- Ticketing
+- Fan Experience
+- Events
+- Marketing
+- Loyalty
+- Artificial Intelligence
+website: https://jump.com
+---

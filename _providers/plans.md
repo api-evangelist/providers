@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/plans-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://plans.app/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://plans.app/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://platform.plans.app/login
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://plans.hyperping.app
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://plans.app/legal/terms-and-conditions-en
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://plans.app/legal/privacy-policy-en
+- group: company
+  title: ''
+  type: Careers
+  url: https://plans.app/careers
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/plans-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/plans-well-known.yml
+created: '2026-07-17'
+description: Plans (plans.app, formerly lun.energy) is a climate-technology company focused on decarbonising the built world. It removes the friction that stands in the way of transitioning homes to low-carbon energy faster, letting professionals capture building data on a mobile device, analyze it, and produce retrofit / energy plans — "capture, analyze, plan, all in your pocket." A web platform (platform.plans.app) and a Chrome extension support the workflow, and the product is offered across English, Danish, and French markets. Plans is backed by Partech. No public developer API has been identified during enrichment; the platform is a login-gated single-page application and the site exposes no OpenAPI, SDKs, docs, or developer portal.
+image: https://plans.app/apple-touch-icon.png
+layout: provider
+modified: '2026-07-20'
+name: Plans
+nav: Providers
+network: true
+overview: 'Plans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Energy, Decarbonization, and Built World.
+
+
+  Plans'' developer surface includes signup flow and 9 more developer resources.'
+random_paper: 32
+score:
+  band: emerging
+  composite: 15.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 15.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Plans Domain Security
+  slug: plans-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: plans
+tags:
+- Company
+- Climate
+- Energy
+- Decarbonization
+- Built World
+- Home Retrofit
+- Construction Tech
+- Sustainability
+website: https://plans.app/
+---

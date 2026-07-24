@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Tello (Tello Applications, Inc.) was a customer-feedback and customer-service ratings startup founded in 2010 in Palo Alto, California by Joe Beninato and backed by 500 Global. It offered a free web and mobile application that let consumers rate and comment on their in-person service experiences at businesses (including feedback on specific employees), and sold businesses paid dashboard access to monitor how their staff were rated. The company has since shut down; no live product, developer program, or public API surface remains, so this record is retained as a defunct-company profile rather than an active provider for enrichment.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tello.png
+layout: provider
+modified: '2026-07-21'
+name: Tello
+nav: Providers
+network: true
+overview: Tello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Feedback, Customer Service, Reviews and Ratings, and SaaS.
+random_paper: 34
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: tello
+tags:
+- Company
+- Customer Feedback
+- Customer Service
+- Reviews and Ratings
+- SaaS
+- Mobile App
+- Defunct
+---

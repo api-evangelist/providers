@@ -1,0 +1,208 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Urbanfox Agentic Access
+  operation_count: 14
+  slug: urbanfox-agentic-access
+  summary_line: 14 operations · 6 acting
+api_count: 6
+apis:
+- description: Fraud case retrieval and updates.
+  name: UrbanFox Cases API
+  slug: urbanfox-cases-api
+- description: End-user account retrieval, creation, updates, and deletion.
+  name: UrbanFox End User Accounts API
+  slug: urbanfox-end-user-accounts-api
+- description: Aggregated tenant metrics and time-series reporting.
+  name: UrbanFox Metrics API
+  slug: urbanfox-metrics-api
+- description: OAuth token generation for machine-to-machine authentication.
+  name: UrbanFox OAuth API
+  slug: urbanfox-oauth-api
+- description: Tenant integration snippet retrieval.
+  name: UrbanFox Snippet API
+  slug: urbanfox-snippet-api
+- description: Tenant details and tenant authentication credentials.
+  name: UrbanFox Tenants API
+  slug: urbanfox-tenants-api
+artifact_total: 11
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://urbanfox.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.urbanfox.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.urbanfox.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.urbanfox.io/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.urbanfox.io/tutorials/first-api-call
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.urbanfox.io/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.urbanfox.io/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.urbanfox.io/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://2ffr2z.share-eu1.hsforms.com/2wcLUdqqOSWOmGkVadK7V0g
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/urbanfox-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/urbanfox-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/urbanfox-scopes.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/urbanfox-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/urbanfox-agentic-access.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/urbanfox-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/urbanfox-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/urbanfox-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/urbanfox-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/urbanfox-conventions.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/urbanfox-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/urbanfox-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/urbanfox-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: UrbanFox is an AI-powered online payment fraud detection and prevention platform that uses generative AI and behavioral intelligence - rather than static rule-sets - to detect payment fraud, account takeover, and bot traffic across transactions, sessions, and accounts. The Techstars-backed company ships a tenant-scoped Customer API (OAuth 2.0 client credentials) for fraud case management, end-user account management, activity metrics, credential rotation, and clickstream collector integration.
+image: https://www.urbanfox.io/hubfs/Favicon.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: Candidate MCP tool surface derived from the OpenAPI (no official server)
+  slug: candidate-mcp-tool-surface-derived-from-the-openapi-no-official-server
+modified: '2026-07-21'
+name: UrbanFox
+nav: Providers
+network: true
+overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cases API, End User Accounts API, Metrics API, and 3 more. Tagged areas include Fraud Detection, Payment Fraud, Account Takeover, Bot Detection, and Risk Management.
+
+
+  UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+random_paper: 2
+scopes:
+- name: Urbanfox Scopes
+  scope_count: 13
+  slug: urbanfox-scopes
+  summary_line: 13 scopes · clientCredentials
+score:
+  band: developing
+  composite: 45.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 62.5
+    developer_ergonomics: 65.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 45.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Urbanfox Authentication
+  slug: urbanfox-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Urbanfox Domain Security
+  slug: urbanfox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: urbanfox
+tags:
+- Fraud Detection
+- Payment Fraud
+- Account Takeover
+- Bot Detection
+- Risk Management
+- Security
+- Artificial Intelligence
+- eCommerce
+website: https://urbanfox.io/
+---

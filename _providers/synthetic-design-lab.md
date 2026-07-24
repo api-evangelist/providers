@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.syntheticdesignlab.com/
+created: '2026-07-17'
+description: Synthetic Design Lab is a clinical-stage biotechnology company founded in 2022 developing next-generation antibody-drug conjugates (ADCs) for cancer therapy. Its SYNTHBODY platform and SYNTHBODY Engine engineer multispecific biologics with layered BIO-LOGIC control mechanisms and targeted payload delivery reported at 10x or more versus conventional ADCs. The company emerged from stealth in April 2025 with a $20M seed round led by Playground Global and Godfrey Capital, and is led by CEO Daniel S. Chen (formerly Global Head of Cancer Immunotherapy Development at Genentech) and CSO Ramesh Baliga. This is a therapeutics research company with no public API, SDK, or developer surface at the time of enrichment.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthetic-design-lab.png
+layout: provider
+modified: '2026-07-21'
+name: Synthetic Design Lab
+nav: Providers
+network: true
+overview: Synthetic Design Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Biotechnology, Therapeutics, and Oncology.
+random_paper: 25
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: synthetic-design-lab
+tags:
+- Company
+- Engineered Biology
+- Biotechnology
+- Therapeutics
+- Oncology
+- Antibody-Drug Conjugates
+- Drug Discovery
+- Cancer
+website: https://www.syntheticdesignlab.com/
+---

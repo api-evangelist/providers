@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lucidact-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://lucidact.com
+created: '2026-07-17'
+description: LucidAct (Lucidact Health) is an AI-powered care management platform operating in the healthcare technology and digital health vertical. The company builds software that streamlines patient care coordination and clinical workflows, using artificial intelligence to automate administrative tasks, support clinical decision-making, and improve patient engagement and population-health outcomes for healthcare organizations. LucidAct was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. As of this enrichment pass no public developer portal, API documentation, OpenAPI definition, SDKs, or /.well-known discovery surface could be found — the marketing site (www.lucidact.com) returns 403 on developer and well-known paths — so this profile currently carries only the provider's probed domain security posture alongside its identity.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucidact.png
+layout: provider
+modified: '2026-07-20'
+name: LucidAct
+nav: Providers
+network: true
+overview: LucidAct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Care Management, and Artificial Intelligence.
+random_paper: 25
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Lucidact Domain Security
+  slug: lucidact-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: lucidact
+tags:
+- Company
+- Healthcare
+- Digital Health
+- Care Management
+- Artificial Intelligence
+- Clinical Workflow
+website: https://lucidact.com
+---

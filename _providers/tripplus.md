@@ -1,0 +1,82 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tripplus-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://tripplus.cc
+created: '2026-07-17'
+description: TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tripplus.png
+layout: provider
+modified: '2026-07-21'
+name: Tripplus
+nav: Providers
+network: true
+overview: Tripplus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Loyalty, Rewards, and Points.
+random_paper: 32
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Tripplus Domain Security
+  slug: tripplus-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: tripplus
+tags:
+- Company
+- Travel
+- Loyalty
+- Rewards
+- Points
+- Miles
+- Credit Cards
+- Fintech
+- Taiwan
+website: https://tripplus.cc
+---

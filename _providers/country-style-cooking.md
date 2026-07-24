@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/country-style-cooking-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.csc100.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.csc100.com/index/category/xcjmdzs.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.csc100.com/index/category/notice.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.csc100.com/index/category/contact.html
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.csc100.com/index/category/recruits.html
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/country-style-cooking-llms.txt
+created: '2026-07-17'
+description: Country Style Cooking Restaurant Chain (乡村基, Xiangcunji) is a large Chinese quick-service restaurant group founded on 23 November 1996 in Chongqing by Li Hong and Zhang Xingqiang. The group operates two directly-managed chain brands — Xiangcunji (乡村基) and Mr. Rice (大米先生) — serving Sichuan-style fast food cooked to order in restaurant kitchens under a long-standing "good taste at affordable prices" operating philosophy. The company formerly traded on the New York Stock Exchange under the ticker CCSC and was, at the time, the only Asia-headquartered restaurant chain listed on the NYSE. It was surfaced in the API Evangelist network as a portfolio company of Hongshan. Country Style Cooking publishes a Chinese-language corporate website (csc100.com) covering its restaurants, brands, group news, recruiting, and procurement bidding, but it publishes no developer portal, no public API, and no machine-readable API artifacts — this profile records that verified absence of an API surface.
+image: https://www.csc100.com/uploads/image/20220424/d7c404ae55b512012cb2edf2e14aed49.png
+layout: provider
+modified: '2026-07-20'
+name: Country Style Cooking
+nav: Providers
+network: true
+overview: 'Country Style Cooking is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Restaurant, Food, and Fast Food.
+
+
+  Country Style Cooking''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Country Style Cooking Domain Security
+  slug: country-style-cooking-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: country-style-cooking
+tags:
+- Company
+- Consumer
+- Restaurant
+- Food
+- Fast Food
+- Quick Service Restaurant
+- China
+- Chongqing
+website: https://www.csc100.com/
+---

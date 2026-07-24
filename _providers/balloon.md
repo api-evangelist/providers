@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://getballoon.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://getballoon.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://getballoon.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://getballoon.com/privacy/
+- group: start
+  title: ''
+  type: Login
+  url: https://balloon.app/login
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.balloon.app/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.getballoon.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.getballoon.com/rss.xml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/balloon-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/balloon-domain-security.yml
+created: '2026-07-17'
+description: Balloon is a research-backed team collaboration and decision-making platform built to eliminate groupthink and give quieter voices a psychologically safe way to contribute. Its core workflow, called a "flight," is a two-stage, partly anonymous process in which a leader poses a question, team members submit ideas ("balloons") and discuss them, and the group then evaluates and "pumps" the strongest ideas on merit, surfacing a Balloon Score that shows consensus and buy-in. Balloon ships 150+ expert-authored flight templates across 25 business areas and supports asynchronous, time-zone-independent participation, positioning itself as a replacement for status and ideation meetings (the company cites a 70% reduction in meeting time and that ~80% of information shared is new to the organization). Founded by Amanda Greenberg and Noah Bornstein, Balloon is backed by 500 Global and other investors, with an advisory board including Adam Grant, Amy Edmondson, and Daniel Pink. It is a SaaS
+  web application (app at balloon.app) with no public developer API, OpenAPI, or developer portal at this time.
+image: https://getballoon.com/images/og-logo.png
+layout: provider
+modified: '2026-07-18'
+name: Balloon
+nav: Providers
+network: true
+overview: 'Balloon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Team Collaboration, Decision Making, and Employee Engagement.
+
+
+  Balloon''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
+random_paper: 29
+score:
+  band: emerging
+  composite: 17.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Balloon Domain Security
+  slug: balloon-domain-security
+  summary_line: TLSv1.3
+slug: balloon
+tags:
+- Company
+- Collaboration
+- Team Collaboration
+- Decision Making
+- Employee Engagement
+- Meetings
+- Productivity
+- Anonymous Feedback
+website: https://getballoon.com
+---

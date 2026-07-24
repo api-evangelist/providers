@@ -1,0 +1,144 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 25.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Allbirds's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP. Agents can search the catalog, manage a cart, read store policies/FAQs, and drive a buyer-
+  name: Allbirds Storefront Commerce (UCP / MCP)
+  slug: allbirds-storefront-commerce-ucp-mcp
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.allbirds.com
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allbirds-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/allbirds-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/allbirds-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/allbirds-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/allbirds-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/allbirds-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/allbirds-domain-security.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.allbirds.com/policies/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.allbirds.com/policies/terms-of-service
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.allbirds.com/pages/help-center
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.allbirds.com/blogs/news
+created: '2026-07-17'
+description: 'Allbirds is a sustainability-focused footwear and apparel brand known for its wool and tree-fiber shoes, selling direct-to-consumer through its Shopify-powered online store at allbirds.com. It was surfaced as a portfolio company of Addition and added to the API Evangelist network. While Allbirds publishes no traditional developer program, its storefront exposes a real agent-commerce surface: a live Shopify Universal Commerce Protocol (UCP) MCP server for catalog search, cart, and checkout; OpenID Connect / OAuth 2.0 Customer Accounts authentication; and an /llms.txt agent-instructions document. This profile captures that agent-native commerce and authentication surface.'
+image: https://www.allbirds.com/cdn/shop/files/Allbirds_Logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: allbirds-mcp.yml
+  slug: allbirds-mcpyml
+modified: '2026-07-17'
+name: Allbirds
+nav: Providers
+network: true
+overview: 'Allbirds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-commerce, and Footwear.
+
+
+  Allbirds'' developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
+random_paper: 29
+scopes:
+- name: Allbirds Scopes
+  scope_count: 4
+  slug: allbirds-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 18.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 18.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Allbirds Authentication
+  slug: allbirds-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Allbirds Domain Security
+  slug: allbirds-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: allbirds
+tags:
+- Company
+- Consumer
+- Retail
+- E-commerce
+- Footwear
+- Apparel
+- Sustainability
+- Direct-to-Consumer
+- Agent Commerce
+- Shopify
+website: https://www.allbirds.com
+---

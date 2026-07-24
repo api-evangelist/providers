@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://konos-sound.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://konos-sound.com/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://konos-sound.com/privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dotterel-domain-security.yml
+created: '2026-07-17'
+description: Dotterel Technologies is an Auckland, New Zealand acoustics and audio-hardware company founded in 2015 out of the Callaghan Innovation C-Prize. It began by solving drone noise, building acoustic shrouds, low-noise propellers, and onboard active audio-recording systems for UAVs used in film, security, and noise mapping. That work led to Konos (now marketed as Konos Digital), an 80-element directional MEMS microphone array with a continuously variable 60-300 degree beam width that streams four channels of AES67 / SMPTE ST 2110 audio over a single Power-over-Ethernet cable, targeting film, broadcast, and live-sports production. The microphone exposes a firmware-updatable on-device HTTP control interface (a web page plus a POST control endpoint for beam steering) rather than a public developer web API. Dotterel is backed by Techstars (Adelaide 2017 cohort) and is tracked here as a hardware company; it publishes no public API specification, SDK, or developer portal.
+image: https://konos-sound.com/assets/logos/konos-logo-white.svg
+layout: provider
+modified: '2026-07-18'
+name: Dotterel
+nav: Providers
+network: true
+overview: 'Dotterel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Microphones, Acoustics, and Hardware.
+
+
+  Dotterel''s developer surface includes support and 3 more developer resources.'
+random_paper: 0
+score:
+  band: minimal
+  composite: 9.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dotterel Domain Security
+  slug: dotterel-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: dotterel
+tags:
+- Company
+- Audio
+- Microphones
+- Acoustics
+- Hardware
+- Drones
+- Broadcast
+- Film Production
+website: https://konos-sound.com/
+---

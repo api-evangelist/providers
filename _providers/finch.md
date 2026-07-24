@@ -1,0 +1,179 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Finch Agentic Access
+  operation_count: 9
+  slug: finch-agentic-access
+  summary_line: 9 operations · 5 acting
+api_count: 3
+apis:
+- description: The Auth API from Finch — 1 operation(s) for auth.
+  name: Finch Auth API
+  slug: finch-auth-api
+- description: The Connect API from Finch — 1 operation(s) for connect.
+  name: Finch Connect API
+  slug: finch-connect-api
+- description: The Employer API from Finch — 7 operation(s) for employer.
+  name: Finch Employer API
+  slug: finch-employer-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Finch API
+  slug: open-finch
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/finch-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/finch-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/finch-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/finch-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Finch-API
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/finchapi
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tryfinch.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.tryfinch.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.tryfinch.com/api-reference/
+- group: start
+  title: ''
+  type: Signup
+  url: https://dashboard.tryfinch.com/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.tryfinch.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tryfinch.com/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.tryfinch.com/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.tryfinch.com/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://developer.tryfinch.com/llms.txt
+created: '2026-03-16'
+description: Finch is a unified employment API providing standardized read and write access to HRIS, payroll, and benefits systems. Through a single integration, developers can pull company directory data, individual PII, employment records, payments, pay statements, and benefits across hundreds of providers (ADP, Gusto, Paylocity, Workday, BambooHR, Rippling, Justworks, TriNet, and more). Finch Connect handles end-user authorization via OAuth.
+finops:
+- name: Finch Finops
+  service_category: API
+  slug: finch-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finch.png
+layout: provider
+modified: '2026-05-19'
+name: Finch
+nav: Providers
+network: true
+overview: 'Finch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Connect API, and Employer API. Tagged areas include Employment, HRIS, Payroll, Benefits, and HR.
+
+
+  Finch''s developer surface includes authentication, documentation, API reference, signup flow, pricing, engineering blog, changelog, and 8 more developer resources.'
+plans:
+- name: Finch Plans Pricing
+  plan_count: 3
+  slug: finch-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Finch Rate Limits
+  slug: finch-rate-limits
+score:
+  band: developing
+  composite: 46.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 53.1
+    developer_ergonomics: 28.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 68.4
+  previous_composite: 46.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/screenshots/finch-2026-06-20T181218.png
+security:
+- kind: authentication
+  name: Finch Authentication
+  slug: finch-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Finch Domain Security
+  slug: finch-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Finch Trust Center
+  slug: finch-trust-center
+  summary_line: SOC 2
+slug: finch
+tags:
+- Employment
+- HRIS
+- Payroll
+- Benefits
+- HR
+- Unified API
+- Workforce
+website: https://www.tryfinch.com/
+---

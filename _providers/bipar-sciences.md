@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: BiPar Sciences was a Brisbane, California biopharmaceutical company developing a tumor-selective class of PARP (poly ADP-ribose polymerase) inhibitors for cancer therapy. Its lead candidate, BSI-201 (iniparib), was in mid-stage trials for advanced breast, ovarian, and other tumors. Backed by Canaan Partners, Vulcan Capital, PolyTechnos, Asset Management Company, and Quantum Technology Partners, BiPar was acquired by Sanofi-Aventis for roughly $500 million in April 2009 and no longer operates as an independent company. It was surfaced as a Canaan Partners portfolio company and added to the API Evangelist network as a stub; enrichment finds no public developer or API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bipar-sciences.png
+layout: provider
+modified: '2026-07-18'
+name: Bipar Sciences
+nav: Providers
+network: true
+overview: Bipar Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Pharmaceuticals, and PARP Inhibitors.
+random_paper: 39
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: bipar-sciences
+tags:
+- Company
+- Biopharmaceutical
+- Oncology
+- Pharmaceuticals
+- PARP Inhibitors
+- Clinical Trials
+- Acquired
+- Life Sciences
+---

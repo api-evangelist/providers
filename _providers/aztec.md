@@ -1,0 +1,154 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 16.3
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aztec.network
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.aztec.network
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aztec.network
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aztec.network/developers/docs/aztec-js/typescript_api_reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.aztec.network/developers/getting_started
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AztecProtocol
+- group: company
+  title: ''
+  type: Blog
+  url: https://aztec.network/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aztec.network/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aztec-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aztec-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/aztec-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/aztec-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aztec-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/aztec-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aztec-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/aztec-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aztec-domain-security.yml
+created: '2026-07-17'
+description: Aztec is the leading privacy-first Layer 2 zkRollup on Ethereum, enabling developers to build private smart contracts with fully programmable end-to-end privacy. Developers write contracts in Noir using the Aztec.nr framework, interact with the network through the Aztec.js TypeScript SDK and the Private eXecution Environment (PXE), and use the first-party `aztec` CLI to compile, test, prove, and deploy. Aztec ships an official MCP server and recommended CLAUDE.md/AGENTS.md instructions for AI-assisted development. Backed by a16z, Paradigm, and SV Angel.
+image: https://cdn.prod.website-files.com/6847005bc403085c1aa846e0/689cacb514469cdab7b6c2cf_Aztec-cover.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: aztec-mcp.yml
+  slug: aztec-mcpyml
+modified: '2026-07-18'
+name: Aztec
+nav: Providers
+network: true
+overview: 'Aztec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Privacy, Zero-Knowledge, and Ethereum.
+
+
+  Aztec''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 12 more developer resources.'
+random_paper: 25
+score:
+  band: emerging
+  composite: 25.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 65.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 25.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Aztec Domain Security
+  slug: aztec-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: aztec
+tags:
+- Company
+- Blockchain
+- Privacy
+- Zero-Knowledge
+- Ethereum
+- Layer 2
+- Smart Contracts
+- Cryptography
+- Developer Tools
+- Web3
+website: https://aztec.network
+---

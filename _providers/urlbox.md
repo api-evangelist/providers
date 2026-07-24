@@ -1,0 +1,172 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Urlbox Agentic Access
+  operation_count: 5
+  slug: urlbox-agentic-access
+  summary_line: 5 operations · 2 acting
+api_count: 4
+apis:
+- description: Create screenshot, PDF, and video renders.
+  name: Urlbox Render API
+  slug: urlbox-render-api
+- description: Stateless, cacheable HMAC-signed GET render URLs.
+  name: Urlbox Render Links API
+  slug: urlbox-render-links-api
+- description: Poll the status of asynchronous renders.
+  name: Urlbox Status API
+  slug: urlbox-status-api
+- description: Account render usage for the current billing period.
+  name: Urlbox Usage API
+  slug: urlbox-usage-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Urlbox API
+  slug: open-urlbox
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/urlbox-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/urlbox-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/urlbox-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/urlbox-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/urlbox-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/urlbox
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/urlbox
+- group: company
+  title: ''
+  type: Website
+  url: https://urlbox.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://urlbox.com/docs
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/urlbox-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/urlbox-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/urlbox-finops.yml
+created: '2026-06-20'
+description: Urlbox is a website screenshot and rendering API that captures pixel-perfect screenshots, PDFs, and video (MP4/WebM) of any web page or raw HTML. Renders are requested synchronously, asynchronously (with polling or webhooks), or via signed HMAC render links, with hundreds of options for full-page capture, element selectors, PDF layout, ad/cookie-banner blocking, waiting, and S3 storage.
+finops:
+- name: Urlbox Finops
+  service_category: Web and Application Services
+  slug: urlbox-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urlbox.png
+layout: provider
+modified: '2026-06-20'
+name: Urlbox
+nav: Providers
+network: true
+overview: 'Urlbox publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Render API, Render Links API, Status API, and 1 more. Tagged areas include Screenshots, Rendering, PDF, Video, and Web Capture.
+
+
+  Urlbox''s developer surface includes authentication, documentation, and 10 more developer resources.'
+plans:
+- name: Urlbox Plans Pricing
+  plan_count: 5
+  slug: urlbox-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 6
+  name: Urlbox Rate Limits
+  slug: urlbox-rate-limits
+score:
+  band: thin
+  composite: 39.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 59.3
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 39.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/screenshots/urlbox-2026-06-20T200526.png
+security:
+- kind: authentication
+  name: Urlbox Authentication
+  slug: urlbox-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Urlbox Domain Security
+  slug: urlbox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Urlbox Vulnerability Disclosure
+  slug: urlbox-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Urlbox Trust Center
+  slug: urlbox-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
+slug: urlbox
+tags:
+- Screenshots
+- Rendering
+- PDF
+- Video
+- Web Capture
+website: https://urlbox.com
+---

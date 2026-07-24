@@ -1,0 +1,115 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: 'JSON:API compliant REST API for managing candidates, jobs, applications, users, departments, and recruitment workflows in Teamtailor. Available in EU (api.teamtailor.com), NA (api.na.teamtailor.com), '
+  name: Teamtailor API
+  slug: rest-api
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/teamtailor-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/teamtailor-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Teamtailor
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/teamtailor
+- group: company
+  title: ''
+  type: Website
+  url: https://www.teamtailor.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.teamtailor.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.teamtailor.com/pricing/
+- group: start
+  title: ''
+  type: Signup
+  url: https://app.teamtailor.com/users/sign_up
+created: '2026-05-11'
+description: Teamtailor is an applicant tracking system (ATS) and employer branding platform that helps companies attract, engage, and hire candidates with customizable career sites, recruitment workflows, candidate communications, and analytics. The platform supports collaborative hiring, GDPR compliance, and a marketplace of integrations. Teamtailor's API follows the JSON:API specification with regional base URLs and uses token-based authentication with Public, Internal, and Admin key permission levels.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamtailor.png
+layout: provider
+modified: '2026-05-11'
+name: Teamtailor
+nav: Providers
+network: true
+overview: 'Teamtailor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ATS, Applicant Tracking, Recruiting, HR, and Hiring.
+
+
+  Teamtailor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
+random_paper: 3
+score:
+  band: emerging
+  composite: 15.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/screenshots/teamtailor-2026-06-20T194958.png
+security:
+- kind: domain-security
+  name: Teamtailor Domain Security
+  slug: teamtailor-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Teamtailor Trust Center
+  slug: teamtailor-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
+slug: teamtailor
+tags:
+- ATS
+- Applicant Tracking
+- Recruiting
+- HR
+- Hiring
+- Employer Branding
+website: https://www.teamtailor.com
+---

@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Access OSHA enforcement data including inspections, violations, and penalties through the Department of Labor's API.
+  name: OSHA Enforcement Data API
+  slug: osha-enforcement-data
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/osha-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/osha
+- group: company
+  title: ''
+  type: Website
+  url: https://www.osha.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.osha.gov/data/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.osha.gov/contactus/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.osha.gov/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.osha.gov/rss.xml
+created: '2026-03-16'
+description: Occupational Safety and Health Administration - U.S. federal agency responsible for setting and enforcing workplace safety and health standards. OSHA provides data APIs for accessing enforcement, inspection, and injury data.
+finops:
+- name: Osha Finops
+  service_category: API
+  slug: osha-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osha.png
+layout: provider
+modified: '2026-03-16'
+name: OSHA
+nav: Providers
+network: true
+overview: 'OSHA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Government, Health Standards, Regulatory, and Workplace Safety.
+
+
+  OSHA''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
+plans:
+- name: Osha Plans Pricing
+  plan_count: 3
+  slug: osha-plans-pricing
+random_paper: 19
+rate_limits:
+- limit_count: 5
+  name: Osha Rate Limits
+  slug: osha-rate-limits
+score:
+  band: emerging
+  composite: 24.6
+  delta: -0.5
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 25.1
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Osha Domain Security
+  slug: osha-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: osha
+tags:
+- Compliance
+- Government
+- Health Standards
+- Regulatory
+- Workplace Safety
+website: https://www.osha.gov/
+---

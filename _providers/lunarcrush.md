@@ -1,0 +1,187 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 26.0
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: 'REST API for LunarCrush social and market intelligence. Endpoints cover trending topics, categories, creators, posts, coins, stocks, and NFTs, including summary snapshots, historical time series, top '
+  name: LunarCrush API v4
+  slug: lunarcrush-api-v4
+- description: AI/agent-native interface to LunarCrush data at lunarcrush.ai. Exposes topics, categories, creators, posts, and search as clean machine-readable endpoints returning markdown by default (JSON with ?for
+  name: LunarCrush.ai
+  slug: lunarcrushai
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lunarcrush.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://lunarcrush.com/developers/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://lunarcrush.com/developers/api/endpoints
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/lunarcrush/api
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/lunarcrush-authentication.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lunarcrush-mcp.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/lunarcrush-cli.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lunarcrush-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/lunarcrush-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/lunarcrush-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lunarcrush-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lunarcrush-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lunarcrush-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lunarcrush-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lunarcrush
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://lunarcrush.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://lunarcrush.com/signup
+- group: company
+  title: ''
+  type: Blog
+  url: https://lunarcrush.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://lunarcrush.com/support
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://lunarcrush.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://lunarcrush.com/privacy
+created: '2026-07-17'
+description: 'LunarCrush is a real-time social intelligence platform for crypto, stocks, and trending topics. It aggregates billions of public posts from X (Twitter), Reddit, YouTube, TikTok, Instagram, and News across 4,000+ assets, runs them through topic classification, spam/bot filtering, sentiment scoring, and creator weighting, and turns them into proprietary metrics such as Galaxy Score, AltRank, TopicRank, CreatorRank, Social Dominance, and Sentiment. LunarCrush exposes this data through two developer surfaces: the LunarCrush API v4 (a REST API at lunarcrush.com/api4 for topics, categories, creators, posts, coins, stocks, and NFTs) and lunarcrush.ai (an AI/agent-native interface returning markdown/JSON/CSV, with a hosted Model Context Protocol server and a first-party CLI). Both use Bearer-token API-key authentication.'
+image: https://lunarcrush.com/apple-touch-icon.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: lunarcrush-mcp.yml
+  slug: lunarcrush-mcpyml
+modified: '2026-07-20'
+name: LunarCrush
+nav: Providers
+network: true
+overview: 'LunarCrush publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Intelligence, Cryptocurrency, Stocks, and Sentiment Analysis.
+
+
+  LunarCrush''s developer surface includes documentation, API reference, authentication, CLI, pricing, signup flow, engineering blog, and 15 more developer resources.'
+random_paper: 24
+score:
+  band: thin
+  composite: 34.9
+  delta: 3.4
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 63.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 31.5
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Lunarcrush Authentication
+  slug: lunarcrush-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Lunarcrush Domain Security
+  slug: lunarcrush-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lunarcrush
+tags:
+- Company
+- Social Intelligence
+- Cryptocurrency
+- Stocks
+- Sentiment Analysis
+- Social Media
+- Market Data
+- Analytics
+- AI Agents
+- MCP
+website: https://lunarcrush.com/
+---

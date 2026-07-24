@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clutch-learning-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://clutchprep.com
+created: '2026-07-17'
+description: Clutch Learning (Clutch Prep) was a Miami-based education-technology startup founded in 2011 that helped more than two million college students learn through thousands of short-form, topic-based video tutorials and practice problems across subjects such as chemistry, physics, biology, accounting, and calculus. Backed by 500 Global (500 Startups), the company was acquired by Pearson in 2022 and folded into the Pearson+ study platform, where the offering now lives as Pearson Channels. The standalone clutchprep.com product is no longer independently operated. The domain 301-redirects to pearson.com/channels, and the company exposes no independent developer portal, public API, SDKs, or event surface. This profile is retained in the API Evangelist network as an acquired-company record.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch-learning.png
+layout: provider
+modified: '2026-07-18'
+name: Clutch Learning
+nav: Providers
+network: true
+overview: Clutch Learning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Test Prep, and Video Learning.
+random_paper: 6
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Clutch Learning Domain Security
+  slug: clutch-learning-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: clutch-learning
+tags:
+- Company
+- Education
+- EdTech
+- Test Prep
+- Video Learning
+- Higher Education
+- Acquired
+website: https://clutchprep.com
+---

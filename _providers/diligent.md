@@ -1,0 +1,236 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: Customer Due Diligence
+  name: Diligent CDD API
+  slug: diligent-cdd-api
+- description: Company Information
+  name: Diligent Company API
+  slug: diligent-company-api
+- description: Instant Website Screening API
+  name: Diligent Instant Screening (experimental) API
+  slug: diligent-instant-screening-experimental-api
+- description: Website monitoring and alerts for changes and risks
+  name: Diligent Monitorings API
+  slug: diligent-monitorings-api
+- description: Name screening remediation
+  name: Diligent Name Screening API
+  slug: diligent-name-screening-api
+- description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
+  name: Diligent Webhooks API
+  slug: diligent-webhooks-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Diligent Webhooks
+  slug: diligent-webhooks
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/diligent-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/diligent-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/diligent-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.godiligent.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.godiligent.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.godiligent.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.godiligent.ai/guides/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.godiligent.ai/guides/introduction
+- group: start
+  title: ''
+  type: Login
+  url: https://app.godiligent.ai/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.godiligent.ai/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.godiligent.ai/news
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.godiligent.ai/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.godiligent.ai/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.godiligent.ai/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.godiligent.ai/security
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/godiligentai
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/goDiligent
+- group: build
+  title: ''
+  type: Postman
+  url: https://raw.githubusercontent.com/paylaneio/api/refs/heads/master/postman_collection.json
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/diligent-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/diligent-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/diligent-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/diligent-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/diligent-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/diligent-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/diligent-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/diligent-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/diligent-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/diligent-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Diligent (Diligent AI, godiligent.ai) builds autonomous AI agents for financial-crime compliance, automating the reasoning-heavy KYC/AML workflows that banks and fintechs run at scale. Its API exposes Customer Due Diligence (CDD) and business/merchant verification, name screening against sanctions and PEP providers with AI-powered alert remediation, ongoing monitoring with alerting, company identification and registry document retrieval, a blocked-company list, and an experimental instant website screening endpoint. The platform is API-first (X-API-KEY auth, production and sandbox environments, idempotency, and signed webhooks) and is used by fintechs and banks including Scalapay, Flywire, Allica Bank, Tamara, Teya, Vivid and Alma. Diligent is SOC 2 Type II certified, ISO 27001 certified, and GDPR compliant. It is backed by Speedinvest, Y Combinator and Shapers, and operates out of London and Berlin.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diligent.png
+layout: provider
+mcp_servers:
+- description: Candidate MCP tool list derived from the Diligent OpenAPI operations; no official hosted server published.
+  name: Diligent MCP (candidate)
+  slug: diligent-mcp-candidate
+modified: '2026-07-18'
+name: Diligent
+nav: Providers
+network: true
+overview: 'Diligent publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CDD API, Company API, Instant Screening (experimental) API, and 3 more. Tagged areas include Company, Compliance, RegTech, KYC, and AML.
+
+
+  The Diligent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 22 more developer resources.'
+random_paper: 32
+score:
+  band: developing
+  composite: 54.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 63.7
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 54.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Diligent Authentication
+  slug: diligent-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Diligent Domain Security
+  slug: diligent-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Diligent Trust Center
+  slug: diligent-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
+slug: diligent
+tags:
+- Company
+- Compliance
+- RegTech
+- KYC
+- AML
+- Financial Crime
+- Due Diligence
+- Screening
+- Sanctions
+- Monitoring
+- Artificial Intelligence
+- Fintech
+- Webhooks
+website: https://www.godiligent.ai
+---

@@ -1,0 +1,187 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Base L2 Agentic Access
+  operation_count: 1
+  slug: base-l2-agentic-access
+  summary_line: 1 operation · 1 acting
+api_count: 10
+apis:
+- description: Standard Ethereum JSON-RPC endpoint for Base Mainnet (chain ID 8453). Supports eth_*, net_*, web3_*, and Optimism-specific extensions for fee estimation and L1 messaging. The public endpoint is rate-l
+  name: Base Mainnet JSON-RPC
+  slug: mainnet-rpc
+- description: Public JSON-RPC endpoint for the Base Sepolia testnet (chain ID 84532) used for development, contract deployment, and integration testing.
+  name: Base Sepolia JSON-RPC
+  slug: sepolia-rpc
+- description: Pre-confirmation JSON-RPC endpoint exposing Flashblocks — sub-block streams of ordered transactions that allow apps to react to pending state with sub-second latency.
+  name: Base Flashblocks RPC
+  slug: flashblocks-rpc
+- description: Canonical cross-chain bridge between Ethereum L1 and Base L2 for depositing and withdrawing ETH and ERC-20 tokens, secured by the OP Stack bridge contracts.
+  name: Base Bridge
+  slug: bridge
+- description: Cross-chain bridge enabling asset transfers between Base and Solana, integrated into the Base ecosystem app surface.
+  name: Base / Solana Bridge
+  slug: solana-bridge
+- description: Base Account (formerly Coinbase Smart Wallet) is an ERC-4337 smart contract wallet with passkey sign-in, sub-accounts, session keys, sponsored transactions via paymaster, and SDK + React component int
+  name: Base Account / Smart Wallet
+  slug: account
+- description: React component library and TypeScript SDK (@coinbase/onchainkit) for building onchain apps on Base — wallet, identity, transaction, swap, checkout, fund, and NFT components with built-in Smart Wallet
+  name: OnchainKit
+  slug: onchainkit
+- description: Etherscan-family block explorer for Base Mainnet and Sepolia with a public contract / transaction / address API.
+  name: BaseScan Block Explorer
+  slug: basescan-explorer
+- description: Blockscout-powered open-source block explorer for Base with REST and GraphQL APIs.
+  name: Base Blockscout Block Explorer
+  slug: blockscout-explorer
+- description: Ethereum JSON-RPC 2.0 endpoint
+  name: Base JSON-RPC API
+  slug: base-l2-json-rpc-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Base JSON-RPC API
+  slug: open-base-l2
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/base-l2-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/base-l2-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.base.org
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.base.org
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/base-org
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/base
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.base.org
+- group: other
+  title: ''
+  type: Bridge
+  url: https://bridge.base.org
+- group: other
+  title: ''
+  type: Ecosystem
+  url: https://www.base.org/ecosystem
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/base
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/buildonbase
+- group: company
+  title: ''
+  type: Blog
+  url: https://base.mirror.xyz
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.base.org/llms.txt
+created: '2026-05-23'
+description: Base is Coinbase's Ethereum Layer 2 network built on the OP Stack and part of the Optimism Superchain. It exposes a standard Ethereum JSON-RPC interface for smart contracts and dApps, plus higher-level developer surfaces including Base Account (Smart Wallet, Sub Accounts, passkeys, paymaster-sponsored transactions), OnchainKit React components, Mini Apps, the canonical Bridge to Ethereum, and a Solana cross- chain bridge. Block exploration is available through BaseScan and Blockscout.
+finops:
+- name: Base L2 Finops
+  service_category: API
+  slug: base-l2-finops
+graphqls:
+- description: ''
+  name: Base GraphQL API
+  slug: base-l2-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/base-l2.png
+layout: provider
+modified: '2026-05-23'
+name: Base
+nav: Providers
+network: true
+overview: 'Base publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Layer 2, Ethereum, OP Stack, Superchain, and JSON-RPC.
+
+
+  Base''s developer surface includes documentation, GitHub presence, status page, engineering blog, and 9 more developer resources.'
+plans:
+- name: Base L2 Plans Pricing
+  plan_count: 1
+  slug: base-l2-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 2
+  name: Base L2 Rate Limits
+  slug: base-l2-rate-limits
+score:
+  band: thin
+  composite: 31.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 54.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 31.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/screenshots/base-l2-2026-06-20T173043.png
+security:
+- kind: domain-security
+  name: Base L2 Domain Security
+  slug: base-l2-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: base-l2
+tags:
+- Layer 2
+- Ethereum
+- OP Stack
+- Superchain
+- JSON-RPC
+- Smart Wallet
+- Bridge
+website: https://www.base.org
+---

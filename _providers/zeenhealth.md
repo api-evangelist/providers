@@ -1,0 +1,83 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zeenhealth-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://zeenhealth.com
+created: '2026-07-17'
+description: zeenhealth is a health company surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as a stub for enrichment. Its public web and API surface (zeenhealth.com, zeenhealth.cn, api.zeenhealth.com) is hosted on Chinese cloud infrastructure (Tencent Cloud, with Feishu/Lark email) and was not reachable from the enrichment environment, so no developer portal, OpenAPI, SDKs, or documentation could be harvested this pass. This profile remains a lead awaiting a reachable developer surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeenhealth.png
+layout: provider
+modified: '2026-07-21'
+name: zeenhealth
+nav: Providers
+network: true
+overview: zeenhealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Digital Health, and China.
+random_paper: 44
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Zeenhealth Domain Security
+  slug: zeenhealth-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: zeenhealth
+tags:
+- Company
+- Healthcare
+- Health
+- Digital Health
+- China
+website: https://zeenhealth.com
+---

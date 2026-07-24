@@ -1,0 +1,213 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-23'
+api_count: 22
+apis:
+- description: The Admin API from Transload — 36 operation(s) for admin.
+  name: Transload Admin API
+  slug: transload-admin-api
+- description: The Ai Results API from Transload — 3 operation(s) for ai results.
+  name: Transload Ai Results API
+  slug: transload-ai-results-api
+- description: The Artifacts API from Transload — 1 operation(s) for artifacts.
+  name: Transload Artifacts API
+  slug: transload-artifacts-api
+- description: The Cameras API from Transload — 2 operation(s) for cameras.
+  name: Transload Cameras API
+  slug: transload-cameras-api
+- description: The Customer API from Transload — 9 operation(s) for customer.
+  name: Transload Customer API
+  slug: transload-customer-api
+- description: The Customers API from Transload — 2 operation(s) for customers.
+  name: Transload Customers API
+  slug: transload-customers-api
+- description: The Exports API from Transload — 1 operation(s) for exports.
+  name: Transload Exports API
+  slug: transload-exports-api
+- description: The Handling Units API from Transload — 1 operation(s) for handling units.
+  name: Transload Handling Units API
+  slug: transload-handling-units-api
+- description: The Healthz API from Transload — 1 operation(s) for healthz.
+  name: Transload Healthz API
+  slug: transload-healthz-api
+- description: The Ingestor API from Transload — 4 operation(s) for ingestor.
+  name: Transload Ingestor API
+  slug: transload-ingestor-api
+- description: The Internal API from Transload — 16 operation(s) for internal.
+  name: Transload Internal API
+  slug: transload-internal-api
+- description: The Measurement API from Transload — 1 operation(s) for measurement.
+  name: Transload Measurement API
+  slug: transload-measurement-api
+- description: The Media Assets API from Transload — 2 operation(s) for media assets.
+  name: Transload Media Assets API
+  slug: transload-media-assets-api
+- description: The Processing Jobs API from Transload — 2 operation(s) for processing jobs.
+  name: Transload Processing Jobs API
+  slug: transload-processing-jobs-api
+- description: The Qa API from Transload — 18 operation(s) for qa.
+  name: Transload Qa API
+  slug: transload-qa-api
+- description: The Qa Classification API from Transload — 6 operation(s) for qa classification.
+  name: Transload Qa Classification API
+  slug: transload-qa-classification-api
+- description: The Qa Measurement API from Transload — 9 operation(s) for qa measurement.
+  name: Transload Qa Measurement API
+  slug: transload-qa-measurement-api
+- description: The Readyz API from Transload — 1 operation(s) for readyz.
+  name: Transload Readyz API
+  slug: transload-readyz-api
+- description: The Reference Measurements API from Transload — 2 operation(s) for reference measurements.
+  name: Transload Reference Measurements API
+  slug: transload-reference-measurements-api
+- description: The Refresh Token API from Transload — 1 operation(s) for refresh token.
+  name: Transload Refresh Token API
+  slug: transload-refresh-token-api
+- description: The Scans API from Transload — 5 operation(s) for scans.
+  name: Transload Scans API
+  slug: transload-scans-api
+- description: The Sites API from Transload — 2 operation(s) for sites.
+  name: Transload Sites API
+  slug: transload-sites-api
+artifact_total: 25
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/transload-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/transload-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://transload.io
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://transload.io/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://transload.io/gdpr/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:contact@transload.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.transload.io/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.transload.io/docs
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/transload-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/transload-llms.txt
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/transload-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/transload-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/transload-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/transload-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Transload (YC Spring 2026) measures freight with security cameras, turning the CCTV already installed in logistics warehouses into a 3D dimensioner for the loading dock. Its computer vision captures the true size of every pallet, couch, or tire as it moves through the warehouse — no new hardware or process changes — recovering rebilling revenue and trailer utilization for trucking companies (the company reports ~15% of shipments measure larger than declared). Founded 2026 in San Francisco by Nils Börner, Julius Scheel, and Jago Wahl-Schwentker (TU Munich). Its bearer-authenticated Pipeline Backend API is publicly described by an OpenAPI 3.0.3 served at api.transload.io/docs, covering customers, sites, cameras, scans, processing stages, AI measurement results, and customer handling-unit data.
+image: https://bookface-images.s3.amazonaws.com/small_logos/1bddf9622d95fa25a8b10500158d81f74f5df2f7.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: transload-mcp.yml
+  slug: transload-mcpyml
+modified: '2026-07-21'
+name: Transload
+nav: Providers
+network: true
+overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Ai Results API, Artifacts API, and 19 more. Tagged areas include Company, Logistics, Freight, Computer Vision, and Warehouses.
+
+
+  Transload''s developer surface includes authentication, support, documentation, API reference, and 11 more developer resources.'
+random_paper: 50
+score:
+  band: thin
+  composite: 31.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 34.5
+    developer_ergonomics: 45.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 31.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Transload Authentication
+  slug: transload-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Transload Domain Security
+  slug: transload-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: transload
+tags:
+- Company
+- Logistics
+- Freight
+- Computer Vision
+- Warehouses
+- Supply Chain
+- Measurement
+- Cameras
+- Trucking
+website: https://transload.io
+---

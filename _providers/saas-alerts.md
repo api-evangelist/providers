@@ -1,0 +1,207 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Saas Alerts Agentic Access
+  operation_count: 5
+  slug: saas-alerts-agentic-access
+  summary_line: 5 operations · 1 acting
+api_count: 2
+apis:
+- description: SaaS security event queries and reporting
+  name: SaaS Alerts Events API
+  slug: saas-alerts-events-api
+- description: Security event report generation
+  name: SaaS Alerts Reports API
+  slug: saas-alerts-reports-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: SaaS Alerts API
+  slug: open-saas-alerts
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/saas-alerts-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/saas-alerts-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/saas-alerts-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/saas-alerts
+- group: company
+  title: ''
+  type: Website
+  url: https://www.saasalerts.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.saasalerts.kaseya.com/help/Content/Home/saas-alerts-msp-admin-guide.htm
+- group: docs
+  title: ''
+  type: APIDocumentation
+  url: https://help.saasalerts.kaseya.com/help/Content/How-To/using-the-saas-alerts-api.htm
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.saasalerts.com/blog
+- group: other
+  title: ''
+  type: PlatformOverview
+  url: https://saasalerts.com/platform-overview-for-msps/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.saasalerts.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.saasalerts.com/terms
+- group: start
+  title: ''
+  type: Login
+  url: https://app.saasalerts.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.saasalerts.com/pricing
+created: '2026-03-27'
+description: SaaS Alerts is a SaaS security monitoring platform purpose-built for Managed Service Providers (MSPs). The platform detects anomalous user behavior, data exfiltration, account compromise, and unauthorized access across cloud applications including Microsoft 365, Google Workspace, Salesforce, Slack, and Dropbox. Key capabilities include machine learning-based threat detection, automated remediation workflows, multi-tenant MSP management, and integration with PSA and RMM platforms. SaaS Alerts was acquired by Kaseya in 2023.
+examples:
+- key_count: 2
+  name: Saas Alerts List Security Events Example
+  slug: saas-alerts-list-security-events-example
+- key_count: 2
+  name: Saas Alerts Query Security Events Example
+  slug: saas-alerts-query-security-events-example
+finops:
+- name: Saas Alerts Finops
+  service_category: API
+  slug: saas-alerts-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saas-alerts.png
+json_schemas:
+- name: SaaS Alerts Security Alert
+  property_count: 12
+  slug: saas-alerts-alert
+- name: SaaS Alerts Security Event
+  property_count: 11
+  slug: saas-alerts-security-event
+json_structures:
+- name: Saas Alerts Security Event Structure
+  property_count: 0
+  slug: saas-alerts-security-event-structure
+jsonld:
+- class_count: 4
+  name: Saas Alerts Context
+  property_count: 12
+  slug: saas-alerts-context
+layout: provider
+modified: '2026-05-19'
+name: SaaS Alerts
+nav: Providers
+network: true
+overview: 'SaaS Alerts publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Reports API. Tagged areas include MSP, SaaS Security, Security Monitoring, Threat Detection, and Microsoft 365.
+
+
+  The SaaS Alerts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  SaaS Alerts'' developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Saas Alerts Plans Pricing
+  plan_count: 3
+  slug: saas-alerts-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 5
+  name: Saas Alerts Rate Limits
+  slug: saas-alerts-rate-limits
+rules:
+- name: SaaS Alerts API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: saas-alerts-jsonschema-spectral-rules
+- name: SaaS Alerts API Rules
+  rule_count: 17
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 1
+    warn: 13
+  slug: saas-alerts-spectral-rules
+score:
+  band: developing
+  composite: 58.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 84.2
+    contract_quality: 69.0
+    developer_ergonomics: 28.3
+    discoverability: 60.0
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/screenshots/saas-alerts-2026-06-20T193314.png
+security:
+- kind: authentication
+  name: Saas Alerts Authentication
+  slug: saas-alerts-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Saas Alerts Domain Security
+  slug: saas-alerts-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: saas-alerts
+tags:
+- MSP
+- SaaS Security
+- Security Monitoring
+- Threat Detection
+- Microsoft 365
+- Google Workspace
+- MSSP
+website: https://www.saasalerts.com
+---

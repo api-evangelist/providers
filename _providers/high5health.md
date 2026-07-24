@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/high5health-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://high5health.com
+created: '2026-07-17'
+description: High5health (HighFive Healthcare) is a dental support organization that partners with endodontists and oral surgeons to run the business side of their specialty practices so the doctors can focus on patient care. Its managed services span human resources, accounting and legal, payroll, payor negotiations and credentialing, marketing, recruiting, revenue cycle management, IT and cybersecurity, procurement, insurance and risk management, and tax preparation. The company is a Norwest Venture Partners portfolio company. It operates as a healthcare business-services provider and does not publish a public developer platform, API, or SDK.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/high5health.png
+layout: provider
+modified: '2026-07-19'
+name: High5health
+nav: Providers
+network: true
+overview: High5health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Dental Support Organization, and Oral Surgery.
+random_paper: 28
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: High5Health Domain Security
+  slug: high5health-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: high5health
+tags:
+- Company
+- Healthcare
+- Dental
+- Dental Support Organization
+- Oral Surgery
+- Endodontics
+- Practice Management
+- Revenue Cycle Management
+- Business Services
+website: https://high5health.com
+---

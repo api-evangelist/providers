@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cnc24.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cnc24.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.cnc24.com/contact/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.cnc24.com/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cnc24.com/gtc/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cnc24.com/privacy-policy/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cnc24-domain-security.yml
+created: '2026-07-17'
+description: CNC24 is a German online manufacturing platform for ordering custom CNC parts and precision components. Customers upload CAD files (STEP, STP, DWG, DXF, PDF and 3D data) and receive a binding quote within 48 hours, with production routed through a vetted network of 500+ manufacturers across 21 countries and roughly 5,500 machines. An AI-powered matching algorithm assigns each request to partners with the right expertise and production environment. Supported processes include CNC milling, turning, laser and waterjet cutting, sheet metal bending, punching, EDM, 3D printing, injection molding and die casting, serving aerospace, automotive, medical, robotics, construction and energy customers. The platform runs a fully digital workflow from quoting to delivery with order tracking, ISO 9001:2015 quality assurance, AES-256 encryption and anonymized drawings shared with partners. CNC24 is a Seedcamp portfolio company. No public developer API, SDKs or API documentation are published.
+image: https://www.cnc24.com/wp-content/uploads/2022/04/cnc24-logo.svg
+layout: provider
+modified: '2026-07-18'
+name: CNC24
+nav: Providers
+network: true
+overview: 'CNC24 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, CNC Machining, On-Demand Manufacturing, and Custom Parts.
+
+
+  CNC24''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 2
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cnc24 Domain Security
+  slug: cnc24-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: cnc24
+tags:
+- Company
+- Manufacturing
+- CNC Machining
+- On-Demand Manufacturing
+- Custom Parts
+- Procurement
+- Supply Chain
+- Prototyping
+- Germany
+website: https://www.cnc24.com
+---

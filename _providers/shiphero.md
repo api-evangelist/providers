@@ -1,0 +1,163 @@
+---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: ShipHero's primary public API built on GraphQL, providing programmatic access to warehouse management data and operations including inventory, orders, shipments, purchase orders, returns, wholesale or
+  name: ShipHero GraphQL API
+  slug: graphql-api
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/shiphero-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shiphero-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://shiphero.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.shiphero.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.shiphero.com/getting-started/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Shiphero
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shiphero
+- group: company
+  title: ''
+  type: Blog
+  url: https://shiphero.com/blog
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/weareshiphero
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.shiphero.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shiphero-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shiphero-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/shiphero-finops.yml
+created: '2026-06-12'
+description: ShipHero is a warehouse management system (WMS) and fulfillment platform designed for brands and third-party logistics (3PL) providers operating eCommerce direct-to-consumer fulfillment. The platform exposes a GraphQL public API with 69 queries, 120 mutations, and 599 types covering inventory, orders, shipments, purchase orders, returns, and warehouse operations. Authentication uses JWT bearer tokens obtained via username and password credentials, with access tokens valid for 28 days and refresh-token-based renewal. ShipHero enforces a credit-based rate limit system and supports 18 webhook event types for real-time integration with fulfillment workflows.
+finops:
+- name: Shiphero Finops
+  service_category: ''
+  slug: shiphero-finops
+graphqls:
+- description: 'ShipHero exposes a single GraphQL endpoint that provides programmatic access to warehouse management and fulfillment operations. The API covers inventory, orders, shipments, purchase orders, returns, '
+  name: ShipHero GraphQL API
+  slug: shiphero-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shiphero.png
+jsonld:
+- class_count: 46
+  name: Shiphero Context
+  property_count: 37
+  slug: shiphero-context
+layout: provider
+modified: '2026-06-12'
+name: ShipHero
+nav: Providers
+network: true
+overview: 'ShipHero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, Fulfillment, eCommerce, GraphQL, and Inventory.
+
+
+  The ShipHero catalog on APIs.io includes 1 JSON-LD context.
+
+
+  ShipHero''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
+plans:
+- name: Shiphero Plans Pricing
+  plan_count: 3
+  slug: shiphero-plans-pricing
+random_paper: 50
+rate_limits:
+- limit_count: 6
+  name: Shiphero Rate Limits
+  slug: shiphero-rate-limits
+score:
+  band: thin
+  composite: 35.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 20.8
+    developer_ergonomics: 21.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 52.6
+  previous_composite: 35.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shiphero/refs/heads/main/screenshots/shiphero-2026-06-20T193816.png
+security:
+- kind: domain-security
+  name: Shiphero Domain Security
+  slug: shiphero-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Shiphero Trust Center
+  slug: shiphero-trust-center
+  summary_line: SOC 2, GDPR
+slug: shiphero
+tags:
+- Warehouse Management
+- Fulfillment
+- eCommerce
+- GraphQL
+- Inventory
+- Orders
+- Shipments
+- 3PL
+- Logistics
+website: https://shiphero.com/
+---

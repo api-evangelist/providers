@@ -1,0 +1,205 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Newsapi Agentic Access
+  operation_count: 3
+  slug: newsapi-agentic-access
+  summary_line: 3 operations
+api_count: 3
+apis:
+- description: Search all articles from all sources
+  name: NewsAPI Everything API
+  slug: newsapi-everything-api
+- description: Get available news sources
+  name: NewsAPI Sources API
+  slug: newsapi-sources-api
+- description: Get live top and breaking headlines
+  name: NewsAPI Top Headlines API
+  slug: newsapi-top-headlines-api
+artifact_total: 17
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/newsapi-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/newsapi-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/newsapi-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://newsapi.org/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://newsapi.org/docs
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/News-API-gh
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/newsapi
+- group: company
+  title: ''
+  type: Blog
+  url: https://newsapi.org/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://newsapi.org/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://newsapi.org/status
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/newsapi
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/newsapi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/newsapi-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/newsapi-finops.yml
+created: '2026-06-12'
+description: NewsAPI is a simple, easy-to-use REST API that returns JSON metadata for news articles and breaking headlines published by over 80,000 worldwide sources and blogs. The API supports full-text keyword search across hundreds of millions of articles, filtering by source domain, language, date range, and sorting by relevance or publication date. A dedicated top-headlines endpoint delivers live breaking news by country and category — covering business, entertainment, general, health, science, sports, and technology. Developers authenticate via an API key passed as a query parameter or HTTP header, and all responses are returned as standard JSON.
+examples:
+- key_count: 2
+  name: Newsapi Everything Example
+  slug: newsapi-everything-example
+- key_count: 2
+  name: Newsapi Sources Example
+  slug: newsapi-sources-example
+- key_count: 2
+  name: Newsapi Top Headlines Example
+  slug: newsapi-top-headlines-example
+finops:
+- name: Newsapi Finops
+  service_category: News Data API
+  slug: newsapi-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newsapi.png
+json_schemas:
+- name: Article
+  property_count: 8
+  slug: newsapi-article
+- name: ErrorResponse
+  property_count: 3
+  slug: newsapi-error
+- name: NewsSource
+  property_count: 7
+  slug: newsapi-source
+jsonld:
+- class_count: 2
+  name: Newsapi Context
+  property_count: 29
+  slug: newsapi-context
+layout: provider
+modified: '2026-06-12'
+name: NewsAPI
+nav: Providers
+network: true
+overview: 'NewsAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Everything API, Sources API, and Top Headlines API. Tagged areas include News, Headlines, Articles, Search, and Media.
+
+
+  The NewsAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  NewsAPI''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Newsapi Plans Pricing
+  plan_count: 4
+  slug: newsapi-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 0
+  name: Newsapi Rate Limits
+  slug: newsapi-rate-limits
+rules:
+- name: NewsAPI API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: newsapi-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 55.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 77.9
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 55.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/screenshots/newsapi-2026-06-20T190246.png
+security:
+- kind: authentication
+  name: Newsapi Authentication
+  slug: newsapi-authentication
+  summary_line: apiKey/http · 3 schemes
+- kind: domain-security
+  name: Newsapi Domain Security
+  slug: newsapi-domain-security
+  summary_line: TLSv1.3
+slug: newsapi
+tags:
+- News
+- Headlines
+- Articles
+- Search
+- Media
+- Content
+- REST
+- JSON
+website: https://newsapi.org/
+---

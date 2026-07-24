@@ -1,0 +1,235 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Tillo Agentic Access
+  operation_count: 12
+  slug: tillo-agentic-access
+  summary_line: 12 operations · 7 acting
+api_count: 5
+apis:
+- description: Balance checking operations
+  name: Tillo Balance API
+  slug: tillo-balance-api
+- description: Brand catalog and information
+  name: Tillo Brands API
+  slug: tillo-brands-api
+- description: Digital gift card issuance
+  name: Tillo Digital Cards API
+  slug: tillo-digital-cards-api
+- description: Float account management
+  name: Tillo Float API
+  slug: tillo-float-api
+- description: Order management and status
+  name: Tillo Orders API
+  slug: tillo-orders-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Tillo Gift Card API
+  slug: open-tillo-gift-card
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/tillo-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tillo-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/tillo-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/tillo
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tillo.io/
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.tillo.io/gift-card-api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tillo.tech/v2_docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://tillo.tech/v2_docs/getting_started.html
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://tillo.tech/v2_docs/authentication.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tilloops
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/tilloops/tillo
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tillo.io/blog
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.tillo.io/contact
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.tillo.io/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tillo.io/legal
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: https://api.tillo.tech/
+- group: start
+  title: ''
+  type: Signup
+  url: https://app.tillo.io/
+created: '2025-02-08'
+description: Tillo is an award-winning gift card API platform connecting businesses to 4,000+ global brands across 37 markets and 16 currencies. The REST API supports digital and physical gift card issuance, balance checking, float management, and brand catalog access. Authentication uses HMAC-SHA256 signatures.
+examples:
+- key_count: 2
+  name: Tillo Issuedigitalcard Example
+  slug: tillo-issueDigitalCard-example
+- key_count: 2
+  name: Tillo Listbrands Example
+  slug: tillo-listBrands-example
+finops:
+- name: Tillo Finops
+  service_category: API
+  slug: tillo-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tillo.png
+json_schemas:
+- name: Tillo Brand
+  property_count: 12
+  slug: tillo-brand
+- name: Tillo Gift Card
+  property_count: 11
+  slug: tillo-gift-card
+json_structures:
+- name: Tillo Brand Structure
+  property_count: 0
+  slug: tillo-brand-structure
+jsonld:
+- class_count: 15
+  name: Tillo Context
+  property_count: 0
+  slug: tillo-context
+layout: provider
+modified: '2026-05-19'
+name: Tillo
+nav: Providers
+network: true
+overview: 'Tillo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Brands API, Digital Cards API, and 2 more. Tagged areas include Finance, Gift Cards, Payments, Rewards, and Incentives.
+
+
+  The Tillo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Tillo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 10 more developer resources.'
+plans:
+- name: Tillo Plans Pricing
+  plan_count: 3
+  slug: tillo-plans-pricing
+random_paper: 38
+rate_limits:
+- limit_count: 5
+  name: Tillo Rate Limits
+  slug: tillo-rate-limits
+rules:
+- name: Tillo API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: tillo-jsonschema-spectral-rules
+- name: Tillo API Rules
+  rule_count: 7
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 3
+  slug: tillo-rules
+score:
+  band: developing
+  composite: 55.9
+  delta: -1.8
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 64.4
+    developer_ergonomics: 45.7
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 57.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 45.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
+security:
+- kind: authentication
+  name: Tillo Authentication
+  slug: tillo-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Tillo Domain Security
+  slug: tillo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: tillo
+tags:
+- Finance
+- Gift Cards
+- Payments
+- Rewards
+- Incentives
+website: https://www.tillo.io/
+---

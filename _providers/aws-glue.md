@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Aws Glue Agentic Access
+  operation_count: 1
+  slug: aws-glue-agentic-access
+  summary_line: 1 operation · 1 acting
+api_count: 1
+apis:
+- description: The AWS Glue API API from AWS Glue — 1 operation(s) for aws glue api.
+  name: AWS Glue AWS Glue API API
+  slug: aws-glue-aws-glue-api-api
+artifact_total: 7
+collections:
+- collection_type: open
+  name: AWS Glue API
+  slug: open-aws-glue
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/aws-glue-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/aws-glue-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/aws-glue-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aws-glue-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/aws-glue-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/glue/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aws.amazon.com/glue/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/glue/latest/webapi/WebAPI_Welcome.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/glue/pricing/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html
+- group: other
+  title: ''
+  type: Endpoints
+  url: https://docs.aws.amazon.com/general/latest/gr/glue.html
+- group: build
+  title: ''
+  type: CLI
+  url: https://docs.aws.amazon.com/cli/latest/reference/glue/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://aws.amazon.com/tools/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+- group: operate
+  title: ''
+  type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- group: company
+  title: ''
+  type: Blog
+  url: https://aws.amazon.com/blogs/big-data/feed/
+created: '2026-05-11'
+description: AWS Glue is a fully managed serverless extract, transform, and load (ETL) service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. It provides a central data catalog, crawlers for automated metadata discovery, visual and code-based job authoring, and data quality capabilities. The Glue API uses AWS Signature Version 4 (SigV4) authentication and is accessed via SDKs, the AWS CLI, or direct HTTPS calls to regional service endpoints.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-glue.png
+layout: provider
+modified: '2026-05-11'
+name: AWS Glue
+nav: Providers
+network: true
+overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Glue API API. Tagged areas include Data, Data Catalog, ETL, Analytics, and Serverless.
+
+
+  AWS Glue''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, engineering blog, and 10 more developer resources.'
+random_paper: 40
+score:
+  band: thin
+  composite: 35.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 56.6
+    developer_ergonomics: 45.7
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 35.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/screenshots/aws-glue-2026-06-20T172756.png
+security:
+- kind: authentication
+  name: Aws Glue Authentication
+  slug: aws-glue-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Aws Glue Domain Security
+  slug: aws-glue-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Aws Glue Vulnerability Disclosure
+  slug: aws-glue-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Aws Glue Trust Center
+  slug: aws-glue-trust-center
+  summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+slug: aws-glue
+tags:
+- Data
+- Data Catalog
+- ETL
+- Analytics
+- Serverless
+website: https://aws.amazon.com/glue/
+---

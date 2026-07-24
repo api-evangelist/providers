@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 11.5
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.recurse.ml/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.recurse.ml/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.recurse.ml/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.recurse.ml/docs/rml/getting-started/installing-on-macos
+- group: build
+  title: ''
+  type: CLI
+  url: cli/recurse-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/recurse-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/recurse-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/recurse-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/recurse-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Recurse-ML
+- group: company
+  title: ''
+  type: Blog
+  url: https://recurse-ml.notion.site
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/qEjHQk64Z9
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.recurse.ml/#pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://github.com/marketplace/recurse-ml
+created: '2026-07-17'
+description: Recurse ML is an AI-powered code review platform built for modern development workflows that lean on AI coding assistants like Cursor, Claude Code, and GitHub Copilot. It understands a whole codebase's context to catch subtle bugs, breaking changes, library/API misuse, and SQL query issues that tests and static analyzers miss, and returns actionable feedback with one-click fixes. Recurse ships as a GitHub App that reviews pull requests, an rml CLI for local and CI/CD review, and ReMCP, a Model Context Protocol server that turns Recurse into a self-healing quality gate AI agents call to fix their own mistakes. It advertises a zero data retention policy and is pursuing SOC 2 compliance.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recurse.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: recurse-mcp.yml
+  slug: recurse-mcpyml
+modified: '2026-07-21'
+name: Recurse
+nav: Providers
+network: true
+overview: 'Recurse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Code Review, Code Review, Developer Tools, and CLI.
+
+
+  Recurse''s developer surface includes documentation, getting-started guide, CLI, engineering blog, support, pricing, signup flow, and 7 more developer resources.'
+random_paper: 47
+score:
+  band: emerging
+  composite: 22.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 22.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Recurse Domain Security
+  slug: recurse-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: recurse
+tags:
+- Company
+- AI Code Review
+- Code Review
+- Developer Tools
+- CLI
+- MCP
+- AI Agents
+- Static Analysis
+- Bug Detection
+- Code Quality
+website: https://www.recurse.ml/
+---

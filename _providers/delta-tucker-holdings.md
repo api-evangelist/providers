@@ -1,0 +1,94 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: Successor
+  url: https://www.amentum.com
+- group: other
+  title: ''
+  type: SEC
+  url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=delta+tucker+holdings
+- group: other
+  title: ''
+  type: Notes
+  url: https://en.wikipedia.org/wiki/DynCorp
+created: '2024-12-03'
+description: Delta Tucker Holdings was the holding company for DynCorp International, a provider of specialized mission-critical professional and support services to government and commercial customers, including aviation services, logistics, and training. DynCorp's operations were acquired and integrated into Amentum in 2020. Delta Tucker Holdings does not publish public APIs; this profile is preserved as a corporate-history index.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delta-tucker-holdings.png
+layout: provider
+modified: '2026-04-28'
+name: Delta Tucker Holdings
+nav: Providers
+network: true
+overview: Delta Tucker Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Government Services, Holding Company, Logistics, and Mission Support.
+press:
+- date: '2026-05-25'
+  title: Proxy Statement (Form DEF 14A)
+  url: https://www.publicnow.com/view/F2243B833D18A724285849E28B6619A4215AE43F?1750452459
+- date: '2026-05-25'
+  title: XBRL Viewer
+  url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1646972/000114036124030899/ny20019591x1_def14a.htm
+- date: '2026-05-25'
+  title: HP INC. XEROX HOLDINGS CORPORATION
+  url: https://investors.xerox.com/static-files/6b7bc5b3-72cd-4b9f-ba5f-e6fc6570a86a
+- date: '2026-05-25'
+  title: D - API Evangelist Contracts - Contracts
+  url: https://contracts.apievangelist.com/d/
+- date: '2026-05-25'
+  title: Investors - Governance - Board of Directors
+  url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx
+random_paper: 31
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/delta-tucker-holdings/refs/heads/main/screenshots/delta-tucker-holdings-2026-06-20T175904.png
+slug: delta-tucker-holdings
+tags:
+- Defense
+- Government Services
+- Holding Company
+- Logistics
+- Mission Support
+- Private Company
+---

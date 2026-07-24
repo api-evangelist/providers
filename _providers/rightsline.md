@@ -1,0 +1,261 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Rightsline Agentic Access
+  operation_count: 17
+  slug: rightsline-agentic-access
+  summary_line: 17 operations · 8 acting
+api_count: 10
+apis:
+- description: RESTful API for managing rights, licenses, and availability data. Supports creation, retrieval, modification, and deletion of up to 100 records per request. Enables automation of rights tracking, avai
+  name: Rightsline Rights API
+  slug: rights-api
+- description: RESTful API for managing royalties, revenue data, and financial workflows. Supports bulk loading of revenue, sales, and usage data. Enables automation of finance billing requests and royalty calculati
+  name: Rightsline Royalties API
+  slug: royalties-api
+- description: Content availability and windowing
+  name: Rightsline Availability API
+  slug: rightsline-availability-api
+- description: Content catalog and product management
+  name: Rightsline Catalog API
+  slug: rightsline-catalog-api
+- description: Contact and company management
+  name: Rightsline Contacts API
+  slug: rightsline-contacts-api
+- description: Master and pick list management
+  name: Rightsline Lists API
+  slug: rightsline-lists-api
+- description: Rights and license management
+  name: Rightsline Rights API
+  slug: rightsline-rights-api
+- description: Royalty and revenue management
+  name: Rightsline Royalties API
+  slug: rightsline-royalties-api
+- description: Template configuration
+  name: Rightsline Templates API
+  slug: rightsline-templates-api
+- description: Workflow automation and actions
+  name: Rightsline Workflows API
+  slug: rightsline-workflows-api
+artifact_total: 25
+collections:
+- collection_type: open
+  name: Rightsline API
+  slug: open-rightsline
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/rightsline-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/rightsline-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/rightsline-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rightsline
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/rightsline
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rightsline.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api-docs.rightsline.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://app.rightsline.com
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://postman.rightsline.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://api-docs.rightsline.com/authentication/user-permissions
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.rightsline.com/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rightsline.com/resources/api-integration/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rightsline.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rightsline.com/privacy-policy/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/openapi/rightsline-openapi.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/rules/rightsline-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/json-schema/rightsline-right-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/json-schema/rightsline-royalty-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/json-ld/rightsline-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/vocabulary/rightsline-vocabulary.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://api-docs.rightsline.com/llms.txt
+created: '2025-02-08'
+description: Rightsline is the leading rights and royalties software platform for media, entertainment, and content businesses. Its REST API enables real-time integration of contacts, product catalogs, revenue data, and workflow automation for rights tracking, availability, royalty calculations, and vendor delivery across the content lifecycle.
+examples:
+- key_count: 2
+  name: Rightsline Check Availability Example
+  slug: rightsline-check-availability-example
+- key_count: 2
+  name: Rightsline List Rights Example
+  slug: rightsline-list-rights-example
+finops:
+- name: Rightsline Finops
+  service_category: API
+  slug: rightsline-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightsline.png
+json_schemas:
+- name: Rightsline Right
+  property_count: 11
+  slug: rightsline-right
+- name: Rightsline Royalty
+  property_count: 8
+  slug: rightsline-royalty
+json_structures:
+- name: Rightsline Right Structure
+  property_count: 0
+  slug: rightsline-right-structure
+jsonld:
+- class_count: 35
+  name: Rightsline Context
+  property_count: 0
+  slug: rightsline-context
+layout: provider
+modified: '2026-05-19'
+name: Rightsline
+nav: Providers
+network: true
+overview: 'Rightsline publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Rights API, Royalties API, Availability API, and 7 more. Tagged areas include Content Management, Entertainment, Media, Rights Management, and Royalties.
+
+
+  The Rightsline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Rightsline''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 16 more developer resources.'
+plans:
+- name: Rightsline Plans Pricing
+  plan_count: 3
+  slug: rightsline-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Rightsline Rate Limits
+  slug: rightsline-rate-limits
+rules:
+- name: Rightsline API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: rightsline-jsonschema-spectral-rules
+- name: Rightsline API Rules
+  rule_count: 11
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 1
+    warn: 6
+  slug: rightsline-rules
+score:
+  band: developing
+  composite: 58.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 62.4
+    developer_ergonomics: 45.7
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 58.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/screenshots/rightsline-2026-06-20T193119.png
+security:
+- kind: authentication
+  name: Rightsline Authentication
+  slug: rightsline-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Rightsline Domain Security
+  slug: rightsline-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: rightsline
+tags:
+- Content Management
+- Entertainment
+- Media
+- Rights Management
+- Royalties
+website: https://www.rightsline.com
+---

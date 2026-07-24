@@ -1,0 +1,176 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 25
+  human_in_the_loop: 0
+  name: Extend Ai Agentic Access
+  operation_count: 41
+  slug: extend-ai-agentic-access
+  summary_line: 41 operations · 25 acting
+api_count: 9
+apis:
+- description: The Batch API from Extend — 5 operation(s) for batch.
+  name: Extend Batch API
+  slug: extend-ai-batch-api
+- description: The Classify API from Extend — 4 operation(s) for classify.
+  name: Extend Classify API
+  slug: extend-ai-classify-api
+- description: The Evaluations API from Extend — 4 operation(s) for evaluations.
+  name: Extend Evaluations API
+  slug: extend-ai-evaluations-api
+- description: The Extract API from Extend — 6 operation(s) for extract.
+  name: Extend Extract API
+  slug: extend-ai-extract-api
+- description: The Files API from Extend — 3 operation(s) for files.
+  name: Extend Files API
+  slug: extend-ai-files-api
+- description: The Parse API from Extend — 3 operation(s) for parse.
+  name: Extend Parse API
+  slug: extend-ai-parse-api
+- description: The Split API from Extend — 3 operation(s) for split.
+  name: Extend Split API
+  slug: extend-ai-split-api
+- description: The Workflow Runs API from Extend — 3 operation(s) for workflow runs.
+  name: Extend Workflow Runs API
+  slug: extend-ai-workflow-runs-api
+- description: The Workflows API from Extend — 2 operation(s) for workflows.
+  name: Extend Workflows API
+  slug: extend-ai-workflows-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Extend API
+  slug: open-extend-ai
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/extend-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/extend-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/extend-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/extend-ai-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/extend-ai
+- group: company
+  title: ''
+  type: Website
+  url: https://www.extend.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.extend.ai
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/extend-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/extend-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/extend-ai-finops.yml
+created: '2026-06-20'
+description: Extend is an intelligent document processing platform that turns documents into high quality, structured data. Its REST API at api.extend.ai exposes parsing, extraction, classification, and splitting processors, durable multi-step workflows, evaluation sets, and batch processing for automating document-heavy operations.
+finops:
+- name: Extend Ai Finops
+  service_category: AI and Machine Learning
+  slug: extend-ai-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/extend-ai.png
+layout: provider
+modified: '2026-06-20'
+name: Extend
+nav: Providers
+network: true
+overview: 'Extend publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Classify API, Evaluations API, and 6 more. Tagged areas include Document Processing, Document AI, Intelligent Document Processing, OCR, and Extraction.
+
+
+  Extend''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Extend Ai Plans Pricing
+  plan_count: 3
+  slug: extend-ai-plans-pricing
+random_paper: 28
+rate_limits:
+- limit_count: 5
+  name: Extend Ai Rate Limits
+  slug: extend-ai-rate-limits
+score:
+  band: thin
+  composite: 37.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 53.1
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 37.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/screenshots/extend-ai-2026-06-20T180945.png
+security:
+- kind: authentication
+  name: Extend Ai Authentication
+  slug: extend-ai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Extend Ai Domain Security
+  slug: extend-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Extend Ai Trust Center
+  slug: extend-ai-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
+slug: extend-ai
+tags:
+- Document Processing
+- Document AI
+- Intelligent Document Processing
+- OCR
+- Extraction
+- Classification
+website: https://www.extend.ai
+---

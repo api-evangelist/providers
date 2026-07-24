@@ -1,0 +1,85 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bowery-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://boweryfarming.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/BoweryFarming
+created: '2026-07-17'
+description: Bowery Farming was an American indoor vertical-farming (controlled-environment agriculture) company headquartered in New York City that grew leafy greens and herbs in automated, pesticide-free indoor farms serving major East Coast metro areas. Once valued at roughly $2.3 billion and backed by investors including Bloomberg Beta and SV Angel, the company ceased operations in November 2024 and its facilities and equipment entered liquidation through 2025-2026. Bowery published no public developer API, SDK, documentation, or discovery surface; this API Evangelist profile records the company's identity and its probed domain-security posture only.
+image: https://boweryfarming.com/wp-content/uploads/2020/11/Instagram-Profile.jpg
+layout: provider
+modified: '2026-07-18'
+name: Bowery
+nav: Providers
+network: true
+overview: Bowery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Vertical Farming, Indoor Farming, and Controlled Environment Agriculture.
+random_paper: 1
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bowery Domain Security
+  slug: bowery-domain-security
+  summary_line: TLSv1.3
+slug: bowery
+tags:
+- Company
+- AgTech
+- Vertical Farming
+- Indoor Farming
+- Controlled Environment Agriculture
+- Agriculture
+- Food
+- Sustainability
+website: https://boweryfarming.com
+---

@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/orchid-labs-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.orchid.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.orchid.com/en/latest/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.orchid.com/en/latest/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OrchidTechnologies
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.orchid.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://account.orchid.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.orchid.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.orchid.com/privacy-policy/
+- group: other
+  title: ''
+  type: Whitepaper
+  url: https://www.orchid.com/whitepaper/english.pdf
+created: '2026-07-17'
+description: Orchid Labs is the company behind Orchid, an open-source, decentralized marketplace for bandwidth and a privacy-focused VPN. Orchid lets users pay for VPN service through nanopayments settled on a probabilistic payment layer built on Ethereum, using the OXT utility token and Orchid Accounts rather than traditional subscriptions. The stack includes an open-source multi-hop VPN client (Dart), the Orchid DApp for account creation and management, a decentralized directory of bandwidth providers running as smart contracts, and an L2/L3 nanopayment protocol. Backed by a16z, Sequoia Capital, DFJ, and Polychain, Orchid Labs focuses on decentralized privacy infrastructure rather than a conventional developer REST API.
+image: https://www.orchid.com/img/social-embed-2024.png
+layout: provider
+modified: '2026-07-20'
+name: Orchid Labs
+nav: Providers
+network: true
+overview: 'Orchid Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, VPN, Privacy, Decentralized, and Blockchain.
+
+
+  Orchid Labs'' developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
+random_paper: 25
+score:
+  band: emerging
+  composite: 18.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 18.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Orchid Labs Domain Security
+  slug: orchid-labs-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: orchid-labs
+tags:
+- Company
+- VPN
+- Privacy
+- Decentralized
+- Blockchain
+- Cryptocurrency
+- Nanopayments
+- Web3
+- Networking
+website: https://www.orchid.com/
+---

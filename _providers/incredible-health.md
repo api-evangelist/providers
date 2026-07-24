@@ -1,0 +1,135 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.incrediblehealth.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.incrediblehealth.com/about/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.incrediblehealth.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.incrediblehealth.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.incrediblehealth.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.incrediblehealth.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.incrediblehealth.com/contact/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.incrediblehealth.com/login/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/incrediblehealth
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/incrediblehealth
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.incrediblehealth.com/careers/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/incredible-health-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/incredible-health-domain-security.yml
+created: '2026-07-17'
+description: 'Incredible Health is an AI-native healthcare career marketplace that connects registered nurses, technicians, and technologists with permanent jobs at top hospitals and health systems. It flips traditional recruiting by having employers apply to pre-screened, verified professionals rather than the reverse. The platform serves 1.5 million+ U.S. healthcare workers and 1,500+ employers, including a majority of the nation''s top-ranked hospital systems, cutting time-to-hire from a national average of roughly 86 days to under 20. Two purpose-built AI agents power the marketplace: Gale, a career partner for professionals (resume wizard, interview practice), and Lyn, a voice interview agent for employers that integrates with applicant-tracking systems. Founded by Iman Abuzeid, MD, and headquartered in San Francisco, the company is venture-backed by Andreessen Horowitz, Obvious Ventures, and NFX.'
+image: https://www.incrediblehealth.com/wp-content/uploads/2025/11/IncredibleHealth_Meta_Lyn-1.png
+layout: provider
+modified: '2026-07-19'
+name: Incredible Health
+nav: Providers
+network: true
+overview: 'Incredible Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Hiring, Nursing, and Recruiting.
+
+
+  Incredible Health''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
+random_paper: 33
+score:
+  band: emerging
+  composite: 19.6
+  delta: 1.9
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 17.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Incredible Health Domain Security
+  slug: incredible-health-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: incredible-health
+tags:
+- Company
+- Healthcare
+- Hiring
+- Nursing
+- Recruiting
+- Marketplace
+- Artificial Intelligence
+- Career
+- Talent
+- Workforce
+website: https://www.incrediblehealth.com
+---

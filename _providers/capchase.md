@@ -1,0 +1,183 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 46.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 5
+  name: Capchase Agentic Access
+  operation_count: 9
+  slug: capchase-agentic-access
+  summary_line: 9 operations · 5 acting · 5 human-in-the-loop
+api_count: 1
+apis:
+- description: The Pay API from Capchase — 8 operation(s) for pay.
+  name: Capchase Pay API
+  slug: capchase-pay-api
+arazzos:
+- description: Create a buyer, confirm qualification, then create a financed subscription and read its status.
+  name: Capchase Qualify a Buyer and Create a Financed Subscription
+  slug: capchase-buyer-to-subscription
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.capchase.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://capchase.readme.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://capchase.readme.io/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://capchase.readme.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://capchase.readme.io/docs/get-started
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/capchase-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Capchase
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.capchase.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.capchase.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.capchase.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.capchase.com/privacy-policy
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://capchase.readme.io/reference/migrating-from-v1
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.capchase.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/capchase-llms.txt
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/capchase-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/capchase-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/capchase-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/capchase-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/capchase-domain-security.yml
+created: '2026-07-17'
+description: 'Capchase provides embedded financing and B2B payment infrastructure for software and hardware vendors. Its Capchase Pay API lets vendors offer buyers flexible installment payment terms at checkout while the vendor is paid the full contract value upfront. Vendors create buyer companies, run automated KYB/underwriting qualification, create subscriptions that generate hosted payment links, list and retrieve subscription status, and pull instalment receipts. The v2 REST API is served from universe.capchase.com, uses HTTP Basic authentication (clientId / clientSecret), ships a Playground environment, and is documented on a ReadMe developer portal with an OpenAPI reference and an AI-agent llms.txt index. Sector: fintech; backed by QED Investors.'
+image: https://cdn.prod.website-files.com/6146543ab50f167ae088b201/61701898ec2756274d6e8665_256px.png
+layout: provider
+modified: '2026-07-18'
+name: Capchase
+nav: Providers
+network: true
+overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: Pay API. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Financing.
+
+
+  Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 13 more developer resources.'
+random_paper: 8
+score:
+  band: developing
+  composite: 48.3
+  delta: 3.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 54.9
+    developer_ergonomics: 60.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 45.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Capchase Authentication
+  slug: capchase-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Capchase Domain Security
+  slug: capchase-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: capchase
+tags:
+- Company
+- Fintech
+- Payments
+- Embedded Finance
+- Financing
+- B2B SaaS
+- Revenue Financing
+- BNPL
+- KYB
+- Underwriting
+website: https://www.capchase.com/
+---

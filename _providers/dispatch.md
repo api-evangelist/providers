@@ -1,0 +1,232 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 60.6
+  scored_at: '2026-07-23'
+api_count: 11
+apis:
+- description: Scheduled times at which an assigned technician performs work for a job.
+  name: Dispatch Appointments API
+  slug: dispatch-appointments-api
+- description: OAuth 2.0 token issuance and refresh.
+  name: Dispatch Authentication API
+  slug: dispatch-authentication-api
+- description: Brands or divisions controlling logo and copy. Accessible only to job sources.
+  name: Dispatch Brands API
+  slug: dispatch-brands-api
+- description: The homeowner or end customer a job belongs to.
+  name: Dispatch Customers API
+  slug: dispatch-customers-api
+- description: Files and photos associated with a job.
+  name: Dispatch Files API
+  slug: dispatch-files-api
+- description: A single body of work for a customer, assigned to an organization.
+  name: Dispatch Jobs API
+  slug: dispatch-jobs-api
+- description: The branch or third-party service provider responsible for doing the work.
+  name: Dispatch Organizations API
+  slug: dispatch-organizations-api
+- description: Where job information originated.
+  name: Dispatch Sources API
+  slug: dispatch-sources-api
+- description: Customer surveys sent when an appointment or job completes.
+  name: Dispatch Survey Responses API
+  slug: dispatch-survey-responses-api
+- description: Dispatchers and technicians using the Dispatch applications.
+  name: Dispatch Users API
+  slug: dispatch-users-api
+- description: Composite object creating jobs, customers, organizations and appointments in one call.
+  name: Dispatch Work Orders API
+  slug: dispatch-work-orders-api
+artifact_total: 15
+asyncapis:
+- description: ''
+  name: Dispatch Webhooks
+  slug: dispatch-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://dispatch.me
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://github.com/DispatchMe/v3-api-docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/DispatchMe/v3-api-docs/blob/master/source/index.html.md
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/DispatchMe/v3-api-docs/blob/master/source/index.html.md#getting-started
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DispatchMe
+- group: company
+  title: ''
+  type: Blog
+  url: https://dispatch.me/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://dispatch.me/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://dispatch.me/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dispatch.me/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dispatch.me/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dispatch.me
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/dispatch-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dispatch-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dispatch-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dispatch-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/dispatch-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dispatch-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dispatch-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/dispatch-webhooks.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dispatch-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dispatch-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dispatch-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dispatch-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dispatch-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dispatch-domain-security.yml
+created: '2026-07-17'
+description: Dispatch (Dispatch Technologies, Boston MA) is a service-orchestration platform for enterprises that fulfil work through networks of independent contractors and third-party service providers - manufacturer warranty, home and property claims, retail, franchise and proptech. Dispatch gives the brand visibility into work performed by providers who keep using their own field-service tools, and gives the homeowner a tracked, branded service experience. Its public REST API v3 exposes the core business objects - jobs, customers, organizations, appointments, users, sources, brands, survey responses and composite work orders - to job sources such as warranty companies and equipment manufacturers, and to service enterprises running first-party branch networks. The API is secured with OAuth 2.0 bearer tokens, offers a full sandbox environment, and is documented in a public GitHub repository.
+image: https://dispatch.me/wp-content/uploads/2019/11/cropped-favicon-1-300x300.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: dispatch-mcp.yml
+  slug: dispatch-mcpyml
+modified: '2026-07-20'
+name: Dispatch
+nav: Providers
+network: true
+overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Brands API, and 8 more. Tagged areas include Field Service, Service Orchestration, Work Orders, Scheduling, and Contractor Networks.
+
+
+  The Dispatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
+random_paper: 32
+score:
+  band: developing
+  composite: 51.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 67.3
+    developer_ergonomics: 71.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 51.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Dispatch Authentication
+  slug: dispatch-authentication
+  summary_line: oauth2/http · 2 schemes
+- kind: domain-security
+  name: Dispatch Domain Security
+  slug: dispatch-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: dispatch
+tags:
+- Field Service
+- Service Orchestration
+- Work Orders
+- Scheduling
+- Contractor Networks
+- Home Services
+- Warranty
+- Customer Experience
+- Logistics
+- Company
+website: https://dispatch.me
+---

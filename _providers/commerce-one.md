@@ -1,0 +1,146 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: true
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 18.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: xCBL 4.0 is a royalty-free library of XML business documents and reusable components for business-to-business e-commerce, published by Commerce One and still distributed from xcbl.org. It is a documen
+  name: xCBL — XML Common Business Library
+  slug: xcbl
+artifact_total: 2
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: http://xcbl.org/
+- group: docs
+  title: ''
+  type: Documentation
+  url: http://xcbl.org/xcbl40/documentation.shtml
+- group: docs
+  title: ''
+  type: APIReference
+  url: http://xcbl.org/xcbl40/documentation/listofdocuments.shtml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: http://xcbl.org/about.shtml
+- group: operate
+  title: ''
+  type: Support
+  url: http://xcbl.org/devresources.shtml
+- group: operate
+  title: ''
+  type: FAQ
+  url: http://xcbl.org/faq.shtml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: http://xcbl.org/license.shtml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/commerce-one-xcbl-vocabulary.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/_index.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/commerce-one-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/commerce-one-conformance.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/commerce-one-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/commerce-one-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/commerce-one-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/commerce-one-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/commerce-one-llms.txt
+created: '2026-07-17'
+description: Commerce One, Inc. was a Pleasanton, California B2B e-commerce software company and one of the defining names of the dot-com era, running the MarketSite marketplace and the Global Trading Web trading network. Founded in 1994 as DistriVision and renamed Commerce One in 1997, it went public in July 1999 and peaked in 2000 at a $21.5B market capitalization on $401M of revenue. It filed for bankruptcy in October 2004; its patent portfolio went to Novell subsidiary JGR Acquisitions and the Commerce One name to Perfect Commerce in 2006. The company no longer operates and has no live API or developer portal. What survives, and what this profile documents, is xCBL — the XML Common Business Library — a royalty-free library of 44 XML business documents across 9 namespaces, still published and downloadable from xcbl.org. Commerce One also created SOX, the schema language that influenced W3C XML Schema and JAXB.
+image: http://xcbl.org/images/xCBLtop.gif
+layout: provider
+modified: '2026-07-20'
+name: Commerce One
+nav: Providers
+network: true
+overview: 'Commerce One publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, eCommerce, Procurement, and Supply Chain.
+
+
+  Commerce One''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, code examples, changelog, and 9 more developer resources.'
+random_paper: 37
+score:
+  band: emerging
+  composite: 22.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 39.1
+    discoverability: 92.5
+    governance: 13.2
+    operational_transparency: 15.8
+  previous_composite: 22.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Commerce One Domain Security
+  slug: commerce-one-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: commerce-one
+tags:
+- Company
+- B2B
+- eCommerce
+- Procurement
+- Supply Chain
+- XML
+- EDI
+- Schema
+- Marketplace
+- Defunct
+website: http://xcbl.org/
+---

@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Airvana
+- group: other
+  title: ''
+  type: SECFilings
+  url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116435
+- group: other
+  title: ''
+  type: Acquirer
+  url: https://www.commscope.com
+created: '2026-07-17'
+description: 'Airvana was a Chelmsford, Massachusetts wireless infrastructure company founded in 2000 by former Motorola engineers Sanjeev Verma and Vedat Eyuboglu, building femtocells and small cells for 3G CDMA2000 EV-DO and 4G LTE mobile broadband networks. Its access points extended operator coverage inside buildings over consumer broadband connections, and the company was a founding member of the Femto Forum and an active contributor to femtocell standards. Airvana went public on NASDAQ (AIRV) in July 2007, was taken private in 2010, and was acquired by CommScope in 2015. It no longer operates as an independent company: the airvana.com apex serves no site, www.airvana.com now points into CommScope infrastructure, and there is no Airvana developer portal, public API, or SDK. Its femtocell and device management products were TR-069 based operator systems rather than public web APIs.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airvana.png
+layout: provider
+modified: '2026-07-19'
+name: Airvana
+nav: Providers
+network: true
+overview: Airvana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, Wireless, and Mobile.
+random_paper: 24
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: airvana
+tags:
+- Company
+- Infrastructure
+- Telecommunications
+- Wireless
+- Mobile
+- Networking
+- Femtocell
+- Small Cells
+---

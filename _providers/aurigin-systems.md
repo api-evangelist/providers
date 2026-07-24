@@ -1,0 +1,64 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Aurigin Systems, Inc. was an intellectual-property management software company founded in 1992 and headquartered in Cupertino, California. It built online patent and trademark information services and business-automation software for intellectual-asset management, raising roughly $54M in venture funding (investors included Battery Ventures) over its lifetime. The company operated under Chapter 11 bankruptcy protection before substantially all of its assets were acquired by Information Holdings Inc. in May 2002. It is defunct, has no surviving website, developer portal, or public API, and was surfaced only as a historical portfolio lead from a Battery Ventures scrape.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aurigin-systems.png
+layout: provider
+modified: '2026-07-18'
+name: Aurigin Systems
+nav: Providers
+network: true
+overview: Aurigin Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intellectual Property, Patents, Trademarks, and Software.
+random_paper: 7
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: aurigin-systems
+tags:
+- Company
+- Intellectual Property
+- Patents
+- Trademarks
+- Software
+- Defunct
+---

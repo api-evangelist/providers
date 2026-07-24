@@ -1,0 +1,114 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/keurig-dr-pepper-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/keurig-dr-pepper-inc
+- group: company
+  title: ''
+  type: Website
+  url: https://www.keurigdrpepper.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.kdpproductfacts.com/
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.keurigdrpepper.com/
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investors.keurigdrpepper.com/home
+- group: other
+  title: ''
+  type: Brand
+  url: https://www.drpepper.com/
+- group: other
+  title: ''
+  type: Brand
+  url: https://www.keurig.com/
+- group: other
+  title: ''
+  type: Brand
+  url: https://www.7up.com/
+- group: other
+  title: ''
+  type: Brand
+  url: https://www.peets.com/
+created: '2026-03-21'
+description: Keurig Dr Pepper is a leading North American beverage company formed by the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group. It operates a portfolio of more than 125 owned, licensed, partner, and allied brands across hot and cold beverages, including Keurig single-serve brewing systems and brands such as Dr Pepper, 7UP, Snapple, Mott's, Bai, Green Mountain Coffee Roasters, and Peet's Coffee.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keurig-dr-pepper.png
+layout: provider
+modified: '2026-04-28'
+name: Keurig Dr Pepper
+nav: Providers
+network: true
+overview: 'Keurig Dr Pepper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Coffee, Consumer Goods, Fortune 500, and Single-Serve.
+
+
+  Keurig Dr Pepper''s developer surface includes developer portal and 9 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 8.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keurig-dr-pepper/refs/heads/main/screenshots/keurig-dr-pepper-2026-06-20T184001.png
+security:
+- kind: domain-security
+  name: Keurig Dr Pepper Domain Security
+  slug: keurig-dr-pepper-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: keurig-dr-pepper
+tags:
+- Beverages
+- Coffee
+- Consumer Goods
+- Fortune 500
+- Single-Serve
+website: https://www.keurigdrpepper.com
+---

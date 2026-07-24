@@ -1,0 +1,233 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 72.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Gauntlet Agentic Access
+  operation_count: 14
+  slug: gauntlet-agentic-access
+  summary_line: 14 operations
+api_count: 5
+apis:
+- description: The Prices API from Gauntlet — 2 operation(s) for prices.
+  name: Gauntlet Prices API
+  slug: gauntlet-prices-api
+- description: The System API from Gauntlet — 2 operation(s) for system.
+  name: Gauntlet System API
+  slug: gauntlet-system-api
+- description: The TVL API from Gauntlet — 1 operation(s) for tvl.
+  name: Gauntlet TVL API
+  slug: gauntlet-tvl-api
+- description: The Users API from Gauntlet — 4 operation(s) for users.
+  name: Gauntlet Users API
+  slug: gauntlet-users-api
+- description: The Vaults API from Gauntlet — 5 operation(s) for vaults.
+  name: Gauntlet Vaults API
+  slug: gauntlet-vaults-api
+artifact_total: 11
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gauntlet.xyz
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.gauntlet.xyz/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.gauntlet.xyz/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.gauntlet.xyz/api-reference/vaults/list-gauntlet-curated-vaults
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.gauntlet.xyz/onboarding/quickstart
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://docs.gauntlet.xyz/onboarding/quickstart
+- group: start
+  title: ''
+  type: SignUp
+  url: https://docs.gauntlet.xyz/onboarding/sign-up
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.gauntlet.xyz/onboarding/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gauntlet.xyz/resources
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Gauntlet-xyz
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.gauntlet.xyz
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gauntlet.xyz/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gauntlet.xyz/privacy-policy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gauntlet-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gauntlet-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/gauntlet-authentication.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gauntlet-rate-limits.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gauntlet-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gauntlet-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gauntlet-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gauntlet-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/gauntlet-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gauntlet-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gauntlet-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/gauntlet-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/gauntlet-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://docs.gauntlet.xyz/guides/concepts/security
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gauntlet-domain-security.yml
+created: '2026-07-17'
+description: 'Gauntlet (Gauntlet Networks, Inc.) is a crypto risk-management and yield-curation firm that runs agent-based economic simulations to optimize risk, incentives, and capital efficiency for DeFi protocols, and curates 80+ institutional-grade yield vaults across Aera, Morpho, Kamino, Drift, and Symbiotic. For developers it ships the Gauntlet Developer Kit: a public read-only REST API at api.gauntlet.xyz (v1) exposing vault metrics, user positions with PnL, wallet activity, TVL, and token prices, plus an official TypeScript SDK (@gauntlet-xyz/sdk) for on-chain deposits, withdrawals, and ERC-8021 attribution. Authentication is a partner-provisioned Bearer API key. Backed by Paradigm, Polychain, and Ribbit Capital.'
+image: https://cdn.prod.website-files.com/648bdc0d4b8ce322f27da0af/68013f075b92cb9c2d2c6aef_gauntlet-thumbnail.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: gauntlet-mcp.yml
+  slug: gauntlet-mcpyml
+modified: '2026-07-19'
+name: Gauntlet
+nav: Providers
+network: true
+overview: 'Gauntlet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Prices API, System API, TVL API, and 2 more. Tagged areas include Company, Crypto Data, DeFi, Risk Management, and Yield.
+
+
+  Gauntlet''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 22 more developer resources.'
+random_paper: 1
+rate_limits:
+- limit_count: 2
+  name: Gauntlet Rate Limits
+  slug: gauntlet-rate-limits
+score:
+  band: developing
+  composite: 51.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 50.6
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 52.6
+  previous_composite: 51.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Gauntlet Authentication
+  slug: gauntlet-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Gauntlet Domain Security
+  slug: gauntlet-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Gauntlet Vulnerability Disclosure
+  slug: gauntlet-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: gauntlet
+tags:
+- Company
+- Crypto Data
+- DeFi
+- Risk Management
+- Yield
+- Vaults
+- Blockchain
+- Web3
+- Financial Modeling
+website: https://www.gauntlet.xyz
+---

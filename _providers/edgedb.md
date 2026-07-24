@@ -1,0 +1,160 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Executes EdgeQL queries over HTTP against a Gel/EdgeDB instance. Supports GET and POST requests with query, variables, globals, and config fields. Authentication uses HTTP Basic (password), Bearer tok
+  name: EdgeDB EdgeQL HTTP API
+  slug: edgeql-http-api
+- description: 'Provides a GraphQL endpoint for querying an EdgeDB/Gel instance, supporting queries, mutations, and introspection. Enabled via the graphql extension in the schema. Authentication uses the same secret '
+  name: EdgeDB GraphQL API
+  slug: graphql-api
+- description: Managed cloud database service for provisioning and operating EdgeDB/Gel instances. Accessible via the Gel CLI, web dashboard at cloud.geldata.com, and platform integrations. Supports secret key creat
+  name: EdgeDB Cloud Management
+  slug: cloud-management
+artifact_total: 9
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/edgedb-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.geldata.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.geldata.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/geldata
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/geldata
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.geldata.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.geldata.com/pricing
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/geldata
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.geldata.com/updates
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/edgedb-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/edgedb-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/edgedb-finops.yml
+created: '2026-06-12'
+description: EdgeDB (rebranded as Gel in 2025) is an open-source object-relational database built on top of PostgreSQL that combines a modern graph-relational data model with a powerful query language called EdgeQL. It provides an HTTP-based EdgeQL query API and a GraphQL API, allowing developers to query their database over standard HTTP using bearer token authentication. EdgeDB Cloud offers a fully managed hosting service with free and paid tiers, integrating with platforms such as Vercel, Netlify, Fly.io, and Railway. Client libraries are available for TypeScript, Python, Go, Dart, Rust, .NET, and Java.
+finops:
+- name: Edgedb Finops
+  service_category: Database
+  slug: edgedb-finops
+graphqls:
+- description: EdgeDB (rebranded as Gel in 2025) exposes a GraphQL API that automatically reflects your database schema as a full CRUD API. Every object type, computed property, link, and alias defined in your EdgeD
+  name: EdgeDB GraphQL API
+  slug: edgedb-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edgedb.png
+jsonld:
+- class_count: 0
+  name: Edgedb Context
+  property_count: 10
+  slug: edgedb-context
+layout: provider
+modified: '2026-06-12'
+name: EdgeDB
+nav: Providers
+network: true
+overview: 'EdgeDB publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, PostgreSQL, Graph Database, Object-Relational, and EdgeQL.
+
+
+  The EdgeDB catalog on APIs.io includes 1 JSON-LD context.
+
+
+  EdgeDB''s developer surface includes documentation, engineering blog, pricing, changelog, and 8 more developer resources.'
+plans:
+- name: Edgedb Plans Pricing
+  plan_count: 3
+  slug: edgedb-plans-pricing
+random_paper: 42
+rate_limits:
+- limit_count: 2
+  name: Edgedb Rate Limits
+  slug: edgedb-rate-limits
+score:
+  band: thin
+  composite: 31.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 31.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edgedb/refs/heads/main/screenshots/edgedb-2026-06-20T180552.png
+security:
+- kind: domain-security
+  name: Edgedb Domain Security
+  slug: edgedb-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: edgedb
+tags:
+- Database
+- PostgreSQL
+- Graph Database
+- Object-Relational
+- EdgeQL
+- GraphQL
+- HTTP API
+- Cloud Database
+website: https://www.geldata.com
+---

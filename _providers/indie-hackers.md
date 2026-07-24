@@ -1,0 +1,141 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Indie Hackers API provides programmatic access to the Indie Hackers community platform, enabling developers to connect with a network of founders who openly share the strategies and revenue number
+  name: Indie Hackers API
+  slug: indie-hackers-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/indie-hackers-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/indie-hackers
+- group: company
+  title: ''
+  type: Website
+  url: https://www.indiehackers.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.indiehackers.com/group/developers
+- group: other
+  title: ''
+  type: Interviews
+  url: https://www.indiehackers.com/interviews
+- group: other
+  title: ''
+  type: Podcast
+  url: https://www.indiehackers.com/podcasts
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://www.indiehackers.com/newsletter
+- group: operate
+  title: ''
+  type: Community
+  url: https://www.indiehackers.com/groups
+- group: other
+  title: ''
+  type: Catalog
+  url: https://www.indiehackers.com/products
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.indiehackers.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.indiehackers.com/privacy
+- group: docs
+  title: ''
+  type: Guidelines
+  url: https://www.indiehackers.com/post/terms-and-conditions-and-privacy-policy-3d2fc45ffd
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/indiehackers
+created: '2026-03-24'
+description: Indie Hackers is an online community where founders of profitable businesses and side projects share their stories, strategies, and revenue numbers to help each other build successful companies.
+finops:
+- name: Indie Hackers Finops
+  service_category: API
+  slug: indie-hackers-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indie-hackers.png
+layout: provider
+modified: '2026-04-28'
+name: Indie Hackers
+nav: Providers
+network: true
+overview: 'Indie Hackers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Entrepreneurship, and Startups.
+
+
+  Indie Hackers'' developer surface includes documentation and 12 more developer resources.'
+plans:
+- name: Indie Hackers Plans Pricing
+  plan_count: 3
+  slug: indie-hackers-plans-pricing
+random_paper: 28
+rate_limits:
+- limit_count: 5
+  name: Indie Hackers Rate Limits
+  slug: indie-hackers-rate-limits
+score:
+  band: emerging
+  composite: 24.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 13.0
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 24.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/indie-hackers/refs/heads/main/screenshots/indie-hackers-2026-06-20T183317.png
+security:
+- kind: domain-security
+  name: Indie Hackers Domain Security
+  slug: indie-hackers-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: indie-hackers
+tags:
+- Community
+- Entrepreneurship
+- Startups
+website: https://www.indiehackers.com/
+---

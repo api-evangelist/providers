@@ -1,0 +1,158 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kry-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kry-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kry-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kry.se
+- group: company
+  title: ''
+  type: About
+  url: https://www.kry.se/om/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.kry.se/kontakt/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kry.se/press/nyheter/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.kry.se/press/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.kry.se/sa-fungerar-det/priser-betalning/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.kry.se/ladda-ned/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kry.se/en/legal/eula/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kry.se/en/legal/privacy-policy/
+- group: other
+  title: ''
+  type: Cookies
+  url: https://www.kry.se/legal/cookies/
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.kry.se/samarbetspartners/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.kry.se/karriar/business/lediga-tjanster/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kry/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/krycare
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.kry.se/vulnerability-disclosure/
+created: '2026-07-17'
+description: KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally under the Livi brand. It delivers primary care through video and chat consultations with doctors, nurses, psychologists, physiotherapists, dietitians and midwives via its iOS and Android apps, and also runs physical primary care centres (vardcentraler), child health clinics and midwifery clinics across Sweden. KRY operates as Kry in Sweden (kry.se) and Norway (kry.no) and as Livi in the United Kingdom (livi.co.uk) and France (livi.fr). Services span digital consultations, prescription renewal, medical certificates, vaccination and testing, mental health programmes, occupational health for employers, and regional public healthcare contracts. KRY publishes no public developer program, partner API or SDK surface; the platform is consumer- and clinician-facing, so this profile captures the company identity plus its legal and security surface rather than an API surface.
+image: https://www.kry.se/logos/kry-logo.svg
+layout: provider
+modified: '2026-07-19'
+name: KRY
+nav: Providers
+network: true
+overview: 'KRY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Digital Health, and Telemedicine.
+
+
+  KRY''s developer surface includes support, engineering blog, pricing, signup flow, and 14 more developer resources.'
+random_paper: 36
+score:
+  band: emerging
+  composite: 22.1
+  delta: 3.7
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 18.4
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Kry Domain Security
+  slug: kry-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Kry Vulnerability Disclosure
+  slug: kry-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+slug: kry
+tags:
+- Company
+- Consumer
+- Healthcare
+- Digital Health
+- Telemedicine
+- Primary Care
+- Mental Health
+- Sweden
+- Europe
+website: https://www.kry.se
+---

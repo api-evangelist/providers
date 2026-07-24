@@ -1,0 +1,76 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://standardsignal.com
+created: '2026-07-17'
+description: Standard Signal is a Y Combinator (Spring 2026) startup building autonomous AI trading systems for a market-neutral hedge fund, using reasoning models to discover and execute complex trades in real time within predefined risk parameters and with chain-of-thought explainability. Founded by Michael Royzen, the company presents an investor-facing offering (qualified investors, $100k minimum) and a hiring page, but publishes no public API, developer documentation, SDKs, or discovery surface as of this enrichment pass.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standard-signal.png
+layout: provider
+modified: '2026-07-21'
+name: Standard Signal
+nav: Providers
+network: true
+overview: Standard Signal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hedge Fund, Fintech, and Trading.
+random_paper: 2
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: standard-signal
+tags:
+- Company
+- Artificial Intelligence
+- Hedge Fund
+- Fintech
+- Trading
+- Autonomous Agents
+- Finance
+website: https://standardsignal.com
+---

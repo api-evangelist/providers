@@ -1,0 +1,181 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 38
+  human_in_the_loop: 1
+  name: Ambra Health Agentic Access
+  operation_count: 62
+  slug: ambra-health-agentic-access
+  summary_line: 62 operations · 38 acting · 1 human-in-the-loop
+api_count: 10
+apis:
+- description: Account (tenant) administration
+  name: Ambra Health Accounts API
+  slug: ambra-health-accounts-api
+- description: User groups
+  name: Ambra Health Groups API
+  slug: ambra-health-groups-api
+- description: Namespace permissions, settings, and audit
+  name: Ambra Health Namespaces API
+  slug: ambra-health-namespaces-api
+- description: Patient records and merges
+  name: Ambra Health Patients API
+  slug: ambra-health-patients-api
+- description: Authentication, session, OAuth, and permissions
+  name: Ambra Health Session API
+  slug: ambra-health-session-api
+- description: Study and filter sharing / image exchange
+  name: Ambra Health Sharing API
+  slug: ambra-health-sharing-api
+- description: DICOM data, storage, and annotations
+  name: Ambra Health Storage & Images API
+  slug: ambra-health-storage-images-api
+- description: DICOM study lifecycle, routing, download, and audit
+  name: Ambra Health Studies API
+  slug: ambra-health-studies-api
+- description: User administration and tokens
+  name: Ambra Health Users API
+  slug: ambra-health-users-api
+- description: Event webhooks
+  name: Ambra Health Webhooks API
+  slug: ambra-health-webhooks-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Ambra Health (InteleShare) v3 Services Public API
+  slug: open-ambra-health
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ambra-health-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ambra-health-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ambra-health-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dicomgrid
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/intelerad
+- group: company
+  title: ''
+  type: Website
+  url: https://ambrahealth.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://access.dicomgrid.com/api/v3/api.html
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ambra-health-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ambra-health-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/ambra-health-finops.yml
+created: '2026-07-05'
+description: Ambra Health (now part of Intelerad Medical Systems, and rebranded as InteleShare) is a cloud-based medical image management, exchange, and interoperability platform - a cloud VNA and PACS that lets healthcare providers, patients, and researchers store, view, route, and share diagnostic imaging in real time without a VPN or CD. Its imaging data is DICOM, and its v3 Services Public API (historically the DICOM Grid API) exposes programmatic control over studies, patients, users, groups, accounts, namespaces, sharing, storage/images, and webhooks. The REST API is JSON over HTTPS and is authenticated with a session id (sid) obtained from /session/login. Intelerad acquired Ambra Health in 2021 to form a $1.7B cloud PACS and enterprise-imaging leader.
+finops:
+- name: Ambra Health Finops
+  service_category: Healthcare Medical Imaging Platform
+  slug: ambra-health-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ambra-health.png
+layout: provider
+modified: '2026-07-05'
+name: Ambra Health
+nav: Providers
+network: true
+overview: 'Ambra Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Namespaces API, and 7 more. Tagged areas include Medical Imaging, DICOM, Healthcare, PACS, and Image Exchange.
+
+
+  Ambra Health''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Ambra Health Plans Pricing
+  plan_count: 3
+  slug: ambra-health-plans-pricing
+random_paper: 17
+rate_limits:
+- limit_count: 4
+  name: Ambra Health Rate Limits
+  slug: ambra-health-rate-limits
+score:
+  band: thin
+  composite: 35.0
+  delta: -1.5
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 52.7
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Ambra Health Authentication
+  slug: ambra-health-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Ambra Health Domain Security
+  slug: ambra-health-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ambra-health
+tags:
+- Medical Imaging
+- DICOM
+- Healthcare
+- PACS
+- Image Exchange
+- Interoperability
+- VNA
+- Cloud Imaging
+website: https://ambrahealth.com
+---

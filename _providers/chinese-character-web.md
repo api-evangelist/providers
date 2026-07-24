@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Chinese character definitions and pronunciations
+  name: Chinese Character Web
+  slug: chinese-character-web
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/chinese-character-web-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://ccdb.hemiola.com/
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
+created: '2026-05-28'
+description: Chinese character definitions and pronunciations
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chinese-character-web.png
+layout: provider
+modified: '2026-05-28'
+name: Chinese Character Web
+nav: Providers
+network: true
+overview: Chinese Character Web publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dictionaries and Public APIs.
+random_paper: 44
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chinese-character-web/refs/heads/main/screenshots/chinese-character-web-2026-06-20T174312.png
+security:
+- kind: domain-security
+  name: Chinese Character Web Domain Security
+  slug: chinese-character-web-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: chinese-character-web
+tags:
+- Dictionaries
+- Public APIs
+website: http://ccdb.hemiola.com/
+---

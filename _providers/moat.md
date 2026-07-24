@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/moat-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.moat.com/
+created: '2026-07-17'
+description: 'Moat was an advertising measurement and analytics company, backed by Insight Venture Partners and Mayfield, that measured ad viewability, attention, and brand safety across digital and video advertising. Oracle acquired Moat in 2017 and folded it into Oracle Advertising (Oracle Moat / Oracle Data Cloud). The independent moat.com brand no longer operates a standalone developer program: www.moat.com now 301-redirects to oracle.com/advertising, and the bare moat.com host no longer negotiates TLS. This profile is retained in the API Evangelist network as an acquired/absorbed company lead with no independent public API surface.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moat.png
+layout: provider
+modified: '2026-07-20'
+name: Moat
+nav: Providers
+network: true
+overview: Moat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Analytics, Ad Measurement, and Ad Viewability.
+random_paper: 25
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Moat Domain Security
+  slug: moat-domain-security
+  summary_line: DMARC
+slug: moat
+tags:
+- Company
+- Advertising
+- Analytics
+- Ad Measurement
+- Ad Viewability
+- Brand Safety
+- Marketing
+- Acquired
+website: https://www.moat.com/
+---

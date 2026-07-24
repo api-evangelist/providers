@@ -1,0 +1,206 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 10
+  human_in_the_loop: 0
+  name: Rivet Agentic Access
+  operation_count: 24
+  slug: rivet-agentic-access
+  summary_line: 24 operations · 10 acting
+api_count: 2
+apis:
+- description: The Actors API from Rivet — 3 operation(s) for actors.
+  name: Rivet Actors API
+  slug: rivet-actors-api
+- description: The Gateway API from Rivet — 12 operation(s) for gateway.
+  name: Rivet Gateway API
+  slug: rivet-gateway-api
+artifact_total: 6
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/rivet-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/rivet-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.rivet.dev/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.rivet.dev/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.rivet.dev/typedoc
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.rivet.dev/docs/actors/quickstart
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rivet-dev
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rivet.dev/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.rivet.dev/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://rivet.betteruptime.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.rivet.dev/cloud
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.rivet.dev
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rivet.dev/discord
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/rivet-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rivet-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/rivet-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rivet-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rivet-llms.txt
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/rivet-rivetkit-asyncapi.json
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rivet-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rivet-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/rivet-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/rivet-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rivet-conformance.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/rivet-changelog.yml
+created: '2026-07-17'
+description: Rivet is infrastructure for the agentic era, providing durable, stateful compute for AI agents and realtime applications. Its core primitive, Rivet Actors (RivetKit), is a runtime for long-lived processes that co-locate in-memory state with compute, support built-in WebSockets, workflows, queues, scheduling and cron, hibernate when idle, and scale from zero to thousands of instances across a global edge network. Rivet also ships agentOS, a lightweight WebAssembly-powered alternative to sandboxes for running coding agents, and Rivet Cloud, a managed serverless platform. RivetKit is open source (Apache-2.0), self-hostable on Postgres, the file system, or FoundationDB, with client SDKs for JavaScript, React, Rust, Swift and SwiftUI, a CLI, an OpenAPI-described gateway/inspector HTTP API and an AsyncAPI WebSocket protocol. Rivet is backed by Y Combinator and a16z Speedrun.
+image: https://rivet.dev/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: rivet-mcp.yml
+  slug: rivet-mcpyml
+modified: '2026-07-21'
+name: Rivet
+nav: Providers
+network: true
+overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Actors API and Gateway API. Tagged areas include Company, Infrastructure, Actors, Stateful Compute, and AI Agents.
+
+
+  Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 19 more developer resources.'
+random_paper: 44
+score:
+  band: thin
+  composite: 42.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 31.9
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 42.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Rivet Authentication
+  slug: rivet-authentication
+  summary_line: bearer/custom-token · 2 schemes
+- kind: domain-security
+  name: Rivet Domain Security
+  slug: rivet-domain-security
+  summary_line: TLSv1.3
+slug: rivet
+tags:
+- Company
+- Infrastructure
+- Actors
+- Stateful Compute
+- AI Agents
+- Realtime
+- Serverless
+- Edge
+- WebSockets
+- Durable Execution
+- Developer Tools
+website: https://www.rivet.dev/docs
+---

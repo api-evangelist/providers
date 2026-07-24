@@ -1,0 +1,85 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/peerby-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://peerby.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Peerby
+created: '2026-07-17'
+description: Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.
+image: https://www.peerby.com/img/social_en.jpg
+layout: provider
+modified: '2026-07-20'
+name: Peerby
+nav: Providers
+network: true
+overview: Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer to Peer, Marketplace, and Rental.
+random_paper: 35
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Peerby Domain Security
+  slug: peerby-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: peerby
+tags:
+- Company
+- Sharing Economy
+- Peer to Peer
+- Marketplace
+- Rental
+- Sustainability
+- Consumer
+- Netherlands
+website: https://peerby.com/
+---

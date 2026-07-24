@@ -1,0 +1,135 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Downloadable budget and economic data accompanying CBO's Budget and Economic Outlook reports. Includes 10-year projections of revenues, outlays, deficits, debt, employment, GDP, interest rates, and hi
+  name: CBO Budget and Economic Data
+  slug: budget-and-economic-data
+- description: CBO publishes cost estimates for legislation under consideration by Congress, covering both direct spending and revenue impact and including PAYGO scoring. Cost estimates are released as PDFs along wi
+  name: CBO Cost Estimates
+  slug: cost-estimates
+- description: CBO publishes RSS feeds for its publications, including reports, cost estimates, blog posts, working papers, and presentations. RSS is the primary machine-readable surface for new CBO releases.
+  name: CBO Publications RSS Feeds
+  slug: publications-rss
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/congressional-budget-office-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/us-cbo
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/congressional-budget-office
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cbo.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.cbo.gov/data/budget-economic-data
+- group: docs
+  title: ''
+  type: Reference
+  url: https://www.cbo.gov/about/products
+- group: other
+  title: ''
+  type: Feeds
+  url: https://www.cbo.gov/about/get-cbo-information#rss
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cbo.gov/about/policies/privacy-and-security-policy
+created: '2024-12-03'
+description: The Congressional Budget Office (CBO) is the U.S. legislative branch agency that provides nonpartisan analyses of budgetary and economic issues to Congress. CBO publishes the Budget and Economic Outlook, projections of spending, revenues, deficits, and debt, cost estimates of legislation, and analytical reports. CBO data is distributed primarily as Excel and PDF files on cbo.gov; CBO does not currently publish a programmatic JSON API, but RSS feeds and downloadable structured workbooks make it possible to ingest CBO data into automated pipelines.
+finops:
+- name: Congressional Budget Office Finops
+  service_category: API
+  slug: congressional-budget-office-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/congressional-budget-office.png
+layout: provider
+modified: '2026-04-28'
+name: Congressional Budget Office
+nav: Providers
+network: true
+overview: 'Congressional Budget Office publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Budget, CBO, Economic Projections, Federal Government, and Legislative Branch.
+
+
+  Congressional Budget Office''s developer surface includes documentation and 7 more developer resources.'
+plans:
+- name: Congressional Budget Office Plans Pricing
+  plan_count: 3
+  slug: congressional-budget-office-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 5
+  name: Congressional Budget Office Rate Limits
+  slug: congressional-budget-office-rate-limits
+score:
+  band: emerging
+  composite: 26.9
+  delta: -0.9
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 27.8
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Congressional Budget Office Domain Security
+  slug: congressional-budget-office-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: congressional-budget-office
+tags:
+- Budget
+- CBO
+- Economic Projections
+- Federal Government
+- Legislative Branch
+- Open Data
+- RSS
+website: https://www.cbo.gov/
+---

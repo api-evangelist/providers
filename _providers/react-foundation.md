@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://react.dev/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://reactnative.dev/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/facebook/react
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/facebook/react-native
+- group: company
+  title: ''
+  type: Blog
+  url: https://react.dev/blog
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://react.dev/llms.txt
+created: '2026-03-16'
+description: The React Foundation is a Linux Foundation project announced in February 2026 that supports React, React Native, and supporting components after Meta contributed the React project to the Linux Foundation. It ensures the continued open governance, neutral stewardship, and long-term development of the React ecosystem used by millions of front-end and mobile developers worldwide. The Foundation does not currently expose a public, programmatic REST API; engagement with the project happens primarily through GitHub repositories and documentation channels.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/react-foundation.png
+layout: provider
+modified: '2026-04-28'
+name: React Foundation
+nav: Providers
+network: true
+overview: 'React Foundation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Frontend, JavaScript, Linux Foundation, Open Source, and React.
+
+
+  React Foundation''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+random_paper: 19
+score:
+  band: minimal
+  composite: 9.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 9.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/react-foundation/refs/heads/main/screenshots/react-foundation-2026-06-20T192630.png
+slug: react-foundation
+tags:
+- Frontend
+- JavaScript
+- Linux Foundation
+- Open Source
+- React
+- Web
+---

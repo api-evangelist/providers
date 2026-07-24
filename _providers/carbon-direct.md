@@ -1,0 +1,145 @@
+---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 5
+apis:
+- description: Enterprise carbon management platform spanning Measure (emissions accounting), Target Setting (SBTi-aligned), Reduce, and Remove. Delivered as enterprise SaaS accessed via the platform.carbondirect.io
+  name: Carbon Direct Carbon Management Platform
+  slug: carbon-management-platform
+- description: Module for procuring and managing high-quality carbon dioxide removal (CDR) portfolios - pre-vetted credit portfolios, custom curation, contract tracking, supplier management, and delivery monitoring.
+  name: Carbon Direct Carbon Portfolio Manager
+  slug: carbon-portfolio-manager
+- description: Digital monitoring, reporting, and verification (MRV) and project diligence capabilities, expanded via the November 2025 acquisition of Pachama's forest carbon MRV technology. Operated as part of Carb
+  name: Carbon Direct MRV & Quality
+  slug: mrv-quality
+- description: Auditable emissions reporting and climate disclosure support, including data collection, framework-specific exports (e.g. CDP), and customizable reports. Delivered through the platform and advisory se
+  name: Carbon Direct Reporting & Disclosure
+  slug: reporting-disclosure
+- description: 'Science advisory and bespoke procurement services delivered by Carbon Direct''s team of 70+ scientists, covering carbon strategy, sustainable aviation fuel, climate policy, and project diligence. This '
+  name: Carbon Direct Procurement & Science Advisory
+  slug: procurement-advisory
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Carbon Direct API
+  slug: open-carbon-direct
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/carbon-direct-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/carbon-direct
+- group: company
+  title: ''
+  type: Website
+  url: https://www.carbon-direct.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.carbon-direct.com/platform
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/carbon-direct-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/carbon-direct-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/carbon-direct-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.carbon-direct.com/insights
+created: '2026-06-20'
+description: Carbon Direct is a science-first carbon management company that pairs an enterprise carbon management platform with a team of 70+ scientists. The platform helps organizations measure emissions, set science-based targets, reduce, and procure high-quality carbon dioxide removal (CDR), with monitoring, reporting, and verification (MRV) capabilities expanded through its 2025 acquisition of Pachama. Carbon Direct is an enterprise SaaS and advisory offering and does not publish a public developer API as of this profile.
+finops:
+- name: Carbon Direct Finops
+  service_category: Carbon Management and Sustainability
+  slug: carbon-direct-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carbon-direct.png
+layout: provider
+modified: '2026-06-20'
+name: Carbon Direct
+nav: Providers
+network: true
+overview: 'Carbon Direct publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon Management, Carbon Removal, CDR, MRV, and Climate.
+
+
+  Carbon Direct''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+plans:
+- name: Carbon Direct Plans Pricing
+  plan_count: 1
+  slug: carbon-direct-plans-pricing
+random_paper: 34
+rate_limits:
+- limit_count: 0
+  name: Carbon Direct Rate Limits
+  slug: carbon-direct-rate-limits
+score:
+  band: minimal
+  composite: 14.5
+  delta: -0.2
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.7
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-direct/refs/heads/main/screenshots/carbon-direct-2026-06-20T173954.png
+security:
+- kind: domain-security
+  name: Carbon Direct Domain Security
+  slug: carbon-direct-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: carbon-direct
+tags:
+- Carbon Management
+- Carbon Removal
+- CDR
+- MRV
+- Climate
+- Sustainability
+website: https://www.carbon-direct.com
+---

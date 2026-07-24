@@ -1,0 +1,201 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 69.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Clevercarehealthplan Agentic Access
+  operation_count: 27
+  slug: clevercarehealthplan-agentic-access
+  summary_line: 27 operations
+api_count: 3
+apis:
+- description: Public (rate limited) drug formulary resources
+  name: Clever Care Health Plan Drug Formulary API
+  slug: clevercarehealthplan-drug-formulary-api
+- description: Secured (OpenID Connect / OAuth 2.0) member data resources
+  name: Clever Care Health Plan Patient Access API
+  slug: clevercarehealthplan-patient-access-api
+- description: Public (rate limited) provider directory resources
+  name: Clever Care Health Plan Provider Directory API
+  slug: clevercarehealthplan-provider-directory-api
+artifact_total: 8
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://fhir-portal.clevercarehealthplan.com/devportal
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://clevercarehealthplan.com/fhir-api-developer-resources/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://fhir-portal.clevercarehealthplan.com/api-docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://fhir-portal.clevercarehealthplan.com/api-docs/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://fhir-portal.clevercarehealthplan.com/devportal
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/clevercarehealthplan-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/clevercarehealthplan-scopes.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/clevercarehealthplan-agentic-access.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clevercarehealthplan-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clevercarehealthplan-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clevercarehealthplan-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clevercarehealthplan-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://clevercarehealthplan.com/medicare-compliance/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/clevercarehealthplan-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clevercarehealthplan-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clevercarehealthplan-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clevercarehealthplan-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clevercarehealthplan-domain-security.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://clevercarehealthplan.com/privacy-practices/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://clevercarehealthplan.com/terms-of-use/
+- group: company
+  title: ''
+  type: Website
+  url: https://clevercarehealthplan.com
+created: '2026-07-17'
+description: 'Clever Care Health Plan is a California Medicare Advantage (HMO and HMO C-SNP) insurer that blends Eastern and Western medicine for seniors. For developers it publishes an HL7 FHIR R4 (4.0.1) API implementing the CMS Interoperability and Patient Access final rule (CMS-9115-F): a secured Patient Access API (Patient, Coverage, and CARIN Blue Button ExplanationOfBenefit) protected with SMART-on-FHIR OAuth 2.0 / OpenID Connect, plus public, rate-limited Provider Directory and Drug Formulary APIs. The FHIR server runs on WSO2 Open Healthcare with a developer portal for app registration and API subscription.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clevercarehealthplan.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: clevercarehealthplan-mcp.yml
+  slug: clevercarehealthplan-mcpyml
+modified: '2026-07-18'
+name: Clever Care Health Plan
+nav: Providers
+network: true
+overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drug Formulary API, Patient Access API, and Provider Directory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
+
+
+  Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 17 more developer resources.'
+random_paper: 18
+scopes:
+- name: Clevercarehealthplan Scopes
+  scope_count: 4
+  slug: clevercarehealthplan-scopes
+  summary_line: 4 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 49.7
+  delta: 6.6
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 50.1
+    developer_ergonomics: 60.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 43.1
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 87.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Clevercarehealthplan Authentication
+  slug: clevercarehealthplan-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Clevercarehealthplan Domain Security
+  slug: clevercarehealthplan-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: clevercarehealthplan
+tags:
+- Company
+- Healthcare
+- Health Insurance
+- Medicare Advantage
+- FHIR
+- Interoperability
+- Patient Access
+- Provider Directory
+- Drug Formulary
+website: https://clevercarehealthplan.com
+---

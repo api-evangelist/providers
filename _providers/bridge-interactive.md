@@ -1,0 +1,154 @@
+---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Bridge Interactive Agentic Access
+  operation_count: 14
+  slug: bridge-interactive-agentic-access
+  summary_line: 14 operations
+api_count: 5
+apis:
+- description: The Agents API from Bridge Interactive — 2 operation(s) for agents.
+  name: Bridge Interactive Agents API
+  slug: bridge-interactive-agents-api
+- description: The Listings API from Bridge Interactive — 2 operation(s) for listings.
+  name: Bridge Interactive Listings API
+  slug: bridge-interactive-listings-api
+- description: The Offices API from Bridge Interactive — 2 operation(s) for offices.
+  name: Bridge Interactive Offices API
+  slug: bridge-interactive-offices-api
+- description: The Open Houses API from Bridge Interactive — 1 operation(s) for open houses.
+  name: Bridge Interactive Open Houses API
+  slug: bridge-interactive-open-houses-api
+- description: The RESO Web API API from Bridge Interactive — 7 operation(s) for reso web api.
+  name: Bridge Interactive RESO Web API API
+  slug: bridge-interactive-reso-web-api-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Bridge API (Bridge Data Output)
+  slug: open-bridge-interactive
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bridge-interactive-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bridge-interactive-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bridge-interactive-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bridge-interactive
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bridgeinteractive.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://bridgedataoutput.com/docs/platform/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bridge-interactive-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bridge-interactive-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/bridge-interactive-finops.yml
+created: '2026-06-21'
+description: Bridge Interactive (a Zillow Group company) is a real-estate data-access platform that normalizes MLS listing data to RESO standards and serves it through the Bridge API. The Bridge Data Output platform exposes a proprietary RESTful Bridge Web API and a RESO-compliant RESO Web API (OData) for properties, members, offices, open houses, and media, all secured with a Bearer server token.
+finops:
+- name: Bridge Interactive Finops
+  service_category: Analytics and Data
+  slug: bridge-interactive-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bridge-interactive.png
+layout: provider
+modified: '2026-06-21'
+name: Bridge Interactive
+nav: Providers
+network: true
+overview: 'Bridge Interactive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Listings API, Offices API, and 2 more. Tagged areas include Real Estate, MLS, RESO, Listings, and Property Data.
+
+
+  Bridge Interactive''s developer surface includes authentication, documentation, and 7 more developer resources.'
+plans:
+- name: Bridge Interactive Plans Pricing
+  plan_count: 3
+  slug: bridge-interactive-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 4
+  name: Bridge Interactive Rate Limits
+  slug: bridge-interactive-rate-limits
+score:
+  band: thin
+  composite: 36.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 53.5
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 36.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Bridge Interactive Authentication
+  slug: bridge-interactive-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Bridge Interactive Domain Security
+  slug: bridge-interactive-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: bridge-interactive
+tags:
+- Real Estate
+- MLS
+- RESO
+- Listings
+- Property Data
+website: https://www.bridgeinteractive.com
+---

@@ -1,0 +1,85 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/58com-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://open.58.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.58.com/
+created: '2026-07-17'
+description: 58.com (58同城, "58 Tongcheng") is China's largest online classifieds and local-services marketplace, often called the "Chinese Craigslist." Founded in 2005 and headquartered in Beijing, it operates listings across recruitment and jobs, real estate and housing (Anjuke), used goods (Zhuanzhuan), automobiles, local services, and yellow-pages business directories. Formerly listed on the NYSE (WUBA), it was taken private in 2020 by a Warburg Pincus / General Atlantic consortium. Its 58 Open Platform (open.58.com) exposes payment, recruitment/jobs data, housing, local-service information, security risk-control, marketing, and social capabilities to approved third-party partners via reviewed developer accounts and API keys. Backed historically by DCM Ventures.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/58com.png
+layout: provider
+modified: '2026-07-17'
+name: 58.com
+nav: Providers
+network: true
+overview: 58.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Classifieds, Marketplace, and Real Estate.
+random_paper: 20
+score:
+  band: minimal
+  composite: 8.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: 58Com Domain Security
+  slug: 58com-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: 58com
+tags:
+- Company
+- Consumer
+- Classifieds
+- Marketplace
+- Real Estate
+- Recruitment
+- Local Services
+- China
+website: https://www.58.com/
+---

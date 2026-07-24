@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://themodernmilkman.co.uk/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.themodernmilkman.co.uk/
+- group: operate
+  title: ''
+  type: Support
+  url: https://modern-milkman.elevio.help/en
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://blog.themodernmilkman.co.uk/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://blog.themodernmilkman.co.uk/legal/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/the-modern-milkman-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/the-modern-milkman-domain-security.yml
+created: '2026-07-17'
+description: 'The Modern Milkman is a UK doorstep delivery service that brings farm-fresh milk, groceries and household essentials to customers in returnable and reusable glass bottles or recyclable packaging, with flexible ordering and early-morning delivery. Founded to modernise the traditional milkround, the company focuses on reducing food waste and single-use plastic through a return-and-reuse model, local sourcing, and a subscription-style ordering experience delivered through its website and mobile apps. It was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network for enrichment. The company publishes no public developer API, but does maintain an llms.txt for AI agents, a customer help centre, and a blog. Sector: consumer / direct-to-consumer grocery delivery.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-modern-milkman.png
+layout: provider
+modified: '2026-07-21'
+name: The Modern Milkman
+nav: Providers
+network: true
+overview: 'The Modern Milkman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Grocery Delivery, Direct to Consumer, and Sustainability.
+
+
+  The Modern Milkman''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 16
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: The Modern Milkman Domain Security
+  slug: the-modern-milkman-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: the-modern-milkman
+tags:
+- Company
+- Consumer
+- Grocery Delivery
+- Direct to Consumer
+- Sustainability
+- Subscription
+- United Kingdom
+- Food and Beverage
+website: https://themodernmilkman.co.uk/
+---

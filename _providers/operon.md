@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.operonsolutions.com/en
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.operonsolutions.com/en/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://www.operonsolutions.com/en/signin
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.operonsolutions.com/en#contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.operonsolutions.com/en/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.operonsolutions.com/en/privacy
+created: '2026-07-17'
+description: Operon is an AI-powered manufacturing intelligence platform (Y Combinator S2026) that turns P&IDs (Piping & Instrumentation Diagrams), schematics, datasheets, and scanned engineering documents into one structured, queryable model of a plant. Its P&ID Recognition detects equipment, instruments, valves, and piping symbols across ISA, ISO, and proprietary symbology; its P&ID Agent generates standards-compliant diagrams from text, simulation data, or sketches; and Knowledge Chat lets engineers query plant documentation in natural language and build agentic workflows for safety, compliance, HAZOP/PHA, EHS, material take-offs, brownfield digitization, and management-of-change. Operon exports structured DEXPI data and offers cloud and on-premise deployment with encryption, role-based access control, and audit trails. As of July 2026 the product is in private beta (pid.operonsolutions.com) and publishes no public API.
+image: https://www.operonsolutions.com/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: Operon
+nav: Providers
+network: true
+overview: 'Operon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial, Engineering, and Artificial Intelligence.
+
+
+  Operon''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 47
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: operon
+tags:
+- Company
+- Manufacturing
+- Industrial
+- Engineering
+- Artificial Intelligence
+- P&ID
+- Process Industries
+- Chemical Engineering
+- Data Intelligence
+- DEXPI
+website: https://www.operonsolutions.com/en
+---

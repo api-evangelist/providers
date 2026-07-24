@@ -1,0 +1,124 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.foundationmedicine.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.foundationmedicine.com/newsroom
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.foundationmedicine.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.foundationmedicine.com/privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/foundation-medicine-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/foundation-medicine-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/roche?view_policy=true
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/foundation-medicine-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/foundation-medicine-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/foundation-medicine-llms.txt
+created: '2026-07-17'
+description: Foundation Medicine is a molecular information and precision cancer diagnostics company that develops comprehensive genomic profiling (CGP) tests for solid tumors, blood cancers, and sarcomas, including its FoundationOne family of assays. Its testing analyzes patient tumor and liquid-biopsy samples to identify genomic alterations that can inform targeted therapy, immunotherapy, and clinical-trial matching, and it partners with biopharma on companion diagnostics and clinical-trial enrollment. A Roche company, it has delivered more than 1.5 million patient CGP reports and supports 950+ clinical trials. This profile was surfaced as a venture-portfolio lead (gv, kleiner-perkins) and enriched by the API Evangelist pipeline; the company publishes no public developer API or portal, so this record captures its public web, legal, and security-disclosure surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foundation-medicine.png
+layout: provider
+modified: '2026-07-19'
+name: Foundation Medicine
+nav: Providers
+network: true
+overview: 'Foundation Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Cancer Diagnostics, and Precision Medicine.
+
+
+  Foundation Medicine''s developer surface includes engineering blog, support, and 8 more developer resources.'
+random_paper: 16
+score:
+  band: emerging
+  composite: 15.0
+  delta: 3.5
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 11.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 34.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Foundation Medicine Domain Security
+  slug: foundation-medicine-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Foundation Medicine Vulnerability Disclosure
+  slug: foundation-medicine-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: foundation-medicine
+tags:
+- Company
+- Life Sciences
+- Genomics
+- Cancer Diagnostics
+- Precision Medicine
+- Molecular Profiling
+- Healthcare
+website: https://www.foundationmedicine.com
+---

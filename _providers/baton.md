@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/baton-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://baton.io
+created: '2026-07-17'
+description: Baton is a supply-chain and logistics technology company that operates as Ryder System's Silicon Valley innovation lab following its 2022 acquisition. Founded in 2019 out of 8VC's build program, Baton originally built a network of freight "drop zones" that let long-haul truckers hand off loads for local pickup and delivery, coordinating vehicles, drop zones, warehouses, and local drivers. Today the team builds RyderShare, a collaborative logistics platform combining real-time supply-chain visibility with exception management across shipments in transit. As of this enrichment pass, baton.io publishes no public developer API, SDK, documentation, or integration surface (the site exposes only marketing and careers pages); this profile is maintained for network discovery.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baton.png
+layout: provider
+modified: '2026-07-18'
+name: Baton
+nav: Providers
+network: true
+overview: Baton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Freight, and Transportation.
+random_paper: 22
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Baton Domain Security
+  slug: baton-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: baton
+tags:
+- Company
+- Logistics
+- Supply Chain
+- Freight
+- Transportation
+- Visibility
+website: https://baton.io
+---

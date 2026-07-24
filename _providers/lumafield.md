@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lumafield.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.lumafield.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.lumafield.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lumafield.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.lumafield.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.lumafield.com/platform/voyager-release-notes
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lumafield.com/legal/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lumafield.com/legal/servicesagreement
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lumafield-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lumafield-domain-security.yml
+created: '2026-07-17'
+description: Lumafield is a manufacturing technology company that builds accessible industrial X-ray computed tomography (CT) scanning hardware and AI-powered cloud analysis software. Its Neptune and Triton scanners pair with the Voyager cloud platform so engineers and manufacturers can inspect the inside of parts non-destructively, measure dimensions and GD&T against CAD, detect porosity, cracks, inclusions and wall-thickness defects, and automate inspection at production volume. Lumafield delivers CT as a unified hardware, cloud, and analytics system rather than a public developer API; this profile catalogs its public developer-adjacent surfaces (support/knowledge base, release notes, and an llms.txt documentation index) for the API Evangelist network.
+image: https://app.lumafield.com/lumafield-og-img.jpg
+layout: provider
+modified: '2026-07-20'
+name: Lumafield
+nav: Providers
+network: true
+overview: 'Lumafield is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial CT, Inspection, and Hardware.
+
+
+  Lumafield''s developer surface includes documentation, support, engineering blog, signup flow, changelog, and 5 more developer resources.'
+random_paper: 29
+score:
+  band: emerging
+  composite: 18.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 18.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Lumafield Domain Security
+  slug: lumafield-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: lumafield
+tags:
+- Company
+- Manufacturing
+- Industrial CT
+- Inspection
+- Hardware
+- Analysis
+- Quality
+- Computer Vision
+website: https://www.lumafield.com
+---

@@ -1,0 +1,194 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Libre Translate Agentic Access
+  operation_count: 7
+  slug: libre-translate-agentic-access
+  summary_line: 7 operations · 4 acting
+api_count: 2
+apis:
+- description: The misc API from LibreTranslate — 3 operation(s) for misc.
+  name: LibreTranslate misc API
+  slug: libre-translate-misc-api
+- description: The translate API from LibreTranslate — 4 operation(s) for translate.
+  name: LibreTranslate translate API
+  slug: libre-translate-translate-api
+artifact_total: 17
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/libre-translate-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/libre-translate-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://libretranslate.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.libretranslate.com
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/LibreTranslate
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/libretranslate
+- group: company
+  title: ''
+  type: Blog
+  url: https://community.libretranslate.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://portal.libretranslate.com
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.libretranslate.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/libretranslate
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/plans/plans.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/rate-limits/rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/finops/finops.yml
+created: '2026-06-13'
+description: Free and open-source machine translation REST API supporting 30+ languages with self-hostable deployment and no third-party service dependency. Powered by the open-source Argos Translate library, LibreTranslate provides endpoints for text translation, language detection, file translation, and translation suggestions. Deployable on-premise for full offline capability or accessible via the managed hosted service.
+examples:
+- key_count: 4
+  name: Detect Language
+  slug: detect-language
+- key_count: 4
+  name: List Languages
+  slug: list-languages
+- key_count: 4
+  name: Translate Auto Detect
+  slug: translate-auto-detect
+- key_count: 4
+  name: Translate Batch
+  slug: translate-batch
+- key_count: 4
+  name: Translate Text
+  slug: translate-text
+finops:
+- name: Finops
+  service_category: ''
+  slug: finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/libre-translate.png
+json_schemas:
+- name: DetectRequest
+  property_count: 2
+  slug: detect-request
+- name: Language
+  property_count: 3
+  slug: language
+- name: TranslateRequest
+  property_count: 6
+  slug: translate-request
+- name: TranslateResponse
+  property_count: 3
+  slug: translate-response
+layout: provider
+modified: '2026-06-13'
+name: LibreTranslate
+nav: Providers
+network: true
+overview: 'LibreTranslate publishes 2 APIs on the [APIs.io](https://apis.io/) network: misc API and translate API. Tagged areas include Translation, Machine Translation, Natural Language Processing, Open Source, and Self-Hosted.
+
+
+  The LibreTranslate catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  LibreTranslate''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Plans
+  plan_count: 4
+  slug: plans
+random_paper: 15
+rate_limits:
+- limit_count: 0
+  name: Rate Limits
+  slug: rate-limits
+rules:
+- name: LibreTranslate API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: libre-translate-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 47.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 56.6
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 47.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184502.png
+security:
+- kind: domain-security
+  name: Libre Translate Domain Security
+  slug: libre-translate-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: libre-translate
+tags:
+- Translation
+- Machine Translation
+- Natural Language Processing
+- Open Source
+- Self-Hosted
+website: https://libretranslate.com
+---

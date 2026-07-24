@@ -1,0 +1,131 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://eola.co/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://eola.co/business/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://eola.co/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://eola.co/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://eola.co/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://eola.co/business/contact
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://eola.co/academy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://business.eola.co/page/request-a-demo
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/eola
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.eola.co/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/eola-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/eola-domain-security.yml
+created: '2026-07-17'
+description: 'eola is a London-based online booking and business-management platform for the activity and leisure industry. It gives tour operators, surf and watersports schools, outdoor activity centres, adventure and winter-sports providers, course and rental businesses, and multi-site operators a single system to sell experiences and run their operations. The platform covers online and onsite point-of-sale bookings, a product builder for activities, memberships, class passes and rentals, instructor and resource scheduling, online waivers and questionnaires with AI checking, payments and reconciliation, marketing tools (discount codes, credit vouchers, review links, branded multi-language emails), reporting and analytics, an activity marketplace, and eola AI features. eola is backed by Techstars. It operates as a closed SaaS product: bookings are embedded via a first-party booking widget and business dashboard rather than a documented public developer API.'
+image: https://cdn.builder.io/api/v1/image/assets%2F96a8cd086730462e8a11cf63b0a56c86%2F809aa982c6f2435e8ed06490b61642df
+layout: provider
+modified: '2026-07-19'
+name: eola
+nav: Providers
+network: true
+overview: 'eola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Booking, Reservations, Activities, and Leisure.
+
+
+  eola''s developer surface includes pricing, engineering blog, support, getting-started guide, signup flow, and 7 more developer resources.'
+random_paper: 9
+score:
+  band: emerging
+  composite: 23.2
+  delta: 1.3
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 21.9
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Eola Domain Security
+  slug: eola-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: eola
+tags:
+- Company
+- Booking
+- Reservations
+- Activities
+- Leisure
+- Experiences
+- Tours
+- Watersports
+- Payments
+- SaaS
+website: https://eola.co/
+---

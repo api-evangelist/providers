@@ -1,0 +1,146 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 14
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/american-equity-investment-life-holding-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/American-Equity-Life
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/american-equity
+- group: company
+  title: ''
+  type: Website
+  url: https://www.american-equity.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://register.american-equity.com
+created: '2024-11-15'
+description: American Equity Investment Life Holding Company is a leading provider of guaranteed income solutions, specializing in the design, development, and sale of fixed indexed and fixed-rate annuity products distributed through independent agents and broker-dealers. The company offers products including IncomeShield, AssetShield, EstateShield, and GuaranteeShield annuities, providing retirees with lifetime income, principal protection, tax-deferred growth, and legacy planning options.
+features:
+- description: Fixed Index Annuities (FIAs) such as IncomeShield, AssetShield, and EstateShield that provide index-linked growth potential with protection from market downside, tax-deferred growth, and guaranteed lifetime income options.
+  name: Fixed Indexed Annuities
+- description: GuaranteeShield fixed annuity products offering guaranteed interest rates, principal protection, tax-deferred growth, and flexible withdrawal options for conservative retirement savers.
+  name: Fixed Annuities
+- description: Immediate annuity contracts converting lump sums into guaranteed income payments starting within 12 months, available for lifetime or fixed periods of 5 to 25 years.
+  name: Immediate Annuities
+- description: Guaranteed lifetime income riders and payout options ensuring customers cannot outlive their retirement savings regardless of market performance.
+  name: Lifetime Income Guarantee
+- description: Multiple index crediting options including S&P 500, BlackRock Adaptive U.S. Equity, BNPP Patriot Technology Index, Nasdaq Premier, and NYSE Premier indices.
+  name: Index Crediting Strategies
+- description: Annuity products distributed exclusively through a network of independent insurance agents and broker-dealers, providing broad access for retirement planning clients.
+  name: Independent Agent Distribution
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/american-equity-investment-life-holding.png
+integrations:
+- description: Integration with national and regional broker-dealer networks to distribute annuity products through registered investment advisors and insurance agents.
+  name: Independent Broker-Dealer Networks
+- description: Compatibility with financial planning software used by independent agents to illustrate and recommend annuity products to clients.
+  name: Financial Planning Platforms
+layout: provider
+modified: '2026-04-19'
+name: American Equity Investment Life Holding
+nav: Providers
+network: true
+overview: 'American Equity Investment Life Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Insurance, Annuities, Fixed Indexed Annuity, and Retirement.
+
+
+  American Equity Investment Life Holding''s developer surface includes developer portal and 4 more developer resources.'
+press:
+- date: '2026-05-25'
+  title: ael-20231231
+  url: https://www.sec.gov/Archives/edgar/data/1039828/000103982824000020/ael-20231231.htm
+- date: '2026-05-25'
+  title: American Equity Operating Entities Upgraded To 'A
+  url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3165704
+- date: '2026-05-25'
+  title: AM Best Affirms Credit Ratings of American Equity Investment ...
+  url: https://news.ambest.com/newscontent.aspx?refnum=235246
+- date: '2026-05-25'
+  title: Brookfield Reinsurance signs deal for American Equity ...
+  url: https://www.advisor.ca/industry-news/industry/brookfield-reinsurance-signs-deal-for-american-equity-investment-life-holding-co/
+- date: '2026-05-25'
+  title: American Equity Recognized for Award-Winning Customer ...
+  url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
+random_paper: 16
+score:
+  band: minimal
+  composite: 9.8
+  delta: 0.6
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 9.2
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/screenshots/american-equity-investment-life-holding-2026-06-20T171912.png
+security:
+- kind: domain-security
+  name: American Equity Investment Life Holding Domain Security
+  slug: american-equity-investment-life-holding-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: american-equity-investment-life-holding
+tags:
+- Financial Services
+- Insurance
+- Annuities
+- Fixed Indexed Annuity
+- Retirement
+- Life Insurance
+- Fortune 1000
+use_cases:
+- description: Creating guaranteed lifetime income streams for retirees concerned about outliving their savings, providing predictable monthly income regardless of market conditions.
+  name: Retirement Income Planning
+- description: Protecting retirement assets from market losses while still participating in index-linked growth during favorable market conditions.
+  name: Principal Protection
+- description: Accumulating retirement savings on a tax-deferred basis, allowing compound growth without annual tax liability until withdrawals begin.
+  name: Tax-Deferred Growth
+- description: Using EstateShield annuities to combine retirement income security with legacy planning to pass assets to heirs.
+  name: Legacy and Estate Planning
+- description: Providing a low-risk alternative to market investments for pre-retirees seeking guaranteed growth through fixed annuity products.
+  name: Conservative Retirement Savings
+website: https://www.american-equity.com
+---

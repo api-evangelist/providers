@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/newscorp-ghfb
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/newscorp
+- group: company
+  title: ''
+  type: Website
+  url: https://www.news-corp.com
+description: News Corp is a global, diversified media and information services company focused on creating and distributing authoritative and engaging content across publishing, news media, digital real estate services, and book publishing.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/news-corp.png
+layout: provider
+modified: '2026-04-28'
+name: news-corp
+nav: Providers
+network: true
+overview: news-corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+press:
+- date: '2026-05-25'
+  title: Comment on News Corp to Report Fiscal 2015 Full Year Earnings by binance signup bonus
+  url: https://newscorp.com/2015/07/21/news-corp-to-report-fiscal-2015-full-year-earnings/#comment-9012
+- date: '2026-05-25'
+  title: Symbolic.ai Partners with News Corp on AI-Native ...
+  url: https://www.linkedin.com/posts/symbolic-ai_symbolic-partners-with-news-corp-to-deploy-activity-7417611941235531776-yTQy
+- date: '2026-05-25'
+  title: All eyes on News Corp earnings as AI licensing fuels ...
+  url: https://www.investing.com/news/earnings/all-eyes-on-news-corp-earnings-as-ai-licensing-fuels-growth-hopes-93CH-4669330
+- date: '2026-05-25'
+  title: News Corp is essentially an AI 'input company', chief ...
+  url: https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m
+- date: '2026-05-25'
+  title: News Corp and OpenAI Sign Landmark Multi-Year Global ...
+  url: https://investors.newscorp.com/news-releases/news-release-details/news-corp-and-openai-sign-landmark-multi-year-global-partnership
+- date: '2026-05-25'
+  title: News Corp Australia outlines its approach to using AI in ...
+  url: https://www.inma.org/blogs/conference/post.cfm/news-corp-australia-outlines-its-approach-to-using-ai-in-its-newsrooms
+- date: '2026-05-25'
+  title: Comment on News Corp Declares Semi-Annual Dividend by binance US-registrera
+  url: https://newscorp.com/2016/02/10/news-corp-declares-semi-annual-dividend/#comment-9013
+- date: '2026-05-25'
+  title: Comment on News Corporation Announces Details Regarding Proposed Separation of Businesses by Registrera dig
+  url: https://newscorp.com/2012/12/03/news-corporation-announces-details-regarding-proposed-separation-of-businesses/#comment-9011
+random_paper: 8
+score:
+  band: minimal
+  composite: 5.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 47.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 5.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: news-corp
+tags:
+- Fortune 500
+website: https://www.news-corp.com
+---

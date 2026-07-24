@@ -1,0 +1,283 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Netdata Agentic Access
+  operation_count: 79
+  slug: netdata-agentic-access
+  summary_line: 79 operations · 12 acting
+api_count: 20
+apis:
+- description: The Netdata Agent REST API provides access to metrics, alerts, and configuration on individual monitoring nodes. It supports v1, v2, and v3 endpoints for querying time-series data, health status, cont
+  name: Netdata Agent API
+  slug: agent-api
+- description: Everything related to alerts
+  name: Netdata alerts API
+  slug: netdata-alerts-api
+- description: The authentication API from Netdata — 5 operation(s) for authentication.
+  name: Netdata authentication API
+  slug: netdata-authentication-api
+- description: Everything related to dynamic badges based on metric data
+  name: Netdata badges API
+  slug: netdata-badges-api
+- description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
+  name: Netdata charts API
+  slug: netdata-charts-api
+- description: The claiming API from Netdata — 2 operation(s) for claiming.
+  name: Netdata claiming API
+  slug: netdata-claiming-api
+- description: The config API from Netdata — 1 operation(s) for config.
+  name: Netdata config API
+  slug: netdata-config-api
+- description: Everything related contexts - in new code, use this instead of charts
+  name: Netdata contexts API
+  slug: netdata-contexts-api
+- description: Everything related to data queries
+  name: Netdata data API
+  slug: netdata-data-api
+- description: The dyncfg API from Netdata — 1 operation(s) for dyncfg.
+  name: Netdata dyncfg API
+  slug: netdata-dyncfg-api
+- description: Everything related to functions
+  name: Netdata functions API
+  slug: netdata-functions-api
+- description: Everything related to managing netdata Agents
+  name: Netdata management API
+  slug: netdata-management-api
+- description: Everything related to monitored nodes
+  name: Netdata nodes API
+  slug: netdata-nodes-api
+- description: The registry API from Netdata — 1 operation(s) for registry.
+  name: Netdata registry API
+  slug: netdata-registry-api
+- description: The settings API from Netdata — 1 operation(s) for settings.
+  name: Netdata settings API
+  slug: netdata-settings-api
+- description: The streaming API from Netdata — 1 operation(s) for streaming.
+  name: Netdata streaming API
+  slug: netdata-streaming-api
+- description: The variables API from Netdata — 1 operation(s) for variables.
+  name: Netdata variables API
+  slug: netdata-variables-api
+- description: The versions API from Netdata — 1 operation(s) for versions.
+  name: Netdata versions API
+  slug: netdata-versions-api
+- description: The webrtc API from Netdata — 2 operation(s) for webrtc.
+  name: Netdata webrtc API
+  slug: netdata-webrtc-api
+- description: Everything related to scoring / weighting metrics
+  name: Netdata weights API
+  slug: netdata-weights-api
+artifact_total: 36
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/netdata-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/netdata-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/netdata-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/netdata-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.netdata.cloud/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.netdata.cloud/docs/developer-and-contributor-corner/rest-api
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/netdata
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/netdata-cloud
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/netdatahq
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.netdata.cloud/blog/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://learn.netdata.cloud/docs/netdata-agent/changelog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.netdata.cloud/pricing/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.netdata.cloud/
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/netdata-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/netdata-context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: blogs/blogs.json
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/netdata-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/netdata-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/netdata-finops.yml
+created: '2026-06-12'
+description: Netdata is a real-time infrastructure monitoring and observability platform that collects per-second metrics from physical servers, virtual machines, cloud deployments, Kubernetes clusters, and IoT devices. It provides a REST API for querying metrics, alerts, and configuration on individual nodes (Agent API) as well as a Cloud API for programmatic access to Netdata Cloud resources including spaces, rooms, and nodes across distributed infrastructure. Authentication uses Bearer tokens generated from the Netdata Cloud account settings, with scopes controlling access to agent UI, Grafana plugin, MCP, and full API access. The platform includes AI-powered troubleshooting, role-based access control, and supports both cloud-hosted and on-premises deployments.
+examples:
+- key_count: 5
+  name: Netdata Alerts Example
+  slug: netdata-alerts-example
+- key_count: 9
+  name: Netdata Charts List Example
+  slug: netdata-charts-list-example
+- key_count: 19
+  name: Netdata Data Query Example
+  slug: netdata-data-query-example
+- key_count: 20
+  name: Netdata Node Info Example
+  slug: netdata-node-info-example
+finops:
+- name: Netdata Finops
+  service_category: Monitoring and Observability
+  slug: netdata-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netdata.png
+json_schemas:
+- name: Netdata Alert
+  property_count: 13
+  slug: netdata-alert
+- name: Netdata Chart
+  property_count: 13
+  slug: netdata-chart
+- name: Netdata Node
+  property_count: 18
+  slug: netdata-node
+jsonld:
+- class_count: 15
+  name: Netdata Context
+  property_count: 34
+  slug: netdata-context
+layout: provider
+modified: '2026-06-12'
+name: Netdata
+nav: Providers
+network: true
+overview: 'Netdata publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agent API, alerts API, authentication API, and 17 more. Tagged areas include Monitoring, Observability, Infrastructure, Metrics, and Alerts.
+
+
+  The Netdata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Netdata''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
+plans:
+- name: Netdata Plans Pricing
+  plan_count: 3
+  slug: netdata-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 2
+  name: Netdata Rate Limits
+  slug: netdata-rate-limits
+rules:
+- name: Netdata API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: netdata-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 61.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 75.1
+    developer_ergonomics: 21.7
+    discoverability: 87.5
+    governance: 86.8
+    operational_transparency: 57.9
+  previous_composite: 61.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
+security:
+- kind: authentication
+  name: Netdata Authentication
+  slug: netdata-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Netdata Domain Security
+  slug: netdata-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Netdata Trust Center
+  slug: netdata-trust-center
+  summary_line: SOC 2, ISO 27001
+slug: netdata
+tags:
+- Monitoring
+- Observability
+- Infrastructure
+- Metrics
+- Alerts
+- Real-Time
+- APM
+- DevOps
+website: https://www.netdata.cloud/
+---

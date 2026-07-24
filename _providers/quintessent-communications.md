@@ -1,0 +1,95 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.quintessent.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.quintessent.com/about
+- group: other
+  title: ''
+  type: Team
+  url: https://www.quintessent.com/our-team
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.quintessent.com/careers
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.quintessent.com/news
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.quintessent.com/contact
+created: '2026-07-17'
+description: Quintessent is a deep-tech photonics startup based in Goleta, California, developing optical connectivity solutions that address the communication bottlenecks in large-scale computing and AI infrastructure. The company builds chip-to-chip optical interconnect technology grounded in quantum-dot laser epitaxy, and has established supply chains for quantum-dot epitaxial wafers used in AI optical interconnects. Quintessent is a hardware and semiconductor photonics company rather than a software/API provider; it exposes no public developer portal, API, SDK, or documentation surface. Backed by Battery Ventures, Entrada Ventures, Foothill Ventures, and Sierra Ventures, with research funding from DARPA, ARPA-E, and the NSF, the company was surfaced as a venture-portfolio lead and profiled here for the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quintessent-communications.png
+layout: provider
+modified: '2026-07-20'
+name: Quintessent Communications
+nav: Providers
+network: true
+overview: 'Quintessent Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Interconnects, Semiconductors, and Quantum Dot Lasers.
+
+
+  Quintessent Communications'' developer surface includes engineering blog and 5 more developer resources.'
+random_paper: 23
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: quintessent-communications
+tags:
+- Company
+- Photonics
+- Optical Interconnects
+- Semiconductors
+- Quantum Dot Lasers
+- AI Infrastructure
+- Deep Tech
+- Hardware
+website: https://www.quintessent.com
+---

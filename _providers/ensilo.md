@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: enSilo was an endpoint-security company founded in 2014 (San Francisco and Herzliya, Israel) that delivered automated endpoint detection and response (EDR), real-time post-infection protection, and data-exfiltration prevention in a single agent. Backed by Lightspeed Venture Partners and other investors, enSilo was acquired by Fortinet in October 2019 and its technology was folded into the FortiEDR product line. The independent enSilo brand, developer surface, and public API no longer exist; the ensilo.com domain now redirects to Fortinet's site. This profile is retained in the API Evangelist network as an acquired-company lead and carries no live API artifacts.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ensilo.png
+layout: provider
+modified: '2026-07-19'
+name: Ensilo
+nav: Providers
+network: true
+overview: Ensilo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and EDR.
+random_paper: 38
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: ensilo
+tags:
+- Company
+- Security
+- Cybersecurity
+- Endpoint Security
+- EDR
+- Threat Detection
+- Acquired
+---

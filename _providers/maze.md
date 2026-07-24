@@ -1,0 +1,161 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: Security
+  url: https://maze.co/disclosure/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/maze-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/maze-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://maze.co
+- group: other
+  title: ''
+  type: Platform
+  url: https://maze.co/platform/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://maze.co/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.maze.co/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.maze.co/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.maze.co/hc/en-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.maze.co/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://maze.co/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://maze.co/tos/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://maze.co/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.maze.co/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/maze-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/maze-well-known.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/maze-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/maze-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://maze.co/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://maze.co/security/
+created: '2026-07-17'
+description: Maze is a continuous product-discovery and user-research platform that lets product teams run usability tests, prototype tests, surveys, card sorts, tree tests, and live interviews at scale, then turn the results into shareable, research-grade insight. Founded in 2018 and headquartered in London, Maze integrates with design tools like Figma and collaboration tools like Slack, Notion, and Jira, and layers research-grade AI over its testing and reporting surface. The company is venture-backed (Amplify Partners, Emergence Capital, Felicis, General Catalyst, Partech, Seedcamp) and operates a SOC 2 Type II certified, GDPR-aligned SaaS. Maze does not currently publish a public developer REST API; its extensibility is delivered through first-party product integrations and SSO. This profile captures Maze's identity, security posture, and operational surface for the API Evangelist network.
+image: https://maze.co/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: Maze
+nav: Providers
+network: true
+overview: 'Maze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, User Research, Product Research, and Usability Testing.
+
+
+  Maze''s developer surface includes pricing, signup flow, support, engineering blog, and 16 more developer resources.'
+random_paper: 21
+score:
+  band: emerging
+  composite: 23.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 23.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Maze Domain Security
+  slug: maze-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Maze Vulnerability Disclosure
+  slug: maze-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: maze
+tags:
+- Company
+- Ai Ml
+- User Research
+- Product Research
+- Usability Testing
+- Surveys
+- Prototype Testing
+- Product Discovery
+- SaaS
+website: https://maze.co
+---

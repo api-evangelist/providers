@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lower-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lower.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lower.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.lower.com/faqs
+- group: start
+  title: ''
+  type: Login
+  url: https://home.lower.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lower.com/legal/website-terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lower.com/legal/privacy-policy
+created: '2026-07-17'
+description: 'Lower is a U.S. direct-to-consumer mortgage lender and servicer (Lower, LLC, NMLS #1124061) offering home purchase loans, refinancing, and home equity products including conventional, FHA, VA, jumbo, and adjustable-rate mortgages, HELOCs, and cash-out options. Lower operates a mobile-first application experience with dedicated loan officers and conducts business in 47 states plus the District of Columbia. It was surfaced as a portfolio company of Accel and added to the API Evangelist network. Lower publishes no public developer portal, API documentation, or machine-readable API surface at this time; this profile captures its public web, legal, and domain-security posture.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lower.png
+layout: provider
+modified: '2026-07-20'
+name: Lower
+nav: Providers
+network: true
+overview: 'Lower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Mortgage, Lending, and Home Loans.
+
+
+  Lower''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Lower Domain Security
+  slug: lower-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lower
+tags:
+- Company
+- Services
+- Mortgage
+- Lending
+- Home Loans
+- Refinance
+- Home Equity
+- Real Estate
+- Fintech
+website: https://www.lower.com/
+---

@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 18.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
+  name: Prosper Investor API
+  slug: prosper-investor-api
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.prosper.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.prosper.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.prosper.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.prosper.com/docs/investor/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.prosper.com/docs/investor/
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.prosper.com/support/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.prosper.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.prosper.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.prosper.com/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.prosper.com/loans/rates-and-fees
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.prosper.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.prosper.com/legal/privacy-policy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/prosper-authentication.yml
+- group: auth
+  title: ''
+  type: OAuth
+  url: https://www.prosper.com/oauth
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/prosper-sandbox.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/prosper-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/prosper-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/prosper-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/prosper-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Prosper Marketplace operates one of the largest peer-to-peer (marketplace) lending platforms in the United States, matching individual and institutional investors with consumers seeking personal loans, and also offering a HELOC and a credit-card product. For investors, Prosper publishes a RESTful Investor API that lets individual, institutional, and third-party agents connect directly to the platform to view account balances, search active loan listings, place orders (bids) to purchase Notes, and track owned Notes, loans, and payments. The API uses OAuth 2.0 over SSL with comprehensive filtering and sorting, and offers a sandbox environment for integration testing. This profile was surfaced as a portfolio company of Emergence Capital, IVP, and QED Investors and enriched from Prosper's public developer documentation.
+image: https://www.prosper.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: prosper-mcp.yml
+  slug: prosper-mcpyml
+modified: '2026-07-20'
+name: Prosper
+nav: Providers
+network: true
+overview: 'Prosper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Peer-to-Peer Lending, and Marketplace Lending.
+
+
+  Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 13 more developer resources.'
+random_paper: 14
+score:
+  band: thin
+  composite: 31.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 65.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 31.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Prosper Authentication
+  slug: prosper-authentication
+  summary_line: oauth2 · 3 schemes
+- kind: domain-security
+  name: Prosper Domain Security
+  slug: prosper-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: prosper
+tags:
+- Company
+- Fintech
+- Lending
+- Peer-to-Peer Lending
+- Marketplace Lending
+- Investing
+- Personal Loans
+- Consumer Credit
+- Financial Services
+website: https://www.prosper.com
+---

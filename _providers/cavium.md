@@ -1,0 +1,68 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: 'Cavium, Inc. was a fabless semiconductor company founded in 2000 and headquartered in San Jose, California, that designed multicore processors and networking silicon for enterprise, data center, cloud, and service-provider infrastructure. Its product families included OCTEON multicore MIPS and ARM network and security processors, ThunderX ARM-based server SoCs, Nitrox security processors, LiquidIO intelligent adapters and smart NICs, and the FastLinQ Ethernet and Xpliant switch lines it gained through its 2016 acquisition of QLogic. Cavium was a publicly traded company (NASDAQ: CAVM) before being acquired by Marvell Technology Group in July 2018 for roughly 6 billion US dollars. Its technology now ships as part of Marvell''s networking and infrastructure processor portfolio. As a silicon and hardware vendor, Cavium never operated a public developer API program or web API surface.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cavium.png
+layout: provider
+modified: '2026-07-18'
+name: Cavium
+nav: Providers
+network: true
+overview: Cavium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Security, and Processors.
+random_paper: 33
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: cavium
+tags:
+- Company
+- Semiconductors
+- Networking
+- Security
+- Processors
+- Hardware
+- ARM
+- Silicon
+- Data Center
+- Acquired
+---

@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fleek-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://joinfleek.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://joinfleek.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.joinfleek.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://joinfleek.myshopify.com/pages/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://joinfleek.myshopify.com/pages/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://fleek-vendor.app.link/3JiH7nUYWIb
+created: '2026-07-17'
+description: Fleek is a B2B wholesale marketplace for vintage and secondhand clothing that connects resellers with a global network of verified suppliers, letting new resellers, full-time resellers, and retail businesses source pre-owned inventory in bulk at wholesale margins. The platform aggregates more than a thousand secondhand suppliers worldwide, handles discovery, ordering, and logistics through its website and mobile apps, and is backed by HV Capital. Fleek operates a consumer/reseller storefront (built on Shopify) and a separate vendor onboarding flow for suppliers; it does not currently publish a public developer API, SDKs, or API documentation. This profile was surfaced from the HV Capital portfolio and enriched from Fleek's public web surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleek.png
+layout: provider
+modified: '2026-07-19'
+name: Fleek
+nav: Providers
+network: true
+overview: 'Fleek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Wholesale, Vintage Clothing, and Secondhand.
+
+
+  Fleek''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+random_paper: 9
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Fleek Domain Security
+  slug: fleek-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: fleek
+tags:
+- Company
+- Marketplace
+- Wholesale
+- Vintage Clothing
+- Secondhand
+- Resale
+- E-Commerce
+- Fashion
+website: https://joinfleek.com
+---

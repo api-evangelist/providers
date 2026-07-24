@@ -1,0 +1,126 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: CKAN Action API for dati.emilia-romagna.it, a consistent JSON-over-HTTP interface over a catalog of 2,851 datasets. Standard actions include package_search, package_show, package_list, organization_li
+  name: dati.emilia-romagna.it CKAN Action API
+  slug: catalog
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dati-emilia-romagna-it-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://dati.emilia-romagna.it
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ckan.org/en/latest/api/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dati-emilia-romagna-it-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dati-emilia-romagna-it-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/dati-emilia-romagna-it-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-04'
+description: dati.emilia-romagna.it is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,851 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
+finops:
+- name: Dati Emilia Romagna It Finops
+  service_category: Open Data
+  slug: dati-emilia-romagna-it-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dati-emilia-romagna-it.png
+layout: provider
+modified: '2026-06-04'
+name: dati.emilia-romagna.it
+nav: Providers
+network: true
+overview: 'dati.emilia-romagna.it publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+
+
+  dati.emilia-romagna.it''s developer surface includes documentation and 6 more developer resources.'
+plans:
+- name: Dati Emilia Romagna It Plans Pricing
+  plan_count: 1
+  slug: dati-emilia-romagna-it-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 1
+  name: Dati Emilia Romagna It Rate Limits
+  slug: dati-emilia-romagna-it-rate-limits
+score:
+  band: emerging
+  composite: 18.5
+  delta: -1.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 19.5
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png
+security:
+- kind: domain-security
+  name: Dati Emilia Romagna It Domain Security
+  slug: dati-emilia-romagna-it-domain-security
+  summary_line: TLSv1.2
+slug: dati-emilia-romagna-it
+tags:
+- Open Data
+- CKAN
+- Data Catalog
+- DCAT
+- Government Data
+- Open Data Portal
+- Italy
+website: https://dati.emilia-romagna.it
+---

@@ -1,0 +1,200 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 59.6
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 1
+  name: Ludo Ai Agentic Access
+  operation_count: 20
+  slug: ludo-ai-agentic-access
+  summary_line: 20 operations · 14 acting · 1 human-in-the-loop
+api_count: 8
+apis:
+- description: The Ludo.ai MCP Server exposes the platform's asset generation tools via the Model Context Protocol, allowing AI assistants like Claude and Cursor to generate game assets through natural language conv
+  name: Ludo.ai MCP Server
+  slug: mcp-server
+- description: 'The Ludo.ai Unity Plugin integrates AI-powered asset generation directly into the Unity game engine. It provides a native interface for Unity developers to access Ludo.ai''s image generation, 3D model '
+  name: Ludo.ai Unity Plugin
+  slug: unity-plugin
+- description: Convert 2D images into textured 3D GLB models with PBR textures and configurable quality settings.
+  name: Ludo.ai 3D Models API
+  slug: ludo-ai-3d-models-api
+- description: Create animated spritesheets from static sprites, transfer motion from videos or presets, and list available animation presets.
+  name: Ludo.ai Animation API
+  slug: ludo-ai-animation-api
+- description: Generate sound effects, background music, character voices, and text-to-speech audio for games.
+  name: Ludo.ai Audio API
+  slug: ludo-ai-audio-api
+- description: Generate, edit, and manipulate game-ready images including sprites, icons, UI assets, textures, and backgrounds.
+  name: Ludo.ai Images API
+  slug: ludo-ai-images-api
+- description: Retrieve previously generated assets using request IDs or browse recent API-generated content.
+  name: Ludo.ai Results API
+  slug: ludo-ai-results-api
+- description: Generate short videos from images with motion prompts, suitable for cinematics, trailers, and dynamic backgrounds.
+  name: Ludo.ai Video API
+  slug: ludo-ai-video-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Ludo.ai REST API
+  slug: open-ludo-ai-rest-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ludo-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ludo-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ludo-ai-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ludoai
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/ludo-ai-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/ludo-ai-game-asset-schema.json
+- group: company
+  title: ''
+  type: Website
+  url: https://ludo.ai/
+- group: start
+  title: ''
+  type: Portal
+  url: https://ludo.ai/api-mcp-integration
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://ludo.ai/docs
+- group: company
+  title: ''
+  type: Blog
+  url: https://ludo.ai/blog/introducing-ludo-ai-api-mcp-integration
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Ludo-AI
+- group: start
+  title: ''
+  type: Login
+  url: https://ludo.ai/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/Ludo-AI/ludo-mcp
+created: '2026-03-24'
+description: Ludo.ai is a game design hub that uses artificial intelligence to help developers generate production-ready game assets including images, 3D models, audio, and animations. The platform entered beta for its Model Context Protocol (MCP) integration, exposing its asset generation suite as a headless API that enables vibe coding where developers can trigger asset creation directly from AI assistants like Claude or Cursor.
+finops:
+- name: Ludo Ai Finops
+  service_category: AI Infrastructure
+  slug: ludo-ai-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ludo-ai.png
+json_schemas:
+- name: Ludo.ai Game Asset
+  property_count: 10
+  slug: ludo-ai-game-asset
+jsonld:
+- class_count: 0
+  name: Ludo Ai Context
+  property_count: 7
+  slug: ludo-ai-context
+layout: provider
+modified: '2026-05-19'
+name: Ludo.ai
+nav: Providers
+network: true
+overview: 'Ludo.ai publishes 6 APIs on the [APIs.io](https://apis.io/) network, including 3D Models API, Animation API, Audio API, and 3 more. Tagged areas include Artificial Intelligence, Asset Generation, Game Design, and Game Development.
+
+
+  The Ludo.ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Ludo.ai''s developer surface includes authentication, developer portal, documentation, engineering blog, and 9 more developer resources.'
+plans:
+- name: Ludo Ai Plans Pricing
+  plan_count: 4
+  slug: ludo-ai-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 7
+  name: Ludo Ai Rate Limits
+  slug: ludo-ai-rate-limits
+rules:
+- name: Ludo.ai API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 5
+  slug: ludo-ai-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 53.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 64.6
+    developer_ergonomics: 39.1
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 53.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
+security:
+- kind: authentication
+  name: Ludo Ai Authentication
+  slug: ludo-ai-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Ludo Ai Domain Security
+  slug: ludo-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ludo-ai
+tags:
+- Artificial Intelligence
+- Asset Generation
+- Game Design
+- Game Development
+website: https://ludo.ai/
+---

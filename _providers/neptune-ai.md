@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
+  name: Neptune.ai REST API
+  slug: neptune-rest-api
+- description: Neptune Scale is the higher-throughput logging surface designed for foundation model training jobs. Same API-token authentication; SDK support in `neptune-scale`.
+  name: Neptune Scale API (foundation-model tier)
+  slug: neptune-scale-api
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/neptune-ai-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/neptuneai
+- group: company
+  title: ''
+  type: Website
+  url: https://neptune.ai/
+- group: other
+  title: ''
+  type: Acquisition
+  url: https://openai.com/index/openai-to-acquire-neptune/
+- group: build
+  title: neptune client
+  type: SourceCode
+  url: https://github.com/neptune-ai/neptune-client
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/neptune-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/neptune-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/neptune-ai-finops.yml
+created: '2026-05-08'
+description: Neptune.ai is an experiment tracker for ML and foundation-model training. As of 2025, Neptune.ai is being acquired by OpenAI and the public pricing page redirects to the OpenAI announcement. Customers continue to use the Neptune Python client and REST API during the transition.
+finops:
+- name: Neptune Ai Finops
+  service_category: ML
+  slug: neptune-ai-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neptune-ai.png
+layout: provider
+modified: '2026-05-08'
+name: Neptune.ai
+nav: Providers
+network: true
+overview: Neptune.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ML, MLOps, Experiment Tracking, Foundation Models, and Acquired.
+plans:
+- name: Neptune Ai Plans Pricing
+  plan_count: 1
+  slug: neptune-ai-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 1
+  name: Neptune Ai Rate Limits
+  slug: neptune-ai-rate-limits
+score:
+  band: emerging
+  composite: 17.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 17.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/screenshots/neptune-ai-2026-06-20T190137.png
+security:
+- kind: domain-security
+  name: Neptune Ai Domain Security
+  slug: neptune-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: neptune-ai
+tags:
+- ML
+- MLOps
+- Experiment Tracking
+- Foundation Models
+- Acquired
+website: https://neptune.ai/
+---

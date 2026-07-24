@@ -1,0 +1,210 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 72.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Valgo Agentic Access
+  operation_count: 14
+  slug: valgo-agentic-access
+  summary_line: 14 operations · 9 acting
+api_count: 8
+apis:
+- description: The Compute API from Valgo — 1 operation(s) for compute.
+  name: Valgo Compute API
+  slug: valgo-compute-api
+- description: The Compute Batch API from Valgo — 1 operation(s) for compute batch.
+  name: Valgo Compute Batch API
+  slug: valgo-compute-batch-api
+- description: The Compute Depot Route API from Valgo — 1 operation(s) for compute depot route.
+  name: Valgo Compute Depot Route API
+  slug: valgo-compute-depot-route-api
+- description: The Compute Route API from Valgo — 1 operation(s) for compute route.
+  name: Valgo Compute Route API
+  slug: valgo-compute-route-api
+- description: The Health API from Valgo — 1 operation(s) for health.
+  name: Valgo Health API
+  slug: valgo-health-api
+- description: The Manifest API from Valgo — 1 operation(s) for manifest.
+  name: Valgo Manifest API
+  slug: valgo-manifest-api
+- description: The Request Api Key API from Valgo — 1 operation(s) for request api key.
+  name: Valgo Request Api Key API
+  slug: valgo-request-api-key-api
+- description: The v1 API from Valgo — 7 operation(s) for v1.
+  name: Valgo v1 API
+  slug: valgo-v1-api
+artifact_total: 12
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/valgo-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/valgo-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/valgo-well-known.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/valgo-robots.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/valgo-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/valgo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/valgo-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/valgo-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/valgo-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/valgo-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/valgo-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/valgo-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/valgo-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/valgo-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.humanbaselines.com/getting-started/api-access
+- group: start
+  title: ''
+  type: SignUp
+  url: https://docs.humanbaselines.com/getting-started/api-access
+- group: company
+  title: ''
+  type: Website
+  url: https://valgo.ai
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/valgorithmic
+- group: company
+  title: ''
+  type: Blog
+  url: https://valgo.ai/news/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://valgo.ai/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://valgo.ai/privacy/
+created: '2026-07-17'
+description: Valgo is a public benefit corporation building the risk quantification layer for physical AI - the insurance risk layer autonomous systems need. Insurers struggle to price autonomous trucks, robotaxis, and robots because the historical claims data does not exist, so Valgo builds probabilistic models of routes, tasks, and environments from the bottom up and outputs the simulated loss estimates insurers need to price coverage across validation, deployment, and insurance. Founded by Stanford safety-validation researchers and an actuary with over a decade of insurance leadership, Valgo is a Y Combinator W26 company backed by Floodgate and Menlo Ventures, and publishes research including human crash baselines for robotaxis and robotrucks.
+image: https://valgo.ai/media/valgo-social-media.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: valgo-mcp.yml
+  slug: valgo-mcpyml
+modified: '2026-07-21'
+name: Valgo
+nav: Providers
+network: true
+overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Compute API, Compute Batch API, Compute Depot Route API, and 5 more. Tagged areas include Company, Insurance, Risk Management, Autonomous Vehicles, and Robotics.
+
+
+  Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 17 more developer resources.'
+random_paper: 27
+score:
+  band: thin
+  composite: 40.7
+  delta: 2.4
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 43.6
+    developer_ergonomics: 39.1
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 38.3
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Valgo Authentication
+  slug: valgo-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Valgo Domain Security
+  slug: valgo-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: valgo
+tags:
+- Company
+- Insurance
+- Risk Management
+- Autonomous Vehicles
+- Robotics
+- Artificial Intelligence
+- Safety Validation
+- Actuarial
+website: https://valgo.ai
+---

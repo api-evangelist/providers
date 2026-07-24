@@ -1,0 +1,70 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Teneobio was a privately held, clinical-stage biotechnology company developing a new class of biologics, Human Heavy-Chain Antibodies (UniAb), for the treatment of cancer, autoimmunity, and infectious diseases. Its TeneoSeek discovery platform combined genetically engineered animals (UniRat, OmniFlic), next-generation sequencing, bioinformatics, and high-throughput vector assembly. Teneobio was surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist network as an enrichment lead. Amgen acquired Teneobio in October 2021 for $900 million upfront plus up to $1.6 billion in contingent milestone payments; the company no longer operates independently and publishes no live developer surface. This is a life-sciences / therapeutics company with no public API, developer portal, or machine-readable API artifacts.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teneobio.png
+layout: provider
+modified: '2026-07-21'
+name: Teneobio
+nav: Providers
+network: true
+overview: Teneobio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Antibody Therapeutics, and Life Sciences.
+random_paper: 37
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: teneobio
+tags:
+- Company
+- Biotechnology
+- Pharmaceuticals
+- Antibody Therapeutics
+- Life Sciences
+- Drug Discovery
+- Oncology
+---

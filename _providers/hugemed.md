@@ -1,0 +1,101 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hugemed-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://hugemed.net
+- group: operate
+  title: ''
+  type: Support
+  url: https://hugemed.net/ContactUs/index.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hugemed.net/PrivacyPolicy/index.aspx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hugemed.net/LegalNotice/index.html
+created: '2026-07-17'
+description: HugeMed (Shenzhen HugeMed Medical Technical Development Co., Ltd.) is a high-tech medical-device manufacturer founded in 2014 and headquartered in Shenzhen, China, specializing in airway management and endoscopic visualization equipment. Its product portfolio spans video laryngoscopes (blade, flexible, and stylet types for emergency, anesthesia, ICU, and educational use), single-use endoscopes for gynecology, ENT, gastroenterology, pulmonology, and urology, reusable ENT and urology endoscopes, and medical image processors. The company operates production facilities exceeding 60,000 square meters, employs roughly 600 people, and serves more than 10,000 medical institutions across 100+ countries. HugeMed is a hardware-first medical-device maker and does not currently publish a public API, developer portal, SDK, or technical integration surface; this profile was surfaced as a portfolio company of Qiming Venture Partners and enriched with company identity and infrastructure probes.
+image: https://hugemed.net/uploadfiles/2026/01/20260106143634365.png
+layout: provider
+modified: '2026-07-19'
+name: HugeMed
+nav: Providers
+network: true
+overview: 'HugeMed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Endoscopy, and Airway Management.
+
+
+  HugeMed''s developer surface includes support and 4 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 14.6
+  delta: 2.8
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hugemed Domain Security
+  slug: hugemed-domain-security
+  summary_line: TLSv1.2
+slug: hugemed
+tags:
+- Company
+- Medical Devices
+- Healthcare
+- Endoscopy
+- Airway Management
+- Video Laryngoscope
+- Medical Imaging
+- MedTech
+website: https://hugemed.net
+---

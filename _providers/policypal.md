@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://policypal.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/PolicyPal
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/policypal-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/policypal-well-known.yml
+created: '2026-07-17'
+description: PolicyPal is a Singapore-based InsurTech and digital insurance broker founded in 2016 by Val Yap that lets consumers buy, understand, and organize their insurance policies from a mobile app using OCR and rule-based policy digitization. Backed by 500 Global (500 Startups), PayPal Incubation, and Startupbootcamp FinTech, it was the first startup to graduate from the MAS FinTech Regulatory Sandbox and was acquired by Hong Kong's AMTD Digital in 2020. As of 2025 PolicyPal Pte. Ltd. and its entities (including PolicyPal Tech Pte. Ltd., Baoxianbaobao Pte. Ltd. and the ValueChampion brand) are no longer regulated by MAS, and the consumer website is undergoing a revamp. PolicyPal does not currently publish a public developer API, SDK, or documentation surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/policypal.png
+layout: provider
+modified: '2026-07-20'
+name: PolicyPal
+nav: Providers
+network: true
+overview: PolicyPal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, InsurTech, FinTech, Insurance, and Insurance Broker.
+random_paper: 4
+score:
+  band: minimal
+  composite: 8.3
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Policypal Domain Security
+  slug: policypal-domain-security
+  summary_line: TLSv1.3
+slug: policypal
+tags:
+- Company
+- InsurTech
+- FinTech
+- Insurance
+- Insurance Broker
+- Personal Finance
+- Singapore
+website: https://policypal.com
+---

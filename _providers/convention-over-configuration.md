@@ -1,0 +1,31 @@
+---
+access_model:
+  confidence: medium
+  generated: '2026-07-22'
+  label: Freemium
+  method: derived
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+api_count: 5
+artifact_total: 0
+created: '2025-01-01'
+description: Convention over Configuration (CoC) is a software design principle that prefers sensible defaults and standard patterns over explicit, repetitive configuration. Frameworks that adopt CoC reduce the number of decisions a developer must make to start a new project while still allowing overrides for non-standard cases. CoC was popularized by Ruby on Rails but predates Rails, drawing on UI principles like the principle of least astonishment and conventions in JavaBeans, Maven, and other Java ecosystems. The principle continues to shape modern frameworks such as Spring Boot, Next.js, Astro, Phoenix, Ember, Hugo, and Remix.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/convention-over-configuration.png
+layout: provider
+modified: '2026-04-28'
+name: Convention Over Configuration
+nav: Providers
+network: true
+random_paper: 16
+slug: convention-over-configuration
+tags:
+- Conventions
+- Design Principle
+- Frameworks
+- Software Design
+---

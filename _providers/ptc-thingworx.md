@@ -1,0 +1,218 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Ptc Thingworx Agentic Access
+  operation_count: 11
+  slug: ptc-thingworx-agentic-access
+  summary_line: 11 operations · 2 acting
+api_count: 8
+apis:
+- description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets, supporting real-time telemetry streaming, command and control, and devi
+  name: PTC ThingWorx WebSocket/AlwaysOn API
+  slug: thingworx-websocket-api
+- description: PTC Windchill REST API provides product lifecycle management and PDM access for CAD data management, bill of materials, change management, workflow automation, and product lifecycle workflows in manuf
+  name: PTC Windchill REST API
+  slug: windchill-rest-api
+- description: Data shape definitions
+  name: ptc-thingworx DataShapes API
+  slug: ptc-thingworx-datashapes-api
+- description: Event management and subscription
+  name: ptc-thingworx Events API
+  slug: ptc-thingworx-events-api
+- description: Thing property read/write
+  name: ptc-thingworx Properties API
+  slug: ptc-thingworx-properties-api
+- description: Thing (digital twin) management
+  name: ptc-thingworx Things API
+  slug: ptc-thingworx-things-api
+- description: Thing template management
+  name: ptc-thingworx ThingTemplates API
+  slug: ptc-thingworx-thingtemplates-api
+- description: Time-series property streams
+  name: ptc-thingworx ValueStreams API
+  slug: ptc-thingworx-valuestreams-api
+artifact_total: 21
+asyncapis:
+- description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets. Supports real-time telemetry streaming, command and control, event noti
+  name: PTC ThingWorx AlwaysOn WebSocket API
+  slug: ptc-thingworx-websocket-asyncapi
+collections:
+- collection_type: open
+  name: PTC ThingWorx REST API
+  slug: open-ptc-thingworx-rest
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ptc-thingworx-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ptc-thingworx-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ptc-thingworx-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ptc-thingworx-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ptc-thingworx
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.ptc.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ptc.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ptc.com/en/technologies/iiot/thingworx-platform
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ptc.com/en/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ptc-iot-sharing
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/ptc-thingworx-rest-openapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/ptc-thingworx-websocket-asyncapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/ptc-thingworx-thing-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/ptc-thingworx-context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ptc.com/en/blogs
+description: PTC ThingWorx is an industrial Internet of Things platform that enables companies to rapidly develop and deploy smart, connected solutions for industrial environments.
+finops:
+- name: Ptc Thingworx Finops
+  service_category: Industrial IoT Platform
+  slug: ptc-thingworx-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ptc-thingworx.png
+json_schemas:
+- name: PTC ThingWorx Thing
+  property_count: 10
+  slug: ptc-thingworx-thing
+jsonld:
+- class_count: 0
+  name: Ptc Thingworx Context
+  property_count: 27
+  slug: ptc-thingworx-context
+layout: provider
+modified: '2026-05-19'
+name: ptc-thingworx
+nav: Providers
+network: true
+overview: 'ptc-thingworx publishes 7 APIs on the [APIs.io](https://apis.io/) network, including PTC ThingWorx WebSocket/AlwaysOn API, DataShapes API, Events API, and 4 more.
+
+
+  The ptc-thingworx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+
+
+  ptc-thingworx''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
+plans:
+- name: Ptc Thingworx Plans Pricing
+  plan_count: 1
+  slug: ptc-thingworx-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 1
+  name: Ptc Thingworx Rate Limits
+  slug: ptc-thingworx-rate-limits
+rules:
+- name: ptc-thingworx API Rules
+  rule_count: 7
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 5
+  slug: ptc-thingworx-asyncapi-spectral-rules
+- name: ptc-thingworx API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: ptc-thingworx-jsonschema-spectral-rules
+scopes:
+- name: Ptc Thingworx Scopes
+  scope_count: 1
+  slug: ptc-thingworx-scopes
+  summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 47.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 73.5
+    developer_ergonomics: 30.4
+    discoverability: 42.5
+    governance: 60.5
+    operational_transparency: 26.3
+  previous_composite: 47.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Ptc Thingworx Authentication
+  slug: ptc-thingworx-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
+- kind: domain-security
+  name: Ptc Thingworx Domain Security
+  slug: ptc-thingworx-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: ptc-thingworx
+website: https://www.ptc.com/en/technologies/iiot/thingworx-platform
+---

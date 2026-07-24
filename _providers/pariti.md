@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pariti.io
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.pariti.io/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.pariti.io/terms-and-conditions
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pariti-domain-security.yml
+created: '2026-07-17'
+description: Pariti is an AI-powered talent acquisition platform that helps companies source, vet, and hire candidates through a community-driven referral network of thousands of leaders, technologists, and recruiters. It pairs recruiter-trained AI/ML candidate screening with salary benchmarking (Salary Insights) and a Talent Engine that aims to move roles from open to offer in about four weeks. Pariti is a portfolio company of 500 Global. No public developer API, OpenAPI specification, MCP server, or developer documentation surface was found during enrichment; this profile captures the company's public web presence and security posture as a lead awaiting a real API surface.
+image: https://cdn.prod.website-files.com/64e4978db8655cc8c24750d8/64f6dd1c54e53ad531bb8f11_Open%20Graph%20Image.png
+layout: provider
+modified: '2026-07-20'
+name: Pariti
+nav: Providers
+network: true
+overview: Pariti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Talent Acquisition, Hiring, and Recruiting.
+random_paper: 37
+score:
+  band: minimal
+  composite: 11.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Pariti Domain Security
+  slug: pariti-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: pariti
+tags:
+- Company
+- Recruitment
+- Talent Acquisition
+- Hiring
+- Recruiting
+- Artificial Intelligence
+- Human Resources
+website: https://pariti.io
+---

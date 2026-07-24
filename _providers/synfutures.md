@@ -1,0 +1,208 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 72.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 22
+  human_in_the_loop: 1
+  name: Synfutures Agentic Access
+  operation_count: 43
+  slug: synfutures-agentic-access
+  summary_line: 43 operations · 22 acting · 1 human-in-the-loop
+api_count: 6
+apis:
+- description: Cash (USD) deposits and withdrawals
+  name: SynFutures Cash API
+  slug: synfutures-cash-api
+- description: On-chain market config, symbols, prices, and corporate actions
+  name: SynFutures Market Data API
+  slug: synfutures-market-data-api
+- description: One Click Trading (1CT) delegation lifecycle
+  name: SynFutures One Click API
+  slug: synfutures-one-click-api
+- description: Order list, calldata build, One Click send/cancel, and tx recording
+  name: SynFutures Orders API
+  slug: synfutures-orders-api
+- description: User info, balances, and positions
+  name: SynFutures Portfolio API
+  slug: synfutures-portfolio-api
+- description: Tokenized stock deposits and withdrawals
+  name: SynFutures Stock API
+  slug: synfutures-stock-api
+artifact_total: 11
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/synfutures-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/synfutures-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.synfutures.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.synfutures.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.synfutures.com/rwa-trading-apis/readme
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.synfutures.com/rwa-trading-apis/reference/endpoint-index
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.synfutures.com/rwa-trading-apis/guides/quickstart-first-trade
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SynFutures
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.synfutures.com
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/synfutures-rwa-trading-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/synfutures-authentication.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/synfutures-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/synfutures-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/synfutures-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/synfutures-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/synfutures-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/synfutures-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/synfutures-lifecycle.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/synfutures-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/synfutures-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/synfutures-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: SynFutures is an on-chain derivatives and real-world-asset (RWA) trading protocol that brings crypto perpetuals, tokenized stocks, and ETFs on-chain across Base, Ethereum, and Monad. For developers it exposes a RESTful RWA Trading API (market data, portfolio, order placement, cash and stock operations, and One Click delegated trading) secured with HMAC-SHA256 signed, IP-whitelisted API keys, plus TypeScript SDKs (@synfutures/sdks-perp and oyster-sdk) and on-chain smart contracts for the Oyster (V3) protocol. Backed by Pantera Capital and Polychain.
+image: https://www.synfutures.com/assets/trade_every_asset.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: synfutures-mcp.yml
+  slug: synfutures-mcpyml
+modified: '2026-07-21'
+name: SynFutures
+nav: Providers
+network: true
+overview: 'SynFutures publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cash API, Market Data API, One Click API, and 3 more. Tagged areas include Company, Crypto, DeFi, Trading, and Derivatives.
+
+
+  SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
+random_paper: 6
+rate_limits:
+- limit_count: 0
+  name: Synfutures Rate Limits
+  slug: synfutures-rate-limits
+score:
+  band: thin
+  composite: 40.4
+  delta: -0.6
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 56.6
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 41.0
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Synfutures Authentication
+  slug: synfutures-authentication
+  summary_line: apiKey/hmac · 6 schemes
+- kind: domain-security
+  name: Synfutures Domain Security
+  slug: synfutures-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: synfutures
+tags:
+- Company
+- Crypto
+- DeFi
+- Trading
+- Derivatives
+- Real World Assets
+- Blockchain
+- API
+website: https://www.synfutures.com/
+---

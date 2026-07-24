@@ -1,0 +1,212 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 39.4
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: High-throughput read/stream API over the Injective chain and exchange data, exposed via gRPC, gRPC-web, and REST plus a Chain Stream WebSocket. Provides accounts, auctions, spot and derivative markets
+  name: Injective Indexer API
+  slug: injective-indexer-api
+- description: The Injective Chain LCD/REST + Tendermint RPC surface for querying chain state (bank, staking, governance, exchange, oracle, tokenfactory, peggy, permissions) and broadcasting transactions. Cosmos SDK
+  name: Injective Chain API
+  slug: injective-chain-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Injective Chain Stream Webhooks
+  slug: injective-chain-stream-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/injective-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://injective.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://injective.com/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.injective.network/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.injective.network/swagger/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.injective.network/developers/index
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/InjectiveLabs
+- group: company
+  title: ''
+  type: Blog
+  url: https://injective.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.com/invite/injective
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://injective.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://injective.com/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://injective.instatus.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/injective-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/injective-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/injective-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/injective-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/injective-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/injective-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/injective-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/injective-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/injective-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/injective-error-codes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/injective-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/injective-chain-stream-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/injective-sandbox.yml
+created: '2026-07-17'
+description: Injective is a Layer 1 blockchain purpose-built for Web3 finance, enabling users, institutions, and AI agents to trade, tokenize, and transact on-chain with native financial primitives including an on-chain central-limit order book, derivatives (perpetuals, expiry and pre-launch futures, options), spot markets, real-world-asset tokenization, stablecoins, and near-zero-fee payments with instant finality. Developers integrate through the Injective Chain LCD/REST API, a high-throughput Indexer API (gRPC, gRPC-web, and REST), a Chain Stream WebSocket for real-time market and account events, first-party SDKs in TypeScript, Python, Go, Rust, and CosmWasm, the injectived CLI, an official Model Context Protocol (MCP) server, and a suite of packaged Agent Skills for AI-driven trading and integration.
+image: https://github.com/InjectiveLabs.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: injective-mcp.yml
+  slug: injective-mcpyml
+modified: '2026-07-19'
+name: Injective
+nav: Providers
+network: true
+overview: 'Injective publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, DeFi, and Trading.
+
+
+  The Injective catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Injective''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
+random_paper: 43
+score:
+  band: thin
+  composite: 44.1
+  delta: 1.8
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 22.6
+    developer_ergonomics: 87.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 42.3
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Injective Authentication
+  slug: injective-authentication
+  summary_line: none-public/signature-based-transactions · 4 schemes
+- kind: domain-security
+  name: Injective Domain Security
+  slug: injective-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: injective
+tags:
+- Company
+- Crypto
+- Blockchain
+- DeFi
+- Trading
+- Derivatives
+- Web3
+- Layer 1
+- Cosmos
+- Tokenization
+- Payments
+- AI Agents
+website: https://injective.com/
+---

@@ -1,0 +1,118 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.airgarage.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airgarage.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.airgarage.com/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.airgarage.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.airgarage.com/legal-information#terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.airgarage.com/legal-information#privacy
+- group: company
+  title: ''
+  type: About
+  url: https://www.airgarage.com/about
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.airgarage.com/careers
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/airgarage-domain-security.yml
+created: '2026-07-17'
+description: 'AirGarage is a full-service parking management platform that helps property owners operate their parking lots and garages as revenue-generating real estate assets. The company combines proprietary data, full-service operations, and proactive pricing strategy: license plate recognition and aerial cameras capture real-time occupancy and compliance data, dynamic pricing automatically adjusts rates based on demand, aggregator marketing lists spaces across channels, on-the-ground teams handle real-time enforcement, and a managed driver-support operation processes mobile payments. Property owners get a real-time dashboard with transparency into revenue, occupancy, and market trends, on a revenue-share model with no long-term contracts. AirGarage is a portfolio company of a16z.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airgarage.png
+layout: provider
+modified: '2026-07-17'
+name: AirGarage
+nav: Providers
+network: true
+overview: 'AirGarage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Parking, Parking Management, Real Estate Technology, and PropTech.
+
+
+  AirGarage''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 13
+score:
+  band: emerging
+  composite: 17.2
+  delta: 2.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Airgarage Domain Security
+  slug: airgarage-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: airgarage
+tags:
+- Company
+- Parking
+- Parking Management
+- Real Estate Technology
+- PropTech
+- Mobility
+- Payments
+- Enforcement
+- Dynamic Pricing
+website: https://www.airgarage.com
+---

@@ -1,0 +1,216 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 35.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: HappyCo's gRPC API for property inspections, reports, templates, accounts, users, partner account provisioning, assets, folders, and streaming events.
+  name: HappyCo API (Happy API)
+  slug: happyco-api-happy-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Happyco Events
+  slug: happyco-events
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/happyco-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://happy.co
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.happy.co/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.happy.co/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.happy.co/downloads/overview.pdf
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/happy-co
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.happy.co/hc/en-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.happy.co/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://happy.co/resources
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://happy.co/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://happy.co/demo
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://happy.co/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://happy.co/master-subscription-agreement
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.happy.co/hc/en-us/articles/27219606661780-Release-Updates
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://happyco.statuspage.io/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/happyco-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/happyco-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/happyco-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/happyco-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/happyco-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/happyco-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/happyco-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://happy.co/press/happyco-announces-soc-2-type-ii-security-certification
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/happyco-trust-center.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/happyco-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/happyco-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/happyco-events.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/happyco-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: HappyCo is a PropTech company (founded 2011, San Diego) whose real-time multifamily operations platform powers property inspections, AI-led maintenance, centralized maintenance, and asset performance for nearly 4 million units globally. Its developer-facing Happy API is a high-performance gRPC API (grpc.happyco.com) exposing inspection, report, template, account, account-provisioning (Partner API), asset, and folder services, plus server-streaming event notifications and a flexible MyID/IntegrationID system. Generated client libraries are published for Ruby, Go, and Java, and the platform integrates with major property-management systems (Yardi, RealPage, Entrata, MRI, ResMan, AppFolio, Buildium).
+image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/69a0a5421dfd02fb3bb57b77_OG-Home.avif
+layout: provider
+mcp_servers:
+- description: ''
+  name: happyco-mcp.yml
+  slug: happyco-mcpyml
+modified: '2026-07-19'
+name: HappyCo
+nav: Providers
+network: true
+overview: 'HappyCo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Property Management, and Inspections.
+
+
+  The HappyCo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  HappyCo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
+random_paper: 42
+score:
+  band: developing
+  composite: 45.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 22.6
+    developer_ergonomics: 63.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 45.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Happyco Authentication
+  slug: happyco-authentication
+  summary_line: http-basic · 1 scheme
+- kind: domain-security
+  name: Happyco Domain Security
+  slug: happyco-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Happyco Trust Center
+  slug: happyco-trust-center
+  summary_line: SOC 2 Type II
+slug: happyco
+tags:
+- Company
+- PropTech
+- Real Estate
+- Property Management
+- Inspections
+- Maintenance
+- Multifamily
+- gRPC
+website: https://happy.co
+---

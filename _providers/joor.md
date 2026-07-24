@@ -1,0 +1,135 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 13.5
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: JOOR's production identity service, a Keycloak realm exposing standard OpenID Connect / OAuth 2.0 endpoints (authorize, token, userinfo, introspection, JWKS) used to authenticate access to the JOOR pl
+  name: JOOR Identity (OpenID Connect)
+  slug: joor-identity-openid-connect
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/joor-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jooraccess.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/joor
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.joor.com
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/joor-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/joor-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/joor-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/joor-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/joor-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/joor-llms.txt
+created: '2026-07-17'
+description: JOOR is a New York-based SaaS company (founded 2010) operating a leading B2B wholesale fashion commerce platform and digital marketplace that connects fashion brands with retailers to run their wholesale business end to end. The platform digitizes wholesale buying with online linesheets, lookbooks, virtual showrooms, order management, and the JOOR Marketplace, alongside products such as JOOR Pay (wholesale payments), JOOR Passport (virtual trade shows), and Retail data/analytics. JOOR connects thousands of brands with hundreds of thousands of retail doors globally. Its production platform is fronted by a Kong API gateway and secured with Keycloak-based OpenID Connect authentication; API access is partner/integration-oriented rather than a self-serve public developer program. This profile was enriched from JOOR's live public surface (OIDC discovery, GitHub organization, and status page).
+image: https://www.jooraccess.com/favicon.ico
+layout: provider
+modified: '2026-07-19'
+name: Joor
+nav: Providers
+network: true
+overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Wholesale, Retail, and eCommerce.
+
+
+  Joor''s developer surface includes authentication and 9 more developer resources.'
+random_paper: 34
+scopes:
+- name: Joor Scopes
+  scope_count: 9
+  slug: joor-scopes
+  summary_line: 9 scopes · authorizationCode/clientCredentials
+score:
+  band: emerging
+  composite: 20.9
+  delta: 6.7
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 14.2
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Joor Authentication
+  slug: joor-authentication
+  summary_line: openIdConnect/oauth2 · 1 scheme
+- kind: domain-security
+  name: Joor Domain Security
+  slug: joor-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: joor
+tags:
+- Company
+- Fashion
+- Wholesale
+- Retail
+- eCommerce
+- B2B
+- Marketplace
+- Payments
+website: https://www.jooraccess.com
+---

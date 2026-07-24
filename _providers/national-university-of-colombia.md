@@ -1,0 +1,198 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: National University Of Colombia Agentic Access
+  operation_count: 7
+  slug: national-university-of-colombia-agentic-access
+  summary_line: 7 operations
+api_count: 4
+apis:
+- description: Datos Abiertos Universidad Nacional de Colombia is the institution's open data portal publishing primary, interoperable datasets for public reuse. The portal resolves publicly but does not advertise a
+  name: UNAL Open Data Portal
+  slug: open-data
+- description: OAI-PMH 2.0 metadata harvesting interface.
+  name: National University of Colombia OAI-PMH API
+  slug: national-university-of-colombia-oai-pmh-api
+- description: DSpace HAL+JSON read endpoints for repository structure.
+  name: National University of Colombia REST - Core API
+  slug: national-university-of-colombia-rest-core-api
+- description: Faceted search across archived objects.
+  name: National University of Colombia REST - Discover API
+  slug: national-university-of-colombia-rest-discover-api
+artifact_total: 19
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/national-university-of-colombia-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/national-university-of-colombia-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://unal.edu.co/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/unal
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/universidad-nacional-de-colombia/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/national-university-of-colombia-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-university-of-colombia-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/national-university-of-colombia-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-03'
+description: 'The National University of Colombia (Universidad Nacional de Colombia, UNAL) is the country''s largest public research university, ranked #219 in the QS World University Rankings 2025. UNAL maintains an open-data portal and a DSpace-based institutional repository, but does not publish a formal, documented public developer portal or REST API program. The most accessible programmatic surface is the OAI-PMH interface exposed by its institutional repository, alongside an open-data portal and an official GitHub organization with limited public code.'
+examples:
+- key_count: 2
+  name: National University Of Colombia Listcollections Example
+  slug: national-university-of-colombia-listCollections-example
+- key_count: 2
+  name: National University Of Colombia Listcommunities Example
+  slug: national-university-of-colombia-listCommunities-example
+- key_count: 3
+  name: National University Of Colombia Oairecord Example
+  slug: national-university-of-colombia-oaiRecord-example
+finops:
+- name: National University Of Colombia Finops
+  service_category: Education
+  slug: national-university-of-colombia-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-university-of-colombia.png
+json_schemas:
+- name: DSpace Collection
+  property_count: 8
+  slug: national-university-of-colombia-collection
+- name: DSpace Community
+  property_count: 8
+  slug: national-university-of-colombia-community
+json_structures:
+- name: National University Of Colombia Collection Structure
+  property_count: 6
+  slug: national-university-of-colombia-collection-structure
+- name: National University Of Colombia Community Structure
+  property_count: 6
+  slug: national-university-of-colombia-community-structure
+jsonld:
+- class_count: 18
+  name: National University Of Colombia Context
+  property_count: 3
+  slug: national-university-of-colombia-context
+layout: provider
+modified: '2026-06-03'
+name: National University of Colombia
+nav: Providers
+network: true
+overview: 'National University of Colombia publishes 3 APIs on the [APIs.io](https://apis.io/) network: OAI-PMH API, REST - Core API, and REST - Discover API. Tagged areas include Education, Higher Education, University, Colombia, and Open Data.
+
+
+  The National University of Colombia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  National University of Colombia''s developer surface includes GitHub presence and 8 more developer resources.'
+plans:
+- name: National University Of Colombia Plans Pricing
+  plan_count: 2
+  slug: national-university-of-colombia-plans-pricing
+random_paper: 0
+rate_limits:
+- limit_count: 1
+  name: National University Of Colombia Rate Limits
+  slug: national-university-of-colombia-rate-limits
+rules:
+- name: National University of Colombia API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: national-university-of-colombia-jsonschema-spectral-rules
+- name: National University of Colombia API Rules
+  rule_count: 5
+  severity_counts:
+    error: 1
+    hint: 1
+    info: 0
+    warn: 3
+  slug: national-university-of-colombia-rules
+score:
+  band: thin
+  composite: 40.2
+  delta: -2.9
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 65.2
+    developer_ergonomics: 0.0
+    discoverability: 87.5
+    governance: 73.7
+    operational_transparency: 26.3
+  previous_composite: 43.1
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: National University Of Colombia Domain Security
+  slug: national-university-of-colombia-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: national-university-of-colombia
+tags:
+- Education
+- Higher Education
+- University
+- Colombia
+- Open Data
+- Institutional Repository
+- OAI-PMH
+website: https://unal.edu.co/
+---

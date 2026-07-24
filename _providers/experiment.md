@@ -1,0 +1,98 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://experiment.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://experiment.com/labnotes
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://experiment.com/guide
+- group: start
+  title: ''
+  type: SignUp
+  url: https://experiment.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://experiment.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://experiment.com/faq
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://experiment.com/privacy
+created: '2026-07-17'
+description: Experiment is an online crowdfunding platform for scientific research that connects scientists directly with backers who fund individual studies. Researchers across biology, chemistry, medicine, physics, computer science, paleontology, economics, engineering, and neuroscience post projects with goals and budgets; the public pledges funds, follows lab notes, and shares in the discoveries. Experiment (formerly Microryza) also supports university institutions and dedicated funding programs, and publishes results and updates back to funders. It was surfaced as a portfolio company of a16z, slow-ventures, and y-combinator and added to the API Evangelist network; enrichment found a live consumer website but no public developer API, docs, or well-known surface.
+image: https://d1sg0ksu7mr16v.cloudfront.net/admin_uploads/fb-200-c.png
+layout: provider
+modified: '2026-07-19'
+name: Experiment
+nav: Providers
+network: true
+overview: 'Experiment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Science, Research, and Science Funding.
+
+
+  Experiment''s developer surface includes engineering blog, getting-started guide, signup flow, support, and 3 more developer resources.'
+random_paper: 18
+score:
+  band: emerging
+  composite: 15.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: experiment
+tags:
+- Company
+- Crowdfunding
+- Science
+- Research
+- Science Funding
+- Research Funding
+- Academic Research
+website: https://experiment.com
+---

@@ -1,0 +1,115 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ideal-invest-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pravaler.com.br/
+- group: company
+  title: ''
+  type: About
+  url: https://www.pravaler.com.br/sobre-o-pravaler/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.pravaler.com.br/financiamento-estudantil/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pravaler.com.br/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.pravaler.com.br/ajuda/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.pravaler.com.br/ajuda/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cadastro.pravaler.com.br/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.pravaler.com.br/politica-de-privacidade/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ideal-invest-llms.txt
+created: '2026-07-17'
+description: Ideal Invest (operating as Pravaler) is a Brazilian fintech founded in 2002 and headquartered in Sao Paulo that provides private student financing for higher education. Through its Pravaler platform, students can split tuition payments across roughly twice the duration of a course, with a 100% digital, low-bureaucracy application, competitive monthly interest rates, and no ENEM requirement. Pravaler works with a network of 500+ partner higher-education institutions and has financed more than 400,000 students, channeling over R$12 billion into Brazilian education. The company is backed by Ribbit Capital. As of this enrichment pass Pravaler exposes a consumer web platform (simulation, application, digital signature) but publishes no public developer API, OpenAPI, SDK, or partner integration surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ideal-invest.png
+layout: provider
+modified: '2026-07-19'
+name: Ideal Invest
+nav: Providers
+network: true
+overview: 'Ideal Invest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Student Financing, Lending, and Education.
+
+
+  Ideal Invest''s developer surface includes getting-started guide, engineering blog, support, signup flow, and 6 more developer resources.'
+random_paper: 48
+score:
+  band: emerging
+  composite: 15.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Ideal Invest Domain Security
+  slug: ideal-invest-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ideal-invest
+tags:
+- Company
+- Fintech
+- Student Financing
+- Lending
+- Education
+- Brazil
+- Consumer Finance
+website: https://www.pravaler.com.br/
+---

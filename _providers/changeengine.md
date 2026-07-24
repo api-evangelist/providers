@@ -1,0 +1,132 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/changeengine-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.changeengine.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/changeengine-llms.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.changeengine.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.changeengine.com/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/changeengine-conformance.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.changeengine.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.changeengine.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.changeengine.com/privacy-statement
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.changeengine.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.changeengine.com/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://app.changeengine.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.changeengine.com/demo
+created: '2026-07-17'
+description: ChangeEngine is an AI-enabled internal communications and employee engagement platform for HR, People, and Internal Comms teams. Founded in 2020 and headquartered in the United States, it combines marketing technology with people operations to automate, personalize, and measure internal messages across email, Slack, Microsoft Teams, SMS, and digital signage. Core products include a Workforce Communication Orchestrator, Employee Journey Builder, AI Content Creation Studio, Rewards & Recognition Automation, a Two-Way SMS Text Agent, Surveys & Listening Intelligence, and Engagement Analytics. ChangeEngine integrates with 50+ HRIS systems (Workday, BambooHR, UKG), Active Directory/Okta, and Microsoft 365/Google Workspace to enrich messaging with real-time employee data. It publishes an llms.txt and a Security & Trust Center, and is SOC 2 certified and GDPR compliant, but exposes no public first-party developer API.
+image: https://www.changeengine.com/logo.svg
+layout: provider
+modified: '2026-07-18'
+name: ChangeEngine
+nav: Providers
+network: true
+overview: 'ChangeEngine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, HR Tech, Internal Communications, and Employee Engagement.
+
+
+  ChangeEngine''s developer surface includes pricing, engineering blog, support, signup flow, and 9 more developer resources.'
+random_paper: 20
+score:
+  band: emerging
+  composite: 20.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 20.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Changeengine Domain Security
+  slug: changeengine-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Changeengine Trust Center
+  slug: changeengine-trust-center
+  summary_line: SOC 2, GDPR
+slug: changeengine
+tags:
+- Company
+- Saas
+- HR Tech
+- Internal Communications
+- Employee Engagement
+- People Operations
+- Employee Experience
+- AI
+website: https://www.changeengine.com/
+---

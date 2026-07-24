@@ -1,0 +1,197 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Maxmind Agentic Access
+  operation_count: 6
+  slug: maxmind-agentic-access
+  summary_line: 6 operations · 3 acting
+api_count: 6
+apis:
+- description: City-level IP geolocation lookup with postal, subdivisions, and coordinates
+  name: MaxMind GeoIP City API
+  slug: maxmind-geoip-city-api
+- description: Country-level IP geolocation lookup
+  name: MaxMind GeoIP Country API
+  slug: maxmind-geoip-country-api
+- description: Most comprehensive IP data lookup including anonymizer/VPN/proxy detection, user type, static IP score, and connection details
+  name: MaxMind GeoIP Insights API
+  slug: maxmind-geoip-insights-api
+- description: Most detailed fraud scoring with component-level risk factor decomposition
+  name: MaxMind minFraud Factors API
+  slug: maxmind-minfraud-factors-api
+- description: Extended fraud scoring with over 80 data points on IPs, emails, devices, and payment cards
+  name: MaxMind minFraud Insights API
+  slug: maxmind-minfraud-insights-api
+- description: Basic fraud scoring returning a single risk score (0-99) and IP risk score
+  name: MaxMind minFraud Score API
+  slug: maxmind-minfraud-score-api
+artifact_total: 13
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/maxmind-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/maxmind-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/maxmind-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.maxmind.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dev.maxmind.com/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/maxmind
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/maxmind
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.maxmind.com/
+- group: company
+  title: ''
+  type: BlogFeed
+  url: https://blog.maxmind.com/feed.xml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.maxmind.com/en/solutions/fraud-prevention/plans-pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.maxmind.com/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/maxmind
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/maxmind-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/maxmind-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/maxmind-finops.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/maxmind-context.jsonld
+- group: company
+  title: ''
+  type: BlogPosts
+  url: blogs/blogs.json
+created: '2026-06-12'
+description: MaxMind is an IP intelligence and fraud prevention company founded in 2002, serving over 100,000 businesses worldwide. Their GeoIP web services provide accurate IP geolocation data including country, city, ISP, organization, ASN, connection type, and VPN/proxy detection. Their minFraud services offer real-time transaction risk scoring using over 80 data points on IPs, email addresses, devices, and payment cards to help businesses detect and prevent fraud. MaxMind also offers downloadable GeoIP databases and the free GeoLite2 dataset for developers who prefer local lookups over API calls.
+finops:
+- name: Maxmind Finops
+  service_category: ''
+  slug: maxmind-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maxmind.png
+jsonld:
+- class_count: 0
+  name: Maxmind Context
+  property_count: 48
+  slug: maxmind-context
+layout: provider
+modified: '2026-06-12'
+name: MaxMind
+nav: Providers
+network: true
+overview: 'MaxMind publishes 6 APIs on the [APIs.io](https://apis.io/) network, including GeoIP City API, GeoIP Country API, GeoIP Insights API, and 3 more. Tagged areas include IP Intelligence, Geolocation, Fraud Prevention, Risk Scoring, and VPN Detection.
+
+
+  The MaxMind catalog on APIs.io includes 1 JSON-LD context.
+
+
+  MaxMind''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+plans:
+- name: Maxmind Plans Pricing
+  plan_count: 10
+  slug: maxmind-plans-pricing
+random_paper: 36
+rate_limits:
+- limit_count: 0
+  name: Maxmind Rate Limits
+  slug: maxmind-rate-limits
+score:
+  band: thin
+  composite: 44.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 69.0
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 44.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/screenshots/maxmind-2026-06-20T185052.png
+security:
+- kind: authentication
+  name: Maxmind Authentication
+  slug: maxmind-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Maxmind Domain Security
+  slug: maxmind-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: maxmind
+tags:
+- IP Intelligence
+- Geolocation
+- Fraud Prevention
+- Risk Scoring
+- VPN Detection
+- Proxy Detection
+- ISP Data
+- GeoIP
+website: https://www.maxmind.com/
+---

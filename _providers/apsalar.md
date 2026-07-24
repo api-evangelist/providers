@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apsalar.com
+created: '2026-07-17'
+description: Apsalar was a mobile marketing analytics and attribution company (founded 2010, headquartered in San Francisco, backed by Battery Ventures and 500 Startups/500 Global) that provided a mobile measurement platform (MMP) for app install attribution, campaign analytics, and marketing data unification. In 2017 Apsalar merged into Singular (singular.net); the Apsalar brand and its developer/API surface were retired as part of that acquisition. The apsalar.com apex domain no longer resolves to a live site and www.apsalar.com now redirects to Singular, so there is no active first-party API, OpenAPI, or developer portal to enrich. This profile is retained as an acquired-company lead pointing to its successor, Singular.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apsalar.png
+layout: provider
+modified: '2026-07-18'
+name: Apsalar
+nav: Providers
+network: true
+overview: Apsalar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Mobile, Attribution, and Marketing.
+random_paper: 26
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: apsalar
+tags:
+- Company
+- Analytics
+- Mobile
+- Attribution
+- Marketing
+- Mobile Measurement
+- Acquired
+website: https://apsalar.com
+---

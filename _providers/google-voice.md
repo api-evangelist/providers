@@ -1,0 +1,188 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Google Voice Agentic Access
+  operation_count: 3
+  slug: google-voice-agentic-access
+  summary_line: 3 operations
+api_count: 2
+apis:
+- description: Manage Google Voice locations
+  name: Google Voice Locations API
+  slug: google-voice-locations-api
+- description: Manage Google Voice user assignments
+  name: Google Voice Users API
+  slug: google-voice-users-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Google Voice API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-voice-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-voice-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-voice-domain-security.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://workspace.google.com/products/voice/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.google.com/voice/answer/115061
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/workspace/products/voice
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developers.google.com/workspace/guides/auth-overview
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://workspace.google.com/products/voice/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.google.com/voice
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/json-ld/google-voice.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://workspaceupdates.googleblog.com/feeds/posts/default?alt=rss
+created: '2026-03-13'
+description: Google Voice is a telecommunications service by Google that provides call forwarding, voicemail, text messaging, and voice calling for personal and Google Workspace business accounts. While Google Voice does not offer an official standalone REST API, voice services can be managed programmatically through the Google Workspace Admin SDK for provisioning users, assigning numbers, and managing locations. Google Voice integrates with Google Workspace for enterprise telephony management.
+finops:
+- name: Google Voice Finops
+  service_category: API
+  slug: google-voice-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-voice.png
+json_schemas:
+- name: Google Voice API Schema
+  property_count: 0
+  slug: google-voice
+jsonld:
+- class_count: 0
+  name: Google Voice Context
+  property_count: 9
+  slug: google-voice
+layout: provider
+modified: '2026-05-19'
+name: Google Voice
+nav: Providers
+network: true
+overview: 'Google Voice publishes 2 APIs on the [APIs.io](https://apis.io/) network: Locations API and Users API. Tagged areas include Google Voice, Messaging, Phone, Telecommunications, and Voice.
+
+
+  The Google Voice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Voice''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 7 more developer resources.'
+plans:
+- name: Google Voice Plans Pricing
+  plan_count: 3
+  slug: google-voice-plans-pricing
+random_paper: 43
+rate_limits:
+- limit_count: 5
+  name: Google Voice Rate Limits
+  slug: google-voice-rate-limits
+rules:
+- name: Google Voice API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: google-voice-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 58.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 54.9
+    developer_ergonomics: 45.7
+    discoverability: 60.0
+    governance: 73.7
+    operational_transparency: 47.4
+  previous_composite: 58.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/screenshots/google-voice-2026-06-20T182246.png
+security:
+- kind: domain-security
+  name: Google Voice Domain Security
+  slug: google-voice-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Voice Vulnerability Disclosure
+  slug: google-voice-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-voice
+tags:
+- Google Voice
+- Messaging
+- Phone
+- Telecommunications
+- Voice
+- Voicemail
+- VoIP
+website: https://workspace.google.com/products/voice/
+---

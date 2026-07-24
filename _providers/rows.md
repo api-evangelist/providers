@@ -1,0 +1,217 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 52.9
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Rows Agentic Access
+  operation_count: 7
+  slug: rows-agentic-access
+  summary_line: 7 operations · 3 acting
+api_count: 5
+apis:
+- description: Read and write table cell and value ranges.
+  name: Rows Data API
+  slug: rows-data-api
+- description: Discover folders that organize spreadsheets.
+  name: Rows Folders API
+  slug: rows-folders-api
+- description: List and read spreadsheets and their tables.
+  name: Rows Spreadsheets API
+  slug: rows-spreadsheets-api
+- description: Extract structured data from files using Rows AI Vision.
+  name: Rows Vision API
+  slug: rows-vision-api
+- description: Discover the workspaces available to the authenticated key.
+  name: Rows Workspaces API
+  slug: rows-workspaces-api
+artifact_total: 10
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rows.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.rows.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://rows.com/docs/using-rows-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.rows.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://rows.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://rows.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://rows.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://rows.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rows
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://rows.com/docs/whats-new-changelog
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/rows-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/rows-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/rows-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/rows-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/rows-security.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/rows-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/rows-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/rows-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rows-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://rows.com/docs/how-do-you-manage-security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/rows-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/rows-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://rows.com/docs/how-do-you-manage-security
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/rows-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/rows-agentic-access.yml
+created: '2026-07-17'
+description: 'Rows is an AI-powered spreadsheet that connects to live data from dozens of business tools and lets teams build reports, dashboards and lightweight data apps without leaving a familiar grid. Beyond the app, Rows ships a public REST API (base https://api.rows.com/v1) authenticated with a Bearer API key: it exposes workspaces, folders and spreadsheets for discovery, table cell and value read-write operations for moving data in and out of a sheet, and a Vision endpoint that uses AI to extract structured tabular data from image and document files. API access is included on every plan with monthly call quotas scaling from the Free tier (500 calls/month) to Enterprise. Rows is SOC 2 Type II certified and GDPR compliant with European data residency, and joined Superhuman in 2025. It was backed by Accel.'
+image: https://rows.com/favicon.ico
+layout: provider
+modified: '2026-07-21'
+name: Rows
+nav: Providers
+network: true
+overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Data API, Folders API, Spreadsheets API, and 2 more. Tagged areas include Company, Productivity, Spreadsheets, Data, and No-Code.
+
+
+  Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
+random_paper: 0
+score:
+  band: developing
+  composite: 48.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 58.4
+    developer_ergonomics: 50.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 48.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Rows Authentication
+  slug: rows-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Rows Domain Security
+  slug: rows-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Rows Vulnerability Disclosure
+  slug: rows-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Rows Trust Center
+  slug: rows-trust-center
+  summary_line: SOC 2 Type II, GDPR
+slug: rows
+tags:
+- Company
+- Productivity
+- Spreadsheets
+- Data
+- No-Code
+- Automation
+- Artificial Intelligence
+- Analytics
+- Business Intelligence
+website: https://www.rows.com
+---

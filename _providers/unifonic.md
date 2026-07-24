@@ -1,0 +1,252 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 60.6
+  scored_at: '2026-07-23'
+api_count: 8
+apis:
+- description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
+  name: Unifonic Conversations (WhatsApp) API
+  slug: unifonic-conversations-whatsapp-api
+- description: The Call Management and Status API from Unifonic — 2 operation(s) for call management and status.
+  name: Unifonic Call Management and Status API
+  slug: unifonic-call-management-and-status-api
+- description: The Call Queue Management API from Unifonic — 2 operation(s) for call queue management.
+  name: Unifonic Call Queue Management API
+  slug: unifonic-call-queue-management-api
+- description: The Number Masking API from Unifonic — 3 operation(s) for number masking.
+  name: Unifonic Number Masking API
+  slug: unifonic-number-masking-api
+- description: The Rest API from Unifonic — 3 operation(s) for rest.
+  name: Unifonic Rest API
+  slug: unifonic-rest-api
+- description: The Verifications API from Unifonic — 2 operation(s) for verifications.
+  name: Unifonic Verifications API
+  slug: unifonic-verifications-api
+- description: The Webhooks API from Unifonic — 1 operation(s) for webhooks.
+  name: Unifonic Webhooks API
+  slug: unifonic-webhooks-api
+- description: The Wrapper API from Unifonic — 2 operation(s) for wrapper.
+  name: Unifonic Wrapper API
+  slug: unifonic-wrapper-api
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Unifonic Webhooks
+  slug: unifonic-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/unifonic-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.unifonic.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.unifonic.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.unifonic.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.unifonic.com/articles/api-documentation/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.unifonic.com/articles/api-documentation/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.unifonic.com/support/home
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unifonic.com/en/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.unifonic.com/en/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://cloud.unifonic.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unifonic.com/en/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unifonic.com/en/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.unifonic.com/
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.unifonic.com/articles/release-notes-publication/2026-release-notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/unifonic-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unifonic-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/unifonic-problem-types.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/unifonic-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/unifonic-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unifonic-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unifonic-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/unifonic-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/unifonic-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/unifonic-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/unifonic-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/unifonic-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unifonic-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unifonic-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/unifonic-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/unifonic-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.unifonic.com/en/legal/trust-centre
+created: '2026-07-17'
+description: Unifonic is a Saudi Arabia-based customer engagement and CPaaS platform, backed by SoftBank Vision Fund, that powers SMS, WhatsApp, voice, push notification, and OTP-verification communication for enterprises across the Middle East and beyond. Its developer surface spans an SMS (NextGen) REST API, an Authenticate API for multi-channel OTP verification, Voice APIs for calls, IVR, and number masking, and a WhatsApp Conversations API with template, session, and management endpoints, alongside webhooks for delivery status and channel events, mobile push SDKs, a web event-tracking SDK, chatbot and Flow Studio automation products, and a WhatsApp sandbox for testing.
+image: https://www.unifonic.com/hubfs/UNI_Logo_RGB-01.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: Unifonic MCP manifest (community server + candidate tools)
+  slug: unifonic-mcp-manifest-community-server-candidate-tools
+modified: '2026-07-21'
+name: Unifonic
+nav: Providers
+network: true
+overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Call Management and Status API, Call Queue Management API, Number Masking API, and 4 more. Tagged areas include Company, Enterprise, CPaaS, Messaging, and SMS.
+
+
+  The Unifonic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 25 more developer resources.'
+random_paper: 43
+score:
+  band: strong
+  composite: 60.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 70.5
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 39.5
+  previous_composite: 60.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Unifonic Authentication
+  slug: unifonic-authentication
+  summary_line: http-basic/apiKey · 4 schemes
+- kind: domain-security
+  name: Unifonic Domain Security
+  slug: unifonic-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Unifonic Trust Center
+  slug: unifonic-trust-center
+  summary_line: ISO 27001, ISO 42001, ISO 27017, ISO 27018, CSA STAR Level 2, SOC 2 Type I, SOC 2 Type II
+slug: unifonic
+tags:
+- Company
+- Enterprise
+- CPaaS
+- Messaging
+- SMS
+- WhatsApp
+- Voice
+- Push Notifications
+- OTP
+- Customer Engagement
+- Saudi Arabia
+website: https://www.unifonic.com/
+---

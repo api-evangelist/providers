@@ -1,0 +1,110 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gravel-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gravelai.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://gravelai.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://gravelai.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.gravelai.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://gravelai.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://gravelai.com/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gravel-ai-llms.txt
+created: '2026-07-17'
+description: Gravel AI is a beauty and personal care market intelligence platform that turns alternative data into early trend, ingredient, brand, and product signals for the global cosmetics industry. It offers a suite of analysis tools — application and ingredient trends, brand and market deep dives, consumer review analysis, new brand and product launch monitoring, ingredient supplier and OEM mapping, and product analyzers — alongside curated datasets, market reports, and an enterprise data/API service that delivers licensed beauty data into customer pipelines (API, Snowflake, S3). Backed by Techstars, Gravel AI serves beauty brands, ingredient and contract manufacturers, and enterprise insights, R&D, procurement, and data teams. Its flagship Gravel Early Trends product positions against incumbents such as Euromonitor, Mintel, NielsenIQ, Circana, WGSN, and Spate.
+image: https://gravelai.com/gravel-icon.png
+layout: provider
+modified: '2026-07-19'
+name: Gravel AI
+nav: Providers
+network: true
+overview: 'Gravel AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Personal Care, Cosmetics, and Market Intelligence.
+
+
+  Gravel AI''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gravel Ai Domain Security
+  slug: gravel-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: gravel-ai
+tags:
+- Company
+- Beauty
+- Personal Care
+- Cosmetics
+- Market Intelligence
+- Trend Forecasting
+- Consumer Insights
+- Ingredients
+- Data
+- Analytics
+website: https://gravelai.com/
+---

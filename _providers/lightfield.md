@@ -1,0 +1,311 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 90.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 21
+  human_in_the_loop: 0
+  name: Lightfield Agentic Access
+  operation_count: 55
+  slug: lightfield-agentic-access
+  summary_line: 55 operations · 21 acting
+api_count: 13
+apis:
+- description: The Accounts API from Lightfield — 3 operation(s) for accounts.
+  name: Lightfield Accounts API
+  slug: lightfield-accounts-api
+- description: The Auth API from Lightfield — 1 operation(s) for auth.
+  name: Lightfield Auth API
+  slug: lightfield-auth-api
+- description: The Contacts API from Lightfield — 3 operation(s) for contacts.
+  name: Lightfield Contacts API
+  slug: lightfield-contacts-api
+- description: The Emails API from Lightfield — 4 operation(s) for emails.
+  name: Lightfield Emails API
+  slug: lightfield-emails-api
+- description: The Files API from Lightfield — 5 operation(s) for files.
+  name: Lightfield Files API
+  slug: lightfield-files-api
+- description: The Lists API from Lightfield — 5 operation(s) for lists.
+  name: Lightfield Lists API
+  slug: lightfield-lists-api
+- description: The Meetings API from Lightfield — 2 operation(s) for meetings.
+  name: Lightfield Meetings API
+  slug: lightfield-meetings-api
+- description: The Members API from Lightfield — 2 operation(s) for members.
+  name: Lightfield Members API
+  slug: lightfield-members-api
+- description: The Notes API from Lightfield — 2 operation(s) for notes.
+  name: Lightfield Notes API
+  slug: lightfield-notes-api
+- description: The Objects API from Lightfield — 5 operation(s) for objects.
+  name: Lightfield Objects API
+  slug: lightfield-objects-api
+- description: The Opportunities API from Lightfield — 3 operation(s) for opportunities.
+  name: Lightfield Opportunities API
+  slug: lightfield-opportunities-api
+- description: The Tasks API from Lightfield — 3 operation(s) for tasks.
+  name: Lightfield Tasks API
+  slug: lightfield-tasks-api
+- description: The WorkflowRun API from Lightfield — 1 operation(s) for workflowrun.
+  name: Lightfield WorkflowRun API
+  slug: lightfield-workflowrun-api
+artifact_total: 21
+asyncapis:
+- description: ''
+  name: Lightfield Events
+  slug: lightfield-events
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lightfield.app/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.lightfield.app/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.lightfield.app/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.lightfield.app/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.lightfield.app/getting-started/http-quickstart/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.lightfield.app
+- group: company
+  title: ''
+  type: Blog
+  url: https://lightfield.app/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Lightfld
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://lightfield.app/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://crm.lightfield.app/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://crm.lightfield.app/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://lightfield.app/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://lightfield.app/privacy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lightfield-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/lightfield-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/lightfield-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lightfield-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lightfield-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/lightfield-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/lightfield-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/lightfield-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/lightfield-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/lightfield-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: conventions/lightfield-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/lightfield-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/lightfield-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lightfield-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/lightfield-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.lightfield.app/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/lightfield-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/lightfield-events.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lightfield-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.lightfield.app/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/lightfield-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/lightfield-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://docs.lightfield.app/security/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lightfield-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/lightfield-agentic-access.yml
+created: '2026-07-17'
+description: Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them into a versioned context graph of CRM objects, and lets AI agents reason over that graph to generate pipeline, prepare for meetings, enrich records and drive follow-up. The public Lightfield API (beta) provides read/write access to every CRM entity — accounts, contacts, opportunities, meetings, notes, tasks, lists, emails, files, members, custom objects and workflow runs — across 55 operations, with first-party TypeScript, Python and Go SDKs, a Go CLI, and a hosted Model Context Protocol server at mcp.lightfield.app secured with OAuth 2.1. Workflows and Automations add trigger-driven agent pipelines fed by inbound webhooks, object lifecycle events and schedules. Backed by Greylock
+  and Lightspeed Venture Partners.
+image: https://cdn.sanity.io/images/3ccg9tet/production/ab2fd80ee036fa9627f507d73c4236b5e40a0715-2400x1260.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: lightfield-mcp.yml
+  slug: lightfield-mcpyml
+modified: '2026-07-19'
+name: Lightfield
+nav: Providers
+network: true
+overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Contacts API, and 10 more. Tagged areas include Company, Applications, CRM, Sales, and Artificial Intelligence.
+
+
+  The Lightfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+random_paper: 32
+scopes:
+- name: Lightfield Scopes
+  scope_count: 26
+  slug: lightfield-scopes
+  summary_line: 26 scopes
+score:
+  band: strong
+  composite: 61.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 65.3
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 55.3
+  previous_composite: 61.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Lightfield Authentication
+  slug: lightfield-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Lightfield Domain Security
+  slug: lightfield-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Lightfield Vulnerability Disclosure
+  slug: lightfield-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Lightfield Trust Center
+  slug: lightfield-trust-center
+  summary_line: SOC 2 Type 2, HIPAA
+slug: lightfield
+tags:
+- Company
+- Applications
+- CRM
+- Sales
+- Artificial Intelligence
+- Agents
+- Customer Relationship Management
+- Go To Market
+- Productivity
+- SaaS
+website: https://lightfield.app/
+---

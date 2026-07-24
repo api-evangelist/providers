@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/crowdrise-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://crowdrise.com
+created: '2026-07-17'
+description: CrowdRise was an online fundraising platform for charities, nonprofits, and personal causes, founded around 2010 by Edward Norton and Robert Wolfe. It let individuals, event participants, and organizations create fundraising pages, run peer-to-peer campaigns, and collect donations for good. CrowdRise was acquired by GoFundMe in 2017 and subsequently merged into the GoFundMe platform; the crowdrise.com domain now 301-redirects to gofundme.com/c/crowdrise. This profile originated as a Union Square Ventures portfolio lead; no independent developer portal, documented API, SDKs, or discovery surface remains, so the record is retained for provenance only.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdrise.png
+layout: provider
+modified: '2026-07-18'
+name: CrowdRise
+nav: Providers
+network: true
+overview: CrowdRise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Fundraising, Nonprofit, and Charity.
+random_paper: 9
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Crowdrise Domain Security
+  slug: crowdrise-domain-security
+  summary_line: TLSv1.2 · HSTS
+slug: crowdrise
+tags:
+- Company
+- Crowdfunding
+- Fundraising
+- Nonprofit
+- Charity
+- Donations
+- Payments
+- Acquired
+website: https://crowdrise.com
+---

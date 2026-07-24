@@ -1,0 +1,125 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: PadMapper provides a web-based rental listing search service covering apartments, houses, condos, and rooms for rent across major US and Canadian cities. The platform is powered by Zumper and aggregat
+  name: PadMapper Rental Listings
+  slug: padmapper-rental-listings
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/padmapper-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/plans/plans.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/rate-limits/rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/finops/finops.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.padmapper.com/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.padmapper.com/privacy
+- group: operate
+  title: ''
+  type: ContactEmail
+  url: mailto:hello@padmapper.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/padmapper
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/padmapper/
+created: '2026-06-13'
+description: PadMapper is a location-based apartment and rental search platform that plots rental listings on an interactive map, enabling renters to search, filter, and discover rental properties across the US and Canada. Powered by Zumper, the platform aggregates over one million active listings with real-time filtering by price, bedrooms, bathrooms, amenities, and neighborhood. PadMapper does not offer a formal public API; programmatic access to listing data is not officially supported and is prohibited by its Terms of Service.
+finops:
+- name: Finops
+  service_category: ''
+  slug: finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/padmapper.png
+layout: provider
+modified: '2026-06-13'
+name: PadMapper
+nav: Providers
+network: true
+overview: PadMapper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Rental Listings, Apartment Search, Map-Based Search, and Housing.
+plans:
+- name: Plans
+  plan_count: 3
+  slug: plans
+random_paper: 36
+rate_limits:
+- limit_count: 0
+  name: Rate Limits
+  slug: rate-limits
+score:
+  band: emerging
+  composite: 21.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 21.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/screenshots/padmapper-2026-06-20T191318.png
+security:
+- kind: domain-security
+  name: Padmapper Domain Security
+  slug: padmapper-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: padmapper
+tags:
+- Real Estate
+- Rental Listings
+- Apartment Search
+- Map-Based Search
+- Housing
+- Property Discovery
+- Rental Market Data
+---

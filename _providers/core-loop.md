@@ -1,0 +1,103 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/core-loop-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://coreloop.ai/
+- group: company
+  title: ''
+  type: Website
+  url: https://coreloop.gg/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/core-loop-games
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/coreloopgames
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/core-loop-games
+- group: other
+  title: ''
+  type: Investment
+  url: https://a16z.com/announcement/investing-in-core-loop/
+created: '2026-07-17'
+description: Core Loop is a game studio founded in 2020 by Vincenzo Alagna and Dan Chao, veterans of Machine Zone, GREE, and Funzio, building a modern cross-platform MMO at the intersection of massively multiplayer online games and web3. The studio is developing an AI-directed, dynamic world that evolves based on the actions of the community, with a blockchain-based, player-driven virtual economy in which participants truly own the assets they craft or earn and can potentially make a living in the game long-term. The game targets both PC and mobile. Core Loop raised a Series A led by Andreessen Horowitz, with participation from Galaxy Digital, Block.one, 1Up Ventures, Dune Ventures, and others, and operates as a remote-first team headquartered in Oakland, California. As a game studio, Core Loop does not currently publish a public developer API, SDK, MCP server, or developer portal, so this profile is identity-only.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/core-loop.png
+layout: provider
+modified: '2026-07-18'
+name: Core Loop
+nav: Providers
+network: true
+overview: Core Loop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Game Studio, and MMO.
+random_paper: 45
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Core Loop Domain Security
+  slug: core-loop-domain-security
+  summary_line: TLSv1.3
+slug: core-loop
+tags:
+- Company
+- Games
+- Gaming
+- Game Studio
+- MMO
+- Web3
+- Blockchain
+- NFT
+- Virtual Economy
+- AI
+website: https://coreloop.ai/
+---

@@ -1,0 +1,66 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: 'Freescale Semiconductor, Inc. was an American semiconductor manufacturer headquartered in Austin, Texas, created in 2004 from the spin-off of Motorola''s Semiconductor Products Sector. Freescale designed and produced embedded processing hardware — microcontrollers (Kinetis, S08), i.MX applications processors, ColdFire and QorIQ/PowerPC communications processors, digital signal processors, RF, analog, and sensor products — for the automotive, networking, industrial, and consumer markets. In December 2015 Freescale merged with NXP Semiconductors in a roughly $11.8B deal and ceased to exist as an independent company; its freescale.com domain now redirects to nxp.com. Freescale was a hardware/silicon company, not a web-API provider: it published no public REST/HTTP API, developer portal, or OpenAPI, so there is no live API surface for the enrichment pipeline to harvest.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freescale-semiconductor.png
+layout: provider
+modified: '2026-07-19'
+name: Freescale Semiconductor
+nav: Providers
+network: true
+overview: Freescale Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Embedded, and Microcontrollers.
+random_paper: 44
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: freescale-semiconductor
+tags:
+- Company
+- Semiconductors
+- Hardware
+- Embedded
+- Microcontrollers
+- Processors
+- Automotive
+- Defunct
+---

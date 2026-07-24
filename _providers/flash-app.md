@@ -1,0 +1,211 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 54.8
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: The Integration API from Flash App — 1 operation(s) for integration.
+  name: Flash App Integration API
+  slug: flash-app-integration-api
+- description: The Login API from Flash App — 1 operation(s) for login.
+  name: Flash App Login API
+  slug: flash-app-login-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/flash-app-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://flashapp.com.br/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://flashapp.readme.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://flashapp.readme.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://flashapp.readme.io/reference/getting-started-with-your-api-1
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://flashapp.readme.io/reference/getting-started-with-your-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://faq.flashapp.com.br/kb/pt-BR
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://faq.flashapp.com.br/kb/pt-BR
+- group: company
+  title: ''
+  type: Blog
+  url: https://flashapp.com.br/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/flash-tecnologia
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://flashapp.com.br/planos
+- group: start
+  title: ''
+  type: SignUp
+  url: https://flashapp.com.br/contato
+- group: start
+  title: ''
+  type: Login
+  url: https://app.expenseon.com/admin/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://flashapp.com.br/lgpd
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://flashapp.com.br/etica-compliance-pld
+- group: auth
+  title: ''
+  type: Security
+  url: https://flashapp.com.br/hubfs/Pol%C3%ADtica%20de%20Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o%20e%20Cibern%C3%A9tica%20-%20V2.0%20(Uso%20P%C3%BAblico).pdf
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/flash-app-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/flash-app-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/flash-app-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/flash-app-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/flash-app-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/flash-app-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/flash-app-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/flash-app-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/flash-app-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/flash-app-sandbox.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/flash-app-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: 'Flash (Flash Tecnologia) is a Sao Paulo based Brazilian HR and financial management platform that centralizes three surfaces on one account: multi-benefits (the Flash prepaid benefits card and PAT-compliant meal, food, mobility and wellness balances), people management (admissions and offboarding, time and attendance, recruiting, performance and engagement, extended by its FolhaCerta acquisition), and corporate expense management (corporate cards, receipt capture and reimbursement, from its 2022 ExpenseON acquisition). Founded by Ricardo Salem, Pedro Lane and Guilherme Lane, it launched in 2019 and reports more than 60,000 client companies, 1.5 million users and over R$10 billion in processed transactions. Its public developer surface is small: a ReadMe-hosted API reference covering the Flash Expense integration API (login and user provisioning against the expenseon.com hosts), with the Flash Beneficios reference still an unfilled template.'
+image: https://flashapp.com.br/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: flash-app-mcp.yml
+  slug: flash-app-mcpyml
+modified: '2026-07-20'
+name: Flash App
+nav: Providers
+network: true
+overview: 'Flash App publishes 2 APIs on the [APIs.io](https://apis.io/) network: Integration API and Login API. Tagged areas include Company, Human Resources, Employee Benefits, Expense Management, and Payments.
+
+
+  Flash App''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+random_paper: 25
+score:
+  band: developing
+  composite: 50.5
+  delta: 1.1
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 51.3
+    developer_ergonomics: 73.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 49.4
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 56.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Flash App Authentication
+  slug: flash-app-authentication
+  summary_line: credential-login · 1 scheme
+- kind: domain-security
+  name: Flash App Domain Security
+  slug: flash-app-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: flash-app
+tags:
+- Company
+- Human Resources
+- Employee Benefits
+- Expense Management
+- Payments
+- Corporate Cards
+- Payroll
+- Fintech
+- Brazil
+- HR Tech
+website: https://flashapp.com.br/
+---

@@ -1,0 +1,159 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 25.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: 'The developer interfaces to the HEAVY.AI platform: native SQL against the GPU-accelerated HeavyDB engine, an Apache Thrift API, JDBC/ODBC drivers, the heavysql CLI console, a Python client (heavyai) a'
+  name: HEAVY.AI Platform APIs
+  slug: heavyai-platform-apis
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.heavy.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.nvidia.com/heavyai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.nvidia.com/heavyai/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.nvidia.com/heavyai/apis-and-interfaces
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.nvidia.com/heavyai/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/heavyai
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.nvidia.com/heavyai/release-notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/heavyai-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/heavyai-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/heavyai-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/heavyai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/heavyai-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/heavyai-cli.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/heavyai-authentication.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/heavyai-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/heavyai-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/heavyai-domain-security.yml
+created: '2026-07-17'
+description: HEAVY.AI is a GPU-accelerated analytics platform (formerly OmniSci / MapD, now part of NVIDIA) built to interactively query and visualize very large, often geospatial and time-series, datasets. It pairs an open-source, GPU-accelerated SQL database (HeavyDB) with a server-side rendering engine (HeavyRender) and a web-based visual analytics application (Heavy Immerse). Developers interact with the platform through native SQL, an Apache Thrift API, JDBC/ODBC drivers, the heavysql command-line console, a Python data-science client (heavyai) and a JavaScript connector (@heavyai/connector), plus a Vega-based rendering API. The documentation is published on the NVIDIA docs site and exposes an llms.txt index and a hosted MCP server for AI agents.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heavyai.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: heavyai-mcp.yml
+  slug: heavyai-mcpyml
+modified: '2026-07-19'
+name: HEAVY.AI
+nav: Providers
+network: true
+overview: 'HEAVY.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Analytics, Database, and GPU.
+
+
+  HEAVY.AI''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, authentication, and 11 more developer resources.'
+random_paper: 29
+score:
+  band: emerging
+  composite: 24.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 67.4
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 24.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Heavyai Authentication
+  slug: heavyai-authentication
+  summary_line: username-password/tls · 2 schemes
+- kind: domain-security
+  name: Heavyai Domain Security
+  slug: heavyai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: heavyai
+tags:
+- Company
+- Ai
+- Analytics
+- Database
+- GPU
+- SQL
+- Geospatial
+- Data Visualization
+- Data Science
+- Business Intelligence
+website: https://www.heavy.ai
+---

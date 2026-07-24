@@ -1,0 +1,155 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: A large-scale, high-quality multimodal sensor dataset (lidar, camera) for autonomous driving research, released under a non-commercial research license. Includes labelled 3D and 2D object data, segmen
+  name: Waymo Open Dataset
+  slug: open-dataset
+- description: Waymax is a JAX-based, lightweight, multi-agent simulator for autonomous driving research, designed for accelerated training and evaluation of driving policies. Open-sourced by Waymo Research and used
+  name: Waymax Driving Simulator
+  slug: waymax
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/waymo-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://waymo.com
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://waymo.com/company/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://waymo.com/press/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.waymo.com
+- group: other
+  title: ''
+  type: Safety
+  url: https://waymo.com/safety/
+- group: other
+  title: ''
+  type: Research
+  url: https://waymo.com/research/
+- group: other
+  title: ''
+  type: OpenDataset
+  url: https://waymo.com/open
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/waymo-research
+- group: operate
+  title: ''
+  type: SupportCenter
+  url: https://support.google.com/waymo
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.withwaymo.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/waymo
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/Waymo
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@Waymo
+created: '2026-05-23'
+description: Waymo is the autonomous driving subsidiary of Alphabet, originally spun out of the Google Self-Driving Car Project. The company develops the Waymo Driver, a full Level 4 autonomous driving stack combining custom lidar, radar, and camera sensors with proprietary perception, prediction, and planning models. Waymo One operates a commercial robotaxi service in Phoenix, San Francisco, Los Angeles, Austin, and other expanding US markets, with announced launches in Tokyo and London. The company has logged tens of millions of rider-only miles and reports significantly fewer serious-injury crashes than human-driven benchmarks. Waymo does not publish a traditional public developer API. Its primary developer-facing artifacts are the Waymo Open Dataset, the Waymo Open Motion Dataset, the Waymax JAX-based driving simulator, and a robust research publication catalogue spanning perception, behaviour prediction, planning, simulation, and end-to-end driving. Consumer access is through the Waymo
+  One mobile app.
+finops:
+- name: Waymo Finops
+  service_category: API
+  slug: waymo-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waymo.png
+layout: provider
+modified: '2026-05-23'
+name: Waymo
+nav: Providers
+network: true
+overview: 'Waymo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Self-Driving, Robotaxi, Ride-Hailing, and Alphabet.
+
+
+  Waymo''s developer surface includes engineering blog, YouTube channel, and 12 more developer resources.'
+plans:
+- name: Waymo Plans Pricing
+  plan_count: 1
+  slug: waymo-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 2
+  name: Waymo Rate Limits
+  slug: waymo-rate-limits
+score:
+  band: emerging
+  composite: 18.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 18.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/waymo/refs/heads/main/screenshots/waymo-2026-06-20T201302.png
+security:
+- kind: domain-security
+  name: Waymo Domain Security
+  slug: waymo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: waymo
+tags:
+- Autonomous Vehicles
+- Self-Driving
+- Robotaxi
+- Ride-Hailing
+- Alphabet
+- Lidar
+- Computer Vision
+- Open Dataset
+- Simulation
+website: https://waymo.com
+---

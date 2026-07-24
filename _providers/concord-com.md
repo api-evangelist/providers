@@ -1,0 +1,158 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Concord Com Agentic Access
+  operation_count: 9
+  slug: concord-com-agentic-access
+  summary_line: 9 operations · 1 acting
+api_count: 5
+apis:
+- description: Concord sends outbound HTTP POST webhooks to a URL you configure in the Automations > Integrations UI, firing on agreement lifecycle events - document fully approved, document fully signed, document e
+  name: Concord Webhooks (Outbound Events)
+  slug: concord-com-webhooks-api
+- description: Agreements (contracts), their attachments, and members.
+  name: Concord Agreements API
+  slug: concord-com-agreements-api
+- description: Organization-level resources - reports, groups, and tags.
+  name: Concord Organizations API
+  slug: concord-com-organizations-api
+- description: Document generation from automated templates (modeled/unconfirmed).
+  name: Concord Templates API
+  slug: concord-com-templates-api
+- description: The authenticated user and their organization memberships.
+  name: Concord Users API
+  slug: concord-com-users-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Concord API
+  slug: open-concord-com
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/concord-com-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/concord-com-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/concord-com-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.concord.app
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.concord.app/concord-api
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/concordnow
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/concord-com-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/concord-com-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/concord-com-finops.yml
+created: '2026-07-12'
+description: Concord is a contract lifecycle management (CLM) platform for creating, negotiating, redlining, e-signing, storing, and tracking agreements in one place, with unlimited electronic signatures, automated templates, approval workflows, and reporting. Concord exposes a documented REST API (base https://api.concordnow.com/api/rest/1) that lets integrators read a user's organizations, list and retrieve agreements and their attachments and members, and pull organization reports, groups, and tags. Outbound webhooks notify external systems of agreement lifecycle events (fully approved, fully signed, expired, signature provided). API key generation is offered on paid plans only.
+finops:
+- name: Concord Com Finops
+  service_category: Contract Lifecycle Management
+  slug: concord-com-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/concord-com.png
+layout: provider
+modified: '2026-07-12'
+name: Concord
+nav: Providers
+network: true
+overview: 'Concord publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Organizations API, Templates API, and 1 more. Tagged areas include Contract Management, Contract Lifecycle Management, CLM, Contracts, and Agreements.
+
+
+  Concord''s developer surface includes authentication, documentation, and 7 more developer resources.'
+plans:
+- name: Concord Com Plans Pricing
+  plan_count: 3
+  slug: concord-com-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 3
+  name: Concord Com Rate Limits
+  slug: concord-com-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 37.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Concord Com Authentication
+  slug: concord-com-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Concord Com Domain Security
+  slug: concord-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: concord-com
+tags:
+- Contract Management
+- Contract Lifecycle Management
+- CLM
+- Contracts
+- Agreements
+- E-Signature
+- Document Management
+- Legal
+- Workflow
+website: https://www.concord.app
+---

@@ -1,0 +1,128 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hackajob.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://hackajob.com/talent/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://hackajob.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hackajob.com/privacy-policy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://hackajob.com/talent/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://hackajob.com/talent/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://hackajob.com/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/hackajob
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hackajob-llms.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/hackajob-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.hackajob.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hackajob-domain-security.yml
+created: '2026-07-17'
+description: Hackajob is a UK-founded (2015) tech-recruitment platform that connects jobseekers and employers across the UK and US using AI hiring agents. Its flagship product, Archer, is an always-on AI sourcing agent that finds, qualifies, and introduces high-fit passive candidates directly into an employer's ATS, complemented by agents Chase (AI recruiter) and Thena (applicant screening). Alongside the AI agents it runs an On-Demand contract hiring marketplace, a Talent Intelligence / hiring-insights product, an Upskill skills-assessment tool, and public jobs and company directories drawing on a talent network of 1.5M+ vetted knowledge workers. Hackajob does not currently publish a public developer API or SDK; this profile captures its public web, security, and trust surface. Added to the API Evangelist network as a Techstars portfolio lead and enriched from real public sources.
+image: https://hackajob.com/og-default.png
+layout: provider
+modified: '2026-07-19'
+name: Hackajob
+nav: Providers
+network: true
+overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Jobs.
+
+
+  Hackajob''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
+random_paper: 3
+score:
+  band: emerging
+  composite: 18.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 18.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hackajob Domain Security
+  slug: hackajob-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Hackajob Trust Center
+  slug: hackajob-trust-center
+  summary_line: SOC 2, ISO 27001
+slug: hackajob
+tags:
+- Company
+- Recruitment
+- Hiring
+- Talent
+- Jobs
+- HR Tech
+- AI Agents
+- Contract Hiring
+website: https://hackajob.com/
+---

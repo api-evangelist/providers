@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gloset-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gloset.mx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://gloset.mx/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://gloset.mx/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://gloset.mx/faq
+created: '2026-07-17'
+description: Gloset is a Mexican peer-to-peer marketplace for buying and selling pre-owned and new fashion — formal dresses, casual wear, handbags, accessories, footwear, jewelry, watches, sportswear, menswear, and swimwear. The platform offers a seller authentication program, curated collections and trending edits, buyer protection with returns and refunds, and integrated payments and shipping, operating primarily in Mexico. Gloset is backed by 500 Global. As of this profile the company publishes no public developer API, API reference, or technical documentation surface — it is a consumer marketplace web/app product.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gloset.png
+layout: provider
+modified: '2026-07-19'
+name: Gloset
+nav: Providers
+network: true
+overview: 'Gloset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Fashion, E-Commerce, and Resale.
+
+
+  Gloset''s developer surface includes support and 4 more developer resources.'
+random_paper: 42
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gloset Domain Security
+  slug: gloset-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: gloset
+tags:
+- Company
+- Marketplace
+- Fashion
+- E-Commerce
+- Resale
+- Peer-to-Peer
+- Mexico
+- Retail
+website: https://gloset.mx
+---

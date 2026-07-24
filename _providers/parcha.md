@@ -1,0 +1,414 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 56.7
+  scored_at: '2026-07-23'
+api_count: 66
+apis:
+- description: The Admin API from Parcha — 14 operation(s) for admin.
+  name: Parcha Admin API
+  slug: parcha-admin-api
+- description: The admin-billing API from Parcha — 8 operation(s) for admin-billing.
+  name: Parcha admin-billing API
+  slug: parcha-admin-billing-api
+- description: The Admin CSV Batch Management API from Parcha — 8 operation(s) for admin csv batch management.
+  name: Parcha Admin CSV Batch Management API
+  slug: parcha-admin-csv-batch-management-api
+- description: The Admin - Profiler Testing API from Parcha — 1 operation(s) for admin - profiler testing.
+  name: Parcha Admin - Profiler Testing API
+  slug: parcha-admin-profiler-testing-api
+- description: The Admin - Scraper Testing API from Parcha — 3 operation(s) for admin - scraper testing.
+  name: Parcha Admin - Scraper Testing API
+  slug: parcha-admin-scraper-testing-api
+- description: The Agent API from Parcha — 2 operation(s) for agent.
+  name: Parcha Agent API
+  slug: parcha-agent-api
+- description: The Agent Schemas API from Parcha — 1 operation(s) for agent schemas.
+  name: Parcha Agent Schemas API
+  slug: parcha-agent-schemas-api
+- description: The Billing API from Parcha — 1 operation(s) for billing.
+  name: Parcha Billing API
+  slug: parcha-billing-api
+- description: The Checks API from Parcha — 2 operation(s) for checks.
+  name: Parcha Checks API
+  slug: parcha-checks-api
+- description: The Cost Analytics API from Parcha — 5 operation(s) for cost analytics.
+  name: Parcha Cost Analytics API
+  slug: parcha-cost-analytics-api
+- description: The Dashboard API from Parcha — 8 operation(s) for dashboard.
+  name: Parcha Dashboard API
+  slug: parcha-dashboard-api
+- description: The Document Management API from Parcha — 2 operation(s) for document management.
+  name: Parcha Document Management API
+  slug: parcha-document-management-api
+- description: The document-requests API from Parcha — 6 operation(s) for document-requests.
+  name: Parcha document-requests API
+  slug: parcha-document-requests-api
+- description: The Dojo API from Parcha — 3 operation(s) for dojo.
+  name: Parcha Dojo API
+  slug: parcha-dojo-api
+- description: The DownloadReport API from Parcha — 2 operation(s) for downloadreport.
+  name: Parcha DownloadReport API
+  slug: parcha-downloadreport-api
+- description: The EnqueueFromCSV API from Parcha — 2 operation(s) for enqueuefromcsv.
+  name: Parcha EnqueueFromCSV API
+  slug: parcha-enqueuefromcsv-api
+- description: The EnqueueFromSource API from Parcha — 2 operation(s) for enqueuefromsource.
+  name: Parcha EnqueueFromSource API
+  slug: parcha-enqueuefromsource-api
+- description: The EnqueueKybSchemas API from Parcha — 2 operation(s) for enqueuekybschemas.
+  name: Parcha EnqueueKybSchemas API
+  slug: parcha-enqueuekybschemas-api
+- description: The EnrichCompany API from Parcha — 2 operation(s) for enrichcompany.
+  name: Parcha EnrichCompany API
+  slug: parcha-enrichcompany-api
+- description: The EnrichPerson API from Parcha — 2 operation(s) for enrichperson.
+  name: Parcha EnrichPerson API
+  slug: parcha-enrichperson-api
+- description: The ExportCSVBatch API from Parcha — 2 operation(s) for exportcsvbatch.
+  name: Parcha ExportCSVBatch API
+  slug: parcha-exportcsvbatch-api
+- description: The Form API from Parcha — 2 operation(s) for form.
+  name: Parcha Form API
+  slug: parcha-form-api
+- description: The GenerateBulkCaseReports API from Parcha — 2 operation(s) for generatebulkcasereports.
+  name: Parcha GenerateBulkCaseReports API
+  slug: parcha-generatebulkcasereports-api
+- description: The GenerateReportToGDrive API from Parcha — 2 operation(s) for generatereporttogdrive.
+  name: Parcha GenerateReportToGDrive API
+  slug: parcha-generatereporttogdrive-api
+- description: The GetAgentConfigCostEstimate API from Parcha — 2 operation(s) for getagentconfigcostestimate.
+  name: Parcha GetAgentConfigCostEstimate API
+  slug: parcha-getagentconfigcostestimate-api
+- description: The GetAgentConfigSchemas API from Parcha — 1 operation(s) for getagentconfigschemas.
+  name: Parcha GetAgentConfigSchemas API
+  slug: parcha-getagentconfigschemas-api
+- description: The GetAgentCostEstimate API from Parcha — 2 operation(s) for getagentcostestimate.
+  name: Parcha GetAgentCostEstimate API
+  slug: parcha-getagentcostestimate-api
+- description: The GetAgentJobByCaseId API from Parcha — 1 operation(s) for getagentjobbycaseid.
+  name: Parcha GetAgentJobByCaseId API
+  slug: parcha-getagentjobbycaseid-api
+- description: The GetAllSources API from Parcha — 2 operation(s) for getallsources.
+  name: Parcha GetAllSources API
+  slug: parcha-getallsources-api
+- description: The GetAvailableChecks API from Parcha — 2 operation(s) for getavailablechecks.
+  name: Parcha GetAvailableChecks API
+  slug: parcha-getavailablechecks-api
+- description: The GetBatchJobs API from Parcha — 2 operation(s) for getbatchjobs.
+  name: Parcha GetBatchJobs API
+  slug: parcha-getbatchjobs-api
+- description: The GetCaseDataForJob API from Parcha — 1 operation(s) for getcasedataforjob.
+  name: Parcha GetCaseDataForJob API
+  slug: parcha-getcasedataforjob-api
+- description: The GetCheckInfo API from Parcha — 2 operation(s) for getcheckinfo.
+  name: Parcha GetCheckInfo API
+  slug: parcha-getcheckinfo-api
+- description: The GetCheckResultFromJob API from Parcha — 2 operation(s) for getcheckresultfromjob.
+  name: Parcha GetCheckResultFromJob API
+  slug: parcha-getcheckresultfromjob-api
+- description: The GetCheckResults API from Parcha — 2 operation(s) for getcheckresults.
+  name: Parcha GetCheckResults API
+  slug: parcha-getcheckresults-api
+- description: The GetChecksOverviewData API from Parcha — 2 operation(s) for getchecksoverviewdata.
+  name: Parcha GetChecksOverviewData API
+  slug: parcha-getchecksoverviewdata-api
+- description: The GetDocument API from Parcha — 1 operation(s) for getdocument.
+  name: Parcha GetDocument API
+  slug: parcha-getdocument-api
+- description: The GetFeedbackInputsByKey API from Parcha — 2 operation(s) for getfeedbackinputsbykey.
+  name: Parcha GetFeedbackInputsByKey API
+  slug: parcha-getfeedbackinputsbykey-api
+- description: The GetJobBatches API from Parcha — 2 operation(s) for getjobbatches.
+  name: Parcha GetJobBatches API
+  slug: parcha-getjobbatches-api
+- description: The GetJobById API from Parcha — 2 operation(s) for getjobbyid.
+  name: Parcha GetJobById API
+  slug: parcha-getjobbyid-api
+- description: The GetJobMetadata API from Parcha — 2 operation(s) for getjobmetadata.
+  name: Parcha GetJobMetadata API
+  slug: parcha-getjobmetadata-api
+- description: The GetJobMetadataByCaseId API from Parcha — 2 operation(s) for getjobmetadatabycaseid.
+  name: Parcha GetJobMetadataByCaseId API
+  slug: parcha-getjobmetadatabycaseid-api
+- description: The GetJobMetadataByJobId API from Parcha — 2 operation(s) for getjobmetadatabyjobid.
+  name: Parcha GetJobMetadataByJobId API
+  slug: parcha-getjobmetadatabyjobid-api
+- description: The GetJobsByCaseId API from Parcha — 2 operation(s) for getjobsbycaseid.
+  name: Parcha GetJobsByCaseId API
+  slug: parcha-getjobsbycaseid-api
+- description: The GetJobStatusSummary API from Parcha — 2 operation(s) for getjobstatussummary.
+  name: Parcha GetJobStatusSummary API
+  slug: parcha-getjobstatussummary-api
+- description: The GetKybSchemasFromSource API from Parcha — 2 operation(s) for getkybschemasfromsource.
+  name: Parcha GetKybSchemasFromSource API
+  slug: parcha-getkybschemasfromsource-api
+- description: The GetLatestApplicationState API from Parcha — 2 operation(s) for getlatestapplicationstate.
+  name: Parcha GetLatestApplicationState API
+  slug: parcha-getlatestapplicationstate-api
+- description: The GetSourceContents API from Parcha — 2 operation(s) for getsourcecontents.
+  name: Parcha GetSourceContents API
+  slug: parcha-getsourcecontents-api
+- description: The GetThinking API from Parcha — 2 operation(s) for getthinking.
+  name: Parcha GetThinking API
+  slug: parcha-getthinking-api
+- description: The Image Proxy API from Parcha — 1 operation(s) for image proxy.
+  name: Parcha Image Proxy API
+  slug: parcha-image-proxy-api
+- description: The MapCsvColumns API from Parcha — 2 operation(s) for mapcsvcolumns.
+  name: Parcha MapCsvColumns API
+  slug: parcha-mapcsvcolumns-api
+- description: The RunCheck API from Parcha — 2 operation(s) for runcheck.
+  name: Parcha RunCheck API
+  slug: parcha-runcheck-api
+- description: The RunFlashCheck API from Parcha — 2 operation(s) for runflashcheck.
+  name: Parcha RunFlashCheck API
+  slug: parcha-runflashcheck-api
+- description: The schemas API from Parcha — 1 operation(s) for schemas.
+  name: Parcha schemas API
+  slug: parcha-schemas-api
+- description: The SendFeedback API from Parcha — 2 operation(s) for sendfeedback.
+  name: Parcha SendFeedback API
+  slug: parcha-sendfeedback-api
+- description: The SpecializedScraper API from Parcha — 2 operation(s) for specializedscraper.
+  name: Parcha SpecializedScraper API
+  slug: parcha-specializedscraper-api
+- description: The StartKYBAgentJob API from Parcha — 2 operation(s) for startkybagentjob.
+  name: Parcha StartKYBAgentJob API
+  slug: parcha-startkybagentjob-api
+- description: The StartKYCAgentJob API from Parcha — 2 operation(s) for startkycagentjob.
+  name: Parcha StartKYCAgentJob API
+  slug: parcha-startkycagentjob-api
+- description: The StartPersonaKYBJob API from Parcha — 2 operation(s) for startpersonakybjob.
+  name: Parcha StartPersonaKYBJob API
+  slug: parcha-startpersonakybjob-api
+- description: The StartPersonaKYCJob API from Parcha — 2 operation(s) for startpersonakycjob.
+  name: Parcha StartPersonaKYCJob API
+  slug: parcha-startpersonakycjob-api
+- description: The StartPublicJob API from Parcha — 1 operation(s) for startpublicjob.
+  name: Parcha StartPublicJob API
+  slug: parcha-startpublicjob-api
+- description: The TestWebhook API from Parcha — 2 operation(s) for testwebhook.
+  name: Parcha TestWebhook API
+  slug: parcha-testwebhook-api
+- description: The TestWebhookReceiver API from Parcha — 2 operation(s) for testwebhookreceiver.
+  name: Parcha TestWebhookReceiver API
+  slug: parcha-testwebhookreceiver-api
+- description: The TriggerWebhook API from Parcha — 1 operation(s) for triggerwebhook.
+  name: Parcha TriggerWebhook API
+  slug: parcha-triggerwebhook-api
+- description: The UpdateApplicationStatus API from Parcha — 2 operation(s) for updateapplicationstatus.
+  name: Parcha UpdateApplicationStatus API
+  slug: parcha-updateapplicationstatus-api
+- description: The UploadB64Document API from Parcha — 1 operation(s) for uploadb64document.
+  name: Parcha UploadB64Document API
+  slug: parcha-uploadb64document-api
+artifact_total: 71
+asyncapis:
+- description: ''
+  name: Parcha Webhooks
+  slug: parcha-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/parcha-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/parcha-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.parcha.ai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.parcha.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.parcha.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://parcha.apidocumentation.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.parcha.ai/introduction
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/parcha-llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.parcha.ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.parcha.ai
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/parcha-ai
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.parcha.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.parcha.ai/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.parcha.ai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.parcha.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.parcha.ai/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.parcha.ai
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.parcha.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.parcha.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/parcha-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/parcha-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/parcha-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/parcha-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/parcha-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/parcha-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/parcha-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/parcha-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/parcha-trust-center.yml
+created: '2026-07-17'
+description: Parcha is an AI compliance platform that automates customer due diligence, KYB (Know Your Business) and KYC (Know Your Customer) reviews, document verification, and risk screening for banks and fintechs. Its AI agents run configurable checks — sanctions and PEP screening (OFAC/UN/EU/HMT), adverse media, business registration, beneficial ownership, and verification of documents like incorporation papers, EIN certificates, and proof of address — across 90+ watchlists, 140+ jurisdictions, and 200+ languages. Parcha exposes a REST API (bearer-token auth, agent-based jobs, HMAC-signed webhooks, a sandbox server) so onboarding workflows can start KYB/KYC reviews or run individual compliance checks programmatically. Customers include Pipe, Bancoli, Flutterwave, and Bridge. Backed by Initialized Capital and Kindred Ventures.
+image: https://cdn.prod.website-files.com/67d06659dce0778533c88620/686ea152ac77eb6b5dfb45f9_metadata.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: parcha-mcp.yml
+  slug: parcha-mcpyml
+modified: '2026-07-20'
+name: Parcha
+nav: Providers
+network: true
+overview: 'Parcha publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Admin API, admin-billing API, Admin CSV Batch Management API, and 63 more. Tagged areas include Company, Enterprise Saas, Compliance, KYB, and KYC.
+
+
+  The Parcha catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Parcha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+random_paper: 11
+score:
+  band: developing
+  composite: 55.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 60.3
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 55.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Parcha Authentication
+  slug: parcha-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Parcha Domain Security
+  slug: parcha-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Parcha Trust Center
+  slug: parcha-trust-center
+  summary_line: SOC 2 Type II
+slug: parcha
+tags:
+- Company
+- Enterprise Saas
+- Compliance
+- KYB
+- KYC
+- Due Diligence
+- AML
+- Sanctions Screening
+- Identity Verification
+- Financial Services
+- Artificial Intelligence
+website: https://www.parcha.ai/
+---

@@ -1,0 +1,95 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.enzymit.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.enzymit.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.enzymit.com/contact-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Enzymit
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/enzymit-domain-security.yml
+created: '2026-07-17'
+description: Enzymit is a synthetic biology company based in Rehovot, Israel that designs novel enzymes and enables cell-free biomanufacturing. Its proprietary platform combines computational protein design, deep learning, and high-throughput testing to develop enzymes for biochemicals, food and beverage, personal care, and health and nutrition markets, with applications spanning hyaluronic acid production, cultivated-meat ingredients, and biosensors. Backed by Khosla Ventures, Enzymit publishes open research tools such as SolvIT (protein solubility prediction) and the StabilizeIT platform, but does not currently expose a public developer API, SDK, or developer portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enzymit.png
+layout: provider
+modified: '2026-07-19'
+name: Enzymit
+nav: Providers
+network: true
+overview: 'Enzymit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Enzyme Design, Biomanufacturing, and Protein Engineering.
+
+
+  Enzymit''s developer surface includes engineering blog, support, and 3 more developer resources.'
+random_paper: 19
+score:
+  band: minimal
+  composite: 8.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 8.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Enzymit Domain Security
+  slug: enzymit-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: enzymit
+tags:
+- Company
+- Synthetic Biology
+- Enzyme Design
+- Biomanufacturing
+- Protein Engineering
+- Deep Learning
+- Biotechnology
+website: https://www.enzymit.com/
+---

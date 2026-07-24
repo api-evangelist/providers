@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.oasis.security/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.oasis.security/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.oasis.security/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OasisSecurity
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.oasis.security/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.oasis.security/legal/privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/oasis-domain-security.yml
+created: '2026-07-17'
+description: Oasis Security is a Non-Human Identity (NHI) management and security platform for hybrid and multi-cloud environments. Its Agentic Access Management (AAM) offering discovers, inventories, governs, and secures service accounts, service principals, managed identities, API keys, secrets, and AI agent credentials across AWS, Azure, GCP, Okta, HashiCorp, Snowflake, GitHub, Salesforce, and AI services such as OpenAI and Amazon Bedrock. The platform provides automated discovery and risk assessment, ownership and context mapping, posture management, threat detection and anomaly monitoring, policy-driven governance and remediation, time-bound provisioning, and secure secret rotation. Founded in New York and backed by Sequoia Capital, Accel, Cyberstarts, and Maple Venture Capital, Oasis extends zero-trust and PAM practices to the fast-growing population of non-human and agentic identities.
+image: https://cdn.prod.website-files.com/679b2b742e3af6fc4669f5cd/69404637505fa7a6327e335e_oasis-homepage.avif
+layout: provider
+modified: '2026-07-20'
+name: Oasis
+nav: Providers
+network: true
+overview: 'Oasis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Non-Human Identity, Identity and Access Management, and Cloud Security.
+
+
+  Oasis'' developer surface includes documentation, engineering blog, and 5 more developer resources.'
+random_paper: 33
+score:
+  band: minimal
+  composite: 13.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Oasis Domain Security
+  slug: oasis-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: oasis
+tags:
+- Company
+- Security
+- Non-Human Identity
+- Identity and Access Management
+- Cloud Security
+- Secrets Management
+- AI Agents
+- Zero Trust
+website: https://www.oasis.security/
+---

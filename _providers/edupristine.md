@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/edupristine-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://www.edupristine.com/
+created: '2026-07-17'
+description: 'EduPristine is a Mumbai-based finance, accounting, and analytics training institute founded in 2008, offering classroom and online certification-prep and professional up-skilling programs. Its catalog spans financial modeling, CFA, FRM, ACCA, US CPA and US CMA, business analytics and data science, digital marketing, financial accounting (Big 4 aligned), and healthcare/medical coding. EduPristine runs training centers across India alongside self-paced and instructor-led online courses, and is part of Adtalem Global Education. Sector: edtech. No public developer API or documented API surface was found during enrichment; the corporate website sits behind a WAF that blocks automated discovery of a well-known or developer surface.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edupristine.png
+layout: provider
+modified: '2026-07-19'
+name: EduPristine
+nav: Providers
+network: true
+overview: EduPristine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Training, and Finance.
+random_paper: 23
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Edupristine Domain Security
+  slug: edupristine-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: edupristine
+tags:
+- Company
+- Edtech
+- Education
+- Training
+- Finance
+- Certification
+- Analytics
+- India
+website: http://www.edupristine.com/
+---

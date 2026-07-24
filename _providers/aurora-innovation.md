@@ -1,0 +1,157 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/aurora-innovation-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aurora-innovation-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aurora.tech
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://aurora.tech/company
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://aurora.tech/newsroom
+- group: company
+  title: ''
+  type: Blog
+  url: https://aurora.tech/blog
+- group: other
+  title: ''
+  type: Safety
+  url: https://aurora.tech/safety
+- group: other
+  title: ''
+  type: Capabilities
+  url: https://aurora.tech/capabilities
+- group: other
+  title: ''
+  type: AuroraDriver
+  url: https://aurora.tech/aurora-driver
+- group: other
+  title: ''
+  type: AuroraHorizon
+  url: https://aurora.tech/aurora-horizon
+- group: other
+  title: ''
+  type: AuroraConnect
+  url: https://aurora.tech/aurora-connect
+- group: company
+  title: ''
+  type: Partners
+  url: https://aurora.tech/partners
+- group: company
+  title: ''
+  type: Careers
+  url: https://aurora.tech/careers
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.aurora.tech
+- group: other
+  title: ''
+  type: SECFilings
+  url: https://ir.aurora.tech/financials/sec-filings
+- group: operate
+  title: ''
+  type: Contact
+  url: https://aurora.tech/contact
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/aurora-innovation
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/aurora_inno
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@aurora_inno
+created: '2026-05-23'
+description: Aurora Innovation is a Pittsburgh-headquartered autonomous-vehicle company publicly traded on NASDAQ as AUR. Its core product is the Aurora Driver, a self-driving system designed as a single platform deployable across vehicle classes - first commercialized in long-haul Class 8 trucking through Aurora Horizon, with Aurora Connect intended for ride-hailing applications. The Aurora Driver is integrated into the Volvo VNL Autonomous and PACCAR Peterbilt 579/Kenworth T680 trucks, uses Aurora's proprietary FirstLight FMCW lidar with 450+ metre range, and benefits from a NVIDIA-powered compute platform and Continental hardware partnership. Aurora launched commercial driverless freight operations in Texas in 2025 between Fort Worth, El Paso, Dallas, and Houston, with freight customers including Werner, Hirschbach, Uber Freight, FedEx, Schneider, Ryder, and Toyota Motor North America. Aurora does not publish a public developer API; the public surface is product, safety, and investor
+  material.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aurora-innovation.png
+layout: provider
+modified: '2026-05-23'
+name: Aurora Innovation
+nav: Providers
+network: true
+overview: 'Aurora Innovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Autonomous Trucking, Self-Driving, Freight, and Lidar.
+
+
+  Aurora Innovation''s developer surface includes engineering blog, YouTube channel, and 17 more developer resources.'
+random_paper: 3
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Aurora Innovation Domain Security
+  slug: aurora-innovation-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Aurora Innovation Vulnerability Disclosure
+  slug: aurora-innovation-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: aurora-innovation
+tags:
+- Autonomous Vehicles
+- Autonomous Trucking
+- Self-Driving
+- Freight
+- Lidar
+- FMCW
+- NASDAQ
+- Aurora Driver
+website: https://aurora.tech
+---

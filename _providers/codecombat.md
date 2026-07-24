@@ -1,0 +1,198 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 43.3
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: The Auth API from CodeCombat — 1 operation(s) for auth.
+  name: CodeCombat Auth API
+  slug: codecombat-auth-api
+- description: The Clans API from CodeCombat — 1 operation(s) for clans.
+  name: CodeCombat Clans API
+  slug: codecombat-clans-api
+- description: The Classrooms API from CodeCombat — 6 operation(s) for classrooms.
+  name: CodeCombat Classrooms API
+  slug: codecombat-classrooms-api
+- description: The Default API from CodeCombat — 1 operation(s) for default.
+  name: CodeCombat Default API
+  slug: codecombat-default-api
+- description: The Stats API from CodeCombat — 2 operation(s) for stats.
+  name: CodeCombat Stats API
+  slug: codecombat-stats-api
+- description: The Users API from CodeCombat — 10 operation(s) for users.
+  name: CodeCombat Users API
+  slug: codecombat-users-api
+artifact_total: 9
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/codecombat-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/codecombat-authentication.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.codecombat.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api-docs.codecombat.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.codecombat.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/codecombat
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.codecombat.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://codecombat.com/pricing
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://codecombat.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://codecombat.com/legal
+- group: operate
+  title: ''
+  type: Support
+  url: https://codecombat.com/help
+- group: company
+  title: ''
+  type: Blog
+  url: https://codecombat.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/codecombat-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/codecombat-packages.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://github.com/codecombat/codecombat-postman
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/codecombat-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/codecombat-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/codecombat-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/codecombat-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/codecombat-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/codecombat-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/codecombat-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: CodeCombat is a game-based computer science platform where students learn to code by playing a real programming game, writing Python or JavaScript to control heroes through levels. Its Partner API (a Fern-generated REST API at https://codecombat.com/api, secured with HTTP Basic authentication) lets learning platforms and school districts provision and manage users, create and administer classrooms, enroll students in courses, grant and shorten licenses and Home subscriptions, link OAuth2 SSO identities, manage clans, and pull playtime, license, and per-member progress statistics. CodeCombat is backed by a16z and Y Combinator and publishes official Node, Python, Java, and Go SDKs plus a Postman collection generated from its public OpenAPI description.
+image: https://avatars.githubusercontent.com/u/5795842?v=4
+layout: provider
+mcp_servers:
+- description: ''
+  name: codecombat-mcp.yml
+  slug: codecombat-mcpyml
+modified: '2026-07-18'
+name: CodeCombat
+nav: Providers
+network: true
+overview: 'CodeCombat publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Clans API, Classrooms API, and 3 more. Tagged areas include Company, Education, EdTech, Coding, and Learning.
+
+
+  CodeCombat''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
+random_paper: 21
+score:
+  band: developing
+  composite: 45.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 51.3
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 45.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Codecombat Authentication
+  slug: codecombat-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Codecombat Domain Security
+  slug: codecombat-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: codecombat
+tags:
+- Company
+- Education
+- EdTech
+- Coding
+- Learning
+- Classroom
+- Students
+- Gamification
+- SSO
+- Developer Tools
+website: https://api-docs.codecombat.com/
+---

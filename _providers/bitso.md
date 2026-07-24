@@ -1,0 +1,196 @@
+---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Bitso Agentic Access
+  operation_count: 12
+  slug: bitso-agentic-access
+  summary_line: 12 operations · 2 acting
+api_count: 5
+apis:
+- description: Real-time streaming channels for trades, order-book diffs, and full order-book snapshots. Used by trading clients and market-data consumers that need sub-second updates.
+  name: Bitso WebSocket API
+  slug: websocket
+- description: Cross-border disbursement and collection API powered by stablecoin and LATAM rails. Lets businesses fund into Bitso, convert between assets and fiat, and pay out to destination accounts across support
+  name: Bitso Payouts and Pay-Ins API
+  slug: payouts-funding
+- description: Juno is Bitso's programmable-money platform for Mexican peso (MXN) rails and stablecoin operations. The API supports account creation, SPEI funding, MXNB stablecoin mint / redeem and on-chain transfer
+  name: Juno API
+  slug: juno
+- description: Authenticated account and trading endpoints.
+  name: Bitso Private API
+  slug: bitso-private-api
+- description: Public market data endpoints. No authentication required.
+  name: Bitso Public API
+  slug: bitso-public-api
+artifact_total: 15
+asyncapis:
+- description: Bitso's public real-time WebSocket feed for the Bitso cryptocurrency exchange. Clients connect to a single endpoint and subscribe to one or more channels per order book (e.g. btc_mxn). Three public ch
+  name: Bitso WebSocket API
+  slug: bitso-asyncapi
+collections:
+- collection_type: open
+  name: Bitso Trading API
+  slug: open-bitso
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bitso-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/bitso-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bitso-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bitso-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bitso.com/
+- group: other
+  title: ''
+  type: Business
+  url: https://bitso.com/business
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bitso.com/
+- group: docs
+  title: ''
+  type: OpenAPI Index
+  url: https://docs.bitso.com/llms.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bitso
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/bitso
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.bitso.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.bitso.com/
+created: '2026-05-23'
+description: Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.
+finops:
+- name: Bitso Finops
+  service_category: API
+  slug: bitso-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitso.png
+layout: provider
+modified: '2026-05-23'
+name: Bitso
+nav: Providers
+network: true
+overview: 'Bitso publishes 3 APIs on the [APIs.io](https://apis.io/) network: WebSocket API, Private API, and Public API. Tagged areas include Cryptocurrency, Exchange, Trading, Stablecoins, and Payouts.
+
+
+  The Bitso catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Bitso''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, and 7 more developer resources.'
+plans:
+- name: Bitso Plans Pricing
+  plan_count: 1
+  slug: bitso-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 2
+  name: Bitso Rate Limits
+  slug: bitso-rate-limits
+rules:
+- name: Bitso API Rules
+  rule_count: 5
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 4
+  slug: bitso-asyncapi-spectral-rules
+score:
+  band: thin
+  composite: 43.4
+  delta: -1.2
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 65.5
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 52.6
+    operational_transparency: 26.3
+  previous_composite: 44.6
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
+security:
+- kind: authentication
+  name: Bitso Authentication
+  slug: bitso-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Bitso Domain Security
+  slug: bitso-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Bitso Trust Center
+  slug: bitso-trust-center
+  summary_line: ISO 27001
+slug: bitso
+tags:
+- Cryptocurrency
+- Exchange
+- Trading
+- Stablecoins
+- Payouts
+- Cross Border
+- Latin America
+- Mexico
+- Fintech
+website: https://bitso.com/
+---

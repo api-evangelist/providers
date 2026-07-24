@@ -1,0 +1,162 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 21.2
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST booking API for searching experiences, retrieving options and availability, and assembling and confirming booking orders. Authenticated with an X-API-Key header; versioned in the URI path (/v2).
+  name: Turneo v2 API
+  slug: turneo-v2-api
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.turneo.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.turneo.com/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.turneo.com/developers/guides
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.turneo.com/developers
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.turneo.com/developers/guides/getting-started
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.turneo.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.turneo.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.turneo.com/partner-terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.turneo.com/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://app.turneo.co
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/turneo-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/turneo-conventions.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/turneo-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/turneo-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/turneo-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/turneo-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/turneo-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/turneo-domain-security.yml
+created: '2026-07-17'
+description: Turneo is an operating system for hotel experiences and services, backed by Bessemer Venture Partners. It digitizes the activities, spa & wellness, dining, rentals, transfers, and tickets a hotel offers, makes them bookable across guest touchpoints, and deploys AI agents to automate the operations behind them. Hotels and partners integrate through the Turneo v2 REST API (https://api.turneo.co, API-key authenticated) to search experiences, retrieve options and availability, and assemble and confirm booking orders, and through embeddable Turneo Elements widgets that add browse-and-book surfaces (with Apple Pay) directly to a partner website. It also plugs into existing tools such as Bokun, OPERA Cloud, apaleo, MEWS, and REGIONDO.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turneo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: turneo-mcp.yml
+  slug: turneo-mcpyml
+modified: '2026-07-21'
+name: Turneo
+nav: Providers
+network: true
+overview: 'Turneo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Travel, Hospitality, and Hotels.
+
+
+  Turneo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 13 more developer resources.'
+random_paper: 6
+score:
+  band: emerging
+  composite: 28.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 28.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Turneo Authentication
+  slug: turneo-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Turneo Domain Security
+  slug: turneo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: turneo
+tags:
+- Company
+- Marketplaces
+- Travel
+- Hospitality
+- Hotels
+- Experiences
+- Booking
+- Activities
+- Tours
+website: https://www.turneo.com/
+---

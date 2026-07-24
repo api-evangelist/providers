@@ -1,0 +1,237 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 11
+  human_in_the_loop: 0
+  name: Pimloc Agentic Access
+  operation_count: 22
+  slug: pimloc-agentic-access
+  summary_line: 22 operations · 11 acting
+api_count: 4
+apis:
+- description: Account information
+  name: Pimloc Account API
+  slug: pimloc-account-api
+- description: Token exchange and user session
+  name: Pimloc Authentication API
+  slug: pimloc-authentication-api
+- description: Upload, redact, download and manage media
+  name: Pimloc Media API
+  slug: pimloc-media-api
+- description: Enterprise project and user management
+  name: Pimloc Projects API
+  slug: pimloc-projects-api
+artifact_total: 9
+asyncapis:
+- description: Secure Redact processes media asynchronously. When a state_callback and/or export_callback URL is supplied on upload, the platform POSTs event payloads to those URLs as media moves through the redacti
+  name: Secure Redact Media Callbacks
+  slug: pimloc-secureredact-asyncapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pimloc-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pimloc-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.secureredact.co.uk
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.secureredact.ai/documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.secureredact.co.uk
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.secureredact.ai/apis
+- group: company
+  title: ''
+  type: Website
+  url: https://www.secureredact.ai
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.secureredact.ai/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.secureredact.ai/articles
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.secureredact.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.secureredact.co.uk/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.secureredact.co.uk/app
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.secureredact.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.secureredact.ai/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/pimloc
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pimloc-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pimloc-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pimloc-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pimloc-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pimloc-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.secureredact.ai/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pimloc-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pimloc-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/pimloc-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pimloc-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pimloc-secureredact-overlay.yaml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pimloc-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/pimloc-sandbox.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/pimloc-secureredact-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/pimloc-secureredact-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Pimloc is a UK-based AI company whose Secure Redact platform automates the redaction and anonymization of personally identifiable information (PII) in video, audio, images and documents — blurring faces, license plates, screens, on-screen text and full bodies with high accuracy. Used across law enforcement, local government, transport, insurance, healthcare, education and retail to meet GDPR, CCPA, HIPAA, FOIA and DSAR obligations, Secure Redact offers a browser SaaS and a v3 REST API. The API supports a fully automated Standard Flow (upload by URL, process, download) and an Enterprise Flow (review and edit in the UI, with projects, users and audit/chain-of-custody trails), plus audio transcription, video search and webhook callbacks. Pimloc is backed by Speedinvest.
+image: https://www.secureredact.ai/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: pimloc-mcp.yml
+  slug: pimloc-mcpyml
+modified: '2026-07-20'
+name: Pimloc
+nav: Providers
+network: true
+overview: 'Pimloc publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Media API, and 1 more. Tagged areas include Company, Privacy, Video Redaction, Anonymization, and PII.
+
+
+  The Pimloc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Pimloc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+random_paper: 32
+score:
+  band: developing
+  composite: 55.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 67.3
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 55.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Pimloc Authentication
+  slug: pimloc-authentication
+  summary_line: http-basic/http-bearer · 2 schemes
+- kind: domain-security
+  name: Pimloc Domain Security
+  slug: pimloc-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: pimloc
+tags:
+- Company
+- Privacy
+- Video Redaction
+- Anonymization
+- PII
+- Data Protection
+- Artificial Intelligence
+- Compliance
+- Video Analytics
+website: https://www.secureredact.ai
+---

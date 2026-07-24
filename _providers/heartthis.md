@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://heartthis.com
+created: '2026-07-17'
+description: 'HeartThis was a mobile fashion shopping and discovery app, surfaced as a portfolio company of 500 Global and GV and added to the API Evangelist network as a stub for enrichment. As of the July 2026 enrichment pass the company appears defunct/absorbed: heartthis.com and www.heartthis.com now return a 301 redirect to an OpenSky content page (www.opensky.com/content/general/heartthis), the host serves a long-expired stale wildcard TLS certificate (CN wildcard auctivacommerce.com, expired 2022-12-16), and no api, developer, or docs subdomains resolve (NXDOMAIN). No public developer portal, documentation, or API surface could be found, so no API artifacts could be enriched without fabrication.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heartthis.png
+layout: provider
+modified: '2026-07-20'
+name: HeartThis
+nav: Providers
+network: true
+overview: HeartThis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Shopping, Ecommerce, and Mobile.
+random_paper: 3
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: heartthis
+tags:
+- Company
+- Fashion
+- Shopping
+- Ecommerce
+- Mobile
+- Discovery
+- Defunct
+website: https://heartthis.com
+---

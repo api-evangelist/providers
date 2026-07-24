@@ -1,0 +1,107 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://getcogni.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://getcogni.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://cognihelp.zendesk.com/hc/en-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://getcogni.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://getcogni.com/terms-of-use
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cogni-domain-security.yml
+created: '2026-07-17'
+description: Cogni is a non-custodial cryptocurrency wallet and digital-asset management app that consolidates cash, crypto, and NFTs in a single mobile experience. Users hold their own private keys, back up their seed phrase to iCloud, manage assets across multiple blockchains and Layer 2 networks, store and view NFTs, and connect to web3 dApps directly from the app. Backed by Techstars, Cogni is a consumer-facing mobile product and publishes no public developer API, SDK, or OpenAPI at this time; this profile captures its public web properties and domain-security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cogni.png
+layout: provider
+modified: '2026-07-18'
+name: Cogni
+nav: Providers
+network: true
+overview: 'Cogni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Wallet, Web3, and Blockchain.
+
+
+  Cogni''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 18
+score:
+  band: emerging
+  composite: 15.0
+  delta: 2.7
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cogni Domain Security
+  slug: cogni-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: cogni
+tags:
+- Company
+- Cryptocurrency
+- Wallet
+- Web3
+- Blockchain
+- NFT
+- Self-Custody
+- Fintech
+- Digital Assets
+- dApps
+website: https://getcogni.com/
+---

@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nvxclouds-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://nvxclouds.com
+created: '2026-07-17'
+description: nvxclouds is the web home of 锘崴科技 / NVX, whose legal entity is Hangzhou Nuowei Information Technology Co., Ltd. (杭州锘崴信息科技有限公司), an information technology company based in Hangzhou, Zhejiang, China. It was surfaced through the API Evangelist network as a portfolio company of the venture firm Qiming. The public website at nvxclouds.com is a single-page web application served over TLS from Alibaba Cloud infrastructure. An enrichment pass on 2026-07-20 probed the domain and common developer paths and found no public API, developer portal, OpenAPI or documentation surface to catalog; this profile records the verified corporate identity and domain-security posture and remains a lead pending any future developer-facing API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvxclouds.png
+layout: provider
+modified: '2026-07-20'
+name: nvxclouds
+nav: Providers
+network: true
+overview: nvxclouds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, China, Hangzhou, Information Technology, and Cloud.
+random_paper: 29
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Nvxclouds Domain Security
+  slug: nvxclouds-domain-security
+  summary_line: TLSv1.2
+slug: nvxclouds
+tags:
+- Company
+- China
+- Hangzhou
+- Information Technology
+- Cloud
+- Software
+website: https://nvxclouds.com
+---

@@ -1,0 +1,129 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/oscar-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.hioscar.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.hioscar.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hioscar.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/oscarhealth
+- group: start
+  title: ''
+  type: Login
+  url: https://www.hioscar.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hioscar.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hioscar.com/legal/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.hioscar.com/accreditations
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.hioscar.com/overview
+- group: company
+  title: ''
+  type: Press
+  url: https://www.hioscar.com/press
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.hioscar.com/careers
+created: '2026-07-17'
+description: 'Oscar Health (NYSE: OSCR) is a technology-driven health insurance company founded in 2012 and headquartered in New York City. It offers individual and family health plans, small-business and ICHRA employer benefits, and Medicare Advantage in a growing set of U.S. states, pairing coverage with a consumer mobile app, 24/7 virtual urgent care, telemedicine, primary care, and concierge Care Teams. Oscar''s +Oscar division licenses its full-stack technology platform (Campaign Builder and other tools) to other payers and providers. The company is NCQA-accredited across Health Plan, Utilization Management, Credentialing, Provider Network, and Health Equity programs. Oscar is a General Catalyst portfolio company. As a CMS-regulated payer it is subject to the Interoperability and Patient Access rule, though it does not currently publish an open, self-serve developer API portal.'
+image: https://avatars.githubusercontent.com/u/6516184?v=4
+layout: provider
+modified: '2026-07-20'
+name: Oscar
+nav: Providers
+network: true
+overview: 'Oscar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Healthcare, Insurance, and Health Technology.
+
+
+  Oscar''s developer surface includes engineering blog and 11 more developer resources.'
+random_paper: 26
+score:
+  band: emerging
+  composite: 20.0
+  delta: 3.7
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 16.3
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 41.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Oscar Domain Security
+  slug: oscar-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: oscar
+tags:
+- Company
+- Health Insurance
+- Healthcare
+- Insurance
+- Health Technology
+- Telemedicine
+- Medicare Advantage
+- Digital Health
+website: https://www.hioscar.com/
+---

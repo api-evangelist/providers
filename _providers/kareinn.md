@@ -1,0 +1,110 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://kareinn.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://kareinn.com/resources/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://kareinn.com/how-much-does-care-planning-software-cost/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://kareinn.com/book-a-demo/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.kareinn.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://kareinn.com/why-kareinn/kareinn-training-centre/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://kareinn.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://kareinn.com/wp-content/uploads/2020/07/KareInn-Privacy-Policy-2019.pdf
+created: '2026-07-17'
+description: KareInn is a UK-based digital care management and care-home planning software provider whose cloud platform helps residential and nursing care providers streamline operations, evidence CQC compliance, and improve resident care. The product suite spans a care-management dashboard with occupancy and management reporting, a customizable care-plan builder, clinical policy and procedure workflows, care-delivery task assignment and monitoring, pre-admissions and occupancy pipeline management, event and incident tracking, and a resident and family engagement portal. KareInn integrates with partner systems including Civica/Coldharbour income processing, Camscope electronic medication management, and Ally Cares acoustic monitoring, and is positioned as an NHS assured supplier. This profile was added to the API Evangelist network as a Seedcamp portfolio lead; KareInn does not currently publish a public developer API, developer portal, OpenAPI definition, SDKs, or a machine-readable discovery
+  surface — the artifacts below capture its public product, commercial, and policy pages only.
+image: https://kareinn.com/wp-content/uploads/2023/02/KareInn-become-NHS-Assured-Supplier.png
+layout: provider
+modified: '2026-07-19'
+name: KareInn
+nav: Providers
+network: true
+overview: 'KareInn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Care Homes, Digital Care Planning, Care Management, and Health.
+
+
+  KareInn''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
+random_paper: 30
+score:
+  band: emerging
+  composite: 17.1
+  delta: 0.1
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.0
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 17.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: kareinn
+tags:
+- Company
+- Care Homes
+- Digital Care Planning
+- Care Management
+- Health
+- Social Care
+- CQC Compliance
+- SaaS
+- United Kingdom
+website: https://kareinn.com
+---

@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jointopo.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/topographyhealth
+created: '2026-07-17'
+description: 'Topography (Topography Health, Inc.) was a full-stack clinical trials platform that empowered community and private-practice physicians to run clinical drug trials in their local communities across North America, reducing the administrative burden of becoming a clinical trialist. Founded in 2020 by Alexander Saint-Amand, Mac Parish, and Andrew Kirchner and based in New York and Los Angeles, the company launched in January 2022 with $27.5M in funding, including a $21.5M Series A led by Bain Capital Ventures and Andreessen Horowitz (a16z). In 2026 Topography Health''s Site Business Unit was acquired by FOMAT Medical Research, and the company''s public site is now a single-page acquisition announcement. Topography was a B2B clinical-research SaaS, not a developer-facing API company: no public developer portal, API documentation, OpenAPI, SDKs, or other machine-readable API surface was ever published, and none exists today.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topography.png
+layout: provider
+modified: '2026-07-21'
+name: Topography
+nav: Providers
+network: true
+overview: Topography is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Clinical Research, Healthcare, and Life Sciences.
+random_paper: 30
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: topography
+tags:
+- Company
+- Clinical Trials
+- Clinical Research
+- Healthcare
+- Life Sciences
+- Acquired
+website: https://www.jointopo.com/
+---

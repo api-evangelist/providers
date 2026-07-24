@@ -1,0 +1,169 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 9.6
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: Public Antelope/EOSIO Chain API for the WAX blockchain — query chain state (get_info, get_account, get_table_rows, get_currency_balance) and submit signed transactions (push_transaction/send_transacti
+  name: WAX Chain API (Antelope RPC)
+  slug: wax-chain-api-antelope-rpc
+- description: Hyperion full-history API for the WAX chain — query historical actions, transactions, and state deltas at /v1/history/* and /v2/*.
+  name: WAX Hyperion History API
+  slug: wax-hyperion-history-api
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://wax.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.wax.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.wax.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.wax.io/build/dapp-development/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.wax.io/learn/about-wax/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/worldwide-asset-exchange
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.com/wax-io
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.wax.io
+- group: start
+  title: ''
+  type: SignUp
+  url: https://all-access.wax.io
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.wax.io/wcw-tos/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.wax.io/privacy-policy/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wax-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/wax-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wax-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wax-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wax-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wax-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wax-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wax-llms.txt
+created: '2026-07-17'
+description: WAX (Worldwide Asset eXchange) is a purpose-built, carbon-neutral layer-1 blockchain and protocol token for NFTs, blockchain gaming, and e-commerce, built as an Antelope (EOSIO fork) chain. Developers build dApps against the public Antelope Chain API (/v1/chain/*) and the Hyperion History API, and integrate the WAX Cloud Wallet through the official @waxio JavaScript SDKs (waxjs, sdk-react-native). Read RPC endpoints are unauthenticated; state changes are authorized by client-side secp256k1 transaction signatures rather than API keys or OAuth. WAX also operates microservices such as WAX Cloud Wallet, the WAX RNG oracle, and vIRL. Backed by Pantera Capital.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wax.png
+layout: provider
+modified: '2026-07-21'
+name: WAX
+nav: Providers
+network: true
+overview: 'WAX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, NFT, and Web3.
+
+
+  WAX''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 13 more developer resources.'
+random_paper: 30
+score:
+  band: thin
+  composite: 33.4
+  delta: 3.7
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 29.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Wax Authentication
+  slug: wax-authentication
+  summary_line: none/signature · 3 schemes
+- kind: domain-security
+  name: Wax Domain Security
+  slug: wax-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: wax
+tags:
+- Company
+- Crypto
+- Blockchain
+- NFT
+- Web3
+- Gaming
+- Antelope
+- Wallet
+website: https://wax.io/
+---

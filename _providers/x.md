@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: X Agentic Access
+  operation_count: 8
+  slug: x-agentic-access
+  summary_line: 8 operations · 2 acting
+api_count: 4
+apis:
+- description: Get immediate access to the X API and unlock the potential of X data.
+  name: X
+  slug: x
+- description: The Posts API from X — 4 operation(s) for posts.
+  name: X Posts API
+  slug: x-posts-api
+- description: The Trends API from X — 1 operation(s) for trends.
+  name: X Trends API
+  slug: x-trends-api
+- description: The Users API from X — 2 operation(s) for users.
+  name: X Users API
+  slug: x-users-api
+artifact_total: 10
+collections:
+- collection_type: open
+  name: X API v2
+  slug: open-x
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/x-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/x-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/twitter
+created: '2025-08-14'
+description: Get immediate access to the X API and unlock the potential of X data.
+finops:
+- name: X Finops
+  service_category: API
+  slug: x-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/x.png
+layout: provider
+modified: '2026-03-16'
+name: X
+nav: Providers
+network: true
+overview: 'X publishes 3 APIs on the [APIs.io](https://apis.io/) network: Posts API, Trends API, and Users API.
+
+
+  X''s developer surface includes authentication and 2 more developer resources.'
+plans:
+- name: X Plans Pricing
+  plan_count: 3
+  slug: x-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 5
+  name: X Rate Limits
+  slug: x-rate-limits
+score:
+  band: thin
+  composite: 31.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 51.3
+    developer_ergonomics: 10.9
+    discoverability: 42.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 31.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/screenshots/x-2026-06-20T201653.png
+security:
+- kind: authentication
+  name: X Authentication
+  slug: x-authentication
+  summary_line: http · 1 scheme
+slug: x
+---

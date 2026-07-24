@@ -1,0 +1,101 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/yesgraph-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/yesgraph-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/yesgraph-packages.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/yesgraph-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/yesgraph-lifecycle.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.yesgraph.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/yesgraph
+created: '2026-07-17'
+description: YesGraph was a San Francisco startup (YC W13) that provided a referral and contact-recommendation API. Its HTTP API and SDKs let mobile and web apps upload a user's address book and receive a machine-learning ranked list of which contacts a user should invite, powering smarter invite and referral flows. Founded by Ivan Kirigin (ex-Dropbox, ex-Facebook), YesGraph worked with companies including Airbnb, Atlassian, Gusto and Hired. In 2017 the team and its social-graph technology joined Lyft to strengthen Lyft's in-house referral program, and the public YesGraph API was deactivated on August 31, 2017. This profile documents the historical developer surface; the API is retired and no longer accepting traffic.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yesgraph.png
+layout: provider
+modified: '2026-07-21'
+name: YesGraph
+nav: Providers
+network: true
+overview: YesGraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Referrals, Recommendations, Contacts, and Social Graph.
+random_paper: 0
+score:
+  band: minimal
+  composite: 9.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 9.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Yesgraph Domain Security
+  slug: yesgraph-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: yesgraph
+tags:
+- Company
+- Referrals
+- Recommendations
+- Contacts
+- Social Graph
+- Growth
+- Machine Learning
+- Invitations
+website: https://www.yesgraph.com/
+---

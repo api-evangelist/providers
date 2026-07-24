@@ -1,0 +1,114 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/inductive-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://inductive.bio
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/inductive-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/inductive-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.inductive.bio/consortium
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/inductive-bio
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.inductive.bio/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://app.inductive.bio/login
+created: '2026-07-17'
+description: Inductive Bio is a New York-based AI drug discovery company building a virtual lab for small molecule optimization. It pairs medicinal chemists with AI to run millions of in silico ADMET experiments before synthesis. Its Beacon-1 models — trained on a pre-competitive, anonymized data consortium spanning thousands of drug programs — won consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET prediction competitions, beating 370+ submissions including entries from Merck and NVIDIA. Products include the Compass software platform (accessible via API), the Indy AI chemistry assistant, the ADME-One high-throughput profiling service, and Embedded Experts. Founded in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant; backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners, Character, and S32.
+image: https://cdn.prod.website-files.com/67fd80408c022fd8f406c6f7/6803dafa8e9822bfe4e9a943_OpenGraph.jpg
+layout: provider
+modified: '2026-07-19'
+name: Inductive
+nav: Providers
+network: true
+overview: 'Inductive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Drug Discovery, and Biotechnology.
+
+
+  Inductive''s developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 2
+score:
+  band: emerging
+  composite: 15.5
+  delta: 3.4
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 12.1
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 34.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Inductive Domain Security
+  slug: inductive-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: inductive
+tags:
+- Company
+- Artificial Intelligence
+- Machine Learning
+- Drug Discovery
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Chemistry
+- ADMET
+website: https://inductive.bio
+---

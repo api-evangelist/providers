@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://raft.github.io/
+- group: other
+  title: ''
+  type: Paper
+  url: https://raft.github.io/raft.pdf
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/raft
+created: '2025-01-01'
+description: Raft is a consensus algorithm for distributed systems designed to be understandable and provide the same guarantees as Paxos, used for distributed log replication and leader election in fault-tolerant systems.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raft.png
+layout: provider
+modified: '2026-04-28'
+name: Raft
+nav: Providers
+network: true
+overview: 'Raft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consensus, Distributed Systems, Raft, Algorithms, and Replication.
+
+
+  Raft''s developer surface includes documentation and 2 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 8.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/raft/refs/heads/main/screenshots/raft-2026-06-20T192522.png
+slug: raft
+tags:
+- Consensus
+- Distributed Systems
+- Raft
+- Algorithms
+- Replication
+---

@@ -1,0 +1,132 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
+  name: CloudHealth Platform API
+  slug: cloudhealth-platform-api
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cloudhealth-technologies-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://apidocs.cloudhealthtech.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.cloudhealthtech.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.broadcom.com/products/software/finops/cloudhealth
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.broadcom.com/products/software/finops/cloudhealth
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://techdocs.broadcom.com/us/en/vmware-tanzu/cloudhealth/tanzu-cloudhealth/saas/tnz-cloudhealth/index.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CloudHealth
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cloudhealth-technologies-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cloudhealth-technologies-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cloudhealth-technologies-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cloudhealth-technologies-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cloudhealth-technologies-llms.txt
+created: '2026-07-17'
+description: 'CloudHealth Technologies is a cloud financial management (FinOps) and multi-cloud governance platform, founded in Boston and backed by Kleiner Perkins before being acquired by VMware in 2018 and now sold as CloudHealth by Broadcom. The platform helps organizations analyze and optimize cloud cost, usage, security, and governance across AWS, Microsoft Azure, and Google Cloud. It exposes a public developer surface: a REST API (organized around resource-oriented URLs, JSON responses, and standard HTTP status codes) and a GraphQL API for programmatically retrieving and managing accounts, assets, perspectives, billing rules, metrics, reporting (OLAP reports), policies, tagging, SSO, and partner/organization administration. Authentication is via a per-user API Key presented as a bearer token or api_key query parameter, enforcing the same role and organization scoping as the platform UI.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudhealth-technologies.png
+layout: provider
+modified: '2026-07-18'
+name: CloudHealth Technologies
+nav: Providers
+network: true
+overview: 'CloudHealth Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cloud Cost Management, FinOps, and Cloud Governance.
+
+
+  CloudHealth Technologies'' developer surface includes documentation, API reference, pricing, getting-started guide, authentication, and 7 more developer resources.'
+random_paper: 46
+score:
+  band: emerging
+  composite: 19.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 37.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 19.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Cloudhealth Technologies Authentication
+  slug: cloudhealth-technologies-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Cloudhealth Technologies Domain Security
+  slug: cloudhealth-technologies-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: cloudhealth-technologies
+tags:
+- Company
+- Enterprise
+- Cloud Cost Management
+- FinOps
+- Cloud Governance
+- Multi-Cloud
+- Cloud Management Platform
+website: https://www.broadcom.com/products/software/finops/cloudhealth
+---

@@ -1,0 +1,166 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium (free trial)
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: true
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: GraphQL-based management API that powers the Grafbase Dashboard and enables programmatic control of organizations, projects, schemas, branches, and deployed graph endpoints. Accessible at api.grafbase
+  name: Grafbase Management API
+  slug: grafbase-management-api
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/grafbase-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/grafbase-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://grafbase.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://grafbase.com/docs
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/grafbase
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/grafbase
+- group: company
+  title: ''
+  type: Blog
+  url: https://grafbase.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://grafbase.com/pricing
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://grafbase.com/changelog
+- group: build
+  title: ''
+  type: CLI
+  url: https://grafbase.com/cli
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/grafbase
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/grafbase-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/grafbase-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/grafbase-finops.yml
+created: '2026-06-13'
+description: Grafbase is an enterprise GraphQL federation platform for building and deploying federated GraphQL APIs. It provides a high-performance Rust-powered gateway, schema registry, CLI, and a management API for programmatically controlling projects, schemas, branches, and deployed graph endpoints. The platform delivers enterprise-grade governance, observability, rate limiting, authentication, and AI agent integration via Model Context Protocol support.
+finops:
+- name: Grafbase Finops
+  service_category: ''
+  slug: grafbase-finops
+graphqls:
+- description: Grafbase provides a GraphQL-based Management API that powers the Grafbase Dashboard and enables programmatic control of all platform resources. The API exposes queries and mutations covering organizat
+  name: Grafbase GraphQL API
+  slug: grafbase-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grafbase.png
+jsonld:
+- class_count: 35
+  name: Grafbase Context
+  property_count: 9
+  slug: grafbase-context
+layout: provider
+modified: '2026-06-13'
+name: Grafbase
+nav: Providers
+network: true
+overview: 'Grafbase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Federation, API Gateway, Schema Registry, and GraphQL Federation.
+
+
+  The Grafbase catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Grafbase''s developer surface includes documentation, engineering blog, pricing, changelog, CLI, and 9 more developer resources.'
+plans:
+- name: Grafbase Plans Pricing
+  plan_count: 3
+  slug: grafbase-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Grafbase Rate Limits
+  slug: grafbase-rate-limits
+score:
+  band: emerging
+  composite: 29.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 15.1
+    developer_ergonomics: 17.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 29.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/grafbase/refs/heads/main/screenshots/grafbase-2026-06-20T182315.png
+security:
+- kind: domain-security
+  name: Grafbase Domain Security
+  slug: grafbase-domain-security
+  summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Grafbase Vulnerability Disclosure
+  slug: grafbase-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: grafbase
+tags:
+- GraphQL
+- Federation
+- API Gateway
+- Schema Registry
+- GraphQL Federation
+- API Management
+- Observability
+- Enterprise API
+website: https://grafbase.com
+---

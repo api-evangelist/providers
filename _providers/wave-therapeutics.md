@@ -1,0 +1,82 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://wavetherapeuticsinc.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://wavetherapeuticsinc.com/wave-blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://wavetherapeuticsinc.com/feed/
+created: '2026-07-17'
+description: Wave Therapeutics is a healthtech medical-device company founded in 2017 and headquartered in Nashville, Indiana, and backed by Techstars (Future of Longevity). It develops active therapeutic cushioning that helps prevent pressure injuries (bedsores) and reduce blood-clot risk, led by a microprocessor-controlled peristaltic-pump wheelchair cushion paired with monitoring analytics, with a planned fleet of products spanning mattress toppers and consumer seating. Wave Therapeutics is a hardware and clinical-device business and publishes no public developer API, SDK, or developer portal; this profile was surfaced as a Techstars portfolio lead and enriched by the API Evangelist pipeline, which confirmed no API surface exists.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wave-therapeutics.png
+layout: provider
+modified: '2026-07-21'
+name: Wave Therapeutics
+nav: Providers
+network: true
+overview: 'Wave Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Digital Health, and Longevity.
+
+
+  Wave Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: wave-therapeutics
+tags:
+- Company
+- Medical Devices
+- MedTech
+- Digital Health
+- Longevity
+- Pressure Injury Prevention
+- Techstars
+website: https://wavetherapeuticsinc.com/
+---

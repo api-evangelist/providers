@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/claros-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/claros-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://claros.tech
+- group: company
+  title: ''
+  type: About
+  url: https://claros.tech/about-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://claros.tech/the-conduit/
+- group: company
+  title: ''
+  type: Careers
+  url: https://claros.tech/careers/
+- group: operate
+  title: ''
+  type: Support
+  url: https://claros.tech/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://claros.tech/privacy/
+created: '2026-07-17'
+description: 'Claros is a data center power delivery company reimagining how energy moves from chip to grid for AI and high-performance computing infrastructure. Based in Torrance, California with an office in McLean, Virginia, the company builds two hardware-and-software product lines: an Integrated Voltage Regulator (IVR) that targets the roughly 40 percent of chip power lost to heat at the point of delivery, and a Power Gateway that manages broader data center power distribution where 30 to 50 percent of power is lost to transmission, conversion, and cooling. Claros is an early-stage hardware company backed by General Catalyst and Red Cell Partners; its founding team collectively holds 286 patents and has brought more than 80 gigawatts of projects to market. As of 2026 it is pre-product (prototypes in development, engineering samples planned for 2026, low-volume production 2027, high-volume scale 2028) and publishes no developer API, SDK, or public documentation surface yet — this profile
+  captures its public identity for the API Evangelist network.'
+image: https://claros.tech/wp-content/uploads/2024/09/Claros-Wordmark-Mobile.png
+layout: provider
+modified: '2026-07-18'
+name: Claros
+nav: Providers
+network: true
+overview: 'Claros is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Center, Power Management, Energy Efficiency, and AI Infrastructure.
+
+
+  Claros'' developer surface includes engineering blog, support, and 6 more developer resources.'
+random_paper: 32
+score:
+  band: minimal
+  composite: 10.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Claros Domain Security
+  slug: claros-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: claros
+tags:
+- Company
+- Data Center
+- Power Management
+- Energy Efficiency
+- AI Infrastructure
+- Hardware
+- Semiconductors
+- Sustainability
+website: https://claros.tech
+---

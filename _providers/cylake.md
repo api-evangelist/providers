@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cylake-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://cylake.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://cylake.com/resources/
+- group: operate
+  title: ''
+  type: Support
+  url: https://cylake.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://cylake.com/privacy-policy/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cylake-ai/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/CylakeAI
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@Cylake_AI
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://cylake.substack.com/
+created: '2026-07-17'
+description: Cylake is an AI-native cybersecurity company founded in 2026 by Nir Zuk, Wilson Xu, and Ehud (Udi) Shamir — veterans of Palo Alto Networks — to deliver complete, data-driven security for the world's largest and most regulated organizations that require total data sovereignty. Its platform combines hardware and software with agentic workflows on a single, sovereign data foundation, running on-premises or in a private cloud with no dependence on public cloud or external AI services. Cylake launched publicly in March 2026 with a $45M seed round led by Greylock Partners (with IQT participating), is being built alongside several design partners, and plans general availability in early 2027. As of this writing Cylake does not publish a public API, developer portal, or SDKs — this profile tracks the company's identity and public surface pending an API program.
+image: https://cylake.com/wp-content/uploads/2026/02/pexels-photo-1439227-1.jpeg
+layout: provider
+modified: '2026-07-18'
+name: Cylake
+nav: Providers
+network: true
+overview: 'Cylake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, AI, and Data Sovereignty.
+
+
+  Cylake''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 10.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cylake Domain Security
+  slug: cylake-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: cylake
+tags:
+- Company
+- Cybersecurity
+- Security
+- AI
+- Data Sovereignty
+- On-Premises
+- Endpoint Security
+- Regulated Industries
+website: https://cylake.com/
+---

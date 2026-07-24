@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://wiredscore.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://wiredscore.com/resources/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://wiredscore.com/sign-up/
+- group: operate
+  title: ''
+  type: Support
+  url: https://wiredscore.com/about-us/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://wiredscore.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://wiredscore.com/privacy-policy/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wiredscore-domain-security.yml
+created: '2026-07-17'
+description: WiredScore is the global standard-setting organization for digital connectivity and smart technology in the built environment. It assesses, benchmarks, and certifies buildings through two programs — WiredScore (digital connectivity) and SmartScore (smart building technology) — across office, residential, industrial, and hotel asset types. Landlords, developers, and occupiers in more than 40 countries use its certifications and its network of Accredited Professionals to demonstrate that a building meets modern technology and connectivity expectations; over 4,000 buildings covering roughly one billion square feet have been certified. WiredScore is a portfolio company of Bessemer Venture Partners and Fifth Wall. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, or SDK surface.
+image: https://wiredscore.com/wp-content/uploads/2021/01/tile-wide.png
+layout: provider
+modified: '2026-07-21'
+name: WiredScore
+nav: Providers
+network: true
+overview: 'WiredScore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and Building Certification.
+
+
+  WiredScore''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
+random_paper: 8
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Wiredscore Domain Security
+  slug: wiredscore-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: wiredscore
+tags:
+- Company
+- Vertical Software
+- Real Estate
+- PropTech
+- Building Certification
+- Smart Buildings
+- Digital Connectivity
+- Sustainability
+website: https://wiredscore.com/en/
+---

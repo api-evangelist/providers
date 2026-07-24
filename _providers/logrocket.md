@@ -1,0 +1,252 @@
+---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Logrocket Agentic Access
+  operation_count: 5
+  slug: logrocket-agentic-access
+  summary_line: 5 operations · 3 acting
+api_count: 4
+apis:
+- description: LogRocket GraphQL API for querying session, event, error, and analytics data with flexible field selection.
+  name: LogRocket GraphQL API
+  slug: logrocket-graphql-api
+- description: Retrieve exported session data files from storage buckets.
+  name: LogRocket Data Export API
+  slug: logrocket-data-export-api
+- description: Access Galileo AI-generated session highlights and summaries.
+  name: LogRocket Highlights API
+  slug: logrocket-highlights-api
+- description: Manage user identification and traits for session context.
+  name: LogRocket Users API
+  slug: logrocket-users-api
+artifact_total: 32
+asyncapis:
+- description: The LogRocket Galileo Highlights webhook delivers AI-generated session highlights to a customer-specified URL when processing completes. When a highlights request includes a webhookURL parameter, LogR
+  name: LogRocket Galileo Highlights Webhook
+  slug: logrocket-highlights-webhook-asyncapi
+collections:
+- collection_type: open
+  name: LogRocket GraphQL API
+  slug: open-logrocket-graphql-api
+- collection_type: open
+  name: LogRocket REST API
+  slug: open-logrocket-rest-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/logrocket-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/logrocket-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/logrocket-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/logrocket-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/LogRocket
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/logrocket
+- group: company
+  title: ''
+  type: Website
+  url: https://logrocket.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.logrocket.com/reference
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/logrocket-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/logrocket-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/logrocket-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.logrocket.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.logrocket.com/feed/
+created: '2026-05-08'
+description: LogRocket is a session replay, product analytics, and frontend monitoring platform that captures user sessions, errors, and performance data.
+finops:
+- name: Logrocket Finops
+  service_category: Observability
+  slug: logrocket-finops
+graphqls:
+- description: LogRocket GraphQL API for querying session, event, error, and analytics data with flexible field selection.
+  name: LogRocket GraphQL API
+  slug: logrocket-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logrocket.png
+json_schemas:
+- name: LogRocket Data Export Record
+  property_count: 8
+  slug: logrocket-data-export
+- name: DataExportResponse
+  property_count: 2
+  slug: logrocket-dataexportresponse
+- name: ExportedSession
+  property_count: 1
+  slug: logrocket-exportedsession
+- name: GraphQLError
+  property_count: 4
+  slug: logrocket-graphqlerror
+- name: GraphQLRequest
+  property_count: 3
+  slug: logrocket-graphqlrequest
+- name: GraphQLResponse
+  property_count: 2
+  slug: logrocket-graphqlresponse
+- name: HighlightsRequest
+  property_count: 4
+  slug: logrocket-highlightsrequest
+- name: HighlightsResponse
+  property_count: 4
+  slug: logrocket-highlightsresponse
+- name: HighlightsResult
+  property_count: 2
+  slug: logrocket-highlightsresult
+- name: LogRocket Session
+  property_count: 20
+  slug: logrocket-session
+- name: SessionHighlight
+  property_count: 2
+  slug: logrocket-sessionhighlight
+- name: User
+  property_count: 4
+  slug: logrocket-user
+- name: UserIdentificationRequest
+  property_count: 3
+  slug: logrocket-useridentificationrequest
+json_structures:
+- name: Logrocket Structure
+  property_count: 0
+  slug: logrocket-structure
+jsonld:
+- class_count: 0
+  name: Logrocket Context
+  property_count: 6
+  slug: logrocket-context
+layout: provider
+modified: '2026-05-19'
+name: LogRocket
+nav: Providers
+network: true
+overview: 'LogRocket publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Data Export API, Highlights API, and 1 more. Tagged areas include Session Replay, Product Analytics, Frontend Monitoring, Logging, and Errors.
+
+
+  The LogRocket catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+
+
+  LogRocket''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+plans:
+- name: Logrocket Plans Pricing
+  plan_count: 1
+  slug: logrocket-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 1
+  name: Logrocket Rate Limits
+  slug: logrocket-rate-limits
+rules:
+- name: LogRocket API Rules
+  rule_count: 3
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 1
+  slug: logrocket-asyncapi-spectral-rules
+- name: LogRocket API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: logrocket-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 43.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 75.2
+    developer_ergonomics: 21.7
+    discoverability: 55.0
+    governance: 34.2
+    operational_transparency: 26.3
+  previous_composite: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/screenshots/logrocket-2026-06-20T184701.png
+security:
+- kind: authentication
+  name: Logrocket Authentication
+  slug: logrocket-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Logrocket Domain Security
+  slug: logrocket-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Logrocket Trust Center
+  slug: logrocket-trust-center
+  summary_line: SOC 2, GDPR
+slug: logrocket
+tags:
+- Session Replay
+- Product Analytics
+- Frontend Monitoring
+- Logging
+- Errors
+website: https://logrocket.com/
+---

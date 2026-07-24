@@ -1,0 +1,225 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Lmnt Agentic Access
+  operation_count: 14
+  slug: lmnt-agentic-access
+  summary_line: 14 operations · 8 acting
+api_count: 4
+apis:
+- description: WebSocket-based real-time speech generation API for streaming LLM text output to synthesized audio with reset-latency support for conversational AI applications requiring interrupt handling.
+  name: LMNT Speech Sessions API
+  slug: lmnt-speech-sessions-api
+- description: The Ai API from LMNT — 8 operation(s) for ai.
+  name: LMNT Ai API
+  slug: lmnt-ai-api
+- description: The Health Check API from LMNT — 1 operation(s) for health check.
+  name: LMNT Health Check API
+  slug: lmnt-health-check-api
+- description: The Speech API from LMNT — 2 operation(s) for speech.
+  name: LMNT Speech API
+  slug: lmnt-speech-api
+artifact_total: 17
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/lmnt-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/lmnt-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lmnt-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/lmnt-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lmnt.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.lmnt.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lmnt-com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lmnt
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/lmnt_com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.lmnt.com/pricing
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.lmnt.com/changelog/overview
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lmnt-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lmnt-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lmnt-finops.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/lmnt-speech-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/lmnt-voice-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/lmnt-speech-synthesis-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/lmnt-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/lmnt-vocabulary.yml
+created: 2026-06-12
+description: LMNT is a text-to-speech API platform delivering ultra-low latency voice synthesis with streaming audio output designed for real-time conversational AI applications. The platform provides a Speech API for standard text-to-speech generation and a Speech Sessions API for WebSocket-based real-time streaming integrated with LLM pipelines, achieving latency under 300 milliseconds. LMNT supports 31 languages and offers voice cloning from as little as five seconds of audio, with its Blizzard 2 model optimized for accuracy, expressiveness, and pronunciation. Authentication uses API keys managed via the app dashboard, with SDKs available for Python, TypeScript, and Go.
+examples:
+- key_count: 7
+  name: Lmnt Speech Synthesis Request
+  slug: lmnt-speech-synthesis-request
+- key_count: 1
+  name: Lmnt Voice List Response
+  slug: lmnt-voice-list-response
+finops:
+- name: Lmnt Finops
+  service_category: ''
+  slug: lmnt-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lmnt.png
+json_schemas:
+- name: LMNT Speech Synthesis Request
+  property_count: 11
+  slug: lmnt-speech-synthesis
+- name: LMNT Voice
+  property_count: 10
+  slug: lmnt-voice
+jsonld:
+- class_count: 0
+  name: Lmnt Context
+  property_count: 24
+  slug: lmnt-context
+layout: provider
+modified: 2026-06-12
+name: LMNT
+nav: Providers
+network: true
+overview: 'LMNT publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ai API, Health Check API, and Speech API. Tagged areas include text-to-speech, voice synthesis, voice cloning, audio streaming, and conversational AI.
+
+
+  The LMNT catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  LMNT''s developer surface includes authentication, documentation, pricing, changelog, and 15 more developer resources.'
+plans:
+- name: Lmnt Plans Pricing
+  plan_count: 5
+  slug: lmnt-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 0
+  name: Lmnt Rate Limits
+  slug: lmnt-rate-limits
+rules:
+- name: LMNT API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: lmnt-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 53.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 59.0
+    developer_ergonomics: 19.6
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 21.1
+  previous_composite: 53.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/screenshots/lmnt-2026-06-20T184626.png
+security:
+- kind: authentication
+  name: Lmnt Authentication
+  slug: lmnt-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Lmnt Domain Security
+  slug: lmnt-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Lmnt Trust Center
+  slug: lmnt-trust-center
+  summary_line: SOC 2
+slug: lmnt
+tags:
+- text-to-speech
+- voice synthesis
+- voice cloning
+- audio streaming
+- conversational AI
+- low latency
+- real-time audio
+website: https://www.lmnt.com/
+---

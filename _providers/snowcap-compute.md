@@ -1,0 +1,89 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/snowcap-compute-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.snowcapcompute.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/snowcapcompute/
+- group: company
+  title: ''
+  type: Careers
+  url: https://jobs.snowcapcompute.com
+created: '2026-07-17'
+description: Snowcap Compute is building the world's first commercial superconducting computing platform, operating at 4.5 Kelvin to deliver breakthrough energy efficiency and performance for AI and data-center workloads. Launched in June 2025 with $23 million in seed funding led by Playground Global, the company is developing superconducting chips and systems aimed at the next era of AI and quantum-adjacent compute. As a hardware and deep-tech company it publishes a marketing and careers presence but no public API, developer portal, or SDK at this time.
+image: https://www.snowcapcompute.com/img/webp/snowcap_webclip.webp
+layout: provider
+modified: '2026-07-21'
+name: Snowcap Compute
+nav: Providers
+network: true
+overview: Snowcap Compute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compute, Superconducting, Semiconductor, and Hardware.
+random_paper: 43
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Snowcap Compute Domain Security
+  slug: snowcap-compute-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: snowcap-compute
+tags:
+- Company
+- Compute
+- Superconducting
+- Semiconductor
+- Hardware
+- Artificial Intelligence
+- Data Center
+- Deep Tech
+website: https://www.snowcapcompute.com/
+---

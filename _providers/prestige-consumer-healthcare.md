@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Prestige Consumer Healthcare API provides access to platform services and data for enterprise integration and automation.
+  name: Prestige Consumer Healthcare API
+  slug: prestige-consumer-healthcare-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/prestige-consumer-healthcare-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/prestige-consumer-healthcare
+- group: company
+  title: ''
+  type: Website
+  url: https://www.prestigeconsumerhealthcare.com
+created: '2026-04-19'
+description: Prestige Consumer Healthcare is a major US corporation and Fortune 1000 company. The Prestige Consumer Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+finops:
+- name: Prestige Consumer Healthcare Finops
+  service_category: Consumer Healthcare
+  slug: prestige-consumer-healthcare-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prestige-consumer-healthcare.png
+layout: provider
+modified: '2026-04-19'
+name: Prestige Consumer Healthcare
+nav: Providers
+network: true
+overview: Prestige Consumer Healthcare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Healthcare and OTC.
+plans:
+- name: Prestige Consumer Healthcare Plans Pricing
+  plan_count: 1
+  slug: prestige-consumer-healthcare-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 1
+  name: Prestige Consumer Healthcare Rate Limits
+  slug: prestige-consumer-healthcare-rate-limits
+score:
+  band: emerging
+  composite: 16.0
+  delta: -0.5
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 16.5
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/screenshots/prestige-consumer-healthcare-2026-06-20T192052.png
+security:
+- kind: domain-security
+  name: Prestige Consumer Healthcare Domain Security
+  slug: prestige-consumer-healthcare-domain-security
+  summary_line: TLSv1.3
+slug: prestige-consumer-healthcare
+tags:
+- Consumer Healthcare
+- OTC
+website: https://www.prestigeconsumerhealthcare.com
+---

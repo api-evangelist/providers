@@ -1,0 +1,127 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
+  name: Pump.fun On-Chain Program (Solana)
+  slug: onchain-program
+- description: PumpSwap is Pump.fun's native automated market maker on Solana that hosts liquidity for graduated tokens. Integrators trade and provide liquidity by calling the on-chain program from Solana clients.
+  name: PumpSwap AMM
+  slug: pumpswap
+- description: Open-source TypeScript SDK wrapping the Pump.fun Solana program - create-token, buy, sell, and bonding-curve math. Widely used as the de-facto client because Pump.fun does not publish an official SDK.
+  name: pump-fun-sdk (Community TypeScript SDK)
+  slug: pump-fun-sdk
+- description: 'Pump.fun activity is most commonly consumed via third-party data providers that index Solana - Bitquery, Helius, Jupiter, Tatum, and similar. These expose REST and GraphQL queries over Pump.fun token '
+  name: Third-Party Pump.fun Indexers
+  slug: third-party-indexers
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/pump-fun-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pump-fun-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://pump.fun/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/pumpdotfun
+- group: other
+  title: ''
+  type: Telegram
+  url: https://t.me/pumpdotfun
+created: '2026-05-23'
+description: Pump.fun is a Solana-based memecoin launchpad and livestreaming platform that lets anyone deploy a token with a bonding-curve market in seconds; tokens that reach a target market cap graduate to PumpSwap, the project's own AMM. The project does not publish a formally documented public REST API - the canonical integration surface is the on-chain Solana programs for token creation, bonding-curve trades, and PumpSwap liquidity, plus the open-source pump-fun-sdk client. Most "Pump.fun APIs" used in the wider ecosystem are third-party indexers (Bitquery, Helius, Jupiter, Tatum) wrapping that on-chain activity.
+finops:
+- name: Pump Fun Finops
+  service_category: API
+  slug: pump-fun-finops
+graphqls:
+- description: ''
+  name: Pump.fun GraphQL API
+  slug: pump-fun-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pump-fun.png
+layout: provider
+modified: '2026-05-23'
+name: Pump.fun
+nav: Providers
+network: true
+overview: Pump.fun publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Livestreaming.
+plans:
+- name: Pump Fun Plans Pricing
+  plan_count: 1
+  slug: pump-fun-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 2
+  name: Pump Fun Rate Limits
+  slug: pump-fun-rate-limits
+score:
+  band: emerging
+  composite: 18.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 18.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
+security:
+- kind: domain-security
+  name: Pump Fun Domain Security
+  slug: pump-fun-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Pump Fun Vulnerability Disclosure
+  slug: pump-fun-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: pump-fun
+tags:
+- Solana
+- Memecoin
+- Launchpad
+- AMM
+- Livestreaming
+- DeFi
+- Crypto
+website: https://pump.fun/
+---

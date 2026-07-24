@@ -1,0 +1,216 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 43.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
+  name: Gigstack API
+  slug: gigstack-api
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: Gigstack Webhooks
+  slug: gigstack-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gigstack-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gigstack.pro
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.gigstack.pro
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.gigstack.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.gigstack.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.gigstack.io/welcome-to-gigstack-api-1385870m0
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.gigstack.pro/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://helpcenter.gigstack.pro/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hola@gigstack.pro
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.gigstack.pro/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.gigstack.pro/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pro-gigstack.s3.us-east-2.amazonaws.com/legal/terms.pdf
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://pro-gigstack.s3.us-east-2.amazonaws.com/legal/privacy.pdf
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/disruptive-learning
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gigstack-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/gigstack-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gigstack-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/gigstack-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gigstack-error-codes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/gigstack-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gigstack-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/gigstack-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gigstack-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gigstack-mcp.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/gigstack-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/gigstack-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gigstack-conformance.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/gigstack-components.yml
+created: '2026-07-17'
+description: Gigstack (gigstack.pro) is a Mexican fintech and revenue-automation platform that automates electronic invoicing and tax compliance for businesses operating in Mexico. It generates CFDI 4.0 fiscal invoices through the SAT/PAC stamping pipeline, runs collections (cobranza) and accounts-receivable workflows, offers self-invoicing (autofactura) and customer portals, and performs automated SAT reconciliation and bulk SAT downloads (descarga masiva). Its REST API (v2, https://api.gigstack.io/v2) exposes clients, services, invoices (income/egress/draft/payment-complement), payments, receipts, retentions, teams, users, webhooks and SAT catalogs, with an official CLI and MCP server for terminal and agent workflows. Backed by 500 Global.
+image: https://gigstack.pro/images/webclip.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: Official gigstack MCP server
+  slug: official-gigstack-mcp-server
+modified: '2026-07-19'
+name: Gigstack
+nav: Providers
+network: true
+overview: 'Gigstack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Invoicing, CFDI, and SAT.
+
+
+  The Gigstack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
+random_paper: 29
+score:
+  band: thin
+  composite: 41.5
+  delta: 2.2
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 22.6
+    developer_ergonomics: 73.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 39.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Gigstack Authentication
+  slug: gigstack-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Gigstack Domain Security
+  slug: gigstack-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: gigstack
+tags:
+- Company
+- Fintech
+- Invoicing
+- CFDI
+- SAT
+- Tax Compliance
+- Payments
+- Billing
+- Collections
+- Mexico
+- Accounts Receivable
+website: https://gigstack.pro
+---

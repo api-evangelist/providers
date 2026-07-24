@@ -1,0 +1,70 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Payworks was a Munich-based payment-infrastructure company backed by Speedinvest, building a mobile point-of-sale (mPOS) payment-gateway platform that let acquirers, PSPs and ISVs turn commodity smartphones and tablets into card-accepting terminals via a developer SDK and gateway. It was acquired by Visa in 2019 and its technology was folded into Visa's acceptance/CyberSource stack, after which the independent Payworks brand was wound down. As of this enrichment pass the company operates no active independent public developer surface — its primary domains are dormant (payworks.com resolves to a parked AWS S3 redirect bucket with no website configuration; payworks.de is a domain-for-sale parking page) and no docs/developer/api subdomains resolve — so there is no live OpenAPI, SDK, or documentation surface to harvest into the network. This profile is retained as a historical Speedinvest portfolio record.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payworks.png
+layout: provider
+modified: '2026-07-20'
+name: Payworks
+nav: Providers
+network: true
+overview: Payworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Point of Sale, Payment Gateway, and Fintech.
+random_paper: 29
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: payworks
+tags:
+- Company
+- Payments
+- Point of Sale
+- Payment Gateway
+- Fintech
+- mPOS
+- Acquired
+---

@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/forward-earth-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://forward-earth.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://forward-earth.com/resources
+- group: operate
+  title: ''
+  type: Support
+  url: https://forward-earth.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://forward-earth.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://forward-earth.com/privacy-policy
+created: '2026-07-17'
+description: Forward Earth is a Berlin-based climate technology company building AI-automated carbon management software that helps businesses measure, track, and reduce their carbon footprint in line with environmental regulation. Its platform covers Corporate Carbon Footprint (CCF) accounting certified to the GHG Protocol, Product Carbon Footprint (PCF) calculation, and Carbon Border Adjustment Mechanism (CBAM) compliance reporting, with an emphasis on automating data collection and emissions calculation to save time and cost. Forward Earth also offers a white-label / partner offering that embeds its carbon management capabilities into GRC, ESG, supply-chain, and consultancy software, exposing environmental and partner-specific APIs plus single sign-on through a sandbox that partners access on request. The company is backed by Speedinvest and is moving toward agent-native product carbon footprinting.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forward-earth.png
+layout: provider
+modified: '2026-07-19'
+name: Forward Earth
+nav: Providers
+network: true
+overview: 'Forward Earth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Management, Sustainability, ESG, and Carbon Accounting.
+
+
+  Forward Earth''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 8
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Forward Earth Domain Security
+  slug: forward-earth-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: forward-earth
+tags:
+- Company
+- Carbon Management
+- Sustainability
+- ESG
+- Carbon Accounting
+- Climate Tech
+- CBAM
+- CSRD
+- GHG Protocol
+- Emissions
+website: https://forward-earth.com
+---

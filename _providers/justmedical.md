@@ -1,0 +1,77 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://justmedical.cn
+created: '2026-07-17'
+description: JUST Medical Devices (Tianjin) Co., Ltd. (嘉思特医疗器材（天津）股份有限公司) is a Chinese orthopedic medical device manufacturer based in Tianjin, China, and a portfolio company of Qiming Venture Partners. The company designs and produces joint replacement implants and orthopedic prosthetics, applying 3D printing and additive manufacturing to hip, knee, and other joint reconstruction systems. Its public presence at justmedical.cn is a corporate marketing website (built on the Faisco/fkw.com site builder); the company publishes no developer program, API, SDK, or machine-readable API surface. This profile is retained as a company identity record in the API Evangelist network rather than an API provider entry.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/justmedical.png
+layout: provider
+modified: '2026-07-19'
+name: justmedical
+nav: Providers
+network: true
+overview: justmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Orthopedics, and Medical.
+random_paper: 0
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: justmedical
+tags:
+- Company
+- Medical Devices
+- Healthcare
+- Orthopedics
+- Medical
+- Manufacturing
+- 3D Printing
+- China
+website: https://justmedical.cn
+---

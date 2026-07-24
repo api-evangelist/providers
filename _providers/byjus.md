@@ -1,0 +1,82 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/byjus-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://byjus.com
+created: '2026-07-17'
+description: Byju's is an Indian educational technology company founded in 2011 by Byju Raveendran and Divya Gokulnath and headquartered in Bengaluru, India. It offered app-based adaptive learning for K-12 students and preparation for competitive exams such as JEE, NEET, and civil services, and expanded through acquisitions including Aakash, WhiteHat Jr, Toppr, Osmo, Epic, and Great Learning. Once among the world's most valuable edtech startups, the company entered insolvency proceedings in India following a widely reported financial collapse. Byju's does not publish a public developer program or API; this profile is maintained in the API Evangelist network as a company record awaiting any future developer surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/byjus.png
+layout: provider
+modified: '2026-07-18'
+name: Byjus
+nav: Providers
+network: true
+overview: Byjus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, E-Learning, and Online Learning.
+random_paper: 47
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Byjus Domain Security
+  slug: byjus-domain-security
+  summary_line: DMARC
+slug: byjus
+tags:
+- Company
+- Edtech
+- Education
+- E-Learning
+- Online Learning
+- Tutoring
+- Test Prep
+- India
+- Learning App
+website: https://byjus.com
+---

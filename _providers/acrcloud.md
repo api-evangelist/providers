@@ -1,0 +1,165 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 13
+  human_in_the_loop: 0
+  name: Acrcloud Agentic Access
+  operation_count: 21
+  slug: acrcloud-agentic-access
+  summary_line: 21 operations · 13 acting
+api_count: 6
+apis:
+- description: Upload and manage audio files and fingerprints within a bucket.
+  name: ACRCloud Audio Files API
+  slug: acrcloud-audio-files-api
+- description: Manage broadcast-database monitoring projects and result callbacks.
+  name: ACRCloud Broadcast Monitoring API
+  slug: acrcloud-broadcast-monitoring-api
+- description: Manage custom recognition buckets.
+  name: ACRCloud Buckets API
+  slug: acrcloud-buckets-api
+- description: Manage file-scanning containers that detect content from buckets.
+  name: ACRCloud File Scanning API
+  slug: acrcloud-file-scanning-api
+- description: Recognize music, custom audio, and humming from a sample or fingerprint.
+  name: ACRCloud Identification API
+  slug: acrcloud-identification-api
+- description: Look up enriched third-party music metadata.
+  name: ACRCloud Metadata API
+  slug: acrcloud-metadata-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: ACRCloud API
+  slug: open-acrcloud
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/acrcloud-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/acrcloud-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/acrcloud-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/acrcloud
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/acrcloud
+- group: company
+  title: ''
+  type: Website
+  url: https://www.acrcloud.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.acrcloud.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acrcloud-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acrcloud-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/acrcloud-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://acrcloud.com/blog
+created: '2026-06-21'
+description: ACRCloud provides automatic content recognition (ACR) APIs for music and audio. The HMAC-signed Identification API recognizes music, custom audio, live channels, and humming from short audio samples or fingerprints, while the bearer-token Console and Metadata APIs manage buckets, file-scanning containers, broadcast-monitoring projects, and rich third-party music metadata.
+finops:
+- name: Acrcloud Finops
+  service_category: AI and Machine Learning
+  slug: acrcloud-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acrcloud.png
+layout: provider
+modified: '2026-06-21'
+name: ACRCloud
+nav: Providers
+network: true
+overview: 'ACRCloud publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio Files API, Broadcast Monitoring API, Buckets API, and 3 more. Tagged areas include Audio, Music Recognition, Audio Fingerprinting, Broadcast Monitoring, and Metadata.
+
+
+  ACRCloud''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+plans:
+- name: Acrcloud Plans Pricing
+  plan_count: 5
+  slug: acrcloud-plans-pricing
+random_paper: 29
+rate_limits:
+- limit_count: 5
+  name: Acrcloud Rate Limits
+  slug: acrcloud-rate-limits
+score:
+  band: thin
+  composite: 36.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 51.3
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Acrcloud Authentication
+  slug: acrcloud-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Acrcloud Domain Security
+  slug: acrcloud-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: acrcloud
+tags:
+- Audio
+- Music Recognition
+- Audio Fingerprinting
+- Broadcast Monitoring
+- Metadata
+website: https://www.acrcloud.com
+---

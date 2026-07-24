@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/uni-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.uni.cards/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.uni.cards/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.uni.cards/faq
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.uni.cards/docs/Uni_Terms_and_Conditions_and_Privacy_Policy.pdf
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uni.cards/privacy-policy-main
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.uni.cards/apply
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Uni-Cards
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/uni-llms.txt
+created: '2026-07-17'
+description: Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta, Prateek Jindal, and Laxmikant Vyas that delivers clutter-breaking credit products to consumers in India, including pay-later style credit cards and flexible repayment products. Uni is backed by Lightspeed Venture Partners and General Catalyst. The company is a consumer-facing app-first business and does not currently publish a public developer portal or API surface.
+image: https://webcdn.uni.club/images/favicon-48.png
+layout: provider
+modified: '2026-07-21'
+name: Uni
+nav: Providers
+network: true
+overview: 'Uni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Credit, Credit Cards, and Consumer Finance.
+
+
+  Uni''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
+random_paper: 26
+score:
+  band: emerging
+  composite: 17.8
+  delta: 2.2
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Uni Domain Security
+  slug: uni-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: uni
+tags:
+- Company
+- FinTech
+- Credit
+- Credit Cards
+- Consumer Finance
+- Payments
+- India
+website: https://www.uni.cards/
+---

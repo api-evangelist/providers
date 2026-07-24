@@ -1,0 +1,82 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/osyva-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://osyva.com
+created: '2026-07-17'
+description: Osyva is a B2B commerce and procurement platform for the veterinary supply sector in Colombia and Latin America ("Gestiona tus compras veterinarias"), connecting veterinary clinics, distributors, and buyers to manage the ordering and purchasing of veterinary products and pharmaceuticals. Backed by 500 Global, Osyva runs a web and mobile application (osyva.com, osyva2go.com) and the related Hubu brand (hubu.com.co). Its platform is powered by internal API hosts (api.osyva.com, api.osyva2go.com), but as of this profile it publishes no public developer portal, documentation, or API specification, so its API surface is private.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osyva.png
+layout: provider
+modified: '2026-07-20'
+name: Osyva
+nav: Providers
+network: true
+overview: Osyva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Veterinary, B2B Commerce, Procurement, and E-Commerce.
+random_paper: 1
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Osyva Domain Security
+  slug: osyva-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: osyva
+tags:
+- Company
+- Veterinary
+- B2B Commerce
+- Procurement
+- E-Commerce
+- Distribution
+- Agtech
+- Latin America
+- Colombia
+website: https://osyva.com
+---

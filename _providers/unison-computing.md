@@ -1,0 +1,188 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 29.8
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The API powering the Unison Share web application, including the APIs for syncing code with UCM and browsing projects, branches, and definitions. Unison Share also acts as the OAuth2 (with PKCE) and O
+  name: Unison Share API
+  slug: unison-share-api
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/unison-computing-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.unison-lang.org/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.unison.cloud
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.unison-lang.org/docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.unison-lang.org/docs/at-a-glance/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.unison-lang.org/community/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unison-lang.org/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/unisonweb
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.unison.cloud/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.unison.cloud/signup/?plan=Free
+- group: start
+  title: ''
+  type: Login
+  url: https://app.unison.cloud
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unison.cloud/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unison.cloud/privacy-policy/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unison-computing-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/unison-computing-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/unison-computing-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unison-computing-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unison-computing-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unison-computing-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unison-computing-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/unison-computing-authentication.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/unison-computing-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/unison-computing-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/unison-computing-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Unison Computing, PBC is a public benefit corporation building the Unison programming language, Unison Cloud, and Unison Share. Unison is a statically-typed functional language where code is content-addressed and immutable; Unison Cloud deploys Unison services to the cloud with a function call, with typed service-to-service calls and typed durable storage; Unison Share is the community code host and package registry. Unison Share's open-source backend also serves as the OAuth2 (PKCE) and OpenID Connect authentication server for UCM and Unison Cloud, and UCM ships a built-in MCP server plus official LLM coding-assistant instructions for AI agents.
+image: https://github.com/unisonweb.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: unison-computing-mcp.yml
+  slug: unison-computing-mcpyml
+modified: '2026-07-21'
+name: Unison Computing
+nav: Providers
+network: true
+overview: 'Unison Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Programming Languages, Cloud Computing, Developer Tools, and Functional Programming.
+
+
+  Unison Computing''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+random_paper: 12
+score:
+  band: thin
+  composite: 37.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Unison Computing Authentication
+  slug: unison-computing-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Unison Computing Domain Security
+  slug: unison-computing-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: unison-computing
+tags:
+- Company
+- Programming Languages
+- Cloud Computing
+- Developer Tools
+- Functional Programming
+- Distributed Systems
+- Platform as a Service
+website: https://www.unison-lang.org/
+---

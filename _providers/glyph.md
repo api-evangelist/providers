@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://glyph.earth
+- group: company
+  title: ''
+  type: Blog
+  url: https://glyph.earth/blogs/the-return-of-glyph-reinvented-for-a-more-sustainable-future
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://glyph.earth/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://glyph.earth/policies/privacy-policy
+created: '2026-07-17'
+description: Glyph is a sustainable footwear brand that designs digitally knit, versatile everyday shoes engineered to be worn for every occasion. Backed by 500 Global, the company sells direct-to-consumer through its Shopify storefront at glyph.earth, emphasizing low-waste digital knitting, single-shoe versatility, and eco-conscious materials. Glyph is a physical consumer-products (DTC e-commerce) company and does not currently publish a public developer API; this API Evangelist profile captures its web and policy surface for network completeness.
+image: https://glyph.earth/cdn/shop/files/Glyph_Colors_on_Wood_Sky_BG_bbc68712-b708-47cc-b532-e5d12e7f2eb4.gif?v=1748977195
+layout: provider
+modified: '2026-07-19'
+name: Glyph
+nav: Providers
+network: true
+overview: 'Glyph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, E-commerce, Consumer Products, and Sustainability.
+
+
+  Glyph''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 38
+score:
+  band: minimal
+  composite: 11.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: glyph
+tags:
+- Company
+- Footwear
+- E-commerce
+- Consumer Products
+- Sustainability
+- Direct-to-Consumer
+- Shopify
+website: https://glyph.earth
+---

@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/invisionapp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.invisionapp.com
+created: '2026-07-17'
+description: 'InVision (InVisionApp, Inc.) was a digital product design collaboration platform founded in 2011 by Clark Valberg and Ben Nadel. It built a suite of tools for prototyping, design handoff, and real-time collaboration — including interactive prototypes, Inspect/Specs for developer handoff, DSM (Design System Manager), Boards, and the Freehand online whiteboard. At its peak InVision was valued near two billion dollars and backed by Battery Ventures, Accel, Tiger Global, and others, serving product design teams as a challenger to Adobe. As Figma surged, InVision''s business declined: it sold the Freehand whiteboard product to Miro in 2023, and wound down all remaining services on December 31, 2024, after which customer content was permanently deleted. The invisionapp.com domain now redirects to Miro. InVision historically exposed a public REST API with OAuth and webhooks for its design platform, but that developer surface has been retired along with the product.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invisionapp.png
+layout: provider
+modified: '2026-07-19'
+name: InVisionApp
+nav: Providers
+network: true
+overview: InVisionApp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, Product Design, Prototyping, and Design Collaboration.
+random_paper: 27
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Invisionapp Domain Security
+  slug: invisionapp-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: invisionapp
+tags:
+- Company
+- Design
+- Product Design
+- Prototyping
+- Design Collaboration
+- Design Systems
+- Developer Tools
+- Defunct
+website: https://www.invisionapp.com
+---

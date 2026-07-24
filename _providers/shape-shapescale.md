@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shape-shapescale-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://shapescale.com
+created: '2026-07-17'
+description: Shapescale is a consumer body-scanning company that builds ShapeScale, a home 3D body scanner and companion mobile app. The device slowly rotates around a standing user, captures a photorealistic 3D model of the body, and measures body composition, weight, and circumference metrics so users can track fitness and body changes over time. Shapescale is a Y Combinator portfolio company. As of this enrichment pass the company publishes a consumer product website but no public developer program, API reference, or machine-readable API artifacts.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shape-shapescale.png
+layout: provider
+modified: '2026-07-21'
+name: Shape Shapescale
+nav: Providers
+network: true
+overview: Shape Shapescale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Scanning, 3D Scanning, Fitness, and Health.
+random_paper: 42
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Shape Shapescale Domain Security
+  slug: shape-shapescale-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: shape-shapescale
+tags:
+- Company
+- Body Scanning
+- 3D Scanning
+- Fitness
+- Health
+- Consumer Hardware
+- Body Composition
+- Y Combinator
+website: https://shapescale.com
+---

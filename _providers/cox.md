@@ -1,0 +1,154 @@
+---
+access_model:
+  confidence: medium
+  label: Paid
+  onboarding: unknown
+  pricing: paid
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for broadband, cable TV, and phone services.
+  name: Cox Account Management API
+  slug: cox-account-management-api
+- description: REST API providing network diagnostic tools for Cox broadband subscribers, enabling troubleshooting of connectivity issues, signal level monitoring, equipment status checks, and service health assessm
+  name: Cox Network Diagnostics API
+  slug: cox-network-diagnostics-api
+- description: REST API for Cox Business customers to manage voice, internet, and cloud connectivity services, including configuration of business phone systems, bandwidth management, and cloud networking options.
+  name: Cox Business Services API
+  slug: cox-business-services-api
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cox-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cox-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cox.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.cox.com/business/support/home.html
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/CoxCommunications
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cox-communications-inc.
+- group: company
+  title: ''
+  type: Blog
+  url: https://newsroom.cox.com/home
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.cox.com/business/pricing.html
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://statusgator.com/services/cox-communications
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/CoxComm
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cox-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cox-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cox-finops.yml
+created: '2026-06-13'
+description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across its broadband, cable television, and voice service platforms.
+finops:
+- name: Cox Finops
+  service_category: ''
+  slug: cox-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cox.png
+layout: provider
+modified: '2026-06-13'
+name: Cox Communications
+nav: Providers
+network: true
+overview: 'Cox Communications publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Broadband, Cable TV, Internet, and Phone.
+
+
+  Cox Communications'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Cox Plans Pricing
+  plan_count: 5
+  slug: cox-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 0
+  name: Cox Rate Limits
+  slug: cox-rate-limits
+score:
+  band: emerging
+  composite: 24.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 24.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cox Domain Security
+  slug: cox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Cox Vulnerability Disclosure
+  slug: cox-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: cox
+tags:
+- Telecommunications
+- Broadband
+- Cable TV
+- Internet
+- Phone
+- Account Management
+- Network Diagnostics
+website: https://www.cox.com
+---

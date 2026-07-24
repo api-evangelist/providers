@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Live JSON API host for Pax AI (api.paxai.com). A health endpoint is publicly reachable; no public OpenAPI, reference documentation, or developer program was discoverable at enrichment time.
+  name: Pax API
+  slug: pax-api
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pax-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pax-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://paxai.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://paxai.com/blog
+created: '2026-07-17'
+description: Pax (Pax AI) is a San Francisco-based artificial intelligence company that automates U.S. duty drawback claims, letting importers, retailers, and manufacturers reclaim overpaid tariffs and import duties. Branding itself the "AI Broker for Tariff Refunds" and "TurboTax for import duty rebate," Pax uses proprietary AI to automate data extraction, validation, transaction matching, refund calculation, and electronic claim submission to U.S. Customs and Border Protection with minimal manual effort. Founded by former duty-drawback experts and engineers from Charter Brokerage, MIT, Amazon, Flexport, and Brex, Pax is backed by Y Combinator, Initialized Capital, General Catalyst, Flexport, Soma Capital, Basis Set Ventures, and others. This profile was enriched by the API Evangelist pipeline.
+image: https://paxai.com/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: Pax
+nav: Providers
+network: true
+overview: 'Pax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Artificial Intelligence, Trade Finance, and Customs.
+
+
+  Pax''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 23
+score:
+  band: minimal
+  composite: 9.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Pax Domain Security
+  slug: pax-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: pax
+tags:
+- Company
+- Enterprise Saas
+- Artificial Intelligence
+- Trade Finance
+- Customs
+- Duty Drawback
+- Tariffs
+- Fintech
+- Supply Chain
+website: https://paxai.com/
+---

@@ -1,0 +1,249 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 81.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Leadgenius Agentic Access
+  operation_count: 11
+  slug: leadgenius-agentic-access
+  summary_line: 11 operations · 5 acting
+api_count: 5
+apis:
+- description: Create, update and inspect enrichment campaigns.
+  name: LeadGenius Campaigns API
+  slug: leadgenius-campaigns-api
+- description: Submit accounts and contacts that should be excluded from enrichment.
+  name: LeadGenius Exclusion API
+  slug: leadgenius-exclusion-api
+- description: Real-time single-record account/contact enrichment and contact append.
+  name: LeadGenius Rapid Enrichment API
+  slug: leadgenius-rapid-enrichment-api
+- description: Upload records to a campaign and retrieve enriched results.
+  name: LeadGenius Records API
+  slug: leadgenius-records-api
+- description: Subscription usage and enrichment request statistics.
+  name: LeadGenius Usage API
+  slug: leadgenius-usage-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Leadgenius Enrichment Webhooks
+  slug: leadgenius-enrichment-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/leadgenius-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/leadgenius-agentic-access.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://leadgenius.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.leadgenius.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.leadgenius.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.leadgenius.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.leadgenius.com/#leadgenius-api-docs
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.leadgenius.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://app.leadgenius.com/sign-in
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.leadgenius.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.leadgenius.com/resources
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.leadgenius.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.leadgenius.com/legal/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.leadgenius.com/legal/ccpa
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/leadgenius
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/leadgenius/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/leadgenius
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://www.leadgenius.com/customers
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/leadgenius-enrichment-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leadgenius-enrichment-api-overlay.yaml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/leadgenius-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/leadgenius-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/leadgenius-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/leadgenius-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/leadgenius-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/leadgenius-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/leadgenius-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/leadgenius-enrichment-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/leadgenius-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/leadgenius-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/leadgenius-well-known.yml
+created: '2026-07-17'
+description: LeadGenius provides precision B2B contact and account intelligence for go-to-market teams, combining machine learning with a global team of human researchers so every contact and account is human-verified before delivery. The company reports 400+ customers, coverage across 42 countries and 3 billion+ data records served, with products spanning contact behavioral intelligence, advanced contact tags, contact monitoring, social tracking, buying-committee coverage and privacy compliance. Its developer surface is the LeadGenius Enrichment API — a RESTful, API-key authenticated service documented at docs.leadgenius.com that supports company enrichment, contact enrichment and contact append, offered both as asynchronous Campaigns (create a campaign, upload up to 200 records per request, receive a record-finalized webhook, retrieve the enriched results) and as real-time "rapid enrichment" requests submitted and collected by id.
+image: https://cdn.prod.website-files.com/688ff1b200d9d4cf5019d518/68906378722ec3a7e64df624_logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: leadgenius-mcp.yml
+  slug: leadgenius-mcpyml
+modified: '2026-07-19'
+name: LeadGenius
+nav: Providers
+network: true
+overview: 'LeadGenius publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Exclusion API, Rapid Enrichment API, and 2 more. Tagged areas include Company, Data Enrichment, Lead Generation, Sales, and Marketing.
+
+
+  The LeadGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  LeadGenius'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 25 more developer resources.'
+random_paper: 37
+rate_limits:
+- limit_count: 2
+  name: Leadgenius Rate Limits
+  slug: leadgenius-rate-limits
+score:
+  band: developing
+  composite: 54.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 72.9
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 34.2
+  previous_composite: 54.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Leadgenius Authentication
+  slug: leadgenius-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Leadgenius Domain Security
+  slug: leadgenius-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: leadgenius
+tags:
+- Company
+- Data Enrichment
+- Lead Generation
+- Sales
+- Marketing
+- B2B Data
+- Contact Data
+- Firmographics
+- Go To Market
+- Account Based Marketing
+website: https://leadgenius.com
+---

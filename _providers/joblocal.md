@@ -1,0 +1,98 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/joblocal-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.joblocal.de
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.joblocal.de/agb
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.joblocal.de/datenschutzerklaerung
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.joblocal.de/kontakt
+created: '2026-07-17'
+description: Joblocal GmbH is a Munich-based German recruiting technology company and a part of the Funke Mediengruppe. With more than fifteen years of experience it operates a network of 41 regional job portals across Germany and, together with the Funke network, runs data-driven, hyper-regional recruiting campaigns tailored to position, location and budget for over 1,000 client companies. Its "Talent.KI" product applies artificial intelligence to candidate sourcing and regional labor-market analysis, surfacing employers where job seekers actually search. Joblocal was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. It publishes no public developer portal, API, or machine-readable API artifacts at this time.
+image: https://www.joblocal.de/icon.png
+layout: provider
+modified: '2026-07-19'
+name: Joblocal
+nav: Providers
+network: true
+overview: 'Joblocal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Jobs, HR Technology, and Job Portal.
+
+
+  Joblocal''s developer surface includes support and 4 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Joblocal Domain Security
+  slug: joblocal-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: joblocal
+tags:
+- Company
+- Recruiting
+- Jobs
+- HR Technology
+- Job Portal
+- Talent Acquisition
+- Artificial Intelligence
+- Labor Market
+- Employment
+- Germany
+website: https://www.joblocal.de
+---

@@ -1,0 +1,158 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Docraptor Agentic Access
+  operation_count: 4
+  slug: docraptor-agentic-access
+  summary_line: 4 operations · 2 acting
+api_count: 3
+apis:
+- description: REST API for generating PDF, XLS, XLSX from HTML/CSS or URL. HTTP Basic auth using API key as username. Sync POST /docs and async POST /async_docs with status polling. Test documents are unlimited and
+  name: DocRaptor REST API
+  slug: rest
+- description: The Async Documents API from DocRaptor — 2 operation(s) for async documents.
+  name: DocRaptor Async Documents API
+  slug: docraptor-async-documents-api
+- description: The Documents API from DocRaptor — 2 operation(s) for documents.
+  name: DocRaptor Documents API
+  slug: docraptor-documents-api
+artifact_total: 10
+collections:
+- collection_type: open
+  name: DocRaptor API
+  slug: open-docraptor
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/docraptor-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/docraptor-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/docraptor-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/docraptor
+- group: company
+  title: ''
+  type: Website
+  url: https://docraptor.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docraptor.com/documentation
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docraptor.com/plans
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/DocRaptor
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/docraptor-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/docraptor-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/docraptor-finops.yml
+created: '2026-05-08'
+description: DocRaptor is an HTML-to-PDF / HTML-to-Excel document generation API powered by Prince XML. Strong CSS-paged-media support including headers/footers, page breaks, watermarks, accessibility tags. Synchronous and asynchronous document creation; status polling; document hosting.
+finops:
+- name: Docraptor Finops
+  service_category: Document Generation
+  slug: docraptor-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docraptor.png
+layout: provider
+modified: '2026-05-08'
+name: DocRaptor
+nav: Providers
+network: true
+overview: 'DocRaptor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Async Documents API and Documents API. Tagged areas include Document Generation, PDF, HTML, Excel, and API.
+
+
+  DocRaptor''s developer surface includes authentication, documentation, pricing, GitHub presence, and 7 more developer resources.'
+plans:
+- name: Docraptor Plans Pricing
+  plan_count: 9
+  slug: docraptor-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 3
+  name: Docraptor Rate Limits
+  slug: docraptor-rate-limits
+score:
+  band: thin
+  composite: 37.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 47.8
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 37.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/screenshots/docraptor-2026-06-20T180113.png
+security:
+- kind: authentication
+  name: Docraptor Authentication
+  slug: docraptor-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Docraptor Domain Security
+  slug: docraptor-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: docraptor
+tags:
+- Document Generation
+- PDF
+- HTML
+- Excel
+- API
+- Prince
+website: https://docraptor.com/
+---

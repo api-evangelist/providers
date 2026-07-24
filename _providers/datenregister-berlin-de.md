@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: CKAN Action API for Datenregister Berlin, a consistent JSON-over-HTTP interface over a catalog of 2,609 datasets. Standard actions include package_search, package_show, package_list, organization_list
+  name: Datenregister Berlin CKAN Action API
+  slug: catalog
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/datenregister-berlin-de-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/datenregister-berlin-de-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://datenregister.berlin.de
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ckan.org/en/latest/api/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/datenregister-berlin-de-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/datenregister-berlin-de-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/datenregister-berlin-de-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-04'
+description: Datenregister Berlin is a municipal government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,609 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
+finops:
+- name: Datenregister Berlin De Finops
+  service_category: Open Data
+  slug: datenregister-berlin-de-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datenregister-berlin-de.png
+layout: provider
+modified: '2026-06-04'
+name: Datenregister Berlin
+nav: Providers
+network: true
+overview: 'Datenregister Berlin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+
+
+  Datenregister Berlin''s developer surface includes documentation and 7 more developer resources.'
+plans:
+- name: Datenregister Berlin De Plans Pricing
+  plan_count: 1
+  slug: datenregister-berlin-de-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 1
+  name: Datenregister Berlin De Rate Limits
+  slug: datenregister-berlin-de-rate-limits
+score:
+  band: emerging
+  composite: 20.5
+  delta: 1.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 19.5
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/datenregister-berlin-de/refs/heads/main/screenshots/datenregister-berlin-de-2026-06-20T175651.png
+security:
+- kind: domain-security
+  name: Datenregister Berlin De Domain Security
+  slug: datenregister-berlin-de-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Datenregister Berlin De Vulnerability Disclosure
+  slug: datenregister-berlin-de-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: datenregister-berlin-de
+tags:
+- Open Data
+- CKAN
+- Data Catalog
+- DCAT
+- Government Data
+- Municipal Government
+- Germany
+website: https://datenregister.berlin.de
+---

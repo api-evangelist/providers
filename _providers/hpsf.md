@@ -1,0 +1,83 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/hpsf
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://hpsf.io/projects/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/hpsf
+- group: company
+  title: ''
+  type: Blog
+  url: https://hpsf.io/feed/
+created: '2026-03-16'
+description: The High Performance Software Foundation (HPSF) is a Linux Foundation project supporting open source software for high-performance computing and scientific computing. It hosts projects including Apptainer, Spack, Kokkos, and E4S for building and deploying scientific applications at scale.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hpsf.png
+layout: provider
+modified: '2026-04-28'
+name: High Performance Software Foundation
+nav: Providers
+network: true
+overview: 'High Performance Software Foundation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include HPC, Linux Foundation, Open Source, and Scientific Computing.
+
+
+  High Performance Software Foundation''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
+random_paper: 25
+score:
+  band: minimal
+  composite: 8.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 8.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/screenshots/hpsf-2026-06-20T182854.png
+slug: hpsf
+tags:
+- HPC
+- Linux Foundation
+- Open Source
+- Scientific Computing
+---

@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: Laureate Education does not expose a public developer API, OpenAPI specification, SDK, CLI, webhook, GraphQL endpoint, status page or changelog. This entry documents the company's public corporate sur
+  name: Laureate Education Corporate Surface
+  slug: laureate-education-corporate-surface
+- description: Private Mexican university founded in 1960 with more than 22 physical campuses plus an online campus, offering more than 180 academic programs from high-school preparatoria through master's degrees. W
+  name: Universidad del Valle de México (UVM)
+  slug: universidad-del-valle-de-méxico-uvm
+- description: Private Mexican university with more than 59 years of academic operations, 13 physical campuses across CDMX, State of Mexico, Guadalajara, León, Querétaro, Monterrey and Puebla, plus an online offerin
+  name: Universidad Tecnológica de México (UNITEC)
+  slug: universidad-tecnológica-de-méxico-unitec
+- description: Peruvian private university; first Peruvian university to earn the QS Stars 5-star rating and ranked first among private universities in Peru in the QS World University Rankings 2026. Holds WSCUC inst
+  name: Universidad Peruana de Ciencias Aplicadas (UPC)
+  slug: universidad-peruana-de-ciencias-aplicadas-upc
+- description: Peruvian private university operating across multiple campuses in Lima, Trujillo, Cajamarca and other regional cities. Wholly-owned by Laureate Peru and one of the five remaining institutions in the L
+  name: Universidad Privada del Norte (UPN)
+  slug: universidad-privada-del-norte-upn
+- description: Peruvian technical / professional institute offering short-cycle careers in technology, business, hospitality and communications. Part of Laureate Peru.
+  name: Cibertec
+  slug: cibertec
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/laureate-education-domain-security.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.laureate.net/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.laureate.net/leadership/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.laureate.net/contact/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.laureate.net/ethics-and-compliance/
+created: '2026-05-22'
+description: 'Laureate Education, Inc. is a for-profit higher-education network founded in 1989 as Sylvan Learning Systems and renamed Laureate Education in May 2004. At its 2017 IPO peak the company operated more than 200 campuses across 28 countries serving over one million students; it became only the third B Corporation to go public when it listed on NASDAQ (ticker: LAUR) on 1 February 2017. Between 2018 and 2021 Laureate executed one of the largest sector-wide divestiture programs in the history of higher education, exiting Brazil (sold to Ânima Holding for ~$765M), the United States (Walden University sold to Adtalem for $1.48B), Australia / New Zealand (sold to Strategic Education), Chile (Universidad Andrés Bello transferred to Fundación Educación y Cultura in September 2020), Spain, Portugal, Morocco, Turkey, Malaysia, China, Italy, Cyprus and the United Kingdom — returning $1.29B to shareholders in October 2021. After the divestiture cycle Laureate continued as a pure-play Mexico
+  / Peru operator with five remaining institutions and approximately 460,000 students. In May 2024 the company was acquired by an investor group led by the International Finance Corporation (IFC, a member of the World Bank Group) and Sterling Capital, taking Laureate Education private and delisting it from NASDAQ. The company is headquartered at 1000 Brickell Avenue, Suite 715, Miami, FL. Laureate does not publish a public developer API, OpenAPI specification, SDK, webhook surface, or status page. There is no Laureate Education GitHub organization. This profile therefore captures the corporate surface — institutions, divestiture history, leadership, investor status, news — rather than a programmable interface. The five remaining campus-network institutions each publish their own consumer-facing websites (UVM, UNITEC in Mexico; UPC, UPN, Cibertec in Peru) but none expose machine-readable APIs documented from the parent.'
+graphqls:
+- description: ''
+  name: Laureate Education GraphQL API
+  slug: laureate-education-graphql
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-logo.png
+layout: provider
+modified: '2026-05-23'
+name: Laureate Education
+nav: Providers
+network: true
+overview: 'Laureate Education publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, For Profit Education, University Network, and Mexico.
+
+
+  Laureate Education''s developer surface includes developer portal and 4 more developer resources.'
+random_paper: 16
+score:
+  band: minimal
+  composite: 13.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 7.9
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 13.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/laureate-education/refs/heads/main/screenshots/laureate-education-2026-06-20T184332.png
+security:
+- kind: domain-security
+  name: Laureate Education Domain Security
+  slug: laureate-education-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: laureate-education
+tags:
+- Education
+- Higher Education
+- For Profit Education
+- University Network
+- Mexico
+- Peru
+- Latin America
+- Private Equity
+- B Corporation
+- Take Private
+website: https://www.laureate.net/
+---

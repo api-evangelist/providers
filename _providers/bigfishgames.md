@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bigfishgames-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bigfishgames.com/
+created: '2026-07-17'
+description: Big Fish Games is a casual-games publisher and digital storefront offering downloadable and online casual, hidden-object, match-3, puzzle, card, and social-casino titles for Windows, macOS, iOS, and Android. Founded in Seattle in 2002 and now part of Aristocrat's Pixel United, the company distributes thousands of games through its bigfishgames.com storefront and mobile apps. It operates as a consumer-facing games company and does not currently publish a public developer API program, OpenAPI definition, or partner API surface; this profile tracks its public web presence for the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bigfishgames.png
+layout: provider
+modified: '2026-07-18'
+name: Big Fish Games
+nav: Providers
+network: true
+overview: Big Fish Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Entertainment, and Casual Games.
+random_paper: 33
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bigfishgames Domain Security
+  slug: bigfishgames-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: bigfishgames
+tags:
+- Company
+- Gaming
+- Games
+- Entertainment
+- Casual Games
+- Consumer
+- Digital Storefront
+website: https://www.bigfishgames.com/
+---

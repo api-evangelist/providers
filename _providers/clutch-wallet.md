@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/clutch-wallet
+- group: build
+  title: ''
+  type: Packages
+  url: packages/clutch-wallet-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/clutch-wallet-packages.yml
+created: '2026-07-17'
+description: 'Clutch Wallet was a Los Angeles-based web3 startup building a non-custodial "social wallet" and web3 toolkit — a seedless browser extension and mobile wallet (leaning on account abstraction and seamless sign-in) paired with a dApp offering token search, three-click DeFi, a web3 social profile, a personalized crypto media feed, aggregated multi-wallet balances in a single dashboard, integrated crypto education, and community tools. Founded by Bec Jones (CEO), James Kouzinas (CFO/COO), and Sheela Vats (CTO), it raised ~$800K backed by Anthemis (Female Innovators Lab Fund), Emmeline Ventures, Everywhere Ventures, and Rogue Women. The company is now permanently closed: its clutchwallet.xyz domain is parked and it exposed no public production API. It remains in the API Evangelist network as a portfolio-lead profile; its clutch-wallet GitHub organization (mostly forks of Zerion, Argent, and MetaMask projects) and one first-party npm library survive as artifacts.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch-wallet.png
+layout: provider
+modified: '2026-07-18'
+name: Clutch Wallet
+nav: Providers
+network: true
+overview: Clutch Wallet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Cryptocurrency, Wallet, and DeFi.
+random_paper: 11
+score:
+  band: minimal
+  composite: 7.4
+  delta: -1.3
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 8.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: clutch-wallet
+tags:
+- Company
+- Web3
+- Cryptocurrency
+- Wallet
+- DeFi
+- Blockchain
+- Fintech
+- Non-custodial
+---

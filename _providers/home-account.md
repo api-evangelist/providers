@@ -1,0 +1,75 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://www.home-account.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/home-account
+created: '2026-07-17'
+description: Home-Account (Home Account) was a consumer financial-services startup focused on mortgage management and consumer credit-risk analytics, backed by Uncork Capital (formerly SoftTech VC). Per its LinkedIn profile, the company built patent-worthy consumer risk-analytic tooling to help homeowners manage mortgages and understand consumer credit risk, operating in the Consumer Services sector with roughly 11-50 employees and a base in the Fort Mill, South Carolina (ZIP 29708) area. Its original website, home-account.com, no longer resolves, and Uncork Capital's portfolio record associates the company with Bills.com. No public API, developer portal, OpenAPI, or other machine-readable API artifacts were found during enrichment; this record remains an identity-only profile of a legacy/defunct portfolio company added to the API Evangelist network as a VC-portfolio lead.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/home-account.png
+layout: provider
+modified: '2026-07-19'
+name: Home Account
+nav: Providers
+network: true
+overview: Home Account is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, FinTech, Mortgage, and Consumer Credit.
+random_paper: 46
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: home-account
+tags:
+- Company
+- Financial Services
+- FinTech
+- Mortgage
+- Consumer Credit
+- Risk Analytics
+- Homeownership
+website: http://www.home-account.com
+---

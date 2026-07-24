@@ -1,0 +1,340 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Tesla Energy Agentic Access
+  operation_count: 10
+  slug: tesla-energy-agentic-access
+  summary_line: 10 operations · 5 acting
+api_count: 10
+apis:
+- description: Backup reserve threshold for Powerwall sites
+  name: Tesla Energy Backup API
+  slug: tesla-energy-backup-api
+- description: Historical energy production, consumption, and battery flow
+  name: Tesla Energy History API
+  slug: tesla-energy-history-api
+- description: Real-time power, state-of-charge, and grid status for an energy site
+  name: Tesla Energy Live Status API
+  slug: tesla-energy-live-status-api
+- description: Reserve threshold for EV charging when the site is islanded from the grid
+  name: Tesla Energy Off Grid Charging API
+  slug: tesla-energy-off-grid-charging-api
+- description: Operation mode — self_consumption, backup, or autonomous
+  name: Tesla Energy Operation API
+  slug: tesla-energy-operation-api
+- description: Discover energy_sites and other products owned by the authenticated account
+  name: Tesla Energy Products API
+  slug: tesla-energy-products-api
+- description: Virtual power plant and grid-services program participation
+  name: Tesla Energy Programs API
+  slug: tesla-energy-programs-api
+- description: Static configuration of an energy site (components, address, time zone)
+  name: Tesla Energy Site Info API
+  slug: tesla-energy-site-info-api
+- description: Pre-charge Powerwall to 100% ahead of severe weather alerts
+  name: Tesla Energy Storm Mode API
+  slug: tesla-energy-storm-mode-api
+- description: Tariff schedule, peak/off-peak rate plans, and TOU optimization
+  name: Tesla Energy Time Of Use API
+  slug: tesla-energy-time-of-use-api
+artifact_total: 44
+collections:
+- collection_type: open
+  name: Tesla Fleet Energy API
+  slug: open-tesla-energy-fleet-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/tesla-energy-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tesla-energy-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/tesla-energy-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/tesla-energy-scopes.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.tesla.com/energy
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.tesla.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.tesla.com/docs/fleet-api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.tesla.com/docs/fleet-api/endpoints/energy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.tesla.com/docs/fleet-api/products/energy-products
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developer.tesla.com/docs/fleet-api/authentication/overview
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developer.tesla.com/docs/fleet-api/authentication/third-party-tokens
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+- group: commercial
+  title: ''
+  type: Billing
+  url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.tesla.com/docs/fleet-api/announcements
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developer.tesla.com/docs/fleet-api/support/faq
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.tesla.com/docs/fleet-api/support/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/teslamotors
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/teslamotors/vehicle-command
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/tdorssers/TeslaPy
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/timdorr/tesla-api
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/781424/2s9YRCWB4f
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/powerwall
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/megapack
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/solarpanels
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/solarroof
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/electric
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tesla.com/autobidder
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/tesla-motors
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tesla.com/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.tesla.com/legal/privacy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tesla-energy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tesla-energy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/tesla-energy-finops.yml
+created: '2026-05-25'
+description: Tesla Energy is Tesla's solar generation and battery storage business unit, encompassing residential Powerwall, utility-scale Megapack, retrofit solar panels, and the Solar Roof. The Fleet API exposes energy_sites endpoints that let partners and owners read live power, calendar history, and site info, and write backup reserve, operation mode (self_consumption, backup, autonomous), storm mode, time-of-use settings, and off-grid vehicle charging reserve — the same control surface that powers the Tesla app and integrators like Autobidder, Tesla Electric (virtual power plant), and third-party home energy dashboards.
+examples:
+- key_count: 1
+  name: Tesla Energy Live Status Example
+  slug: tesla-energy-live-status-example
+- key_count: 1
+  name: Tesla Energy Site Info Example
+  slug: tesla-energy-site-info-example
+features:
+- Powerwall residential battery — 13.5 kWh per unit, stackable up to 10 units, with integrated inverter and gateway in Powerwall+
+- Megapack utility-scale battery — up to 3.9 MWh per unit, containerized DC architecture for grid storage and frequency regulation
+- Solar Roof — integrated solar shingles for new and retrofit residential roofs
+- Retrofit solar panels — private-label panels paired with Tesla Solar Inverter (cellular-connected, OTA updates)
+- Autobidder — real-time energy trading and dispatch platform for utility-scale storage
+- Tesla Electric — virtual utility / retail electricity provider in Texas with Powerwall participation
+- Fleet API energy_sites endpoints for partner read/write access to site state and operation
+- Backup reserve control — set the % state-of-charge Powerwall holds in reserve for outages
+- Operation mode control — self_consumption, backup-only, autonomous (algorithmic)
+- Storm Mode — automatically charges Powerwall to 100% ahead of severe weather alerts
+- Time-of-Use settings — tariff schedule and peak/off-peak rate plan management
+- Off-Grid Vehicle Charging Reserve — separate reserve threshold for EV charging during outages
+- Calendar history — historical energy production, consumption, grid import/export, battery flow
+- Live Status — real-time site power, state-of-charge, grid status, and load breakdown
+- Programs — virtual power plant and grid services participation status
+- Tesla app — single-pane control for Powerwall, Solar, and vehicles (consumer surface above the API)
+- Lathrop, CA Megapack factory (operational since 2022) — 40 GWh/year capacity
+- Shanghai Megafactory — Tesla's second Megapack factory, online 2025
+- Energy revenue $10.1B in 2024 (+67% YoY); 31.4 GWh battery deployments in 2023 (+113% YoY)
+finops:
+- name: Tesla Energy Finops
+  service_category: Energy / Storage / API
+  slug: tesla-energy-finops
+image: https://www.tesla.com/favicon.ico
+json_schemas:
+- name: Tesla Energy Site Live Status
+  property_count: 13
+  slug: tesla-energy-live-status
+- name: Tesla Energy Site
+  property_count: 13
+  slug: tesla-energy-site
+jsonld:
+- class_count: 11
+  name: Tesla Energy Context
+  property_count: 25
+  slug: tesla-energy-context
+layout: provider
+modified: '2026-05-25'
+name: Tesla Energy
+nav: Providers
+network: true
+overview: 'Tesla Energy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Backup API, History API, Live Status API, and 7 more. Tagged areas include Energy, Clean Energy, Solar, Battery Storage, and Powerwall.
+
+
+  The Tesla Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Tesla Energy''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, support, and 28 more developer resources.'
+plans:
+- name: Tesla Energy Plans Pricing
+  plan_count: 5
+  slug: tesla-energy-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 4
+  name: Tesla Energy Rate Limits
+  slug: tesla-energy-rate-limits
+rules:
+- name: Tesla Energy API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: tesla-energy-jsonschema-spectral-rules
+- name: Tesla Energy API Rules
+  rule_count: 8
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 6
+  slug: tesla-energy-rules
+scopes:
+- name: Tesla Energy Scopes
+  scope_count: 3
+  slug: tesla-energy-scopes
+  summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 62.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 69.9
+    developer_ergonomics: 52.2
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 62.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Tesla Energy Authentication
+  slug: tesla-energy-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Tesla Energy Domain Security
+  slug: tesla-energy-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: tesla-energy
+tags:
+- Energy
+- Clean Energy
+- Solar
+- Battery Storage
+- Powerwall
+- Megapack
+- Solar Roof
+- Virtual Power Plant
+- IoT
+- Grid Services
+- Home Energy
+- Utility Scale
+website: https://www.tesla.com
+---

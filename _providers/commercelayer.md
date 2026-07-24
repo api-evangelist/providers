@@ -1,0 +1,192 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 31
+  human_in_the_loop: 0
+  name: Commercelayer Agentic Access
+  operation_count: 55
+  slug: commercelayer-agentic-access
+  summary_line: 55 operations · 31 acting
+api_count: 12
+apis:
+- description: Billing and shipping addresses.
+  name: Commerce Layer Addresses API
+  slug: commercelayer-addresses-api
+- description: Customer accounts.
+  name: Commerce Layer Customers API
+  slug: commercelayer-customers-api
+- description: Line items belonging to an order.
+  name: Commerce Layer Line Items API
+  slug: commercelayer-line-items-api
+- description: Markets binding price list, inventory model, and merchant.
+  name: Commerce Layer Markets API
+  slug: commercelayer-markets-api
+- description: Shopping carts and orders and their checkout lifecycle.
+  name: Commerce Layer Orders API
+  slug: commercelayer-orders-api
+- description: Payment methods available for orders.
+  name: Commerce Layer Payment Methods API
+  slug: commercelayer-payment-methods-api
+- description: Prices belonging to price lists, associated with SKUs.
+  name: Commerce Layer Prices API
+  slug: commercelayer-prices-api
+- description: Discounts, free shipping, free gifts, and other promotions.
+  name: Commerce Layer Promotions API
+  slug: commercelayer-promotions-api
+- description: Order shipments and fulfillment.
+  name: Commerce Layer Shipments API
+  slug: commercelayer-shipments-api
+- description: Stock keeping units describing the product variations being sold.
+  name: Commerce Layer SKUs API
+  slug: commercelayer-skus-api
+- description: Stock quantities for a SKU at a given stock location.
+  name: Commerce Layer Stock Items API
+  slug: commercelayer-stock-items-api
+- description: Event subscriptions delivering signed callbacks.
+  name: Commerce Layer Webhooks API
+  slug: commercelayer-webhooks-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Commerce Layer Core API
+  slug: open-commercelayer
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/commercelayer-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/commercelayer-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/commercelayer-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/commercelayer-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/commercelayer
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/commerce-layer
+- group: company
+  title: ''
+  type: Website
+  url: https://commercelayer.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.commercelayer.io
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/commercelayer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/commercelayer-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/commercelayer-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://commercelayer.io/blog
+created: '2026-06-21'
+description: Commerce Layer is a headless, composable commerce platform that exposes a JSON:API-compliant REST API for building omnichannel storefronts and order management. The Core API serves SKUs, prices, stock, orders, line items, customers, addresses, shipments, payment methods, markets, and promotions, with OAuth2 authentication, market-scoped access tokens, and real-time webhooks.
+finops:
+- name: Commercelayer Finops
+  service_category: Commerce Platform
+  slug: commercelayer-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commercelayer.png
+layout: provider
+modified: '2026-06-21'
+name: Commerce Layer
+nav: Providers
+network: true
+overview: 'Commerce Layer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Customers API, Line Items API, and 9 more. Tagged areas include Commerce, Headless, Composable, eCommerce, and JSON:API.
+
+
+  Commerce Layer''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+plans:
+- name: Commercelayer Plans Pricing
+  plan_count: 3
+  slug: commercelayer-plans-pricing
+random_paper: 7
+rate_limits:
+- limit_count: 3
+  name: Commercelayer Rate Limits
+  slug: commercelayer-rate-limits
+score:
+  band: thin
+  composite: 37.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 49.9
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 37.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Commercelayer Authentication
+  slug: commercelayer-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Commercelayer Domain Security
+  slug: commercelayer-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Commercelayer Trust Center
+  slug: commercelayer-trust-center
+  summary_line: SOC 2, ISO 27001, PCI DSS
+slug: commercelayer
+tags:
+- Commerce
+- Headless
+- Composable
+- eCommerce
+- JSON:API
+- Orders
+website: https://commercelayer.io
+---

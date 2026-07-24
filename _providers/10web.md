@@ -1,0 +1,203 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 31.7
+  scored_at: '2026-07-23'
+api_count: 13
+apis:
+- description: Operations for managing account-level resources
+  name: 10Web Account API
+  slug: 10web-account-api
+- description: Operations for backup management
+  name: 10Web Backup API
+  slug: 10web-backup-api
+- description: Operations for website builder and page management
+  name: 10Web Builder API
+  slug: 10web-builder-api
+- description: Operations for cache management
+  name: 10Web Cache API
+  slug: 10web-cache-api
+- description: Operations for SSL certificate management
+  name: 10Web Certificate API
+  slug: 10web-certificate-api
+- description: Operations for domain management
+  name: 10Web Domain API
+  slug: 10web-domain-api
+- description: Operations for PHP version management
+  name: 10Web PHP Management API
+  slug: 10web-php-management-api
+- description: Operations for AI-powered features
+  name: 10Web Section Based AI API
+  slug: 10web-section-based-ai-api
+- description: Operations for subdomain management
+  name: 10Web Subdomain API
+  slug: 10web-subdomain-api
+- description: Operations for WordPress Vibe Coding - AI-powered website content generation
+  name: 10Web Vibe Coding API
+  slug: 10web-vibe-coding-api
+- description: Operations for website creation and management
+  name: 10Web Website API
+  slug: 10web-website-api
+- description: Operations for secure WordPress admin panel autologin functionality
+  name: 10Web WP Autologin API
+  slug: 10web-wp-autologin-api
+- description: Operations for DNS zone management
+  name: 10Web Zone API
+  slug: 10web-zone-api
+artifact_total: 16
+asyncapis:
+- description: ''
+  name: 10Web Webhooks
+  slug: 10web-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://10web.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.10web.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.10web.io/hc/en-us/articles/27304964365586-Introduction-to-10Web-API
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.10web.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://10web.io/website-builder-api/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://my.10web.io/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.10web.io/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://10web.io/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://10web.io/pricing/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://help.10web.notion.site/10web-ai-builder-public-roadmap
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.10web.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://10web.io/legal/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://10web.io/legal/privacy-policy/
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/10web-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/10web-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/10web-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/10web-well-known.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/10web-lifecycle.yml
+created: '2026-07-17'
+description: 10Web is an AI-powered website builder platform that generates, hosts, and manages full WordPress websites on managed infrastructure, powering more than two million websites. Its public REST API — the 10Web Website Builder API (V1) — lets SaaS, agency, and hosting platforms embed 10Web's AI website generation, WordPress hosting, domains, DNS, SSL, backups, and staging as a white-label solution. The API exposes 69 operations across websites, AI/Vibe Coding content generation, domains and DNS zones, SSL certificates, backups, cache and PHP management, subdomains, the page builder, and signed webhooks, all authenticated with an x-api-key header against https://api.10web.io. Originally added to the API Evangelist network as a Sierra Ventures portfolio lead, this profile has been enriched from 10Web's public developer surface.
+image: https://10web.io/wp-content/uploads/2025/03/OG-img4.jpg
+layout: provider
+modified: '2026-07-17'
+name: 10Web
+nav: Providers
+network: true
+overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Backup API, Builder API, and 10 more. Tagged areas include Company, Ai, Website Builder, WordPress, and Hosting.
+
+
+  The 10Web catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
+random_paper: 7
+score:
+  band: developing
+  composite: 46.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 55.2
+    developer_ergonomics: 47.8
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 46.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: 10Web Authentication
+  slug: 10web-authentication
+  summary_line: 1 scheme
+- kind: domain-security
+  name: 10Web Domain Security
+  slug: 10web-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: 10web
+tags:
+- Company
+- Ai
+- Website Builder
+- WordPress
+- Hosting
+- Website Generation
+- No-Code
+website: https://10web.io/
+---

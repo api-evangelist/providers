@@ -1,0 +1,156 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Lorikeet Agentic Access
+  operation_count: 13
+  slug: lorikeet-agentic-access
+  summary_line: 13 operations · 7 acting
+api_count: 4
+apis:
+- description: Create, continue, and inspect AI-agent-handled support conversations.
+  name: Lorikeet Conversations API
+  slug: lorikeet-conversations-api
+- description: Ingest and manage knowledge sources the agent reasons over.
+  name: Lorikeet Knowledge API
+  slug: lorikeet-knowledge-api
+- description: Post and list messages within a conversation.
+  name: Lorikeet Messages API
+  slug: lorikeet-messages-api
+- description: Manage webhook subscriptions and receive Lorikeet events.
+  name: Lorikeet Webhooks API
+  slug: lorikeet-webhooks-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Lorikeet API
+  slug: open-lorikeet
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/lorikeet-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lorikeet-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/lorikeet-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lorikeetcx
+- group: company
+  title: ''
+  type: Website
+  url: https://lorikeet.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.lorikeetcx.ai/guides/quickstart
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lorikeet-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lorikeet-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lorikeet-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lorikeetcx.ai/articles
+created: '2026-07-01'
+description: Lorikeet (Lorikeet CX) is an AI customer support agent built for complex and regulated businesses across chat, email, and voice. Rather than a single chatbot, it uses a workflow / "skills"-based orchestration layer that follows a company's standard operating procedures, calls into helpdesks (Zendesk, Intercom, Front) and internal systems through typed, no-code tools, and produces a per-step audit trail. Its programmatic surface centers on conversations, inbound and outbound webhooks / events, actions/tools, and knowledge ingestion, secured with scoped Bearer/API-key credentials. Full API reference is gated behind an access code, so endpoint detail below is modeled from Lorikeet's public integration and security materials and marked where unconfirmed.
+finops:
+- name: Lorikeet Finops
+  service_category: AI and Machine Learning
+  slug: lorikeet-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lorikeet.png
+layout: provider
+modified: '2026-07-01'
+name: Lorikeet
+nav: Providers
+network: true
+overview: 'Lorikeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Knowledge API, Messages API, and 1 more. Tagged areas include AI, Customer Support, AI Agent, Support Automation, and Workflows.
+
+
+  Lorikeet''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Lorikeet Plans Pricing
+  plan_count: 1
+  slug: lorikeet-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 4
+  name: Lorikeet Rate Limits
+  slug: lorikeet-rate-limits
+score:
+  band: thin
+  composite: 33.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 51.3
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 33.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Lorikeet Authentication
+  slug: lorikeet-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Lorikeet Domain Security
+  slug: lorikeet-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lorikeet
+tags:
+- AI
+- Customer Support
+- AI Agent
+- Support Automation
+- Workflows
+- Helpdesk
+website: https://lorikeet.ai
+---

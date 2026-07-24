@@ -1,0 +1,288 @@
+---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Uspto Agentic Access
+  operation_count: 8
+  slug: uspto-agentic-access
+  summary_line: 8 operations
+api_count: 5
+apis:
+- description: The USPTO Patent Assignment Search API retrieves patent assignment information including ownership transfers, recorded assignments, and assignment history for individual patents and patent portfolios.
+  name: USPTO Patent Assignment Search API
+  slug: assignment-search-api
+- description: Patent assignment records
+  name: USPTO Assignments API
+  slug: uspto-assignments-api
+- description: Patent search and retrieval
+  name: USPTO Patents API
+  slug: uspto-patents-api
+- description: Patent Trial and Appeal Board proceedings
+  name: USPTO PTAB API
+  slug: uspto-ptab-api
+- description: Trademark status and documents
+  name: USPTO Trademarks API
+  slug: uspto-trademarks-api
+artifact_total: 37
+collections:
+- collection_type: open
+  name: USPTO Patent & Trademark API
+  slug: open-uspto-patent-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/uspto-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/uspto-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/uspto-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/USPTO
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/uspto
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.uspto.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.uspto.gov/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.uspto.gov/api-catalog
+- group: build
+  title: ''
+  type: DeveloperTools
+  url: https://data.uspto.gov/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uspto.gov/privacy-policy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.uspto.gov/
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/uspto-patent-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/uspto-context.jsonld
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/uspto-patent-structure.json
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/uspto-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/uspto-vocabulary.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.uspto.gov/rss.xml
+created: '2025-01-01'
+description: The United States Patent and Trademark Office (USPTO) is the federal agency responsible for granting U.S. patents and registering trademarks. USPTO provides a suite of developer APIs through the Open Data Portal (developer.uspto.gov) and data.uspto.gov for programmatic access to patent applications, granted patents, PTAB trial proceedings, trademark status, patent assignments, office actions, and citation data. All USPTO APIs are open government data and return JSON and XML responses. An ODP API key is required for most endpoints.
+examples:
+- key_count: 2
+  name: Uspto Gettrademarkstatus Example
+  slug: uspto-getTrademarkStatus-example
+- key_count: 2
+  name: Uspto Searchptabtrials Example
+  slug: uspto-searchPTABTrials-example
+- key_count: 2
+  name: Uspto Searchpatentapplications Example
+  slug: uspto-searchPatentApplications-example
+- key_count: 2
+  name: Uspto Searchpatentassignments Example
+  slug: uspto-searchPatentAssignments-example
+finops:
+- name: Uspto Finops
+  service_category: Government Open Data
+  slug: uspto-finops
+image: https://www.uspto.gov/sites/default/files/USPTO_Logo.png
+json_schemas:
+- name: Assignee
+  property_count: 5
+  slug: uspto-assignee
+- name: Assignment
+  property_count: 7
+  slug: uspto-assignment
+- name: AssignmentSearchResponse
+  property_count: 2
+  slug: uspto-assignmentsearchresponse
+- name: Classification
+  property_count: 3
+  slug: uspto-classification
+- name: GrantedPatent
+  property_count: 0
+  slug: uspto-grantedpatent
+- name: Inventor
+  property_count: 5
+  slug: uspto-inventor
+- name: USPTO Patent
+  property_count: 16
+  slug: uspto-patent
+- name: PatentApplication
+  property_count: 12
+  slug: uspto-patentapplication
+- name: PatentSearchResponse
+  property_count: 4
+  slug: uspto-patentsearchresponse
+- name: PatentSummary
+  property_count: 10
+  slug: uspto-patentsummary
+- name: ProsecutionEvent
+  property_count: 4
+  slug: uspto-prosecutionevent
+- name: PTABDecisionSearchResponse
+  property_count: 2
+  slug: uspto-ptabdecisionsearchresponse
+- name: PTABTrial
+  property_count: 0
+  slug: uspto-ptabtrial
+- name: PTABTrialSearchResponse
+  property_count: 3
+  slug: uspto-ptabtrialsearchresponse
+- name: PTABTrialSummary
+  property_count: 9
+  slug: uspto-ptabtrialsummary
+- name: TrademarkStatus
+  property_count: 13
+  slug: uspto-trademarkstatus
+json_structures:
+- name: Uspto Patent Structure
+  property_count: 0
+  slug: uspto-patent-structure
+- name: Uspto Structure
+  property_count: 0
+  slug: uspto-structure
+jsonld:
+- class_count: 24
+  name: Uspto Context
+  property_count: 7
+  slug: uspto-context
+layout: provider
+modified: '2026-05-19'
+name: USPTO
+nav: Providers
+network: true
+overview: 'USPTO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Patents API, PTAB API, and 1 more. Tagged areas include Government, Intellectual Property, Open Data, Patents, and Regulatory.
+
+
+  The USPTO catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  USPTO''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 12 more developer resources.'
+plans:
+- name: Uspto Plans Pricing
+  plan_count: 1
+  slug: uspto-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 1
+  name: Uspto Rate Limits
+  slug: uspto-rate-limits
+rules:
+- name: USPTO API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: uspto-jsonschema-spectral-rules
+- name: USPTO API Rules
+  rule_count: 20
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 3
+    warn: 9
+  slug: uspto-rules
+score:
+  band: developing
+  composite: 52.6
+  delta: -1.2
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 68.1
+    developer_ergonomics: 41.3
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 26.3
+  previous_composite: 53.8
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 45.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/screenshots/uspto-2026-06-20T200719.png
+security:
+- kind: authentication
+  name: Uspto Authentication
+  slug: uspto-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Uspto Domain Security
+  slug: uspto-domain-security
+  summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+slug: uspto
+tags:
+- Government
+- Intellectual Property
+- Open Data
+- Patents
+- Regulatory
+- Trademarks
+- USPTO
+website: https://www.uspto.gov/
+---

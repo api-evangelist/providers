@@ -1,0 +1,825 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 15
+  human_in_the_loop: 0
+  name: Google Campaign Manager Agentic Access
+  operation_count: 23
+  slug: google-campaign-manager-agentic-access
+  summary_line: 23 operations · 15 acting
+api_count: 5
+apis:
+- description: Data Transfer v2.0 provides raw, event-level reporting data from Campaign Manager 360 beyond what is available through standard reporting. Data is delivered to Google Cloud Storage as CSV files for ad
+  name: Campaign Manager 360 Data Transfer v2.0
+  slug: campaign-manager-360-data-transfer-v20
+- description: Manage ad configurations within campaigns. Ads define the creative content, delivery schedules, targeting rules, and placement assignments that determine how and where advertising is served to users.
+  name: Google Campaign Manager Ads API
+  slug: google-campaign-manager-ads-api
+- description: Manage advertising campaigns. Campaigns serve as top-level organizational containers that group ads, placements, and creatives under a single advertiser with shared start and end dates, budgets, and t
+  name: Google Campaign Manager Campaigns API
+  slug: google-campaign-manager-campaigns-api
+- description: Manage placements representing ad inventory on publisher sites. Placements define the size, format, pricing, and site location where ads can be served, and generate the ad tags that publishers install
+  name: Google Campaign Manager Placements API
+  slug: google-campaign-manager-placements-api
+- description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
+  name: Google Campaign Manager Reports API
+  slug: google-campaign-manager-reports-api
+artifact_total: 224
+collections:
+- collection_type: open
+  name: Google Campaign Manager Campaign Manager 360 API
+  slug: open-google-campaign-manager
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-campaign-manager-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-campaign-manager-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-campaign-manager-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/google-campaign-manager-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/google-campaign-manager-scopes.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://developers.google.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developers.google.com/identity/protocols/oauth2
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.google/products/marketingplatform/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.google.com/terms
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/googleads/googleads-dfa-reporting-samples
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/google-campaign-manager-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/google-campaign-manager-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-campaign-manager-vocabulary.yaml
+created: '2024'
+description: The Campaign Manager 360 API allows developers to programmatically manage campaigns, creatives, reports, and other advertising operations in Google's Campaign Manager 360 platform.
+examples:
+- key_count: 3
+  name: Google Campaign Manager Activities Example
+  slug: google-campaign-manager-activities-example
+- key_count: 2
+  name: Google Campaign Manager Ad Blocking Configuration Example
+  slug: google-campaign-manager-ad-blocking-configuration-example
+- key_count: 16
+  name: Google Campaign Manager Ad Example
+  slug: google-campaign-manager-ad-example
+- key_count: 3
+  name: Google Campaign Manager Ads List Response Example
+  slug: google-campaign-manager-ads-list-response-example
+- key_count: 3
+  name: Google Campaign Manager Audience Segment Example
+  slug: google-campaign-manager-audience-segment-example
+- key_count: 3
+  name: Google Campaign Manager Audience Segment Group Example
+  slug: google-campaign-manager-audience-segment-group-example
+- key_count: 6
+  name: Google Campaign Manager Browser Example
+  slug: google-campaign-manager-browser-example
+- key_count: 19
+  name: Google Campaign Manager Campaign Example
+  slug: google-campaign-manager-campaign-example
+- key_count: 3
+  name: Google Campaign Manager Campaigns List Response Example
+  slug: google-campaign-manager-campaigns-list-response-example
+- key_count: 9
+  name: Google Campaign Manager City Example
+  slug: google-campaign-manager-city-example
+- key_count: 4
+  name: Google Campaign Manager Click Through Url Example
+  slug: google-campaign-manager-click-through-url-example
+- key_count: 2
+  name: Google Campaign Manager Click Through Url Suffix Properties Example
+  slug: google-campaign-manager-click-through-url-suffix-properties-example
+- key_count: 3
+  name: Google Campaign Manager Connection Type Example
+  slug: google-campaign-manager-connection-type-example
+- key_count: 1
+  name: Google Campaign Manager Conversion Domain Override Example
+  slug: google-campaign-manager-conversion-domain-override-example
+- key_count: 5
+  name: Google Campaign Manager Country Example
+  slug: google-campaign-manager-country-example
+- key_count: 7
+  name: Google Campaign Manager Creative Assignment Example
+  slug: google-campaign-manager-creative-assignment-example
+- key_count: 4
+  name: Google Campaign Manager Creative Optimization Configuration Example
+  slug: google-campaign-manager-creative-optimization-configuration-example
+- key_count: 4
+  name: Google Campaign Manager Creative Rotation Example
+  slug: google-campaign-manager-creative-rotation-example
+- key_count: 2
+  name: Google Campaign Manager Custom Rich Media Events Example
+  slug: google-campaign-manager-custom-rich-media-events-example
+- key_count: 4
+  name: Google Campaign Manager Date Range Example
+  slug: google-campaign-manager-date-range-example
+- key_count: 3
+  name: Google Campaign Manager Day Part Targeting Example
+  slug: google-campaign-manager-day-part-targeting-example
+- key_count: 2
+  name: Google Campaign Manager Default Click Through Event Tag Properties Example
+  slug: google-campaign-manager-default-click-through-event-tag-properties-example
+- key_count: 3
+  name: Google Campaign Manager Delivery Schedule Example
+  slug: google-campaign-manager-delivery-schedule-example
+- key_count: 6
+  name: Google Campaign Manager Dimension Value Example
+  slug: google-campaign-manager-dimension-value-example
+- key_count: 1
+  name: Google Campaign Manager Error Example
+  slug: google-campaign-manager-error-example
+- key_count: 2
+  name: Google Campaign Manager Event Tag Override Example
+  slug: google-campaign-manager-event-tag-override-example
+- key_count: 9
+  name: Google Campaign Manager File Example
+  slug: google-campaign-manager-file-example
+- key_count: 2
+  name: Google Campaign Manager Frequency Cap Example
+  slug: google-campaign-manager-frequency-cap-example
+- key_count: 6
+  name: Google Campaign Manager Geo Targeting Example
+  slug: google-campaign-manager-geo-targeting-example
+- key_count: 1
+  name: Google Campaign Manager Last Modified Info Example
+  slug: google-campaign-manager-last-modified-info-example
+- key_count: 2
+  name: Google Campaign Manager Lookback Configuration Example
+  slug: google-campaign-manager-lookback-configuration-example
+- key_count: 3
+  name: Google Campaign Manager Measurement Partner Link Example
+  slug: google-campaign-manager-measurement-partner-link-example
+- key_count: 4
+  name: Google Campaign Manager Measurement Partner Wrapping Data Example
+  slug: google-campaign-manager-measurement-partner-wrapping-data-example
+- key_count: 7
+  name: Google Campaign Manager Metro Example
+  slug: google-campaign-manager-metro-example
+- key_count: 5
+  name: Google Campaign Manager Mobile Carrier Example
+  slug: google-campaign-manager-mobile-carrier-example
+- key_count: 5
+  name: Google Campaign Manager Operating System Example
+  slug: google-campaign-manager-operating-system-example
+- key_count: 5
+  name: Google Campaign Manager Operating System Version Example
+  slug: google-campaign-manager-operating-system-version-example
+- key_count: 2
+  name: Google Campaign Manager Optimization Activity Example
+  slug: google-campaign-manager-optimization-activity-example
+- key_count: 3
+  name: Google Campaign Manager Placement Assignment Example
+  slug: google-campaign-manager-placement-assignment-example
+- key_count: 28
+  name: Google Campaign Manager Placement Example
+  slug: google-campaign-manager-placement-example
+- key_count: 2
+  name: Google Campaign Manager Placement Tag Example
+  slug: google-campaign-manager-placement-tag-example
+- key_count: 2
+  name: Google Campaign Manager Placements Generate Tags Response Example
+  slug: google-campaign-manager-placements-generate-tags-response-example
+- key_count: 3
+  name: Google Campaign Manager Placements List Response Example
+  slug: google-campaign-manager-placements-list-response-example
+- key_count: 3
+  name: Google Campaign Manager Platform Example
+  slug: google-campaign-manager-platform-example
+- key_count: 5
+  name: Google Campaign Manager Postal Code Example
+  slug: google-campaign-manager-postal-code-example
+- key_count: 6
+  name: Google Campaign Manager Pricing Schedule Example
+  slug: google-campaign-manager-pricing-schedule-example
+- key_count: 5
+  name: Google Campaign Manager Pricing Schedule Pricing Period Example
+  slug: google-campaign-manager-pricing-schedule-pricing-period-example
+- key_count: 2
+  name: Google Campaign Manager Recipient Example
+  slug: google-campaign-manager-recipient-example
+- key_count: 6
+  name: Google Campaign Manager Region Example
+  slug: google-campaign-manager-region-example
+- key_count: 3
+  name: Google Campaign Manager Report Criteria Example
+  slug: google-campaign-manager-report-criteria-example
+- key_count: 6
+  name: Google Campaign Manager Report Cross Dimension Reach Criteria Example
+  slug: google-campaign-manager-report-cross-dimension-reach-criteria-example
+- key_count: 2
+  name: Google Campaign Manager Report Cross Media Reach Criteria Example
+  slug: google-campaign-manager-report-cross-media-reach-criteria-example
+- key_count: 4
+  name: Google Campaign Manager Report Delivery Example
+  slug: google-campaign-manager-report-delivery-example
+- key_count: 11
+  name: Google Campaign Manager Report Example
+  slug: google-campaign-manager-report-example
+- key_count: 4
+  name: Google Campaign Manager Report Floodlight Criteria Example
+  slug: google-campaign-manager-report-floodlight-criteria-example
+- key_count: 4
+  name: Google Campaign Manager Report Path To Conversion Criteria Example
+  slug: google-campaign-manager-report-path-to-conversion-criteria-example
+- key_count: 5
+  name: Google Campaign Manager Report Reach Criteria Example
+  slug: google-campaign-manager-report-reach-criteria-example
+- key_count: 7
+  name: Google Campaign Manager Report Schedule Example
+  slug: google-campaign-manager-report-schedule-example
+- key_count: 4
+  name: Google Campaign Manager Reports List Response Example
+  slug: google-campaign-manager-reports-list-response-example
+- key_count: 5
+  name: Google Campaign Manager Size Example
+  slug: google-campaign-manager-size-example
+- key_count: 3
+  name: Google Campaign Manager Sorted Dimension Example
+  slug: google-campaign-manager-sorted-dimension-example
+- key_count: 4
+  name: Google Campaign Manager Tag Setting Example
+  slug: google-campaign-manager-tag-setting-example
+- key_count: 6
+  name: Google Campaign Manager Technology Targeting Example
+  slug: google-campaign-manager-technology-targeting-example
+- key_count: 7
+  name: Google Campaign Manager Video Settings Example
+  slug: google-campaign-manager-video-settings-example
+features:
+- description: Create, update, and manage advertising campaigns from inception through completion with full programmatic control.
+  name: Campaign Lifecycle Management
+- description: Automate the placement and scheduling of ads across publisher sites with targeting and delivery rules.
+  name: Ad Trafficking
+- description: Generate standard, reach, path-to-conversion, cross-dimension, floodlight, and cross-media reach reports.
+  name: Multi-Format Reporting
+- description: Automatically generate ad tags for publishers to install on their pages.
+  name: Placement Tag Generation
+- description: Configure geo-targeting, technology targeting, day-part targeting, and audience segment rules.
+  name: Audience Targeting
+- description: Track and attribute conversions using Floodlight tags for cross-channel measurement.
+  name: Floodlight Conversion Tracking
+finops:
+- name: Google Campaign Manager Finops
+  service_category: API
+  slug: google-campaign-manager-finops
+image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+integrations:
+- description: Combine Campaign Manager 360 data with Google Analytics for unified web analytics and attribution.
+  name: Google Analytics
+- description: Coordinate campaign management between Campaign Manager 360 and Google Ads platforms.
+  name: Google Ads
+- description: Integrate with DV360 for programmatic buying and campaign execution.
+  name: Display & Video 360
+- description: Export raw event-level data via Data Transfer for advanced analysis in BigQuery or other tools.
+  name: Google Cloud Storage
+- description: Automate Campaign Manager operations using Google Apps Script advanced service.
+  name: Google Apps Script
+json_schemas:
+- name: Activities
+  property_count: 3
+  slug: google-campaign-manager-activities
+- name: AdBlockingConfiguration
+  property_count: 2
+  slug: google-campaign-manager-ad-blocking-configuration
+- name: Ad
+  property_count: 16
+  slug: google-campaign-manager-ad
+- name: AdsListResponse
+  property_count: 3
+  slug: google-campaign-manager-ads-list-response
+- name: AudienceSegmentGroup
+  property_count: 3
+  slug: google-campaign-manager-audience-segment-group
+- name: AudienceSegment
+  property_count: 3
+  slug: google-campaign-manager-audience-segment
+- name: Browser
+  property_count: 6
+  slug: google-campaign-manager-browser
+- name: Campaign
+  property_count: 19
+  slug: google-campaign-manager-campaign
+- name: CampaignsListResponse
+  property_count: 3
+  slug: google-campaign-manager-campaigns-list-response
+- name: City
+  property_count: 9
+  slug: google-campaign-manager-city
+- name: ClickThroughUrl
+  property_count: 4
+  slug: google-campaign-manager-click-through-url
+- name: ClickThroughUrlSuffixProperties
+  property_count: 2
+  slug: google-campaign-manager-click-through-url-suffix-properties
+- name: ConnectionType
+  property_count: 3
+  slug: google-campaign-manager-connection-type
+- name: ConversionDomainOverride
+  property_count: 1
+  slug: google-campaign-manager-conversion-domain-override
+- name: Country
+  property_count: 5
+  slug: google-campaign-manager-country
+- name: CreativeAssignment
+  property_count: 7
+  slug: google-campaign-manager-creative-assignment
+- name: CreativeOptimizationConfiguration
+  property_count: 4
+  slug: google-campaign-manager-creative-optimization-configuration
+- name: CreativeRotation
+  property_count: 4
+  slug: google-campaign-manager-creative-rotation
+- name: CustomRichMediaEvents
+  property_count: 2
+  slug: google-campaign-manager-custom-rich-media-events
+- name: DateRange
+  property_count: 4
+  slug: google-campaign-manager-date-range
+- name: DayPartTargeting
+  property_count: 3
+  slug: google-campaign-manager-day-part-targeting
+- name: DefaultClickThroughEventTagProperties
+  property_count: 2
+  slug: google-campaign-manager-default-click-through-event-tag-properties
+- name: DeliverySchedule
+  property_count: 3
+  slug: google-campaign-manager-delivery-schedule
+- name: DimensionValue
+  property_count: 6
+  slug: google-campaign-manager-dimension-value
+- name: Error
+  property_count: 1
+  slug: google-campaign-manager-error
+- name: EventTagOverride
+  property_count: 2
+  slug: google-campaign-manager-event-tag-override
+- name: File
+  property_count: 9
+  slug: google-campaign-manager-file
+- name: FrequencyCap
+  property_count: 2
+  slug: google-campaign-manager-frequency-cap
+- name: GeoTargeting
+  property_count: 6
+  slug: google-campaign-manager-geo-targeting
+- name: LastModifiedInfo
+  property_count: 1
+  slug: google-campaign-manager-last-modified-info
+- name: LookbackConfiguration
+  property_count: 2
+  slug: google-campaign-manager-lookback-configuration
+- name: MeasurementPartnerLink
+  property_count: 3
+  slug: google-campaign-manager-measurement-partner-link
+- name: MeasurementPartnerWrappingData
+  property_count: 4
+  slug: google-campaign-manager-measurement-partner-wrapping-data
+- name: Metro
+  property_count: 7
+  slug: google-campaign-manager-metro
+- name: MobileCarrier
+  property_count: 5
+  slug: google-campaign-manager-mobile-carrier
+- name: OperatingSystem
+  property_count: 5
+  slug: google-campaign-manager-operating-system
+- name: OperatingSystemVersion
+  property_count: 5
+  slug: google-campaign-manager-operating-system-version
+- name: OptimizationActivity
+  property_count: 2
+  slug: google-campaign-manager-optimization-activity
+- name: PlacementAssignment
+  property_count: 3
+  slug: google-campaign-manager-placement-assignment
+- name: Placement
+  property_count: 28
+  slug: google-campaign-manager-placement
+- name: PlacementTag
+  property_count: 2
+  slug: google-campaign-manager-placement-tag
+- name: PlacementsGenerateTagsResponse
+  property_count: 2
+  slug: google-campaign-manager-placements-generate-tags-response
+- name: PlacementsListResponse
+  property_count: 3
+  slug: google-campaign-manager-placements-list-response
+- name: Platform
+  property_count: 3
+  slug: google-campaign-manager-platform
+- name: PostalCode
+  property_count: 5
+  slug: google-campaign-manager-postal-code
+- name: PricingSchedulePricingPeriod
+  property_count: 5
+  slug: google-campaign-manager-pricing-schedule-pricing-period
+- name: PricingSchedule
+  property_count: 6
+  slug: google-campaign-manager-pricing-schedule
+- name: Recipient
+  property_count: 2
+  slug: google-campaign-manager-recipient
+- name: Region
+  property_count: 6
+  slug: google-campaign-manager-region
+- name: ReportCriteria
+  property_count: 3
+  slug: google-campaign-manager-report-criteria
+- name: ReportCrossDimensionReachCriteria
+  property_count: 6
+  slug: google-campaign-manager-report-cross-dimension-reach-criteria
+- name: ReportCrossMediaReachCriteria
+  property_count: 2
+  slug: google-campaign-manager-report-cross-media-reach-criteria
+- name: ReportDelivery
+  property_count: 4
+  slug: google-campaign-manager-report-delivery
+- name: ReportFloodlightCriteria
+  property_count: 4
+  slug: google-campaign-manager-report-floodlight-criteria
+- name: ReportPathToConversionCriteria
+  property_count: 4
+  slug: google-campaign-manager-report-path-to-conversion-criteria
+- name: ReportReachCriteria
+  property_count: 5
+  slug: google-campaign-manager-report-reach-criteria
+- name: ReportSchedule
+  property_count: 7
+  slug: google-campaign-manager-report-schedule
+- name: Report
+  property_count: 11
+  slug: google-campaign-manager-report
+- name: ReportsListResponse
+  property_count: 4
+  slug: google-campaign-manager-reports-list-response
+- name: Size
+  property_count: 5
+  slug: google-campaign-manager-size
+- name: SortedDimension
+  property_count: 3
+  slug: google-campaign-manager-sorted-dimension
+- name: TagSetting
+  property_count: 4
+  slug: google-campaign-manager-tag-setting
+- name: TechnologyTargeting
+  property_count: 6
+  slug: google-campaign-manager-technology-targeting
+- name: VideoSettings
+  property_count: 7
+  slug: google-campaign-manager-video-settings
+json_structures:
+- name: Google Campaign Manager Activities Structure
+  property_count: 3
+  slug: google-campaign-manager-activities-structure
+- name: Google Campaign Manager Ad Blocking Configuration Structure
+  property_count: 2
+  slug: google-campaign-manager-ad-blocking-configuration-structure
+- name: Google Campaign Manager Ad Structure
+  property_count: 16
+  slug: google-campaign-manager-ad-structure
+- name: Google Campaign Manager Ads List Response Structure
+  property_count: 3
+  slug: google-campaign-manager-ads-list-response-structure
+- name: Google Campaign Manager Audience Segment Group Structure
+  property_count: 3
+  slug: google-campaign-manager-audience-segment-group-structure
+- name: Google Campaign Manager Audience Segment Structure
+  property_count: 3
+  slug: google-campaign-manager-audience-segment-structure
+- name: Google Campaign Manager Browser Structure
+  property_count: 6
+  slug: google-campaign-manager-browser-structure
+- name: Google Campaign Manager Campaign Structure
+  property_count: 19
+  slug: google-campaign-manager-campaign-structure
+- name: Google Campaign Manager Campaigns List Response Structure
+  property_count: 3
+  slug: google-campaign-manager-campaigns-list-response-structure
+- name: Google Campaign Manager City Structure
+  property_count: 9
+  slug: google-campaign-manager-city-structure
+- name: Google Campaign Manager Click Through Url Structure
+  property_count: 4
+  slug: google-campaign-manager-click-through-url-structure
+- name: Google Campaign Manager Click Through Url Suffix Properties Structure
+  property_count: 2
+  slug: google-campaign-manager-click-through-url-suffix-properties-structure
+- name: Google Campaign Manager Connection Type Structure
+  property_count: 3
+  slug: google-campaign-manager-connection-type-structure
+- name: Google Campaign Manager Conversion Domain Override Structure
+  property_count: 1
+  slug: google-campaign-manager-conversion-domain-override-structure
+- name: Google Campaign Manager Country Structure
+  property_count: 5
+  slug: google-campaign-manager-country-structure
+- name: Google Campaign Manager Creative Assignment Structure
+  property_count: 7
+  slug: google-campaign-manager-creative-assignment-structure
+- name: Google Campaign Manager Creative Optimization Configuration Structure
+  property_count: 4
+  slug: google-campaign-manager-creative-optimization-configuration-structure
+- name: Google Campaign Manager Creative Rotation Structure
+  property_count: 4
+  slug: google-campaign-manager-creative-rotation-structure
+- name: Google Campaign Manager Custom Rich Media Events Structure
+  property_count: 2
+  slug: google-campaign-manager-custom-rich-media-events-structure
+- name: Google Campaign Manager Date Range Structure
+  property_count: 4
+  slug: google-campaign-manager-date-range-structure
+- name: Google Campaign Manager Day Part Targeting Structure
+  property_count: 3
+  slug: google-campaign-manager-day-part-targeting-structure
+- name: Google Campaign Manager Default Click Through Event Tag Properties Structure
+  property_count: 2
+  slug: google-campaign-manager-default-click-through-event-tag-properties-structure
+- name: Google Campaign Manager Delivery Schedule Structure
+  property_count: 3
+  slug: google-campaign-manager-delivery-schedule-structure
+- name: Google Campaign Manager Dimension Value Structure
+  property_count: 6
+  slug: google-campaign-manager-dimension-value-structure
+- name: Google Campaign Manager Error Structure
+  property_count: 1
+  slug: google-campaign-manager-error-structure
+- name: Google Campaign Manager Event Tag Override Structure
+  property_count: 2
+  slug: google-campaign-manager-event-tag-override-structure
+- name: Google Campaign Manager File Structure
+  property_count: 9
+  slug: google-campaign-manager-file-structure
+- name: Google Campaign Manager Frequency Cap Structure
+  property_count: 2
+  slug: google-campaign-manager-frequency-cap-structure
+- name: Google Campaign Manager Geo Targeting Structure
+  property_count: 6
+  slug: google-campaign-manager-geo-targeting-structure
+- name: Google Campaign Manager Last Modified Info Structure
+  property_count: 1
+  slug: google-campaign-manager-last-modified-info-structure
+- name: Google Campaign Manager Lookback Configuration Structure
+  property_count: 2
+  slug: google-campaign-manager-lookback-configuration-structure
+- name: Google Campaign Manager Measurement Partner Link Structure
+  property_count: 3
+  slug: google-campaign-manager-measurement-partner-link-structure
+- name: Google Campaign Manager Measurement Partner Wrapping Data Structure
+  property_count: 4
+  slug: google-campaign-manager-measurement-partner-wrapping-data-structure
+- name: Google Campaign Manager Metro Structure
+  property_count: 7
+  slug: google-campaign-manager-metro-structure
+- name: Google Campaign Manager Mobile Carrier Structure
+  property_count: 5
+  slug: google-campaign-manager-mobile-carrier-structure
+- name: Google Campaign Manager Operating System Structure
+  property_count: 5
+  slug: google-campaign-manager-operating-system-structure
+- name: Google Campaign Manager Operating System Version Structure
+  property_count: 5
+  slug: google-campaign-manager-operating-system-version-structure
+- name: Google Campaign Manager Optimization Activity Structure
+  property_count: 2
+  slug: google-campaign-manager-optimization-activity-structure
+- name: Google Campaign Manager Placement Assignment Structure
+  property_count: 3
+  slug: google-campaign-manager-placement-assignment-structure
+- name: Google Campaign Manager Placement Structure
+  property_count: 28
+  slug: google-campaign-manager-placement-structure
+- name: Google Campaign Manager Placement Tag Structure
+  property_count: 2
+  slug: google-campaign-manager-placement-tag-structure
+- name: Google Campaign Manager Placements Generate Tags Response Structure
+  property_count: 2
+  slug: google-campaign-manager-placements-generate-tags-response-structure
+- name: Google Campaign Manager Placements List Response Structure
+  property_count: 3
+  slug: google-campaign-manager-placements-list-response-structure
+- name: Google Campaign Manager Platform Structure
+  property_count: 3
+  slug: google-campaign-manager-platform-structure
+- name: Google Campaign Manager Postal Code Structure
+  property_count: 5
+  slug: google-campaign-manager-postal-code-structure
+- name: Google Campaign Manager Pricing Schedule Pricing Period Structure
+  property_count: 5
+  slug: google-campaign-manager-pricing-schedule-pricing-period-structure
+- name: Google Campaign Manager Pricing Schedule Structure
+  property_count: 6
+  slug: google-campaign-manager-pricing-schedule-structure
+- name: Google Campaign Manager Recipient Structure
+  property_count: 2
+  slug: google-campaign-manager-recipient-structure
+- name: Google Campaign Manager Region Structure
+  property_count: 6
+  slug: google-campaign-manager-region-structure
+- name: Google Campaign Manager Report Criteria Structure
+  property_count: 3
+  slug: google-campaign-manager-report-criteria-structure
+- name: Google Campaign Manager Report Cross Dimension Reach Criteria Structure
+  property_count: 6
+  slug: google-campaign-manager-report-cross-dimension-reach-criteria-structure
+- name: Google Campaign Manager Report Cross Media Reach Criteria Structure
+  property_count: 2
+  slug: google-campaign-manager-report-cross-media-reach-criteria-structure
+- name: Google Campaign Manager Report Delivery Structure
+  property_count: 4
+  slug: google-campaign-manager-report-delivery-structure
+- name: Google Campaign Manager Report Floodlight Criteria Structure
+  property_count: 4
+  slug: google-campaign-manager-report-floodlight-criteria-structure
+- name: Google Campaign Manager Report Path To Conversion Criteria Structure
+  property_count: 4
+  slug: google-campaign-manager-report-path-to-conversion-criteria-structure
+- name: Google Campaign Manager Report Reach Criteria Structure
+  property_count: 5
+  slug: google-campaign-manager-report-reach-criteria-structure
+- name: Google Campaign Manager Report Schedule Structure
+  property_count: 7
+  slug: google-campaign-manager-report-schedule-structure
+- name: Google Campaign Manager Report Structure
+  property_count: 11
+  slug: google-campaign-manager-report-structure
+- name: Google Campaign Manager Reports List Response Structure
+  property_count: 4
+  slug: google-campaign-manager-reports-list-response-structure
+- name: Google Campaign Manager Size Structure
+  property_count: 5
+  slug: google-campaign-manager-size-structure
+- name: Google Campaign Manager Sorted Dimension Structure
+  property_count: 3
+  slug: google-campaign-manager-sorted-dimension-structure
+- name: Google Campaign Manager Tag Setting Structure
+  property_count: 4
+  slug: google-campaign-manager-tag-setting-structure
+- name: Google Campaign Manager Technology Targeting Structure
+  property_count: 6
+  slug: google-campaign-manager-technology-targeting-structure
+- name: Google Campaign Manager Video Settings Structure
+  property_count: 7
+  slug: google-campaign-manager-video-settings-structure
+jsonld:
+- class_count: 0
+  name: Google Campaign Manager Context
+  property_count: 0
+  slug: google-campaign-manager-context
+layout: provider
+modified: '2026-05-19'
+name: Google Campaign Manager
+nav: Providers
+network: true
+overview: 'Google Campaign Manager publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Campaigns API, Placements API, and 1 more. Tagged areas include Advertising, Analytics, Campaign Management, Digital Marketing, and Reporting.
+
+
+  The Google Campaign Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Google Campaign Manager''s developer surface includes authentication, developer portal, engineering blog, and 12 more developer resources.'
+plans:
+- name: Google Campaign Manager Plans Pricing
+  plan_count: 3
+  slug: google-campaign-manager-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 5
+  name: Google Campaign Manager Rate Limits
+  slug: google-campaign-manager-rate-limits
+rules:
+- name: Google Campaign Manager API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: google-campaign-manager-jsonschema-spectral-rules
+- name: Google Campaign Manager API Rules
+  rule_count: 18
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 9
+  slug: google-campaign-manager-spectral-rules
+scopes:
+- name: Google Campaign Manager Scopes
+  scope_count: 2
+  slug: google-campaign-manager-scopes
+  summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 55.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 67.3
+    developer_ergonomics: 21.7
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 47.4
+  previous_composite: 55.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
+security:
+- kind: authentication
+  name: Google Campaign Manager Authentication
+  slug: google-campaign-manager-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Google Campaign Manager Domain Security
+  slug: google-campaign-manager-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Campaign Manager Vulnerability Disclosure
+  slug: google-campaign-manager-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-campaign-manager
+tags:
+- Advertising
+- Analytics
+- Campaign Management
+- Digital Marketing
+- Reporting
+use_cases:
+- description: Automate the creation and configuration of advertising campaigns, ads, and placements across publisher inventory.
+  name: Programmatic Campaign Setup
+- description: Generate and schedule reports to analyze campaign performance, reach, and conversion data.
+  name: Performance Reporting
+- description: Use path-to-conversion and cross-media reach reports to understand multi-channel advertising impact.
+  name: Cross-Channel Attribution
+- description: Streamline trafficking workflows including placement creation, tag generation, and creative assignment.
+  name: Ad Operations Automation
+website: https://developers.google.com/
+---

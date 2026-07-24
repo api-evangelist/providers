@@ -1,0 +1,184 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: Obtain an access token for calling the Open API.
+  name: Advance Intelligence Group Authentication API
+  slug: advance-intelligence-group-authentication-api
+- description: Global document verification (SDK auth-license + result query).
+  name: Advance Intelligence Group Document Verification API
+  slug: advance-intelligence-group-document-verification-api
+- description: Face comparison and biometric matching.
+  name: Advance Intelligence Group Face Recognition API
+  slug: advance-intelligence-group-face-recognition-api
+- description: Optical character recognition for identity documents.
+  name: Advance Intelligence Group OCR API
+  slug: advance-intelligence-group-ocr-api
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/advance-intelligence-group-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://doc.advance.ai/
+- group: company
+  title: ''
+  type: Website
+  url: https://advance.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://doc.advance.ai/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://doc.advance.ai/global_document_verification.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.advance.ai/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://advance.ai/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://advance.ai/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://advance.ai/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://advance.ai/security-compliance/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/advance-intelligence-group-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/advance-intelligence-group-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/advance-intelligence-group-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/advance-intelligence-group-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/advance-intelligence-group-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/advance-intelligence-group-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/advance-intelligence-group-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/advance-intelligence-group-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/advance-intelligence-group-llms.txt
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/advance-intelligence-group-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: 'Advance Intelligence Group is an AI-driven technology company headquartered in Singapore, founded in 2016 and backed by SoftBank Vision Fund, Warburg Pincus and others. It operates three core business lines: ADVANCE.AI (Southeast Asia''s leading provider of digital identity verification, KYC/KYB, AML, compliance and risk-management solutions, serving 500+ enterprise clients), Atome Financial (buy-now-pay-later and digital lending) and Ginee (e-commerce enablement). The ADVANCE.AI business unit exposes a public Open API for eKYC — token authentication, global document verification, OCR field extraction, face comparison and liveness detection — used across banking, fintech, payments, retail and e-commerce in emerging markets. This API Evangelist profile was enriched from the public developer documentation at doc.advance.ai.'
+image: https://advance.ai/wp-content/uploads/2025/09/top-header-right-image.webp
+layout: provider
+mcp_servers:
+- description: ''
+  name: advance-intelligence-group-mcp.yml
+  slug: advance-intelligence-group-mcpyml
+modified: '2026-07-17'
+name: Advance Intelligence Group
+nav: Providers
+network: true
+overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Document Verification API, Face Recognition API, and 1 more. Tagged areas include Company, Fintech, Identity Verification, KYC, and AML.
+
+
+  Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
+random_paper: 35
+score:
+  band: thin
+  composite: 43.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 58.4
+    developer_ergonomics: 63.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 43.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Advance Intelligence Group Authentication
+  slug: advance-intelligence-group-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Advance Intelligence Group Domain Security
+  slug: advance-intelligence-group-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: advance-intelligence-group
+tags:
+- Company
+- Fintech
+- Identity Verification
+- KYC
+- AML
+- Face Recognition
+- OCR
+- Artificial Intelligence
+- Risk Management
+- Singapore
+website: https://advance.ai/
+---

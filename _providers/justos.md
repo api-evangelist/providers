@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.justos.com.br
+- group: company
+  title: ''
+  type: About
+  url: https://www.justos.com.br/sobre
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.justos.com.br/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://justosseguros.zendesk.com/hc/pt-br
+- group: start
+  title: ''
+  type: SignUp
+  url: https://corretores.justos.com.br/cadastro
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.justos.com.br/termos-de-uso
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.justos.com.br/legal-privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/justos-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/justos-llms.txt
+created: '2026-07-17'
+description: Justos is a Brazilian digital auto insurance insurtech founded in 2020 and headquartered in Barueri, São Paulo. Operating as a managing general agent (MGA), Justos uses smartphone-collected driving data (telematics) to reward safe drivers with lower, usage-based pricing — advertised as up to 30% cheaper than traditional plans — plus weekly bonuses and perks like gas vouchers, maintenance, and ride credits. Its products are distributed digitally through a consumer mobile app and a broker (corretor) portal, with claims tracked in-app and 24/7 support. Backed by Ribbit Capital, Kaszek, SoftBank Latin America and GGV; its auto insurance is underwritten by Companhia Excelsior de Seguros (SUSEP code 05690). No public developer API, OpenAPI, or developer portal is published at this time.
+image: https://cdn.prod.website-files.com/63bdbbd2c764e85f370a866e/65b2d4926bde9edb1bee3101_whatsapp_preview.png
+layout: provider
+modified: '2026-07-19'
+name: Justos
+nav: Providers
+network: true
+overview: 'Justos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Auto Insurance, and Telematics.
+
+
+  Justos'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
+random_paper: 17
+score:
+  band: emerging
+  composite: 17.2
+  delta: 2.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Justos Domain Security
+  slug: justos-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: justos
+tags:
+- Company
+- Insurtech
+- Insurance
+- Auto Insurance
+- Telematics
+- Usage-Based Insurance
+- Brazil
+- MGA
+website: https://www.justos.com.br
+---

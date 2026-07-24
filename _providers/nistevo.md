@@ -1,0 +1,64 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Nistevo was a Collaborative Logistics Network — a web-based, on-demand (ASP/SaaS) transportation management platform that let manufacturers, retailers, and carriers plan, tender, execute, and settle inbound and outbound truckload freight collaboratively. Founded in 1996 in Eden Prairie, Minnesota (originally TransView Corporation) and backed by Insight Partners, it served shippers such as General Mills, Land O'Lakes, Georgia-Pacific, Cargill, and Baxter, and was acquired by Sterling Commerce (an AT&T subsidiary) in May 2006. The company no longer operates independently and publishes no public API, developer portal, or documentation; nistevo.com is parked and serves no live web application.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nistevo.png
+layout: provider
+modified: '2026-07-20'
+name: Nistevo
+nav: Providers
+network: true
+overview: Nistevo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Transportation Management, and SaaS.
+random_paper: 11
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: nistevo
+tags:
+- Company
+- Logistics
+- Supply Chain
+- Transportation Management
+- SaaS
+- Defunct
+---

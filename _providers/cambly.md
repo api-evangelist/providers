@@ -1,0 +1,108 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cambly.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Cambly
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.cambly.com/en/support
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.cambly.com/onboarding
+- group: start
+  title: ''
+  type: Login
+  url: https://www.cambly.com/student/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cambly.com/legal/user_agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cambly.com/legal/privacy_policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cambly-domain-security.yml
+created: '2026-07-17'
+description: Cambly is an online English-language learning platform, founded in 2012 and based in San Francisco, that connects English learners in more than 190 countries with native-speaking tutors over on-demand video chat. Its consumer products include Cambly (adult learners), Cambly Kids (ages 4-15), Cambly Pro, and Cambly for Organizations/Business. Backed by Bessemer Venture Partners, GV, and Y Combinator, the company operates a marketplace connecting students and tutors with weekly payouts. Cambly does not currently publish a public developer API or developer portal; this API Evangelist profile captures its public company surface, GitHub organization, and domain-security posture.
+image: https://www.cambly.com/static/images/cambly-favicon.png
+layout: provider
+modified: '2026-07-18'
+name: Cambly
+nav: Providers
+network: true
+overview: 'Cambly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, Language Learning, and EdTech.
+
+
+  Cambly''s developer surface includes support, signup flow, and 6 more developer resources.'
+random_paper: 20
+score:
+  band: emerging
+  composite: 15.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cambly Domain Security
+  slug: cambly-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: cambly
+tags:
+- Company
+- Consumer
+- Education
+- Language Learning
+- EdTech
+- Tutoring
+- Video
+- Marketplace
+website: https://www.cambly.com
+---

@@ -1,0 +1,179 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
+  name: Aplazo Merchant Payment API
+  slug: aplazo-merchant-payment-api
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: Aplazo Webhooks
+  slug: aplazo-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aplazo.mx/pages/home
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aplazo
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aplazo.mx/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aplazo.mx/privacy-and-policy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:soporte@aplazo.mx
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aplazo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/aplazo-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/aplazo-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/aplazo-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/aplazo-conventions.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aplazo-mcp.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/aplazo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aplazo-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/aplazo-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/aplazo-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/aplazo-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aplazo-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aplazo-domain-security.yml
+created: '2026-07-17'
+description: Aplazo is a Mexican buy now, pay later (BNPL) payment platform that lets shoppers split online and in-store purchases into installments without a credit card, paying over time directly from their bank account. For merchants, Aplazo exposes a REST payment API (api.aplazo.mx) and official e-commerce plugins (Magento 2, VTEX, Shopify, PrestaShop, Tiendanube) to originate loans at checkout, retrieve loan status, and process refunds and cancellations. Merchants authenticate with an apiToken and merchantId to obtain a short-lived JWT bearer token, then create loans that redirect the customer to Aplazo to complete financing. Aplazo is backed by QED Investors and operates in Mexico, settling in Mexican pesos (MXN).
+image: https://aplazoassets.s3.us-west-2.amazonaws.com/icons/aplazo/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: aplazo-mcp.yml
+  slug: aplazo-mcpyml
+modified: '2026-07-17'
+name: Aplazo
+nav: Providers
+network: true
+overview: 'Aplazo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, BNPL, Buy Now Pay Later, and Installments.
+
+
+  The Aplazo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Aplazo''s developer surface includes support, authentication, sandbox, and 16 more developer resources.'
+random_paper: 35
+score:
+  band: thin
+  composite: 31.6
+  delta: 2.1
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 22.6
+    developer_ergonomics: 43.5
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 29.5
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Aplazo Authentication
+  slug: aplazo-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Aplazo Domain Security
+  slug: aplazo-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: aplazo
+tags:
+- Company
+- Payments
+- BNPL
+- Buy Now Pay Later
+- Installments
+- Fintech
+- Lending
+- Mexico
+- Checkout
+- E-commerce
+website: https://aplazo.mx/pages/home
+---

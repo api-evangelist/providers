@@ -1,0 +1,101 @@
+---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: CKAN Action API for dataset.gov.md, a consistent JSON-over-HTTP interface over a catalog of roughly 1,275 datasets. Standard actions include package_search, package_show, package_list, organization_li
+  name: dataset.gov.md CKAN Action API
+  slug: catalog
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dataset-gov-md-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://dataset.gov.md/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ckan.org/en/2.10/api/
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-23'
+description: dataset.gov.md is the national government open-data catalog for the Republic of Moldova (Portalul Datelor Deschise). The landing portal at date.gov.md links out to this catalog, which runs CKAN 2.10.4 and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dataset-gov-md.png
+layout: provider
+modified: '2026-06-23'
+name: dataset.gov.md (Portalul Datelor Deschise)
+nav: Providers
+network: true
+overview: 'dataset.gov.md (Portalul Datelor Deschise) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+
+
+  dataset.gov.md (Portalul Datelor Deschise)''s developer surface includes documentation and 3 more developer resources.'
+random_paper: 47
+score:
+  band: minimal
+  composite: 11.3
+  delta: 0.3
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dataset Gov Md Domain Security
+  slug: dataset-gov-md-domain-security
+  summary_line: TLSv1.2 · HSTS
+slug: dataset-gov-md
+tags:
+- Open Data
+- CKAN
+- Data Catalog
+- DCAT
+- Government Data
+- National Government
+- Moldova
+- Europe
+website: https://dataset.gov.md/
+---

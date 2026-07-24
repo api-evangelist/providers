@@ -1,0 +1,175 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 33.7
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: Account and wallet service.
+  name: Gameflip Account API
+  slug: gameflip-account-api
+- description: Create and manage sell/buy records (exchanges).
+  name: Gameflip Exchange API
+  slug: gameflip-exchange-api
+- description: Create and manipulate listings of items for sale.
+  name: Gameflip Listing API
+  slug: gameflip-listing-api
+- description: Account profile service.
+  name: Gameflip Profile API
+  slug: gameflip-profile-api
+- description: Create listings/escrow for multiple Steam items with one trade offer.
+  name: Gameflip Steam Bulk API
+  slug: gameflip-steam-bulk-api
+- description: Escrow Steam items.
+  name: Gameflip Steam Escrow API
+  slug: gameflip-steam-escrow-api
+artifact_total: 9
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gameflip.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://gameflip.github.io/gfapi/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://gameflip.github.io/gfapi/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://gameflip.github.io/gfapi/
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gameflip-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gameflip-packages.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/gameflip
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.gameflip.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://gameflip.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://gameflip.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://gameflip.com/about/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://gameflip.com/about/privacy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/gameflip-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gameflip-conventions.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gameflip-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gameflip-llms.txt
+created: '2026-07-17'
+description: 'Gameflip is a digital marketplace where gamers buy and sell games, in-game items, gift cards, game accounts, boosting/coaching gigs, and other digital goods, backed by an escrow-style buyer guarantee and a built-in wallet. For developers and power sellers, Gameflip publishes the GFAPI — a JSON REST API (base path /api/v1) for creating and managing listings, searching the marketplace, running exchanges (sell/buy records), reading account profiles and wallet history, and handling Steam item escrow and bulk trade-offer listings. Requests are authenticated with an API key plus a rotating TOTP one-time password sent in the Authorization header (`GFAPI <apikey>:<totp>`). Access is Beta and gated: API keys and TOTP secrets are issued to selected developers through Gameflip support / account settings. An official Node.js client library (gfapi) with sample code is published by Gameflip.'
+image: https://gameflip.com/img/app/gf_logo_280x150.jpg
+layout: provider
+modified: '2026-07-19'
+name: Gameflip
+nav: Providers
+network: true
+overview: 'Gameflip publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Exchange API, Listing API, and 3 more. Tagged areas include Company, Gaming, Marketplace, Digital Goods, and E-Commerce.
+
+
+  Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 9 more developer resources.'
+random_paper: 21
+rate_limits:
+- limit_count: 0
+  name: Gameflip Rate Limits
+  slug: gameflip-rate-limits
+score:
+  band: thin
+  composite: 41.6
+  delta: 0.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 54.9
+    developer_ergonomics: 50.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 41.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Gameflip Authentication
+  slug: gameflip-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Gameflip Domain Security
+  slug: gameflip-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: gameflip
+tags:
+- Company
+- Gaming
+- Marketplace
+- Digital Goods
+- E-Commerce
+- Payments
+- Wallet
+- Listings
+- Steam
+- Gift Cards
+website: https://gameflip.com
+---

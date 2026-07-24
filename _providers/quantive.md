@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: RESTful API v1.0 for the WorkBoard / Quantive strategy-execution platform. Supports OAuth 2.0 (authorization-code) for multi-user apps and an instant-token flow for single-user or testing scenarios. A
+  name: WorkBoard REST API (Quantive)
+  slug: workboard-rest-api-quantive
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/quantive-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://quantive.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.workboard.com/developer
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.workboard.com/developer
+- group: start
+  title: ''
+  type: Login
+  url: https://www.myworkboard.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/quantive-well-known.yml
+created: '2026-07-17'
+description: Quantive is a strategy-execution and OKR (Objectives and Key Results) software company, originally launched as Gtmhub and rebranded to Quantive in 2021. Its flagship product, Quantive Results, helps organizations set, align, track, and report on goals and outcomes with dashboards, insights, and integrations. In 2025 Quantive merged into WorkBoard and the Quantive name became a WorkBoard, Inc. trademark; the quantive.com domain now redirects to workboard.com, and the live developer surface is the WorkBoard REST API v1.0 (OAuth 2.0 plus an instant-token flow) hosted on myworkboard.com. Quantive was surfaced through the Index Ventures and Techstars portfolios and added to the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantive.png
+layout: provider
+modified: '2026-07-20'
+name: Quantive
+nav: Providers
+network: true
+overview: 'Quantive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, OKR, Strategy Execution, and Goal Management.
+
+
+  Quantive''s developer surface includes documentation and 5 more developer resources.'
+random_paper: 10
+scopes:
+- name: Quantive Scopes
+  scope_count: 0
+  slug: quantive-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 15.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Quantive Authentication
+  slug: quantive-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Quantive Domain Security
+  slug: quantive-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: quantive
+tags:
+- Company
+- Business Applications
+- OKR
+- Strategy Execution
+- Goal Management
+- Performance Management
+- SaaS
+website: https://quantive.com/
+---

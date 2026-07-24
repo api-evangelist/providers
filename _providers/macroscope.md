@@ -1,0 +1,160 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 31.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Workspaces API from Macroscope — 2 operation(s) for workspaces.
+  name: Macroscope Workspaces API
+  slug: macroscope-workspaces-api
+artifact_total: 4
+asyncapis:
+- description: ''
+  name: Macroscope Webhooks
+  slug: macroscope-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/macroscope-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.macroscope.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.macroscope.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.macroscope.com/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.macroscope.com/setup-instructions
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.macroscope.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.macroscope.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/prassoai
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.macroscope.com/contact
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.macroscope.com/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/macroscope-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/macroscope-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/macroscope-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/macroscope-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/macroscope-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/macroscope-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/macroscope-weekly-changes-digest.md
+created: '2026-07-17'
+description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Review (automatic bug detection, PR descriptions, and fixes on every pull request), and Status (commit summaries, area classification, productivity insights, and sprint reports). Macroscope integrates with GitHub, Slack, Jira, Linear, BigQuery, PostHog, LaunchDarkly, and GCP Cloud Logging, ships a local CLI plus plugins for Claude Code, Codex, Cursor, and OpenCode, and exposes a public agent webhook API. Billing is usage-based (prepaid, Stripe-metered). Macroscope is backed by Lightspeed Venture Partners. Enriched into the API Evangelist network from its public developer documentation.
+image: https://macroscope.com/assets/macroscop-logo-black.svg
+layout: provider
+modified: '2026-07-20'
+name: Macroscope
+nav: Providers
+network: true
+overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network: Workspaces API. Tagged areas include Company, AI Code Review, Code Intelligence, Developer Tools, and Pull Requests.
+
+
+  The Macroscope catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Macroscope''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 10 more developer resources.'
+random_paper: 48
+score:
+  band: thin
+  composite: 44.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 70.8
+    developer_ergonomics: 52.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 44.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Macroscope Authentication
+  slug: macroscope-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Macroscope Domain Security
+  slug: macroscope-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: macroscope
+tags:
+- Company
+- AI Code Review
+- Code Intelligence
+- Developer Tools
+- Pull Requests
+- Agent
+- Webhooks
+- DevOps
+website: https://docs.macroscope.com
+---

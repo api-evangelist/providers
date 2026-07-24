@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Dana Aftermarket API provides programmatic access to Dana's aftermarket e-commerce platform with APIs for advanced shipping notification, availability, deep linking, order status, part details, pa
+  name: Dana Aftermarket API
+  slug: aftermarket-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dana-incorporated-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/dana-incorporated
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dana.com
+- group: company
+  title: ''
+  type: Investor Relations
+  url: https://www.dana.com/investors/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.dana.com/newsroom/
+- group: start
+  title: ''
+  type: Aftermarket Portal
+  url: https://developer.danaaftermarket.com/
+- group: other
+  title: ''
+  type: Alias
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/apis.yml
+created: '2026-03-24'
+description: Dana Incorporated is a global supplier of fully integrated drivetrain and electrified propulsion systems for passenger, commercial, and off-highway vehicles. Dana announced an agreement in 2025 for its Off-Highway business to be acquired by Allison Transmission. Dana's main public API surface is the Dana Aftermarket developer platform; this repository is an alias of the primary "dana" profile.
+finops:
+- name: Dana Incorporated Finops
+  service_category: Automotive Aftermarket
+  slug: dana-incorporated-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dana-incorporated.png
+layout: provider
+modified: '2026-04-28'
+name: Dana Incorporated
+nav: Providers
+network: true
+overview: Dana Incorporated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aftermarket, Auto Parts, Automotive, Drivetrain, and Electrified Propulsion.
+plans:
+- name: Dana Incorporated Plans Pricing
+  plan_count: 1
+  slug: dana-incorporated-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 1
+  name: Dana Incorporated Rate Limits
+  slug: dana-incorporated-rate-limits
+score:
+  band: emerging
+  composite: 17.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 17.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dana-incorporated/refs/heads/main/screenshots/dana-incorporated-2026-06-20T175458.png
+security:
+- kind: domain-security
+  name: Dana Incorporated Domain Security
+  slug: dana-incorporated-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: dana-incorporated
+tags:
+- Aftermarket
+- Auto Parts
+- Automotive
+- Drivetrain
+- Electrified Propulsion
+- Fortune 500
+website: https://www.dana.com
+---

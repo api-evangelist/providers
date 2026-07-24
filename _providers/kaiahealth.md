@@ -1,0 +1,137 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kaiahealth-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kaiahealth-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://kaiahealth.com/legal/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/kaiahealth-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kaiahealth-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://kaiahealth.com/legal/security/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kaiahealth.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/KaiaHealth
+- group: company
+  title: ''
+  type: Blog
+  url: https://kaiahealth.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.kaiahealth.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://kaiahealth.com/legal/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://kaiahealth.com/legal/terms-conditions/
+created: '2026-07-17'
+description: Kaia Health is a digital therapeutics company founded in 2016 (New York and Munich) that delivers evidence-based, digital-first care for musculoskeletal (MSK) pain and respiratory conditions. Its smartphone apps use AI and computer vision (motion tracking) plus in-house physical-therapy doctors to guide members through clinically validated exercise and behavioral programs without appointments or wearable devices. Products include Kaia MSK (joint and muscle care) and Kaia Breathe (respiratory / COPD). The company sells to employers and health plans, claims 2,500+ enterprise clients and 3x ROI, and is HIPAA, GDPR, HITRUST, SOC 2 Type II, ISO 27001, ISO 13485, and CE-certified. Kaia Health was acquired by Sword Health in January 2026. It is backed by Balderton Capital. Kaia Health publishes no public API; this profile captures its identity, security, and compliance posture.
+image: https://avatars.githubusercontent.com/u/31281033?v=4
+layout: provider
+modified: '2026-07-19'
+name: kaiahealth
+nav: Providers
+network: true
+overview: 'kaiahealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Therapeutics, Digital Health, Healthcare, and Musculoskeletal.
+
+
+  kaiahealth''s developer surface includes engineering blog, support, and 10 more developer resources.'
+random_paper: 16
+score:
+  band: emerging
+  composite: 24.6
+  delta: 7.1
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 17.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: domain-security
+  name: Kaiahealth Domain Security
+  slug: kaiahealth-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Kaiahealth Vulnerability Disclosure
+  slug: kaiahealth-vulnerability-disclosure
+  summary_line: contact published
+- kind: trust-center
+  name: Kaiahealth Trust Center
+  slug: kaiahealth-trust-center
+  summary_line: SOC 2 Type II, ISO 27001, ISO 13485, HITRUST, HIPAA, GDPR, CCPA, CE Medical Device
+slug: kaiahealth
+tags:
+- Company
+- Digital Therapeutics
+- Digital Health
+- Healthcare
+- Musculoskeletal
+- MSK
+- DTx
+- Physical Therapy
+website: https://www.kaiahealth.com/
+---

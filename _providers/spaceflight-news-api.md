@@ -1,0 +1,171 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Spaceflight News Api Agentic Access
+  operation_count: 7
+  slug: spaceflight-news-api-agentic-access
+  summary_line: 7 operations
+api_count: 4
+apis:
+- description: Space news article operations
+  name: Spaceflight News API Articles API
+  slug: spaceflight-news-api-articles-api
+- description: Space blog post operations
+  name: Spaceflight News API Blogs API
+  slug: spaceflight-news-api-blogs-api
+- description: API metadata operations
+  name: Spaceflight News API Info API
+  slug: spaceflight-news-api-info-api
+- description: Space mission report operations
+  name: Spaceflight News API Reports API
+  slug: spaceflight-news-api-reports-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Spaceflight News API
+  slug: open-spaceflight-news-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/spaceflight-news-api-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/spaceflight-news-api-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.spaceflightnewsapi.net
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.spaceflightnewsapi.net/v4/docs/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/thespacedevs/spaceflightnewsapi
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/thespacedevs
+created: '2024-11-07'
+description: The Spaceflight News API (SNAPI) is a free, open REST API that aggregates space-related news, blogs, and reports from over 43 sources including NASA, SpaceX, Reuters, NASASpaceflight, and Spaceflight Now. It provides paginated access to articles, blogs, and reports with integration to Launch Library 2 for linking news to specific launches and events.
+examples:
+- key_count: 4
+  name: Spaceflight News Api List Articles Example
+  slug: spaceflight-news-api-list-articles-example
+finops:
+- name: Spaceflight News Api Finops
+  service_category: API
+  slug: spaceflight-news-api-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spaceflight-news-api.png
+json_schemas:
+- name: Spaceflight News API Article
+  property_count: 12
+  slug: spaceflight-news-api-article
+json_structures:
+- name: Spaceflight News Api Article Structure
+  property_count: 0
+  slug: spaceflight-news-api-article-structure
+jsonld:
+- class_count: 14
+  name: Spaceflight News Api Context
+  property_count: 11
+  slug: spaceflight-news-api-context
+layout: provider
+modified: '2026-05-19'
+name: Spaceflight News API
+nav: Providers
+network: true
+overview: 'Spaceflight News API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Blogs API, Info API, and 1 more. Tagged areas include News, Space, Spaceflight, and Media.
+
+
+  The Spaceflight News API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Spaceflight News API''s developer surface includes documentation, GitHub presence, support, and 3 more developer resources.'
+plans:
+- name: Spaceflight News Api Plans Pricing
+  plan_count: 3
+  slug: spaceflight-news-api-plans-pricing
+random_paper: 22
+rate_limits:
+- limit_count: 5
+  name: Spaceflight News Api Rate Limits
+  slug: spaceflight-news-api-rate-limits
+rules:
+- name: Spaceflight News API API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: spaceflight-news-api-jsonschema-spectral-rules
+- name: Spaceflight News API API Rules
+  rule_count: 9
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 3
+    warn: 5
+  slug: spaceflight-news-api-rules
+score:
+  band: developing
+  composite: 45.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 64.6
+    developer_ergonomics: 13.0
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 45.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/screenshots/spaceflight-news-api-2026-06-20T194235.png
+security:
+- kind: domain-security
+  name: Spaceflight News Api Domain Security
+  slug: spaceflight-news-api-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: spaceflight-news-api
+tags:
+- News
+- Space
+- Spaceflight
+- Media
+website: https://www.spaceflightnewsapi.net
+---

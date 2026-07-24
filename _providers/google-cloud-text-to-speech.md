@@ -1,0 +1,190 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Google Cloud Text To Speech Agentic Access
+  operation_count: 2
+  slug: google-cloud-text-to-speech-agentic-access
+  summary_line: 2 operations · 1 acting
+api_count: 2
+apis:
+- description: The Text:synthesize API from Google Cloud Text-To-Speech — 1 operation(s) for text:synthesize.
+  name: Google Cloud Text-To-Speech Text:synthesize API
+  slug: google-cloud-text-to-speech-text-synthesize-api
+- description: The Voices API from Google Cloud Text-To-Speech — 1 operation(s) for voices.
+  name: Google Cloud Text-To-Speech Voices API
+  slug: google-cloud-text-to-speech-voices-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Google Cloud Text-to-Speech API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-cloud-text-to-speech-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-cloud-text-to-speech-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-cloud-text-to-speech-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/GoogleCloudPlatform
+- group: start
+  title: ''
+  type: Portal
+  url: https://cloud.google.com/text-to-speech
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cloud.google.com/text-to-speech/docs
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://cloud.google.com/docs/authentication
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.google.com/text-to-speech/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://cloud.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://cloud.google.com/text-to-speech/docs/support
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://cloud.google.com/feeds/tts-release-notes.xml
+created: '2026-03-13'
+description: Google Cloud Text-to-Speech converts text or Speech Synthesis Markup Language (SSML) input into audio data of natural human speech. It provides access to hundreds of voices across multiple languages and variants, powered by DeepMind's WaveNet technology and Google's neural network models.
+finops:
+- name: Google Cloud Text To Speech Finops
+  service_category: API
+  slug: google-cloud-text-to-speech-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-text-to-speech.png
+json_schemas:
+- name: Speech Synthesis Request
+  property_count: 3
+  slug: speech-synthesis
+jsonld:
+- class_count: 13
+  name: context Context
+  property_count: 0
+  slug: context
+layout: provider
+modified: '2026-05-19'
+name: Google Cloud Text-To-Speech
+nav: Providers
+network: true
+overview: 'Google Cloud Text-To-Speech publishes 2 APIs on the [APIs.io](https://apis.io/) network: Text:synthesize API and Voices API. Tagged areas include Audio, Google Cloud, Machine Learning, Speech Synthesis, and Text-To-Speech.
+
+
+  The Google Cloud Text-To-Speech catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Cloud Text-To-Speech''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 8 more developer resources.'
+plans:
+- name: Google Cloud Text To Speech Plans Pricing
+  plan_count: 3
+  slug: google-cloud-text-to-speech-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 5
+  name: Google Cloud Text To Speech Rate Limits
+  slug: google-cloud-text-to-speech-rate-limits
+rules:
+- name: Google Cloud Text-To-Speech API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: google-cloud-text-to-speech-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 59.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 57.5
+    developer_ergonomics: 45.7
+    discoverability: 60.0
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 59.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-text-to-speech/refs/heads/main/screenshots/google-cloud-text-to-speech-2026-06-20T182149.png
+security:
+- kind: domain-security
+  name: Google Cloud Text To Speech Domain Security
+  slug: google-cloud-text-to-speech-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Cloud Text To Speech Vulnerability Disclosure
+  slug: google-cloud-text-to-speech-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-cloud-text-to-speech
+tags:
+- Audio
+- Google Cloud
+- Machine Learning
+- Speech Synthesis
+- Text-To-Speech
+website: https://cloud.google.com/text-to-speech
+---

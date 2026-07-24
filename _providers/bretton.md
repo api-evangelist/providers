@@ -1,0 +1,149 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bretton.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bretton.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bretton.com/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://app.bretton.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bretton.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bretton.com/legal/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.bretton.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.bretton.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.bretton.com/
+- group: auth
+  title: ''
+  type: Security
+  url: https://trust.bretton.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bretton-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bretton-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bretton-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bretton-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/bretton-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/bretton-vulnerability-disclosure.yml
+created: '2026-07-17'
+description: Bretton AI (formerly Greenlite AI) is a San Francisco fintech building AI-native operational infrastructure for financial institutions' back-office and financial-crime-compliance workflows. Its audit-ready AI agents automate AML alert investigation, KYC/CDD/EDD, sanctions screening, and transaction monitoring inside a bank's existing systems, replacing traditional BPO with agentic automation backed by QA/QC and full audit trails. The platform ships 30+ pre-built skills, 180+ data sources, a natural-language agent builder, and native connectors to core banking, document review, and compliance systems. Bretton is used by OCC-, FDIC-, and Federal Reserve-regulated banks and platforms including Robinhood, Mercury, Gusto, Lead Bank, and Coastal Community Bank, and raised a $75M Series B led by Sapphire Ventures (with Greylock, Thomson Reuters Ventures, and Canvas Ventures) in February 2026. The developer documentation portal is access-gated and there is no public API.
+image: https://cdn.prod.website-files.com/695ee158104b9c8342c9fd7e/6a440425431eff52b8bd9909_Open%20Graph.jpeg
+layout: provider
+modified: '2026-07-18'
+name: Bretton
+nav: Providers
+network: true
+overview: 'Bretton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, RegTech, Financial Crime Compliance, and AML.
+
+
+  Bretton''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
+random_paper: 1
+score:
+  band: emerging
+  composite: 22.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 22.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bretton Domain Security
+  slug: bretton-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Bretton Vulnerability Disclosure
+  slug: bretton-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Bretton Trust Center
+  slug: bretton-trust-center
+  summary_line: SOC 2 Type II, GDPR
+slug: bretton
+tags:
+- Company
+- Fintech
+- RegTech
+- Financial Crime Compliance
+- AML
+- KYC
+- AI Agents
+- Compliance
+- Financial Services
+website: https://www.bretton.com/
+---

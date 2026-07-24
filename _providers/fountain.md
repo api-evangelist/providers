@@ -1,0 +1,219 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 52.9
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
+  name: Fountain Platform API
+  slug: fountain-platform-api
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Fountain Webhooks
+  slug: fountain-webhooks
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/fountain-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fountain-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.fountain.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.fountain.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.fountain.com/reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.fountain.com/reference/hire-api-overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.fountain.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fountain.com/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.fountain.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.fountain.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://privacy.fountain.com/policies/en/?name=terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.fountain.com/policies/en/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.fountain.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.fountain.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.fountain.com/reference/deprecations
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fountain-authentication.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fountain-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fountain-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fountain-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fountain-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fountain-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/fountain-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fountain-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fountain-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fountain-llms.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/fountain-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fountain-well-known.yml
+created: '2026-07-17'
+description: Fountain is an AI-powered frontline workforce management platform used by 500+ enterprise employers across retail, logistics, hospitality, healthcare, and food service to source, hire, onboard, schedule, and retain high-volume hourly workers. Its developer platform exposes a REST API — the Hire v2 API plus newer Workforce, Attendance, Scheduling, Compliance, Referral, Pool, and Pulse microservices — for programmatically managing applicants, openings, positions, locations, interview slots, workers, documents, custom attributes, and data exports. Authentication is OAuth2 client-credentials (with a legacy X-ACCESS-TOKEN key model on tenant hosts), webhooks are HMAC-SHA-256 signed, requests are rate limited to 120/minute, and deprecations are signaled with RFC 8594 Sunset headers.
+image: https://logo.clearbit.com/fountain.com
+layout: provider
+mcp_servers:
+- description: ''
+  name: fountain-mcp.yml
+  slug: fountain-mcpyml
+modified: '2026-07-19'
+name: Fountain
+nav: Providers
+network: true
+overview: 'Fountain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Hiring, Recruiting, and Applicant Tracking.
+
+
+  The Fountain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
+random_paper: 1
+rate_limits:
+- limit_count: 0
+  name: Fountain Rate Limits
+  slug: fountain-rate-limits
+score:
+  band: thin
+  composite: 42.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 22.6
+    developer_ergonomics: 67.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 42.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Fountain Authentication
+  slug: fountain-authentication
+  summary_line: oauth2/apiKey · 2 schemes
+- kind: domain-security
+  name: Fountain Domain Security
+  slug: fountain-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Fountain Vulnerability Disclosure
+  slug: fountain-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: fountain
+tags:
+- Company
+- Enterprise
+- Hiring
+- Recruiting
+- Applicant Tracking
+- Human Resources
+- Workforce Management
+- Onboarding
+- Scheduling
+- HR Tech
+- Frontline
+website: https://developer.fountain.com/
+---

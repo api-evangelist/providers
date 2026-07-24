@@ -1,0 +1,128 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/parallel-universe-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://parallel.life/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.echelon.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://parallel.life/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://parallel.life/faq
+- group: docs
+  title: ''
+  type: GameManual
+  url: https://parallel.life/game-manual
+- group: start
+  title: ''
+  type: SignUp
+  url: https://parallel.life/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://parallel.life/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://parallel.life/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://parallel.life/privacy-policy
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/ParallelTCG
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.com/invite/paralleltcg
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@ParallelTCG
+created: '2026-07-17'
+description: Parallel Universe Inc. (Parallel Studios) is the Toronto-based game studio behind Parallel, a free-to-play sci-fi trading card game, and the broader Parallel Universe franchise that includes Colony, an AI agent simulation game, and Sanctuary, a third-person extraction shooter. The studio anchors the Echelon Prime web3 gaming ecosystem, where players truly own their cards and in-game items as blockchain assets and the PRIME token powers governance and rewards. Backed by a16z (Andreessen Horowitz) and Paradigm, Parallel is a consumer game franchise distributed via the web, Epic Games, Steam, the Apple App Store, and Google Play. It publishes no public developer / REST API surface today; this profile captures the studio's public web, community, and legal properties as harvested by the API Evangelist enrichment pipeline.
+image: https://storage.googleapis.com/prod-assets-parallel-life/images/art/misc/heroes-of-parallel.png
+layout: provider
+modified: '2026-07-20'
+name: Parallel Universe
+nav: Providers
+network: true
+overview: 'Parallel Universe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Web3, Trading Card Game, and Blockchain.
+
+
+  Parallel Universe''s developer surface includes documentation, engineering blog, support, signup flow, YouTube channel, and 8 more developer resources.'
+random_paper: 37
+score:
+  band: emerging
+  composite: 16.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 16.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Parallel Universe Domain Security
+  slug: parallel-universe-domain-security
+  summary_line: TLSv1.3
+slug: parallel-universe
+tags:
+- Company
+- Gaming
+- Web3
+- Trading Card Game
+- Blockchain
+- NFT
+- Entertainment
+- Consumer
+website: https://parallel.life/
+---

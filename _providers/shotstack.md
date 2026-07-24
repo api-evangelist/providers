@@ -1,0 +1,159 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 11
+  human_in_the_loop: 0
+  name: Shotstack Agentic Access
+  operation_count: 20
+  slug: shotstack-agentic-access
+  summary_line: 20 operations · 11 acting
+api_count: 5
+apis:
+- description: Generate AI assets such as text-to-speech and text-to-image.
+  name: Shotstack Create API
+  slug: shotstack-create-api
+- description: Render videos, images, and audio from a JSON edit specification.
+  name: Shotstack Edit API
+  slug: shotstack-edit-api
+- description: Upload, store, and transform source assets.
+  name: Shotstack Ingest API
+  slug: shotstack-ingest-api
+- description: Inspect, manage, and deliver hosted assets.
+  name: Shotstack Serve API
+  slug: shotstack-serve-api
+- description: Manage and render reusable edit templates with merge fields.
+  name: Shotstack Templates API
+  slug: shotstack-templates-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Shotstack API
+  slug: open-shotstack
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/shotstack-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shotstack-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shotstack-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/shotstack
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shotstack
+- group: company
+  title: ''
+  type: Website
+  url: https://shotstack.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://shotstack.io/docs/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shotstack-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shotstack-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/shotstack-finops.yml
+created: '2026-06-20'
+description: Shotstack is a cloud video-editing platform that turns a JSON timeline into a rendered video, image, or audio file. The Edit API renders programmatically from a JSON edit specification and templates, the Ingest API uploads and transforms source footage, the Serve API hosts and delivers generated assets, and the Create API generates AI assets such as text-to-speech, text-to-image, and image-to-video.
+finops:
+- name: Shotstack Finops
+  service_category: Media and Content
+  slug: shotstack-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shotstack.png
+layout: provider
+modified: '2026-06-20'
+name: Shotstack
+nav: Providers
+network: true
+overview: 'Shotstack publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Create API, Edit API, Ingest API, and 2 more. Tagged areas include Video, Video Editing, Media, Rendering, and Generative AI.
+
+
+  Shotstack''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Shotstack Plans Pricing
+  plan_count: 4
+  slug: shotstack-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 4
+  name: Shotstack Rate Limits
+  slug: shotstack-rate-limits
+score:
+  band: thin
+  composite: 38.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.8
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 38.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/screenshots/shotstack-2026-06-20T193841.png
+security:
+- kind: authentication
+  name: Shotstack Authentication
+  slug: shotstack-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Shotstack Domain Security
+  slug: shotstack-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: shotstack
+tags:
+- Video
+- Video Editing
+- Media
+- Rendering
+- Generative AI
+website: https://shotstack.io
+---

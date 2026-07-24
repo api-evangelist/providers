@@ -1,0 +1,175 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 1
+  name: Level2 Agentic Access
+  operation_count: 15
+  slug: level2-agentic-access
+  summary_line: 15 operations · 7 acting · 1 human-in-the-loop
+api_count: 6
+apis:
+- description: Endpoints for running backtests on strategies against historical market data to validate performance before live deployment.
+  name: level2 Backtesting API
+  slug: level2-backtesting-api
+- description: Endpoints for discovering similar stocks and retrieving company fundamental summaries.
+  name: level2 Discovery API
+  slug: level2-discovery-api
+- description: Endpoints for retrieving historical OHLC price data for financial instruments across global exchanges.
+  name: level2 Market Data API
+  slug: level2-market-data-api
+- description: Endpoints for managing user trading strategies, including creation, retrieval, updating, deployment, and deletion of automated trading strategies built with the Level2 visual strategy builder.
+  name: level2 Strategies API
+  slug: level2-strategies-api
+- description: Endpoints for detecting candlestick patterns and analyzing ticker trends using technical indicators.
+  name: level2 Technical Analysis API
+  slug: level2-technical-analysis-api
+- description: Endpoints for managing broker user accounts and their association with the Level2 platform.
+  name: level2 Users API
+  slug: level2-users-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Level2 Strategy Builder API
+  slug: open-level2-strategy-builder
+- collection_type: open
+  name: Level2 TradeStation Integration API
+  slug: open-level2-tradestation-integration
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/level2-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/level2-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/level2-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/level2-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mylevel2
+- group: company
+  title: ''
+  type: Website
+  url: https://www.trylevel2.com
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/level2-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/level2-strategy-schema.json
+description: Level2 provides an accessible, intuitive platform for anyone to create, backtest, and deploy fully automated trading strategies—no coding or knowledge of proprietary programming languages required.
+finops:
+- name: Level2 Finops
+  service_category: API
+  slug: level2-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/level2.png
+json_schemas:
+- name: Level2 Trading Strategy
+  property_count: 12
+  slug: level2-strategy
+jsonld:
+- class_count: 0
+  name: Level2 Context
+  property_count: 7
+  slug: level2-context
+layout: provider
+modified: '2026-05-19'
+name: level2
+nav: Providers
+network: true
+overview: 'level2 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Backtesting API, Discovery API, Market Data API, and 3 more.
+
+
+  The level2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  level2''s developer surface includes authentication and 7 more developer resources.'
+plans:
+- name: Level2 Plans Pricing
+  plan_count: 3
+  slug: level2-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 5
+  name: Level2 Rate Limits
+  slug: level2-rate-limits
+rules:
+- name: level2 API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: level2-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 44.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 67.0
+    developer_ergonomics: 10.9
+    discoverability: 42.5
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 44.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
+security:
+- kind: authentication
+  name: Level2 Authentication
+  slug: level2-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Level2 Domain Security
+  slug: level2-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Level2 Vulnerability Disclosure
+  slug: level2-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: level2
+website: https://www.trylevel2.com
+---

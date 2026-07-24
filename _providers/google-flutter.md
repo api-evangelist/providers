@@ -1,0 +1,198 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Google Flutter Agentic Access
+  operation_count: 5
+  slug: google-flutter-agentic-access
+  summary_line: 5 operations
+api_count: 3
+apis:
+- description: The Dart Analysis Server provides a JSON-based protocol for IDE integration, enabling code analysis, completion, navigation, refactoring, and diagnostics for Dart and Flutter projects.
+  name: Dart Analysis Server Protocol
+  slug: dart-analysis-server-protocol
+- description: Package documentation endpoints
+  name: Google Flutter Documentation API
+  slug: google-flutter-documentation-api
+- description: Operations for searching and retrieving package information
+  name: Google Flutter Packages API
+  slug: google-flutter-packages-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Google Flutter Pub.dev API
+  slug: open-flutter-pub-dev
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-flutter-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-flutter-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-flutter-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/showcase/flutterdevofficial
+- group: start
+  title: ''
+  type: Portal
+  url: https://flutter.dev
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.flutter.dev/get-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.flutter.dev
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://pub.dev/help/api#authentication
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.flutter.dev/get-started/install
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://github.com/flutter/flutter/wiki
+- group: operate
+  title: ''
+  type: Support
+  url: https://flutter.dev/community
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/google-flutter-context.jsonld
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.flutter.dev/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.com/feed/flutter
+created: '2026-03-13'
+description: Google Flutter is an open-source UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase, with developer tools including the Pub.dev package API and Dart analysis APIs.
+finops:
+- name: Google Flutter Finops
+  service_category: API
+  slug: google-flutter-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-flutter.png
+json_schemas:
+- name: Pub.dev Package
+  property_count: 3
+  slug: google-flutter-pub-package
+jsonld:
+- class_count: 0
+  name: Google Flutter Context
+  property_count: 3
+  slug: google-flutter-context
+layout: provider
+modified: '2026-05-19'
+name: Google Flutter
+nav: Providers
+network: true
+overview: 'Google Flutter publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documentation API and Packages API. Tagged areas include Cross-Platform, Dart, Google, Mobile Development, and Open Source.
+
+
+  The Google Flutter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 10 more developer resources.'
+plans:
+- name: Google Flutter Plans Pricing
+  plan_count: 3
+  slug: google-flutter-plans-pricing
+random_paper: 28
+rate_limits:
+- limit_count: 5
+  name: Google Flutter Rate Limits
+  slug: google-flutter-rate-limits
+rules:
+- name: Google Flutter API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: google-flutter-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 57.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 54.4
+    developer_ergonomics: 52.2
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 47.4
+  previous_composite: 57.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
+security:
+- kind: domain-security
+  name: Google Flutter Domain Security
+  slug: google-flutter-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Flutter Vulnerability Disclosure
+  slug: google-flutter-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: google-flutter
+tags:
+- Cross-Platform
+- Dart
+- Google
+- Mobile Development
+- Open Source
+- UI Framework
+website: https://flutter.dev
+---

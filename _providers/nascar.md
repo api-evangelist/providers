@@ -1,0 +1,164 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 1
+  name: Nascar Agentic Access
+  operation_count: 41
+  slug: nascar-agentic-access
+  summary_line: 41 operations · 1 acting · 1 human-in-the-loop
+api_count: 12
+apis:
+- description: The Companies API from NASCAR — 3 operation(s) for companies.
+  name: NASCAR Companies API
+  slug: nascar-companies-api
+- description: The Drivers API from NASCAR — 2 operation(s) for drivers.
+  name: NASCAR Drivers API
+  slug: nascar-drivers-api
+- description: The EntryList API from NASCAR — 1 operation(s) for entrylist.
+  name: NASCAR EntryList API
+  slug: nascar-entrylist-api
+- description: The Inspection API from NASCAR — 5 operation(s) for inspection.
+  name: NASCAR Inspection API
+  slug: nascar-inspection-api
+- description: The Live API from NASCAR — 7 operation(s) for live.
+  name: NASCAR Live API
+  slug: nascar-live-api
+- description: The Points API from NASCAR — 3 operation(s) for points.
+  name: NASCAR Points API
+  slug: nascar-points-api
+- description: The Races API from NASCAR — 5 operation(s) for races.
+  name: NASCAR Races API
+  slug: nascar-races-api
+- description: The Series API from NASCAR — 2 operation(s) for series.
+  name: NASCAR Series API
+  slug: nascar-series-api
+- description: The Stats API from NASCAR — 4 operation(s) for stats.
+  name: NASCAR Stats API
+  slug: nascar-stats-api
+- description: The Tracks API from NASCAR — 3 operation(s) for tracks.
+  name: NASCAR Tracks API
+  slug: nascar-tracks-api
+- description: The TrackTemp API from NASCAR — 3 operation(s) for tracktemp.
+  name: NASCAR TrackTemp API
+  slug: nascar-tracktemp-api
+- description: The Weekend API from NASCAR — 3 operation(s) for weekend.
+  name: NASCAR Weekend API
+  slug: nascar-weekend-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: NASCAR Feed API
+  slug: open-nascar
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/nascar-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nascar-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/nascar
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nascar.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://feed.nascar.com/swagger/ui/index
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.nascar.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.nascar.com/privacy-policy/
+created: '2025-02-06'
+description: NASCAR, the National Association for Stock Car Auto Racing, is a professional auto racing organization that sanctions and governs multiple racing series, including the popular NASCAR Cup Series. NASCAR exposes a feed API documented via Swagger that delivers race results, standings, schedules, driver and team information, and other motorsport data for partners, broadcasters, and fans.
+finops:
+- name: Nascar Finops
+  service_category: API
+  slug: nascar-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nascar.png
+layout: provider
+modified: '2026-05-19'
+name: NASCAR
+nav: Providers
+network: true
+overview: 'NASCAR publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Drivers API, EntryList API, and 9 more. Tagged areas include Auto Racing, Sports, Stock Cars, Motorsports, and Race Results.
+
+
+  NASCAR''s developer surface includes documentation and 6 more developer resources.'
+plans:
+- name: Nascar Plans Pricing
+  plan_count: 3
+  slug: nascar-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 5
+  name: Nascar Rate Limits
+  slug: nascar-rate-limits
+score:
+  band: thin
+  composite: 36.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 45.1
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 36.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/screenshots/nascar-2026-06-20T185957.png
+security:
+- kind: domain-security
+  name: Nascar Domain Security
+  slug: nascar-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: nascar
+tags:
+- Auto Racing
+- Sports
+- Stock Cars
+- Motorsports
+- Race Results
+- Schedules
+website: https://www.nascar.com/
+---

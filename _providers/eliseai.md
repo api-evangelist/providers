@@ -1,0 +1,149 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 13.5
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.eliseai.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.meetelise.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://eliseai.com/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://app.meetelise.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://eliseai.com/oneai/book-a-demo
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://eliseai.com/policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.eliseai.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.eliseai.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/eliseai-authentication.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: authentication/eliseai-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/eliseai-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/eliseai-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/eliseai-domain-security.yml
+created: '2026-07-17'
+description: EliseAI is an agentic AI platform that automates communications and operations for the housing and healthcare industries. For property management it offers LeasingAI, ResidentAI, EliseCRM, VoiceAI, AI-guided tours, and automation for maintenance, renewals, move-in, delinquency, lease audits and fee transparency across SMS, email, chat and voice channels. For healthcare, its HealthAI automates patient scheduling, intake and communication with HIPAA and SOC 2 Type II compliance. Elise integrates with leading PMS, CRM, EHR and RCM systems. API and integration access is provisioned through the EliseAI developer portal; the company does not publish a self-serve public OpenAPI. This profile was surfaced as a venture portfolio company and enriched by the API Evangelist pipeline.
+image: https://cdn.prod.website-files.com/63cc1eef179b054a9306598d/63cc1eef179b051c8e0659d0_EliseAI.svg
+layout: provider
+modified: '2026-07-19'
+name: EliseAI
+nav: Providers
+network: true
+overview: 'EliseAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Property Management, and Real Estate.
+
+
+  EliseAI''s developer surface includes support, engineering blog, signup flow, authentication, and 9 more developer resources.'
+random_paper: 18
+scopes:
+- name: Eliseai Scopes
+  scope_count: 14
+  slug: eliseai-scopes
+  summary_line: 14 scopes
+score:
+  band: emerging
+  composite: 25.5
+  delta: 7.4
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 18.1
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 67.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Eliseai Authentication
+  slug: eliseai-authentication
+  summary_line: openIdConnect/oauth2 · 2 schemes
+- kind: domain-security
+  name: Eliseai Domain Security
+  slug: eliseai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Eliseai Trust Center
+  slug: eliseai-trust-center
+  summary_line: SOC 2 Type II, HIPAA, GDPR
+slug: eliseai
+tags:
+- Company
+- Artificial Intelligence
+- Conversational AI
+- Property Management
+- Real Estate
+- Healthcare
+- Leasing
+- Voice AI
+- Automation
+- CRM
+website: https://www.eliseai.com/
+---

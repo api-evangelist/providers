@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.appearhere.co.uk/
+- group: other
+  title: ''
+  type: HowItWorks
+  url: https://www.appearhere.co.uk/how-it-works
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.appearhere.co.uk/inspire
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://appearhere.zendesk.com/hc/en-gb
+- group: start
+  title: ''
+  type: Login
+  url: https://www.appearhere.co.uk/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.appearhere.co.uk/terms_of_use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.appearhere.co.uk/privacy_policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/appearhere
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/appearhere-domain-security.yml
+created: '2026-07-17'
+description: Appear Here is the leading online marketplace for short-term retail space, connecting property owners with brands, designers, and entrepreneurs who want to rent shops, pop-up stores, market stalls, showrooms, and event venues on a flexible, short-term basis. Founded in London in 2014 and backed by Balderton Capital, the two-sided marketplace lets tenants search available space by city and date, book securely online with standardized legal agreements, and message landlords directly, while landlords list and monetize idle retail units. Appear Here operates across the UK, US, and France and has facilitated the opening of more than 10,000 stores for over 250,000 brands and creative entrepreneurs. Appear Here does not currently publish a public developer API, SDKs, or a developer portal; this profile captures its public web, brand, and security surface for the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appearhere.png
+layout: provider
+modified: '2026-07-17'
+name: appearhere
+nav: Providers
+network: true
+overview: 'appearhere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Real Estate, Marketplace, and Pop-Up Shops.
+
+
+  appearhere''s developer surface includes engineering blog and 8 more developer resources.'
+random_paper: 33
+score:
+  band: emerging
+  composite: 15.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Appearhere Domain Security
+  slug: appearhere-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: appearhere
+tags:
+- Company
+- Retail
+- Real Estate
+- Marketplace
+- Pop-Up Shops
+- Commercial Property
+- Short-Term Rentals
+- Two-Sided Marketplace
+website: https://www.appearhere.co.uk/
+---

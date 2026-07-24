@@ -1,0 +1,290 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 31
+  human_in_the_loop: 1
+  name: Slng Agentic Access
+  operation_count: 43
+  slug: slng-agentic-access
+  summary_line: 43 operations · 31 acting · 1 human-in-the-loop
+api_count: 15
+apis:
+- description: Inspect the authenticated account and organization.
+  name: SLNG Account API
+  slug: slng-account-api
+- description: Voice agent CRUD.
+  name: SLNG Agents API
+  slug: slng-agents-api
+- description: Call dispatch and status.
+  name: SLNG Calls API
+  slug: slng-calls-api
+- description: Discover and inspect available models in the SLNG catalog.
+  name: SLNG Catalog API
+  slug: slng-catalog-api
+- description: Deepgram Aura 2 for conversational voice agents.
+  name: SLNG Deepgram Aura 2 API
+  slug: slng-deepgram-aura-2-api
+- description: Deepgram Nova 3 with VAD and speaker diarization.
+  name: SLNG Deepgram Nova 3 API
+  slug: slng-deepgram-nova-3-api
+- description: Inworld Max 1.5 for multilingual, expressive synthesis.
+  name: SLNG Inworld Max 1.5 API
+  slug: slng-inworld-max-1-5-api
+- description: Orpheus TTS with emotion control.
+  name: SLNG Orpheus English API
+  slug: slng-orpheus-english-api
+- description: Manage reusable pronunciation rewrite dictionaries for TTS.
+  name: SLNG Pronunciation dictionaries API
+  slug: slng-pronunciation-dictionaries-api
+- description: Rime Arcana v2 TTS with multi-language support.
+  name: SLNG Rime Arcana v2 API
+  slug: slng-rime-arcana-v2-api
+- description: Rime Arcana v3 TTS with multilingual support (English, Hindi).
+  name: SLNG Rime Arcana v3 API
+  slug: slng-rime-arcana-v3-api
+- description: Rime Coda TTS for Bahasa Indonesian.
+  name: SLNG Rime Coda API
+  slug: slng-rime-coda-api
+- description: Web (non-telephony) sessions.
+  name: SLNG Sessions API
+  slug: slng-sessions-api
+- description: Create and manage asynchronous transcription jobs.
+  name: SLNG Speechmatics API
+  slug: slng-speechmatics-api
+- description: Whisper Large v3 with 99+ language support.
+  name: SLNG Whisper Large v3 API
+  slug: slng-whisper-large-v3-api
+artifact_total: 23
+asyncapis:
+- description: SLNG Gateway API
+  name: SLNG Gateway API - SLNG (WebSocket)
+  slug: slng-slng-asyncapi
+- description: SLNG Gateway API
+  name: SLNG Gateway API - SLNG STT
+  slug: slng-stt-slng-asyncapi
+- description: SLNG Gateway API
+  name: SLNG Gateway API - SLNG TTS
+  slug: slng-tts-slng-asyncapi
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.slng.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.slng.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.slng.ai/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.slng.ai/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://slng.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/slng-ai
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.slng.ai
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://slng.ai/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://slng.ai/legal/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://slng.ai/legal/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@slng.ai
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/slng-changelog.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.slng.ai
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/slng-trust-center.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/slng-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/slng-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/slng-agentic-access.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/slng-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/slng-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/slng-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/slng-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/slng-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/slng-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/slng-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/slng-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/slng-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/slng-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/slng-conformance.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/slng-stt-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/slng-tts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/slng-agents-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/slng-batch-overlay.yaml
+created: '2026-07-17'
+description: SLNG is a compliance-first speech AI gateway that gives developers a single, unified API for speech-to-text, text-to-speech, and LLM-driven voice agents across 30+ models from providers like Deepgram, Rime, Cartesia, ElevenLabs, and OpenAI Whisper. The platform acts as an execution layer between an orchestrator and the models, routing each request to in-region compute across 60+ regions and 11 sovereign hubs for low latency and local data residency (GDPR), with ISO 27001 certification and HIPAA compliance. Every model is reachable over HTTP or streaming WebSocket, with bring-your-own-key billing, batch transcription, pronunciation dictionaries, and per-minute pricing. Founded in Barcelona in 2025 and backed by a pre-seed round led by Earlybird.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slng.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: slng-mcp.yml
+  slug: slng-mcpyml
+modified: '2026-07-21'
+name: SLNG
+nav: Providers
+network: true
+overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Calls API, and 12 more. Tagged areas include Company, Speech, Voice, Speech to Text, and Text to Speech.
+
+
+  The SLNG catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
+
+
+  SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
+random_paper: 28
+score:
+  band: strong
+  composite: 60.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 72.6
+    developer_ergonomics: 87.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 60.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Slng Authentication
+  slug: slng-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Slng Domain Security
+  slug: slng-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Slng Trust Center
+  slug: slng-trust-center
+  summary_line: ISO 27001, HIPAA, GDPR
+slug: slng
+tags:
+- Company
+- Speech
+- Voice
+- Speech to Text
+- Text to Speech
+- Voice AI
+- Voice Agents
+- Transcription
+- Speech Recognition
+- Artificial Intelligence
+- API Gateway
+website: https://docs.slng.ai
+---

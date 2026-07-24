@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The IMLS Data Catalog provides public access to IMLS grants data and museum information through an API, enabling researchers and developers to access grant information, museum locations, and program d
+  name: IMLS Data Catalog API
+  slug: imls-data-catalog
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/institute-of-museum-and-library-services-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/imls
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/us-imls
+- group: company
+  title: ''
+  type: Website
+  url: https://www.imls.gov/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.imls.gov/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.imls.gov/blog
+created: '2024-12-03'
+description: The Institute of Museum and Library Services (IMLS) is an independent federal agency that advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development. IMLS provides data access to grant and museum information through its APIs.
+finops:
+- name: Institute Of Museum And Library Services Finops
+  service_category: API
+  slug: institute-of-museum-and-library-services-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/institute-of-museum-and-library-services.png
+layout: provider
+modified: '2026-04-28'
+name: Institute of Museum and Library Services
+nav: Providers
+network: true
+overview: 'Institute of Museum and Library Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Grants, Libraries, and Museums.
+
+
+  Institute of Museum and Library Services'' developer surface includes support, engineering blog, and 4 more developer resources.'
+plans:
+- name: Institute Of Museum And Library Services Plans Pricing
+  plan_count: 3
+  slug: institute-of-museum-and-library-services-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Institute Of Museum And Library Services Rate Limits
+  slug: institute-of-museum-and-library-services-rate-limits
+score:
+  band: emerging
+  composite: 20.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 20.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Institute Of Museum And Library Services Domain Security
+  slug: institute-of-museum-and-library-services-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: institute-of-museum-and-library-services
+tags:
+- Federal Government
+- Grants
+- Libraries
+- Museums
+website: https://www.imls.gov/
+---

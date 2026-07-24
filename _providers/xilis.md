@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/xilis-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://xilis.com
+created: '2026-07-17'
+description: Xilis is a life-sciences / precision-oncology company developing patient-derived MicroOrganoSphere (MOS) technology to model a patient's tumor outside the body for functional drug testing and drug discovery. Surfaced as a portfolio company of GV and added to the API Evangelist network. Enrichment probes found a marketing website only (SiteGround-hosted, bot-protection returns HTTP 403) with no public developer portal, documentation, OpenAPI, or API surface of any kind.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xilis.png
+layout: provider
+modified: '2026-07-21'
+name: Xilis
+nav: Providers
+network: true
+overview: Xilis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Precision Oncology, Biotechnology, and Drug Discovery.
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Xilis Domain Security
+  slug: xilis-domain-security
+  summary_line: DNSSEC · DMARC
+slug: xilis
+tags:
+- Company
+- Life Sciences
+- Precision Oncology
+- Biotechnology
+- Drug Discovery
+- Organoids
+website: http://xilis.com
+---

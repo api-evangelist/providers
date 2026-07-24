@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Developer guide and SDK/CLI surface for writing, publishing, and running WASM game bundles on the RACE Protocol multi-chain infrastructure.
+  name: RACE Protocol
+  slug: race-protocol
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/race-protocol-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/RACE-Game
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/raceprotocol
+created: '2025-02-06'
+description: RACE Protocol is a multi-chain, on-chain infrastructure for developing and deploying secure and fair web3 games. It is delivered primarily through a TypeScript/JavaScript SDK (sdk-core, sdk-solana, sdk-sui, sdk-facade) and a command-line tool (race-cli) for game bundle publishing, account management, and payment claims, rather than as a traditional REST API. Smart contracts run on Solana and Sui.
+finops:
+- name: Race Protocol Finops
+  service_category: API
+  slug: race-protocol-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/race-protocol.png
+layout: provider
+modified: '2026-04-28'
+name: RACE Protocol
+nav: Providers
+network: true
+overview: RACE Protocol publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, Blockchain, Gaming, SDK, and Solana.
+plans:
+- name: Race Protocol Plans Pricing
+  plan_count: 3
+  slug: race-protocol-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 5
+  name: Race Protocol Rate Limits
+  slug: race-protocol-rate-limits
+score:
+  band: emerging
+  composite: 20.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 20.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/race-protocol/refs/heads/main/screenshots/race-protocol-2026-06-20T192517.png
+security:
+- kind: domain-security
+  name: Race Protocol Domain Security
+  slug: race-protocol-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: race-protocol
+tags:
+- Web3
+- Blockchain
+- Gaming
+- SDK
+- Solana
+- Sui
+---

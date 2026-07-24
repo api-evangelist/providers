@@ -1,0 +1,260 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 56.7
+  scored_at: '2026-07-23'
+api_count: 13
+apis:
+- description: The batch/rooms API from Daily — 1 operation(s) for batch/rooms.
+  name: Daily batch/rooms API
+  slug: daily-batch-rooms-api
+- description: The dialin API from Daily — 1 operation(s) for dialin.
+  name: Daily dialin API
+  slug: daily-dialin-api
+- description: The domain API from Daily — 1 operation(s) for domain.
+  name: Daily domain API
+  slug: daily-domain-api
+- description: The domain-dialin-config API from Daily — 2 operation(s) for domain-dialin-config.
+  name: Daily domain-dialin-config API
+  slug: daily-domain-dialin-config-api
+- description: The logs API from Daily — 2 operation(s) for logs.
+  name: Daily logs API
+  slug: daily-logs-api
+- description: The meeting-tokens API from Daily — 2 operation(s) for meeting-tokens.
+  name: Daily meeting-tokens API
+  slug: daily-meeting-tokens-api
+- description: The meetings API from Daily — 3 operation(s) for meetings.
+  name: Daily meetings API
+  slug: daily-meetings-api
+- description: The phone-numbers API from Daily — 4 operation(s) for phone-numbers.
+  name: Daily phone-numbers API
+  slug: daily-phone-numbers-api
+- description: The presence API from Daily — 1 operation(s) for presence.
+  name: Daily presence API
+  slug: daily-presence-api
+- description: The recordings API from Daily — 3 operation(s) for recordings.
+  name: Daily recordings API
+  slug: daily-recordings-api
+- description: The rooms API from Daily — 22 operation(s) for rooms.
+  name: Daily rooms API
+  slug: daily-rooms-api
+- description: The transcript API from Daily — 3 operation(s) for transcript.
+  name: Daily transcript API
+  slug: daily-transcript-api
+- description: The webhooks API from Daily — 2 operation(s) for webhooks.
+  name: Daily webhooks API
+  slug: daily-webhooks-api
+artifact_total: 17
+asyncapis:
+- description: ''
+  name: Daily Webhooks
+  slug: daily-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/daily-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/daily-authentication.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.daily.co/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.daily.co/docs/rest-api/index
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.daily.co/reference/rest-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.daily.co/docs/daily-js/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.daily.co/contact/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.daily.co/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/daily-co
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.daily.co/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.daily.co/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.daily.co/legal/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.daily.co/legal/privacy/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/daily-co
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.daily.co/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.daily.co/docs/guides/privacy-and-security/hipaa
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/daily-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/daily-openapi-original.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/daily-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/daily-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/daily-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/daily-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/daily-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/daily-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/daily-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/daily-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/daily-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/daily-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/daily-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/daily-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Daily is a Y Combinator-backed developer platform providing real-time audio and video APIs and client SDKs for embedding WebRTC video calls, live streaming, cloud recording, transcription, and SIP/PSTN telephony into web, mobile, and server applications. Its REST API manages rooms, meeting tokens, recordings, transcripts, webhooks, phone numbers, and domain configuration, complemented by the daily-js, daily-react, and native iOS/Android/Python/Flutter SDKs plus the embeddable Daily Prebuilt UI. Authentication uses a domain-scoped API key sent as an HTTP Bearer token.
+image: https://www.daily.co/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: daily-mcp.yml
+  slug: daily-mcpyml
+modified: '2026-07-18'
+name: Daily
+nav: Providers
+network: true
+overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, including batch/rooms API, dialin API, domain API, and 10 more. Tagged areas include Video, Audio, WebRTC, Real-Time Communication, and Video Conferencing.
+
+
+  The Daily catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Daily''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+random_paper: 21
+score:
+  band: developing
+  composite: 59.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 70.8
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 59.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Daily Authentication
+  slug: daily-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Daily Domain Security
+  slug: daily-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: daily
+tags:
+- Video
+- Audio
+- WebRTC
+- Real-Time Communication
+- Video Conferencing
+- Live Streaming
+- Recording
+- Transcription
+- Telephony
+- SIP
+- PSTN
+- Company
+website: https://docs.daily.co/
+---

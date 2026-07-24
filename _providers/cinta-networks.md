@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: Archive
+  url: https://web.archive.org/web/20020331113717/http://www.cintanetworks.com/
+created: '2026-07-17'
+description: 'Cinta Networks, Incorporated was a venture-backed optical networking equipment startup of the dot-com era, funded in part by Battery Ventures and led by CEO John Vaughan. The company built the patented WAVEJunction product family, an architecture that integrated DWDM optical transport with optical switching in a single network element for metro, regional, and long-haul carrier networks, claiming capital-expense savings of more than 50 percent and operational savings of over 70 percent through modular, port-at-a-time growth, universal transponder cards, and dynamic wavelength reconfiguration across ring and mesh topologies. Public activity is visible from roughly 2000 to 2002, including a January 2002 WAVEJunction field-trial agreement with Pacific LightNet and a component supply arrangement with ADC. Cinta Networks appears to have ceased operations in the post-telecom-bust period: archived captures of cintanetworks.com show the site replaced by a parked domain-search page by
+  2004, and the domain no longer resolves in DNS as of July 2026. Cinta was a hardware manufacturer and never published a public developer API, developer portal, SDKs, or machine-readable API artifacts, so there is no API surface for this profile to describe. It is retained in the API Evangelist network as a historical Battery Ventures portfolio record.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cinta-networks.png
+layout: provider
+modified: '2026-07-20'
+name: Cinta Networks
+nav: Providers
+network: true
+overview: Cinta Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Optical Networking, DWDM, Telecommunications, Network Equipment, and Optical Switching.
+random_paper: 37
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: cinta-networks
+tags:
+- Optical Networking
+- DWDM
+- Telecommunications
+- Network Equipment
+- Optical Switching
+- Hardware
+- Defunct
+- Battery Ventures Portfolio
+---

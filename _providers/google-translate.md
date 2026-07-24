@@ -1,0 +1,195 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Google Translate Agentic Access
+  operation_count: 3
+  slug: google-translate-agentic-access
+  summary_line: 3 operations · 2 acting
+api_count: 3
+apis:
+- description: Detect language of text
+  name: Google Cloud Translation API Detections API
+  slug: google-translate-detections-api
+- description: List supported languages
+  name: Google Cloud Translation API Languages API
+  slug: google-translate-languages-api
+- description: Translate text between languages
+  name: Google Cloud Translation API Translations API
+  slug: google-translate-translations-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Google Cloud Translation API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-translate-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-translate-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-translate-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/showcase/google-translate
+- group: start
+  title: ''
+  type: Portal
+  url: https://cloud.google.com/translate
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cloud.google.com/translate/docs/setup
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cloud.google.com/translate/docs
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://cloud.google.com/docs/authentication
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.google.com/translate/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://cloud.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://cloud.google.com/translate/docs/support
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/google-translate/refs/heads/main/json-ld/google-translate.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://docs.cloud.google.com/feeds/translate-release-notes.xml
+created: '2026-03-13'
+description: The Google Cloud Translation API provides programmatic access to Google's neural machine translation technology. It enables developers to dynamically translate text between thousands of language pairs, detect the source language of text, and retrieve lists of supported languages. The API supports both basic (v2) and advanced (v3) translation capabilities including batch translation, custom models, glossaries, and adaptive translation.
+finops:
+- name: Google Translate Finops
+  service_category: API
+  slug: google-translate-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-translate.png
+json_schemas:
+- name: Google Cloud Translation API Schema
+  property_count: 0
+  slug: google-translate
+jsonld:
+- class_count: 2
+  name: Google Translate Context
+  property_count: 8
+  slug: google-translate
+layout: provider
+modified: '2026-05-19'
+name: Google Cloud Translation API
+nav: Providers
+network: true
+overview: 'Google Cloud Translation API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Detections API, Languages API, and Translations API. Tagged areas include Google Cloud, Internationalization, Language Detection, Localization, and Machine Translation.
+
+
+  The Google Cloud Translation API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Cloud Translation API''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 8 more developer resources.'
+plans:
+- name: Google Translate Plans Pricing
+  plan_count: 3
+  slug: google-translate-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 5
+  name: Google Translate Rate Limits
+  slug: google-translate-rate-limits
+rules:
+- name: Google Cloud Translation API API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: google-translate-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 58.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 54.9
+    developer_ergonomics: 45.7
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 47.4
+  previous_composite: 58.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-translate/refs/heads/main/screenshots/google-translate-2026-06-20T182243.png
+security:
+- kind: domain-security
+  name: Google Translate Domain Security
+  slug: google-translate-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Translate Vulnerability Disclosure
+  slug: google-translate-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-translate
+tags:
+- Google Cloud
+- Internationalization
+- Language Detection
+- Localization
+- Machine Translation
+- Natural Language Processing
+- Translation
+website: https://cloud.google.com/translate
+---

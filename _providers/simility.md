@@ -1,0 +1,77 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://www.simility.com
+created: '2026-07-17'
+description: 'Simility was a fraud-detection and risk-decisioning company (a "Digital Trust & Safety" adaptive machine-learning platform) founded in 2014 in Palo Alto, California and backed by Accel and Trinity Ventures. PayPal acquired Simility in 2018 and folded its device fingerprinting, behavioral analytics, and real-time fraud-scoring capabilities into PayPal''s risk and fraud-management offerings. The standalone Simility product, developer portal, and any public fraud-scoring API have since been retired: as of this enrichment pass the simility.com domain is registered defensively by PayPal (via MarkMonitor / Google Domains nameservers) but publishes no A record, website, mail, or API host. No live public API surface exists to enrich.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simility.png
+layout: provider
+modified: '2026-07-21'
+name: Simility
+nav: Providers
+network: true
+overview: Simility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Fraud Detection, Risk Management, and Machine Learning.
+random_paper: 17
+score:
+  band: minimal
+  composite: 5.7
+  delta: -1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: simility
+tags:
+- Company
+- Ai
+- Fraud Detection
+- Risk Management
+- Machine Learning
+- Payments
+- Security
+- Anti-Fraud
+website: http://www.simility.com
+---

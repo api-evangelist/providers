@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/airspace-intelligence-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/airspace-intelligence-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.airspace-intelligence.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airspace-intelligence.com/newsroom
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.airspace-intelligence.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.airspace-intelligence.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.airspace-intelligence.com/privacy-policy
+created: '2026-07-17'
+description: Air Space Intelligence (ASI) builds AI software for mission-critical, geospatial operations across aviation, defense, logistics, and energy. Its Prescience platform fuses data, models operational domains, runs predictive simulations, and optimizes complex operations in real time — spanning airline operations, air traffic management, global logistics, defense (space, air, land, sea), and energy grids. ASI holds an $875M FAA contract to help modernize the U.S. National Airspace System and works with partners including Alaska Airlines, National Grid, and the U.S. Air Force. As of this profile the company publishes no public developer API, OpenAPI specification, or developer portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airspace-intelligence.png
+layout: provider
+modified: '2026-07-17'
+name: Airspace Intelligence
+nav: Providers
+network: true
+overview: 'Airspace Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Aviation, Air Traffic Management, and Defense.
+
+
+  Airspace Intelligence''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 10
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Airspace Intelligence Domain Security
+  slug: airspace-intelligence-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: airspace-intelligence
+tags:
+- Company
+- Artificial Intelligence
+- Aviation
+- Air Traffic Management
+- Defense
+- Logistics
+- Optimization
+- Energy
+- Aerospace
+website: https://www.airspace-intelligence.com/
+---

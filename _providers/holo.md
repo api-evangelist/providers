@@ -1,0 +1,91 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/holo-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://holoam.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://holoam.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://holoam.com/contact
+created: '2026-07-17'
+description: Holo (Holo AM, operating under Greene Group Industries) is an advanced metal additive manufacturing company founded in 2017 and backed by Lightspeed Venture Partners. Its PureForm metal 3D printing platform uses digital light processing (DLP) with metal powder-filled photopolymer resins to produce high-resolution, complex metal components with features as small as 50 microns, in pure copper, stainless steels (17-4PH, 316), and in-development cobalt alloy, titanium, nickel superalloys, tool steels, and alumina. Customers submit CAD files and receive prototyped-to-production parts with roughly two-week turnaround, serving medical technology, precision micro-robotics, and general advanced manufacturing. Holo is a hardware manufacturer and does not publish a public developer API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holo.png
+layout: provider
+modified: '2026-07-19'
+name: Holo
+nav: Providers
+network: true
+overview: 'Holo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Metal 3D Printing, and Advanced Manufacturing.
+
+
+  Holo''s developer surface includes engineering blog, support, and 2 more developer resources.'
+random_paper: 26
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Holo Domain Security
+  slug: holo-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: holo
+tags:
+- Company
+- Additive Manufacturing
+- 3D Printing
+- Metal 3D Printing
+- Advanced Manufacturing
+- Hardware
+- Prototyping
+website: https://holoam.com/
+---

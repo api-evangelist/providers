@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/join-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://join-stories.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://join-stories.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://join-stories.com/tarifs
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.join-stories.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://studio.join-stories.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://studio.join-stories.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://join-stories.com/conditions-generales
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://join-stories.com/politique-confidentialite
+created: '2026-07-17'
+description: Join (Join Stories, join-stories.com) is an AI video commerce platform that helps e-commerce brands create, distribute, and measure short-form video across their sales channels. Its products include shoppable video embedded on product and collection pages, user-generated content (UGC) activation from social media, video analytics with A/B testing, an AI Studio that generates video and images from product data, and interactive web stories. Deployment is a single embed snippet with native integrations for Shopify, PrestaShop, Magento, Salesforce Commerce Cloud, WooCommerce, and headless storefronts. The company is backed by Canaan Partners and Seedcamp.
+image: https://cdn.prod.website-files.com/689ceae960e6a06e86e542dc/68ee52db950418f8b642de78_Open%20Graph%20website.png
+layout: provider
+modified: '2026-07-19'
+name: Join
+nav: Providers
+network: true
+overview: 'Join is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Commerce, E-commerce, Shoppable Video, and User-Generated Content.
+
+
+  Join''s developer surface includes engineering blog, pricing, signup flow, and 6 more developer resources.'
+random_paper: 24
+score:
+  band: emerging
+  composite: 17.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Join Domain Security
+  slug: join-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: join
+tags:
+- Company
+- Video Commerce
+- E-commerce
+- Shoppable Video
+- User-Generated Content
+- Video Analytics
+- AI Video
+- Retail
+website: https://join-stories.com
+---

@@ -1,0 +1,233 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Inkit Agentic Access
+  operation_count: 15
+  slug: inkit-agentic-access
+  summary_line: 15 operations · 4 acting
+api_count: 5
+apis:
+- description: Batch document render operations
+  name: Inkit Batches API
+  slug: inkit-batches-api
+- description: Manage stored documents
+  name: Inkit Documents API
+  slug: inkit-documents-api
+- description: Manage document folders
+  name: Inkit Folders API
+  slug: inkit-folders-api
+- description: Generate and retrieve document renders (PDFs)
+  name: Inkit Renders API
+  slug: inkit-renders-api
+- description: Manage document templates
+  name: Inkit Templates API
+  slug: inkit-templates-api
+artifact_total: 20
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/inkit-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/inkit-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/inkit-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/inkit-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.inkit.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.inkit.com/docs/welcome-to-inkit
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/inkit
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/inkit-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/inkit-context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: blogs/blogs.json
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/inkit
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/inkittweet
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.inkit.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.inkit.com/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.inkit.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/inkit-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/inkit-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/inkit-finops.yml
+created: '2026-06-12'
+description: Inkit is a Secure Document Generation (SDG) platform that enables organizations to generate, sign, store, and distribute documents in total privacy. The platform provides a REST API for rendering HTML templates into PDFs, automating document workflows, and managing digital signatures at scale. Inkit supports enterprise-grade security and compliance including HIPAA, SOC 2, FedRAMP, and IL4/IL5 certifications, making it suitable for regulated industries such as financial services, utilities, and government. The API allows developers to generate documents from templates, invoke workflow automation, manage mail piece delivery, and integrate document operations into their own applications using SDKs available for Python, Node.js, Go, and Java.
+examples:
+- key_count: 2
+  name: Inkit Create Batch Request
+  slug: inkit-create-batch-request
+- key_count: 3
+  name: Inkit Create Render Request
+  slug: inkit-create-render-request
+- key_count: 7
+  name: Inkit Create Render Response
+  slug: inkit-create-render-response
+finops:
+- name: Inkit Finops
+  service_category: ''
+  slug: inkit-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inkit.png
+json_schemas:
+- name: Inkit Document
+  property_count: 7
+  slug: inkit-document
+- name: Inkit Render
+  property_count: 7
+  slug: inkit-render
+- name: Inkit Template
+  property_count: 8
+  slug: inkit-template
+jsonld:
+- class_count: 8
+  name: Inkit Context
+  property_count: 17
+  slug: inkit-context
+layout: provider
+modified: '2026-06-12'
+name: Inkit
+nav: Providers
+network: true
+overview: 'Inkit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Documents API, Folders API, and 2 more. Tagged areas include Document Generation, PDF, Templates, Digital Signatures, and Workflows.
+
+
+  The Inkit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Inkit''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+plans:
+- name: Inkit Plans Pricing
+  plan_count: 4
+  slug: inkit-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 1
+  name: Inkit Rate Limits
+  slug: inkit-rate-limits
+rules:
+- name: Inkit API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: inkit-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 61.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 77.0
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 42.1
+  previous_composite: 61.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/screenshots/inkit-2026-06-20T183355.png
+security:
+- kind: authentication
+  name: Inkit Authentication
+  slug: inkit-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Inkit Domain Security
+  slug: inkit-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Inkit Trust Center
+  slug: inkit-trust-center
+  summary_line: SOC 2, HIPAA
+slug: inkit
+tags:
+- Document Generation
+- PDF
+- Templates
+- Digital Signatures
+- Workflows
+- Document Management
+- Secure Documents
+- Compliance
+- HIPAA
+- Enterprise
+website: https://www.inkit.com
+---

@@ -1,0 +1,161 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 1
+  name: Monta Agentic Access
+  operation_count: 17
+  slug: monta-agentic-access
+  summary_line: 17 operations · 4 acting · 1 human-in-the-loop
+api_count: 6
+apis:
+- description: 'Signed webhook payloads deliver real-time platform events without polling, covering charge transactions, OCPP messages, sites, teams, wallet transactions, and more. Webhook subscription configuration '
+  name: Monta Webhooks
+  slug: webhooks
+- description: The Authentication API from Monta — 3 operation(s) for authentication.
+  name: Monta Authentication API
+  slug: monta-authentication-api
+- description: The Charge Points API from Monta — 5 operation(s) for charge points.
+  name: Monta Charge Points API
+  slug: monta-charge-points-api
+- description: The Charges API from Monta — 4 operation(s) for charges.
+  name: Monta Charges API
+  slug: monta-charges-api
+- description: The Utilities API from Monta — 1 operation(s) for utilities.
+  name: Monta Utilities API
+  slug: monta-utilities-api
+- description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
+  name: Monta Wallet Transactions API
+  slug: monta-wallet-transactions-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Monta Public API
+  slug: open-monta
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/monta-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/monta-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/monta-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/monta-app
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/montaapp
+- group: company
+  title: ''
+  type: Website
+  url: https://www.monta.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.public-api.monta.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/monta-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/monta-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/monta-finops.yml
+created: '2026-06-21'
+description: Monta is an EV-charging software platform that operates charge points, a consumer driver app, and back-office tools for installers, businesses, and charge point operators. The Monta Public API exposes charge points, charges (charging sessions), EVSE availability and pricing, and wallet transactions via a REST interface secured with OAuth2 client-credentials bearer tokens, plus signed webhooks for real-time platform events.
+finops:
+- name: Monta Finops
+  service_category: EV Charging and Energy
+  slug: monta-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monta.png
+layout: provider
+modified: '2026-06-21'
+name: Monta
+nav: Providers
+network: true
+overview: 'Monta publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 2 more. Tagged areas include EV Charging, Electric Vehicles, Charge Points, Energy, and Mobility.
+
+
+  Monta''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Monta Plans Pricing
+  plan_count: 2
+  slug: monta-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 4
+  name: Monta Rate Limits
+  slug: monta-rate-limits
+score:
+  band: thin
+  composite: 35.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 55.6
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 35.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Monta Authentication
+  slug: monta-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Monta Domain Security
+  slug: monta-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: monta
+tags:
+- EV Charging
+- Electric Vehicles
+- Charge Points
+- Energy
+- Mobility
+website: https://www.monta.com
+---

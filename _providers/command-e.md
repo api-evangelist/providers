@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://getcommande.com
+created: '2026-07-17'
+description: Command E was a universal search startup that built a keyboard-driven (Cmd+E) desktop tool for searching across the cloud applications people use at work — Google Drive, Slack, Notion, email, and more — from a single command bar, returning unified results without switching apps. The company was backed by Amplify Partners in the ai-ml / productivity search space. Command E was acquired by Dropbox in 2021, and its team went on to help build Dropbox Dash. Its former developer/marketing site at getcommande.com no longer resolves, so no live API, OpenAPI, or developer documentation surface is available to enrich; this profile is retained as a historical portfolio-company record.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/command-e.png
+layout: provider
+modified: '2026-07-18'
+name: Command E
+nav: Providers
+network: true
+overview: Command E is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Search, Universal Search, and Enterprise Search.
+random_paper: 14
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: command-e
+tags:
+- Company
+- Ai Ml
+- Search
+- Universal Search
+- Enterprise Search
+- Productivity
+- Desktop
+- Acquired
+website: https://getcommande.com
+---

@@ -1,0 +1,284 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 25
+  human_in_the_loop: 2
+  name: Commvault Agentic Access
+  operation_count: 60
+  slug: commvault-agentic-access
+  summary_line: 60 operations · 25 acting · 2 human-in-the-loop
+api_count: 24
+apis:
+- description: Manage backup agents installed on clients
+  name: Commvault Agents API
+  slug: commvault-agents-api
+- description: Manage alerts and notification configurations
+  name: Commvault Alerts API
+  slug: commvault-alerts-api
+- description: Login and token management operations
+  name: Commvault Authentication API
+  slug: commvault-authentication-api
+- description: Manage clients (servers, workstations, virtual machines)
+  name: Commvault Clients API
+  slug: commvault-clients-api
+- description: Dashboard summary and health monitoring
+  name: Commvault Dashboard API
+  slug: commvault-dashboard-api
+- description: Manage database protection
+  name: Commvault Databases API
+  slug: commvault-databases-api
+- description: Manage file server protection
+  name: Commvault File Servers API
+  slug: commvault-file-servers-api
+- description: View and manage backup, restore, and administrative jobs
+  name: Commvault Jobs API
+  slug: commvault-jobs-api
+- description: Manage laptop backup operations
+  name: Commvault Laptops API
+  slug: commvault-laptops-api
+- description: Trigger and monitor automated operations
+  name: Commvault Operations API
+  slug: commvault-operations-api
+- description: Manage server plans for data protection
+  name: Commvault Plans API
+  slug: commvault-plans-api
+- description: Manage data protection policies
+  name: Commvault Policies API
+  slug: commvault-policies-api
+- description: Reporting and analytics
+  name: Commvault Reports API
+  slug: commvault-reports-api
+- description: Manage schedule policies for automated operations
+  name: Commvault Schedule Policies API
+  slug: commvault-schedule-policies-api
+- description: Manage job schedules and schedule policies
+  name: Commvault Schedules API
+  slug: commvault-schedules-api
+- description: Manage and execute automation scripts
+  name: Commvault Scripts API
+  slug: commvault-scripts-api
+- description: Manage server groups for organizing protected infrastructure
+  name: Commvault Server Groups API
+  slug: commvault-server-groups-api
+- description: Service Level Agreement compliance monitoring
+  name: Commvault SLA API
+  slug: commvault-sla-api
+- description: Storage pool and library management
+  name: Commvault Storage API
+  slug: commvault-storage-api
+- description: Manage storage policies and copies
+  name: Commvault Storage Policies API
+  slug: commvault-storage-policies-api
+- description: Manage subclients that define backup content
+  name: Commvault Subclients API
+  slug: commvault-subclients-api
+- description: Manage Commvault users and user groups
+  name: Commvault Users API
+  slug: commvault-users-api
+- description: Manage virtual machine backup and recovery
+  name: Commvault Virtual Machines API
+  slug: commvault-virtual-machines-api
+- description: Create, manage, and execute automation workflows
+  name: Commvault Workflows API
+  slug: commvault-workflows-api
+artifact_total: 38
+collections:
+- collection_type: open
+  name: Commvault Automation API
+  slug: open-commvault-automation
+- collection_type: open
+  name: Commvault Command Center API
+  slug: open-commvault-command-center
+- collection_type: open
+  name: Commvault REST API
+  slug: open-commvault-rest
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/commvault-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/commvault-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/commvault-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Commvault
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/commvault
+- group: start
+  title: ''
+  type: Portal
+  url: https://cloud.commvault.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://documentation.commvault.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.commvault.com/support
+- group: start
+  title: ''
+  type: Login
+  url: https://login.commvault.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.commvault.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.commvault.com/blogs
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.commvault.com/contact-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.commvault.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.commvault.com/terms-of-use
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/commvault-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/commvault-backup-job-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/commvault-client-schema.json
+created: '2025-01-20'
+description: Commvault is a cloud-native cyber resilience platform that delivers unified data security, identity resilience, and cyber recovery. The Commvault REST API, Command Center API, and Automation API provide programmatic access to backup, restore, replication, threat scan, reporting, and orchestration capabilities across enterprise workloads spanning on-premises, virtual machines, and cloud applications.
+finops:
+- name: Commvault Finops
+  service_category: Data Protection
+  slug: commvault-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commvault.png
+json_schemas:
+- name: Commvault Backup Job
+  property_count: 16
+  slug: commvault-backup-job
+- name: Commvault Client
+  property_count: 13
+  slug: commvault-client
+jsonld:
+- class_count: 0
+  name: Commvault Context
+  property_count: 10
+  slug: commvault-context
+layout: provider
+modified: '2026-05-19'
+name: Commvault
+nav: Providers
+network: true
+overview: 'Commvault publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Alerts API, Authentication API, and 21 more. Tagged areas include Backup, Cloud Storage, Cyber Recovery, Data Management, and Data Protection.
+
+
+  The Commvault catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Commvault''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+plans:
+- name: Commvault Plans Pricing
+  plan_count: 12
+  slug: commvault-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 1
+  name: Commvault Rate Limits
+  slug: commvault-rate-limits
+rules:
+- name: Commvault API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: commvault-jsonschema-spectral-rules
+- name: Commvault API Rules
+  rule_count: 10
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 1
+    warn: 5
+  slug: commvault-rules
+score:
+  band: developing
+  composite: 59.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 73.7
+    contract_quality: 67.3
+    developer_ergonomics: 34.8
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 42.1
+  previous_composite: 59.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
+security:
+- kind: authentication
+  name: Commvault Authentication
+  slug: commvault-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Commvault Domain Security
+  slug: commvault-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: commvault
+tags:
+- Backup
+- Cloud Storage
+- Cyber Recovery
+- Data Management
+- Data Protection
+- Disaster Recovery
+- Enterprise Software
+website: https://cloud.commvault.com/
+---

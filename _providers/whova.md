@@ -1,0 +1,120 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
+  name: Whova Attendees API (Modeled)
+  slug: whova-attendees-api
+- description: Modeled view of Whova's registration and order surface. The Zapier integration provides a Get Orders trigger (fires on order-list changes) and a Get Registrants trigger (fires when a registrant submit
+  name: Whova Registration and Orders API (Modeled)
+  slug: whova-registration-api
+- description: Modeled view of Whova's agenda/session surface. Whova imports sessions, speakers, and abstracts from spreadsheets, its own templates, and partner systems such as OpenReview and ConfTool, but exposes N
+  name: Whova Agenda and Sessions API (Modeled)
+  slug: whova-agenda-api
+- description: Modeled view of Whova's exhibitor/sponsor surface. Whova manages exhibitor booths, sponsored sessions, promotional offers, lead retrieval (QR/stamp scanning), and virtual booths inside the app, but pu
+  name: Whova Exhibitors and Sponsors API (Modeled)
+  slug: whova-exhibitors-api
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/whova-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/whova
+- group: company
+  title: ''
+  type: Website
+  url: https://whova.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://whova.zendesk.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/whova-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://whova.com/blog/
+created: '2026-07-05'
+description: Whova is an award-winning all-in-one event management platform built around a mobile event app that carries the agenda, speaker profiles, attendee networking, live polls, and session Q&A, plus registration, ticketing, name badges, surveys, abstract/speaker management, and exhibitor/sponsor tools. Whova does NOT publish an open, self-serve developer API - there is no public developer portal, no documented REST reference, no OpenAPI definition, and no SDKs. Its only programmatic surface for organizers is a partner/CRM integration layer exposed through Zapier (triggers for attendee, order, and registrant changes plus a create/update-attendee action), reached from the organizer dashboard under Attendees > Integrations > CRM Integration, alongside prebuilt connectors to Eventbrite, Cvent, Constant Contact, RegFox, OpenReview, SharePoint/OneDrive, MailChimp, Wild Apricot, and Google Drive. The API entries below are logical, HONESTLY MODELED views of that integration surface (see endpointsModeled)
+  - they are not sourced from a public Whova API reference, and no base URL, auth scheme, or endpoint paths are published by Whova.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whova.png
+layout: provider
+modified: '2026-07-05'
+name: Whova
+nav: Providers
+network: true
+overview: 'Whova publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Events, Event Management, Event App, Registration, and Conferences.
+
+
+  Whova''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+plans:
+- name: Whova Plans Pricing
+  plan_count: 2
+  slug: whova-plans-pricing
+random_paper: 39
+score:
+  band: emerging
+  composite: 15.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Whova Domain Security
+  slug: whova-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: whova
+tags:
+- Events
+- Event Management
+- Event App
+- Registration
+- Conferences
+- Attendees
+- Exhibitors
+- Gated API
+- Modeled
+website: https://whova.com/
+---

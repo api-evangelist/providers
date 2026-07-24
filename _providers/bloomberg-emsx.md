@@ -1,0 +1,196 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Bloomberg Emsx Agentic Access
+  operation_count: 19
+  slug: bloomberg-emsx-agentic-access
+  summary_line: 19 operations · 8 acting
+api_count: 7
+apis:
+- description: API for order creation, routing, management and execution monitoring through Bloomberg EMSX platform. Supports order lifecycle management, broker selection, route management, fill tracking, and real-t
+  name: Bloomberg EMSX Trading API
+  slug: bloomberg-emsx-trading-api
+- description: Query available brokers and broker strategies
+  name: Bloomberg EMSX Brokers API
+  slug: bloomberg-emsx-brokers-api
+- description: Retrieve available order and route fields
+  name: Bloomberg EMSX Field Lists API
+  slug: bloomberg-emsx-field-lists-api
+- description: Query and monitor trade executions and fills
+  name: Bloomberg EMSX Fills API
+  slug: bloomberg-emsx-fills-api
+- description: Create, modify, delete, and query trading orders
+  name: Bloomberg EMSX Orders API
+  slug: bloomberg-emsx-orders-api
+- description: Create, modify, delete, and manage order routes to brokers
+  name: Bloomberg EMSX Routes API
+  slug: bloomberg-emsx-routes-api
+- description: Manage EMSX trading teams
+  name: Bloomberg EMSX Teams API
+  slug: bloomberg-emsx-teams-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Bloomberg EMSX Trading API
+  slug: open-bloomberg-emsx-trading
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bloomberg-emsx-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/bloomberg-emsx-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bloomberg-emsx-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bloomberg-emsx-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.bloomberg.com/professional/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.bloomberg.com/professional/support/api-library/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bloomberg.com/notices/tos/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bloomberg.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bloomberg.com/professional/support/
+created: '2024-01-01'
+description: Bloomberg Execution Management System (EMSX) API provides programmatic access to Bloomberg's order and execution management platform for trading operations.
+finops:
+- name: Bloomberg Emsx Finops
+  service_category: API
+  slug: bloomberg-emsx-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-emsx.png
+json_schemas:
+- name: Bloomberg EMSX Fill
+  property_count: 17
+  slug: bloomberg-emsx-fill
+- name: Bloomberg EMSX Order
+  property_count: 23
+  slug: bloomberg-emsx-order
+- name: Bloomberg EMSX Route
+  property_count: 24
+  slug: bloomberg-emsx-route
+jsonld:
+- class_count: 0
+  name: Bloomberg Emsx Context
+  property_count: 6
+  slug: bloomberg-emsx-context
+layout: provider
+modified: '2026-05-19'
+name: Bloomberg EMSX
+nav: Providers
+network: true
+overview: 'Bloomberg EMSX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, Field Lists API, Fills API, and 3 more. Tagged areas include Bloomberg, Execution Management, Financial Services, Order Management, and Trading.
+
+
+  The Bloomberg EMSX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Bloomberg EMSX''s developer surface includes authentication, developer portal, documentation, support, and 5 more developer resources.'
+plans:
+- name: Bloomberg Emsx Plans Pricing
+  plan_count: 3
+  slug: bloomberg-emsx-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 5
+  name: Bloomberg Emsx Rate Limits
+  slug: bloomberg-emsx-rate-limits
+rules:
+- name: Bloomberg EMSX API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: bloomberg-emsx-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 55.3
+  delta: 2.1
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 64.6
+    developer_ergonomics: 32.6
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 53.2
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 67.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Bloomberg Emsx Authentication
+  slug: bloomberg-emsx-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Bloomberg Emsx Domain Security
+  slug: bloomberg-emsx-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Bloomberg Emsx Vulnerability Disclosure
+  slug: bloomberg-emsx-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: bloomberg-emsx
+tags:
+- Bloomberg
+- Execution Management
+- Financial Services
+- Order Management
+- Trading
+website: https://www.bloomberg.com/professional/
+---

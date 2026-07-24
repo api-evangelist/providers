@@ -1,0 +1,152 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 9.6
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://www.dji.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.dji.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.dji.com/cloud-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.dji.com/doc/cloud-api-tutorial/en/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dji-sdk
+- group: operate
+  title: ''
+  type: Support
+  url: https://sdk-forum.dji.net/hc/en-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://djisdksupport.zendesk.com/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://account.dji.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.dji.com/policies/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dji.com/policy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dji-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dji-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/dji-authentication.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dji-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/dji-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dji-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dji-domain-security.yml
+created: '2026-07-17'
+description: 'DJI (Da-Jiang Innovations) is the world''s leading manufacturer of civilian drones, aerial-imaging systems, gimbals, and robotics platforms. Its developer program at developer.dji.com exposes several products for building on DJI hardware: the Cloud API (device management, media, and live streaming for enterprise fleets), the FlightHub 2 API, the Mobile SDK (Android/iOS), the Payload SDK for building custom payloads, the Onboard SDK, the Edge SDK, the Windows SDK, the UX SDK, and the Guidance and RoboMaster SDKs. Developers register an application through a DJI developer account to obtain an App Key, App Secret, and App License that activate SDK and Cloud API access.'
+image: https://www-cdn.djiits.com/dps/de46652dd99c67d4f8d17607e3bf0dce.jpg
+layout: provider
+modified: '2026-07-18'
+name: DJI
+nav: Providers
+network: true
+overview: 'DJI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, UAV, Aerial Imaging, and Robotics.
+
+
+  DJI''s developer surface includes documentation, API reference, support, authentication, changelog, and 12 more developer resources.'
+random_paper: 5
+score:
+  band: emerging
+  composite: 25.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 25.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Dji Authentication
+  slug: dji-authentication
+  summary_line: app-credentials · 1 scheme
+- kind: domain-security
+  name: Dji Domain Security
+  slug: dji-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: dji
+tags:
+- Company
+- Drones
+- UAV
+- Aerial Imaging
+- Robotics
+- SDK
+- Cloud API
+- Geospatial
+- Hardware
+- Enterprise
+- Developer Platform
+website: http://www.dji.com/
+---

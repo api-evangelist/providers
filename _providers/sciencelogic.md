@@ -1,0 +1,124 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: ScienceLogic is an AIOps platform providing IT infrastructure monitoring, service management, and automated remediation.
+  name: ScienceLogic
+  slug: sciencelogic
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/sciencelogic-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sciencelogic-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ScienceLogic
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/sciencelogic
+- group: company
+  title: ''
+  type: Website
+  url: https://sciencelogic.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.sciencelogic.com
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.sciencelogic.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://sciencelogic.com/feed
+created: '2026-03-27'
+description: ScienceLogic is an AIOps platform providing IT infrastructure monitoring, service management, and automated remediation.
+finops:
+- name: Sciencelogic Finops
+  service_category: API
+  slug: sciencelogic-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sciencelogic.png
+layout: provider
+modified: '2026-03-27'
+name: ScienceLogic
+nav: Providers
+network: true
+overview: 'ScienceLogic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIOps and IT Operations.
+
+
+  ScienceLogic''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+plans:
+- name: Sciencelogic Plans Pricing
+  plan_count: 3
+  slug: sciencelogic-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 5
+  name: Sciencelogic Rate Limits
+  slug: sciencelogic-rate-limits
+score:
+  band: emerging
+  composite: 21.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 21.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/screenshots/sciencelogic-2026-06-20T193537.png
+security:
+- kind: domain-security
+  name: Sciencelogic Domain Security
+  slug: sciencelogic-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Sciencelogic Trust Center
+  slug: sciencelogic-trust-center
+  summary_line: SOC 2, ISO 27001, FedRAMP, CSA STAR
+slug: sciencelogic
+tags:
+- AIOps
+- IT Operations
+website: https://sciencelogic.com
+---

@@ -1,0 +1,180 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 52.9
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Partner parking locations (POIs)
+  name: Autopass Locations API
+  slug: autopass-locations-api
+- description: Completed parking transactions and invoices
+  name: Autopass Orders API
+  slug: autopass-orders-api
+- description: In-progress parking sessions
+  name: Autopass Sessions API
+  slug: autopass-sessions-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Autopass Webhooks
+  slug: autopass-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/autopass-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://en.autopass.xyz
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.autopass.xyz
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.autopass.xyz
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.autopass.xyz/llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/autopass-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/autopass-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/autopass-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autopass-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/autopass-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/autopass-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/autopass-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/autopass-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/autopass-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://autopass.xyz/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://autopass.xyz/privacy
+created: '2026-07-17'
+description: 'Autopass ("快速通") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its "powered by Autopass" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia''s largest provider of mobility financial services. Backed by 500 Global.'
+image: https://www.autopass.xyz/autopass_og.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: autopass-mcp.yml
+  slug: autopass-mcpyml
+modified: '2026-07-18'
+name: Autopass
+nav: Providers
+network: true
+overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Orders API, and Sessions API. Tagged areas include Company, Mobility, Parking, Payments, and Automotive.
+
+
+  The Autopass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Autopass'' developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
+random_paper: 13
+scopes:
+- name: Autopass Scopes
+  scope_count: 1
+  slug: autopass-scopes
+  summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 45.5
+  delta: 3.4
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 67.3
+    developer_ergonomics: 50.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 42.1
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Autopass Authentication
+  slug: autopass-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
+- kind: domain-security
+  name: Autopass Domain Security
+  slug: autopass-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: autopass
+tags:
+- Company
+- Mobility
+- Parking
+- Payments
+- Automotive
+- Financial Services
+- OAuth
+- Taiwan
+website: https://en.autopass.xyz
+---

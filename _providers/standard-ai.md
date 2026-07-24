@@ -1,0 +1,83 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/standard-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://standard.ai/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/standard-ai
+created: '2026-07-17'
+description: Standard AI, formerly Standard Cognition, is a computer-vision company that builds AI-powered autonomous (checkout-free) shopping technology for physical retail. Using ceiling-mounted cameras and machine-learning models, its platform lets shoppers pick up items and walk out without scanning or waiting in line, while giving retailers real-time inventory and shopper analytics. The company is backed by CRV, EQT Ventures, SoftBank Vision Fund and SV Angel, and maintains a public open-source organization on GitHub. Standard AI does not publish a public developer API, and its main website is served behind a bot-challenge gateway.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standard-ai.png
+layout: provider
+modified: '2026-07-21'
+name: Standard AI
+nav: Providers
+network: true
+overview: Standard AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Computer Vision, Artificial Intelligence, and Autonomous Checkout.
+random_paper: 25
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Standard Ai Domain Security
+  slug: standard-ai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: standard-ai
+tags:
+- Company
+- Retail
+- Computer Vision
+- Artificial Intelligence
+- Autonomous Checkout
+- Retail Technology
+website: https://standard.ai/
+---

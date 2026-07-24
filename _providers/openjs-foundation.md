@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: Node.js is a JavaScript runtime built on Chrome's V8 engine that powers server-side applications and tooling across the JavaScript ecosystem.
+  name: Node.js
+  slug: nodejs
+- description: Express is a fast, unopinionated, minimalist web framework for Node.js used for building HTTP APIs and web applications.
+  name: Express
+  slug: express
+- description: Fastify is a fast, low-overhead web framework for Node.js with a strong plugin architecture and built-in JSON Schema validation.
+  name: Fastify
+  slug: fastify
+- description: LoopBack is a highly extensible Node.js and TypeScript framework for building APIs and microservices with built-in OpenAPI support.
+  name: LoopBack
+  slug: loopback
+- description: Electron is a framework for building cross-platform desktop applications with web technologies (Chromium and Node.js).
+  name: Electron
+  slug: electron
+- description: Appium is an open source automation framework for native, hybrid, and mobile web applications, exposing a WebDriver-compatible HTTP API.
+  name: Appium
+  slug: appium
+artifact_total: 11
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/openjs-foundation-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openjs-foundation-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/openjs-foundation
+- group: company
+  title: ''
+  type: Website
+  url: https://openjsf.org/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://openjsf.org/projects
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/openjs-foundation
+- group: company
+  title: ''
+  type: Blog
+  url: https://openjsf.org/blog/
+created: '2026-03-16'
+description: The OpenJS Foundation is a Linux Foundation project that supports the growth of JavaScript and web technologies through open governance and collaboration. It hosts critical web ecosystem projects including Node.js, jQuery, Electron, webpack, ESLint, Express, Fastify, LoopBack, Appium, Mocha, Jest, and many more.
+finops:
+- name: Openjs Foundation Finops
+  service_category: API
+  slug: openjs-foundation-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openjs-foundation.png
+layout: provider
+modified: '2026-04-28'
+name: OpenJS Foundation
+nav: Providers
+network: true
+overview: 'OpenJS Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include JavaScript, Linux Foundation, Node.js, Web, and API Frameworks.
+
+
+  OpenJS Foundation''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+plans:
+- name: Openjs Foundation Plans Pricing
+  plan_count: 3
+  slug: openjs-foundation-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 5
+  name: Openjs Foundation Rate Limits
+  slug: openjs-foundation-rate-limits
+score:
+  band: emerging
+  composite: 23.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 23.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/screenshots/openjs-foundation-2026-06-20T191008.png
+security:
+- kind: domain-security
+  name: Openjs Foundation Domain Security
+  slug: openjs-foundation-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Openjs Foundation Vulnerability Disclosure
+  slug: openjs-foundation-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: openjs-foundation
+tags:
+- JavaScript
+- Linux Foundation
+- Node.js
+- Web
+- API Frameworks
+website: https://openjsf.org/
+---

@@ -1,0 +1,226 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 72.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Dashlane Agentic Access
+  operation_count: 6
+  slug: dashlane-agentic-access
+  summary_line: 6 operations · 5 acting
+api_count: 2
+apis:
+- description: The Teams API from Dashlane — 4 operation(s) for teams.
+  name: Dashlane Teams API
+  slug: dashlane-teams-api
+- description: The Time API from Dashlane — 1 operation(s) for time.
+  name: Dashlane Time API
+  slug: dashlane-time-api
+artifact_total: 7
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/dashlane-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/dashlane-authentication.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/dashlane-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/dashlane?type=team
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dashlane-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dashlane-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/dashlane-security.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dashlane-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dashlane-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/dashlane-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dashlane-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dashlane-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dashlane-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dashlane-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dashlane-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dashlane.com
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dashlane-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dashlane-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://cli.dashlane.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dashlane.github.io/public-api-documentation/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dashlane.github.io/public-api-documentation/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cli.dashlane.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.dashlane.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dashlane.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Dashlane
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.dashlane.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.dashlane.com/register
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dashlane.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dashlane.com/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dashlane.com/
+created: '2026-07-17'
+description: Dashlane is a password manager and credential-security platform for individuals, families, and enterprises, protecting against credential reuse, phishing, and account takeover with zero-knowledge encryption, passkey support, and AI-powered phishing detection. For developers, Dashlane publishes a read-only Public API (OpenAPI 3.0) that returns real-time team data — member roles/status/usage metrics, activated devices, and password-health analytics (weak, reused, compromised credentials) — authenticated with a bearer DLP token. Dashlane also ships an open-source CLI (dcli), a GitHub Action for injecting vault secrets into CI/CD, SCIM provisioning, and SSO federation.
+image: https://www.dashlane.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: dashlane-mcp.yml
+  slug: dashlane-mcpyml
+modified: '2026-07-18'
+name: Dashlane
+nav: Providers
+network: true
+overview: 'Dashlane publishes 2 APIs on the [APIs.io](https://apis.io/) network: Teams API and Time API. Tagged areas include Company, Cybersecurity, Password Management, Identity, and Security.
+
+
+  Dashlane''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
+random_paper: 16
+score:
+  band: developing
+  composite: 50.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 49.6
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 50.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Dashlane Authentication
+  slug: dashlane-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Dashlane Domain Security
+  slug: dashlane-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Dashlane Vulnerability Disclosure
+  slug: dashlane-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: dashlane
+tags:
+- Company
+- Cybersecurity
+- Password Management
+- Identity
+- Security
+- Credential Monitoring
+- Secrets Management
+website: https://www.dashlane.com/
+---

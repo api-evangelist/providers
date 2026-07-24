@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/boomerang-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://boomerangapp.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.boomerangapp.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.boomeranggmail.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.boomeranggmail.com/subscriptions.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.boomeranggmail.com/terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.boomeranggmail.com/privacy.html
+created: '2026-07-17'
+description: Boomerang, from Baydin Inc, is a productivity software company founded in 2010 that builds email management and meeting scheduling tools. Its products include Boomerang for Gmail and Boomerang for Outlook browser extensions, Boomerang mobile apps for iOS and Android, and GQueues, a task manager for Google Workspace teams. Boomerang lets users schedule email to send later, snooze messages back to the inbox, track responses with read receipts and follow-up reminders, share availability and book meetings without back-and-forth, and use AI writing assistance. With over 2 million active customers, the platform has processed more than 500 million messages. Boomerang is a consumer and team-facing productivity suite delivered as browser extensions and apps rather than a developer API platform; it was surfaced as a portfolio company of 500 Global and added to the API Evangelist network.
+image: https://www.boomerangapp.com/assets/images/og-banner.png
+layout: provider
+modified: '2026-07-18'
+name: Boomerang
+nav: Providers
+network: true
+overview: 'Boomerang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Email, Scheduling, and Meetings.
+
+
+  Boomerang''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
+random_paper: 36
+score:
+  band: minimal
+  composite: 14.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Boomerang Domain Security
+  slug: boomerang-domain-security
+  summary_line: TLSv1.3
+slug: boomerang
+tags:
+- Company
+- Productivity
+- Email
+- Scheduling
+- Meetings
+- Task Management
+- Gmail
+- Outlook
+website: https://boomerangapp.com
+---

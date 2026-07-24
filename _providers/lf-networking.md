@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Programmatic access to LF Networking project resources, APIs, and open networking infrastructure tools.
+  name: LF Networking API
+  slug: lf-networking-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lf-networking-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lf-networking
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://lfnetworking.org/projects/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/lf-networking
+- group: other
+  title: ''
+  type: Projects
+  url: https://lfnetworking.org/projects/
+- group: company
+  title: ''
+  type: Blog
+  url: https://lfnetworking.org/feed/
+created: '2026-03-16'
+description: LF Networking is an umbrella organization under the Linux Foundation that provides the largest set of open source networking projects including ONAP, FD.io, and OPNFV. It fosters collaboration across a broad industry coalition to build an open networking stack.
+finops:
+- name: Lf Networking Finops
+  service_category: API
+  slug: lf-networking-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lf-networking.png
+layout: provider
+modified: '2026-04-28'
+name: LF Networking
+nav: Providers
+network: true
+overview: 'LF Networking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Networking, Open Source, and Telecom.
+
+
+  LF Networking''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+plans:
+- name: Lf Networking Plans Pricing
+  plan_count: 3
+  slug: lf-networking-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 5
+  name: Lf Networking Rate Limits
+  slug: lf-networking-rate-limits
+score:
+  band: emerging
+  composite: 21.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 21.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lf-networking/refs/heads/main/screenshots/lf-networking-2026-06-20T184454.png
+security:
+- kind: domain-security
+  name: Lf Networking Domain Security
+  slug: lf-networking-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lf-networking
+tags:
+- Linux Foundation
+- Networking
+- Open Source
+- Telecom
+---

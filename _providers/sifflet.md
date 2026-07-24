@@ -1,0 +1,230 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 34.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: 'Sifflet''s public REST API for programmatically managing data observability resources — assets and workspaces, monitors/rules and rule runs, sources (V2), credentials, domains, calendars, notification '
+  name: Sifflet Public API
+  slug: sifflet-public-api
+artifact_total: 7
+asyncapis:
+- description: ''
+  name: Sifflet Webhooks
+  slug: sifflet-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.siffletdata.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.siffletdata.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.siffletdata.com/docs/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.siffletdata.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.siffletdata.com/docs/cli-command-line-interface
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.siffletdata.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.siffletdata.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.siffletdata.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.siffletdata.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/siffletdata
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.siffletdata.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.siffletdata.com/changelog
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/sifflet-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.siffletdata.com/product-security
+- group: auth
+  title: ''
+  type: Security
+  url: https://docs.siffletdata.com/docs/how-to-report-a-security-incident
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sifflet-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sifflet-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sifflet-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sifflet-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sifflet-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/sifflet-cli.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/sifflet-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sifflet-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sifflet-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/sifflet-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sifflet-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sifflet-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sifflet-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sifflet-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sifflet-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sifflet-vulnerability-disclosure.yml
+created: '2026-07-17'
+description: Sifflet is a data observability platform positioned as the control plane for Data and AI. It catches data issues before they reach the business, traces them to their root cause, and helps teams fix them fast. The platform unifies a data catalog, data quality monitoring, end-to-end data lineage (including field-level lineage), built-in security and access control, and AI-powered agents (Sentinel auto-monitoring, Sage root-cause analysis, and an AI chat/assistant) into one product. It integrates with major data platforms and tools including Snowflake, Databricks, BigQuery, Amazon Redshift, dbt, Apache Airflow, Fivetran, Tableau, Looker, and Power BI. Developers automate Sifflet through a public REST API (Bearer Access Token auth), a Python CLI, a Terraform provider, Airflow operators, outbound webhooks, and an official MCP server. Sifflet is a portfolio company of EQT Ventures.
+image: https://cdn.prod.website-files.com/6745ca418d70ad1c8e2b8442/67915a6a3d805d3e9c024aff_sifflet-logo-color.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: sifflet-mcp.yml
+  slug: sifflet-mcpyml
+modified: '2026-07-21'
+name: Sifflet
+nav: Providers
+network: true
+overview: 'Sifflet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Data Observability, Data Quality, and Data Catalog.
+
+
+  The Sifflet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Sifflet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, authentication, and 24 more developer resources.'
+random_paper: 35
+score:
+  band: developing
+  composite: 46.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 22.6
+    developer_ergonomics: 69.6
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 63.2
+  previous_composite: 46.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Sifflet Authentication
+  slug: sifflet-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Sifflet Domain Security
+  slug: sifflet-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Sifflet Vulnerability Disclosure
+  slug: sifflet-vulnerability-disclosure
+  summary_line: contact published
+- kind: trust-center
+  name: Sifflet Trust Center
+  slug: sifflet-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: sifflet
+tags:
+- Company
+- Data Analytics
+- Data Observability
+- Data Quality
+- Data Catalog
+- Data Lineage
+- Data Governance
+- Monitoring
+- Metadata
+- AI Agents
+website: https://www.siffletdata.com/
+---

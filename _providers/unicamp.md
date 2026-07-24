@@ -1,0 +1,133 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: REDU (Repositório de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository running on Dataverse 6.0. It exposes the standard Dataverse REST API, including a public Search A
+  name: REDU Dataverse Native & Search API
+  slug: redu-dataverse-api
+- description: 'OAI-PMH 2.0 metadata harvesting endpoint for REDU, the Unicamp Research Data Repository. Confirmed live: verb=Identify returns the repository "Repositório de Dados de Pesquisa da Unicamp Dataverse OAI'
+  name: REDU OAI-PMH Metadata Endpoint
+  slug: redu-oai-pmh
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/unicamp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.unicamp.br/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://br.linkedin.com/school/universidade-estadual-de-campinas/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/unicamp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/unicamp-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/unicamp-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-03'
+description: 'The University of Campinas (Universidade Estadual de Campinas, Unicamp) is a public research university in Campinas, São Paulo, Brazil, ranked #232 in the QS World University Rankings 2025. Its most visible public, machine-readable API footprint is REDU, the Unicamp Research Data Repository, which runs on the open-source Dataverse 6.0 platform and exposes a documented Native/Search API and an OAI-PMH metadata endpoint. Institutional data products are otherwise delivered through dashboards and gated portals (EDAT / dados.unicamp.br) and library discovery systems rather than a unified public developer portal.'
+finops:
+- name: Unicamp Finops
+  service_category: Education
+  slug: unicamp-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unicamp.png
+jsonld:
+- class_count: 10
+  name: Unicamp Context
+  property_count: 4
+  slug: unicamp-context
+layout: provider
+modified: '2026-06-03'
+name: University of Campinas
+nav: Providers
+network: true
+overview: 'University of Campinas publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research Data, and Open Data.
+
+
+  The University of Campinas catalog on APIs.io includes 1 JSON-LD context.'
+plans:
+- name: Unicamp Plans Pricing
+  plan_count: 2
+  slug: unicamp-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 1
+  name: Unicamp Rate Limits
+  slug: unicamp-rate-limits
+score:
+  band: emerging
+  composite: 21.9
+  delta: 0.4
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 21.5
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/screenshots/unicamp-2026-06-20T200024.png
+security:
+- kind: domain-security
+  name: Unicamp Domain Security
+  slug: unicamp-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: unicamp
+tags:
+- Education
+- Higher Education
+- University
+- Research Data
+- Open Data
+- Brazil
+website: https://www.unicamp.br/
+---

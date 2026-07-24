@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: National Institutes Of Health Agentic Access
+  operation_count: 2
+  slug: national-institutes-of-health-agentic-access
+  summary_line: 2 operations · 2 acting
+api_count: 2
+apis:
+- description: The Projects API from National Institutes of Health — 1 operation(s) for projects.
+  name: National Institutes of Health Projects API
+  slug: national-institutes-of-health-projects-api
+- description: The Publications API from National Institutes of Health — 1 operation(s) for publications.
+  name: National Institutes of Health Publications API
+  slug: national-institutes-of-health-publications-api
+artifact_total: 8
+collections:
+- collection_type: open
+  name: NIH RePORTER API
+  slug: open-national-institutes-of-health
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/national-institutes-of-health-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/national-institutes-of-health-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/NIHGOV
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/national-institutes-of-health
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nih.gov/
+- group: start
+  title: ''
+  type: Portal
+  url: https://api.reporter.nih.gov/
+created: '2024-12-03'
+description: The National Institutes of Health (NIH), a part of the U.S. Department of Health and Human Services, is the nation's medical research agency making important discoveries that improve health and save lives. NIH operates the RePORTER API for exposing data about NIH-funded research projects and the publications associated with them.
+finops:
+- name: National Institutes Of Health Finops
+  service_category: API
+  slug: national-institutes-of-health-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-institutes-of-health.png
+layout: provider
+modified: '2026-05-19'
+name: National Institutes of Health
+nav: Providers
+network: true
+overview: 'National Institutes of Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Projects API and Publications API. Tagged areas include Federal Government, Health, Research, Funding, and Publications.
+
+
+  National Institutes of Health''s developer surface includes developer portal and 5 more developer resources.'
+plans:
+- name: National Institutes Of Health Plans Pricing
+  plan_count: 3
+  slug: national-institutes-of-health-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 5
+  name: National Institutes Of Health Rate Limits
+  slug: national-institutes-of-health-rate-limits
+score:
+  band: emerging
+  composite: 29.7
+  delta: -2.9
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 48.7
+    developer_ergonomics: 8.7
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 32.6
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
+security:
+- kind: domain-security
+  name: National Institutes Of Health Domain Security
+  slug: national-institutes-of-health-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: national-institutes-of-health
+tags:
+- Federal Government
+- Health
+- Research
+- Funding
+- Publications
+website: https://www.nih.gov/
+---

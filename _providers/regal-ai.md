@@ -1,0 +1,420 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Regal Ai Agentic Access
+  operation_count: 9
+  slug: regal-ai-agentic-access
+  summary_line: 9 operations · 5 acting
+api_count: 8
+apis:
+- description: Regal publishes 40+ reporting webhook event types covering agent activity, call lifecycle (placed, completed, IVR triggered, wrapup), call recording and transcript availability, AI call analysis, task
+  name: Regal Reporting Webhooks
+  slug: regal-reporting-webhooks
+- description: Carrier-level branded caller ID and spam remediation
+  name: Regal Branded Phone Numbers API
+  slug: regal-ai-branded-phone-numbers-api
+- description: The Business Profiles API from Regal — 1 operation(s) for business profiles.
+  name: Regal Business Profiles API
+  slug: regal-ai-business-profiles-api
+- description: The Campaigns API from Regal — 1 operation(s) for campaigns.
+  name: Regal Campaigns API
+  slug: regal-ai-campaigns-api
+- description: The Dispositions API from Regal — 1 operation(s) for dispositions.
+  name: Regal Dispositions API
+  slug: regal-ai-dispositions-api
+- description: Contact creation, update, and custom event tracking
+  name: Regal Events API
+  slug: regal-ai-events-api
+- description: The Messages API from Regal — 1 operation(s) for messages.
+  name: Regal Messages API
+  slug: regal-ai-messages-api
+- description: The Phone Numbers API from Regal — 1 operation(s) for phone numbers.
+  name: Regal Phone Numbers API
+  slug: regal-ai-phone-numbers-api
+artifact_total: 51
+asyncapis:
+- description: Regal Reporting Webhooks deliver 40+ event types covering agent activity, call lifecycle, recordings and transcripts, AI analysis, tasks, SMS, MMS, email, voicemail, contact lifecycle, scheduling, and
+  name: Regal Reporting Webhooks
+  slug: regal-reporting-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: Regal Branded Phone Numbers API
+  slug: open-regal-branded-phone-numbers-api
+- collection_type: open
+  name: Regal Events API
+  slug: open-regal-events-api
+- collection_type: open
+  name: Regal Management API
+  slug: open-regal-management-api
+- collection_type: open
+  name: Regal Messages API
+  slug: open-regal-messages-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/regal-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/regal-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/regal-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/regal-ai-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.regal.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.regal.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.regal.ai/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.regal.ai/reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.regal.ai/docs/plan-your-implementation
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.regal.ai/llms.txt
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developer.regal.ai/reference/faq
+- group: start
+  title: ''
+  type: SupportPortal
+  url: https://support.regal.ai/hc/en-us
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.regal.ai/hc/en-us/articles/5725458229531-Integration-Guides-API-Docs
+- group: start
+  title: ''
+  type: Login
+  url: https://app.regal.io
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.regal.ai/get-a-demo
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.regal.ai/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/regal-ai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/regal-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/regal-ai-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.regal.ai/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.regal.ai/blog/january-2025-releases
+- group: other
+  title: ''
+  type: Customers
+  url: https://www.regal.ai/customers
+- group: other
+  title: ''
+  type: Product
+  url: https://www.regal.ai/ai-agents
+- group: other
+  title: ''
+  type: Product
+  url: https://www.regal.ai/sales-dialer
+- group: other
+  title: ''
+  type: Product
+  url: https://www.regal.ai/journey-builder
+- group: other
+  title: ''
+  type: Product
+  url: https://www.regal.ai/conversation-intelligence
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.regal.ai/careers
+- group: other
+  title: ''
+  type: Company
+  url: https://www.regal.ai/about
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.regal.ai/contact
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.regal.ai/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.regal.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.regal.ai/terms-of-service
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/regal-ai-official
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/regalio
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@regalio
+- group: other
+  title: ''
+  type: Embed
+  url: https://developer.regal.ai/docs/salesforce-embed
+- group: other
+  title: ''
+  type: Embed
+  url: https://developer.regal.ai/docs/kustomer-embed
+- group: other
+  title: ''
+  type: Embed
+  url: https://developer.regal.ai/docs/retool
+- group: other
+  title: ''
+  type: Embed
+  url: https://developer.regal.ai/docs/chrome-extension
+- group: other
+  title: ''
+  type: SingleSignOn
+  url: https://developer.regal.ai/docs/google-sso
+- group: other
+  title: ''
+  type: SingleSignOn
+  url: https://developer.regal.ai/docs/okta-sso
+- group: other
+  title: ''
+  type: SingleSignOn
+  url: https://developer.regal.ai/docs/azure-sso
+- group: other
+  title: ''
+  type: SCIM
+  url: https://developer.regal.ai/docs/okta-scim
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/regal-ai-vocabulary.yml
+created: '2026-05-24'
+description: Regal is a New York City-based AI Agent Platform purpose-built for contact center operations. The Regal platform lets enterprises design, test, deploy, monitor, and continuously improve AI Phone Agents, SMS Agents, Chat Agents, and WebRTC Voice Agents for inbound and outbound use cases including sales, customer support, scheduling, collections, and lead qualification. The product surface includes an Agent Builder (no-code prompts, actions, knowledge base, variants, languages, LLM models), a Sales Dialer, Journey Builder for orchestrating multi-channel customer experiences, Conversation Intelligence for QA and analytics, and a Copilot that automates agent design. Regal exposes a public REST API spanning a Custom Events ingest endpoint (events.regalvoice.com/events) for contact and event ingestion plus a v1 management API (api.regal.ai/v1) covering Branded Phone Numbers, Business Profiles, Active Phone Numbers, Campaigns, Dispositions, and outbound SMS message sending. The platform
+  also publishes 40+ reporting webhook event types covering calls, SMS, MMS, email, voicemail, agent activity, contacts, and journey state, plus a Custom Actions framework that lets voice agents call out to customer-owned HTTP endpoints during conversations. Regal integrates natively with Segment, mParticle, HubSpot, Salesforce, Zendesk, Kustomer, Klaviyo, Braze, Marketo, Customer.io, Iterable, Microsoft Dynamics 365, Zoho, Hightouch, Cal.com, Calendly, Snowflake, S3, Slack, Microsoft Teams, Five9, Talkdesk, and 8x8.
+examples:
+- key_count: 7
+  name: Regal Call Completed Webhook Example
+  slug: regal-call-completed-webhook-example
+- key_count: 2
+  name: Regal List Campaigns Example
+  slug: regal-list-campaigns-example
+- key_count: 2
+  name: Regal Post Branded Phone Number Example
+  slug: regal-post-branded-phone-number-example
+- key_count: 2
+  name: Regal Post Custom Event Example
+  slug: regal-post-custom-event-example
+- key_count: 2
+  name: Regal Send Message Example
+  slug: regal-send-message-example
+features:
+- AI Phone Agents for 24/7 inbound and outbound voice with sub-second latency and 30+ languages
+- SMS, Chat, and WebRTC AI Agents sharing the same prompt, knowledge base, and action library
+- No-code Agent Builder with prompts, dynamic variables, actions, action sequences, branching, and agent variants
+- Custom Actions framework that lets voice agents POST structured payloads to customer HTTP endpoints and branch on the response
+- Journey Builder for multi-channel customer journeys including triggered outbound calls gated by TCPA opt-in flags
+- Conversation Intelligence with AI call analysis, custom AI analysis and reporting, coverage gap dashboard, and cross-transcript search
+- Sales Dialer with batch dialing, outbound routing, branded caller ID, spam remediation, and iOS call screening handling
+- Copilot for AI-assisted agent design and tuning
+- Single Custom Events ingestion endpoint (events.regalvoice.com/events) with userId/phone/email identity resolution at 300 RPS
+- v1 Management API for Business Profiles, Active Phone Numbers, Campaigns, Dispositions, Branded Phone Numbers, and SMS sending
+- 40+ reporting webhook event types covering calls, SMS, MMS, email, voicemail, contact lifecycle, scheduling, and custom tasks
+- Native data integrations with Segment, mParticle, HubSpot, Salesforce, Zendesk, Kustomer, Klaviyo, Braze, Marketo, Customer.io, Iterable, Microsoft Dynamics 365, Zoho, Hightouch, Cal.com, Calendly, Snowflake Data Share, Amazon S3, Slack, Microsoft Teams, SendGrid, Zapier
+- CCaaS integrations with 8x8, Five9, and Talkdesk
+- Embeddable iframe for Salesforce, Kustomer, Retool, and Chrome Extension
+- SSO via Google, Okta, and Azure; SCIM via Okta
+- SOC 2, HIPAA, GDPR, CCPA, and DPA compliance with no customer data used for LLM training
+finops:
+- name: Regal Ai Finops
+  service_category: ''
+  slug: regal-ai-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regal-ai.png
+json_schemas:
+- name: RegalBrandedPhoneNumber
+  property_count: 7
+  slug: regal-branded-phone-number
+- name: RegalContact
+  property_count: 6
+  slug: regal-contact
+- name: RegalEvent
+  property_count: 6
+  slug: regal-event
+- name: RegalMessage
+  property_count: 5
+  slug: regal-message
+json_structures:
+- name: Regal Contact Structure
+  property_count: 0
+  slug: regal-contact-structure
+- name: Regal Event Structure
+  property_count: 0
+  slug: regal-event-structure
+jsonld:
+- class_count: 41
+  name: Regal Ai Context
+  property_count: 0
+  slug: regal-ai-context
+layout: provider
+modified: '2026-05-24'
+name: Regal
+nav: Providers
+network: true
+overview: 'Regal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Reporting Webhooks, Branded Phone Numbers API, Business Profiles API, and 5 more. Tagged areas include AI, AI Agents, Voice AI, Contact Center, and Outbound Calling.
+
+
+  The Regal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+
+
+  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 37 more developer resources.'
+plans:
+- name: Regal Ai Plans Pricing
+  plan_count: 1
+  slug: regal-ai-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 0
+  name: Regal Ai Rate Limits
+  slug: regal-ai-rate-limits
+rules:
+- name: Regal API Rules
+  rule_count: 5
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 3
+  slug: regal-ai-asyncapi-spectral-rules
+- name: Regal API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: regal-ai-jsonschema-spectral-rules
+- name: Regal API Rules
+  rule_count: 7
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 0
+    warn: 2
+  slug: regal-rules
+score:
+  band: strong
+  composite: 60.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 81.6
+    contract_quality: 73.6
+    developer_ergonomics: 41.3
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 15.8
+  previous_composite: 60.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
+security:
+- kind: authentication
+  name: Regal Ai Authentication
+  slug: regal-ai-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Regal Ai Domain Security
+  slug: regal-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Regal Ai Trust Center
+  slug: regal-ai-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
+slug: regal-ai
+tags:
+- AI
+- AI Agents
+- Voice AI
+- Contact Center
+- Outbound Calling
+- Inbound Calling
+- Phone Agents
+- SMS
+- Chat
+- WebRTC
+- Conversation Intelligence
+- Journey Orchestration
+- Branded Caller ID
+- CCaaS
+- CPaaS
+- Sales Dialer
+- Customer Engagement
+website: https://www.regal.ai/about
+---

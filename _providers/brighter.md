@@ -1,0 +1,94 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/brighter-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://brighter.com
+- group: other
+  title: ''
+  type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Brighter
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.crunchbase.com/organization/brighter
+created: '2026-07-17'
+description: Brighter is a Santa Monica, California digital health technology company founded in 2010 by internet entrepreneur Jake Winebaum that built a consumer-driven dental benefits platform connecting dentists, patients, and dental insurers. Brighter licensed digital engagement solutions to insurance carriers, including online and mobile provider directories, patient reviews, and its proprietary Brighter Schedule online appointment scheduling feature, along with the Brighter PRO self-insured dental plan launched in 2014. Its platform powered member-engagement tools for major dental insurers including Cigna, Delta Dental, and Aetna. Backed by roughly $49M from General Catalyst, Mayfield, Benchmark, DAG Ventures, and Tenaya Capital, Brighter was acquired by Cigna in December 2017 and its technology folded into Cigna's digital health offerings. The brand persists as a Cigna dental provider experience.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brighter.png
+layout: provider
+modified: '2026-07-18'
+name: Brighter
+nav: Providers
+network: true
+overview: Brighter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Health Insurance, and Digital Health.
+random_paper: 39
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Brighter Domain Security
+  slug: brighter-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: brighter
+tags:
+- Company
+- Healthcare
+- Dental
+- Health Insurance
+- Digital Health
+- Benefits
+- Appointment Scheduling
+- Provider Directory
+website: https://brighter.com
+---

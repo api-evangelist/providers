@@ -1,0 +1,136 @@
+---
+access_model:
+  confidence: medium
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: Walgreens Boots Alliance specialty pharmacy platform serves patients with complex chronic conditions including oncology, rare diseases, and specialty biologics. The specialty pharmacy network integrat
+  name: WBA Specialty Pharmacy API
+  slug: wba-specialty-pharmacy
+- description: Walgreens Boots Alliance healthcare data and analytics platform supporting population health management, clinical quality initiatives, and digital health services. Leverages data from over 200 million
+  name: WBA Healthcare Data Platform
+  slug: wba-healthcare-platform
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/walgreens-boots-alliance-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/walgreens-boots-alliance
+- group: company
+  title: ''
+  type: Website
+  url: https://www.walgreensbootsalliance.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.walgreens.com
+- group: other
+  title: ''
+  type: AnnualReport
+  url: https://www.walgreensbootsalliance.com/investors/annual-reports
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.walgreensbootsalliance.com/news-media
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.walgreensbootsalliance.com/privacy-policy
+created: '2025-03-01'
+description: Walgreens Boots Alliance (WBA) is a global pharmacy-led health and wellbeing enterprise operating in more than 25 countries, with pharmacy chains Walgreens in the US and Boots in the UK, pharmaceutical wholesale and distribution through Alliance Healthcare, and specialty pharmacy operations. WBA operates as a Fortune 100 company and global healthcare platform, leveraging data science, AI, and digital health technologies to serve patients, customers, and health systems. While WBA's primary developer APIs are offered through the Walgreens Developer Program, the enterprise also uses healthcare data platforms for population health management, specialty pharmacy integration, and digital health services.
+finops:
+- name: Walgreens Boots Alliance Finops
+  service_category: Pharmacy / Healthcare Holding Company
+  slug: walgreens-boots-alliance-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walgreens-boots-alliance.png
+jsonld:
+- class_count: 25
+  name: Walgreens Boots Alliance Context
+  property_count: 4
+  slug: walgreens-boots-alliance-context
+layout: provider
+modified: '2026-05-03'
+name: Walgreens Boots Alliance
+nav: Providers
+network: true
+overview: 'Walgreens Boots Alliance publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmacy, Healthcare, Health Wellbeing, Retail, and Specialty Pharmacy.
+
+
+  The Walgreens Boots Alliance catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Walgreens Boots Alliance''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
+plans:
+- name: Walgreens Boots Alliance Plans Pricing
+  plan_count: 1
+  slug: walgreens-boots-alliance-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 1
+  name: Walgreens Boots Alliance Rate Limits
+  slug: walgreens-boots-alliance-rate-limits
+score:
+  band: emerging
+  composite: 26.9
+  delta: 1.1
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 25.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 32.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/screenshots/walgreens-boots-alliance-2026-06-20T201207.png
+security:
+- kind: domain-security
+  name: Walgreens Boots Alliance Domain Security
+  slug: walgreens-boots-alliance-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: walgreens-boots-alliance
+tags:
+- Pharmacy
+- Healthcare
+- Health Wellbeing
+- Retail
+- Specialty Pharmacy
+- Population Health
+website: https://www.walgreensbootsalliance.com
+---

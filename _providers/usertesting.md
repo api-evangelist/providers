@@ -1,0 +1,268 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 61.5
+  scored_at: '2026-07-23'
+api_count: 8
+apis:
+- description: The Clip API from UserTesting — 1 operation(s) for clip.
+  name: UserTesting Clip API
+  slug: usertesting-clip-api
+- description: Retrieve session summaries and detailed session results from a test.
+  name: UserTesting General Session Data API
+  slug: usertesting-general-session-data-api
+- description: The Highlightreel API from UserTesting — 1 operation(s) for highlightreel.
+  name: UserTesting Highlightreel API
+  slug: usertesting-highlightreel-api
+- description: Access Quality of Experience Scores (QXscores) calculated from a test's completed sessions.
+  name: UserTesting QXscore Data API
+  slug: usertesting-qxscore-data-api
+- description: The Session API from UserTesting — 1 operation(s) for session.
+  name: UserTesting Session API
+  slug: usertesting-session-api
+- description: The Studies API from UserTesting — 2 operation(s) for studies.
+  name: UserTesting Studies API
+  slug: usertesting-studies-api
+- description: Access session video data, including transcripts, video download links, clips, and highlight reels.
+  name: UserTesting Video Data API
+  slug: usertesting-video-data-api
+- description: The Workspaces API from UserTesting — 2 operation(s) for workspaces.
+  name: UserTesting Workspaces API
+  slug: usertesting-workspaces-api
+artifact_total: 15
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.usertesting.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.usertesting.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.usertesting.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.usertesting.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.usertesting.com/docs/getting-started
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/usertesting-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/usertesting-scopes.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/usertesting-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/usertesting-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/usertesting-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/usertesting-results-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/usertesting-legacy-v1-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/usertesting-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/usertesting-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/usertesting-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.usertesting.com/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/usertesting-rate-limits.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/usertesting-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/usertesting-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/usertesting-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/usertesting-packages.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/usertesting-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/usertesting-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/usertesting
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/usertesting-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.usertesting.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.usertesting.com/hc/en-us
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.usertesting.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.usertesting.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/usertesting
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.usertesting.com/plans
+- group: start
+  title: ''
+  type: Login
+  url: https://www.usertesting.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.usertesting.com/privacy-center/terms-of-use-enterprise-client
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.usertesting.com/privacy-center/privacy-policy
+created: '2026-07-17'
+description: 'UserTesting is a human insight platform for experience research: teams recruit vetted participants, run usability tests, surveys, live conversations, and interaction tests, and analyze session videos, transcripts, and QXscore experience metrics. Its developer surface at developer.usertesting.com exposes the Results API (v2) for programmatic access to session data, videos, transcripts, clips, highlight reels, and QXscores, plus Legacy (v1) endpoints for embedding content from classic tests. Authentication is OAuth 2.0 client credentials issued against its Okta authorization server, and an official MCP server (early access) connects the platform to Claude, ChatGPT, Figma Make, and other AI clients.'
+image: https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/880/U-Glyph-with_R_RGB_Blue_2x.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: usertesting-mcp.yml
+  slug: usertesting-mcpyml
+modified: '2026-07-21'
+name: UserTesting
+nav: Providers
+network: true
+overview: 'UserTesting publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clip API, General Session Data API, Highlightreel API, and 5 more. Tagged areas include Company, UX Research, Usability Testing, Human Insight, and Customer Experience.
+
+
+  UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 28 more developer resources.'
+random_paper: 40
+rate_limits:
+- limit_count: 1
+  name: Usertesting Rate Limits
+  slug: usertesting-rate-limits
+scopes:
+- name: Usertesting Scopes
+  scope_count: 1
+  slug: usertesting-scopes
+  summary_line: 1 scope · clientCredentials
+score:
+  band: developing
+  composite: 59.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 59.7
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 68.4
+  previous_composite: 59.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Usertesting Authentication
+  slug: usertesting-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Usertesting Domain Security
+  slug: usertesting-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Usertesting Vulnerability Disclosure
+  slug: usertesting-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Usertesting Trust Center
+  slug: usertesting-trust-center
+  summary_line: SOC 2, ISO 27001:2022 (auditor CoalFire), ISO 27701, CSA STAR, HIPAA, GDPR, CCPA
+slug: usertesting
+tags:
+- Company
+- UX Research
+- Usability Testing
+- Human Insight
+- Customer Experience
+- Surveys
+- Video
+- Transcripts
+- Experience Metrics
+website: https://www.usertesting.com
+---

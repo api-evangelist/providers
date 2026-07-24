@@ -1,0 +1,232 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 47.1
+  scored_at: '2026-07-23'
+api_count: 7
+apis:
+- description: Payroll deductions track the costs of plan premiums to employees.
+  name: Thatch Health Deductions API
+  slug: thatch-health-deductions-api
+- description: Employees work for employers, both of which are managed by partners. Employees enrolled in plans are also represented in Thatch as member objects.
+  name: Thatch Health Employees API
+  slug: thatch-health-employees-api
+- description: Employers onboard into a platform through employer onboarding sessions. After creating a session, provide the `claim_url` to the onboarding iframe in your app.
+  name: Thatch Health Employer onboarding sessions API
+  slug: thatch-health-employer-onboarding-sessions-api
+- description: Platforms onboard employers into Thatch, and have employees enrolled in plans.
+  name: Thatch Health Employers API
+  slug: thatch-health-employers-api
+- description: Enrollments use member objects to track employee coverage status.
+  name: Thatch Health Enrollments API
+  slug: thatch-health-enrollments-api
+- description: Members represent employees enrolled in plans. Thatch creates member objects automatically, but you can retrieve them (for example, to aid in supporting an enrolled employee.
+  name: Thatch Health Members API
+  slug: thatch-health-members-api
+- description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
+  name: Thatch Health Pay Schedules API
+  slug: thatch-health-pay-schedules-api
+artifact_total: 11
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/thatch-health-trust-center.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://thatch.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.thatch.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.thatch.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.thatch.com/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.thatch.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.thatch.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://thatch.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://thatch.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.thatch.com/employers/onboarding/welcome/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://app.thatch.com/magic_link/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://thatch.com/legal/platform-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://thatch.com/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/thatch-health
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.thatch.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.thatch.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/thatch-health-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/thatch-health-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/thatch-health-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/thatch-health-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/thatch-health-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/thatch-health-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/thatch-health-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/thatch-health-llms.txt
+- group: design
+  title: ''
+  type: Components
+  url: components/thatch-health-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/thatch-health-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/thatch-health-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/thatch-health-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Thatch (Thatch Health, Inc.) is a modern health benefits platform that makes it easy for employers to offer personalized healthcare to employees using an ICHRA (Individual Coverage Health Reimbursement Arrangement). Thatch for Platforms is a set of REST APIs and embeddable components that let partner platforms — payroll, HR, and benefits products — bring ICHRA benefits to their customers, covering employer onboarding, employee management, enrollments, members, pay schedules, and payroll deductions.
+image: https://docs.thatch.com/img/thatch.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: thatch-health-mcp.yml
+  slug: thatch-health-mcpyml
+modified: '2026-07-21'
+name: Thatch Health
+nav: Providers
+network: true
+overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deductions API, Employees API, Employer onboarding sessions API, and 4 more. Tagged areas include Company, Healthcare, Health Benefits, ICHRA, and Insurance.
+
+
+  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+random_paper: 36
+score:
+  band: developing
+  composite: 55.1
+  delta: 1.8
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 54.9
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 53.3
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Thatch Health Authentication
+  slug: thatch-health-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Thatch Health Domain Security
+  slug: thatch-health-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Thatch Health Trust Center
+  slug: thatch-health-trust-center
+  summary_line: SOC 2
+slug: thatch-health
+tags:
+- Company
+- Healthcare
+- Health Benefits
+- ICHRA
+- Insurance
+- Payroll
+- Embedded Benefits
+- HR
+website: https://thatch.com/
+---

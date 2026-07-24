@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alltricks-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alltricks.fr/
+created: '2026-07-17'
+description: Alltricks is a French online retailer specializing in cycling, running, and outdoor / mountain-sports equipment. Founded in 2008 and headquartered near Paris in Saint-Cyr-l'Ecole (Yvelines), France, the company sells bikes and frames, components and parts, apparel, footwear, nutrition, and accessories across France and multiple European markets. Alltricks operates as a direct-to-consumer e-commerce storefront at alltricks.fr and was an early Partech portfolio company. As of this pipeline run the company publishes no public developer API, developer portal, OpenAPI definition, or /.well-known/ discovery surface; this profile captures its identity and the domain-security posture of its production host.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alltricks.png
+layout: provider
+modified: '2026-07-17'
+name: Alltricks
+nav: Providers
+network: true
+overview: Alltricks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Cycling.
+random_paper: 0
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Alltricks Domain Security
+  slug: alltricks-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: alltricks
+tags:
+- Company
+- Consumer
+- E-commerce
+- Retail
+- Cycling
+- Sports
+- Bicycle
+- Outdoor
+website: https://www.alltricks.fr/
+---

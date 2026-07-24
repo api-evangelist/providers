@@ -1,0 +1,89 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/newme-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://newme.asia/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://newme.asia/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://newme.asia/privacy-policy
+created: '2026-07-17'
+description: Newme (newme.asia) is an Accel-backed fast-fashion women's apparel and accessories e-commerce brand operating under the tagline "Freshest Fashion Fastest." It sells trend-driven contemporary womenswear — denim, bottoms, tops, t-shirts, dresses, co-ords, jumpsuits, bodysuits and winterwear — through its website and iOS/Android shopping apps, backed by a growing footprint of physical retail stores across India and Asia. Newme is a consumer direct-to-consumer retailer and, as of this profile, publishes no public developer API, documentation, or developer portal; it is tracked in the API Evangelist network as a company profile.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newme.png
+layout: provider
+modified: '2026-07-20'
+name: Newme
+nav: Providers
+network: true
+overview: Newme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-Commerce, and Retail.
+random_paper: 30
+score:
+  band: minimal
+  composite: 11.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Newme Domain Security
+  slug: newme-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: newme
+tags:
+- Company
+- Consumer
+- Fashion
+- E-Commerce
+- Retail
+- Apparel
+- Direct-to-Consumer
+- Mobile Commerce
+website: https://newme.asia/
+---

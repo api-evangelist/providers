@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gallatin.ai
+- group: company
+  title: ''
+  type: About
+  url: https://gallatin.ai/company
+- group: company
+  title: ''
+  type: Blog
+  url: https://gallatin.ai/news
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/gallatinai
+- group: company
+  title: ''
+  type: Careers
+  url: https://gallatin.ai/careers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/gallatinai/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/GallatinAI
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gallatin-ai-domain-security.yml
+created: '2026-07-17'
+description: Gallatin AI builds AI-powered software for defense logistics, giving military planners and logisticians decision advantage across the tactical, operational, and strategic levels of the supply chain. Its products include Navigator, an AI decision-support "S4" that aggregates and analyzes brigade-level logistics reports in real time to streamline resupply planning; Burrow, a DoD-compliant third-party logistics (3PL) solution managing vendor qualification, transportation, inventory, storage, and fulfillment for domestic and international operations; and Phalanx, an automated asset and in-transit visibility system combining traditional reporting with hardware sensors and computer vision. Founded by veterans of Scale AI, Palantir, Amazon Prime Air, and the DoD, the company emerged from stealth in 2025 and is backed by 8VC, Silent Ventures, Timeless, Moonshots Capital, and Banter Capital.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gallatin-ai.png
+layout: provider
+modified: '2026-07-19'
+name: Gallatin AI
+nav: Providers
+network: true
+overview: 'Gallatin AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Logistics, Artificial Intelligence, and Supply Chain.
+
+
+  Gallatin AI''s developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 20
+score:
+  band: minimal
+  composite: 8.6
+  delta: 0.7
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.9
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gallatin Ai Domain Security
+  slug: gallatin-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: gallatin-ai
+tags:
+- Company
+- Defense
+- Logistics
+- Artificial Intelligence
+- Supply Chain
+- Decision Support
+- Military
+- GovTech
+website: https://gallatin.ai
+---

@@ -1,0 +1,168 @@
+---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 44.2
+  scored_at: '2026-07-23'
+api_count: 10
+apis:
+- description: The Admin API from Revyze — 2 operation(s) for admin.
+  name: Revyze Admin API
+  slug: revyze-admin-api
+- description: The Coach API from Revyze — 1 operation(s) for coach.
+  name: Revyze Coach API
+  slug: revyze-coach-api
+- description: The FastAPI API from Revyze — 1 operation(s) for fastapi.
+  name: Revyze FastAPI API
+  slug: revyze-fastapi-api
+- description: The Force Upgrade App API from Revyze — 1 operation(s) for force upgrade app.
+  name: Revyze Force Upgrade App API
+  slug: revyze-force-upgrade-app-api
+- description: The Graphql3 API from Revyze — 1 operation(s) for graphql3.
+  name: Revyze Graphql3 API
+  slug: revyze-graphql3-api
+- description: The Health API from Revyze — 1 operation(s) for health.
+  name: Revyze Health API
+  slug: revyze-health-api
+- description: The Multiplayer API from Revyze — 1 operation(s) for multiplayer.
+  name: Revyze Multiplayer API
+  slug: revyze-multiplayer-api
+- description: The Privacy Policy API from Revyze — 1 operation(s) for privacy policy.
+  name: Revyze Privacy Policy API
+  slug: revyze-privacy-policy-api
+- description: The Privacy Policy En API from Revyze — 1 operation(s) for privacy policy en.
+  name: Revyze Privacy Policy En API
+  slug: revyze-privacy-policy-en-api
+- description: The Webhook API from Revyze — 2 operation(s) for webhook.
+  name: Revyze Webhook API
+  slug: revyze-webhook-api
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Revyze Webhooks
+  slug: revyze-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.revyze.fr
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://api.revyze.fr/privacy_policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://api.revyze.fr/privacy_policy
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/revyze-webhooks.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/revyze-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/revyze-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/revyze-data-model.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/revyze-conventions.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/revyze-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/revyze-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/revyze-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/revyze-llms.txt
+created: '2026-07-17'
+description: Revyze is a French EdTech mobile learning application that helps secondary and baccalaureate-level students revise by scrolling short-form educational videos and playing quizzes created by a community of young content creators. The app covers all school subjects and is oriented around exam preparation for the French brevet and baccalaureate, reporting more than two million users, a 4.8/5 app-store rating, and 15,000+ videos, all offered free of charge. Revyze is a portfolio company of Speedinvest. This profile also captures the app's publicly reachable backend at api.revyze.fr — a FastAPI service that fronts a GraphQL API, an AI study-coach streaming endpoint, and subscription/content-moderation webhooks — discovered and harvested by the API Evangelist enrichment pipeline. It is the application's own backend rather than a documented public developer program.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revyze.png
+layout: provider
+modified: '2026-07-20'
+name: Revyze
+nav: Providers
+network: true
+overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Coach API, FastAPI API, and 7 more. Tagged areas include Company, EdTech, Education, Mobile, and Video.
+
+
+  The Revyze catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Revyze''s developer surface includes authentication and 11 more developer resources.'
+random_paper: 14
+score:
+  band: thin
+  composite: 30.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 51.2
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 30.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Revyze Authentication
+  slug: revyze-authentication
+  summary_line: 0 schemes
+- kind: domain-security
+  name: Revyze Domain Security
+  slug: revyze-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: revyze
+tags:
+- Company
+- EdTech
+- Education
+- Mobile
+- Video
+- Learning
+- Quiz
+- France
+- GraphQL
+website: https://www.revyze.fr
+---

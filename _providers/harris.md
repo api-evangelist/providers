@@ -1,0 +1,115 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/harris-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.harriscomputer.com
+- group: other
+  title: ''
+  type: Portfolio
+  url: https://www.harriscomputer.com/our-companies/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.harriscomputer.com/careers/
+- group: other
+  title: ''
+  type: Parent Company
+  url: https://www.csisoftware.com
+created: '2026-03-24'
+description: Harris Computer is a constellation of companies acquiring and operating vertical market software businesses across the public sector, healthcare, utilities, financial services, education, and insurance markets. Harris Computer itself does not publish a unified public developer portal; APIs and integrations are delivered through its individual portfolio companies (such as Harris Local Government, Harris Utilities, Harris Healthcare, and Harris School Solutions). Harris Computer is a subsidiary of Constellation Software Inc.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harris.png
+layout: provider
+modified: '2026-04-28'
+name: Harris Computer
+nav: Providers
+network: true
+overview: Harris Computer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Financial Services, Healthcare, Insurance, and Public Sector.
+press:
+- date: '2026-05-25'
+  title: Chairman Jordan Seeks Documents About Biden-Harris ...
+  url: http://judiciary.house.gov/media/press-releases/chairman-jordan-seeks-documents-about-biden-harris-censorship-pressure
+- date: '2026-05-25'
+  title: Vice President Harris Announces OMB Policy to Advance ...
+  url: https://www.presidency.ucsb.edu/documents/fact-sheet-vice-president-harris-announces-omb-policy-advance-governance-innovation-and
+- date: '2026-05-25'
+  title: Biden-Harris administration announces groundbreaking AI ...
+  url: https://www.dol.gov/newsroom/releases/osec/osec20240516
+- date: '2026-05-25'
+  title: Biden-Harris Administration Announces Regulatory ...
+  url: https://www.bis.gov/press-release/biden-harris-administration-announces-regulatory-framework-responsible-diffusion-advanced-artificial
+- date: '2026-05-25'
+  title: Biden Administration Actions on AI
+  url: https://www.epi.org/database-of-biden-administration-actions-on-ai/
+random_paper: 37
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/harris/refs/heads/main/screenshots/harris-2026-06-20T182519.png
+security:
+- kind: domain-security
+  name: Harris Domain Security
+  slug: harris-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: harris
+tags:
+- Education
+- Financial Services
+- Healthcare
+- Insurance
+- Public Sector
+- Utilities
+- Vertical Market Software
+- Fortune 500
+website: https://www.harriscomputer.com
+---

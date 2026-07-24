@@ -1,0 +1,243 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 34
+  human_in_the_loop: 10
+  name: Qualio Agentic Access
+  operation_count: 132
+  slug: qualio-agentic-access
+  summary_line: 132 operations · 34 acting · 10 human-in-the-loop
+api_count: 11
+apis:
+- description: The Audit Trail API from Qualio — 1 operation(s) for audit trail.
+  name: Qualio Audit Trail API
+  slug: qualio-audit-trail-api
+- description: The Change Management API from Qualio — 2 operation(s) for change management.
+  name: Qualio Change Management API
+  slug: qualio-change-management-api
+- description: The Compliance Intelligence API from Qualio — 11 operation(s) for compliance intelligence.
+  name: Qualio Compliance Intelligence API
+  slug: qualio-compliance-intelligence-api
+- description: The Design Controls API from Qualio — 8 operation(s) for design controls.
+  name: Qualio Design Controls API
+  slug: qualio-design-controls-api
+- description: The Documents API from Qualio — 12 operation(s) for documents.
+  name: Qualio Documents API
+  slug: qualio-documents-api
+- description: The Events API from Qualio — 4 operation(s) for events.
+  name: Qualio Events API
+  slug: qualio-events-api
+- description: The Resource Library API from Qualio — 4 operation(s) for resource library.
+  name: Qualio Resource Library API
+  slug: qualio-resource-library-api
+- description: The Suppliers API from Qualio — 4 operation(s) for suppliers.
+  name: Qualio Suppliers API
+  slug: qualio-suppliers-api
+- description: The Tags API from Qualio — 1 operation(s) for tags.
+  name: Qualio Tags API
+  slug: qualio-tags-api
+- description: The Training API from Qualio — 2 operation(s) for training.
+  name: Qualio Training API
+  slug: qualio-training-api
+- description: The User Management API from Qualio — 7 operation(s) for user management.
+  name: Qualio User Management API
+  slug: qualio-user-management-api
+artifact_total: 16
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer-portal.qualio.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.qualio.com/en/collections/1484426-api-integrations
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer-portal.qualio.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.qualio.com/en/articles/12604878-qualio-developer-api
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/qualio-authentication.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/qualio-openapi.json
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/qualio-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/qualio-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/qualio-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/qualio-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/qualio-agentic-access.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qualio-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/qualio-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/qualio-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.qualio.com
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/qualio-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.qualio.com/quality-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/qualio-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/qualio-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.qualio.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.qualio.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.qualio.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.qualio.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.qualio.com/docs/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.qualio.com/docs/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://qualio.com
+created: '2026-07-17'
+description: Qualio is an AI-powered quality management system (QMS) and compliance platform built for life sciences companies — medical devices, pharmaceuticals, biotech, software as a medical device (SaMD), cosmetics, cannabis and contract research organizations. It unifies document control, quality events (CAPAs, deviations, non-conformances), training records, design controls, risk and change management, supplier management, audits and compliance intelligence in one audit-ready system. Qualio exposes a RESTful Developer API (OpenAPI 3.1.0, base URL https://api.qualio.com) providing secure, API-key-authenticated programmatic access to documents, events, training, users, suppliers, design controls and compliance data, letting teams automate quality processes and integrate the QMS with the rest of their toolchain.
+image: https://www.qualio.com/hubfs/qualio-logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: qualio-mcp.yml
+  slug: qualio-mcpyml
+modified: '2026-07-20'
+name: Qualio
+nav: Providers
+network: true
+overview: 'Qualio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Audit Trail API, Change Management API, Compliance Intelligence API, and 8 more. Tagged areas include Company, Quality Management, Life Sciences, Compliance, and Document Control.
+
+
+  Qualio''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
+random_paper: 39
+score:
+  band: developing
+  composite: 53.0
+  delta: 2.2
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 52.7
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 50.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Qualio Authentication
+  slug: qualio-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Qualio Domain Security
+  slug: qualio-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Qualio Trust Center
+  slug: qualio-trust-center
+  summary_line: ISO 9001, ISO 27001, ISO 27701
+slug: qualio
+tags:
+- Company
+- Quality Management
+- Life Sciences
+- Compliance
+- Document Control
+- QMS
+- Regulatory
+- Medical Devices
+website: https://qualio.com
+---

@@ -1,0 +1,233 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 24
+  human_in_the_loop: 0
+  name: River Markets Agentic Access
+  operation_count: 48
+  slug: river-markets-agentic-access
+  summary_line: 48 operations · 24 acting
+api_count: 13
+apis:
+- description: The balance API from River Markets — 1 operation(s) for balance.
+  name: River Markets balance API
+  slug: river-markets-balance-api
+- description: 'Manage complex orders: conditional orders (take-profit and stop-loss), TWAP, and other advanced order types.'
+  name: River Markets complex-orders API
+  slug: river-markets-complex-orders-api
+- description: The fair-values API from River Markets — 2 operation(s) for fair-values.
+  name: River Markets fair-values API
+  slug: river-markets-fair-values-api
+- description: Retrieve trade execution history and fill details.
+  name: River Markets fills API
+  slug: river-markets-fills-api
+- description: The generic-assets API from River Markets — 3 operation(s) for generic-assets.
+  name: River Markets generic-assets API
+  slug: river-markets-generic-assets-api
+- description: Search and discover prediction markets across Kalshi and Polymarket.
+  name: River Markets markets API
+  slug: river-markets-markets-api
+- description: The orderbooks API from River Markets — 2 operation(s) for orderbooks.
+  name: River Markets orderbooks API
+  slug: river-markets-orderbooks-api
+- description: Place and manage orders on prediction market exchanges.
+  name: River Markets orders API
+  slug: river-markets-orders-api
+- description: View current portfolio positions across all connected exchanges.
+  name: River Markets positions API
+  slug: river-markets-positions-api
+- description: Get historical price data and candlesticks from exchanges.
+  name: River Markets prices API
+  slug: river-markets-prices-api
+- description: Manage trading subaccounts. Each subaccount can have its own exchange credentials and positions.
+  name: River Markets subaccounts API
+  slug: river-markets-subaccounts-api
+- description: Recent trades for a market. Pairs with the /v1/ws/tradeprints WebSocket for live updates.
+  name: River Markets tradeprints API
+  slug: river-markets-tradeprints-api
+- description: The watchlists API from River Markets — 4 operation(s) for watchlists.
+  name: River Markets watchlists API
+  slug: river-markets-watchlists-api
+artifact_total: 18
+asyncapis:
+- description: 'Real-time WebSocket streams over wss://api.rivermarkets.com. Client frames are JSON text; server frames are orjson-serialized UTF-8 bytes. Handshake auth uses the Ed25519 signed-request flow moved to '
+  name: River Markets Streaming API
+  slug: river-markets-streaming-asyncapi
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.rivermarkets.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.rivermarkets.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.rivermarkets.com/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.rivermarkets.com/quickstart
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.rivermarkets.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rivermarkets
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/river-markets-openapi-original.json
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/river-markets-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/river-markets-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/river-markets-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/river-markets-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/river-markets-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/river-markets-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/river-markets-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/river-markets-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/river-markets-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/river-markets-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/river-markets-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/river-markets-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/river-markets-agentic-access.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/river-markets-streaming-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: River Markets is a unified prime brokerage for prediction markets, consolidating multiple exchanges — Kalshi, Polymarket, and Polymarket US (with Novig and Rothera planned) — behind a single account, order-management system, and REST + WebSocket API. Every contract across all venues is assigned a unified River ID, so professional and institutional traders can search markets, place and route orders (including icebergs, pegs, stop-losses, and take-profits with smart order routing), track positions and P&L across isolated subaccounts, and stream live fills, orderbooks, orders, and trade prints from one integration. Requests are Ed25519-signed so the private key never leaves the client process. Founded by ex-BlackRock and high-frequency trading quants and backed by Y Combinator (Spring 2026).
+image: https://rivermarkets.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: river-markets-mcp.yml
+  slug: river-markets-mcpyml
+modified: '2026-07-21'
+name: River Markets
+nav: Providers
+network: true
+overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) network, including balance API, complex-orders API, fair-values API, and 10 more. Tagged areas include Company, Prediction Markets, Trading, Prime Brokerage, and Financial Services.
+
+
+  The River Markets catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  River Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
+random_paper: 30
+score:
+  band: thin
+  composite: 43.2
+  delta: -1.1
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 69.8
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 44.3
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: River Markets Authentication
+  slug: river-markets-authentication
+  summary_line: apiKey/http · 4 schemes
+- kind: domain-security
+  name: River Markets Domain Security
+  slug: river-markets-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: river-markets
+tags:
+- Company
+- Prediction Markets
+- Trading
+- Prime Brokerage
+- Financial Services
+- Order Management
+- Market Data
+- WebSocket
+- Fintech
+website: https://docs.rivermarkets.com
+---

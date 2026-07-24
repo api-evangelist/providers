@@ -1,0 +1,154 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 25.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://woodstock.co/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/woodstock-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/woodstock-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/woodstock-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/woodstock-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/woodstock-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/woodstock-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://woodstock.co/ja/mcp
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://woodstock.co/ja/mcp/installation/getting-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://woodstock.co/ja/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://woodstock.co/ja/fees
+- group: operate
+  title: ''
+  type: Support
+  url: https://woodstock.co/ja/faq
+- group: company
+  title: ''
+  type: Blog
+  url: https://zenn.dev/p/woodstock_tech
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/woodstock-tokyo
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://woodstock.co/ja/legal/term-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://woodstock.co/ja/legal/privacy-policy
+created: '2026-07-17'
+description: Woodstock (Woodstock K.K., Tokyo) is a Japanese investment platform offering zero-commission, 24-hour US stock trading in JPY with fractional shares down to 0.0001-share increments. A Financial Products Intermediary registered with the Kanto Financial Bureau (No. 965), with customer assets held by affiliated broker AlpacaJapan, Woodstock's programmatic surface is a hosted Model Context Protocol server that lets AI agents like Claude, ChatGPT, and Grok manage portfolios, research US stocks, and place real trades after OAuth plus passkey authorization. Backed by Kindred Ventures, Coinbase, and Sony.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/woodstock.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: woodstock-mcp.yml
+  slug: woodstock-mcpyml
+modified: '2026-07-21'
+name: Woodstock
+nav: Providers
+network: true
+overview: 'Woodstock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investing, Stock Trading, Brokerage, and FinTech.
+
+
+  Woodstock''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
+random_paper: 20
+score:
+  band: emerging
+  composite: 29.8
+  delta: 4.3
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 45.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 25.5
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Woodstock Authentication
+  slug: woodstock-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Woodstock Domain Security
+  slug: woodstock-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: woodstock
+tags:
+- Company
+- Investing
+- Stock Trading
+- Brokerage
+- FinTech
+- Japan
+- MCP
+- AI Agents
+website: https://woodstock.co/
+---

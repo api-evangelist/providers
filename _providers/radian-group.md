@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/radian-group-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.radian.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.radian.com/who-we-are
+- group: other
+  title: ''
+  type: Products
+  url: https://www.radian.com/what-we-do/mortgage-insurance
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.radian.com/news-and-knowledge
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.radian.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/radian
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/radian
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/RadianGroup
+created: '2026-05-23'
+description: 'Radian Group Inc. (NYSE: RDN) is a global, multi-line specialty insurer providing private mortgage insurance through Radian Guaranty and specialty insurance through its Inigo subsidiary at Lloyd''s of London. Additional subsidiaries include Radian Mortgage Capital and Radian Settlement Services. Radian sold its homegenius media business in 2024. The company does not publish a public developer portal or API documentation; lender integrations occur through partner loan-origination, pricing, and servicing systems. This repository captures what little machine-readable surface exists for Radian Group.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radian-group.png
+layout: provider
+modified: '2026-05-23'
+name: Radian Group
+nav: Providers
+network: true
+overview: 'Radian Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Mortgage Insurance, Specialty Insurance, and Real Estate.
+
+
+  Radian Group''s developer surface includes engineering blog, YouTube channel, and 7 more developer resources.'
+random_paper: 1
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/radian-group/refs/heads/main/screenshots/radian-group-2026-06-20T192525.png
+security:
+- kind: domain-security
+  name: Radian Group Domain Security
+  slug: radian-group-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: radian-group
+tags:
+- Insurance
+- Financial Services
+- Mortgage Insurance
+- Specialty Insurance
+- Real Estate
+- Mortgage
+- Publicly Traded
+website: https://www.radian.com
+---

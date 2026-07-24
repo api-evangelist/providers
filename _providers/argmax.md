@@ -1,0 +1,182 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 9.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: A local transcription server for macOS that is API-compatible with the Deepgram Speech-to-Text (Live) API, exposing a WebSocket streaming interface (default ws://localhost:50060) driven by the officia
+  name: Argmax Local Server
+  slug: argmax-local-server
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/argmax-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.argmaxinc.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.argmaxinc.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://app.argmaxinc.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.argmaxinc.com/docs/guides/using-local-server
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://app.argmaxinc.com/docs/guides/upgrading-to-pro-sdk
+- group: other
+  title: ''
+  type: Models
+  url: https://app.argmaxinc.com/docs/models
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.argmaxinc.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.argmaxinc.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/argmaxinc
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.argmaxinc.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://app.argmaxinc.com/docs/changelog
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://testflight.apple.com/join/Q1cywTJw
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:pro-sdk-support@argmaxinc.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.argmaxinc.com
+- group: start
+  title: ''
+  type: Login
+  url: https://app.argmaxinc.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.argmaxinc.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.argmaxinc.com/privacy
+- group: build
+  title: ''
+  type: Packages
+  url: packages/argmax-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/argmax-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/argmax-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/argmax-conventions.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/argmax-llms.txt
+created: '2026-07-17'
+description: 'Argmax, Inc. builds on-device inference infrastructure that lets developers run foundation models locally on user devices for privacy, real-time performance, and predictable per-device costs. Its products are commercial Pro SDKs on top of open-source cores: WhisperKit (speech-to-text with file transcription, real-time streaming, word timestamps, and subtitle export), SpeakerKit (speaker recognition, diarization, and voice-activity detection), DiffusionKit (image generation for Flux.1 and Stable Diffusion on Apple Silicon), and TTSKit. Argmax also ships the Argmax Local Server for macOS, a local transcription server that is API-compatible with the Deepgram Speech-to-Text (Live) API and driven by an official Node client (@argmaxinc/local-server). Devices are licensed through the ArgmaxSDK (ax_-prefixed API keys) with device-based billing measured by unique licenseId. Backed by General Catalyst.'
+image: https://cdn.prod.website-files.com/677fd5c33a098b58d447e17b/678ec5cb674cb149d3c4c026_Argmax-OpenGraph.png
+layout: provider
+modified: '2026-07-18'
+name: Argmax
+nav: Providers
+network: true
+overview: 'Argmax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine Learning, and On-Device Inference.
+
+
+  Argmax''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, sandbox, and 16 more developer resources.'
+random_paper: 28
+score:
+  band: thin
+  composite: 34.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 65.2
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 34.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Argmax Authentication
+  slug: argmax-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Argmax Domain Security
+  slug: argmax-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: argmax
+tags:
+- Company
+- Enterprise
+- Artificial Intelligence
+- Machine Learning
+- On-Device Inference
+- Speech Recognition
+- Speech to Text
+- Transcription
+- Speaker Diarization
+- Image Generation
+- SDKs
+- Apple Silicon
+- Edge AI
+website: https://www.argmaxinc.com
+---

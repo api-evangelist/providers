@@ -1,0 +1,63 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: SumAll was a New York-based social media and business analytics startup, surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the company is defunct - its primary domain sumall.com no longer resolves to a live product and is parked/listed for sale on Afternic. There is no live developer portal, API reference, OpenAPI, SDK, or documentation surface to harvest, so no provider artifacts were produced.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sumall.png
+layout: provider
+modified: '2026-07-21'
+name: SumAll
+nav: Providers
+network: true
+overview: SumAll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social Media, Marketing, and Defunct.
+random_paper: 42
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: sumall
+tags:
+- Company
+- Analytics
+- Social Media
+- Marketing
+- Defunct
+---

@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Ukg Pro Agentic Access
+  operation_count: 6
+  slug: ukg-pro-agentic-access
+  summary_line: 6 operations
+api_count: 8
+apis:
+- description: REST API for the UKG Pro HCM suite covering people, benefits, payroll, talent, recruiting, onboarding, and HR data. Hosted on tenant-specific hostnames with OAuth 2.0 Bearer token authentication obtai
+  name: UKG Pro HCM API
+  slug: hcm-api
+- description: REST API for the UKG Pro Workforce Management product (Dimensions), covering punches, shifts, scheduling, accruals, timekeeping, attendance, and labor data.
+  name: UKG Pro WFM API
+  slug: wfm-api
+- description: Unified data fabric API that exposes consolidated person, employment, and workforce data across UKG Pro and connected systems for analytics and integration use cases.
+  name: UKG People Fabric API
+  slug: people-fabric-api
+- description: Benefits enrollment and election data
+  name: UKG Pro Benefits API
+  slug: ukg-pro-benefits-api
+- description: Employment history and changes
+  name: UKG Pro Employment API
+  slug: ukg-pro-employment-api
+- description: Pay statements, earnings, and payroll data
+  name: UKG Pro Pay API
+  slug: ukg-pro-pay-api
+- description: Personnel and employee records
+  name: UKG Pro People API
+  slug: ukg-pro-people-api
+- description: Recruiting and applicant tracking
+  name: UKG Pro Recruiting API
+  slug: ukg-pro-recruiting-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: UKG Pro HCM API
+  slug: open-ukg-pro
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ukg-pro-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ukg-pro-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ukg-pro-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ultimatesoftware
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ukg
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ukg.com/solutions/ukg-pro
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.ukg.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.ukg.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developer.ukg.com/general/docs/authentication-and-authorization
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.ukg.com/solutions/ukg-pro
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ukg.com/support
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.ukg.com/
+- group: other
+  title: ''
+  type: Parent Company
+  url: https://www.ukg.com/
+created: '2026-05-11'
+description: UKG Pro (formerly UltiPro) is an enterprise human capital management (HCM) suite from UKG that delivers payroll, core HR, benefits administration, talent management, recruiting, onboarding, performance, learning, and people analytics for mid-to-large organizations. The platform combines the legacy UltiPro HR/payroll product with UKG's workforce management capabilities and is positioned for HR teams that need a unified system of record. The UKG Pro REST API exposes HCM resources (people, benefits, payroll, talent) via tenant-specific endpoints authenticated with OAuth 2.0 Bearer tokens.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ukg-pro.png
+layout: provider
+modified: '2026-05-11'
+name: UKG Pro
+nav: Providers
+network: true
+overview: 'UKG Pro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Employment API, Pay API, and 2 more. Tagged areas include Human Capital Management, HCM, HR, Payroll, and Benefits Administration.
+
+
+  UKG Pro''s developer surface includes authentication, documentation, pricing, support, and 9 more developer resources.'
+random_paper: 46
+score:
+  band: thin
+  composite: 30.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 57.0
+    developer_ergonomics: 32.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 30.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/screenshots/ukg-pro-2026-06-20T200008.png
+security:
+- kind: authentication
+  name: Ukg Pro Authentication
+  slug: ukg-pro-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Ukg Pro Domain Security
+  slug: ukg-pro-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ukg-pro
+tags:
+- Human Capital Management
+- HCM
+- HR
+- Payroll
+- Benefits Administration
+- Talent Management
+- Workforce Management
+- HRIS
+website: https://www.ukg.com/solutions/ukg-pro
+---

@@ -1,0 +1,269 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 60.6
+  scored_at: '2026-07-23'
+api_count: 10
+apis:
+- description: The create meters API from Leap — 4 operation(s) for create meters.
+  name: Leap create meters API
+  slug: leap-create-meters-api
+- description: Endpoints for group dispatches
+  name: Leap group-dispatches API
+  slug: leap-group-dispatches-api
+- description: The Meter Details API from Leap — 2 operation(s) for meter details.
+  name: Leap Meter Details API
+  slug: leap-meter-details-api
+- description: Endpoints for meter dispatches
+  name: Leap meter-dispatches API
+  slug: leap-meter-dispatches-api
+- description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
+  name: Leap meter enrollment API
+  slug: leap-meter-enrollment-api
+- description: The nominations API from Leap — 5 operation(s) for nominations.
+  name: Leap nominations API
+  slug: leap-nominations-api
+- description: The performance API from Leap — 1 operation(s) for performance.
+  name: Leap performance API
+  slug: leap-performance-api
+- description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
+  name: Leap provisional assets API
+  slug: leap-provisional-assets-api
+- description: The revenue API from Leap — 8 operation(s) for revenue.
+  name: Leap revenue API
+  slug: leap-revenue-api
+- description: The webhooks API from Leap — 3 operation(s) for webhooks.
+  name: Leap webhooks API
+  slug: leap-webhooks-api
+artifact_total: 14
+asyncapis:
+- description: Leap delivers two independent webhook surfaces to partner-hosted HTTPS receivers. 1. The general webhook platform — connect-session and meter/enrollment lifecycle events, with subscriptions managed th
+  name: Leap Webhook Events
+  slug: leap-events-asyncapi
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/leap-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.leap.energy/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.leap.energy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.leap.energy/docs/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.leap.energy/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.leap.energy/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.leap.energy/support/solutions
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.leap.energy/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://partner.leap.energy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.leap.energy/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.leap.energy/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.leap.energy/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/leap-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/leap-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/leap-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/leap-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/leap-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/leap-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/leap-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/leap-error-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/leap-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/leap-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/leap-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/leap-events-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/leap-events-asyncapi.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/leap-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/leap-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/leap-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/leap-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/leap-onboard-meters.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/leap-process-dispatch.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/leap-subscribe-webhooks.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/leap-revenue-reporting.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/leap-manage-nominations.md
+created: '2026-07-17'
+description: Leap is a San Francisco-based energy software company that lets technology brands build and scale virtual power plants (VPPs). Its platform aggregates distributed energy resources — residential and commercial battery storage, smart thermostats and heat pumps, and EV charging — and gives them a single point of integration into wholesale electricity markets and utility grid-service programs across CAISO, NYISO and other regions. Leap exposes a universal REST API covering meter onboarding and bulk creation, utility data authorization (Leap Connect), enrollment and participation management, market nominations and bidding, real-time dispatch delivery over webhooks or polling, event performance and interval data, and revenue settlement reporting. Partners authenticate with environment-scoped bearer API keys against separate staging and production hosts, and Leap publishes OpenAPI definitions, a dated changelog, an llms.txt index and a public status page.
+image: https://www.leap.energy/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: leap-mcp.yml
+  slug: leap-mcpyml
+modified: '2026-07-19'
+name: Leap
+nav: Providers
+network: true
+overview: 'Leap publishes 10 APIs on the [APIs.io](https://apis.io/) network, including create meters API, group-dispatches API, Meter Details API, and 7 more. Tagged areas include Company, Energy, Electricity, Virtual Power Plant, and Demand Response.
+
+
+  The Leap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
+random_paper: 10
+score:
+  band: developing
+  composite: 54.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 66.1
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 47.4
+  previous_composite: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Leap Authentication
+  slug: leap-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Leap Domain Security
+  slug: leap-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: leap
+tags:
+- Company
+- Energy
+- Electricity
+- Virtual Power Plant
+- Demand Response
+- Distributed Energy Resources
+- Grid Services
+- Energy Markets
+- Battery Storage
+- EV Charging
+- Smart Buildings
+- Metering
+- Webhooks
+- Climate Tech
+website: https://www.leap.energy/
+---

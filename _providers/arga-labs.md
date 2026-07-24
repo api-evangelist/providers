@@ -1,0 +1,188 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 33.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
+  name: Arga API
+  slug: arga-api
+artifact_total: 4
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.argalabs.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.argalabs.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.argalabs.com/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.argalabs.com/quickstart
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.argalabs.com/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://login.argalabs.com/login
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.argalabs.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.argalabs.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ArgaLabs
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:contact@argalabs.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/arga-labs
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/ArgaLabs
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/arga-labs-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/arga-labs-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/arga-labs-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/arga-labs-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/arga-labs-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/arga-labs-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/arga-labs-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/arga-labs-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/arga-labs-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.argalabs.com/api-reference/availability-notes
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/arga-labs-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Arga Labs provides testing infrastructure for AI agents and agent-facing software. Its platform spins up isolated, resettable sandboxes wired to stateful "digital twins" of third-party services — Stripe, Slack, GitHub, Salesforce, Notion, Discord, Google Drive, Jira, Box, Dropbox, Gmail, Google Calendar and more — so teams can run browser-agent tests, per-PR preview environments, and CI validation without hitting real APIs, exhausting rate limits, or mutating production data. Developers drive it from a web app, a REST API at api.argalabs.com, the arga CLI, official Python and TypeScript SDKs, and a hosted MCP server that lets coding agents (Cursor, Claude Code, Codex) provision twins and query validation runs directly from the editor.
+image: https://www.argalabs.com/logo_black.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: arga-labs-mcp.yml
+  slug: arga-labs-mcpyml
+modified: '2026-07-18'
+name: Arga Labs
+nav: Providers
+network: true
+overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Testing, Sandboxes, Digital Twins, and AI Agents.
+
+
+  Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
+random_paper: 7
+score:
+  band: thin
+  composite: 31.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 31.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Arga Labs Authentication
+  slug: arga-labs-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Arga Labs Domain Security
+  slug: arga-labs-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: arga-labs
+tags:
+- Company
+- API Testing
+- Sandboxes
+- Digital Twins
+- AI Agents
+- Developer Tools
+- Testing Infrastructure
+- CI/CD
+- Browser Testing
+- MCP
+- Mock Services
+website: https://docs.argalabs.com/
+---

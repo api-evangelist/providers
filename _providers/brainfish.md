@@ -1,0 +1,241 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 58.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 19
+  human_in_the_loop: 1
+  name: Brainfish Agentic Access
+  operation_count: 27
+  slug: brainfish-agentic-access
+  summary_line: 27 operations · 19 acting · 1 human-in-the-loop
+api_count: 9
+apis:
+- description: AI agent operations for answer generation and streaming
+  name: Brainfish Agents API
+  slug: brainfish-agents-api
+- description: Conversation thread analytics with filtering and pagination
+  name: Brainfish Analytics API
+  slug: brainfish-analytics-api
+- description: Authentication and token validation operations
+  name: Brainfish Authentication API
+  slug: brainfish-authentication-api
+- description: Catalog management operations. Create catalogs and sync content programmatically via the API.
+  name: Brainfish Catalogs API
+  slug: brainfish-catalogs-api
+- description: Collection management operations including create, read, update, list, and delete
+  name: Brainfish Collections API
+  slug: brainfish-collections-api
+- description: Conversation operations including follow-up question generation
+  name: Brainfish Conversations API
+  slug: brainfish-conversations-api
+- description: Document management operations including create, read, update, list, and delete
+  name: Brainfish Documents API
+  slug: brainfish-documents-api
+- description: Chat session search, detail, timeline, and AI-powered insights. A "session" is a chat conversation keyed by conversationId.
+  name: Brainfish Sessions API
+  slug: brainfish-sessions-api
+- description: User-scoped operations. Generate answers personalized to a specific external/platform user with automatic attribute-based collection filtering.
+  name: Brainfish Users API
+  slug: brainfish-users-api
+arazzos:
+- description: ''
+  name: _Index
+  slug: _index
+- description: Generate a cited AI answer for an end-user question, then generate suggested follow-up questions.
+  name: Generate an answer and follow-up questions
+  slug: brainfish-answer-and-followups
+- description: Create a catalog, sync content into it, then read back its status.
+  name: Create and sync an API catalog
+  slug: brainfish-catalog-sync
+- description: Validate the token, create a knowledge-base collection, then create a document inside it.
+  name: Create a collection and add a document
+  slug: brainfish-create-collection-and-document
+artifact_total: 19
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.brainfi.sh
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.brainfi.sh
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.brainfi.sh/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.brainfi.sh
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.brainfi.sh
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brainfish-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/brainfish-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/brainfish-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/brainfish-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brainfish-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brainfish-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/brainfish-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brainfish-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.brainfi.sh
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/brainfish-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.brainfi.sh/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/brainfish-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/brainfish-ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.brainfishai.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.brainfishai.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.brainfi.sh
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.brainfishai.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.brainfishai.com/privacy-policy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.brainfishai.com
+created: '2026-07-17'
+description: Brainfish is an AI product-support platform for B2B SaaS companies, built in Sydney and deployed globally with US/EU/AU data residency. Its AI support agents resolve customer tickets across chat, email, in-product, Slack and Teams, grounding every answer in the company's real product knowledge rather than training on customer data. Brainfish exposes a REST Public API (https://api.brainfi.sh) to programmatically manage the knowledge base (collections, documents, catalogs), generate cited AI answers and follow-up questions, and pull session analytics, plus a remote Model Context Protocol (MCP) server and an embeddable browser widget suite. Backed by Prosus Ventures.
+image: https://www.brainfishai.com/og-default.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: brainfish-mcp.yml
+  slug: brainfish-mcpyml
+modified: '2026-07-18'
+name: Brainfish
+nav: Providers
+network: true
+overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, AI, Customer Support, Knowledge Base, and Help Desk.
+
+
+  Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 18 more developer resources.'
+random_paper: 32
+rate_limits:
+- limit_count: 2
+  name: Brainfish Rate Limits
+  slug: brainfish-rate-limits
+score:
+  band: developing
+  composite: 57.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 61.9
+    developer_ergonomics: 63.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 57.9
+  previous_composite: 57.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Brainfish Authentication
+  slug: brainfish-authentication
+  summary_line: apiKey/http · 3 schemes
+- kind: domain-security
+  name: Brainfish Domain Security
+  slug: brainfish-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Brainfish Trust Center
+  slug: brainfish-trust-center
+  summary_line: SOC 2, ISO 27001
+slug: brainfish
+tags:
+- Company
+- AI
+- Customer Support
+- Knowledge Base
+- Help Desk
+- Agents
+- Support Automation
+- SaaS
+website: https://www.brainfishai.com
+---

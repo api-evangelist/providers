@@ -1,0 +1,160 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Icims Agentic Access
+  operation_count: 6
+  slug: icims-agentic-access
+  summary_line: 6 operations · 3 acting
+api_count: 3
+apis:
+- description: The iCIMS Apply Framework API enables external systems to deliver candidate apply experiences and submit applications into the iCIMS Talent Cloud, supporting integrations with job boards, sourcing cha
+  name: iCIMS Apply Framework API
+  slug: icims-apply-framework-api
+- description: The iCIMS Marketplace Integrations API enables certified partners to build, publish, and manage integrations with the iCIMS Talent Cloud across recruiting, onboarding, assessment, and background scree
+  name: iCIMS Marketplace Integrations API
+  slug: icims-marketplace-api
+- description: Manage candidate workflows linking jobs and people.
+  name: iCIMS Workflows API
+  slug: icims-workflows-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: iCIMS Workflows API
+  slug: open-icims
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/icims-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/icims-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/icims-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/icims-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/iCIMS-inc
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/icims
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer-community.icims.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.icims.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer-community.icims.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.icims.com/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.icims.com/feed
+created: '2025-01-08'
+description: iCIMS is a leading talent cloud company providing applicant tracking and talent acquisition software. The iCIMS developer platform provides APIs for integrating with iCIMS Talent Cloud, enabling access to job postings, applicant workflows, candidate management, and hiring processes.
+finops:
+- name: Icims Finops
+  service_category: API
+  slug: icims-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icims.png
+layout: provider
+modified: '2026-05-19'
+name: iCIMS
+nav: Providers
+network: true
+overview: 'iCIMS publishes 1 API on the [APIs.io](https://apis.io/) network: Workflows API. Tagged areas include Applicant Tracking, HR, Recruiting, and Talent Acquisition.
+
+
+  iCIMS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 6 more developer resources.'
+plans:
+- name: Icims Plans Pricing
+  plan_count: 3
+  slug: icims-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 5
+  name: Icims Rate Limits
+  slug: icims-rate-limits
+score:
+  band: thin
+  composite: 39.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 51.3
+    developer_ergonomics: 34.8
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 39.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/screenshots/icims-2026-06-20T183152.png
+security:
+- kind: authentication
+  name: Icims Authentication
+  slug: icims-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Icims Domain Security
+  slug: icims-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Icims Trust Center
+  slug: icims-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
+slug: icims
+tags:
+- Applicant Tracking
+- HR
+- Recruiting
+- Talent Acquisition
+website: https://www.icims.com/
+---

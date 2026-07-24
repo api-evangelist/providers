@@ -1,0 +1,143 @@
+---
+access_model:
+  confidence: medium
+  label: Free · Requires approval
+  onboarding: approval
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: REST API for connecting small businesses with lenders. Supports loan application submission, eligibility checking, lender matching, and loan product management. The Embedded Financing API allows servi
+  name: Lendio Loan Marketplace API
+  slug: lendio-loan-marketplace-api
+- description: 'API integration for high-volume lenders that allows bulk submission of loan performance data. Supports up to 10,000 records per submission through custom code requests. Provides transaction analytics '
+  name: Lendio Loan Performance Tracking API
+  slug: lendio-loan-performance-tracking-api
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lendio-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lendio.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.lendio.com/embedded-financing
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/LendioDevs
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lendio
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lendio.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.lendio.com/embedded-financing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.lendio.com/security
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/lendio
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lendio-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lendio-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lendio-finops.yml
+created: '2026-06-13'
+description: Lendio is a small business lending marketplace that connects businesses with funding through a network of 75+ lenders. The platform offers a REST API for submitting loan applications, checking eligibility, connecting businesses with lenders, and managing loan products. Lendio provides Embedded Financing for service providers to integrate loan marketplace functionality, Intelligent Lending software for banks and lenders, and a Loan Performance Tracking API for high-volume lenders submitting bulk data records.
+finops:
+- name: Lendio Finops
+  service_category: ''
+  slug: lendio-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendio.png
+layout: provider
+modified: '2026-06-13'
+name: Lendio
+nav: Providers
+network: true
+overview: 'Lendio publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Lending, Small Business, Loans, Fintech, and Marketplace.
+
+
+  Lendio''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Lendio Plans Pricing
+  plan_count: 3
+  slug: lendio-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Lendio Rate Limits
+  slug: lendio-rate-limits
+score:
+  band: emerging
+  composite: 24.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 24.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lendio/refs/heads/main/screenshots/lendio-2026-06-20T184449.png
+security:
+- kind: domain-security
+  name: Lendio Domain Security
+  slug: lendio-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lendio
+tags:
+- Lending
+- Small Business
+- Loans
+- Fintech
+- Marketplace
+- Embedded Finance
+website: https://www.lendio.com
+---

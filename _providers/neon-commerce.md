@@ -1,0 +1,278 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 28
+  human_in_the_loop: 0
+  name: Neon Commerce Agentic Access
+  operation_count: 48
+  slug: neon-commerce-agentic-access
+  summary_line: 48 operations · 28 acting
+api_count: 13
+apis:
+- description: The Account API from Neon Commerce — 2 operation(s) for account.
+  name: Neon Commerce Account API
+  slug: neon-commerce-account-api
+- description: The Assets API from Neon Commerce — 4 operation(s) for assets.
+  name: Neon Commerce Assets API
+  slug: neon-commerce-assets-api
+- description: The Auth API from Neon Commerce — 1 operation(s) for auth.
+  name: Neon Commerce Auth API
+  slug: neon-commerce-auth-api
+- description: The Checkout API from Neon Commerce — 3 operation(s) for checkout.
+  name: Neon Commerce Checkout API
+  slug: neon-commerce-checkout-api
+- description: The Client API from Neon Commerce — 4 operation(s) for client.
+  name: Neon Commerce Client API
+  slug: neon-commerce-client-api
+- description: The Payouts API from Neon Commerce — 1 operation(s) for payouts.
+  name: Neon Commerce Payouts API
+  slug: neon-commerce-payouts-api
+- description: The Prices API from Neon Commerce — 1 operation(s) for prices.
+  name: Neon Commerce Prices API
+  slug: neon-commerce-prices-api
+- description: The Pricing Sheet API from Neon Commerce — 1 operation(s) for pricing sheet.
+  name: Neon Commerce Pricing Sheet API
+  slug: neon-commerce-pricing-sheet-api
+- description: The Purchases API from Neon Commerce — 6 operation(s) for purchases.
+  name: Neon Commerce Purchases API
+  slug: neon-commerce-purchases-api
+- description: The Reports API from Neon Commerce — 1 operation(s) for reports.
+  name: Neon Commerce Reports API
+  slug: neon-commerce-reports-api
+- description: The Status API from Neon Commerce — 1 operation(s) for status.
+  name: Neon Commerce Status API
+  slug: neon-commerce-status-api
+- description: The Storefront API from Neon Commerce — 9 operation(s) for storefront.
+  name: Neon Commerce Storefront API
+  slug: neon-commerce-storefront-api
+- description: The Subscriptions API from Neon Commerce — 4 operation(s) for subscriptions.
+  name: Neon Commerce Subscriptions API
+  slug: neon-commerce-subscriptions-api
+artifact_total: 18
+asyncapis:
+- description: ''
+  name: Neon Commerce Webhooks Asyncapi
+  slug: neon-commerce-webhooks-asyncapi
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/neon-commerce-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/neon-commerce-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/neon-commerce-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.neonpay.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://console.neonpay.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.neonpay.com/docs/getting-started
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.neonpay.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.neonpay.com/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.neonpay.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.neonpay.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.neonpay.com/docs/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.neonpay.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.neonpay.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.neonpay.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/neon-xyz
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/neonpay
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.neonpay.com/changelog
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/neon-commerce-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/neon-commerce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/neon-commerce-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/neon-commerce-decline-codes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/neon-commerce-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/neon-commerce-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/neon-commerce-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/neon-commerce-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/neon-commerce-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/neon-commerce-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/neon-commerce-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/neon-commerce-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/neon-commerce-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/neon-commerce-components.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/neon-commerce-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Neon Commerce (Neon) is the direct-to-consumer commerce and payments platform for mobile and PC game developers, backed by a16z Games, Thrive Capital, Griffin Gaming Partners and Ribbit Capital. Neon lets studios launch a branded web storefront (Neon Shop), embed or host checkout (Neon Checkout), and accept global payments across 50+ markets and 30+ payment methods as merchant of record — shifting revenue away from app-store fees to owned direct-to-consumer channels. The Neon API (base https://api.neonpay.com) exposes storefront/offer/item management, checkout and subscription creation, purchase and refund lookups, payouts, reports, player authentication, brand/inventory image assets, and a full webhook/callback event surface, with sandbox and production environments scoped by API key.
+image: https://www.neonpay.com/api/media/file/meta-image-1200x630.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: neon-commerce-mcp.yml
+  slug: neon-commerce-mcpyml
+modified: '2026-07-20'
+name: Neon Commerce
+nav: Providers
+network: true
+overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Auth API, and 10 more. Tagged areas include Commerce, Payments, Gaming, Checkout, and Storefront.
+
+
+  The Neon Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
+random_paper: 45
+score:
+  band: developing
+  composite: 56.3
+  delta: -0.4
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 67.5
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 56.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Neon Commerce Authentication
+  slug: neon-commerce-authentication
+  summary_line: apiKey · 3 schemes
+- kind: domain-security
+  name: Neon Commerce Domain Security
+  slug: neon-commerce-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: neon-commerce
+tags:
+- Commerce
+- Payments
+- Gaming
+- Checkout
+- Storefront
+- Direct-to-Consumer
+- Subscriptions
+- Merchant of Record
+- Game Monetization
+- Company
+website: https://www.neonpay.com/
+---

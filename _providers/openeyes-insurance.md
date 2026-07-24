@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openeyes-insurance-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://openeyes.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://openeyes.com/blog/
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.openeyes.com/
+created: '2026-07-17'
+description: OpenEyes Insurance (OpenEyes Insurance Agency, Inc.) is an Austin, Texas-based insurtech startup, with an additional New York office, that provides commercial auto insurance for truck and bus fleet operators bundled with proprietary risk-prevention technology. Its offering pairs fleet coverage with real-time driver monitoring, AI dashcams, safety analytics, customized driver training, and 24/7 claims management, serving both insurance agents (For Agents) and fleet operators directly (For Fleets). Founded by Yoav Oron (CEO), Dr. Omry Sendik (CTO), and Dan Charash (Chairman), OpenEyes emerged from stealth in February 2023 with a $23M Series A led by Insight Partners with Pitango First. The company operates a customer-facing fleet dashboard but does not publish a public developer API, portal, or documentation surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openeyes-insurance.png
+layout: provider
+modified: '2026-07-20'
+name: OpenEyes Insurance
+nav: Providers
+network: true
+overview: 'OpenEyes Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Commercial Auto Insurance, and Fleet Management.
+
+
+  OpenEyes Insurance''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 49
+score:
+  band: minimal
+  composite: 10.3
+  delta: 0.5
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.8
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Openeyes Insurance Domain Security
+  slug: openeyes-insurance-domain-security
+  summary_line: TLSv1.3
+slug: openeyes-insurance
+tags:
+- Company
+- Insurance
+- Insurtech
+- Commercial Auto Insurance
+- Fleet Management
+- Telematics
+- Risk Management
+website: https://openeyes.com/
+---

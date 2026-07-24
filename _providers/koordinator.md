@@ -1,0 +1,111 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Koordinator QoS-based scheduling system for hybrid workloads on Kubernetes with colocation and resource optimization.
+  name: Koordinator
+  slug: koordinator
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/koordinator-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://koordinator.sh
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://koordinator.sh/docs/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/koordinator-sh/koordinator
+- group: company
+  title: ''
+  type: Blog
+  url: https://koordinator.sh/blog/rss.xml
+created: '2025-01-01'
+description: Koordinator is a QoS-based scheduling system for hybrid workloads orchestration on Kubernetes, providing colocation, interference detection, and resource optimization capabilities to improve cluster utilization.
+finops:
+- name: Koordinator Finops
+  service_category: API
+  slug: koordinator-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/koordinator.png
+layout: provider
+modified: '2026-04-28'
+name: Koordinator
+nav: Providers
+network: true
+overview: 'Koordinator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Kubernetes, QoS, Resource Management, Scheduling, and Workload Orchestration.
+
+
+  Koordinator''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+plans:
+- name: Koordinator Plans Pricing
+  plan_count: 3
+  slug: koordinator-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 5
+  name: Koordinator Rate Limits
+  slug: koordinator-rate-limits
+score:
+  band: emerging
+  composite: 22.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 22.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/koordinator/refs/heads/main/screenshots/koordinator-2026-06-20T184138.png
+security:
+- kind: domain-security
+  name: Koordinator Domain Security
+  slug: koordinator-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: koordinator
+tags:
+- Kubernetes
+- QoS
+- Resource Management
+- Scheduling
+- Workload Orchestration
+website: https://koordinator.sh
+---

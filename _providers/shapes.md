@@ -1,0 +1,188 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 47.1
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: The Chat API from Shapes — 1 operation(s) for chat.
+  name: Shapes Chat API
+  slug: shapes-chat-api
+- description: The Models API from Shapes — 1 operation(s) for models.
+  name: Shapes Models API
+  slug: shapes-models-api
+- description: The Shapes API from Shapes — 1 operation(s) for shapes.
+  name: Shapes Shapes API
+  slug: shapes-shapes-api
+artifact_total: 6
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shapes.inc
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.shapes.inc
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.shapes.inc/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/shapesinc/shapes-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.shapes.inc/learninghub
+- group: operate
+  title: ''
+  type: Support
+  url: https://talk.shapes.inc/support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.shapes.inc/premium
+- group: start
+  title: ''
+  type: SignUp
+  url: https://shapes.inc/developer
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/shapesinc
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://shapes.inc/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://shapes.inc/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/shapes-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/shapes-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/shapes-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/shapes-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shapes-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/shapes-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/shapes-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/shapes-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/shapes-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/shapes-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shapes-domain-security.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Shapes, Inc. is a social AI platform where humans and AI characters ("Shapes") share the same group chats. Shapes are general-purpose social agents with rich personalities, voice, and short-term plus long-term memory that persists across platforms, running on 50+ free text, image, and voice models. Backed by Lightspeed Venture Partners, the company operates the consumer app at shapes.inc and previously offered an OpenAI-compatible developer API (api.shapes.inc) for building Shapes into any application; that developer API was deprecated on 2025-09-25 and the team has said building with Shapes will return. This profile captures the company identity plus the documented API surface, developer tooling, and security posture for the API Evangelist network.
+image: https://shapes.inc/og-image-1200x630.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: shapes-mcp.yml
+  slug: shapes-mcpyml
+modified: '2026-07-21'
+name: Shapes
+nav: Providers
+network: true
+overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Models API, and Shapes API. Tagged areas include Company, Artificial Intelligence, AI Agents, Chat, and Social.
+
+
+  Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+random_paper: 32
+score:
+  band: developing
+  composite: 48.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 57.5
+    developer_ergonomics: 65.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 48.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Shapes Authentication
+  slug: shapes-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Shapes Domain Security
+  slug: shapes-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: shapes
+tags:
+- Company
+- Artificial Intelligence
+- AI Agents
+- Chat
+- Social
+- Conversational AI
+- LLM
+- Voice
+- Developer API
+website: https://shapes.inc
+---

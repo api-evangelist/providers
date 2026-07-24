@@ -1,0 +1,90 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kaiser-aluminum-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kaiser-aluminum
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kaiseraluminum.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.kaiseraluminum.com/kaiser-online/
+created: '2026-05-04'
+description: Kaiser Aluminum manufactures semi-fabricated aluminum products for industrial applications across aerospace, packaging, general engineering, and automotive markets. The nearly century-old company delivers highly engineered aluminum products focused on strength, weight efficiency, and sustainability. Kaiser Online serves as a customer portal for quotes, order tracking, depot stock searches, and material certifications.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiser-aluminum.png
+layout: provider
+modified: '2026-05-04'
+name: Kaiser Aluminum
+nav: Providers
+network: true
+overview: 'Kaiser Aluminum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Aluminum, Aerospace, Packaging, and Automotive.
+
+
+  Kaiser Aluminum''s developer surface includes developer portal and 3 more developer resources.'
+random_paper: 26
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kaiser-aluminum/refs/heads/main/screenshots/kaiser-aluminum-2026-06-20T183909.png
+security:
+- kind: domain-security
+  name: Kaiser Aluminum Domain Security
+  slug: kaiser-aluminum-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: kaiser-aluminum
+tags:
+- Manufacturing
+- Aluminum
+- Aerospace
+- Packaging
+- Automotive
+website: https://www.kaiseraluminum.com/
+---

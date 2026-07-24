@@ -1,0 +1,127 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 5.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+asyncapis:
+- description: ''
+  name: Anyroad Webhooks
+  slug: anyroad-webhooks
+common:
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/anyroad-webhooks.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/anyroad-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/anyroad-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/anyroad-domain-security.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.anyroad.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.anyroad.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.anyroad.com/users/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.anyroad.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.anyroad.com/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://anyroad.com
+created: '2026-07-17'
+description: AnyRoad is an experiential marketing and consumer-engagement platform that helps brands plan, manage, and measure live and virtual experiences such as events, brand activations, tours, tastings, retail experiences, classes, and memberships. Its products include Experience Manager for automated event operations, a Guest Experience layer for booking, ticketing, and personalized guest communication, and Atlas Insights for analytics and ROI measurement of experiential programs, plus customer data capture, post-event surveys, and loyalty/membership management. AnyRoad exposes integration flexibility through APIs, real-time webhooks, and report/dashboard exports to CRM, CDP, POS, ERP, marketing-automation, BI, and workflow-automation systems, and serves major alcohol, CPG, and retail brands across 90+ countries. Backed by 500 Global and a16z, it was added to the API Evangelist network for enrichment.
+image: https://cdn.prod.website-files.com/64ebd7bdc5bc36abe2dcd6df/64ebd7bdc5bc36abe2dcd712_logo-anyroad.svg
+layout: provider
+modified: '2026-07-17'
+name: Anyroad
+nav: Providers
+network: true
+overview: 'Anyroad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Experiential Marketing, Events, Experiences, and Ticketing.
+
+
+  The Anyroad catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Anyroad''s developer surface includes support, pricing, and 8 more developer resources.'
+random_paper: 36
+score:
+  band: emerging
+  composite: 26.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 22.6
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 26.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Anyroad Domain Security
+  slug: anyroad-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Anyroad Trust Center
+  slug: anyroad-trust-center
+  summary_line: SOC 2, PCI DSS, GDPR
+slug: anyroad
+tags:
+- Company
+- Experiential Marketing
+- Events
+- Experiences
+- Ticketing
+- Consumer Engagement
+- Analytics
+- Webhooks
+website: https://anyroad.com
+---

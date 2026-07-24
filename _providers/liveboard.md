@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/liveboard-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://liveboard.online
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.liveboard.online/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.liveboard.online/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.liveboard.online/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.liveboard.online/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.liveboard.online/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://app.liveboard.online/sign-in
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.liveboard.online/contact-us
+created: '2026-07-17'
+description: LiveBoard is a tutor-management platform that helps tutoring businesses, academies, and independent tutors run their operations end to end. It combines branded virtual classrooms (video calls, screen sharing, an interactive whiteboard, recording, and file sharing) with session scheduling and attendance tracking, tutor/student/parent management, calendar-based billing with online payments, auto-invoicing, payroll, and progress reporting. Liveboard says it serves 200,000+ tutors and companies across 200+ countries, scaling from solo tutors to organizations with thousands of tutors. It is a consumer/SaaS product with no public developer API, SDK, or webhook surface at this time; integrations are teaching-focused (Wacom pen tablets, a LaTeX formula editor, and the Desmos graphing calculator). Surfaced as a 500 Global portfolio company and added to the API Evangelist network.
+image: https://www.liveboard.online/images/og-img-home.png
+layout: provider
+modified: '2026-07-20'
+name: Liveboard
+nav: Providers
+network: true
+overview: 'Liveboard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Tutoring, and Virtual Classroom.
+
+
+  Liveboard''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
+random_paper: 34
+score:
+  band: emerging
+  composite: 17.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Liveboard Domain Security
+  slug: liveboard-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: liveboard
+tags:
+- Company
+- Education
+- EdTech
+- Tutoring
+- Virtual Classroom
+- Online Whiteboard
+- Scheduling
+- Billing
+- SaaS
+website: https://liveboard.online
+---

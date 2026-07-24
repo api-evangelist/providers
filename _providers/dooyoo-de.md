@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Dooyoo was a German consumer product-review and price-comparison platform built on user-generated reviews, best known for its "dooyooMiles" rewards program that paid users for writing reviews. It was acquired by the French shopping-guide publisher LeGuide.com in 2008, and the LeGuide group (Ciao, Dooyoo, and others) was in turn acquired by Kelkoo in 2016 to form Kelkoo Group. The dooyoo.de domain no longer operates as an independent brand and now 301-redirects to kelkoogroup.com; there is no active developer portal, public API, or documentation surface. This profile is retained as a defunct/absorbed portfolio lead with no API artifacts to enrich.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dooyoo-de.png
+layout: provider
+modified: '2026-07-18'
+name: Dooyoo De
+nav: Providers
+network: true
+overview: Dooyoo De is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Price Comparison, Product Reviews, E-Commerce, and Consumer.
+random_paper: 44
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: dooyoo-de
+tags:
+- Company
+- Price Comparison
+- Product Reviews
+- E-Commerce
+- Consumer
+- Defunct
+- Germany
+---

@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/genesco-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/genesco
+- group: company
+  title: ''
+  type: Website
+  url: https://www.genesco.com
+created: '2026-03-24'
+description: Genesco is a specialty retailer and branded company selling footwear, apparel, and accessories through more than 1,400 retail stores and e-commerce sites under banners including Journeys, Schuh, Johnston & Murphy, and Genesco Brands.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genesco.png
+layout: provider
+modified: '2026-04-28'
+name: Genesco
+nav: Providers
+network: true
+overview: Genesco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Footwear, Apparel, and Fortune 1000.
+press:
+- date: '2026-05-25'
+  title: Genesco Announces Strategic Transformation of Its ...
+  url: https://www.businesswire.com/news/home/20260114870793/en/Genesco-Announces-Strategic-Transformation-of-Its-Information-Technology-Operations
+- date: '2026-05-25'
+  title: Genesco To Acquire Little Burgundy Chain From The Aldo ...
+  url: https://www.prnewswire.com/news-releases/genesco-to-acquire-little-burgundy-chain-from-the-aldo-group-300171120.html
+- date: '2026-05-25'
+  title: THE BUSINESS OF GENESCO Genesco Inc. is a ...
+  url: https://www.genesco.com/static-files/0d4e883c-7f40-408e-b163-9b5ac06ce192
+- date: '2026-05-25'
+  title: Genesco to Overhaul Tech and Accelerate AI-enabled ...
+  url: https://www.facebook.com/footwearnews/posts/genesco-to-overhaul-tech-and-accelerate-ai-enabled-innovations-expects-job-cuts/1243652767619925/
+- date: '2026-05-25'
+  title: THOMSON REUTERS - EDITED TRANSCRIPT - Q4 2019 ...
+  url: https://www.genesco.com/static-files/15de29ce-baad-457f-8d34-000574ea17fe
+random_paper: 26
+score:
+  band: minimal
+  composite: 5.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Genesco Domain Security
+  slug: genesco-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: genesco
+tags:
+- Retail
+- Footwear
+- Apparel
+- Fortune 1000
+website: https://www.genesco.com
+---

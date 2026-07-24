@@ -1,0 +1,260 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Buywhere Agentic Access
+  operation_count: 8
+  slug: buywhere-agentic-access
+  summary_line: 8 operations · 1 acting
+api_count: 3
+apis:
+- description: Agent registration and API key issuance.
+  name: BuyWhere Authentication API
+  slug: buywhere-authentication-api
+- description: Product taxonomy and category browsing.
+  name: BuyWhere Categories API
+  slug: buywhere-categories-api
+- description: Product search, lookup, comparison, deals, and price history.
+  name: BuyWhere Products API
+  slug: buywhere-products-api
+artifact_total: 28
+collections:
+- collection_type: open
+  name: BuyWhere Product Catalog API
+  slug: open-buywhere
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/buywhere-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/buywhere-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/buywhere-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://api.buywhere.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.buywhere.ai/
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://api.buywhere.ai/docs/guides/mcp
+- group: agent
+  title: ''
+  type: MCPEndpoint
+  url: https://api.buywhere.ai/mcp
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://api.buywhere.ai/openapi.json
+- group: build
+  title: ''
+  type: PluginManifest
+  url: https://api.buywhere.ai/.well-known/ai-plugin.json
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://api.buywhere.ai/llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://api.buywhere.ai/us/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/BuyWhere
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/BuyWhere/buywhere
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/buywhere-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/buywhere-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/buywhere-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/buywhere-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/buywhere-context.jsonld
+created: '2026-05-16'
+description: Agent-native, MCP-native product catalog and price comparison API for Southeast Asia and US e-commerce. Search 1.5M+ products across Shopee, Lazada, Carousell, FairPrice, Best Denki, Amazon, Walmart, Best Buy, and 20+ retailers. AI agents and MCP clients discover and route purchases to local merchants through a hosted MCP HTTP endpoint at api.buywhere.ai/mcp or via the @buywhere/mcp-server STDIO package.
+examples:
+- key_count: 2
+  name: Buywhere Compareproducts Example
+  slug: buywhere-compareProducts-example
+- key_count: 2
+  name: Buywhere Getcategoryproducts Example
+  slug: buywhere-getCategoryProducts-example
+- key_count: 2
+  name: Buywhere Getdeals Example
+  slug: buywhere-getDeals-example
+- key_count: 2
+  name: Buywhere Getproduct Example
+  slug: buywhere-getProduct-example
+- key_count: 2
+  name: Buywhere Getproductprices Example
+  slug: buywhere-getProductPrices-example
+- key_count: 2
+  name: Buywhere Listcategories Example
+  slug: buywhere-listCategories-example
+- key_count: 3
+  name: Buywhere Mcp Tools Call Example
+  slug: buywhere-mcp-tools-call-example
+- key_count: 2
+  name: Buywhere Registeragent Example
+  slug: buywhere-registerAgent-example
+- key_count: 2
+  name: Buywhere Searchproducts Example
+  slug: buywhere-searchProducts-example
+finops:
+- name: Buywhere Finops
+  service_category: Commerce / Product Catalog
+  slug: buywhere-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buywhere.png
+json_schemas:
+- name: BuyWhere Category
+  property_count: 4
+  slug: buywhere-category
+- name: BuyWhere Offer
+  property_count: 14
+  slug: buywhere-offer
+- name: BuyWhere Price History
+  property_count: 5
+  slug: buywhere-price-history
+- name: BuyWhere Product
+  property_count: 20
+  slug: buywhere-product
+json_structures:
+- name: Buywhere Offer Structure
+  property_count: 0
+  slug: buywhere-offer-structure
+- name: Buywhere Product Structure
+  property_count: 0
+  slug: buywhere-product-structure
+jsonld:
+- class_count: 25
+  name: Buywhere Context
+  property_count: 4
+  slug: buywhere-context
+layout: provider
+modified: '2026-05-19'
+name: BuyWhere
+nav: Providers
+network: true
+overview: 'BuyWhere publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Categories API, and Products API. Tagged areas include E-commerce, Shopping, Price Comparison, SEA, and Southeast Asia.
+
+
+  The BuyWhere catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  BuyWhere''s developer surface includes authentication, documentation, GitHub presence, and 15 more developer resources.'
+plans:
+- name: Buywhere Plans Pricing
+  plan_count: 3
+  slug: buywhere-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 4
+  name: Buywhere Rate Limits
+  slug: buywhere-rate-limits
+rules:
+- name: BuyWhere API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: buywhere-jsonschema-spectral-rules
+- name: BuyWhere API Rules
+  rule_count: 14
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 2
+    warn: 9
+  slug: buywhere-rules
+score:
+  band: developing
+  composite: 50.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 68.1
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 50.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
+security:
+- kind: authentication
+  name: Buywhere Authentication
+  slug: buywhere-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Buywhere Domain Security
+  slug: buywhere-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: buywhere
+tags:
+- E-commerce
+- Shopping
+- Price Comparison
+- SEA
+- Southeast Asia
+- AI Agents
+- Product Catalog
+website: https://api.buywhere.ai/
+---

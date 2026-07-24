@@ -1,0 +1,111 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://xtgem.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: http://syntax.xtgem.com/manual/xtgem
+- group: operate
+  title: ''
+  type: Support
+  url: http://forum.xtgem.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://xtgem.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://xtgem.com/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://xtgem.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/XtGem
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/xtgem-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/xtgem-domain-security.yml
+created: '2026-07-17'
+description: XtGem is a visual mobile website builder operated by UAB XtGem of Vilnius, Lithuania, letting anyone build and host mobile sites on *.xtgem.com subdomains (10 million+ sites hosted) with a drag-and-drop builder, file hosting, community blocks (forums, blogs, guestbooks), and the XtScript templating language. XtGem publishes no public developer API, webhooks, or SDKs; its GitHub organization ships the open-source XtFramework PHP framework.
+image: https://avatars.githubusercontent.com/u/827126?v=4
+layout: provider
+modified: '2026-07-21'
+name: XtGem
+nav: Providers
+network: true
+overview: 'XtGem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, Mobile, Hosting, and Templates.
+
+
+  XtGem''s developer surface includes documentation, support, and 7 more developer resources.'
+random_paper: 39
+score:
+  band: emerging
+  composite: 16.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 13.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 16.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Xtgem Domain Security
+  slug: xtgem-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: xtgem
+tags:
+- Company
+- Website Builder
+- Mobile
+- Hosting
+- Templates
+- No-Code
+- Lithuania
+website: https://xtgem.com
+---

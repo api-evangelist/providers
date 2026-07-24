@@ -1,0 +1,79 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zenopower.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zenopower.com/in-the-news
+created: '2026-07-17'
+description: Zeno Power is a deep-tech energy company developing radioisotope power systems (nuclear batteries) that convert the heat of radioisotope decay into reliable, long-duration electricity for extreme environments where conventional power sources fail. Its compact radioisotope Stirling generators target 1-100+ watts for use cases spanning NASA lunar surface missions (americium-241 fueled), seabed and maritime sensor infrastructure, and Department of Defense / U.S. Space Force applications (strontium-90 fueled). The company works with partners including NASA, the Pentagon, Westinghouse, and Orano, with commercial market delivery targeted for 2027. Backed by DCVC, Zeno Power was added to the API Evangelist network as a portfolio lead; enrichment found no public API, developer platform, SDKs, or technical documentation surface as of this pass.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeno-power.png
+layout: provider
+modified: '2026-07-21'
+name: Zeno Power
+nav: Providers
+network: true
+overview: 'Zeno Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Nuclear, Radioisotope Power, and Aerospace.
+
+
+  Zeno Power''s developer surface includes engineering blog and 1 more developer resources.'
+random_paper: 26
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: zeno-power
+tags:
+- Company
+- Energy
+- Nuclear
+- Radioisotope Power
+- Aerospace
+- Defense
+- Deep Tech
+- Space
+website: https://www.zenopower.com
+---

@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://reeldata.ai/
+- group: company
+  title: ''
+  type: Blog
+  url: https://reeldata.ai/news
+- group: operate
+  title: ''
+  type: Support
+  url: https://reeldata.ai/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://reeldata.ai/request-a-demo
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://reeldata.ai/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://reeldata.ai/privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/reeldata-ai-domain-security.yml
+created: '2026-07-17'
+description: ReelData AI builds artificial intelligence software for land-based aquaculture, helping recirculating aquaculture system (RAS) fish farms maximize growth, minimize costs, and reduce risk across smolt, post-smolt, and on-growing production. Its integrated AI suite includes AI Smart Feeding (ReelAppetite), which monitors real-time population appetite to optimize feed and cut waste; AI Biomass Monitoring (ReelWeight), a non-intrusive biomass estimation tool returning results within hours; and AI Cameras (ReelVision), dual-function cameras for fish-behavior monitoring, feed counting, and standard IP camera use. Additional tools cover stress monitoring (ReelStress) and early disease detection (ReelHealth). ReelData is a Techstars portfolio company serving major operators including Samherji, Atlantic Sapphire, Kingfish Company, and Salmon Evolution. As of this enrichment pass the company exposes no public developer portal, API, or SDK surface; its products are delivered as on-site
+  AI hardware and software rather than a self-serve API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reeldata-ai.png
+layout: provider
+modified: '2026-07-21'
+name: ReelData AI
+nav: Providers
+network: true
+overview: 'ReelData AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, Artificial Intelligence, Computer Vision, and Agriculture.
+
+
+  ReelData AI''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+random_paper: 10
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Reeldata Ai Domain Security
+  slug: reeldata-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: reeldata-ai
+tags:
+- Company
+- Aquaculture
+- Artificial Intelligence
+- Computer Vision
+- Agriculture
+- Sustainability
+- Food Production
+website: https://reeldata.ai/
+---

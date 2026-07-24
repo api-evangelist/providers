@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/rasyonet-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/rasyonet
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rasyonet.com.tr/en
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rasyonet.com/
+- group: other
+  title: ''
+  type: Platform
+  url: https://www.equityrt.com/
+created: '2024-01-01'
+description: Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rasyonet.png
+layout: provider
+modified: '2026-05-02'
+name: Rasyonet
+nav: Providers
+network: true
+overview: Rasyonet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, E-Commerce, Equity Research, Financial Data, and Financial Services.
+random_paper: 18
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png
+security:
+- kind: domain-security
+  name: Rasyonet Domain Security
+  slug: rasyonet-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: rasyonet
+tags:
+- Capital Markets
+- E-Commerce
+- Equity Research
+- Financial Data
+- Financial Services
+- Fintech
+- Grocery
+- Investment Management
+- Portfolio Analytics
+- Retail
+- Turkey
+website: https://www.rasyonet.com.tr/en
+---

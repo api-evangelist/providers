@@ -1,0 +1,204 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 34.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: 'Server-side REST API for Quadrata Passport: login/access-token authentication, ECDSA-signed privacy data requests, on-chain AML wallet screening, and passport attribute queries. Distributed as the @qu'
+  name: Quadrata Passport API
+  slug: quadrata-passport-api
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: Quadrata Webhooks
+  slug: quadrata-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://quadrata.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.quadrata.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.quadrata.com/integration/introduction/introduction-to-quadrata
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.quadrata.com/integration/how-to-integrate/quadrata-sdk/get-started-quickly
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.quadrata.com/integration/how-to-integrate/quadrata-sdk/advanced/api-libraries/api-service-libraries
+- group: start
+  title: ''
+  type: SignUp
+  url: https://quadrata.com/onboard
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://quadrata.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://quadrata.com/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.com/quadrata-network
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.com/invite/67QgzrymHW
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/QuadrataNetwork
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/quadrata-inc/
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://sandbox.quadrata.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/quadrata-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/quadrata-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/quadrata-error-codes.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/quadrata-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/quadrata-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/quadrata-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/quadrata-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/quadrata-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/quadrata-mcp.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/quadrata-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/quadrata-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quadrata-llms.txt
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/quadrata-sandbox.yml
+created: '2026-07-17'
+description: Quadrata is a privacy-preserving on-chain identity network for Web3, issuing a non-transferable (soulbound) NFT "Passport" that binds verified identity, compliance and reputation attributes to a user wallet without storing personal data on-chain. Integrators use the Quadrata SDK and REST API to onboard users (KYC), businesses (KYB), and accredited/sophisticated investors, run AML risk and on-chain wallet screening, request consented privacy (PII) data, and query passport attributes on-chain via smart contracts or off-chain via API. Passport attributes include DID (sybil resistance), AML score, COUNTRY, IS_BUSINESS, INVESTOR_STATUS, and Cred Protocol credit score. Supported networks include Ethereum, Polygon, Arbitrum, Optimism, Avalanche, Evmos, and KAVA.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrata.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: quadrata-mcp.yml
+  slug: quadrata-mcpyml
+modified: '2026-07-20'
+name: Quadrata
+nav: Providers
+network: true
+overview: 'Quadrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Identity, Digital Identity, and KYC.
+
+
+  The Quadrata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Quadrata''s developer surface includes documentation, getting-started guide, API reference, signup flow, engineering blog, support, sandbox, and 19 more developer resources.'
+random_paper: 35
+score:
+  band: thin
+  composite: 37.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 22.6
+    developer_ergonomics: 73.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 37.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Quadrata Authentication
+  slug: quadrata-authentication
+  summary_line: apiKey/http-basic/ecdsa-request-signature/jwt-access-token · 4 schemes
+- kind: domain-security
+  name: Quadrata Domain Security
+  slug: quadrata-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: quadrata
+tags:
+- Company
+- Crypto Web3
+- Identity
+- Digital Identity
+- KYC
+- KYB
+- AML
+- Compliance
+- Wallet Screening
+- Blockchain
+- Web3
+- Decentralized Identity
+website: https://quadrata.com
+---

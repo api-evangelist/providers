@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://indinero.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.indinero.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.indinero.com/pricing/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.indinero.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.indinero.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.indinero.com/contact-us/
+- group: start
+  title: ''
+  type: Login
+  url: https://exchange.indinero.com/login/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/indinero
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/indinero-domain-security.yml
+created: '2026-07-17'
+description: Indinero is a Finance-as-a-Service (FaaS) provider that combines professional accountants, tax experts, and fractional CFOs with AI-accelerated workflows to deliver outsourced accounting, bookkeeping, business tax preparation, payroll, 409A valuations, and on-demand financial support. Founded in 2009 and backed by 500 Global, the company serves startups through $500M+ revenue businesses across technology, SaaS, ecommerce, healthcare, construction, crypto, professional services, and non-profits, integrating primarily with QuickBooks Online and NetSuite. Indinero is SOC 2 compliant and delivers its services through a client portal (the indinero Exchange) rather than a public developer API.
+image: https://www.indinero.com/wp-content/uploads/2023/06/logo.svg
+layout: provider
+modified: '2026-07-19'
+name: Indinero
+nav: Providers
+network: true
+overview: 'Indinero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Tax, and CFO Services.
+
+
+  Indinero''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
+random_paper: 40
+score:
+  band: emerging
+  composite: 17.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 17.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Indinero Domain Security
+  slug: indinero-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: indinero
+tags:
+- Company
+- Accounting
+- Bookkeeping
+- Tax
+- CFO Services
+- Payroll
+- Finance as a Service
+- Fintech
+- Small Business
+website: https://indinero.com
+---

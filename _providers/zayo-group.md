@@ -1,0 +1,149 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Zayo Group Agentic Access
+  operation_count: 1
+  slug: zayo-group-agentic-access
+  summary_line: 1 operation · 1 acting
+api_count: 2
+apis:
+- description: The Zayo Group Holdings API provides access to platform services and data for enterprise integration and automation.
+  name: Zayo Group Holdings API
+  slug: zayo-group-api
+- description: Building validation and location lookup.
+  name: Zayo Group Holdings Network Discovery API
+  slug: zayo-group-network-discovery-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Zayo Group API
+  slug: open-zayo-group
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/zayo-group-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/zayo-group-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zayo-group-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/zayo-group-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/zayo-group-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/zayo-group
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zayo.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zayo.com/feed/
+created: '2026-04-19'
+description: Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+finops:
+- name: Zayo Group Finops
+  service_category: Network Connectivity
+  slug: zayo-group-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zayo-group.png
+layout: provider
+modified: '2026-04-19'
+name: Zayo Group Holdings
+nav: Providers
+network: true
+overview: 'Zayo Group Holdings publishes 1 API on the [APIs.io](https://apis.io/) network: Network Discovery API. Tagged areas include Fiber, Network, and Infrastructure.
+
+
+  Zayo Group Holdings'' developer surface includes authentication, engineering blog, and 6 more developer resources.'
+plans:
+- name: Zayo Group Plans Pricing
+  plan_count: 1
+  slug: zayo-group-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 1
+  name: Zayo Group Rate Limits
+  slug: zayo-group-rate-limits
+scopes:
+- name: Zayo Group Scopes
+  scope_count: 1
+  slug: zayo-group-scopes
+  summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 30.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 60.2
+    developer_ergonomics: 13.0
+    discoverability: 47.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 30.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/screenshots/zayo-group-2026-06-20T201802.png
+security:
+- kind: authentication
+  name: Zayo Group Authentication
+  slug: zayo-group-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Zayo Group Domain Security
+  slug: zayo-group-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Zayo Group Vulnerability Disclosure
+  slug: zayo-group-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: zayo-group
+tags:
+- Fiber
+- Network
+- Infrastructure
+website: https://www.zayo.com
+---

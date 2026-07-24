@@ -1,0 +1,133 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fiberplane.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.fiberplane.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://fp.dev
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.fiberplane.com/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/fiberplane
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.com/invite/9xHGYRgsFV
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://fiberplane.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://fiberplane.com/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fiberplane-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fiberplane-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fiberplane-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/fiberplane-cli.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fiberplane-domain-security.yml
+created: '2026-07-17'
+description: Fiberplane is an Amsterdam-founded developer-tools company, backed by Northzone, building agent-native tooling for the "software factory" era of AI coding agents. Its current lineup centers on fp (fp.dev), a local-first CLI for tracking work when coding with AI agents such as Claude Code; EV, an AI-powered code-review tool that turns diffs into narratives; and DRIFT, an open-source tool that binds specifications to code and lints for drift before stale docs reach production. Fiberplane also maintains a Model Context Protocol (MCP) toolchain — mcp-lite (a small, fetch-first SDK for building MCP servers), an MCP Gateway for intercepting and debugging MCP servers, and a Console for reviewing and evaluating MCP servers. Earlier work includes the Hono-native API Playground/Studio, the HONC.dev stack (create-honc-app), @fiberplane/agents for introspecting Cloudflare Agents SDK apps, and collaborative observability notebooks for incident response. The company ships its libraries on
+  npm under the @fiberplane scope and distributes its CLI binaries via a Homebrew tap and an install script.
+image: https://avatars.githubusercontent.com/u/61152955?s=200&v=4
+layout: provider
+modified: '2026-07-19'
+name: Fiberplane
+nav: Providers
+network: true
+overview: 'Fiberplane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Developer Tools, Agents, and MCP.
+
+
+  Fiberplane''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
+random_paper: 28
+score:
+  band: emerging
+  composite: 19.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 39.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 19.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Fiberplane Domain Security
+  slug: fiberplane-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: fiberplane
+tags:
+- Company
+- Enterprise
+- Developer Tools
+- Agents
+- MCP
+- Model Context Protocol
+- Developer Experience
+- CLI
+- Observability
+- TypeScript
+- Hono
+- AI Coding
+website: https://fiberplane.com
+---

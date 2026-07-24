@@ -1,0 +1,110 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Cockpit is Loft Orbital's mission-control interface for tasking payloads, monitoring telemetry, and downlinking data across Loft's fleet of LEO satellites. Advanced operators can integrate Cockpit int
+  name: Loft Orbital Cockpit API
+  slug: loft-orbital-cockpit-api
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/loft-orbital-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.loftorbital.com
+- group: company
+  title: ''
+  type: About
+  url: https://loftorbital.com/about/
+- group: company
+  title: ''
+  type: Blog
+  url: https://loftorbital.com/newsroom/
+- group: operate
+  title: ''
+  type: Support
+  url: https://loftorbital.com/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://loftorbital.com/data-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/loft-orbital
+- group: start
+  title: ''
+  type: Login
+  url: https://api.cockpit.loftorbital.com/login
+created: '2026-07-17'
+description: Loft Orbital is a space infrastructure company operating under the banner "Space Made Simple" that integrates, launches, and operates low-Earth-orbit satellites so customers can fly physical payloads or deploy software "virtual missions" without building or operating their own spacecraft. Its Cockpit mission-control platform lets operators task payloads, monitor telemetry, and downlink data in real time through a secure web UI or an authenticated API, and a customer SDK provides frameworks, documentation, and satellite APIs (including Azure Orbital space-edge deploys) for onboard sensors and compute. The Cockpit API and developer docs are gated behind login at api.cockpit.loftorbital.com, so no public specification is available. Backed by Uncork Capital.
+image: https://loftorbital.com/wp-content/uploads/2024/07/blog-post-covers-a-loft-rebrand.png
+layout: provider
+modified: '2026-07-20'
+name: Loft Orbital
+nav: Providers
+network: true
+overview: 'Loft Orbital publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Space, Satellites, and Aerospace.
+
+
+  Loft Orbital''s developer surface includes engineering blog, support, and 6 more developer resources.'
+random_paper: 7
+score:
+  band: emerging
+  composite: 16.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 16.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Loft Orbital Domain Security
+  slug: loft-orbital-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: loft-orbital
+tags:
+- Company
+- Frontier Tech
+- Space
+- Satellites
+- Aerospace
+- Mission Control
+website: https://www.loftorbital.com
+---

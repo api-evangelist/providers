@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/getlinks-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://getlinks.com
+created: '2026-07-17'
+description: GetLinks is an AI-powered hiring operating system for Southeast Asia, operating across Thailand, Singapore, and Vietnam. For employers it provides job posting, AI-driven candidate screening, structured interview tooling with video/audio scoring, and recruiter consulting services; for job seekers it offers job search (14,200+ active jobs in Thailand), salary intelligence sourced from real placements, AI CV readiness analysis, and mock interview training. Backed by 500 Global. No public developer API, SDK, or developer portal was found; the platform is an end-user recruitment and career product.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getlinks.png
+layout: provider
+modified: '2026-07-19'
+name: Getlinks
+nav: Providers
+network: true
+overview: Getlinks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Jobs.
+random_paper: 49
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Getlinks Domain Security
+  slug: getlinks-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: getlinks
+tags:
+- Company
+- Recruitment
+- Hiring
+- Talent
+- Jobs
+- Human Resources
+- Artificial Intelligence
+- Southeast Asia
+website: https://getlinks.com
+---

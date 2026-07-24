@@ -1,0 +1,153 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 26.9
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
+  name: ZenAdmin Catalog API
+  slug: zenadmin-catalog-api
+- description: The Context API from ZenAdmin — 1 operation(s) for context.
+  name: ZenAdmin Context API
+  slug: zenadmin-context-api
+- description: The Devices API from ZenAdmin — 2 operation(s) for devices.
+  name: ZenAdmin Devices API
+  slug: zenadmin-devices-api
+- description: The Employees API from ZenAdmin — 2 operation(s) for employees.
+  name: ZenAdmin Employees API
+  slug: zenadmin-employees-api
+- description: The Orders API from ZenAdmin — 3 operation(s) for orders.
+  name: ZenAdmin Orders API
+  slug: zenadmin-orders-api
+- description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
+  name: ZenAdmin Webhooks API
+  slug: zenadmin-webhooks-api
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Zenadmin Webhooks
+  slug: zenadmin-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://zenadmin.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.zenadmin.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.zenadmin.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.zenadmin.ai
+- group: start
+  title: ''
+  type: Login
+  url: https://console.zenadmin.ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zenadmin.ai/blogs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.zenadmin.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.zenadmin.ai/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zenadmin-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zenadmin-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/zenadmin-well-known.yml
+created: '2026-07-17'
+description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 IT support across 150+ countries. ZenAdmin publishes an External API v1 (documented at docs.zenadmin.ai) for programmatic access to devices, hardware orders, a hardware catalog, employees, and outbound webhooks. Authentication is a per-key API key sent via the x-api-key header. This profile was originally surfaced as a 500 Global portfolio company and has been enriched from the live developer documentation.'
+image: https://www.zenadmin.ai/favicon.ico
+layout: provider
+modified: '2026-07-21'
+name: ZenAdmin
+nav: Providers
+network: true
+overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Context API, Devices API, and 3 more. Tagged areas include Company, IT Management, Device Management, Mobile Device Management, and IT Asset Management.
+
+
+  The ZenAdmin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
+random_paper: 38
+score:
+  band: thin
+  composite: 39.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 69.9
+    developer_ergonomics: 26.1
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 39.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Zenadmin Authentication
+  slug: zenadmin-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Zenadmin Domain Security
+  slug: zenadmin-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: zenadmin
+tags:
+- Company
+- IT Management
+- Device Management
+- Mobile Device Management
+- IT Asset Management
+- SaaS Management
+- Identity and Access Management
+- IT Procurement
+- Employee Lifecycle
+- Webhooks
+website: https://zenadmin.ai
+---

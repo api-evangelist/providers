@@ -1,0 +1,147 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Tinyproxy is a lightweight HTTP/HTTPS proxy daemon for POSIX operating systems with minimal system resource requirements. Provides forward proxying, HTTPS CONNECT tunneling, domain filtering, access c
+  name: Tinyproxy
+  slug: tinyproxy
+artifact_total: 9
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tinyproxy.github.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tinyproxy.github.io/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tinyproxy
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/tinyproxy/tinyproxy
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/json-schema/tinyproxy-config-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/json-structure/tinyproxy-config-structure.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/json-ld/tinyproxy-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/vocabulary/tinyproxy-vocabulary.yml
+created: '2026-03-27'
+description: Tinyproxy is a lightweight, open-source HTTP/HTTPS proxy daemon designed for POSIX operating systems. It is ideal for use cases in embedded deployments, small networks, and environments where a full-featured HTTP proxy is required with minimal system resource usage. Configuration is file-based with an internal statistics monitoring page.
+examples:
+- key_count: 3
+  name: Tinyproxy Config Example
+  slug: tinyproxy-config-example
+finops:
+- name: Tinyproxy Finops
+  service_category: API
+  slug: tinyproxy-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tinyproxy.png
+json_schemas:
+- name: Tinyproxy Configuration
+  property_count: 29
+  slug: tinyproxy-config
+json_structures:
+- name: Tinyproxy Config Structure
+  property_count: 0
+  slug: tinyproxy-config-structure
+jsonld:
+- class_count: 23
+  name: Tinyproxy Context
+  property_count: 2
+  slug: tinyproxy-context
+layout: provider
+modified: '2026-05-03'
+name: Tinyproxy
+nav: Providers
+network: true
+overview: 'Tinyproxy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forward Proxy, Proxy, HTTP, Networking, and Open Source.
+
+
+  The Tinyproxy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Tinyproxy''s developer surface includes documentation and 7 more developer resources.'
+plans:
+- name: Tinyproxy Plans Pricing
+  plan_count: 3
+  slug: tinyproxy-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 5
+  name: Tinyproxy Rate Limits
+  slug: tinyproxy-rate-limits
+rules:
+- name: Tinyproxy API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: tinyproxy-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 39.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 26.4
+    developer_ergonomics: 8.7
+    discoverability: 80.0
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 39.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/screenshots/tinyproxy-2026-06-20T195408.png
+slug: tinyproxy
+tags:
+- Forward Proxy
+- Proxy
+- HTTP
+- Networking
+- Open Source
+website: https://tinyproxy.github.io/
+---

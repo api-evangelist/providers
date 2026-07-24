@@ -1,0 +1,305 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 86
+  human_in_the_loop: 0
+  name: Coval Agentic Access
+  operation_count: 151
+  slug: coval-agentic-access
+  summary_line: 151 operations · 86 acting
+api_count: 25
+apis:
+- description: CRUD operations for AI agent configurations
+  name: Coval Agents API
+  slug: coval-agents-api
+- description: Manage API keys for your organization
+  name: Coval API Keys API
+  slug: coval-api-keys-api
+- description: Upload audio for evaluation and access conversation audio files
+  name: Coval Audio API
+  slug: coval-audio-api
+- description: Submit and manage real-world conversation monitoring evaluations
+  name: Coval Conversations API
+  slug: coval-conversations-api
+- description: Dashboard CRUD operations
+  name: Coval Dashboards API
+  slug: coval-dashboards-api
+- description: Retrieve metric computation results for simulations
+  name: Coval Metric Outputs API
+  slug: coval-metric-outputs-api
+- description: CRUD operations for custom evaluation metrics
+  name: Coval Metrics API
+  slug: coval-metrics-api
+- description: Monitor evaluation event history
+  name: Coval Monitor Events API
+  slug: coval-monitor-events-api
+- description: CRUD operations for monitor definitions
+  name: Coval Monitors API
+  slug: coval-monitors-api
+- description: CRUD operations for agent configuration mutations
+  name: Coval Mutations API
+  slug: coval-mutations-api
+- description: Organization-level configuration for conversation metrics — the default and conditional metrics run on conversations.
+  name: Coval Organization Conversations Config API
+  slug: coval-organization-conversations-config-api
+- description: Persona CRUD operations
+  name: Coval Personas API
+  slug: coval-personas-api
+- description: CRUD operations for saved multi-run reports
+  name: Coval Reports API
+  slug: coval-reports-api
+- description: Annotation CRUD operations
+  name: Coval Review Annotations API
+  slug: coval-review-annotations-api
+- description: Project CRUD operations
+  name: Coval Review Projects API
+  slug: coval-review-projects-api
+- description: CRUD operations for reusable run configurations
+  name: Coval Run Templates API
+  slug: coval-run-templates-api
+- description: Launch and manage simulation runs
+  name: Coval Runs API
+  slug: coval-runs-api
+- description: CRUD operations for scheduled evaluations
+  name: Coval Scheduled Runs API
+  slug: coval-scheduled-runs-api
+- description: Launch and manage individual simulation executions
+  name: Coval Simulations API
+  slug: coval-simulations-api
+- description: CRUD operations for resource tags
+  name: Coval Tags API
+  slug: coval-tags-api
+- description: Operations for managing test cases
+  name: Coval Test Cases API
+  slug: coval-test-cases-api
+- description: Operations for managing test sets
+  name: Coval Test Sets API
+  slug: coval-test-sets-api
+- description: OTLP trace ingestion for simulations and monitoring conversations.
+  name: Coval Traces API
+  slug: coval-traces-api
+- description: CRUD operations for event webhooks
+  name: Coval Webhooks API
+  slug: coval-webhooks-api
+- description: Dashboard widget CRUD operations
+  name: Coval Widgets API
+  slug: coval-widgets-api
+artifact_total: 31
+asyncapis:
+- description: ''
+  name: Coval Webhooks
+  slug: coval-webhooks
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.coval.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.coval.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.coval.ai/api-reference/v1/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.coval.ai/cli/overview
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.coval.ai/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.coval.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.coval.dev/login
+- group: start
+  title: ''
+  type: Login
+  url: https://app.coval.dev/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.coval.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.coval.ai/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://forms.gle/frTn8eCHkcTfw67p8
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/coval-ai
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.coval.dev
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.coval.ai/changelog
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.oneleet.com/coval
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.oneleet.com/coval
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/coval-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/coval-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/coval-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/coval-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/coval-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/coval-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/coval-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/coval-agentic-access.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/coval-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/coval-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/coval-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/coval-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/coval-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/coval-webhooks.yml
+created: '2026-07-17'
+description: Coval is the deployment-readiness platform for voice and chat AI agents. Teams simulate thousands of realistic conversation scenarios before launch, monitor real production calls, and improve reliability with metrics and human review. Coval supports inbound/outbound voice, standard chat, chat over WebSocket, chat A2A (JSON-RPC), voice-to-voice models (OpenAI Realtime, Gemini Live), SMS, Pipecat, and LiveKit agents. Its v1 REST API, TypeScript and Python SDKs, Homebrew CLI, and hosted MCP server let developers connect agents, define personas and test sets, launch simulation runs, ingest production conversations and OpenTelemetry traces, define deterministic/statistical/ML/LLM-judge metrics, and route critical calls to human reviewers. Coval is backed by General Catalyst and is SOC 2 Type II, GDPR, and HIPAA compliant.
+image: https://www.coval.ai/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: coval-mcp.yml
+  slug: coval-mcpyml
+modified: '2026-07-18'
+name: Coval
+nav: Providers
+network: true
+overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Agents API, API Keys API, Audio API, and 22 more. Tagged areas include Company, AI Agents, Voice AI, Testing, and Evaluation.
+
+
+  The Coval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
+random_paper: 23
+score:
+  band: strong
+  composite: 62.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 72.6
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 62.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Coval Authentication
+  slug: coval-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Coval Domain Security
+  slug: coval-domain-security
+  summary_line: TLSv1.2 · DMARC
+- kind: trust-center
+  name: Coval Trust Center
+  slug: coval-trust-center
+  summary_line: SOC 2 Type II, GDPR, HIPAA
+slug: coval
+tags:
+- Company
+- AI Agents
+- Voice AI
+- Testing
+- Evaluation
+- Simulation
+- Observability
+- Conversational AI
+- LLM
+- Quality Assurance
+website: https://docs.coval.ai
+---

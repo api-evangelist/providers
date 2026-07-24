@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bayesimpact.org
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bayesimpact
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/bayesimpact/bob-emploi
+- group: company
+  title: ''
+  type: Blog
+  url: https://bayesimpact.github.io/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bayesimpact.org/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bayesimpact.org/legal-notices/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@bayesimpact.org
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bayes-impact-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bayes-impact-llms.txt
+created: '2026-07-17'
+description: Bayes Impact is a nonprofit organization that builds open-source AI and data-science tools for public services, governments, and nonprofits, with a mission to empower people in need and those who help them. Surfaced through Y Combinator, it has served over 10 million beneficiaries across three continents. Its flagship open-source project, Bob (formerly Bob Emploi), delivers personalized, data-driven career and job-search advice to jobseekers through a Python/Flask RESTful JSON API whose data structures are defined in Protocol Buffers. Other projects include the Bayes Platform agent framework for public services, the Encompass geographic-access analysis tool, and a range of civic data-science tooling.
+image: https://avatars.githubusercontent.com/u/7692453?v=4
+layout: provider
+modified: '2026-07-18'
+name: Bayes Impact
+nav: Providers
+network: true
+overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofit, Artificial Intelligence, Data Science, and Public Services.
+
+
+  Bayes Impact''s developer surface includes engineering blog, support, and 8 more developer resources.'
+random_paper: 42
+score:
+  band: minimal
+  composite: 13.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bayes Impact Domain Security
+  slug: bayes-impact-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: bayes-impact
+tags:
+- Company
+- Nonprofit
+- Artificial Intelligence
+- Data Science
+- Public Services
+- Civic Tech
+- Employment
+- Open Source
+- Protobuf
+website: https://www.bayesimpact.org
+---

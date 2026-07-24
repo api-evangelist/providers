@@ -1,0 +1,282 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 46
+  human_in_the_loop: 2
+  name: Prewave Agentic Access
+  operation_count: 117
+  slug: prewave-agentic-access
+  summary_line: 117 operations · 46 acting · 2 human-in-the-loop
+api_count: 25
+apis:
+- description: 🆕 NEW - Retrieve actions (tasks/work items), action types, and action statuses for supplier relationships, compliance reviews, and operational activities. Available from February 2026.
+  name: Prewave Actions API
+  slug: prewave-actions-api
+- description: Endpoints for retrieving alert information from user feeds, disruption maps, and specific targets. Supports filtering by collections, dates, priorities, geographic regions, target identifiers, and oth
+  name: Prewave Alerts API
+  slug: prewave-alerts-api
+- description: Public API for managing collections in Prewave's supply chain network. Collections are used to organize and group suppliers (targets) in your supply chain.
+  name: Prewave Collections - Management API
+  slug: prewave-collections-management-api
+- description: Allows you to retrieve network information. Like tree-graph and commodity-graph.
+  name: Prewave Collections - Network API
+  slug: prewave-collections-network-api
+- description: Public API for managing targets within collections in Prewave's supply chain network.
+  name: Prewave Collections - Targets API
+  slug: prewave-collections-targets-api
+- description: Public API for retrieving supplier relationship graphs from tier-n enabled collections.
+  name: Prewave Collections - Tier-N API
+  slug: prewave-collections-tier-n-api
+- description: Endpoints for retrieving alerts from the disruption map. Supports filtering by geographic region, collections, countries, and other criteria.
+  name: Prewave Disruptions API
+  slug: prewave-disruptions-api
+- description: 🆕 NEW - Allows you to manage customer Due Diligence Statements (DDS), including creating, updating, submitting, withdrawing customer DDS, and viewing supplier DDS associated with products.
+  name: Prewave EUDR - Customers - DDS API
+  slug: prewave-eudr-customers-dds-api
+- description: Allows you to manage customer origin requests for products, including creating, updating, closing requests, and viewing requests per product.
+  name: Prewave EUDR - Customers - Origin Requests API
+  slug: prewave-eudr-customers-origin-requests-api
+- description: Allows you to manage customer products, including creating, updating, linking/unlinking products, and deactivating products.
+  name: Prewave EUDR - Customers - Products API
+  slug: prewave-eudr-customers-products-api
+- description: Allows you to search for suppliers, find suppliers by IDs or references, and manage supplier connection contacts.
+  name: Prewave EUDR - Customers - Suppliers API
+  slug: prewave-eudr-customers-suppliers-api
+- description: Shared reference data for EUDR, including countries, HS codes, and commodities. Available to both customers and suppliers.
+  name: Prewave EUDR - Shared API
+  slug: prewave-eudr-shared-api
+- description: Allows suppliers to manage their origin requests, view their customers, and answer origin requests with supplier DDS.
+  name: Prewave EUDR - Suppliers API
+  slug: prewave-eudr-suppliers-api
+- description: Get exposure analysis graph and targets
+  name: Prewave Exposure API
+  slug: prewave-exposure-api
+- description: Allows you to retrieve information about infotags and groups.
+  name: Prewave Infotags API
+  slug: prewave-infotags-api
+- description: Public API for managing enterprise export configurations and retrieving score data in Prewave's supply chain network.
+  name: Prewave Scores - Enterprise Export API
+  slug: prewave-scores-enterprise-export-api
+- description: Upload and read custom supplier scores from your systems (e.g. SAP). Bulk upload, list event types, and view history per supplier. Available from June 2026.
+  name: Prewave Scores - Externals API
+  slug: prewave-scores-externals-api
+- description: '⚠️ **DEPRECATED** - Target score endpoints. These endpoints are deprecated and will be removed at the end of December 2026. Use `/public/v1/enterprise-export/scores` instead. **Note**: Responses from '
+  name: Prewave Scores - Target API
+  slug: prewave-scores-target-api
+- description: 🆕 NEW - Supplier connection contact management endpoints. Available from February 2026.
+  name: Prewave Suppliers - Connection Contacts API
+  slug: prewave-suppliers-connection-contacts-api
+- description: Supplier management endpoints for listing, retrieving, updating supplier data, and bulk operations.
+  name: Prewave Suppliers - Management API
+  slug: prewave-suppliers-management-api
+- description: 🆕 NEW - Supplier and site management endpoints. Available from January 2026.
+  name: Prewave Suppliers - Sites API
+  slug: prewave-suppliers-sites-api
+- description: Allows you to create or update sites.
+  name: Prewave Suppliers - Sites Upsert API
+  slug: prewave-suppliers-sites-upsert-api
+- description: ⚠️ **DEPRECATED** - This API is deprecated and will be removed at the end of December 2026.
+  name: Prewave Suppliers - Supplier Graph API
+  slug: prewave-suppliers-supplier-graph-api
+- description: 🆕 NEW - API to manage users in the public network. Available from February 2026.
+  name: Prewave Users API
+  slug: prewave-users-api
+- description: 🆕 NEW - API to manage user roles in the public network. Available from February 2026.
+  name: Prewave Users - Roles API
+  slug: prewave-users-roles-api
+arazzos:
+- description: ''
+  name: _Index
+  slug: _index
+- description: Register an outbound product, request commodity origins, attach a DDS, and submit it.
+  name: Submit an EUDR Due Diligence Statement
+  slug: prewave-eudr-dds-submission
+- description: Create a supplier site, run validation and screening, then read its risk alerts.
+  name: Onboard and monitor a supplier
+  slug: prewave-onboard-and-monitor-supplier
+artifact_total: 33
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.prewave.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev.prewave.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.prewave.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dev.prewave.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.prewave.com/resources/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.prewave.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.prewave.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/prewave
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.prewave.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.prewave.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/prewave-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/prewave-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/prewave-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/prewave-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/prewave-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/prewave-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/prewave-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/prewave-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/prewave-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/prewave-onboard-and-monitor-supplier.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/prewave-eudr-dds-submission.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/prewave-llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/prewave-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/prewave-domain-security.yml
+created: '2026-07-17'
+description: Prewave is a Vienna-based AI-powered supply-chain risk intelligence platform that monitors millions of risk events across languages and networks to give enterprises proactive resilience, multi-tier supplier transparency, and sustainability-compliance automation (EU Deforestation Regulation, LkSG, and CSDDD). The Public Prewave API is a REST API at api.prewave.com covering suppliers and sites, collections and the Tier-N supplier graph, alerts and the risk feed, disruptions, risk scores (target, external, and enterprise export), exposure graphs, EUDR products / origin requests / Due Diligence Statements, actions, and user and role management. It authenticates with an X-Auth-Token API key.
+image: https://www.prewave.com/apple-touch-icon.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: prewave-mcp.yml
+  slug: prewave-mcpyml
+modified: '2026-07-20'
+name: Prewave
+nav: Providers
+network: true
+overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Saas, Supply Chain, Risk Intelligence, and Sustainability.
+
+
+  Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 20 more developer resources.'
+random_paper: 48
+score:
+  band: developing
+  composite: 45.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 54.1
+    developer_ergonomics: 52.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 45.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Prewave Authentication
+  slug: prewave-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Prewave Domain Security
+  slug: prewave-domain-security
+  summary_line: TLSv1.3 · HSTS
+- kind: trust-center
+  name: Prewave Trust Center
+  slug: prewave-trust-center
+  summary_line: trust center published
+slug: prewave
+tags:
+- Company
+- Saas
+- Supply Chain
+- Risk Intelligence
+- Sustainability
+- Compliance
+- EUDR
+- Supplier Management
+website: https://www.prewave.com/
+---

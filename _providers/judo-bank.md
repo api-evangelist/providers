@@ -1,0 +1,193 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 69.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Judo Bank Agentic Access
+  operation_count: 19
+  slug: judo-bank-agentic-access
+  summary_line: 19 operations · 3 acting
+api_count: 7
+apis:
+- description: Banking Account Balance endpoints
+  name: Judo Bank Banking Account Balances API
+  slug: judo-bank-banking-account-balances-api
+- description: Banking Account Direct Debit endpoints
+  name: Judo Bank Banking Account Direct Debits API
+  slug: judo-bank-banking-account-direct-debits-api
+- description: Banking Account Scheduled Payment endpoints
+  name: Judo Bank Banking Account Scheduled Payments API
+  slug: judo-bank-banking-account-scheduled-payments-api
+- description: Banking Account Transaction endpoints
+  name: Judo Bank Banking Account Transactions API
+  slug: judo-bank-banking-account-transactions-api
+- description: Banking Account endpoints
+  name: Judo Bank Banking Accounts API
+  slug: judo-bank-banking-accounts-api
+- description: Banking Payee endpoints
+  name: Judo Bank Banking Payees API
+  slug: judo-bank-banking-payees-api
+- description: Banking Product endpoints
+  name: Judo Bank Banking Products API
+  slug: judo-bank-banking-products-api
+artifact_total: 11
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/judo-bank-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/judo-bank-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/judo-bank-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/judo-bank-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/judo-bank-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/judo-bank-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/judo-bank-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/judo-bank-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/judo-bank-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/judo-bank-cds-banking-products-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/judo-bank-product-lookup.md
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/judo-bank-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/judo-bank-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.judo.bank/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.judo.bank/open-banking/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.judo.bank/privacy-policy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/judobank
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/judobank
+created: '2026-07-20'
+description: Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger bank founded in 2016 and headquartered in Melbourne, purpose-built to serve small and medium-sized enterprises (SMEs) with relationship-led business lending alongside personal and business term deposits. It was the first new domestically-owned bank in decades to be granted a full, unrestricted authorised deposit-taking institution (ADI) licence by APRA, in April 2019, and has been publicly listed on the Australian Securities Exchange (ticker ASX JDO) since November 2021 - it is a for-profit, shareholder-owned bank, not a customer-owned mutual. As a designated ADI and data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, Judo Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer-data sharing is governed by the accredited data recipient (ADR) model rather than an open self-serve
+  developer program.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/judo-bank.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: judo-bank-mcp.yml
+  slug: judo-bank-mcpyml
+modified: '2026-07-22'
+name: Judo Bank
+nav: Providers
+network: true
+overview: 'Judo Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
+
+
+  Judo Bank''s developer surface includes authentication, documentation, and 16 more developer resources.'
+random_paper: 24
+score:
+  band: thin
+  composite: 34.9
+  delta: 1.9
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 53.1
+    developer_ergonomics: 34.8
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 33.0
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/screenshots/judo-bank-2026-07-21T114730.png
+security:
+- kind: authentication
+  name: Judo Bank Authentication
+  slug: judo-bank-authentication
+  summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
+- kind: domain-security
+  name: Judo Bank Domain Security
+  slug: judo-bank-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: judo-bank
+tags:
+- Financial
+- Banks
+- Open Banking
+- CDR
+- Consumer Banking
+- Australia
+- SME Lending
+- Product Reference Data
+website: https://www.judo.bank/
+---

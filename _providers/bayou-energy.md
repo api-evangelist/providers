@@ -1,0 +1,155 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Bayou Energy Agentic Access
+  operation_count: 12
+  slug: bayou-energy-agentic-access
+  summary_line: 12 operations · 5 acting
+api_count: 4
+apis:
+- description: The Bills API from Bayou Energy — 4 operation(s) for bills.
+  name: Bayou Energy Bills API
+  slug: bayou-energy-bills-api
+- description: The Customers API from Bayou Energy — 2 operation(s) for customers.
+  name: Bayou Energy Customers API
+  slug: bayou-energy-customers-api
+- description: The Intervals API from Bayou Energy — 1 operation(s) for intervals.
+  name: Bayou Energy Intervals API
+  slug: bayou-energy-intervals-api
+- description: The Utilities API from Bayou Energy — 2 operation(s) for utilities.
+  name: Bayou Energy Utilities API
+  slug: bayou-energy-utilities-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Bayou Energy API
+  slug: open-bayou-energy
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bayou-energy-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bayou-energy-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bayou-energy-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bayouenergy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bayou.energy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bayou.energy/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bayou-energy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bayou-energy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/bayou-energy-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.bayou.energy/feed
+created: '2026-06-21'
+description: Bayou Energy provides a utility-bill and usage-data API that lets companies collect their customers' utility account, bill, and interval meter data from US utilities. Customers link their utility credentials through a hosted onboarding flow, and Bayou continuously fetches the full bill and interval history, exposing it through a REST API secured with HTTP Basic authentication.
+finops:
+- name: Bayou Energy Finops
+  service_category: Analytics
+  slug: bayou-energy-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bayou-energy.png
+layout: provider
+modified: '2026-06-21'
+name: Bayou Energy
+nav: Providers
+network: true
+overview: 'Bayou Energy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Intervals API, and 1 more. Tagged areas include Utility Data, Energy, Utility Bills, Interval Data, and Metering.
+
+
+  Bayou Energy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Bayou Energy Plans Pricing
+  plan_count: 2
+  slug: bayou-energy-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 1
+  name: Bayou Energy Rate Limits
+  slug: bayou-energy-rate-limits
+score:
+  band: thin
+  composite: 33.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 54.9
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 33.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Bayou Energy Authentication
+  slug: bayou-energy-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Bayou Energy Domain Security
+  slug: bayou-energy-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: bayou-energy
+tags:
+- Utility Data
+- Energy
+- Utility Bills
+- Interval Data
+- Metering
+website: https://www.bayou.energy/
+---

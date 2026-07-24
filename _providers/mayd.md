@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mayd-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getmayd.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mayd-meds-at-your-doorstep
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:info@getmayd.com
+created: '2026-07-17'
+description: MAYD (Meds At Your Doorstep) is a Berlin-based on-demand medication delivery service building a digital healthcare platform for Europe. Founded in 2021 by Hanno Heintzenberg and Lukas Pieczonka (previously McMakler), MAYD partners with local pharmacies to deliver over-the-counter and prescription medications to consumers' doors in about 30 minutes, 365 days a year, across German cities including Berlin, Hamburg, Munich, Frankfurt, Cologne and Düsseldorf. The company operates a consumer mobile app and website (getmayd.com) and raised a ~EUR 30M Series A led by Lightspeed Venture Partners in January 2022, with participation from Target Global, 468 Capital and Earlybird Venture Capital. MAYD is a consumer-facing (B2C) delivery business and does not currently publish a public developer API, developer portal, or partner API surface; it is a Stripe payments customer for its checkout and billing.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mayd.png
+layout: provider
+modified: '2026-07-20'
+name: MAYD
+nav: Providers
+network: true
+overview: 'MAYD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Medication Delivery, and On-Demand Delivery.
+
+
+  MAYD''s developer surface includes support and 3 more developer resources.'
+random_paper: 19
+score:
+  band: minimal
+  composite: 8.4
+  delta: 0.8
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.6
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Mayd Domain Security
+  slug: mayd-domain-security
+  summary_line: TLSv1.3
+slug: mayd
+tags:
+- Company
+- Healthcare
+- Pharmacy
+- Medication Delivery
+- On-Demand Delivery
+- Digital Health
+- E-Commerce
+- Logistics
+website: https://www.getmayd.com
+---

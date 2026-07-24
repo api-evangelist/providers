@@ -1,0 +1,173 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 12.5
+  scored_at: '2026-07-23'
+api_count: 10
+apis:
+- description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
+  name: Bitquery GraphQL API (V2)
+  slug: graphql-v2
+- description: Legacy GraphQL endpoint covering Bitquery's V1 schema - kept for backward compatibility while customers migrate to V2.
+  name: Bitquery GraphQL API (V1)
+  slug: graphql-v1
+- description: GraphQL subscriptions over WebSocket for real-time blockchain data - live DEX trades, transfers, pending transactions, contract events. Same V2 schema as the HTTP endpoint, delivered as push events. S
+  name: Bitquery Streaming Subscriptions
+  slug: streaming-subscriptions
+- description: Protobuf-encoded streams of decoded blockchain data delivered via managed Kafka topics. Designed for scale-out consumption by indexers, analytics pipelines, and warehouses that need to backfill or str
+  name: Bitquery Kafka Streams
+  slug: kafka-streams
+- description: gRPC streaming API for Solana that delivers decoded block, transaction, and instruction data with sub-second latency. Targeted at Solana-native apps, MEV searchers, and high-throughput indexers.
+  name: Bitquery Solana CoreCast (gRPC)
+  slug: grpc-corecast
+- description: Model Context Protocol server backed by ClickHouse that lets AI agents query Bitquery's onchain dataset using natural language and structured tool calls.
+  name: Bitquery MCP Server
+  slug: mcp-server
+- description: Parquet-format cloud datasets containing Bitquery's decoded onchain data for direct load into data warehouses (Snowflake, BigQuery, Redshift, Databricks).
+  name: Bitquery Cloud Datasets
+  slug: cloud-datasets
+- description: In-browser GraphQL IDE for authoring, testing, and saving Bitquery queries against the V1 and V2 schemas. Used by developers to prototype before wiring queries into apps.
+  name: Bitquery IDE
+  slug: ide
+- description: Multi-chain block explorer surfacing transactions, addresses, tokens, and DEX activity searchable across all chains Bitquery indexes.
+  name: Bitquery Explorer
+  slug: explorer
+- description: Real-time DEX analytics product built on Bitquery's data - tracks trades, liquidity, volumes, and trending tokens across DEXes on multiple chains.
+  name: DEXrabbit
+  slug: dexrabbit
+artifact_total: 17
+asyncapis:
+- description: AsyncAPI description of Bitquery's real-time blockchain data streams, delivered as GraphQL subscriptions over WebSocket. The same V2 GraphQL schema served from the HTTP endpoint (`https://streaming.bi
+  name: Bitquery Streaming GraphQL Subscriptions
+  slug: bitquery-asyncapi
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bitquery-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bitquery.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bitquery.io/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/bitquery
+- group: other
+  title: ''
+  type: IDE
+  url: https://ide.bitquery.io/
+- group: other
+  title: ''
+  type: Explorer
+  url: https://explorer.bitquery.io/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/Bitquery_io
+- group: company
+  title: ''
+  type: Blog
+  url: https://bitquery.io/blog
+created: '2026-05-23'
+description: Bitquery is a blockchain data platform that exposes a single unified GraphQL schema across 40+ networks (Ethereum, Solana, BSC, Base, Polygon, Arbitrum, Optimism, Tron, and more) through multiple delivery modes - GraphQL over HTTP, GraphQL subscriptions over WebSocket, Kafka protobuf streams, gRPC (Solana CoreCast), an MCP server backed by ClickHouse, and parquet cloud datasets. Core data products cover token prices and OHLCV, DEX trades, transfers and wallet flows, contract calls and traces, events, NFTs and metadata, balances and holders, and mempool / pending transactions.
+finops:
+- name: Bitquery Finops
+  service_category: API
+  slug: bitquery-finops
+graphqls:
+- description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
+  name: Bitquery GraphQL API
+  slug: bitquery-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitquery.png
+layout: provider
+modified: '2026-05-29'
+name: Bitquery
+nav: Providers
+network: true
+overview: 'Bitquery publishes 1 API on the [APIs.io](https://apis.io/) network: Streaming Subscriptions. Tagged areas include Blockchain Data, GraphQL, Streaming, Indexer, and DEX.
+
+
+  The Bitquery catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Bitquery''s developer surface includes documentation, GitHub presence, engineering blog, and 5 more developer resources.'
+plans:
+- name: Bitquery Plans Pricing
+  plan_count: 1
+  slug: bitquery-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 2
+  name: Bitquery Rate Limits
+  slug: bitquery-rate-limits
+rules:
+- name: Bitquery API Rules
+  rule_count: 7
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 6
+  slug: bitquery-asyncapi-spectral-rules
+score:
+  band: thin
+  composite: 33.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 22.6
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 52.6
+    operational_transparency: 26.3
+  previous_composite: 33.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
+security:
+- kind: domain-security
+  name: Bitquery Domain Security
+  slug: bitquery-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: bitquery
+tags:
+- Blockchain Data
+- GraphQL
+- Streaming
+- Indexer
+- DEX
+- NFT
+- Crypto
+- Web3
+website: https://bitquery.io/
+---

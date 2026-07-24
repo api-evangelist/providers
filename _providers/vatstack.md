@@ -1,0 +1,251 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 10
+  human_in_the_loop: 0
+  name: Vatstack Agentic Access
+  operation_count: 23
+  slug: vatstack-agentic-access
+  summary_line: 23 operations · 10 acting
+api_count: 7
+apis:
+- description: The Batches API from Vatstack — 2 operation(s) for batches.
+  name: Vatstack Batches API
+  slug: vatstack-batches-api
+- description: The Evidences API from Vatstack — 2 operation(s) for evidences.
+  name: Vatstack Evidences API
+  slug: vatstack-evidences-api
+- description: The Hits API from Vatstack — 1 operation(s) for hits.
+  name: Vatstack Hits API
+  slug: vatstack-hits-api
+- description: The Quotes API from Vatstack — 2 operation(s) for quotes.
+  name: Vatstack Quotes API
+  slug: vatstack-quotes-api
+- description: The Rates API from Vatstack — 2 operation(s) for rates.
+  name: Vatstack Rates API
+  slug: vatstack-rates-api
+- description: The Supplies API from Vatstack — 2 operation(s) for supplies.
+  name: Vatstack Supplies API
+  slug: vatstack-supplies-api
+- description: The Validations API from Vatstack — 2 operation(s) for validations.
+  name: Vatstack Validations API
+  slug: vatstack-validations-api
+artifact_total: 32
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/vatstack-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/vatstack-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vatstack-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/vatstack-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://vatstack.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://vatstack.com/docs
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/vatstack
+- group: company
+  title: ''
+  type: Blog
+  url: https://vatstack.com/articles
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://vatstack.com/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.vatstack.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/vatstack
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vatstack-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vatstack-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/vatstack-finops.yml
+created: '2026-06-13'
+description: VAT number validation and EU tax rates REST API for validating European business VAT IDs via VIES and accessing current VAT rates for all EU member states. Vatstack provides automated VAT compliance for digital businesses including real-time VAT number validation, EU GST rate synchronization, price quotation engine, and automated VAT reporting for EC Sales List and VAT OSS requirements.
+examples:
+- key_count: 3
+  name: Batch Example
+  slug: batch-example
+- key_count: 3
+  name: Error Example
+  slug: error-example
+- key_count: 3
+  name: Evidence Example
+  slug: evidence-example
+- key_count: 3
+  name: Hit Example
+  slug: hit-example
+- key_count: 3
+  name: Quote Example
+  slug: quote-example
+- key_count: 3
+  name: Rate Example
+  slug: rate-example
+- key_count: 3
+  name: Supply Example
+  slug: supply-example
+- key_count: 3
+  name: Validation Example
+  slug: validation-example
+finops:
+- name: Vatstack Finops
+  service_category: ''
+  slug: vatstack-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vatstack.png
+json_schemas:
+- name: Batch
+  property_count: 9
+  slug: batch
+- name: Error
+  property_count: 2
+  slug: error
+- name: Evidence
+  property_count: 7
+  slug: evidence
+- name: Hit
+  property_count: 2
+  slug: hit
+- name: Quote
+  property_count: 13
+  slug: quote
+- name: Rate
+  property_count: 11
+  slug: rate
+- name: Supply
+  property_count: 17
+  slug: supply
+- name: Validation
+  property_count: 16
+  slug: validation
+jsonld:
+- class_count: 9
+  name: Vatstack Context
+  property_count: 21
+  slug: vatstack-context
+layout: provider
+modified: '2026-06-13'
+name: Vatstack
+nav: Providers
+network: true
+overview: 'Vatstack publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Evidences API, Hits API, and 4 more. Tagged areas include VAT, Tax, Validation, EU, and Europe.
+
+
+  The Vatstack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Vatstack''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+plans:
+- name: Vatstack Plans Pricing
+  plan_count: 3
+  slug: vatstack-plans-pricing
+random_paper: 49
+rate_limits:
+- limit_count: 8
+  name: Vatstack Rate Limits
+  slug: vatstack-rate-limits
+rules:
+- name: Vatstack API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: vatstack-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 54.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 59.3
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 54.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/screenshots/vatstack-2026-06-20T200843.png
+security:
+- kind: authentication
+  name: Vatstack Authentication
+  slug: vatstack-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Vatstack Domain Security
+  slug: vatstack-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Vatstack Vulnerability Disclosure
+  slug: vatstack-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: vatstack
+tags:
+- VAT
+- Tax
+- Validation
+- EU
+- Europe
+- Compliance
+- Finance
+- Business
+website: https://vatstack.com
+---

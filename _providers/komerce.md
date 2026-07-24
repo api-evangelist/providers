@@ -1,0 +1,273 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: true
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 84.6
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Komerce Agentic Access
+  operation_count: 25
+  slug: komerce-agentic-access
+  summary_line: 25 operations · 12 acting
+api_count: 7
+apis:
+- description: Shipping cost calculation
+  name: Komerce Cost API
+  slug: komerce-cost-api
+- description: Destination and administrative-region lookup
+  name: Komerce Destinations API
+  slug: komerce-destinations-api
+- description: The Orders API from Komerce — 4 operation(s) for orders.
+  name: Komerce Orders API
+  slug: komerce-orders-api
+- description: The Payments API from Komerce — 4 operation(s) for payments.
+  name: Komerce Payments API
+  slug: komerce-payments-api
+- description: The Pickup API from Komerce — 1 operation(s) for pickup.
+  name: Komerce Pickup API
+  slug: komerce-pickup-api
+- description: The QRIS API from Komerce — 3 operation(s) for qris.
+  name: Komerce QRIS API
+  slug: komerce-qris-api
+- description: Airway bill tracking
+  name: Komerce Tracking API
+  slug: komerce-tracking-api
+artifact_total: 14
+asyncapis:
+- description: ''
+  name: Komerce Webhooks
+  slug: komerce-webhooks
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/komerce-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/komerce-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://komerce.id
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://rajaongkir.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://rajaongkir.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rajaongkir.com/docs/shipping-cost/getting_started/endpoint
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://rajaongkir.com/docs/introduction/register
+- group: start
+  title: ''
+  type: SignUp
+  url: https://collaborator.komerce.id/registration
+- group: start
+  title: ''
+  type: Login
+  url: https://collaborator.komerce.id/login
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://rajaongkir.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@rajaongkir.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://komerce.id/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://komerce.id/syarat-ketentuan
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://komerce.id/kebijakan-privasi
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.rajaongkir.com
+- group: build
+  title: ''
+  type: Postman
+  url: https://rajaongkir.com/docs/shipping-cost/getting_started/postman_collection
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/komerce-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/komerce-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/komerce-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/komerce-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/komerce-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/komerce-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/komerce-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/komerce-plans.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/komerce-webhooks.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/komerce-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/komerce-components.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/komerce-couriers.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/komerce-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/komerce-conformance.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/komerce-examples.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/komerce-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/komerce-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: 'Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.'
+image: https://komerce.id/img/komerce.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: komerce-mcp.yml
+  slug: komerce-mcpyml
+modified: '2026-07-19'
+name: Komerce
+nav: Providers
+network: true
+overview: 'Komerce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cost API, Destinations API, Orders API, and 4 more. Tagged areas include Company, Shipping, Logistics, E-Commerce, and Payments.
+
+
+  The Komerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 27 more developer resources.'
+plans:
+- name: Komerce Plans
+  plan_count: 3
+  slug: komerce-plans
+random_paper: 28
+rate_limits:
+- limit_count: 0
+  name: Komerce Rate Limits
+  slug: komerce-rate-limits
+score:
+  band: strong
+  composite: 61.0
+  delta: -1.2
+  facets:
+    commercial_clarity: 76.3
+    contract_quality: 66.5
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 13.2
+    operational_transparency: 23.7
+  previous_composite: 62.2
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Komerce Authentication
+  slug: komerce-authentication
+  summary_line: apiKey · 3 schemes
+- kind: domain-security
+  name: Komerce Domain Security
+  slug: komerce-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: komerce
+tags:
+- Company
+- Shipping
+- Logistics
+- E-Commerce
+- Payments
+- QRIS
+- Indonesia
+- Couriers
+- Tracking
+- Fulfillment
+website: https://komerce.id
+---

@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/verse-medical-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.versemedical.com/
+created: '2026-07-17'
+description: Verse Medical is a software-driven durable medical equipment (DME) supplier delivering hospital-quality healthcare at home across the United States. Founded in 2018 (Y Combinator S18) and based in New York City, the company builds software that replaces fax-based ordering so doctors and clinics can prescribe, order, and manage medical supplies such as catheters, wound dressings, and diabetes supplies for patients at home. Backed by General Catalyst, SignalFire, Sapphire Ventures, Abstract Ventures, and Y Combinator. No public developer API, docs portal, or specification surface was found during enrichment; this profile carries company identity plus a probed domain-security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verse-medical.png
+layout: provider
+modified: '2026-07-21'
+name: Verse Medical
+nav: Providers
+network: true
+overview: Verse Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Durable Medical Equipment, Home Healthcare, and Medical Supplies.
+random_paper: 38
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Verse Medical Domain Security
+  slug: verse-medical-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: verse-medical
+tags:
+- Company
+- Healthtech
+- Durable Medical Equipment
+- Home Healthcare
+- Medical Supplies
+- Health Technology
+- DME
+website: https://www.versemedical.com/
+---

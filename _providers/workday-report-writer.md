@@ -1,0 +1,287 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Workday Report Writer Agentic Access
+  operation_count: 19
+  slug: workday-report-writer-agentic-access
+  summary_line: 19 operations · 5 acting
+api_count: 9
+apis:
+- description: SOAP web service API for creating, managing, and executing custom reports in Workday using Report Writer functionality. Provides programmatic access to report definitions, calculated fields, and repor
+  name: Workday Report Writer API
+  slug: workday-report-writer-api
+- description: To view and maintain Agent Definitions with the Agent System of Record.
+  name: Workday Report Writer agentDefinition API
+  slug: workday-report-writer-agentdefinition-api
+- description: Manage file upload buckets for staging compressed data files before executing data change tasks against tables
+  name: Workday Report Writer Buckets API
+  slug: workday-report-writer-buckets-api
+- description: Execute custom reports exposed as web service endpoints, returning data in multiple formats including JSON, CSV, and XML
+  name: Workday Report Writer Custom Reports API
+  slug: workday-report-writer-custom-reports-api
+- description: Execute data change tasks to load, update, or delete data in Prism Analytics tables using files uploaded to buckets
+  name: Workday Report Writer Data Change Tasks API
+  slug: workday-report-writer-data-change-tasks-api
+- description: Discover available data sources (tables) that can be queried using WQL, including their fields and filter definitions
+  name: Workday Report Writer Data Sources API
+  slug: workday-report-writer-data-sources-api
+- description: Manage Prism Analytics datasets, which are read-only data collections used in Prism reports and dashboards
+  name: Workday Report Writer Datasets API
+  slug: workday-report-writer-datasets-api
+- description: Execute WQL queries against Workday data sources and retrieve paginated results
+  name: Workday Report Writer Query Execution API
+  slug: workday-report-writer-query-execution-api
+- description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
+  name: Workday Report Writer Tables API
+  slug: workday-report-writer-tables-api
+artifact_total: 43
+collections:
+- collection_type: open
+  name: Workday Report Writer Workday Prism Analytics API
+  slug: open-workday-report-writer-prism-analytics
+- collection_type: open
+  name: Workday Report Writer Workday Report-as-a-Service (RaaS) REST API
+  slug: open-workday-report-writer-raas
+- collection_type: open
+  name: Workday Report Writer Workday WQL API
+  slug: open-workday-report-writer-wql
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/workday-report-writer-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/workday-report-writer-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/workday-report-writer-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/workday-report-writer-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.workday.com/about
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/KfHiRHLBJB0O63TxIyZCFA
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://community.workday.com/api
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://doc.workday.com/admin-guide/en-us/workday-api/authentication/index.html
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://community.workday.com/articles/6394
+- group: other
+  title: ''
+  type: Hub
+  url: https://community.workday.com/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/a3a_TL5Tde61ZFJKLtycjg
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.workday.com/en-us/legal.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.workday.com/en-us/privacy.html
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://community.workday.com/trust/status
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.workday.com/en-us/services/support.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.workday.com/en-us/technology.html
+- group: start
+  title: ''
+  type: Signup
+  url: https://resourcecenter.workday.com/
+- group: start
+  title: ''
+  type: Console
+  url: https://developer.workday.com/about
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Workday
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html
+created: '2024-01-01'
+description: APIs for Workday Report Writer - a tool for creating custom reports and data extracts from Workday HCM and Financial systems.
+features:
+- description: Build custom reports using Report Writer with calculated fields, subfilters, and grouping across HCM and Financial Management data.
+  name: Custom Report Authoring
+- description: Expose any advanced custom report as a REST or SOAP web service returning JSON, CSV, XML, or RSS for programmatic consumption.
+  name: Report-as-a-Service Web Endpoints
+- description: Query Workday data with SQL-like SELECT/FROM/WHERE/ORDER BY/LIMIT syntax against governed data sources for high-performance retrieval.
+  name: SQL-Like Data Access via WQL
+- description: Programmatically create tables, upload compressed files via buckets, and run data change tasks (insert, update, upsert, delete) in Prism.
+  name: External Data Loading with Prism Analytics
+- description: Secure access to REST endpoints using OAuth 2.0 client credentials, refresh tokens, and bearer tokens managed through API client setup.
+  name: OAuth 2.0 Authentication
+- description: Retrieve report data in JSON, CSV, XML, RSS, and other formats with query parameter control over filtering, prompts, and pagination.
+  name: Multi-Format Output
+finops:
+- name: Workday Report Writer Finops
+  service_category: Reporting / Analytics
+  slug: workday-report-writer-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-report-writer.png
+integrations:
+- description: Land Workday RaaS and WQL extracts into Snowflake stages for use in enterprise data warehouse pipelines.
+  name: Snowflake
+- description: Ingest Workday report data into Databricks for analytics, ML feature engineering, and lakehouse modeling.
+  name: Databricks
+- description: Connect Tableau to RaaS endpoints or downstream warehouses to build interactive dashboards on Workday HCM and financial data.
+  name: Tableau
+- description: Use RaaS JSON or CSV outputs as data sources for Microsoft Power BI reports and semantic models.
+  name: Power BI
+- description: Orchestrate Workday API calls in iPaaS workflows that move data between Workday and third-party SaaS applications.
+  name: Workato
+- description: Build integration pipelines using SnapLogic's Workday Snap Pack to read RaaS, WQL, and Prism endpoints.
+  name: SnapLogic
+- description: Connect Workday APIs to ERP, CRM, and HRIS systems through Boomi AtomSphere integration processes.
+  name: Boomi
+json_schemas:
+- name: Workday Prism Analytics Table Schema
+  property_count: 1
+  slug: workday-report-writer-prism-table
+layout: provider
+modified: '2026-05-19'
+name: Workday Report Writer
+nav: Providers
+network: true
+overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, Erp, Financials, and Hrms.
+
+
+  The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 13 more developer resources.'
+plans:
+- name: Workday Report Writer Plans Pricing
+  plan_count: 1
+  slug: workday-report-writer-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 2
+  name: Workday Report Writer Rate Limits
+  slug: workday-report-writer-rate-limits
+rules:
+- name: Workday Report Writer API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: workday-report-writer-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 58.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 60.2
+    developer_ergonomics: 58.7
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 42.1
+  previous_composite: 58.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
+security:
+- kind: authentication
+  name: Workday Report Writer Authentication
+  slug: workday-report-writer-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Workday Report Writer Domain Security
+  slug: workday-report-writer-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Workday Report Writer Trust Center
+  slug: workday-report-writer-trust-center
+  summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
+slug: workday-report-writer
+solutions:
+- description: End-to-end workforce and people analytics built on Report Writer, RaaS, and WQL across the Workday HCM suite.
+  name: HCM Reporting
+- description: Custom financial reporting and extracts spanning ledgers, projects, procurement, and revenue across Workday Financial Management.
+  name: Financial Management Reporting
+- description: Bring external data into Workday and combine with native data sets to deliver advanced analytics and self-service reporting.
+  name: Prism Analytics
+tags:
+- Analytics
+- Enterprise
+- Erp
+- Financials
+- Hrms
+- Reporting
+- Saas
+use_cases:
+- description: Extract headcount, compensation, and turnover metrics from Workday HCM for downstream analytics, dashboards, and board reporting.
+  name: HR Analytics and Workforce Reporting
+- description: Pull custom financial reports for general ledger, accounts payable, and budget variance analysis in support of period close processes.
+  name: Financial Reporting and Close
+- description: Schedule RaaS or WQL extracts to feed Snowflake, BigQuery, Redshift, Databricks, or other downstream systems with Workday data.
+  name: Data Warehouse and Lake Hydration
+- description: Load external CSV or Parquet datasets into Prism Analytics tables to combine with native Workday data for cross-source reporting.
+  name: External Data Blending in Prism
+- description: Drive payroll vendors, benefits providers, and identity systems with scheduled report extracts derived from Workday source-of-truth data.
+  name: Operational Integrations
+- description: Generate audit-ready extracts of personnel actions, journal entries, and security configurations for regulatory and SOX compliance.
+  name: Compliance and Audit Reporting
+website: https://developer.workday.com/about
+---

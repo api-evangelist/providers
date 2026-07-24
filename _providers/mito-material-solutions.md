@@ -1,0 +1,78 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mitomaterials.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://mitomaterials.com/about/news
+created: '2026-07-17'
+description: MITO Material Solutions (MITO Materials) is a specialty chemical company that develops patented hybrid additive technology to strengthen composite and thermoplastic materials. Its platform functionalizes graphene and biomaterials to improve strength, durability, flexibility, and sustainability without requiring changes to a manufacturer's existing process. Core products include the MITO hybrid additive platform, MITO E-GO, MITO E-GO Res-1, and MITO ACRE, serving the sports and recreation, transportation, automotive, and infrastructure industries. The company is a Techstars portfolio company and was added to the API Evangelist network for enrichment. As of this pass, MITO publishes no developer API, SDK, or developer portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mito-material-solutions.png
+layout: provider
+modified: '2026-07-20'
+name: MITO Material Solutions
+nav: Providers
+network: true
+overview: 'MITO Material Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials Science, Specialty Chemicals, Composites, and Graphene.
+
+
+  MITO Material Solutions'' developer surface includes engineering blog and 1 more developer resources.'
+random_paper: 40
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: mito-material-solutions
+tags:
+- Company
+- Materials Science
+- Specialty Chemicals
+- Composites
+- Graphene
+- Advanced Materials
+- Manufacturing
+website: https://mitomaterials.com/
+---

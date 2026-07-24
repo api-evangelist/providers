@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token transfers.
+  name: Compound Finance GraphQL API
+  slug: compound-finance-graphql-api
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/compound-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/compound-domain-security.yml
+created: '2026-06-14'
+description: Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow cryptocurrencies (DeFi lending protocol) built on Ethereum.
+graphqls:
+- description: Compound Finance is a decentralized, blockchain-based DeFi lending protocol built on Ethereum. It allows users to supply assets to earn interest or borrow assets against supplied collateral. The proto
+  name: Compound Finance GraphQL API
+  slug: compound-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/compound.png
+layout: provider
+modified: '2026-06-14'
+name: Compound Finance
+nav: Providers
+network: true
+overview: Compound Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Ethereum, and Blockchain.
+random_paper: 2
+score:
+  band: minimal
+  composite: 8.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/screenshots/compound-2026-06-20T174841.png
+security:
+- kind: domain-security
+  name: Compound Domain Security
+  slug: compound-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Compound Vulnerability Disclosure
+  slug: compound-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: compound
+tags:
+- DeFi
+- Lending
+- Borrowing
+- Ethereum
+- Blockchain
+- Finance
+- Cryptocurrency
+---

@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/popchill-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://popchill.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://popchillhelp.zendesk.com/hc/zh-tw
+created: '2026-07-17'
+description: PopChill is Taiwan's largest secondhand luxury fashion trading platform, operating as a mobile marketplace app for buying and selling authenticated pre-owned designer goods including handbags, watches, jewelry, apparel, and footwear from Chanel, Hermes, Louis Vuitton, Dior, Gucci, Prada, and 40+ other brands. The company provides item authentication, secure transactions, and seller support to a consumer audience. PopChill is backed by 500 Global. As of this enrichment pass the company publishes no public developer portal, API documentation, or technical integration surface; this profile tracks the company in the API Evangelist network pending any future API program.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popchill.png
+layout: provider
+modified: '2026-07-20'
+name: PopChill
+nav: Providers
+network: true
+overview: 'PopChill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Marketplace, Fashion, and Secondhand.
+
+
+  PopChill''s developer surface includes support and 2 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Popchill Domain Security
+  slug: popchill-domain-security
+  summary_line: TLSv1.3
+slug: popchill
+tags:
+- Company
+- Ecommerce
+- Marketplace
+- Fashion
+- Secondhand
+- Luxury Resale
+- Mobile App
+- Taiwan
+website: https://popchill.com
+---

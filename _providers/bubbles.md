@@ -1,0 +1,182 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Bubbles Agentic Access
+  operation_count: 8
+  slug: bubbles-agentic-access
+  summary_line: 8 operations · 5 acting
+api_count: 3
+apis:
+- description: 'The Bubble Data API allows external services to read, create, update, and delete data stored in Bubble apps via REST endpoints. The API supports authentication via API keys and exposes app data types '
+  name: Bubble Data API
+  slug: bubble-data-api
+- description: The Bubble Workflow API enables external systems to trigger backend workflows in a Bubble app via HTTP requests. Workflows can receive data, execute business logic, and return results, supporting inte
+  name: Bubble Workflow API
+  slug: bubble-workflow-api
+- description: Generic CRUD operations against your Bubble application data types.
+  name: Bubble Data API
+  slug: bubbles-data-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Bubble Data API
+  slug: open-bubbles
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bubbles-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/bubbles-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bubbles-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bubbles-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bubble-hq
+- group: company
+  title: ''
+  type: Website
+  url: https://bubble.io
+- group: start
+  title: ''
+  type: Portal
+  url: https://manual.bubble.io/core-resources/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://manual.bubble.io
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://manual.bubble.io/core-resources/api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://bubble.io/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://bubble.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://bubble.io/privacy
+- group: start
+  title: ''
+  type: Signup
+  url: https://bubble.io/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://bubble.io/login
+- group: operate
+  title: ''
+  type: Forums
+  url: https://forum.bubble.io
+- group: company
+  title: ''
+  type: Blog
+  url: https://bubble.io/blog
+created: '2024-11-13'
+description: Bubble is an AI-powered no-code development platform that enables individuals and teams to design and launch scalable web applications without writing code. Bubble provides a visual programming environment for building database-backed applications, marketplaces, SaaS tools, and enterprise applications. The platform includes API connector capabilities for integrating with external services via REST APIs, webhooks, and data APIs to expose app data programmatically.
+finops:
+- name: Bubbles Finops
+  service_category: API
+  slug: bubbles-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bubbles.png
+layout: provider
+modified: '2026-04-21'
+name: Bubble
+nav: Providers
+network: true
+overview: 'Bubble publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Applications, Low Code, No Code, Visual Programming, and Webhooks.
+
+
+  Bubble''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, and 9 more developer resources.'
+plans:
+- name: Bubbles Plans Pricing
+  plan_count: 3
+  slug: bubbles-plans-pricing
+random_paper: 21
+rate_limits:
+- limit_count: 5
+  name: Bubbles Rate Limits
+  slug: bubbles-rate-limits
+score:
+  band: developing
+  composite: 50.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 92.1
+    contract_quality: 51.3
+    developer_ergonomics: 41.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 50.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/screenshots/bubbles-2026-06-20T173737.png
+security:
+- kind: authentication
+  name: Bubbles Authentication
+  slug: bubbles-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Bubbles Domain Security
+  slug: bubbles-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Bubbles Trust Center
+  slug: bubbles-trust-center
+  summary_line: SOC 2, GDPR
+slug: bubbles
+tags:
+- Applications
+- Low Code
+- No Code
+- Visual Programming
+- Webhooks
+- Web Apps
+website: https://bubble.io
+---

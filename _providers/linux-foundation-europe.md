@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: API for Linux Foundation Europe, providing programmatic access to European open source project resources, governance frameworks, and collaboration tools for digital sovereignty initiatives.
+  name: Linux Foundation Europe API
+  slug: linux-foundation-europe-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/linux-foundation-europe-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/showcase/linux-foundation-europe
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://linuxfoundation.eu/projects
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/lf-europe
+created: '2026-03-16'
+description: Linux Foundation Europe is a regional hub under the Linux Foundation for European open source projects, governance, and collaboration. It hosts OpenWallet Foundation, Servo, NeoNephos, and other projects, providing a European framework for open source innovation and digital sovereignty.
+finops:
+- name: Linux Foundation Europe Finops
+  service_category: API
+  slug: linux-foundation-europe-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linux-foundation-europe.png
+layout: provider
+modified: '2026-04-28'
+name: Linux Foundation Europe
+nav: Providers
+network: true
+overview: 'Linux Foundation Europe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Europe, Governance, Linux Foundation, and Open Source.
+
+
+  Linux Foundation Europe''s developer surface includes documentation and 3 more developer resources.'
+plans:
+- name: Linux Foundation Europe Plans Pricing
+  plan_count: 3
+  slug: linux-foundation-europe-plans-pricing
+random_paper: 39
+rate_limits:
+- limit_count: 5
+  name: Linux Foundation Europe Rate Limits
+  slug: linux-foundation-europe-rate-limits
+score:
+  band: emerging
+  composite: 21.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 21.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linux-foundation-europe/refs/heads/main/screenshots/linux-foundation-europe-2026-06-20T184552.png
+security:
+- kind: domain-security
+  name: Linux Foundation Europe Domain Security
+  slug: linux-foundation-europe-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: linux-foundation-europe
+tags:
+- Europe
+- Governance
+- Linux Foundation
+- Open Source
+---

@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bithtv-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bith.ai
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://bith.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://bith.ai/signup
+created: '2026-07-17'
+description: Bith.ai (bith.tv) is an all-in-one, AI-powered video editing and content creation platform for creators, letting users record, edit, resize, caption, and publish short-form video reformatted for the major social platforms from a single browser-based dashboard. Founded in 2019 and headquartered in Amman, Jordan, the company is backed by 500 Global, BeyondCapital, Propeller, and Oasis500. Bith does not currently expose a public developer API, SDKs, or documentation surface; this profile was added to the API Evangelist network as a 500 Global portfolio lead and enriched with what the company publicly publishes (website, marketing tool pages, pricing, sign-up, and probed domain security posture).
+image: https://bith.ai/logos/bith-logo.png
+layout: provider
+modified: '2026-07-18'
+name: bith.tv
+nav: Providers
+network: true
+overview: 'bith.tv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Editing, Content Creation, and AI.
+
+
+  bith.tv''s developer surface includes pricing, signup flow, and 2 more developer resources.'
+random_paper: 45
+score:
+  band: minimal
+  composite: 11.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bithtv Domain Security
+  slug: bithtv-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: bithtv
+tags:
+- Company
+- Video
+- Video Editing
+- Content Creation
+- AI
+- Media
+- Social Media
+- Creator Tools
+website: https://bith.ai
+---

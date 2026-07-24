@@ -1,0 +1,87 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/security-service-fcu-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://ssfcu.org/
+- group: operate
+  title: ''
+  type: Support
+  url: https://ssfcu.org/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ssfcu.org/enrollment/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ssfcu.org/account-services/disclosures-and-terms#privacy
+created: '2026-07-23'
+description: 'Security Service Federal Credit Union (SSFCU), headquartered in San Antonio, Texas, is a member-owned, not-for-profit financial cooperative federally chartered and insured by the National Credit Union Administration (NCUA). It is one of the largest credit unions in the United States, serving members across Texas, Colorado, and Utah with consumer and business banking, deposit accounts, credit cards, auto and mortgage lending, and investment services through branches, online banking, and mobile apps. Its open-finance posture is the norm for a US credit union: there is no first-party public developer portal or downloadable API specification, and no public FDX or CFPB Section 1033 data-access API is documented. Consumer-permissioned account data is reachable only indirectly through third-party aggregators, and any API capability is delivered through its core banking provider rather than a self-serve developer program.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+layout: provider
+modified: '2026-07-23'
+name: Security Service Federal Credit Union
+nav: Providers
+network: true
+overview: 'Security Service Federal Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Open Finance.
+
+
+  Security Service Federal Credit Union''s developer surface includes support and 4 more developer resources.'
+random_paper: 9
+score:
+  band: minimal
+  composite: 14.6
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+security:
+- kind: domain-security
+  name: Security Service Fcu Domain Security
+  slug: security-service-fcu-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: security-service-fcu
+tags:
+- Financial Services
+- Banking
+- United States
+- Credit Union
+- Open Finance
+- Data Aggregation
+website: https://ssfcu.org/
+---

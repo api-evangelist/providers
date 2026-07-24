@@ -1,0 +1,161 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 34.6
+  scored_at: '2026-07-23'
+api_count: 9
+apis:
+- description: The Application API from Romit — 1 operation(s) for application.
+  name: Romit Application API
+  slug: romit-application-api
+- description: The Banking API from Romit — 8 operation(s) for banking.
+  name: Romit Banking API
+  slug: romit-banking-api
+- description: The Identity API from Romit — 9 operation(s) for identity.
+  name: Romit Identity API
+  slug: romit-identity-api
+- description: The Invoice API from Romit — 3 operation(s) for invoice.
+  name: Romit Invoice API
+  slug: romit-invoice-api
+- description: The OAuth API from Romit — 2 operation(s) for oauth.
+  name: Romit OAuth API
+  slug: romit-oauth-api
+- description: The Plan API from Romit — 3 operation(s) for plan.
+  name: Romit Plan API
+  slug: romit-plan-api
+- description: The Subscription API from Romit — 3 operation(s) for subscription.
+  name: Romit Subscription API
+  slug: romit-subscription-api
+- description: The Transfer API from Romit — 5 operation(s) for transfer.
+  name: Romit Transfer API
+  slug: romit-transfer-api
+- description: The User API from Romit — 2 operation(s) for user.
+  name: Romit User API
+  slug: romit-user-api
+artifact_total: 12
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://romit.io
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/romit-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/romit-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/romit-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/romit-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/romit-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/romit-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/romit-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/romit-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/romit-domain-security.yml
+created: '2026-07-17'
+description: Romit was a bank-agnostic digital wallet and payment-gateway platform for the card-not-present merchant-acquiring industry, built by a team of ex-Robocoin (bitcoin ATM) founders and backed by the 500 Global (500 Startups) accelerator. The Romit Merchant Suite let merchants stop chargebacks, reduce fraud and resolve disputes, while its consumer wallet let customers securely store payment methods, view transactions and communicate with merchants. Its OAuth2 REST API (api.romit.io/v1) exposed Banking (cards + linked bank accounts), Identity/KYC, Transfer (authorize/capture/refund/void money movement), Subscription, Plan and Invoice resources. Romit (romit.io) has since ceased operations; this profile captures the API surface derived from the surviving public evidence.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/romit.png
+layout: provider
+modified: '2026-07-21'
+name: Romit
+nav: Providers
+network: true
+overview: 'Romit publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application API, Banking API, Identity API, and 6 more. Tagged areas include Company, Payments, Fintech, Digital Wallet, and Payment Gateway.
+
+
+  Romit''s developer surface includes authentication, sandbox, and 8 more developer resources.'
+random_paper: 45
+scopes:
+- name: Romit Scopes
+  scope_count: 15
+  slug: romit-scopes
+  summary_line: 15 scopes · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 30.2
+  delta: 5.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 46.6
+    developer_ergonomics: 17.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 25.1
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Romit Authentication
+  slug: romit-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Romit Domain Security
+  slug: romit-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: romit
+tags:
+- Company
+- Payments
+- Fintech
+- Digital Wallet
+- Payment Gateway
+- Merchant Services
+- Chargebacks
+- Fraud Prevention
+- Invoicing
+- Subscriptions
+website: https://romit.io
+---

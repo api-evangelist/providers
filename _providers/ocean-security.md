@@ -1,0 +1,171 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 45.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Ocean Security Agentic Access
+  operation_count: 20
+  slug: ocean-security-agentic-access
+  summary_line: 20 operations · 3 acting
+api_count: 4
+apis:
+- description: Security metrics and analytics endpoints
+  name: Ocean Security Metrics API
+  slug: ocean-security-metrics-api
+- description: Manage tenant allow/deny list entries
+  name: Ocean Security Settings API
+  slug: ocean-security-settings-api
+- description: Phishing report (SONAR) management and response analytics
+  name: Ocean Security Sonar API
+  slug: ocean-security-sonar-api
+- description: Operations for retrieving threat information
+  name: Ocean Security Threats API
+  slug: ocean-security-threats-api
+artifact_total: 7
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ocean-security-agentic-access.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.ocean.security/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ocean.security/api-reference/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.ocean.security/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.ocean.security/documentation/getting-started
+- group: company
+  title: ''
+  type: Website
+  url: https://ocean.security
+- group: company
+  title: ''
+  type: Blog
+  url: https://ocean.security/resources/blog
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.ocean.security/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ocean.security/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ocean.security/legal/privacy-policy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ocean.security/demo
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ocean-security-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ocean-security-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ocean-security-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ocean-security-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ocean-security-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ocean-security-well-known.yml
+created: '2026-07-17'
+description: Ocean Security (Ocean) is an AI-native, agentic email security platform that stops targeted, AI-powered email attacks that surface-level detection tools miss. At its core is Ray, an autonomous investigation engine that reviews every inbound email in real time — checking the sender, content, links, technical infrastructure, and business context to decide whether a message can be trusted — enabling enterprises to stop phishing, business email compromise (BEC), impersonation, and financial fraud. The platform pairs deep email investigation with autonomous SOC triage and real-time employee inbox guidance. Ocean's REST API gives security teams programmatic access to detected threats, phishing reports (SONAR), allow/deny list settings, and ROI/security metrics such as hours saved and financial loss prevented. Founded in Israel and backed by Lightspeed Venture Partners, Ocean protects hundreds of thousands of mailboxes across Global Fortune 500 organizations.
+image: https://ocean.security/favicon.ico
+layout: provider
+modified: '2026-07-20'
+name: Ocean Security
+nav: Providers
+network: true
+overview: 'Ocean Security publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, Settings API, Sonar API, and 1 more. Tagged areas include Company, Security, Email Security, Cybersecurity, and Phishing.
+
+
+  Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 11 more developer resources.'
+random_paper: 23
+score:
+  band: thin
+  composite: 42.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 56.6
+    developer_ergonomics: 47.8
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 42.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Ocean Security Authentication
+  slug: ocean-security-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Ocean Security Domain Security
+  slug: ocean-security-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: ocean-security
+tags:
+- Company
+- Security
+- Email Security
+- Cybersecurity
+- Phishing
+- Threat Detection
+- Email
+- Anti-Phishing
+- Artificial Intelligence
+- Threat Intelligence
+website: https://ocean.security
+---

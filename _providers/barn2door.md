@@ -1,0 +1,122 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/barn2door-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.barn2door.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.barn2door.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.barn2door.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.barn2door.com/signup/seller
+- group: start
+  title: ''
+  type: Login
+  url: https://app.barn2door.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.barn2door.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.barn2door.com/legal#terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.barn2door.com/legal#privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Barn2Door-Inc
+created: '2026-07-17'
+description: Barn2Door is a Seattle-based commerce and business-management platform purpose-built for independent farmers and local food producers. It gives farms an online store, order and subscription management, inventory tracking, delivery and pickup logistics, integrated payments, and built-in marketing and customer-relationship tools, consolidating the systems a farm needs to sell direct-to-consumer and wholesale into a single dashboard. Barn2Door connects to partners including Mailchimp, QuickBooks Online, Stripe, Avalara, Shippo, Routific, Squarespace, and Facebook, but does not publish a public developer API or documentation portal at this time.
+image: https://static1.squarespace.com/static/5bc4da9c2727be232b242b1d/t/65806a6f0f038c1e7c9a44c4/1702914671916/B2D_Registered_Logo_Color.png?format=1500w
+layout: provider
+modified: '2026-07-18'
+name: Barn2Door
+nav: Providers
+network: true
+overview: 'Barn2Door is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Food, E-Commerce, and Farm Management.
+
+
+  Barn2Door''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
+random_paper: 38
+score:
+  band: emerging
+  composite: 19.6
+  delta: 1.9
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 17.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Barn2Door Domain Security
+  slug: barn2door-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: barn2door
+tags:
+- Company
+- Agriculture
+- Food
+- E-Commerce
+- Farm Management
+- Local Food
+- Payments
+- Logistics
+- SaaS
+website: https://www.barn2door.com
+---

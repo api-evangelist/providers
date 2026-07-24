@@ -1,0 +1,124 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kheironmed.com
+- group: company
+  title: ''
+  type: Website
+  url: https://deephealth.com/kheiron-medical-technologies/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://deephealth.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://deephealth.com/terms-of-service/
+- group: operate
+  title: ''
+  type: Support
+  url: https://deephealth.com/contact/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/kheiron-medical-technologies-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/kheiron-medical-technologies-security.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kheiron-medical-technologies-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kheiron-medical-technologies-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://deephealth.com/.well-known/security.txt
+created: '2026-07-17'
+description: Kheiron Medical Technologies is a London-founded medical-imaging AI company best known for Mia (Mammography Intelligent Assessment), a deep-learning solution that supports radiologists in breast-cancer screening as an independent, concurrent, or triage reader. Founded in 2016 and backed by investors including Atomico, Kheiron now operates as part of RadNet's DeepHealth, whose portfolio spans breast, prostate, lung, brain, and thyroid imaging plus the Diagnostic, Operations, and TechLive suites. This API Evangelist profile tracks Kheiron/DeepHealth as a health-AI provider; the company exposes clinical products and enterprise integrations rather than a public self-serve developer API, so most machine-readable API artifacts are not applicable and this record captures its identity, security, and legal surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kheiron-medical-technologies.png
+layout: provider
+modified: '2026-07-19'
+name: Kheiron Medical Technologies
+nav: Providers
+network: true
+overview: 'Kheiron Medical Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Medical Imaging, Artificial Intelligence, and Radiology.
+
+
+  Kheiron Medical Technologies'' developer surface includes support and 9 more developer resources.'
+random_paper: 40
+score:
+  band: emerging
+  composite: 17.7
+  delta: 4.5
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 13.2
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Kheiron Medical Technologies Domain Security
+  slug: kheiron-medical-technologies-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Kheiron Medical Technologies Vulnerability Disclosure
+  slug: kheiron-medical-technologies-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: kheiron-medical-technologies
+tags:
+- Company
+- Health
+- Medical Imaging
+- Artificial Intelligence
+- Radiology
+- Breast Cancer Screening
+- Diagnostics
+website: https://www.kheironmed.com
+---

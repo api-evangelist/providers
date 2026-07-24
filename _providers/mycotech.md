@@ -1,0 +1,83 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mycl.bio
+- group: company
+  title: ''
+  type: Blog
+  url: https://mycl.bio/news-blog/
+- group: company
+  title: ''
+  type: About
+  url: https://mycl.bio/about/
+created: '2026-07-17'
+description: MYCL (Mycotech Lab) is an Indonesian biomaterials company, founded in 2015 and based in Bandung, that cultivates mushroom mycelium on agricultural waste to produce sustainable, carbon-sequestering alternatives to animal leather, plastics, and construction materials. Its flagship product is Mylea, a mycelium-based leather-like material, alongside Biobo binder board, MYCL Composite for architecture and interior design, and Mylea Sea, a seaweed-based biopolymer. A certified B Corp and Good Design Award winner backed by 500 Global and the Unreasonable Group, MYCL sells physical materials and finished goods rather than software; it publishes no public API, developer portal, or developer documentation.
+image: https://mycl.bio/wp-content/uploads/2025/12/cropped-MYCL_Brandmark-04-1024x425-1.png
+layout: provider
+modified: '2026-07-20'
+name: Mycotech
+nav: Providers
+network: true
+overview: 'Mycotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biomaterials, Biotechnology, Sustainability, and Mycelium.
+
+
+  Mycotech''s developer surface includes engineering blog and 2 more developer resources.'
+random_paper: 44
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: mycotech
+tags:
+- Company
+- Biomaterials
+- Biotechnology
+- Sustainability
+- Mycelium
+- Materials Science
+- Circular Economy
+- Indonesia
+website: https://mycl.bio
+---

@@ -1,0 +1,144 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST API for Designer Cloud powered by Trifacta, exposing flows, wrangled recipes, imported/output datasets, jobs (jobGroups), connections, and deployment resources across the Google Cloud Dataprep, D
+  name: Trifacta REST API
+  slug: trifacta-rest-api
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/trifacta-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/trifacta-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.alteryx.com/trust
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.alteryx.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.trifacta.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.trifacta.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.trifacta.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.trifacta.com/terms-conditions/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/trifacta-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/trifacta-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/trifacta-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/trifacta-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/trifacta-domain-security.yml
+created: '2026-07-17'
+description: Trifacta is a data wrangling and data preparation platform that lets analysts and data engineers collaboratively profile, structure, clean, enrich, and pipeline data for analytics and machine learning. Founded in 2012 and spun out of Stanford/Berkeley research (backed by DCVC), Trifacta was acquired by Alteryx in early 2022 and the product is now marketed as Designer Cloud powered by Trifacta (and underpins Google Cloud Dataprep). Trifacta exposes a REST API across its product editions — Google Cloud Dataprep, Designer Cloud (SaaS), and self-managed Enterprise — for managing flows, wrangled recipes, datasets, jobs, and connections, along with a first-party Python SDK for automating data-preparation workflows.
+image: https://api.trifacta.com/doc-logo.d2480004.svg
+layout: provider
+modified: '2026-07-21'
+name: Trifacta
+nav: Providers
+network: true
+overview: 'Trifacta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Preparation, Data Wrangling, Data Engineering, and ETL.
+
+
+  Trifacta''s developer surface includes documentation, API reference, and 12 more developer resources.'
+random_paper: 30
+score:
+  band: emerging
+  composite: 22.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 0.0
+    developer_ergonomics: 21.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 22.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Trifacta Domain Security
+  slug: trifacta-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Trifacta Vulnerability Disclosure
+  slug: trifacta-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Trifacta Trust Center
+  slug: trifacta-trust-center
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
+slug: trifacta
+tags:
+- Company
+- Data Preparation
+- Data Wrangling
+- Data Engineering
+- ETL
+- Analytics
+- Machine Learning
+- Data Quality
+website: https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud
+---

@@ -1,0 +1,119 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: GraphQL adapter for Fastify enabling high-performance GraphQL servers and gateways with JIT compilation, query caching, subscriptions, and federation.
+  name: Mercurius API
+  slug: api
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mercurius-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://mercurius.dev/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://mercurius.dev/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mercuriusinc
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/mercurius-js
+- group: other
+  title: ''
+  type: Licensing
+  url: https://github.com/mercurius-js/mercurius/blob/master/LICENSE
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/mercurius-plans.md
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/mercurius-rate-limits.md
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/mercurius-finops.md
+created: 2026-06-14
+description: High-performance GraphQL server for Fastify with Just-In-Time compilation via graphql-jit, automatic query caching, N+1 prevention via dataloader integration, federation support, subscription via WebSocket, batched query support, and GraphQL Playground integration.
+graphqls:
+- description: Mercurius is a GraphQL adapter for Fastify. It exposes a GraphQL endpoint that handles queries, mutations, and subscriptions over HTTP and WebSocket.
+  name: Mercurius GraphQL
+  slug: mercurius-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercurius.png
+layout: provider
+modified: 2026-06-14
+name: Mercurius
+nav: Providers
+network: true
+overview: 'Mercurius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Fastify, Node.js, Federation, and WebSocket.
+
+
+  Mercurius'' developer surface includes documentation and 8 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 11.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 11.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mercurius/refs/heads/main/screenshots/mercurius-2026-06-20T185212.png
+security:
+- kind: domain-security
+  name: Mercurius Domain Security
+  slug: mercurius-domain-security
+  summary_line: TLSv1.3
+slug: mercurius
+tags:
+- GraphQL
+- Fastify
+- Node.js
+- Federation
+- WebSocket
+- Open Source
+website: https://mercurius.dev/
+---

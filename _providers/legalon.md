@@ -1,0 +1,195 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 13.5
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST API for the LegalOn contract platform. Documented capabilities cover contract file operations (upload, retrieve, update, delete), contract information management (register and update metadata suc
+  name: LegalOn Contract API
+  slug: contract-api
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.legalontech.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://legalontech.jp
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.legalontech.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.legalontech.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.legalontech.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.legalontech.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.legalontech.com/terms-and-conditions#Privacy-Policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.legalontech.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.legalontech.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.legalontech.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.legalontech.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.legalontech.com/new-at-legalon
+- group: operate
+  title: ''
+  type: Support
+  url: https://legalontech.jp/contact
+- group: company
+  title: ''
+  type: Press
+  url: https://www.legalontech.com/newsroom
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.legalontech.com/careers
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://www.legalontech.com/customers
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/legalon-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/legalon-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/legalon-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/legalon-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/legalon-changelog.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/legalon-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/legalon-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/legalon-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/legalon-llms.txt
+created: '2026-07-17'
+description: LegalOn Technologies is a legal-technology company building AI software for in-house legal teams, corporate legal operations, and law firms. Its platform covers AI contract review and redlining, contract playbooks, matter management, a contract data vault, translation, entity and board management, and agentic legal workflows, with a Microsoft Word integration for reviewing agreements in place. Founded in Japan as LegalForce and now operating in both Japan (legalontech.jp) and the United States (legalontech.com), the company runs a sibling product family for governance (GovernOn), sales (DealOn), HR (WorkOn), and marketing compliance (DocumentOn). LegalOn publishes a REST API for contract files and contract metadata — upload, retrieve, update and delete contract documents, register and update contract information such as counterparties and contract types, link related documents, and list registered contracts — authenticated with OAuth 2.0 client credentials, intended for integration
+  with contract management systems, CRM, and BI tooling. The API is announced publicly but its reference documentation is not published on the open web; access is arranged through the vendor. The company is backed by Hongshan and the SoftBank Vision Fund, and publishes SOC 2 Type II, ISO/IEC 27001:2022 and ISO/IEC 27017:2015 certifications through a public trust center.
+image: https://cdn.prod.website-files.com/68c03413336317ed3e6c0cb5/68f4566ea04559817c98ad87_LegalOn_OG%201.png
+layout: provider
+modified: '2026-07-19'
+name: LegalOn
+nav: Providers
+network: true
+overview: 'LegalOn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Legal, Legal Technology, and Contracts.
+
+
+  LegalOn''s developer surface includes engineering blog, pricing, changelog, support, authentication, and 20 more developer resources.'
+random_paper: 24
+score:
+  band: thin
+  composite: 30.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 30.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Legalon Authentication
+  slug: legalon-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Legalon Domain Security
+  slug: legalon-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Legalon Trust Center
+  slug: legalon-trust-center
+  summary_line: SOC 2, ISO 27001, ISO 27017, GDPR
+slug: legalon
+tags:
+- Company
+- Technology
+- Legal
+- Legal Technology
+- Contracts
+- Contract Management
+- Contract Lifecycle Management
+- Artificial Intelligence
+- Document Management
+- Compliance
+- Governance
+- SaaS
+- Japan
+website: https://www.legalontech.com/
+---

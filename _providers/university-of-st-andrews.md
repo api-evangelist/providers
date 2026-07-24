@@ -1,0 +1,216 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: University Of St Andrews Agentic Access
+  operation_count: 4
+  slug: university-of-st-andrews-agentic-access
+  summary_line: 4 operations
+api_count: 5
+apis:
+- description: OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) endpoint for the University of St Andrews Pure research information system, which underpins the public St Andrews Research Portal. A
+  name: Pure Research Portal OAI-PMH
+  slug: pure-oai
+- description: OAI-PMH endpoint for the DSpace-based St Andrews Research Repository, the institution's open-access repository of theses, articles, and other research outputs. Supports metadata harvesting via standar
+  name: St Andrews Research Repository OAI-PMH
+  slug: repository-oai
+- description: System components and their hierarchy.
+  name: University of St Andrews Components API
+  slug: university-of-st-andrews-components-api
+- description: Incidents and maintenance notices.
+  name: University of St Andrews Notices API
+  slug: university-of-st-andrews-notices-api
+- description: Overall page status.
+  name: University of St Andrews Status API
+  slug: university-of-st-andrews-status-api
+artifact_total: 23
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/university-of-st-andrews-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/university-of-st-andrews-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-st-andrews-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.st-andrews.ac.uk/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/StAResComp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-st-andrews/
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.st-andrews.ac.uk/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/university-of-st-andrews-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/university-of-st-andrews-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/university-of-st-andrews-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+created: '2026-06-03'
+description: 'The University of St Andrews is Scotland''s first university (founded 1413) and ranked #90 in the QS World University Rankings 2025. Its public developer and API footprint is modest and oriented toward research-data interoperability and operational transparency rather than a centralized developer portal. Confirmed public, machine-readable interfaces include a JSON service-status API, an OAI-PMH endpoint for the Pure research information system behind the St Andrews Research Portal, and an OAI-PMH interface for the DSpace-based St Andrews Research Repository. The university also maintains a Research Computing GitHub organization for software produced for and by its researchers.'
+examples:
+- key_count: 1
+  name: University Of St Andrews Getnotice Example
+  slug: university-of-st-andrews-getNotice-example
+- key_count: 1
+  name: University Of St Andrews Getstatus Example
+  slug: university-of-st-andrews-getStatus-example
+- key_count: 2
+  name: University Of St Andrews Listcomponents Example
+  slug: university-of-st-andrews-listComponents-example
+- key_count: 2
+  name: University Of St Andrews Listnotices Example
+  slug: university-of-st-andrews-listNotices-example
+finops:
+- name: University Of St Andrews Finops
+  service_category: Education
+  slug: university-of-st-andrews-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-st-andrews.png
+json_schemas:
+- name: Component
+  property_count: 9
+  slug: university-of-st-andrews-component
+- name: Notice
+  property_count: 17
+  slug: university-of-st-andrews-notice
+- name: Page
+  property_count: 8
+  slug: university-of-st-andrews-page
+json_structures:
+- name: University Of St Andrews Component Structure
+  property_count: 9
+  slug: university-of-st-andrews-component-structure
+- name: University Of St Andrews Notice Structure
+  property_count: 15
+  slug: university-of-st-andrews-notice-structure
+jsonld:
+- class_count: 28
+  name: University Of St Andrews Context
+  property_count: 2
+  slug: university-of-st-andrews-context
+layout: provider
+modified: '2026-06-03'
+name: University of St Andrews
+nav: Providers
+network: true
+overview: 'University of St Andrews publishes 3 APIs on the [APIs.io](https://apis.io/) network: Components API, Notices API, and Status API. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+
+
+  The University of St Andrews catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  University of St Andrews'' developer surface includes GitHub presence, status page, and 9 more developer resources.'
+plans:
+- name: University Of St Andrews Plans Pricing
+  plan_count: 2
+  slug: university-of-st-andrews-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 1
+  name: University Of St Andrews Rate Limits
+  slug: university-of-st-andrews-rate-limits
+rules:
+- name: University of St Andrews API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: university-of-st-andrews-jsonschema-spectral-rules
+- name: University of St Andrews API Rules
+  rule_count: 7
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 5
+  slug: university-of-st-andrews-rules
+score:
+  band: thin
+  composite: 42.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 55.8
+    developer_ergonomics: 0.0
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 26.3
+  previous_composite: 42.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/screenshots/university-of-st-andrews-2026-06-20T200233.png
+security:
+- kind: domain-security
+  name: University Of St Andrews Domain Security
+  slug: university-of-st-andrews-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: University Of St Andrews Vulnerability Disclosure
+  slug: university-of-st-andrews-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: university-of-st-andrews
+tags:
+- Education
+- Higher Education
+- University
+- Research
+- Open Access
+- OAI-PMH
+- Scotland
+- United Kingdom
+website: https://www.st-andrews.ac.uk/
+---

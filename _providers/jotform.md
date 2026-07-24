@@ -1,0 +1,212 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 21
+  human_in_the_loop: 0
+  name: Jotform Agentic Access
+  operation_count: 45
+  slug: jotform-agentic-access
+  summary_line: 45 operations · 21 acting
+api_count: 10
+apis:
+- description: EU-resident variant of the Jotform API for customers on EU plans / EU data residency.
+  name: Jotform REST API (EU)
+  slug: rest-eu
+- description: HIPAA-compliant variant of the Jotform API for healthcare customers on Gold/Enterprise tiers.
+  name: Jotform REST API (HIPAA)
+  slug: rest-hipaa
+- description: The Folder API from Jotform — 3 operation(s) for folder.
+  name: Jotform Folder API
+  slug: jotform-folder-api
+- description: The Form API from Jotform — 10 operation(s) for form.
+  name: Jotform Form API
+  slug: jotform-form-api
+- description: The Label API from Jotform — 4 operation(s) for label.
+  name: Jotform Label API
+  slug: jotform-label-api
+- description: The Report API from Jotform — 3 operation(s) for report.
+  name: Jotform Report API
+  slug: jotform-report-api
+- description: The Submission API from Jotform — 3 operation(s) for submission.
+  name: Jotform Submission API
+  slug: jotform-submission-api
+- description: The System API from Jotform — 1 operation(s) for system.
+  name: Jotform System API
+  slug: jotform-system-api
+- description: The User API from Jotform — 13 operation(s) for user.
+  name: Jotform User API
+  slug: jotform-user-api
+- description: The Webhook API from Jotform — 2 operation(s) for webhook.
+  name: Jotform Webhook API
+  slug: jotform-webhook-api
+artifact_total: 20
+asyncapis:
+- description: AsyncAPI definition for Jotform's webhook surface. Jotform delivers a POST request to a configured webhook URL each time a form receives a submission. The request body is sent as multipart/form-data a
+  name: Jotform Webhooks AsyncAPI
+  slug: jotform-asyncapi
+collections:
+- collection_type: open
+  name: Jotform REST API
+  slug: open-jotform
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/jotform-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/jotform-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jotform-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/jotform-authentication.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jotform.com/blog/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/jotform
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jotform.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.jotform.com/docs/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.jotform.com/pricing/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/jotform
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.jotform.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jotform-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/jotform-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/jotform-finops.yml
+created: '2026-05-08'
+description: Jotform is an online form builder with strong workflow, payments and data collection capabilities. The Jotform API exposes forms, submissions, reports, folders, users, files and webhooks across three regional/compliance endpoints (US standard, EU, HIPAA). API-key authentication via header or query string.
+finops:
+- name: Jotform Finops
+  service_category: Forms / Workflow
+  slug: jotform-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jotform.png
+layout: provider
+modified: '2026-05-30'
+name: Jotform
+nav: Providers
+network: true
+overview: 'Jotform publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Folder API, Form API, Label API, and 5 more. Tagged areas include Forms, Surveys, No-Code, Data Collection, and Workflow.
+
+
+  The Jotform catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Jotform''s developer surface includes authentication, engineering blog, documentation, pricing, GitHub presence, and 9 more developer resources.'
+plans:
+- name: Jotform Plans Pricing
+  plan_count: 5
+  slug: jotform-plans-pricing
+random_paper: 4
+rate_limits:
+- limit_count: 9
+  name: Jotform Rate Limits
+  slug: jotform-rate-limits
+rules:
+- name: Jotform API Rules
+  rule_count: 3
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 1
+    warn: 1
+  slug: jotform-asyncapi-spectral-rules
+score:
+  band: developing
+  composite: 47.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 61.9
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 34.2
+    operational_transparency: 52.6
+  previous_composite: 47.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
+security:
+- kind: authentication
+  name: Jotform Authentication
+  slug: jotform-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Jotform Domain Security
+  slug: jotform-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Jotform Vulnerability Disclosure
+  slug: jotform-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: jotform
+tags:
+- Forms
+- Surveys
+- No-Code
+- Data Collection
+- Workflow
+- HIPAA
+- EU
+website: https://www.jotform.com/
+---

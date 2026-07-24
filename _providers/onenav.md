@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://onenav.ai
+- group: company
+  title: ''
+  type: About
+  url: https://onenav.ai/about/
+- group: company
+  title: ''
+  type: Blog
+  url: https://onenav.ai/media/
+- group: operate
+  title: ''
+  type: Support
+  url: https://onenav.ai/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://onenav.ai/pdfviewer/privacy-policy/?auto_viewer=true
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://onenav.ai/pdfviewer/terms-and-conditions/?auto_viewer=true
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/onenav-inc
+created: '2026-07-17'
+description: oneNav is a fabless GNSS (Global Navigation Satellite System) semiconductor company building the next generation of mobile positioning. Its L5-direct receiver acquires and tracks on the modern L5 satellite band without legacy L1 aiding, delivering higher location accuracy in urban canyons and far greater resilience to GPS jamming and spoofing, in half the RF size, power and cost of hybrid L1+L5 solutions. Founded in 2019 (Steve Poizner, Paul McBurney) with offices in Sunnyvale, CA and Tampere, Finland, oneNav targets smartphones, wearables, IoT trackers, defense and emergency services. It is backed by GV, Norwest Venture Partners and GSR Ventures. oneNav is a hardware/silicon company and does not publish a public developer API, OpenAPI, or developer portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onenav.png
+layout: provider
+modified: '2026-07-20'
+name: oneNav
+nav: Providers
+network: true
+overview: 'oneNav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, GNSS, GPS, and Positioning.
+
+
+  oneNav''s developer surface includes engineering blog, support, and 5 more developer resources.'
+random_paper: 35
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: onenav
+tags:
+- Company
+- Enterprise
+- GNSS
+- GPS
+- Positioning
+- Navigation
+- Semiconductors
+- Location
+- Hardware
+website: http://onenav.ai
+---

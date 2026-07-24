@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://paraform.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.paraform.com/blog
+- group: company
+  title: ''
+  type: About
+  url: https://www.paraform.com/about
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://api.paraform.com/help
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.paraform.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://www.paraform.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.paraform.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.paraform.com/privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/paraform-domain-security.yml
+created: '2026-07-17'
+description: Paraform is an agentic hiring marketplace where expert recruiters and custom AI agents work together to fill companies' most important roles. Companies post open roles and work with multiple vetted recruiters from a network of 10,000+ professionals in one place, while Paraform's AI toolkit handles sourcing, candidate matching, CRM, notetaking, and scheduling. The platform charges a listing (subscription) fee to publish roles and a success fee when a hire is made. Paraform does not publish a public developer API; instead it integrates into customers' existing ATS and productivity tools (Ashby, Greenhouse, Slack, Gmail, Calendly, Google Calendar) by consuming those partners' APIs and webhooks to keep candidate, role, and interview status in sync bidirectionally.
+image: https://cdn.sanity.io/images/e5ozko3p/production/e4f5df30343c3ff0af78b7c5cef694da86120b9b-2400x1260.jpg?auto=format
+layout: provider
+modified: '2026-07-20'
+name: Paraform
+nav: Providers
+network: true
+overview: 'Paraform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Talent, and Marketplace.
+
+
+  Paraform''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+random_paper: 40
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Paraform Domain Security
+  slug: paraform-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: paraform
+tags:
+- Company
+- Recruiting
+- Hiring
+- Talent
+- Marketplace
+- Human Resources
+- AI Agents
+- ATS Integration
+website: https://paraform.com
+---

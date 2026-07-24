@@ -1,0 +1,214 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 56.7
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: Fetch generated assets and projects
+  name: Kaedim Assets API
+  slug: kaedim-assets-api
+- description: Token refresh
+  name: Kaedim Auth API
+  slug: kaedim-auth-api
+- description: Submit images for 3D asset generation
+  name: Kaedim Generation API
+  slug: kaedim-generation-api
+- description: Register a webhook endpoint and obtain a JWT
+  name: Kaedim Webhooks API
+  slug: kaedim-webhooks-api
+artifact_total: 8
+asyncapis:
+- description: Event surface for Kaedim 3D asset generation. After registering an HTTPS endpoint via the Web API (/registerHook), Kaedim POSTs a signed webhook to that endpoint whenever a generation stage changes st
+  name: Kaedim Webhooks
+  slug: kaedim-webhooks-asyncapi
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kaedim-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kaedim-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kaedim-conventions.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/kaedim-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/kaedim-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/kaedim-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kaedim-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://github.com/Kaedim/kaedim_status
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/kaedim-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kaedim-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kaedim-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/kaedim-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/kaedim-packages.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kaedim-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/kaedim-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kaedim-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.kaedim3d.com/privacy
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kaedim-web-api-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.kaedim3d.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.kaedim3d.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.kaedim3d.com/enterprise-features/custom-integrations/apis/web-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.kaedim3d.com/welcome/get-started/quick-start
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Kaedim
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kaedim3d.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://docs.kaedim3d.com/welcome/get-started/sign-up
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kaedim3d.com
+created: '2026-07-17'
+description: 'Kaedim is an AI 3D asset generation company (backed by a16z) that turns 2D images — photos, sketches and concept art — into production-ready 3D models for games, e-commerce and simulation. The Enterprise Web API lets developers integrate Kaedim''s 2D-to-3D pipeline into internal modelling workflows and user-generated-content products: submit up to six images at a chosen level of quality, track generation by requestID, receive results via signed webhooks, and download models in obj, fbx, glb, gltf, mtl and usd formats. Kaedim also ships first-party plugins for Unity, Unreal, Blender, Cinema 4D and NVIDIA Omniverse. Authentication uses an X-API-Key header plus a 12-hour JWT bearer token; generation is asynchronous and completes in roughly 10-15 minutes.'
+image: https://www.kaedim3d.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: kaedim-mcp.yml
+  slug: kaedim-mcpyml
+modified: '2026-07-19'
+name: Kaedim
+nav: Providers
+network: true
+overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Auth API, Generation API, and 1 more. Tagged areas include Company, 3D, Artificial Intelligence, Generative AI, and Gaming.
+
+
+  The Kaedim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
+random_paper: 7
+score:
+  band: developing
+  composite: 54.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 69.9
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 54.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Kaedim Authentication
+  slug: kaedim-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Kaedim Domain Security
+  slug: kaedim-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: kaedim
+tags:
+- Company
+- 3D
+- Artificial Intelligence
+- Generative AI
+- Gaming
+- 3D Models
+- Asset Generation
+- Content Generation
+- Machine Learning
+website: https://www.kaedim3d.com
+---

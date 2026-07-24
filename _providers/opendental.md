@@ -1,0 +1,192 @@
+---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 37
+  human_in_the_loop: 0
+  name: Opendental Agentic Access
+  operation_count: 68
+  slug: opendental-agentic-access
+  summary_line: 68 operations · 37 acting
+api_count: 13
+apis:
+- description: MODELED. Adjustments and payment splits on the patient ledger.
+  name: Open Dental Accounts & Ledger API
+  slug: opendental-accounts-ledger-api
+- description: CONFIRMED. Scheduling, slots, and WebSched.
+  name: Open Dental Appointments API
+  slug: opendental-appointments-api
+- description: CONFIRMED. Insurance claims and claim workflow.
+  name: Open Dental Claims API
+  slug: opendental-claims-api
+- description: MODELED. Files and images attached to a patient.
+  name: Open Dental Documents API
+  slug: opendental-documents-api
+- description: MODELED. Procedure fees and fee schedules.
+  name: Open Dental Fees & Fee Schedules API
+  slug: opendental-fees-fee-schedules-api
+- description: MODELED. Medication catalog, patient meds, and prescriptions.
+  name: Open Dental Medications & Prescriptions API
+  slug: opendental-medications-prescriptions-api
+- description: CONFIRMED. Patient demographic records.
+  name: Open Dental Patients API
+  slug: opendental-patients-api
+- description: CONFIRMED. Patient payments, refunds, and split reallocation.
+  name: Open Dental Payments API
+  slug: opendental-payments-api
+- description: CONFIRMED. ProcedureLogs, insurance history, and group notes.
+  name: Open Dental Procedures API
+  slug: opendental-procedures-api
+- description: CONFIRMED. Dentists, hygienists, and billing entities.
+  name: Open Dental Providers API
+  slug: opendental-providers-api
+- description: MODELED. Hygiene / continuing-care recalls.
+  name: Open Dental Recalls API
+  slug: opendental-recalls-api
+- description: MODELED. Referral sources and attachments.
+  name: Open Dental Referrals API
+  slug: opendental-referrals-api
+- description: MODELED. Configurable clinical and administrative forms.
+  name: Open Dental Sheets API
+  slug: opendental-sheets-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Open Dental API
+  slug: open-opendental
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/opendental-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/opendental-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/opendental-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OpenDental
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/open-dental-software
+- group: company
+  title: ''
+  type: Website
+  url: https://www.opendental.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.opendental.com/site/apispecification.html
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/opendental-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/opendental-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/opendental-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://opendental.blog/feed/
+created: '2026-07-03'
+description: Open Dental is dental practice management software with an openly documented public REST API. The API is hosted at Open Dental headquarters (base https://api.opendental.com/api/v1) and lets approved third-party developers read and write practice data - patients, appointments, providers, procedures, insurance claims, payments, ledger adjustments, fee schedules, recalls, documents, medications and prescriptions, referrals, and clinical sheets - on behalf of Open Dental customers. Requests authenticate with a per-application Developer Key and a per-customer Customer Key sent together in an Authorization ODFHIR {DeveloperKey}/{CustomerKey} header. The public spec documents 130+ resource groups with GET/POST/PUT/DELETE operations. Open Dental also runs a local API Service option that talks to the on-premises Open Dental program without routing through Open Dental's servers, and a separate FHIR interface.
+finops:
+- name: Opendental Finops
+  service_category: Healthcare and Practice Management
+  slug: opendental-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendental.png
+layout: provider
+modified: '2026-07-03'
+name: Open Dental
+nav: Providers
+network: true
+overview: 'Open Dental publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts & Ledger API, Appointments API, Claims API, and 10 more. Tagged areas include Dental, Practice Management, Healthcare, EHR, and Patient Records.
+
+
+  Open Dental''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+plans:
+- name: Opendental Plans Pricing
+  plan_count: 3
+  slug: opendental-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 4
+  name: Opendental Rate Limits
+  slug: opendental-rate-limits
+score:
+  band: thin
+  composite: 35.2
+  delta: -1.5
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 51.9
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Opendental Authentication
+  slug: opendental-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Opendental Domain Security
+  slug: opendental-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: opendental
+tags:
+- Dental
+- Practice Management
+- Healthcare
+- EHR
+- Patient Records
+- REST
+website: https://www.opendental.com
+---

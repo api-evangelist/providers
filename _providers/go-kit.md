@@ -1,0 +1,128 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Go Kit is a programming toolkit for building microservices in Go, emphasizing domain-driven design, transport-agnostic service definitions, and best practices for distributed systems.
+  name: Go Kit
+  slug: go-kit
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/go-kit-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gokit.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://gokit.io/faq
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://gokit.io/examples/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/go-kit
+created: '2026-03-26'
+description: Go Kit is a programming toolkit for building microservices in Go, emphasizing domain-driven design, transport-agnostic service definitions, and best practices for distributed systems.
+finops:
+- name: Go Kit Finops
+  service_category: API
+  slug: go-kit-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/go-kit.png
+json_schemas:
+- name: Go Kit Service Transport Configuration
+  property_count: 10
+  slug: go-kit-transport-config
+layout: provider
+modified: '2026-04-28'
+name: Go Kit
+nav: Providers
+network: true
+overview: 'Go Kit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Systems, Domain-Driven Design, Frameworks, Go, and Golang.
+
+
+  The Go Kit catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Go Kit''s developer surface includes documentation, getting-started guide, and 3 more developer resources.'
+plans:
+- name: Go Kit Plans Pricing
+  plan_count: 3
+  slug: go-kit-plans-pricing
+random_paper: 26
+rate_limits:
+- limit_count: 5
+  name: Go Kit Rate Limits
+  slug: go-kit-rate-limits
+rules:
+- name: Go Kit API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: go-kit-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 35.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 11.3
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 35.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/go-kit/refs/heads/main/screenshots/go-kit-2026-06-20T181936.png
+security:
+- kind: domain-security
+  name: Go Kit Domain Security
+  slug: go-kit-domain-security
+  summary_line: TLSv1.3
+slug: go-kit
+tags:
+- Distributed Systems
+- Domain-Driven Design
+- Frameworks
+- Go
+- Golang
+- Microservices
+website: https://gokit.io/
+---

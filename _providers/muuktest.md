@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://muuktest.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://muuktest.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://muuktest.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://muuktest.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://muuktest.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://muuktest.com/privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/muuktest-domain-security.yml
+created: '2026-07-17'
+description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with expert QA engineers to deliver end-to-end, functional, regression, API, and performance testing across web, mobile, and API surfaces, using self-healing scripts (Playwright, Selenium, Appium), CI/CD integration, and detailed bug reporting with repro steps, logs, recordings, and Slack alerts. MuukTest is a managed testing service delivered through a Chrome recorder and a dedicated team rather than a self-service public developer API; it is backed by Techstars, the NSF SBIR program, MassChallenge, and Google for Startups.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muuktest.png
+layout: provider
+modified: '2026-07-20'
+name: Muuktest
+nav: Providers
+network: true
+overview: 'Muuktest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Test Automation, QA, and Quality Assurance.
+
+
+  Muuktest''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
+random_paper: 31
+score:
+  band: minimal
+  composite: 14.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Muuktest Domain Security
+  slug: muuktest-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: muuktest
+tags:
+- Company
+- Testing
+- Test Automation
+- QA
+- Quality Assurance
+- API Testing
+- Artificial Intelligence
+- Developer Tools
+- CI/CD
+website: https://muuktest.com/
+---

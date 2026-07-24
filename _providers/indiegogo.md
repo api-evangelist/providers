@@ -1,0 +1,200 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 69.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Indiegogo Agentic Access
+  operation_count: 3
+  slug: indiegogo-agentic-access
+  summary_line: 3 operations
+api_count: 2
+apis:
+- description: The Creators API from Indiegogo — 1 operation(s) for creators.
+  name: Indiegogo Creators API
+  slug: indiegogo-creators-api
+- description: The Projects API from Indiegogo — 2 operation(s) for projects.
+  name: Indiegogo Projects API
+  slug: indiegogo-projects-api
+artifact_total: 6
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://help.indiegogo.com/category/617-developer-resources
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.indiegogo.com/article/616-indiegogo-public-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.indiegogo.com/category/617-developer-resources
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.indiegogo.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.indiegogo.com/en/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/indiegogo
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.indiegogo.com/en/info/fees
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.indiegogo.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.indiegogo.com/about/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.indiegogo.com/about/privacy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/indiegogo-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/indiegogo-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/indiegogo-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/indiegogo-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/indiegogo-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/indiegogo-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/indiegogo-lifecycle.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/indiegogo-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/indiegogo-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/indiegogo-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/indiegogo-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/indiegogo-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.indiegogo.com/
+created: '2026-07-17'
+description: Indiegogo is a global crowdfunding platform where entrepreneurs, inventors, and creators raise money for products, creative works, and community projects through campaigns backed by individual contributors. Founded in 2008, it is one of the largest reward-based crowdfunding sites alongside Kickstarter, and it also runs InDemand for ongoing post-campaign fundraising. For developers, Indiegogo publishes a read-only Public API (https://www.indiegogo.com/api/public) that returns creators and active crowdfunding projects without authentication, with responses cached for a short duration. A separate, now-deprecated Partner API (api.indiegogo.com) previously offered token-authenticated access to campaign, perk, contribution, and comment data. This profile was seeded from VC-portfolio sourcing and enriched by the API Evangelist pipeline against the live public endpoints.
+image: https://avatars.githubusercontent.com/u/889441?v=4
+layout: provider
+mcp_servers:
+- description: ''
+  name: indiegogo-mcp.yml
+  slug: indiegogo-mcpyml
+modified: '2026-07-19'
+name: Indiegogo
+nav: Providers
+network: true
+overview: 'Indiegogo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Creators API and Projects API. Tagged areas include Company, Consumer, Crowdfunding, Fundraising, and Campaigns.
+
+
+  Indiegogo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+random_paper: 31
+score:
+  band: developing
+  composite: 46.0
+  delta: 1.4
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 57.5
+    developer_ergonomics: 56.5
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 44.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Indiegogo Authentication
+  slug: indiegogo-authentication
+  summary_line: none · 1 scheme
+- kind: domain-security
+  name: Indiegogo Domain Security
+  slug: indiegogo-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: indiegogo
+tags:
+- Company
+- Consumer
+- Crowdfunding
+- Fundraising
+- Campaigns
+- Payments
+- Marketplace
+- Creators
+website: https://www.indiegogo.com/
+---

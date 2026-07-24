@@ -1,0 +1,236 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: true
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 54.8
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Regrid Agentic Access
+  operation_count: 22
+  slug: regrid-agentic-access
+  summary_line: 22 operations · 4 acting
+api_count: 9
+apis:
+- description: Tile Map Service (TMS) providing interactive vector and raster map layers of the full Regrid parcel dataset for embedding in web and mobile mapping applications. Supports both Standard and Premium sch
+  name: Regrid Tile API
+  slug: regrid-tile-api
+- description: API delivering building footprint geometries matched to parcel records, including building square footage and building count per parcel.
+  name: Regrid Matched Building Footprints API
+  slug: regrid-matched-building-footprints-api
+- description: API providing standardized zoning data and classifications covering major US metropolitan areas, matched to parcel records.
+  name: Regrid Standardized Zoning API
+  slug: regrid-standardized-zoning-api
+- description: API providing current owner information and deeded property details with daily refresh cycles for up-to-date ownership tracking.
+  name: Regrid Daily Ownership Updates API
+  slug: regrid-daily-ownership-updates-api
+- description: Coverage, usage, and data quality endpoints
+  name: Regrid Metadata API
+  slug: regrid-metadata-api
+- description: Filter parcel dataset by indexed schema attributes
+  name: Regrid Parcel Query API
+  slug: regrid-parcel-query-api
+- description: Search parcel records by various criteria
+  name: Regrid Parcel Search API
+  slug: regrid-parcel-search-api
+- description: Field schema definitions for parcel data products
+  name: Regrid Schemas API
+  slug: regrid-schemas-api
+- description: Address autocomplete suggestions
+  name: Regrid Typeahead API
+  slug: regrid-typeahead-api
+artifact_total: 20
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/regrid-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/regrid-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/regrid-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://regrid.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.regrid.com/api/section/parcel-api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://app.regrid.com/api/plans
+- group: company
+  title: ''
+  type: Blog
+  url: https://regrid.com/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.regrid.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/regridapp
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/regridapp
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/regrid-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/regrid-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/regrid-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/regrid-vocabulary.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/regrid-parcel-properties.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/regrid-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/parcel-point-lookup-response.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/parcel-area-search-request.json
+- group: company
+  title: ''
+  type: Blog
+  url: blogs/blogs.json
+created: 2026-06-12
+description: Regrid is a national land parcel data platform providing REST APIs for querying parcel boundaries, ownership, zoning, assessed values, and deed records across all US counties and Canadian provinces. The platform offers a Parcel API for retrieving structured GeoJSON parcel records by location, address, APN, owner, or polygon area, alongside a Tile API delivering raster and vector map layers. Additional APIs cover matched secondary addresses, building footprints, standardized zoning, and daily ownership updates. Authentication uses API token parameters, billing is metered by parcel records returned, and self-serve monthly subscriptions are available in Standard and Premium schema tiers with enterprise custom packages also offered.
+examples:
+- key_count: 3
+  name: Parcel Area Search Request
+  slug: parcel-area-search-request
+- key_count: 4
+  name: Parcel Point Lookup Response
+  slug: parcel-point-lookup-response
+finops:
+- name: Regrid Finops
+  service_category: ''
+  slug: regrid-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regrid.png
+json_schemas:
+- name: Regrid Parcel Properties
+  property_count: 53
+  slug: regrid-parcel-properties
+jsonld:
+- class_count: 2
+  name: Regrid Context
+  property_count: 56
+  slug: regrid-context
+layout: provider
+modified: 2026-06-12
+name: Regrid
+nav: Providers
+network: true
+overview: 'Regrid publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Parcel Query API, Parcel Search API, and 2 more. Tagged areas include Parcels, Land Data, Property Data, GeoJSON, and Real Estate.
+
+
+  The Regrid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Regrid''s developer surface includes authentication, documentation, pricing, engineering blog, code examples, and 14 more developer resources.'
+plans:
+- name: Regrid Plans Pricing
+  plan_count: 4
+  slug: regrid-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 0
+  name: Regrid Rate Limits
+  slug: regrid-rate-limits
+rules:
+- name: Regrid API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: regrid-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 53.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 66.9
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 15.8
+  previous_composite: 53.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
+security:
+- kind: authentication
+  name: Regrid Authentication
+  slug: regrid-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Regrid Domain Security
+  slug: regrid-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: regrid
+tags:
+- Parcels
+- Land Data
+- Property Data
+- GeoJSON
+- Real Estate
+- Zoning
+- Ownership
+- Geospatial
+- Mapping
+- Tiles
+website: https://regrid.com
+---

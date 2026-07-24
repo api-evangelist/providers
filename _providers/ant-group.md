@@ -1,0 +1,175 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: true
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 22.1
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Antom (Ant Group Global) AMS REST API for online payments, tokenized and subscription payments, refunds, captures, disputes, payouts and 3-D Secure 2 authentication across global payment methods. RSA2
+  name: Antom Payments API (Alipay Merchant Services)
+  slug: antom-payments-api-alipay-merchant-services
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://antgroup.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.antom.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.antom.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.antom.com/ac/ams/api_fund
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.antom.com/integration_guide
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/alipay
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.alipay.com/global-payments/home
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.antgroup.com/en/news-media/media-library
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://render.alipay.com/p/f/agreementcenter/antom_privacy.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://render.alipay.com/p/f/agreementcenter/antom_service.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ant-group-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ant-group-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ant-group-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ant-group-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/ant-group-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ant-group-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ant-group-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ant-group-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ant-group-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ant-group-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ant-group-llms.txt
+created: '2026-07-17'
+description: Ant Group is a Hangzhou-based fintech and technology company, operator of the Alipay digital payment and lifestyle super-app and parent of the Antom global merchant-payment business, the Alipay+ cross-border mobile-payment network, MYbank, and the ZOLOZ digital-identity platform. Its public developer surface is Antom (formerly Alipay Global), whose Alipay Merchant Services (AMS) REST API covers one-time payments, tokenized/auto-debit and subscription payments, refunds, captures, disputes, payouts, and 3-D Secure authentication across hundreds of global payment methods. Antom publishes first-party server SDKs (Java, Python, PHP, Go, .NET), a Web/WAP client SDK, a sandbox with a test dashboard and test wallet, RSA256 request signing, request-scoped idempotency, and dated release notes.
+image: https://logo.clearbit.com/antgroup.com
+layout: provider
+modified: '2026-07-17'
+name: Ant Group
+nav: Providers
+network: true
+overview: 'Ant Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Payments, Fintech, and Digital Wallet.
+
+
+  Ant Group''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 14 more developer resources.'
+random_paper: 7
+score:
+  band: thin
+  composite: 34.5
+  delta: 3.5
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 31.0
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Ant Group Authentication
+  slug: ant-group-authentication
+  summary_line: signature/apiKey · 1 scheme
+- kind: domain-security
+  name: Ant Group Domain Security
+  slug: ant-group-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: ant-group
+tags:
+- Company
+- Technology
+- Payments
+- Fintech
+- Digital Wallet
+- Cross-Border Payments
+- Merchant Services
+- Alipay
+- Antom
+website: https://antgroup.com
+---

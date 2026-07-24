@@ -1,0 +1,235 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Unsplash Agentic Access
+  operation_count: 29
+  slug: unsplash-agentic-access
+  summary_line: 29 operations · 7 acting
+api_count: 7
+apis:
+- description: Photo collection management
+  name: Unsplash Collections API
+  slug: unsplash-collections-api
+- description: Authenticated user operations
+  name: Unsplash Current User API
+  slug: unsplash-current-user-api
+- description: Photo browsing and management operations
+  name: Unsplash Photos API
+  slug: unsplash-photos-api
+- description: Search photos, collections, and users
+  name: Unsplash Search API
+  slug: unsplash-search-api
+- description: Platform statistics
+  name: Unsplash Stats API
+  slug: unsplash-stats-api
+- description: Editorial topic operations
+  name: Unsplash Topics API
+  slug: unsplash-topics-api
+- description: User profile operations
+  name: Unsplash Users API
+  slug: unsplash-users-api
+artifact_total: 23
+collections:
+- collection_type: open
+  name: Unsplash API
+  slug: open-unsplash
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/unsplash-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/unsplash-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/unsplash-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/unsplash-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/unsplash-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/unsplash
+- group: company
+  title: ''
+  type: Website
+  url: https://unsplash.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://unsplash.com/documentation
+- group: other
+  title: ''
+  type: Developers
+  url: https://unsplash.com/developers
+- group: docs
+  title: ''
+  type: Guidelines
+  url: https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/unsplash
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://unsplash.com/documentation/changelog
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/vocabulary/unsplash-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/json-ld/unsplash-context.jsonld
+- group: company
+  title: ''
+  type: Blog
+  url: https://unsplash.com/blog/rss/
+created: '2024-11-13'
+description: Unsplash is a platform providing the world's largest collection of high-quality, freely usable photographs. The Unsplash API gives developers programmatic access to search, browse, and retrieve photos, collections, topics, and user profiles. Photos are provided under the Unsplash License. Authentication uses Client-ID for public access or OAuth 2.0 for user-delegated operations.
+examples:
+- key_count: 2
+  name: Unsplash Get Random Photo Example
+  slug: unsplash-get-random-photo-example
+- key_count: 2
+  name: Unsplash Search Photos Example
+  slug: unsplash-search-photos-example
+finops:
+- name: Unsplash Finops
+  service_category: API
+  slug: unsplash-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unsplash.png
+json_schemas:
+- name: Unsplash Photo
+  property_count: 20
+  slug: unsplash-photo
+json_structures:
+- name: Unsplash Photo Structure
+  property_count: 0
+  slug: unsplash-photo-structure
+jsonld:
+- class_count: 11
+  name: Unsplash Context
+  property_count: 42
+  slug: unsplash-context
+layout: provider
+modified: '2026-05-19'
+name: Unsplash
+nav: Providers
+network: true
+overview: 'Unsplash publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Current User API, Photos API, and 4 more. Tagged areas include Photos, Images, Photography, Stock Photos, and Creative.
+
+
+  The Unsplash catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Unsplash''s developer surface includes authentication, documentation, GitHub presence, changelog, engineering blog, and 10 more developer resources.'
+plans:
+- name: Unsplash Plans Pricing
+  plan_count: 3
+  slug: unsplash-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 5
+  name: Unsplash Rate Limits
+  slug: unsplash-rate-limits
+rules:
+- name: Unsplash API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: unsplash-jsonschema-spectral-rules
+- name: Unsplash API Rules
+  rule_count: 8
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 4
+  slug: unsplash-rules
+scopes:
+- name: Unsplash Scopes
+  scope_count: 8
+  slug: unsplash-scopes
+  summary_line: 8 scopes · authorizationCode
+score:
+  band: developing
+  composite: 54.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 71.2
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 52.6
+  previous_composite: 54.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Unsplash Authentication
+  slug: unsplash-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
+- kind: domain-security
+  name: Unsplash Domain Security
+  slug: unsplash-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Unsplash Vulnerability Disclosure
+  slug: unsplash-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: unsplash
+tags:
+- Photos
+- Images
+- Photography
+- Stock Photos
+- Creative
+- Open Source
+- Media
+website: https://unsplash.com
+---

@@ -1,0 +1,224 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Cargodocs Agentic Access
+  operation_count: 12
+  slug: cargodocs-agentic-access
+  summary_line: 12 operations · 5 acting
+api_count: 7
+apis:
+- description: Common API endpoints shared across partner operations
+  name: CargoDocs Common API
+  slug: cargodocs-common-api
+- description: Endpoints for retrieving and downloading documents
+  name: CargoDocs Documents API
+  slug: cargodocs-documents-api
+- description: Partner Exchange API endpoints for customer and employee data
+  name: CargoDocs Exchange API
+  slug: cargodocs-exchange-api
+- description: Endpoints for importing shipment data to create documents
+  name: CargoDocs Import API
+  slug: cargodocs-import-api
+- description: Endpoints for drafting, issuing, and re-issuing electronic bills of lading
+  name: CargoDocs Issuance API
+  slug: cargodocs-issuance-api
+- description: Endpoints for receiving surrendered electronic bills of lading
+  name: CargoDocs Surrender API
+  slug: cargodocs-surrender-api
+- description: Endpoints for finding and managing transactions
+  name: CargoDocs Transactions API
+  slug: cargodocs-transactions-api
+artifact_total: 23
+collections:
+- collection_type: open
+  name: CargoDocs Customer Data/Docs API
+  slug: open-cargodocs-customer
+- collection_type: open
+  name: CargoDocs Issuer API
+  slug: open-cargodocs-issuer
+- collection_type: open
+  name: CargoDocs Partner API
+  slug: open-cargodocs-partner
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cargodocs-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cargodocs-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cargodocs-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.essdocs.com/
+- group: other
+  title: ''
+  type: Product
+  url: https://www.essdocs.com/cargodocs
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/cargodocs-context.jsonld
+- group: docs
+  title: ''
+  type: Partner Docs
+  url: https://cargodocs-partner.readme.io/
+- group: docs
+  title: ''
+  type: Issuer Docs
+  url: https://cargodocs-issuer.readme.io/
+- group: docs
+  title: ''
+  type: Customer Docs
+  url: https://cargodocs-customer.readme.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.essdocs.com/blog
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.essdocs.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.essdocs.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.essdocs.com/privacy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/essdocs
+created: '2025-01-08'
+description: CargoDocs, operated by EssDocs, is a digital trade documentation platform that eliminates paper-based shipping documents by letting carriers, shippers, banks, and partner platforms issue, sign, transfer, and surrender original electronic bills of lading (eBoL), sea waybills (SWB), warehouse warrants (eWW), and supporting trade documents. CargoDocs DocEx is used by container lines, NVOCCs, bulk/tanker carriers, commodity shippers, and trade finance banks to move documents in minutes rather than days while retaining negotiability and legal effect. Developers interact with CargoDocs through three OpenAPI-described REST APIs hosted on ReadMe - the Partner API (embed DocEx in third-party platforms), the Issuer API (carrier/NVOCC issuance and amendments), and the Customer Data/Docs API (exporter drafting and back-office integration).
+finops:
+- name: Cargodocs Finops
+  service_category: Trade Documentation Platform
+  slug: cargodocs-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cargodocs.png
+json_schemas:
+- name: CargoDocs Bill of Lading
+  property_count: 10
+  slug: cargodocs-bill-of-lading
+- name: CargoDocs Counterparty
+  property_count: 2
+  slug: cargodocs-counterparty
+- name: CargoDocs Customer
+  property_count: 2
+  slug: cargodocs-customer
+- name: CargoDocs Document
+  property_count: 4
+  slug: cargodocs-document
+- name: CargoDocs Transaction
+  property_count: 4
+  slug: cargodocs-transaction
+jsonld:
+- class_count: 0
+  name: Cargodocs Context
+  property_count: 5
+  slug: cargodocs-context
+layout: provider
+modified: '2026-05-19'
+name: CargoDocs
+nav: Providers
+network: true
+overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, Documentation, eBoL, EssDocs, and MLETR.
+
+
+  The CargoDocs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  CargoDocs'' developer surface includes authentication, engineering blog, and 12 more developer resources.'
+plans:
+- name: Cargodocs Plans Pricing
+  plan_count: 1
+  slug: cargodocs-plans-pricing
+random_paper: 31
+rate_limits:
+- limit_count: 1
+  name: Cargodocs Rate Limits
+  slug: cargodocs-rate-limits
+rules:
+- name: CargoDocs API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: cargodocs-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 47.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 64.6
+    developer_ergonomics: 13.0
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 47.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Cargodocs Authentication
+  slug: cargodocs-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Cargodocs Domain Security
+  slug: cargodocs-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: cargodocs
+tags:
+- Bills of Lading
+- Documentation
+- eBoL
+- EssDocs
+- MLETR
+- Shipping
+- Supply Chain
+- Trade
+- Trade Finance
+- Warehouse Warrants
+website: https://www.essdocs.com/
+---

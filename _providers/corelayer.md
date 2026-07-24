@@ -1,0 +1,228 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 35.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
+  name: Corelayer API
+  slug: corelayer-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Corelayer Webhooks
+  slug: corelayer-webhooks
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.corelayer.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.corelayer.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.corelayer.com/cli/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.corelayer.com/cli/overview
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.corelayer.com/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/corelayer-changelog.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://corelayer.statuspage.io
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.corelayer.com/roi
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.corelayer.com/signin
+- group: start
+  title: ''
+  type: Login
+  url: https://app.corelayer.com/signin
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@corelayer.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.corelayer.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.corelayer.com/privacy-policy
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.corelayer.com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.corelayer.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/corelayer-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/corelayer-mcp.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/corelayer-cli.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/corelayer-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/corelayer-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/corelayer-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/corelayer-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/corelayer-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/corelayer-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/corelayer-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/corelayer-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/corelayer-well-known.yml
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/CorelayerAI
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/corelayerai
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@CorelayerAI
+created: '2026-07-17'
+description: Corelayer is an AI-native platform for production software support and maintenance — an AI SRE / AI on-call engineer for engineering teams. It continuously monitors alerts, logs, infrastructure, and underlying data for issues, uses AI agents to investigate and root-cause incidents, and works to prevent them before they impact users. Purpose-built for complex, data-intensive, and regulated environments like finance, fintech, healthcare, and insurance, Corelayer connects to the whole production environment — code, databases, deployments, and observability — with on-prem/BYOC deployment, configurable PII masking, and confidential compute. It exposes a v1 REST API, a first-party CLI, an MCP server, an installable agent skill, custom-webhook ingestion, and a metrics SDK. Backed by Y Combinator (W26); operated by Sevvy AI, Inc.
+image: https://www.corelayer.com/opengraph-image
+layout: provider
+mcp_servers:
+- description: ''
+  name: corelayer-mcp.yml
+  slug: corelayer-mcpyml
+modified: '2026-07-18'
+name: Corelayer
+nav: Providers
+network: true
+overview: 'Corelayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, SRE, Incident Response, and Observability.
+
+
+  The Corelayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Corelayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
+random_paper: 48
+score:
+  band: developing
+  composite: 48.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 22.6
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 39.5
+  previous_composite: 48.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Corelayer Authentication
+  slug: corelayer-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Corelayer Domain Security
+  slug: corelayer-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Corelayer Trust Center
+  slug: corelayer-trust-center
+  summary_line: SOC 2 Type II
+slug: corelayer
+tags:
+- Company
+- AI
+- SRE
+- Incident Response
+- Observability
+- Production Support
+- Root Cause Analysis
+- Anomaly Detection
+- DevOps
+- Agent Native
+- MCP
+- Fintech
+website: https://docs.corelayer.com
+---

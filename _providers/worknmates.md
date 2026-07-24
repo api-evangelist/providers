@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getoffi.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getoffi.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.getoffi.com/faq-landing
+- group: start
+  title: ''
+  type: Login
+  url: https://www.getoffi.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.getoffi.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.getoffi.com/privacy
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/worknmates
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/worknmates/
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/Worknmates
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/get.offi/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/worknmates-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/worknmates-llms.txt
+created: '2026-07-17'
+description: Worknmates, now operating as OFFI (getoffi.com), is a Latin American flexible-workspace marketplace. Companies give employees budgets to book coworking spaces, offices, and work-ready apartments near where they live, with real-time transaction tracking, per-city budgets, and approved-space networks; hosts list and monetize their spaces, with payouts through dLocal and PayPal. A 500 Global portfolio company. No public developer program or documented API is published.
+image: https://www.getoffi.com/apple-touch-icon.png
+layout: provider
+modified: '2026-07-21'
+name: Worknmates
+nav: Providers
+network: true
+overview: 'Worknmates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coworking, Flexible Workspace, Hybrid Work, and Marketplace.
+
+
+  Worknmates'' developer surface includes pricing, support, and 10 more developer resources.'
+random_paper: 28
+score:
+  band: emerging
+  composite: 16.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 16.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Worknmates Domain Security
+  slug: worknmates-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: worknmates
+tags:
+- Company
+- Coworking
+- Flexible Workspace
+- Hybrid Work
+- Marketplace
+- Workplace
+- Latin America
+website: https://www.getoffi.com
+---

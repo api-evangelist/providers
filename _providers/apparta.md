@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/apparta-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://apparta.co
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://apparta.co/#plan
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tmp.apparta.co/contactanos
+- group: start
+  title: ''
+  type: Login
+  url: https://temp.apparta.co/
+- group: operate
+  title: ''
+  type: Support
+  url: https://tmp.apparta.co/contactanos
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/appartaco/
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/appartacol/
+created: '2026-07-17'
+description: Apparta is a Colombian hospitality technology company providing a reservation-management and guest-engagement platform for restaurants, bars, and dining venues across Latin America (Bogota, Medellin, Cali, Barranquilla). The SaaS product covers AI-assisted table assignment and floor-plan zoning, no-show prevention with prepayments and cancellation policies, a WhatsApp AI chatbot for automated bookings, CRM campaigns over SMS/email/WhatsApp, POS integration, branded booking pages and digital menus, and marketing connectors to Google, Google Maps, Instagram, TripAdvisor, and Facebook. Apparta is offered in tiered monthly plans (Basico, Standard, Plus) and is a portfolio company of 500 Global. No public developer API or OpenAPI surface is published as of this profiling; higher tiers expose a WhatsApp Business API integration on behalf of venues rather than a first-party Apparta API.
+image: https://tmp.apparta.co/img/banners.png
+layout: provider
+modified: '2026-07-17'
+name: Apparta
+nav: Providers
+network: true
+overview: 'Apparta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Restaurants, Reservations, and Booking.
+
+
+  Apparta''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
+random_paper: 31
+score:
+  band: minimal
+  composite: 12.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Apparta Domain Security
+  slug: apparta-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: apparta
+tags:
+- Company
+- Hospitality
+- Restaurants
+- Reservations
+- Booking
+- CRM
+- WhatsApp
+- Latin America
+- SaaS
+website: https://apparta.co
+---

@@ -1,0 +1,66 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Applimation was a provider of application Information Lifecycle Management (ILM) and enterprise data archiving software for packaged applications including SAP (ERP, HR, CRM, SRM, SCM, APO) and Oracle environments, helping customers manage the full data lifecycle from test-data management through archiving of inactive data to lower storage and database costs and improve application performance. Informatica acquired Applimation for approximately $40 million in an agreement announced in February 2009, folding its ILM and database-archiving technology into Informatica's data management portfolio. Applimation no longer operates as an independent company and publishes no developer surface, API, or documentation.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/applimation.png
+layout: provider
+modified: '2026-07-17'
+name: Applimation
+nav: Providers
+network: true
+overview: Applimation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management, Information Lifecycle Management, Data Archiving, and Enterprise Software.
+random_paper: 9
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: applimation
+tags:
+- Company
+- Data Management
+- Information Lifecycle Management
+- Data Archiving
+- Enterprise Software
+- SAP
+- Acquired
+- Defunct
+---

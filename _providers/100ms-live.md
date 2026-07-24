@@ -1,0 +1,334 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 34
+  human_in_the_loop: 8
+  name: 100Ms Live Agentic Access
+  operation_count: 63
+  slug: 100ms-live-agentic-access
+  summary_line: 63 operations · 34 acting · 8 human-in-the-loop
+api_count: 12
+apis:
+- description: In-session control of running rooms and connected peers.
+  name: 100ms Active Rooms API
+  slug: 100ms-live-active-rooms-api
+- description: Query webhook events, track events, recording events, errors, and peer quality.
+  name: 100ms Analytics API
+  slug: 100ms-live-analytics-api
+- description: Push the room feed to YouTube / Twitch / Facebook via RTMP.
+  name: 100ms External Streams API
+  slug: 100ms-live-external-streams-api
+- description: HLS live streams driven from a 100ms room.
+  name: 100ms Live Streams API
+  slug: 100ms-live-live-streams-api
+- description: Templates, roles, and recording configuration.
+  name: 100ms Policy API
+  slug: 100ms-live-policy-api
+- description: Real-time polls and quizzes inside a room.
+  name: 100ms Polls API
+  slug: 100ms-live-polls-api
+- description: Output assets (mp4, mp3, transcript, chat) produced by recordings.
+  name: 100ms Recording Assets API
+  slug: 100ms-live-recording-assets-api
+- description: Composite and track-level recordings of sessions.
+  name: 100ms Recordings API
+  slug: 100ms-live-recordings-api
+- description: Short codes used by client apps to join a room.
+  name: 100ms Room Codes API
+  slug: 100ms-live-room-codes-api
+- description: Persistent containers for a live session.
+  name: 100ms Rooms API
+  slug: 100ms-live-rooms-api
+- description: Historical sessions inside a room.
+  name: 100ms Sessions API
+  slug: 100ms-live-sessions-api
+- description: Per-room RTMP ingest stream keys.
+  name: 100ms Stream Keys API
+  slug: 100ms-live-stream-keys-api
+artifact_total: 32
+collections:
+- collection_type: open
+  name: 100ms Server-Side API
+  slug: open-100ms-live-server-side-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/100ms-live-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/100ms-live-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/100ms-live-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/100ms-live-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/100ms-live-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.100ms.live/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.100ms.live/docs/
+- group: start
+  title: ''
+  type: Signup
+  url: https://dashboard.100ms.live/register
+- group: other
+  title: ''
+  type: Dashboard
+  url: https://dashboard.100ms.live/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.100ms.live/pricing
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/100mslive
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.100ms.live/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.100ms.live/blog
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.100ms.live/docs/server-side/v2/how-to-guides/set-up-postman
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/100mslive
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/100mslive/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/web-sdks
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/100ms-ios-sdk
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/100ms-android
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/100ms-react-native
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/100ms-flutter
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/100mslive/server-sdks
+- group: build
+  title: ''
+  type: Samples
+  url: https://github.com/100mslive/100ms-examples
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/100ms-live-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/100ms-live-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/100ms-live-finops.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/100ms-live-room-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/100ms-live-recording-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/100ms-live-webhook-event-schema.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/100ms-live-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/100ms-live-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/100ms-live-rules.yml
+created: '2026-05-25'
+description: 100ms is a live video and audio infrastructure company headquartered in Bengaluru, India that provides developer SDKs and a REST control plane for embedding video conferencing, interactive live streaming (HLS), RTMP ingest/egress, recording, real-time chat/messaging, polls, whiteboard, and AI-powered transcription into applications. The company was acquired by Disney+ Hotstar (JioCinema/JioHotstar) in 2023 and continues to operate as an independent commercial SaaS — the same infrastructure powering some of the largest live cricket audiences in the world (IPL on JioCinema/Hotstar). The platform exposes a single Server-Side REST API at api.100ms.live/v2 plus client SDKs for Web (JavaScript/React), iOS (Swift), Android (Kotlin), React Native, Flutter, and a Node.js server SDK, with public OpenAPI specs generated from the docs and a Postman collection.
+examples:
+- key_count: 2
+  name: 100Ms Live Create Room Example
+  slug: 100ms-live-create-room-example
+- key_count: 2
+  name: 100Ms Live Start Live Stream Example
+  slug: 100ms-live-start-live-stream-example
+- key_count: 2
+  name: 100Ms Live Webhook Session Open Example
+  slug: 100ms-live-webhook-session-open-example
+finops:
+- name: 100Ms Live Finops
+  service_category: Networking and Content Delivery
+  slug: 100ms-live-finops
+graphqls:
+- description: This document describes a conceptual GraphQL schema for the 100ms live video and audio infrastructure platform. 100ms provides a REST API at `api.100ms.live/v2` for managing rooms, templates, roles, p
+  name: 100ms Live GraphQL Schema
+  slug: 100ms-live-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/100ms-live.png
+json_schemas:
+- name: 100ms Recording
+  property_count: 11
+  slug: 100ms-live-recording
+- name: 100ms Room
+  property_count: 16
+  slug: 100ms-live-room
+- name: 100ms Webhook Event
+  property_count: 5
+  slug: 100ms-live-webhook-event
+json_structures:
+- name: 100Ms Live Room Structure
+  property_count: 0
+  slug: 100ms-live-room-structure
+jsonld:
+- class_count: 45
+  name: 100Ms Live Context
+  property_count: 7
+  slug: 100ms-live-context
+layout: provider
+modified: '2026-05-25'
+name: 100ms
+nav: Providers
+network: true
+overview: '100ms publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Active Rooms API, Analytics API, External Streams API, and 9 more. Tagged areas include Live Video, Live Streaming, Video Conferencing, WebRTC, and HLS.
+
+
+  The 100ms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  100ms'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, GitHub presence, engineering blog, and 25 more developer resources.'
+plans:
+- name: 100Ms Live Plans Pricing
+  plan_count: 3
+  slug: 100ms-live-plans-pricing
+random_paper: 30
+rate_limits:
+- limit_count: 5
+  name: 100Ms Live Rate Limits
+  slug: 100ms-live-rate-limits
+rules:
+- name: 100ms API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: 100ms-live-jsonschema-spectral-rules
+- name: 100ms API Rules
+  rule_count: 7
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 3
+  slug: 100ms-live-rules
+score:
+  band: strong
+  composite: 60.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 58.7
+    developer_ergonomics: 50.0
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 52.6
+  previous_composite: 60.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png
+security:
+- kind: authentication
+  name: 100Ms Live Authentication
+  slug: 100ms-live-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: 100Ms Live Domain Security
+  slug: 100ms-live-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: 100Ms Live Vulnerability Disclosure
+  slug: 100ms-live-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: 100Ms Live Trust Center
+  slug: 100ms-live-trust-center
+  summary_line: SOC 2, HIPAA
+slug: 100ms-live
+tags:
+- Live Video
+- Live Streaming
+- Video Conferencing
+- WebRTC
+- HLS
+- RTMP
+- Recording
+- Real-time Messaging
+- Live Infrastructure
+- India
+website: https://www.100ms.live/
+---

@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/smartex-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.smartex.ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.smartex.ai/blog
+- group: company
+  title: ''
+  type: Press
+  url: https://www.smartex.ai/press
+- group: start
+  title: ''
+  type: Login
+  url: https://fact.smartex.ai/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.smartex.ai/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.smartex.ai/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.smartex.ai/privacy-policy
+created: '2026-07-17'
+description: Smartex is an AI and computer-vision company founded in 2018 and headquartered in Porto, Portugal that builds hardware-enabled software for the textile manufacturing industry. Its systems inspect fabric in real time on the knitting machine to detect defects at the source, cutting textile waste, CO2 emissions, water, energy and rework. The product suite spans CORE (a machine-vision inspection add-on for circular knitting machines), FACT (an all-in-one digital factory-management platform for production visibility and quality control) and LOOP (supply-chain communication and traceability). Smartex is backed by Lightspeed Venture Partners, DCVC, Tony Fadell's Build Collective, H&M Group, SOSV/HAX, Spider Capital, Momenta Ventures and Fashion for Good. It does not currently publish a public developer API, SDK, or developer portal; customer access is through the FACT platform login. This profile was surfaced from the VC-portfolio pipeline and enriched from Smartex's public web surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartex.png
+layout: provider
+modified: '2026-07-21'
+name: Smartex
+nav: Providers
+network: true
+overview: 'Smartex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Textiles, Manufacturing, Computer Vision, and Artificial Intelligence.
+
+
+  Smartex''s developer surface includes engineering blog, support, and 6 more developer resources.'
+random_paper: 7
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Smartex Domain Security
+  slug: smartex-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: smartex
+tags:
+- Company
+- Textiles
+- Manufacturing
+- Computer Vision
+- Artificial Intelligence
+- Quality Control
+- Sustainability
+- Industrial IoT
+- Hardware
+website: https://www.smartex.ai
+---

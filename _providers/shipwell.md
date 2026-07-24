@@ -1,0 +1,163 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Shipwell Agentic Access
+  operation_count: 19
+  slug: shipwell-agentic-access
+  summary_line: 19 operations · 8 acting
+api_count: 5
+apis:
+- description: Carriers, carrier relationships, and carrier assignments. (partly confirmed)
+  name: Shipwell Carriers API
+  slug: shipwell-carriers-api
+- description: Real-time supply-chain events and webhook subscriptions. (partly confirmed)
+  name: Shipwell Events and Webhooks API
+  slug: shipwell-events-and-webhooks-api
+- description: Orders and purchase orders consolidated onto shipments. (modeled)
+  name: Shipwell Orders API
+  slug: shipwell-orders-api
+- description: Rates, quotes, RFQs, spot negotiations, and carrier bids. (modeled)
+  name: Shipwell Quoting API
+  slug: shipwell-quoting-api
+- description: Multimodal freight shipments - the central platform resource. (confirmed)
+  name: Shipwell Shipments API
+  slug: shipwell-shipments-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Shipwell v2 Core API
+  slug: open-shipwell
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/shipwell-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shipwell-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shipwell-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.shipwell.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shipwell
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.shipwell.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.shipwell.com/request-a-demo
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shipwell-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shipwell-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/shipwell-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shipwell.com/blog
+created: '2026-07-05'
+description: Shipwell is an AI-powered transportation management system (TMS) and freight execution platform for shippers, brokers, and carriers. The Shipwell v2 Core API lets developers plan, rate, tender, book, track, and settle multimodal freight - parcel, LTL, truckload, intermodal, rail, and ocean - programmatically. It covers shipments, quoting and rating, carrier management, purchase orders and orders, documents, tenders, freight pay and audit, and a real-time events and webhooks surface. The production base URL is https://api.shipwell.com/v2 (the newer Orders API is served under https://api.shipwell.com without the /v2 prefix), with a fully separate sandbox at https://sandbox-api.shipwell.com/v2. Requests are authenticated with company-scoped API keys passed in the Authorization header. Access to the full platform and API is enterprise and contract-gated.
+finops:
+- name: Shipwell Finops
+  service_category: Logistics and Supply Chain
+  slug: shipwell-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipwell.png
+layout: provider
+modified: '2026-07-05'
+name: Shipwell
+nav: Providers
+network: true
+overview: 'Shipwell publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Events and Webhooks API, Orders API, and 2 more. Tagged areas include Transportation Management, TMS, Freight, Logistics, and Shipping.
+
+
+  Shipwell''s developer surface includes authentication, documentation, signup flow, engineering blog, and 7 more developer resources.'
+plans:
+- name: Shipwell Plans Pricing
+  plan_count: 3
+  slug: shipwell-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 3
+  name: Shipwell Rate Limits
+  slug: shipwell-rate-limits
+score:
+  band: thin
+  composite: 40.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 58.4
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 40.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Shipwell Authentication
+  slug: shipwell-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Shipwell Domain Security
+  slug: shipwell-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: shipwell
+tags:
+- Transportation Management
+- TMS
+- Freight
+- Logistics
+- Shipping
+- Supply Chain
+website: https://www.shipwell.com/
+---

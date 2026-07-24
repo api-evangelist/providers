@@ -1,0 +1,117 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clickmechanic.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clickmechanic.com/blog
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.clickmechanic.com/help
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.clickmechanic.com/bookings/car
+- group: start
+  title: ''
+  type: Login
+  url: https://www.clickmechanic.com/sign-in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.clickmechanic.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.clickmechanic.com/terms/privacy-notice
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ClickMechanic
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/click-mechanic-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/click-mechanic-well-known.yml
+created: '2026-07-17'
+description: ClickMechanic is the UK's leading online car-repair marketplace, founded in 2012, that connects car owners with vetted mobile mechanics and independent garages for repairs, servicing, diagnostics, and MOTs. Customers enter their registration and symptoms to get an instant fixed-price quote, then book a vetted mechanic for same- or next-day work at home or the roadside, with payment taken only after the job is completed. Surfaced as a portfolio company of 500 Global. ClickMechanic operates a consumer- and mechanic-facing web platform (Ruby on Rails on Heroku) and publishes no public developer API, developer portal, SDK, or machine-readable API catalog at this time; this profile captures its public identity and web properties for the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/click-mechanic.png
+layout: provider
+modified: '2026-07-18'
+name: Click Mechanic
+nav: Providers
+network: true
+overview: 'Click Mechanic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Car Repair, Marketplace, and Mobile Mechanics.
+
+
+  Click Mechanic''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
+random_paper: 10
+score:
+  band: emerging
+  composite: 17.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 17.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Click Mechanic Domain Security
+  slug: click-mechanic-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: click-mechanic
+tags:
+- Company
+- Automotive
+- Car Repair
+- Marketplace
+- Mobile Mechanics
+- MOT
+- Servicing
+- United Kingdom
+- Booking Platform
+website: https://www.clickmechanic.com
+---

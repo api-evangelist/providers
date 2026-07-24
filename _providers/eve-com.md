@@ -1,0 +1,67 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Eve.com was a dot-com era e-commerce retailer of prestige beauty and personal care products, founded in 1998 by Mariam Naficy and Varsha Rao. It raised venture funding from Lightspeed Venture Partners (1999) and reached a Series B before being acquired by Idealab in 2000, after which the business ceased independent operations. It is retained in the API Evangelist network only as a historical Lightspeed portfolio lead; it published no developer program, API, SDKs, or documentation. The eve.com domain is today operated by an unrelated entity (CCP Games / the EVE Online game universe) and is not a surface for this company, so no live API or developer artifacts can be harvested for it.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eve-com.png
+layout: provider
+modified: '2026-07-19'
+name: Eve Com
+nav: Providers
+network: true
+overview: Eve Com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Beauty, and Cosmetics.
+random_paper: 21
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: eve-com
+tags:
+- Company
+- E-Commerce
+- Retail
+- Beauty
+- Cosmetics
+- Consumer
+- Defunct
+- Dot-Com
+- Lightspeed Portfolio
+---

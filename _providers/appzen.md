@@ -1,0 +1,223 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-23'
+api_count: 19
+apis:
+- description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
+  name: AppZen Chart of Accounts API
+  slug: appzen-chart-of-accounts-api
+- description: The Custom Data Sets API from AppZen — 3 operation(s) for custom data sets.
+  name: AppZen Custom Data Sets API
+  slug: appzen-custom-data-sets-api
+- description: The Documents API from AppZen — 1 operation(s) for documents.
+  name: AppZen Documents API
+  slug: appzen-documents-api
+- description: The Entities API from AppZen — 4 operation(s) for entities.
+  name: AppZen Entities API
+  slug: appzen-entities-api
+- description: The Externally Processed Invoices API from AppZen — 2 operation(s) for externally processed invoices.
+  name: AppZen Externally Processed Invoices API
+  slug: appzen-externally-processed-invoices-api
+- description: The Goods Receipt API from AppZen — 2 operation(s) for goods receipt.
+  name: AppZen Goods Receipt API
+  slug: appzen-goods-receipt-api
+- description: The Invoice Audit Results API from AppZen — 2 operation(s) for invoice audit results.
+  name: AppZen Invoice Audit Results API
+  slug: appzen-invoice-audit-results-api
+- description: The Invoice Status Sync API from AppZen — 1 operation(s) for invoice status sync.
+  name: AppZen Invoice Status Sync API
+  slug: appzen-invoice-status-sync-api
+- description: The Invoices API from AppZen — 3 operation(s) for invoices.
+  name: AppZen Invoices API
+  slug: appzen-invoices-api
+- description: The Lookup Item API from AppZen — 3 operation(s) for lookup item.
+  name: AppZen Lookup Item API
+  slug: appzen-lookup-item-api
+- description: The Lookup Table API from AppZen — 3 operation(s) for lookup table.
+  name: AppZen Lookup Table API
+  slug: appzen-lookup-table-api
+- description: The Payment Terms API from AppZen — 4 operation(s) for payment terms.
+  name: AppZen Payment Terms API
+  slug: appzen-payment-terms-api
+- description: The Processed Invoices API from AppZen — 1 operation(s) for processed invoices.
+  name: AppZen Processed Invoices API
+  slug: appzen-processed-invoices-api
+- description: The Purchase Orders API from AppZen — 4 operation(s) for purchase orders.
+  name: AppZen Purchase Orders API
+  slug: appzen-purchase-orders-api
+- description: The Suppliers API from AppZen — 4 operation(s) for suppliers.
+  name: AppZen Suppliers API
+  slug: appzen-suppliers-api
+- description: The Tax Master API from AppZen — 3 operation(s) for tax master.
+  name: AppZen Tax Master API
+  slug: appzen-tax-master-api
+- description: The Unit of Measures API from AppZen — 3 operation(s) for unit of measures.
+  name: AppZen Unit of Measures API
+  slug: appzen-unit-of-measures-api
+- description: The User Groups API from AppZen — 3 operation(s) for user groups.
+  name: AppZen User Groups API
+  slug: appzen-user-groups-api
+- description: The Vat API from AppZen — 4 operation(s) for vat.
+  name: AppZen Vat API
+  slug: appzen-vat-api
+artifact_total: 22
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/appzen-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/appzen-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/appzen-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/appzen-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/appzen-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/appzen-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/appzen-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/appzen-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/appzen-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/appzen-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.appzen.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.appzen.com/hc/en-us/categories/13996913056659-AppZen-REST-API
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.appzen.com/swagger/apis.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.appzen.com/hc/en-us/articles/12682580110739-Introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.appzen.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.appzen.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.appzen.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.appzen.com/privacy-policy-appzen
+- group: company
+  title: ''
+  type: Website
+  url: https://appzen.com
+created: '2026-07-17'
+description: AppZen is an AI platform for finance teams that automates accounts payable and expense auditing. Its Autonomous AP product ingests invoices, purchase orders, goods receipts and supporting master data, then applies AI to run validation checks, assign risk scores, and audit spend before payment. The public Autonomous AP REST API (Swagger 2.0, 54 operations) lets ERP and accounting systems such as SAP, Oracle, NetSuite, Coupa, Workday and Microsoft Dynamics push documents into AppZen and retrieve audit results. Authentication is via three API-key headers issued by AppZen Support, with US sandbox and production environments (EU coming soon).
+image: https://api-docs.appzen.com/img/appzen-logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: appzen-mcp.yml
+  slug: appzen-mcpyml
+modified: '2026-07-18'
+name: AppZen
+nav: Providers
+network: true
+overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Chart of Accounts API, Custom Data Sets API, Documents API, and 16 more. Tagged areas include Company, Finance, Accounts Payable, Expense Management, and Invoice Processing.
+
+
+  AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 13 more developer resources.'
+random_paper: 42
+score:
+  band: thin
+  composite: 38.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 37.7
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 38.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Appzen Authentication
+  slug: appzen-authentication
+  summary_line: apiKey · 3 schemes
+- kind: domain-security
+  name: Appzen Domain Security
+  slug: appzen-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: appzen
+tags:
+- Company
+- Finance
+- Accounts Payable
+- Expense Management
+- Invoice Processing
+- Spend Audit
+- Artificial Intelligence
+- ERP Integration
+website: https://appzen.com
+---

@@ -1,0 +1,131 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wynd-network-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wyndlabs.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://grass-foundation.gitbook.io/grass-docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://grass-foundation.gitbook.io/grass-docs/introduction/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.grass.io/learn
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/getgrass
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Wynd-Network
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.grass.io/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.grass.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.grass.io/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.grass.io/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wynd-network-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wynd-network-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/wynd-network-components.yml
+created: '2026-07-17'
+description: Wynd Network (now operating as Wynd Labs) is the company behind Grass, a decentralized physical infrastructure network (DePIN) on Solana that rewards users for sharing their unused internet bandwidth. The Grass Network routes and verifies web traffic through a network of nodes, routers, and validators to collect and structure public web data for AI training and business intelligence. Grass ships consumer apps and a node network rather than a public developer API; its documentation covers network architecture, the GRASS token, staking, and points.
+image: https://www.grass.io/favicon/android-chrome-512x512.png
+layout: provider
+modified: '2026-07-21'
+name: Wynd Network
+nav: Providers
+network: true
+overview: 'Wynd Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Depin, Bandwidth, Web Scraping, and AI Training Data.
+
+
+  Wynd Network''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
+random_paper: 49
+score:
+  band: emerging
+  composite: 19.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 19.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Wynd Network Domain Security
+  slug: wynd-network-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: wynd-network
+tags:
+- Company
+- Depin
+- Bandwidth
+- Web Scraping
+- AI Training Data
+- Cryptocurrency
+- Solana
+website: https://wyndlabs.ai/
+---

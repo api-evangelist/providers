@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://skenariolabs.com/
+- group: company
+  title: ''
+  type: About
+  url: https://skenariolabs.com/about/
+- group: company
+  title: ''
+  type: Blog
+  url: https://skenariolabs.com/insights/
+- group: operate
+  title: ''
+  type: Support
+  url: https://skenariolabs.com/contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://skenariolabs.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://skenariolabs.com/privacy-policy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/skenariolabs-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/skenariolabs-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/skenariolabs-domain-security.yml
+created: '2026-07-17'
+description: SkenarioLabs is a Helsinki-based real estate finance data intelligence company (founded 2015) that turns fragmented building data into auditable, asset-level intelligence for European banks and financial institutions. From a single address it reconstructs complete building profiles covering automated valuation, climate and transition risk, energy performance, technical condition, and renovation potential — aligned with CRREM, EU Taxonomy, ECB, EBA, CRR3, MEPS, and SFDR frameworks. It serves 200+ institutional clients monitoring over 60 billion euros of collateral and scores more than one million assets monthly. SkenarioLabs delivers its intelligence ad hoc into loan origination, portfolio audit, and continuous risk-monitoring workflows rather than through a public self-serve developer API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skenariolabs.png
+layout: provider
+modified: '2026-07-21'
+name: SkenarioLabs
+nav: Providers
+network: true
+overview: 'SkenarioLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Property Valuation, and Climate Risk.
+
+
+  SkenarioLabs'' developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 3
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Skenariolabs Domain Security
+  slug: skenariolabs-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: skenariolabs
+tags:
+- Company
+- Real Estate
+- PropTech
+- Property Valuation
+- Climate Risk
+- ESG
+- Real Estate Finance
+- Data Intelligence
+website: https://skenariolabs.com/
+---

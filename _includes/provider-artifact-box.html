@@ -1,0 +1,54 @@
+{%- comment -%}
+  provider-artifact-box.html — one artifact section on an API Evangelist
+  provider detail page.
+
+  Renders a heading with a live count, a short narrative that says WHAT the
+  artifact is and WHY API Evangelist profiles it, then a card grid that is
+  ALWAYS capped at roughly two rows and scrolls internally, so a prolific
+  provider (Stripe ships 159 APIs) can't push the rest of the page down.
+
+  Cards link out to the apis.io detail page for each artifact — apis.io is the
+  machine-readable index; these narrative pages are the human-readable read on
+  top of it.
+
+  Parameters:
+    id            anchor id                                          [required]
+    title         section heading text                               [required]
+    items         the array to render                                [required]
+    provider_slug page.slug — first path segment of each card link    [required]
+    blurb         one-line description of the box                    [optional]
+    why           narrative paragraph: how & why we profile this     [optional]
+    path          apis.io link base: /{{path}}/{{slug}}/{{item.slug}}/
+                  omit for plain-text items (features, use cases)     [optional]
+    badge         badge label shown on each card (uppercase)         [optional]
+    color         accent colour — card left border + badge background[optional]
+{%- endcomment -%}
+{%- if include.items and include.items.size > 0 -%}
+<section class="artifact-section">
+  <h2 class="section-anchor" id="{{ include.id }}"><a href="#{{ include.id }}">{{ include.title }}</a> <span class="section-count">{{ include.items | size }}</span></h2>
+  {%- if include.why %}<p class="section-why">{{ include.why }}</p>{% endif %}
+  {%- if include.blurb %}<p class="section-blurb">{{ include.blurb }}</p>{% endif %}
+  <div class="card-grid scroll-pane">
+    {%- for item in include.items %}
+    <div class="item-card"{% if include.color %} style="border-left: 3px solid {{ include.color }};"{% endif %}>
+      {%- if item.name %}
+      <h4>{% if include.path %}<a href="https://apis.io/{{ include.path }}/{{ include.provider_slug }}/{{ item.slug }}/" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h4>
+      {%- if item.summary_line %}<p>{{ item.summary_line | truncate: 180 }}</p>{% elsif item.description %}<p>{{ item.description | truncate: 180 }}</p>{% endif %}
+      {%- if item.class_count %}<p class="card-meta">{{ item.class_count }} classes &middot; {{ item.property_count | default: 0 }} properties</p>
+      {%- elsif item.property_count %}<p class="card-meta">{{ item.property_count }} properties</p>
+      {%- elsif item.scope_count %}<p class="card-meta">{{ item.scope_count }} scopes</p>
+      {%- elsif item.plan_count %}<p class="card-meta">{{ item.plan_count }} plans</p>
+      {%- elsif item.limit_count %}<p class="card-meta">{{ item.limit_count }} limits</p>
+      {%- elsif item.operation_count %}<p class="card-meta">{{ item.operation_count }} operations{% if item.acting_count %} &middot; {{ item.acting_count }} acting{% endif %}</p>
+      {%- elsif item.key_count %}<p class="card-meta">{{ item.key_count }} fields</p>
+      {%- endif %}
+      {%- else %}
+      <strong>{{ item }}</strong>
+      {%- endif %}
+      {%- if include.badge %}<span class="card-badge" style="background: {{ include.color | default: '#6c757d' }};">{{ include.badge }}</span>{% endif %}
+    </div>
+    {%- endfor %}
+  </div>
+  {%- if include.items.size > 6 %}<p class="scroll-hint">Scroll within the panel for all {{ include.items | size }} &middot;</p>{% endif %}
+</section>
+{%- endif -%}

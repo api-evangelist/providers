@@ -1,0 +1,98 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/honess-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://honess.cn
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.honess.cn/honess-news/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.honess.cn/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.honess.cn/honess-contact/
+created: '2026-07-17'
+description: HONESS (泓济环保 / Shanghai Hongji Environmental Protection, honess.cn) is a Chinese environmental services provider founded in 2006, specializing in industrial wastewater treatment and the broader treatment of the "three wastes" (wastewater, waste gas, and hazardous waste). It offers customized environmental solutions, environmental equipment manufacturing and integration, EPC delivery for energy and chemical full-water systems, fine-chemical waste treatment, process packages for new and upgraded wastewater plants, and technology-enabled ("smart") digital operations and maintenance. The company holds top-grade design and contracting qualifications, has delivered 500+ design/build/operation projects for 300+ clients across China and abroad, and operates manufacturing and R&D bases in Shanghai and Anhui. It is not a developer/API company; the public surface is a WordPress corporate site with no developer portal, API documentation, SDKs, or OAuth. Surfaced as a portfolio company of
+  Qiming Venture Partners and profiled in the API Evangelist network.
+image: https://www.honess.cn/wp-content/uploads/2025/03/cropped-%E6%B3%93%E6%B5%8E%E7%8E%AF%E4%BF%9Dlogo-1.webp
+layout: provider
+modified: '2026-07-19'
+name: HONESS (Shanghai Hongji Environmental Protection)
+nav: Providers
+network: true
+overview: 'HONESS (Shanghai Hongji Environmental Protection) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Environmental Services, Wastewater Treatment, Water Treatment, and Environmental Engineering.
+
+
+  HONESS (Shanghai Hongji Environmental Protection)''s developer surface includes engineering blog, support, and 3 more developer resources.'
+random_paper: 44
+score:
+  band: minimal
+  composite: 10.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Honess Domain Security
+  slug: honess-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: honess
+tags:
+- Company
+- Environmental Services
+- Wastewater Treatment
+- Water Treatment
+- Environmental Engineering
+- Industrial
+- Manufacturing
+- China
+- Sustainability
+website: https://honess.cn
+---

@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://meanwhile.bm/
+- group: start
+  title: ''
+  type: Login
+  url: https://application.meanwhile.bm/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://meanwhile.bm/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://meanwhile.bm/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@meanwhile.bm
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/meanwhile-domain-security.yml
+created: '2026-07-17'
+description: Meanwhile is the first BMA-licensed innovative life insurer in Bermuda, offering whole life insurance policies denominated entirely in Bitcoin rather than fiat. Its BTC Life product lets customers pay premiums in Bitcoin that grow at a guaranteed rate in Bitcoin terms, borrow tax-free against up to 90% of policy value after one year, and pass a full day-one death benefit to beneficiaries without managing wallets or seed phrases. The company is backed by Pantera, Bain Capital Crypto, Sam Altman, Northwestern Mutual, and Framework Ventures, and raised $82M in October 2025. Meanwhile publishes no public developer API, portal, or SDKs; this profile captures its identity, public web properties, and probed domain-security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meanwhile.png
+layout: provider
+modified: '2026-07-20'
+name: Meanwhile
+nav: Providers
+network: true
+overview: 'Meanwhile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Insurance, and Life Insurance.
+
+
+  Meanwhile''s developer surface includes support and 5 more developer resources.'
+random_paper: 36
+score:
+  band: emerging
+  composite: 16.8
+  delta: 2.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.5
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Meanwhile Domain Security
+  slug: meanwhile-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: meanwhile
+tags:
+- Company
+- Crypto
+- Bitcoin
+- Insurance
+- Life Insurance
+- Fintech
+- Bermuda
+website: https://meanwhile.bm/
+---

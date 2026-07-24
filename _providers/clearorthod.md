@@ -1,0 +1,101 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clearorthod.com
+- group: start
+  title: ''
+  type: Login
+  url: https://drapp.clearbos.com/Clearsite
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clearorthod.com/Cn/Index/listView/catid/30.html
+- group: company
+  title: ''
+  type: About
+  url: https://www.clearorthod.com/Cn/Index/pageView/catid/25.html
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clearorthod-domain-security.yml
+created: '2026-07-17'
+description: Clearbos (clearorthod / 可丽尔博士) is a Chinese clear-aligner orthodontics company that designs and manufactures invisible teeth-alignment systems for adults and children, delivered through a network of partner dental clinics and orthodontists. Its digital treatment platform pairs the C4 adult-correction system with the C3 pediatric full-cycle system, and is supported by a doctor-facing web portal for case submission, treatment planning, and aligner ordering. The company reports more than 11,900 registered doctors and 9,200 partner clinics across 321 cities. Clearbos was added to the API Evangelist network as a portfolio company of Qiming Venture Partners; no public developer API, OpenAPI, or /.well-known discovery surface was found during enrichment.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearorthod.png
+layout: provider
+modified: '2026-07-18'
+name: Clearbos (clearorthod)
+nav: Providers
+network: true
+overview: 'Clearbos (clearorthod) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orthodontics, Dental, Clear Aligners, and Healthcare.
+
+
+  Clearbos (clearorthod)''s developer surface includes engineering blog and 4 more developer resources.'
+random_paper: 2
+score:
+  band: minimal
+  composite: 10.3
+  delta: 0.5
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Clearorthod Domain Security
+  slug: clearorthod-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: clearorthod
+tags:
+- Company
+- Orthodontics
+- Dental
+- Clear Aligners
+- Healthcare
+- Medical Devices
+- Doctor Portal
+- China
+website: https://www.clearorthod.com
+---

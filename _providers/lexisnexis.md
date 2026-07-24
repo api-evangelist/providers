@@ -1,0 +1,151 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: 'The LexisNexis Developer Portal provides access to legal research and content APIs, allowing partners to integrate LexisNexis legal data and services directly into customer workflows. Access requires '
+  name: LexisNexis Developer Portal
+  slug: lexisnexis-developer-portal
+- description: LexisNexis Risk Solutions offers fraud detection, identity verification, and risk orchestration capabilities through partner-accessed APIs, including the Dynamic Decision Platform, ThreatMetrix, and I
+  name: LexisNexis Risk Solutions
+  slug: lexisnexis-risk-solutions
+- description: ThreatMetrix delivers digital identity intelligence and behavioral analytics for fraud prevention across user interactions, accounts, and channels. Integration is partner-only.
+  name: LexisNexis ThreatMetrix
+  slug: lexisnexis-threatmetrix
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/lexisnexis-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/lexisnexis-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lexisnexis-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/LexisNexis
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lexisnexis
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lexisnexis.com/
+- group: other
+  title: ''
+  type: Developer
+  url: https://dev.lexisnexis.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://risk.lexisnexis.com/products
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://dev.lexisnexis.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lexisnexis.com/blogs/sg
+created: '2025-02-09'
+description: LexisNexis is a global provider of legal, regulatory, and business information and analytics. Through the LexisNexis Developer Portal and LexisNexis Risk Solutions, partners can integrate access to legal research, fraud detection, identity verification, and risk assessment capabilities into their applications. Most LexisNexis APIs are partner-access only and require contractual agreements before credentials and OpenAPI specifications are released.
+finops:
+- name: Lexisnexis Finops
+  service_category: API
+  slug: lexisnexis-finops
+graphqls:
+- description: LexisNexis provides legal research, news, and business intelligence data. The API covers legal case search, statute retrieval, news aggregation, company profiles, and Accurint identity data for law fi
+  name: LexisNexis GraphQL API
+  slug: lexisnexis-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lexisnexis.png
+layout: provider
+modified: '2026-04-28'
+name: LexisNexis
+nav: Providers
+network: true
+overview: 'LexisNexis publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Risk, Identity Verification, Fraud Detection, and Compliance.
+
+
+  LexisNexis'' developer surface includes documentation, engineering blog, and 8 more developer resources.'
+plans:
+- name: Lexisnexis Plans Pricing
+  plan_count: 3
+  slug: lexisnexis-plans-pricing
+random_paper: 29
+rate_limits:
+- limit_count: 5
+  name: Lexisnexis Rate Limits
+  slug: lexisnexis-rate-limits
+score:
+  band: emerging
+  composite: 25.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 25.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/screenshots/lexisnexis-2026-06-20T184446.png
+security:
+- kind: domain-security
+  name: Lexisnexis Domain Security
+  slug: lexisnexis-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Lexisnexis Vulnerability Disclosure
+  slug: lexisnexis-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Lexisnexis Trust Center
+  slug: lexisnexis-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: lexisnexis
+tags:
+- Legal
+- Risk
+- Identity Verification
+- Fraud Detection
+- Compliance
+- Analytics
+- Data
+website: https://www.lexisnexis.com/
+---

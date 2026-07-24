@@ -1,0 +1,252 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Setlist Fm Agentic Access
+  operation_count: 15
+  slug: setlist-fm-agentic-access
+  summary_line: 15 operations
+api_count: 15
+apis:
+- description: The /1.0/artist/{mbid} API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}.
+  name: setlist.fm /1.0/artist/{mbid} API
+  slug: setlist-fm-1-0-artist-mbid-api
+- description: The /1.0/artist/{mbid}/setlists API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}/setlists.
+  name: setlist.fm /1.0/artist/{mbid}/setlists API
+  slug: setlist-fm-1-0-artist-mbid-setlists-api
+- description: The /1.0/city/{geoId} API from setlist.fm — 1 operation(s) for /1.0/city/{geoid}.
+  name: setlist.fm /1.0/city/{geoId} API
+  slug: setlist-fm-1-0-city-geoid-api
+- description: The /1.0/search/artists API from setlist.fm — 1 operation(s) for /1.0/search/artists.
+  name: setlist.fm /1.0/search/artists API
+  slug: setlist-fm-1-0-search-artists-api
+- description: The /1.0/search/cities API from setlist.fm — 1 operation(s) for /1.0/search/cities.
+  name: setlist.fm /1.0/search/cities API
+  slug: setlist-fm-1-0-search-cities-api
+- description: The /1.0/search/countries API from setlist.fm — 1 operation(s) for /1.0/search/countries.
+  name: setlist.fm /1.0/search/countries API
+  slug: setlist-fm-1-0-search-countries-api
+- description: The /1.0/search/setlists API from setlist.fm — 1 operation(s) for /1.0/search/setlists.
+  name: setlist.fm /1.0/search/setlists API
+  slug: setlist-fm-1-0-search-setlists-api
+- description: The /1.0/search/venues API from setlist.fm — 1 operation(s) for /1.0/search/venues.
+  name: setlist.fm /1.0/search/venues API
+  slug: setlist-fm-1-0-search-venues-api
+- description: The /1.0/setlist/{setlistId} API from setlist.fm — 1 operation(s) for /1.0/setlist/{setlistid}.
+  name: setlist.fm /1.0/setlist/{setlistId} API
+  slug: setlist-fm-1-0-setlist-setlistid-api
+- description: The /1.0/setlist/version/{versionId} API from setlist.fm — 1 operation(s) for /1.0/setlist/version/{versionid}.
+  name: setlist.fm /1.0/setlist/version/{versionId} API
+  slug: setlist-fm-1-0-setlist-version-versionid-api
+- description: The /1.0/user/{userId} API from setlist.fm — 1 operation(s) for /1.0/user/{userid}.
+  name: setlist.fm /1.0/user/{userId} API
+  slug: setlist-fm-1-0-user-userid-api
+- description: The /1.0/user/{userId}/attended API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/attended.
+  name: setlist.fm /1.0/user/{userId}/attended API
+  slug: setlist-fm-1-0-user-userid-attended-api
+- description: The /1.0/user/{userId}/edited API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/edited.
+  name: setlist.fm /1.0/user/{userId}/edited API
+  slug: setlist-fm-1-0-user-userid-edited-api
+- description: The /1.0/venue/{venueId} API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}.
+  name: setlist.fm /1.0/venue/{venueId} API
+  slug: setlist-fm-1-0-venue-venueid-api
+- description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
+  name: setlist.fm /1.0/venue/{venueId}/setlists API
+  slug: setlist-fm-1-0-venue-venueid-setlists-api
+artifact_total: 37
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/setlist-fm-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/setlist-fm-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.setlist.fm
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.setlist.fm/docs/1.0/resources.html
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/topics/setlist-fm
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/setlist-fm
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.setlist.fm
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.setlist.fm/faq
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/setlistfm
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/setlist-fm-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/setlist-fm-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/setlist-fm-finops.yml
+created: '2026-06-13'
+description: setlist.fm is a concert setlist database providing a REST API for accessing setlists, searching by artist or venue, tracking tour dates, and accessing live music performance data. The API supports JSON and XML responses, uses MusicBrainz IDs for artist identification, and provides endpoints for artists, venues, cities, countries, and user attendance data.
+finops:
+- name: Setlist Fm Finops
+  service_category: ''
+  slug: setlist-fm-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/setlist-fm.png
+json_schemas:
+- name: artist
+  property_count: 6
+  slug: setlist-fm-Artist
+- name: artists
+  property_count: 4
+  slug: setlist-fm-Artists
+- name: cities
+  property_count: 4
+  slug: setlist-fm-Cities
+- name: city
+  property_count: 6
+  slug: setlist-fm-City
+- name: coords
+  property_count: 2
+  slug: setlist-fm-Coords
+- name: countries
+  property_count: 4
+  slug: setlist-fm-Countries
+- name: country
+  property_count: 2
+  slug: setlist-fm-Country
+- name: error
+  property_count: 4
+  slug: setlist-fm-Error
+- name: set
+  property_count: 3
+  slug: setlist-fm-Set
+- name: setlist
+  property_count: 11
+  slug: setlist-fm-Setlist
+- name: setlists
+  property_count: 4
+  slug: setlist-fm-Setlists
+- name: song
+  property_count: 5
+  slug: setlist-fm-Song
+- name: tour
+  property_count: 1
+  slug: setlist-fm-Tour
+- name: user
+  property_count: 9
+  slug: setlist-fm-User
+- name: venue
+  property_count: 4
+  slug: setlist-fm-Venue
+- name: venues
+  property_count: 4
+  slug: setlist-fm-Venues
+layout: provider
+modified: '2026-06-13'
+name: setlist.fm
+nav: Providers
+network: true
+overview: 'setlist.fm publishes 15 APIs on the [APIs.io](https://apis.io/) network, including /1.0/artist/{mbid} API, /1.0/artist/{mbid}/setlists API, /1.0/city/{geoId} API, and 12 more. Tagged areas include Music, Concerts, Setlists, Live Music, and Venues.
+
+
+  The setlist.fm catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  setlist.fm''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Setlist Fm Plans Pricing
+  plan_count: 2
+  slug: setlist-fm-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Setlist Fm Rate Limits
+  slug: setlist-fm-rate-limits
+rules:
+- name: setlist.fm API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: setlist-fm-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 39.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 37.7
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 5.3
+  previous_composite: 39.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
+security:
+- kind: domain-security
+  name: Setlist Fm Domain Security
+  slug: setlist-fm-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: setlist-fm
+tags:
+- Music
+- Concerts
+- Setlists
+- Live Music
+- Venues
+- Artists
+- Tour Dates
+- Events
+website: https://www.setlist.fm
+---

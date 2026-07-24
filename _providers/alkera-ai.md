@@ -1,0 +1,146 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alkera-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alkera.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.alkera.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.alkera.ai
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.alkera.ai/quickstart
+- group: other
+  title: ''
+  type: Installation
+  url: https://docs.alkera.ai/installation
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://alkera.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.alkera.ai
+- group: start
+  title: ''
+  type: Login
+  url: https://app.alkera.ai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://alkera.ai/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://alkera.ai/privacy-policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.alkera.ai/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/alkera-ai-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alkera-ai-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/alkera-ai-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/alkera-ai-cli.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/alkera-ai-lifecycle.yml
+created: '2026-07-17'
+description: Alkera is an AI data-engineering agent that works across your data stack from the command line and inside your editor to build, migrate, optimize, and debug data pipelines. It ships as a CLI and an IDE extension (VS Code and Open VSX forks such as Cursor and Windsurf), and pairs a cross-platform column-level lineage engine with a living knowledge base so the agent understands what your data means and what your team already decided about it. Alkera connects natively to 14+ platforms including Snowflake, Databricks, BigQuery, dbt, and Airflow, builds new pipelines end to end (sources, models, tests, orchestration), migrates legacy systems while verifying functional equivalence, removes dead pipelines, refactors slow models, and performs root-cause analysis with blast-radius awareness. It ranked first on DataAgentBench (83.28% Pass@1). Enterprise deployments add SSO/SAML, SCIM & IAM, audit logs, pooled usage, VPC and on-prem deployment, zero data retention by default, data residency
+  controls, and SLAs.
+image: https://alkera.ai/og-image.png
+layout: provider
+modified: '2026-07-17'
+name: Alkera Ai
+nav: Providers
+network: true
+overview: 'Alkera Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Engineering, AI Agents, Data Pipelines, and Data Lineage.
+
+
+  Alkera Ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, CLI, and 11 more developer resources.'
+random_paper: 4
+score:
+  band: emerging
+  composite: 24.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 24.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Alkera Ai Domain Security
+  slug: alkera-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: alkera-ai
+tags:
+- Company
+- Data Engineering
+- AI Agents
+- Data Pipelines
+- Data Lineage
+- Developer Tools
+- CLI
+- IDE Extension
+- Data Stack
+website: https://alkera.ai
+---

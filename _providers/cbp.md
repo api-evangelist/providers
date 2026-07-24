@@ -1,0 +1,162 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 5
+apis:
+- description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
+  name: AESDirect WebLink Inquiry API
+  slug: aesdirect-weblink-inquiry-api
+- description: A web service that allows certified third-party Internet applications to pass Electronic Export Information (EEI) data directly into AESDirect via HTTP POST, eliminating double-entry for exporters and
+  name: AESDirect WebLink Submission API
+  slug: aesdirect-weblink-submission-api
+- description: The U.S. Single Window for import and export trade reporting. The Automated Broker Interface (ABI) lets licensed customs brokers and self-filers transmit entry summaries, cargo release requests, and m
+  name: Automated Commercial Environment (ACE) — EDI / ABI
+  slug: ace-automated-commercial-environment
+- description: A CBP web-based application for commercial and private carriers to electronically submit inbound and outbound traveler manifest data. Supports on-screen entry, bulk XML upload, and UN/EDIFACT PAXLST e
+  name: eAPIS — Advance Passenger Information System
+  slug: eapis-advance-passenger-information
+- description: A free public resource providing downloadable statistical datasets used to generate charts and dashboards published on CBP.gov. Covers trade statistics, enforcement data, traveler and conveyance stati
+  name: CBP Public Data Portal
+  slug: cbp-public-data-portal
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cbp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cbp.gov
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.cbp.gov/trade/automated
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/US-CBP
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/customs-and-border-protection
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cbp.gov/newsroom
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.cbp.gov/trade/automated/ace-faq
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.cbp.gov/trade/automated/ace-support
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/CBP
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cbp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cbp-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cbp-finops.yml
+created: '2026-06-13'
+description: U.S. Customs and Border Protection (CBP) is the nation's largest law enforcement agency and a major revenue-collecting authority, responsible for facilitating legitimate international trade and travel while enforcing trade laws, collecting duties, and securing the border. CBP provides REST APIs and EDI-based interfaces for trade data, import statistics, tariff schedules, ACE reporting, and automated import/export manifests through the Automated Commercial Environment (ACE), the Automated Export System (AES / AESDirect), and the Advance Passenger Information System (APIS/eAPIS).
+finops:
+- name: Cbp Finops
+  service_category: ''
+  slug: cbp-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cbp.png
+jsonld:
+- class_count: 24
+  name: Cbp Context
+  property_count: 0
+  slug: cbp-context
+layout: provider
+modified: '2026-06-13'
+name: CBP
+nav: Providers
+network: true
+overview: 'CBP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include US Government, Trade, Customs, Import, and Export.
+
+
+  The CBP catalog on APIs.io includes 1 JSON-LD context.
+
+
+  CBP''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Cbp Plans Pricing
+  plan_count: 4
+  slug: cbp-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 0
+  name: Cbp Rate Limits
+  slug: cbp-rate-limits
+score:
+  band: emerging
+  composite: 28.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 28.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cbp/refs/heads/main/screenshots/cbp-2026-06-20T174055.png
+security:
+- kind: domain-security
+  name: Cbp Domain Security
+  slug: cbp-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: cbp
+tags:
+- US Government
+- Trade
+- Customs
+- Import
+- Export
+- Border Protection
+- Tariff
+- Manifest
+website: https://www.cbp.gov
+---

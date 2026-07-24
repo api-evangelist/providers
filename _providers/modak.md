@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.modakmakers.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.modakmakers.com/support
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.modakmakers.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.modakmakers.com/legal/privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/modak-domain-security.yml
+created: '2026-07-17'
+description: Modak (Modak Makers) is a US consumer fintech that offers a family money-management app built around a free Visa debit card for kids and teens. Parents can assign chores and automate allowance, set savings goals with reward boosts, and use co-parenting tools, gift links, ATM access, bill splitting, and spending controls such as instant alerts, card freeze, and biometric security. Kids earn MBX reward points through daily steps and challenges that convert to pocket money, so they learn to spend, save, and manage money in real life. Modak is delivered as a mobile consumer application and does not publish a public developer API, SDK, or developer portal. Backed by GGV Capital.
+image: https://www.modakmakers.com/apple-touch-icon.png
+layout: provider
+modified: '2026-07-20'
+name: Modak
+nav: Providers
+network: true
+overview: 'Modak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Consumer, Banking, and Debit Cards.
+
+
+  Modak''s developer surface includes support and 4 more developer resources.'
+random_paper: 14
+score:
+  band: minimal
+  composite: 14.6
+  delta: 2.8
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Modak Domain Security
+  slug: modak-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: modak
+tags:
+- Company
+- Fintech
+- Consumer
+- Banking
+- Debit Cards
+- Kids
+- Allowance
+- Personal Finance
+- Mobile App
+website: https://www.modakmakers.com/
+---

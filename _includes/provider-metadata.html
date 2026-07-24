@@ -1,0 +1,60 @@
+{%- comment -%}
+  provider-metadata.html — the at-a-glance metadata card that sits at the TOP of
+  the right sidebar on a provider detail page. Everything structured about the
+  provider, condensed: score, agent readiness, access model, counts, tags,
+  timestamps, and the three canonical links (website, apis.io, GitHub).
+{%- endcomment -%}
+<aside class="prov-meta card">
+  <div class="card-body">
+    <div class="prov-meta-head">
+      {%- if page.image %}<img class="prov-meta-logo" src="{{ page.image }}" alt="{{ page.name }} logo" loading="lazy" onerror="this.remove()">{% endif %}
+      <div>
+        <div class="prov-meta-name">{{ page.name }}</div>
+        <div class="prov-meta-kicker">API Evangelist provider profile</div>
+      </div>
+    </div>
+
+    {%- if page.score and page.score.composite %}
+    <a class="prov-meta-score" href="#rating" title="Kin Score composite — full breakdown below">
+      <span class="pm-num">{{ page.score.composite }}<small>/100</small></span>
+      <span class="band-pill band-{{ page.score.band }}">{{ page.score.band }}</span>
+    </a>
+    {%- endif %}
+    {%- if page.agent_readiness and page.agent_readiness.band %}
+    <div class="prov-meta-agent">
+      <span class="pm-agent-label">Agent readiness</span>
+      <span class="pm-agent-num">{{ page.agent_readiness.score | round }}<small>/100</small></span>
+      <span class="band-pill band-{{ page.agent_readiness.band }}">{{ page.agent_readiness.band | replace: '-', ' ' }}</span>
+    </div>
+    {%- endif %}
+
+    {%- if page.access_model %}{%- assign _ax = page.access_model -%}
+    {%- unless _ax.pricing == 'unknown' and _ax.onboarding == 'unknown' %}
+    <div class="prov-meta-access">
+      {%- unless _ax.pricing == 'unknown' %}<span class="access-pill ax-{{ _ax.pricing }}">{{ _ax.pricing | replace: '-', ' ' | capitalize }}</span>{% endunless %}
+      {%- unless _ax.onboarding == 'unknown' %}<span class="access-pill ax-{{ _ax.onboarding }}">{{ _ax.onboarding | replace: '-', ' ' | capitalize }}</span>{% endunless %}
+      {%- if _ax.try_now %}<span class="access-pill ax-try">&#9889; Free to try</span>{% endif %}
+    </div>
+    {%- endunless %}
+    {%- endif %}
+
+    <dl class="prov-meta-facts">
+      {%- if page.api_count and page.api_count > 0 %}<dt>APIs</dt><dd>{{ page.api_count }}</dd>{% endif %}
+      {%- if page.artifact_total and page.artifact_total > 0 %}<dt>Artifacts profiled</dt><dd>{{ page.artifact_total }}</dd>{% endif %}
+      {%- if page.created %}<dt>First profiled</dt><dd>{{ page.created }}</dd>{% endif %}
+      {%- if page.modified %}<dt>Last updated</dt><dd>{{ page.modified }}</dd>{% endif %}
+    </dl>
+
+    {%- if page.tags and page.tags.size > 0 %}
+    <div class="prov-meta-tags">
+      {%- for tag in page.tags limit: 12 %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+    </div>
+    {%- endif %}
+
+    <div class="prov-meta-links">
+      {%- if page.website %}<a class="pm-link primary" href="{{ page.website }}" target="_blank" rel="noopener"><span class="material-symbols-outlined">public</span> Website</a>{% endif %}
+      <a class="pm-link" href="https://apis.io/providers/{{ page.slug }}/" target="_blank" rel="noopener"><span class="material-symbols-outlined">travel_explore</span> View on apis.io</a>
+      <a class="pm-link" href="https://github.com/api-evangelist/{{ page.slug }}" target="_blank" rel="noopener"><span class="material-symbols-outlined">code</span> Source on GitHub</a>
+    </div>
+  </div>
+</aside>

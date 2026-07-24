@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Gin is a high-performance HTTP web framework for Go that provides a fast and productive way to build microservices and APIs.
+  name: Gin
+  slug: gin
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gin-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/gin-gonic
+- group: company
+  title: ''
+  type: Website
+  url: https://gin-gonic.com/
+created: '2026-03-26'
+description: Gin is a high-performance HTTP web framework for Go that provides a fast and productive way to build microservices and APIs.
+finops:
+- name: Gin Finops
+  service_category: API
+  slug: gin-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gin.png
+json_schemas:
+- name: Gin Router and Middleware Configuration
+  property_count: 12
+  slug: gin-configuration
+layout: provider
+modified: '2026-04-28'
+name: Gin
+nav: Providers
+network: true
+overview: 'Gin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microservices.
+
+
+  The Gin catalog on APIs.io includes 1 Spectral governance ruleset.'
+plans:
+- name: Gin Plans Pricing
+  plan_count: 3
+  slug: gin-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 5
+  name: Gin Rate Limits
+  slug: gin-rate-limits
+rules:
+- name: Gin API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: gin-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 29.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 11.3
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 29.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gin/refs/heads/main/screenshots/gin-2026-06-20T181824.png
+security:
+- kind: domain-security
+  name: Gin Domain Security
+  slug: gin-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: gin
+tags:
+- Microservices
+website: https://gin-gonic.com/
+---

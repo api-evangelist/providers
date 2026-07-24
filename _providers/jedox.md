@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jedox-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://knowledgebase.jedox.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://knowledgebase.jedox.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.jedox.com/en/services/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jedox.com/en/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.jedox.com/en/platform/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.jedox.com/en/trial/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.jedox.com/en/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.jedox.com/en/data-protection-policy/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.jedox.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jedox.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/jedox-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/jedox-well-known.yml
+created: '2026-07-17'
+description: Jedox is an enterprise performance management (EPM) and financial planning & analysis (FP&A) software company headquartered in Freiburg, Germany. Its platform unifies planning, budgeting, AI-powered forecasting and scenario planning, financial consolidation, and management reporting on a multidimensional OLAP engine, connecting strategic, operational, and tactical plans to enable integrated business planning (IBP) across finance, sales, HR, and operations. Jedox offers an Excel-like web modeling experience, Microsoft 365 add-ins, Canvas dashboards, a data-integration layer (Integrator) with prebuilt connectors, AI agents (JedoxAI), and a mobile app, delivered as a governed cloud platform. It is backed by Insight Partners and is profiled here in the API Evangelist network as a company/provider.
+image: https://www.jedox.com/wp-content/uploads/2025/09/homepage-social-en.jpg
+layout: provider
+modified: '2026-07-19'
+name: Jedox
+nav: Providers
+network: true
+overview: 'Jedox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Performance Management, Financial Planning and Analysis, Budgeting and Forecasting, and Business Intelligence.
+
+
+  Jedox''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
+random_paper: 28
+score:
+  band: emerging
+  composite: 22.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 23.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 22.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Jedox Domain Security
+  slug: jedox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Jedox Trust Center
+  slug: jedox-trust-center
+  summary_line: trust center published
+slug: jedox
+tags:
+- Company
+- Enterprise Performance Management
+- Financial Planning and Analysis
+- Budgeting and Forecasting
+- Business Intelligence
+- OLAP
+- Integrated Business Planning
+- Data Integration
+- Reporting
+- Analytics
+website: https://www.jedox.com/
+---

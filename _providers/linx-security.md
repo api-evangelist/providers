@@ -1,0 +1,146 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 11.5
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.linx.security
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.linx.security/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.linx.security/docs/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.linx.security/docs/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://app.linxsecurity.io
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.linx.security/demo
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.linx.security/resource-center
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.linxsecurity.io
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.linx.security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/linx-security-trust-center.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/linx-security-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/linx-security-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/linx-security-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/linx-security-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/linx-security-domain-security.yml
+created: '2026-07-17'
+description: Linx Security is an AI-native identity security and governance platform that unifies identity visibility, governance, and enforcement across human, non-human, and AI agent identities. The platform spans modern Identity Governance and Administration (IGA), Identity Security Posture Management (ISPM), just-in-time access, identity lifecycle management, and agentic identity governance, built on a graph-based identity fabric with AI-driven analytics, automation, and remediation. Linx also ships an MCP Gateway and an MCP Server that give AI agents governed, audited access to identity data and actions. The company was founded by Israel Duanis and Niv Goldenberg, emerged from stealth with $33M in funding, and has since raised a $50M Series B. The product is delivered as gated enterprise SaaS at app.linxsecurity.io; no public API documentation or developer portal is published at this time.
+image: https://cdn.prod.website-files.com/69529b4327b8e0f645d9edff/6994d775451e099494971ae4_OG.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: linx-security-mcp.yml
+  slug: linx-security-mcpyml
+modified: '2026-07-19'
+name: Linx Security
+nav: Providers
+network: true
+overview: 'Linx Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity, Identity Governance, and Access Management.
+
+
+  Linx Security''s developer surface includes engineering blog, signup flow, support, and 12 more developer resources.'
+random_paper: 50
+score:
+  band: emerging
+  composite: 21.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 21.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Linx Security Domain Security
+  slug: linx-security-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Linx Security Trust Center
+  slug: linx-security-trust-center
+  summary_line: trust center published
+slug: linx-security
+tags:
+- Company
+- Security
+- Identity
+- Identity Governance
+- Access Management
+- Identity Security
+- Non-Human Identity
+- Agentic AI
+- MCP
+- IGA
+website: https://www.linx.security
+---

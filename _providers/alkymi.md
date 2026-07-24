@@ -1,0 +1,151 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 5.8
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
+  name: Alkymi REST API
+  slug: alkymi-rest-api
+artifact_total: 4
+asyncapis:
+- description: ''
+  name: Alkymi Webhooks
+  slug: alkymi-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alkymi.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.alkymi.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.alkymi.io
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.alkymi.io/resources/blog
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.alkymi.io/enterprise-platform/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.alkymi.io/enterprise-platform/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/alkymi-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/alkymi-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alkymi-domain-security.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/alkymi-webhooks.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.alkymi.io
+- group: start
+  title: ''
+  type: Login
+  url: https://app.alkymi.io
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.alkymi.io/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.alkymi.io/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.alkymi.io/privacy-policy
+created: '2026-07-17'
+description: Alkymi is an enterprise AI platform for private markets data that uses secure large language models to extract and transform unstructured investment and financial documents into standardized, actionable datasets. The platform ingests capital notices, quarterly reports, financial statements, CIMs, loan agreements, and brokerage statements, then delivers structured data to downstream systems in real time. Product lines include Alkymi Alts, Alkymi Private Credit, Data Inbox, and Patterns. Alkymi exposes a developer-friendly REST API with event-based webhook support, email integrations, and user-triggered import/export, and integrates with SimCorp, Snowflake, Salesforce, FINBOURNE, Zapier, and Groq. It is backed by Canaan Partners.
+image: https://alkymi-website.transforms.svdcdn.com/production/New-Social-Sharing-SEO-1x.png?w=1400&h=1400&auto=compress%2Cformat&fit=clip&dm=1724087718&s=c3c96d6bcdb8e45cae1dd3dcb3f2975a
+layout: provider
+modified: '2026-07-17'
+name: Alkymi
+nav: Providers
+network: true
+overview: 'Alkymi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Private Markets, Document Processing, and Data Extraction.
+
+
+  The Alkymi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Alkymi''s developer surface includes documentation, engineering blog, signup flow, support, and 11 more developer resources.'
+random_paper: 35
+score:
+  band: thin
+  composite: 30.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 22.6
+    developer_ergonomics: 23.9
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 18.4
+  previous_composite: 30.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Alkymi Domain Security
+  slug: alkymi-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Alkymi Trust Center
+  slug: alkymi-trust-center
+  summary_line: SOC 2 Type 2, ISO 27001, GDPR
+slug: alkymi
+tags:
+- Company
+- Financial Services
+- Private Markets
+- Document Processing
+- Data Extraction
+- Artificial Intelligence
+- Alternative Investments
+- Webhooks
+website: https://www.alkymi.io
+---

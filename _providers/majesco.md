@@ -1,0 +1,187 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Majesco Agentic Access
+  operation_count: 12
+  slug: majesco-agentic-access
+  summary_line: 12 operations · 7 acting
+api_count: 4
+apis:
+- description: Premium billing and payment operations
+  name: majesco Billing API
+  slug: majesco-billing-api
+- description: Claims intake and management
+  name: majesco Claims API
+  slug: majesco-claims-api
+- description: Quote and bind operations for distribution channels
+  name: majesco Distribution API
+  slug: majesco-distribution-api
+- description: Insurance policy lifecycle management
+  name: majesco Policies API
+  slug: majesco-policies-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: Majesco Insurance Policy Administration API
+  slug: open-majesco-policy
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/majesco-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/majesco-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/majesco-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/majesco-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/majesco-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/majesco
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.majesco.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.majesco.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policy-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/json-schema/majesco-policy-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/json-ld/majesco-context.jsonld
+description: Majesco is a global leader of cloud insurance software solutions for insurance business transformation, helping insurance carriers innovate, modernize, and accelerate their digital strategies.
+finops:
+- name: Majesco Finops
+  service_category: API
+  slug: majesco-finops
+graphqls:
+- description: Majesco provides cloud insurance software. The API covers policy administration, billing, claims, underwriting, agency management, product configuration, and analytics for life, annuity, P&C, and grou
+  name: Majesco GraphQL API
+  slug: majesco-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/majesco.png
+json_schemas:
+- name: Majesco Insurance Policy
+  property_count: 14
+  slug: majesco-policy
+jsonld:
+- class_count: 24
+  name: Majesco Context
+  property_count: 11
+  slug: majesco-context
+layout: provider
+modified: '2026-05-19'
+name: majesco
+nav: Providers
+network: true
+overview: 'majesco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, Distribution API, and 1 more.
+
+
+  The majesco catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  majesco''s developer surface includes authentication, developer portal, and 9 more developer resources.'
+plans:
+- name: Majesco Plans Pricing
+  plan_count: 3
+  slug: majesco-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 5
+  name: Majesco Rate Limits
+  slug: majesco-rate-limits
+rules:
+- name: majesco API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: majesco-jsonschema-spectral-rules
+scopes:
+- name: Majesco Scopes
+  scope_count: 2
+  slug: majesco-scopes
+  summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 47.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 68.1
+    developer_ergonomics: 19.6
+    discoverability: 42.5
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 47.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png
+security:
+- kind: authentication
+  name: Majesco Authentication
+  slug: majesco-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Majesco Domain Security
+  slug: majesco-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Majesco Trust Center
+  slug: majesco-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: majesco
+website: https://www.majesco.com/
+---

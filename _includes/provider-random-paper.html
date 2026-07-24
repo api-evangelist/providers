@@ -1,0 +1,27 @@
+{%- comment -%}
+  provider-random-paper.html — features one API Evangelist white paper in the
+  right sidebar, below the metadata card. The paper is chosen at build time by
+  build-providers.py (page.random_paper is an index into site.data.papers,
+  derived from the provider slug so it's stable per page but varies across the
+  network). Falls back to the first paper if the index is missing.
+{%- endcomment -%}
+{%- assign papers = site.data.papers -%}
+{%- if papers and papers.size > 0 -%}
+{%- assign idx = page.random_paper | default: 0 -%}
+{%- assign paper = papers[idx] | default: papers[0] -%}
+<aside class="prov-paper">
+  <div class="prov-paper-eyebrow">From the API Evangelist bookshelf</div>
+  <a class="prov-paper-card" href="https://papers.apievangelist.com/papers/{{ paper.slug }}/" target="_blank" rel="noopener">
+    <div class="prov-paper-cover">
+      <img src="{{ paper.cover }}" alt="{{ paper.title }} cover" loading="lazy" onerror="this.closest('.prov-paper-cover').style.display='none'">
+    </div>
+    <div class="prov-paper-body">
+      <div class="prov-paper-area">{{ paper.area }}</div>
+      <div class="prov-paper-title">{{ paper.title }}</div>
+      {%- if paper.tagline %}<p class="prov-paper-tagline">{{ paper.tagline | truncate: 150 }}</p>{% endif %}
+      <span class="prov-paper-cta">Read the paper &rarr;{% if paper.price and paper.price != "" %} <span class="prov-paper-price">${{ paper.price }}</span>{% endif %}</span>
+    </div>
+  </a>
+  <a class="prov-paper-all" href="https://papers.apievangelist.com/" target="_blank" rel="noopener">Browse all {{ papers.size }} papers &rarr;</a>
+</aside>
+{%- endif -%}

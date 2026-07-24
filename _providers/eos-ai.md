@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/eos-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.helloeos.ai/
+- group: start
+  title: ''
+  type: Login
+  url: https://my.helloeos.ai/login
+- group: start
+  title: ''
+  type: Demo
+  url: https://calendly.com/arya-helloeos/30min
+created: '2026-07-17'
+description: 'Eos AI is a San Francisco healthcare technology company building an autonomous operating system for healthcare that helps clinics and hospitals identify eligible patients and enable early care interventions. The platform connects to fragmented clinical systems (EHRs, imaging archives, labs, scheduling, and billing), resolves patient identities across sites and encounters, and links records into a continuous longitudinal history that can be searched and analyzed as one distributed database. Two harmonization products anchor the stack: VERA standardizes medical imaging across scanners, sites, and protocols to improve model performance and shorten deployment, and LUCIA structures EHR free text, ICD, SNOMED, and clinical signals into a unified representation for downstream analytics. On top of the harmonized data, Eos runs predictive models over full patient trajectories and drives automations into hospital workflows, reporting roughly 3x administrative productivity and 37% revenue
+  recovery in early deployments. Founded in 2025 by Arya Khokhar and backed by Y Combinator (Winter 2026 batch). Its application is gated at my.helloeos.ai; no public developer API, OpenAPI, or developer portal has been published to date, so this profile captures the company identity and the security posture of its public web surface.'
+image: https://www.helloeos.ai/static/images/favicon.png
+layout: provider
+modified: '2026-07-19'
+name: Eos AI
+nav: Providers
+network: true
+overview: Eos AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, AI, and Machine Learning.
+random_paper: 13
+score:
+  band: minimal
+  composite: 9.9
+  delta: 0.5
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.4
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Eos Ai Domain Security
+  slug: eos-ai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: eos-ai
+tags:
+- Company
+- Health
+- Healthcare
+- AI
+- Machine Learning
+- Clinical Data
+- Data Harmonization
+- Medical Imaging
+- Predictive Analytics
+- Hospital Operations
+website: https://www.helloeos.ai/
+---

@@ -1,0 +1,209 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Tazama Agentic Access
+  operation_count: 6
+  slug: tazama-agentic-access
+  summary_line: 6 operations · 4 acting
+api_count: 3
+apis:
+- description: Administrative API for managing and configuring the Tazama platform. Supports configuration of rule processors, typology definitions, network maps, and system administration. Swagger documentation ava
+  name: Tazama Admin Service API
+  slug: admin-service
+- description: Service health check operations
+  name: Tazama Health API
+  slug: tazama-health-api
+- description: ISO 20022 transaction message evaluation for fraud and AML detection
+  name: Tazama Transaction Evaluation API
+  slug: tazama-transaction-evaluation-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Tazama Transaction Monitoring Service API
+  slug: open-tazama-transaction-monitoring-service
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/tazama-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tazama-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tazama.org/feed/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/tazama-org
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tazama.org/products/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/tazama-lf
+- group: company
+  title: ''
+  type: About
+  url: https://tazama.org/about/
+- group: other
+  title: ''
+  type: Licensing
+  url: https://www.linuxfoundation.org/press/linux-foundation-launches-tazama-for-real-time-fraud-management
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/openapi/tazama-transaction-monitoring-service-openapi.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/vocabulary/tazama-vocabulary.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/json-schema/tazama-transaction-response-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/json-ld/tazama-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/rules/tazama-rules.yml
+created: '2026-03-16'
+description: Tazama is the first open source platform for real-time financial monitoring and fraud detection, launched by Linux Foundation Charities with support from the Bill and Melinda Gates Foundation. It provides real-time fraud management, AML compliance, and cost-effective monitoring of digital financial transactions through a microservices architecture with rule processors, typology scoring, and case management integration. Built to ISO 20022 standards for maximum financial messaging interoperability.
+examples:
+- key_count: 2
+  name: Tazama Evaluate Pacs008 Transaction Example
+  slug: tazama-evaluate-pacs008-transaction-example
+- key_count: 2
+  name: Tazama Evaluate Pain001 Transaction Example
+  slug: tazama-evaluate-pain001-transaction-example
+finops:
+- name: Tazama Finops
+  service_category: API
+  slug: tazama-finops
+graphqls:
+- description: ''
+  name: Tazama GraphQL API
+  slug: tazama-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tazama.png
+json_schemas:
+- name: ISO 20022 pain.001.001.11 Customer Credit Transfer Initiation
+  property_count: 1
+  slug: tazama-iso20022-pain001
+- name: Tazama Transaction Response
+  property_count: 2
+  slug: tazama-transaction-response
+json_structures:
+- name: Tazama Transaction Response Structure
+  property_count: 0
+  slug: tazama-transaction-response-structure
+jsonld:
+- class_count: 38
+  name: Tazama Context
+  property_count: 0
+  slug: tazama-context
+layout: provider
+modified: '2026-05-19'
+name: Tazama
+nav: Providers
+network: true
+overview: 'Tazama publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Transaction Evaluation API. Tagged areas include Financial Technology, Fraud Detection, Anti-Money Laundering, Linux Foundation, and Open Source.
+
+
+  The Tazama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Tazama''s developer surface includes engineering blog, documentation, and 11 more developer resources.'
+plans:
+- name: Tazama Plans Pricing
+  plan_count: 3
+  slug: tazama-plans-pricing
+random_paper: 26
+rate_limits:
+- limit_count: 5
+  name: Tazama Rate Limits
+  slug: tazama-rate-limits
+rules:
+- name: Tazama API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: tazama-jsonschema-spectral-rules
+- name: Tazama API Rules
+  rule_count: 10
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 8
+  slug: tazama-rules
+score:
+  band: developing
+  composite: 46.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 46.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/screenshots/tazama-2026-06-20T194939.png
+security:
+- kind: domain-security
+  name: Tazama Domain Security
+  slug: tazama-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: tazama
+tags:
+- Financial Technology
+- Fraud Detection
+- Anti-Money Laundering
+- Linux Foundation
+- Open Source
+- Transaction Monitoring
+- ISO 20022
+- Real Time
+---

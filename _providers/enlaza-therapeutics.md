@@ -1,0 +1,94 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/enlaza-therapeutics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.enlazatx.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: http://enlazatx.com/wp-content/uploads/2022/12/Enlaza_Therapeutics_Privacy_Policy.pdf
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: http://enlazatx.com/wp-content/uploads/2022/12/Enlaza_Therapeutics_Terms_of_Use_Website.pdf
+created: '2026-07-17'
+description: Enlaza Therapeutics is a clinical-stage biopharmaceutical company in La Jolla, California developing first-in-class covalent protein biologics for cancer and other serious diseases. Its proprietary War-Lock technology uses engineered unnatural amino acids to enable protein drugs — including antibody-drug conjugates and T-cell engagers — to bind their disease targets irreversibly, aiming for sustained target occupancy and a prolonged biologic effect with minimal systemic exposure across oncology and immuno-oncology applications. The company was surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist network; it publishes a corporate website but no public developer API surface.
+image: https://enlazatx.com/wp-content/uploads/2022/12/Enlaza_logo.svg
+layout: provider
+modified: '2026-07-19'
+name: Enlaza Therapeutics
+nav: Providers
+network: true
+overview: Enlaza Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Oncology.
+random_paper: 39
+score:
+  band: minimal
+  composite: 13.9
+  delta: 2.9
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Enlaza Therapeutics Domain Security
+  slug: enlaza-therapeutics-domain-security
+  summary_line: TLSv1.3
+slug: enlaza-therapeutics
+tags:
+- Company
+- Biotechnology
+- Pharmaceuticals
+- Therapeutics
+- Oncology
+- Biologics
+- Drug Discovery
+- Life Sciences
+website: https://www.enlazatx.com
+---

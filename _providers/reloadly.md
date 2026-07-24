@@ -1,0 +1,243 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Reloadly Agentic Access
+  operation_count: 17
+  slug: reloadly-agentic-access
+  summary_line: 17 operations · 4 acting
+api_count: 8
+apis:
+- description: Obtain OAuth 2.0 access tokens for API authorization.
+  name: Reloadly Authentication API
+  slug: reloadly-authentication-api
+- description: Check your Reloadly account balance.
+  name: Reloadly Balance API
+  slug: reloadly-balance-api
+- description: Retrieve discount rates available on gift card products.
+  name: Reloadly Discounts API
+  slug: reloadly-discounts-api
+- description: Browse mobile network operators and their coverage.
+  name: Reloadly Operators API
+  slug: reloadly-operators-api
+- description: Place and manage gift card orders.
+  name: Reloadly Orders API
+  slug: reloadly-orders-api
+- description: Browse and search the gift card product catalog.
+  name: Reloadly Products API
+  slug: reloadly-products-api
+- description: Send airtime top-ups to mobile phones worldwide.
+  name: Reloadly Top-Ups API
+  slug: reloadly-top-ups-api
+- description: List and retrieve top-up transaction history.
+  name: Reloadly Transactions API
+  slug: reloadly-transactions-api
+artifact_total: 25
+collections:
+- collection_type: open
+  name: Reloadly Airtime API
+  slug: open-reloadly-airtime
+- collection_type: open
+  name: Reloadly Gift Cards API
+  slug: open-reloadly-gift-cards
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/reloadly-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/reloadly-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/reloadly-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.reloadly.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.reloadly.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://auth.reloadly.com/oauth/token
+- group: other
+  title: ''
+  type: Dashboard
+  url: https://dashboard.reloadly.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/reloadly
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.reloadly.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.reloadly.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.reloadly.com/register
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/reloadly
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/reloadly
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.reloadly.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.reloadly.com/blog/feed/
+created: '2025-02-08'
+description: Reloadly is a global digital rewards and payments platform providing APIs for sending digital gift cards, airtime top-ups, and data bundles worldwide. The platform connects businesses to 3,000+ gift card brands across 14,000+ products in 140+ countries and 800+ mobile operators in 170+ countries. Reloadly's REST APIs use OAuth 2.0 client credentials authentication with separate sandbox and production environments.
+examples:
+- key_count: 2
+  name: Reloadly List Products Example
+  slug: reloadly-list-products-example
+- key_count: 2
+  name: Reloadly Place Order Example
+  slug: reloadly-place-order-example
+- key_count: 2
+  name: Reloadly Send Topup Example
+  slug: reloadly-send-topup-example
+finops:
+- name: Reloadly Finops
+  service_category: API
+  slug: reloadly-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reloadly.png
+json_schemas:
+- name: Reloadly Gift Card Order
+  property_count: 11
+  slug: reloadly-order
+- name: Reloadly Gift Card Product
+  property_count: 18
+  slug: reloadly-product
+json_structures:
+- name: Reloadly Product Structure
+  property_count: 0
+  slug: reloadly-product-structure
+jsonld:
+- class_count: 9
+  name: Reloadly Context
+  property_count: 17
+  slug: reloadly-context
+layout: provider
+modified: '2026-05-19'
+name: Reloadly
+nav: Providers
+network: true
+overview: 'Reloadly publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balance API, Discounts API, and 5 more. Tagged areas include Gift Cards, Payments, Airtime, Mobile Top-Up, and Rewards.
+
+
+  The Reloadly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Reloadly''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, and 9 more developer resources.'
+plans:
+- name: Reloadly Plans Pricing
+  plan_count: 3
+  slug: reloadly-plans-pricing
+random_paper: 44
+rate_limits:
+- limit_count: 5
+  name: Reloadly Rate Limits
+  slug: reloadly-rate-limits
+rules:
+- name: Reloadly API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: reloadly-jsonschema-spectral-rules
+- name: Reloadly API Rules
+  rule_count: 10
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 0
+    warn: 4
+  slug: reloadly-rules
+score:
+  band: developing
+  composite: 50.9
+  delta: -2.5
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 71.2
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 53.4
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/screenshots/reloadly-2026-06-20T192834.png
+security:
+- kind: authentication
+  name: Reloadly Authentication
+  slug: reloadly-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Reloadly Domain Security
+  slug: reloadly-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: reloadly
+tags:
+- Gift Cards
+- Payments
+- Airtime
+- Mobile Top-Up
+- Rewards
+- Incentives
+website: https://www.reloadly.com
+---

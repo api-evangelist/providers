@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://onespot.com
+created: '2026-07-17'
+description: OneSpot was an Austin, Texas adtech and content-marketing startup that built a machine-learning platform to personalize and sequence branded content across websites, email, and paid media. Founded around 2010 and backed by early investors including 500 Startups, RSL Venture Partners, and Austin angels, it raised multiple venture rounds before being acquired. The onespot.com domain (and its developer, api, and app subdomains) now redirects to IgniteTech, and the company no longer operates an independent public developer API, documentation, or SDK surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onespot.png
+layout: provider
+modified: '2026-07-20'
+name: OneSpot
+nav: Providers
+network: true
+overview: OneSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Content Marketing, Marketing Technology, and Personalization.
+random_paper: 11
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: onespot
+tags:
+- Company
+- AdTech
+- Content Marketing
+- Marketing Technology
+- Personalization
+- Advertising
+- Machine Learning
+- Austin
+website: https://onespot.com
+---

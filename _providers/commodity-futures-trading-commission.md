@@ -1,0 +1,205 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Commodity Futures Trading Commission Agentic Access
+  operation_count: 7
+  slug: commodity-futures-trading-commission-agentic-access
+  summary_line: 7 operations
+api_count: 7
+apis:
+- description: 'The CFTC oversees Swap Data Repositories (SDRs) that collect and maintain swap transaction records as required by the Dodd-Frank Act. SDRs publish certain real-time public data and the CFTC publishes '
+  name: CFTC Swap Data Repositories
+  slug: cftc-swap-data-repositories
+- description: The CFTC publishes monthly Bank Participation reports and other aggregate large trader reports that complement the weekly COT data. These reports are released as PDFs and HTML tables on cftc.gov.
+  name: CFTC Bank Participation and Large Trader Reports
+  slug: cftc-large-trader-reporting
+- description: Commitments of Traders datasets
+  name: Commodity Futures Trading Commission COT API
+  slug: commodity-futures-trading-commission-cot-api
+- description: Disaggregated COT report format
+  name: Commodity Futures Trading Commission Disaggregated API
+  slug: commodity-futures-trading-commission-disaggregated-api
+- description: Legacy COT report format
+  name: Commodity Futures Trading Commission Legacy API
+  slug: commodity-futures-trading-commission-legacy-api
+- description: Supplemental Commodity Index Trader format
+  name: Commodity Futures Trading Commission Supplemental API
+  slug: commodity-futures-trading-commission-supplemental-api
+- description: Traders in Financial Futures format
+  name: Commodity Futures Trading Commission TFF API
+  slug: commodity-futures-trading-commission-tff-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: CFTC Commitments of Traders (COT) SODA API
+  slug: open-cftc-cot
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/commodity-futures-trading-commission-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/commodity-futures-trading-commission-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/commodity-futures-trading-commission
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cftc.gov/
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/cftc-cot-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/cftc-cot-schema.json
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/cftc-cot-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/cftc-cot-rules.yml
+- group: other
+  title: ''
+  type: Capability
+  url: capabilities/query-commitments-of-traders.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://publicreporting.cftc.gov/
+- group: docs
+  title: ''
+  type: Reference
+  url: https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cftc.gov/About/AbouttheCFTC/Privacy.html
+created: '2024-12-03'
+description: The Commodity Futures Trading Commission (CFTC) is the U.S. federal regulator for commodity futures and options markets. The CFTC publishes the weekly Commitments of Traders (COT) report and other public data through a Socrata Open Data API at publicreporting.cftc.gov, providing programmatic access to Legacy, Disaggregated, Traders in Financial Futures, and Supplemental Commodity Index Trader datasets, as well as swap data and large trader reports.
+finops:
+- name: Commodity Futures Trading Commission Finops
+  service_category: API
+  slug: commodity-futures-trading-commission-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commodity-futures-trading-commission.png
+json_schemas:
+- name: CFTC Commitments of Traders Row
+  property_count: 7
+  slug: cftc-cot
+jsonld:
+- class_count: 0
+  name: Cftc Cot Context
+  property_count: 5
+  slug: cftc-cot-context
+layout: provider
+modified: '2026-05-19'
+name: Commodity Futures Trading Commission
+nav: Providers
+network: true
+overview: 'Commodity Futures Trading Commission publishes 5 APIs on the [APIs.io](https://apis.io/) network, including COT API, Disaggregated API, Legacy API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal Government, Financial, and Futures.
+
+
+  The Commodity Futures Trading Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Commodity Futures Trading Commission''s developer surface includes documentation and 11 more developer resources.'
+plans:
+- name: Commodity Futures Trading Commission Plans Pricing
+  plan_count: 3
+  slug: commodity-futures-trading-commission-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 5
+  name: Commodity Futures Trading Commission Rate Limits
+  slug: commodity-futures-trading-commission-rate-limits
+rules:
+- name: Commodity Futures Trading Commission API Rules
+  rule_count: 6
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 2
+  slug: cftc-cot-rules
+- name: Commodity Futures Trading Commission API Rules
+  rule_count: 4
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 3
+  slug: commodity-futures-trading-commission-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 40.5
+  delta: -1.4
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 53.1
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 39.5
+    operational_transparency: 31.6
+  previous_composite: 41.9
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 32.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
+security:
+- kind: domain-security
+  name: Commodity Futures Trading Commission Domain Security
+  slug: commodity-futures-trading-commission-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: commodity-futures-trading-commission
+tags:
+- CFTC
+- Commitments of Traders
+- Federal Government
+- Financial
+- Futures
+- Open Data
+- SODA
+- Trading
+website: https://www.cftc.gov/
+---

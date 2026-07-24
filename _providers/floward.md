@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://floward.co
+- group: operate
+  title: ''
+  type: Support
+  url: https://floward.co/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://floward.co/press/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/floward-domain-security.yml
+created: '2026-07-17'
+description: Floward is a leading online flowers and luxury gifting company headquartered in Kuwait and operating across the Middle East and the United Kingdom. Founded in 2017, the company delivers fresh flower arrangements, curated gift boxes, chocolates, cakes, and personalized gifts to more than 40 cities across 9 countries, sourcing blooms daily from ethical growers worldwide and offering same-day and scheduled delivery through its web store and mobile apps. Floward is backed by investors including 500 Global. This API Evangelist profile tracks Floward as a company in the network; as of this enrichment pass the company publishes a consumer e-commerce storefront and corporate site but no public developer API, documentation portal, or SDKs were found.
+image: https://cdn.floward.co/wp-content/uploads/2024/03/24092629/cropped-PHOTO-2024-03-21-11-35-43-192x192.jpg
+layout: provider
+modified: '2026-07-19'
+name: Floward
+nav: Providers
+network: true
+overview: 'Floward is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flowers, Gifting, Ecommerce, and Retail.
+
+
+  Floward''s developer surface includes support, engineering blog, and 2 more developer resources.'
+random_paper: 37
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Floward Domain Security
+  slug: floward-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: floward
+tags:
+- Company
+- Flowers
+- Gifting
+- Ecommerce
+- Retail
+- Delivery
+- Logistics
+- Middle East
+website: https://floward.co
+---

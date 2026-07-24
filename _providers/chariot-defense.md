@@ -1,0 +1,90 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/chariot-defense-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.chariotdefense.com/
+- group: company
+  title: ''
+  type: Careers
+  url: https://job-boards.greenhouse.io/chariotdefense
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/chariotdefense
+created: '2026-07-17'
+description: Chariot Defense is a San Francisco-area defense technology company building high-voltage, hybrid-electric power systems for the modern battlefield. Its AMPHORA family (the 24 VDC / 5 kW A24 and the 400 VDC / 35 kW A400) and the upcoming VANGUARD platform deliver quiet, high-density, transportable power that replaces loud, fuel-hungry diesel generators, cutting energy signature and fuel use while powering distributed systems such as drones, sensors, electronic warfare, command and control, additive manufacturing, and directed-energy weapons. Founded in 2022 by Adam Warmoth, the company has raised $41M (a $34M Series A led by Andreessen Horowitz plus an $8M seed) and its systems are fielded by the U.S. Army and the Defense Innovation Unit. This is a hardware/defense company profiled in the API Evangelist network; it publishes no public developer API, portal, or documentation.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chariot-defense.png
+layout: provider
+modified: '2026-07-18'
+name: Chariot Defense
+nav: Providers
+network: true
+overview: Chariot Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Energy, and Power Systems.
+random_paper: 42
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Chariot Defense Domain Security
+  slug: chariot-defense-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: chariot-defense
+tags:
+- Company
+- Defense
+- Defense Technology
+- Energy
+- Power Systems
+- Battery
+- Military
+- Hardware
+- Battlefield Power
+website: https://www.chariotdefense.com/
+---

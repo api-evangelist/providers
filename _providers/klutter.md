@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: 500GlobalPortfolio
+  url: https://500.co/portfolio
+created: '2026-07-17'
+description: 'Klutter is an unresolved entry harvested from the 500 Global portfolio listing and added to the API Evangelist network as a stub for enrichment. The 2026-07-19 enrichment pass could not establish a verifiable identity for this company. The URL captured alongside the name in the 500 Global portfolio scrape, price.com, resolves to Price Technologies Inc. (Los Angeles, CA), a consumer cash-back, coupon and price-comparison platform that is a different company and is tracked separately; that pointer has therefore been removed rather than misattributed to Klutter. No company named Klutter with a matching profile could be confirmed in the 500 Global portfolio through public sources. The klutter.com domain is parked (it serves only a JavaScript redirect to a registrar lander), and the other public uses of the name are unrelated third parties: the Klutter Flutter/Kotlin Multiplatform framework by buijs-dev, a Komga comic-server client app for iOS and Android by Mark Winckle, and a
+  music project. None of these are venture-backed companies. There is no developer portal, documentation, API, SDK, package, or specification surface to harvest for this entity, so no artifacts were generated.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klutter.png
+layout: provider
+modified: '2026-07-19'
+name: Klutter
+nav: Providers
+network: true
+overview: Klutter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+random_paper: 14
+score:
+  band: minimal
+  composite: 5.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: klutter
+tags:
+- Company
+---

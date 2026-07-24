@@ -1,0 +1,185 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Energy Information Administration Agentic Access
+  operation_count: 13
+  slug: energy-information-administration-agentic-access
+  summary_line: 13 operations
+api_count: 10
+apis:
+- description: CO2 emissions aggregates by state and sector.
+  name: Energy Information Administration CO2 Emissions API
+  slug: energy-information-administration-co2-emissions-api
+- description: Coal production, shipments, consumption, and trade data.
+  name: Energy Information Administration Coal API
+  slug: energy-information-administration-coal-api
+- description: Browse the API tree to discover available routes, facets, and metadata.
+  name: Energy Information Administration Discovery API
+  slug: energy-information-administration-discovery-api
+- description: Electricity generation, retail sales, and balancing authority data.
+  name: Energy Information Administration Electricity API
+  slug: energy-information-administration-electricity-api
+- description: International energy statistics and projections.
+  name: Energy Information Administration International API
+  slug: energy-information-administration-international-api
+- description: Natural gas production, prices, storage, and trade data.
+  name: Energy Information Administration Natural Gas API
+  slug: energy-information-administration-natural-gas-api
+- description: Nuclear plant generator outage data.
+  name: Energy Information Administration Nuclear API
+  slug: energy-information-administration-nuclear-api
+- description: Crude oil reserves, refining, consumption, and stocks data.
+  name: Energy Information Administration Petroleum API
+  slug: energy-information-administration-petroleum-api
+- description: State Energy Data System.
+  name: Energy Information Administration SEDS API
+  slug: energy-information-administration-seds-api
+- description: Comprehensive energy summaries across all sources.
+  name: Energy Information Administration Total Energy API
+  slug: energy-information-administration-total-energy-api
+artifact_total: 17
+collections:
+- collection_type: open
+  name: U.S. Energy Information Administration Open Data API
+  slug: open-energy-information-administration-open-data-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/energy-information-administration-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/energy-information-administration-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/energy-information-administration-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/eiagov
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/u-s-energy-information-administration
+- group: company
+  title: ''
+  type: Website
+  url: https://www.eia.gov
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.eia.gov/opendata/
+- group: other
+  title: ''
+  type: API Browser
+  url: https://www.eia.gov/opendata/browser/
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.eia.gov/opendata/register.php
+- group: other
+  title: ''
+  type: Bulk Downloads
+  url: https://www.eia.gov/opendata/bulkfiles.php
+- group: other
+  title: ''
+  type: Excel Add-in
+  url: https://www.eia.gov/opendata/excel/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.eia.gov/rss/todayinenergy.xml
+created: '2024-12-03'
+description: The U.S. Energy Information Administration (EIA) is committed to its free and open data by making it available through an Application Programming Interface (API) and its open data tools. The EIA Open Data API v2 is multi-faceted and contains time-series datasets organized by the main energy categories, including electricity, natural gas, petroleum, coal, nuclear, renewables, total energy, international energy statistics, the State Energy Data System (SEDS), and CO2 emissions aggregates.
+finops:
+- name: Energy Information Administration Finops
+  service_category: API
+  slug: energy-information-administration-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-information-administration.png
+layout: provider
+modified: '2026-05-19'
+name: Energy Information Administration
+nav: Providers
+network: true
+overview: 'Energy Information Administration publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CO2 Emissions API, Coal API, Discovery API, and 7 more. Tagged areas include Energy, Federal Government, and Open Data.
+
+
+  Energy Information Administration''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
+plans:
+- name: Energy Information Administration Plans Pricing
+  plan_count: 3
+  slug: energy-information-administration-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 5
+  name: Energy Information Administration Rate Limits
+  slug: energy-information-administration-rate-limits
+score:
+  band: thin
+  composite: 35.1
+  delta: -1.6
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 56.6
+    developer_ergonomics: 21.7
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.7
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/screenshots/energy-information-administration-2026-06-20T180702.png
+security:
+- kind: authentication
+  name: Energy Information Administration Authentication
+  slug: energy-information-administration-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Energy Information Administration Domain Security
+  slug: energy-information-administration-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: energy-information-administration
+tags:
+- Energy
+- Federal Government
+- Open Data
+website: https://www.eia.gov
+---

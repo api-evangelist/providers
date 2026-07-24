@@ -1,0 +1,89 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/epic-creations-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getepic.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getepic.com/plans
+created: '2026-07-17'
+description: Epic! Creations, Inc. operates Epic, an award-winning digital reading and learning platform for children twelve and under. The service gives families and educators unlimited access to a library of more than 40,000 books, audiobooks, and learning videos, with reading-level personalization, quizzes, and progress tracking. Epic offers a consumer family subscription and Epic School, a version that is free for teachers and students during the school day via class codes. The company was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network. Epic is a business-to-consumer application and does not publish a public developer program, API, or SDK surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epic-creations.png
+layout: provider
+modified: '2026-07-19'
+name: Epic! Creations
+nav: Providers
+network: true
+overview: 'Epic! Creations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Reading, and Children.
+
+
+  Epic! Creations'' developer surface includes pricing and 2 more developer resources.'
+random_paper: 2
+score:
+  band: minimal
+  composite: 8.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Epic Creations Domain Security
+  slug: epic-creations-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: epic-creations
+tags:
+- Company
+- Education
+- EdTech
+- Reading
+- Children
+- Digital Library
+- Books
+- Audiobooks
+- Learning
+website: https://www.getepic.com/
+---

@@ -1,0 +1,115 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/twine-ventures-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.twineventures.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.twineventures.com/#about
+- group: other
+  title: ''
+  type: Portfolio
+  url: https://www.twineventures.com/#portfolio
+- group: other
+  title: ''
+  type: Team
+  url: https://www.twineventures.com/#team
+- group: company
+  title: ''
+  type: Blog
+  url: https://twinenotes.substack.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/twine-ventures/about/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/twine-ventures-llms.txt
+created: '2026-07-17'
+description: Twine Ventures is an early-stage venture capital firm "transforming human and planetary health," writing first checks into interdisciplinary, data-obsessed founders who use data and AI to transform legacy industries across healthcare, industrials, and fintech/data. It was founded by Leshika Samarasinghe — early Google product team, founding member of ARPA-E, and former Managing Partner at The Production Board — who raised a $25M debut fund in 2022 (WSJ); Ethan Yeh, PhD, former Head of Data Science at Stripe, joined as Managing Partner. Its ~33-company portfolio includes Apella, Alaffia, Rupa Health (acq), Waltz Health (acq), Waymark, Teiko Bio, CloudCruise, and Rowspace. Surfaced as a Foundry Group partner-fund lead in the API Evangelist network; the firm runs a Webflow marketing site and publishes no public API, developer portal, or machine-readable surface.
+image: https://cdn.prod.website-files.com/65d4cc037a097231ce1cecb1/67aaac01e93121815eee434a_Twine-Logo1.png
+layout: provider
+modified: '2026-07-21'
+name: Twine Ventures
+nav: Providers
+network: true
+overview: 'Twine Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Venture Firm, Investor, and Early Stage.
+
+
+  Twine Ventures'' developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 9
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Twine Ventures Domain Security
+  slug: twine-ventures-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC
+slug: twine-ventures
+tags:
+- Company
+- Venture Capital
+- Venture Firm
+- Investor
+- Early Stage
+- Healthcare
+- Industrials
+- Fintech
+- Data
+- AI
+website: https://www.twineventures.com
+---

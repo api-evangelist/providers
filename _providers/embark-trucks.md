@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/embarktrucks
+created: '2026-07-17'
+description: Embark Trucks was an autonomous-trucking company founded in 2016 and backed by Y Combinator, building a self-driving software stack (the Embark Driver) for Class 8 semi-trucks operating on interstate highway freight lanes. The company went public via a SPAC merger with Northern Star Investment Corp II in late 2021, but wound down operations in November 2023 after failing to secure additional funding; its autonomous-driving technology and engineering assets were subsequently acquired by Applied Intuition. Embark never operated a public developer platform, REST API, or developer portal, so this API Evangelist profile is an identity record rather than a live API. Its only surviving public technical surface is the embarktrucks GitHub organization, which hosts open-source robotics and autonomous-vehicle tooling (ROS drivers, LIDAR/camera integrations, and the webviz visualization libraries) rather than first-party API client SDKs.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/embark-trucks.png
+layout: provider
+modified: '2026-07-19'
+name: Embark Trucks
+nav: Providers
+network: true
+overview: Embark Trucks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, Self-Driving, Trucking, and Freight.
+random_paper: 13
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: embark-trucks
+tags:
+- Company
+- Autonomous Vehicles
+- Self-Driving
+- Trucking
+- Freight
+- Logistics
+- Transportation
+- Robotics
+---

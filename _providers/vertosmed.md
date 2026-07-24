@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vertosmed-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://vertosmed.com
+created: '2026-07-17'
+description: Vertos Medical (vertosmed.com) is a medical device company founded in 2005 and based in Aliso Viejo, California, focused on minimally invasive treatments for lumbar spinal stenosis (LSS). Its proprietary Mild (Minimally Invasive Lumbar Decompression) procedure is an image-guided outpatient treatment that removes a major root cause of LSS through an incision smaller than a baby aspirin, without implants, general anesthesia, or stitches. Vertos Medical was acquired by Stryker Corporation in 2024 and is now part of Stryker's Interventional Spine business; vertosmed.com now redirects to stryker.com. As a clinical medical-device manufacturer, Vertos Medical publishes no public developer, API, SDK, or integration surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertosmed.png
+layout: provider
+modified: '2026-07-21'
+name: Vertosmed
+nav: Providers
+network: true
+overview: Vertosmed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Device, Healthcare, Spine, and Interventional Spine.
+random_paper: 16
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Vertosmed Domain Security
+  slug: vertosmed-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: vertosmed
+tags:
+- Company
+- Medical Device
+- Healthcare
+- Spine
+- Interventional Spine
+- Minimally Invasive
+- Lumbar Spinal Stenosis
+- Stryker
+website: https://vertosmed.com
+---

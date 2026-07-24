@@ -1,0 +1,78 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nii-holdings.com
+description: NII Holdings was a provider of mobile communications services in Latin America under the Nextel brand before its operations were divested.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nii-holdings.png
+layout: provider
+modified: '2026-04-28'
+name: nii-holdings
+nav: Providers
+network: true
+overview: nii-holdings is profiled on the [APIs.io](https://apis.io/) network.
+press:
+- date: '2026-05-25'
+  title: 'NII HOLDINGS INC : Entry into a Material Definitive Agreement ...'
+  url: https://www.marketscreener.com/news.php?id_news=29746691
+- date: '2026-05-25'
+  title: NII Holdings Announces Voluntary Filing For Relief Under ...
+  url: https://www.prnewswire.com/news-releases/nii-holdings-announces-voluntary-filing-for-relief-under-chapter-11-275171001.html
+- date: '2026-05-25'
+  title: NII Holdings sees good growth, Mexico sweet spot
+  url: https://www.reuters.com/article/world/us/nii-holdings-sees-good-growth-mexico-sweet-spot-idUSN19185235/
+- date: '2026-05-25'
+  title: NII Holdings Customer Success Story
+  url: https://workspace.google.com/customers/nii-holdings/
+- date: '2026-05-25'
+  title: Mike Tolber - NII Holdings, Inc.
+  url: https://www.linkedin.com/in/mike-tolber-53b433180
+random_paper: 48
+score:
+  band: minimal
+  composite: 3.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 35.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 3.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: nii-holdings
+website: https://www.nii-holdings.com
+---

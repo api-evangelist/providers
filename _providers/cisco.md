@@ -1,0 +1,359 @@
+---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 66.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Cisco Agentic Access
+  operation_count: 5
+  slug: cisco-agentic-access
+  summary_line: 5 operations · 1 acting
+api_count: 12
+apis:
+- description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
+  name: Cisco Meraki Dashboard API
+  slug: meraki-api
+- description: REST API for Webex collaboration platform enabling messaging, meeting management, device control, and administration. Supports bots, integrations, and embedded apps for extending Webex functionality.
+  name: Cisco Webex API
+  slug: webex-api
+- description: 'REST API for Cisco Catalyst Center (formerly DNA Center), providing intent-based networking capabilities including network design, provisioning, assurance, and policy management for enterprise campus '
+  name: Cisco Catalyst Center API
+  slug: catalyst-center-api
+- description: REST API for Cisco Application Centric Infrastructure (ACI) providing programmable access to data center network fabric configuration, policy management, and monitoring through the APIC controller.
+  name: Cisco ACI API
+  slug: aci-api
+- description: REST API for Cisco Identity Services Engine (ISE) enabling network access policy management, guest services, BYOD onboarding, and security group administration for zero-trust network access.
+  name: Cisco ISE API
+  slug: ise-api
+- description: REST API for Cisco Intersight cloud operations platform providing infrastructure management, workload optimization, and lifecycle automation for Cisco UCS, HyperFlex, and third-party infrastructure.
+  name: Cisco Intersight API
+  slug: intersight-api
+- description: REST API for Cisco SD-WAN (formerly Viptela) providing programmatic access to WAN edge device management, policy configuration, monitoring, and analytics through the vManage controller.
+  name: Cisco SD-WAN API
+  slug: sdwan-api
+- description: REST API for Cisco ThousandEyes digital experience monitoring platform, providing access to network, application, and internet visibility data for monitoring end-to-end digital experiences.
+  name: Cisco ThousandEyes API
+  slug: thousandeyes-api
+- description: View client information
+  name: Cisco Clients API
+  slug: cisco-clients-api
+- description: Manage network devices
+  name: Cisco Devices API
+  slug: cisco-devices-api
+- description: Manage networks within an organization
+  name: Cisco Networks API
+  slug: cisco-networks-api
+- description: Manage Meraki organizations
+  name: Cisco Organizations API
+  slug: cisco-organizations-api
+arazzos:
+- description: Drill from organization to network to devices to connected clients in a single audited pass.
+  name: Cisco Meraki Network Inventory Snapshot
+  slug: cisco-meraki-network-inventory-workflow
+- description: Verify organization access, guard against a duplicate network name, create the network, and read it back.
+  name: Cisco Meraki Provision an Organization Network
+  slug: cisco-provision-meraki-network-workflow
+artifact_total: 54
+common:
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/cisco-meraki-network-inventory-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/cisco-provision-meraki-network-workflow.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cisco-agentic-access.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cisco-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cisco-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/cisco-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cisco-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cisco-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cisco-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cisco-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cisco-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cisco-conventions.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cisco-components.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cisco-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cisco-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cisco-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cisco
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.cisco.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.cisco.com/docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.cisco.com/learning/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blogs.cisco.com/developer
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CiscoDevNet
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.cisco.com/site/support/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cisco.com/c/en/us/about/legal/cloud-and-software.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cisco.com/c/en/us/about/legal/privacy-full.html
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://developer.cisco.com/site/sandbox/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/cisco-sandbox.yml
+- group: learn
+  title: ''
+  type: Training
+  url: https://developer.cisco.com/certification/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/ciscodevnet
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/CiscoDevNet
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/cisco
+created: '2024-01-01'
+description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.
+examples:
+- key_count: 7
+  name: Cisco Meraki Api Device Example
+  slug: cisco-meraki-api-device-example
+- key_count: 6
+  name: Cisco Meraki Api Network Example
+  slug: cisco-meraki-api-network-example
+- key_count: 3
+  name: Cisco Meraki Api Organization Example
+  slug: cisco-meraki-api-organization-example
+features:
+- 'Cisco (Networking + Security + Collaboration): hundreds of services across Networking + Security'
+- 'Detailed pricing: see https://www.cisco.com/c/en/us/products/index.html'
+- 'Service: Meraki Dashboard API'
+- 'Service: Catalyst Center API'
+- 'Service: DNA Center API'
+- 'Service: Webex API'
+- 'Service: Webex Calling'
+- 'Service: Cisco Secure Endpoint API'
+- 'Service: Umbrella API'
+- 'Service: AppDynamics API'
+- 'Service: ThousandEyes API'
+- 'Service: Cisco Intersight API'
+finops:
+- name: Cisco Finops
+  service_category: Networking + Security
+  slug: cisco-finops
+graphqls:
+- description: This is a conceptual GraphQL schema for Cisco's APIs, unifying resources from Cisco Meraki, Webex, Catalyst Center (DNA Center), and NSO (Network Services Orchestrator). Cisco provides REST APIs throu
+  name: Cisco GraphQL Schema
+  slug: cisco-graphql
+image: /assets/icons/cisco.png
+integrations:
+- description: Network automation modules for Cisco platforms including IOS, NX-OS, ACI, and Meraki.
+  name: Ansible
+- description: Terraform providers for Cisco ACI, Intersight, Meraki, and other platforms for infrastructure as code.
+  name: Terraform
+- description: ITSM integration for automated incident management and change control with Cisco platforms.
+  name: ServiceNow
+- description: Security and network analytics integration for log aggregation and threat detection.
+  name: Splunk
+- description: Python SDKs and libraries for all major Cisco platforms including Meraki, Webex, and ACI.
+  name: Python
+json_schemas:
+- name: Device
+  property_count: 7
+  slug: cisco-meraki-api-device
+- name: Network
+  property_count: 6
+  slug: cisco-meraki-api-network
+- name: Organization
+  property_count: 3
+  slug: cisco-meraki-api-organization
+jsonld:
+- class_count: 4
+  name: Cisco Context
+  property_count: 14
+  slug: cisco-context
+layout: provider
+mcp_servers:
+- description: ''
+  name: cisco-mcp.yml
+  slug: cisco-mcpyml
+modified: '2026-06-20'
+name: Cisco
+nav: Providers
+network: true
+overview: 'Cisco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Devices API, Networks API, and 1 more. Tagged areas include Fortune 100, Collaboration, Enterprise, Networking, and Security.
+
+
+  The Cisco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 24 more developer resources.'
+plans:
+- name: Cisco Plans Pricing
+  plan_count: 3
+  slug: cisco-plans-pricing
+random_paper: 19
+rate_limits:
+- limit_count: 2
+  name: Cisco Rate Limits
+  slug: cisco-rate-limits
+rules:
+- name: Cisco API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: cisco-jsonschema-spectral-rules
+- name: Cisco API Rules
+  rule_count: 18
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 2
+    warn: 10
+  slug: cisco-spectral-rules
+score:
+  band: strong
+  composite: 65.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 66.4
+    developer_ergonomics: 60.9
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 42.1
+  previous_composite: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Cisco Authentication
+  slug: cisco-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Cisco Domain Security
+  slug: cisco-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Cisco Vulnerability Disclosure
+  slug: cisco-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: cisco
+tags:
+- Fortune 100
+- Collaboration
+- Enterprise
+- Networking
+- Security
+- SD-WAN
+use_cases:
+- description: Automate network device configuration changes across thousands of devices using APIs and templates.
+  name: Network Configuration Management
+- description: Programmatically manage access control policies, security groups, and compliance enforcement.
+  name: Security Policy Automation
+- description: Build bots, integrations, and custom applications on the Webex platform for team collaboration.
+  name: Collaboration Integration
+- description: Manage hybrid cloud infrastructure with Intersight APIs for lifecycle management and workload optimization.
+  name: Cloud Infrastructure Management
+- description: Collect and analyze network telemetry data for performance monitoring and troubleshooting.
+  name: Network Monitoring and Analytics
+website: https://developer.cisco.com/
+---

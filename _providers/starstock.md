@@ -1,0 +1,59 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Starstock was a sports-card and collectibles trading marketplace surfaced as an a16z portfolio lead. As of the 2026-07-21 enrichment pass, starstock.com 301-redirects to collectiblexchange.com — a Brandon Steiner-founded Shopify-based marketplace for autographed memorabilia, game-used equipment, and trading cards — which publishes no API, developer portal, developer documentation, SDKs, or public GitHub organization. No API surface exists to enrich.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/starstock.png
+layout: provider
+modified: '2026-07-21'
+name: Starstock
+nav: Providers
+network: true
+overview: Starstock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+random_paper: 21
+score:
+  band: minimal
+  composite: 5.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: starstock
+tags:
+- Company
+---

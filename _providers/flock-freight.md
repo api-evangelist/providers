@@ -1,0 +1,124 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/flock-freight-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/flock-freight-domain-security.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.flockfreight.com/resources/security
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flockfreight.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.flockfreight.com/customer-help
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.flockfreight.com/carrier-help
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.flockfreight.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/flockfreight
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.flockfreight.com/resources/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.flockfreight.com/resources/privacy-policy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.flockfreight.com/contact-us
+created: '2026-07-17'
+description: Flock Freight is a freight technology company and licensed freight brokerage that pioneered shared truckload (STL) shipping through its FlockDirect service. Its AI-powered pooling technology algorithmically combines multiple partial shipments from different businesses into a single multi-stop full truckload, giving shippers truckload-level service, damage rates, and speed without paying for a full trailer, while cutting empty miles and carbon emissions. The platform provides automated spot rating via API, TMS integrations, and EDI connectivity (204/210/211/214/990/997) for shippers and carriers. Backed by GV and the SoftBank Vision Fund, the company is a certified B Corporation.
+image: https://cdn.prod.website-files.com/656b56e5fc9ae6eba29a2fcf/657387f60e5d5f605e8375cb_Favicon-256.png
+layout: provider
+modified: '2026-07-19'
+name: Flock Freight
+nav: Providers
+network: true
+overview: 'Flock Freight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Freight, Logistics, and Shipping.
+
+
+  Flock Freight''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
+random_paper: 42
+score:
+  band: emerging
+  composite: 16.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 16.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Flock Freight Domain Security
+  slug: flock-freight-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Flock Freight Vulnerability Disclosure
+  slug: flock-freight-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: flock-freight
+tags:
+- Company
+- Enterprise
+- Freight
+- Logistics
+- Shipping
+- Transportation
+- Supply Chain
+- Freight Brokerage
+website: https://www.flockfreight.com
+---

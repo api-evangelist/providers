@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: 'Crystal (Crystal Semiconductor) was a hardtech company that designed audio and mixed-signal semiconductor chips. Kleiner Perkins partnered with the company in 1986 at the early stage, and Crystal was subsequently acquired by Cirrus Logic. The company was surfaced from the Kleiner Perkins portfolio and added to the API Evangelist network as a lead. It operated as a fabless chip designer rather than a software or platform business, and no longer exists as an independent entity: it publishes no website, no developer portal, and no public API surface of any kind. This profile is retained as a historical portfolio record and is not an API provider.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crystal.png
+layout: provider
+modified: '2026-07-20'
+name: Crystal
+nav: Providers
+network: true
+overview: Crystal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductors, Hardware, and Audio.
+random_paper: 5
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: crystal
+tags:
+- Company
+- Hardtech
+- Semiconductors
+- Hardware
+- Audio
+- Mixed Signal
+- Chips
+---

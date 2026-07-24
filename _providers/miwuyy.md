@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://miwuyy.com
+created: '2026-07-17'
+description: 'miwuyy (miwuyy.com) was surfaced as a portfolio-lead stub of the VC qiming. Enrichment probing (2026-07-20) found the domain resolves to a Chinese consumer video-streaming aggregator site (南瓜影视 / "Pumpkin Video") that scrapes media from the internet. It exposes no API, developer portal, documentation, OpenAPI, or any programmatic surface: /.well-known/* return 502 and /openapi.json, /llms.txt, and /api all return the site''s catch-all text/html page. There is nothing to enrich here; it is not an API provider.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miwuyy.png
+layout: provider
+modified: '2026-07-20'
+name: miwuyy
+nav: Providers
+network: true
+overview: miwuyy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+random_paper: 29
+score:
+  band: minimal
+  composite: 5.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: miwuyy
+tags:
+- Company
+website: https://miwuyy.com
+---

@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ntt-data-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nttdata.com/global/en/
+- group: other
+  title: ''
+  type: Services
+  url: https://www.nttdata.com/global/en/services
+- group: other
+  title: ''
+  type: Industries
+  url: https://www.nttdata.com/global/en/industries
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.nttdata.com/global/en/contact
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.nttdata.com/global/en/news
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ntt-data
+created: '2026-05-11'
+description: NTT DATA is a global IT services and consulting firm offering strategic consulting, cloud services, cybersecurity, data analytics, application development, and managed infrastructure across industries including banking, healthcare, manufacturing, public sector, and retail. The company operates in more than 50 countries and serves Fortune 500 enterprises with digital transformation, AI, and systems integration capabilities. NTT DATA does not publish a general public REST API; integrations are typically delivered through bespoke engagements and partner-specific solutions.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ntt-data.png
+layout: provider
+modified: '2026-05-11'
+name: NTT DATA
+nav: Providers
+network: true
+overview: NTT DATA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Services, Consulting, Digital Transformation, Cloud Services, and Cybersecurity.
+random_paper: 32
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ntt-data/refs/heads/main/screenshots/ntt-data-2026-06-20T190501.png
+security:
+- kind: domain-security
+  name: Ntt Data Domain Security
+  slug: ntt-data-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: ntt-data
+tags:
+- IT Services
+- Consulting
+- Digital Transformation
+- Cloud Services
+- Cybersecurity
+- Systems Integration
+website: https://www.nttdata.com/global/en/
+---

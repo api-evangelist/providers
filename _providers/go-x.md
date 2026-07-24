@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/go-x-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://goxapp.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.goxapp.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://goxapp.com/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://goxapp.com/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.goxapp.com
+created: '2026-07-17'
+description: 'Go X is an electric micromobility sharing company that lets riders rent scooters, e-bikes, and cars on demand, 24/7, through a consumer mobile app. Operating in cities such as New Orleans, Go X builds its own connected electric vehicles and manages fleet access, unlocking, ride sessions, and payments entirely in-app on iOS and Android. It is a consumer-facing mobility service rather than a public API provider: it exposes no developer portal, documentation, SDKs, or documented public API surface (its api.goxapp.com host is the private backend for the mobile apps).'
+image: https://goxapp.com/assets/0654faaf65d035705ee9ef75144447d3.png
+layout: provider
+modified: '2026-07-19'
+name: Go X
+nav: Providers
+network: true
+overview: 'Go X is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Electric Scooters, Scooter Sharing, and E-Bikes.
+
+
+  Go X''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 12.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Go X Domain Security
+  slug: go-x-domain-security
+  summary_line: TLSv1.3
+slug: go-x
+tags:
+- Company
+- Micromobility
+- Electric Scooters
+- Scooter Sharing
+- E-Bikes
+- Mobility
+- Transportation
+- Vehicle Rental
+website: https://goxapp.com
+---

@@ -1,0 +1,120 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ragas-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ragas-io
+- group: company
+  title: ''
+  type: Website
+  url: https://docs.ragas.io/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/explodinggradients/ragas
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ragas-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ragas-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/ragas-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.ragas.io/llms.txt
+created: '2026-05-08'
+description: Ragas is an open-source Python evaluation framework for LLM and RAG (retrieval-augmented generation) applications. It provides metrics, experiments, dataset management, and integrations with LangChain and LlamaIndex. Ragas is delivered as a Python library, not a hosted REST API.
+finops:
+- name: Ragas Finops
+  service_category: AI Evaluation
+  slug: ragas-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ragas.png
+layout: provider
+modified: '2026-05-08'
+name: Ragas
+nav: Providers
+network: true
+overview: 'Ragas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Evaluation, LLM, RAG, Open Source, and Python.
+
+
+  Ragas'' developer surface includes GitHub presence and 7 more developer resources.'
+plans:
+- name: Ragas Plans Pricing
+  plan_count: 1
+  slug: ragas-plans-pricing
+random_paper: 16
+rate_limits:
+- limit_count: 2
+  name: Ragas Rate Limits
+  slug: ragas-rate-limits
+score:
+  band: emerging
+  composite: 15.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 15.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ragas/refs/heads/main/screenshots/ragas-2026-06-20T192529.png
+security:
+- kind: domain-security
+  name: Ragas Domain Security
+  slug: ragas-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: ragas
+tags:
+- AI Evaluation
+- LLM
+- RAG
+- Open Source
+- Python
+- Metrics
+website: https://docs.ragas.io/
+---

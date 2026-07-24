@@ -1,0 +1,305 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Aligned News Agentic Access
+  operation_count: 11
+  slug: aligned-news-agentic-access
+  summary_line: 11 operations
+api_count: 9
+apis:
+- description: Consumer-facing AI news intelligence platform delivering Stories, Signals, Reports, and Bundles synthesized from 63 curated X lists tracking 100,000+ accounts across AI, technology, and science.
+  name: Aligned News
+  slug: aligned-news
+- description: Reference Model Context Protocol server distributed as a single TypeScript file (mcp-server.ts) that proxies the Aligned News REST API to MCP-compatible AI tools like Claude Code, Claude Desktop, Curs
+  name: Aligned News MCP Server
+  slug: aligned-news-mcp-server
+- description: Curated groupings of related stories around themes.
+  name: Aligned News Bundles API
+  slug: aligned-news-bundles-api
+- description: All current stories grouped by section.
+  name: Aligned News News Feed API
+  slug: aligned-news-news-feed-api
+- description: Trend deep-dives and longer-form analysis.
+  name: Aligned News Reports API
+  slug: aligned-news-reports-api
+- description: Full-text search across stories, signals, and reports.
+  name: Aligned News Search API
+  slug: aligned-news-search-api
+- description: Topical sections used to organize stories.
+  name: Aligned News Sections API
+  slug: aligned-news-sections-api
+- description: Early pattern detections with editorial badges.
+  name: Aligned News Signals API
+  slug: aligned-news-signals-api
+- description: AI news stories curated and synthesized from monitored accounts.
+  name: Aligned News Stories API
+  slug: aligned-news-stories-api
+artifact_total: 53
+collections:
+- collection_type: open
+  name: Aligned News REST API
+  slug: open-aligned-news
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/aligned-news-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aligned-news-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/aligned-news-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alignednews.com/
+- group: other
+  title: ''
+  type: How It Works
+  url: https://alignednews.com/how-it-works
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://alignednews.com/getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://alignednews.com/pricing
+- group: other
+  title: ''
+  type: Developers
+  url: https://alignednews.com/developers
+- group: start
+  title: ''
+  type: Signup
+  url: https://alignednews.com/account
+- group: other
+  title: ''
+  type: Sitemap
+  url: https://alignednews.com/sitemap.xml
+- group: other
+  title: ''
+  type: Robots TXT
+  url: https://alignednews.com/robots.txt
+- group: other
+  title: ''
+  type: Research
+  url: https://alignednews.com/research
+- group: other
+  title: ''
+  type: Signals
+  url: https://alignednews.com/signals
+- group: other
+  title: ''
+  type: Reports
+  url: https://alignednews.com/reports
+- group: other
+  title: ''
+  type: Bundles
+  url: https://alignednews.com/bundles
+- group: other
+  title: ''
+  type: AI
+  url: https://alignednews.com/ai
+- group: agent
+  title: ''
+  type: MCP Server
+  url: https://alignednews.com/mcp-server.ts
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/Aligned-news
+- group: company
+  title: ''
+  type: Blog
+  url: https://alignednews.com/feed
+created: '2026-05-06'
+description: Aligned News is an AI-native intelligence and news platform that synthesizes AI-powered briefings from 63 curated X lists tracking 100,000+ accounts in AI, tech, and science, and publishes Stories, Signals, Reports, and Bundles via web, REST API, and a downloadable MCP server for AI tools like Claude, Cursor, and Windsurf.
+examples:
+- key_count: 1
+  name: Aligned News Getbundle Example
+  slug: aligned-news-getBundle-example
+- key_count: 1
+  name: Aligned News Getnewsfeed Example
+  slug: aligned-news-getNewsFeed-example
+- key_count: 1
+  name: Aligned News Getreport Example
+  slug: aligned-news-getReport-example
+- key_count: 1
+  name: Aligned News Getsignal Example
+  slug: aligned-news-getSignal-example
+- key_count: 1
+  name: Aligned News Getstory Example
+  slug: aligned-news-getStory-example
+- key_count: 1
+  name: Aligned News Listbundles Example
+  slug: aligned-news-listBundles-example
+- key_count: 1
+  name: Aligned News Listreports Example
+  slug: aligned-news-listReports-example
+- key_count: 1
+  name: Aligned News Listsections Example
+  slug: aligned-news-listSections-example
+- key_count: 1
+  name: Aligned News Listsignals Example
+  slug: aligned-news-listSignals-example
+- key_count: 1
+  name: Aligned News Liststories Example
+  slug: aligned-news-listStories-example
+- key_count: 1
+  name: Aligned News Searchcontent Example
+  slug: aligned-news-searchContent-example
+features:
+- AI-powered intelligence from 63 curated X lists
+- Tracks 100,000+ accounts across AI, technology, and science
+- Stories surface breaking AI news with full body content
+- Signals provide early pattern detection with badges (bullish, caution, critical, signal, interview, vc, action)
+- Reports deliver trend deep-dives and summaries
+- Bundles group related stories around themes
+- Section-organized news feed across all topics
+- Full-text Search across stories, signals, and reports
+- REST API gated behind Pro tier with Bearer alnw_ API keys
+- Downloadable single-file MCP server for Claude Code, Claude Desktop, Cursor, and Windsurf
+- Free tier exposes headlines, summaries, signal badges, and report summaries only
+- Pro tier unlocks full content + API access
+- Enterprise tier adds team access, priority support, and custom analysis
+- Built on Fly.io (edge), Supabase (data), Clerk (auth and billing), Stripe (payments)
+finops:
+- name: Aligned News Finops
+  service_category: AI News Intelligence
+  slug: aligned-news-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aligned-news.png
+json_schemas:
+- name: Bundle
+  property_count: 5
+  slug: aligned-news-bundle
+- name: Report
+  property_count: 6
+  slug: aligned-news-report
+- name: Section
+  property_count: 3
+  slug: aligned-news-section
+- name: Signal
+  property_count: 8
+  slug: aligned-news-signal
+- name: Story
+  property_count: 9
+  slug: aligned-news-story
+json_structures:
+- name: Aligned News Bundle Structure
+  property_count: 5
+  slug: aligned-news-bundle-structure
+- name: Aligned News Report Structure
+  property_count: 6
+  slug: aligned-news-report-structure
+- name: Aligned News Section Structure
+  property_count: 3
+  slug: aligned-news-section-structure
+- name: Aligned News Signal Structure
+  property_count: 8
+  slug: aligned-news-signal-structure
+- name: Aligned News Story Structure
+  property_count: 9
+  slug: aligned-news-story-structure
+jsonld:
+- class_count: 18
+  name: Aligned News Context
+  property_count: 9
+  slug: aligned-news-context
+layout: provider
+modified: '2026-05-19'
+name: Aligned News
+nav: Providers
+network: true
+overview: 'Aligned News publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, News Feed API, Reports API, and 4 more. Tagged areas include AI, News, Intelligence, MCP, and Signals.
+
+
+  The Aligned News catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Aligned News'' developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, and 14 more developer resources.'
+plans:
+- name: Aligned News Plans Pricing
+  plan_count: 3
+  slug: aligned-news-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 5
+  name: Aligned News Rate Limits
+  slug: aligned-news-rate-limits
+rules:
+- name: Aligned News API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: aligned-news-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 52.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 70.8
+    developer_ergonomics: 23.9
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 52.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
+security:
+- kind: authentication
+  name: Aligned News Authentication
+  slug: aligned-news-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Aligned News Domain Security
+  slug: aligned-news-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: aligned-news
+tags:
+- AI
+- News
+- Intelligence
+- MCP
+- Signals
+website: https://alignednews.com/
+---

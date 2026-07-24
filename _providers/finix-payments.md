@@ -1,0 +1,326 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 86.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 39
+  human_in_the_loop: 0
+  name: Finix Payments Agentic Access
+  operation_count: 91
+  slug: finix-payments-agentic-access
+  summary_line: 91 operations · 39 acting
+api_count: 19
+apis:
+- description: '{''$ref'': ''api-descriptions/tags/authorizations.md''}'
+  name: Finix Payments Authorizations API
+  slug: finix-payments-authorizations-api
+- description: '{''$ref'': ''api-descriptions/tags/balance-transfers.md''}'
+  name: Finix Payments Balance Transfers API
+  slug: finix-payments-balance-transfers-api
+- description: '{''$ref'': ''api-descriptions/tags/compliance-forms.md''}'
+  name: Finix Payments Compliance Forms API
+  slug: finix-payments-compliance-forms-api
+- description: '{''$ref'': ''api-descriptions/tags/devices.md''}'
+  name: Finix Payments Devices API
+  slug: finix-payments-devices-api
+- description: '{''$ref'': ''api-descriptions/tags/disputes.md''}'
+  name: Finix Payments Disputes API
+  slug: finix-payments-disputes-api
+- description: '{''$ref'': ''api-descriptions/tags/fee-profiles.md''}'
+  name: Finix Payments Fee Profiles API
+  slug: finix-payments-fee-profiles-api
+- description: '{''$ref'': ''api-descriptions/tags/files.md''}'
+  name: Finix Payments Files API
+  slug: finix-payments-files-api
+- description: '{''$ref'': ''api-descriptions/tags/identities.md''}'
+  name: Finix Payments Identities API
+  slug: finix-payments-identities-api
+- description: '{''$ref'': ''api-descriptions/tags/instrument-updates.md''}'
+  name: Finix Payments Instrument Updates API
+  slug: finix-payments-instrument-updates-api
+- description: '{''$ref'': ''api-descriptions/tags/merchant-profiles.md''}'
+  name: Finix Payments Merchant Profiles API
+  slug: finix-payments-merchant-profiles-api
+- description: '{''$ref'': ''api-descriptions/tags/merchants.md''}'
+  name: Finix Payments Merchants API
+  slug: finix-payments-merchants-api
+- description: '{''$ref'': ''api-descriptions/tags/onboarding-forms.md''}'
+  name: Finix Payments Onboarding Forms API
+  slug: finix-payments-onboarding-forms-api
+- description: '{''$ref'': ''api-descriptions/tags/payment-instruments.md''}'
+  name: Finix Payments Payment Instruments API
+  slug: finix-payments-payment-instruments-api
+- description: '{''$ref'': ''api-descriptions/tags/payout-profiles.md''}'
+  name: Finix Payments Payout Profiles API
+  slug: finix-payments-payout-profiles-api
+- description: '{''$ref'': ''api-descriptions/tags/settlements.md''}'
+  name: Finix Payments Settlements API
+  slug: finix-payments-settlements-api
+- description: '{''$ref'': ''api-descriptions/tags/split-transfers.md''}'
+  name: Finix Payments Split Transfers API
+  slug: finix-payments-split-transfers-api
+- description: '{''$ref'': ''api-descriptions/tags/transfers.md''}'
+  name: Finix Payments Transfers API
+  slug: finix-payments-transfers-api
+- description: '{''$ref'': ''api-descriptions/tags/verifications.md''}'
+  name: Finix Payments Verifications API
+  slug: finix-payments-verifications-api
+- description: '{''$ref'': ''api-descriptions/tags/webhooks.md''}'
+  name: Finix Payments Webhooks API
+  slug: finix-payments-webhooks-api
+arazzos:
+- description: ''
+  name: _Index
+  slug: _index
+- description: Create a buyer Identity, tokenize a card, authorize, then capture into a Transfer.
+  name: Finix — Accept a card payment (auth + capture)
+  slug: finix-payments-accept-a-card-payment
+- description: Create a seller Identity, provision a Merchant, and run verification/underwriting.
+  name: Finix — Onboard a seller/merchant
+  slug: finix-payments-onboard-a-merchant
+artifact_total: 28
+asyncapis:
+- description: ''
+  name: Finix Payments Webhooks
+  slug: finix-payments-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.finixpayments.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.finix.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.finix.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://finix.com/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.finix.com/guides/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.finix.com/guides/getting-started/support-at-finix
+- group: company
+  title: ''
+  type: Blog
+  url: https://finix.com/resources/blogs
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/finix-payments
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://finix.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.finixpayments.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://finix.com/terms-and-policies
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://finix.com/terms-and-policies
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.finix.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/finix-payments-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/finix-payments-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/finix-payments-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/finix-payments-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/finix-payments-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/finix-payments-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/finix-payments-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/finix-payments-decline-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/finix-payments-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.finix.com/additional-resources/developers/authentication-and-api-basics/versioning
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/finix-payments-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/finix-payments-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/finix-payments-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/finix-payments-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/finix-payments-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/finix-payments-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/finix-payments-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/finix-payments-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/finix-payments-agentic-access.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/finix-payments-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/finix-payments-domain-security.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/finix-payments-accept-a-card-payment.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/finix-payments-onboard-a-merchant.yml
+created: '2026-07-17'
+description: Finix is a full-stack payments technology provider that lets businesses, software platforms, and marketplaces accept and send payments online and in person. Its REST API (version 2022-02-01) covers the full payments lifecycle — Identities, Merchants, Payment Instruments, Authorizations, Transfers, Settlements, Disputes, Verifications, Fee/Payout Profiles, Devices/terminals, and Webhooks — enabling card, ACH, EFT, digital-wallet, and Buy-Now-Pay-Later acceptance, seller onboarding/underwriting, split transfers, payouts, and payment facilitation (PayFac-as-a-service). Finix is a Level 1 PCI DSS certified platform with browser (finix.js) and mobile tokenization SDKs, hosted checkout pages, and payment links. Authentication is HTTP Basic Auth with environment-scoped API keys; the API uses cursor pagination, idempotency_id request-level idempotency, HAL responses, and dated versioning via the Finix-Version header.
+image: https://images.ctfassets.net/kqru4vgwujx6/3dBfyfPS31FWqFPTwf4dRv/417cc8b5e94029726cffb9aa85230111/OG_Image.png?w=1200&q=90
+layout: provider
+mcp_servers:
+- description: ''
+  name: finix-payments-mcp.yml
+  slug: finix-payments-mcpyml
+modified: '2026-07-19'
+name: Finix Payments
+nav: Providers
+network: true
+overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Balance Transfers API, Compliance Forms API, and 16 more. Tagged areas include Company, Payments, Payment Processing, Payment Facilitation, and Embedded Finance.
+
+
+  The Finix Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+random_paper: 40
+rate_limits:
+- limit_count: 0
+  name: Finix Payments Rate Limits
+  slug: finix-payments-rate-limits
+score:
+  band: strong
+  composite: 60.9
+  delta: 0.7
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 66.9
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 52.6
+  previous_composite: 60.2
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Finix Payments Authentication
+  slug: finix-payments-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Finix Payments Domain Security
+  slug: finix-payments-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: finix-payments
+tags:
+- Company
+- Payments
+- Payment Processing
+- Payment Facilitation
+- Embedded Finance
+- Marketplaces
+- ACH
+- Card Acceptance
+- Fintech
+- PCI DSS
+website: https://www.finixpayments.com/
+---

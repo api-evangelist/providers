@@ -1,0 +1,234 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 20
+  human_in_the_loop: 2
+  name: Codesandbox Agentic Access
+  operation_count: 27
+  slug: codesandbox-agentic-access
+  summary_line: 27 operations · 20 acting · 2 human-in-the-loop
+api_count: 10
+apis:
+- description: The Define API allows programmatic creation of browser sandboxes from code files, useful for documentation sites and code examples that need to generate a sandbox on the fly. Supports both GET and POS
+  name: CodeSandbox Define API
+  slug: define-api
+- description: Sandpack is an open-source component toolkit for creating live-running code editing experiences powered by CodeSandbox. It supports React via @codesandbox/sandpack-react and plain JavaScript via @code
+  name: Sandpack Embed Toolkit
+  slug: sandpack
+- description: API metadata and auth context
+  name: CodeSandbox meta API
+  slug: codesandbox-meta-api
+- description: Trusted preview host management
+  name: CodeSandbox preview_host API
+  slug: codesandbox-preview-host-api
+- description: Preview token management for private sandboxes
+  name: CodeSandbox preview_token API
+  slug: codesandbox-preview-token-api
+- description: Browser and VM sandbox management
+  name: CodeSandbox sandbox API
+  slug: codesandbox-sandbox-api
+- description: Sandbox template management
+  name: CodeSandbox templates API
+  slug: codesandbox-templates-api
+- description: API token management
+  name: CodeSandbox token API
+  slug: codesandbox-token-api
+- description: Virtual machine lifecycle management
+  name: CodeSandbox vm API
+  slug: codesandbox-vm-api
+- description: Workspace and organization management
+  name: CodeSandbox workspace API
+  slug: codesandbox-workspace-api
+artifact_total: 26
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/codesandbox-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/codesandbox-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/codesandbox-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://codesandbox.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://codesandbox.io/docs/learn
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/codesandbox
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/codesandbox
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/codesandbox
+- group: company
+  title: ''
+  type: Blog
+  url: https://codesandbox.io/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://codesandbox.io/changelog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://codesandbox.io/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.codesandbox.io
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/codesandbox-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/codesandbox-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/codesandbox-finops.yml
+created: '2026-06-12'
+description: CodeSandbox is a browser-based development environment platform that enables developers to create, share, and collaborate on interactive coding sandboxes instantly in the browser. The platform provides a cloud-based IDE with Firecracker microVM infrastructure that supports snapshotting, cloning, and running isolated development environments at scale. CodeSandbox offers the CodeSandbox SDK for programmatically spinning up AI sandboxes and development environments, the Sandpack component toolkit for embedding live-running code editing experiences, and a browser sandbox Define API for generating sandboxes on the fly from code examples. Trusted by over 4.5 million developers monthly, it serves individual developers, professional teams, and AI product builders needing concurrent sandboxed environments.
+examples:
+- key_count: 4
+  name: Codesandbox Sandbox Create Example
+  slug: codesandbox-sandbox-create-example
+- key_count: 4
+  name: Codesandbox Sandbox List Example
+  slug: codesandbox-sandbox-list-example
+- key_count: 4
+  name: Codesandbox Vm Create Session Example
+  slug: codesandbox-vm-create-session-example
+- key_count: 4
+  name: Codesandbox Vm Start Example
+  slug: codesandbox-vm-start-example
+finops:
+- name: Codesandbox Finops
+  service_category: Developer Tools
+  slug: codesandbox-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codesandbox.png
+json_schemas:
+- name: MetaInformation
+  property_count: 3
+  slug: codesandbox-meta-information
+- name: PreviewToken
+  property_count: 4
+  slug: codesandbox-preview-token
+- name: Sandbox
+  property_count: 9
+  slug: codesandbox-sandbox
+- name: VMStartResponse
+  property_count: 3
+  slug: codesandbox-vm-start-response
+jsonld:
+- class_count: 0
+  name: Codesandbox Context
+  property_count: 46
+  slug: codesandbox-context
+layout: provider
+modified: '2026-06-12'
+name: CodeSandbox
+nav: Providers
+network: true
+overview: 'CodeSandbox publishes 8 APIs on the [APIs.io](https://apis.io/) network, including meta API, preview_host API, preview_token API, and 5 more. Tagged areas include Developer Tools, Cloud IDE, Code Sandboxes, Browser Development, and AI Sandboxes.
+
+
+  The CodeSandbox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  CodeSandbox''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 10 more developer resources.'
+plans:
+- name: Codesandbox Plans Pricing
+  plan_count: 4
+  slug: codesandbox-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 7
+  name: Codesandbox Rate Limits
+  slug: codesandbox-rate-limits
+rules:
+- name: CodeSandbox API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: codesandbox-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 59.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 72.8
+    developer_ergonomics: 21.7
+    discoverability: 87.5
+    governance: 73.7
+    operational_transparency: 68.4
+  previous_composite: 59.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
+security:
+- kind: authentication
+  name: Codesandbox Authentication
+  slug: codesandbox-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Codesandbox Domain Security
+  slug: codesandbox-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: codesandbox
+tags:
+- Developer Tools
+- Cloud IDE
+- Code Sandboxes
+- Browser Development
+- AI Sandboxes
+- Code Embedding
+website: https://codesandbox.io
+---

@@ -1,0 +1,227 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 43.3
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
+  name: Telleroo Business API
+  slug: telleroo-business-api
+- description: 'RESTful Embedded Payments API (v3) to build Telleroo into your own platform: authorize against client companies over OAuth 2.0 (authorization code, scope "create"), enumerate companies and accounts, a'
+  name: Telleroo Partner API
+  slug: telleroo-partner-api
+artifact_total: 7
+asyncapis:
+- description: Outbound webhook events emitted by the Telleroo Business API (v1) and Partner API (v3). Each delivery is an HTTP POST to the subscriber URL configured in the Telleroo dashboard and carries a subscribe
+  name: Telleroo Webhooks
+  slug: telleroo-webhooks-asyncapi
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.telleroo.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.telleroo.com/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.telleroo.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.telleroo.com/#introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.telleroo.com/api
+- group: operate
+  title: ''
+  type: Support
+  url: http://help.telleroo.com/en/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: http://help.telleroo.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.telleroo.com/blog-feed
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.telleroo.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.telleroo.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.telleroo.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://app.telleroo.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.telleroo.com/terms-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.telleroo.com/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/telleroo-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/telleroo-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/telleroo-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/telleroo-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/telleroo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/telleroo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/telleroo-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/telleroo-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/telleroo-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/telleroo-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/telleroo-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/telleroo-domain-security.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/telleroo-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/telleroo-webhooks-asyncapi.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/telleroo-mcp.yml
+created: '2026-07-17'
+description: 'Telleroo is a UK bulk payments platform that automates supplier and payroll payments for businesses, accountants and bookkeepers. It provisions a ring-fenced e-money wallet in the customer''s name and sends bulk Faster Payments 24/7 (including bank holidays), plus international payments in 25+ currencies over SEPA, ACH and SWIFT. Built-in fraud controls include Confirmation of Payee, new/updated payee alerts and multi-level approval workflows, and it integrates with accounting and payroll software such as Xero, QuickBooks, Employment Hero and Staffology. Telleroo exposes two RESTful APIs: a Business API (v1, token auth) for automating outbound payments from your own account, and a Partner/Embedded Payments API (v3, OAuth 2.0) for building pay runs into your own platform on behalf of client companies. Both support idempotent requests, real-time webhooks and a dedicated sandbox environment.'
+image: https://www.telleroo.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: telleroo-mcp.yml
+  slug: telleroo-mcpyml
+modified: '2026-07-21'
+name: Telleroo
+nav: Providers
+network: true
+overview: 'Telleroo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Bulk Payments, Payroll, and Faster Payments.
+
+
+  The Telleroo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Telleroo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+random_paper: 3
+scopes:
+- name: Telleroo Scopes
+  scope_count: 1
+  slug: telleroo-scopes
+  summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 46.6
+  delta: 5.2
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 22.6
+    developer_ergonomics: 67.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 41.4
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 76.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Telleroo Authentication
+  slug: telleroo-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Telleroo Domain Security
+  slug: telleroo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: telleroo
+tags:
+- Company
+- Payments
+- Bulk Payments
+- Payroll
+- Faster Payments
+- E-Money
+- Fintech
+- Banking
+- International Payments
+- Embedded Finance
+website: https://www.telleroo.com
+---

@@ -1,0 +1,72 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: http://www.octarinesec.com
+created: '2026-07-17'
+description: Octarine was a cloud-native application security startup that built a security platform for Kubernetes and service-mesh environments, providing runtime visibility, policy enforcement, and threat detection for containerized workloads and microservices. Backed by Accel and Samsung NEXT, Octarine was acquired by VMware in May 2020 and its technology was folded into VMware Carbon Black Cloud and the Tanzu portfolio to deliver Kubernetes and container security. As an independent company Octarine no longer operates a public developer or API surface; its former domain octarinesec.com no longer resolves. This profile is retained in the API Evangelist network as a portfolio-company / acquisition record rather than an active API provider.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octarine.png
+layout: provider
+modified: '2026-07-20'
+name: Octarine
+nav: Providers
+network: true
+overview: Octarine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Kubernetes, Cloud Native, and Container Security.
+random_paper: 37
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: octarine
+tags:
+- Company
+- Security
+- Kubernetes
+- Cloud Native
+- Container Security
+- DevSecOps
+- Service Mesh
+- Acquired
+website: http://www.octarinesec.com
+---

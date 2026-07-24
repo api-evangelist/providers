@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 5
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-defense-finance-accounting-service
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/defense-finance-accounting-service-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/dfas
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dfas.mil
+- group: company
+  title: ''
+  type: About
+  url: https://www.dfas.mil/About-DFAS/
+- group: other
+  title: ''
+  type: myPay
+  url: https://mypay.dfas.mil
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.dfas.mil/Customer-Service/
+created: '2024-12-03'
+description: The Defense Finance and Accounting Service (DFAS) is the agency within the Department of Defense responsible for paying members of the U.S. military, DoD civilian employees, contractors, and annuitants, as well as providing finance and accounting services to DoD components and other federal agencies. DFAS exposes member-facing self-service portals such as myPay but does not currently publish a public developer API.
+finops:
+- name: Defense Finance Accounting Service Finops
+  service_category: API
+  slug: defense-finance-accounting-service-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-finance-accounting-service.png
+layout: provider
+modified: '2026-04-28'
+name: Defense Finance and Accounting Service
+nav: Providers
+network: true
+overview: Defense Finance and Accounting Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, Finance, and Accounting.
+plans:
+- name: Defense Finance Accounting Service Plans Pricing
+  plan_count: 1
+  slug: defense-finance-accounting-service-plans-pricing
+random_paper: 43
+rate_limits:
+- limit_count: 2
+  name: Defense Finance Accounting Service Rate Limits
+  slug: defense-finance-accounting-service-rate-limits
+score:
+  band: minimal
+  composite: 14.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 14.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/screenshots/defense-finance-accounting-service-2026-06-20T175832.png
+security:
+- kind: domain-security
+  name: Defense Finance Accounting Service Domain Security
+  slug: defense-finance-accounting-service-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: defense-finance-accounting-service
+tags:
+- Federal Government
+- Defense
+- Department of Defense
+- Finance
+- Accounting
+- Military Pay
+- Civilian Pay
+- Retirement
+- Annuitants
+website: https://www.dfas.mil
+---

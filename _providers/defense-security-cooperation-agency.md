@@ -1,0 +1,134 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
+  name: DSCA Website
+  slug: defense-security-cooperation-agency-website
+- description: DSCA publishes Major Arms Sales notifications and supporting transmittal documents that Congress and the public use to track potential Foreign Military Sales cases. Notifications are posted as web pag
+  name: DSCA Major Arms Sales Notifications
+  slug: defense-security-cooperation-agency-major-arms-sales
+- description: 'Government-to-government portal that hosts case management, financial, and logistical information for security cooperation partners. SCIP requires authenticated access and operates outside the public '
+  name: Security Cooperation Information Portal (SCIP)
+  slug: defense-security-cooperation-agency-scip
+- description: DSCA portal supporting Security Cooperation Workforce certification, training, and the Defense Security Cooperation University (DSCU). Public information is available on the website with authenticated
+  name: DSCA Security Cooperation Workforce Development
+  slug: defense-security-cooperation-agency-workforce
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/defense-security-cooperation-agency-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/defense-security-cooperation-agency
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dsca.mil
+- group: company
+  title: ''
+  type: News
+  url: https://www.dsca.mil/press-media/news-articles
+- group: build
+  title: ''
+  type: Library
+  url: https://www.dsca.mil/security-cooperation-library
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://www.dsca.mil/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dsca.mil/privacy-and-security-policy
+- group: other
+  title: ''
+  type: FOIA
+  url: https://open.defense.gov/Transparency/FOIA.aspx
+created: '2024-12-03'
+description: The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP).
+finops:
+- name: Defense Security Cooperation Agency Finops
+  service_category: API
+  slug: defense-security-cooperation-agency-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-security-cooperation-agency.png
+layout: provider
+modified: '2026-04-28'
+name: Defense Security Cooperation Agency
+nav: Providers
+network: true
+overview: 'Defense Security Cooperation Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
+
+
+  Defense Security Cooperation Agency''s developer surface includes product news and 7 more developer resources.'
+plans:
+- name: Defense Security Cooperation Agency Plans Pricing
+  plan_count: 3
+  slug: defense-security-cooperation-agency-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 5
+  name: Defense Security Cooperation Agency Rate Limits
+  slug: defense-security-cooperation-agency-rate-limits
+score:
+  band: emerging
+  composite: 22.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 22.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
+security:
+- kind: domain-security
+  name: Defense Security Cooperation Agency Domain Security
+  slug: defense-security-cooperation-agency-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: defense-security-cooperation-agency
+tags:
+- Defense
+- Department of Defense
+- DSCA
+- Federal Government
+- Foreign Military Sales
+- International
+- Security Cooperation
+website: https://www.dsca.mil
+---

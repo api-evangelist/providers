@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://makershub.com
+- group: start
+  title: ''
+  type: Login
+  url: https://makershub.ai/app/#/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://makershub.com/get-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://makershub.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://makershub.com/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://makershub.com/product-updates
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/makershub-changelog.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://makershub.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://makershub.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://makershub.com/privacy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://makershub.com/blog/makershub-soc-2-compliance
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/makershub-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/makershub-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/makershub-domain-security.yml
+created: '2026-07-17'
+description: MakersHub is AI-powered accounts payable (AP) automation software built for the physical economy — construction, manufacturing, distribution, and trade services businesses with high bill volume, job costing, and multi-entity operations. Its WiseVision AI engine captures bills from any source and extracts 35+ fields per invoice including line items, then automates GL coding, approval routing, purchase-order (2- and 3-way) matching, and payment, syncing clean structured data in-house to QuickBooks, NetSuite, Sage Intacct, and Xero. It also serves accounting firms, hospitality, healthcare, nonprofits, real estate, and retail & wholesale, supports US and Canadian multi-rate tax codes, and is SOC 2 Type II certified.
+image: https://cdn.prod.website-files.com/6924606bee0b8a3f0b37b311/6957ed372c8b026b2c7420f8_Social%20Preview.jpg
+layout: provider
+modified: '2026-07-20'
+name: Makershub
+nav: Providers
+network: true
+overview: 'Makershub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounts Payable, AP Automation, and Invoice Processing.
+
+
+  Makershub''s developer surface includes signup flow, pricing, engineering blog, changelog, support, and 9 more developer resources.'
+random_paper: 44
+score:
+  band: emerging
+  composite: 25.4
+  delta: 4.8
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 20.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 52.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Makershub Domain Security
+  slug: makershub-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: makershub
+tags:
+- Company
+- Fintech
+- Accounts Payable
+- AP Automation
+- Invoice Processing
+- Accounting
+- Payments
+- Financial Operations
+- Construction
+website: https://makershub.com
+---

@@ -1,0 +1,107 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/scouter-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wearescouter.com
+- group: company
+  title: ''
+  type: About
+  url: https://wearescouter.com/about
+- group: operate
+  title: ''
+  type: Support
+  url: https://wearescouter.com/faq
+- group: start
+  title: ''
+  type: SignUp
+  url: https://wearescouter.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://wearescouter.com/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://wearescouter.com/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/scouter-llms.txt
+created: '2026-07-17'
+description: Scouter is a Mexican online marketplace, founded in 2021 in Guadalajara, for discovering and booking unique locations — houses, mansions, studios, terraces, haciendas, rooftops and more — for audiovisual productions, events, photo shoots and workshops across Mexico. It connects brands, agencies and production companies with the owners of over 1,500 spaces, handling quotes and reservations directly via WhatsApp (no public list prices, 8-hour minimum booking). Clients have included Netflix, HBO, Puma, Nike and Grupo Modelo. Backed by 500 Global (500 LatAm "Somos Lucha" Batch 16). The public product is a consumer/host web app at wearescouter.com; it exposes no public developer API. Added to the API Evangelist network as a portfolio lead and enriched.
+image: https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e68c34d3-f0f6-4771-a0ab-24b1f3744ef1/id-preview-ecc13c05--cf961fa6-6101-46c6-9a0b-622b064e7ca8.lovable.app-1771288857979.png
+layout: provider
+modified: '2026-07-21'
+name: Scouter
+nav: Providers
+network: true
+overview: 'Scouter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Media Production, Location Rental, and Events.
+
+
+  Scouter''s developer surface includes support, signup flow, and 6 more developer resources.'
+random_paper: 8
+score:
+  band: minimal
+  composite: 12.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Scouter Domain Security
+  slug: scouter-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: scouter
+tags:
+- Company
+- Marketplace
+- Media Production
+- Location Rental
+- Events
+- Real Estate
+- Mexico
+website: https://wearescouter.com
+---

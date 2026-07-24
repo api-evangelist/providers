@@ -1,0 +1,122 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Single-contract API providing access to consumer and business credit reports across major bureaus (Equifax, Experian, TransUnion). Supports soft and hard credit pulls, FICO and Vantage scoring models,
+  name: CRS Credit Data API
+  slug: credit-data-api
+- description: API powering the eCredit Monitoring service for continuous consumer credit monitoring including alerts on credit profile changes.
+  name: CRS Credit Monitoring API
+  slug: credit-monitoring-api
+- description: API for furnishing data to credit bureaus. Currently announced as coming soon on the CRS developer portal.
+  name: CRS Data Furnishing API
+  slug: data-furnishing-api
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/crs-credit-api-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/crscreditapi
+- group: company
+  title: ''
+  type: Website
+  url: https://crscreditapi.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://crscreditapi.redoc.ly/
+- group: docs
+  title: ''
+  type: Reference
+  url: https://crscreditapi.redoc.ly/
+- group: company
+  title: ''
+  type: Blog
+  url: https://crscreditapi.com/blog/
+created: '2024-11-14'
+description: CRS Credit API delivers credit data-as-a-service for fast, compliant financial decisioning. The platform aggregates consumer and business credit, identity, fraud, and public records data from major bureaus (Equifax, Experian, TransUnion, LexisNexis, CIC, PitchPoint) through a single contract and developer interface.
+finops:
+- name: Crs Credit Api Finops
+  service_category: API
+  slug: crs-credit-api-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crs-credit-api.png
+layout: provider
+modified: '2026-04-28'
+name: CRS Credit API
+nav: Providers
+network: true
+overview: 'CRS Credit API publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Credit, Consumer Credit, Business Credit, Identity, and Fraud.
+
+
+  CRS Credit API''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+plans:
+- name: Crs Credit Api Plans Pricing
+  plan_count: 3
+  slug: crs-credit-api-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 5
+  name: Crs Credit Api Rate Limits
+  slug: crs-credit-api-rate-limits
+score:
+  band: emerging
+  composite: 24.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 24.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/crs-credit-api/refs/heads/main/screenshots/crs-credit-api-2026-06-20T175259.png
+security:
+- kind: domain-security
+  name: Crs Credit Api Domain Security
+  slug: crs-credit-api-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: crs-credit-api
+tags:
+- Credit
+- Consumer Credit
+- Business Credit
+- Identity
+- Fraud
+- Data
+website: https://crscreditapi.com/
+---

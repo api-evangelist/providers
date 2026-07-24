@@ -1,0 +1,166 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 15
+  human_in_the_loop: 0
+  name: Olark Agentic Access
+  operation_count: 15
+  slug: olark-agentic-access
+  summary_line: 15 operations · 15 acting
+api_count: 6
+apis:
+- description: 'Browser-side JavaScript API for controlling the Olark chat widget, including chatbox appearance and behavior, chat conversations, visitor information, attention grabber, greeter and pre-chat surveys, '
+  name: Olark JavaScript API
+  slug: javascript-api
+- description: Chatbox visibility and lifecycle
+  name: Olark Box API
+  slug: olark-box-api
+- description: Chat conversation and operator control
+  name: Olark Chat API
+  slug: olark-chat-api
+- description: Pre-load configuration
+  name: Olark Configure API
+  slug: olark-configure-api
+- description: Targeted chat rules
+  name: Olark Rules API
+  slug: olark-rules-api
+- description: Visitor profile updates
+  name: Olark Visitor API
+  slug: olark-visitor-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Olark JavaScript API
+  slug: open-olark
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/olark-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/olark-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/olark-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/olark-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/olark
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/olark
+- group: company
+  title: ''
+  type: Website
+  url: https://www.olark.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.olark.com/help
+- group: docs
+  title: ''
+  type: API Documentation
+  url: https://www.olark.com/api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.olark.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.olark.com/signup
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.olark.com/rss.xml
+created: '2026-05-11'
+description: Olark is a live chat and AI-powered customer communication platform that enables businesses to engage website visitors in real time through chat, chatbots, WhatsApp, and SMS. The platform combines human support with CoPilot automation for capturing leads, driving sales, and providing 24/7 customer service, and is WCAG 2.1 AA accessibility certified. Olark exposes a browser-side JavaScript API for embedding and customizing the chat widget, plus webhooks and integrations with 100+ external tools.
+graphqls:
+- description: This document describes a conceptual GraphQL schema for the Olark live chat and customer support platform. The schema is derived from the [Olark REST API](https://www.olark.com/api/rest/) and the broa
+  name: Olark GraphQL Schema
+  slug: olark-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/olark.png
+layout: provider
+modified: '2026-05-11'
+name: Olark
+nav: Providers
+network: true
+overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Box API, Chat API, Configure API, and 2 more. Tagged areas include Live Chat, Customer Support, Chatbots, Customer Engagement, and Messaging.
+
+
+  Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
+random_paper: 27
+score:
+  band: emerging
+  composite: 27.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 48.8
+    developer_ergonomics: 28.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 27.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/screenshots/olark-2026-06-20T190655.png
+security:
+- kind: authentication
+  name: Olark Authentication
+  slug: olark-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Olark Domain Security
+  slug: olark-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Olark Vulnerability Disclosure
+  slug: olark-vulnerability-disclosure
+  summary_line: Hackerone
+slug: olark
+tags:
+- Live Chat
+- Customer Support
+- Chatbots
+- Customer Engagement
+- Messaging
+- Accessibility
+website: https://www.olark.com
+---

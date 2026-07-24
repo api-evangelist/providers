@@ -1,0 +1,210 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 76.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 32
+  human_in_the_loop: 2
+  name: Axle Energy Agentic Access
+  operation_count: 55
+  slug: axle-energy-agentic-access
+  summary_line: 55 operations · 32 acting · 2 human-in-the-loop
+api_count: 8
+apis:
+- description: Authenticate yourself with the Axle API
+  name: Axle Energy 1. Authentication API
+  slug: axle-energy-1-authentication-api
+- description: Find key info about your sites
+  name: Axle Energy 2. Meters API
+  slug: axle-energy-2-meters-api
+- description: Register your sites with Axle; configure market participation
+  name: Axle Energy 3. Sites API
+  slug: axle-energy-3-sites-api
+- description: Register your assets with Axle
+  name: Axle Energy 4. Assets API
+  slug: axle-energy-4-assets-api
+- description: Send asset metrics to Axle, for analysis and optimisation purposes
+  name: Axle Energy 5. Data API
+  slug: axle-energy-5-data-api
+- description: Determine how much your users have earned by participating with Axle; allow balance withdrawal
+  name: Axle Energy 6. Rewards API
+  slug: axle-energy-6-rewards-api
+- description: Validate structured data against Axle's rules
+  name: Axle Energy 7. Validation API
+  slug: axle-energy-7-validation-api
+- description: Get example data for testing
+  name: Axle Energy 8. Examples API
+  slug: axle-energy-8-examples-api
+artifact_total: 13
+asyncapis:
+- description: ''
+  name: Axle Energy Dispatch Webhooks
+  slug: axle-energy-dispatch-webhooks
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.axle.energy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.axle.energy/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.axle.energy/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.axle.energy/components/getting-started/introduction
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.axle.energy/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/axle-energy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@axle.energy
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/axle-energy-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/axle-energy-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/axle-energy-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/axle-energy-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/axle-energy-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/axle-energy-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/axle-energy-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/axle-energy-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/axle-energy-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/axle-energy-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/axle-energy-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/axle-energy-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.axle.energy/
+created: '2026-07-17'
+description: Axle Energy operates a virtual power plant (VPP) platform that connects distributed energy assets — electric vehicles, EV chargers, home batteries, and heat pumps — to electricity flexibility markets through a single unified API. Partners (carmakers, charger and battery OEMs, HVAC suppliers, and utilities) register sites and assets, prequalify and enrol them in flex propositions, stream telemetry and plug/charge events, and let end users monetise shiftable demand. The API covers authentication, meter lookup (MPAN), sites, assets, telemetry/readings, rewards/payouts, validation, and half-hourly price curves, with markets live across Great Britain, France, Germany, the Netherlands, Denmark and Sweden. React/hosted UI components and a documented outbound dispatch webhook round out the developer surface.
+image: https://cdn.prod.website-files.com/6706a319ca966248529c44be/6a4dc6c17d68be5261e80f8d_OG.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: axle-energy-mcp.yml
+  slug: axle-energy-mcpyml
+modified: '2026-07-18'
+name: Axle Energy
+nav: Providers
+network: true
+overview: 'Axle Energy publishes 8 APIs on the [APIs.io](https://apis.io/) network, including 1. Authentication API, 2. Meters API, 3. Sites API, and 5 more. Tagged areas include Company, Energy, Flexibility, Virtual Power Plant, and Electric Vehicles.
+
+
+  The Axle Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
+random_paper: 50
+score:
+  band: thin
+  composite: 43.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 66.8
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 43.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Axle Energy Authentication
+  slug: axle-energy-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Axle Energy Domain Security
+  slug: axle-energy-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: axle-energy
+tags:
+- Company
+- Energy
+- Flexibility
+- Virtual Power Plant
+- Electric Vehicles
+- Smart Charging
+- Batteries
+- Demand Response
+- Grid
+- Sustainability
+website: https://www.axle.energy/
+---

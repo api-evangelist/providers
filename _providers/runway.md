@@ -1,0 +1,314 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 70.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 15
+  human_in_the_loop: 0
+  name: Runway Agentic Access
+  operation_count: 17
+  slug: runway-agentic-access
+  summary_line: 17 operations · 15 acting
+api_count: 16
+apis:
+- description: The Runway Python SDK provides a convenient Python library for interacting with the Runway API. Supports Python 3.8+ with type annotations compatible with MyPy. Includes automatic retries, best-practi
+  name: Runway Python SDK
+  slug: python-sdk
+- description: The Runway Node.js SDK provides a JavaScript and TypeScript library for integrating with the Runway API. Supports Node.js 18+ with TypeScript bindings, automatic retries, and best-practice error handl
+  name: Runway Node.js SDK
+  slug: nodejs-sdk
+- description: Create and manage persistent avatar personas with defined appearance, voice, and personality. Avatars can be created from a single reference image in any visual style.
+  name: Runway Avatars API
+  slug: runway-avatars-api
+- description: Control a character's facial expressions and body movements using a reference performance video with the Act Two model.
+  name: Runway Character Performance API
+  slug: runway-character-performance-api
+- description: Upload and manage domain-specific knowledge documents that avatars can reference during conversations to provide accurate, contextual responses. Each avatar supports up to 50,000 tokens of knowledge.
+  name: Runway Documents API
+  slug: runway-documents-api
+- description: Interpolate between video frames to increase frame rate and smoothness.
+  name: Runway Frame Interpolation API
+  slug: runway-frame-interpolation-api
+- description: Generate videos from input images with optional text prompts using Gen-4, Gen-4 Turbo, Gen-4.5, or Aleph models.
+  name: Runway Image to Video API
+  slug: runway-image-to-video-api
+- description: Create generative videos where a selected face speaks lines from audio clips or AI-generated voices, supporting 28+ languages.
+  name: Runway Lip Sync API
+  slug: runway-lip-sync-api
+- description: Create live WebRTC sessions connecting users to avatars for real-time conversational interactions. Each session has a maximum duration of 5 minutes.
+  name: Runway Realtime Sessions API
+  slug: runway-realtime-sessions-api
+- description: Generate sound effects for videos using AI.
+  name: Runway Sound Effects API
+  slug: runway-sound-effects-api
+- description: Retrieve status and output of asynchronous generation tasks.
+  name: Runway Tasks API
+  slug: runway-tasks-api
+- description: Generate high-quality images from text prompts using the Gen-4 Image model.
+  name: Runway Text to Image API
+  slug: runway-text-to-image-api
+- description: Generate videos from text prompts alone using Gen-4.5, Veo 3.1, or Veo 3.1 Fast models.
+  name: Runway Text to Video API
+  slug: runway-text-to-video-api
+- description: Upload temporary media files that can be referenced in generation requests.
+  name: Runway Uploads API
+  slug: runway-uploads-api
+- description: Generate new videos from existing video inputs using the Gen-4 Aleph model.
+  name: Runway Video to Video API
+  slug: runway-video-to-video-api
+- description: Upscale video resolution and quality.
+  name: Runway Video Upscale API
+  slug: runway-video-upscale-api
+artifact_total: 52
+asyncapis:
+- description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
+  name: Runway Characters Realtime Events
+  slug: runway-characters-asyncapi
+collections:
+- collection_type: open
+  name: Runway Characters API
+  slug: open-runway-characters
+- collection_type: open
+  name: Runway Image Generation API
+  slug: open-runway-image-generation
+- collection_type: open
+  name: Runway Video Generation API
+  slug: open-runway-video-generation
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/runway-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/runway-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/runway-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/runwayml
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.dev.runwayml.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.dev.runwayml.com/api/
+- group: company
+  title: ''
+  type: Website
+  url: https://runwayml.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev.runwayml.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://runwayml.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://runwayml.com/terms-of-use
+- group: company
+  title: ''
+  type: Blog
+  url: https://runwayml.com/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://app.runwayml.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/runwayml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.dev.runwayml.com/api-details/api_changelog/
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/runway-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/runway-context.jsonld
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/runwayml/runway-api-mcp-server
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/runwayml/runway-characters-meeting-skill
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.dev.runwayml.com/llms.txt
+created: '2025-03-01'
+description: Runway is an applied AI research company that builds generative AI tools for creative professionals. Their developer platform provides APIs for video generation, image generation, real-time conversational avatar experiences, media uploads, and audio synthesis powered by advanced generative models including Gen-4, Gen-4 Turbo, Gen-4.5, Gen-4 Aleph, Veo 3.1, Act Two, and GWM-1 (General World Model). The API uses asynchronous task processing with Bearer token authentication.
+examples:
+- key_count: 3
+  name: Runway Create Avatar Example
+  slug: runway-create-avatar-example
+- key_count: 3
+  name: Runway Create Video Example
+  slug: runway-create-video-example
+features:
+- 'Free: 125 one-time credits with Gen-4 Turbo image'
+- 'Standard at $12/mo annual: 625 credits, all video models'
+- 'Pro at $28/mo: 2,250 credits, custom voices'
+- 'Unlimited at $76/mo: 2,250 credits + unlimited Explore Mode'
+- 'Enterprise: SSO, custom org spaces, Workspace Analytics'
+- Gen-4.5, Gen-4, Gen-4 Turbo video generation
+- Image generation (Gen-4, Gemini 3 Pro/2.5)
+- Text-to-Speech with custom voices
+- Lip Sync
+- Upscaling and watermark removal
+- REST API for video/image generation
+- Webhooks for completion notification
+- OAuth 2.0 + API tokens
+- Asset storage (5 GB Free, 100/500 GB paid)
+- Video editor with unlimited projects on paid
+- Enterprise integrations with internal tools
+finops:
+- name: Runway Finops
+  service_category: Video Generation AI
+  slug: runway-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runway.png
+json_schemas:
+- name: Runway Avatar
+  property_count: 8
+  slug: runway-avatar
+- name: Runway Generation Task
+  property_count: 5
+  slug: runway-task
+json_structures:
+- name: Runway Task Structure
+  property_count: 0
+  slug: runway-task-structure
+jsonld:
+- class_count: 0
+  name: Runway Context
+  property_count: 7
+  slug: runway-context
+layout: provider
+modified: '2026-05-19'
+name: Runway
+nav: Providers
+network: true
+overview: 'Runway publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Character Performance API, Documents API, and 11 more. Tagged areas include Video Generation, Image Generation, Artificial Intelligence, Machine Learning, and Generative AI.
+
+
+  The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+
+
+  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 14 more developer resources.'
+plans:
+- name: Runway Plans Pricing
+  plan_count: 5
+  slug: runway-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 2
+  name: Runway Rate Limits
+  slug: runway-rate-limits
+rules:
+- name: Runway API Rules
+  rule_count: 9
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 8
+  slug: runway-asyncapi-spectral-rules
+- name: Runway API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: runway-jsonschema-spectral-rules
+- name: Runway API Rules
+  rule_count: 17
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 1
+    warn: 11
+  slug: runway-rules
+score:
+  band: strong
+  composite: 61.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 73.7
+    contract_quality: 75.2
+    developer_ergonomics: 39.1
+    discoverability: 67.5
+    governance: 65.8
+    operational_transparency: 42.1
+  previous_composite: 61.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
+security:
+- kind: authentication
+  name: Runway Authentication
+  slug: runway-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Runway Domain Security
+  slug: runway-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: runway-characters-meeting
+  slug: runway-characters-meeting
+slug: runway
+tags:
+- Video Generation
+- Image Generation
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Avatars
+- Characters
+- WebRTC
+- Creative Tools
+website: https://runwayml.com/
+---

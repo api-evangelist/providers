@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.oracle.com/us/corporate/acquisitions/datalogix/index.html
+created: '2026-07-17'
+description: Datalogix was a consumer-purchase and marketing data company that connected offline buying behavior to digital advertising audiences, enabling measurement and targeting for brands and ad platforms. Backed by General Catalyst and IVP, it was acquired by Oracle in 2014 and folded into the Oracle Data Cloud. The datalogix.com domain now 301-redirects to Oracle's acquisitions page, and no standalone Datalogix developer portal, API, or documentation remains publicly available.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datalogix.png
+layout: provider
+modified: '2026-07-18'
+name: Datalogix
+nav: Providers
+network: true
+overview: Datalogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Advertising, Marketing, and Analytics.
+random_paper: 39
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: datalogix
+tags:
+- Company
+- Data
+- Advertising
+- Marketing
+- Analytics
+- Consumer Data
+- Acquired
+website: https://www.oracle.com/us/corporate/acquisitions/datalogix/index.html
+---

@@ -1,0 +1,292 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 81
+  human_in_the_loop: 2
+  name: Figshare Agentic Access
+  operation_count: 157
+  slug: figshare-agentic-access
+  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
+api_count: 10
+apis:
+- description: The altmetric API from Figshare — 1 operation(s) for altmetric.
+  name: Figshare altmetric API
+  slug: figshare-altmetric-api
+- description: The articles API from Figshare — 34 operation(s) for articles.
+  name: Figshare articles API
+  slug: figshare-articles-api
+- description: The authors API from Figshare — 2 operation(s) for authors.
+  name: Figshare authors API
+  slug: figshare-authors-api
+- description: The collections API from Figshare — 21 operation(s) for collections.
+  name: Figshare collections API
+  slug: figshare-collections-api
+- description: The institutions API from Figshare — 20 operation(s) for institutions.
+  name: Figshare institutions API
+  slug: figshare-institutions-api
+- description: The oauth API from Figshare — 1 operation(s) for oauth.
+  name: Figshare oauth API
+  slug: figshare-oauth-api
+- description: The other API from Figshare — 7 operation(s) for other.
+  name: Figshare other API
+  slug: figshare-other-api
+- description: The profiles API from Figshare — 2 operation(s) for profiles.
+  name: Figshare profiles API
+  slug: figshare-profiles-api
+- description: The projects API from Figshare — 17 operation(s) for projects.
+  name: Figshare projects API
+  slug: figshare-projects-api
+- description: The symplectic API from Figshare — 5 operation(s) for symplectic.
+  name: Figshare symplectic API
+  slug: figshare-symplectic-api
+artifact_total: 36
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/figshare-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/figshare-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/figshare-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/figshare-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://figshare.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.figshare.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/figshare
+- group: company
+  title: ''
+  type: Blog
+  url: https://info.figshare.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://info.figshare.com/figshare-plus/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.figshare.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/figshare/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/figshare
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.figshare.com/
+- group: docs
+  title: ''
+  type: UserDocumentation
+  url: https://info.figshare.com/user-guide/how-to-use-the-figshare-api/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/figshare-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/figshare-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/figshare-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/figshare-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/figshare-context.jsonld
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://info.figshare.com/blog/feed/
+- group: company
+  title: ''
+  type: Blog
+  url: blogs/blogs.json
+created: '2026-06-12'
+description: Figshare is a research data repository platform that enables researchers, institutions, and organizations to upload, manage, and publicly share scientific outputs including datasets, figures, media, papers, posters, and software. The platform provides persistent DOI assignment for all published research outputs, enabling proper citation and long-term discoverability. Figshare's REST API v2 allows programmatic access to articles, collections, projects, file uploads, statistics, and administrative functions. The platform is built on AWS infrastructure and supports both individual researchers with a free 20GB tier and institutional deployments with custom storage configurations up to multiple terabytes.
+examples:
+- key_count: 17
+  name: Figshare Article Example
+  slug: figshare-article-example
+- key_count: 10
+  name: Figshare Collection Example
+  slug: figshare-collection-example
+- key_count: 11
+  name: Figshare File_Upload Example
+  slug: figshare-file_upload-example
+- key_count: 9
+  name: Figshare Project Example
+  slug: figshare-project-example
+finops:
+- name: Figshare Finops
+  service_category: ''
+  slug: figshare-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/figshare.png
+json_schemas:
+- name: Account
+  property_count: 19
+  slug: figshare-account
+- name: Article
+  property_count: 16
+  slug: figshare-article
+- name: ArticleComplete
+  property_count: 7
+  slug: figshare-articlecomplete
+- name: Author
+  property_count: 7
+  slug: figshare-author
+- name: Category
+  property_count: 6
+  slug: figshare-category
+- name: Collection
+  property_count: 6
+  slug: figshare-collection
+- name: CollectionComplete
+  property_count: 23
+  slug: figshare-collectioncomplete
+- name: FundingInformation
+  property_count: 6
+  slug: figshare-fundinginformation
+- name: License
+  property_count: 3
+  slug: figshare-license
+- name: PrivateFile
+  property_count: 5
+  slug: figshare-privatefile
+- name: Project
+  property_count: 5
+  slug: figshare-project
+- name: ProjectComplete
+  property_count: 7
+  slug: figshare-projectcomplete
+- name: PublicFile
+  property_count: 8
+  slug: figshare-publicfile
+jsonld:
+- class_count: 38
+  name: Figshare Context
+  property_count: 5
+  slug: figshare-context
+layout: provider
+modified: '2026-06-12'
+name: Figshare
+nav: Providers
+network: true
+overview: 'Figshare publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Research Data, Data Repository, Open Science, DOI, and Datasets.
+
+
+  The Figshare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Figshare''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 16 more developer resources.'
+plans:
+- name: Figshare Plans Pricing
+  plan_count: 8
+  slug: figshare-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 3
+  name: Figshare Rate Limits
+  slug: figshare-rate-limits
+rules:
+- name: Figshare API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: figshare-jsonschema-spectral-rules
+scopes:
+- name: Figshare Scopes
+  scope_count: 1
+  slug: figshare-scopes
+  summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 60.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 73.5
+    developer_ergonomics: 26.1
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 52.6
+  previous_composite: 60.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/screenshots/figshare-2026-06-20T181159.png
+security:
+- kind: authentication
+  name: Figshare Authentication
+  slug: figshare-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Figshare Domain Security
+  slug: figshare-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: figshare
+tags:
+- Research Data
+- Data Repository
+- Open Science
+- DOI
+- Datasets
+- Academic
+- File Storage
+- Open Access
+website: https://figshare.com/
+---

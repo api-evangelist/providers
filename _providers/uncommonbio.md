@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://uncommonbio.co/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/uncommonbio-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/uncommonbio-domain-security.yml
+created: '2026-07-17'
+description: Uncommon (uncommonbio.co, formerly Higher Steaks) is a Cambridge, UK biotechnology company backed by Balderton Capital. The company sold its cultivated meat platform to Vow and has pivoted to launch SymphoRNA, a new venture developing nucleic acid delivery technology for multi-RNA combination medicines that target complex diseases such as fibrosis, heart failure, and neurodegeneration. As a life-sciences research and platform company, Uncommon publishes no public developer program, API, or machine-readable API specification. This profile was added to the API Evangelist network as a portfolio lead of Balderton Capital and enriched via the local enrichment pipeline, which confirmed the absence of an API surface while capturing live domain-security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uncommonbio.png
+layout: provider
+modified: '2026-07-21'
+name: uncommonbio
+nav: Providers
+network: true
+overview: uncommonbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Nucleic Acid Delivery, and RNA Therapeutics.
+random_paper: 17
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Uncommonbio Domain Security
+  slug: uncommonbio-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: uncommonbio
+tags:
+- Company
+- Biotechnology
+- Life Sciences
+- Nucleic Acid Delivery
+- RNA Therapeutics
+- Balderton Capital
+website: https://uncommonbio.co/
+---

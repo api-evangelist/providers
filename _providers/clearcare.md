@@ -1,0 +1,91 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clearcare-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clearcareonline.com
+- group: company
+  title: ''
+  type: Website
+  url: https://wellsky.com/personal-care-software/
+created: '2026-07-17'
+description: 'ClearCare (originally ClearCare Online) is a web-based home care agency management platform founded in 2011 and headquartered in San Francisco. It provides non-medical home care agencies with back-office and point-of-care tooling: caregiver scheduling, telephony-based clock-in/clock-out and electronic visit verification (EVV), billing and payroll, client and caregiver management, care planning, a family room portal, and business analytics. ClearCare was backed by Battery Ventures and Cendana Capital and was acquired by WellSky (formerly Mediware) in 2019; the product is now marketed as WellSky Personal Care, and the clearcareonline.com domain redirects to WellSky. This profile was surfaced as a Battery Ventures portfolio company and enriched as a historical company record — ClearCare no longer operates a standalone public developer or API program.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearcare.png
+layout: provider
+modified: '2026-07-18'
+name: ClearCare
+nav: Providers
+network: true
+overview: ClearCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Care, Home Health, Healthcare, and Agency Management.
+random_paper: 12
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Clearcare Domain Security
+  slug: clearcare-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: clearcare
+tags:
+- Company
+- Home Care
+- Home Health
+- Healthcare
+- Agency Management
+- Caregiving
+- Electronic Visit Verification
+- SaaS
+- Scheduling
+website: https://www.clearcareonline.com
+---

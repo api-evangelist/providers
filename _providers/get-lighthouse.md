@@ -1,0 +1,96 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/get-lighthouse-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://getlighthouse.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://getlighthouse.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://m.getlighthouse.com/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://m.getlighthouse.com/privacy
+created: '2026-07-17'
+description: Get Lighthouse (Lighthouse Lessons) is a management-training and leadership-development company that helps managers run better one-on-ones and grow their teams. It offers bite-sized, actionable online management-training programs, including a 1-on-1 Master Class, Managing Up, and the Secret Habits of Senior Leaders, delivered as self-paced solo study and structured team training, alongside a widely-read management and leadership blog. Get Lighthouse is a content and training provider with no public developer API, SDK, or developer portal; this API Evangelist profile captures its web identity and domain-security posture. It is a portfolio company of 500 Global.
+image: https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1470768/610540_566227.png
+layout: provider
+modified: '2026-07-19'
+name: Get Lighthouse
+nav: Providers
+network: true
+overview: 'Get Lighthouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Management Training, Leadership Development, Coaching, and Online Courses.
+
+
+  Get Lighthouse''s developer surface includes engineering blog and 4 more developer resources.'
+random_paper: 21
+score:
+  band: minimal
+  composite: 11.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Get Lighthouse Domain Security
+  slug: get-lighthouse-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: get-lighthouse
+tags:
+- Company
+- Management Training
+- Leadership Development
+- Coaching
+- Online Courses
+- One-on-Ones
+- Team Management
+- Education
+website: https://getlighthouse.com
+---

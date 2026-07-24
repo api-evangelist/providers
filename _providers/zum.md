@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zum-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zum-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ridezum.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ridezum.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ridezum.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ridezum.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ridezum.com/terms-conditions/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.ridezum.com/company/careers/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.ridezum.com/company/press/
+created: '2026-07-17'
+description: Zum is a student transportation technology company that runs school bus operations for K-12 school districts through its Connected Mobility Experience (CMX) platform. Founded by Ritu Narayan and headquartered in Redwood City, California, Zum unifies parents, students, drivers, and district administrators with real-time ride tracking, route optimization, parent notification apps, driver tooling, fleet management dashboards, and an electrified bus program. The company serves roughly 6,500 schools and districts, has completed more than 159 million rides, and is backed by SoftBank Vision Fund. Zum operates consumer-facing parent and driver mobile apps and district dashboards, but publishes no public developer portal, API documentation, or API surface at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zum.png
+layout: provider
+modified: '2026-07-21'
+name: Zum
+nav: Providers
+network: true
+overview: 'Zum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Student Transportation, Mobility, and School Bus.
+
+
+  Zum''s developer surface includes engineering blog, support, and 7 more developer resources.'
+random_paper: 42
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Zum Domain Security
+  slug: zum-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: zum
+tags:
+- Company
+- Transportation
+- Student Transportation
+- Mobility
+- School Bus
+- Fleet Management
+- Electrification
+- K-12 Education
+website: https://www.ridezum.com
+---

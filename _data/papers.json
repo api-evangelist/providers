@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "500-global-api-portfolio",
+    "title": "The 500 Global API Portfolio",
+    "tagline": "Every 500 Global company that ships an API, scored the way a machine reads it — a global seed book that is agent-native at the edges and governance-empty at the core, with five borrowed exemplars standing in for a thesis its own companies have not yet proven.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/500-global-api-portfolio.png"
+  },
+  {
+    "slug": "a16z-api-portfolio",
+    "title": "The a16z API Portfolio",
+    "tagline": "Every Andreessen Horowitz company that ships an API, scored the way a machine reads it — and what the book says about the fund's real bet.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/a16z-api-portfolio.png"
+  },
+  {
+    "slug": "accel-api-portfolio",
+    "title": "The Accel API Portfolio",
+    "tagline": "Every Accel company that ships an API, scored the way a machine reads it — the infrastructure fund whose contracts are the broadest in venture and whose agent-execution layer is the thinnest.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/accel-api-portfolio.png"
+  },
+  {
+    "slug": "agentic-readiness-of-venture",
+    "title": "The Agentic Readiness of Venture",
+    "tagline": "The twenty-five most important venture funds, ranked on one axis — whether their portfolios are ready for agents that act.",
+    "area": "Portfolio Intelligence",
+    "price": "1500",
+    "cover": "https://papers.apievangelist.com/assets/covers/agentic-readiness-of-venture.png"
+  },
+  {
+    "slug": "arazzo-api-integration-page",
+    "title": "Delivering a Modern API Integration Page with Arazzo",
+    "tagline": "Turn your integrations page from a gallery of connectors into a directory of forkable workflows.",
+    "area": "Developer Experience",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/arazzo-api-integration-page.png"
+  },
+  {
+    "slug": "bain-capital-ventures-api-portfolio",
+    "title": "The Bain Capital Ventures API Portfolio",
+    "tagline": "Every Bain Capital Ventures company that ships an API, scored the way a machine reads it — a broad, enterprise-mature book whose one exemplar already exited, and whose live agent-native edge sits in its newest fintech leads.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/bain-capital-ventures-api-portfolio.png"
+  },
+  {
+    "slug": "battery-ventures-api-portfolio",
+    "title": "The Battery Ventures API Portfolio",
+    "tagline": "Every Battery Ventures company that ships an API, scored the way a machine reads it — a deep-contract infrastructure book whose OpenAPI surface outruns its governance.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/battery-ventures-api-portfolio.png"
+  },
+  {
+    "slug": "bessemer-venture-partners-api-portfolio",
+    "title": "The Bessemer Venture Partners API Portfolio",
+    "tagline": "Every Bessemer company that ships an API, scored the way a machine reads it — the highest mean in venture, and the softest peak behind it.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/bessemer-venture-partners-api-portfolio.png"
+  },
+  {
+    "slug": "bloomberg-beta-api-portfolio",
+    "title": "The Bloomberg Beta API Portfolio",
+    "tagline": "A small, focused seed book of the infrastructure agents will consume, scored the way a machine reads it — that has not yet been packaged for agents itself.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/bloomberg-beta-api-portfolio.png"
+  },
+  {
+    "slug": "canaan-partners-api-portfolio",
+    "title": "The Canaan Partners API Portfolio",
+    "tagline": "Every Canaan Partners company that ships an API, scored the way a machine reads it — and why a broad, long-vintage generalist book still has no reference-grade API.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/canaan-partners-api-portfolio.png"
+  },
+  {
+    "slug": "conversational-api-governance",
+    "title": "Making API Governance Conversational",
+    "tagline": "Publish an MCP server for your Spectral rules so copilots and agents can govern APIs the way you do.",
+    "area": "Governance",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/conversational-api-governance.png"
+  },
+  {
+    "slug": "dcvc-api-portfolio",
+    "title": "The DCVC API Portfolio",
+    "tagline": "Every DCVC company that ships an API, scored the way a machine reads it — a small deep-tech book that instruments its own agents but builds almost nothing at the top.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/dcvc-api-portfolio.png"
+  },
+  {
+    "slug": "explicit-agent-boundaries",
+    "title": "Explicit Agent Boundaries",
+    "tagline": "Govern the Markdown that now drives your agents — a declared, machine-checkable contract for what an agent may change, may not change, and may not do.",
+    "area": "Governance",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/explicit-agent-boundaries.png"
+  },
+  {
+    "slug": "fundamentals-of-api-discovery",
+    "title": "The Fundamentals of API Discovery",
+    "tagline": "Why you can't govern, secure, or automate what you can't find.",
+    "area": "Discovery",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-api-discovery.png"
+  },
+  {
+    "slug": "fundamentals-of-api-evangelism",
+    "title": "The Fundamentals of API Evangelism",
+    "tagline": "The storytelling and human persuasion that decides whether your API gets used at all.",
+    "area": "Evangelism",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-api-evangelism.png"
+  },
+  {
+    "slug": "fundamentals-of-api-governance",
+    "title": "The Fundamentals of API Governance",
+    "tagline": "The status-quo stack for governing APIs, from someone who stood one up at scale.",
+    "area": "Governance",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-api-governance.png"
+  },
+  {
+    "slug": "fundamentals-of-api-reusability",
+    "title": "The Fundamentals of API Reusability",
+    "tagline": "Why three teams keep building the same API, and how to make reuse measurable instead of aspirational.",
+    "area": "Governance",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-api-reusability.png"
+  },
+  {
+    "slug": "fundamentals-of-context-engineering",
+    "title": "The Fundamentals of Context Engineering",
+    "tagline": "Curating what an agent needs to reliably discover, understand, and use your API.",
+    "area": "Agentic APIs",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-context-engineering.png"
+  },
+  {
+    "slug": "fundamentals-of-the-api-lifecycle",
+    "title": "The Fundamentals of the API Lifecycle",
+    "tagline": "The end-to-end arc every API moves through, threaded by one machine-readable definition.",
+    "area": "API Lifecycle",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/fundamentals-of-the-api-lifecycle.png"
+  },
+  {
+    "slug": "general-catalyst-api-portfolio",
+    "title": "The General Catalyst API Portfolio",
+    "tagline": "Every General Catalyst company that ships an API, scored the way a machine reads it — and why a book that shipped agent front doors on banking and health APIs never shipped the governance behind them.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/general-catalyst-api-portfolio.png"
+  },
+  {
+    "slug": "gv-api-portfolio",
+    "title": "The GV (Google Ventures) API Portfolio",
+    "tagline": "Every Google Ventures company that ships an API, scored the way a machine reads it — and why a book of category-defining logos still reads agent-shallow behind Stripe.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/gv-api-portfolio.png"
+  },
+  {
+    "slug": "index-ventures-api-portfolio",
+    "title": "The Index Ventures API Portfolio",
+    "tagline": "Every Index Ventures company that ships an API, scored the way a machine reads it — a small, dense, enterprise-SaaS book with real agent depth at the top and a diligence-grade gap underneath.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/index-ventures-api-portfolio.png"
+  },
+  {
+    "slug": "insight-partners-api-portfolio",
+    "title": "The Insight Partners API Portfolio",
+    "tagline": "The largest growth-equity API book after a16z, scored the way a machine reads it — and why the estate that discovers best is the one least ready for agents.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/insight-partners-api-portfolio.png"
+  },
+  {
+    "slug": "kleiner-perkins-api-portfolio",
+    "title": "The Kleiner Perkins API Portfolio",
+    "tagline": "A small book with the densest top end I have measured, where every exemplar is a frontier AI or design-infra bet and the mature franchises ship breadth but no agent surface.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/kleiner-perkins-api-portfolio.png"
+  },
+  {
+    "slug": "lightspeed-venture-partners-api-portfolio",
+    "title": "The Lightspeed API Portfolio",
+    "tagline": "Every Lightspeed company that ships an API, scored the way a machine reads it — and why the top of the book and its real agent leaders are two different lists.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/lightspeed-venture-partners-api-portfolio.png"
+  },
+  {
+    "slug": "mcp-documentation-beyond-reference",
+    "title": "MCP Documentation Beyond Reference",
+    "tagline": "Reference docs describe the interface; agents fail on the behavior — document the operational layer.",
+    "area": "Developer Experience",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/mcp-documentation-beyond-reference.png"
+  },
+  {
+    "slug": "menlo-ventures-api-portfolio",
+    "title": "The Menlo Ventures API Portfolio",
+    "tagline": "Every Menlo Ventures company that ships an API, scored the way a machine reads it — and why a fund that backed the author of the agentic protocol has barely shipped it in its own book.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/menlo-ventures-api-portfolio.png"
+  },
+  {
+    "slug": "norwest-venture-partners-api-portfolio",
+    "title": "The Norwest Venture Partners API Portfolio",
+    "tagline": "Every Norwest Venture Partners company that ships an API, scored the way a machine reads it — a growth-stage barbell of Fortune-100 incumbents and a thin agent-native forward layer.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/norwest-venture-partners-api-portfolio.png"
+  },
+  {
+    "slug": "partech-api-portfolio",
+    "title": "The Partech API Portfolio",
+    "tagline": "Every Partech company that ships an API, scored the way a machine reads it — a European operator's book that went agent-native before it built a single exemplar.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/partech-api-portfolio.png"
+  },
+  {
+    "slug": "publishing-a-public-mcp-server",
+    "title": "Publishing a Public MCP Server",
+    "tagline": "A provider's guide to shipping Model Context Protocol as part of API operations.",
+    "area": "Agentic APIs",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/publishing-a-public-mcp-server.png"
+  },
+  {
+    "slug": "publishing-an-api-portal",
+    "title": "Publishing an API Portal",
+    "tagline": "A provider's guide to standing up the human-readable front door to your API.",
+    "area": "Developer Experience",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/publishing-an-api-portal.png"
+  },
+  {
+    "slug": "qiming-api-portfolio",
+    "title": "The Qiming Venture Partners API Portfolio",
+    "tagline": "Every Qiming company that ships an API, scored the way a machine reads it — and why a competent China deep-tech book publishes APIs but has not yet operationalized trust.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/qiming-api-portfolio.png"
+  },
+  {
+    "slug": "redpoint-ventures-api-portfolio",
+    "title": "The Redpoint Ventures API Portfolio",
+    "tagline": "Every Redpoint Ventures company that ships an API, scored the way a machine reads it — and why a book that scores near the top of the mean ships almost no agents at all.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/redpoint-ventures-api-portfolio.png"
+  },
+  {
+    "slug": "running-a-local-food-business-on-apis",
+    "title": "Running a Local Food Business on APIs",
+    "tagline": "The services a small food producer actually needs — shipped with the working APIs.json artifact that describes them.",
+    "area": "Small Business",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/running-a-local-food-business-on-apis.png"
+  },
+  {
+    "slug": "seedcamp-api-portfolio",
+    "title": "The Seedcamp API Portfolio",
+    "tagline": "Europe's most agent-native seed book, scored the way a machine reads it — the highest agent-native rate of any fund measured, built on authored skills over shipped MCP, with a regulated-fintech spine and a top almost nobody has reached yet.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/seedcamp-api-portfolio.png"
+  },
+  {
+    "slug": "sequoia-capital-api-portfolio",
+    "title": "The Sequoia Capital API Portfolio",
+    "tagline": "A curated winners' slice of Sequoia Capital's book, scored the way a machine reads it — the highest quality and exemplar rate in the series, and the one that trails it on frontier agent-readiness.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/sequoia-capital-api-portfolio.png"
+  },
+  {
+    "slug": "softbank-vision-fund-api-portfolio",
+    "title": "The SoftBank Vision Fund API Portfolio",
+    "tagline": "Every SoftBank Vision Fund company that ships an API, scored the way a machine reads it — and why the biggest checks in venture buy the thinnest ceiling on the board.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/softbank-vision-fund-api-portfolio.png"
+  },
+  {
+    "slug": "speedinvest-api-portfolio",
+    "title": "The Speedinvest API Portfolio",
+    "tagline": "Every Speedinvest company that ships an API, scored the way a machine reads it — a European seed book that learned to publish contracts before it learned to govern or prove them.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/speedinvest-api-portfolio.png"
+  },
+  {
+    "slug": "state-of-australian-banking-apis",
+    "title": "The State of Australian Banking APIs",
+    "tagline": "What fifty Consumer Data Right banks actually publish, scored — and what it means for the operators who run them and the investors who back them.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-banking-apis.png"
+  },
+  {
+    "slug": "state-of-canadian-banking-apis",
+    "title": "The State of Canadian Banking APIs",
+    "tagline": "What 42 Canadian banks, credit unions, caisses, and fintechs actually publish, scored — the emptiest banking market measured, where the rails outrank the banks.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-banking-apis.png"
+  },
+  {
+    "slug": "state-of-market-data-apis",
+    "title": "The State of Market Data APIs",
+    "tagline": "What the market data providers actually publish, scored — and where the durable value hides in a commoditizing feed.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-market-data-apis.png"
+  },
+  {
+    "slug": "state-of-uk-banking-apis",
+    "title": "The State of UK Banking APIs",
+    "tagline": "What sixty UK banks and building societies actually publish, scored — from the CMA9 Open Banking mandate to the challengers, building societies, and private banks around it.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-banking-apis.png"
+  },
+  {
+    "slug": "state-of-us-banking-apis",
+    "title": "The State of US Banking APIs",
+    "tagline": "What 113 US banks, credit unions, neobanks, and banking-rails providers actually publish, scored — the one open-finance market with no mandate, and the widest split in banking.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-banking-apis.png"
+  },
+  {
+    "slug": "techstars-api-portfolio",
+    "title": "The Techstars API Portfolio",
+    "tagline": "Every Techstars company that ships an API, scored the way a machine reads it — a broad accelerator book of clean early-2010s contracts with a thin exemplar ceiling and an unfinished agent story.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/techstars-api-portfolio.png"
+  },
+  {
+    "slug": "the-agent-era-standards-onramp",
+    "title": "The Agent-Era API Standards Onramp",
+    "tagline": "A sequenced path through the standards a first public API now has to speak — one rung at a time, in order.",
+    "area": "Agentic APIs",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-agent-era-standards-onramp.png"
+  },
+  {
+    "slug": "the-api-rating-rubric-explained",
+    "title": "The API Rating Rubric, Explained",
+    "tagline": "What the apis.io score measures, why it's weighted the way it is, and how to move it.",
+    "area": "Discovery",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-api-rating-rubric-explained.png"
+  },
+  {
+    "slug": "the-pricing-of-ai-apis",
+    "title": "The Pricing of AI APIs",
+    "tagline": "How the model labs price inference — and what every API provider can learn about pricing their own.",
+    "area": "Pricing",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-pricing-of-ai-apis.png"
+  },
+  {
+    "slug": "the-pricing-of-communication-apis",
+    "title": "The Pricing of Communication APIs",
+    "tagline": "How SMS, email, and voice APIs are priced — and the pass-through fees the headline rate hides.",
+    "area": "Pricing",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-pricing-of-communication-apis.png"
+  },
+  {
+    "slug": "the-pricing-of-payment-apis",
+    "title": "The Pricing of Payment APIs",
+    "tagline": "How payment APIs price a slice of value, not a cost of service — the original take-rate model.",
+    "area": "Pricing",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-pricing-of-payment-apis.png"
+  },
+  {
+    "slug": "the-state-of-spectral-in-api-pipelines",
+    "title": "The State of Spectral in API Pipelines",
+    "tagline": "What 1,005 real public pipelines reveal about how teams actually govern their APIs — and the blueprint almost none of them have reached.",
+    "area": "Governance",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-state-of-spectral-in-api-pipelines.png"
+  },
+  {
+    "slug": "y-combinator-api-portfolio",
+    "title": "The Y Combinator API Portfolio",
+    "tagline": "Every Y Combinator company that ships an API, scored the way a machine reads it — and why the batch is agent-native and governance-empty at the same time.",
+    "area": "Portfolio Report",
+    "price": "750",
+    "cover": "https://papers.apievangelist.com/assets/covers/y-combinator-api-portfolio.png"
+  }
+]

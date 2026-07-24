@@ -1,0 +1,212 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Priorlabs Agentic Access
+  operation_count: 7
+  slug: priorlabs-agentic-access
+  summary_line: 7 operations · 6 acting
+api_count: 2
+apis:
+- description: The Prediction API from Prior Labs — 3 operation(s) for prediction.
+  name: Prior Labs Prediction API
+  slug: priorlabs-prediction-api
+- description: The Training API from Prior Labs — 4 operation(s) for training.
+  name: Prior Labs Training API
+  slug: priorlabs-training-api
+artifact_total: 6
+common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.priorlabs.ai/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.priorlabs.ai/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.priorlabs.ai/api-reference/getting-started
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.priorlabs.ai/quickstart
+- group: company
+  title: ''
+  type: Blog
+  url: https://priorlabs.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/PriorLabs
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ux.priorlabs.ai/home
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://priorlabs.ai/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://priorlabs.ai/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@priorlabs.ai
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.priorlabs.ai/changelog
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/priorlabs-openapi-original.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/priorlabs-tabpfn-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/priorlabs-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/priorlabs-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/priorlabs-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/priorlabs-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/priorlabs-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/priorlabs-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/priorlabs-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/priorlabs-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/priorlabs-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/priorlabs-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/priorlabs-conformance.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/priorlabs-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/priorlabs-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://priorlabs.ai/
+created: '2026-07-17'
+description: Prior Labs builds TabPFN, a tabular foundation model that delivers strong predictions on structured/tabular data in seconds — no dataset-specific training, tuning, or ML pipelines required. TabPFN-3 handles classification, regression, time-series forecasting, anomaly detection, synthetic data generation, embeddings, and uncertainty quantification via in-context learning, scaling to 1M rows, 2,000 columns, and 160 classes. Prior Labs exposes TabPFN through a cloud REST API (api.priorlabs.ai), Python and R client SDKs, a Model Context Protocol server for AI agents, and private deployments on AWS SageMaker, Databricks, and Azure AI Foundry. The company was published in Nature and is now part of SAP.
+image: https://priorlabs.ai/pl.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: priorlabs-mcp.yml
+  slug: priorlabs-mcpyml
+modified: '2026-07-20'
+name: Prior Labs
+nav: Providers
+network: true
+overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
+
+
+  Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
+random_paper: 5
+score:
+  band: developing
+  composite: 50.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 63.7
+    developer_ergonomics: 73.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 50.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Priorlabs Authentication
+  slug: priorlabs-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Priorlabs Domain Security
+  slug: priorlabs-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: priorlabs
+tags:
+- Company
+- Machine Learning
+- Artificial Intelligence
+- Tabular Data
+- Foundation Models
+- Predictions
+- Data Science
+- MCP
+- SDK
+website: https://priorlabs.ai/
+---

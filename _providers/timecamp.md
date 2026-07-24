@@ -1,0 +1,233 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 94
+  human_in_the_loop: 1
+  name: Timecamp Agentic Access
+  operation_count: 146
+  slug: timecamp-agentic-access
+  summary_line: 146 operations · 94 acting · 1 human-in-the-loop
+api_count: 27
+apis:
+- description: The [v1] Approvals API from TimeCamp — 2 operation(s) for [v1] approvals.
+  name: TimeCamp [v1] Approvals API
+  slug: timecamp-v1-approvals-api
+- description: The [v1] Attendance API from TimeCamp — 4 operation(s) for [v1] attendance.
+  name: TimeCamp [v1] Attendance API
+  slug: timecamp-v1-attendance-api
+- description: The [v1] Billing Rates API from TimeCamp — 4 operation(s) for [v1] billing rates.
+  name: TimeCamp [v1] Billing Rates API
+  slug: timecamp-v1-billing-rates-api
+- description: The [v1] Computer Activities API from TimeCamp — 1 operation(s) for [v1] computer activities.
+  name: TimeCamp [v1] Computer Activities API
+  slug: timecamp-v1-computer-activities-api
+- description: The [v1] Entry API from TimeCamp — 5 operation(s) for [v1] entry.
+  name: TimeCamp [v1] Entry API
+  slug: timecamp-v1-entry-api
+- description: The [v1] Group API from TimeCamp — 5 operation(s) for [v1] group.
+  name: TimeCamp [v1] Group API
+  slug: timecamp-v1-group-api
+- description: The [v1] Roles & Permissions API from TimeCamp — 1 operation(s) for [v1] roles & permissions.
+  name: TimeCamp [v1] Roles & Permissions API
+  slug: timecamp-v1-roles-permissions-api
+- description: The [v1] Tags API from TimeCamp — 9 operation(s) for [v1] tags.
+  name: TimeCamp [v1] Tags API
+  slug: timecamp-v1-tags-api
+- description: The [v1] Task API from TimeCamp — 4 operation(s) for [v1] task.
+  name: TimeCamp [v1] Task API
+  slug: timecamp-v1-task-api
+- description: The [v1] Timer API from TimeCamp — 2 operation(s) for [v1] timer.
+  name: TimeCamp [v1] Timer API
+  slug: timecamp-v1-timer-api
+- description: The [v1] User API from TimeCamp — 5 operation(s) for [v1] user.
+  name: TimeCamp [v1] User API
+  slug: timecamp-v1-user-api
+- description: The [v3] Approval API from TimeCamp — 7 operation(s) for [v3] approval.
+  name: TimeCamp [v3] Approval API
+  slug: timecamp-v3-approval-api
+- description: The [v3] Attendance API from TimeCamp — 6 operation(s) for [v3] attendance.
+  name: TimeCamp [v3] Attendance API
+  slug: timecamp-v3-attendance-api
+- description: The [v3] Attendance Requests API from TimeCamp — 1 operation(s) for [v3] attendance requests.
+  name: TimeCamp [v3] Attendance Requests API
+  slug: timecamp-v3-attendance-requests-api
+- description: The [v3] Computer Activities API from TimeCamp — 1 operation(s) for [v3] computer activities.
+  name: TimeCamp [v3] Computer Activities API
+  slug: timecamp-v3-computer-activities-api
+- description: The [v3] Custom Fields API from TimeCamp — 8 operation(s) for [v3] custom fields.
+  name: TimeCamp [v3] Custom Fields API
+  slug: timecamp-v3-custom-fields-api
+- description: The [v3] Data Export API from TimeCamp — 5 operation(s) for [v3] data export.
+  name: TimeCamp [v3] Data Export API
+  slug: timecamp-v3-data-export-api
+- description: The [v3] Expense API from TimeCamp — 11 operation(s) for [v3] expense.
+  name: TimeCamp [v3] Expense API
+  slug: timecamp-v3-expense-api
+- description: The [v3] Invoices API from TimeCamp — 2 operation(s) for [v3] invoices.
+  name: TimeCamp [v3] Invoices API
+  slug: timecamp-v3-invoices-api
+- description: The [v3] Projects API from TimeCamp — 5 operation(s) for [v3] projects.
+  name: TimeCamp [v3] Projects API
+  slug: timecamp-v3-projects-api
+- description: The [v3] Storage API from TimeCamp — 2 operation(s) for [v3] storage.
+  name: TimeCamp [v3] Storage API
+  slug: timecamp-v3-storage-api
+- description: The [v3] Tags API from TimeCamp — 1 operation(s) for [v3] tags.
+  name: TimeCamp [v3] Tags API
+  slug: timecamp-v3-tags-api
+- description: The [v3] Task API from TimeCamp — 5 operation(s) for [v3] task.
+  name: TimeCamp [v3] Task API
+  slug: timecamp-v3-task-api
+- description: The [v3] Task Archive API from TimeCamp — 2 operation(s) for [v3] task archive.
+  name: TimeCamp [v3] Task Archive API
+  slug: timecamp-v3-task-archive-api
+- description: The [v3] Task Picker API from TimeCamp — 3 operation(s) for [v3] task picker.
+  name: TimeCamp [v3] Task Picker API
+  slug: timecamp-v3-task-picker-api
+- description: The [v3] Time Entry API from TimeCamp — 4 operation(s) for [v3] time entry.
+  name: TimeCamp [v3] Time Entry API
+  slug: timecamp-v3-time-entry-api
+- description: The [v3] Time Entry Restriction API from TimeCamp — 3 operation(s) for [v3] time entry restriction.
+  name: TimeCamp [v3] Time Entry Restriction API
+  slug: timecamp-v3-time-entry-restriction-api
+artifact_total: 34
+collections:
+- collection_type: open
+  name: TimeCamp API
+  slug: open-timecamp
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/timecamp-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/timecamp-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/timecamp-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/timecamp
+- group: company
+  title: ''
+  type: Website
+  url: https://www.timecamp.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.timecamp.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.timecamp.com/help/api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.timecamp.com/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.timecamp.com/blog/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/timecamp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/timecamp-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/timecamp-finops.yml
+created: '2026-07-11'
+description: TimeCamp is a time tracking and timesheet platform used by teams to log billable hours, run attendance and time-off, approve timesheets, and measure productivity across projects. Its documented REST API - free on every plan, including the free tier - covers time entries, timers, tasks and projects, users and groups, attendance, approvals, tags, billing rates, expenses, and computer activity data, authenticated with a per-user API token sent as a bearer header.
+finops:
+- name: Timecamp Finops
+  service_category: Business Applications
+  slug: timecamp-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/timecamp.png
+layout: provider
+modified: '2026-07-11'
+name: TimeCamp
+nav: Providers
+network: true
+overview: 'TimeCamp publishes 27 APIs on the [APIs.io](https://apis.io/) network, including [v1] Approvals API, [v1] Attendance API, [v1] Billing Rates API, and 24 more. Tagged areas include Time Tracking, Timesheets, Productivity, Attendance, and Project Management.
+
+
+  TimeCamp''s developer surface includes authentication, documentation, support, pricing, engineering blog, and 7 more developer resources.'
+plans:
+- name: Timecamp Plans Pricing
+  plan_count: 5
+  slug: timecamp-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 2
+  name: Timecamp Rate Limits
+  slug: timecamp-rate-limits
+score:
+  band: thin
+  composite: 39.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 58.8
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 39.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Timecamp Authentication
+  slug: timecamp-authentication
+  summary_line: http/openIdConnect · 2 schemes
+- kind: domain-security
+  name: Timecamp Domain Security
+  slug: timecamp-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: timecamp
+tags:
+- Time Tracking
+- Timesheets
+- Productivity
+- Attendance
+- Project Management
+- Billing
+website: https://www.timecamp.com
+---

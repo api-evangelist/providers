@@ -1,0 +1,188 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 35.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
+  name: Thinknum Data API
+  slug: thinknum-data-api
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://thinknum.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.thinknum.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.thinknum.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.thinknum.com/docs/query-api.md
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.thinknum.com/docs/getting-started.md
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/thinknum-authentication.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.thinknum.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.thinknum.com/status
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@thinknum.com
+- group: start
+  title: ''
+  type: Login
+  url: https://www.thinknum.com/creator/account/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.thinknum.com/tos
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/thinknum
+- group: build
+  title: ''
+  type: Packages
+  url: packages/thinknum-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/thinknum-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/thinknum-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/thinknum-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/thinknum-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/thinknum-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/thinknum-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/thinknum-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/thinknum-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/thinknum-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/thinknum-data-model.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/thinknum-domain-security.yml
+created: '2026-07-17'
+description: Thinknum is an alternative data platform that collects and structures web-sourced datasets to power investment and business intelligence. It tracks metrics such as job listings, store locations, product pricing, web traffic, app reviews, and social engagement across hundreds of thousands of companies, keyed by exchange ticker. The Thinknum Data API (data.thinknum.com) exposes these datasets over a token-authenticated REST interface with Query, Historical, Company, and Upload endpoints, plus embeddable widgets and an official Python client. Backed by 500 Global.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinknum.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: thinknum-mcp.yml
+  slug: thinknum-mcpyml
+modified: '2026-07-21'
+name: Thinknum
+nav: Providers
+network: true
+overview: 'Thinknum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Alternative Data, Financial Data, Investment Research, and Market Intelligence.
+
+
+  Thinknum''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 17 more developer resources.'
+random_paper: 11
+rate_limits:
+- limit_count: 1
+  name: Thinknum Rate Limits
+  slug: thinknum-rate-limits
+score:
+  band: thin
+  composite: 35.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 67.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 57.9
+  previous_composite: 35.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Thinknum Authentication
+  slug: thinknum-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Thinknum Domain Security
+  slug: thinknum-domain-security
+  summary_line: TLSv1.3
+slug: thinknum
+tags:
+- Company
+- Alternative Data
+- Financial Data
+- Investment Research
+- Market Intelligence
+- Web Data
+- Datasets
+website: https://thinknum.com
+---

@@ -1,0 +1,97 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/findmecure-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://findmecure.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.findmecure.com/blog
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/findmecure-llms.txt
+created: '2026-07-17'
+description: FindMeCure is a Sofia, Bulgaria healthtech company (founded 2015, backed by Techstars) that connects patients with clinical trials through a patient-facing search engine often described as "the Google of clinical trials," letting people search, find, and join a trial within a few clicks. Its sister B2B product, TrialHub, is a clinical-trial strategy, feasibility, and patient-recruitment intelligence platform covering 70 countries and serving pharmaceutical sponsors and CROs including Takeda, Novartis, and Syneos Health. No public developer API is currently documented; this profile captures the company's identity and probed domain security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/findmecure.png
+layout: provider
+modified: '2026-07-19'
+name: FindMeCure
+nav: Providers
+network: true
+overview: 'FindMeCure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Clinical Trials, and Patient Recruitment.
+
+
+  FindMeCure''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 38
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Findmecure Domain Security
+  slug: findmecure-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: findmecure
+tags:
+- Company
+- Health
+- Healthcare
+- Clinical Trials
+- Patient Recruitment
+- Life Sciences
+- Clinical Research
+- Data
+website: https://findmecure.com/
+---

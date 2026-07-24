@@ -1,0 +1,219 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 63.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Snappr Agentic Access
+  operation_count: 14
+  slug: snappr-agentic-access
+  summary_line: 14 operations · 2 acting
+api_count: 9
+apis:
+- description: Check available shoot start times.
+  name: Snappr Availability API
+  slug: snappr-availability-api
+- description: Create and retrieve photoshoot bookings.
+  name: Snappr Bookings API
+  slug: snappr-bookings-api
+- description: Check Snappr coverage for a location and shoot type.
+  name: Snappr Coverage API
+  slug: snappr-coverage-api
+- description: Available Snappr editing job types.
+  name: Snappr Editing Job Types API
+  slug: snappr-editing-job-types-api
+- description: Create and retrieve photo editing jobs (beta).
+  name: Snappr Editing Jobs API
+  slug: snappr-editing-jobs-api
+- description: Retrieve images for bookings and editing jobs.
+  name: Snappr Images API
+  slug: snappr-images-api
+- description: Editing presets defined in the Photography Portal.
+  name: Snappr Presets API
+  slug: snappr-presets-api
+- description: Available Snappr shoot types.
+  name: Snappr Shoot Types API
+  slug: snappr-shoot-types-api
+- description: Retrieve videos for bookings.
+  name: Snappr Videos API
+  slug: snappr-videos-api
+artifact_total: 14
+asyncapis:
+- description: ''
+  name: Snappr Webhooks
+  slug: snappr-webhooks
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/snappr-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/snappr-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://snappr.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.snappr.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.snappr.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.snappr.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.snappr.com/#introduction
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/snappr-authentication.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/snappr-sandbox.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://snappr.statuspage.io
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/snappr-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/snappr-conventions.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/snappr-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/snappr-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/snappr
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.snappr.com/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.snappr.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.snappr.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.snappr.com/enterprise
+- group: start
+  title: ''
+  type: Login
+  url: https://app.snappr.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.snappr.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.snappr.com/privacy
+created: '2026-07-17'
+description: Snappr is an on-demand visual content marketplace that connects businesses with a global network of professional photographers and videographers, plus automated and human-augmented photo editing services. The Snappr API (the "API for visual content", available to Snappr for Enterprise customers) lets developers programmatically check coverage and availability, book photoshoots, submit photo editing jobs against presets, and retrieve the resulting images and videos. Authentication is a bearer API key; a sandbox environment mirrors production for testing, and custom webhooks notify on booking changes. Backed by Foundry Group and surfaced into the API Evangelist network for enrichment.
+image: https://cdn.prod.website-files.com/5ca95f7a3be192f65a7b4e4f/6993a952a20874ef53a0524e_snappr-og-photography-and-videography.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: snappr-mcp.yml
+  slug: snappr-mcpyml
+modified: '2026-07-21'
+name: Snappr
+nav: Providers
+network: true
+overview: 'Snappr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bookings API, Coverage API, and 6 more. Tagged areas include Company, Marketplace, Photography, Videography, and Visual Content.
+
+
+  The Snappr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 16 more developer resources.'
+random_paper: 48
+score:
+  band: developing
+  composite: 55.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 71.2
+    developer_ergonomics: 73.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 55.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Snappr Authentication
+  slug: snappr-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Snappr Domain Security
+  slug: snappr-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: snappr
+tags:
+- Company
+- Marketplace
+- Photography
+- Videography
+- Visual Content
+- Photo Editing
+- On-Demand
+- Enterprise
+website: https://snappr.com
+---

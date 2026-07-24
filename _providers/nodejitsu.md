@@ -1,0 +1,70 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/nodejitsu
+created: '2026-07-17'
+description: Nodejitsu Inc. was a cloud Platform-as-a-Service (PaaS) for hosting and deploying Node.js applications, founded in New York in April 2010 by Charlie Robbins, Marak Squires, and Paolo Fragomeni. It offered a `jitsu` command-line deployment tool and an application hosting platform, and stewarded popular open-source Node.js projects (forever, jitsu, flatiron, haibu, node-http-proxy). GoDaddy acquired Nodejitsu in February 2015 and wound down the PaaS the same year, directing customers to migrate elsewhere. The company is defunct - the nodejitsu.com domain no longer resolves and there is no live API surface; only the archived GitHub organization survives.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nodejitsu.png
+layout: provider
+modified: '2026-07-20'
+name: Nodejitsu
+nav: Providers
+network: true
+overview: Nodejitsu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hosting, Platform as a Service, Node.js, and Cloud.
+random_paper: 12
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: nodejitsu
+tags:
+- Company
+- Hosting
+- Platform as a Service
+- Node.js
+- Cloud
+- Deployment
+- Defunct
+---

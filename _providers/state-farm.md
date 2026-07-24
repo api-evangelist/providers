@@ -1,0 +1,246 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: State Farm Agentic Access
+  operation_count: 5
+  slug: state-farm-agentic-access
+  summary_line: 5 operations · 2 acting
+api_count: 5
+apis:
+- description: The State Farm Auto Insurance API supports partner integrations for automobile insurance quoting, policy management, and claims inquiry. This API enables auto dealers, telematics platforms, and financ
+  name: Auto Insurance API
+  slug: auto-insurance-api
+- description: The State Farm B2B Insurance Inquiry API is designed for lenders, mortgage servicers, and financial institutions that need to verify homeowner and auto insurance policy status for collateral protectio
+  name: B2B Insurance Inquiry API
+  slug: b2b-insurance-inquiry-api
+- description: Coverage options and details
+  name: State Farm Coverage API
+  slug: state-farm-coverage-api
+- description: Renters insurance policy operations
+  name: State Farm Policies API
+  slug: state-farm-policies-api
+- description: Renters insurance quote operations
+  name: State Farm Quotes API
+  slug: state-farm-quotes-api
+artifact_total: 21
+collections:
+- collection_type: open
+  name: State Farm Renters Insurance API
+  slug: open-state-farm-renters-insurance
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/state-farm-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/state-farm-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/state-farm-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/state-farm-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/state-farm-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.statefarm.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.statefarm.com
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/StateFarmIns
+- group: company
+  title: ''
+  type: Engineering Blog
+  url: https://engineering.statefarm.com/blog
+- group: start
+  title: ''
+  type: B2B Portal
+  url: https://b2b.statefarm.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/state-farm
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/StateFarm
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.statefarm.com/customer-care/privacy-security/privacy/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.statefarm.com/customer-care/legal-disclaimer
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developer.statefarm.com/faq
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/state-farm-renters-insurance-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/state-farm-renters-policy-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/state-farm-renters-policy-structure.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/state-farm-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/state-farm-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/state-farm-rules.yml
+description: State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.
+examples:
+- key_count: 2
+  name: State Farm Create Renters Quote Example
+  slug: state-farm-create-renters-quote-example
+finops:
+- name: State Farm Finops
+  service_category: Insurance / Financial Services
+  slug: state-farm-finops
+graphqls:
+- description: State Farm is the largest property and casualty insurance provider in the United States, offering auto, home, renters, life, health, business, and farm/ranch insurance through approximately 19,000 age
+  name: State Farm GraphQL Schema
+  slug: state-farm-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/state-farm.png
+json_schemas:
+- name: Renters Insurance Policy
+  property_count: 9
+  slug: state-farm-renters-policy
+json_structures:
+- name: State Farm Renters Policy Structure
+  property_count: 0
+  slug: state-farm-renters-policy-structure
+jsonld:
+- class_count: 18
+  name: State Farm Context
+  property_count: 11
+  slug: state-farm-context
+layout: provider
+modified: '2026-05-19'
+name: State Farm
+nav: Providers
+network: true
+overview: 'State Farm publishes 3 APIs on the [APIs.io](https://apis.io/) network: Coverage API, Policies API, and Quotes API.
+
+
+  The State Farm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  State Farm''s developer surface includes authentication, GitHub presence, FAQ, and 18 more developer resources.'
+plans:
+- name: State Farm Plans Pricing
+  plan_count: 1
+  slug: state-farm-plans-pricing
+random_paper: 43
+rate_limits:
+- limit_count: 1
+  name: State Farm Rate Limits
+  slug: state-farm-rate-limits
+rules:
+- name: State Farm API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: state-farm-jsonschema-spectral-rules
+- name: State Farm API Rules
+  rule_count: 15
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 5
+  slug: state-farm-rules
+scopes:
+- name: State Farm Scopes
+  scope_count: 3
+  slug: state-farm-scopes
+  summary_line: 3 scopes · clientCredentials
+score:
+  band: developing
+  composite: 50.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 70.5
+    developer_ergonomics: 19.6
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 26.3
+  previous_composite: 50.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png
+security:
+- kind: authentication
+  name: State Farm Authentication
+  slug: state-farm-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: State Farm Domain Security
+  slug: state-farm-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: State Farm Vulnerability Disclosure
+  slug: state-farm-vulnerability-disclosure
+  summary_line: Bugcrowd · security.txt · contact published
+slug: state-farm
+website: https://www.statefarm.com
+---

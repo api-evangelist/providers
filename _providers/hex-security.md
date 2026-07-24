@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hex.co
+- group: start
+  title: ''
+  type: Login
+  url: https://app.hex.co/login
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hex-security-domain-security.yml
+created: '2026-07-17'
+description: 'Hex Security is a Y Combinator (W26) security startup building autonomous AI agents that perform continuous penetration testing against web applications, APIs, and infrastructure. Instead of point-in-time annual pentests, Hex''s agents probe systems around the clock — chaining exploits together, validating each finding with a working proof-of-concept, and delivering triaged, reproducible results with no false positives. The product surfaces high-severity issues such as SQL injection, broken access control / IDOR, authentication bypass, and unauthenticated remote code execution. Founded by Ahmad Khan, Huzaifa Ahmad, and Prama Yudhistira. As of this profile Hex Security is pre-public-API: it operates a marketing site (hex.co) and a product application (app.hex.co) but does not yet publish a developer portal, OpenAPI definition, or public API surface.'
+image: https://framerusercontent.com/images/Hioh4DamknpQbzzIX7Z0Xt1PAk0.webp
+layout: provider
+modified: '2026-07-19'
+name: Hex Security
+nav: Providers
+network: true
+overview: Hex Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Penetration Testing, Application Security, and API Security.
+random_paper: 34
+score:
+  band: minimal
+  composite: 9.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hex Security Domain Security
+  slug: hex-security-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: hex-security
+tags:
+- Company
+- Security
+- Penetration Testing
+- Application Security
+- API Security
+- Vulnerability Management
+- Artificial Intelligence
+- AI Agents
+- DevSecOps
+- Y Combinator
+website: https://hex.co
+---

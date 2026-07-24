@@ -1,0 +1,174 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Streak Agentic Access
+  operation_count: 18
+  slug: streak-agentic-access
+  summary_line: 18 operations · 9 acting
+api_count: 8
+apis:
+- description: RESTful API exposing CRUD access to pipelines, boxes (records), stages, custom fields, threads, tasks, files, comments, users, and teams in the Streak CRM. Authentication uses HTTP Basic Auth with the
+  name: Streak REST API
+  slug: rest-api
+- description: The Boxes API from Streak — 2 operation(s) for boxes.
+  name: Streak Boxes API
+  slug: streak-boxes-api
+- description: The Fields API from Streak — 1 operation(s) for fields.
+  name: Streak Fields API
+  slug: streak-fields-api
+- description: The Newsfeed API from Streak — 1 operation(s) for newsfeed.
+  name: Streak Newsfeed API
+  slug: streak-newsfeed-api
+- description: The Pipelines API from Streak — 2 operation(s) for pipelines.
+  name: Streak Pipelines API
+  slug: streak-pipelines-api
+- description: The Stages API from Streak — 1 operation(s) for stages.
+  name: Streak Stages API
+  slug: streak-stages-api
+- description: The Users API from Streak — 1 operation(s) for users.
+  name: Streak Users API
+  slug: streak-users-api
+- description: The Webhooks API from Streak — 1 operation(s) for webhooks.
+  name: Streak Webhooks API
+  slug: streak-webhooks-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Streak REST API
+  slug: open-streak
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/streak-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/streak-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/streak-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/streak-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/streak-com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.streak.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://streak.readme.io/docs
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.streak.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.streak.com/sign-up
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.streak.com
+- group: build
+  title: ''
+  type: Chrome Extension
+  url: https://chromewebstore.google.com/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://api.streak.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.com/feed/streak-developer-blog
+created: '2026-05-11'
+description: Streak is a CRM that lives inside Gmail, turning the inbox into a pipeline management workspace for sales, hiring, support, fundraising, deal flow, and project tracking using pipelines, boxes, stages, and email tracking. The Streak API provides programmatic REST access to the core CRM data models including pipelines, boxes, stages, fields, threads, tasks, and teams. Authentication uses HTTP Basic Auth with the API key as the username.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streak.png
+layout: provider
+modified: '2026-05-11'
+name: Streak
+nav: Providers
+network: true
+overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Boxes API, Fields API, Newsfeed API, and 4 more. Tagged areas include CRM, Sales, Gmail, Pipeline Management, and Email Tracking.
+
+
+  Streak''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
+random_paper: 38
+score:
+  band: emerging
+  composite: 26.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 51.3
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 26.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/screenshots/streak-2026-06-20T194620.png
+security:
+- kind: authentication
+  name: Streak Authentication
+  slug: streak-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Streak Domain Security
+  slug: streak-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Streak Vulnerability Disclosure
+  slug: streak-vulnerability-disclosure
+  summary_line: Hackerone
+slug: streak
+tags:
+- CRM
+- Sales
+- Gmail
+- Pipeline Management
+- Email Tracking
+- Productivity
+- Small Business
+- Workflow
+website: https://www.streak.com
+---

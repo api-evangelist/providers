@@ -1,0 +1,176 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Benevity Agentic Access
+  operation_count: 8
+  slug: benevity-agentic-access
+  summary_line: 8 operations · 4 acting
+api_count: 6
+apis:
+- description: Create and manage locations (stores, franchises, offices) inside the Benevity ecosystem - address data, contact information, and tags - so multi-location organizations can attribute giving and volunte
+  name: Benevity Location Services API
+  slug: benevity-location-services-api
+- description: The Authorization API from Benevity — 1 operation(s) for authorization.
+  name: Benevity Authorization API
+  slug: benevity-authorization-api
+- description: The Causes API from Benevity — 1 operation(s) for causes.
+  name: Benevity Causes API
+  slug: benevity-causes-api
+- description: The Giving API from Benevity — 2 operation(s) for giving.
+  name: Benevity Giving API
+  slug: benevity-giving-api
+- description: The Receipts API from Benevity — 2 operation(s) for receipts.
+  name: Benevity Receipts API
+  slug: benevity-receipts-api
+- description: The Spark API from Benevity — 2 operation(s) for spark.
+  name: Benevity Spark API
+  slug: benevity-spark-api
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Benevity API
+  slug: open-benevity
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/benevity-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/benevity-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/benevity-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/benevity-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/benevity-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/benevity
+- group: company
+  title: ''
+  type: Website
+  url: https://benevity.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.benevity.org/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/benevity-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/benevity-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/benevity-finops.yml
+created: '2026-07-03'
+description: Benevity is a Calgary-based corporate purpose software platform for workplace giving, matching, grantmaking, and employee/customer volunteering. Its Giving API lets partners embed nonprofit-of-choice donations, optional matching, and charitable gift cards into e-commerce, banking, and rewards experiences; the Cause Search API exposes Benevity's vetted global nonprofit database; the Spark API lets existing Spark Employee Engagement clients surface giving and volunteering opportunities in other interfaces; and the Location Services API lets clients manage locations (stores, franchises, offices) inside the Benevity ecosystem. The API follows the RESTful/OpenAPI standard and is documented publicly at developer.benevity.org, but credentials are partner-gated - access requires requesting a demo/business relationship with Benevity rather than self-serve signup.
+finops:
+- name: Benevity Finops
+  service_category: Corporate Social Responsibility / Workplace Giving Software
+  slug: benevity-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benevity.png
+layout: provider
+modified: '2026-07-03'
+name: Benevity
+nav: Providers
+network: true
+overview: 'Benevity publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Causes API, Giving API, and 2 more. Tagged areas include Corporate Social Responsibility, Workplace Giving, Donations, Volunteering, and Nonprofits.
+
+
+  Benevity''s developer surface includes authentication, documentation, and 9 more developer resources.'
+plans:
+- name: Benevity Plans Pricing
+  plan_count: 1
+  slug: benevity-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 4
+  name: Benevity Rate Limits
+  slug: benevity-rate-limits
+score:
+  band: thin
+  composite: 35.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 53.8
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 35.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Benevity Authentication
+  slug: benevity-authentication
+  summary_line: http · 2 schemes
+- kind: domain-security
+  name: Benevity Domain Security
+  slug: benevity-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Benevity Vulnerability Disclosure
+  slug: benevity-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Benevity Trust Center
+  slug: benevity-trust-center
+  summary_line: SOC 2, ISO 27001, PCI DSS, GDPR, CSA STAR
+slug: benevity
+tags:
+- Corporate Social Responsibility
+- Workplace Giving
+- Donations
+- Volunteering
+- Nonprofits
+- Matching Gifts
+- CSR
+- ESG
+website: https://benevity.com
+---

@@ -1,0 +1,234 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: true
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 68.3
+  scored_at: '2026-07-23'
+api_count: 8
+apis:
+- description: The Areas API from Trail — 1 operation(s) for areas.
+  name: Trail Areas API
+  slug: trail-areas-api
+- description: The Scores API from Trail — 1 operation(s) for scores.
+  name: Trail Scores API
+  slug: trail-scores-api
+- description: The Sites API from Trail — 2 operation(s) for sites.
+  name: Trail Sites API
+  slug: trail-sites-api
+- description: The Tags API from Trail — 1 operation(s) for tags.
+  name: Trail Tags API
+  slug: trail-tags-api
+- description: The Task Instances API from Trail — 2 operation(s) for task instances.
+  name: Trail Task Instances API
+  slug: trail-task-instances-api
+- description: The Task Reports API from Trail — 4 operation(s) for task reports.
+  name: Trail Task Reports API
+  slug: trail-task-reports-api
+- description: The Task Templates API from Trail — 2 operation(s) for task templates.
+  name: Trail Task Templates API
+  slug: trail-task-templates-api
+- description: The Tasks API from Trail — 1 operation(s) for tasks.
+  name: Trail Tasks API
+  slug: trail-tasks-api
+artifact_total: 13
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/trail-domain-security.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/trail-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/trail-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://trailapp.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://web.trailapp.com/api-docs/index.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://web.trailapp.com/api-docs/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://answers.trailapp.com/en/articles/9166997-trail-s-task-reports-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://answers.trailapp.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://answers.trailapp.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://trailapp.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://trailapp.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://web.trailapp.com/check-out
+- group: start
+  title: ''
+  type: Login
+  url: https://web.trailapp.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://answers.trailapp.com/en/articles/5797043-trail-part-of-the-access-group-terms-conditions
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/trailsuite
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://hospitality-theaccessgroup.statushub.io/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://answers.trailapp.com/en/collections/19359271-release-notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/trail-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/trail-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/trail-well-known.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/trail-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/trail-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/trail-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/trail-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/trail-rate-limits.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/trail-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/trail-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/trail-examples.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Trail is a digital checklist and work management platform for hospitality and leisure teams, now part of The Access Group (originally Trailsuite Ltd, a Seedcamp portfolio company). Trail digitises daily operations — food safety checks, brand standards, compliance logs and task management — across sites, and publishes a set of API-key-secured public APIs (Task Reports, Task Instances, Task Templates, Sites, Areas, Tags, Scores) plus an OAuth2-secured Evo API, documented with OpenAPI at web.trailapp.com/api-docs.
+image: https://cdn.prod.website-files.com/66f405a237adee7cf0668f38/67257ad8aa5f301b38dcd1af_transparent.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: trail-mcp.yml
+  slug: trail-mcpyml
+modified: '2026-07-21'
+name: Trail
+nav: Providers
+network: true
+overview: 'Trail publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Areas API, Scores API, Sites API, and 5 more. Tagged areas include Company, Hospitality, Checklists, Task Management, and Compliance.
+
+
+  Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+random_paper: 30
+rate_limits:
+- limit_count: 1
+  name: Trail Rate Limits
+  slug: trail-rate-limits
+scopes:
+- name: Trail Scopes
+  scope_count: 4
+  slug: trail-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 49.6
+    developer_ergonomics: 58.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 57.9
+  previous_composite: 48.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Trail Authentication
+  slug: trail-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
+- kind: domain-security
+  name: Trail Domain Security
+  slug: trail-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: trail
+tags:
+- Company
+- Hospitality
+- Checklists
+- Task Management
+- Compliance
+- Food Safety
+- Operations
+website: https://trailapp.com
+---

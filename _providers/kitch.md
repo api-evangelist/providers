@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: Acquisition
+  url: https://www.crunchbase.com/acquisition/glovo-app-acquires-kitch--e6e17fc6
+- group: company
+  title: ''
+  type: Press
+  url: https://techcrunch.com/2021/05/11/lisbons-kitch-raises-4m-to-helps-restaurants-to-take-control-of-the-delivery-app-mess/
+- group: company
+  title: ''
+  type: Press
+  url: https://www.hoganlovells.com/en/news/hogan-lovells-advises-portuguese-start-up-kitch-on-its-sale-to-glovo
+created: '2026-07-17'
+description: 'Kitch was a Lisbon, Portugal based restaurant technology company founded in 2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern Europe. After starting as a delivery-first "dark kitchen" operator, Kitch pivoted during the 2020 pandemic into a SaaS platform that let restaurants consolidate and manage digital orders arriving from multiple third-party delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them — on a single tablet, alongside their own direct-ordering storefront, so operators could keep control of their menus, pricing and customer identity instead of depending on the aggregator apps. Kitch raised roughly EUR 1 million in pre-seed funding led by Seedcamp and Mustard Seed MAZE, followed by a EUR 3.25 million seed round led by Atlantic Food Labs. The company was acquired by Barcelona-based delivery platform Glovo in a deal signed in January 2022 and announced in March 2022, and the standalone Kitch brand has since been retired.
+  Kitch never published a public developer program: no developer portal, API reference, OpenAPI definition, SDK, or status page was ever published on kitch.io, and none appears in the Internet Archive''s record of the domain. The kitch.io domain registration has since lapsed and now resolves to an unrelated third-party gambling site, so no live link is carried in this profile.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitch.png
+layout: provider
+modified: '2026-07-19'
+name: Kitch
+nav: Providers
+network: true
+overview: Kitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Food Delivery, Order Management, and Point of Sale.
+random_paper: 21
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: kitch
+tags:
+- Company
+- Restaurants
+- Food Delivery
+- Order Management
+- Point of Sale
+- SaaS
+- Portugal
+- Acquired
+- Defunct
+---

@@ -1,0 +1,102 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/august-home-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://august.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.yalehome.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://august.com/pages/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://august.com/pages/privacy-policy
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/august-home-well-known.yml
+created: '2026-07-17'
+description: August Home is a consumer smart-home and access-control brand best known for its retrofit August Smart Lock, Smart Lock Pro, Wi-Fi Smart Lock, Smart Keypad, Doorbell Cam, and the August Connect Wi-Fi Bridge. Founded in San Francisco and acquired by ASSA ABLOY, August products are now sold and supported alongside the Yale Home brand and operated through the shared Yale Access mobile app. August does not publish a public developer API or developer portal; programmatic access to August locks is reached through the private mobile/app API or via third-party universal-access platforms such as Seam, and integrations exist with Google Home, Amazon Alexa, Apple HomeKit, Airbnb, and Yale. This profile was surfaced as a portfolio company of Cowboy Ventures and enriched from public sources.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/august-home.png
+layout: provider
+modified: '2026-07-18'
+name: August Home
+nav: Providers
+network: true
+overview: 'August Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Smart Home, Smart Lock, and Access Control.
+
+
+  August Home''s developer surface includes support and 5 more developer resources.'
+random_paper: 13
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: August Home Domain Security
+  slug: august-home-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: august-home
+tags:
+- Company
+- Consumer
+- Smart Home
+- Smart Lock
+- Access Control
+- Home Security
+- IoT
+- Consumer Electronics
+- Yale
+- ASSA ABLOY
+website: https://august.com
+---

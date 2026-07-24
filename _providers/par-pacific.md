@@ -1,0 +1,130 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/par-pacific-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/par-pacific
+- group: company
+  title: ''
+  type: Website
+  url: https://www.parpacific.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.parpacific.com/about-us
+- group: other
+  title: ''
+  type: Operations
+  url: https://www.parpacific.com/operations
+- group: other
+  title: ''
+  type: Sustainability
+  url: https://www.parpacific.com/sustainability
+- group: company
+  title: ''
+  type: Investors
+  url: https://www.parpacific.com/investors
+- group: company
+  title: ''
+  type: News
+  url: https://www.parpacific.com/investors/news-events
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.parpacific.com/careers
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.parpacific.com/contact-us
+created: '2026-03-21'
+description: Par Pacific Holdings is an entrepreneurial liquid fuels company focused on owning and operating energy and infrastructure businesses in logistically- complex markets. The company operates refining, retail, and logistics businesses across Hawaii, Washington, Wyoming, and Montana, with retail brands including 76, Hele, and nomnom.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/par-pacific.png
+layout: provider
+modified: '2026-04-28'
+name: Par Pacific Holdings
+nav: Providers
+network: true
+overview: 'Par Pacific Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Refining, Retail Fuels, Logistics, and Fortune 500.
+
+
+  Par Pacific Holdings'' developer surface includes product news and 9 more developer resources.'
+press:
+- date: '2026-05-25'
+  title: Par Petroleum Corporation Announces Name Change to ...
+  url: https://www.prnewswire.com/news-releases/par-petroleum-corporation-announces-name-change-to-par-pacific-holdings-inc-william-pate-appointed-president-and-chief-executive-officer-300159793.html
+- date: '2026-05-25'
+  title: Par Pacific Holdings Inc
+  url: https://www.reuters.com/company/par-pacific-holdings-inc/
+- date: '2026-05-25'
+  title: Par Pacific Announces Private Placement of $500 Million ...
+  url: https://natlawreview.com/press-releases/par-pacific-announces-private-placement-500-million-senior-notes
+- date: '2026-05-25'
+  title: Par Pacific Holdings - Case Study
+  url: https://lemongrasscloud.com/case-studies/par-pacific-sap-on-aws-modernization-case-study/
+- date: '2026-05-25'
+  title: Par Pacific Holdings, Inc. (PARR) Q1 2026 Earnings Call ...
+  url: https://seekingalpha.com/article/4899394-par-pacific-holdings-inc-parr-q1-2026-earnings-call-transcript
+random_paper: 16
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/par-pacific/refs/heads/main/screenshots/par-pacific-2026-06-20T191351.png
+security:
+- kind: domain-security
+  name: Par Pacific Domain Security
+  slug: par-pacific-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: par-pacific
+tags:
+- Energy
+- Refining
+- Retail Fuels
+- Logistics
+- Fortune 500
+website: https://www.parpacific.com
+---

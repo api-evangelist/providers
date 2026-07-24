@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mintifi-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://mintifi.com
+created: '2026-07-17'
+description: Mintifi is an Indian supply-chain financing platform that provides inventory and working-capital financing to SMEs, distributors, and dealers across manufacturer distribution networks. Its products include checkout and inventory financing, an Electronic Invoice Presentment and Payment (EIPP) solution for ERP-integrated invoice settlement and reconciliation, WhatsApp-based inventory financing, and Mintifi Collect for payment collection with Tally integration. The company exposes ERP-integration APIs to partners and is backed by Norwest Venture Partners. No public developer portal, OpenAPI, or self-serve API documentation is currently published; the docs host is access-gated.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mintifi.png
+layout: provider
+modified: '2026-07-20'
+name: Mintifi
+nav: Providers
+network: true
+overview: Mintifi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Supply Chain Finance, and Fintech.
+random_paper: 38
+score:
+  band: minimal
+  composite: 7.7
+  delta: 0.9
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Mintifi Domain Security
+  slug: mintifi-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: mintifi
+tags:
+- Company
+- Financial Services
+- Lending
+- Supply Chain Finance
+- Fintech
+- SME
+- Payments
+- India
+website: https://mintifi.com
+---

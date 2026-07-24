@@ -1,0 +1,83 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: docs
+  title: ''
+  type: Specification
+  url: https://www.ietf.org/rfc/rfc2131.txt
+- group: other
+  title: ''
+  type: BOOTP RFC
+  url: https://www.ietf.org/rfc/rfc951.txt
+- group: other
+  title: ''
+  type: DHCP Options RFC
+  url: https://www.ietf.org/rfc/rfc2132.txt
+created: '2025-01-01'
+description: Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks. DHCP dynamically assigns IP addresses and other network configuration parameters to each device on a network, enabling them to communicate with other IP networks. Defined in IETF RFC 2131, the protocol supports automatic, dynamic, and manual allocation modes and uses message types including DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK, DHCPNAK, DHCPDECLINE, DHCPRELEASE, and DHCPINFORM. DHCP builds on BOOTP (RFC 951) and is supplemented by RFCs covering options and clarifications.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dhcp.png
+layout: provider
+modified: '2026-04-28'
+name: DHCP
+nav: Providers
+network: true
+overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Addresses, and Lease Management.
+random_paper: 7
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dhcp/refs/heads/main/screenshots/dhcp-2026-06-20T175957.png
+slug: dhcp
+tags:
+- BOOTP
+- DHCP
+- IETF
+- IP Addresses
+- Lease Management
+- Network Configuration
+- Networking
+- Protocol
+- RFC 2131
+- TCP/IP
+website: https://www.ietf.org/rfc/rfc2131.txt
+---

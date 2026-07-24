@@ -1,0 +1,81 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bravado-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://bravado.co/
+created: '2026-07-17'
+description: Bravado is a community platform for sales professionals, best known as the War Room, which it describes as the world's largest online sales community with more than 400,000 members. Founded in 2016 and headquartered in San Francisco, Bravado offers career networking, anonymous peer Q&A, a jobs and hiring marketplace that matches sales talent with companies, an AI recruiter called Hunter, and a virtual "commission points" rewards currency, delivered through the web and a mobile app. The company is backed by Redpoint Ventures. Bravado does not publish a public developer API; its product is built on an internal GraphQL backend. As of this profile's enrichment date the primary domain bravado.co resolves to a Gandi parking page ("this domain name is unavailable") and is not serving the live product.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bravado.png
+layout: provider
+modified: '2026-07-18'
+name: Bravado
+nav: Providers
+network: true
+overview: Bravado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Community, Sales Enablement, and Careers.
+random_paper: 21
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bravado Domain Security
+  slug: bravado-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: bravado
+tags:
+- Company
+- Sales
+- Community
+- Sales Enablement
+- Careers
+- Recruiting
+- Jobs Marketplace
+- Professional Network
+website: https://bravado.co/
+---

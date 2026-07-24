@@ -1,0 +1,248 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Wells Fargo Agentic Access
+  operation_count: 14
+  slug: wells-fargo-agentic-access
+  summary_line: 14 operations · 4 acting
+api_count: 6
+apis:
+- description: The Wells Fargo ACH Payments API enables commercial banking customers to initiate ACH credit and debit transactions, including same-day ACH, for payroll, vendor payments, and collections. The API inte
+  name: Wells Fargo ACH Payments API
+  slug: ach-payments-api
+- description: Account information and balance queries.
+  name: wells-fargo Accounts API
+  slug: wells-fargo-accounts-api
+- description: Batch ACH payment file management.
+  name: wells-fargo Payment Batches API
+  slug: wells-fargo-payment-batches-api
+- description: ACH return and NOC (Notification of Change) processing.
+  name: wells-fargo Payment Returns API
+  slug: wells-fargo-payment-returns-api
+- description: Initiate and manage payments.
+  name: wells-fargo Payments API
+  slug: wells-fargo-payments-api
+- description: Retrieve and search account transaction data.
+  name: wells-fargo Transactions API
+  slug: wells-fargo-transactions-api
+artifact_total: 28
+collections:
+- collection_type: open
+  name: Wells Fargo Account Transactions API
+  slug: open-wells-fargo-account-transactions-api
+- collection_type: open
+  name: Wells Fargo ACH Payments API
+  slug: open-wells-fargo-ach-payments-api
+- collection_type: open
+  name: Wells Fargo Gateway API
+  slug: open-wells-fargo-gateway-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/wells-fargo-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wells-fargo-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wells-fargo-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/wells-fargo-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/wellsfargo
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wellsfargo.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.wellsfargo.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.wellsfargo.com/documentation
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/wells-fargo
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/wells-fargo-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/wells-fargo-vocabulary.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://developer.wellsfargo.com/llms.txt
+description: Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.
+examples:
+- key_count: 2
+  name: Wells Fargo Account Transactions Api Listaccounttransactions Example
+  slug: wells-fargo-account-transactions-api-listAccountTransactions-example
+- key_count: 2
+  name: Wells Fargo Ach Payments Api Initiateachpayment Example
+  slug: wells-fargo-ach-payments-api-initiateAchPayment-example
+- key_count: 2
+  name: Wells Fargo Gateway Api Createpayment Example
+  slug: wells-fargo-gateway-api-createPayment-example
+- key_count: 2
+  name: Wells Fargo Gateway Api Listaccounts Example
+  slug: wells-fargo-gateway-api-listAccounts-example
+finops:
+- name: Wells Fargo Finops
+  service_category: Banking / Open Banking
+  slug: wells-fargo-finops
+graphqls:
+- description: A conceptual GraphQL schema for the Wells Fargo banking platform, derived from the public Wells Fargo Gateway API at [developer.wellsfargo.com](https://developer.wellsfargo.com). The schema translates
+  name: Wells Fargo GraphQL Schema
+  slug: wells-fargo-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wells-fargo.png
+json_schemas:
+- name: Wells Fargo ACH Payment
+  property_count: 16
+  slug: wells-fargo-ach-payment
+- name: Wells Fargo Transaction
+  property_count: 14
+  slug: wells-fargo-transaction
+json_structures:
+- name: Wells Fargo Ach Payment Structure
+  property_count: 0
+  slug: wells-fargo-ach-payment-structure
+- name: Wells Fargo Transaction Structure
+  property_count: 0
+  slug: wells-fargo-transaction-structure
+jsonld:
+- class_count: 6
+  name: Wells Fargo Context
+  property_count: 28
+  slug: wells-fargo-context
+layout: provider
+modified: '2026-05-19'
+name: wells-fargo
+nav: Providers
+network: true
+overview: 'wells-fargo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Wells Fargo ACH Payments API, Accounts API, Payment Batches API, and 3 more. Tagged areas include Fortune 100.
+
+
+  The wells-fargo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  wells-fargo''s developer surface includes authentication, documentation, and 10 more developer resources.'
+plans:
+- name: Wells Fargo Plans Pricing
+  plan_count: 1
+  slug: wells-fargo-plans-pricing
+press:
+- date: '2026-05-25'
+  title: Banks chase AI-fueled efficiencies
+  url: https://www.ciodive.com/news/banks-citigroup-wells-fargo-jpmorgan-chase-goldman-sachs-AI-earnings/802912/
+- date: '2026-05-25'
+  title: Wells Fargo Scales AI to Meet Surging Customer Demand
+  url: https://www.pymnts.com/news/digital-banking/2026/wells-fargo-scales-ai-to-meet-surging-customer-demand/
+- date: '2026-05-25'
+  title: Wells Fargo Reaches Major Digital Milestones
+  url: https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Reaches-Major-Digital-Milestones/default.aspx
+- date: '2026-05-25'
+  title: Wells Fargo Names Faraz Shafiq as Head of AI Products ...
+  url: https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Names-Faraz-Shafiq-as-Head-of-AI-Products-and-Solutions/default.aspx
+- date: '2026-05-25'
+  title: Wells Fargo, BNP Paribas bolster AI leadership
+  url: https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/
+random_paper: 1
+rate_limits:
+- limit_count: 1
+  name: Wells Fargo Rate Limits
+  slug: wells-fargo-rate-limits
+rules:
+- name: wells-fargo API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: wells-fargo-jsonschema-spectral-rules
+- name: wells-fargo API Rules
+  rule_count: 12
+  severity_counts:
+    error: 4
+    hint: 1
+    info: 0
+    warn: 7
+  slug: wells-fargo-rules
+scopes:
+- name: Wells Fargo Scopes
+  scope_count: 4
+  slug: wells-fargo-scopes
+  summary_line: 4 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 48.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 70.1
+    developer_ergonomics: 28.3
+    discoverability: 55.0
+    governance: 86.8
+    operational_transparency: 26.3
+  previous_composite: 48.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
+security:
+- kind: authentication
+  name: Wells Fargo Authentication
+  slug: wells-fargo-authentication
+  summary_line: http/oauth2 · 3 schemes
+- kind: domain-security
+  name: Wells Fargo Domain Security
+  slug: wells-fargo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: wells-fargo
+tags:
+- Fortune 100
+website: https://www.wellsfargo.com
+---

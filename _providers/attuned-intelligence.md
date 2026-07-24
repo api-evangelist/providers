@@ -1,0 +1,129 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 11.5
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.attuned-intelligence.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.attuned-intelligence.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.attuned-intelligence.com/faqs
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.attuned-intelligence.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.attuned-intelligence.com/terms-and-conditions
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.attuned-intelligence.com/careers
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/attuned-intelligence-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/attuned-intelligence-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/attuned-intelligence-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.attuned-intelligence.com/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/attuned-intelligence-domain-security.yml
+created: '2026-07-17'
+description: Attuned Intelligence is a healthcare voice AI company that automates hospital and community health center call centers with supervised, EHR-integrated Voice AI Agents. Its agents answer every patient call instantly and in the caller's language, resolve needs end-to-end (appointment booking, medication refills, triage routing), and provide real-time human oversight with transcripts and reporting so automation stays safe and auditable. Founded in 2024 by leaders from DeepMind, Google Health, AssemblyAI, and DocuSign, the company emerged from stealth in October 2025 with $13M in funding backed by Threshold Ventures, and serves customers including Cambridge Health Alliance and Lowell Community Health Center. The platform is SOC 2 and HIPAA compliant. Attuned publishes no first-party developer/product API; its Wix-hosted marketing site exposes a generic hosted Site MCP endpoint for agentic access to public site content and business details.
+image: https://static.wixstatic.com/media/99000f_690ca5256d704e37a71772baed21a4b6~mv2.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: Attuned Intelligence Site MCP (Wix)
+  slug: attuned-intelligence-site-mcp-wix
+modified: '2026-07-18'
+name: Attuned Intelligence
+nav: Providers
+network: true
+overview: 'Attuned Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Healthcare, Voice AI, and Call Center Automation.
+
+
+  Attuned Intelligence''s developer surface includes engineering blog, support, and 9 more developer resources.'
+random_paper: 29
+score:
+  band: emerging
+  composite: 21.1
+  delta: 5.5
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.6
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 52.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: domain-security
+  name: Attuned Intelligence Domain Security
+  slug: attuned-intelligence-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: attuned-intelligence
+tags:
+- Company
+- Ai
+- Healthcare
+- Voice AI
+- Call Center Automation
+- EHR Integration
+- Conversational AI
+- HIPAA
+website: https://www.attuned-intelligence.com/
+---

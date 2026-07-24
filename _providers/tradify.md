@@ -1,0 +1,163 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Tradify Agentic Access
+  operation_count: 9
+  slug: tradify-agentic-access
+  summary_line: 9 operations · 3 acting
+api_count: 5
+apis:
+- description: (Modeled) Customers / contacts and their job sites.
+  name: Tradify Customers API
+  slug: tradify-customers-api
+- description: (Modeled) Invoices generated from jobs, quotes, or templates.
+  name: Tradify Invoices API
+  slug: tradify-invoices-api
+- description: (Modeled) Job records with linked customers, sites, and notes.
+  name: Tradify Jobs API
+  slug: tradify-jobs-api
+- description: (Modeled) Quotes / estimates built from templates and pricelists.
+  name: Tradify Quotes API
+  slug: tradify-quotes-api
+- description: (Modeled) Time entries captured against jobs.
+  name: Tradify Timesheets API
+  slug: tradify-timesheets-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Tradify API (Modeled - Not an Official Public API)
+  slug: open-tradify
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/tradify-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tradify-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/tradify-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Tradify-App
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/tradify
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tradifyhq.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.tradifyhq.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tradify-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/tradify-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/tradify-finops.yml
+created: '2026-07-12'
+description: Tradify is all-in-one job management software for trade and service businesses (electricians, plumbers, HVAC, builders and other contractors), covering enquiries, quotes, jobs, scheduling and dispatch, timesheets, purchase orders, and invoicing from web and mobile apps. Tradify is an Access company. IMPORTANT ACCESS NOTE - as of this review Tradify does NOT publish an open, self-serve, documented public developer API, developer portal, API keys, or webhooks. Its supported programmatic surface is limited to pre-built accounting and payment partner integrations (Xero, MYOB Business, QuickBooks Online, Sage, and Stripe). A live application backend host (api.tradifyhq.com) exists but is undocumented, session-authenticated, and reserved for Tradify's own web and mobile clients; third parties reach Tradify data only through those partner integrations or through unofficial proxies that automate the authenticated session. The API entries below are MODELED from Tradify's product capabilities
+  and are not confirmed against official public API documentation.
+finops:
+- name: Tradify Finops
+  service_category: Business Application Software
+  slug: tradify-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradify.png
+layout: provider
+modified: '2026-07-12'
+name: Tradify
+nav: Providers
+network: true
+overview: 'Tradify publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Jobs API, and 2 more. Tagged areas include Job Management, Trades, Field Service, Scheduling, and Quoting.
+
+
+  Tradify''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Tradify Plans Pricing
+  plan_count: 5
+  slug: tradify-plans-pricing
+random_paper: 41
+rate_limits:
+- limit_count: 3
+  name: Tradify Rate Limits
+  slug: tradify-rate-limits
+score:
+  band: thin
+  composite: 36.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 53.1
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Tradify Authentication
+  slug: tradify-authentication
+  summary_line: session · 2 schemes
+- kind: domain-security
+  name: Tradify Domain Security
+  slug: tradify-domain-security
+  summary_line: HSTS · DMARC
+slug: tradify
+tags:
+- Job Management
+- Trades
+- Field Service
+- Scheduling
+- Quoting
+- Invoicing
+- Timesheets
+- Contractors
+- SaaS
+website: https://www.tradifyhq.com
+---

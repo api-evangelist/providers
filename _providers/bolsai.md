@@ -1,0 +1,74 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
+  name: Bolsai Financial Data API
+  slug: bolsai-financial-data-api
+artifact_total: 1
+created: '2026-07-06'
+description: Brazilian financial-market data REST API serving equities, real-estate funds (FIIs), fundamentals, dividends, financial statements, and macroeconomic series sourced from official feeds (B3, CVM, BCB).
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bolsai.png
+layout: provider
+modified: '2026-07-06'
+name: Bolsai
+nav: Providers
+network: true
+overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include finance, financial-data, market-data, stocks-equities, and real-estate-funds.'
+random_paper: 22
+score:
+  band: emerging
+  composite: 17.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 37.7
+    developer_ergonomics: 0.0
+    discoverability: 85.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: bolsai
+tags:
+- finance
+- financial-data
+- market-data
+- stocks-equities
+- real-estate-funds
+- dividends
+- fundamentals
+- macroeconomic-data
+- brazil
+- developer-tools
+- mcp
+- ai-agents
+---

@@ -1,0 +1,238 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 74.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Blackbird Agentic Access
+  operation_count: 25
+  slug: blackbird-agentic-access
+  summary_line: 25 operations · 5 acting
+api_count: 10
+apis:
+- description: The App API from Blackbird — 1 operation(s) for app.
+  name: Blackbird App API
+  slug: blackbird-app-api
+- description: The Challenges API from Blackbird — 1 operation(s) for challenges.
+  name: Blackbird Challenges API
+  slug: blackbird-challenges-api
+- description: Filtered visit records.
+  name: Blackbird Check-ins API
+  slug: blackbird-check-ins-api
+- description: Physical venues and open hours.
+  name: Blackbird Locations API
+  slug: blackbird-locations-api
+- description: Per-(member, restaurant) loyalty records carrying check-in counts and tiers.
+  name: Blackbird Memberships API
+  slug: blackbird-memberships-api
+- description: Payment Intents for FLY-funded payments.
+  name: Blackbird Payments API
+  slug: blackbird-payments-api
+- description: Brand-level restaurant discovery.
+  name: Blackbird Restaurants API
+  slug: blackbird-restaurants-api
+- description: The Rewards API from Blackbird — 2 operation(s) for rewards.
+  name: Blackbird Rewards API
+  slug: blackbird-rewards-api
+- description: The Specials API from Blackbird — 1 operation(s) for specials.
+  name: Blackbird Specials API
+  slug: blackbird-specials-api
+- description: The authenticated member — profile, status, wallets, tags, and check-in history. Subject resolved from the token.
+  name: Blackbird Users API
+  slug: blackbird-users-api
+artifact_total: 15
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://blackbird.xyz
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.flynet.org
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.flynet.org
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.flynet.org/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.flynet.org/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.flynet.org/resources/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.thesupersonic.blackbird.xyz
+- group: start
+  title: ''
+  type: SignUp
+  url: https://docs.flynet.org/resources/request-access
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/blackbird-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/blackbird-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/blackbird-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/blackbird-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/blackbird-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/blackbird-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/blackbird-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/blackbird-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/blackbird-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/blackbird-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/blackbird-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/blackbird-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/blackbird-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/blackbird-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/blackbird-agentic-access.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blackbird-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blackbird-domain-security.yml
+created: '2026-07-17'
+description: Blackbird Labs is the membership network for restaurant lovers, founded by Eater and Resy co-founder Ben Leventhal. Its consumer app lets diners earn status, perks, and points at world-class restaurants and pay their check in FLY, Blackbird's loyalty token. Blackbird's developer platform is the Flynet API — read access to the dining network (restaurants, locations, check-ins, member identity, and memberships) plus FLY Payment Intents modeled on Stripe — backed by an OpenAPI spec, first-party TypeScript SDKs (@flynetdev/core and @flynetdev/react), two MCP servers, a published agent skill, and llms.txt. Flynet is a layer-3 network built on Coinbase's Base chain. Backed by a16z, dcvc, and multicoin-capital.
+image: https://www.blackbird.xyz/opengraph-image.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: blackbird-mcp.yml
+  slug: blackbird-mcpyml
+modified: '2026-07-18'
+name: Blackbird
+nav: Providers
+network: true
+overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurants, Loyalty, Payments, and Dining.
+
+
+  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
+random_paper: 8
+scopes:
+- name: Blackbird Scopes
+  scope_count: 9
+  slug: blackbird-scopes
+  summary_line: 9 scopes
+score:
+  band: developing
+  composite: 47.3
+  delta: 2.1
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 57.9
+    developer_ergonomics: 80.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 45.2
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Blackbird Authentication
+  slug: blackbird-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Blackbird Domain Security
+  slug: blackbird-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: blackbird
+tags:
+- Company
+- Restaurants
+- Loyalty
+- Payments
+- Dining
+- Membership
+- Crypto
+- Blockchain
+- Web3
+website: https://blackbird.xyz
+---

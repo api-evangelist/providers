@@ -1,0 +1,154 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 29.8
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Lightpanda's primary programmable interface. The browser runs as a CDP server (`lightpanda serve`) and exposes the Chrome DevTools Protocol over a WebSocket endpoint (default `ws://127.0.0.1:9222`). C
+  name: Lightpanda CDP WebSocket Interface
+  slug: lightpanda-cdp-websocket-interface
+- description: Managed, hosted CDP browser endpoints reached over secure WebSocket (e.g. `wss://euwest.cloud.lightpanda.io/ws`, `wss://uswest.cloud.lightpanda.io/ws`). Authentication is a `token` query-string parame
+  name: Lightpanda Cloud
+  slug: lightpanda-cloud
+- description: The open-source command-line binary (AGPL-3.0, written in Zig). `lightpanda serve` starts the CDP-over-WebSocket server; `lightpanda fetch` retrieves and dumps a URL as HTML or markdown; `lightpanda a
+  name: Lightpanda CLI / Binary
+  slug: lightpanda-cli-binary
+artifact_total: 10
+asyncapis:
+- description: AsyncAPI 2.6 description of Lightpanda's programmable interface. Lightpanda is a headless browser; it does **not** expose a REST API. Its interface is the **Chrome DevTools Protocol (CDP)**, a bidirec
+  name: Lightpanda CDP over WebSocket
+  slug: lightpanda-asyncapi
+collections:
+- collection_type: open
+  name: Lightpanda
+  slug: open-lightpanda
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lightpanda-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lightpanda-io
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lightpanda
+- group: company
+  title: ''
+  type: Website
+  url: https://lightpanda.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://lightpanda.io/docs
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lightpanda-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lightpanda-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lightpanda-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://lightpanda.io/blog
+created: '2026-06-20'
+description: Lightpanda is an open-source headless browser built from scratch in Zig for AI agents and large-scale automation. It is not a REST API; its programmable interface is the Chrome DevTools Protocol (CDP) exposed over a WebSocket endpoint, making it a drop-in target for Puppeteer, Playwright, and chromedp clients. It ships as an open-source binary/CLI (AGPL-3.0) and as Lightpanda Cloud, a managed CDP browser service.
+finops:
+- name: Lightpanda Finops
+  service_category: Web and Application Services
+  slug: lightpanda-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightpanda.png
+layout: provider
+modified: '2026-06-20'
+name: Lightpanda
+nav: Providers
+network: true
+overview: 'Lightpanda publishes 2 APIs on the [APIs.io](https://apis.io/) network: CDP WebSocket Interface and Cloud. Tagged areas include Headless Browser, Browser Automation, CDP, WebSocket, and AI Agents.
+
+
+  The Lightpanda catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Lightpanda''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Lightpanda Plans Pricing
+  plan_count: 2
+  slug: lightpanda-plans-pricing
+random_paper: 32
+rate_limits:
+- limit_count: 3
+  name: Lightpanda Rate Limits
+  slug: lightpanda-rate-limits
+rules:
+- name: Lightpanda API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 5
+  slug: lightpanda-asyncapi-spectral-rules
+score:
+  band: thin
+  composite: 43.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 61.1
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 43.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
+security:
+- kind: domain-security
+  name: Lightpanda Domain Security
+  slug: lightpanda-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: lightpanda
+tags:
+- Headless Browser
+- Browser Automation
+- CDP
+- WebSocket
+- AI Agents
+- Web Scraping
+website: https://lightpanda.io
+---

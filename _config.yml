@@ -87,6 +87,9 @@ collections:
   companies:
     output: true
     permalink: /companies/:path/
+  providers:
+    output: true
+    permalink: /providers/:path/
 
 defaults:
   - scope:
@@ -94,4 +97,9 @@ defaults:
       type: companies
     values:
       layout: company
+  - scope:
+      path: ""
+      type: providers
+    values:
+      layout: provider
 

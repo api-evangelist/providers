@@ -1,0 +1,186 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 37.5
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Official hosted Model Context Protocol (MCP) server that acts as the task layer for AI agents. Exposes tools to add, get, update, complete, delete, move, assign, label, and search tasks and lists, plu
+  name: Superlist MCP Server
+  slug: superlist-mcp-server
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/superlist-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://superlist.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.superlist.com/mcp
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.superlist.com/en/articles/658028-superlist-mcp-server
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.superlist.com/en/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.superlist.com/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.superlist.com/updates
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://feedback.superlist.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.superlist.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.superlist.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.superlist.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.superlist.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.superlist.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/superlistapp
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/superlist-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/superlist-authentication.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/superlist-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/superlist-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/superlist-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/superlist-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/superlist-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/superlist-problem-types.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/superlist-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Superlist is an AI-powered task and list management application from the team behind Wunderlist, combining to-dos, notes, and lightweight project planning in a single collaborative workspace across Mac, Web, iOS, and Android. Its primary programmatic surface is an official hosted Model Context Protocol (MCP) server that lets Claude, ChatGPT, Cursor, and any MCP-compatible agent read and manage tasks, lists, labels, and views over natural language. The MCP endpoint is secured with a standards-based OAuth 2.0 authorization server (PKCE, dynamic client registration, RFC 8414 / RFC 9728 discovery). Superlist does not publish a traditional public REST API or OpenAPI; the MCP server is the agent-native integration layer.
+image: https://framerusercontent.com/assets/xlouachsGTVuJaHXsYmxxI66e2s.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: superlist-mcp.yml
+  slug: superlist-mcpyml
+modified: '2026-07-21'
+name: Superlist
+nav: Providers
+network: true
+overview: 'Superlist publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management Sector, Task Management, Productivity, and To-Do Lists.
+
+
+  Superlist''s developer surface includes documentation, support, engineering blog, changelog, pricing, signup flow, authentication, and 17 more developer resources.'
+random_paper: 34
+score:
+  band: thin
+  composite: 31.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 31.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Superlist Authentication
+  slug: superlist-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Superlist Domain Security
+  slug: superlist-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: superlist
+tags:
+- Company
+- Project Management Sector
+- Task Management
+- Productivity
+- To-Do Lists
+- Collaboration
+- MCP
+- Agents
+- AI Assistant
+website: https://superlist.com
+---

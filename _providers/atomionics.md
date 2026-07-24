@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/atomionics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://atomionics.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.atomionics.com/news
+created: '2026-07-17'
+description: Atomionics is a Singapore-based deep-technology company, founded in 2018, that builds quantum sensors for mineral resource exploration and GPS-free navigation. Its Gravio quantum-grade gravity-sensing platform uses cold-atom interferometry to measure tiny gravitational changes and map the Earth's subsurface at high resolution, and its ORE-O AI geologist visualizes complex geologies and mineral deposits in 3D to accelerate exploration for energy-transition resources such as copper, lithium, nickel, graphite and rare earth elements. The company does not currently publish a public API or developer platform; this profile tracks its identity and public web surface within the API Evangelist network.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atomionics.png
+layout: provider
+modified: '2026-07-18'
+name: Atomionics
+nav: Providers
+network: true
+overview: 'Atomionics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Sensing, Geophysics, Mining, and Mineral Exploration.
+
+
+  Atomionics'' developer surface includes engineering blog and 2 more developer resources.'
+random_paper: 7
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Atomionics Domain Security
+  slug: atomionics-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: atomionics
+tags:
+- Company
+- Quantum Sensing
+- Geophysics
+- Mining
+- Mineral Exploration
+- Navigation
+- Deep Tech
+- Artificial Intelligence
+website: https://atomionics.com
+---

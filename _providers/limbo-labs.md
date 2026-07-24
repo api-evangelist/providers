@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://limbolabs.com
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/limbo-labs-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/limbo-labs-domain-security.yml
+created: '2026-07-17'
+description: 'Limbo Labs was, in its own words, "a small technical team in san francisco" whose products were to "begin launching in july 2010". The company surfaced in the 500 Global portfolio listing and was added to the API Evangelist network as a lead. Enrichment found no company to enrich: limbolabs.com carried a single-page placeholder from 2010 through roughly 2015 and never grew past it — an Internet Archive enumeration of the domain returns only eleven distinct captured URLs, all of them the one landing page plus its stylesheets, jQuery and four images. No product, developer portal, API reference, OpenAPI or Swagger document, SDK or machine-readable specification was ever published or archived. By 2018 the domain served a JavaScript-wall parking page, and it now redirects to an Afternic "for sale" lander, so the brand is retired. The website URL carried on the inbound 500 Global portfolio record, readyforzero.com, is a mis-joined row: it belongs to ReadyForZero, a separate 500 Global
+  personal-finance company, and it no longer resolves. This profile is retained as a historical, defunct-provider record with no active API surface.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/limbo-labs.png
+layout: provider
+modified: '2026-07-19'
+name: Limbo Labs (limbolabs.com)
+nav: Providers
+network: true
+overview: Limbo Labs (limbolabs.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Startup, San Francisco, and Venture Backed.
+random_paper: 25
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Limbo Labs Domain Security
+  slug: limbo-labs-domain-security
+  summary_line: TLSv1.3
+slug: limbo-labs
+tags:
+- Company
+- Defunct
+- Startup
+- San Francisco
+- Venture Backed
+- Software
+website: https://limbolabs.com
+---

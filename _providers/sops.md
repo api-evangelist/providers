@@ -1,0 +1,174 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The SOPS decrypt Go package provides programmatic access to SOPS-encrypted files from Go applications. It supports decryption of YAML, JSON, ENV, INI, and binary formats using configured key managemen
+  name: SOPS Go Library
+  slug: sops-go-library
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sops-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://getsops.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://getsops.io/docs/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/getsops
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/getsops/sops
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://github.com/getsops/sops/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/getsops/sops/blob/main/LICENSE
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/getsops/sops/blob/main/CHANGELOG.rst
+- group: start
+  title: ''
+  type: CNCF Sandbox
+  url: https://www.cncf.io/projects/sops/
+- group: other
+  title: ''
+  type: Homebrew
+  url: https://formulae.brew.sh/formula/sops
+- group: build
+  title: ''
+  type: Flux Integration
+  url: https://fluxcd.io/flux/guides/mozilla-sops/
+- group: company
+  title: ''
+  type: Blog
+  url: https://getsops.io/blog/
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/getsops/sops/blob/main/SECURITY.md
+created: '2025'
+description: SOPS (Secrets OPerationS) is a CNCF Sandbox encrypted file editor that supports YAML, JSON, ENV, INI, and binary formats. SOPS encrypts file values while leaving keys in cleartext, enabling secure storage of secrets in version control systems. Supports AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP for key management. Originally created at Mozilla and donated to the CNCF in 2023.
+examples:
+- key_count: 8
+  name: Sops Encrypt File Example
+  slug: sops-encrypt-file-example
+finops:
+- name: Sops Finops
+  service_category: API
+  slug: sops-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sops.png
+json_schemas:
+- name: SOPS Encrypted File
+  property_count: 1
+  slug: sops-encrypted-file
+json_structures:
+- name: Sops Config Structure
+  property_count: 0
+  slug: sops-config-structure
+jsonld:
+- class_count: 4
+  name: Sops Context
+  property_count: 11
+  slug: sops-context
+layout: provider
+modified: '2026-05-02'
+name: SOPS
+nav: Providers
+network: true
+overview: 'SOPS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Secrets Management, Encryption, Configuration Management, DevOps, and Security.
+
+
+  The SOPS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  SOPS''s developer surface includes documentation, release notes, changelog, engineering blog, and 9 more developer resources.'
+plans:
+- name: Sops Plans Pricing
+  plan_count: 3
+  slug: sops-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 5
+  name: Sops Rate Limits
+  slug: sops-rate-limits
+rules:
+- name: SOPS API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: sops-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 40.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 73.7
+    operational_transparency: 63.2
+  previous_composite: 40.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/screenshots/sops-2026-06-20T194211.png
+security:
+- kind: domain-security
+  name: Sops Domain Security
+  slug: sops-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: sops
+tags:
+- Secrets Management
+- Encryption
+- Configuration Management
+- DevOps
+- Security
+- Kubernetes
+- CNCF
+website: https://getsops.io/
+---

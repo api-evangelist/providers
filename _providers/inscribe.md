@@ -1,0 +1,165 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 24.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
+  name: Inscribe Document Fraud Detection API
+  slug: document-fraud-detection-api
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/inscribe-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/inscribe-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.inscribe.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.inscribe.ai/reference/overview
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/InscribeAI
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/inscribeai/
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/inscribeai
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.inscribe.ai/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.inscribe.ai/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/inscribe-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/inscribe-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/inscribe-finops.yml
+- group: company
+  title: ''
+  type: BlogPosts
+  url: blogs/blogs.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/inscribe-context.jsonld
+created: '2026-06-12'
+description: Inscribe is an AI-powered document fraud detection platform founded in 2017, serving banks, credit unions, fintechs, and lending institutions. The platform uses agentic AI trained by fraud experts to detect forged, manipulated, and AI-generated documents including bank statements, pay stubs, tax forms, invoices, and identity documents. Inscribe's REST API provides programmatic access to fraud detection, document verification, credit insights, and transaction enrichment workflows at scale. Financial institutions integrate the API to automate underwriting, onboarding, KYC/KYB, and bank account verification decisions, with results delivered via webhook or polling. The platform processes millions of applications annually and serves notable customers including Bluevine, Ramp, Plaid, and BHG Financial.
+finops:
+- name: Inscribe Finops
+  service_category: ''
+  slug: inscribe-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inscribe.png
+jsonld:
+- class_count: 9
+  name: Inscribe Context
+  property_count: 16
+  slug: inscribe-context
+layout: provider
+modified: '2026-06-12'
+name: Inscribe
+nav: Providers
+network: true
+overview: 'Inscribe publishes 1 API on the [APIs.io](https://apis.io/) network: Document Fraud Detection API. Tagged areas include Fraud Detection, Document Verification, Financial Services, KYC, and KYB.
+
+
+  The Inscribe catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Inscribe''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+plans:
+- name: Inscribe Plans Pricing
+  plan_count: 0
+  slug: inscribe-plans-pricing
+random_paper: 31
+rate_limits:
+- limit_count: 2
+  name: Inscribe Rate Limits
+  slug: inscribe-rate-limits
+score:
+  band: thin
+  composite: 33.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 7.9
+    contract_quality: 58.5
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 33.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/screenshots/inscribe-2026-06-20T183404.png
+security:
+- kind: domain-security
+  name: Inscribe Domain Security
+  slug: inscribe-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Inscribe Vulnerability Disclosure
+  slug: inscribe-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: inscribe
+tags:
+- Fraud Detection
+- Document Verification
+- Financial Services
+- KYC
+- KYB
+- Bank Statements
+- Pay Stubs
+- Identity Verification
+- Risk Management
+- Fintech
+- AI
+- Machine Learning
+website: https://www.inscribe.ai/
+---

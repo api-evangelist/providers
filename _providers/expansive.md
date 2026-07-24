@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://expansive.mx
+- group: company
+  title: ''
+  type: Blog
+  url: https://expansive.mx/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://centrodeayuda.expansive.mx/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://expansive.mx/costos-y-comisiones
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.expansive.mx/registro/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.expansive.mx/login/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://expansive.mx/legal/terminos-y-condiciones
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://expansive.mx/legal/politicas-de-privacidad
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/expansive-domain-security.yml
+created: '2026-07-17'
+description: Expansive is a Mexican real estate crowdfunding platform (crowdfunding inmobiliario) that lets individuals invest collectively in vetted real estate projects from as little as 1,000 MXN, earning returns backed by real guarantees. It operates as a regulated collective financing institution (IFC) under Mexico's Fintech Law and is supervised by the CNBV (Comisión Nacional Bancaria y de Valores). Expansive handles project vetting, funding, quarterly investor reporting, and payouts through its web platform and investor app (app.expansive.mx). The company is a portfolio company of 500 Global. It is a consumer-facing fintech investing product; it does not publish a public developer API, documentation, or SDK surface.
+image: https://expansive.mx/images/seo/og-image.jpg
+layout: provider
+modified: '2026-07-19'
+name: Expansive
+nav: Providers
+network: true
+overview: 'Expansive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Real Estate, Crowdfunding, and Investing.
+
+
+  Expansive''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
+random_paper: 10
+score:
+  band: emerging
+  composite: 17.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 17.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Expansive Domain Security
+  slug: expansive-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: expansive
+tags:
+- Company
+- Fintech
+- Real Estate
+- Crowdfunding
+- Investing
+- Proptech
+- Collective Financing
+- Mexico
+website: https://expansive.mx
+---

@@ -1,0 +1,259 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 75.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 37
+  human_in_the_loop: 2
+  name: Howler Agentic Access
+  operation_count: 67
+  slug: howler-agentic-access
+  summary_line: 67 operations · 37 acting · 2 human-in-the-loop
+api_count: 17
+apis:
+- description: The Artists API from Howler — 1 operation(s) for artists.
+  name: Howler Artists API
+  slug: howler-artists-api
+- description: The Assign Ticket API from Howler — 1 operation(s) for assign ticket.
+  name: Howler Assign Ticket API
+  slug: howler-assign-ticket-api
+- description: The Bank Account API from Howler — 3 operation(s) for bank account.
+  name: Howler Bank Account API
+  slug: howler-bank-account-api
+- description: The Basic Authentication API from Howler — 4 operation(s) for basic authentication.
+  name: Howler Basic Authentication API
+  slug: howler-basic-authentication-api
+- description: The Cashless Tags API from Howler — 2 operation(s) for cashless tags.
+  name: Howler Cashless Tags API
+  slug: howler-cashless-tags-api
+- description: The Cashout API from Howler — 4 operation(s) for cashout.
+  name: Howler Cashout API
+  slug: howler-cashout-api
+- description: The Email OTP API from Howler — 2 operation(s) for email otp.
+  name: Howler Email OTP API
+  slug: howler-email-otp-api
+- description: The Events API from Howler — 2 operation(s) for events.
+  name: Howler Events API
+  slug: howler-events-api
+- description: The OAuth API from Howler — 4 operation(s) for oauth.
+  name: Howler OAuth API
+  slug: howler-oauth-api
+- description: The Third Party OAuth API from Howler — 5 operation(s) for third party oauth.
+  name: Howler Third Party OAuth API
+  slug: howler-third-party-oauth-api
+- description: The Tickets API from Howler — 7 operation(s) for tickets.
+  name: Howler Tickets API
+  slug: howler-tickets-api
+- description: The Top Up API from Howler — 1 operation(s) for top up.
+  name: Howler Top Up API
+  slug: howler-top-up-api
+- description: The Top Up Cashless Tag API from Howler — 7 operation(s) for top up cashless tag.
+  name: Howler Top Up Cashless Tag API
+  slug: howler-top-up-cashless-tag-api
+- description: The Top Up Ticket API from Howler — 7 operation(s) for top up ticket.
+  name: Howler Top Up Ticket API
+  slug: howler-top-up-ticket-api
+- description: The Topupables API from Howler — 1 operation(s) for topupables.
+  name: Howler Topupables API
+  slug: howler-topupables-api
+- description: The Transfer Ticket API from Howler — 2 operation(s) for transfer ticket.
+  name: Howler Transfer Ticket API
+  slug: howler-transfer-ticket-api
+- description: The User API from Howler — 4 operation(s) for user.
+  name: Howler User API
+  slug: howler-user-api
+artifact_total: 22
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.howler.co.za/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.howler.co.za/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.howler.co.za/api-docs
+- group: start
+  title: ''
+  type: Portal
+  url: https://organisers.howler.co.za/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.howler.co.za/contact_us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.howler.co.za/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.howler.co.za/users/sign_up
+- group: start
+  title: ''
+  type: Login
+  url: https://www.howler.co.za/users/sign_in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.howler.co.za/terms_and_conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.howler.co.za/privacy_policy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://za.linkedin.com/company/howlertech
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/howler-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/howler-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/howler-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/howler-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/howler-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/howler-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/howler-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: openapi/howler-webhooks-openapi.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/howler-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/howler-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/howler-consumer-portal-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/howler-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/howler-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/howler-domain-security.yml
+created: '2026-07-17'
+description: Howler is a South African event technology platform that consolidates ticketing, RFID cashless payments, and vendor and access-control management into a single system for event organisers and attendees. Founded out of the Barclays Accelerator powered by Techstars (2017) and Techstars-backed, Howler has processed over R1.5 billion in transactions across thousands of events. Its public Howler API v3 consumer portal exposes 67 operations for authentication (OAuth2, JWT, email OTP, third-party OAuth), tickets (buy, assign, transfer), cashless RFID tags, top-ups, and cashout to bank accounts, and a Howler Webhooks v1 surface pushes ticket, event, and payment events to partner endpoints.
+image: https://d1as2iufift1z3.cloudfront.net/assets/opengraph_image-5c147fd54bd5d4a768273fb2aa31296c060de259bc86df716898404aa091830c.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: howler-mcp.yml
+  slug: howler-mcpyml
+modified: '2026-07-19'
+name: Howler
+nav: Providers
+network: true
+overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Assign Ticket API, Bank Account API, and 14 more. Tagged areas include Company, Events, Ticketing, Payments, and Cashless.
+
+
+  Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
+random_paper: 45
+scopes:
+- name: Howler Scopes
+  scope_count: 3
+  slug: howler-scopes
+  summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 47.6
+  delta: 5.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 55.6
+    developer_ergonomics: 54.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 42.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 76.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Howler Authentication
+  slug: howler-authentication
+  summary_line: apiKey/http/oauth2 · 5 schemes
+- kind: domain-security
+  name: Howler Domain Security
+  slug: howler-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: howler
+tags:
+- Company
+- Events
+- Ticketing
+- Payments
+- Cashless
+- RFID
+- Event Management
+- Fintech
+- South Africa
+website: https://www.howler.co.za/
+---

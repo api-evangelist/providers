@@ -1,0 +1,172 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
+  name: Perpay Marketplace Checkout API
+  slug: perpay-marketplace-checkout-api
+- description: REST integration layer built on Pinwheel's payroll connectivity API. Supports direct-deposit switching, income and employment verification, and real-time confirmation of paycheck routing updates for 1
+  name: Perpay Payroll Direct-Deposit API
+  slug: perpay-payroll-direct-deposit-api
+- description: Internal API that submits on-time payment history and spending-limit data to Experian, TransUnion, and Equifax for credit-building purposes. Governed by FCRA requirements.
+  name: Perpay Credit Reporting API
+  slug: perpay-credit-reporting-api
+artifact_total: 9
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/perpay-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/perpay-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.perpay.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.perpay.com/en/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/Perpay
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/perpay
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://perpay.com/legal/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://perpay.com/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/perpay-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/perpay-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/perpay-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.perpay.com/
+- group: company
+  title: ''
+  type: BlogPosts
+  url: blogs/blogs.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/perpay-context.jsonld
+created: '2026-06-13'
+description: Perpay is a buy-now-pay-later and credit-building platform that lets consumers shop and pay via automatic payroll deductions. Its internal REST platform supports marketplace checkout, installment plan creation, payroll direct-deposit switching (via Pinwheel), identity and income verification, and credit-bureau reporting to Experian, TransUnion, and Equifax. Perpay operates a closed marketplace — third-party merchant checkout integration is not publicly available; API access is reserved for Perpay's own products and vetted partners.
+finops:
+- name: Perpay Finops
+  service_category: Fintech
+  slug: perpay-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perpay.png
+jsonld:
+- class_count: 0
+  name: Perpay Context
+  property_count: 7
+  slug: perpay-context
+layout: provider
+modified: '2026-06-13'
+name: Perpay
+nav: Providers
+network: true
+overview: 'Perpay publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, BNPL, Buy Now Pay Later, Credit Building, and Payroll Deduction.
+
+
+  The Perpay catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Perpay''s developer surface includes GitHub presence, engineering blog, and 12 more developer resources.'
+plans:
+- name: Perpay Plans Pricing
+  plan_count: 1
+  slug: perpay-plans-pricing
+random_paper: 45
+rate_limits:
+- limit_count: 1
+  name: Perpay Rate Limits
+  slug: perpay-rate-limits
+score:
+  band: thin
+  composite: 32.2
+  delta: 3.6
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 9.4
+    developer_ergonomics: 6.5
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 28.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 52.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/screenshots/perpay-2026-06-20T191609.png
+security:
+- kind: domain-security
+  name: Perpay Domain Security
+  slug: perpay-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+- kind: trust-center
+  name: Perpay Trust Center
+  slug: perpay-trust-center
+  summary_line: SOC 2, ISO 27001, PCI DSS
+slug: perpay
+tags:
+- Fintech
+- BNPL
+- Buy Now Pay Later
+- Credit Building
+- Payroll Deduction
+- Payments
+- Consumer Finance
+website: https://www.perpay.com
+---

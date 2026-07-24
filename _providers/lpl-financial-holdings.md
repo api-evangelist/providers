@@ -1,0 +1,106 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lpl-financial-holdings-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/lpl-financial-holdings-inc
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lpl.com
+- group: company
+  title: ''
+  type: Investor Relations
+  url: https://investor.lpl.com
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://www.lplfinancial.com
+created: '2026-03-24'
+description: 'LPL Financial Holdings Inc. (NASDAQ: LPLA) is the parent company of LPL Financial LLC, one of the largest independent broker-dealers in the United States and a leading retail investment advisory firm. The company supports thousands of independent financial advisors, banks, credit unions, and registered investment advisors. LPL Financial Holdings does not operate a public developer program; APIs and integrations are operated under the LPL Financial subsidiary brand for partners and advisors.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lpl-financial-holdings.png
+layout: provider
+modified: '2026-04-28'
+name: LPL Financial Holdings
+nav: Providers
+network: true
+overview: LPL Financial Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Financial Services, Holding Company, Investment Advisory, and Wealth Management.
+press:
+- date: '2026-05-25'
+  title: LPL Financial Wins Two Stevie Awards for Innovation in ...
+  url: https://www.barchart.com/story/news/1930464/lpl-financial-wins-two-stevie-awards-for-innovation-in-artificial-intelligence
+- date: '2026-05-25'
+  title: UPDATE - LPL Financial Wins Two Stevie Awards for ...
+  url: https://money.tmx.com/quote/LPLA:US/news/6182352513166238/UPDATE_LPL_Financial_Wins_Two_Stevie_Awards_for_Innovation_in_Artificial_Intelligence_Concepts
+- date: '2026-05-25'
+  title: LPL Financial Launches Curated AI Solutions for Advisors
+  url: https://www.lpl.com/news-media/press-releases/lpl-financial-launches-curated-ai-solutions-for-advisors.html
+- date: '2026-05-25'
+  title: LPL Financial Holdings Inc. (LPLA) Latest Press Releases ...
+  url: https://finance.yahoo.com/quote/LPLA/press-releases/
+- date: '2026-05-25'
+  title: LPL Welcomes Vaughn Harvey as Chief Data and AI Officer
+  url: https://www.lpl.com/news-media/press-releases/lpl-financial-welcomes-vaughn-harvey-as-chief-data-and-ai-officer.html
+random_paper: 14
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Lpl Financial Holdings Domain Security
+  slug: lpl-financial-holdings-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: lpl-financial-holdings
+tags:
+- Broker-Dealer
+- Financial Services
+- Holding Company
+- Investment Advisory
+- Wealth Management
+website: https://www.lpl.com
+---

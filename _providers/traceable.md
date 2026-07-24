@@ -1,0 +1,230 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 59.6
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Traceable Agentic Access
+  operation_count: 3
+  slug: traceable-agentic-access
+  summary_line: 3 operations · 2 acting
+api_count: 4
+apis:
+- description: Traceable provides an intelligent API security platform offering API discovery, threat detection and protection, and API security testing. It uses distributed tracing and context-aware AI to understan
+  name: Traceable API Security Platform
+  slug: traceable-platform
+- description: Traceable Active Security Testing (AST) provides automated API security testing with GraphQL-based configuration for scan creation, suite management, and CI/CD pipeline integration. Supports GitHub Ac
+  name: Traceable Active Security Testing
+  slug: traceable-ast
+- description: Execute GraphQL queries against the Traceable platform for advanced analytics, entity queries, and bulk data retrieval.
+  name: Traceable GraphQL API
+  slug: traceable-graphql-api
+- description: Download OpenAPI, WSDL, and other API specification files generated from discovered traffic.
+  name: Traceable Specifications API
+  slug: traceable-specifications-api
+artifact_total: 20
+collections:
+- collection_type: open
+  name: Traceable Platform API
+  slug: open-traceable-platform
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/traceable-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/traceable-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/traceable-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/traceable-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.traceable.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.traceable.ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.traceable.ai/blog
+- group: company
+  title: ''
+  type: About
+  url: https://www.traceable.ai/company
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.traceable.ai/contact
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.traceable.ai/request-demo
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.traceable.ai/partners
+- group: other
+  title: ''
+  type: Resources
+  url: https://www.traceable.ai/resources
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/traboraceable/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/ATraceableAI
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/Traceableai
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://docs.traceable.ai/docs/traceable-mcp-server
+created: '2025-01-08'
+description: Traceable is an API security and observability platform that provides API discovery, threat detection, and protection across the full application lifecycle. It uses context-aware AI to detect and block API-based attacks while providing deep visibility into API behavior and risk. Traceable exposes public GraphQL APIs for configuration, analytics, and operational data access, as well as an MCP server with 12 tools for AI-assisted security workflows.
+examples:
+- key_count: 2
+  name: Traceable Download Api Spec Example
+  slug: traceable-download-api-spec-example
+- key_count: 2
+  name: Traceable Execute Graphql Query Example
+  slug: traceable-execute-graphql-query-example
+finops:
+- name: Traceable Finops
+  service_category: API Security
+  slug: traceable-finops
+graphqls:
+- description: The Traceable Platform GraphQL API provides programmatic access to API security configuration and operational data. Supports queries for API discovery analytics, vulnerability data, threat activity, e
+  name: Traceable GraphQL API
+  slug: traceable-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/traceable.png
+json_schemas:
+- name: Traceable API Entity
+  property_count: 17
+  slug: traceable-api-entity
+json_structures:
+- name: Traceable Api Entity Structure
+  property_count: 0
+  slug: traceable-api-entity-structure
+jsonld:
+- class_count: 33
+  name: Traceable Context
+  property_count: 0
+  slug: traceable-context
+layout: provider
+modified: '2026-05-19'
+name: Traceable
+nav: Providers
+network: true
+overview: 'Traceable publishes 2 APIs on the [APIs.io](https://apis.io/) network: GraphQL API and Specifications API. Tagged areas include API Discovery, API Protection, API Security, API Testing, and Observability.
+
+
+  The Traceable catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Traceable''s developer surface includes authentication, documentation, engineering blog, GitHub presence, and 12 more developer resources.'
+plans:
+- name: Traceable Plans Pricing
+  plan_count: 1
+  slug: traceable-plans-pricing
+random_paper: 13
+rate_limits:
+- limit_count: 1
+  name: Traceable Rate Limits
+  slug: traceable-rate-limits
+rules:
+- name: Traceable API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: traceable-jsonschema-spectral-rules
+- name: Traceable API Rules
+  rule_count: 10
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 0
+    warn: 5
+  slug: traceable-rules
+score:
+  band: developing
+  composite: 47.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 67.3
+    developer_ergonomics: 30.4
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 26.3
+  previous_composite: 47.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/screenshots/traceable-2026-06-20T195515.png
+security:
+- kind: authentication
+  name: Traceable Authentication
+  slug: traceable-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Traceable Domain Security
+  slug: traceable-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Traceable Vulnerability Disclosure
+  slug: traceable-vulnerability-disclosure
+  summary_line: disclosure policy published
+slug: traceable
+tags:
+- API Discovery
+- API Protection
+- API Security
+- API Testing
+- Observability
+- Security
+- Threat Detection
+website: https://www.traceable.ai
+---

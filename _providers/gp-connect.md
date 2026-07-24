@@ -1,0 +1,218 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Gp Connect Agentic Access
+  operation_count: 14
+  slug: gp-connect-agentic-access
+  summary_line: 14 operations · 5 acting
+api_count: 9
+apis:
+- description: Retrieve unstructured documents (e.g. scanned letters, attachments) from a patient's GP practice record. Complements the structured access API for cases where clinical information is held as binary do
+  name: GP Connect Access Document FHIR API
+  slug: access-document-fhir
+- description: Send a PDF consultation summary or clinical document to a patient's registered GP practice. Used when a patient is seen in a non-GP setting (out-of-hours, community pharmacy, urgent care centre) and t
+  name: GP Connect Send Document FHIR API
+  slug: send-document-fhir
+- description: The Appointment API from GP Connect — 2 operation(s) for appointment.
+  name: GP Connect Appointment API
+  slug: gp-connect-appointment-api
+- description: The Documents API from GP Connect — 2 operation(s) for documents.
+  name: GP Connect Documents API
+  slug: gp-connect-documents-api
+- description: The FHIR API from GP Connect — 1 operation(s) for fhir.
+  name: GP Connect FHIR API
+  slug: gp-connect-fhir-api
+- description: The Meta API from GP Connect — 1 operation(s) for meta.
+  name: GP Connect Meta API
+  slug: gp-connect-meta-api
+- description: The Patient API from GP Connect — 4 operation(s) for patient.
+  name: GP Connect Patient API
+  slug: gp-connect-patient-api
+- description: The Slot API from GP Connect — 1 operation(s) for slot.
+  name: GP Connect Slot API
+  slug: gp-connect-slot-api
+- description: The Task API from GP Connect — 1 operation(s) for task.
+  name: GP Connect Task API
+  slug: gp-connect-task-api
+artifact_total: 16
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/gp-connect-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/gp-connect-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gp-connect-domain-security.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://digital.nhs.uk/services/gp-connect
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://digital.nhs.uk/developer/api-catalogue
+- group: operate
+  title: ''
+  type: HelpAndSupport
+  url: https://digital.nhs.uk/developer/help-and-support
+- group: start
+  title: ''
+  type: Signup
+  url: https://digital.nhs.uk/services/gp-connect/develop-gp-connect-services/specifications-for-developers
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/user-restricted-restful-apis-nhs-login-separate-authentication-and-authorisation
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://digital.nhs.uk/services/gp-connect/develop-gp-connect-services/specifications-for-developers
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/NHSDigital
+- group: other
+  title: ''
+  type: Standards
+  url: https://standards.nhs.uk/published-standards/gp-connect-access-record-structured-fhir-api
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://orange.testlab.nhs.uk/
+- group: other
+  title: ''
+  type: ServiceLevel
+  url: https://digital.nhs.uk/developer/guides-and-documentation/reference-guide#service-levels
+- group: other
+  title: ''
+  type: NetworkAccess
+  url: https://digital.nhs.uk/developer/guides-and-documentation/network-access-for-apis
+- group: build
+  title: ''
+  type: ClinicalSafety
+  url: https://digital.nhs.uk/services/clinical-safety
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/gp-connect-plans.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gp-connect-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/gp-connect-finops.yml
+created: '2026-06-13'
+description: GP Connect is a national NHS England interoperability programme that enables authorised clinical and patient-facing systems to securely access and update patient records held in GP principal clinical systems (EMIS Web, SystmOne, Vision). The programme exposes a suite of FHIR-based REST APIs spanning structured clinical record access (medications, allergies, immunisations, consultations, problems, investigations), unstructured document retrieval, appointment management, document sending, record updating, and patient-facing services for patients to view their own records, manage repeat prescriptions, and book appointments via the NHS App. Clinical system APIs are mediated through the Spine Security Proxy (SSP) over HSCN; patient-facing APIs use NHS login OpenID Connect at P9 identity verification. Access requires NHS England onboarding, an approved clinical use case, information governance compliance, and a clinical safety officer holding DCB0129 and DCB0160 certification. The
+  service is funded by NHS England at no direct API cost to consuming organisations.
+finops:
+- name: Gp Connect Finops
+  service_category: Healthcare Interoperability
+  slug: gp-connect-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gp-connect.png
+jsonld:
+- class_count: 0
+  name: Gp Connect Context
+  property_count: 0
+  slug: gp-connect
+layout: provider
+modified: '2026-06-13'
+name: GP Connect
+nav: Providers
+network: true
+overview: 'GP Connect publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Documents API, FHIR API, and 4 more. Tagged areas include NHS, FHIR, Healthcare, GP Records, and Appointments.
+
+
+  The GP Connect catalog on APIs.io includes 1 JSON-LD context.
+
+
+  GP Connect''s developer surface includes developer portal, documentation, signup flow, authentication, getting-started guide, GitHub presence, sandbox, and 11 more developer resources.'
+plans:
+- name: Gp Connect Plans
+  plan_count: 3
+  slug: gp-connect-plans
+random_paper: 37
+rate_limits:
+- limit_count: 3
+  name: Gp Connect Rate Limits
+  slug: gp-connect-rate-limits
+score:
+  band: developing
+  composite: 45.0
+  delta: 0.9
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 49.0
+    developer_ergonomics: 45.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 44.1
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 50.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gp Connect Domain Security
+  slug: gp-connect-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Gp Connect Vulnerability Disclosure
+  slug: gp-connect-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: gp-connect
+tags:
+- NHS
+- FHIR
+- Healthcare
+- GP Records
+- Appointments
+- Prescriptions
+- Interoperability
+- UK
+- Patient Records
+- Electronic Health Records
+- FHIR STU3
+- FHIR R4
+website: https://digital.nhs.uk/services/gp-connect
+---

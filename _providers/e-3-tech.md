@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.e-3.tech
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.e-3.tech/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.e-3.tech/legal/terms-of-use
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/e3techllc/
+created: '2026-07-17'
+description: E3Tech (E-3 Tech) is an investment firm that partners with entrepreneurs through programmatic M&A and technology amplification, providing private-equity-style investment in profitable service-industry platforms while letting founders retain control and preserve their entrepreneurial culture. It combines strategic acquisitions, operational enhancements, and technology to drive growth across multi-trade construction services, marketing agencies, managed service providers, wealth management, pharmaceutical services, and vegetation management. Surfaced as an a16z-associated portfolio lead and added to the API Evangelist network for enrichment; as an investment/advisory firm it publishes no public API, developer portal, or SDKs at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/e-3-tech.png
+layout: provider
+modified: '2026-07-18'
+name: E-3 Tech
+nav: Providers
+network: true
+overview: E-3 Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment, Private Equity, Mergers and Acquisitions, and Construction Services.
+random_paper: 50
+score:
+  band: minimal
+  composite: 11.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: e-3-tech
+tags:
+- Company
+- Investment
+- Private Equity
+- Mergers and Acquisitions
+- Construction Services
+- Managed Services
+- Wealth Management
+- Pharmaceutical
+website: https://www.e-3.tech
+---

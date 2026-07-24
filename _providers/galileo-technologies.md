@@ -1,0 +1,394 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 71.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 662
+  human_in_the_loop: 9
+  name: Galileo Technologies Agentic Access
+  operation_count: 966
+  slug: galileo-technologies-agentic-access
+  summary_line: 966 operations · 662 acting · 9 human-in-the-loop
+api_count: 60
+apis:
+- description: The annotation API from Galileo Technologies — 12 operation(s) for annotation.
+  name: Galileo Technologies annotation API
+  slug: galileo-technologies-annotation-api
+- description: The annotation_queue API from Galileo Technologies — 18 operation(s) for annotation_queue.
+  name: Galileo Technologies annotation_queue API
+  slug: galileo-technologies-annotation-queue-api
+- description: The annotation_queue_records API from Galileo Technologies — 13 operation(s) for annotation_queue_records.
+  name: Galileo Technologies annotation_queue_records API
+  slug: galileo-technologies-annotation-queue-records-api
+- description: The api_keys API from Galileo Technologies — 9 operation(s) for api_keys.
+  name: Galileo Technologies api_keys API
+  slug: galileo-technologies-api-keys-api
+- description: The assistant API from Galileo Technologies — 11 operation(s) for assistant.
+  name: Galileo Technologies assistant API
+  slug: galileo-technologies-assistant-api
+- description: The Audit Logs API from Galileo Technologies — 1 operation(s) for audit logs.
+  name: Galileo Technologies Audit Logs API
+  slug: galileo-technologies-audit-logs-api
+- description: The auth API from Galileo Technologies — 46 operation(s) for auth.
+  name: Galileo Technologies auth API
+  slug: galileo-technologies-auth-api
+- description: The auto-metric-suggestions API from Galileo Technologies — 2 operation(s) for auto-metric-suggestions.
+  name: Galileo Technologies auto-metric-suggestions API
+  slug: galileo-technologies-auto-metric-suggestions-api
+- description: The code-metric-generation API from Galileo Technologies — 2 operation(s) for code-metric-generation.
+  name: Galileo Technologies code-metric-generation API
+  slug: galileo-technologies-code-metric-generation-api
+- description: The component_views API from Galileo Technologies — 4 operation(s) for component_views.
+  name: Galileo Technologies component_views API
+  slug: galileo-technologies-component-views-api
+- description: The custom_dashboards API from Galileo Technologies — 8 operation(s) for custom_dashboards.
+  name: Galileo Technologies custom_dashboards API
+  slug: galileo-technologies-custom-dashboards-api
+- description: The data API from Galileo Technologies — 78 operation(s) for data.
+  name: Galileo Technologies data API
+  slug: galileo-technologies-data-api
+- description: The dataset API from Galileo Technologies — 1 operation(s) for dataset.
+  name: Galileo Technologies dataset API
+  slug: galileo-technologies-dataset-api
+- description: The datasets API from Galileo Technologies — 56 operation(s) for datasets.
+  name: Galileo Technologies datasets API
+  slug: galileo-technologies-datasets-api
+- description: The experiment API from Galileo Technologies — 24 operation(s) for experiment.
+  name: Galileo Technologies experiment API
+  slug: galileo-technologies-experiment-api
+- description: The experiment_group API from Galileo Technologies — 5 operation(s) for experiment_group.
+  name: Galileo Technologies experiment_group API
+  slug: galileo-technologies-experiment-group-api
+- description: The experiment_tags API from Galileo Technologies — 2 operation(s) for experiment_tags.
+  name: Galileo Technologies experiment_tags API
+  slug: galileo-technologies-experiment-tags-api
+- description: The feedback API from Galileo Technologies — 14 operation(s) for feedback.
+  name: Galileo Technologies feedback API
+  slug: galileo-technologies-feedback-api
+- description: The groups API from Galileo Technologies — 18 operation(s) for groups.
+  name: Galileo Technologies groups API
+  slug: galileo-technologies-groups-api
+- description: The health API from Galileo Technologies — 7 operation(s) for health.
+  name: Galileo Technologies health API
+  slug: galileo-technologies-health-api
+- description: The integrations API from Galileo Technologies — 81 operation(s) for integrations.
+  name: Galileo Technologies integrations API
+  slug: galileo-technologies-integrations-api
+- description: The jobs API from Galileo Technologies — 1 operation(s) for jobs.
+  name: Galileo Technologies jobs API
+  slug: galileo-technologies-jobs-api
+- description: The llm API from Galileo Technologies — 2 operation(s) for llm.
+  name: Galileo Technologies llm API
+  slug: galileo-technologies-llm-api
+- description: The llm_integrations API from Galileo Technologies — 5 operation(s) for llm_integrations.
+  name: Galileo Technologies llm_integrations API
+  slug: galileo-technologies-llm-integrations-api
+- description: The log_stream_alert_settings API from Galileo Technologies — 2 operation(s) for log_stream_alert_settings.
+  name: Galileo Technologies log_stream_alert_settings API
+  slug: galileo-technologies-log-stream-alert-settings-api
+- description: The log_stream_alerts API from Galileo Technologies — 2 operation(s) for log_stream_alerts.
+  name: Galileo Technologies log_stream_alerts API
+  slug: galileo-technologies-log-stream-alerts-api
+- description: The log_stream API from Galileo Technologies — 15 operation(s) for log_stream.
+  name: Galileo Technologies log_stream API
+  slug: galileo-technologies-log-stream-api
+- description: The logstream-insights API from Galileo Technologies — 19 operation(s) for logstream-insights.
+  name: Galileo Technologies logstream-insights API
+  slug: galileo-technologies-logstream-insights-api
+- description: The metric_roll_up API from Galileo Technologies — 2 operation(s) for metric_roll_up.
+  name: Galileo Technologies metric_roll_up API
+  slug: galileo-technologies-metric-roll-up-api
+- description: The models API from Galileo Technologies — 5 operation(s) for models.
+  name: Galileo Technologies models API
+  slug: galileo-technologies-models-api
+- description: The Organization Jobs API from Galileo Technologies — 4 operation(s) for organization jobs.
+  name: Galileo Technologies Organization Jobs API
+  slug: galileo-technologies-organization-jobs-api
+- description: The organizations API from Galileo Technologies — 4 operation(s) for organizations.
+  name: Galileo Technologies organizations API
+  slug: galileo-technologies-organizations-api
+- description: The playground_prompts API from Galileo Technologies — 4 operation(s) for playground_prompts.
+  name: Galileo Technologies playground_prompts API
+  slug: galileo-technologies-playground-prompts-api
+- description: The playground_snapshots API from Galileo Technologies — 3 operation(s) for playground_snapshots.
+  name: Galileo Technologies playground_snapshots API
+  slug: galileo-technologies-playground-snapshots-api
+- description: The playgrounds API from Galileo Technologies — 5 operation(s) for playgrounds.
+  name: Galileo Technologies playgrounds API
+  slug: galileo-technologies-playgrounds-api
+- description: The pricing API from Galileo Technologies — 4 operation(s) for pricing.
+  name: Galileo Technologies pricing API
+  slug: galileo-technologies-pricing-api
+- description: The project_settings API from Galileo Technologies — 6 operation(s) for project_settings.
+  name: Galileo Technologies project_settings API
+  slug: galileo-technologies-project-settings-api
+- description: The projects API from Galileo Technologies — 27 operation(s) for projects.
+  name: Galileo Technologies projects API
+  slug: galileo-technologies-projects-api
+- description: The prompts API from Galileo Technologies — 97 operation(s) for prompts.
+  name: Galileo Technologies prompts API
+  slug: galileo-technologies-prompts-api
+- description: The protect API from Galileo Technologies — 7 operation(s) for protect.
+  name: Galileo Technologies protect API
+  slug: galileo-technologies-protect-api
+- description: The provider-management-api-integrations API from Galileo Technologies — 2 operation(s) for provider-management-api-integrations.
+  name: Galileo Technologies provider-management-api-integrations API
+  slug: galileo-technologies-provider-management-api-integrations-api
+- description: The rows API from Galileo Technologies — 78 operation(s) for rows.
+  name: Galileo Technologies rows API
+  slug: galileo-technologies-rows-api
+- description: The run_insights_settings API from Galileo Technologies — 3 operation(s) for run_insights_settings.
+  name: Galileo Technologies run_insights_settings API
+  slug: galileo-technologies-run-insights-settings-api
+- description: The run_scorer_settings API from Galileo Technologies — 1 operation(s) for run_scorer_settings.
+  name: Galileo Technologies run_scorer_settings API
+  slug: galileo-technologies-run-scorer-settings-api
+- description: The run_tags API from Galileo Technologies — 2 operation(s) for run_tags.
+  name: Galileo Technologies run_tags API
+  slug: galileo-technologies-run-tags-api
+- description: The runs API from Galileo Technologies — 4 operation(s) for runs.
+  name: Galileo Technologies runs API
+  slug: galileo-technologies-runs-api
+- description: The scorer API from Galileo Technologies — 4 operation(s) for scorer.
+  name: Galileo Technologies scorer API
+  slug: galileo-technologies-scorer-api
+- description: The scorer-feedback API from Galileo Technologies — 11 operation(s) for scorer-feedback.
+  name: Galileo Technologies scorer-feedback API
+  slug: galileo-technologies-scorer-feedback-api
+- description: The stage API from Galileo Technologies — 2 operation(s) for stage.
+  name: Galileo Technologies stage API
+  slug: galileo-technologies-stage-api
+- description: The system_admin API from Galileo Technologies — 1 operation(s) for system_admin.
+  name: Galileo Technologies system_admin API
+  slug: galileo-technologies-system-admin-api
+- description: The system_users API from Galileo Technologies — 7 operation(s) for system_users.
+  name: Galileo Technologies system_users API
+  slug: galileo-technologies-system-users-api
+- description: The system_users_authentication API from Galileo Technologies — 3 operation(s) for system_users_authentication.
+  name: Galileo Technologies system_users_authentication API
+  slug: galileo-technologies-system-users-authentication-api
+- description: The tokenomics API from Galileo Technologies — 6 operation(s) for tokenomics.
+  name: Galileo Technologies tokenomics API
+  slug: galileo-technologies-tokenomics-api
+- description: The trace API from Galileo Technologies — 89 operation(s) for trace.
+  name: Galileo Technologies trace API
+  slug: galileo-technologies-trace-api
+- description: The trends_dashboard API from Galileo Technologies — 30 operation(s) for trends_dashboard.
+  name: Galileo Technologies trends_dashboard API
+  slug: galileo-technologies-trends-dashboard-api
+- description: The usage_limits API from Galileo Technologies — 2 operation(s) for usage_limits.
+  name: Galileo Technologies usage_limits API
+  slug: galileo-technologies-usage-limits-api
+- description: The user API from Galileo Technologies — 1 operation(s) for user.
+  name: Galileo Technologies user API
+  slug: galileo-technologies-user-api
+- description: The users API from Galileo Technologies — 29 operation(s) for users.
+  name: Galileo Technologies users API
+  slug: galileo-technologies-users-api
+- description: The v1 API from Galileo Technologies — 2 operation(s) for v1.
+  name: Galileo Technologies v1 API
+  slug: galileo-technologies-v1-api
+- description: The versions API from Galileo Technologies — 1 operation(s) for versions.
+  name: Galileo Technologies versions API
+  slug: galileo-technologies-versions-api
+artifact_total: 66
+asyncapis:
+- description: ''
+  name: Galileo Technologies Webhooks
+  slug: galileo-technologies-webhooks
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://app.galileo.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.galileo.ai/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.galileo.ai/api-reference/getting-started
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.galileo.ai/getting-started/quickstart
+- group: company
+  title: ''
+  type: Blog
+  url: https://galileo.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rungalileo
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://galileo.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.galileo.ai/sign-up
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://galileo.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://galileo.ai/privacy-policy
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/galileo-technologies-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/galileo-technologies-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/galileo-technologies-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/galileo-technologies-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/galileo-technologies-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/galileo-technologies-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/galileo-technologies-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/galileo-technologies-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/galileo-technologies-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/galileo-technologies-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/galileo-technologies-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/galileo-technologies-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/galileo-technologies-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/galileo-technologies-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/galileo-technologies-scopes.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/galileo-technologies-domain-security.yml
+created: '2026-07-17'
+description: Galileo (Galileo Technologies Inc., formerly Rungalileo) is an AI observability and evaluation platform for teams building generative-AI applications and agents. Its REST API and Python/TypeScript SDKs let developers log traces and spans, run offline experiments and evaluations, create datasets and prompt templates, define LLM/code/preset scorers and metrics, monitor production log streams, configure alerts and generic webhooks, and apply runtime guardrails (Protect). The platform centralizes evaluation metrics, real-time observability, and runtime protection so offline evals can become production guardrails. Galileo Technologies is backed by Battery Ventures and Scale Venture Partners.
+image: https://framerusercontent.com/assets/DD0f1BMaBvpM34yUfFmGP5frAo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: galileo-technologies-mcp.yml
+  slug: galileo-technologies-mcpyml
+modified: '2026-07-19'
+name: Galileo Technologies
+nav: Providers
+network: true
+overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.io/) network, including annotation API, annotation_queue API, annotation_queue_records API, and 57 more. Tagged areas include Company, AI Observability, LLM Evaluation, Generative AI, and Agents.
+
+
+  The Galileo Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
+random_paper: 22
+scopes:
+- name: Galileo Technologies Scopes
+  scope_count: 0
+  slug: galileo-technologies-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 63.5
+    developer_ergonomics: 69.6
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 52.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Galileo Technologies Authentication
+  slug: galileo-technologies-authentication
+  summary_line: apiKey/http/oauth2 · 4 schemes
+- kind: domain-security
+  name: Galileo Technologies Domain Security
+  slug: galileo-technologies-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: galileo-technologies
+tags:
+- Company
+- AI Observability
+- LLM Evaluation
+- Generative AI
+- Agents
+- Monitoring
+- Machine Learning
+- Guardrails
+- Developer Tools
+website: https://app.galileo.ai/
+---

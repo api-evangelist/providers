@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/payrange-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.payrange.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.payrange.com/hc/en-us/categories/360006635452-Operator-Support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.payrange.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.payrange.com/payrange-pricing-plans/
+- group: start
+  title: ''
+  type: Login
+  url: https://manage.payrange.com/
+created: '2026-07-17'
+description: PayRange is a fintech company providing cashless commerce and self-service retail technology for unattended machines. Its platform enables mobile payments, age and identity verification, and access control across laundromats, vending, car washes, campgrounds, hospitality, micro-markets, coffee, and transit ticketing. Hardware includes the BluKey family, BluCheck, and PayStation, paired with a consumer mobile app and an operator Business Management Suite. Backed by GV and Matrix Partners. No public developer API, documentation, or SDK surface was found during enrichment; integrations appear to run through direct partner and licensing channels.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payrange.png
+layout: provider
+modified: '2026-07-20'
+name: PayRange
+nav: Providers
+network: true
+overview: 'PayRange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Payments, Fintech, and Mobile Payments.
+
+
+  PayRange''s developer surface includes support, engineering blog, pricing, and 3 more developer resources.'
+random_paper: 39
+score:
+  band: minimal
+  composite: 12.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Payrange Domain Security
+  slug: payrange-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: payrange
+tags:
+- Company
+- Enterprise
+- Payments
+- Fintech
+- Mobile Payments
+- Unattended Retail
+- Vending
+- IoT
+website: https://www.payrange.com
+---

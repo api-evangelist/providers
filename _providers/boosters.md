@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://en.boosters.kr/
+- group: company
+  title: ''
+  type: Blog
+  url: https://brunch.co.kr/magazine/boosterscrew
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://linkedin.com/company/boosterskr
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/boosters-domain-security.yml
+created: '2026-07-17'
+description: Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.
+image: https://www.boosters.kr/bi/SEO.jpg
+layout: provider
+modified: '2026-07-18'
+name: Boosters
+nav: Providers
+network: true
+overview: 'Boosters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Commerce, E-commerce, and K-Beauty.
+
+
+  Boosters'' developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 14
+score:
+  band: minimal
+  composite: 7.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Boosters Domain Security
+  slug: boosters-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: boosters
+tags:
+- Company
+- Consumer
+- Commerce
+- E-commerce
+- K-Beauty
+- D2C
+- Brand Aggregator
+- Korea
+website: https://en.boosters.kr/
+---

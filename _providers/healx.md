@@ -1,0 +1,105 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://healx.ai/
+- group: company
+  title: ''
+  type: Blog
+  url: https://healx.ai/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://healx.ai/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://healx.ai/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/healx
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/healx-domain-security.yml
+created: '2026-07-17'
+description: Healx is a Cambridge, UK clinical-stage biotechnology company that uses artificial intelligence to discover and develop new treatments for rare diseases. Its Healnet platform pairs generative AI with drug-discovery and rare-disease expertise to build a biomedical knowledge graph from public and proprietary sources - biomedical literature, disease and biochemical datasets, clinical trials and patents - and to identify novel uses for known compounds. Founded by David Brown and Tim Guilliams, Healx advances its own therapeutic pipeline (including its NF1 lead candidate HLX-1502) and partners with pharma companies such as Sanofi. Healx does not currently publish a public developer API; this profile tracks its identity and public web surface in the API Evangelist network.
+image: https://healx.ai/android-icon-192x192.png
+layout: provider
+modified: '2026-07-19'
+name: Healx
+nav: Providers
+network: true
+overview: 'Healx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Drug Discovery, Rare Diseases, and Biotechnology.
+
+
+  Healx''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 20
+score:
+  band: minimal
+  composite: 12.5
+  delta: 1.7
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 10.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Healx Domain Security
+  slug: healx-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: healx
+tags:
+- Company
+- Artificial Intelligence
+- Drug Discovery
+- Rare Diseases
+- Biotechnology
+- Healthcare
+- Life Sciences
+- Machine Learning
+website: https://healx.ai/
+---

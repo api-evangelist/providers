@@ -1,0 +1,199 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 45
+  human_in_the_loop: 0
+  name: Sysaid Agentic Access
+  operation_count: 75
+  slug: sysaid-agentic-access
+  summary_line: 75 operations · 45 acting
+api_count: 17
+apis:
+- description: REST API for managing SysAid service records (incidents, requests, problems, changes), users, assets, and SLAs. Authentication uses Client Credentials to mint short-lived application access tokens (de
+  name: SysAid REST API
+  slug: rest-api
+- description: The ActionItems API from SysAid — 4 operation(s) for actionitems.
+  name: SysAid ActionItems API
+  slug: sysaid-actionitems-api
+- description: The Activities API from SysAid — 4 operation(s) for activities.
+  name: SysAid Activities API
+  slug: sysaid-activities-api
+- description: The Agents API from SysAid — 8 operation(s) for agents.
+  name: SysAid Agents API
+  slug: sysaid-agents-api
+- description: The Assets API from SysAid — 5 operation(s) for assets.
+  name: SysAid Assets API
+  slug: sysaid-assets-api
+- description: The Attachments API from SysAid — 2 operation(s) for attachments.
+  name: SysAid Attachments API
+  slug: sysaid-attachments-api
+- description: The Auth API from SysAid — 4 operation(s) for auth.
+  name: SysAid Auth API
+  slug: sysaid-auth-api
+- description: The CIs API from SysAid — 9 operation(s) for cis.
+  name: SysAid CIs API
+  slug: sysaid-cis-api
+- description: The Companies API from SysAid — 5 operation(s) for companies.
+  name: SysAid Companies API
+  slug: sysaid-companies-api
+- description: The EndUsers API from SysAid — 8 operation(s) for endusers.
+  name: SysAid EndUsers API
+  slug: sysaid-endusers-api
+- description: The Groups API from SysAid — 4 operation(s) for groups.
+  name: SysAid Groups API
+  slug: sysaid-groups-api
+- description: The LicenseManager API from SysAid — 2 operation(s) for licensemanager.
+  name: SysAid LicenseManager API
+  slug: sysaid-licensemanager-api
+- description: The RelatedItems API from SysAid — 3 operation(s) for relateditems.
+  name: SysAid RelatedItems API
+  slug: sysaid-relateditems-api
+- description: The ServiceRecords API from SysAid — 6 operation(s) for servicerecords.
+  name: SysAid ServiceRecords API
+  slug: sysaid-servicerecords-api
+- description: The Templates API from SysAid — 3 operation(s) for templates.
+  name: SysAid Templates API
+  slug: sysaid-templates-api
+- description: The Utilities API from SysAid — 3 operation(s) for utilities.
+  name: SysAid Utilities API
+  slug: sysaid-utilities-api
+- description: The Webhooks API from SysAid — 5 operation(s) for webhooks.
+  name: SysAid Webhooks API
+  slug: sysaid-webhooks-api
+artifact_total: 22
+collections:
+- collection_type: open
+  name: SysAid REST API
+  slug: open-sysaid
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/sysaid-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sysaid-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sysaid-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sysaid-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/sysaid
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/sysaid-technologies-ltd
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sysaid.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://documentation.sysaid.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.sysaid.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.sysaid.com/free-trial
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.sysaid.com/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://sysaid.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sysaid.com/feed
+created: '2026-05-11'
+description: SysAid is an AI-powered IT service management (ITSM) and help desk platform that helps IT teams manage tickets, assets, workflows, problem and change management, self-service portals, and automation. The platform combines a generative AI service desk with asset management, SLA tracking, and reporting. SysAid exposes a REST API with Client Credentials authentication issuing short-lived tokens for managing service records, users, assets, and more.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sysaid.png
+layout: provider
+modified: '2026-05-11'
+name: SysAid
+nav: Providers
+network: true
+overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ActionItems API, Activities API, Agents API, and 13 more. Tagged areas include ITSM, Help Desk, IT Service Management, Asset Management, and Ticketing.
+
+
+  SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
+random_paper: 41
+score:
+  band: emerging
+  composite: 27.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 51.3
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 27.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/screenshots/sysaid-2026-06-20T194835.png
+security:
+- kind: authentication
+  name: Sysaid Authentication
+  slug: sysaid-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Sysaid Domain Security
+  slug: sysaid-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Sysaid Vulnerability Disclosure
+  slug: sysaid-vulnerability-disclosure
+  summary_line: Hackerone
+slug: sysaid
+tags:
+- ITSM
+- Help Desk
+- IT Service Management
+- Asset Management
+- Ticketing
+- Service Desk
+website: https://www.sysaid.com
+---

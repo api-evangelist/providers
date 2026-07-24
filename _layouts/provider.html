@@ -1,0 +1,475 @@
+---
+layout: default
+nav: Providers
+---
+{%- comment -%}
+  Narrative provider detail page for providers.apievangelist.com.
+
+  This is the API Evangelist READ on a provider — a human-first, narrative page
+  that sits on top of the machine-readable index at apis.io. Where the apis.io
+  provider page is a dense catalogue, this page tells the story: why we profile
+  the provider, what each specification is and why it matters, and then the full
+  set of artifact cards. Metadata and a featured white paper live in the right
+  sidebar. All the data comes from front matter written by scripts/build-providers.py.
+{%- endcomment -%}
+<style>
+  .prov-wrap { max-width: 1180px; }
+  .prov-main { min-width: 0; }
+  .provider-banner { display: block; width: 100%; aspect-ratio: 16 / 6; background: #14161d; border: 1px solid #e3e7ee; border-radius: 12px; overflow: hidden; margin-bottom: 1.25rem; }
+  .provider-banner img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+  .provider-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .provider-desc { color: #4a5568; line-height: 1.6; font-size: 1.05rem; margin-bottom: 1rem; }
+  .provider-overview { color: #4a5568; line-height: 1.65; font-size: 0.95rem; margin: 0 0 1rem; }
+  .provider-overview p { margin: 0 0 0.6rem; }
+  .provider-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .provider-link { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.45rem 0.9rem; background: var(--ae-green, #3d8b37); color: #fff; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+  .provider-link:hover { filter: brightness(0.94); color: #fff; }
+  .provider-link.secondary { background: #fff; color: #1a1a2e; border: 1px solid #cdd6e4; }
+  .provider-link.secondary:hover { background: #f1f4f9; color: #1a1a2e; }
+  .provider-link .material-symbols-outlined { font-size: 18px; }
+
+  /* Score/band pills — the same ladder used across apis.io and /rating/. */
+  .band-pill { display: inline-block; padding: 0.25em 0.75em; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .band-exemplar{background:#d1f7e0;color:#0f5132}.band-strong{background:#cfe2ff;color:#0a3d91}.band-developing{background:#fff3cd;color:#664d03}.band-thin{background:#ffe0c2;color:#7a3e07}.band-emerging{background:#f8d7da;color:#842029}.band-minimal{background:#e9ecef;color:#495057}
+  .band-agent-native{background:#cff4e6;color:#0b6b4f}.band-agent-ready{background:#d7ebff;color:#0a4b8c}.band-agent-aware{background:#fff0d4;color:#7a5200}.band-human-only{background:#eceef1;color:#5a6472}
+  .access-pill { display: inline-block; padding: 0.25em 0.7em; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+  .ax-free,.ax-freemium,.ax-open,.ax-try{background:#d1f7e0;color:#0f5132}.ax-self-serve{background:#cfe2ff;color:#0a3d91}.ax-free-trial{background:#cff4e4;color:#0f5132}.ax-paid{background:#e9ecef;color:#495057}.ax-enterprise,.ax-approval{background:#ffe0c2;color:#7a3e07}
+
+  .score-header { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; margin-bottom: 1rem; padding: 0.7rem 1rem; background: #fff; border: 1px solid #e3e7ee; border-radius: 10px; }
+  .score-composite { font-size: 1.4rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; line-height: 1; }
+  .score-composite span { font-size: 0.8rem; font-weight: 500; color: #8a94a6; }
+  .score-divider { width: 1px; align-self: stretch; background: #e3e7ee; margin: 0 0.35rem; }
+  .agent-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8a94a6; font-weight: 700; }
+  .agent-score { font-size: 1.15rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; line-height: 1; }
+  .agent-score span { font-size: 0.78rem; font-weight: 500; color: #8a94a6; }
+
+  /* Narrative — the API Evangelist read, in prose. */
+  .prov-narrative { font-size: 1rem; line-height: 1.7; color: #33384a; margin: 0 0 1.75rem; }
+  .prov-narrative p { margin: 0 0 0.9rem; }
+  .prov-lead-in { font-size: 1.12rem; line-height: 1.6; color: #1a1a2e; font-weight: 500; margin-bottom: 1rem; }
+
+  /* Rating panel — mirrors apis.io provider.html + company-listing-rated. */
+  .rating-panel { background: #fff; border: 1px solid #e3e7ee; border-radius: 12px; padding: 1.5rem; margin-bottom: 2.25rem; }
+  .rp-topline { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; padding-bottom: 1.1rem; border-bottom: 1px solid #eef1f5; }
+  .rp-topline .ae-rating-mark { margin-right: auto; }
+  .ae-rating-mark { display: flex; align-items: center; gap: 0.4rem; text-decoration: none; }
+  .ae-rating-mark img { height: 30px; width: auto; }
+  .ae-rating-mark span { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #0a3d91; }
+  .ae-rating-mark:hover span { text-decoration: underline; }
+  .rp-scored { font-size: 0.75rem; color: #8a94a6; text-align: right; }
+  .rp-scored a { color: #0d6efd; text-decoration: none; }
+  .rd-diagram { display: flex; align-items: flex-end; gap: 8px; height: 110px; padding: 0.3rem 0 1.5rem; border-bottom: 1px solid #eef1f5; margin-bottom: 1.25rem; }
+  .rd-col { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; position: relative; }
+  .rd-vbar { width: 100%; max-width: 40px; height: 100%; background: #fbe0e3; border-radius: 5px; display: flex; align-items: flex-end; overflow: hidden; }
+  .rd-vfill { width: 100%; background: linear-gradient(180deg, #16a34a, #0b6b4f); border-radius: 0 0 5px 5px; }
+  .rd-col-agent .rd-vbar { background: #eef2f8; }
+  .rd-col-agent .rd-vfill { background: linear-gradient(180deg, #2f7fd6, #0a4b8c); }
+  .rd-vnum { position: absolute; top: -1.15rem; font-size: 0.72rem; font-weight: 700; color: #4a5568; font-variant-numeric: tabular-nums; }
+  .rd-vlabel { position: absolute; bottom: -1.35rem; font-size: 0.62rem; color: #6c757d; white-space: nowrap; text-align: center; max-width: 6rem; overflow: hidden; text-overflow: ellipsis; }
+  .rd-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; }
+  @media (max-width: 700px) { .rd-cols { grid-template-columns: 1fr; } }
+  .rd-section-title { font-size: 0.82rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid #f0f2f5; }
+  .rd-section-title .rd-band { font-weight: 600; color: #6c757d; text-transform: capitalize; }
+  .rd-row { display: grid; grid-template-columns: 1fr 84px 58px; align-items: center; gap: 0.5rem; padding: 0.28rem 0; font-size: 0.83rem; }
+  .rd-label { color: #2d3748; display: flex; align-items: center; gap: 0.35rem; }
+  .rd-label abbr { text-decoration: none; border-bottom: 1px dotted #b6c0d0; cursor: help; }
+  .rd-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .rd-dot.on { background: #16a34a; } .rd-dot.off { background: #dc3545; }
+  .rd-track { height: 8px; background: #fbe0e3; border-radius: 999px; overflow: hidden; }
+  .rd-fill { display: block; height: 100%; background: linear-gradient(90deg, #16a34a, #0b6b4f); border-radius: 999px; }
+  .rd-col-agent-rows .rd-track { background: #e6edf7; }
+  .rd-col-agent-rows .rd-fill { background: linear-gradient(90deg, #2f7fd6, #0a4b8c); }
+  .rd-pts { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.78rem; color: #4a5568; white-space: nowrap; }
+  .rd-pts b { color: #0b6b4f; } .rd-pts.miss b { color: #dc3545; }
+  .rd-col-agent-rows .rd-pts b { color: #0a4b8c; }
+
+  /* Section heading + artifact cards + two-row scroll pane (mirrors apis.io). */
+  .section-anchor { font-size: 1.3rem; font-weight: 700; color: #1a1a2e; margin: 2.25rem 0 0.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; scroll-margin-top: 1rem; }
+  .section-anchor a { color: inherit; text-decoration: none; }
+  .section-anchor a:hover { color: var(--ae-green, #3d8b37); }
+  .section-anchor .section-count { font-size: 0.9rem; font-weight: 700; color: #8a94a6; font-variant-numeric: tabular-nums; margin-left: 0.15rem; }
+  .section-why { color: #33384a; font-size: 0.95rem; line-height: 1.6; margin: 0.3rem 0 0.5rem; }
+  .section-blurb { color: #8a94a6; font-size: 0.83rem; line-height: 1.5; margin: 0 0 0.9rem; }
+  .card-meta { font-size: 0.8rem; color: #666; margin: 0 0 0.25rem; }
+  .card-badge { display: inline-block; padding: 0.15em 0.5em; border-radius: 4px; font-size: 0.68rem; font-weight: 700; color: #fff; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.85rem; margin-bottom: 1.5rem; }
+  .item-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1rem 1.1rem; transition: all 0.15s; }
+  .item-card:hover { border-color: var(--ae-green, #3d8b37); box-shadow: 0 2px 8px rgba(61,139,55,0.12); transform: translateY(-1px); }
+  .item-card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .item-card h4 a { color: #1a1a2e; text-decoration: none; }
+  .item-card h4 a:hover { color: var(--ae-green, #3d8b37); }
+  .item-card p { font-size: 0.83rem; color: #666; margin-bottom: 0.4rem; }
+  .tag-sm { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.72rem; }
+  /* Scroll pane — capped at roughly two card rows, scrolls internally. */
+  .scroll-pane { max-height: 17.5rem; overflow-y: auto; overscroll-behavior: contain; padding: 0.75rem; margin-bottom: 0.35rem; background: #fbfcfe; border: 1px solid #e8ecf3; border-radius: 10px; }
+  .scroll-pane::-webkit-scrollbar { width: 10px; }
+  .scroll-pane::-webkit-scrollbar-track { background: transparent; }
+  .scroll-pane::-webkit-scrollbar-thumb { background: #cdd6e4; border-radius: 999px; border: 3px solid #fbfcfe; }
+  .scroll-pane::-webkit-scrollbar-thumb:hover { background: #aab6c8; }
+  .scroll-pane { scrollbar-width: thin; scrollbar-color: #cdd6e4 transparent; }
+  .card-grid.scroll-pane { margin-bottom: 0.35rem; }
+  .scroll-hint { font-size: 0.75rem; color: #8a94a6; margin: 0 0 1.75rem; }
+
+  /* Resource groups. */
+  .res-group { margin-bottom: 1.5rem; }
+  .res-group-head h3 { font-size: 0.92rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.15rem; display: flex; align-items: center; gap: 0.5rem; }
+  .res-group-head p { margin: 0 0 0.6rem; font-size: 0.8rem; color: #8a94a6; }
+  .res-count { display: inline-block; padding: 0.1em 0.55em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+  .res-card { display: block; text-decoration: none; color: inherit; border-left: 3px solid #6c757d; }
+  .res-card strong { font-size: 0.83rem; color: #1a1a2e; display: block; }
+  .res-card .res-type { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; color: #6c757d; margin-top: 0.15rem; }
+
+  /* Right sidebar — metadata card + featured paper. */
+  .prov-side { position: sticky; top: 1rem; }
+  .prov-meta.card { border: 1px solid #e3e7ee; border-radius: 12px; margin-bottom: 1.25rem; }
+  .prov-meta-head { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.9rem; }
+  .prov-meta-logo { width: 40px; height: 40px; object-fit: contain; border-radius: 8px; background: #fff; border: 1px solid #eef1f5; flex-shrink: 0; }
+  .prov-meta-name { font-weight: 700; color: #1a1a2e; line-height: 1.15; }
+  .prov-meta-kicker { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8a94a6; font-weight: 600; }
+  .prov-meta-score { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; padding: 0.5rem 0; border-top: 1px solid #eef1f5; }
+  .prov-meta-score .pm-num { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; }
+  .prov-meta-score .pm-num small { font-size: 0.75rem; color: #8a94a6; font-weight: 500; }
+  .prov-meta-agent { display: flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0 0.6rem; flex-wrap: wrap; }
+  .pm-agent-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8a94a6; font-weight: 700; margin-right: auto; }
+  .pm-agent-num { font-size: 1rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; }
+  .pm-agent-num small { font-size: 0.7rem; color: #8a94a6; font-weight: 500; }
+  .prov-meta-access { display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.2rem 0 0.7rem; }
+  .prov-meta-facts { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.75rem; margin: 0 0 0.75rem; padding: 0.7rem 0; border-top: 1px solid #eef1f5; font-size: 0.82rem; }
+  .prov-meta-facts dt { color: #8a94a6; font-weight: 500; }
+  .prov-meta-facts dd { margin: 0; color: #1a1a2e; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .prov-meta-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.9rem; }
+  .prov-meta-links { display: flex; flex-direction: column; gap: 0.4rem; }
+  .pm-link { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.5rem 0.75rem; border: 1px solid #cdd6e4; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; color: #1a1a2e; }
+  .pm-link:hover { background: #f1f4f9; color: #1a1a2e; }
+  .pm-link.primary { background: var(--ae-green, #3d8b37); color: #fff; border-color: transparent; }
+  .pm-link.primary:hover { filter: brightness(0.94); color: #fff; }
+  .pm-link .material-symbols-outlined { font-size: 18px; }
+
+  .prov-paper { border: 1px solid #e3e7ee; border-left: 4px solid var(--ae-green, #3d8b37); border-radius: 12px; padding: 1rem 1.1rem; background: #fbfcfe; }
+  .prov-paper-eyebrow { font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; color: var(--ae-green, #3d8b37); margin-bottom: 0.6rem; }
+  .prov-paper-card { display: flex; gap: 0.85rem; text-decoration: none; color: inherit; }
+  .prov-paper-cover { flex: 0 0 auto; width: 72px; height: 93px; border-radius: 6px; border: 1px solid #e5e7eb; overflow: hidden; background: #fff; }
+  .prov-paper-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .prov-paper-body { min-width: 0; }
+  .prov-paper-area { font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.05em; color: #8a94a6; font-weight: 600; }
+  .prov-paper-title { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; line-height: 1.2; margin: 0.1rem 0 0.3rem; }
+  .prov-paper-tagline { font-size: 0.78rem; color: #5a6472; line-height: 1.45; margin: 0 0 0.5rem; }
+  .prov-paper-cta { font-size: 0.8rem; font-weight: 600; color: var(--ae-green, #3d8b37); }
+  .prov-paper-price { color: #1a1a2e; font-variant-numeric: tabular-nums; }
+  .prov-paper-all { display: block; margin-top: 0.75rem; padding-top: 0.65rem; border-top: 1px solid #eef1f5; font-size: 0.78rem; color: #0d6efd; text-decoration: none; font-weight: 600; }
+  @media (max-width: 991px) { .prov-side { position: static; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+
+<div class="content-area prov-wrap">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb small">
+      <li class="breadcrumb-item"><a href="{{ '/providers/' | relative_url }}" class="text-decoration-none">Providers</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="row g-4">
+    <!-- Main narrative column -->
+    <div class="col-lg-8 prov-main">
+
+      {%- if page.screenshot %}
+      <a class="provider-banner" href="{{ page.website | default: page.screenshot }}" target="_blank" rel="noopener" aria-label="{{ page.name }} website screenshot">
+        <img src="{{ page.screenshot }}" alt="{{ page.name }} website screenshot" loading="lazy" onerror="this.closest('.provider-banner').remove()">
+      </a>
+      {%- endif %}
+
+      <h1 class="provider-title">{{ page.name }}</h1>
+      {%- if page.description %}<p class="provider-desc">{{ page.description }}</p>{% endif %}
+
+      {%- comment -%} Score + agent-readiness headline. {%- endcomment -%}
+      {%- if page.score and page.score.composite %}
+      <div class="score-header">
+        <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
+          <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-kin.png" alt="Kin Score">
+        </a>
+        <span class="score-composite">{{ page.score.composite }}<span>/100</span></span>
+        <span class="band-pill band-{{ page.score.band }}">{{ page.score.band }}</span>
+        {%- if page.agent_readiness and page.agent_readiness.band %}
+        <span class="score-divider" aria-hidden="true"></span>
+        <span class="agent-label">Agent</span>
+        <span class="agent-score">{{ page.agent_readiness.score | round }}<span>/100</span></span>
+        <span class="band-pill band-{{ page.agent_readiness.band }}">{{ page.agent_readiness.band | replace: '-', ' ' }}</span>
+        {%- endif %}
+      </div>
+      {%- endif %}
+
+      <!-- The three canonical links: this AE page IS the detail page; the buttons
+           reach the machine-readable index (apis.io) and the source repo (GitHub). -->
+      <div class="provider-links">
+        <a class="provider-link" href="https://apis.io/providers/{{ page.slug }}/" target="_blank" rel="noopener"><span class="material-symbols-outlined">travel_explore</span> apis.io index</a>
+        <a class="provider-link secondary" href="https://github.com/api-evangelist/{{ page.slug }}" target="_blank" rel="noopener"><span class="material-symbols-outlined">code</span> GitHub source</a>
+        {%- if page.website %}<a class="provider-link secondary" href="{{ page.website }}" target="_blank" rel="noopener"><span class="material-symbols-outlined">public</span> Website</a>{% endif %}
+      </div>
+
+      {%- comment -%} ---- Narrative intro: why we profile this provider ---- {%- endcomment -%}
+      <div class="prov-narrative">
+        <p class="prov-lead-in">
+          {%- if page.artifact_total and page.artifact_total > 0 -%}
+          API Evangelist profiles {{ page.name }} the way a machine reads it — {{ page.artifact_total }} machine-readable artifact{% if page.artifact_total != 1 %}s{% endif %}{% if page.api_count and page.api_count > 0 %} across {{ page.api_count }} API{% if page.api_count != 1 %}s{% endif %}{% endif %}, pulled from the provider's own public surface and indexed so a developer, an analyst, or an AI agent can evaluate it against every other provider on the network.
+          {%- else -%}
+          {{ page.name }} is tracked in the API Evangelist network. This page is the human-readable profile that sits on top of the machine-readable index we maintain at apis.io.
+          {%- endif -%}
+        </p>
+        <p>
+          Every provider in the network is reduced to the same set of machine-readable artifacts — OpenAPI contracts, event specifications, GraphQL schemas, runnable collections, pricing and rate-limit signals, security posture, OAuth scopes, and the agent surfaces (MCP servers and skills) that let software drive the API on its own. We profile them because the interface is the part of a company you can actually inspect: it is a truer signal of what a provider does than any marketing page.
+          {%- if page.score and page.score.composite %} From those artifacts we compute the <a href="https://apievangelist.com/rating/">Kin Score</a> — {{ page.name }} scores <strong>{{ page.score.composite }}/100</strong> ({{ page.score.band }}){% if page.agent_readiness and page.agent_readiness.band %}, with a separate agent-readiness read of <strong>{{ page.agent_readiness.score | round }}/100</strong> ({{ page.agent_readiness.band | replace: '-', ' ' }}){% endif %}.{% endif %}
+          The full breakdown is below, followed by every artifact we hold — each card links through to its machine-readable definition on <a href="https://apis.io/providers/{{ page.slug }}/">apis.io</a>.
+        </p>
+      </div>
+
+      {%- comment -%} ---- Kin Score panel ---- {%- endcomment -%}
+      {%- if page.score and page.score.composite %}
+      {%- assign rubric = site.data.scoring -%}
+      {%- if rubric and rubric.facets %}
+      {%- assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," -%}
+      <h2 class="section-anchor" id="rating"><a href="#rating">Kin Score</a></h2>
+      <p class="section-why">This is the API Evangelist rating — a single, repeatable read computed from the artifacts on this page. Green fill is points earned; the red track is points possible, so every bar shows earned-versus-possible at a glance.</p>
+      <div class="rating-panel">
+        <div class="rp-topline">
+          <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
+            <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-kin.png" alt="Kin Score">
+            <span>Kin Score</span>
+          </a>
+          <span class="rp-scored">
+            <a href="https://apievangelist.com/rating/">How this is scored &rarr;</a><br>
+            scored {{ page.score.scored_at }}{% if page.score.schema_version %} &middot; rubric v{{ page.score.schema_version }}{% endif %}
+          </span>
+        </div>
+        <div class="rd-diagram" aria-hidden="true">
+          {%- for fkey in facet_order -%}
+            {%- assign f = rubric.facets[fkey] -%}
+            {%- assign fs = page.score.facets[fkey] | default: 0 -%}
+            <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
+          {%- endfor -%}
+          {%- if page.score.regulatory and page.score.regulatory.applies %}
+          <div class="rd-col rd-col-agent"><span class="rd-vnum">{{ page.score.regulatory.score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ page.score.regulatory.score }}%;"></div></div><div class="rd-vlabel">Regulatory</div></div>
+          {%- endif %}
+          {%- if page.agent_readiness and page.agent_readiness.score %}
+          <div class="rd-col rd-col-agent"><span class="rd-vnum">{{ page.agent_readiness.score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ page.agent_readiness.score }}%;"></div></div><div class="rd-vlabel">Agent</div></div>
+          {%- endif %}
+        </div>
+        <div class="rd-cols">
+          <div class="rd-col-composite">
+            <div class="rd-section-title">Composite quality &mdash; {{ page.score.composite }}/100 <span class="rd-band">&middot; {{ page.score.band }}</span></div>
+            {%- for fkey in facet_order -%}
+              {%- assign f = rubric.facets[fkey] -%}
+              {%- assign fs = page.score.facets[fkey] | default: 0 -%}
+              {%- assign possible = f.weight | times: 100 -%}
+              {%- assign applied = fs | times: f.weight -%}
+              <div class="rd-row">
+                <span class="rd-label"><abbr title="{{ f.description | strip_newlines | strip }}">{{ f.label }}</abbr></span>
+                <span class="rd-track"><span class="rd-fill" style="width:{{ fs }}%;"></span></span>
+                <span class="rd-pts"><b>{{ applied | round: 1 }}</b> / {{ possible | round }}</span>
+              </div>
+            {%- endfor -%}
+            {%- if page.score.regulatory and page.score.regulatory.applies %}
+            <div class="rd-row">
+              <span class="rd-label"><abbr title="Regulatory posture for {{ page.score.regulatory.regime }} — a conditional facet that applies only to regulated industries.">Regulatory &middot; {{ page.score.regulatory.regime }}</abbr></span>
+              <span class="rd-track"><span class="rd-fill" style="width:{{ page.score.regulatory.score }}%;"></span></span>
+              <span class="rd-pts"><b>{{ page.score.regulatory.score | times: 0.15 | round: 1 }}</b> / 15</span>
+            </div>
+            {%- endif %}
+          </div>
+          {%- if page.agent_readiness and page.agent_readiness.dimensions and rubric.agent_readiness %}
+          <div class="rd-col-agent-rows">
+            <div class="rd-section-title">Agent readiness &mdash; {{ page.agent_readiness.score | round }}/100 <span class="rd-band">&middot; {{ page.agent_readiness.band | replace: '-', ' ' }}</span></div>
+            {%- for d in rubric.agent_readiness.dimensions -%}
+              {%- assign hit = page.agent_readiness.dimensions[d.id] -%}
+              <div class="rd-row">
+                <span class="rd-label"><span class="rd-dot {% if hit %}on{% else %}off{% endif %}"></span>{{ d.label }}</span>
+                <span class="rd-track"><span class="rd-fill" style="width:{% if hit %}100{% else %}0{% endif %}%;"></span></span>
+                <span class="rd-pts {% unless hit %}miss{% endunless %}"><b>{% if hit %}{{ d.points }}{% else %}0{% endif %}</b> / {{ d.points }}</span>
+              </div>
+            {%- endfor -%}
+          </div>
+          {%- endif %}
+        </div>
+      </div>
+      {%- endif %}
+      {%- endif %}
+
+      {%- comment -%} ---- The specifications & artifacts, each with its own read ---- {%- endcomment -%}
+      {%- if page.artifact_total and page.artifact_total > 0 %}
+      <h2 class="section-anchor" id="artifacts"><a href="#artifacts">How we profile {{ page.name }}</a></h2>
+      <p class="section-why">Each block below is one kind of artifact we hold for {{ page.name }}. For each we say what it is and why it earns a place in the profile, then list every one we've indexed — capped at two rows, scroll within the panel for the rest.</p>
+      {%- endif %}
+
+      {%- assign _empty = "" | split: "," -%}
+      {%- assign postman_collections = page.collections | where: "collection_type", "postman" | default: _empty -%}
+      {%- assign open_collections_a = page.collections | where: "collection_type", "open" | default: _empty -%}
+      {%- assign open_collections_b = page.collections | where: "collection_type", "bruno" | default: _empty -%}
+      {%- assign open_collections = open_collections_a | concat: open_collections_b -%}
+
+      {% include provider-artifact-box.html id="apis" title="APIs" provider_slug=page.slug items=page.apis path="apis"
+         why="Each API is captured as its own OpenAPI definition — every operation, parameter, and response. This is the single most useful machine-readable description of what an API does, and it's what lets us score, lint, mock, and generate against it without asking the provider for anything."
+         blurb="Individual APIs this provider publishes, each with its own machine-readable definition." %}
+
+      {% include provider-artifact-box.html id="postman-collections" title="Postman Collections" provider_slug=page.slug items=postman_collections path="collections" badge="POSTMAN" color="#ea580c"
+         why="A runnable collection turns the contract into something a developer can execute in seconds. We profile them because the fastest way to trust an API is to make a real call against it."
+         blurb="Ready-to-run Postman collections for exercising this provider's APIs." %}
+
+      {% include provider-artifact-box.html id="open-collections" title="Open Collections" provider_slug=page.slug items=open_collections path="collections" badge="OPEN COLLECTION" color="#ea580c"
+         why="Open, tool-agnostic collections carry the same runnable value as Postman without locking you to one client — the portable, forkable form of the same exercise."
+         blurb="Open, tool-agnostic API collections (OpenAPI-derived and Bruno)." %}
+
+      {% include provider-artifact-box.html id="arazzos" title="Arazzo Workflows" provider_slug=page.slug items=page.arazzos path="arazzos" badge="ARAZZO" color="#0891b2"
+         why="Real integrations are rarely a single call. Arazzo describes the multi-step sequences — auth, then create, then confirm — so both a human and an agent can follow the choreography, not just the endpoints."
+         blurb="Multi-step API workflows described with the Arazzo specification." %}
+
+      {% include provider-artifact-box.html id="mcp-servers" title="MCP Servers" provider_slug=page.slug items=page.mcp_servers path="servers" badge="MCP SERVER" color="#0d9488"
+         why="Model Context Protocol servers expose these APIs directly to AI agents. We profile them because agent-native access is the fastest-growing way this provider's capabilities actually get used."
+         blurb="Model Context Protocol servers that expose these APIs to AI agents." %}
+
+      {% include provider-artifact-box.html id="skills" title="Agent Skills" provider_slug=page.slug items=page.skills path="agent-skills" badge="AGENT SKILL" color="#7e22ce"
+         why="An agent skill packages the how-to for driving these APIs from an assistant — the prompts, the sequence, the guardrails — so the knowledge to use the API travels with it."
+         blurb="Packaged agent skills for driving this provider's APIs from an AI assistant." %}
+
+      {% include provider-artifact-box.html id="graphqls" title="GraphQL" provider_slug=page.slug items=page.graphqls path="graphqls" badge="GRAPHQL" color="#e10098"
+         why="Where a provider ships GraphQL, the schema is the contract. We profile it alongside the REST surface so the whole interface is legible in one place."
+         blurb="GraphQL schemas published by this provider." %}
+
+      {% include provider-artifact-box.html id="plans" title="Pricing Plans" provider_slug=page.slug items=page.plans path="plans" badge="PLANS" color="#16a34a"
+         why="Pricing is part of the interface. Machine-readable plans tell you what a tier costs and includes before you commit — one of the six things the Kin Score reads for commercial clarity."
+         blurb="Published pricing tiers and plan structures." %}
+
+      {% include provider-artifact-box.html id="rate-limits" title="Rate Limits" provider_slug=page.slug items=page.rate_limits path="rate-limits" badge="RATE LIMITS" color="#ca8a04"
+         why="Rate limits are the difference between a demo that works and a production integration that doesn't fall over. Publishing them is an operational-transparency signal — and a hard requirement for any agent that plans its own throughput."
+         blurb="Documented rate limits and quota policies." %}
+
+      {% include provider-artifact-box.html id="finops" title="FinOps" provider_slug=page.slug items=page.finops path="finops" badge="FINOPS" color="#4338ca"
+         why="Cost, billing, and metering signals let a buyer model the financial operations of an API before it's live. We profile them for the same reason we profile pricing: the money is part of the contract."
+         blurb="Cost, billing, and metering signals for API financial operations." %}
+
+      {% include provider-artifact-box.html id="features" title="Features" provider_slug=page.slug items=page.features
+         why="The notable capabilities this provider advertises, captured as structured features so they can be searched and compared instead of read one landing page at a time."
+         blurb="Notable capabilities this provider offers." %}
+
+      {% include provider-artifact-box.html id="asyncapis" title="Event Specifications" provider_slug=page.slug items=page.asyncapis path="asyncapis" badge="ASYNCAPI" color="#1e40af"
+         why="Not every API is request/response. AsyncAPI describes the event-driven and streaming side — the webhooks and channels — so the asynchronous half of the interface is documented the same way the synchronous half is."
+         blurb="AsyncAPI definitions for this provider's event-driven and streaming APIs." %}
+
+      {% include provider-artifact-box.html id="jsonld" title="Semantic Vocabularies" provider_slug=page.slug items=page.jsonld path="jsonld" badge="JSON-LD" color="#7c3aed"
+         why="JSON-LD contexts give the data shared meaning across APIs. We profile them because semantics are what let a machine reconcile 'customer' here with 'customer' somewhere else."
+         blurb="JSON-LD contexts and semantic vocabularies used across these APIs." %}
+
+      {%- comment -%} Spectral Rules — bespoke card (severity breakdown). {%- endcomment -%}
+      {%- if page.rules and page.rules.size > 0 %}
+      <section class="artifact-section">
+        <h2 class="section-anchor" id="rules"><a href="#rules">Spectral Rules</a> <span class="section-count">{{ page.rules | size }}</span></h2>
+        <p class="section-why">Governance rulesets we run against this provider's specs — the automated checks behind parts of the score. Profiling them makes the quality bar explicit and re-runnable, not a matter of opinion.</p>
+        <div class="card-grid scroll-pane">
+          {%- for rule in page.rules %}
+          <div class="item-card" style="border-left: 3px solid #c2410c;">
+            <h4><a href="https://apis.io/rules/{{ page.slug }}/{{ rule.slug }}/" target="_blank" rel="noopener">{{ rule.name }}</a></h4>
+            <p class="card-meta">{{ rule.rule_count }} rules{% if rule.severity_counts.error > 0 %} &middot; <span style="color:#dc3545;font-weight:600;">{{ rule.severity_counts.error }} errors</span>{% endif %}{% if rule.severity_counts.warn > 0 %} &middot; <span style="color:#fd7e14;font-weight:600;">{{ rule.severity_counts.warn }} warnings</span>{% endif %}</p>
+            <span class="card-badge" style="background:#c2410c;">SPECTRAL</span>
+          </div>
+          {%- endfor %}
+        </div>
+        {%- if page.rules.size > 6 %}<p class="scroll-hint">Scroll within the panel for all {{ page.rules.size }} &middot;</p>{% endif %}
+      </section>
+      {%- endif %}
+
+      {% include provider-artifact-box.html id="json-schema" title="JSON Schema" provider_slug=page.slug items=page.json_schemas path="schemas" badge="JSON SCHEMA" color="#0ea5e9"
+         why="Standalone JSON Schema definitions describe the data models behind the API. We profile them so the shapes are validatable on their own — useful long after a single request is forgotten."
+         blurb="Standalone JSON Schema definitions for this provider's data models." %}
+
+      {% include provider-artifact-box.html id="json-structure" title="JSON Structure" provider_slug=page.slug items=page.json_structures path="json-structure" badge="JSON STRUCTURE" color="#1d4ed8"
+         why="JSON Structure captures the data shapes in a form built for tooling — a complement to JSON Schema that keeps the model machine-legible."
+         blurb="JSON Structure definitions describing this provider's data shapes." %}
+
+      {% include provider-artifact-box.html id="examples" title="Examples" provider_slug=page.slug items=page.examples path="examples" badge="EXAMPLE" color="#15803d"
+         why="Real request and response payloads are what turn a spec from abstract into obvious — and they're one of the twelve things an agent needs to call an API correctly on the first try."
+         blurb="Example request and response payloads for these APIs." %}
+
+      {% include provider-artifact-box.html id="security" title="Security Posture" provider_slug=page.slug items=page.security path="security" badge="SECURITY" color="#b91c1c"
+         why="Authentication, domain security, vulnerability disclosure, and trust-center signals — the evidence that a provider takes security seriously enough to document it. We profile it because you can't govern what you can't see."
+         blurb="Authentication, domain security, vulnerability disclosure, and trust-center signals." %}
+
+      {% include provider-artifact-box.html id="scopes" title="Scopes" provider_slug=page.slug items=page.scopes path="scopes" badge="SCOPES" color="#b45309"
+         why="OAuth scopes are the vocabulary of least-privilege access. Profiling them shows exactly what an integration — or an agent acting on a user's behalf — is allowed to do."
+         blurb="OAuth scopes governing access to this provider's APIs." %}
+
+      {% include provider-artifact-box.html id="agentic-access" title="Agentic Access" provider_slug=page.slug items=page.agentic_access path="agentic-access" badge="AGENTIC" color="#6d28d9"
+         why="An x-agentic-access contract marks which operations are safe for an agent to run on its own and which need a human in the loop. It is the difference between an API an agent can use and one it can use safely."
+         blurb="Recommended x-agentic-access execution contracts for AI agents." %}
+
+      {% include provider-artifact-box.html id="use-cases" title="Use Cases" provider_slug=page.slug items=page.use_cases color="#6f42c1"
+         why="What developers actually build with this provider — captured so the catalogue answers 'what is this for', not just 'what does this expose'."
+         blurb="What developers build with this provider." %}
+
+      {% include provider-artifact-box.html id="integrations" title="Integrations" provider_slug=page.slug items=page.integrations
+         why="Pre-built integrations with other platforms tell you where this provider already fits in a stack."
+         blurb="Pre-built integrations with other platforms and tools." %}
+
+      {% include provider-artifact-box.html id="solutions" title="Solutions" provider_slug=page.slug items=page.solutions
+         why="Packaged solutions the provider offers on top of the raw API surface."
+         blurb="Packaged solutions this provider offers." %}
+
+      {%- comment -%} ---- Resources (grouped properties) ---- {%- endcomment -%}
+      {%- if page.common and page.common.size > 0 and site.data.resource_groups %}
+      <h2 class="section-anchor" id="resources"><a href="#resources">Resources</a></h2>
+      <p class="section-why">Every other property we hold for {{ page.name }} — documentation, portals, status pages, policies, and corporate surface — grouped by the job it does, following the integrator's arc from getting started to running in production.</p>
+      {%- for g in site.data.resource_groups %}
+        {%- assign gkey = g.key -%}
+        {%- assign matched = page.common | where: "group", gkey -%}
+        {%- if matched.size > 0 %}
+        <div class="res-group">
+          <div class="res-group-head">
+            <h3 id="resources-{{ gkey }}">{{ g.label }} <span class="res-count">{{ matched.size }}</span></h3>
+            <p>{{ g.blurb }}</p>
+          </div>
+          <div class="card-grid{% if matched.size > 6 %} scroll-pane{% endif %}">
+            {%- for res in matched %}{% if res.url != '' %}
+            <a href="{{ res.url }}" target="_blank" rel="noopener" class="item-card res-card res-{{ gkey }}">
+              <strong>{{ res.title | default: res.type }}</strong>
+              <div class="res-type">{{ res.type }}</div>
+            </a>
+            {%- endif %}{% endfor %}
+          </div>
+          {%- if matched.size > 6 %}<p class="scroll-hint">Scroll within the panel for all {{ matched.size }} &middot;</p>{% endif %}
+        </div>
+        {%- endif %}
+      {%- endfor %}
+      {%- endif %}
+
+      {%- if page.artifact_total == 0 or page.artifact_total == nil %}
+      <div class="prov-narrative">
+        <p>{{ page.name }} is in the network as a tracked entity. We haven't yet indexed a public API surface for it — when one is published, the artifacts, score, and agent-readiness read will appear here automatically. The <a href="https://github.com/api-evangelist/{{ page.slug }}" target="_blank" rel="noopener">source repository</a> is where that profile is built.</p>
+      </div>
+      {%- endif %}
+
+      <p class="text-muted small mt-4">
+        <a href="{{ '/providers/' | relative_url }}" class="text-decoration-none">&larr; All providers</a>
+        &middot; Data indexed from <a href="https://github.com/api-evangelist/{{ page.slug }}" target="_blank" rel="noopener">github.com/api-evangelist/{{ page.slug }}</a>
+        &middot; <a href="https://apis.io/providers/{{ page.slug }}/" target="_blank" rel="noopener">machine-readable index on apis.io</a>
+      </p>
+    </div>
+
+    <!-- Right sidebar: metadata (top) + featured white paper -->
+    <div class="col-lg-4">
+      <div class="prov-side">
+        {% include provider-metadata.html %}
+        {% include provider-random-paper.html %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ page.name | jsonify }}{% if page.description %},
+  "description": {{ page.description | jsonify }}{% endif %}{% if page.image %},
+  "logo": {{ page.image | jsonify }}{% endif %}{% if page.website %},
+  "url": {{ page.website | jsonify }}{% endif %}{% if page.tags and page.tags.size > 0 %},
+  "keywords": {{ page.tags | join: ', ' | jsonify }}{% endif %}
+}
+</script>

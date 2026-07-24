@@ -1,0 +1,223 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 54.8
+  scored_at: '2026-07-23'
+api_count: 5
+apis:
+- description: The Consent API from Inth — 1 operation(s) for consent.
+  name: Inth Consent API
+  slug: inth-consent-api
+- description: The Init API from Inth — 1 operation(s) for init.
+  name: Inth Init API
+  slug: inth-init-api
+- description: The Legal Documents API from Inth — 1 operation(s) for legal documents.
+  name: Inth Legal Documents API
+  slug: inth-legal-documents-api
+- description: The Status API from Inth — 2 operation(s) for status.
+  name: Inth Status API
+  slug: inth-status-api
+- description: The Subjects API from Inth — 2 operation(s) for subjects.
+  name: Inth Subjects API
+  slug: inth-subjects-api
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/inth-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://c15t.com/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://c15t.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://c15t.com/docs/self-host
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://c15t.com/docs/frameworks/react/quickstart
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/c15t
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://inth.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://inth.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://inth.com/dashboard/sign-up
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/c15t/c15t/issues
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://c15t.com/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.inth.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/inth-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/inth-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/inth-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/inth-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/inth-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/inth-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/inth-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/inth-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/inth-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/inth-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/inth-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/inth-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/inth-changelog.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/inth-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/inth-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/inth-well-known.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/inth-sandbox.yml
+created: '2026-07-17'
+description: Inth is a San Francisco, Y Combinator-backed company building enterprise privacy governance for teams that ship fast, making consent programmable, observable, and compliant by default. Its foundation is c15t (github.com/c15t), an open-source, developer-first consent management platform with 3M+ npm downloads used by teams like Zed, Expo, Infisical, and Unkey. c15t provides a headless, composable cookie banner, consent manager, and preference center for JavaScript, React, and Next.js, plus a self-hostable consent backend and REST API (@c15t/backend) that also runs as the inth.com managed service. It supports GDPR, CCPA, LGPD, IAB TCF 2.3, Google Consent Mode v2, and Global Privacy Control, with regional policy packs, audit-ready consent records, script and iframe gating, and first-party SDKs and CLI.
+image: https://inth.com/opengraph-image.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: inth-mcp.yml
+  slug: inth-mcpyml
+modified: '2026-07-19'
+name: Inth
+nav: Providers
+network: true
+overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Consent API, Init API, Legal Documents API, and 2 more. Tagged areas include Company, Consent Management, Privacy, Cookie Consent, and GDPR.
+
+
+  Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 23 more developer resources.'
+random_paper: 27
+score:
+  band: developing
+  composite: 53.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 55.2
+    developer_ergonomics: 87.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 53.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Inth Authentication
+  slug: inth-authentication
+  summary_line: 1 scheme
+- kind: domain-security
+  name: Inth Domain Security
+  slug: inth-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: inth
+tags:
+- Company
+- Consent Management
+- Privacy
+- Cookie Consent
+- GDPR
+- CCPA
+- Compliance
+- Consent
+- Developer Tools
+- Open Source
+website: https://c15t.com/docs
+---

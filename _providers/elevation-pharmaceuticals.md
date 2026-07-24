@@ -1,0 +1,66 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Elevation Pharmaceuticals was a San Diego specialty pharmaceutical company founded in 2008 by Cam Garner, Bill Gerhart, and Ahmet Tutuncu to develop next-generation aerosol/inhalation therapies for chronic obstructive pulmonary disease (COPD). It raised a $30 million Series A in 2010 backed by Canaan Partners, TPG Growth, Care Capital, and Mesa Verde Venture Partners, and was acquired by Sunovion Pharmaceuticals in August 2012. The company is no longer independently operating; its domain now resolves to Sunovion nameservers and it publishes no public API, developer portal, or developer surface. This profile is retained in the API Evangelist network as a Canaan Partners portfolio record.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elevation-pharmaceuticals.png
+layout: provider
+modified: '2026-07-19'
+name: Elevation Pharmaceuticals
+nav: Providers
+network: true
+overview: Elevation Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotech, COPD, and Respiratory.
+random_paper: 1
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: elevation-pharmaceuticals
+tags:
+- Company
+- Pharmaceuticals
+- Biotech
+- COPD
+- Respiratory
+- Drug Development
+- Acquired
+- Canaan Partners Portfolio
+---

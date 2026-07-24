@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vespucci-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://vespuccianalytics.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.vespuccianalytics.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.vespuccianalytics.com/account/register
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.vespuccianalytics.com/account/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.notion.so/vespucci/Privacy-Policy-35ad2f80f74644b0a6fb20595744ccb1
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/vespucci-llms.txt
+created: '2026-07-17'
+description: Vespucci (Vespucci Analytics) is a product-analytics platform that helps teams understand why their users engage with a product. Rather than replacing existing analytics, it connects to the event data companies already collect in Amplitude or Segment (via Reverse ETL) and applies statistical and AI models to automatically surface the drivers of activation, retention, churn, and engagement. It provides 24/7 monitoring with automated alerts when behavioral patterns shift, user segmentation, and story-style dashboards, and can push identified segments to activation tools such as OneSignal, MailChimp, and Brevo. Founded in 2021 and based in Brussels, Belgium, Vespucci is backed by Seedcamp.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vespucci.png
+layout: provider
+modified: '2026-07-21'
+name: Vespucci
+nav: Providers
+network: true
+overview: 'Vespucci is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Product Analytics, Data, and Machine Learning.
+
+
+  Vespucci''s developer surface includes documentation, signup flow, and 5 more developer resources.'
+random_paper: 50
+score:
+  band: minimal
+  composite: 13.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 13.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Vespucci Domain Security
+  slug: vespucci-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: vespucci
+tags:
+- Company
+- Analytics
+- Product Analytics
+- Data
+- Machine Learning
+- User Behavior
+- Segmentation
+- SaaS
+website: https://vespuccianalytics.com
+---

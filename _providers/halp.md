@@ -1,0 +1,89 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/halp-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/halp-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/halp-security.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://halp.com/
+created: '2026-07-17'
+description: Halp was a conversational ticketing and help-desk tool that let teams turn Slack and Microsoft Teams messages into trackable tickets, founded in Boulder, Colorado and backed by Techstars. Atlassian acquired Halp in February 2020 and folded its capabilities into Jira Service Management; the standalone Halp product and its API were subsequently discontinued. The halp.com domain now resolves to Atlassian and is served from Atlassian's edge, so no independent Halp developer portal, API reference, SDKs, or MCP surface remains to enrich. This profile records the company's history and the (Atlassian-operated) security posture still observable on the halp.com domain.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/halp.png
+layout: provider
+modified: '2026-07-19'
+name: Halp
+nav: Providers
+network: true
+overview: Halp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Help Desk, Ticketing, Customer Support, and Slack.
+random_paper: 13
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Halp Domain Security
+  slug: halp-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: halp
+tags:
+- Company
+- Help Desk
+- Ticketing
+- Customer Support
+- Slack
+- Microsoft Teams
+- Conversational
+- Acquired
+website: https://halp.com/
+---

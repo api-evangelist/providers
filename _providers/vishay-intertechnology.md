@@ -1,0 +1,190 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 3
+apis:
+- description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
+  name: Vishay Parts Data via Octopart/Nexar API
+  slug: vishay-parts-data-via-octopart
+- description: Access Vishay component inventory, pricing, specifications, and datasheets through the DigiKey REST API. Enables integration of Vishay component data into BOM management and design tools.
+  name: Vishay Parts Data via DigiKey API
+  slug: vishay-parts-data-via-digikey
+- description: The Vishay Parts Library (VPL) is a cross-reference resource that provides Vishay alternatives for industry reference designs, searchable by IC part number and manufacturer.
+  name: Vishay Parts Library (VPL)
+  slug: vishay-parts-library
+artifact_total: 13
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vishay-intertechnology-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/vishay-intertechnology-inc-
+- group: company
+  title: ''
+  type: Website
+  url: https://www.vishay.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.vishay.com/en/how/onlineliterature/online-libraries/
+- group: other
+  title: ''
+  type: ProductCatalog
+  url: https://www.vishay.com/en/product-selector/
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/vishay-electronic-component-schema.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/vishay-intertechnology-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/vishay-intertechnology-vocabulary.yml
+created: '2025'
+description: Vishay Intertechnology is one of the world's largest manufacturers of discrete semiconductors (diodes, rectifiers, MOSFETs, optoelectronics, selected ICs) and passive electronic components (resistors, inductors, capacitors). Vishay components are used in automotive, industrial, computing, consumer, telecommunications, military, aerospace, and medical applications. Component data is accessible via distributor APIs (Octopart/Nexar, DigiKey) and Vishay's own Parts Library (VPL) tool.
+examples:
+- key_count: 11
+  name: Vishay Electronic Component Example
+  slug: vishay-electronic-component-example
+- key_count: 11
+  name: Vishay Resistor Component Example
+  slug: vishay-resistor-component-example
+finops:
+- name: Vishay Intertechnology Finops
+  service_category: API
+  slug: vishay-intertechnology-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vishay-intertechnology.png
+json_schemas:
+- name: Vishay Electronic Component
+  property_count: 11
+  slug: vishay-electronic-component
+json_structures:
+- name: Vishay Electronic Component Structure
+  property_count: 0
+  slug: vishay-electronic-component-structure
+jsonld:
+- class_count: 0
+  name: Vishay Intertechnology Context
+  property_count: 22
+  slug: vishay-intertechnology-context
+layout: provider
+modified: '2026-05-03'
+name: Vishay Intertechnology
+nav: Providers
+network: true
+overview: 'Vishay Intertechnology publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Capacitors, Diodes, Electronics, and Industrial.
+
+
+  The Vishay Intertechnology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Vishay Intertechnology''s developer surface includes documentation and 7 more developer resources.'
+plans:
+- name: Vishay Intertechnology Plans Pricing
+  plan_count: 3
+  slug: vishay-intertechnology-plans-pricing
+press:
+- date: '2026-05-25'
+  title: Vishay Intertechnology Q1 Earnings Call Highlights
+  url: https://www.marketbeat.com/instant-alerts/vishay-intertechnology-q1-earnings-call-highlights-2026-05-15/
+- date: '2026-05-25'
+  title: AIXTRON SE's Post
+  url: https://www.linkedin.com/posts/aixtron-se_newport-pressrelease-sic-activity-7188436242999508993-lOmB
+- date: '2026-05-25'
+  title: Vishay to acquire Nexperia's Newport, UK 200mm wafer fab
+  url: https://atreg.com/vishay-to-acquire-nexperia-newport-uk-200mm-waferfab/
+- date: '2026-05-25'
+  title: Vishay Intertechnology, Inc. (VSH) Presents at J.P. Morgan ...
+  url: https://seekingalpha.com/article/4907641-vishay-intertechnology-inc-vsh-presents-at-j-p-morgan-54th-annual-global-technology-media-and
+- date: '2026-05-25'
+  title: of 2020 China AI Innovation Excellence Award
+  url: https://www.vishay.com/en/company/press/releases/2020/microBRICKwins2020AIAward/
+random_paper: 40
+rate_limits:
+- limit_count: 5
+  name: Vishay Intertechnology Rate Limits
+  slug: vishay-intertechnology-rate-limits
+rules:
+- name: Vishay Intertechnology API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: vishay-intertechnology-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 34.8
+  delta: -1.9
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 86.8
+    operational_transparency: 31.6
+  previous_composite: 36.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png
+security:
+- kind: domain-security
+  name: Vishay Intertechnology Domain Security
+  slug: vishay-intertechnology-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: vishay-intertechnology
+tags:
+- Automotive
+- Capacitors
+- Diodes
+- Electronics
+- Industrial
+- MOSFETs
+- Manufacturing
+- Medical
+- Optoelectronics
+- Passive Components
+- Resistors
+- Semiconductors
+- Fortune 1000
+website: https://www.vishay.com/
+---

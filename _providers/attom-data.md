@@ -1,0 +1,182 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Attom Data Agentic Access
+  operation_count: 37
+  slug: attom-data-agentic-access
+  summary_line: 37 operations
+api_count: 12
+apis:
+- description: Area geography, geoId lookups, and boundaries (v2/v4).
+  name: ATTOM Area API
+  slug: attom-data-area-api
+- description: County tax assessment data.
+  name: ATTOM Assessment API
+  slug: attom-data-assessment-api
+- description: Neighborhood and community context (v4).
+  name: ATTOM Community API
+  slug: attom-data-community-api
+- description: Consolidated all-event property history.
+  name: ATTOM Events API
+  slug: attom-data-events-api
+- description: Estimated home equity and loan-to-value.
+  name: ATTOM Home Equity API
+  slug: attom-data-home-equity-api
+- description: Property records enriched with mortgage and owner data.
+  name: ATTOM Mortgage API
+  slug: attom-data-mortgage-api
+- description: Points of interest (v4).
+  name: ATTOM POI API
+  slug: attom-data-poi-api
+- description: Core property characteristics packages.
+  name: ATTOM Property API
+  slug: attom-data-property-api
+- description: Recorded sale, deed, sales history, and sales trend data.
+  name: ATTOM Sales API
+  slug: attom-data-sales-api
+- description: Schools, school districts, and attendance zones.
+  name: ATTOM School API
+  slug: attom-data-school-api
+- description: Modeled transportation-noise scores.
+  name: ATTOM Transportation Noise API
+  slug: attom-data-transportation-noise-api
+- description: Automated Valuation Model (AVM) and rental value.
+  name: ATTOM Valuation API
+  slug: attom-data-valuation-api
+artifact_total: 19
+collections:
+- collection_type: open
+  name: ATTOM API
+  slug: open-attom-data
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/attom-data-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/attom-data-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/attom-data-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/attom-data-solutions
+- group: company
+  title: ''
+  type: Website
+  url: https://www.attomdata.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.developer.attomdata.com/docs
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/attom-data-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/attom-data-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.attomdata.com/feed/
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/attom-data-finops.yml
+created: '2026-07-03'
+description: ATTOM Data Solutions is a national property, real estate, and location data provider that curates a multi-sourced warehouse of data on 158+ million U.S. properties. The ATTOM API (also delivered as ATTOM Cloud) exposes that data over REST as a family of logical resources - property characteristics, tax assessments, automated valuations (AVM), sales and deed history, mortgage records, area and boundary geographies, schools, community and neighborhood data, points of interest, transportation noise, all-event snapshots, and home equity - queried by address, APN/FIPS, ATTOM ID, radius, or geoIdV4 and authenticated with an API key.
+finops:
+- name: Attom Data Finops
+  service_category: Data and Analytics
+  slug: attom-data-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/attom-data.png
+layout: provider
+modified: '2026-07-03'
+name: ATTOM
+nav: Providers
+network: true
+overview: 'ATTOM publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Area API, Assessment API, Community API, and 9 more. Tagged areas include Property Data, Real Estate, Location Data, Valuation, and AVM.
+
+
+  ATTOM''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Attom Data Plans Pricing
+  plan_count: 3
+  slug: attom-data-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 5
+  name: Attom Data Rate Limits
+  slug: attom-data-rate-limits
+score:
+  band: thin
+  composite: 37.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 37.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Attom Data Authentication
+  slug: attom-data-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Attom Data Domain Security
+  slug: attom-data-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: attom-data
+tags:
+- Property Data
+- Real Estate
+- Location Data
+- Valuation
+- AVM
+- Assessment
+- Mortgage
+- Neighborhood
+website: https://www.attomdata.com
+---

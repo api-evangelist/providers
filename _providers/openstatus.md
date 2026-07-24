@@ -1,0 +1,180 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Openstatus Agentic Access
+  operation_count: 22
+  slug: openstatus-agentic-access
+  summary_line: 22 operations · 12 acting
+api_count: 5
+apis:
+- description: On-demand synthetic checks.
+  name: OpenStatus Check API
+  slug: openstatus-check-api
+- description: Incidents automatically opened when a monitor fails.
+  name: OpenStatus Incident API
+  slug: openstatus-incident-api
+- description: HTTP, TCP, and DNS uptime monitors.
+  name: OpenStatus Monitor API
+  slug: openstatus-monitor-api
+- description: Public status pages and subscribers.
+  name: OpenStatus Page API
+  slug: openstatus-page-api
+- description: Status reports and their updates.
+  name: OpenStatus Status Report API
+  slug: openstatus-status-report-api
+artifact_total: 14
+collections:
+- collection_type: open
+  name: OpenStatus API
+  slug: open-openstatus
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/openstatus-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/openstatus-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/openstatus-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openstatus-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/openstatus-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/openstatusHQ
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/openstatushq
+- group: company
+  title: ''
+  type: Website
+  url: https://www.openstatus.dev
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.openstatus.dev/docs
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/openstatus-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/openstatus-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/openstatus-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.openstatus.dev/blog
+created: '2026-06-21'
+description: OpenStatus is an open-source synthetic monitoring and status-page platform. It runs HTTP, TCP, and DNS uptime checks from 28 global regions, publishes hosted and self-hostable status pages, and manages incidents and status reports. The OpenStatus REST API at https://api.openstatus.dev/v1 lets teams programmatically manage monitors, status pages, status reports, incidents, and on-demand checks. The platform is free to self-host (AGPL-3.0) and also available as a managed cloud service.
+finops:
+- name: Openstatus Finops
+  service_category: Management and Governance
+  slug: openstatus-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openstatus.png
+layout: provider
+modified: '2026-06-21'
+name: OpenStatus
+nav: Providers
+network: true
+overview: 'OpenStatus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Check API, Incident API, Monitor API, and 2 more. Tagged areas include Monitoring, Synthetic Monitoring, Uptime, Status Pages, and Incidents.
+
+
+  OpenStatus'' developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+plans:
+- name: Openstatus Plans Pricing
+  plan_count: 6
+  slug: openstatus-plans-pricing
+random_paper: 39
+rate_limits:
+- limit_count: 6
+  name: Openstatus Rate Limits
+  slug: openstatus-rate-limits
+score:
+  band: thin
+  composite: 40.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 58.4
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 40.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Openstatus Authentication
+  slug: openstatus-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Openstatus Domain Security
+  slug: openstatus-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Openstatus Vulnerability Disclosure
+  slug: openstatus-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Openstatus Trust Center
+  slug: openstatus-trust-center
+  summary_line: SOC 2
+slug: openstatus
+tags:
+- Monitoring
+- Synthetic Monitoring
+- Uptime
+- Status Pages
+- Incidents
+- Open Source
+- Observability
+website: https://www.openstatus.dev
+---

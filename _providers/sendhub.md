@@ -1,0 +1,230 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 75.0
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 0
+  name: Sendhub Agentic Access
+  operation_count: 28
+  slug: sendhub-agentic-access
+  summary_line: 28 operations · 14 acting
+api_count: 6
+apis:
+- description: Log in via Username & Password and "Sign In As User"
+  name: SendHub Authentication API
+  slug: sendhub-authentication-api
+- description: Create and manage contacts.
+  name: SendHub Contact API
+  slug: sendhub-contact-api
+- description: Create and manage groups.
+  name: SendHub Group API
+  slug: sendhub-group-api
+- description: Send and manage messages.
+  name: SendHub Message API
+  slug: sendhub-message-api
+- description: View and manage your account and lines
+  name: SendHub Profile API
+  slug: sendhub-profile-api
+- description: View and manage inbox threads.
+  name: SendHub Thread API
+  slug: sendhub-thread-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Sendhub Webhooks
+  slug: sendhub-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sendhub.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://sendhub.com/developer/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://integrations.sendhub.com/SendHub-API-v1-Documentation.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://integrations.sendhub.com/SendHub-API-v1-Documentation.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://sendhub.com/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://sendhub.com/blogs/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.sendhub.com/hc/en-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.sendhub.com/signup/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.sendhub.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sendhub.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sendhub.com/privacy/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/sendhub
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sendhub-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sendhub-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/sendhub-agentic-access.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sendhub-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sendhub-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sendhub-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sendhub-llms.txt
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sendhub-error-codes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sendhub-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sendhub-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sendhub-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sendhub-conformance.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sendhub-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sendhub-well-known.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/sendhub-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: SendHub is a business text messaging platform for SMS/MMS marketing campaigns, two-way texting, appointment reminders, bulk messaging, SMS surveys, group messaging, and VoIP calling, used by more than 10,000 businesses. It exposes a REST-like v1 API at api.sendhub.com for programmatically managing contacts, groups, messages, inbox threads, account settings, and enterprise users, authenticated with a line username and API key (query params) or HTTP Basic. API access is available on custom plans, and SendHub also supports 100+ integrations via direct connectors and Zapier plus inbound-SMS webhooks. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
+image: https://www.sendhub.com/wp-content/uploads/2019/01/faviconsendhub-150x150.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: sendhub-mcp.yml
+  slug: sendhub-mcpyml
+modified: '2026-07-21'
+name: SendHub
+nav: Providers
+network: true
+overview: 'SendHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contact API, Group API, and 3 more. Tagged areas include Company, SMS, Messaging, Text Messaging, and Communications.
+
+
+  The SendHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
+random_paper: 31
+score:
+  band: developing
+  composite: 51.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 72.0
+    developer_ergonomics: 63.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 51.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Sendhub Authentication
+  slug: sendhub-authentication
+  summary_line: apiKey/http · 3 schemes
+- kind: domain-security
+  name: Sendhub Domain Security
+  slug: sendhub-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: sendhub
+tags:
+- Company
+- SMS
+- Messaging
+- Text Messaging
+- Communications
+- Marketing
+- Webhooks
+- VoIP
+website: https://sendhub.com
+---

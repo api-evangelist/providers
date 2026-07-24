@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.phil.us
+- group: start
+  title: ''
+  type: Login
+  url: https://my.phil.us/
+- group: operate
+  title: ''
+  type: Support
+  url: https://philhelp.zendesk.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.phil.us/resources/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.phil.us/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.phil.us/terms/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/phil-domain-security.yml
+created: '2026-07-17'
+description: PHIL (PHILRx) is a healthtech company operating a digital hub and direct-to-patient platform that helps pharmaceutical brands maximize prescription starts, insurance coverage, affordability, and medication adherence. Its all-in-one platform connects pharma manufacturers, patients, and healthcare providers to streamline the prescription access experience, run affordable direct-to-patient and cash-pay programs, and improve commercial performance across the medication access journey. PHIL is a portfolio company of Uncork Capital. As of this enrichment pass it exposes no public developer API, SDK, or documentation surface; this profile captures its identity and probed domain-security posture.
+image: https://phil.us/og-social-image.png
+layout: provider
+modified: '2026-07-20'
+name: Phil
+nav: Providers
+network: true
+overview: 'Phil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthtech, Pharmacy, and Direct-to-Patient.
+
+
+  Phil''s developer surface includes support, engineering blog, and 5 more developer resources.'
+random_paper: 21
+score:
+  band: emerging
+  composite: 17.2
+  delta: 2.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Phil Domain Security
+  slug: phil-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: phil
+tags:
+- Company
+- Healthcare
+- Healthtech
+- Pharmacy
+- Direct-to-Patient
+- Medication Access
+- Digital Health
+- Prescriptions
+website: https://www.phil.us
+---

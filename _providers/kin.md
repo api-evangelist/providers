@@ -1,0 +1,146 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Kin Insurance platform provides data-driven home insurance services including property data enrichment, automated underwriting, online quote generation, policy binding, and claims management for h
+  name: Kin Insurance Platform API
+  slug: kin-insurance-platform
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kin-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kin.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.kin.com
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/kin-insurance
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kin-insurance
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kin.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.kin.com/homeowners-insurance/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.kin.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/kin
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kin-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/kin-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/kin-finops.yml
+created: '2026-06-13'
+description: Kin Insurance is a direct-to-consumer home insurance platform founded in 2016 that leverages data and artificial intelligence to provide homeowners insurance in high-risk coastal and weather-exposed markets. The platform uses thousands of property data points for automated underwriting, enabling online quote generation, policy binding, and claims management without the need for traditional agents. Kin offers homeowners, condo, flood, and auto insurance across multiple states with a focus on affordability and accessibility in markets traditionally underserved by major carriers.
+finops:
+- name: Kin Finops
+  service_category: ''
+  slug: kin-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kin.png https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+layout: provider
+modified: '2026-06-13'
+name: Kin Insurance
+nav: Providers
+network: true
+overview: 'Kin Insurance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Home Insurance, InsureTech, Property Data, and Underwriting.
+
+
+  Kin Insurance''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Kin Plans Pricing
+  plan_count: 4
+  slug: kin-plans-pricing
+random_paper: 16
+rate_limits:
+- limit_count: 0
+  name: Kin Rate Limits
+  slug: kin-rate-limits
+score:
+  band: emerging
+  composite: 22.5
+  delta: -1.7
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 24.2
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kin/refs/heads/main/screenshots/kin-2026-06-20T184037.png
+security:
+- kind: domain-security
+  name: Kin Domain Security
+  slug: kin-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: kin
+tags:
+- Insurance
+- Home Insurance
+- InsureTech
+- Property Data
+- Underwriting
+- Claims
+- Direct-to-Consumer
+website: https://www.kin.com
+---

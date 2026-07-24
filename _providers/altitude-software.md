@@ -1,0 +1,87 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://altitudeapac.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://altitudeapac.com/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://altitudeapac.com/resources/
+- group: other
+  title: ''
+  type: Investment
+  url: https://www.insightpartners.com/portfolio/altitude-software/
+created: '2026-07-17'
+description: 'Altitude Software is a contact center and unified customer interaction (uCI) software company founded in 1993 and headquartered in Lisbon, Portugal. Its flagship Altitude uCI suite provides omnichannel contact center capabilities — inbound/outbound campaigns, IVR and self-service, routing, dialer, recording and quality management, and CRM/ERP integration — with the Altitude uAgent SDK exposing Java, C/C++, .NET, SOAP, XML-RPC and web-service APIs for on-premises and cloud deployments. Altitude Software was a portfolio company of Insight Partners and was acquired by Enghouse Systems (TSX: ENGH) on 2020-12-30; the product line is now developed and maintained by Enghouse Interactive, and the brand continues to operate regionally (e.g. Altitude Software APAC). The company does not publish a modern public REST API, developer portal, or OpenAPI specification; integration is delivered through the proprietary uAgent SDK and packaged CRM/ERP connectors.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altitude-software.png
+layout: provider
+modified: '2026-07-17'
+name: Altitude Software
+nav: Providers
+network: true
+overview: 'Altitude Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Customer Interaction Management, Call Center Software, and Customer Experience.
+
+
+  Altitude Software''s developer surface includes support, engineering blog, and 2 more developer resources.'
+random_paper: 46
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: altitude-software
+tags:
+- Company
+- Contact Center
+- Customer Interaction Management
+- Call Center Software
+- Customer Experience
+- Omnichannel
+- CRM
+- CCaaS
+website: https://altitudeapac.com/
+---

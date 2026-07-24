@@ -1,0 +1,119 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 12.5
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Meteor is an open-source JavaScript platform providing a full-stack development environment with real-time data synchronization, server-side rendering, and a package ecosystem (Atmosphere).
+  name: Meteor
+  slug: meteor
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/meteor-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/meteor-software
+- group: company
+  title: ''
+  type: Website
+  url: https://www.meteor.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/meteor
+- group: operate
+  title: ''
+  type: Community
+  url: https://forums.meteor.com/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.meteor.com/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://forums.meteor.com/latest.rss
+created: '2025-02-17'
+description: Meteor is a full-stack JavaScript platform for building modern web and mobile applications. It provides documentation, resources, and API references to help developers build and deploy applications with real-time capabilities.
+finops:
+- name: Meteor Finops
+  service_category: API
+  slug: meteor-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meteor.png
+layout: provider
+modified: '2026-05-29'
+name: Meteor
+nav: Providers
+network: true
+overview: 'Meteor publishes 1 API on the [APIs.io](https://apis.io/) network: Meteor. Tagged areas include Full-Stack, JavaScript, Mobile Development, Real-Time, and Web Development.
+
+
+  Meteor''s developer surface includes engineering blog and 6 more developer resources.'
+plans:
+- name: Meteor Plans Pricing
+  plan_count: 3
+  slug: meteor-plans-pricing
+random_paper: 40
+rate_limits:
+- limit_count: 5
+  name: Meteor Rate Limits
+  slug: meteor-rate-limits
+score:
+  band: emerging
+  composite: 29.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 29.2
+    developer_ergonomics: 6.5
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 29.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meteor/refs/heads/main/screenshots/meteor-2026-06-20T185254.png
+security:
+- kind: domain-security
+  name: Meteor Domain Security
+  slug: meteor-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: meteor
+tags:
+- Full-Stack
+- JavaScript
+- Mobile Development
+- Real-Time
+- Web Development
+website: https://www.meteor.com/
+---

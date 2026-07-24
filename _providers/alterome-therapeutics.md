@@ -1,0 +1,100 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alterome.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.alterome.com/about/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.alterome.com/news/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.alterome.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.alterome.com/privacy-policy/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/alterome
+created: '2026-07-17'
+description: Alterome Therapeutics is a clinical-stage precision oncology company founded in 2021 and headquartered in San Diego, California, backed by Canaan Partners. The company designs alteration-specific cancer therapies using deep biology and chemistry expertise paired with an in-house computational chemistry platform ("The Kraken"), a custom CPU/GPU compute array for physics-based molecular simulation and drug design. Its clinical pipeline includes ALTA2618, a mutation-selective inhibitor for AKT1 E17K-driven cancers, and ALTA3263, an oral pan-KRAS ON-state inhibitor targeting more than 90% of KRAS mutations in cancer. Alterome was surfaced through the Canaan Partners portfolio and added to the API Evangelist network as a company profile; it publishes no public developer or API surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alterome-therapeutics.png
+layout: provider
+modified: '2026-07-17'
+name: Alterome Therapeutics
+nav: Providers
+network: true
+overview: 'Alterome Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Precision Medicine.
+
+
+  Alterome Therapeutics'' developer surface includes engineering blog and 5 more developer resources.'
+random_paper: 6
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.9
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.4
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 17.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: alterome-therapeutics
+tags:
+- Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
+- Drug Discovery
+- Computational Chemistry
+- Life Sciences
+website: https://www.alterome.com/
+---

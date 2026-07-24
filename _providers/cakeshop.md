@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cakeshop-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://getcakeshop.co
+created: '2026-07-17'
+description: Cakeshop is a commerce-enablement platform that helps creators monetize their expertise, selling digital products, courses, and services directly to their audiences. It was a San Francisco-based startup operating in the creator-economy and content-monetization space, surfaced in the API Evangelist network as a portfolio company of 500 Global. As of this enrichment pass its public site (getcakeshop.co) returns an expired Squarespace notice, and no public API, developer portal, documentation, SDKs, or GitHub organization could be discovered; the domain still resolves over TLS and was probed for baseline security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cakeshop.png
+layout: provider
+modified: '2026-07-18'
+name: Cakeshop
+nav: Providers
+network: true
+overview: Cakeshop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Commerce, Monetization, and Creators.
+random_paper: 30
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Cakeshop Domain Security
+  slug: cakeshop-domain-security
+  summary_line: TLSv1.3
+slug: cakeshop
+tags:
+- Company
+- Creator Economy
+- Commerce
+- Monetization
+- Creators
+- Digital Products
+- Startup
+website: https://getcakeshop.co
+---

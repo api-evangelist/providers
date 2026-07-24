@@ -1,0 +1,86 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/divx-inc-nasdaqgs-divx-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.divx.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://divx.zendesk.com
+created: '2026-07-17'
+description: DivX is a San Diego-based digital video technology company best known for the DivX video codec and format. Under the former public company DivX, Inc. (NasdaqGS:DIVX), and today as DivX, LLC, it offers free and premium consumer software — DivX Software and DivX Pro for Windows and macOS — for playing, converting, and casting video, alongside a technology-licensing business that certifies DivX and HEVC playback in consumer electronics devices (the "DivX Certified" program). The company distributes desktop applications to end users and licenses codecs and playback technology to device manufacturers rather than operating a public developer API platform. Customer support is handled through a Zendesk help center, and enterprise/device partners are served via a Salesforce-based partner portal.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/divx-inc-nasdaqgs-divx.png
+layout: provider
+modified: '2026-07-18'
+name: DivX, Inc. (NasdaqGS:DIVX)
+nav: Providers
+network: true
+overview: 'DivX, Inc. (NasdaqGS:DIVX) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Codec, Media, and Streaming.
+
+
+  DivX, Inc. (NasdaqGS:DIVX)''s developer surface includes support and 2 more developer resources.'
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 7.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Divx Inc Nasdaqgs Divx Domain Security
+  slug: divx-inc-nasdaqgs-divx-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: divx-inc-nasdaqgs-divx
+tags:
+- Company
+- Video
+- Codec
+- Media
+- Streaming
+- Software
+website: https://www.divx.com
+---

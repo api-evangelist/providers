@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/general-growth-properties
+- group: other
+  title: ''
+  type: Parent Company
+  url: https://bpy.brookfield.com
+- group: other
+  title: ''
+  type: Brookfield Properties
+  url: https://www.brookfieldproperties.com
+description: General Growth Properties (GGP) was a major U.S.-based commercial real estate company and the second-largest shopping mall operator in the United States before being acquired by Brookfield Property Partners in 2018. The GGP portfolio is now operated under Brookfield Properties. No public developer APIs are documented for the legacy GGP entity.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/general-growth-properties.png
+layout: provider
+modified: '2026-04-28'
+name: General Growth Properties
+nav: Providers
+network: true
+overview: General Growth Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Retail, Shopping Malls, Acquired, and Fortune 1000.
+press:
+- date: '2026-05-25'
+  title: 'General Growth Properties: To The Brink and Back | PDF'
+  url: https://www.scribd.com/document/273359037/General-Growth-Properties-To-the-Brink-and-Back
+- date: '2026-05-25'
+  title: General Growth Return On Asset vs Price To Earnings To Growth
+  url: https://www.macroaxis.com/profitability/GGP/Return-On-Asset/Price-To-Earnings-To-Growth
+- date: '2026-05-25'
+  title: General Growth Properties 2026 Company Profile
+  url: https://pitchbook.com/profiles/company/25169-05
+- date: '2026-05-25'
+  title: 'Genl Growth Propert : General Growth Properties Announces ...'
+  url: https://www.marketscreener.com/quote/stock/GENERAL-GROWTH-PRO-12754/news/Genl-Growth-Propert-General-Growth-Properties-Announces-Second-Quarter-Earnings-Conference-Call-We-216992/
+- date: '2026-05-25'
+  title: General Growth Properties Inc.(GGP,N) reports earnings for Qtr ...
+  url: https://www.nytimes.com/1995/04/27/business/general-growth-properties-inc-ggpn-reports-earnings-for-qtr-to-mar-31.html
+random_paper: 42
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/screenshots/general-growth-properties-2026-06-20T181726.png
+slug: general-growth-properties
+tags:
+- Real Estate
+- Retail
+- Shopping Malls
+- Acquired
+- Fortune 1000
+---

@@ -1,0 +1,111 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nomadhomes.co/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getremy.ai/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/nomadhomes
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.getremy.ai/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.getremy.ai/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@getremy.ai
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/nomad-homes-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/nomad-homes-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nomad-homes-domain-security.yml
+created: '2026-07-17'
+description: Nomad Homes is a Partech-backed proptech company originally launched as a real-estate marketplace. It has since rebranded and pivoted to RemyAI (getremy.ai) — "the 24/7 intelligent assistant for real estate agents." RemyAI listens to agents' calls and texts, transcribes and summarizes them, auto-creates follow-up tasks and reminders, organizes buyer/seller contacts, and manages voicemail across iOS, Android, and desktop. The company's original domain nomadhomes.co now 301-redirects to getremy.ai. RemyAI publishes a public /.well-known/ai-plugin.json and an llms.txt describing the product, but it exposes NO public developer API, SDK, OpenAPI, or developer portal (its ai-plugin manifest explicitly declares api.type=none and auth.type=none).
+image: https://www.getremy.ai/remy_logo.png
+layout: provider
+modified: '2026-07-20'
+name: Nomad Homes
+nav: Providers
+network: true
+overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real Estate, PropTech, and Artificial Intelligence.
+
+
+  Nomad Homes'' developer surface includes support and 8 more developer resources.'
+random_paper: 41
+score:
+  band: minimal
+  composite: 12.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 12.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Nomad Homes Domain Security
+  slug: nomad-homes-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: nomad-homes
+tags:
+- Company
+- Marketplace
+- Real Estate
+- PropTech
+- Artificial Intelligence
+- AI Assistant
+- Productivity
+website: https://nomadhomes.co/
+---

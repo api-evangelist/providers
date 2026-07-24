@@ -1,0 +1,352 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 45.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Allianz Engagement Survey Agentic Access
+  operation_count: 9
+  slug: allianz-engagement-survey-agentic-access
+  summary_line: 9 operations · 3 acting
+api_count: 5
+apis:
+- description: Action plan tracking and management operations
+  name: Allianz Engagement Survey Action Plans API
+  slug: allianz-engagement-survey-action-plans-api
+- description: Survey analytics, reporting, and insights operations
+  name: Allianz Engagement Survey Analytics API
+  slug: allianz-engagement-survey-analytics-api
+- description: Survey participant and invitation management operations
+  name: Allianz Engagement Survey Participants API
+  slug: allianz-engagement-survey-participants-api
+- description: Survey response submission and retrieval operations
+  name: Allianz Engagement Survey Responses API
+  slug: allianz-engagement-survey-responses-api
+- description: Survey lifecycle management operations
+  name: Allianz Engagement Survey Surveys API
+  slug: allianz-engagement-survey-surveys-api
+artifact_total: 70
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/allianz-engagement-survey-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/allianz-engagement-survey-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/allianz-engagement-survey-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/allianz-engagement-survey-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.allianz.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/allianz
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/allianz-engagement-survey-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/allianz-engagement-survey-vocabulary.yaml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.allianz.com/en/press.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/allianz-engagement-survey-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/allianz-engagement-survey-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/allianz-engagement-survey-llms.txt
+created: '2024-01-15'
+description: The Allianz Engagement Survey API enables management of employee engagement surveys across the Allianz organization. It provides capabilities for survey lifecycle management, participant management, response collection, and analytics reporting to support Allianz's global employee experience initiatives.
+examples:
+- key_count: 8
+  name: Engagement Survey Action Plan Example
+  slug: engagement-survey-action-plan-example
+- key_count: 2
+  name: Engagement Survey Action Plan List Example
+  slug: engagement-survey-action-plan-list-example
+- key_count: 2
+  name: Engagement Survey Add Participants Request Example
+  slug: engagement-survey-add-participants-request-example
+- key_count: 3
+  name: Engagement Survey Add Participants Response Example
+  slug: engagement-survey-add-participants-response-example
+- key_count: 3
+  name: Engagement Survey Answer Example
+  slug: engagement-survey-answer-example
+- key_count: 4
+  name: Engagement Survey Create Action Plan Request Example
+  slug: engagement-survey-create-action-plan-request-example
+- key_count: 5
+  name: Engagement Survey Create Survey Request Example
+  slug: engagement-survey-create-survey-request-example
+- key_count: 5
+  name: Engagement Survey Participant Example
+  slug: engagement-survey-participant-example
+- key_count: 4
+  name: Engagement Survey Participant List Example
+  slug: engagement-survey-participant-list-example
+- key_count: 4
+  name: Engagement Survey Question Score Example
+  slug: engagement-survey-question-score-example
+- key_count: 2
+  name: Engagement Survey Response List Example
+  slug: engagement-survey-response-list-example
+- key_count: 5
+  name: Engagement Survey Survey Analytics Example
+  slug: engagement-survey-survey-analytics-example
+- key_count: 9
+  name: Engagement Survey Survey Example
+  slug: engagement-survey-survey-example
+- key_count: 4
+  name: Engagement Survey Survey List Example
+  slug: engagement-survey-survey-list-example
+- key_count: 4
+  name: Engagement Survey Survey Response Example
+  slug: engagement-survey-survey-response-example
+features:
+- description: Create, configure, publish, and close employee engagement surveys with full lifecycle tracking and audit capabilities.
+  name: Survey Lifecycle Management
+- description: Manage survey participants, send invitations, track response rates, and send reminders to boost participation across business units.
+  name: Participant Management
+- description: Collect structured survey responses with support for multiple question types including Likert scales, open text, and multiple choice.
+  name: Response Collection
+- description: Generate engagement analytics, participation metrics, and comparative reports across departments, regions, and time periods.
+  name: Analytics and Reporting
+- description: Segment survey results by business unit, geography, role, tenure, and demographic dimensions for targeted insights.
+  name: Segmentation
+- description: Track and manage action plans created in response to survey insights to drive employee experience improvements.
+  name: Action Planning
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allianz-engagement-survey.png
+integrations:
+- description: Integration with Workday HCM for automated participant roster management and organizational hierarchy synchronization.
+  name: Workday
+- description: Survey notifications and reminders delivered through Microsoft Teams to increase employee participation rates.
+  name: Microsoft Teams
+- description: Export engagement analytics to Power BI for advanced visualization and executive dashboard reporting.
+  name: Power BI
+json_schemas:
+- name: ActionPlanList
+  property_count: 2
+  slug: engagement-survey-action-plan-list
+- name: ActionPlan
+  property_count: 8
+  slug: engagement-survey-action-plan
+- name: AddParticipantsRequest
+  property_count: 2
+  slug: engagement-survey-add-participants-request
+- name: AddParticipantsResponse
+  property_count: 3
+  slug: engagement-survey-add-participants-response
+- name: Answer
+  property_count: 3
+  slug: engagement-survey-answer
+- name: CreateActionPlanRequest
+  property_count: 4
+  slug: engagement-survey-create-action-plan-request
+- name: CreateSurveyRequest
+  property_count: 5
+  slug: engagement-survey-create-survey-request
+- name: ParticipantList
+  property_count: 4
+  slug: engagement-survey-participant-list
+- name: Participant
+  property_count: 5
+  slug: engagement-survey-participant
+- name: QuestionScore
+  property_count: 4
+  slug: engagement-survey-question-score
+- name: ResponseList
+  property_count: 2
+  slug: engagement-survey-response-list
+- name: SurveyAnalytics
+  property_count: 5
+  slug: engagement-survey-survey-analytics
+- name: SurveyList
+  property_count: 4
+  slug: engagement-survey-survey-list
+- name: SurveyResponse
+  property_count: 4
+  slug: engagement-survey-survey-response
+- name: Survey
+  property_count: 9
+  slug: engagement-survey-survey
+json_structures:
+- name: Engagement Survey Action Plan List Structure
+  property_count: 2
+  slug: engagement-survey-action-plan-list-structure
+- name: Engagement Survey Action Plan Structure
+  property_count: 8
+  slug: engagement-survey-action-plan-structure
+- name: Engagement Survey Add Participants Request Structure
+  property_count: 2
+  slug: engagement-survey-add-participants-request-structure
+- name: Engagement Survey Add Participants Response Structure
+  property_count: 3
+  slug: engagement-survey-add-participants-response-structure
+- name: Engagement Survey Answer Structure
+  property_count: 3
+  slug: engagement-survey-answer-structure
+- name: Engagement Survey Create Action Plan Request Structure
+  property_count: 4
+  slug: engagement-survey-create-action-plan-request-structure
+- name: Engagement Survey Create Survey Request Structure
+  property_count: 5
+  slug: engagement-survey-create-survey-request-structure
+- name: Engagement Survey Participant List Structure
+  property_count: 4
+  slug: engagement-survey-participant-list-structure
+- name: Engagement Survey Participant Structure
+  property_count: 5
+  slug: engagement-survey-participant-structure
+- name: Engagement Survey Question Score Structure
+  property_count: 4
+  slug: engagement-survey-question-score-structure
+- name: Engagement Survey Response List Structure
+  property_count: 2
+  slug: engagement-survey-response-list-structure
+- name: Engagement Survey Survey Analytics Structure
+  property_count: 5
+  slug: engagement-survey-survey-analytics-structure
+- name: Engagement Survey Survey List Structure
+  property_count: 4
+  slug: engagement-survey-survey-list-structure
+- name: Engagement Survey Survey Response Structure
+  property_count: 4
+  slug: engagement-survey-survey-response-structure
+- name: Engagement Survey Survey Structure
+  property_count: 9
+  slug: engagement-survey-survey-structure
+jsonld:
+- class_count: 16
+  name: Allianz Engagement Survey Context
+  property_count: 38
+  slug: allianz-engagement-survey-context
+layout: provider
+modified: '2026-06-20'
+name: Allianz Engagement Survey
+nav: Providers
+network: true
+overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Action Plans API, Analytics API, Participants API, and 2 more. Tagged areas include Analytics, Enterprise, Human Resources, Insurance, and Surveys.
+
+
+  The Allianz Engagement Survey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+random_paper: 24
+rules:
+- name: Allianz Engagement Survey API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: allianz-engagement-survey-jsonschema-spectral-rules
+- name: Allianz Engagement Survey API Rules
+  rule_count: 32
+  severity_counts:
+    error: 15
+    hint: 0
+    info: 2
+    warn: 15
+  slug: allianz-engagement-survey-spectral-rules
+scopes:
+- name: Allianz Engagement Survey Scopes
+  scope_count: 5
+  slug: allianz-engagement-survey-scopes
+  summary_line: 5 scopes · clientCredentials
+score:
+  band: developing
+  composite: 46.1
+  delta: 2.3
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 80.5
+    developer_ergonomics: 13.0
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 5.3
+  previous_composite: 43.8
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Allianz Engagement Survey Authentication
+  slug: allianz-engagement-survey-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Allianz Engagement Survey Domain Security
+  slug: allianz-engagement-survey-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: allianz-engagement-survey
+tags:
+- Analytics
+- Enterprise
+- Human Resources
+- Insurance
+- Surveys
+- Employee Experience
+use_cases:
+- description: Run company-wide annual employee engagement surveys to measure satisfaction, commitment, and advocacy across all Allianz entities.
+  name: Annual Engagement Survey
+- description: Deploy frequent short pulse surveys to track engagement trends and respond quickly to changing employee sentiment.
+  name: Pulse Surveys
+- description: Capture new employee experience feedback during onboarding to improve the joining experience and early retention.
+  name: Onboarding Surveys
+- description: Collect departing employee feedback to understand attrition drivers and improve retention strategies.
+  name: Exit Surveys
+website: https://www.allianz.com/
+---

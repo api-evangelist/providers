@@ -1,0 +1,206 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 52.9
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Octopus Deploy Agentic Access
+  operation_count: 6
+  slug: octopus-deploy-agentic-access
+  summary_line: 6 operations
+api_count: 7
+apis:
+- description: REST API exposing projects, environments, releases, deployments, runbooks, accounts, certificates, tenants, variables, packages, and tasks managed by an Octopus Deploy server or Octopus Cloud instance
+  name: Octopus Deploy REST API
+  slug: rest-api
+- description: The Accounts API from Octopus Deploy — 1 operation(s) for accounts.
+  name: Octopus Deploy Accounts API
+  slug: octopus-deploy-accounts-api
+- description: The Environments API from Octopus Deploy — 1 operation(s) for environments.
+  name: Octopus Deploy Environments API
+  slug: octopus-deploy-environments-api
+- description: The Feeds API from Octopus Deploy — 1 operation(s) for feeds.
+  name: Octopus Deploy Feeds API
+  slug: octopus-deploy-feeds-api
+- description: The Machines API from Octopus Deploy — 1 operation(s) for machines.
+  name: Octopus Deploy Machines API
+  slug: octopus-deploy-machines-api
+- description: The Projects API from Octopus Deploy — 1 operation(s) for projects.
+  name: Octopus Deploy Projects API
+  slug: octopus-deploy-projects-api
+- description: The Root API from Octopus Deploy — 1 operation(s) for root.
+  name: Octopus Deploy Root API
+  slug: octopus-deploy-root-api
+artifact_total: 14
+collections:
+- collection_type: open
+  name: Octopus Deploy REST API
+  slug: open-octopus-deploy
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/octopus-deploy-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/octopus-deploy-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/octopus-deploy-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/octopus-deploy-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/octopus-deploy-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/octopus-deploy-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/octopus-deploy
+- group: company
+  title: ''
+  type: Website
+  url: https://octopus.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://octopus.com/docs
+- group: docs
+  title: ''
+  type: API Documentation
+  url: https://octopus.com/docs/octopus-rest-api
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://octopus.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://octopus.com/start
+- group: start
+  title: ''
+  type: Login
+  url: https://octopus.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://octopus.com/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://octopus.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OctopusDeploy
+- group: build
+  title: ''
+  type: CLI
+  url: https://github.com/OctopusDeploy/cli
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/OctopusDeploy/OctopusClients
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/OctopusDeploy/mcp-server
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://octopus.com/llms.txt
+created: '2026-05-11'
+description: Octopus Deploy is a continuous delivery and release orchestration platform for managing deployments across development, test, and production environments to virtual machines, containers, Kubernetes, and cloud services. The platform handles environments, tenants, runbooks, release promotion, and approvals for both regulated and high-velocity teams. The Octopus REST API provides programmatic access to projects, environments, releases, deployments, runbooks, variables, accounts, and tasks via API-key authentication.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octopus-deploy.png
+layout: provider
+modified: '2026-05-19'
+name: Octopus Deploy
+nav: Providers
+network: true
+overview: 'Octopus Deploy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Environments API, Feeds API, and 3 more. Tagged areas include DevOps, Continuous Delivery, Deployment Automation, Release Management, and Runbooks.
+
+
+  Octopus Deploy''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, CLI, and 13 more developer resources.'
+random_paper: 0
+scopes:
+- name: Octopus Deploy Scopes
+  scope_count: 0
+  slug: octopus-deploy-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 36.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 48.7
+    developer_ergonomics: 54.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 36.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
+security:
+- kind: authentication
+  name: Octopus Deploy Authentication
+  slug: octopus-deploy-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
+- kind: domain-security
+  name: Octopus Deploy Domain Security
+  slug: octopus-deploy-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Octopus Deploy Vulnerability Disclosure
+  slug: octopus-deploy-vulnerability-disclosure
+  summary_line: Bugcrowd · security.txt · contact published
+- kind: trust-center
+  name: Octopus Deploy Trust Center
+  slug: octopus-deploy-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
+slug: octopus-deploy
+tags:
+- DevOps
+- Continuous Delivery
+- Deployment Automation
+- Release Management
+- Runbooks
+- CI/CD
+website: https://octopus.com
+---

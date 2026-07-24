@@ -1,0 +1,65 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: Bitcasa, Inc. was an American cloud storage company (founded 2011 in St. Louis, Missouri; later based in Mountain View, California) known for its converged/infinite storage model and, for developers, the CloudFS API — a white-label cloud-storage platform that let third-party applications integrate file management, secure sharing, media transcoding, instant streaming, and zero-knowledge client-side encryption. Backed by Andreessen Horowitz (a16z), CrunchFund, Pelion Venture Partners, Horizons Ventures, Samsung Ventures, and First Round Capital, Bitcasa wound down its consumer Bitcasa Drive service in 2016 and shut down all services in 2017. The company is defunct and the bitcasa.com domain is now parked, so no live developer surface, API documentation, or specifications remain to enrich.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitcasa.png
+layout: provider
+modified: '2026-07-18'
+name: Bitcasa
+nav: Providers
+network: true
+overview: Bitcasa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Storage, File Storage, Storage, and Encryption.
+random_paper: 13
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: bitcasa
+tags:
+- Company
+- Cloud Storage
+- File Storage
+- Storage
+- Encryption
+- File Sharing
+- Defunct
+---

@@ -1,0 +1,167 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 31.7
+  scored_at: '2026-07-23'
+api_count: 5
+apis:
+- description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
+  name: Hydrosat Catalog API
+  slug: hydrosat-catalog-api
+- description: The Collections API from Hydrosat — 2 operation(s) for collections.
+  name: Hydrosat Collections API
+  slug: hydrosat-collections-api
+- description: The Items API from Hydrosat — 2 operation(s) for items.
+  name: Hydrosat Items API
+  slug: hydrosat-items-api
+- description: The Queryables API from Hydrosat — 2 operation(s) for queryables.
+  name: Hydrosat Queryables API
+  slug: hydrosat-queryables-api
+- description: The Search API from Hydrosat — 1 operation(s) for search.
+  name: Hydrosat Search API
+  slug: hydrosat-search-api
+artifact_total: 7
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://discover.hydrosat.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://satdocs.hydrosat.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://satdocs.hydrosat.com/stac-api-reference-and-specification
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://satdocs.hydrosat.com/stac-api-how-to-guides
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hydrosat-authentication.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hydrosat-llms.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hydrosat-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.hydrosat.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hydrosat-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://hydrosat.com/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://hydrosat.com/stories-blogs/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Hydrosat
+- group: start
+  title: ''
+  type: SignUp
+  url: https://discover.hydrosat.com/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hydrosat.com/privacy-policy/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hydrosat-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://hydrosat.com/
+created: '2026-07-17'
+description: Hydrosat delivers thermal infrared satellite data and analytics for monitoring resources and detecting change, combining thermal-infrared imaging, proprietary algorithms, and field-tested expertise to support food security, water security, and industrial monitoring across 60+ countries. Its Discovery platform exposes a STAC-compliant (SpatioTemporal Asset Catalog) API at stac.hydrosat.com serving VZ-1 (Van Zyl-01) thermal and VNIR imagery at processing levels L1A, L1B, and L2, accessible via the Discovery Portal web app, direct download, or the OAuth2-protected STAC API. Products include the IrriWatch irrigation-planning tool and water/crop management solutions.
+image: https://hydrosat.com/wp-content/uploads/2024/06/Field-Irrigation-Planning-2.png
+layout: provider
+modified: '2026-07-19'
+name: Hydrosat
+nav: Providers
+network: true
+overview: 'Hydrosat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Collections API, Items API, and 2 more. Tagged areas include Company, Satellite Imagery, Thermal Infrared, Geospatial, and Earth Observation.
+
+
+  Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 10 more developer resources.'
+random_paper: 11
+score:
+  band: thin
+  composite: 43.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 48.5
+    developer_ergonomics: 58.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 43.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Hydrosat Authentication
+  slug: hydrosat-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Hydrosat Domain Security
+  slug: hydrosat-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: hydrosat
+tags:
+- Company
+- Satellite Imagery
+- Thermal Infrared
+- Geospatial
+- Earth Observation
+- Remote Sensing
+- STAC
+- Agriculture
+- Water Management
+- Data
+website: https://hydrosat.com/
+---

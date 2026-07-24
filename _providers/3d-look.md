@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 28.8
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
+  name: SAIA Perfect Fit / Mobile Tailor (MTM) API
+  slug: saia-perfect-fit-mobile-tailor-mtm-api
+- description: REST API for body composition and health/fitness insights - body measurements, weight prediction, BMI/body-fat/BMR, 3D model prediction, and 2D/3D body-progress comparison, with subscription usage tra
+  name: FitXpress API
+  slug: fitxpress-api
+artifact_total: 5
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://3dlook.ai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://saia.3dlook.me/docs/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://saia.3dlook.me/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://saia.3dlook.me/docs/perfectfit.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://3dlook.ai/pricing/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://3dlook.ai/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://3dlook.ai/terms-and-policies/
+- group: operate
+  title: ''
+  type: Support
+  url: https://3dlook.ai/contact-us/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/3dlook-me
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/3d-look-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/3d-look-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/3d-look-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/3d-look-components.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/3d-look-error-codes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/3d-look-conventions.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/3d-look-mcp.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/3d-look-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/3d-look-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/3d-look-llms.txt
+created: '2026-07-17'
+description: '3DLOOK is an AI-powered body measurement and mobile body-scanning company whose computer-vision technology extracts 80+ accurate body measurements and 3D body models from just two smartphone photos. It offers two developer products: SAIA Perfect Fit / Mobile Tailor (a made-to-measure and size-recommendation API for apparel, uniforms, and on-demand manufacturing) and FitXpress (a body-composition and health/fitness insights API delivering weight prediction, BMI, body-fat, BMR, and 2D/3D body-progress visualization). Both expose REST APIs with API-key authentication, a JavaScript SDK, native iOS and Android capture SDKs, and embeddable photo-capture and measurement widgets.'
+image: https://3dlook.ai/wp-content/uploads/2024/12/fitxpress.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: 3d-look-mcp.yml
+  slug: 3d-look-mcpyml
+modified: '2026-07-17'
+name: 3D Look
+nav: Providers
+network: true
+overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Apparel.
+
+
+  3D Look''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
+random_paper: 21
+score:
+  band: emerging
+  composite: 27.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 0.0
+    developer_ergonomics: 54.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 27.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: 3D Look Authentication
+  slug: 3d-look-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: 3D Look Domain Security
+  slug: 3d-look-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: 3d-look
+tags:
+- Company
+- Body Measurement
+- Computer Vision
+- Artificial Intelligence
+- Apparel
+- Fashion Technology
+- Health and Fitness
+- Sizing
+- 3D Body Scanning
+- SDK
+website: https://3dlook.ai/
+---

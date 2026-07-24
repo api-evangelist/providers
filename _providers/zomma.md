@@ -1,0 +1,109 @@
+---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/zomma-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://zommalabs.com/security
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/zomma-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://zommalabs.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://zommalabs.com/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://zommalabs.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://zommalabs.com/call
+created: '2026-07-17'
+description: Zomma (Zomma Labs) is a Y Combinator (Summer 2026) startup building AI agents that automate repetitive back-office operations for investment firms — hedge funds, asset managers, and fintech companies. Rather than integrating through traditional APIs, its computer-use agents perceive and operate existing portals, desktop applications, and PDFs the way a human would (clicking, reading, typing) to handle reconciliation, client onboarding, KYC, and investor reporting, with human approval required before any submission. Zomma also markets a developer-facing computer-use API ("plug Hermes, Claude, or your own agent into our API") that is currently waitlist / pre-general availability with no public specification, SDK, or documentation.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zomma.png
+layout: provider
+modified: '2026-07-21'
+name: Zomma
+nav: Providers
+network: true
+overview: 'Zomma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Computer Use, Automation, and Fintech.
+
+
+  Zomma''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
+random_paper: 38
+score:
+  band: emerging
+  composite: 15.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 15.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Zomma Domain Security
+  slug: zomma-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Zomma Trust Center
+  slug: zomma-trust-center
+  summary_line: SOC 2, GDPR
+slug: zomma
+tags:
+- Company
+- AI Agents
+- Computer Use
+- Automation
+- Fintech
+- Back Office
+- Reconciliation
+- KYC
+- Finance
+website: https://zommalabs.com
+---

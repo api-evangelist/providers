@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://abogenbio.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://abogenbio.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://abogenbio.com/contact/
+created: '2026-07-17'
+description: Abogen Biosciences (Suzhou Abogen Biosciences Co., Ltd. / 苏州艾博生物科技有限公司) is a clinical-stage biotechnology company founded in January 2019 and headquartered in Suzhou, China, dedicated to developing transformative medicines through messenger RNA (mRNA) innovation. The company has built full-scale in-house capabilities spanning the entire mRNA drug development cycle - protein engineering, mRNA sequence design and synthesis, proprietary lipid nanoparticle (LNP) delivery, formulation, and commercial-scale manufacturing. Its product pipeline covers infectious disease prevention and cancer immunotherapy, and it has advanced an EUA mRNA product along with additional clinical-stage candidates. Abogen is a portfolio company of the SoftBank Vision Fund. Abogen is a pharmaceutical / biotechnology company and does not currently publish a public developer platform, API, or SDK; this profile captures its corporate identity in the API Evangelist network.
+image: https://abogenbio.com/assets/img/logo.png
+layout: provider
+modified: '2026-07-17'
+name: Abogen
+nav: Providers
+network: true
+overview: 'Abogen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Biotechnology, Pharmaceuticals, and mRNA.
+
+
+  Abogen''s developer surface includes support and 2 more developer resources.'
+random_paper: 8
+score:
+  band: minimal
+  composite: 9.6
+  delta: -0.1
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 9.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 8.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: abogen
+tags:
+- Company
+- Health Tech
+- Biotechnology
+- Pharmaceuticals
+- mRNA
+- Therapeutics
+- Drug Development
+- Life Sciences
+website: https://abogenbio.com/
+---

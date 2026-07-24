@@ -1,0 +1,239 @@
+---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 72.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Flexai Agentic Access
+  operation_count: 8
+  slug: flexai-agentic-access
+  summary_line: 8 operations · 7 acting
+api_count: 7
+apis:
+- description: Speech-to-text and text-to-speech
+  name: FlexAI Audio API
+  slug: flexai-audio-api
+- description: Chat completions
+  name: FlexAI Chat API
+  slug: flexai-chat-api
+- description: Legacy text completions
+  name: FlexAI Completions API
+  slug: flexai-completions-api
+- description: Vector embeddings
+  name: FlexAI Embeddings API
+  slug: flexai-embeddings-api
+- description: Image generation
+  name: FlexAI Images API
+  slug: flexai-images-api
+- description: Model catalog
+  name: FlexAI Models API
+  slug: flexai-models-api
+- description: Video generation
+  name: FlexAI Video API
+  slug: flexai-video-api
+artifact_total: 13
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/flexai-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/flexai-agentic-access.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flex.ai/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.flex.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.flex.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.flex.ai/inference-api/reference/openai-compatibility
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.flex.ai/inference-api/quickstart
+- group: company
+  title: ''
+  type: Blog
+  url: https://flex.ai/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://flex.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://tokens.flex.ai/signup
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@flex.ai
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://flex.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://flex.ai/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.flex.ai
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://security.flex.ai
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/flexai-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/flexai-token-factory-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/flexai-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/flexai-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/flexai-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/flexai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/flexai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/flexai-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/flexai-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/flexai-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flexai-token-factory-overlay.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/flexai-plans.yml
+created: '2026-07-17'
+description: FlexAI is managed inference for builders — an OpenAI-compatible API (Token Factory) that provides a single API key across open models for text, code, reasoning, vision, embeddings, image, video, and audio, priced by usage per model. Beyond serverless inference the platform offers dedicated GPU endpoints, managed LoRA/QLoRA fine-tuning, distributed training, an Agent SDK (in trial), and a private AI cloud (AI Factory) deployable to VPC, on-prem, or air-gapped environments. Because the inference API is a drop-in OpenAI replacement, teams point the OpenAI SDK at the FlexAI base URL and change only the key. FlexAI is backed by Partech and profiled in the API Evangelist network for its developer surface and agent-native infrastructure.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexai.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: flexai-mcp.yml
+  slug: flexai-mcpyml
+modified: '2026-07-19'
+name: FlexAI
+nav: Providers
+network: true
+overview: 'FlexAI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 4 more. Tagged areas include Company, Ai/Ml, Artificial Intelligence, Machine Learning, and Inference.
+
+
+  FlexAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
+plans:
+- name: Flexai Plans
+  plan_count: 3
+  slug: flexai-plans
+random_paper: 21
+rate_limits:
+- limit_count: 3
+  name: Flexai Rate Limits
+  slug: flexai-rate-limits
+score:
+  band: strong
+  composite: 61.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 84.2
+    contract_quality: 59.4
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 47.4
+  previous_composite: 61.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Flexai Authentication
+  slug: flexai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Flexai Domain Security
+  slug: flexai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: flexai
+tags:
+- Company
+- Ai/Ml
+- Artificial Intelligence
+- Machine Learning
+- Inference
+- LLM
+- Large Language Models
+- OpenAI Compatible
+- GPU Compute
+- Embeddings
+- Fine-Tuning
+- Agents
+website: https://www.flex.ai/
+---

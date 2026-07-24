@@ -1,0 +1,193 @@
+---
+access_model:
+  confidence: medium
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Chroniclingamerica Agentic Access
+  operation_count: 11
+  slug: chroniclingamerica-agentic-access
+  summary_line: 11 operations
+api_count: 6
+apis:
+- description: Endpoints for retrieving digitization batch information.
+  name: Chronicling America Batches API
+  slug: chroniclingamerica-batches-api
+- description: Endpoints for retrieving newspaper issue metadata.
+  name: Chronicling America Issues API
+  slug: chroniclingamerica-issues-api
+- description: Endpoints for retrieving OCR text from digitized newspaper pages.
+  name: Chronicling America OCR API
+  slug: chroniclingamerica-ocr-api
+- description: Endpoints for retrieving individual newspaper page metadata and content.
+  name: Chronicling America Pages API
+  slug: chroniclingamerica-pages-api
+- description: Full-text search endpoints for newspaper pages and titles.
+  name: Chronicling America Search API
+  slug: chroniclingamerica-search-api
+- description: Endpoints for retrieving newspaper title bibliographic metadata.
+  name: Chronicling America Titles API
+  slug: chroniclingamerica-titles-api
+artifact_total: 13
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/chroniclingamerica-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/chroniclingamerica-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/chroniclingamerica-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://chroniclingamerica.loc.gov
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://chroniclingamerica.loc.gov/about/api/
+- group: company
+  title: ''
+  type: About
+  url: https://chroniclingamerica.loc.gov/about/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/LibraryOfCongress
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/librarycongress
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/library-of-congress
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.loc.gov/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.loc.gov/legal/privacy-policy/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chroniclingamerica-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chroniclingamerica-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/chroniclingamerica-finops.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/json-ld/chroniclingamerica.jsonld
+created: '2026-06-13'
+description: Chronicling America is a Library of Congress initiative providing free public access to a searchable database of historic American newspaper pages from 1770 to 1963. The platform hosts over 20 million digitized newspaper pages from hundreds of US newspapers contributed by institutions in the National Digital Newspaper Program (NDNP). The API exposes search, title, issue, batch, and OCR text endpoints with no authentication required, returning responses in JSON and Atom feed formats.
+finops:
+- name: Chroniclingamerica Finops
+  service_category: API
+  slug: chroniclingamerica-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chroniclingamerica.png
+jsonld:
+- class_count: 0
+  name: Chroniclingamerica Context
+  property_count: 0
+  slug: chroniclingamerica
+layout: provider
+modified: '2026-06-13'
+name: Chronicling America
+nav: Providers
+network: true
+overview: 'Chronicling America publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Issues API, OCR API, and 3 more. Tagged areas include Newspapers, Historical, Archives, Library of Congress, and Government.
+
+
+  The Chronicling America catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Chronicling America''s developer surface includes documentation and 14 more developer resources.'
+plans:
+- name: Chroniclingamerica Plans Pricing
+  plan_count: 1
+  slug: chroniclingamerica-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 3
+  name: Chroniclingamerica Rate Limits
+  slug: chroniclingamerica-rate-limits
+score:
+  band: thin
+  composite: 43.2
+  delta: 1.9
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 59.0
+    developer_ergonomics: 8.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 41.3
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Chroniclingamerica Domain Security
+  slug: chroniclingamerica-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Chroniclingamerica Vulnerability Disclosure
+  slug: chroniclingamerica-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: chroniclingamerica
+tags:
+- Newspapers
+- Historical
+- Archives
+- Library of Congress
+- Government
+- Digitized
+- OCR
+- Search
+- Cultural Heritage
+website: https://chroniclingamerica.loc.gov
+---

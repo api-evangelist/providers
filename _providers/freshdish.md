@@ -1,0 +1,64 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+created: '2026-07-17'
+description: FreshDish (Fresh Dish, Inc.) was a Santa Monica meal-kit delivery startup founded in 2012 by Steve Goldstein (formerly SVP/GM at Provide Commerce, the ProFlowers and Shari's Berries operator). Incubated by Science Inc. and seeded with $500,000 from Battery Ventures, it shipped ready-to-cook dinner kits with chef-designed recipes and pre-portioned ingredients (two-person kits at $24, family-of-four at $32, free shipping). The company was deadpooled and is no longer operating; the freshdish.com domain now resolves to a parked/for-sale lander. It was surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub. FreshDish never operated a developer program, public API, or SDKs, so there is no API surface to enrich.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshdish.png
+layout: provider
+modified: '2026-07-20'
+name: FreshDish
+nav: Providers
+network: true
+overview: FreshDish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Kits, Food Delivery, E-Commerce, and Consumer.
+random_paper: 42
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: freshdish
+tags:
+- Company
+- Meal Kits
+- Food Delivery
+- E-Commerce
+- Consumer
+- Defunct
+---

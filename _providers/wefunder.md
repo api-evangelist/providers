@@ -1,0 +1,261 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 83.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 24
+  human_in_the_loop: 3
+  name: Wefunder Agentic Access
+  operation_count: 48
+  slug: wefunder-agentic-access
+  summary_line: 48 operations · 24 acting · 3 human-in-the-loop
+api_count: 13
+apis:
+- description: The Activity API from Wefunder — 3 operation(s) for activity.
+  name: Wefunder Activity API
+  slug: wefunder-activity-api
+- description: The Attribution API from Wefunder — 2 operation(s) for attribution.
+  name: Wefunder Attribution API
+  slug: wefunder-attribution-api
+- description: The Attribution Partners API from Wefunder — 5 operation(s) for attribution partners.
+  name: Wefunder Attribution Partners API
+  slug: wefunder-attribution-partners-api
+- description: The Attribution Webhooks API from Wefunder — 5 operation(s) for attribution webhooks.
+  name: Wefunder Attribution Webhooks API
+  slug: wefunder-attribution-webhooks-api
+- description: The Campaigns API from Wefunder — 1 operation(s) for campaigns.
+  name: Wefunder Campaigns API
+  slug: wefunder-campaigns-api
+- description: The Explore API from Wefunder — 2 operation(s) for explore.
+  name: Wefunder Explore API
+  slug: wefunder-explore-api
+- description: The Intents API from Wefunder — 2 operation(s) for intents.
+  name: Wefunder Intents API
+  slug: wefunder-intents-api
+- description: The Investments API from Wefunder — 1 operation(s) for investments.
+  name: Wefunder Investments API
+  slug: wefunder-investments-api
+- description: The Syndicate Deals API from Wefunder — 5 operation(s) for syndicate deals.
+  name: Wefunder Syndicate Deals API
+  slug: wefunder-syndicate-deals-api
+- description: The Syndicate Members API from Wefunder — 12 operation(s) for syndicate members.
+  name: Wefunder Syndicate Members API
+  slug: wefunder-syndicate-members-api
+- description: The Syndicate Statistics API from Wefunder — 1 operation(s) for syndicate statistics.
+  name: Wefunder Syndicate Statistics API
+  slug: wefunder-syndicate-statistics-api
+- description: The Syndicates API from Wefunder — 2 operation(s) for syndicates.
+  name: Wefunder Syndicates API
+  slug: wefunder-syndicates-api
+- description: The Users API from Wefunder — 1 operation(s) for users.
+  name: Wefunder Users API
+  slug: wefunder-users-api
+artifact_total: 19
+asyncapis:
+- description: ''
+  name: Wefunder Webhooks
+  slug: wefunder-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wefunder-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wefunder.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.wefunder.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.wefunder.com/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/Wefunder/wefunder-node#quickstart-server-to-server
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.wefunder.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://wefunder.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Wefunder
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://wefunder.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://wefunder.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://wefunder.com/terms#privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://wefunder.com/signup
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wefunder-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/wefunder-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/wefunder-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wefunder-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wefunder-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wefunder-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wefunder-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wefunder-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/wefunder-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wefunder-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/wefunder-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/wefunder-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wefunder-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/wefunder-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wefunder-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/wefunder-scopes.yml
+created: '2026-07-17'
+description: Wefunder is the largest SEC-registered funding portal, the home of the Community Round — a Public Benefit Corporation (YC W13) that has helped 4,400+ founders raise over $1B from more than one million everyday investors since 2012, with notable raises from Mercury, Substack, and Replit. Its OAuth 2.0 Wefunder API v2 (api.wefunder.com) exposes public offerings, investments, campaigns, syndicates, write intents, and campaign attribution with signed webhooks, backed by an official TypeScript SDK (@wefunder/sdk) and PKCE-first authorization.
+image: https://wefunder.com/favicon.ico
+layout: provider
+mcp_servers:
+- description: ''
+  name: wefunder-mcp.yml
+  slug: wefunder-mcpyml
+modified: '2026-07-21'
+name: Wefunder
+nav: Providers
+network: true
+overview: 'Wefunder publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Attribution API, Attribution Partners API, and 10 more. Tagged areas include Company, Crowdfunding, Equity Crowdfunding, Investing, and Fintech.
+
+
+  The Wefunder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+random_paper: 48
+scopes:
+- name: Wefunder Scopes
+  scope_count: 16
+  slug: wefunder-scopes
+  summary_line: 16 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 53.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 71.9
+    developer_ergonomics: 71.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 13.2
+  previous_composite: 53.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Wefunder Authentication
+  slug: wefunder-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Wefunder Domain Security
+  slug: wefunder-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: wefunder
+tags:
+- Company
+- Crowdfunding
+- Equity Crowdfunding
+- Investing
+- Fintech
+- Startups
+- Fundraising
+- Syndicates
+- Regulation Crowdfunding
+website: https://wefunder.com
+---

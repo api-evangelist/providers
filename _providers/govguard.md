@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/govguard-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://govguard.com
+- group: company
+  title: ''
+  type: About
+  url: https://govguard.com/#about
+- group: operate
+  title: ''
+  type: Support
+  url: https://govguard.com/contactus
+- group: start
+  title: ''
+  type: Login
+  url: https://govguard.com/app
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://govguard.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://govguard.com/privacypolicy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/govguard
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/gov_guard
+- group: company
+  title: ''
+  type: Crunchbase
+  url: https://www.ycombinator.com/companies/govguard
+created: '2026-07-17'
+description: GovGuard is a Y Combinator-backed (Spring 2026) GovTech company building AI infrastructure for government agencies, starting with Freedom of Information Act (FOIA) request automation. Its AI agents route incoming public-records requests, search across municipal archives (emails, meeting minutes, PDFs, and shared drives), flag personally identifiable information and other exempt material for redaction against the relevant state exemption codes, and draft response letters for clerk review while maintaining a complete audit trail. Agencies retain full ownership and control of all records and metadata, and GovGuard states that it does not train models on client data. The company was founded by Aditya Sabharwal and Gleb Hulting and is based in San Francisco.
+image: https://govguard.com/logo.png
+layout: provider
+modified: '2026-07-19'
+name: GovGuard
+nav: Providers
+network: true
+overview: 'GovGuard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, GovTech, FOIA, and Public Records.
+
+
+  GovGuard''s developer surface includes support and 9 more developer resources.'
+random_paper: 47
+score:
+  band: emerging
+  composite: 16.8
+  delta: 2.3
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.5
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Govguard Domain Security
+  slug: govguard-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: govguard
+tags:
+- Company
+- Government
+- GovTech
+- FOIA
+- Public Records
+- Records Management
+- Redaction
+- Compliance
+- Artificial Intelligence
+- AI Agents
+website: https://govguard.com
+---

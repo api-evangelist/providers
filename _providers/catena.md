@@ -1,0 +1,169 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: true
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 18.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Catena's banking and governance API for AI agents - agent identity, custodial and non-custodial accounts, fiat and stablecoin payments, yield, and policy-enforced spending controls. Currently in Priva
+  name: Catena API
+  slug: catena-api
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/catena-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://catena.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/catena-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://catena.com/
+- group: company
+  title: ''
+  type: About
+  url: https://catena.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://catena.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.catena.com
+- group: start
+  title: ''
+  type: Login
+  url: https://app.catena.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://catena.com/legal/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://catena.com/legal/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/catena-labs
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:hello@catena.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/catena-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/catena-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/catena-security.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/catena-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/catena-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/catena-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/catena-mcp.yml
+created: '2026-07-17'
+description: 'Catena (Catena Labs) is building a regulated banking and governance platform for AI agents. The platform gives agents verified identities, custodial and non-custodial accounts, fiat and stablecoin payment rails across ten chains, yield on idle assets, and policy-enforced spending controls. For the humans and businesses deploying those agents it is a control plane: set policy, cap spending, restrict counterparties, audit every movement, and halt activity when needed. Agents access the platform through an API, a CLI, an MCP server, and a Skills framework. Founded by Sean Neville (CEO) and Matt Venables (CTO) - both Circle co-founders and creators of USDC - Catena has filed for a National Trust Bank charter with the OCC and raised $48M total ($30M Series A co-led by a16z crypto and Acrew, with QED, Coinbase Ventures, General Catalyst, Breyer Capital, IDG Capital, Oak HC/FT, and Pillar).'
+image: https://catena.com/images/og/pages/home.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: catena-mcp.yml
+  slug: catena-mcpyml
+modified: '2026-07-18'
+name: Catena
+nav: Providers
+network: true
+overview: 'Catena publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Agentic Finance, AI Agents, and Payments.
+
+
+  Catena''s developer surface includes engineering blog, signup flow, support, CLI, and 15 more developer resources.'
+random_paper: 8
+score:
+  band: emerging
+  composite: 26.8
+  delta: 3.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 23.8
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 43.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Catena Domain Security
+  slug: catena-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Catena Vulnerability Disclosure
+  slug: catena-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: catena
+tags:
+- Company
+- Banking
+- Agentic Finance
+- AI Agents
+- Payments
+- Stablecoins
+- Governance
+- Fintech
+website: https://catena.com/
+---

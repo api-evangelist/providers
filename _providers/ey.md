@@ -1,0 +1,123 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ey-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ernstandyoung
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ey.com/
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://www.ey.com/en_gl/about-us
+- group: start
+  title: ''
+  type: ClientPortal
+  url: https://www.eyclientportal.com/
+- group: other
+  title: ''
+  type: Insights
+  url: https://www.ey.com/en_gl/insights
+- group: company
+  title: ''
+  type: News
+  url: https://www.ey.com/en_gl/newsroom
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.ey.com/en_gl/careers
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://www.ey.com/en_gl/contact-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ey.com/en_gl/privacy-statement
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ey.com/en_gl/legal-statement
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ey.com/en_gl/newsroom
+created: '2026-05-05'
+description: One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ey.png
+layout: provider
+modified: '2026-05-16'
+name: EY
+nav: Providers
+network: true
+overview: 'EY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Accounting, Audit, Tax, and Advisory.
+
+
+  EY''s developer surface includes product news, engineering blog, and 10 more developer resources.'
+random_paper: 18
+score:
+  band: minimal
+  composite: 10.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png
+security:
+- kind: domain-security
+  name: Ey Domain Security
+  slug: ey-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: ey
+tags:
+- Consulting
+- Accounting
+- Audit
+- Tax
+- Advisory
+- Professional Services
+website: https://www.ey.com/
+---

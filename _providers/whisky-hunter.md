@@ -1,0 +1,196 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Whisky Hunter Agentic Access
+  operation_count: 3
+  slug: whisky-hunter-agentic-access
+  summary_line: 3 operations
+api_count: 2
+apis:
+- description: The Auctions API from Whisky Hunter — 1 operation(s) for auctions.
+  name: Whisky Hunter Auctions API
+  slug: whisky-hunter-auctions-api
+- description: The Distilleries API from Whisky Hunter — 2 operation(s) for distilleries.
+  name: Whisky Hunter Distilleries API
+  slug: whisky-hunter-distilleries-api
+artifact_total: 18
+collections:
+- collection_type: open
+  name: Whisky Hunter API
+  slug: open-whisky-hunter
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/whisky-hunter-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/whisky-hunter-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://whiskyhunter.net
+- group: other
+  title: ''
+  type: API
+  url: https://whiskyhunter.net/api/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/openapi/whisky-hunter-openapi.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/vocabulary/whisky-hunter-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/json-ld/whisky-hunter-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/rules/whisky-hunter-rules.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://whiskyhunter.net/blog/
+created: '2025-02-24'
+description: Whisky Hunter is a market research and data platform for whisky collectors, investors, traders, and enthusiasts that aggregates historical auction data from 28 online whisky auction sites into a single database. It tracks trading volumes, winning bids, lot counts, and per-distillery statistics. All trading volumes and winning bids are stated in GBP (£). The Whisky Hunter API provides free, public access to this auction data with no authentication required.
+examples:
+- key_count: 2
+  name: Whisky Hunter Get Auctions Data Example
+  slug: whisky-hunter-get-auctions-data-example
+- key_count: 2
+  name: Whisky Hunter Get Distillery Data Example
+  slug: whisky-hunter-get-distillery-data-example
+- key_count: 2
+  name: Whisky Hunter List Distilleries Example
+  slug: whisky-hunter-list-distilleries-example
+finops:
+- name: Whisky Hunter Finops
+  service_category: API
+  slug: whisky-hunter-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whisky-hunter.png
+json_schemas:
+- name: Whisky Hunter Auction Data Point
+  property_count: 9
+  slug: whisky-hunter-auction-data
+- name: Whisky Hunter Distillery
+  property_count: 3
+  slug: whisky-hunter-distillery
+json_structures:
+- name: Whisky Hunter Auction Data Structure
+  property_count: 0
+  slug: whisky-hunter-auction-data-structure
+- name: Whisky Hunter Distillery Structure
+  property_count: 0
+  slug: whisky-hunter-distillery-structure
+jsonld:
+- class_count: 40
+  name: Whisky Hunter Context
+  property_count: 0
+  slug: whisky-hunter-context
+layout: provider
+modified: '2026-05-19'
+name: Whisky Hunter
+nav: Providers
+network: true
+overview: 'Whisky Hunter publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auctions API and Distilleries API. Tagged areas include Whisky, Spirits, Auctions, Market Data, and Collectors.
+
+
+  The Whisky Hunter catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Whisky Hunter''s developer surface includes engineering blog and 8 more developer resources.'
+plans:
+- name: Whisky Hunter Plans Pricing
+  plan_count: 3
+  slug: whisky-hunter-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 5
+  name: Whisky Hunter Rate Limits
+  slug: whisky-hunter-rate-limits
+rules:
+- name: Whisky Hunter API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: whisky-hunter-jsonschema-spectral-rules
+- name: Whisky Hunter API Rules
+  rule_count: 9
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 7
+  slug: whisky-hunter-rules
+score:
+  band: thin
+  composite: 41.1
+  delta: -3.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 61.1
+    developer_ergonomics: 2.2
+    discoverability: 60.0
+    governance: 86.8
+    operational_transparency: 31.6
+  previous_composite: 44.1
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/screenshots/whisky-hunter-2026-06-20T201439.png
+security:
+- kind: domain-security
+  name: Whisky Hunter Domain Security
+  slug: whisky-hunter-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: whisky-hunter
+tags:
+- Whisky
+- Spirits
+- Auctions
+- Market Data
+- Collectors
+- Investors
+website: https://whiskyhunter.net
+---

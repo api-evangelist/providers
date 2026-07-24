@@ -1,0 +1,295 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 77.9
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 5
+  name: Prometeo Agentic Access
+  operation_count: 26
+  slug: prometeo-agentic-access
+  summary_line: 26 operations · 14 acting · 5 human-in-the-loop
+api_count: 6
+apis:
+- description: Government / fiscal data access - Colombia DIAN, Mexico SAT and CEP (payment receipt), and Uruguay BCU (central bank) filings and statements. Sandbox host fiscal.sandbox.prometeoapi.com.
+  name: Prometeo Fiscal API
+  slug: prometeo-fiscal-api
+- description: Real-time bank account verification / ownership checks.
+  name: Prometeo Account Validation API
+  slug: prometeo-account-validation-api
+- description: Bank account access, movements, transfers, credit cards, providers.
+  name: Prometeo Banking API
+  slug: prometeo-banking-api
+- description: Pay-in intents, payouts over local rails, and FX exchange.
+  name: Prometeo Cross-Border API
+  slug: prometeo-cross-border-api
+- description: Mexico CURP query and reverse query.
+  name: Prometeo Identity API
+  slug: prometeo-identity-api
+- description: Account-to-account (open banking initiated) payment intents.
+  name: Prometeo Payment API
+  slug: prometeo-payment-api
+artifact_total: 16
+asyncapis:
+- description: ''
+  name: Prometeo Webhooks
+  slug: prometeo-webhooks
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/prometeo-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/prometeo-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/prometeo-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/prometeo-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/prometeo-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/prometeoapi
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/prometeoapi
+- group: company
+  title: ''
+  type: Website
+  url: https://prometeoapi.com/en
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.prometeoapi.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/prometeo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/prometeo-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/prometeo-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://prometeoapi.com/en/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/prometeo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/prometeo-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/prometeo-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/prometeo-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/prometeo-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/prometeo-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/prometeo-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/prometeo-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/prometeo-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/prometeo-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/prometeo-conventions.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/prometeo-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/prometeo-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/prometeo-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/prometeo-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.prometeoapi.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.prometeoapi.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.prometeoapi.com/docs/gu%C3%ADa-r%C3%A1pida
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@prometeoapi.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://prometeoapi.com/en/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://prometeoapi.com/accounts/create/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://prometeoapi.com/en/legal/msa
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://prometeoapi.com/en/legal/privacy-policy
+- group: build
+  title: ''
+  type: Postman
+  url: collections/prometeo.postman_collection.json
+created: '2026-07-17'
+description: Prometeo is a LatAm-founded (Uruguay) fintech infrastructure company offering a single financial API over 7,500+ banking connections across the Americas. Products span banking data access, real-time account validation, cross-border pay-in / payout / FX, account-to-account payments, Mexican CURP identity, and fiscal data (DIAN / SAT / CEP / BCU). All products authenticate with an X-API-Key header and offer a mock-data sandbox.
+finops:
+- name: Prometeo Finops
+  service_category: Financial Services
+  slug: prometeo-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prometeo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: prometeo-mcp.yml
+  slug: prometeo-mcpyml
+modified: '2026-07-17'
+name: Prometeo
+nav: Providers
+network: true
+overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 2 more. Tagged areas include Open Banking, Payments, FinTech, LatAm, and Financial Data.
+
+
+  The Prometeo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Prometeo''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 31 more developer resources.'
+plans:
+- name: Prometeo Plans Pricing
+  plan_count: 2
+  slug: prometeo-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 2
+  name: Prometeo Rate Limits
+  slug: prometeo-rate-limits
+score:
+  band: strong
+  composite: 67.8
+  delta: 1.9
+  facets:
+    commercial_clarity: 89.5
+    contract_quality: 60.9
+    developer_ergonomics: 84.8
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 44.7
+  previous_composite: 65.9
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 78.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Prometeo Authentication
+  slug: prometeo-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Prometeo Domain Security
+  slug: prometeo-domain-security
+  summary_line: no transport/DNS hardening detected
+- kind: vulnerability-disclosure
+  name: Prometeo Vulnerability Disclosure
+  slug: prometeo-vulnerability-disclosure
+  summary_line: contact published
+- kind: trust-center
+  name: Prometeo Trust Center
+  slug: prometeo-trust-center
+  summary_line: ISO 27001, SOC 2, GDPR
+slug: prometeo
+tags:
+- Open Banking
+- Payments
+- FinTech
+- LatAm
+- Financial Data
+- Account Validation
+- Cross-Border
+website: https://prometeoapi.com/en
+---

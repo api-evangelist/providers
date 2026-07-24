@@ -1,0 +1,327 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 81.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 45
+  human_in_the_loop: 0
+  name: Appcharge Agentic Access
+  operation_count: 63
+  slug: appcharge-agentic-access
+  summary_line: 63 operations · 45 acting
+api_count: 17
+apis:
+- description: The Assets API from Appcharge — 2 operation(s) for assets.
+  name: Appcharge Assets API
+  slug: appcharge-assets-api
+- description: The Authentication API from Appcharge — 2 operation(s) for authentication.
+  name: Appcharge Authentication API
+  slug: appcharge-authentication-api
+- description: The Badges API from Appcharge — 2 operation(s) for badges.
+  name: Appcharge Badges API
+  slug: appcharge-badges-api
+- description: The Coupons API from Appcharge — 2 operation(s) for coupons.
+  name: Appcharge Coupons API
+  slug: appcharge-coupons-api
+- description: The General API from Appcharge — 9 operation(s) for general.
+  name: Appcharge General API
+  slug: appcharge-general-api
+- description: The Localization API from Appcharge — 1 operation(s) for localization.
+  name: Appcharge Localization API
+  slug: appcharge-localization-api
+- description: The Offer Designs API from Appcharge — 2 operation(s) for offer designs.
+  name: Appcharge Offer Designs API
+  slug: appcharge-offer-designs-api
+- description: The Offers API from Appcharge — 5 operation(s) for offers.
+  name: Appcharge Offers API
+  slug: appcharge-offers-api
+- description: The Orders API from Appcharge — 1 operation(s) for orders.
+  name: Appcharge Orders API
+  slug: appcharge-orders-api
+- description: The Personalization API from Appcharge — 1 operation(s) for personalization.
+  name: Appcharge Personalization API
+  slug: appcharge-personalization-api
+- description: The Popups API from Appcharge — 1 operation(s) for popups.
+  name: Appcharge Popups API
+  slug: appcharge-popups-api
+- description: The Portal Content API from Appcharge — 4 operation(s) for portal content.
+  name: Appcharge Portal Content API
+  slug: appcharge-portal-content-api
+- description: The Products API from Appcharge — 2 operation(s) for products.
+  name: Appcharge Products API
+  slug: appcharge-products-api
+- description: The Promo Codes API from Appcharge — 3 operation(s) for promo codes.
+  name: Appcharge Promo Codes API
+  slug: appcharge-promo-codes-api
+- description: The Rolling Offers API from Appcharge — 2 operation(s) for rolling offers.
+  name: Appcharge Rolling Offers API
+  slug: appcharge-rolling-offers-api
+- description: The Store Refresh Popups API from Appcharge — 2 operation(s) for store refresh popups.
+  name: Appcharge Store Refresh Popups API
+  slug: appcharge-store-refresh-popups-api
+- description: The Triggered Popups API from Appcharge — 2 operation(s) for triggered popups.
+  name: Appcharge Triggered Popups API
+  slug: appcharge-triggered-popups-api
+artifact_total: 26
+asyncapis:
+- description: Appcharge sends real-time, structured webhook events (Events V2) to a publisher-registered HTTPS endpoint for order lifecycle, web store and game portal interactions, logins, and disputes. Each reques
+  name: Appcharge Events (V2) Webhooks
+  slug: appcharge-events-asyncapi
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://appcharge.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.appcharge.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.appcharge.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.appcharge.com/api-reference/introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.appcharge.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.appcharge.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Appcharge
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.appcharge.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.appcharge.com/tc
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.appcharge.com/privacy-policy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/appcharge-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/appcharge-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/appcharge-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/appcharge-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/appcharge-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/appcharge-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://appcharge.instatus.com
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.appcharge.com/api-reference/versioning-policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/appcharge-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/appcharge-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/appcharge-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/appcharge-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/appcharge-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/appcharge-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/appcharge-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/appcharge-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appcharge-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/appcharge-well-known.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/appcharge-events-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/appcharge-events-asyncapi.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/appcharge-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.appcharge.com/merchant-of-record/security/about-security-at-appcharge
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/appcharge-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/appcharge-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://docs.appcharge.com/merchant-of-record/security/about-security-at-appcharge
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/appcharge-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/appcharge-agentic-access.yml
+created: '2026-07-17'
+description: Appcharge is a monetization and payments platform (merchant of record) for mobile game publishers. It lets studios sell in-game offers direct-to-consumer outside the app stores through a hosted web store, a mobile Checkout SDK, and Payment Links — covering checkout sessions, price localization, coupons and promo codes, refunds, web-store offers (bundles, daily bonuses, rolling/special offers, progress bars, reward calendars, triggered popups), offer components, game-portal content, media assets, translations, financial and analytics reporting, and player personalization/authentication callbacks. The REST API authenticates with an x-publisher-token API-key header; webhooks and Appcharge-to-publisher callbacks are HMAC-SHA256 signed with a replay window; and a hosted MCP server exposes agent access over OAuth 2.0 (authorization_code + PKCE).
+image: https://appcharge.com/sharing-whatsapp.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: appcharge-mcp.yml
+  slug: appcharge-mcpyml
+modified: '2026-07-18'
+name: Appcharge
+nav: Providers
+network: true
+overview: 'Appcharge publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Authentication API, Badges API, and 14 more. Tagged areas include Company, Payments, Monetization, Merchant of Record, and Mobile Games.
+
+
+  The Appcharge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Appcharge''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, changelog, and 31 more developer resources.'
+random_paper: 21
+rate_limits:
+- limit_count: 1
+  name: Appcharge Rate Limits
+  slug: appcharge-rate-limits
+scopes:
+- name: Appcharge Scopes
+  scope_count: 2
+  slug: appcharge-scopes
+  summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 66.9
+  delta: 5.8
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 64.9
+    developer_ergonomics: 69.6
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 84.2
+  previous_composite: 61.1
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 100.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: authentication
+  name: Appcharge Authentication
+  slug: appcharge-authentication
+  summary_line: apiKey/oauth2/mutualTLS/hmac-signature · 4 schemes
+- kind: domain-security
+  name: Appcharge Domain Security
+  slug: appcharge-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Appcharge Vulnerability Disclosure
+  slug: appcharge-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Appcharge Trust Center
+  slug: appcharge-trust-center
+  summary_line: PCI DSS Level 1, SOC 2 Type II
+slug: appcharge
+tags:
+- Company
+- Payments
+- Monetization
+- Merchant of Record
+- Mobile Games
+- Gaming
+- Checkout
+- In-Game Purchases
+- Web Store
+- eCommerce
+website: https://appcharge.com/
+---

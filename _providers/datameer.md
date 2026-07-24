@@ -1,0 +1,121 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.datameer.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://documentation.datameer.com/datameer/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://quickstarts.snowflake.com/guide/getting_started_datameer/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.datameer.com/get-started/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.datameer.com/pricing/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.datameer.com/hc/en-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.datameer.com/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.datameer.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.datameer.com/privacy-policy/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.datameer.cloud/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/datameer-domain-security.yml
+created: '2026-07-17'
+description: Datameer is a business analytics and data transformation platform purpose-built to run natively inside Snowflake. It lets data engineers, warehouse administrators, and business users collaboratively prep, govern, and deliver analytics-ready data through visual no-code/low-code workflows, SQL, version control, data-quality checks, pipeline automation, cost monitoring, and AI-assisted documentation. Datameer operates as a SaaS application layered over Snowflake rather than exposing a public developer REST API; this profile, originally surfaced as a Kleiner Perkins portfolio lead, has been enriched from the company's public web surface (documentation, trust center, legal, and blog).
+image: https://www.datameer.com/wp-content/uploads/2021/08/Datameer-Logo-Navy-Blue-with-Green-Dot.svg
+layout: provider
+modified: '2026-07-18'
+name: Datameer
+nav: Providers
+network: true
+overview: 'Datameer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Analytics, Data, and Data Transformation.
+
+
+  Datameer''s developer surface includes documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 5 more developer resources.'
+random_paper: 19
+score:
+  band: emerging
+  composite: 22.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 22.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Datameer Domain Security
+  slug: datameer-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: datameer
+tags:
+- Company
+- Enterprise
+- Analytics
+- Data
+- Data Transformation
+- Snowflake
+- Business Intelligence
+- Data Engineering
+- Data Quality
+website: https://www.datameer.com/
+---

@@ -1,0 +1,111 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://replenysh.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/replenysh-llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://replenysh.com/blog
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.replenysh.com/en/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/replenysh
+- group: start
+  title: ''
+  type: Login
+  url: https://app.replenysh.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://replenysh.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://replenysh.com/terms
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/replenysh-domain-security.yml
+created: '2026-07-17'
+description: Replenysh is an enterprise circularity platform that runs circular supply chains for brands and recovery facilities. It routes, recovers, verifies, and optimizes material recovery flows across a network of 5,000+ partners, giving enterprises a single control layer for reverse logistics with audit-ready chain-of-custody, pricing, settlement, and compliance documentation. Customers include PepsiCo, Disney, Marriott, and Live Nation. Backed by Kindred Ventures and M13. Surfaced as a portfolio-lead stub and enriched via the API Evangelist pipeline.
+image: https://replenysh.com/og.png
+layout: provider
+modified: '2026-07-20'
+name: Replenysh
+nav: Providers
+network: true
+overview: 'Replenysh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Circular Economy, Reverse Logistics, Recycling, and Supply Chain.
+
+
+  Replenysh''s developer surface includes engineering blog and 8 more developer resources.'
+random_paper: 17
+score:
+  band: emerging
+  composite: 15.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 15.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Replenysh Domain Security
+  slug: replenysh-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: replenysh
+tags:
+- Company
+- Circular Economy
+- Reverse Logistics
+- Recycling
+- Supply Chain
+- Sustainability
+- Materials
+website: https://replenysh.com/
+---

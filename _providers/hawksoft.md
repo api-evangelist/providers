@@ -1,0 +1,169 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Hawksoft Agentic Access
+  operation_count: 9
+  slug: hawksoft-agentic-access
+  summary_line: 9 operations · 4 acting
+api_count: 5
+apis:
+- description: Agencies and their offices
+  name: HawkSoft Agencies API
+  slug: hawksoft-agencies-api
+- description: File attachments on client records
+  name: HawkSoft Attachments API
+  slug: hawksoft-attachments-api
+- description: Client records including contacts, policies, coverages, vehicles, and drivers
+  name: HawkSoft Clients API
+  slug: hawksoft-clients-api
+- description: Write-back activity log notes
+  name: HawkSoft Log Entries API
+  slug: hawksoft-log-entries-api
+- description: Payment receipts on client records
+  name: HawkSoft Receipts API
+  slug: hawksoft-receipts-api
+artifact_total: 11
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/hawksoft-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hawksoft-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hawksoft-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.hawksoft.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/hawksoft-inc-
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://partner.hawksoft.app/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.hawksoft.com/about/partners/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hawksoft.com/terms/api/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.hawksoft.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hawksoft-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hawksoft-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/hawksoft-finops.yml
+created: '2026-07-10'
+description: HawkSoft is an insurance agency management system (AMS) for independent property and casualty agencies, covering client management, policy tracking, documentation, accounting, and workflow automation. HawkSoft operates a gated Partner API program that lets vetted third-party technology vendors and agencies read agency, office, client, contact, policy, coverage, vehicle, driver, and log data, and (with 2-way integration) write activities back into HawkSoft as log notes, attachments, and payment receipts. The Partner API documentation is publicly readable at partner.hawksoft.app, but credentials are issued only to approved API Partners, and an agency must opt in to share its data. Endpoints are versioned (V1.8 and V3.0, with V3.0 built on the HawkSoft 6 cloud data model).
+finops:
+- name: Hawksoft Finops
+  service_category: Insurance Software
+  slug: hawksoft-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hawksoft.png
+layout: provider
+modified: '2026-07-10'
+name: HawkSoft
+nav: Providers
+network: true
+overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, InsurTech, and Property and Casualty.
+
+
+  HawkSoft''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
+plans:
+- name: Hawksoft Plans Pricing
+  plan_count: 2
+  slug: hawksoft-plans-pricing
+random_paper: 4
+rate_limits:
+- limit_count: 3
+  name: Hawksoft Rate Limits
+  slug: hawksoft-rate-limits
+score:
+  band: thin
+  composite: 41.4
+  delta: -1.1
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 54.2
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 42.5
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 34.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Hawksoft Authentication
+  slug: hawksoft-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Hawksoft Domain Security
+  slug: hawksoft-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: hawksoft
+tags:
+- Insurance
+- Agency Management System
+- AMS
+- InsurTech
+- Property and Casualty
+- Partner API
+- Gated API
+website: https://www.hawksoft.com
+---

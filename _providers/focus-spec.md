@@ -1,0 +1,131 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: FOCUS defines a common normalized data schema for cloud and technology billing data. The specification is delivered as a set of normative documents and supporting artifacts (column library, requiremen
+  name: FOCUS (FinOps Open Cost and Usage Specification)
+  slug: focus-spec
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/focus-spec-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://focus.finops.org/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://focus.finops.org/
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/focus-billing-record-schema.json
+created: '2026-03-27'
+description: FOCUS, the FinOps Open Cost and Usage Specification, is an open standard maintained under the FinOps Foundation that normalizes cost and usage data across cloud, SaaS, data center, and other technology vendors. FOCUS defines a common data schema, a controlled vocabulary of column names, allowed values, and pricing attributes so that practitioners can apply a consistent set of FinOps practices regardless of which provider generated the underlying billing dataset. FOCUS is purely a data specification rather than a REST API; conforming providers expose exports of their billing data in the FOCUS format, and tooling consumes those exports against the published column library, data model, and validator.
+finops:
+- name: Focus Spec Finops
+  service_category: API
+  slug: focus-spec-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/focus-spec.png
+json_schemas:
+- name: FOCUS Billing Record
+  property_count: 47
+  slug: focus-billing-record
+layout: provider
+modified: '2026-04-28'
+name: FOCUS (FinOps Open Cost and Usage Specification)
+nav: Providers
+network: true
+overview: 'FOCUS (FinOps Open Cost and Usage Specification) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Cost and Usage, FinOps, Open Standard, and Specification.
+
+
+  The FOCUS (FinOps Open Cost and Usage Specification) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  FOCUS (FinOps Open Cost and Usage Specification)''s developer surface includes documentation and 5 more developer resources.'
+plans:
+- name: Focus Spec Plans Pricing
+  plan_count: 3
+  slug: focus-spec-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 5
+  name: Focus Spec Rate Limits
+  slug: focus-spec-rate-limits
+rules:
+- name: FOCUS (FinOps Open Cost and Usage Specification) API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: focus-spec-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 34.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 11.3
+    developer_ergonomics: 8.7
+    discoverability: 80.0
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 34.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/screenshots/focus-spec-2026-06-20T181352.png
+security:
+- kind: domain-security
+  name: Focus Spec Domain Security
+  slug: focus-spec-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: focus-spec
+tags:
+- Billing
+- Cost and Usage
+- FinOps
+- Open Standard
+- Specification
+website: https://focus.finops.org/
+---

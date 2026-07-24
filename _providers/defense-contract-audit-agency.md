@@ -1,0 +1,113 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 5
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-defense-contract-audit-agency
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/defense-contract-audit-agency-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/defense-contract-audit-agency
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dcaa.mil
+- group: company
+  title: ''
+  type: About
+  url: https://www.dcaa.mil/About/
+- group: other
+  title: ''
+  type: Publications
+  url: https://www.dcaa.mil/Guidance/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.dcaa.mil/Contact/
+created: '2024-12-03'
+description: The Defense Contract Audit Agency (DCAA), under the authority, direction, and control of the Under Secretary of Defense (Comptroller), provides audit and financial advisory services to Department of Defense and other federal entities responsible for acquisition and contract administration. DCAA publishes guidance, audit programs, and reports through its website but does not currently expose a public developer API.
+finops:
+- name: Defense Contract Audit Agency Finops
+  service_category: API
+  slug: defense-contract-audit-agency-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-contract-audit-agency.png
+layout: provider
+modified: '2026-04-28'
+name: Defense Contract Audit Agency
+nav: Providers
+network: true
+overview: Defense Contract Audit Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, Audit, and Contract Audit.
+plans:
+- name: Defense Contract Audit Agency Plans Pricing
+  plan_count: 1
+  slug: defense-contract-audit-agency-plans-pricing
+random_paper: 37
+rate_limits:
+- limit_count: 2
+  name: Defense Contract Audit Agency Rate Limits
+  slug: defense-contract-audit-agency-rate-limits
+score:
+  band: minimal
+  composite: 14.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 60.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 14.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/screenshots/defense-contract-audit-agency-2026-06-20T175820.png
+security:
+- kind: domain-security
+  name: Defense Contract Audit Agency Domain Security
+  slug: defense-contract-audit-agency-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: defense-contract-audit-agency
+tags:
+- Federal Government
+- Defense
+- Department of Defense
+- Audit
+- Contract Audit
+- Financial
+website: https://www.dcaa.mil
+---

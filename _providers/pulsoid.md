@@ -1,0 +1,192 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 1
+  name: Pulsoid Agentic Access
+  operation_count: 15
+  slug: pulsoid-agentic-access
+  summary_line: 15 operations · 8 acting · 1 human-in-the-loop
+api_count: 8
+apis:
+- description: The Features API from Pulsoid — 1 operation(s) for features.
+  name: Pulsoid Features API
+  slug: pulsoid-features-api
+- description: The Geometry Dash API from Pulsoid — 1 operation(s) for geometry dash.
+  name: Pulsoid Geometry Dash API
+  slug: pulsoid-geometry-dash-api
+- description: The Heart Rate API from Pulsoid — 2 operation(s) for heart rate.
+  name: Pulsoid Heart Rate API
+  slug: pulsoid-heart-rate-api
+- description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
+  name: Pulsoid OAuth2 API
+  slug: pulsoid-oauth2-api
+- description: The Profile API from Pulsoid — 1 operation(s) for profile.
+  name: Pulsoid Profile API
+  slug: pulsoid-profile-api
+- description: The Statistics API from Pulsoid — 1 operation(s) for statistics.
+  name: Pulsoid Statistics API
+  slug: pulsoid-statistics-api
+- description: The Token API from Pulsoid — 1 operation(s) for token.
+  name: Pulsoid Token API
+  slug: pulsoid-token-api
+- description: The Widgets API from Pulsoid — 2 operation(s) for widgets.
+  name: Pulsoid Widgets API
+  slug: pulsoid-widgets-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Pulsoid API
+  slug: open-pulsoid
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pulsoid-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pulsoid-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pulsoid-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/pulsoid-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/pulsoid
+- group: company
+  title: ''
+  type: Website
+  url: https://pulsoid.net/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.pulsoid.net/
+- group: start
+  title: ''
+  type: Signup
+  url: https://pulsoid.net/auth/sign_up
+- group: start
+  title: ''
+  type: Login
+  url: https://pulsoid.net/auth/sign_in
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.pulsoid.net/access-token-and-authentication/about-access-token
+- group: auth
+  title: ''
+  type: OAuth
+  url: https://docs.pulsoid.net/access-token-and-authentication/oauth-authorization-code-grant
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Pulsoid
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.pulsoid.net/llms.txt
+created: '2025-02-17'
+description: Pulsoid enables real-time heart rate data transmission from peripherals (BLE heart rate monitors, smartwatches, etc.) to clients. The Pulsoid API allows reading and writing real-time heart rate data, accessing statistics, and managing widgets and profile.
+finops:
+- name: Pulsoid Finops
+  service_category: API
+  slug: pulsoid-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulsoid.png
+layout: provider
+modified: '2026-05-19'
+name: Pulsoid
+nav: Providers
+network: true
+overview: 'Pulsoid publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Features API, Geometry Dash API, Heart Rate API, and 5 more. Tagged areas include Heart Rate, Health, Wearables, Real-Time, and Streaming.
+
+
+  Pulsoid''s developer surface includes authentication, documentation, signup flow, and 10 more developer resources.'
+plans:
+- name: Pulsoid Plans Pricing
+  plan_count: 3
+  slug: pulsoid-plans-pricing
+random_paper: 3
+rate_limits:
+- limit_count: 5
+  name: Pulsoid Rate Limits
+  slug: pulsoid-rate-limits
+scopes:
+- name: Pulsoid Scopes
+  scope_count: 9
+  slug: pulsoid-scopes
+  summary_line: 9 scopes · implicit/authorizationCode
+score:
+  band: thin
+  composite: 40.8
+  delta: 1.3
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 54.2
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 39.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 47.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/screenshots/pulsoid-2026-06-20T192309.png
+security:
+- kind: authentication
+  name: Pulsoid Authentication
+  slug: pulsoid-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Pulsoid Domain Security
+  slug: pulsoid-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: pulsoid
+tags:
+- Heart Rate
+- Health
+- Wearables
+- Real-Time
+- Streaming
+- WebSocket
+- OAuth2
+website: https://pulsoid.net/
+---

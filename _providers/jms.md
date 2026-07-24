@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The Jakarta Messaging (formerly Java Message Service) specification for enterprise messaging and asynchronous communication between distributed components. Defines point-to-point queues and publish/su
+  name: Jakarta Messaging
+  slug: jms
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jms-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://jakarta.ee/specifications/messaging/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://jakarta.ee/specifications/messaging/3.1/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/jakartaee
+- group: operate
+  title: ''
+  type: Issues
+  url: https://github.com/jakartaee/messaging/issues
+created: '2025-01-01'
+description: Java Message Service (JMS), now known as Jakarta Messaging, is a Java API that allows applications to create, send, receive, and read messages. It defines a common enterprise messaging API for loosely coupled, reliable, and asynchronous communication between distributed application components. Current release is Jakarta Messaging 3.1 (Jakarta EE 10).
+finops:
+- name: Jms Finops
+  service_category: API
+  slug: jms-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jms.png
+layout: provider
+modified: '2026-04-28'
+name: JMS
+nav: Providers
+network: true
+overview: 'JMS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Integration, Jakarta EE, Java, JMS, and Messaging.
+
+
+  JMS''s developer surface includes documentation and 4 more developer resources.'
+plans:
+- name: Jms Plans Pricing
+  plan_count: 3
+  slug: jms-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 5
+  name: Jms Rate Limits
+  slug: jms-rate-limits
+score:
+  band: emerging
+  composite: 22.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 22.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jms/refs/heads/main/screenshots/jms-2026-06-20T183740.png
+security:
+- kind: domain-security
+  name: Jms Domain Security
+  slug: jms-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: jms
+tags:
+- Enterprise Integration
+- Jakarta EE
+- Java
+- JMS
+- Messaging
+- Standard
+website: https://jakarta.ee/specifications/messaging/
+---

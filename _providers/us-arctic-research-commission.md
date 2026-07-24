@@ -1,0 +1,126 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: The US Arctic Research Commission (USARC) is an independent federal agency that advises the President and Congress on domestic and international Arctic research policy. The Commission establishes nati
+  name: US Arctic Research Commission
+  slug: us-arctic-research-commission
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/us-arctic-research-commission-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/us-arctic-research-commission
+created: '2024-11-21'
+description: The US Arctic Research Commission is an independent agency that provides recommendations and advice to the President and Congress on Arctic research and policy. The Commission works to promote research that improves our understanding of the Arctic environment and its impact on global climate change, as well as the Arctic's role in national security and economic development. The Commission publishes research goals, working group resources, and policy documents at arctic.gov.
+examples:
+- key_count: 12
+  name: Us Arctic Research Commission Research Priority Example
+  slug: us-arctic-research-commission-research-priority-example
+finops:
+- name: Us Arctic Research Commission Finops
+  service_category: API
+  slug: us-arctic-research-commission-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-arctic-research-commission.png
+json_schemas:
+- name: Arctic Research Priority
+  property_count: 10
+  slug: us-arctic-research-commission-research-priority
+json_structures:
+- name: Us Arctic Research Commission Research Priority Structure
+  property_count: 0
+  slug: us-arctic-research-commission-research-priority-structure
+jsonld:
+- class_count: 24
+  name: Us Arctic Research Commission Context
+  property_count: 4
+  slug: us-arctic-research-commission-context
+layout: provider
+modified: '2026-05-03'
+name: US Arctic Research Commission
+nav: Providers
+network: true
+overview: 'US Arctic Research Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Arctic Research, Federal Government, Climate Change, Research Policy, and Advisory Commission.
+
+
+  The US Arctic Research Commission catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+plans:
+- name: Us Arctic Research Commission Plans Pricing
+  plan_count: 3
+  slug: us-arctic-research-commission-plans-pricing
+random_paper: 24
+rate_limits:
+- limit_count: 5
+  name: Us Arctic Research Commission Rate Limits
+  slug: us-arctic-research-commission-rate-limits
+rules:
+- name: US Arctic Research Commission API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: us-arctic-research-commission-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 35.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 26.4
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 73.7
+    operational_transparency: 31.6
+  previous_composite: 35.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/screenshots/us-arctic-research-commission-2026-06-20T200552.png
+security:
+- kind: domain-security
+  name: Us Arctic Research Commission Domain Security
+  slug: us-arctic-research-commission-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: us-arctic-research-commission
+tags:
+- Arctic Research
+- Federal Government
+- Climate Change
+- Research Policy
+- Advisory Commission
+- Arctic
+- Environmental Science
+---

@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.getkale.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getkale.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.getkale.com/en/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.getkale.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.getkale.com/policies/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.getkale.com/policies/privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kale-domain-security.yml
+created: '2026-07-17'
+description: Kale (operated by Palette Technologies, Inc., dba Kale) is a creator-rewards and user-generated-content marketplace that connects social-media content creators with brands. Creators join brand challenges and tournaments, post authentic sponsored content about products they use, and earn cash, merchandise, and perks; brands source authentic UGC and micro-influencer marketing at scale. The platform is delivered through the getkale.com and kalecard.com web apps and native iOS/Android apps, with a merchant network spanning consumer brands such as Chili's, Planet Fitness, Urban Outfitters, DoorDash, Southwest, and Starbucks. Kale is backed by Forerunner Ventures. No public developer/API surface is published; this profile captures the company's public identity and security posture.
+image: https://framerusercontent.com/images/cGDleoOfJhKqs6pk1CSNHfWDpng.png
+layout: provider
+modified: '2026-07-19'
+name: Kale
+nav: Providers
+network: true
+overview: 'Kale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Creator Economy, User-Generated Content, and Influencer Marketing.
+
+
+  Kale''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+random_paper: 5
+score:
+  band: minimal
+  composite: 14.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Kale Domain Security
+  slug: kale-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: kale
+tags:
+- Company
+- Fintech
+- Creator Economy
+- User-Generated Content
+- Influencer Marketing
+- Rewards
+- Social Media
+- Marketing
+website: https://www.getkale.com
+---

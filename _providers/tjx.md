@@ -1,0 +1,181 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 4
+apis:
+- description: The TJX Oracle iSupplier portal allows not-for-resale suppliers to manage purchase orders, track invoices, monitor payment status, and handle deduction disputes. Suppliers can access real-time account
+  name: TJX Oracle iSupplier Portal
+  slug: tjx-isupplier
+- description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
+  name: TJX EDI Integration
+  slug: tjx-edi
+- description: 'The TJX Companies LLC Advanced Shipping Notice (ASN) Vendor Portal powered by DiCentral allows resale vendors to create and submit advance shipping notices, manage compliance requirements, and handle '
+  name: TJX ASN Vendor Portal
+  slug: tjx-asn-vendor-portal
+- description: The TJX SupplierOne portal enables diverse supplier registration, certification tracking, and quarterly Tier II program reporting. Suppliers can complete vendor applications, provide business document
+  name: TJX SupplierOne Diversity Portal
+  slug: tjx-supplierone
+artifact_total: 27
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tjx-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/tjx
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tjx.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.tjx.com/mytjx/supplier/supplier.html
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.mytjx.com/mytjx/supplier.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TJX
+created: '2024-11-27'
+description: The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.
+features:
+- description: Web-based supplier self-service for invoice tracking, payment status, deduction management, and purchase order visibility.
+  name: Oracle iSupplier Portal
+- description: Electronic Data Interchange compliance for purchase orders (850), ASNs (856), invoices (810), and related transactions for resale suppliers.
+  name: EDI Vendor Integration
+- description: DiCentral-powered portal for creating and submitting advance shipping notices and managing compliance.
+  name: ASN Vendor Portal
+- description: Supplier diversity portal for diverse supplier registration, certification, and Tier II reporting.
+  name: SupplierOne Diversity Registration
+- description: Digital invoice submission via Transcepta integration, reducing paperwork and expediting payment cycles.
+  name: Transcepta Electronic Invoicing
+- description: Vendor integration covering all TJX banners including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense, Winners, and TK Maxx.
+  name: Multi-Brand Vendor Support
+finops:
+- name: Tjx Finops
+  service_category: Retail
+  slug: tjx-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tjx.png
+integrations:
+- description: EDI integration and compliance platform for TJX vendor connectivity.
+  name: SPS Commerce
+- description: ASN Vendor Portal and EDI integration provider powering TJX's vendor shipping notice system.
+  name: DiCentral
+- description: EDI integration platform supporting TJX vendor compliance requirements.
+  name: Zenbridge
+- description: Order management and EDI integration connector for TJX Companies.
+  name: Pipe17
+- description: Electronic invoicing platform for TJX supplier invoice submission.
+  name: Transcepta
+- description: Oracle-based supplier portal for invoice management and purchase order tracking.
+  name: Oracle iSupplier
+- description: EDI integration solution for TJX trading partner compliance.
+  name: Cleo
+layout: provider
+modified: '2026-05-03'
+name: TJX Companies
+nav: Providers
+network: true
+overview: 'TJX Companies publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Off-Price, Fortune 100, Supply Chain, and EDI.
+
+
+  TJX Companies'' developer surface includes documentation, developer portal, and 4 more developer resources.'
+plans:
+- name: Tjx Plans Pricing
+  plan_count: 1
+  slug: tjx-plans-pricing
+press:
+- date: '2026-05-25'
+  title: 'TJX Companies'' AI Strategy: Analysis of Dominance in Retail'
+  url: https://www.klover.ai/tjx-companies-ai-strategy-analysis-of-dominance-in-retail/
+- date: '2026-05-25'
+  title: 'TJX Companies: Low-Tech Retailer Thrives Amid AI Bubble'
+  url: https://www.linkedin.com/posts/redafarran_this-best-in-class-retailer-could-be-a-great-activity-7419666311129116672-gR0c
+- date: '2026-05-25'
+  title: Form 10-K for TJX Companies INC DE filed 04/02/2025
+  url: https://investor.tjx.com/static-files/d01e59d1-c20c-494c-8d7b-6bd41a4db1a2
+- date: '2026-05-25'
+  title: TJX Companies Archives
+  url: https://www.intelligize.com/tag/tjx-companies/
+- date: '2026-05-25'
+  title: Retailers Embracing AI
+  url: https://logisticsti.com/insights/f/retailers-embracing-ai
+random_paper: 36
+rate_limits:
+- limit_count: 1
+  name: Tjx Rate Limits
+  slug: tjx-rate-limits
+score:
+  band: emerging
+  composite: 21.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 21.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png
+security:
+- kind: domain-security
+  name: Tjx Domain Security
+  slug: tjx-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: tjx
+tags:
+- Retail
+- Off-Price
+- Fortune 100
+- Supply Chain
+- EDI
+use_cases:
+- description: Suppliers electronically submit invoices through iSupplier or Transcepta and track payment status in real time.
+  name: Supplier Invoice Submission
+- description: Suppliers receive and acknowledge purchase orders from TJX banners via EDI 850/855 transactions.
+  name: Purchase Order Management
+- description: Vendors create and submit ASNs (EDI 856) to notify TJX distribution centers of incoming shipments.
+  name: Advance Shipping Notice
+- description: Suppliers manage and dispute payment deductions through the Oracle iSupplier portal.
+  name: Deduction Dispute Automation
+- description: Diverse suppliers register, maintain certifications, and submit quarterly Tier II reports through SupplierOne.
+  name: Supplier Diversity Reporting
+- description: New vendors establish EDI connectivity via approved service providers and complete TJX's testing requirements.
+  name: EDI Compliance Onboarding
+website: https://www.tjx.com/
+---

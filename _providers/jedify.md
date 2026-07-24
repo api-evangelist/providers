@@ -1,0 +1,171 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 33.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
+  name: Jedify Data Intelligence API
+  slug: jedify-data-intelligence-api
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://jedify.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.jedify.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.jedify.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.jedify.com/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.jedify.com/getting-started/introduction
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.jedify.com/sign-up
+- group: company
+  title: ''
+  type: Blog
+  url: https://jedify.com/news/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://jedify.com/privacy/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.jedify.com/changelog
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/jedify-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/jedify-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/jedify-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/jedify-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/jedify-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/jedify-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/jedify-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/jedify-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/jedify-changelog.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/jedify-domain-security.yml
+created: '2026-07-17'
+description: Jedify is an enterprise AI platform that fuses business context with multi-source data into an AI-ready contextual "context layer" (Semantic Fusion) so companies can run grounded, natural-language analytics and autonomous data agents across their data lakes, warehouses, BI tools, databases, CRMs, and documents. It exposes an asynchronous session/inquiry REST API at be.jedify.com/api (X-API-Key auth), a published Model Context Protocol (MCP) server with Asker, Editor, and Builder modes for connecting Claude, Cursor, and other agents, plus native data connectors (Snowflake, BigQuery, Redshift, Databricks, Athena, dbt, Looker, Tableau) and embedded surfaces for Looker and Slack. Jedify raised a $24M Series A and is backed by Norwest Venture Partners.
+image: https://jedify.com/wp-content/uploads/logo01-1-1.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: jedify-mcp.yml
+  slug: jedify-mcpyml
+modified: '2026-07-19'
+name: Jedify
+nav: Providers
+network: true
+overview: 'Jedify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Business Intelligence, and Semantic Layer.
+
+
+  Jedify''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 13 more developer resources.'
+random_paper: 23
+score:
+  band: emerging
+  composite: 28.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 63.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 28.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Jedify Authentication
+  slug: jedify-authentication
+  summary_line: apiKey/oauth2 · 3 schemes
+- kind: domain-security
+  name: Jedify Domain Security
+  slug: jedify-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: jedify
+tags:
+- Company
+- Artificial Intelligence
+- Data Analytics
+- Business Intelligence
+- Semantic Layer
+- Context Layer
+- Data Agents
+- MCP
+- Enterprise AI
+- Natural Language Query
+website: https://jedify.com
+---

@@ -1,0 +1,147 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Erebor's developer API for programmatic access to banking, money-movement, and stablecoin operations. The gateway at api.erebor.bank authenticates requests with an API key and returns a structured JSO
+  name: Erebor API
+  slug: erebor-api
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/erebor-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://erebor.bank
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.erebor.bank
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.erebor.bank
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.erebor.bank
+- group: start
+  title: ''
+  type: SignUp
+  url: https://erebor.bank
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://erebor.bank/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://erebor.bank/privacy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/erebor-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/erebor-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/erebor-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/erebor-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/erebor-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/erebor-llms.txt
+created: '2026-07-17'
+description: Erebor is a digital-first, FDIC-insured national bank built for the innovation economy — technology startups, cryptocurrency and stablecoin businesses, and AI and defense companies that traditional banks have historically underserved. Co-founded by Palmer Luckey (Anduril) and Joe Lonsdale (8VC) and backed by Founders Fund, Lux Capital, Haun Ventures, and 8VC, Erebor received OCC preliminary conditional approval in October 2025, FDIC deposit-insurance approval in December 2025, and launched in February 2026. It offers deposit accounts, wires and money movement, and stablecoin operations. Erebor exposes a developer API at api.erebor.bank secured with API keys, an Auth0-authenticated developer dashboard at developer.erebor.bank, and Fern-based developer documentation at docs.erebor.bank. The public developer docs are login-gated, so the machine-readable surface captured here is limited to what is observable without credentials.
+image: https://erebor.bank/apple-touch-icon.png
+layout: provider
+modified: '2026-07-19'
+name: Erebor
+nav: Providers
+network: true
+overview: 'Erebor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Bank, and Stablecoin.
+
+
+  Erebor''s developer surface includes documentation, API reference, signup flow, authentication, sandbox, and 9 more developer resources.'
+random_paper: 27
+score:
+  band: emerging
+  composite: 28.8
+  delta: 4.5
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 41.3
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 24.3
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Erebor Authentication
+  slug: erebor-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
+- kind: domain-security
+  name: Erebor Domain Security
+  slug: erebor-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: erebor
+tags:
+- Company
+- Fintech
+- Banking
+- Digital Bank
+- Stablecoin
+- Cryptocurrency
+- Payments
+- Financial Services
+- API
+website: https://erebor.bank
+---

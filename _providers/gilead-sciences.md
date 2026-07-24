@@ -1,0 +1,103 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gilead-sciences-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/gilead-sciences
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gilead.com
+created: '2026-03-21'
+description: Gilead Sciences is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis, oncology, and inflammatory diseases.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilead-sciences.png
+layout: provider
+modified: '2026-04-28'
+name: Gilead Sciences
+nav: Providers
+network: true
+overview: Gilead Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Healthcare, and Fortune 500.
+press:
+- date: '2026-05-25'
+  title: Artificial Intelligence at Gilead Sciences - Two Use Cases
+  url: https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases/
+- date: '2026-05-25'
+  title: Tempus Announces Strategic Collaboration with Gilead to ...
+  url: https://investors.tempus.com/news-releases/news-release-details/tempus-announces-strategic-collaboration-gilead-advance-oncology
+- date: '2026-05-25'
+  title: AI Principles
+  url: https://www.gilead.com/company/policies-and-procedures/ai-principles
+- date: '2026-05-25'
+  title: Cognizant and Gilead Extend Partnership with Five-Year ...
+  url: https://www.prnewswire.com/news-releases/cognizant-and-gilead-extend-partnership-with-five-year-service-agreement-estimated-at-800-million-301883522.html
+- date: '2026-05-25'
+  title: Gilead and Genesis Therapeutics Announce Strategic ...
+  url: https://www.gilead.com/news/news-details/2024/gilead-and-genesis-therapeutics-announce-strategic-collaboration-to-discover-and-develop-novel-therapies
+random_paper: 25
+score:
+  band: minimal
+  composite: 6.6
+  delta: 1.1
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 5.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gilead-sciences/refs/heads/main/screenshots/gilead-sciences-2026-06-20T181825.png
+security:
+- kind: domain-security
+  name: Gilead Sciences Domain Security
+  slug: gilead-sciences-domain-security
+  summary_line: TLSv1.2 · DNSSEC · DMARC
+slug: gilead-sciences
+tags:
+- Pharmaceuticals
+- Biotechnology
+- Healthcare
+- Fortune 500
+website: https://www.gilead.com
+---

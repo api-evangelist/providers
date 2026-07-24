@@ -1,0 +1,76 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/masergy-domain-security.yml
+created: '2026-07-17'
+description: Masergy Communications was a managed networking and security provider offering software-defined networking (SD-WAN), secure networking (SASE), managed security services, and unified communications as a service (UCaaS/CCaaS) to enterprises over a global software-defined platform. Masergy was acquired by Comcast Business in October 2021 and folded into Comcast Business; the masergy.com web properties now redirect to business.comcast.com/masergy/. Added to the API Evangelist network as a portfolio company of lightspeed-venture-partners. Enrichment found no live standalone developer portal or API surface (api.masergy.com returns HTTP 502; developer/docs subdomains do not resolve), so this profile documents identity and the probed domain-security posture only.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/masergy.png
+layout: provider
+modified: '2026-07-20'
+name: Masergy
+nav: Providers
+network: true
+overview: Masergy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, SD-WAN, SASE, and Managed Security.
+random_paper: 46
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Masergy Domain Security
+  slug: masergy-domain-security
+  summary_line: TLSv1.2 · DMARC
+slug: masergy
+tags:
+- Company
+- Networking
+- SD-WAN
+- SASE
+- Managed Security
+- Unified Communications
+- Cloud Networking
+- Enterprise
+---

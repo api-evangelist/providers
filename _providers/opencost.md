@@ -1,0 +1,166 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Opencost Agentic Access
+  operation_count: 5
+  slug: opencost-agentic-access
+  summary_line: 5 operations
+api_count: 4
+apis:
+- description: The Allocation API from OpenCost — 1 operation(s) for allocation.
+  name: OpenCost Allocation API
+  slug: opencost-allocation-api
+- description: The Assets API from OpenCost — 1 operation(s) for assets.
+  name: OpenCost Assets API
+  slug: opencost-assets-api
+- description: The CloudCost API from OpenCost — 1 operation(s) for cloudcost.
+  name: OpenCost CloudCost API
+  slug: opencost-cloudcost-api
+- description: The CustomCost API from OpenCost — 2 operation(s) for customcost.
+  name: OpenCost CustomCost API
+  slug: opencost-customcost-api
+artifact_total: 15
+collections:
+- collection_type: open
+  name: OpenCost API
+  slug: open-opencost
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/opencost-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/opencost-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/showcase/opencost
+- group: company
+  title: ''
+  type: Website
+  url: https://opencost.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.opencost.io/docs/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/opencost/opencost
+- group: company
+  title: ''
+  type: Blog
+  url: https://opencost.io/blog/rss.xml
+created: '2025-01-01'
+description: An open source CNCF specification and reference implementation for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads.
+finops:
+- name: Opencost Finops
+  service_category: API
+  slug: opencost-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opencost.png
+json_schemas:
+- name: OpenCost Allocation
+  property_count: 13
+  slug: opencost-allocation
+- name: OpenCost Asset
+  property_count: 6
+  slug: opencost-asset
+- name: OpenCost CloudCost
+  property_count: 1
+  slug: opencost-cloudcost
+jsonld:
+- class_count: 0
+  name: Opencost Context
+  property_count: 3
+  slug: opencost-context
+layout: provider
+modified: '2026-05-19'
+name: OpenCost
+nav: Providers
+network: true
+overview: 'OpenCost publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Allocation API, Assets API, CloudCost API, and 1 more. Tagged areas include Cloud Cost Management, CNCF, FinOps, Kubernetes, and Observability.
+
+
+  The OpenCost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  OpenCost''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+plans:
+- name: Opencost Plans Pricing
+  plan_count: 3
+  slug: opencost-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 5
+  name: Opencost Rate Limits
+  slug: opencost-rate-limits
+rules:
+- name: OpenCost API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: opencost-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 43.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 51.8
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 43.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/screenshots/opencost-2026-06-20T190924.png
+security:
+- kind: domain-security
+  name: Opencost Domain Security
+  slug: opencost-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: opencost
+tags:
+- Cloud Cost Management
+- CNCF
+- FinOps
+- Kubernetes
+- Observability
+website: https://opencost.io/
+---

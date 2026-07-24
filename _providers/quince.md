@@ -1,0 +1,92 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.quince.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.quince.com/about
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.quince.com/careers
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/quince-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/quince-well-known.yml
+created: '2026-07-17'
+description: Quince is a direct-to-consumer e-commerce retailer selling high-quality essentials at radical prices across apparel, home goods, bedding, furniture, accessories, jewelry, beauty, and travel. It uses a factory-direct model that bypasses traditional retail markups to offer affordable luxury. Quince was surfaced as a portfolio company of 8vc, GGV Capital, ICONIQ Capital, and Insight Partners and added to the API Evangelist network. As a consumer retail brand it publishes no public developer API, developer portal, or .well-known discovery surface; this profile captures its identity and domain-security posture.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quince.png
+layout: provider
+modified: '2026-07-20'
+name: Quince
+nav: Providers
+network: true
+overview: Quince is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Direct-to-Consumer, and Apparel.
+random_paper: 33
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Quince Domain Security
+  slug: quince-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: quince
+tags:
+- Company
+- E-Commerce
+- Retail
+- Direct-to-Consumer
+- Apparel
+- Home Goods
+- Consumer
+website: https://www.quince.com
+---

@@ -1,0 +1,178 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Megaphone Agentic Access
+  operation_count: 22
+  slug: megaphone-agentic-access
+  summary_line: 22 operations · 7 acting
+api_count: 7
+apis:
+- description: Legacy Direct Sales campaigns scoped to an organization.
+  name: Megaphone Campaigns API
+  slug: megaphone-campaigns-api
+- description: v2 advertisers, campaigns, orders, assets, advertisements, and targeting (modeled).
+  name: Megaphone Direct Sales v2 API
+  slug: megaphone-direct-sales-v2-api
+- description: Episodes within a podcast, including dynamic ad insertion.
+  name: Megaphone Episodes API
+  slug: megaphone-episodes-api
+- description: Metrics Export Service and Impressions Export Service (modeled).
+  name: Megaphone Exports API
+  slug: megaphone-exports-api
+- description: Top-level account containers that scope podcasts and episodes.
+  name: Megaphone Networks API
+  slug: megaphone-networks-api
+- description: Legacy Direct Sales campaign and promo orders and their advertisements.
+  name: Megaphone Orders API
+  slug: megaphone-orders-api
+- description: Shows within a network, including feed and monetization settings.
+  name: Megaphone Podcasts API
+  slug: megaphone-podcasts-api
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Megaphone API
+  slug: open-megaphone
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/megaphone-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/megaphone-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/megaphone-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/megaphone-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/megaphonepods
+- group: company
+  title: ''
+  type: Website
+  url: https://megaphone.spotify.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.megaphone.fm/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://jsapi.apiary.io/apis/megaphoneapi/reference/podcasts.html
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/megaphone-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/megaphone-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/megaphone-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://megaphone.spotify.com/pricing
+created: '2026-07-05'
+description: Megaphone (Megaphone by Spotify) is an enterprise podcast hosting, distribution, and advertising-monetization platform, owned by Spotify since its 2020 acquisition. Its REST API (base https://cms.megaphone.fm/api) lets podcast producers and partners programmatically manage networks, podcasts, and episodes, run dynamic ad insertion, and operate direct-sales advertising - campaigns, orders, advertisements, advertisers, and targeting - plus pull metrics and impressions via export services. API documentation is public, but an API token requires a paid Megaphone account (Professional from $99/month, or Enterprise).
+finops:
+- name: Megaphone Finops
+  service_category: Media and Podcasting
+  slug: megaphone-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/megaphone.png
+layout: provider
+modified: '2026-07-05'
+name: Megaphone
+nav: Providers
+network: true
+overview: 'Megaphone publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Direct Sales v2 API, Episodes API, and 4 more. Tagged areas include Podcasting, Podcast Hosting, Advertising, Ad Monetization, and Dynamic Ad Insertion.
+
+
+  Megaphone''s developer surface includes authentication, documentation, API reference, pricing, and 8 more developer resources.'
+plans:
+- name: Megaphone Plans Pricing
+  plan_count: 2
+  slug: megaphone-plans-pricing
+random_paper: 30
+rate_limits:
+- limit_count: 3
+  name: Megaphone Rate Limits
+  slug: megaphone-rate-limits
+score:
+  band: thin
+  composite: 38.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 58.4
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 38.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Megaphone Authentication
+  slug: megaphone-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Megaphone Domain Security
+  slug: megaphone-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Megaphone Vulnerability Disclosure
+  slug: megaphone-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: megaphone
+tags:
+- Podcasting
+- Podcast Hosting
+- Advertising
+- Ad Monetization
+- Dynamic Ad Insertion
+- Media
+- Spotify
+website: https://megaphone.spotify.com/
+---

@@ -1,0 +1,182 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 65.4
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Viewpoints Ai Agentic Access
+  operation_count: 7
+  slug: viewpoints-ai-agentic-access
+  summary_line: 7 operations · 4 acting
+api_count: 3
+apis:
+- description: Create studies and retrieve results
+  name: Viewpoints AI Studies API
+  slug: viewpoints-ai-studies-api
+- description: Upload stimuli files for use in studies
+  name: Viewpoints AI Study File Uploads API
+  slug: viewpoints-ai-study-file-uploads-api
+- description: Manage recurring study schedules
+  name: Viewpoints AI Study Schedules API
+  slug: viewpoints-ai-study-schedules-api
+artifact_total: 7
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.viewpoints.ai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.viewpoints.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.viewpoints.ai
+- group: start
+  title: ''
+  type: Login
+  url: https://app.viewpoints.ai/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://viewpoints.ai/terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://viewpoints.ai/privacy.html
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://viewpoints.ai/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/viewpoints-ai-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/viewpoints-ai-authentication.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/viewpoints-ai-agentic-access.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/viewpoints-ai-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/viewpoints-ai-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/viewpoints-ai-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/viewpoints-ai-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/viewpoints-ai-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/viewpoints-ai-study-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/viewpoints-ai-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/viewpoints-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://viewpoints.ai
+created: '2026-07-17'
+description: Viewpoints AI (viewpoints.ai) is a Stanford-founded research platform that runs AI jury simulations for litigation teams and AI audience panels for market researchers. Companies upload case materials or creative/marketing stimuli and a representative panel of simulated personas reads them, deliberates, and returns verdict or response distributions, the themes driving them, and per-participant reasoning — same-day, with a claimed 88% match to real studies (Stanford-validated). The Viewpoints Study API lets developers programmatically create studies, upload stimuli, poll asynchronous creation jobs, retrieve full participant results, and schedule recurring runs. SOC 2 Type II. Backed by Forerunner Ventures.
+image: https://viewpoints.ai/og-image-2.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: viewpoints-ai-mcp.yml
+  slug: viewpoints-ai-mcpyml
+modified: '2026-07-21'
+name: Viewpoints AI
+nav: Providers
+network: true
+overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Studies API, Study File Uploads API, and Study Schedules API. Tagged areas include Company, Ai, Market Research, Synthetic Personas, and Consumer Insights.
+
+
+  Viewpoints AI''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
+random_paper: 33
+score:
+  band: thin
+  composite: 42.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 56.3
+    developer_ergonomics: 50.0
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 42.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Viewpoints Ai Authentication
+  slug: viewpoints-ai-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Viewpoints Ai Domain Security
+  slug: viewpoints-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: viewpoints-ai
+tags:
+- Company
+- Ai
+- Market Research
+- Synthetic Personas
+- Consumer Insights
+- Litigation
+- Jury Simulation
+- Research
+website: https://viewpoints.ai
+---

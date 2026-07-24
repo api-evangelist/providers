@@ -1,0 +1,98 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ingredion-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Ingredion
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ingredion-incorporated
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ingredion.com
+description: Ingredion partners with food and beverage manufacturers to deliver innovative clean label, sugar reduction, plant-based proteins, and texture solutions.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ingredion.png
+layout: provider
+modified: '2026-04-28'
+name: ingredion
+nav: Providers
+network: true
+overview: ingredion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+press:
+- date: '2026-05-25'
+  title: Ingredion, Shiru Partnership Signals Faster Push Toward ...
+  url: https://www.nutritionaloutlook.com/view/ingredion-shiru-partnership-ai-driven-functional-protein-discovery
+- date: '2026-05-25'
+  title: Ingredion at IFT FIRST 2025 — Connecting texture, health ...
+  url: https://www.ingredion.com/na/en-us/be-whats-next/ift-first-2025-recap
+- date: '2026-05-25'
+  title: Ingredion using AI to accelerate innovation
+  url: https://www.foodbusinessnews.net/articles/29055-ingredion-using-ai-to-accelerate-innovation
+- date: '2026-05-25'
+  title: How food giants are embracing AI to forecast recipes ...
+  url: https://www.fooddive.com/news/food-giants-AI-artificial-intelligence-kellanova-ingredion-ingredients-tastewise-tech-investments/745642/
+- date: '2026-05-25'
+  title: Amyris And Ingredion Partner To Manufacture And Market ...
+  url: https://www.prnewswire.com/news-releases/amyris-and-ingredion-partner-to-manufacture-and-market-sugar-reduction-and-fermentation-based-food-ingredients-301282441.html
+random_paper: 41
+score:
+  band: minimal
+  composite: 4.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 35.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 4.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ingredion/refs/heads/main/screenshots/ingredion-2026-06-20T183350.png
+security:
+- kind: domain-security
+  name: Ingredion Domain Security
+  slug: ingredion-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ingredion
+tags:
+- Fortune 500
+website: https://www.ingredion.com
+---

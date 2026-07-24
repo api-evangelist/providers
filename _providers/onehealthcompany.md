@@ -1,0 +1,111 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/onehealthcompany-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://fidocure.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://dvm.fidocure.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.fidocure.com/fidocure-blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://fidocure.com/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://fidocure.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://fidocure.com/privacy-policy
+created: '2026-07-17'
+description: The One Health Company is a Palo Alto veterinary precision-oncology company, best known for its FidoCure platform, that brings human-grade precision cancer medicine to dogs. FidoCure sequences a dog's tumor with next-generation DNA sequencing, matches the cancer-driving mutations to targeted therapies, and gives veterinarians an individualized treatment plan grounded in the world's largest proprietary canine cancer dataset (billions of data points across a network of more than 1,300 veterinary clinics). The company was founded in 2015 by Christina Lopes and Ben Lewis on the "One Health" thesis that treating cancer in companion dogs also advances real-world evidence for human oncology. It is backed by Andreessen Horowitz (a16z bio), Y Combinator, Polaris Partners, Borealis Ventures, Lerer Hippeau and Tau Ventures. As of this profile the company exposes a consumer and veterinarian web experience (including a veterinarian login portal) but publishes no public developer API, SDK,
+  or programmatic surface.
+image: https://fidocure.com/wp-content/uploads/2023/06/FidoCure-Home.png
+layout: provider
+modified: '2026-07-20'
+name: OneHealthCompany
+nav: Providers
+network: true
+overview: 'OneHealthCompany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Veterinary, Animal Health, Healthcare, and Precision Medicine.
+
+
+  OneHealthCompany''s developer surface includes developer portal, engineering blog, support, and 4 more developer resources.'
+random_paper: 28
+score:
+  band: emerging
+  composite: 16.5
+  delta: 2.5
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.0
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Onehealthcompany Domain Security
+  slug: onehealthcompany-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: onehealthcompany
+tags:
+- Company
+- Veterinary
+- Animal Health
+- Healthcare
+- Precision Medicine
+- Oncology
+- Genomics
+- Artificial Intelligence
+- Real World Evidence
+website: https://fidocure.com/
+---

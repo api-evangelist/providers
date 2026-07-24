@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shipengine-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ShipEngine
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shipengine
+- group: company
+  title: ''
+  type: Website
+  url: https://www.shipengine.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shipengine-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shipengine-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/shipengine-finops.yml
+created: '2026-05-08'
+description: ShipEngine (an Auctane / ShipStation company) is a shipping API for rate shopping, label generation, tracking, and address validation across major carriers.
+finops:
+- name: Shipengine Finops
+  service_category: Shipping
+  slug: shipengine-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipengine.png
+layout: provider
+modified: '2026-05-08'
+name: ShipEngine
+nav: Providers
+network: true
+overview: ShipEngine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, Multi-Carrier, Labels, and ShipStation.
+plans:
+- name: Shipengine Plans Pricing
+  plan_count: 1
+  slug: shipengine-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 1
+  name: Shipengine Rate Limits
+  slug: shipengine-rate-limits
+score:
+  band: minimal
+  composite: 14.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 14.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shipengine/refs/heads/main/screenshots/shipengine-2026-06-20T193812.png
+security:
+- kind: domain-security
+  name: Shipengine Domain Security
+  slug: shipengine-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: shipengine
+tags:
+- Shipping
+- Logistics
+- Multi-Carrier
+- Labels
+- ShipStation
+website: https://www.shipengine.com/
+---

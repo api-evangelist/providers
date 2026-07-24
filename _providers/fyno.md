@@ -1,0 +1,252 @@
+---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: true
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 20
+  human_in_the_loop: 0
+  name: Fyno Agentic Access
+  operation_count: 23
+  slug: fyno-agentic-access
+  summary_line: 23 operations · 20 acting
+api_count: 10
+apis:
+- description: REST API for creating, reading, updating, and deleting user profiles within the Fyno platform. Supports adding and updating channel-specific destination data, merging user profiles, and managing chann
+  name: Fyno User Profiles API
+  slug: user-profiles
+- description: REST API for managing user notification preferences and subscription settings. Allows retrieval and updates of per-user channel preferences and opt-in/opt-out controls for notification categories.
+  name: Fyno User Subscriptions API
+  slug: user-subscriptions
+- description: 'REST API for managing the global suppression list to prevent unwanted notifications from being sent to specific users. Supports fetching the list, adding users to suppression, and removing suppressed '
+  name: Fyno Suppression List API
+  slug: suppression-list
+- description: 'OTP and TOTP-based verification API for authenticating users via SMS, email, or authenticator apps. Bundled with Growth and above plans at no additional cost. Supports mobile SDKs for iOS (Swift) and '
+  name: Fyno Verify API
+  slug: verify
+- description: The Fire an Event API from Fyno — 2 operation(s) for fire an event.
+  name: Fyno Fire an Event API
+  slug: fyno-fire-an-event-api
+- description: The Fyno Verify API from Fyno — 1 operation(s) for fyno verify.
+  name: Fyno Fyno Verify API
+  slug: fyno-fyno-verify-api
+- description: The Manage User Profiles API from Fyno — 6 operation(s) for manage user profiles.
+  name: Fyno Manage User Profiles API
+  slug: fyno-manage-user-profiles-api
+- description: The Manage User Subscriptions & Preferences API from Fyno — 2 operation(s) for manage user subscriptions & preferences.
+  name: Fyno Manage User Subscriptions & Preferences API
+  slug: fyno-manage-user-subscriptions-preferences-api
+- description: The Suppression List API from Fyno — 1 operation(s) for suppression list.
+  name: Fyno Suppression List API
+  slug: fyno-suppression-list-api
+- description: The User Properties API from Fyno — 7 operation(s) for user properties.
+  name: Fyno User Properties API
+  slug: fyno-user-properties-api
+artifact_total: 25
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/fyno-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/fyno-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fyno-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fyno-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://fyno.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://fyno.io/docs/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://fyno.io/docs/api-reference
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/fynoio
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://in.linkedin.com/company/fyno-io
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/fynohq
+- group: company
+  title: ''
+  type: Blog
+  url: https://fyno.io/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://fyno.io/ratecard
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.fyno.io/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://fyno.io/docs/release-notes
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fyno-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fyno-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/fyno-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/fyno-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/fyno-context.jsonld
+created: '2026-06-12'
+description: Fyno is a notification routing and orchestration platform that provides a single unified REST API for sending and managing notifications across 10+ communication channels including email, SMS, push, WhatsApp, in-app, RCS, voice, and iMessage. Engineering teams integrate once to gain access to 100+ pre-built provider integrations, a no-code workflow builder, and an advanced routing engine with automated throttling. The platform provides detailed analytics, delivery tracking, user profile management, suppression lists, and campaign management capabilities with a 99.99% uptime SLA. Fyno also includes Fyno Verify (OTP/TOTP authentication) and Fyno Shorty (URL shortener) as bundled services.
+examples:
+- key_count: 4
+  name: Fyno Bulk Notify Example
+  slug: fyno-bulk-notify-example
+- key_count: 4
+  name: Fyno Create User Profile Example
+  slug: fyno-create-user-profile-example
+- key_count: 4
+  name: Fyno Notify Single User Example
+  slug: fyno-notify-single-user-example
+- key_count: 4
+  name: Fyno Notify With Explicit Channels Example
+  slug: fyno-notify-with-explicit-channels-example
+finops:
+- name: Fyno Finops
+  service_category: ''
+  slug: fyno-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fyno.png
+json_schemas:
+- name: Fyno Notification Event
+  property_count: 6
+  slug: fyno-notification-event
+- name: Fyno User Profile
+  property_count: 5
+  slug: fyno-user-profile
+jsonld:
+- class_count: 0
+  name: Fyno Context
+  property_count: 26
+  slug: fyno-context
+layout: provider
+modified: '2026-06-12'
+name: Fyno
+nav: Providers
+network: true
+overview: 'Fyno publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fire an Event API, Fyno Verify API, Manage User Profiles API, and 3 more. Tagged areas include Notifications, Messaging, Communication, Push Notifications, and Email.
+
+
+  The Fyno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Fyno''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, and 13 more developer resources.'
+plans:
+- name: Fyno Plans Pricing
+  plan_count: 5
+  slug: fyno-plans-pricing
+random_paper: 36
+rate_limits:
+- limit_count: 6
+  name: Fyno Rate Limits
+  slug: fyno-rate-limits
+rules:
+- name: Fyno API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: fyno-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 64.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 70.2
+    developer_ergonomics: 28.3
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 68.4
+  previous_composite: 64.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
+security:
+- kind: authentication
+  name: Fyno Authentication
+  slug: fyno-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Fyno Domain Security
+  slug: fyno-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Fyno Trust Center
+  slug: fyno-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
+slug: fyno
+tags:
+- Notifications
+- Messaging
+- Communication
+- Push Notifications
+- Email
+- SMS
+- WhatsApp
+- In-App
+- Orchestration
+- Multi-Channel
+website: https://fyno.io/
+---

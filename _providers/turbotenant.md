@@ -1,0 +1,141 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: TurboTenant provides a partner API for integrations covering rental property management workflows including listings, tenant applications, screening, lease management, rent collection, and maintenance
+  name: TurboTenant API
+  slug: turbotenant-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/turbotenant-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.turbotenant.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.turbotenant.com/features/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/turbotenant
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/turbotenant
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.turbotenant.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.turbotenant.com/pricing/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.turbotenant.com/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/turbotenant
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/turbotenant-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/turbotenant-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/turbotenant-finops.yml
+created: '2026-06-13'
+description: TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging. The platform integrates with partner services via API for renters insurance, accounting, and other property management workflows.
+finops:
+- name: Turbotenant Finops
+  service_category: ''
+  slug: turbotenant-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turbotenant.png
+layout: provider
+modified: '2026-06-13'
+name: TurboTenant
+nav: Providers
+network: true
+overview: 'TurboTenant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Rental Listings, Tenant Screening, Rent Collection, and Lease Agreements.
+
+
+  TurboTenant''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+plans:
+- name: Turbotenant Plans Pricing
+  plan_count: 3
+  slug: turbotenant-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 1
+  name: Turbotenant Rate Limits
+  slug: turbotenant-rate-limits
+score:
+  band: emerging
+  composite: 26.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 26.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/screenshots/turbotenant-2026-06-20T195834.png
+security:
+- kind: domain-security
+  name: Turbotenant Domain Security
+  slug: turbotenant-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: turbotenant
+tags:
+- Property Management
+- Rental Listings
+- Tenant Screening
+- Rent Collection
+- Lease Agreements
+- Maintenance Requests
+- Real Estate
+website: https://www.turbotenant.com/
+---

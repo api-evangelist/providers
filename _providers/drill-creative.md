@@ -1,0 +1,84 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.drillcreative.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.drillcreative.com/privacypolicy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/drillcreative/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/drillcreative
+created: '2026-07-17'
+description: 'Drill Creative, Inc. is a US-based video game development startup founded in 2023 in Cary, North Carolina, and backed by a16z''s Speedrun accelerator. The studio builds original, high-quality gameplay experiences for user-generated content (UGC) platforms, the coin-op / family-entertainment-center (FEC) market, and PC and console storefronts. Its early releases are built on Fortnite via Unreal Editor for Fortnite (UEFN), including "Elimination Confirmed," a 16-player competitive first-person shooter, and "Robo Bash," an arcade-style four-player fighting game. Drill Creative is a games company rather than an API provider: it publishes no public developer portal, API, SDK, or technical documentation, so this profile carries company identity only and no API artifacts.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drill-creative.png
+layout: provider
+modified: '2026-07-18'
+name: Drill Creative
+nav: Providers
+network: true
+overview: Drill Creative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Interactive Entertainment, and Fortnite.
+random_paper: 3
+score:
+  band: minimal
+  composite: 8.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: drill-creative
+tags:
+- Company
+- Video Games
+- Game Development
+- Interactive Entertainment
+- Fortnite
+- UGC
+- UEFN
+- Gaming
+website: https://www.drillcreative.com/
+---

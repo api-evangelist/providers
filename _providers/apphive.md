@@ -1,0 +1,116 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apphive.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.apphive.io/en/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.apphive.io/en/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://apphive.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://apphive.dev
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://apphive.dev/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://apphive.dev/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://comunidad.apphive.io
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/apphive-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/apphive-llms.txt
+created: '2026-07-17'
+description: Apphive is a no-code, AI-assisted platform for building native iOS and Android mobile applications without writing code. A visual drag-and-drop editor with live phone previews lets makers assemble screens and app logic, add native device capabilities (GPS and maps, push notifications, camera, authentication, databases, in-app purchases), connect third-party APIs and payment gateways such as Stripe and Openpay, and then compile and publish finished apps to the Apple App Store and Google Play. Vertical marketplace templates cover delivery, taxi, e-commerce, real estate, gym management, and more. Apphive is backed by 500 Global. This profile is maintained in the API Evangelist network.
+image: https://apphive.io/brand/og.png
+layout: provider
+modified: '2026-07-17'
+name: Apphive
+nav: Providers
+network: true
+overview: 'Apphive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Low-Code, App Builder, and Mobile.
+
+
+  Apphive''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
+random_paper: 35
+score:
+  band: emerging
+  composite: 20.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 0.0
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 20.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Apphive Domain Security
+  slug: apphive-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: apphive
+tags:
+- Company
+- No-Code
+- Low-Code
+- App Builder
+- Mobile
+- iOS
+- Android
+- App Development
+website: https://apphive.io
+---

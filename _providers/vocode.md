@@ -1,0 +1,170 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 0
+  name: Vocode Agentic Access
+  operation_count: 28
+  slug: vocode-agentic-access
+  summary_line: 28 operations · 14 acting
+api_count: 9
+apis:
+- description: Real-time, bidirectional streaming conversation pipeline (StreamingConversation) in the open-source library that wires transcription, agent response, and synthesis together; the hosted platform consum
+  name: Vocode Realtime Streaming Conversation
+  slug: vocode-realtime-streaming
+- description: 'vocode-core, the MIT-licensed Python library for building voice-based LLM agents with pluggable STT, LLM, and TTS providers and Twilio/Vonage telephony, self-hosted and free, distinct from the hosted '
+  name: Vocode Open Source Library
+  slug: vocode-oss-library
+- description: The Actions API from Vocode — 4 operation(s) for actions.
+  name: Vocode Actions API
+  slug: vocode-actions-api
+- description: The Agents API from Vocode — 4 operation(s) for agents.
+  name: Vocode Agents API
+  slug: vocode-agents-api
+- description: The Calls API from Vocode — 5 operation(s) for calls.
+  name: Vocode Calls API
+  slug: vocode-calls-api
+- description: The Numbers API from Vocode — 6 operation(s) for numbers.
+  name: Vocode Numbers API
+  slug: vocode-numbers-api
+- description: The Usage API from Vocode — 1 operation(s) for usage.
+  name: Vocode Usage API
+  slug: vocode-usage-api
+- description: The Voices API from Vocode — 4 operation(s) for voices.
+  name: Vocode Voices API
+  slug: vocode-voices-api
+- description: The Webhooks API from Vocode — 4 operation(s) for webhooks.
+  name: Vocode Webhooks API
+  slug: vocode-webhooks-api
+artifact_total: 16
+collections:
+- collection_type: open
+  name: Vocode Hosted API
+  slug: open-vocode
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/vocode-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vocode-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/vocode-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/vocodedev
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/vocode
+- group: company
+  title: ''
+  type: Website
+  url: https://www.vocode.dev
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.vocode.dev
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vocode-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vocode-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/vocode-finops.yml
+created: '2026-06-21'
+description: Vocode is an open-source Python library (vocode-core, MIT licensed) for building real-time, streaming voice AI agents that run over phone calls, plus a hosted REST API at https://api.vocode.dev/v1 (Bearer API key) for placing and managing outbound and inbound phone calls, configuring agents, voices, prompts, actions, phone numbers, and webhooks without operating the streaming infrastructure yourself.
+finops:
+- name: Vocode Finops
+  service_category: AI and Machine Learning
+  slug: vocode-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vocode.png
+layout: provider
+modified: '2026-06-21'
+name: Vocode
+nav: Providers
+network: true
+overview: 'Vocode publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agents API, Calls API, and 4 more. Tagged areas include Voice AI, Voice Agents, Telephony, Conversational AI, and Phone Calls.
+
+
+  Vocode''s developer surface includes authentication, documentation, and 8 more developer resources.'
+plans:
+- name: Vocode Plans Pricing
+  plan_count: 4
+  slug: vocode-plans-pricing
+random_paper: 28
+rate_limits:
+- limit_count: 5
+  name: Vocode Rate Limits
+  slug: vocode-rate-limits
+score:
+  band: thin
+  composite: 36.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 54.1
+    developer_ergonomics: 19.6
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Vocode Authentication
+  slug: vocode-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Vocode Domain Security
+  slug: vocode-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: vocode
+tags:
+- Voice AI
+- Voice Agents
+- Telephony
+- Conversational AI
+- Phone Calls
+website: https://www.vocode.dev
+---

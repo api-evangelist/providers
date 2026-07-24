@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.hoop.app/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hoop.app/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.hoop.app/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hoop.app/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hoop.app/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hoop-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hoop-domain-security.yml
+created: '2026-07-17'
+description: 'Hoop is an AI retention agent for Shopify subscription brands, built by the founding team behind Trello and backed by Index Ventures. It plugs into a brand''s helpdesk (Gorgias, Zendesk, or Kustomer), intercepts every subscription-cancellation ticket, and runs a tailored save conversation in the brand''s voice: it asks why the subscriber wants to leave, then matches a retention offer (pause, plan swap, discount, or skip) to the stated reason and writes the accepted change back to the billing tool (Recharge or Skio) automatically. Hoop logs every cancellation reason, offer, and outcome so brands learn why subscribers churn, and lets teams A/B test save offers through plain-English policy changes rather than macros. It is an end-user SaaS application rather than an API provider — it consumes the Shopify, Gorgias, Zendesk, Recharge, and Skio APIs and exposes no public developer API, SDK, or documentation of its own.'
+image: https://www.hoop.app/landing/v1/og.jpg
+layout: provider
+modified: '2026-07-19'
+name: Hoop
+nav: Providers
+network: true
+overview: 'Hoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Customer Retention, Ecommerce, and Shopify.
+
+
+  Hoop''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
+random_paper: 30
+score:
+  band: minimal
+  composite: 13.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 31.6
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 13.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Hoop Domain Security
+  slug: hoop-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: hoop
+tags:
+- Company
+- Business Applications
+- Customer Retention
+- Ecommerce
+- Shopify
+- Subscriptions
+- Customer Support
+- AI Agent
+website: https://www.hoop.app/
+---

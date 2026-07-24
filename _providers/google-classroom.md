@@ -1,0 +1,187 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Google Classroom Agentic Access
+  operation_count: 23
+  slug: google-classroom-agentic-access
+  summary_line: 23 operations · 12 acting
+api_count: 3
+apis:
+- description: The Courses API from Google Classroom — 9 operation(s) for courses.
+  name: Google Classroom Courses API
+  slug: google-classroom-courses-api
+- description: The Invitations API from Google Classroom — 1 operation(s) for invitations.
+  name: Google Classroom Invitations API
+  slug: google-classroom-invitations-api
+- description: The userProfiles API from Google Classroom — 1 operation(s) for userprofiles.
+  name: Google Classroom userProfiles API
+  slug: google-classroom-userprofiles-api
+artifact_total: 12
+collections:
+- collection_type: open
+  name: Google Classroom API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-classroom-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-classroom-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-classroom-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/googleworkspace
+- group: start
+  title: ''
+  type: Portal
+  url: https://developers.google.com/workspace/classroom
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.google.com/classroom/guides/get-started
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developers.google.com/identity/protocols/oauth2
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://edu.google.com/workspace-for-education/editions/overview/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developers.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.google.com/appsstatus/dashboard/
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.google.com/workspace/classroom/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://workspaceupdates.googleblog.com/
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/json-ld.jsonld
+created: '2026-03-13'
+description: The Google Classroom API provides programmatic access to Google Classroom, enabling management of courses, coursework, student submissions, rosters, and invitations. It supports creating and organizing courses, distributing assignments and materials, managing student and teacher enrollments, tracking submissions and grades, and integrating with third-party educational tools through add-on attachments.
+finops:
+- name: Google Classroom Finops
+  service_category: API
+  slug: google-classroom-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-classroom.png
+jsonld:
+- class_count: 4
+  name: Json Ld Context
+  property_count: 7
+  slug: json-ld
+layout: provider
+modified: '2026-05-19'
+name: Google Classroom
+nav: Providers
+network: true
+overview: 'Google Classroom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Courses API, Invitations API, and userProfiles API. Tagged areas include Assignments, Classroom, Courses, Education, and Google.
+
+
+  The Google Classroom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Classroom''s developer surface includes developer portal, getting-started guide, authentication, pricing, support, engineering blog, and 8 more developer resources.'
+plans:
+- name: Google Classroom Plans Pricing
+  plan_count: 3
+  slug: google-classroom-plans-pricing
+random_paper: 29
+rate_limits:
+- limit_count: 5
+  name: Google Classroom Rate Limits
+  slug: google-classroom-rate-limits
+rules:
+- name: Google Classroom API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: google-classroom-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 57.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 54.9
+    developer_ergonomics: 37.0
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 57.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/screenshots/google-classroom-2026-06-20T182040.png
+security:
+- kind: domain-security
+  name: Google Classroom Domain Security
+  slug: google-classroom-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Classroom Vulnerability Disclosure
+  slug: google-classroom-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-classroom
+tags:
+- Assignments
+- Classroom
+- Courses
+- Education
+- Google
+- Google Workspace
+- Students
+website: https://developers.google.com/workspace/classroom
+---

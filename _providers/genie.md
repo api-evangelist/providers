@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://genieframework.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://learn.genieframework.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.genieframework.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://learn.genieframework.com/framework/genie/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.genieframework.com/framework/
+- group: company
+  title: ''
+  type: Blog
+  url: https://genieframework.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://genieframework.com/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.com/invite/9zyZbD6J7H
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/GenieFramework
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/GenieFramework/Genie.jl
+- group: build
+  title: ''
+  type: Packages
+  url: packages/genie-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/genie-packages.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/genie-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/genie-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/genie-domain-security.yml
+created: '2026-07-17'
+description: 'Genie is an open source, full-stack web framework for the Julia programming language, developed by the Barcelona-based company Genie (backed by Speedinvest) to let data scientists and R&D engineers turn Julia models, simulations, and analyses into production-ready, data-centric web apps, APIs, and interactive dashboards. The framework has three core components: Genie.jl for backend routing and REST APIs, Stipple.jl for low-code reactive UIs, and SearchLight.jl as the database ORM, plus first-party authentication and authorization plugins and Genie Builder, a VS Code extension with a drag-and-drop UI builder and AI assistant. It is used to build data exploration dashboards, financial data products, ML/AI and simulation apps, bioinformatics tools, and internal tooling. Distributed as MIT-licensed Julia packages via the Julia General registry.'
+image: https://avatars.githubusercontent.com/u/50237769?v=4
+layout: provider
+modified: '2026-07-19'
+name: Genie
+nav: Providers
+network: true
+overview: 'Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Framework, Julia, Data Apps, and Data Science.
+
+
+  Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 8 more developer resources.'
+random_paper: 10
+score:
+  band: emerging
+  composite: 21.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 21.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Genie Domain Security
+  slug: genie-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: genie
+tags:
+- Company
+- Web Framework
+- Julia
+- Data Apps
+- Data Science
+- Low-Code
+- Open Source
+- Dashboards
+- Web Development
+- ORM
+website: https://genieframework.com
+---

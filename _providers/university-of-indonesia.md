@@ -1,0 +1,144 @@
+---
+access_model:
+  confidence: medium
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 16.3
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) interface for UI Scholars Hub, the University of Indonesia institutional research repository running on the Digital Commons (bep
+  name: UI Scholars Hub OAI-PMH
+  slug: scholarhub-oai
+- description: Sistem Akun UI, the university-wide Single Sign-On service, implemented using the CAS (Central Authentication Service) protocol at sso.ui.ac.id. It authenticates UI civitas academica across integrated
+  name: SSO UI (CAS Authentication)
+  slug: sso-cas
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-indonesia-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ui.ac.id/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-indonesia/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://sso.ui.ac.id/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/university-of-indonesia-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/university-of-indonesia-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/university-of-indonesia-finops.yml
+- group: other
+  title: ''
+  type: Review
+  url: review.yml
+- group: design
+  title: ''
+  type: x-json-ld
+  url: json-ld/university-of-indonesia-context.jsonld
+- group: company
+  title: ''
+  type: x-blog
+  url: blogs/blogs.json
+created: '2026-06-03'
+description: 'University of Indonesia (Universitas Indonesia, UI) is a public research university based in Depok and Salemba, Jakarta, ranked #206 in the QS World University Rankings 2025 and the highest-ranked university in Indonesia. Its public, machine-readable developer footprint is limited: UI Scholars Hub, the institutional research repository hosted on the Digital Commons (bepress) platform, exposes a live OAI-PMH 2.0 metadata interface for harvesting scholarly works, and the campus-wide Single Sign-On runs on CAS (Central Authentication Service). No public, self-service developer portal with documented REST endpoints or API keys was found; academic, library, and identity systems are gated behind institutional credentials.'
+finops:
+- name: University Of Indonesia Finops
+  service_category: Education
+  slug: university-of-indonesia-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-indonesia.png
+jsonld:
+- class_count: 25
+  name: University Of Indonesia Context
+  property_count: 4
+  slug: university-of-indonesia-context
+layout: provider
+modified: '2026-06-03'
+name: University of Indonesia
+nav: Providers
+network: true
+overview: 'University of Indonesia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Indonesia, and Research.
+
+
+  The University of Indonesia catalog on APIs.io includes 1 JSON-LD context.
+
+
+  University of Indonesia''s developer surface includes authentication and 9 more developer resources.'
+plans:
+- name: University Of Indonesia Plans Pricing
+  plan_count: 2
+  slug: university-of-indonesia-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 1
+  name: University Of Indonesia Rate Limits
+  slug: university-of-indonesia-rate-limits
+score:
+  band: emerging
+  composite: 22.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 22.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: University Of Indonesia Domain Security
+  slug: university-of-indonesia-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: university-of-indonesia
+tags:
+- Education
+- Higher Education
+- University
+- Indonesia
+- Research
+- Repository
+- OAI-PMH
+- Authentication
+website: https://www.ui.ac.id/
+---

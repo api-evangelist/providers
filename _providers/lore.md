@@ -1,0 +1,114 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lore.xyz
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.lore.xyz
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.lore.xyz/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.lore.xyz/faqs
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://lore.xyz/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://lore.xyz/login
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lore-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/lore-domain-security.yml
+created: '2026-07-17'
+description: Lore is a multichain wallet for groups to win together, a co-ownership platform that lets collectives launch shared, multi-signature Safe wallets across Solana, Ethereum, Base, Blast, and Arbitrum. Its Co-Ownership Framework is an equity-tracking system over shared Vaults that lets a group start small and grow both assets and members over time, using Proposals, Group Deposits, Exits, Distributions, and Valuations to manage on-chain treasuries and investment clubs together. Lore provides a consumer application and documentation but does not currently publish a public developer API, SDK, or OpenAPI surface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lore.png
+layout: provider
+modified: '2026-07-20'
+name: Lore
+nav: Providers
+network: true
+overview: 'Lore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Wallet, Web3, and Blockchain.
+
+
+  Lore''s developer surface includes documentation, getting-started guide, support, signup flow, and 4 more developer resources.'
+random_paper: 26
+score:
+  band: emerging
+  composite: 17.1
+  delta: 0.8
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 23.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 16.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Lore Domain Security
+  slug: lore-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: lore
+tags:
+- Company
+- Cryptocurrency
+- Wallet
+- Web3
+- Blockchain
+- DeFi
+- Solana
+- Multisig
+- Co-Ownership
+website: https://lore.xyz
+---

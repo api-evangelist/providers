@@ -1,0 +1,345 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 58.7
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 11
+  human_in_the_loop: 0
+  name: Shippo Agentic Access
+  operation_count: 29
+  slug: shippo-agentic-access
+  summary_line: 29 operations · 11 acting
+api_count: 9
+apis:
+- description: Validate and manage shipping addresses
+  name: Shippo Addresses API
+  slug: shippo-addresses-api
+- description: Manage carrier account integrations
+  name: Shippo Carrier Accounts API
+  slug: shippo-carrier-accounts-api
+- description: Define parcel dimensions and weight
+  name: Shippo Parcels API
+  slug: shippo-parcels-api
+- description: Retrieve shipping rates from carriers
+  name: Shippo Rates API
+  slug: shippo-rates-api
+- description: Request label refunds
+  name: Shippo Refunds API
+  slug: shippo-refunds-api
+- description: Create and manage shipments
+  name: Shippo Shipments API
+  slug: shippo-shipments-api
+- description: Track shipments across carriers
+  name: Shippo Tracking API
+  slug: shippo-tracking-api
+- description: Purchase shipping labels
+  name: Shippo Transactions API
+  slug: shippo-transactions-api
+- description: Manage webhook subscriptions
+  name: Shippo Webhooks API
+  slug: shippo-webhooks-api
+artifact_total: 68
+asyncapis:
+- description: AsyncAPI 2.6 description of the Shippo Webhooks surface. Shippo delivers webhook events over HTTPS as POST requests to a subscriber-registered URL. Each delivery carries a JSON body with an envelope o
+  name: Shippo Webhooks
+  slug: shippo-webhooks-asyncapi
+collections:
+- collection_type: open
+  name: Shippo API
+  slug: open-shippo
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/shippo-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/shippo-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/shippo-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/shippo-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/shippo
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.goshippo.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.goshippo.com/shippoapi/public-api
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.goshippo.com/docs/guides_general/clientlibraries
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.goshippo.com/hc/en-us/articles/4404415886491-Shippo-API-Quick-Start-Guide
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://goshippo.com/pricing/api
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/goshippo
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://goshippo.com/products/api
+- group: company
+  title: ''
+  type: Website
+  url: https://goshippo.com
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/goshippo/shippo-clawhub-skill
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.goshippo.com/llms.txt
+created: '2025-03-01'
+description: Shippo provides a robust shipping API architecture that helps developers drive efficiency at scale. The Shippo API covers the complete shipping lifecycle from pre-purchase rate shopping across 80+ carriers to label generation, package tracking, and returns management. SDKs are available for Python, JavaScript, PHP, Java, Ruby, and Node.js.
+examples:
+- key_count: 4
+  name: Shippo Create Shipment Example
+  slug: shippo-create-shipment-example
+- key_count: 4
+  name: Shippo Purchase Label Example
+  slug: shippo-purchase-label-example
+features:
+- 'API Starter: 30 free labels/mo + 7¢/label'
+- 'API Premier: custom volume discounts, 24/7 monitoring optional'
+- 40+ shipping carriers (USPS, FedEx, UPS, DHL, Royal Mail, Canada Post, etc.)
+- 'Address validation (US: included; non-US: $0.09 Starter, $0.06 Premier)'
+- Tracking webhooks
+- Returns labels
+- Insurance
+- Rating across carriers
+- REST API at api.goshippo.com
+- Default 250 req/min/token
+- Bearer token auth
+- Webhooks for shipment, transaction, batch events
+- Carrier accounts management API
+- Customs documents API
+- Batch label creation
+- API calls not associated with labels billed at API Starter rates
+finops:
+- name: Shippo Finops
+  service_category: Shipping API
+  slug: shippo-finops
+graphqls:
+- description: Shippo is a multi-carrier shipping API that provides complete shipping functionality including address validation, rate shopping across 80+ carriers, label generation, package tracking, returns manage
+  name: Shippo GraphQL
+  slug: shippo-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shippo.png
+json_schemas:
+- name: Address
+  property_count: 16
+  slug: shippo-address
+- name: AddressCreateRequest
+  property_count: 12
+  slug: shippo-addresscreaterequest
+- name: AddressPaginatedList
+  property_count: 4
+  slug: shippo-addresspaginatedlist
+- name: CarrierAccount
+  property_count: 8
+  slug: shippo-carrieraccount
+- name: CarrierAccountCreateRequest
+  property_count: 4
+  slug: shippo-carrieraccountcreaterequest
+- name: CarrierAccountPaginatedList
+  property_count: 4
+  slug: shippo-carrieraccountpaginatedlist
+- name: Parcel
+  property_count: 10
+  slug: shippo-parcel
+- name: ParcelCreateRequest
+  property_count: 7
+  slug: shippo-parcelcreaterequest
+- name: ParcelPaginatedList
+  property_count: 4
+  slug: shippo-parcelpaginatedlist
+- name: Rate
+  property_count: 14
+  slug: shippo-rate
+- name: RatePaginatedList
+  property_count: 2
+  slug: shippo-ratepaginatedlist
+- name: Refund
+  property_count: 5
+  slug: shippo-refund
+- name: RefundCreateRequest
+  property_count: 2
+  slug: shippo-refundcreaterequest
+- name: RefundPaginatedList
+  property_count: 4
+  slug: shippo-refundpaginatedlist
+- name: Shippo Shipment
+  property_count: 11
+  slug: shippo-shipment
+- name: ShipmentCreateRequest
+  property_count: 7
+  slug: shippo-shipmentcreaterequest
+- name: ShipmentPaginatedList
+  property_count: 4
+  slug: shippo-shipmentpaginatedlist
+- name: TrackingStatus
+  property_count: 10
+  slug: shippo-trackingstatus
+- name: TrackingWebhookRequest
+  property_count: 3
+  slug: shippo-trackingwebhookrequest
+- name: Shippo Transaction
+  property_count: 11
+  slug: shippo-transaction
+- name: TransactionCreateRequest
+  property_count: 4
+  slug: shippo-transactioncreaterequest
+- name: TransactionPaginatedList
+  property_count: 4
+  slug: shippo-transactionpaginatedlist
+- name: Webhook
+  property_count: 7
+  slug: shippo-webhook
+- name: WebhookCreateRequest
+  property_count: 3
+  slug: shippo-webhookcreaterequest
+json_structures:
+- name: Shippo Shipment Structure
+  property_count: 0
+  slug: shippo-shipment-structure
+- name: Shippo Structure
+  property_count: 0
+  slug: shippo-structure
+jsonld:
+- class_count: 41
+  name: Shippo Context
+  property_count: 18
+  slug: shippo-context
+layout: provider
+modified: '2026-05-30'
+name: Shippo
+nav: Providers
+network: true
+overview: 'Shippo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Carrier Accounts API, Parcels API, and 6 more. Tagged areas include Ecommerce, Labels, Logistics, Returns, and Shipping.
+
+
+  The Shippo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+
+
+  Shippo''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, and 10 more developer resources.'
+plans:
+- name: Shippo Plans Pricing
+  plan_count: 2
+  slug: shippo-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 2
+  name: Shippo Rate Limits
+  slug: shippo-rate-limits
+rules:
+- name: Shippo API Rules
+  rule_count: 8
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 7
+  slug: shippo-asyncapi-spectral-rules
+- name: Shippo API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: shippo-jsonschema-spectral-rules
+- name: Shippo API Rules
+  rule_count: 14
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 4
+    warn: 7
+  slug: shippo-rules
+score:
+  band: developing
+  composite: 55.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 77.0
+    developer_ergonomics: 52.2
+    discoverability: 67.5
+    governance: 52.6
+    operational_transparency: 26.3
+  previous_composite: 55.7
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
+security:
+- kind: authentication
+  name: Shippo Authentication
+  slug: shippo-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Shippo Domain Security
+  slug: shippo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Shippo Trust Center
+  slug: shippo-trust-center
+  summary_line: SOC 2, PCI DSS
+skill_count: 1
+skills:
+- name: shippo-official
+  slug: shippo-official
+slug: shippo
+tags:
+- Ecommerce
+- Labels
+- Logistics
+- Returns
+- Shipping
+- Tracking
+website: https://goshippo.com
+---

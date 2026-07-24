@@ -1,0 +1,95 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://us.sulekha.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sulekha.com/collateral/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sulekha.com/collateral/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.sulekha.com/collateral/contactus
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sulekha-domain-security.yml
+created: '2026-07-17'
+description: Sulekha is an online local-services marketplace and classifieds platform serving Indian communities in the United States and Canada (us.sulekha.com) as well as its origin market in India (sulekha.com). It connects consumers with local service providers across housing and rentals, events and concert tickets, jobs, care services (nannies, eldercare, housekeeping), real estate, beauty, photography, immigration, astrology, travel and IT training. Sulekha operates as a consumer-facing web and mobile marketplace rather than an API producer; no public developer portal, API reference, or programmatic integration surface is published. It is tracked in the API Evangelist network as a portfolio company of Norwest Venture Partners.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sulekha.png
+layout: provider
+modified: '2026-07-21'
+name: Sulekha
+nav: Providers
+network: true
+overview: 'Sulekha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Local Services, and Consumer.
+
+
+  Sulekha''s developer surface includes support and 4 more developer resources.'
+random_paper: 35
+score:
+  band: minimal
+  composite: 11.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 11.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Sulekha Domain Security
+  slug: sulekha-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: sulekha
+tags:
+- Company
+- Marketplace
+- Classifieds
+- Local Services
+- Consumer
+- India
+- Directory
+website: https://us.sulekha.com
+---

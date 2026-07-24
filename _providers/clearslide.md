@@ -1,0 +1,215 @@
+---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 47.1
+  scored_at: '2026-07-23'
+api_count: 6
+apis:
+- description: The Insights API from ClearSlide — 1 operation(s) for insights.
+  name: ClearSlide Insights API
+  slug: clearslide-insights-api
+- description: The Links API from ClearSlide — 1 operation(s) for links.
+  name: ClearSlide Links API
+  slug: clearslide-links-api
+- description: The Meetings API from ClearSlide — 2 operation(s) for meetings.
+  name: ClearSlide Meetings API
+  slug: clearslide-meetings-api
+- description: The Presentations API from ClearSlide — 1 operation(s) for presentations.
+  name: ClearSlide Presentations API
+  slug: clearslide-presentations-api
+- description: The Upload API from ClearSlide — 2 operation(s) for upload.
+  name: ClearSlide Upload API
+  slug: clearslide-upload-api
+- description: The Users API from ClearSlide — 1 operation(s) for users.
+  name: ClearSlide Users API
+  slug: clearslide-users-api
+artifact_total: 11
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.clearslide.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.clearslide.com/docs/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.clearslide.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.clearslide.com/docs/getting-started-1
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.clearslide.com/changelog
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.clearslide.com/discuss
+- group: start
+  title: ''
+  type: Login
+  url: https://www.clearslide.com/auth/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.clearslide.com/legal/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.clearslide.com/legal/privacy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/clearslide-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/clearslide-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clearslide-openapi-overlay.yaml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/clearslide-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/clearslide-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/clearslide-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clearslide-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/clearslide-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.clearslide.com/about/security/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clearslide-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.clearslide.com/about/security/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/clearslide-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/clearslide-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clearslide-mcp.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/clearslide-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: ClearSlide is a sales engagement platform, now part of Bigtincan, that unifies content management, communications (email, web conferencing, screen share), and real-time engagement analytics so sales teams can make every buyer interaction count. Its public Platform API lets customers and partners programmatically list presentations, create trackable links, retrieve engagement insights, manage users (including SCIM provisioning), upload content to Amazon S3, and reserve and manage scheduled meetings. The API uses OAuth 2.0 and is documented on a public ReadMe developer portal at developer.clearslide.com. ClearSlide was originally an a16z-backed company and is profiled here in the API Evangelist network.
+image: https://www.clearslide.com/wp-content/themes/clearslide/images/logo.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: clearslide-mcp.yml
+  slug: clearslide-mcpyml
+modified: '2026-07-18'
+name: ClearSlide
+nav: Providers
+network: true
+overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Insights API, Links API, Meetings API, and 3 more. Tagged areas include Company, Sales Engagement, Sales Enablement, Content Management, and Presentations.
+
+
+  ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, and 19 more developer resources.'
+random_paper: 28
+scopes:
+- name: Clearslide Scopes
+  scope_count: 2
+  slug: clearslide-scopes
+  summary_line: 2 scopes · authorizationCode/password
+score:
+  band: developing
+  composite: 49.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 42.1
+    contract_quality: 56.6
+    developer_ergonomics: 65.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 49.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Clearslide Authentication
+  slug: clearslide-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Clearslide Domain Security
+  slug: clearslide-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Clearslide Vulnerability Disclosure
+  slug: clearslide-vulnerability-disclosure
+  summary_line: contact published
+slug: clearslide
+tags:
+- Company
+- Sales Engagement
+- Sales Enablement
+- Content Management
+- Presentations
+- Analytics
+- Meetings
+- CRM
+- OAuth
+- SCIM
+website: https://developer.clearslide.com/
+---

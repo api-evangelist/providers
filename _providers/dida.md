@@ -1,0 +1,85 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dida-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.didatravel.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DidaTravel
+created: '2026-07-17'
+description: DidaTravel (道旅科技, Shenzhen Dida Travel Technology Co., Ltd.) is a technology-driven global travel distribution company. It operates an open platform that connects travel buyers and suppliers, providing flexible connectivity solutions across hotels, flights, airport transfers, and attraction tickets. Headquartered in Shenzhen, China, DidaTravel serves online travel agencies, tour operators, and other travel businesses worldwide with aggregated hotel content, dynamic rates, and booking delivered through its B2B distribution technology. The company positions itself as a global technology leader in travel product connectivity and is backed by investors including IDG Capital.
+image: https://cdn.dida.com/dida/brand/main/favicon.ico
+layout: provider
+modified: '2026-07-18'
+name: Dida
+nav: Providers
+network: true
+overview: Dida is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Travel Technology, Hotels, and Hotel Distribution.
+random_paper: 45
+score:
+  band: minimal
+  composite: 7.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dida Domain Security
+  slug: dida-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: dida
+tags:
+- Company
+- Travel
+- Travel Technology
+- Hotels
+- Hotel Distribution
+- Travel Distribution
+- B2B
+- Consumer Technology
+website: https://www.didatravel.com
+---

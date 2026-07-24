@@ -1,0 +1,108 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: REST API for creating and managing autonomous research projects — create a project, manage experts and expert actions, schedule calls with experts, and post call-completion details. Documented on Apid
+  name: Bridgetown Research API
+  slug: bridgetown-research-api
+artifact_total: 2
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bridgetownresearch.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bridgetownresearch.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.bridgetownresearch.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bridgetownresearch.com/terms-and-conditions
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bridgetown-research-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bridgetown-research-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/bridgetown-research-conformance.yml
+created: '2026-07-17'
+description: Bridgetown Research is an AI-powered research and analysis platform that helps organizations analyze businesses with speed and precision. Its AI agents conduct expert interviews, gather primary and secondary data at scale, and execute 300+ of the most common analyses to power autonomous market research and commercial due diligence. The platform serves private equity and venture capital firms, professional services firms, and corporate strategy and development teams, who access it either through a SOC 2-compliant SaaS platform with interactive generative-search reporting or via an email-driven workflow that returns PDF reports. Bridgetown Research also exposes a REST API (documented on Apidog at docs.bridgetownresearch.com) for creating research projects and managing experts, expert actions, and scheduled calls. It is backed by Accel and Lightspeed Venture Partners.
+image: https://cdn.prod.website-files.com/676e6115a1e9c0edad94c480/679b83a110de1189f26a4e08_OG%20image%20(3).png
+layout: provider
+modified: '2026-07-18'
+name: Bridgetown Research
+nav: Providers
+network: true
+overview: 'Bridgetown Research publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Research, Market Research, and Due Diligence.
+
+
+  Bridgetown Research''s developer surface includes documentation, API reference, and 5 more developer resources.'
+random_paper: 29
+score:
+  band: emerging
+  composite: 16.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 16.0
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Bridgetown Research Domain Security
+  slug: bridgetown-research-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: bridgetown-research
+tags:
+- Company
+- AI
+- Research
+- Market Research
+- Due Diligence
+- Private Equity
+- Consulting
+- Data
+website: https://www.bridgetownresearch.com/
+---

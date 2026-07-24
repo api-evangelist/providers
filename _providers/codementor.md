@@ -1,0 +1,99 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.codementor.io/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.codementor.io/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.codementor.io
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.codementor.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.codementor.io/privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/codementor-domain-security.yml
+created: '2026-07-17'
+description: CodeMentor (codementor.io) is an on-demand marketplace that connects software developers with vetted expert mentors for live 1:1 coding help, code review, debugging, pair programming, and longer-term freelance engagements across dozens of programming languages and frameworks. Part of the Arc / CodeMentor group, it serves individual learners seeking real-time mentorship as well as companies hiring vetted remote developers. As of this profile CodeMentor exposes no public developer API, SDKs, or OpenAPI surface; this record was surfaced as a Techstars portfolio company and enriched with verified identity and domain-security signals.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codementor.png
+layout: provider
+modified: '2026-07-18'
+name: CodeMentor
+nav: Providers
+network: true
+overview: 'CodeMentor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Mentorship, Freelance Marketplace, Software Development, and Hiring.
+
+
+  CodeMentor''s developer surface includes engineering blog, support, and 4 more developer resources.'
+random_paper: 1
+score:
+  band: minimal
+  composite: 12.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 12.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Codementor Domain Security
+  slug: codementor-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: codementor
+tags:
+- Company
+- Developer Mentorship
+- Freelance Marketplace
+- Software Development
+- Hiring
+- Learning
+- Community
+website: https://www.codementor.io/
+---

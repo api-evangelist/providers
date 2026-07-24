@@ -1,0 +1,266 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 69.2
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Bullet Agentic Access
+  operation_count: 37
+  slug: bullet-agentic-access
+  summary_line: 37 operations · 3 acting
+api_count: 9
+apis:
+- description: The Account API from Bullet — 8 operation(s) for account.
+  name: Bullet Account API
+  slug: bullet-account-api
+- description: The Address API from Bullet — 1 operation(s) for address.
+  name: Bullet Address API
+  slug: bullet-address-api
+- description: The Health API from Bullet — 4 operation(s) for health.
+  name: Bullet Health API
+  slug: bullet-health-api
+- description: The Market-Data API from Bullet — 11 operation(s) for market-data.
+  name: Bullet Market-Data API
+  slug: bullet-market-data-api
+- description: The Rollup API from Bullet — 3 operation(s) for rollup.
+  name: Bullet Rollup API
+  slug: bullet-rollup-api
+- description: The SolanaOffchainTx API from Bullet — 1 operation(s) for solanaoffchaintx.
+  name: Bullet SolanaOffchainTx API
+  slug: bullet-solanaoffchaintx-api
+- description: The Trading API from Bullet — 2 operation(s) for trading.
+  name: Bullet Trading API
+  slug: bullet-trading-api
+- description: The Tx API from Bullet — 1 operation(s) for tx.
+  name: Bullet Tx API
+  slug: bullet-tx-api
+- description: The User Data (Beta) API from Bullet — 6 operation(s) for user data (beta).
+  name: Bullet User Data (Beta) API
+  slug: bullet-user-data-beta-api
+arazzos:
+- description: ''
+  name: _Index
+  slug: _index
+- description: Discover markets then pull the order book, 24h ticker, and recent trades for a symbol.
+  name: Bullet market-data snapshot
+  slug: bullet-market-data-snapshot
+artifact_total: 15
+common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/bullet-trading-api-openapi.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.bullet.xyz/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bullet.xyz/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tradingapi.bullet.xyz/docs/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://tradingapi.bullet.xyz/docs/getting-started.html
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/bullet-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bullet-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/bullet-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/bullet-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bullet-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bullet-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bullet-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.bullet.xyz/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bullet-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/bullet-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bullet-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bullet-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bullet-trading-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/bullet-market-data-snapshot.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bullet-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/bullet-domain-security.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bullet-agentic-access.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bulletxyz
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.bullet.xyz/exchange/help-center/contact-support.md
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.bullet.xyz/exchange/trading/fees.md
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.bullet.xyz/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://docs.bullet.xyz/legals/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://docs.bullet.xyz/legals/privacy-policy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bullet.xyz/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/bulletxyz
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.com/invite/QuP3YsRAtx
+- group: other
+  title: ''
+  type: Telegram
+  url: https://t.me/bullet_xyz
+created: '2026-07-17'
+description: Bullet is Solana's high-performance trading layer — a decentralized exchange offering perpetual futures (derivatives), spot, and lending under one unified margin engine. The Bullet Trading API is a Binance USD-M Futures (FAPI) compatible REST and WebSocket interface for market data, account and position management, and order placement via ed25519-signed transactions, with official Rust and WASM/TypeScript SDKs. Bullet runs as a sovereign rollup settling to Solana mainnet-beta, with a testnet environment for building and testing against mock assets.
+image: https://tradingapi.bullet.xyz/docs/favicon-de23e50b.svg
+layout: provider
+mcp_servers:
+- description: ''
+  name: bullet-mcp.yml
+  slug: bullet-mcpyml
+modified: '2026-07-18'
+name: Bullet
+nav: Providers
+network: true
+overview: 'Bullet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Address API, Health API, and 6 more. Tagged areas include Company, DeFi, Solana, Cryptocurrency, and Derivatives.
+
+
+  Bullet''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, pricing, and 26 more developer resources.'
+random_paper: 36
+score:
+  band: developing
+  composite: 50.7
+  delta: 0.6
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 51.1
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 50.1
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Bullet Authentication
+  slug: bullet-authentication
+  summary_line: signature · 1 scheme
+- kind: domain-security
+  name: Bullet Domain Security
+  slug: bullet-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: bullet
+tags:
+- Company
+- DeFi
+- Solana
+- Cryptocurrency
+- Derivatives
+- Exchange
+- Trading
+- Perpetuals
+- Lending
+- Blockchain
+website: https://www.bullet.xyz/
+---

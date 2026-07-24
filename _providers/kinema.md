@@ -1,0 +1,112 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://kinema.com/
+- group: company
+  title: ''
+  type: About
+  url: https://kinema.com/about
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.kinema.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://kinema.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://kinema.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://kinema.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://kinema.com/legal/privacy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/kinema-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kinema-domain-security.yml
+created: '2026-07-17'
+description: Kinema is a social cinema platform and independent film distribution service. It empowers independent filmmakers to release, control, and get paid for their films through global distribution, partner-driven and live screenings, and direct-to-audience streaming, with ownership retention, transparent weekly payouts, and real-time earnings dashboards. Hosts and community builders get screening software and event tools to turn any space into a movie house, in person or online, while audiences discover independent films and attend virtual or in-person screenings, directly supporting filmmakers through ticket and rental purchases.
+image: https://storyspaces-util.imgix.net/kinema-og.png?w=1280&auto=format
+layout: provider
+modified: '2026-07-19'
+name: Kinema
+nav: Providers
+network: true
+overview: 'Kinema is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Film Distribution, Streaming, Cinema, and Events.
+
+
+  Kinema''s developer surface includes support, signup flow, and 7 more developer resources.'
+random_paper: 17
+score:
+  band: minimal
+  composite: 14.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Kinema Domain Security
+  slug: kinema-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: kinema
+tags:
+- Company
+- Film Distribution
+- Streaming
+- Cinema
+- Events
+- Entertainment
+- Media
+- Independent Film
+website: https://kinema.com/
+---

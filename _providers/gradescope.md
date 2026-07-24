@@ -1,0 +1,138 @@
+---
+access_model:
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 24.0
+  scored_at: '2026-07-23'
+api_count: 5
+apis:
+- description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
+  name: Gradescope LTI Integration
+  slug: gradescope-lti-api
+- description: 'Course and roster data. Gradescope does not expose a generally available public REST endpoint for listing or managing courses; course roster provisioning happens through LTI 1.3 NRPS during LMS sync. '
+  name: Gradescope Courses API
+  slug: gradescope-courses-api
+- description: Assignment configuration and the autograder framework for code assignments. The documented programmatic contract is a Docker-based autograder that reads student submissions and emits a results.json fi
+  name: Gradescope Assignments API
+  slug: gradescope-assignments-api
+- description: Submission handling. Code submissions are processed inside the autograder container, where the submission is mounted and graded according to the autograder specification. Gradescope does not publish a
+  name: Gradescope Submissions API
+  slug: gradescope-submissions-api
+- description: Grade data and gradebook sync. Grades are pushed to an LMS gradebook through LTI 1.3 Assignment and Grade Services (AGS) rather than a first-party public REST API. Programmatic export/import of grades
+  name: Gradescope Grades API
+  slug: gradescope-grades-api
+artifact_total: 10
+collections:
+- collection_type: open
+  name: Gradescope API
+  slug: open-gradescope
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/gradescope-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/gradescope
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/products/turnitin-gradescope/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gradescope.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://guides.gradescope.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/gradescope-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gradescope-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/gradescope-finops.yml
+created: '2026-06-21'
+description: Gradescope, a Turnitin company, is an assessment and grading platform for paper-based, digital, and code assignments used across higher education and K-12. It does not publish a generally available public REST API; programmatic integration is delivered through LTI 1.3 / LTI Advantage (roster and grade sync with Canvas, Blackboard, Brightspace/D2L, Moodle, and Sakai) and a documented autograder framework for code assignments. A first-party public API for courses, assignments, submissions, and grades is a published feature request but is not yet generally available.
+finops:
+- name: Gradescope Finops
+  service_category: Education and Assessment
+  slug: gradescope-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gradescope.png
+layout: provider
+modified: '2026-06-21'
+name: Gradescope
+nav: Providers
+network: true
+overview: 'Gradescope publishes 5 APIs on the [APIs.io](https://apis.io/) network, including LTI Integration, Courses API, Assignments API, and 2 more. Tagged areas include Education, EdTech, Grading, Assessment, and LTI.
+
+
+  Gradescope''s developer surface includes documentation and 7 more developer resources.'
+plans:
+- name: Gradescope Plans Pricing
+  plan_count: 2
+  slug: gradescope-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 3
+  name: Gradescope Rate Limits
+  slug: gradescope-rate-limits
+score:
+  band: emerging
+  composite: 28.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 37.7
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 28.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Gradescope Domain Security
+  slug: gradescope-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: gradescope
+tags:
+- Education
+- EdTech
+- Grading
+- Assessment
+- LTI
+website: https://www.gradescope.com
+---

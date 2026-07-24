@@ -1,0 +1,200 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 60.6
+  scored_at: '2026-07-23'
+api_count: 1
+apis:
+- description: Create, retrieve, list and stop screen sharing sessions.
+  name: Screenleap Inc Screen Shares API
+  slug: screenleap-inc-screen-shares-api
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: Screenleap Inc Webhooks
+  slug: screenleap-inc-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/screenleap-inc-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.screenleap.com/developer
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.screenleap.com/api/doc
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.screenleap.com/api/native/doc/http-calls
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.screenleap.com/api/native/quick-start
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.screenleap.com/api/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.screenleap.com/signup/developer
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.screenleap.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.screenleap.com/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.screenleap.com/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.screenleap.com/tag/screenleap-api/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Screenleap
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/screenleap-inc-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/screenleap-inc-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/screenleap-inc-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/screenleap-inc-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.screenleap.com/api/native/update
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/screenleap-inc-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/screenleap-inc-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/screenleap-inc-components.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/screenleap-inc-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/screenleap-inc-data-model.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/screenleap-inc-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/screenleap-inc-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/screenleap-inc-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Screenleap is a Y Combinator-backed company whose API lets developers add live screen sharing, video conferencing, audio conferencing and chat to their own websites and online products. Integrations create a session server-to-server over a REST/JSON HTTP interface (base https://api.screenleap.com/v2), load a hosted screenleap.js library on the presenter's page, and render the share to viewers through a returned viewer URL or embedded iframe. Authentication uses an account id plus an auth token; billing is per participant-minute (Basic $0.003/min, White-Label $0.010/min) with no Screenleap subscription required.
+image: https://www.screenleap.com/img/screenleap-logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: screenleap-inc-mcp.yml
+  slug: screenleap-inc-mcpyml
+modified: '2026-07-21'
+name: Screenleap Inc
+nav: Providers
+network: true
+overview: 'Screenleap Inc publishes 1 API on the [APIs.io](https://apis.io/) network: Screen Shares API. Tagged areas include Company, Screen Sharing, Video Conferencing, Collaboration, and Real-Time Communication.
+
+
+  The Screenleap Inc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Screenleap Inc''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
+random_paper: 40
+score:
+  band: developing
+  composite: 54.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 70.8
+    developer_ergonomics: 67.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 54.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Screenleap Inc Authentication
+  slug: screenleap-inc-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Screenleap Inc Domain Security
+  slug: screenleap-inc-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+slug: screenleap-inc
+tags:
+- Company
+- Screen Sharing
+- Video Conferencing
+- Collaboration
+- Real-Time Communication
+- WebRTC
+- Embedded
+- Developer Tools
+website: https://www.screenleap.com/developer
+---

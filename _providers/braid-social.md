@@ -1,0 +1,73 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/braidsocial
+created: '2026-07-17'
+description: Braid (Braid Social) was a creator-economy startup building a direct-to-fan engagement platform for the creator economy. Founded by former Facebook product designer Matthew Cahill and software engineer Chris Piro, Braid let creators build customizable landing pages that consolidated their work across the web (blog posts, videos, podcasts, and commerce links), collect fan phone numbers, and reach followers directly through SMS text messages, push notifications, and mailing lists, with link tracking and cross-platform analytics. Positioned as a creator-friendly, direct-to-audience alternative to algorithm-driven social platforms, Braid raised a $6.8M seed round in August 2023 led by Andreessen Horowitz (a16z) with Initialized Capital. The company appears to be defunct as of this profile — its primary domain (braid.ai) now redirects to a domain-for-sale listing and no developer, documentation, or API surface could be found. Added to the API Evangelist network as an a16z portfolio
+  lead; no public API artifacts exist to enrich.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braid-social.png
+layout: provider
+modified: '2026-07-18'
+name: Braid Social
+nav: Providers
+network: true
+overview: Braid Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Social, Messaging, and SMS.
+random_paper: 21
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: braid-social
+tags:
+- Company
+- Creator Economy
+- Social
+- Messaging
+- SMS
+- Landing Pages
+- Analytics
+- Consumer
+- Direct-to-Fan
+---

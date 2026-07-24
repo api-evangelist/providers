@@ -1,0 +1,192 @@
+---
+access_model:
+  confidence: medium
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Google Wallet Agentic Access
+  operation_count: 10
+  slug: google-wallet-agentic-access
+  summary_line: 10 operations · 6 acting
+api_count: 5
+apis:
+- description: Manage event ticket classes and objects
+  name: Google Wallet Event Tickets API
+  slug: google-wallet-event-tickets-api
+- description: Manage generic pass classes and objects
+  name: Google Wallet Generic Passes API
+  slug: google-wallet-generic-passes-api
+- description: Manage wallet issuers
+  name: Google Wallet Issuers API
+  slug: google-wallet-issuers-api
+- description: Create save-to-wallet JWTs
+  name: Google Wallet JWT API
+  slug: google-wallet-jwt-api
+- description: Manage loyalty card classes and objects
+  name: Google Wallet Loyalty Cards API
+  slug: google-wallet-loyalty-cards-api
+artifact_total: 15
+collections:
+- collection_type: open
+  name: Google Wallet API
+  slug: open-openapi
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/google-wallet-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-wallet-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/google-wallet-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/google-wallet
+- group: start
+  title: ''
+  type: Portal
+  url: https://developers.google.com/wallet
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.google.com/wallet/generic/getting-started/onboarding-guide
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/wallet
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developers.google.com/wallet/generic/getting-started/onboarding-guide
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developers.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloud.google.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.google.com/wallet/support
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/json-ld/google-wallet.jsonld
+created: '2026-03-13'
+description: The Google Wallet API enables developers to create and manage digital passes including event tickets, boarding passes, loyalty cards, gift cards, offers, transit passes, and generic passes. It provides REST endpoints for creating pass classes (templates) and pass objects (instances), managing issuers, handling media uploads, and generating JWT tokens for save-to-wallet functionality on Android devices and the web.
+finops:
+- name: Google Wallet Finops
+  service_category: API
+  slug: google-wallet-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-wallet.png
+json_schemas:
+- name: Google Wallet API Schema
+  property_count: 0
+  slug: google-wallet
+jsonld:
+- class_count: 0
+  name: Google Wallet Context
+  property_count: 11
+  slug: google-wallet
+layout: provider
+modified: '2026-05-19'
+name: Google Wallet
+nav: Providers
+network: true
+overview: 'Google Wallet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Tickets API, Generic Passes API, Issuers API, and 2 more. Tagged areas include Digital Wallet, Google Wallet, Loyalty Cards, Mobile Payments, and Passes.
+
+
+  The Google Wallet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Google Wallet''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, and 8 more developer resources.'
+plans:
+- name: Google Wallet Plans Pricing
+  plan_count: 3
+  slug: google-wallet-plans-pricing
+random_paper: 5
+rate_limits:
+- limit_count: 5
+  name: Google Wallet Rate Limits
+  slug: google-wallet-rate-limits
+rules:
+- name: Google Wallet API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 4
+  slug: google-wallet-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 57.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 57.5
+    developer_ergonomics: 43.5
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 52.6
+  previous_composite: 57.6
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/screenshots/google-wallet-2026-06-20T182248.png
+security:
+- kind: domain-security
+  name: Google Wallet Domain Security
+  slug: google-wallet-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Google Wallet Vulnerability Disclosure
+  slug: google-wallet-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: google-wallet
+tags:
+- Digital Wallet
+- Google Wallet
+- Loyalty Cards
+- Mobile Payments
+- Passes
+- Tickets
+website: https://developers.google.com/wallet
+---

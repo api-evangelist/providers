@@ -1,0 +1,80 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vidcaster-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://vidcaster.com
+created: '2026-07-17'
+description: Vidcaster was a business video experience platform (a 500 Startups / 500 Global portfolio company) that helped organizations use video strategically across marketing, sales, training, and customer support. Its platform let teams host, manage, enrich, distribute, and analyze videos with a customizable player, video galleries, lead-generation gating, video subscriptions, advanced video SEO, and integrations with marketing-automation, CRM, and social channels. The company now appears defunct because the vidcaster.com web application is no longer reachable (HTTPS/HTTP connections time out) and no public API or developer program was ever published. Retained in the API Evangelist network as a historical portfolio-lead profile.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidcaster.png
+layout: provider
+modified: '2026-07-21'
+name: Vidcaster
+nav: Providers
+network: true
+overview: Vidcaster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Platform, Video Marketing, and Video Hosting.
+random_paper: 47
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Vidcaster Domain Security
+  slug: vidcaster-domain-security
+  summary_line: no transport/DNS hardening detected
+slug: vidcaster
+tags:
+- Company
+- Video
+- Video Platform
+- Video Marketing
+- Video Hosting
+- Video SEO
+- Defunct
+website: https://vidcaster.com
+---

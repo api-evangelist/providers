@@ -1,0 +1,200 @@
+---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 57.7
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: Create and manage data migration (import) jobs.
+  name: Import2 Imports API
+  slug: import2-imports-api
+- description: Supported source and destination migration tools.
+  name: Import2 Tools API
+  slug: import2-tools-api
+artifact_total: 7
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.import2.com
+- group: start
+  title: ''
+  type: Portal
+  url: https://partners.import2.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.import2.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://import2.github.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.import2.com/how-it-works
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.import2.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.import2.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.import2.com/session/new
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.import2.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.import2.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/import2
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/import2-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/import2-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/import2-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/import2-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/import2-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/import2-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/import2-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/import2-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.import2.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/import2-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/import2-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/import2-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/import2-llms.txt
+created: '2026-07-17'
+description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal stages directly over each app's API, processing data in real time on a temporary machine that is destroyed after the migration. It supports 50+ tools (Salesforce, HubSpot, Zendesk, Pipedrive, Asana, Monday.com, Jira and more) and offers a free sample migration before a full run. Import2 also exposes a partner/vendor API (v2.1) so SaaS vendors can create and track automated migrations programmatically, plus sibling tools ViaCSV and MyCRMBackup.
+image: https://cdn.prod.website-files.com/698e5a4787478ca03bb07614/699307813937eab1c0993d3d_webclip.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: import2-mcp.yml
+  slug: import2-mcpyml
+modified: '2026-07-19'
+name: Import2
+nav: Providers
+network: true
+overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Helpdesk.
+
+
+  Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
+random_paper: 3
+rate_limits:
+- limit_count: 0
+  name: Import2 Rate Limits
+  slug: import2-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 61.9
+    developer_ergonomics: 71.7
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 51.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Import2 Authentication
+  slug: import2-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Import2 Domain Security
+  slug: import2-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Import2 Trust Center
+  slug: import2-trust-center
+  summary_line: SOC 2 Type II, GDPR, CCPA
+slug: import2
+tags:
+- Company
+- Data Migration
+- Data Integration
+- CRM
+- Helpdesk
+- SaaS
+- Migration
+- Onboarding
+website: https://www.import2.com
+---

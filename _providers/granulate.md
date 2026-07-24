@@ -1,0 +1,104 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/granulate-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://granulate.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://github.com/intel/gprofiler#readme
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/intel/gprofiler
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/intel
+- group: build
+  title: ''
+  type: Packages
+  url: packages/granulate-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/granulate-cli.yml
+created: '2026-07-17'
+description: Granulate is a real-time continuous optimization company acquired by Intel in 2022 and now offered as Intel Tiber App-Level Optimization. Its platform autonomously tunes OS-level and runtime behavior (scheduling, memory, networking) for compute, Kubernetes, and big-data workloads to cut CPU cost and latency without code changes. Granulate also maintains gProfiler, an open-source, low-overhead, system-wide continuous profiler that combines multiple sampling profilers (perf, py-spy, async-profiler, rbspy, PHP/.NET/Node.js) into a single flamegraph and optionally uploads results to the Granulate Performance Studio. gProfiler ships as an Apache-2.0 agent (github.com/intel/gprofiler), a self-hosted backend/UI (github.com/intel/gprofiler-performance-studio), a Docker image, and cloud-marketplace images. The former granulate.io developer surface now redirects to intel.com.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/granulate.png
+layout: provider
+modified: '2026-07-19'
+name: Granulate
+nav: Providers
+network: true
+overview: 'Granulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Performance, Continuous Profiling, and Observability.
+
+
+  Granulate''s developer surface includes documentation, CLI, and 5 more developer resources.'
+random_paper: 45
+score:
+  band: minimal
+  composite: 10.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 10.5
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Granulate Domain Security
+  slug: granulate-domain-security
+  summary_line: TLSv1.3
+slug: granulate
+tags:
+- Company
+- Devops
+- Performance
+- Continuous Profiling
+- Observability
+- Optimization
+- Kubernetes
+- Intel
+website: https://granulate.io/
+---

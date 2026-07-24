@@ -1,0 +1,71 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://silverpush.co
+created: '2026-07-17'
+description: Silveredge was added to the API Evangelist network as a stub from the 500 Global venture portfolio; the website property wired to this record (silverpush.co) presents Silverpush, an AI-powered contextual intelligence company that helps advertisers deliver contextually relevant, brand-safe video advertising across YouTube, CTV, TikTok, Meta, and the open web through its Mirrors contextual intelligence suite and Parallels moment-marketing platform. As of this enrichment pass the company publishes no public API, developer portal, documentation, SDKs, or /.well-known discovery surface — developer subdomains do not resolve and developer paths return 404 — so there is no API artifact surface to harvest. This profile remains a company lead.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silveredge.png
+layout: provider
+modified: '2026-07-21'
+name: Silveredge
+nav: Providers
+network: true
+overview: Silveredge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Intelligence, and Artificial Intelligence.
+random_paper: 46
+score:
+  band: minimal
+  composite: 6.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 6.8
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: silveredge
+tags:
+- Company
+- Advertising
+- AdTech
+- Contextual Intelligence
+- Artificial Intelligence
+- Video Advertising
+- Marketing
+website: https://silverpush.co
+---

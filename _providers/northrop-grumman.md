@@ -1,0 +1,88 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 0
+common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/NorthropGrumman
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/northrop-grumman-corporation
+- group: company
+  title: ''
+  type: Website
+  url: https://www.northrop-grumman.com
+description: Northrop Grumman is a global aerospace, defense, and security company that delivers innovative systems, products, and solutions in autonomous systems, cyber, command and control, space, and strike weapons.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northrop-grumman.png
+layout: provider
+modified: '2026-03-21'
+name: northrop-grumman
+nav: Providers
+network: true
+overview: northrop-grumman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+press:
+- date: '2026-05-25'
+  title: Northrop Grumman Expanding Its Use of NVIDIA AI ...
+  url: https://news.northropgrumman.com/digital-transformation/northrop-grumman-expanding-its-use-of-nvidia-ai-technology-to-advance-solutions-for-space
+- date: '2026-05-25'
+  title: Northrop Grumman Accelerates Innovation with AI ...
+  url: https://www.linkedin.com/posts/travisgarriss_deploying-an-ai-factory-for-regulated-industries-activity-7424914206048731136-0XYR
+- date: '2026-05-25'
+  title: Artificial Intelligence and Machine Learning
+  url: https://www.northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning
+- date: '2026-05-25'
+  title: Artificial Intelligence Applications at Northrop Grumman
+  url: https://emerj.com/artificial-intelligence-applications-at-northrop-grumman-an-overview/
+- date: '2026-05-25'
+  title: Artificial Intelligence
+  url: https://news.northropgrumman.com/artificial-intelligence
+random_paper: 13
+score:
+  band: minimal
+  composite: 5.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 47.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 5.4
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+slug: northrop-grumman
+tags:
+- Fortune 500
+website: https://www.northrop-grumman.com
+---

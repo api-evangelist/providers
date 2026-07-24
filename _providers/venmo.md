@@ -1,0 +1,141 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.venmo.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.paypal.com/braintree/docs/guides/venmo/overview
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.paypal.com/braintree/docs/guides/venmo/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.paypal.com/braintree/graphql/integration_guides/venmo/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.venmo.com/cs/home
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://venmo.com/legal/us-user-agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://venmo.com/legal/us-privacy-policy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/venmo-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/venmo-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/venmo-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/venmo-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/venmo-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/venmo-conformance.yml
+created: '2026-07-17'
+description: Venmo is a US mobile payments service owned by PayPal that lets people send, receive, and split money with friends, pay approved businesses, and hold a balance backed by a debit and credit card. For developers, Venmo does not publish a standalone first-party public API; the historical developer.venmo.com OAuth API is no longer offered to new developers. Instead, "Pay with Venmo" is exposed to US merchants through PayPal Braintree via its GraphQL API and the Android, iOS, and JavaScript SDKs, with webhooks and a Braintree sandbox for testing. Venmo's compliance and vulnerability-disclosure posture is inherited from PayPal (Level 1 PCI DSS, SOC 2 Type 2, PayPal Bug Bounty on HackerOne).
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/venmo.png
+layout: provider
+modified: '2026-07-21'
+name: Venmo
+nav: Providers
+network: true
+overview: 'Venmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Fintech, and Mobile Payments.
+
+
+  Venmo''s developer surface includes documentation, API reference, and 11 more developer resources.'
+random_paper: 39
+score:
+  band: emerging
+  composite: 27.7
+  delta: 6.6
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 0.0
+    developer_ergonomics: 28.3
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 10.5
+  previous_composite: 21.1
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: rising
+security:
+- kind: domain-security
+  name: Venmo Domain Security
+  slug: venmo-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Venmo Vulnerability Disclosure
+  slug: venmo-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Venmo Trust Center
+  slug: venmo-trust-center
+  summary_line: PCI DSS, SOC 2 Type 2
+slug: venmo
+tags:
+- Company
+- Consumer
+- Payments
+- Fintech
+- Mobile Payments
+- P2P Payments
+- Money Transfer
+- Digital Wallet
+website: https://www.venmo.com
+---

@@ -1,0 +1,206 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-23'
+agentic_access:
+- acting_count: 97
+  human_in_the_loop: 0
+  name: Nano Agentic Access
+  operation_count: 97
+  slug: nano-agentic-access
+  summary_line: 97 operations · 97 acting
+api_count: 8
+apis:
+- description: Account balance, history, representative, and frontier queries
+  name: Nano Accounts API
+  slug: nano-accounts-api
+- description: Block creation, processing, signing, and querying operations
+  name: Nano Blocks API
+  slug: nano-blocks-api
+- description: Cryptographic key generation and derivation
+  name: Nano Keys API
+  slug: nano-keys-api
+- description: Ledger-level queries for supply, frontiers, and account data
+  name: Nano Ledger API
+  slug: nano-ledger-api
+- description: Node diagnostics, bootstrapping, peers, and confirmation management
+  name: Nano Node API
+  slug: nano-node-api
+- description: Conversion between Nano and raw unit denominations
+  name: Nano Unit Conversion API
+  slug: nano-unit-conversion-api
+- description: Local wallet management for development and testing
+  name: Nano Wallets API
+  slug: nano-wallets-api
+- description: Proof-of-work generation, validation, and caching
+  name: Nano Work API
+  slug: nano-work-api
+artifact_total: 21
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/nano-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nano-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://nano.org
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.nano.org
+- group: docs
+  title: ''
+  type: IntegrationGuides
+  url: https://docs.nano.org/integration-guides/
+- group: other
+  title: ''
+  type: WhitePaper
+  url: https://docs.nano.org/living-whitepaper/
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.nano.org/releases/current-release-notes/
+- group: build
+  title: ''
+  type: DeveloperTools
+  url: https://hub.nano.org/developer-tools
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/nanocurrency
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:integrations@nano.org
+- group: company
+  title: ''
+  type: Blog
+  url: https://nano.org/en/blog/rss/
+created: '2026-06-14'
+description: Nano is a feeless, instant digital currency using a block-lattice architecture. It provides a JSON-RPC HTTP API for querying accounts, retrieving block information, managing wallets, processing transactions, and interacting with the Nano network. Each account maintains its own blockchain, enabling fast and lightweight consensus without mining.
+examples:
+- key_count: 2
+  name: Account Balance
+  slug: account-balance
+- key_count: 2
+  name: Block Info
+  slug: block-info
+- key_count: 2
+  name: Send Transaction
+  slug: send-transaction
+- key_count: 2
+  name: Unit Conversion
+  slug: unit-conversion
+finops:
+- name: Finops
+  service_category: ''
+  slug: finops
+image: https://nano.org/favicon.ico
+json_schemas:
+- name: Nano State Block
+  property_count: 10
+  slug: nano-block
+- name: Nano RPC Request
+  property_count: 18
+  slug: nano-rpc-request
+jsonld:
+- class_count: 0
+  name: Nano Context
+  property_count: 25
+  slug: nano-context
+layout: provider
+modified: '2026-06-14'
+name: Nano
+nav: Providers
+network: true
+overview: 'Nano publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Keys API, and 5 more. Tagged areas include Cryptocurrency, Payments, Blockchain, Feeless, and Instant Payments.
+
+
+  The Nano catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Nano''s developer surface includes documentation, release notes, GitHub presence, engineering blog, and 7 more developer resources.'
+plans:
+- name: Plans
+  plan_count: 2
+  slug: plans
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Rate Limits
+  slug: rate-limits
+rules:
+- name: Nano API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: nano-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 39.1
+  delta: -2.7
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 53.9
+    developer_ergonomics: 10.9
+    discoverability: 87.5
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 41.8
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/screenshots/nano-2026-06-20T185939.png
+security:
+- kind: domain-security
+  name: Nano Domain Security
+  slug: nano-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: nano
+tags:
+- Cryptocurrency
+- Payments
+- Blockchain
+- Feeless
+- Instant Payments
+- Digital Currency
+website: https://nano.org
+---

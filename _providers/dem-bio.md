@@ -1,0 +1,93 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-23'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dem-bio-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://dembiopharma.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://dembiopharma.com/news.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://dembiopharma.com/contact.html
+created: '2026-07-17'
+description: DEM BioPharma is a Cambridge, Massachusetts biotechnology company developing first-in-class cancer therapeutics that target the signals solid tumors use to evade immune destruction. The company pioneers next-generation macrophage and innate-immune immunotherapies discovered through its proprietary CHoMP (Co-culture with Human Myeloid Phagocytes) functional-genomics platform, which uses CRISPR-based screening to identify novel "don't-eat-me" and activating targets on myeloid cells. DEM launched in 2022 with $70M in Series A financing and is backed by Longwood Fund, Emerson Collective, Pfizer Ventures, Astellas, and Insight Partners. Added to the API Evangelist network as a portfolio-company profile; DEM publishes no public developer or API surface at this time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dem-bio.png
+layout: provider
+modified: '2026-07-18'
+name: DEM Bio
+nav: Providers
+network: true
+overview: 'DEM Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech Therapeutics, Oncology, Immunotherapy, and Cancer.
+
+
+  DEM Bio''s developer surface includes engineering blog, support, and 2 more developer resources.'
+random_paper: 6
+score:
+  band: minimal
+  composite: 8.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 8.1
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: domain-security
+  name: Dem Bio Domain Security
+  slug: dem-bio-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: dem-bio
+tags:
+- Company
+- Biotech Therapeutics
+- Oncology
+- Immunotherapy
+- Cancer
+- CRISPR
+- Drug Discovery
+- Functional Genomics
+- Macrophage
+website: https://dembiopharma.com/
+---

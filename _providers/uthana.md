@@ -1,0 +1,245 @@
+---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 40.4
+  scored_at: '2026-07-23'
+api_count: 2
+apis:
+- description: Single GraphQL endpoint for the whole Uthana platform - text-to-motion, video-to-motion, locomotion, stitch/loop, character upload with auto-rigging, asset management, account, subscription, and pay-a
+  name: Uthana GraphQL API
+  slug: uthana-graphql-api
+- description: REST endpoints for downloading generated motions and characters as FBX, GLB, BVH, or Unitree G1 CSV - /motion/file/ (with character mesh), /motion/animation/ (animation track only, not counted against
+  name: Uthana Motion Download API
+  slug: uthana-motion-download-api
+artifact_total: 7
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/uthana-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://uthana.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://uthana.com/docs/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://uthana.com/docs/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://uthana.com/docs/api/graphql
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://uthana.com/docs/api/
+- group: operate
+  title: ''
+  type: Support
+  url: https://uthana.com/docs/api/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://uthana.com/blog
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://uthana.com/faq
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Uthana
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://uthana.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://uthana.com/user/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://uthana.com/user/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://uthana.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://uthana.com/privacy
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/PbMzMPSyTG
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@UthanaInc
+- group: company
+  title: ''
+  type: X (Twitter)
+  url: https://x.com/Uthana_Inc
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/uthanainc/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://uthana.com/docs/api/rate-limits
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/uthana-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://uthana.com/docs/api/changelog
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/uthana-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/uthana-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/uthana-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/uthana-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/uthana-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/uthana-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/uthana-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/uthana-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://uthana.com/docs/api/changelog
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/uthana-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/uthana-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/uthana-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/uthana-plans.yml
+created: '2026-07-17'
+description: Uthana builds foundation models for human motion — generative AI that creates lifelike 3D character animation from text prompts, 2D reference video, or real-time input, instantly retargeted to any rig (with auto-rigging for unrigged characters). Founded in 2023, Uthana exposes its platform through a GraphQL API at uthana.com/graphql with official Python and JavaScript/TypeScript clients, React hooks, Blender and Maya plugins, ComfyUI nodes, and REST endpoints for downloading motions in FBX, GLB, BVH, and Unitree G1 CSV formats for games, film, AI-native platforms, and robotics.
+graphqls:
+- description: 'generated: ''2026-07-21'''
+  name: Uthana GraphQL API
+  slug: uthana-graphql
+image: https://cdn.prod.website-files.com/67a3a4768bd61958d5872829/67aa15d7488c26c0dfdb3ab7_thumb.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: uthana-mcp.yml
+  slug: uthana-mcpyml
+modified: '2026-07-21'
+name: Uthana
+nav: Providers
+network: true
+overview: 'Uthana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Animation, 3D Characters, Generative AI, Motion Capture, and Gaming.
+
+
+  Uthana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, FAQ, pricing, and 29 more developer resources.'
+plans:
+- name: Uthana Plans
+  plan_count: 7
+  slug: uthana-plans
+random_paper: 29
+score:
+  band: thin
+  composite: 44.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 76.3
+    contract_quality: 0.0
+    developer_ergonomics: 80.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 44.3
+  schema_version: 0.5
+  scored_at: '2026-07-23'
+  trend: flat
+security:
+- kind: authentication
+  name: Uthana Authentication
+  slug: uthana-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Uthana Domain Security
+  slug: uthana-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: uthana
+tags:
+- Animation
+- 3D Characters
+- Generative AI
+- Motion Capture
+- Gaming
+- Robotics
+- Foundation Models
+- GraphQL
+website: https://uthana.com
+---
