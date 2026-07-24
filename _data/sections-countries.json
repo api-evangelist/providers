@@ -132,6 +132,18 @@
   "count": 16
  },
  {
+  "slug": "finland",
+  "name": "Finland",
+  "flag": "🇫🇮",
+  "count": 14
+ },
+ {
+  "slug": "norway",
+  "name": "Norway",
+  "flag": "🇳🇴",
+  "count": 11
+ },
+ {
   "slug": "turkey",
   "name": "Turkey",
   "flag": "🇹🇷",

@@ -71,6 +71,8 @@ COUNTRIES = [
     ("sweden",         "Sweden",         "🇸🇪", ["Sweden"]),
     ("ireland",        "Ireland",        "🇮🇪", ["Ireland"]),
     ("singapore",      "Singapore",      "🇸🇬", ["Singapore"]),
+    ("finland",        "Finland",        "🇫🇮", ["Finland"]),
+    ("norway",         "Norway",         "🇳🇴", ["Norway"]),
 ]
 
 # Material symbol per industry slug; anything unlisted gets `domain`.
