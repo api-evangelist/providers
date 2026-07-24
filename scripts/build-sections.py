@@ -726,30 +726,74 @@ def main():
          {"slug": "state-of-canadian-payments-apis", "title": "The State of Canadian Payments APIs",
           "blurb": "14 Canadian payment companies scored — the thinnest, most concentrated market, where the API-native fintechs out-API the incumbents and the rails. VoPay's 404-operation rail abstraction is the deepest surface in the country, and the top score is an identity company that overstates its own agent surface.", "price": "500"}),
     ]
+    def build_roster_sections(sections, tier_labels, counts):
+        for slug_page, roster_file, title, summary, paper in sections:
+            roster_path = os.path.join(ALL, "0-working", roster_file)
+            with open(roster_path, "r", encoding="utf-8") as fh:
+                roster = json.load(fh)
+            entries = []
+            for p in roster["providers"]:
+                meta = meta_of(p["slug"])
+                if meta is None:
+                    continue
+                entry = rated_entry(p["slug"], meta)
+                tier = p.get("tier", "")
+                if tier:
+                    entry["tier"] = tier_labels.get(tier, titleize(tier))
+                entries.append(entry)
+            grouped = band_grouped(entries)
+            data_key = "companies-%s" % slug_page
+            with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
+                json.dump(grouped, fh, ensure_ascii=False, indent=1)
+            write_page(
+                os.path.join(SITE, slug_page, "index.html"),
+                listing_page(title, summary, data_key, rated=True, paper=paper),
+            )
+            counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
+
     pay_counts = {}
-    for slug_page, roster_file, title, summary, paper in PAY_SECTIONS:
-        roster_path = os.path.join(ALL, "0-working", roster_file)
-        with open(roster_path, "r", encoding="utf-8") as fh:
-            roster = json.load(fh)
-        entries = []
-        for p in roster["providers"]:
-            meta = meta_of(p["slug"])
-            if meta is None:
-                continue
-            entry = rated_entry(p["slug"], meta)
-            tier = p.get("tier", "")
-            if tier:
-                entry["tier"] = PAY_TIER_LABELS.get(tier, titleize(tier))
-            entries.append(entry)
-        grouped = band_grouped(entries)
-        data_key = "companies-%s" % slug_page
-        with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
-            json.dump(grouped, fh, ensure_ascii=False, indent=1)
-        write_page(
-            os.path.join(SITE, slug_page, "index.html"),
-            listing_page(title, summary, data_key, rated=True, paper=paper),
-        )
-        pay_counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
+    build_roster_sections(PAY_SECTIONS, PAY_TIER_LABELS, pay_counts)
+
+    # --- Healthcare (US / UK / AU / CA) -----------------------------------
+    # Roster-driven, HQ/origin model (mirrors Payments): each healthcare
+    # company appears on its home market's page plus that country's national
+    # health system. Rosters live in all/0-working/<cc>-healthcare-roster.json.
+    HEALTH_TIER_LABELS = {
+        "ehr-emr":               "EHR / EMR Systems",
+        "interoperability":      "Interoperability & Health Data Networks",
+        "payer-claims":          "Payer, Claims & Eligibility",
+        "clinical-ai":           "Clinical AI & Documentation",
+        "telehealth":            "Telehealth & Virtual Care",
+        "patient-engagement":    "Patient Engagement & Scheduling",
+        "pharmacy":              "Pharmacy & e-Prescribing",
+        "life-sciences":         "Life Sciences & Clinical Trials",
+        "genomics":              "Genomics & Diagnostics",
+        "devices-wearables":     "Devices & Wearables",
+        "rcm-billing":           "Revenue Cycle & Billing",
+        "health-data-analytics": "Health Data & Analytics",
+        "national-health":       "National Health System",
+        "practice-management":   "Practice Management",
+    }
+    HEALTH_SECTIONS = [
+        ("us-healthcare", "us-healthcare-roster.json", "US Healthcare",
+         "US healthcare companies ranked by their Kin Score — the EHR duopoly and its challengers, the HL7 FHIR interoperability and health-data networks, payer/claims/eligibility rails, the clinical-AI wave, telehealth, pharmacy and e-prescribing, life sciences, and the CMS national infrastructure behind the 21st Century Cures Act.",
+         {"slug": "state-of-us-healthcare-apis", "title": "The State of US Healthcare APIs",
+          "blurb": "77 US healthcare companies scored — the lowest-scoring sector in the series (avg 36.8), where the Cures Act FHIR mandate produced compliance, not product: the incumbent EHRs publish gated CapabilityStatements while API-native challengers ship larger self-serve FHIR, and consent is invisible despite HIPAA.", "price": "500"}),
+        ("uk-healthcare", "uk-healthcare-roster.json", "UK Healthcare",
+         "UK healthcare organizations ranked by their Kin Score — NHS England's national FHIR API platform (PDS, GP Connect, e-Referrals, EPS), the GP clinical-system duopoly (EMIS, TPP SystmOne), and the commercial health-tech integrating around the single national system.",
+         {"slug": "state-of-uk-healthcare-apis", "title": "The State of UK Healthcare APIs",
+          "blurb": "13 UK healthcare organizations scored — the mirror image of the US inversion: one national payer, so the incumbent (NHS England) is the strongest contract publisher and the challengers orbit it. Governance is 0.0 across all 13; consent is legible at exactly one provider.", "price": "500"}),
+        ("au-healthcare", "au-healthcare-roster.json", "Australian Healthcare",
+         "Australian healthcare organizations ranked by their Kin Score — the Australian Digital Health Agency's My Health Record and national infrastructure, the GP-software duopoly (Best Practice, MedicalDirector), and the compact commercial cohort (Cliniko, HotDoc, HealthEngine, Coviu, Heidi Health).",
+         {"slug": "state-of-australian-healthcare-apis", "title": "The State of Australian Healthcare APIs",
+          "blurb": "12 Australian healthcare organizations scored — where a small API-first challenger layer out-executes the national agency and the GP duopoly, and one challenger literally built the incumbents' FHIR facade. Highest-averaging healthcare market; the national clinical record isn't openly contracted at all.", "price": "500"}),
+        ("canadian-healthcare", "canadian-healthcare-roster.json", "Canadian Healthcare",
+         "Canadian healthcare organizations ranked by their Kin Score — Canada Health Infoway's pan-Canadian FHIR stewardship, the consolidating commercial layer (WELL Health, TELUS Health), and the practice-management and telehealth players (Jane, OSCAR EMR, Dialogue, Maple) across a province-fragmented system.",
+         {"slug": "state-of-canadian-healthcare-apis", "title": "The State of Canadian Healthcare APIs",
+          "blurb": "10 Canadian healthcare organizations scored — the lowest-scoring market in the series, and a triple inversion: no API-native FHIR challenger class exists, so a niche practice-management SaaS (Jane) tops the field. Zero live clinical-data FHIR endpoints nationwide; governance 0.0.", "price": "500"}),
+    ]
+    health_counts = {}
+    build_roster_sections(HEALTH_SECTIONS, HEALTH_TIER_LABELS, health_counts)
 
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
@@ -765,7 +809,10 @@ def main():
         len(us_banks), sum(1 for e in us_banks if "score" in e)))
     for slug_page, _r, _t, _s, _p in PAY_SECTIONS:
         n, sc = pay_counts.get(slug_page, (0, 0))
-        print("%-17s %d (scored: %d)" % (slug_page + ":", n, sc))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in HEALTH_SECTIONS:
+        n, sc = health_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 
 if __name__ == "__main__":

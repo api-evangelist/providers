@@ -1,5 +1,5 @@
 {
- "total": 184,
+ "total": 205,
  "bands": [
   {
    "band": "exemplar",
@@ -100,7 +100,7 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 6,
+   "count": 7,
    "companies": [
     {
      "name": "Highnote",
@@ -268,6 +268,47 @@
      "rank": 6
     },
     {
+     "name": "Elation Health",
+     "slug": "elation-health",
+     "description": "Elation Health is a United States clinical-first electronic health record (EHR/EMR) and healthcare technology company, founded in 2010 and headquartered in San Francisco, California, serving independent primary care practices, value-based care organizations, digital health startups, and health-tech partners. Beyond its provider-facing EHR, Elation ships a broad, well-documented public REST API (v2.0) that lets partners read and write clinical and administrative data - patient profiles and demographics, allergies and problems, visit notes, clinical and lab/imaging orders, patient documents, scheduling, billing, insurance and eligibility, messaging, practice and user management, care gaps, and data import - authenticated with OAuth2. The API is documented on a ReadMe developer portal backed by machine-readable OpenAPI definitions, augmented with event subscription webhooks and a Model Context Protocol (MCP) server for agentic access. Elation also operates login-gated HL7 FHIR R4 and SMART-on-FHIR interoperability endpoints for ONC/CMS 21st Century Cures Act information-blocking compliance, exposed to registered applications rather than anonymously. Positioned as an independent challenger to the US EHR duopoly, Elation targets the primary-care and value-based-care segment of the largest, most commercial healthcare-API market.",
+     "score": 60.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
      "name": "Sendle",
      "slug": "sendle",
      "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
@@ -301,7 +342,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Cash App",
@@ -342,7 +383,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 8
+     "rank": 9
     }
    ],
    "open": true
@@ -352,7 +393,7 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 16,
+   "count": 24,
    "companies": [
     {
      "name": "Akoya",
@@ -394,7 +435,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "1upHealth",
+     "slug": "1uphealth",
+     "description": "1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).",
+     "score": 54.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 51.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 11
     },
     {
      "name": "SoFi",
@@ -436,7 +518,171 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 12
+    },
+    {
+     "name": "Aidbox",
+     "slug": "aidbox",
+     "description": "Aidbox is a production-ready FHIR platform and clinical data backend from Health Samurai, used by digital health startups, providers, payers, and life-sciences teams to build interoperable healthcare products in the United States and globally. Built on PostgreSQL, Aidbox exposes a full HL7 FHIR REST API (R4, R5, and R6) plus Aidbox-native SQL search, SQL-on-FHIR, a GraphQL API, Bulk Data export/import, topic-based Subscriptions, and terminology services. It is self-hosted or Aidbox-hosted software rather than a single public multi-tenant endpoint, so each deployment serves its own FHIR base and its own CapabilityStatement; a public sandbox (sandbox.aidbox.app) exposes a live FHIR R4 CapabilityStatement and a SMART-on-FHIR / OpenID .well-known configuration. Authentication is OAuth 2.0 with SMART-on-FHIR support (patient/user/system scopes, EHR and standalone launch, client-confidential and client-public flows). Aidbox aligns with US interoperability needs (US Core, SMART App Launch, Bulk Data) and is HIPAA-oriented, HITRUST and SOC 2 focused. This profile catalogs the documented, real API surface only.",
+     "score": 52.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 78.3
+     },
+     "agent_score": 51.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Moxe Health",
+     "slug": "moxe-health",
+     "description": "Moxe Health is a United States healthcare data interoperability company, headquartered in Madison, Wisconsin, that operates the Clinical Data Clearinghouse for secure clinical data exchange between health plans (payers) and health systems (providers). Moxe's API-first platform ingests release-of-information (ROI) requests, searches connected electronic health records (EHRs) to extract the minimum-necessary contextual clinical data for a specified patient and date range, and securely delivers that data to the partner's system. Its Chart Retrieval API supports risk adjustment, quality improvement, claim management, payment integrity, care management, and forecasting use cases. The public developer portal documents a REST (OpenAPI 3.0.1) Chart Retrieval API secured with OAuth2 client-credentials plus an x-api-key header; retrieved charts are returned to a predetermined location via SFTP. Moxe is HIPAA and SOC 2 Type 2 compliant and was named number 1 Best in KLAS for Payer-Provider Data Exchange. The documented API is REST/JSON rather than HL7 FHIR, and full access is granted through a partner onboarding agreement.",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 100.0
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "NextGen Healthcare",
+     "slug": "nextgen-healthcare",
+     "description": "NextGen Healthcare is a United States ambulatory electronic health record (EHR/EMR) and practice-management vendor headquartered in Remote-first / Atlanta, Georgia, serving outpatient specialties and community health with its NextGen Enterprise and NextGen Office platforms plus the Mirth Connect interoperability engine. Its developer surface is standards-driven: 21st Century Cures Act-certified HL7 FHIR APIs for patient access and provider apps, a SMART App Launch API, and a Bulk FHIR (Flat FHIR) API delivering USCDI data, alongside an 800+ route JSON RESTful Enterprise API family. NextGen Enterprise exposes live FHIR R4 and DSTU2 service base URLs with SMART-on-FHIR OAuth2, and NextGen Office exposes live FHIR R3/R4 and Bulk FHIR endpoints. FHIR resources are coded against the US Core / USCDIv1 implementation guides. Developer onboarding is gated behind an API onboarding form and app registration, which is standard for regulated health-data access in the US market.",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Human API",
+     "slug": "human-api",
+     "description": "Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.",
+     "score": 51.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 54.3
+     },
+     "agent_score": 56.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 16
     },
     {
      "name": "Fifth Third Bancorp",
@@ -478,7 +724,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 17
+    },
+    {
+     "name": "Vim",
+     "slug": "vim",
+     "description": "Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim Canvas developer platform and the VimOS.js JavaScript SDK, applications embed actionable clinical insights - diagnosis gaps, risk, quality, and social determinants of health - directly into supported ambulatory EHR workflows and can read and write EHR resources (Patient, Encounter, Orders, Referral, Claim) at the point of care. Vim also exposes a REST API at api.getvim.com/v1 for provisioning applications, organizations, invitations, appointment lookups, and chart retrieval, authenticated with OAuth 2.0 client credentials via an Auth0-backed authorization server (auth.getvim.com). Vim is HIPAA, SOC 2, and HITRUST certified. The platform is proprietary REST and SDK based; it is not an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.",
+     "score": 50.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 18
     },
     {
      "name": "Weather.gov",
@@ -520,7 +807,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 19
     },
     {
      "name": "Carnegie Mellon University",
@@ -562,7 +849,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 20
     },
     {
      "name": "University of Rochester",
@@ -604,7 +891,89 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 21
+    },
+    {
+     "name": "Photon",
+     "slug": "photon",
+     "description": "Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 43.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "H1",
+     "slug": "h1",
+     "description": "H1 (h1.co) is a New York City-based healthcare data and technology company, founded in 2017, that combines deep healthcare provider data with agentic AI to power drug development, medical and commercial engagement, care navigation, and provider and network intelligence for life sciences, pharma, health plans, and digital health organizations across the United States. Its developer-facing API is the Ribbon Health API (H1 acquired Ribbon Health), a proprietary REST API served over HTTPS at https://api.ribbonhealth.com/v1 that provides accurate, comprehensive data on healthcare providers, locations, insurances, procedures, price transparency, cost estimates, and insurance eligibility. The API is not FHIR-based and does not expose a SMART-on-FHIR surface; it authenticates with a bearer API key and is segmented into provider, location, custom-filter, focus-area, price-transparency, cost-estimate/eligibility, organization, reference-data, and network-analysis product families. Access is gated behind a request-demo / API-key sign-up rather than fully self-serve.",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 54.3
+     },
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 23
     },
     {
      "name": "Johns Hopkins University",
@@ -640,7 +1009,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 24
     },
     {
      "name": "Customers Bank",
@@ -681,7 +1050,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 25
     },
     {
      "name": "Finicity",
@@ -722,7 +1091,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 26
     },
     {
      "name": "Green Dot Corporation",
@@ -764,7 +1133,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 27
     },
     {
      "name": "Pennsylvania State University",
@@ -800,7 +1169,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 28
     },
     {
      "name": "University of California, San Diego",
@@ -836,7 +1205,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 29
     },
     {
      "name": "Shift4",
@@ -877,7 +1246,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 30
     },
     {
      "name": "Emory University",
@@ -912,7 +1281,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 31
     },
     {
      "name": "BMO",
@@ -953,7 +1322,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 32
     },
     {
      "name": "Bond",
@@ -994,7 +1363,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 33
     }
    ]
   },
@@ -1003,8 +1372,49 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 32,
+   "count": 36,
    "companies": [
+    {
+     "name": "Luma Health",
+     "slug": "luma-health",
+     "description": "Luma Health is a United States patient-engagement (Patient Success) platform for healthcare provider organizations, headquartered in San Francisco, California. Its operational AI platform automates the patient journey - self-service scheduling and appointment management, referral and waitlist management, intake and digital forms, omnichannel two-way messaging and broadcast, appointment reminders and recalls, insurance eligibility verification, payments and billing, and a conversational AI assistant (Navigator / lumabot) - and integrates bidirectionally with the major EHRs (Epic, Oracle Health/Cerner, MEDITECH, eClinicalWorks, athenahealth, NextGen, Greenway, Nextech). Luma exposes a documented public REST API (Rest-Service v2.0.0, OpenAPI 3.0.0) at https://api.lumahealth.io/api/v2, secured with OAuth2 client-credentials that issue JWT bearer tokens. The developer-facing surface is a REST API rather than an HL7 FHIR server; FHIR/HL7 interoperability with EHRs happens inside Luma's integration layer, not as a public FHIR endpoint.",
+     "score": 44.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 26.5,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.2
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 34
+    },
     {
      "name": "Yale University",
      "slug": "yale",
@@ -1039,7 +1449,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 35
     },
     {
      "name": "University of Chicago",
@@ -1075,7 +1485,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 36
     },
     {
      "name": "Euronet Worldwide",
@@ -1116,7 +1526,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 37
     },
     {
      "name": "Dartmouth College",
@@ -1157,7 +1567,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 38
     },
     {
      "name": "Michigan State University",
@@ -1199,7 +1609,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 39
     },
     {
      "name": "KeyCorp",
@@ -1241,7 +1651,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 40
     },
     {
      "name": "Cornell University",
@@ -1283,7 +1693,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 41
     },
     {
      "name": "University of Illinois Urbana-Champaign",
@@ -1325,7 +1735,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 42
     },
     {
      "name": "ACI Worldwide",
@@ -1366,7 +1776,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 43
     },
     {
      "name": "University of California, Davis",
@@ -1408,7 +1818,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 44
     },
     {
      "name": "eCFR",
@@ -1449,7 +1859,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 45
     },
     {
      "name": "Georgia Institute of Technology",
@@ -1491,7 +1901,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 46
     },
     {
      "name": "Purdue University",
@@ -1533,7 +1943,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 47
     },
     {
      "name": "University of Washington",
@@ -1575,7 +1985,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 48
     },
     {
      "name": "Capital One",
@@ -1617,7 +2027,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 39
+     "rank": 49
     },
     {
      "name": "American Express",
@@ -1659,7 +2069,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 50
     },
     {
      "name": "University of Maryland College Park",
@@ -1701,7 +2111,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 51
+    },
+    {
+     "name": "Epic Systems",
+     "slug": "epic-systems",
+     "description": "Epic Systems Corporation is a privately held electronic health record (EHR/EMR) software company founded in 1979 and headquartered in Verona, Wisconsin, United States. Epic's software supports the medical records of a large share of U.S. hospital systems and academic medical centers, and its \"Epic on FHIR\" developer program (fhir.epic.com / open.epic.com) exposes a standards-based HL7 FHIR interoperability surface for patient- and provider-facing apps. Epic serves live, public sandbox FHIR endpoints across three FHIR versions - R4 (4.0.1), STU3 (3.0.1), and DSTU2 (1.0.2) - aligned to the US Core implementation guides, with SMART on FHIR / OAuth 2.0 authorization, CDS Hooks, and FHIR Bulk Data ($export) access. Production access requires client registration and a health system's participation; the developer sandbox, specifications, and CapabilityStatements are openly published. Epic is a core node of the U.S. healthcare interoperability landscape shaped by the ONC/CMS 21st Century Cures Act information-blocking rules and TEFCA.",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 80.4
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 52
     },
     {
      "name": "University of North Carolina at Chapel Hill",
@@ -1743,7 +2194,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 53
     },
     {
      "name": "Northern Trust",
@@ -1785,7 +2236,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 54
     },
     {
      "name": "Citigroup",
@@ -1827,7 +2278,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 55
     },
     {
      "name": "Nacha",
@@ -1868,7 +2319,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 56
     },
     {
      "name": "University of Pennsylvania",
@@ -1910,7 +2361,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 57
     },
     {
      "name": "Paymentus",
@@ -1951,7 +2402,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 58
     },
     {
      "name": "USAA",
@@ -1993,7 +2444,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 48
+     "rank": 59
     },
     {
      "name": "First Citizens BancShares",
@@ -2035,7 +2486,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 49
+     "rank": 60
     },
     {
      "name": "FedNow Service",
@@ -2076,7 +2527,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 61
     },
     {
      "name": "Varo Bank",
@@ -2118,7 +2569,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 51
+     "rank": 62
     },
     {
      "name": "Morgan Stanley",
@@ -2160,7 +2611,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 63
     },
     {
      "name": "Bluevine",
@@ -2202,7 +2653,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 64
+    },
+    {
+     "name": "Cohere Health",
+     "slug": "cohere-health",
+     "description": "Cohere Health is a United States clinical-intelligence and utilization-management",
+     "score": 32.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 65
     },
     {
      "name": "Goldman Sachs",
@@ -2244,7 +2736,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 66
     },
     {
      "name": "Navy Federal Credit Union",
@@ -2285,7 +2777,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 55
+     "rank": 67
     },
     {
      "name": "BankUnited",
@@ -2326,7 +2818,48 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 56
+     "rank": 68
+    },
+    {
+     "name": "Rhapsody",
+     "slug": "rhapsody",
+     "description": "Rhapsody Health Solutions is a US-headquartered (Boston, Massachusetts) healthcare interoperability company trusted by more than 1,900 healthcare organizations across 31 countries, and recognized as Best in KLAS for integration engines for 17 consecutive years. Formed from the lineage of Orion Health's Rhapsody Integration Engine (2000), the 2019 merger with Corepoint Health, and acquisitions of Datica, NextGate EMPI, and CareCom, Rhapsody delivers a single interoperability platform spanning integration engines (Rhapsody and Corepoint), enterprise master patient index (EMPI / Rhapsody Identity), semantic terminology management, data governance (Guardian), and automated integrations (Envoy, Image Director). The platform supports FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and Model Context Protocol (MCP) from a single deployment, with embedded AI (Rhapsody Axon). Its home market is the United States, aligned to ONC/CMS interoperability mandates. Rhapsody's product REST/administration and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification.",
+     "score": 30.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.2
+     },
+     "agent_score": 9.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 69
     }
    ]
   },
@@ -2335,8 +2868,49 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 83,
+   "count": 90,
    "companies": [
+    {
+     "name": "Amwell",
+     "slug": "amwell",
+     "description": "Amwell (American Well) is a United States telehealth and hybrid-care",
+     "score": 29.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.2
+     },
+     "agent_score": 9.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 70
+    },
     {
      "name": "East West Bank",
      "slug": "east-west-bank",
@@ -2376,7 +2950,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 57
+     "rank": 71
     },
     {
      "name": "GovTrack",
@@ -2418,7 +2992,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 72
     },
     {
      "name": "Western Alliance Bank",
@@ -2459,7 +3033,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 73
     },
     {
      "name": "Arizona State University",
@@ -2501,7 +3075,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 60
+     "rank": 74
     },
     {
      "name": "University of Michigan-Ann Arbor",
@@ -2542,7 +3116,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 75
     },
     {
      "name": "Columbia University",
@@ -2584,7 +3158,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 76
     },
     {
      "name": "University of California, Berkeley",
@@ -2626,7 +3200,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 63
+     "rank": 77
     },
     {
      "name": "Brown University",
@@ -2662,7 +3236,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 78
     },
     {
      "name": "University of Wisconsin-Madison",
@@ -2698,7 +3272,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 79
     },
     {
      "name": "Truist",
@@ -2739,7 +3313,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 80
     },
     {
      "name": "Novo",
@@ -2780,7 +3354,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 81
     },
     {
      "name": "University of Texas at Austin",
@@ -2821,7 +3395,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 82
     },
     {
      "name": "Case Western Reserve University",
@@ -2857,7 +3431,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 83
     },
     {
      "name": "Ohio State University",
@@ -2893,7 +3467,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 84
     },
     {
      "name": "Rice University",
@@ -2929,7 +3503,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 85
     },
     {
      "name": "University of California, Santa Barbara",
@@ -2965,7 +3539,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 86
+    },
+    {
+     "name": "Klara",
+     "slug": "klara",
+     "description": "Klara is a US healthcare patient-engagement and communication platform, now part of Modernizing Medicine (ModMed), that gives medical practices two-way secure messaging, patient texting, appointment reminders and scheduling, intake and forms, telemedicine, and automated workflow tools to reduce phone volume and staff workload. Klara markets integration with 50+ EHR and practice-management systems, but it does not publish its own self-serve public developer API, FHIR CapabilityStatement, or downloadable OpenAPI. Its parent, ModMed, operates a partner-gated developer program at portal.api.modmed.com covering an ONC-certified HL7 FHIR R4 API with SMART-on-FHIR (built for the 21st Century Cures Act, US Core, OAuth2, bulk NDJSON export) plus a proprietary FHIR API for the EMA and gGastro EHR/PM platforms and a Synapsys App Marketplace. That certified API surface belongs to ModMed's EHR products, not to the Klara messaging product itself. Home market is the United States.",
+     "score": 23.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.2
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 87
     },
     {
      "name": "Princeton University",
@@ -3007,7 +3622,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 88
     },
     {
      "name": "University of California, Los Angeles",
@@ -3043,7 +3658,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 89
     },
     {
      "name": "University of Minnesota",
@@ -3085,7 +3700,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 90
     },
     {
      "name": "PNC",
@@ -3127,7 +3742,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 76
+     "rank": 91
     },
     {
      "name": "University of California, San Francisco",
@@ -3168,7 +3783,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 92
     },
     {
      "name": "Alaffia",
@@ -3209,7 +3824,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 93
     },
     {
      "name": "BNY Mellon",
@@ -3250,7 +3865,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 94
     },
     {
      "name": "Vanderbilt University",
@@ -3286,7 +3901,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 95
     },
     {
      "name": "Axos Bank",
@@ -3327,7 +3942,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 96
     },
     {
      "name": "California Institute of Technology",
@@ -3369,7 +3984,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 97
+    },
+    {
+     "name": "HealthVerity",
+     "slug": "healthverity",
+     "description": "HealthVerity is a United States life-sciences data platform, headquartered in Philadelphia, Pennsylvania, that operates what it describes as the nation's largest real-world data (RWD) ecosystem - more than 150 billion de-identified transactions covering over 330 million U.S. patients across 75-plus data sources spanning medical and pharmacy claims, labs, and EHR (following its integration of Symphony Health). Its products are organized around the IPGE framework (Identity, Privacy, Governance, Exchange) and include HealthVerity Marketplace (verified RWD datasets), Identity Manager and Census (privacy-safe probabilistic identity resolution that replaces PII with a universal HealthVerity ID / HVID), Governance Manager, HealthVerity FLOW, and eXOs (an AI-native real-world-evidence agent). HealthVerity is a HIPAA-aligned, tokenization-and-de-identification company serving pharma, payers, and government - not a self-serve, standards-based clinical interoperability vendor. Unlike EHR and FHIR-network players, it exposes no public developer portal, no FHIR CapabilityStatement, and no downloadable OpenAPI; the only vendor-named programmatic surface is the gated, enterprise HealthVerity Identity API for real-time de-identification, described conceptually on the Identity Manager product page but without public reference documentation, base URL, or self-serve onboarding.",
+     "score": 22.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 54.3
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 98
     },
     {
      "name": "Texas A&M University",
@@ -3405,7 +4061,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 99
     },
     {
      "name": "Washington University in St. Louis",
@@ -3441,7 +4097,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 100
+    },
+    {
+     "name": "Tuva Health",
+     "slug": "tuva-health",
+     "description": "Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer's own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not an HTTP or FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. The company pairs the open-source project with a commercial Core Platform. Home market is the United States.",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 23.9
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 101
     },
     {
      "name": "University of Florida",
@@ -3483,7 +4180,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 102
     },
     {
      "name": "University of Pittsburgh",
@@ -3525,7 +4222,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 103
+    },
+    {
+     "name": "Commure",
+     "slug": "commure",
+     "description": "Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020, but that public developer portal (developer.commure.com) is no longer live; today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services), with no self-serve public API documentation, FHIR CapabilityStatement, or downloadable OpenAPI currently published. Home market is the United States.",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 104
     },
     {
      "name": "UMB Bank",
@@ -3566,7 +4304,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 105
     },
     {
      "name": "M&T Bank",
@@ -3607,7 +4345,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 88
+     "rank": 106
     },
     {
      "name": "Boston University",
@@ -3649,7 +4387,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 89
+     "rank": 107
     },
     {
      "name": "University of Southern California",
@@ -3685,7 +4423,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 108
     },
     {
      "name": "California Health and Human Services",
@@ -3727,7 +4465,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 91
+     "rank": 109
     },
     {
      "name": "California Natural Resources Agency",
@@ -3769,7 +4507,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 92
+     "rank": 110
     },
     {
      "name": "California Open Data",
@@ -3811,7 +4549,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 93
+     "rank": 111
     },
     {
      "name": "City National Bank",
@@ -3852,7 +4590,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 94
+     "rank": 112
     },
     {
      "name": "EverBank",
@@ -3893,7 +4631,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 95
+     "rank": 113
     },
     {
      "name": "Discover Financial Services",
@@ -3935,7 +4673,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 96
+     "rank": 114
     },
     {
      "name": "The Clearing House (RTP)",
@@ -3976,7 +4714,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 97
+     "rank": 115
     },
     {
      "name": "Wintrust Financial",
@@ -4018,7 +4756,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 116
     },
     {
      "name": "HSBC USA",
@@ -4059,7 +4797,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 99
+     "rank": 117
     },
     {
      "name": "AmeriGEOSS Community Platform",
@@ -4101,7 +4839,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 118
     },
     {
      "name": "Analyze Boston",
@@ -4143,7 +4881,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 101
+     "rank": 119
     },
     {
      "name": "City of San Jose",
@@ -4185,7 +4923,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 102
+     "rank": 120
     },
     {
      "name": "Data.gov Inventory",
@@ -4227,7 +4965,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 103
+     "rank": 121
     },
     {
      "name": "DOE NETL Energy Data Exchange",
@@ -4269,7 +5007,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 104
+     "rank": 122
     },
     {
      "name": "Hawaii Open Data Portal",
@@ -4311,7 +5049,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 105
+     "rank": 123
     },
     {
      "name": "Medicaid Open Data",
@@ -4353,7 +5091,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 106
+     "rank": 124
     },
     {
      "name": "Milwaukee Open Data",
@@ -4395,7 +5133,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 107
+     "rank": 125
     },
     {
      "name": "NASA Open Data",
@@ -4437,7 +5175,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 126
     },
     {
      "name": "Oklahoma",
@@ -4479,7 +5217,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
+     "rank": 127
     },
     {
      "name": "San Bernardino County ATC OpenData",
@@ -4521,7 +5259,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 110
+     "rank": 128
     },
     {
      "name": "US Small Business Administration Open Data",
@@ -4563,7 +5301,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 111
+     "rank": 129
     },
     {
      "name": "Virginia Open Data",
@@ -4605,7 +5343,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 130
     },
     {
      "name": "Raymond James Bank",
@@ -4646,7 +5384,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 113
+     "rank": 131
+    },
+    {
+     "name": "Datavant",
+     "slug": "datavant",
+     "description": "Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a \"network of networks\" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US health systems. Its core capabilities are privacy-preserving record linkage using Datavant tokens, HIPAA Expert Determination and de-identification, medical record retrieval / release of information, and real-world evidence generation for life sciences, payers, providers, and government. Datavant's integration surface is enterprise and partner/contract gated - an access-controlled API host exists at api.datavant.com (returns HTTP 403 to anonymous callers) but Datavant does not publish a self-serve public developer portal, a downloadable OpenAPI specification, or a FHIR CapabilityStatement. Home market is the United States.",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 32.6
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 132
     },
     {
      "name": "SAP America",
@@ -4688,7 +5467,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 133
     },
     {
      "name": "First Horizon",
@@ -4729,7 +5508,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 134
     },
     {
      "name": "Commerce Bank",
@@ -4770,7 +5549,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 116
+     "rank": 135
     },
     {
      "name": "Dave",
@@ -4811,7 +5590,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 136
     },
     {
      "name": "BECU",
@@ -4852,7 +5631,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 137
     },
     {
      "name": "First Hawaiian Bank",
@@ -4893,7 +5672,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 119
+     "rank": 138
     },
     {
      "name": "Cadence Bank",
@@ -4934,7 +5713,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 120
+     "rank": 139
     },
     {
      "name": "Government Accountability Office",
@@ -4976,7 +5755,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 121
+     "rank": 140
+    },
+    {
+     "name": "Invitae",
+     "slug": "invitae",
+     "description": "Invitae (now Labcorp Invitae, following Labcorp's 2024 acquisition of select Invitae assets) is a United States medical genetics and healthcare-technology company that provides clinical-grade hereditary and somatic genetic testing across oncology, women's health, cardiology, neurology, pediatrics, and rare disease. It offers providers an online ordering portal, licensed genetic counseling, and the Gia digital assistant, and returns results into clinician workflows. Invitae's integration posture is enterprise and partner-gated rather than a self-serve public developer API: genetic test orders and results reach the electronic health record through Epic-certified interfaces and Epic Aura (Orders and Results Anywhere Network) and traditional HL7 order/result feeds delivered by a dedicated EHR integration team. As of this review no public developer portal, FHIR CapabilityStatement, SMART-on-FHIR configuration, or downloadable OpenAPI is published; programmatic access is arranged through a partnership/integration engagement in its United States home market.",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 141
     },
     {
      "name": "Associated Bank",
@@ -5017,7 +5837,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 122
+     "rank": 142
     },
     {
      "name": "Bank of Hawaii",
@@ -5058,7 +5878,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 123
+     "rank": 143
     },
     {
      "name": "Comerica",
@@ -5100,7 +5920,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 124
+     "rank": 144
     },
     {
      "name": "Current",
@@ -5141,7 +5961,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 125
+     "rank": 145
     },
     {
      "name": "Frost Bank",
@@ -5182,7 +6002,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 126
+     "rank": 146
     },
     {
      "name": "Webster Bank",
@@ -5223,7 +6043,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 127
+     "rank": 147
     },
     {
      "name": "First Tech Federal Credit Union",
@@ -5264,7 +6084,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 128
+     "rank": 148
     },
     {
      "name": "America First Credit Union",
@@ -5305,7 +6125,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 129
+     "rank": 149
     },
     {
      "name": "Atlantic Union Bank",
@@ -5346,7 +6166,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 130
+     "rank": 150
     },
     {
      "name": "F.N.B. Corporation",
@@ -5387,7 +6207,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 131
+     "rank": 151
     },
     {
      "name": "Marcus by Goldman Sachs",
@@ -5428,7 +6248,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 132
+     "rank": 152
     },
     {
      "name": "MidFirst Bank",
@@ -5469,7 +6289,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 133
+     "rank": 153
     },
     {
      "name": "Old National Bank",
@@ -5510,7 +6330,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 134
+     "rank": 154
     },
     {
      "name": "Valley National Bank",
@@ -5551,7 +6371,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 135
+     "rank": 155
     },
     {
      "name": "State Employees' Credit Union",
@@ -5592,7 +6412,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 136
+     "rank": 156
     },
     {
      "name": "Bank OZK",
@@ -5633,7 +6453,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 137
+     "rank": 157
     },
     {
      "name": "Barclays US",
@@ -5674,7 +6494,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 138
+     "rank": 158
     },
     {
      "name": "DCU (Digital Federal Credit Union)",
@@ -5715,7 +6535,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 139
+     "rank": 159
     }
    ]
   },
@@ -5724,7 +6544,7 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 25,
+   "count": 26,
    "companies": [
     {
      "name": "UBS Bank USA",
@@ -5765,7 +6585,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 140
+     "rank": 160
     },
     {
      "name": "Sallie Mae Bank",
@@ -5806,7 +6626,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 141
+     "rank": 161
     },
     {
      "name": "Live Oak Bank",
@@ -5847,7 +6667,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 142
+     "rank": 162
     },
     {
      "name": "CIBC Bank USA",
@@ -5888,7 +6708,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 143
+     "rank": 163
     },
     {
      "name": "Popular (Banco Popular)",
@@ -5929,7 +6749,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 144
+     "rank": 164
     },
     {
      "name": "Prosperity Bank",
@@ -5970,7 +6790,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 145
+     "rank": 165
     },
     {
      "name": "Santander US",
@@ -6011,7 +6831,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 146
+     "rank": 166
     },
     {
      "name": "Security Service Federal Credit Union",
@@ -6052,7 +6872,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 147
+     "rank": 167
     },
     {
      "name": "SouthState Bank",
@@ -6093,7 +6913,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 148
+     "rank": 168
     },
     {
      "name": "PenFed Credit Union",
@@ -6134,7 +6954,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 149
+     "rank": 169
     },
     {
      "name": "SchoolsFirst FCU",
@@ -6175,7 +6995,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 150
+     "rank": 170
+    },
+    {
+     "name": "Tempus",
+     "slug": "tempus",
+     "description": "Tempus AI, Inc. (formerly Tempus Labs) is an AI-enabled precision medicine and genomic diagnostics company founded in 2015 by Eric Lefkofsky and headquartered in Chicago, Illinois (NASDAQ: TEM). Tempus has assembled one of the world's largest libraries of clinical and molecular data and runs a next-generation-sequencing lab offering oncology assays such as Tempus xT (solid-tumor DNA panel), xF (cell-free DNA liquid biopsy), xG (germline), and whole-transcriptome RNA, expanding from oncology into cardiology, neuropsychiatry, radiology, and infectious disease. For its United States home market its technical surface is delivered as partner and provider integrations rather than a public self-serve developer program: Tempus Hub (a provider portal to order tests and view genomic results), EHR integration via Tempus Edge (bidirectional HL7, FHIR, API, and PACS interfaces into Epic, Oracle Health / Cerner, OncoEMR, and other EHRs), the Tempus Lens agentic-AI platform for oncology drug development, Tempus One clinical assistant, and de-identified multimodal real-world-data collaborations for life sciences. As of this review no public developer portal, downloadable OpenAPI, or anonymously reachable FHIR CapabilityStatement was found; integration is gated behind partner and provider onboarding.",
+     "score": 13.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 171
     },
     {
      "name": "BOK Financial",
@@ -6217,7 +7078,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 151
+     "rank": 172
     },
     {
      "name": "Texas Capital Bank",
@@ -6258,7 +7119,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 152
+     "rank": 173
     },
     {
      "name": "Columbia Bank",
@@ -6299,7 +7160,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 153
+     "rank": 174
     },
     {
      "name": "Chipper Cash",
@@ -6335,7 +7196,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 154
+     "rank": 175
     },
     {
      "name": "Flagstar",
@@ -6376,7 +7237,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 155
+     "rank": 176
     },
     {
      "name": "Randolph-Brooks FCU",
@@ -6417,7 +7278,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 156
+     "rank": 177
     },
     {
      "name": "Pinnacle Financial",
@@ -6458,7 +7319,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 157
+     "rank": 178
     },
     {
      "name": "Ally Financial",
@@ -6500,7 +7361,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 158
+     "rank": 179
     },
     {
      "name": "Zions Bancorporation",
@@ -6541,7 +7402,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 159
+     "rank": 180
     },
     {
      "name": "Alliant Credit Union",
@@ -6582,7 +7443,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 160
+     "rank": 181
     },
     {
      "name": "Golden 1 Credit Union",
@@ -6623,7 +7484,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 161
+     "rank": 182
     },
     {
      "name": "Mountain America Credit Union",
@@ -6664,7 +7525,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 162
+     "rank": 183
     },
     {
      "name": "Suncoast Credit Union",
@@ -6705,7 +7566,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 163
+     "rank": 184
     },
     {
      "name": "VyStar Credit Union",
@@ -6746,7 +7607,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 164
+     "rank": 185
     }
    ]
   },
@@ -6761,122 +7622,122 @@
      "name": "Accel",
      "slug": "accel",
      "description": "Accel is one of the world's leading venture capital firms, founded in 1983 by Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California, with additional offices in San Francisco, London, and Bangalore, India. Accel describes itself as \"the first partner to exceptional teams everywhere,\" backing founders from seed and early stage through growth worldwide. The firm invests across enterprise software and SaaS, consumer, artificial intelligence, fintech, cybersecurity, infrastructure and developer tools, security, media, and healthcare, and operates dedicated funds for the US, Europe/Israel, and India/Southeast Asia. Accel is known for its \"prepared mind\" investment philosophy and for backing category-defining companies including Facebook, Slack, Dropbox, Atlassian, CrowdStrike, UiPath, Qualtrics, Spotify, Flipkart, Swiggy, Freshworks, 1Password, Vercel, Scale AI, Anthropic, and Perplexity. Its portfolio spans more than 100 unicorns, dozens of IPOs, and hundreds of acquisitions. In 2024 Accel raised a $650M fund for European and Israeli startups, and in 2025 raised a fund for India and Southeast Asia. This profile tracks Accel's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 165
+     "rank": 186
     },
     {
      "name": "Battery Ventures",
      "slug": "battery-ventures",
      "description": "Battery Ventures is a global, technology-focused investment firm founded in 1983 and headquartered in Boston, Massachusetts, with additional offices in San Francisco, Menlo Park, New York, London, and Tel Aviv. Battery invests across every stage of a company's life, from seed and early-stage venture through growth equity and private-equity buyouts, giving the firm a distinctive multi-stage perspective on technology markets. Its core areas of focus are application software, infrastructure software, consumer technology, and industrial tech plus life-science tools. As of 2025 the firm reports having invested in more than 530 companies over its 40-plus-year history, of which roughly 70 have gone public and another 185 have been merged or acquired. Battery is currently investing out of its 15th flagship fund, Battery Ventures XV, capitalized at $3.25 billion, and has raised more than $16 billion across all of its funds since inception. The firm describes itself as decisive, hard-working, and thesis-driven, backing category-defining companies including Affirm, Amplitude, AppDynamics, Avalara, Akamai, Coupa, Wonolo, and many others. This profile tracks Battery Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 166
+     "rank": 187
     },
     {
      "name": "Benchmark",
      "slug": "benchmark",
      "description": "Benchmark is an American early-stage venture capital firm founded in 1995 by Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden, and headquartered at 140 New Montgomery Street in San Francisco, California (with a second office in Woodside). Benchmark is known for its distinctive equal partnership structure, where a small number of general partners share ownership and carry equally with no junior/senior hierarchy and no managing partner. The firm concentrates on leading first institutional rounds — typically Series A — and historically kept fund sizes small (around $425M) with a focus on consumer, marketplaces, social, open source, developer tools, infrastructure, enterprise software, fintech, crypto, and artificial intelligence. Benchmark has backed transformational companies including eBay, Uber, Twitter, Instagram, Snap, Dropbox, Discord, Docker, Zendesk, Confluent, Elastic, New Relic, Asana, Amplitude, Nextdoor, Stitch Fix, Yelp, OpenTable, Zillow, Red Hat, Airtable, Benchling, Cockroach Labs, Chainalysis, HackerOne, Contentful, Modern Treasury, Stytch, and, more recently, AI-native companies such as LangChain, Cerebras, MindsDB, Lovable, Legora, Gumloop, and Starcloud. In 2026 Benchmark broke with tradition to raise roughly $2B across two new vehicles, including its first-ever dedicated later-stage growth fund. This profile tracks Benchmark's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 167
+     "rank": 188
     },
     {
      "name": "Bessemer Venture Partners",
      "slug": "bessemer-venture-partners",
      "description": "Bessemer Venture Partners (BVP) is one of the oldest and largest venture capital firms in the world, founded in 1911 out of the fortune of steel magnate Henry Phipps and headquartered in San Francisco, California. With more than $20 billion in assets under management and investment teams in San Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv, Bessemer invests globally across seed, early, and growth stages, and runs a dedicated private equity buyout arm, BVP Forge. The firm invests across artificial intelligence and machine learning, cloud and infrastructure, developer tools, cybersecurity, fintech, healthcare and biotech, consumer, marketplaces, vertical software, data, deep tech and defense, and crypto/web3. Bessemer has backed transformative companies including Shopify, Twilio, Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan, PagerDuty, Auth0, Box, and Canva, and is known for publishing its \"Anti- Portfolio\" of missed opportunities, its Atlas research roadmaps, and its cloud/state-of-the-industry benchmark reports. Investing out of its 12th early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest venture firms by five-year fundraising. This profile tracks Bessemer's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 168
+     "rank": 189
     },
     {
      "name": "Cowboy Ventures",
      "slug": "cowboy-ventures",
      "description": "Cowboy Ventures is a seed-stage venture capital firm founded in 2012 by Aileen Lee (who coined the term \"unicorn\" for billion-dollar startups) and headquartered in Palo Alto, California. The firm backs pre-seed and seed-stage founders building \"life-changing\" products for large and growing markets, with roughly 70% of investments made pre-product and a strong seed-to-Series A graduation rate. Typical first checks run from about $100K up to $1M, with a sweet spot near $500K–$800K. Cowboy invests across enterprise software, fintech, software infrastructure and security, healthcare, consumer, future of work, and vertical software, primarily in the United States. The firm has made 100+ early-stage investments and cultivates a curated community of founders, operators, and tech leaders. Notable portfolio companies include Chime, Guild, Drata, Dollar Shave Club, Ironclad, Aura, Kiavi, Crunchbase, and Product Hunt.",
-     "rank": 169
+     "rank": 190
     },
     {
      "name": "Craft Ventures",
      "slug": "craft-ventures",
      "description": "Craft Ventures is a San Francisco-based venture capital firm founded in late 2017 by repeat entrepreneurs David Sacks and Bill Lee, built \"by founders for founders\" and rooted in the operator playbook of the PayPal Mafia. The firm invests across early and growth stages, writing checks that range from micro-seed positions through double-digit millions, and specializes in B2B SaaS, marketplaces, and enterprise software prized for high-growth, high-margin, recurring-revenue economics. Craft is known for its rigorous, metrics-driven SaaS operating framework and hands-on support spanning talent, go-to-market, community, and finance. Beyond core SaaS, the portfolio spans artificial intelligence, developer tools, fintech and crypto, cybersecurity, digital health, defense, and frontier technology. The firm manages roughly $3.3 billion in assets across four early-stage funds and two growth funds, including Craft Ventures IV ($712M) and Craft Ventures Growth II ($608M). Notable investments include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs, Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices in New York City and Austin, Texas, and a primarily United States geographic focus.",
-     "rank": 170
+     "rank": 191
     },
     {
      "name": "DCM Ventures",
      "slug": "dcm-ventures",
      "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
-     "rank": 171
+     "rank": 192
     },
     {
      "name": "Founders Fund",
      "slug": "founders-fund",
      "description": "Founders Fund is a San Francisco-based venture capital firm founded in 2005 by Peter Thiel, Ken Howery, and Luke Nosek, best known for the credo \"we wanted flying cars, instead we got 140 characters\" and a contrarian appetite for hard science and frontier technology over incremental consumer apps. The firm backs category-defining, often monopoly-scale companies across aerospace and defense, artificial intelligence, biotech, fintech and crypto, energy, semiconductors, robotics, and deep tech, investing from seed through late-stage growth with an increasingly concentrated, high-conviction style (its recent growth funds put hundreds of millions of dollars into a small number of companies). Founders Fund manages roughly $17 billion in assets as of 2025 and is headquartered at the Letterman Digital Arts Center in San Francisco's Presidio. Its portfolio includes many of the defining technology companies of the era, among them SpaceX, Palantir, Anduril, Stripe, Airbnb, Facebook, Neuralink, OpenAI, DeepMind, Ramp, Nubank, Spotify, and Figma.",
-     "rank": 172
+     "rank": 193
     },
     {
      "name": "GGV Capital",
      "slug": "ggv-capital",
      "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterprise Tech and SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity, AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At its peak the firm managed roughly $9.2B in assets under management and backed more than 400 companies, including 44 unicorns and dozens of IPOs — among them Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor, Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng. On March 29, 2024 GGV Capital ceased using the GGV brand and split into two independent successor firms amid US–China tensions: Notable Capital (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com companies surface now redirects to Notable Capital, which carries the US/international portfolio graph. This profile tracks GGV Capital's identity and portfolio graph across the API Evangelist network.",
-     "rank": 173
+     "rank": 194
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
-     "rank": 174
+     "rank": 195
     },
     {
      "name": "Multicoin Capital",
      "slug": "multicoin-capital",
      "description": "Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and blockchain companies and protocols believed to be reshaping trillion-dollar markets. The firm runs a hybrid structure of a hedge fund (its multi-billion dollar Master Fund, investing in public markets, direct positions, and strategic sales) alongside several venture funds that back early-stage companies, with venture checks ranging from roughly $1M to $50M. Its Venture Fund III closed at $422 million in January 2022. Multicoin invests across open and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2 protocols, decentralized physical infrastructure networks (DePIN), stablecoins and payments, real-world asset tokenization, wallets, identity, gaming, and crypto-native consumer applications, with a well-known concentration around the Solana ecosystem. The firm's phoenix logo symbolizes a new financial system rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith.",
-     "rank": 175
+     "rank": 196
     },
     {
      "name": "New Enterprise Associates",
      "slug": "nea",
      "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus.",
-     "rank": 176
+     "rank": 197
     },
     {
      "name": "Redpoint Ventures",
      "slug": "redpoint-ventures",
      "description": "Redpoint Ventures is a Silicon Valley venture capital firm founded in 1999 and headquartered in Menlo Park, California, with additional offices in San Francisco and Los Angeles and a history of China-focused funds in Beijing and Shanghai. Redpoint is a multi-stage investor that backs founders from seed and early stage through growth, running dedicated early-stage and growth teams. The firm invests across enterprise software and SaaS, AI and AI infrastructure, cloud and data infrastructure, developer tools, cybersecurity, fintech, consumer internet, healthcare, crypto/web3, and marketplaces. Typical checks range from roughly $0.5M-$2M at seed and $2M-$8M at Series A up to $10M+ at growth stage. As of 2025 Redpoint managed about $4.5 billion in assets, and its partners have participated in 130+ IPOs and acquisitions including Netflix, Snowflake, Twilio, Pure Storage, Zendesk, Stripe, HashiCorp, and HomeAway. The firm launched its tenth flagship fund, a $650M vehicle, in 2025, and publishes the annual InfraRed report on the leading private cloud and infrastructure companies. This profile tracks Redpoint's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 177
+     "rank": 198
     },
     {
      "name": "Sequoia Capital",
      "slug": "sequoia-capital",
      "description": "Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to \"help the daring build legendary companies,\" with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png",
-     "rank": 178
+     "rank": 199
     },
     {
      "name": "Shasta Ventures",
      "slug": "shasta-ventures",
      "description": "Shasta Ventures is an early-stage venture capital firm founded in 2004 and based in Silicon Valley (Portola Valley / Menlo Park, on and around Sand Hill Road, California). Founded by Rob Coneybeer and Ravi Mohan (with Tod Francis and Jason Pressman among its long-tenured Managing Directors), the firm invests primarily at the Series A stage in United States technology startups, typically leading rounds and taking board seats. Shasta has roughly $1.3B under management across multiple funds (Fund II $250M, Fund III $265M, Fund IV $300M) and a 20-year track record. Its thesis centers on enterprise software / SaaS, cybersecurity, developer tools and infrastructure, data intelligence, camera / computer vision, and consumer subscription products, pairing capital with operational support (Shasta Elevate) for technical founders. Notable investments include Anaplan, Zuora, Nest, Nextdoor, Apptio, Eero, Sendbird, Tonal, Lattice, Highspot, SentinelOne and Turo, with 12 unicorns, multiple IPOs and dozens of acquisitions across its history.",
-     "rank": 179
+     "rank": 200
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 180
+     "rank": 201
     },
     {
      "name": "SV Angel",
      "slug": "sv-angel",
      "description": "SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron Conway, one of Silicon Valley's most prolific angel investors. The firm runs two vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond. SV Angel is a founder-first, high-conviction investor that deliberately does not lead rounds, takes no board seats, and writes smaller checks as part of a larger syndicate so it can act as a neutral \"routing layer\" and advocate for founders. It is famous for its \"Inflection Point Approach\" — showing up at critical moments around fundraising, M&A, and business development. The firm invests almost entirely in US-based, software-driven companies across consumer and enterprise, and its portfolio has produced dozens of unicorns and landmark outcomes including Google, Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub, Databricks, Anthropic, and OpenAI.",
-     "rank": 181
+     "rank": 202
     },
     {
      "name": "Threshold Ventures",
      "slug": "threshold-ventures",
      "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily Melton and Josh Stein spun the venture practice into an independent, focused fund. Threshold pursues a high-conviction strategy, concentrating on a small number of Series A and Series B investments and partnering hands-on with founders for the long term, frequently holding board seats through IPO and beyond. The firm invests across enterprise software and SaaS, developer tools and infrastructure, fintech, digital health and healthcare, and AI. Its portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M fund following the rebrand.",
-     "rank": 182
+     "rank": 203
     },
     {
      "name": "Trinity Ventures",
      "slug": "trinity-ventures",
      "description": "Trinity Ventures is an early-stage venture capital firm founded in 1986 and headquartered in Menlo Park, California, with more than three decades of history backing mission-driven entrepreneurs across technology and consumer markets. The firm takes a deliberately personal, low-capital-to-partner approach to early-stage investing, positioning itself as \"the call you want to make, not the call you have to make\" and emphasizing intellectual candor and lasting founder relationships. Trinity invests primarily at seed, Series A and Series B, with checks generally ranging from roughly $1 million to $15 million and averaging around $5 million. Its focus spans enterprise software and cloud infrastructure, developer tools, fintech, digital media and marketing technology, consumer products and services, healthcare, and artificial intelligence. Over nine funds the firm has managed on the order of $1.3 billion in assets and produced a track record that includes multiple unicorns, IPOs and roughly 130 acquisitions. Notable investments include Starbucks, New Relic, Auth0, Turo, Care.com, Zulily, Blue Nile, Aruba Networks, Infoblox, Cohesity, Outreach, InfluxData, Contentful and Docker. Trinity invests primarily in the United States.",
-     "rank": 183
+     "rank": 204
     },
     {
      "name": "Uncork Capital",
      "slug": "uncork-capital",
      "description": "Uncork Capital is a San Francisco-based seed-stage venture capital firm founded in 2004 by Jeff Clavier, who formalized his angel portfolio into one of Silicon Valley's earliest dedicated seed funds; it operated as SoftTech VC until rebranding to Uncork Capital in 2017. Led by managing partners Jeff Clavier and Andy McLoughlin, the firm invests at the seed stage with a \"first to believe\" conviction style, typically targeting 10-15% ownership and writing seed checks broadly in the $1.5M-$4M range across B2B applications and SaaS, developer tooling, infrastructure and security, consumer and marketplaces, frontier tech/hardware, and AI/ML. In May 2025 the firm closed $300M in fresh capital across Uncork VIII (a $225M seed fund) and Uncork Plus IV (a $75M growth fund), bringing it to roughly $1.2B in assets under management. Across 275+ investments and 100+ outcomes, its portfolio and exits include SendGrid, Fitbit, Poshmark, Postmates, Eventbrite, LaunchDarkly, Tailscale, Front, Shippo, ClassDojo, Groq, Human Interest, Carrot Fertility, and GPTZero.",
-     "rank": 184
+     "rank": 205
     }
    ]
   }

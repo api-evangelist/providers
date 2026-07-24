@@ -123,6 +123,18 @@
         - name: Canadian Payments
           href: https://providers.apievangelist.com/canadian-payments/
 
+        - name: US Healthcare
+          href: https://providers.apievangelist.com/us-healthcare/
+
+        - name: UK Healthcare
+          href: https://providers.apievangelist.com/uk-healthcare/
+
+        - name: Australian Healthcare
+          href: https://providers.apievangelist.com/au-healthcare/
+
+        - name: Canadian Healthcare
+          href: https://providers.apievangelist.com/canadian-healthcare/
+
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 

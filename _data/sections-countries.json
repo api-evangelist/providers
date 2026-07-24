@@ -15,7 +15,13 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 218
+  "count": 228
+ },
+ {
+  "slug": "united-states",
+  "name": "United States",
+  "flag": "🇺🇸",
+  "count": 205
  },
  {
   "slug": "germany",
@@ -24,22 +30,16 @@
   "count": 186
  },
  {
-  "slug": "united-states",
-  "name": "United States",
-  "flag": "🇺🇸",
-  "count": 184
+  "slug": "australia",
+  "name": "Australia",
+  "flag": "🇦🇺",
+  "count": 124
  },
  {
   "slug": "brazil",
   "name": "Brazil",
   "flag": "🇧🇷",
   "count": 123
- },
- {
-  "slug": "australia",
-  "name": "Australia",
-  "flag": "🇦🇺",
-  "count": 115
  },
  {
   "slug": "mexico",
@@ -51,7 +51,7 @@
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
-  "count": 92
+  "count": 101
  },
  {
   "slug": "france",
