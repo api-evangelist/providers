@@ -9,15 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-api_count: 2
+api_count: 1
 apis:
-- description: The investor-facing digital channel for Core Natural Resources, the company Arch Coal / Arch Resources became after the January 2025 merger with CONSOL Energy. It publishes SEC filings, quarterly earn
-  name: Core Natural Resources Investor Relations
-  slug: core-investor-relations
 - description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
   name: SEC EDGAR Filings (Core Natural Resources, CIK 1710366)
   slug: sec-edgar-filings
-artifact_total: 19
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -72,7 +69,7 @@ common:
   type: DomainSecurity
   url: security/arch-coal-domain-security.yml
 created: '2026-03-23'
-description: 'Arch Coal was a St. Louis-based producer and marketer of metallurgical and thermal coal, renamed Arch Resources in 2020. In January 2025 Arch Resources merged with CONSOL Energy in a merger of equals to form Core Natural Resources, Inc. (NYSE: CNR), headquartered in Canonsburg, Pennsylvania. The combined company operates the Pennsylvania Mining Complex, Leer, Leer South, West Elk, Black Thunder, and other mines across six U.S. states with 5,000+ employees, and holds stakes in East Coast marine export terminals. Core Natural Resources does not publish a public developer API. Its external digital surface is a corporate website at corenaturalresources.com plus a separate investor relations portal; machine-readable company data is available only through third-party channels such as the SEC EDGAR APIs.'
+description: 'Arch Coal was a St. Louis-based producer and marketer of metallurgical and thermal coal, renamed Arch Resources in 2020. In January 2025 Arch Resources merged with CONSOL Energy in a merger of equals to form Core Natural Resources, Inc. (NYSE: CNR), headquartered in Canonsburg, Pennsylvania. The combined company operates the Pennsylvania Mining Complex, Leer, Leer South, West Elk, Black Thunder, and other mines across six U.S. states with 5,000+ employees, and holds stakes in East Coast marine export terminals. Core Natural Resources does not publish a public developer API. Its external digital surface is a corporate website at corenaturalresources.com plus a separate investor relations portal, both serving HTML and PDF only — the investor portal''s /rss and /feed paths were probed on 2026-07-25 and every one returns HTML, not XML. Machine-readable company data is available only through third-party channels, namely the SEC''s own EDGAR APIs.'
 features:
 - description: Low-Vol (Beckley, Itmann), High-Vol A (Leer, Leer South), and High-Vol B (Mountain Laurel) metallurgical coals for blast furnace steelmaking — roughly 12 million tons annually.
   name: Metallurgical Coal
@@ -101,7 +98,7 @@ modified: '2026-07-25'
 name: Arch Coal
 nav: Providers
 network: true
-overview: 'Arch Coal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
+overview: 'Arch Coal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
 
 
   Arch Coal''s developer surface includes developer portal, product news, and 11 more developer resources.'
