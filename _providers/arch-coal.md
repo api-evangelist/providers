@@ -1,175 +1,110 @@
 ---
 access_model:
   confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
-  pricing: enterprise
+  label: No public API program
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
   - plans
-  - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
-agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
-  name: Arch Coal Agentic Access
-  operation_count: 3
-  slug: arch-coal-agentic-access
-  summary_line: 3 operations
-api_count: 3
+api_count: 2
 apis:
-- description: SEC and regulatory filings
-  name: Arch Coal Filings API
-  slug: arch-coal-filings-api
-- description: Financial performance metrics
-  name: Arch Coal Financial API
-  slug: arch-coal-financial-api
-- description: Coal production and sales volume data
-  name: Arch Coal Production API
-  slug: arch-coal-production-api
-artifact_total: 39
+- description: The investor-facing digital channel for Core Natural Resources, the company Arch Coal / Arch Resources became after the January 2025 merger with CONSOL Energy. It publishes SEC filings, quarterly earn
+  name: Core Natural Resources Investor Relations
+  slug: core-investor-relations
+- description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
+  name: SEC EDGAR Filings (Core Natural Resources, CIK 1710366)
+  slug: sec-edgar-filings
+artifact_total: 19
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/arch-coal-agentic-access.yml
+  type: Website
+  url: https://corenaturalresources.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://corenaturalresources.com/
+- group: company
+  title: ''
+  type: Legacy Website
+  url: https://archresources.com/
+- group: company
+  title: ''
+  type: Investors
+  url: https://corenaturalresources.com/investors/
+- group: company
+  title: ''
+  type: News
+  url: https://corenaturalresources.com/news-media/
+- group: other
+  title: ''
+  type: Sustainability
+  url: https://corenaturalresources.com/sustainability/
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://corenaturalresources.com/suppliers/
+- group: company
+  title: ''
+  type: Careers
+  url: https://corenaturalresources.com/careers/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://corenaturalresources.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://corenaturalresources.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://corenaturalresources.com/arch-terms-and-conditions/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/core-natural-resources
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/arch-coal-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/arch-coal-authentication.yml
-- group: start
-  title: ''
-  type: Portal
-  url: https://www.arch-coal.com/
-- group: design
-  title: ''
-  type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/rules/arch-coal-spectral-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/vocabulary/arch-coal-vocabulary.yaml
-- group: design
-  title: ''
-  type: JSONLD
-  url: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/json-ld/arch-coal-investor-relations-api-context.jsonld
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://archresources.com/llms.txt
 created: '2026-03-23'
-description: Arch Coal (now Arch Resources) is a Fortune 500 producer and marketer of metallurgical and thermal coal from mines in the United States, supplying steel manufacturers, electric utilities, and industrial customers worldwide.
-examples:
-- key_count: 6
-  name: Arch Coal Investor Relations Api Earnings Report Example
-  slug: arch-coal-investor-relations-api-earnings-report-example
-- key_count: 2
-  name: Arch Coal Investor Relations Api Error Response Example
-  slug: arch-coal-investor-relations-api-error-response-example
-- key_count: 4
-  name: Arch Coal Investor Relations Api Filing Example
-  slug: arch-coal-investor-relations-api-filing-example
-- key_count: 2
-  name: Arch Coal Investor Relations Api Filing List Example
-  slug: arch-coal-investor-relations-api-filing-list-example
-- key_count: 6
-  name: Arch Coal Investor Relations Api Production Report Example
-  slug: arch-coal-investor-relations-api-production-report-example
+description: 'Arch Coal was a St. Louis-based producer and marketer of metallurgical and thermal coal, renamed Arch Resources in 2020. In January 2025 Arch Resources merged with CONSOL Energy in a merger of equals to form Core Natural Resources, Inc. (NYSE: CNR), headquartered in Canonsburg, Pennsylvania. The combined company operates the Pennsylvania Mining Complex, Leer, Leer South, West Elk, Black Thunder, and other mines across six U.S. states with 5,000+ employees, and holds stakes in East Coast marine export terminals. Core Natural Resources does not publish a public developer API. Its external digital surface is a corporate website at corenaturalresources.com plus a separate investor relations portal; machine-readable company data is available only through third-party channels such as the SEC EDGAR APIs.'
 features:
-- description: High-quality metallurgical coal for steelmaking from mines in West Virginia and Virginia.
+- description: Low-Vol (Beckley, Itmann), High-Vol A (Leer, Leer South), and High-Vol B (Mountain Laurel) metallurgical coals for blast furnace steelmaking — roughly 12 million tons annually.
   name: Metallurgical Coal
-- description: Thermal coal for electricity generation from mines in Wyoming's Powder River Basin.
-  name: Thermal Coal
-- description: Publicly reported mine safety and environmental performance metrics.
-  name: Safety Performance Data
-- description: Quarterly coal production and sales volume reporting for investors and analysts.
-  name: Production Reporting
-- description: Annual reports, 10-K, 10-Q, and 8-K filings available through SEC EDGAR.
-  name: SEC Filings
+- description: High CV thermal coal from the Pennsylvania Mining Complex and West Elk mine for power generation, cement, and industrial use — roughly 30 million tons annually.
+  name: High Calorific Value Thermal Coal
+- description: PRB sub-bituminous coal from Black Thunder and Coal Creek mines in Wyoming.
+  name: Powder River Basin Thermal Coal
+- description: Ownership stakes in East Coast marine export terminals, with roughly 25 million tons of owned annual export capacity.
+  name: Marine Export Terminals
+- description: Advanced materials and critical mineral extraction research turning coal-based carbon into products for aerospace and other industries.
+  name: CONSOL Innovations
+- description: Quarterly earnings, production and sales volume reporting, and SEC filings published as HTML and PDF through the investor relations portal and EDGAR.
+  name: SEC Filings and Investor Reporting
 finops:
 - name: Arch Coal Finops
   service_category: Industrial / Mining
   slug: arch-coal-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arch-coal.png
 integrations:
-- description: All SEC filings available through the EDGAR electronic filing system at sec.gov.
+- description: All filings for CIK 0001710366 are available through EDGAR and the SEC's public JSON APIs at data.sec.gov.
   name: SEC EDGAR
-- description: Financial data integrated with Bloomberg terminal for market analysis.
-  name: Bloomberg
-- description: Production and financial data available through Refinitiv (formerly Thomson Reuters) data services.
-  name: Refinitiv
-json_schemas:
-- name: EarningsReport
-  property_count: 6
-  slug: arch-coal-investor-relations-api-earnings-report
-- name: ErrorResponse
-  property_count: 2
-  slug: arch-coal-investor-relations-api-error-response
-- name: FilingList
-  property_count: 2
-  slug: arch-coal-investor-relations-api-filing-list
-- name: Filing
-  property_count: 4
-  slug: arch-coal-investor-relations-api-filing
-- name: ProductionReport
-  property_count: 6
-  slug: arch-coal-investor-relations-api-production-report
-json_structures:
-- name: Arch Coal Investor Relations Api Earnings Report Structure
-  property_count: 6
-  slug: arch-coal-investor-relations-api-earnings-report-structure
-- name: Arch Coal Investor Relations Api Error Response Structure
-  property_count: 2
-  slug: arch-coal-investor-relations-api-error-response-structure
-- name: Arch Coal Investor Relations Api Filing List Structure
-  property_count: 2
-  slug: arch-coal-investor-relations-api-filing-list-structure
-- name: Arch Coal Investor Relations Api Filing Structure
-  property_count: 4
-  slug: arch-coal-investor-relations-api-filing-structure
-- name: Arch Coal Investor Relations Api Production Report Structure
-  property_count: 6
-  slug: arch-coal-investor-relations-api-production-report-structure
-jsonld:
-- class_count: 5
-  name: Arch Coal Investor Relations Api Context
-  property_count: 18
-  slug: arch-coal-investor-relations-api-context
+- description: Shares trade on the New York Stock Exchange under the ticker CNR; market data flows through standard exchange and market data providers.
+  name: NYSE
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Arch Coal
 nav: Providers
 network: true
-overview: 'Arch Coal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Filings API, Financial API, and Production API. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
+overview: 'Arch Coal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
 
 
-  The Arch Coal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Arch Coal''s developer surface includes authentication, developer portal, and 6 more developer resources.'
+  Arch Coal''s developer surface includes developer portal, product news, and 11 more developer resources.'
 plans:
 - name: Arch Coal Plans Pricing
   plan_count: 1
@@ -190,52 +125,16 @@ press:
 - date: '2026-05-25'
   title: Despite a strong quarter for its Powder River Basin ...
   url: https://www.facebook.com/cowboystatedaily/posts/despite-a-strong-quarter-for-its-powder-river-basin-operations-arch-resources-in/500718778737496/
-random_paper: 7
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Arch Coal Rate Limits
   slug: arch-coal-rate-limits
-rules:
-- name: Arch Coal API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: arch-coal-jsonschema-spectral-rules
-- name: Arch Coal API Rules
-  rule_count: 21
-  severity_counts:
-    error: 10
-    hint: 0
-    info: 1
-    warn: 10
-  slug: arch-coal-spectral-rules
-score:
-  band: developing
-  composite: 49.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 71.7
-    developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 86.8
-    operational_transparency: 21.1
-  previous_composite: 49.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
-- kind: authentication
-  name: Arch Coal Authentication
-  slug: arch-coal-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Arch Coal Domain Security
   slug: arch-coal-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: HSTS · DMARC
 slug: arch-coal
 tags:
 - Mining
@@ -243,15 +142,19 @@ tags:
 - Metallurgical Coal
 - Thermal Coal
 - Energy
+- Core Natural Resources
+- Investor Relations
 - Fortune 500
 use_cases:
-- description: Analyze Arch Coal financial performance, production data, and market position for investment decisions.
+- description: Analyze Core Natural Resources (NYSE:CNR) financial performance, production volumes, and market position through EDGAR filings and investor materials.
   name: Investment Research
-- description: Access environmental, safety, and governance data for ESG analysis and reporting.
-  name: ESG Reporting
-- description: Steel manufacturers and utilities use production data for supply chain planning and procurement.
-  name: Supply Chain Planning
-- description: Track coal pricing, production volumes, and export data for commodity market research.
+- description: Follow the Arch Coal → Arch Resources → Core Natural Resources lineage, including the CONSOL Energy merger of equals completed January 2025.
+  name: Merger and Lineage Tracking
+- description: Access environmental, safety, and governance disclosures published through the corporate sustainability section.
+  name: ESG and Safety Reporting
+- description: Steel producers, utilities, and suppliers reference product specifications, terms and conditions, and the Supplier Code of Conduct.
+  name: Supply Chain and Procurement
+- description: Track metallurgical and thermal coal production, export capacity, and sales volumes for commodity market research.
   name: Commodity Market Analysis
-website: https://www.arch-coal.com/
+website: https://corenaturalresources.com/
 ---
