@@ -1,4 +1,8 @@
 <!-- Providers Home -->
+<!--
+  Every card below comes from _data/provider-sections.yml. To add a sector,
+  a market, or a collection, edit that file — not this one.
+-->
 <div class="d-flex align-items-center mb-4">
   <div>
     <h1 class="mb-0 fs-4">API Providers</h1>
@@ -6,287 +10,75 @@
   </div>
 </div>
 
-<!-- Browse row -->
-<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">Browse</h5>
-<div class="row g-3 mb-4">
+{% for group in site.data['provider-sections'] %}
 
-  <!-- Alphabetical -->
-  {% assign alpha_total = 0 %}
-  {% for pair in site.data.companies %}
-    {% assign alpha_total = alpha_total | plus: pair[1].size %}
+  <h5 id="{{ group.id }}" class="text-muted text-uppercase small fw-semibold mb-1" style="letter-spacing:.05em;">{{ group.title }}</h5>
+  {% if group.intro %}<p class="text-muted small mb-3">{{ group.intro }}</p>{% else %}<div class="mb-3"></div>{% endif %}
+
+  <div class="row g-3 mb-4">
+  {% for card in group.cards %}
+
+    {%- comment -%}
+      Resolve the card's provider tally. Branch on count.from — never on the
+      presence of a key named `size`/`first`/`last`, which Liquid resolves as a
+      built-in hash property before it ever looks at the YAML.
+    {%- endcomment -%}
+    {%- assign count = nil -%}
+    {%- if card.markets -%}
+      {%- assign count = 0 -%}
+      {%- for market in card.markets -%}
+        {%- assign market_total = site.data[market.count.key].total -%}
+        {%- assign count = count | plus: market_total -%}
+      {%- endfor -%}
+    {%- elsif card.count.from == 'total' -%}
+      {%- assign count = site.data[card.count.key].total -%}
+    {%- elsif card.count.from == 'size' -%}
+      {%- assign count = site.data[card.count.key] | size -%}
+    {%- elsif card.count.from == 'sum' -%}
+      {%- assign count = 0 -%}
+      {%- for pair in site.data[card.count.key] -%}
+        {%- assign count = count | plus: pair[1].size -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    <div class="{{ group.columns }}">
+      <div class="card h-100 {{ card.card_class }}">
+        <div class="card-body d-flex flex-column">
+
+          <div class="d-flex align-items-start gap-{% if group.compact %}2 mb-2{% else %}3 mb-3{% endif %}">
+            <span class="material-symbols-outlined {% unless group.compact %}fs-2 {% endunless %}{{ card.icon_class | default: 'text-success' }}">{{ card.icon }}</span>
+            <div>
+              {% if group.compact %}
+                <h6 class="card-title mb-0 {{ card.title_class }}">{{ card.name }}</h6>
+              {% else %}
+                <h5 class="card-title mb-0 {{ card.title_class }}">{{ card.name }}</h5>
+              {% endif %}
+              <p class="text-muted small mb-0">
+                {{ count }} {{ card.unit | default: 'providers' }}{% if card.markets %} across {{ card.markets | size }} markets{% endif %}
+              </p>
+            </div>
+          </div>
+
+          <p class="card-text text-muted small flex-grow-1">{{ card.description }}</p>
+
+          {% if card.markets %}
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              {% for market in card.markets %}
+                <a href="{{ market.href }}" class="btn btn-sm btn-outline-success">
+                  {{ market.name }}
+                  <span class="badge text-bg-light ms-1">{{ site.data[market.count.key].total }}</span>
+                </a>
+              {% endfor %}
+            </div>
+          {% else %}
+            <a href="{{ card.href }}" class="btn btn-sm {{ card.btn_class | default: 'btn-success' }} mt-3">{{ card.cta }}</a>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+
   {% endfor %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">sort_by_alpha</span>
-          <div>
-            <h5 class="card-title mb-0">Alphabetical</h5>
-            <p class="text-muted small mb-0">{{ alpha_total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Every provider tracked across the API Evangelist network, sorted A–Z.</p>
-        <a href="/alphabetical/" class="btn btn-sm btn-success mt-3">Browse A–Z</a>
-      </div>
-    </div>
   </div>
 
-  <!-- Industries -->
-  {% assign industries = site.data['sections-industries'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">factory</span>
-          <div>
-            <h5 class="card-title mb-0">Industries</h5>
-            <p class="text-muted small mb-0">{{ industries | size }} industries</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Providers organized by the industries they operate in, from aerospace to waste management.</p>
-        <a href="/industries/" class="btn btn-sm btn-success mt-3">Browse Industries</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Countries -->
-  {% assign countries = site.data['sections-countries'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">public</span>
-          <div>
-            <h5 class="card-title mb-0">Countries</h5>
-            <p class="text-muted small mb-0">{{ countries | size }} countries</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Providers across the top industrial countries in the world, matched by country tags.</p>
-        <a href="/countries/" class="btn btn-sm btn-success mt-3">Browse Countries</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Australian Banks -->
-  {% assign aubanks = site.data['companies-australian-banks'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
-          <div>
-            <h5 class="card-title mb-0">Australian Banks</h5>
-            <p class="text-muted small mb-0">{{ aubanks.total }} banks</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Australian banks ranked by their Kin Score, from CDR Open Banking leaders down.</p>
-        <a href="/australian-banks/" class="btn btn-sm btn-success mt-3">Browse Australian Banks</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Market Data -->
-  {% assign marketdata = site.data['companies-market-data'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">monitoring</span>
-          <div>
-            <h5 class="card-title mb-0">Market Data</h5>
-            <p class="text-muted small mb-0">{{ marketdata.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Financial market data providers ranked by their Kin Score, from terminal and feed incumbents to API-first challengers.</p>
-        <a href="/market-data/" class="btn btn-sm btn-success mt-3">Browse Market Data</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Fortune 1000 -->
-  {% assign f1000 = site.data['companies-fortune1000'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">leaderboard</span>
-          <div>
-            <h5 class="card-title mb-0">Fortune 1000</h5>
-            <p class="text-muted small mb-0">{{ f1000.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.</p>
-        <a href="/fortune-1000/" class="btn btn-sm btn-success mt-3">Browse Fortune 1000</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- U.S. Federal Government -->
-  {% assign federal = site.data['companies-federal'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
-          <div>
-            <h5 class="card-title mb-0">U.S. Federal Government</h5>
-            <p class="text-muted small mb-0">{{ federal.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">United States Federal Government agencies and departments publishing APIs on the network.</p>
-        <a href="/federal-government/" class="btn btn-sm btn-success mt-3">Browse U.S. Federal</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- European Government -->
-  {% assign european = site.data['companies-european'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
-          <div>
-            <h5 class="card-title mb-0">European Government</h5>
-            <p class="text-muted small mb-0">{{ european.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">European national, regional, and European Union government agencies publishing APIs on the network.</p>
-        <a href="/european-government/" class="btn btn-sm btn-success mt-3">Browse European</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Apache -->
-  {% assign apache = site.data['companies-apache'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">foundation</span>
-          <div>
-            <h5 class="card-title mb-0">Apache</h5>
-            <p class="text-muted small mb-0">{{ apache.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Apache Software Foundation projects publishing APIs on the network.</p>
-        <a href="/apache/" class="btn btn-sm btn-success mt-3">Browse Apache</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- CNCF -->
-  {% assign cncf = site.data['companies-cncf'] %}
-  <div class="col-md-4">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-3 mb-3">
-          <span class="material-symbols-outlined fs-2 text-success">cloud</span>
-          <div>
-            <h5 class="card-title mb-0">CNCF</h5>
-            <p class="text-muted small mb-0">{{ cncf.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Cloud Native Computing Foundation projects publishing APIs on the network.</p>
-        <a href="/cncf/" class="btn btn-sm btn-success mt-3">Browse CNCF</a>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<!-- Kin Score row -->
-<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">Kin Score</h5>
-<div class="row g-3">
-
-  <!-- Exemplar -->
-  {% assign exemplar = site.data['companies-exemplar'] %}
-  <div class="col-md-4 col-lg">
-    <div class="card h-100 border-success">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-2 mb-2">
-          <span class="material-symbols-outlined text-success">workspace_premium</span>
-          <div>
-            <h6 class="card-title mb-0 text-success">Exemplar</h6>
-            <p class="text-muted small mb-0">{{ exemplar.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Comprehensive API programs with full governance and excellent developer experience.</p>
-        <a href="/exemplar/" class="btn btn-sm btn-success mt-3">View Exemplar</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Strong -->
-  {% assign strong = site.data['companies-strong'] %}
-  <div class="col-md-4 col-lg">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-2 mb-2">
-          <span class="material-symbols-outlined text-primary">verified</span>
-          <div>
-            <h6 class="card-title mb-0">Strong</h6>
-            <p class="text-muted small mb-0">{{ strong.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Solid governance, documentation, and developer tooling across the API program.</p>
-        <a href="/strong/" class="btn btn-sm btn-outline-primary mt-3">View Strong</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Developing -->
-  {% assign developing = site.data['companies-developing'] %}
-  <div class="col-md-4 col-lg">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-2 mb-2">
-          <span class="material-symbols-outlined text-warning">trending_up</span>
-          <div>
-            <h6 class="card-title mb-0">Developing</h6>
-            <p class="text-muted small mb-0">{{ developing.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Making good progress toward a complete and well-governed API program.</p>
-        <a href="/developing/" class="btn btn-sm btn-outline-warning mt-3">View Developing</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Thin -->
-  {% assign thin = site.data['companies-thin'] %}
-  <div class="col-md-4 col-lg">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-2 mb-2">
-          <span class="material-symbols-outlined text-secondary">radio_button_unchecked</span>
-          <div>
-            <h6 class="card-title mb-0">Thin</h6>
-            <p class="text-muted small mb-0">{{ thin.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Basic API presence with limited governance, tooling, or documentation.</p>
-        <a href="/thin/" class="btn btn-sm btn-outline-secondary mt-3">View Thin</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Minimal -->
-  {% assign minimal = site.data['companies-minimal'] %}
-  <div class="col-md-4 col-lg">
-    <div class="card h-100">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex align-items-start gap-2 mb-2">
-          <span class="material-symbols-outlined text-secondary">fiber_manual_record</span>
-          <div>
-            <h6 class="card-title mb-0">Minimal</h6>
-            <p class="text-muted small mb-0">{{ minimal.total }} providers</p>
-          </div>
-        </div>
-        <p class="card-text text-muted small flex-grow-1">Minimal API program signals detected on the network.</p>
-        <a href="/minimal/" class="btn btn-sm btn-outline-secondary mt-3">View Minimal</a>
-      </div>
-    </div>
-  </div>
-
-</div>
+{% endfor %}

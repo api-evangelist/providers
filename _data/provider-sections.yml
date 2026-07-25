@@ -1,0 +1,235 @@
+# Card grid on the providers home page — rendered by _includes/home.html.
+#
+# This file is the single place the home page gets its shape from. Adding a new
+# country to an existing sector is one entry under that sector's `markets`;
+# adding a whole new sector or collection is one new card. Neither needs an
+# HTML change.
+#
+# Each group renders as a labeled row of cards.
+#   id       : anchor slug for the row
+#   title    : row heading
+#   intro    : optional one-line description under the heading
+#   columns  : Bootstrap column classes for every card in the row
+#   compact  : true renders the smaller band-style card (h6, no body padding)
+#
+# A card is either a LINK card (href + cta) or a SECTOR card (markets), never
+# both. Sector cards render one chip per market and total themselves up.
+#
+# count: how a card's provider tally is resolved. `from` picks the strategy,
+# `key` names the file under _data/.
+#   from: total  -> site.data[key].total
+#   from: size   -> number of entries in site.data[key]
+#   from: sum    -> sum of the sizes of every group in site.data[key]
+#   (sector cards need no count — the include sums their markets)
+#
+# Do NOT rename `from`/`key` to `size`, `first`, or `last`. Liquid resolves
+# those as built-in properties on the hash before it looks for your key, so
+# the lookup silently returns the wrong value.
+
+- id: browse
+  title: Browse
+  intro: Cross-cutting indexes over every provider tracked on the network.
+  columns: col-md-4
+  cards:
+
+    - name: Alphabetical
+      icon: sort_by_alpha
+      unit: providers
+      count: { from: sum, key: companies }
+      description: Every provider tracked across the API Evangelist network, sorted A–Z.
+      href: /alphabetical/
+      cta: Browse A–Z
+
+    - name: Industries
+      icon: factory
+      unit: industries
+      count: { from: size, key: sections-industries }
+      description: Providers organized by the industries they operate in, from aerospace to waste management.
+      href: /industries/
+      cta: Browse Industries
+
+    - name: Countries
+      icon: public
+      unit: countries
+      count: { from: size, key: sections-countries }
+      description: Providers across the top industrial countries in the world, matched by country tags.
+      href: /countries/
+      cta: Browse Countries
+
+- id: sectors
+  title: Sectors
+  intro: Slices of the landscape scored end to end, market by market, and written up as sector reports.
+  columns: col-md-6
+  cards:
+
+    - name: Banking
+      icon: account_balance
+      description: >-
+        Banks, credit unions, and building societies ranked by their Kin Score across four
+        markets — from the CDR and Open Banking mandates to the voluntary open-finance regimes.
+      markets:
+        - name: United States
+          href: /us-banks/
+          count: { from: total, key: companies-us-banks }
+        - name: United Kingdom
+          href: /uk-banks/
+          count: { from: total, key: companies-uk-banks }
+        - name: Australia
+          href: /australian-banks/
+          count: { from: total, key: companies-australian-banks }
+        - name: Canada
+          href: /canadian-banks/
+          count: { from: total, key: companies-canadian-banks }
+
+    - name: Payments
+      icon: credit_card
+      description: >-
+        Card networks, acquirers, processors, PSPs, and the instant-payment rails behind each
+        national market — the API-native layer of finance, ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-payments/
+          count: { from: total, key: companies-us-payments }
+        - name: United Kingdom
+          href: /uk-payments/
+          count: { from: total, key: companies-uk-payments }
+        - name: Australia
+          href: /au-payments/
+          count: { from: total, key: companies-au-payments }
+        - name: Canada
+          href: /canadian-payments/
+          count: { from: total, key: companies-canadian-payments }
+
+    - name: Healthcare
+      icon: health_and_safety
+      description: >-
+        EHRs, health-data networks, payers, clinical AI, and national health infrastructure
+        across four HL7 FHIR regimes, ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-healthcare/
+          count: { from: total, key: companies-us-healthcare }
+        - name: United Kingdom
+          href: /uk-healthcare/
+          count: { from: total, key: companies-uk-healthcare }
+        - name: Australia
+          href: /au-healthcare/
+          count: { from: total, key: companies-au-healthcare }
+        - name: Canada
+          href: /canadian-healthcare/
+          count: { from: total, key: companies-canadian-healthcare }
+
+    - name: Market Data
+      icon: monitoring
+      unit: providers
+      count: { from: total, key: companies-market-data }
+      description: >-
+        Financial market data providers ranked by their Kin Score, from terminal and feed
+        incumbents to API-first challengers.
+      href: /market-data/
+      cta: Browse Market Data
+
+- id: collections
+  title: Collections
+  intro: Standing rosters of providers drawn from public indexes, government registries, and open-source foundations.
+  columns: col-md-4
+  cards:
+
+    - name: Fortune 1000
+      icon: leaderboard
+      unit: providers
+      count: { from: total, key: companies-fortune1000 }
+      description: Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.
+      href: /fortune-1000/
+      cta: Browse Fortune 1000
+
+    - name: U.S. Federal Government
+      icon: gavel
+      unit: providers
+      count: { from: total, key: companies-federal }
+      description: United States Federal Government agencies and departments publishing APIs on the network.
+      href: /federal-government/
+      cta: Browse U.S. Federal
+
+    - name: European Government
+      icon: flag
+      unit: providers
+      count: { from: total, key: companies-european }
+      description: European national, regional, and European Union government agencies publishing APIs on the network.
+      href: /european-government/
+      cta: Browse European
+
+    - name: Apache
+      icon: foundation
+      unit: providers
+      count: { from: total, key: companies-apache }
+      description: Apache Software Foundation projects publishing APIs on the network.
+      href: /apache/
+      cta: Browse Apache
+
+    - name: CNCF
+      icon: cloud
+      unit: providers
+      count: { from: total, key: companies-cncf }
+      description: Cloud Native Computing Foundation projects publishing APIs on the network.
+      href: /cncf/
+      cta: Browse CNCF
+
+- id: kin-score
+  title: Kin Score
+  intro: Every provider on the network sorted into the five Kin Score bands.
+  columns: col-md-4 col-lg
+  compact: true
+  cards:
+
+    - name: Exemplar
+      icon: workspace_premium
+      unit: providers
+      count: { from: total, key: companies-exemplar }
+      description: Comprehensive API programs with full governance and excellent developer experience.
+      href: /exemplar/
+      cta: View Exemplar
+      card_class: border-success
+      title_class: text-success
+      icon_class: text-success
+      btn_class: btn-success
+
+    - name: Strong
+      icon: verified
+      unit: providers
+      count: { from: total, key: companies-strong }
+      description: Solid governance, documentation, and developer tooling across the API program.
+      href: /strong/
+      cta: View Strong
+      icon_class: text-primary
+      btn_class: btn-outline-primary
+
+    - name: Developing
+      icon: trending_up
+      unit: providers
+      count: { from: total, key: companies-developing }
+      description: Making good progress toward a complete and well-governed API program.
+      href: /developing/
+      cta: View Developing
+      icon_class: text-warning
+      btn_class: btn-outline-warning
+
+    - name: Thin
+      icon: radio_button_unchecked
+      unit: providers
+      count: { from: total, key: companies-thin }
+      description: Basic API presence with limited governance, tooling, or documentation.
+      href: /thin/
+      cta: View Thin
+      icon_class: text-secondary
+      btn_class: btn-outline-secondary
+
+    - name: Minimal
+      icon: fiber_manual_record
+      unit: providers
+      count: { from: total, key: companies-minimal }
+      description: Minimal API program signals detected on the network.
+      href: /minimal/
+      cta: View Minimal
+      icon_class: text-secondary
+      btn_class: btn-outline-secondary
