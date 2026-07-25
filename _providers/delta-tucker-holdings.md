@@ -62,7 +62,7 @@ press:
   url: https://investors.xerox.com/static-files/6b7bc5b3-72cd-4b9f-ba5f-e6fc6570a86a
 - date: '2026-05-25'
   title: D - API Evangelist Contracts - Contracts
-  url: https://contracts.apievangelist.com/d/
+  url: https://providers.apievangelist.com/d/
 - date: '2026-05-25'
   title: Investors - Governance - Board of Directors
   url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx

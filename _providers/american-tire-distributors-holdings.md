@@ -87,7 +87,7 @@ press:
   url: https://www.gibsondunn.com/lawyer/lanin-ari/?pdf=display
 - date: '2026-05-25'
   title: Contracts - API Evangelist Contracts
-  url: https://contracts.apievangelist.com/
+  url: https://providers.apievangelist.com/
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
