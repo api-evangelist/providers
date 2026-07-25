@@ -71,9 +71,16 @@ FORTUNE_YML_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Slugs the Fortune regex matches on prose alone — the apis.yml describes the
-# Fortune 1000 as data coverage, it is not a Fortune 1000 company itself.
-NOT_FORTUNE = {"apis-io"}
+# Slugs that match the Fortune regex but are not Fortune companies:
+#   apis-io               — its apis.yml describes the Fortune 1000 as data
+#                           coverage ("what ~5,800 companies (Fortune 1000 +
+#                           API providers) build, buy, and hire for"), prose the
+#                           regex can't tell from a classification.
+#   api-evangelist-network — the network's own index repo. It aggregates every
+#                           other company's entries, so it carries real
+#                           `x-fortune:` blocks — hundreds of them, belonging to
+#                           the companies it indexes, not to itself.
+NOT_FORTUNE = {"apis-io", "api-evangelist-network"}
 
 BAND_META = {
     "exemplar":   ("Exemplar",   "Top-tier providers with comprehensive API programs, full governance, and excellent developer experience."),
