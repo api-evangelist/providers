@@ -312,12 +312,44 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-banking-apis.png"
   },
   {
+    "slug": "state-of-australian-healthcare-apis",
+    "title": "The State of Australian Healthcare APIs",
+    "tagline": "What twelve Australian healthcare organizations actually publish, scored — where the challengers out-execute the national agency, and one built the incumbents' FHIR.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-australian-payments-apis",
+    "title": "The State of Australian Payments APIs",
+    "tagline": "What twenty Australian payment companies actually publish, scored — the NPP-native market where the signature resource is PayID, and the agent surface is almost entirely synthetic.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-payments-apis.png"
+  },
+  {
     "slug": "state-of-canadian-banking-apis",
     "title": "The State of Canadian Banking APIs",
     "tagline": "What 42 Canadian banks, credit unions, caisses, and fintechs actually publish, scored — the emptiest banking market measured, where the rails outrank the banks.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-banking-apis.png"
+  },
+  {
+    "slug": "state-of-canadian-healthcare-apis",
+    "title": "The State of Canadian Healthcare APIs",
+    "tagline": "What ten Canadian healthcare organizations actually publish, scored — the market with no FHIR-native challenger class, where a practice-management vendor tops the field.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-canadian-payments-apis",
+    "title": "The State of Canadian Payments APIs",
+    "tagline": "What fourteen Canadian payment companies actually publish, scored — the thinnest, most concentrated market, where the fintechs out-API the incumbents and the rails.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-payments-apis.png"
   },
   {
     "slug": "state-of-market-data-apis",
@@ -336,12 +368,44 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-banking-apis.png"
   },
   {
+    "slug": "state-of-uk-healthcare-apis",
+    "title": "The State of UK Healthcare APIs",
+    "tagline": "What thirteen UK healthcare organizations actually publish, scored — the single-payer market where the incumbent leads and the challengers orbit.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-uk-payments-apis",
+    "title": "The State of UK Payments APIs",
+    "tagline": "What thirty-two UK payment companies actually publish, scored — the open-banking payment-initiation heartland, and the market that hides its own crown jewels.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-payments-apis.png"
+  },
+  {
     "slug": "state-of-us-banking-apis",
     "title": "The State of US Banking APIs",
     "tagline": "What 113 US banks, credit unions, neobanks, and banking-rails providers actually publish, scored — the one open-finance market with no mandate, and the widest split in banking.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-banking-apis.png"
+  },
+  {
+    "slug": "state-of-us-healthcare-apis",
+    "title": "The State of US Healthcare APIs",
+    "tagline": "What seventy-seven US healthcare companies actually publish, scored — the FHIR mandate that inverted the market, and the sector where consent is invisible.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-us-payments-apis",
+    "title": "The State of US Payments APIs",
+    "tagline": "What sixty-eight US payment companies actually publish, scored — the deepest, most agent-instrumented payments estate on earth, and the market with no mandate and no floor.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-payments-apis.png"
   },
   {
     "slug": "techstars-api-portfolio",

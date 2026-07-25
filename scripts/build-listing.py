@@ -71,6 +71,10 @@ FORTUNE_YML_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Slugs the Fortune regex matches on prose alone — the apis.yml describes the
+# Fortune 1000 as data coverage, it is not a Fortune 1000 company itself.
+NOT_FORTUNE = {"apis-io"}
+
 BAND_META = {
     "exemplar":   ("Exemplar",   "Top-tier providers with comprehensive API programs, full governance, and excellent developer experience."),
     "strong":     ("Strong",     "Well-rounded API providers with solid governance, documentation, and developer tooling."),
@@ -172,6 +176,8 @@ def fortune_slugs():
     """Slugs in all/* whose apis.yml carries a Fortune classification."""
     out = set()
     for slug in os.listdir(ALL):
+        if slug in NOT_FORTUNE:
+            continue
         yml = os.path.join(ALL, slug, "apis.yml")
         if not os.path.isfile(yml):
             continue

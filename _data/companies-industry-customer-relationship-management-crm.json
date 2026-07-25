@@ -24,7 +24,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 65.4,
      "agent_band": "agent-native",
@@ -48,6 +48,7 @@
      "name": "Salesforce",
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
      "score": 76.1,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -59,7 +60,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 76.9,
      "agent_band": "agent-native",
@@ -105,7 +106,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
@@ -141,7 +142,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -187,7 +188,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 61.5,
      "agent_band": "agent-native",
@@ -223,7 +224,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 59.6,
      "agent_band": "agent-ready",
@@ -259,7 +260,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 45.2,
      "agent_band": "agent-ready",
@@ -295,7 +296,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -340,7 +341,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -376,7 +377,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -412,7 +413,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

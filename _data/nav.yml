@@ -135,6 +135,18 @@
         - name: Canadian Healthcare
           href: https://providers.apievangelist.com/canadian-healthcare/
 
+        - name: US Insurance
+          href: https://providers.apievangelist.com/us-insurance/
+
+        - name: UK Insurance
+          href: https://providers.apievangelist.com/uk-insurance/
+
+        - name: Australian Insurance
+          href: https://providers.apievangelist.com/au-insurance/
+
+        - name: Canadian Insurance
+          href: https://providers.apievangelist.com/canadian-insurance/
+
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 

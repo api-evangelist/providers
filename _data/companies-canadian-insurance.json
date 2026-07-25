@@ -1,0 +1,884 @@
+{
+ "total": 20,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 3,
+   "companies": [
+    {
+     "name": "APOLLO Insurance",
+     "slug": "apollo-insurance",
+     "description": "APOLLO Insurance (APOLLO Insurance Agency Ltd., apollocover.com) is a Vancouver-founded Canadian digital insurance brokerage and MGA-style distribution platform that sells personal and small-commercial coverage entirely online — tenant and student tenant insurance in every province, homeowner, condo and townhouse, landlord and pet insurance on the personal side, and general liability, professional liability and directors and officers coverage on the business side. APOLLO does not underwrite; it distributes on a commission basis on behalf of A+ to A- rated Canadian carriers, and it sits in the thin digital-broker layer of a Big-Few Canadian market dominated by Intact, Definity, Co-operators and Desjardins. Its distinctive business is embedded tenant insurance for REITs and property managers: automated resident enrolment at lease signing, renewal handling, and real-time building-level compliance tracking, delivered through a Yardi Systems integration and its CoverTrack compliance product. Unusually for the Canadian insurance sector, APOLLO publishes a genuine, publicly readable developer portal at docs.apollocover.com — a Stoplight workspace with three public projects and downloadable OpenAPI definitions covering quote and application (pre-fill) for tenant insurance and compliance-status lookup for partner properties. The surface is real but partner-scoped: every call needs an affiliateId (a co-branded APOLLO subdomain) and an x-api-key token that APOLLO issues by hand to affiliates and property-manager partners, so there is no self-serve credential path and no consumer-facing API. Canada has no open-insurance mandate — OSFI supervises prudentially, the provinces (FSRA, AMF) supervise market conduct, and Consumer-Driven Banking excludes insurance entirely — so nothing forces this disclosure; APOLLO published it as a distribution strategy. No ACORD, AL3, IVANS or agency-management-system reference appears anywhere in its public site or documentation.",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 59.3,
+      "governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 65.2
+     },
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 1
+    },
+    {
+     "name": "OSFI",
+     "slug": "osfi",
+     "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal",
+     "score": 48.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 28.3,
+      "governance": 13.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
+     "rank": 2
+    },
+    {
+     "name": "Sun Life",
+     "slug": "sun-life",
+     "description": "'Sun Life Financial Inc. is a Canadian multinational life and health insurer and asset manager",
+     "score": 47.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "companies": [
+    {
+     "name": "Great-West Lifeco",
+     "slug": "great-west-lifeco",
+     "description": "Great-West Lifeco Inc. is a Winnipeg-headquartered international financial services holding company and a member of the Power Corporation group, and one of the largest life insurers in North America. It operates through Canada Life in Canada, the United Kingdom, the Isle of Man and Germany, through Irish Life in Ireland, and through Empower in the United States, spanning individual and group life, health and dental, disability and critical illness insurance, annuities and payout products, segregated funds and wealth management, employer-sponsored retirement recordkeeping, and life reinsurance. Its home market is Canada, where it is federally supervised by OSFI for prudential matters while market conduct is regulated province by province, and where no open-insurance mandate exists (Consumer-Driven Banking excludes insurance outright). Its API posture reflects that absence of a forcing function: the Great-West Lifeco corporate site and the Canadian consumer site canadalife.com publish no developer portal and no API documentation, and probes of developer/docs subdomains and /developers, /api, /developer, /partners and /integrations paths return no such surface. Two production API surfaces nevertheless exist inside the group, both partner-gated and unrelated to each other. Canada Life runs an Apigee gateway at api.canadalife.com that serves a real OpenID Connect discovery document anonymously - issuer, JWKS, token, revocation and userinfo endpoints, with the authorization endpoint deliberately published as \"authorize-NOT-SUPPORTED\" and an empty scopes_supported array - and whose error envelopes point to https://apimarketplace.canadalife.com, a digitalML-hosted API marketplace that does not resolve publicly. The U.S. retirement subsidiary Empower runs a genuine developer portal that lists two production APIs publicly while naming eight API products plus three coming soon on its marketing site, places every piece of reference documentation behind login, documents an x-api-key header with OAuth 2.0 client_credentials and private_key_jwt in support of FAPI, publishes release notes, a maintenance window and a mock-data sandbox, and issues credentials only after a reviewed access request. There is no downloadable OpenAPI anywhere, no public Postman collection, no SDK, no MCP server, no webhook or event catalog, and no ACORD, AL3 or IVANS reference on any public property in the group.",
+     "score": 43.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 87.0
+     },
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 4
+    },
+    {
+     "name": "The Co-operators",
+     "slug": "cooperators",
+     "description": "The Co-operators is a Canadian insurance and financial services co-operative, formed in 1978 from the amalgamation of the Saskatchewan and Ontario co-operative insurers whose roots run back to the Co-operative Life Insurance Company founded in Regina in 1945. It is owned by Canadian co-operatives, credit union centrals and farm organizations rather than public shareholders, and writes multi-line property and casualty, home, auto, farm, travel and life insurance alongside group benefits, group retirement and savings, wealth management and institutional asset management, reporting more than $62 billion in assets under administration, nearly 7,000 employees and more than 2,800 licensed insurance representatives across Canada. Its API posture is partner-gated. There is no first-party developer portal on cooperators.ca — developer, developers, docs, api and partners subdomains do not resolve in DNS, and /developers, /developer, /api, /partners and /integrations all return HTTP 404 — while the advisor and broker channel is a set of sign-in walls (lifeportal.cooperators.ca, benefitsnowlogon.cooperators.ca, basis.cooperators.ca, illustration.cumis.com). The only public API surface in the group belongs to its embedded-insurance brand Duuo, whose Duuo Platform partner APIs cover account, quote, payment and policy issuance for tenant and event insurance behind a signed partnership agreement and issued OAuth 2.0 client credentials; the developer portal Duuo advertises at developer.duuo.ca is a Postman-hosted documentation domain that returns HTTP 404 as of 2026-07-25. No ACORD, AL3 or CSIO reference was found anywhere in the company's public materials.",
+     "score": 37.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 63.7,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 54.3
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 5
+    },
+    {
+     "name": "Wawanesa Insurance",
+     "slug": "wawanesa",
+     "description": "The Wawanesa Mutual Insurance Company, founded in 1896 in Wawanesa, Manitoba and headquartered in Winnipeg, is one of Canada's largest property and casualty mutual insurers, writing auto, home, condo, tenant, seasonal residence, farm and commercial lines across every province and territory through a 100% independent broker distribution model, alongside its wholly-owned life and group subsidiary Wawanesa Life. Wawanesa runs its policy, claims and billing on Guidewire InsuranceSuite following a roughly $300 million Strategic Systems Renewal that made it one of the first Canadian insurers to put its entire product suite online, and it has announced a broker-facing API programme — most notably a Commercial Small Business API aligned to CSIO data standards that supports real-time rating, quoting and binding — plus CSIO My Proof of Insurance electronic pink slips. None of that surface is public: Wawanesa publishes no developer portal, no API reference, no OpenAPI, and no self-serve signup. Probes of developer./developers./docs. wawanesa.com do not resolve, api.wawanesa.com answers 403 at the root, and the only integration path is the Salesforce-based Broker Platform behind an Okta login with onboarding brokered by a Wawanesa Business Development representative. Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance outright — so the connectivity layer here is CSIO, not ACORD, and the honest posture is partner-gated with no public API. What Wawanesa does publish is certification: it holds CSIO's API Security Standards Certification (2024-10-29), was the first CSIO member certified in JSON API Standards for Billing (2025-02-05), was the first insurer to attain Claims eDocs Certification (2022-04-04), and contributed nine reusable API packages — Quote, New Business, Policy Inquiry, Policy Update List, Policy Cancellation, Risk Appetite, Required Fields, Billing Inquiry and eDocs — to CSIO's Reusable Services Library for other carriers and BMS vendors to implement.",
+     "score": 30.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 87.0
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 12,
+   "companies": [
+    {
+     "name": "Canada Life",
+     "slug": "canada-life",
+     "description": "The Canada Life Assurance Company is one of Canada's largest life and health insurers, formed from the 2020 amalgamation of Great-West Life, London Life and Canada Life under Winnipeg-based parent Great-West Lifeco. From its home market of Canada it underwrites individual life insurance, critical illness and disability coverage, individual and group health and dental benefits, group retirement and savings, segregated funds and annuities, distributed through an advisor and managing-general-agent channel rather than direct-to-developer. Canada Life publishes no public, self-serve developer portal and no downloadable API specifications. Its integration surface is entirely partner-gated: a live OAuth2-protected API gateway at api.canadalife.com that returns 403 on every path and exposes only OpenID discovery and JWKS anonymously, a Liferay \"Digital Agent\" advisor login wall at advisor.canadalife.com, a Salesforce-hosted customer portal at my.canadalife.com that publishes its own OpenID Connect discovery document with 36 platform scopes, and — the real machine-to-machine channel for this market — ACORD XML for Life data exchange with distributors through its carrier membership in CLIEDIS, the Canadian Life Insurance EDI Standards body. A former Apigee developer portal at developers.canadalife.com survives only as a dangling DNS CNAME pointing at prod-canadalife-portal.apigee.net, which no longer resolves.",
+     "score": 28.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 89.1
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 7
+    },
+    {
+     "name": "Definity Financial",
+     "slug": "definity-financial",
+     "description": "Definity Financial Corporation is a Canadian property and casualty insurance group headquartered in Waterloo, Ontario and listed on the Toronto Stock Exchange (DFY). It is the demutualized successor to Economical Mutual Insurance Company, founded in 1871 in Berlin (now Kitchener), Ontario; policyholders approved demutualization in May 2021 and the company completed its IPO in November 2021, renaming the operating carrier Definity Insurance Company. Definity underwrites personal and commercial property, automobile, farm, and pet lines across Canada through four brands: Economical (broker-distributed home, auto, farm and business insurance), Sonnet (described by the company as the largest fully digital direct-to-consumer insurance business in Canada), Family Insurance Solutions, and Petline/Petsecure (pet insurance). It is one of the Big Few Canadian P&C carriers and reported roughly $6.3B in gross written premiums on a trailing-twelve-month pro-forma basis including its Travelers Canada acquisition. Its API posture is partner-gated and honest to state plainly: Definity publishes no public, self-serve developer portal and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI definition on any first-party host. Every developer-shaped subdomain of definityfinancial.com fails to resolve, an api.definity.com host exists behind Imperva but answers HTTP 404 with an empty body to every anonymous path including OAuth and OpenID discovery, and the only reachable broker surface, broker.economical.com, is a Docebo learning management system for broker training rather than an API reference. The gated API is nonetheless real and independently attested: CSIO, Canada's property-and-casualty data-standards body and the domestic counterpart to ACORD, certified Definity against its API Security Standards on 27 November 2024 — the industry's standard authentication and authorization API model for insurer-to-broker-management-system connectivity, requiring confirmed mitigation of 16 OAuth security concerns and 18 API endpoint concerns — and Definity is additionally CSIO eDocs Certified and Compliance Certified (all non-standard Z-Codes eliminated from broker data exchange). Its Vyne broker digital platform runs on Guidewire Cloud, which Definity was the first Canadian P&C insurer to adopt for its core insurance platform. Two brands, Sonnet and Economical, publish real hand-authored llms.txt documents with explicit AI-training, generation, summarization and crawling directives, including named directives for OpenAI, Google-DeepMind and Anthropic. All of this sits in a Canadian market where OSFI supervises prudentially, the provinces regulate conduct, and Consumer-Driven Banking excludes insurance entirely, so no open-insurance mandate forces a public API surface and standardization is industry-led through CSIO instead.",
+     "score": 26.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 65.2
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 8
+    },
+    {
+     "name": "Blue Cross Canada",
+     "slug": "canadian-blue-cross",
+     "description": "Blue Cross Canada (bluecross.ca) is the national consumer-facing brand of the Canadian Association of Blue Cross Plans, the association that owns the Blue Cross trademark in Canada and coordinates a federation of independent, largely not-for-profit regional Blue Cross plans — Alberta Blue Cross, Pacific Blue Cross, Manitoba Blue Cross, Saskatchewan Blue Cross, Ontario and Quebec Blue Cross (Canassurance), and Medavie Blue Cross. Operating in Canada since 1938, the federation covers roughly eight million Canadians a year across supplementary health and dental benefits, group and employee benefits, retiree plans, travel medical insurance, and term life and critical illness cover, and several member plans also administer public health programs on behalf of provincial and federal governments. Its API posture is partner-gated and effectively non-existent as a public surface: bluecross.ca is a WordPress marketing and region-routing site with no developer portal, no API reference, and no published OpenAPI, and the developer/developers/docs/api subdomains do not resolve at all. Members, plan sponsors, brokers, and health-care providers integrate through authenticated member portals, mobile apps, group-benefit employer portals, and third-party health-claim rails rather than through any self-serve API. Canada offers no forcing function that would change this — OSFI supervises prudentially, the provinces (FSRA, AMF) regulate market conduct, there is no open-insurance mandate, and Consumer-Driven Banking explicitly excludes insurance.",
+     "score": 25.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 9
+    },
+    {
+     "name": "CAA Insurance",
+     "slug": "caa-insurance",
+     "description": "CAA Insurance Company is a Canadian property and casualty carrier that began underwriting in 1974 and is part of CAA Club Group, the CAA South Central Ontario federation, with its head office at 60 Commerce Valley Drive East in Thornhill, Ontario. It underwrites personal-lines auto insurance (including accident benefits, the CAA MyPace pay-as-you-drive product, CAA Connect telematics, and antique and classic vehicle coverage) and personal property insurance (homeowners, condominium, and tenant), plus optional endorsements such as tire coverage, home equipment breakdown, service line, renewable energy equipment, and legal expense coverage. It sells in British Columbia, Saskatchewan, Manitoba, Ontario, New Brunswick, Nova Scotia, and Prince Edward Island through a direct-to-consumer channel and through independent brokers. Its API posture is honestly none: as of the July 2026 review there is no public developer portal, no self-serve API program, no downloadable OpenAPI or Swagger definition, and no published event or webhook catalog. Every developer-style host and path probed (developer/developers/docs/api subdomains, and /developers, /api, /developer, /partners, /integrations on both caainsurancecompany.com and caainsurancecompany.ca) either failed DNS or returned 404. The only integration surface is the CAA Broker Portal at caabrokerportal.ca, which is a Microsoft Entra External ID (CIAM) WS-Federation login wall in front of a SharePoint broker workspace, and the broker program microsite at broker.caainsurance.com, which is marketing and business-development content only. The one machine-readable contract anywhere in the estate is platform-provided rather than authored by CAA: the broker portal runs Microsoft SharePoint 16.0.0.5552 and serves twenty SOAP WSDL documents (199 operations, none of them insurance operations) anonymously at /_vti_bin/<service>.asmx?WSDL, with its REST/OData sibling at /_api/web returning 403 to anonymous callers; the CAA Club Group Entra External ID tenant likewise serves standard OpenID Connect discovery. Consumer quoting runs through hosted web applications rather than an exposed quote API. This is a representative record of the Canadian carrier tier, where there is no open-insurance mandate — OSFI supervises prudentially, provincial regulators such as FSRA and the AMF handle market conduct, and Consumer-Driven Banking excludes insurance entirely — so carriers face no forcing function to publish anything.",
+     "score": 25.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 10
+    },
+    {
+     "name": "Trufla",
+     "slug": "trufla",
+     "description": "Trufla Technology is a Calgary, Alberta insurtech that builds digital distribution software for independent property and casualty insurance brokerages, serving 300+ brokerages primarily across Canada with some UK clients. Founded in 2018 by Sherif Gemayel out of Sharp Insurance's in-house tooling (SharpMobile plus the E-Method digital agency), Trufla sells a broker-channel suite rather than underwriting risk itself: truWeb for broker websites, SEO and digital marketing; truMarket, an insurance CRM with a \"Quote Bind Issue\" rating workflow, lead management, an app store and a marketplace; truMobile, a customer self-service app and broker portal with policy access, document delivery, claim reporting and a marketplace for auxiliary products such as travel, roadside and pet; DataHub with the Policy KPI Dashboard and AI Retention X-Ray; Trudi, an AI insurance assistant; and PolicyPro, a contracted back-office outsourcing service. Its API posture is entirely partner-gated and inbound. Trufla publishes no public developer portal and no self-serve API — developer.trufla.com, developers.trufla.com, docs.trufla.com and api.trufla.com do not resolve (NXDOMAIN), and every OpenAPI, Swagger, GraphQL and API-docs path probed on www.trufla.com returns 404. Integration happens the way it does across the Canadian broker channel: through broker management system connectors (Acturis, Power Broker, Vertafore, Applied Epic/TAM), Salesforce, SEH Systems, telephony, e-signature and payment apps subscribed from the truMarket app store, and through a CSIO implementation step during onboarding. Trufla makes no reference to ACORD, AL3 or IVANS anywhere on its public site; CSIO — Canada's insurance data-standards body — is the standards seam here, and Trufla's own terms of service require the brokerage client to supply its own CSIO account and mailbox plus its own insurer contracts and APIs. What Trufla does publish machine-readably sits outside the developer surface entirely: an llms.txt at www.trufla.com/llms.txt that licenses AI summarization while forbidding training and pricing extraction, a SafeBase trust center at trust.trufla.com that names AWS as its sole subprocessor and no completed certification, dated per-product release notes, a GitHub organization at trufla-technology holding only forks, and one first-party npm package, the Angular JSON-Schema form library @trufla/ngx-tru-forms.",
+     "score": 24.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 52.2
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Agency & Brokerage Technology",
+     "rank": 11
+    },
+    {
+     "name": "Finaeo",
+     "slug": "finaeo",
+     "description": "Finaeo Inc. is a Toronto-based Canadian insurtech operating a digital",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Agency & Brokerage Technology",
+     "rank": 12
+    },
+    {
+     "name": "Desjardins Group",
+     "slug": "desjardins",
+     "description": "Desjardins Group (Mouvement Desjardins) is the largest cooperative financial group in North America, founded in 1900 in Lévis, Quebec by Alphonse Desjardins. It is a federation of caisses populaires (member-owned credit unions) rather than a share-capital chartered bank, comprising the Fédération des caisses Desjardins du Québec and its subsidiaries, the caisses in Quebec and the Caisse Desjardins Ontario Credit Union, regulated in Quebec by the Autorité des marchés financiers (AMF). It holds roughly CAD $470 billion in assets and serves more than 7.8 million members and clients with personal, business, wealth-management and insurance products. On open finance, Desjardins publishes no first-party public developer portal or downloadable API specification; developer.desjardins.com and other API-portal subdomains do not resolve, and consumer financial-data access is delivered today through third-party aggregators (Flinks, Plaid, Finicity, Tink) via screen-scraping/aggregator connectivity rather than a documented Desjardins API. Canada's Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024/2025, overseen by the FCAC) but not yet operational; as a cooperative outside the Big Six, Desjardins may opt in to Phase 1 rather than being mandated.",
+     "score": 18.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 43.5
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 13
+    },
+    {
+     "name": "Intact Financial",
+     "slug": "intact-financial",
+     "description": "Intact Financial Corporation is the largest provider of property and",
+     "score": 18.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 14
+    },
+    {
+     "name": "Zensurance",
+     "slug": "zensurance",
+     "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded",
+     "score": 17.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Agency & Brokerage Technology",
+     "rank": 15
+    },
+    {
+     "name": "Sonnet Insurance",
+     "slug": "sonnet-insurance",
+     "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 30.4
+     },
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 16
+    },
+    {
+     "name": "Goose Insurance",
+     "slug": "goose-insurance",
+     "description": "Goose Insurance Services Inc. is a Vancouver, British Columbia based digital insurance distributor — an app-first licensed agency and MGA rather than a carrier — that sells travel medical, Visitors to Canada, term life, whole life, final expense, critical illness, accidental death and dismemberment, hospital cash, kids and renters coverage through the Goose mobile \"insurance super app\". Founded in 2017 and licensed in British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec (AMF firm registration 603913), New Brunswick and Nova Scotia, Goose underwrites nothing itself: every policy is placed with a partner carrier including AIG Canada, iA Financial Group, TuGo, IMG, MSH, American-Amicable, Teachers Life, Lloyd's of London and Sutton National. Its home market is Canada, with a US launch in 2020, and it sits in the thin digital-broker layer beneath the Big-Few Canadian oligopoly alongside Zensurance and APOLLO. Goose's API posture is closed: as of the 2026-07-25 review there is no public developer portal, no self-serve API documentation, no downloadable OpenAPI or Swagger, and no published ACORD, AL3 or agency-management-system integration. The only host that answers on the api. subdomain is a private Heroku-backed mobile-app backend that returns 404 at every probed path, and the only partner surfaces the company publishes are a marketing affiliate/referral program and a carrier-relationships page — quote, bind, issue and FNOL are all consumer-facing inside the app only.",
+     "score": 16.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 17
+    },
+    {
+     "name": "Onlia",
+     "slug": "onlia",
+     "description": "Onlia is a Canadian digital insurance brokerage, operating as the registered business name of Onlia Agency Inc. and backed by Southampton Financial Inc. (the Southampton group of companies). It sells personal lines direct to consumers online and by phone — auto (car, motorcycle, ATV, snowmobile, trailer, motorhome), property (home, condo, tenant, landlord, second home, mobile home) and lifestyle lines (boat, pet, life, travel, seasonal) — plus group and bundle programs. Onlia does not underwrite; it places business with a panel of Canadian carriers disclosed publicly on its broker-disclosure page, including Aviva, Gore Mutual, Economical/Definity, Pembridge, Pafco, Echelon, Wawanesa, Unica, Forward, Premier, Facility Association (Intact) and APOLLO. Its home market is Canada, concentrated in Ontario, where market conduct sits with FSRA while OSFI supervises the federally-regulated carriers behind the policies. API posture, recorded honestly: Onlia publishes NO public developer portal and NO self-serve API. developer., developers., docs. and api. under onlia.ca do not resolve, and /developers, /api, /developer and /integrations on the marketing site all return 404. The only quote/bind/issue/FNOL surface is app.onlia.ca, a consumer-facing Angular single-page app running on a white-labelled Ignite Insurance policy administration platform whose backend is private to the app. The one \"partner\" page is a B2B marketing page inviting affinity discount partnerships by email, with no technical onboarding. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the public site. The app's own bundle shows the private backend runs on MuleSoft Anypoint CloudHub ESB services (auto and home policy, authentication, documents, VIN/MVR, claims) plus an Ignite Insurance authentication service — real REST plumbing behind the SPA, but undocumented, uncredentialed and not offered to third parties, so no API entry is claimed here.",
+     "score": 16.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 18
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Breathe Life",
+     "slug": "breathe-life",
+     "description": "Breathe Life is a Montreal, Quebec based life insurance technology company — an enterprise SaaS core-systems vendor rather than a carrier or a broker — founded in 2018 to sell life insurers a modern new-business origination and distribution platform. Its product was the Breathe Life Hybrid Origination (Hybrid Distribution) Platform, sold either end-to-end or as four separately licensable modules: Quoter, Hybrid e-App, Advisor Tools and Data Dashboards, supporting advisor-driven, consumer self-serve, or blended selling of individual life products with simple and complex underwriting paths. Its home market is Canada, and its named clients were Canadian and North American life carriers, fraternals and faith-based insurers including Teachers Life, FaithLife Financial, National Bank Insurance, National Catholic Society of Foresters and La Capitale. The company raised CAD $11.5M in August 2020 from Diagram Ventures, Real Ventures and Investissement Quebec plus angels from AXA, AIG and RGA, was named to the 2020 InsurTech 100, and held PCI DSS, SOC 2 Type II and SOC 3 attestations. SE2, an Eldridge business, announced its acquisition of Breathe Life on 2022-03-28; SE2 subsequently rebranded as Zinnia, and the Breathe Life site carried a \"We are now part of Zinnia!\" banner before being decommissioned. Its API posture is closed and now historical: as of the 2026-07-25 review Breathe Life never published a developer portal, API reference, OpenAPI or Swagger definition, Postman collection, GraphQL endpoint, webhook catalog or ACORD/AL3 conformance claim on breathelife.com, and the domain no longer serves a site at all — breathelife.com returns an nginx \"Site Not Configured\" 404 and www.breathelife.com returns a WP Engine \"Site is not available\" 404. Quote, bind, issue and FNOL existed only as capabilities inside a carrier-licensed, login-gated SaaS product, never as an addressable public API.",
+     "score": 9.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 23.9
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Core Systems & Policy Administration",
+     "rank": 19
+    },
+    {
+     "name": "Manulife",
+     "slug": "manulife",
+     "description": "Manulife Financial Corporation is a Canadian multinational insurance and financial services company providing life insurance, health insurance, wealth and asset management, banking, and group benefits. Manulife operates under the Manulife brand in Canada and Asia and through John Hancock Financial in the United States, with Manulife Bank of Canada and Manulife Investment Management as key subsidiaries. The company is the largest insurance company in Canada and serves millions of customers worldwide. Manulife does not currently publish a public developer API or developer portal; partner integrations are managed through closed channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife/refs/heads/main/screenshots/manulife-2026-06-20T184932.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 20
+    }
+   ]
+  }
+ ]
+}

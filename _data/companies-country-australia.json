@@ -1,5 +1,5 @@
 {
- "total": 124,
+ "total": 143,
  "bands": [
   {
    "band": "strong",
@@ -24,7 +24,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -65,7 +65,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -106,7 +106,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -148,7 +148,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -183,7 +183,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -217,7 +217,7 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 49,
+   "count": 52,
    "companies": [
     {
      "name": "Azupay",
@@ -234,7 +234,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -275,7 +275,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -316,7 +316,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -357,7 +357,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -398,7 +398,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -440,7 +440,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -476,7 +476,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -503,6 +503,47 @@
      "rank": 12
     },
     {
+     "name": "Evari",
+     "slug": "evari",
+     "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty",
+     "score": 56.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 49.1,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 78.3
+     },
+     "agent_score": 64.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 13
+    },
+    {
      "name": "Telstra",
      "slug": "telstra",
      "description": "Telstra is Australia's largest telecommunications and mobile network operator, providing fixed broadband, mobile voice and data, enterprise networking, and IoT connectivity across Australia and into Asia. Telstra exposes a developer programme at dev.telstra.com fronting carrier-grade Messaging (SMS / MMS) and Mobile Number Verification APIs, with official SDKs in Python, Node.js, Java, .NET, and Go, and Arduino libraries for the Telstra Cat-1 and Cat-M1 IoT development kits. APIs are reached at tapi.telstra.com behind OAuth 2.0 client credentials with the NSMS or MNV scopes.",
@@ -518,7 +559,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -536,7 +577,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Macquarie Bank",
@@ -554,7 +595,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -578,7 +619,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Tyro Payments",
@@ -595,7 +636,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -619,7 +660,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "IMB Bank",
@@ -637,7 +678,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -661,7 +702,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Basiq",
@@ -679,7 +720,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -703,7 +744,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Buildxact",
@@ -721,7 +762,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -739,7 +780,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Newcastle Permanent Building Society",
@@ -757,7 +798,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -781,7 +822,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Monash University",
@@ -799,7 +840,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -823,7 +864,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "BankVic",
@@ -841,7 +882,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -865,7 +906,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Westpac Banking Corporation",
@@ -883,7 +924,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -907,7 +948,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Best Practice Software",
@@ -924,7 +965,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -948,7 +989,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Commonwealth Bank",
@@ -966,7 +1007,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -990,7 +1031,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -1008,7 +1049,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1032,7 +1073,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Teachers Mutual Bank",
@@ -1050,7 +1091,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1074,7 +1115,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 27
+    },
+    {
+     "name": "QBE Insurance",
+     "slug": "qbe",
+     "description": "QBE Insurance Group Limited is a Sydney-headquartered, ASX-listed global general insurance and reinsurance group, tracing back to 1886 in Townsville, Queensland, and operating today across Australia Pacific, North America and International divisions including a Lloyd's of London syndicate. QBE writes commercial and personal property and casualty lines — property, liability, motor and compulsory third party (CTP), workers compensation, marine, aviation, trade credit, crop and specialty — distributed overwhelmingly through brokers and agents rather than direct to consumers. Its API posture reflects that distribution model and is partner-gated by design: QBE Australia runs a real, publicly browsable Azure API Management developer portal at connect.api-au.qbe.com whose catalogue, operations, schemas and examples can be read anonymously, but every product requires an approved subscription (approvalRequired true) and the broker API is keyed to named partner platforms. The portal exposes genuine quote, bind, endorse, renew, cancel and refer operations for the commercial policy lifecycle — the four real insurance verbs, minus claims/FNOL, which QBE does not expose publicly. A separate QBE North America partner API hub at partnerportal-api.qbena.com serves an empty Azure APIM catalogue to anonymous callers but does publish seven named API products in its own content pages — Quote, Bind, Master Liability, Property Inquiry, Zip Code Validate and Reconciliation and Cancellation for Renters, plus Quote for Homeowners — behind a documented client-id/secret to JWT token exchange; no endpoints or specs are exposed. QBE Hong Kong documents a partner API behind qbe.com pages that are bot-blocked to anonymous fetchers. Australia is the home market; the Consumer Data Right was designated for general insurance and then deferred, so nothing here is compelled by regulation.",
+     "score": 50.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 51.8,
+      "governance": 13.2,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 67.4
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 28
     },
     {
      "name": "University of Adelaide",
@@ -1092,7 +1174,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1116,7 +1198,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "National Australia Bank",
@@ -1134,7 +1216,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1158,7 +1240,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "St.George Bank",
@@ -1176,7 +1258,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1200,7 +1282,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "BCU Bank",
@@ -1218,7 +1300,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1242,7 +1324,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Bendigo and Adelaide Bank",
@@ -1260,7 +1342,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1284,7 +1366,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Suncorp Bank",
@@ -1302,7 +1384,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1326,7 +1408,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Regional Australia Bank",
@@ -1344,7 +1426,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1368,7 +1450,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "MOVE Bank",
@@ -1386,91 +1468,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 87.0
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "AMP Bank",
-     "slug": "amp-bank",
-     "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-24",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 89.1
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 35
-    },
-    {
-     "name": "Bank First",
-     "slug": "bank-first",
-     "description": "Bank First is an Australian customer-owned mutual bank headquartered in",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png",
-     "score": 49.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1497,6 +1495,90 @@
      "rank": 36
     },
     {
+     "name": "AMP Bank",
+     "slug": "amp-bank",
+     "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png",
+     "score": 49.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 89.1
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 37
+    },
+    {
+     "name": "Bank First",
+     "slug": "bank-first",
+     "description": "Bank First is an Australian customer-owned mutual bank headquartered in",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png",
+     "score": 49.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 87.0
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 38
+    },
+    {
      "name": "Weel",
      "slug": "weel",
      "description": "Weel (formerly DiviPay, operated by Weel Pty Ltd) is a Melbourne-based all-in-one spend management platform for finance teams in Australia and New Zealand, serving over 4,000 finance teams and 60,000+ card holders. Weel issues virtual and physical Visa debit cards with real-time limits and controls, and layers accounts payable automation, expense management, reimbursements, subscription management, budgets, and approval policies on top. Rather than operating payment rails directly, Weel sits on the spend and AP/AR seam, syncing approved spend into Xero, QuickBooks, MYOB, and NetSuite. On the API posture, Weel ships a genuine public developer portal at developer.letsweel.com (Redocly-based) documenting a single RESTful \"Weel Open API\" that both reads and writes budgets, users, transactions, custom fields, accounting codes, categories, invites, and top-ups, authenticated with a bearer API key generated in-app. API access is an Enterprise-tier capability. No public webhooks, Postman collection, or OAuth flow are documented as of this review.",
@@ -1511,7 +1593,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1535,7 +1617,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Great Southern Bank",
@@ -1553,7 +1635,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1577,7 +1659,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "RMIT University",
@@ -1595,7 +1677,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1613,7 +1695,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Deakin University",
@@ -1631,7 +1713,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1655,7 +1737,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 42
+    },
+    {
+     "name": "Open",
+     "slug": "open-insurance",
+     "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading",
+     "score": 48.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 43
     },
     {
      "name": "Qudos Bank",
@@ -1673,7 +1796,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1697,7 +1820,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 44
     },
     {
      "name": "Beyond Bank Australia",
@@ -1715,7 +1838,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1739,7 +1862,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 45
     },
     {
      "name": "Macquarie University",
@@ -1757,7 +1880,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1775,7 +1898,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 46
     },
     {
      "name": "Australian Military Bank",
@@ -1793,7 +1916,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1817,7 +1940,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 47
     },
     {
      "name": "University of Newcastle Australia",
@@ -1835,7 +1958,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1853,7 +1976,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 48
     },
     {
      "name": "University of Western Australia",
@@ -1871,7 +1994,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1889,7 +2012,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 49
     },
     {
      "name": "Bank of Queensland",
@@ -1907,7 +2030,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1931,7 +2054,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 50
     },
     {
      "name": "Summerland Bank",
@@ -1949,7 +2072,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1973,7 +2096,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "Bankwest",
@@ -1991,7 +2114,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2015,7 +2138,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "Unity Bank",
@@ -2033,7 +2156,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2057,7 +2180,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Bank of us",
@@ -2075,7 +2198,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2099,7 +2222,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "HSBC Bank Australia",
@@ -2117,7 +2240,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2141,7 +2264,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "ING Australia",
@@ -2159,7 +2282,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2183,7 +2306,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Rabobank Australia",
@@ -2201,7 +2324,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2225,7 +2348,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 57
     }
    ],
    "open": true
@@ -2235,7 +2358,7 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 30,
+   "count": 37,
    "companies": [
     {
      "name": "Hume Bank",
@@ -2253,133 +2376,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Defence Bank",
-     "slug": "defence-bank",
-     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
-     "score": 44.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 54.0,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-07-24",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "Alex Bank",
-     "slug": "alex-bank",
-     "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png",
-     "score": 44.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-24",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 76.1
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Greater Bank",
-     "slug": "greater-bank",
-     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
-     "score": 44.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2406,6 +2403,132 @@
      "rank": 58
     },
     {
+     "name": "Defence Bank",
+     "slug": "defence-bank",
+     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
+     "score": 44.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 54.0,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "Alex Bank",
+     "slug": "alex-bank",
+     "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png",
+     "score": 44.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 76.1
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 60
+    },
+    {
+     "name": "Greater Bank",
+     "slug": "greater-bank",
+     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
+     "score": 44.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 61
+    },
+    {
      "name": "BankSA",
      "slug": "banksa",
      "description": "BankSA is a South Australian retail and business banking brand operating",
@@ -2421,7 +2544,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2445,7 +2568,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "P&N Bank",
@@ -2463,7 +2586,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2487,7 +2610,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Till Payments",
@@ -2504,7 +2627,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2528,7 +2651,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "People First Bank",
@@ -2546,7 +2669,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2570,7 +2693,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Bank Australia",
@@ -2588,7 +2711,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2612,7 +2735,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "Avenue Bank",
@@ -2630,7 +2753,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2654,7 +2777,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "Auswide Bank",
@@ -2672,7 +2795,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2696,7 +2819,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "Australian Unity Bank",
@@ -2714,7 +2837,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2738,7 +2861,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "RACQ Bank",
@@ -2756,7 +2879,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2780,7 +2903,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Gateway Bank",
@@ -2798,7 +2921,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2822,7 +2945,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "eWAY",
@@ -2839,7 +2962,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2863,7 +2986,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "HotDoc",
@@ -2880,7 +3003,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2904,7 +3027,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "ubank",
@@ -2922,7 +3045,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2946,7 +3069,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Healthdirect Australia",
@@ -2963,7 +3086,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2987,7 +3110,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "La Trobe University",
@@ -3005,7 +3128,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3029,7 +3152,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "MedAdvisor",
@@ -3046,7 +3169,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3070,7 +3193,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Police Bank",
@@ -3088,7 +3211,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3112,7 +3235,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "MyState Bank",
@@ -3130,7 +3253,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3154,7 +3277,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 79
+    },
+    {
+     "name": "Steadfast Group",
+     "slug": "steadfast-group",
+     "description": "Steadfast Group Limited (ASX:SDF) is the largest general insurance broker network and the largest group of insurance underwriting agencies in Australasia, headquartered in Sydney, Australia. It is a broker-intermediary rather than a risk carrier: the Steadfast Network comprises 414 independent brokerages placing approximately $12.7 billion in gross written premium, alongside 31 underwriting agencies writing roughly 100 products across business pack, liability, professional indemnity, cyber, construction, marine, aviation, farm, strata, motor and home and contents lines, plus complementary businesses covering premium funding (IQumulate), life insurance, workplace risk, legal and compliance. Its trading technology is the Steadfast Client Trading Platform (SCTP), launched in 2009, which lets network brokers send one question set to a panel of insurers for instant comparative quotes and which transacted over $1.5 billion in GWP in CY25 across 9 insurer lines and 23 connected partners; SCTP and the INSIGHT policy management platform are being consolidated into a broader \"Steadfast Apps\" broking platform. API posture, recorded honestly - Steadfast Group publishes NO developer portal, NO API documentation and NO specification of any kind, and a full crawl of all 311 pages in the public sitemap returned zero references to a developer portal, REST API, OpenAPI or Swagger. Two genuinely machine-readable surfaces nonetheless exist and neither is announced anywhere. The consumer Flood Risk Tracker is backed by a public, anonymous, undocumented JSON API that resolves Australian addresses against the national G-NAF dataset and returns Swiss Re river-flood and storm-surge risk layers, returning RFC 9457 problem details and advertising api-supported-versions 1.0; the OpenAPI in this record was derived from the tool's own client JavaScript and from live probes. Separately, idp.steadfast.com.au is an Okta-hosted OpenID Connect provider publishing a complete anonymous discovery document with PKCE S256 and DPoP, though client registration is commercially gated. The commercial surfaces remain closed: broker.steadfast.com.au is a credentialed broker login wall, and api.steadfast.com.au and api-sf.steadfast.com.au are live but undocumented hosts returning HTTP 403 at the root. Insurer and partner connectivity into SCTP is arranged commercially, not through self-serve onboarding. The company's most notable standards signal is governance rather than implementation: founder, Managing Director and CEO Robert B. Kelly AM is Chair of the ACORD Board in New York, though no ACORD, AL3, ACORD XML or NGDS implementation detail is published anywhere on the public site. Australia has the legal machinery for open insurance but no live obligation - the Consumer Data Right was designated to extend to general insurance and then deferred, so no regulatory forcing function pushes a broker network of this scale toward a public API.",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 57.5,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 80
     },
     {
      "name": "G&C Mutual Bank",
@@ -3172,7 +3336,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3196,7 +3360,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 81
+    },
+    {
+     "name": "Codafication",
+     "slug": "codafication",
+     "description": "Codafication is a Brisbane, Australia insurtech founded in 2015 by Daniel Sandaver and Drew Butler out of a property claims and repair construction business, building software for the general insurance claims supply chain rather than for underwriting or policy administration. Its three products are Crunchwork, a cloud claims and project management platform that acts as a control tower across insurers, assessors, builders, restorers and trades (tasks and workflow, report writer, quotes and variations, catalog, asset manager, purchase orders, invoices, finance, analytics, vendor manager, zones, tenants and teams, and Pulse); Virtual Assist, a real-time video streaming and virtual assessment tool used for remote triage of property claims; and Unity Cloud, the GraphQL data, extension and integration platform the other two products are built on. Unity Cloud does publish a public developer reference at docs.unitycloud.io - the Unity Platform SDK documentation - covering the Portal SDK (React), the Node.js Unity SDK, the GraphQL client, setQueries and setMutations, GraphQL links and type extensions, public and private REST endpoints served under a tenant Cloud domain, GraphQL-payload webhooks, before/after logic hooks, and the Twilio, SendGrid and Bitly platform services. Authentication is Auth0-backed (SAML 2.0 and Active Directory connections) with tenant-scoped role-based access control, plus Unity API tokens issued from the in-product Developer Portal and pre-shared extension secrets. What is missing is the self-serve layer: no OpenAPI or AsyncAPI definition, no public GraphQL introspection endpoint, no Postman collection, no public npm distribution of the SDKs, no status page and no self-serve signup - access runs through named enterprise engagements. Customers and partners include Insurance Australia Group (IAG, announced December 2025), Suncorp, Urban Utilities and the Australian Building and Construction Group, alongside a Guidewire partnership and SOC 2 Type II certification attained in January 2026. Australia has no live open-insurance obligation - the Consumer Data Right was designated to extend to general insurance and then deferred - so nothing forces this platform to open further than it already has.",
+     "score": 38.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2
+     },
+     "agent_score": 15.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 82
     },
     {
      "name": "Bank of Sydney",
@@ -3214,7 +3419,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3238,7 +3443,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 83
     },
     {
      "name": "Bank of Melbourne",
@@ -3256,7 +3461,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3280,7 +3485,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 84
+    },
+    {
+     "name": "Insurance Council of Australia",
+     "slug": "insurance-council-australia",
+     "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
+     "score": 37.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 18.9,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 85
     },
     {
      "name": "Shippit",
@@ -3297,7 +3543,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -3315,7 +3561,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 86
     },
     {
      "name": "Zeller",
@@ -3332,7 +3578,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3356,7 +3602,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 87
     },
     {
      "name": "NPP Australia (AP+)",
@@ -3373,7 +3619,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3397,7 +3643,48 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 82
+     "rank": 88
+    },
+    {
+     "name": "APRA",
+     "slug": "apra",
+     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth",
+     "score": 35.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 89
     },
     {
      "name": "Judo Bank",
@@ -3415,7 +3702,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3439,7 +3726,130 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 90
+    },
+    {
+     "name": "PSC Insurance",
+     "slug": "psc-insurance",
+     "description": "PSC Insurance is an Australian insurance broking and intermediary group",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 100.0
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 91
+    },
+    {
+     "name": "Bupa Australia",
+     "slug": "bupa-australia",
+     "description": "Bupa Australia is the Australian market unit of the UK-headquartered Bupa group and one of the country's largest private health insurers, trading as Bupa HI Pty Ltd (ABN 81 000 057 590). It writes private health insurance — hospital and ancillary \"extras\" cover, overseas visitor and overseas student health cover, and corporate health plans — and, unusually for a carrier, also owns the provision that consumes those benefits through Bupa Dental, Bupa Optical, Bupa Medical Visa Services and Bupa Aged Care. Its lines of business are health and care rather than property and casualty or life, so the ACORD data standards that shape most of the insurance sector are entirely absent from its published surface; no reference to ACORD, AL3, ACORD XML or NGDS appears anywhere on its public web estate. Australia gives it no forcing function either: the Consumer Data Right was designated to extend to general insurance and then deferred, and a first-hand query of the CDR participant register at api.cdr.gov.au on 2026-07-25 returned 203 data-holder brands drawn only from banking and energy, with no insurance sector and no Bupa brand present. Bupa Australia's API posture is accordingly partner-gated. It does run a genuine first-party developer portal at portal.api.bupa.com.au — an Azure API Management managed portal whose meta author tag names Bupa HI Pty Ltd — but the portal returns HTTP 200 while listing nothing: its /apis and /products routes render empty \"APIs: List\" and \"Products: List\" headings to anonymous visitors, its config.json points at an internal-only management host, and its Get Started page routes every onboarding step through the \"Bupa Integration Fabric Team\" before any API specification is released. No public OpenAPI or Swagger definition, Postman collection, GraphQL schema, gRPC service or webhook catalog could be confirmed, and none of the four insurance verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers. The real integration surface for Bupa Australia's counterparties is not an API at all: ancillary providers claim through HICAPS and HealthPoint terminals, hospital providers check patient eligibility and lodge claims through ECLIPSE, the national Services Australia claiming channel reached via Civica's ECF web front-end, and access to the Bupa Partner Portal at partner.bupa.com.au is requested by downloading and returning a PDF form.",
+     "score": 33.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 76.1
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 92
+    },
+    {
+     "name": "nib",
+     "slug": "nib-health-funds",
+     "description": "nib holdings limited (ASX:NHF), trading as nib, is an Australian private health insurer headquartered in Newcastle, New South Wales, and one of the country's largest health funds alongside Medibank, Bupa and HCF. Its lines of business span Australian residents health insurance, New Zealand health insurance through nib nz insurance limited, international workers and overseas student health cover (OSHC), travel insurance, and nib Thrive, its National Disability Insurance Scheme plan-management arm. As a private health insurer it is regulated by APRA and the Private Health Insurance Act rather than by an open-data mandate — Australia's Consumer Data Right was designated to extend to general insurance and then deferred, and it never reached private health insurance at all, so there is no regulatory forcing function pushing nib toward public APIs. Its API posture reflects that exactly: nib publishes no public, self-serve developer portal and no downloadable OpenAPI definitions. Probes of developer.nib.com.au, developers.nib.com.au, docs.nib.com.au and api.nib.com.au do not resolve, and /developers, /api, /developer, /partners and /integrations on nib.com.au all return 404. A real AWS API Gateway host, api-gateway.nib.com.au, is referenced by nib's own web front-end Content-Security-Policy and answers anonymously with HTTP 403 {\"message\":\"Forbidden\"}, confirming a first-party, credential-gated gateway with no public documentation. Healthcare provider integration runs through the login-walled nib HCP portal and through third-party claiming terminals — HICAPS and HealthPoint — plus Honeysuckle Health for medical network and MediGap registration, not through an nib-published API. Member identity is an Auth0-backed OpenID Connect tenant at id.nib.com.au whose discovery document is publicly readable, as is an RFC 9116 security.txt at www.nib.com.au naming security@nib.com.au. nib also publishes three first-party npm scopes (@nib, @nib-styles, @nib-components) across four public GitHub organisations, but they carry frontend and DevOps tooling rather than any API client library. nib is recorded here as an honest partner-gated stub.",
+     "score": 31.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 89.1
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 93
     },
     {
      "name": "MYOB",
@@ -3457,7 +3867,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -3475,7 +3885,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 94
     }
    ]
   },
@@ -3484,7 +3894,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 29,
+   "count": 36,
    "companies": [
     {
      "name": "Australian Digital Health Agency",
@@ -3501,7 +3911,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3525,7 +3935,48 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 95
+    },
+    {
+     "name": "HCF",
+     "slug": "hcf",
+     "description": "HCF — The Hospitals Contribution Fund of Australia Limited (ABN 68 000 026 746, AFSL 241 414), founded in 1932 and headquartered in Sydney — is Australia's largest not-for-profit health fund, covering over 2 million members. It underwrites private health insurance (hospital, extras and ambulance cover) and Overseas Visitors Health Cover, and distributes life and Recover Cover products (life protect, income protect, critical illness), travel, pet, home, car and landlord insurance, plus the Flip accidental-injury brand, alongside its own HCF dental and eyecare centres and the HCF Research Foundation. As a carrier in Australian private health insurance, HCF publishes NO public, self-serve developer API and no developer portal: probes of developer.hcf.com.au, developers.hcf.com.au and docs.hcf.com.au do not resolve, and /developers, /developer, /api-docs, /partners and /integrations on www.hcf.com.au all return 404. Member and provider integration runs through channels HCF does not itself expose as an API — point-of-service extras claiming over third-party HICAPS VX, HICAPS Trinity and CommBank Smart Health terminals, Medicare Benefit Statements for medical gap claims, the My Membership app and online member services behind an Okta-backed sign-in at id.hcf.com.au, and four login-gated ASP.NET provider portals (hospital, medical, dental and ancillary) at www.hcf.com.au/provider-portals which are web applications rather than machine interfaces. The only machine-readable surface HCF answers on is that Okta tenant's OIDC and RFC 8414 discovery metadata, captured in this record. No ACORD reference of any kind appears on the site, which is consistent with private health insurance sitting outside the general-insurance ACORD/AL3 world, and Australia's Consumer Data Right — designated for general insurance and then deferred — never reached health insurance at all. The record here is deliberately an honest stub: this is a partner-gated, no-public-API carrier.",
+     "score": 28.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 87.0
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 96
     },
     {
      "name": "University of Melbourne",
@@ -3543,7 +3994,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3567,7 +4018,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 97
     },
     {
      "name": "Cuscal",
@@ -3584,7 +4035,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3608,7 +4059,171 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 98
+    },
+    {
+     "name": "Honey Insurance",
+     "slug": "honey-insurance",
+     "description": "Honey Insurance is an Australian direct-to-consumer insurtech selling smart home, contents, renters and landlord insurance, founded by Richard Joffe and headquartered in Sydney. Honey Insurance Pty Ltd (ABN 52 643 672 628, AFSL 528244) distributes and administers the policies, which are underwritten by RACQ Insurance Limited (ABN 50 009 704 152, AFSL 233082), an APRA-authorised general insurer. Its differentiator is a bundle of free smart-home sensors supplied at policy inception in exchange for a recurring premium discount, a three-minute online quote-and-bind funnel, and a heavy prevention rather than indemnity pitch. It sells personal lines only and distributes through its own website plus embedded partnerships with mortgage aggregators, home builders and real-estate groups (Finsure, Metricon, McGrath, BGC, Specialist Finance Group, Bank of Queensland, AGL, RACQ). Its API posture is closed: Honey publishes no public developer portal, no API reference, no OpenAPI or Swagger definition, no Postman collection, no GraphQL surface and no webhook or event catalogue. Probes of developer, developers, docs, /developers, /api, /developer, /partners and /integrations all return NXDOMAIN or HTTP 404, and the sitemap contains no developer, API or partner-portal page at all. A real backend host exists at api.honeyinsurance.com, but it is a private AWS API Gateway that answers every path with HTTP 403 {\"message\":\"Forbidden\"}; it serves Honey's own quote funnel and account app and is not documented for third parties. The only publicly reachable standards-based surface is an Auth0 custom-domain tenant at auth.honeyinsurance.com serving anonymous OpenID Connect discovery for consumer account sign-in — not developer API credentials. Quote, bind, issue and FNOL all exist only as consumer web and telephone journeys. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the site, which is consistent with an Australian personal-lines carrier operating outside the ACORD agency-download world and with a home market where the Consumer Data Right was designated for general insurance and then deferred, leaving no forcing function for open insurance APIs.",
+     "score": 27.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 13.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 99
+    },
+    {
+     "name": "TAL",
+     "slug": "tal-australia",
+     "description": "TAL is Australia's largest life insurer by inforce risk-only premium (NMG Consulting, 2023), owned by Japan's Dai-ichi Life Group and underwriting through TAL Life Limited (ABN 70 050 109 450, AFSL 237848). Operating in the Australian market for roughly 150 years, TAL writes life cover, income protection, total and permanent disability and critical illness, and reports paying $4.7 billion in benefits to 57,000 customers and their families in its most recent year. It distributes through three channels — financial advisers via the login-gated TAL Adviser Centre, group insurance inside superannuation funds, and direct/embedded offers including backd by TAL, a payroll-embedded product built with Sydney insurtech Cover Genius. TAL is not API-less, it is API-private: certificate transparency and live probing surface a real partner API estate — an OpenID Connect partner identity tenant, a bearer-protected Group Life B2B integration estate (glsb2b), per-distributor API hosts including one named for the Iress adviser software, and a production Underwriting Rules Engine GraphQL endpoint — none of which is documented, registrable or self-serve. There is no developer portal, no public API reference, no downloadable OpenAPI, and no published ACORD or AL3 position. Australia's Consumer Data Right was designated to extend to insurance but was deferred, so no open-insurance mandate forces a public surface here.",
+     "score": 26.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 67.4
+     },
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 100
+    },
+    {
+     "name": "Budget Direct",
+     "slug": "budget-direct",
+     "description": "Budget Direct is one of Australia's largest direct-to-consumer general insurance brands, operated from Toowong, Queensland by Auto & General Services Pty Ltd (ABN 61 003 617 909) with general insurance products issued by Auto & General Insurance Company Limited (ABN 42 111 586 353), an APRA-authorised insurer. The brand sells car, home and contents, motorcycle, travel, pet and life insurance plus roadside assistance direct to Australian consumers online and by phone, with life cover underwritten by NobleOak Life Limited and travel cover by Zurich Australian Insurance Limited. Its parent, Auto & General, also white-labels personal lines through distribution partners including Qantas, Coles Insurance, ING and Oceania Insurance. Budget Direct publishes NO public self-serve developer portal and NO public API. Every candidate developer host was probed on 2026-07-25 — developer., developers., docs., api., partners., portal., broker., sandbox. and apis.budgetdirect.com.au all fail DNS resolution, and /developers, /developer, /api, /partners and /integrations all return HTTP 404 — while the full 738-URL sitemap contains no developer, API or integration page. Quote, bind, issue and claim (FNOL) exist only as consumer web journeys and a logged-in existing-customer self-service area; there is no documented machine surface for any of them. The parent domain does carry an Apigee gateway hostname (api.autogeneral.com.au, CNAME to autogeneral-prod.apigee.net, preconnect-hinted by the consumer site) but it is first-party and undocumented, with no developer portal, no OpenAPI, no ACORD/AL3 reference anywhere on either site, and partner integration handled as private commercial arrangements through Auto & General. This record is an honest stub: an APRA-regulated Australian carrier with no public API surface. The only machine-readable documents it serves are an RFC 9116 /.well-known/security.txt pointing at Auto & General's published external vulnerability disclosure policy, and the Apple and Android app-association files for its Fuel Discounts mobile app.",
+     "score": 25.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 101
+    },
+    {
+     "name": "Youi",
+     "slug": "youi",
+     "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the",
+     "score": 24.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 102
     },
     {
      "name": "MedicalDirector",
@@ -3625,7 +4240,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3649,7 +4264,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 88
+     "rank": 103
+    },
+    {
+     "name": "Medibank",
+     "slug": "medibank",
+     "description": "Medibank Private Limited (ASX: MPL) is Australia's largest private health insurer, headquartered in Melbourne and operating two retail brands, Medibank and ahm, alongside the Amplar Health services arm. Founded in 1976 as a government-owned fund and privatised through an ASX listing in 2014, it underwrites hospital, extras and ambulance cover for Australian residents, Overseas Student Health Cover and Overseas Visitors Health Cover, and distributes travel, pet, life, income protection and accident cover (Recover Boost) alongside its core private health insurance book. Its home market is Australia, where private health insurance is a separately regulated market supervised by APRA and the Private Health Insurance Ombudsman, and where the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred — so there is no open insurance obligation and no CDR seam reaching a health fund like Medibank. Medibank's API posture is fully partner-gated and there is no public API. No developer portal exists on any conventional host: developer, developers, docs and apis subdomains of medibank.com.au do not resolve in DNS, api.medibank.com.au resolves but does not accept public TCP connections on port 443, and /developers, /api, /developer, /partners and /integrations all return HTTP 404 on www.medibank.com.au, whose 1,364-URL sitemap contains no developer or API page at all. The only first-party integration surfaces are login walls and email-gated onboarding: providers.medibank.com.au is a React single-page \"Medibank - Provider Self Service\" application (Provider Central, ESP) that returns its shell for every path, portal.medibank.com.au is a Palo Alto GlobalProtect corporate VPN, and the HCP Portal for Hospital Casemix Protocol submissions is granted only by emailing Medibank's HCP team. The real machine-to-machine claiming rails are third-party and government-operated rather than Medibank-published: ECLIPSE, the Services Australia in-patient online claiming system, carries hospital claims and 25 percent Fund Gap medical claims under claim type \"MB\" and serves Online Eligibility Check with Presenting Illness codes, with ECFWeb and THELMA as alternative eligibility channels and HICAPS and iSOFT terminals handling ancillary claiming. No ACORD reference of any kind appears on Medibank's public estate, which is the expected result — Australian private health insurance runs on ECLIPSE, HCP and the MBS rather than on ACORD AL3 or ACORD XML. No OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, no webhook or event catalog, and no documented authentication scheme could be confirmed anywhere on Medibank's public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.",
+     "score": 23.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 41.3
+     },
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 104
     },
     {
      "name": "PayTo",
@@ -3666,7 +4322,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3690,7 +4346,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 89
+     "rank": 105
     },
     {
      "name": "University of New South Wales",
@@ -3708,7 +4364,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -3726,7 +4382,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 106
     },
     {
      "name": "University of Queensland",
@@ -3744,7 +4400,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3768,7 +4424,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 91
+     "rank": 107
     },
     {
      "name": "Griffith University",
@@ -3786,7 +4442,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3810,7 +4466,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 92
+     "rank": 108
     },
     {
      "name": "Australian National University",
@@ -3828,7 +4484,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3852,7 +4508,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 93
+     "rank": 109
     },
     {
      "name": "Queensland University of Technology",
@@ -3869,7 +4525,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3893,7 +4549,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 94
+     "rank": 110
     },
     {
      "name": "REA Group",
@@ -3910,7 +4566,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -3928,7 +4584,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 95
+     "rank": 111
     },
     {
      "name": "University of Sydney",
@@ -3946,7 +4602,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3970,7 +4626,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 96
+     "rank": 112
     },
     {
      "name": "Curtin University",
@@ -3988,7 +4644,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4012,7 +4668,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 97
+     "rank": 113
     },
     {
      "name": "University of Wollongong",
@@ -4030,7 +4686,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4048,7 +4704,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 114
     },
     {
      "name": "Limepay",
@@ -4065,7 +4721,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4089,7 +4745,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 99
+     "rank": 115
     },
     {
      "name": "Transport for NSW Open Data Hub",
@@ -4107,7 +4763,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4131,7 +4787,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 116
     },
     {
      "name": "NSW Government Open Data",
@@ -4149,7 +4805,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4173,7 +4829,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 101
+     "rank": 117
     },
     {
      "name": "Kismet",
@@ -4190,7 +4846,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4214,7 +4870,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 102
+     "rank": 118
     },
     {
      "name": "HealthEngine",
@@ -4231,7 +4887,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4255,7 +4911,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 103
+     "rank": 119
     },
     {
      "name": "Queensland Government Data",
@@ -4273,7 +4929,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4297,7 +4953,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 104
+     "rank": 120
     },
     {
      "name": "Butn",
@@ -4314,7 +4970,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4338,7 +4994,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 105
+     "rank": 121
     },
     {
      "name": "data.gov.au Federal",
@@ -4356,7 +5012,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4380,7 +5036,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 106
+     "rank": 122
     },
     {
      "name": "data.sa.gov.au South Australia",
@@ -4398,7 +5054,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4422,7 +5078,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 107
+     "rank": 123
     },
     {
      "name": "DataVic Victoria",
@@ -4440,7 +5096,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4464,7 +5120,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 124
     },
     {
      "name": "Northern Territory Open Data",
@@ -4482,7 +5138,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4506,7 +5162,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
+     "rank": 125
     },
     {
      "name": "Queensland Geoscience Data",
@@ -4524,7 +5180,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4548,7 +5204,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 110
+     "rank": 126
     },
     {
      "name": "Western Australia Data Catalogue",
@@ -4566,7 +5222,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4590,7 +5246,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 111
+     "rank": 127
+    },
+    {
+     "name": "Suncorp Group",
+     "slug": "suncorp-group",
+     "description": "Suncorp Group Limited (ASX: SUN) is an Australian general insurance group headquartered in Brisbane, Queensland, serving customers across Australia and New Zealand. Following the sale of Suncorp Bank to ANZ on 31 July 2024 it operates as a pure-play insurer, underwriting personal lines (motor, home and contents, caravan, landlord) and commercial lines (SME packages, commercial motor and motor fleet, property/ISR, liability, professional and financial risks, workers' compensation, surety, and specialty lines including residential strata and equipment breakdown) through a portfolio of brands: in Australia AAMI, Apia, Bingle, CIL, GIO, Essentials by AAI, Shannons, Suncorp, Terri Scheer and Vero, and in New Zealand Vero and AA Insurance. Its API posture is partner-gated and there is no public API. As of a 2026-07-25 review, Suncorp Group publishes no first-party developer portal, no API reference, and no downloadable OpenAPI/Swagger definition on suncorpgroup.com.au or on any brand domain: the developer/developers/docs/api subdomains of suncorpgroup.com.au do not resolve, /developers and /api return HTTP 404 on the brand sites, and the corporate sitemap (803 URLs) plus the AAMI, GIO, Suncorp and Vero brand sitemaps (2,007 URLs) contain zero developer, API or integration paths. The only machine-to-machine integration surface is intermediated and behind a login: the VeroEdge / Vero Intermediary Portal for brokers (Access Single ID), a third-party Uniwriter underwriting portal for Engineers PI and Strata, and distribution through Australian broker trading networks — the Steadfast Client Trading Platform (SCTP), Sunrise Exchange, and direct Broker Management System connections. Australia has no live open-insurance obligation: the Consumer Data Right that opened banking and energy was never switched on for general insurance, so unlike Suncorp Bank there is no mandated public product-reference-data endpoint here. No ACORD, AL3 or NGDS reference was found anywhere on Suncorp Group or brand properties.",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 128
     },
     {
      "name": "Chimelabs Holdings PTY LTD",
@@ -4607,7 +5304,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4625,7 +5322,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 129
     },
     {
      "name": "Eucalyptus",
@@ -4642,7 +5339,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4666,7 +5363,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 113
+     "rank": 130
     }
    ]
   },
@@ -4675,7 +5372,7 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 10,
+   "count": 12,
    "companies": [
     {
      "name": "Care GP",
@@ -4692,7 +5389,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4716,7 +5413,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 131
     },
     {
      "name": "Refundid",
@@ -4733,7 +5430,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4751,7 +5448,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 132
     },
     {
      "name": "Carma",
@@ -4768,7 +5465,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4786,7 +5483,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 116
+     "rank": 133
     },
     {
      "name": "Transfercar",
@@ -4803,7 +5500,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4821,7 +5518,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 134
     },
     {
      "name": "Booko",
@@ -4838,7 +5535,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4856,7 +5553,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 135
+    },
+    {
+     "name": "Insurance Australia Group",
+     "slug": "iag",
+     "description": "Insurance Australia Group (IAG, ASX: IAG) is the largest general insurance company in Australia and New Zealand, headquartered in Sydney and operating a portfolio of underwriting brands rather than a single consumer-facing label. In Australia it trades as NRMA Insurance, CGU, WFI, Swann Insurance and the digital-native ROLLiN'; in New Zealand as State, AMI, NZI and Lumley. Its lines of business are property and casualty — home and contents, motor, commercial, rural and farm, compulsory third party and specialty — split across a Direct Insurance Australia arm and an Intermediated Insurance Australia arm that sells through brokers and authorised representatives. IAG has no public, self-serve API surface. Probing every conventional developer hostname on iag.com.au, cgu.com.au and nrma.com.au found no developer portal and no published reference documentation; docs.iag.com.au exists but immediately redirects to a Microsoft Entra ID sign-in and is an internal wall, not a portal. What the probes did confirm is a real Apigee API gateway fronting three brand virtual hosts — api.iag.com.au, api.cgu.com.au and api.nrma.com.au — each returning an Apigee ApplicationNotFound fault at the root, meaning proxies exist but none is discoverable or documented to the public. A second round of probing added a fourth brand virtual host, api.wfi.com.au, and a publicly resolvable non-production Apigee organisation at test-api.iag.com.au. IAG has also deployed MuleSoft's Anypoint API Experience Hub and is migrating roughly 600 APIs onto it, with a stated intent to make them agent aware — a substantial API estate that is entirely internal. Broker and partner integration in this market runs through human-facing trading portals — CGU's PolicyPlace quote-and-bind platform, the Ebix Sunrise Exchange and the Steadfast Client Trading Platform — not through an open API programme. IAG does run a HackerOne vulnerability disclosure programme, and published an RFC 9116 security.txt across seven brand domains until it was withdrawn in mid-2025. Australia has the legal machinery for open insurance and no live obligation: the Consumer Data Right that opened banking and energy was flagged for general insurance and then paused, so nothing compels IAG to publish. This record is therefore an honest stub: a partner-gated carrier with a private gateway and zero public specifications.",
+     "score": 13.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 37.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 136
     },
     {
      "name": "Collabra",
@@ -4873,7 +5611,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4891,7 +5629,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 119
+     "rank": 137
+    },
+    {
+     "name": "Ensurance",
+     "slug": "ensurance",
+     "description": "Ensurance Limited (ASX:ENA) was an Australian ASX-listed insurance underwriting agency headquartered in Perth, Western Australia, marketing itself as \"innovating the online insurance sector.\" Its Australian arm, Ensurance Underwriting Australia, operated as a wholesale underwriting agency under an Australian Financial Services Licence, assembling a consortium of local and international capacity — including Lloyd's, Swiss Re and XL Catlin — behind construction-specific products sold exclusively through intermediaries: Licensed Builder Annual Construction, Plant and Liability, Project-Specific Construction, Trades Liability, Owner Builder, and Home and Contents insurance, distributed to a broker network the company described as 340-plus intermediaries. A sister company, Ensurance UK Limited, ran as a Managing General Agent authorised and regulated by the UK Financial Conduct Authority and a coverholder at Lloyd's. The group's API posture is nil and always was. Ensurance never published a public developer portal, API reference, OpenAPI or Swagger definition, Postman collection, GraphQL endpoint, webhook or event catalogue. What the company called its \"customised online platform\" for intermediaries was BOB (bob.ensurance.com.au), a form-based, session-login ASP.NET MVC quote-and-proposal wizard keyed to per-agent codes — an agent login wall, not a programmable interface. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere in the company's live or archived web estate. As of this review the ensurance.com.au TLS certificate has expired and every path on the domain, along with the ensurance.ltd domain family, blanket 301-redirects to Chase Underwriting Solutions Pty Ltd, an Australian professional-lines underwriting agency that likewise publishes no API. Ensurance is recorded here as a partner-gated, no-public-API insurance provider in the Australian market — a faithful data point for a sector where the Consumer Data Right was designated for general insurance and then deferred, leaving carriers and underwriting agencies with no forcing function to expose anything.",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 23.9
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 138
     },
     {
      "name": "Fixed",
@@ -4908,7 +5687,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -4926,7 +5705,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 120
+     "rank": 139
     },
     {
      "name": "DGIT",
@@ -4943,7 +5722,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4961,7 +5740,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 121
+     "rank": 140
     },
     {
      "name": "Gilmour Space",
@@ -4978,7 +5757,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4996,7 +5775,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 122
+     "rank": 141
     },
     {
      "name": "MYSALE GROUP PLC",
@@ -5013,7 +5792,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-24",
+     "scored_at": "2026-07-25",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5031,7 +5810,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 123
+     "rank": 142
     }
    ]
   },
@@ -5046,7 +5825,7 @@
      "name": "PropTrack",
      "slug": "proptrack",
      "description": "PropTrack is an Australian property data, analytics, and automated valuation business, part of REA Group. It supplies residential property data, an industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from more than a trillion property data points across some twelve million Australian residential properties. Its raw data is sourced from public records (State/Territory land titles offices, Valuers General, and Geoscape Australia) and proprietary sources including the realestate.com.au listing portal. PropTrack exposes this through a developer program of REST APIs — covering address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations, and market metrics — documented on a hosted Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at banks, lenders, brokers, proptech platforms, and other enterprise customers integrating Australian property intelligence.",
-     "rank": 124
+     "rank": 143
     }
    ]
   }

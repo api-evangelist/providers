@@ -797,6 +797,48 @@ def main():
     health_counts = {}
     build_roster_sections(HEALTH_SECTIONS, HEALTH_TIER_LABELS, health_counts)
 
+    # --- Insurance (US / UK / AU / CA) ------------------------------------
+    # Roster-driven, HQ/origin model (mirrors Payments + Healthcare). Unlike
+    # both, insurance has NO mandate in any of the four markets, so the tiers
+    # separate the vendors and market bodies from the carriers themselves.
+    # Rosters live in all/0-working/<cc>-insurance-roster.json.
+    INS_TIER_LABELS = {
+        "carrier-pc":            "P&C / General Insurers",
+        "carrier-life-health":   "Life, Health & Benefits Insurers",
+        "reinsurance":           "Reinsurance",
+        "insurtech-dtc":         "Insurtech & Digital-Native Insurers",
+        "embedded-insurance":    "Embedded Insurance & Distribution APIs",
+        "core-systems":          "Core Systems & Policy Administration",
+        "agency-brokerage-tech": "Agency & Brokerage Technology",
+        "broker-intermediary":   "Brokers & Intermediaries",
+        "risk-data-analytics":   "Risk Data & Analytics",
+        "claims-tech":           "Claims Technology",
+        "underwriting-ai":       "Underwriting AI & Submission Ingestion",
+        "specialty-cyber":       "Cyber & Specialty Risk",
+        "benefits-admin":        "Employee Benefits Administration",
+        "market-infrastructure": "Market Bodies, Standards & Regulators",
+    }
+    INS_SECTIONS = [
+        ("us-insurance", "us-insurance-roster.json", "US Insurance",
+         "US insurance companies ranked by their Kin Score — the national P&C and life carriers, the digital-native insurtechs, embedded distribution, the core policy-administration vendors (Guidewire, Duck Creek, Socotra), agency and brokerage technology, the risk-data layer (Verisk, LexisNexis Risk, CoreLogic), claims technology, cyber specialty, benefits administration, and the ACORD/NAIC market bodies — in a market with fifty state regulators and no open-insurance mandate at all.",
+         {"slug": "state-of-us-insurance-apis", "title": "The State of US Insurance APIs",
+          "blurb": "79 US insurance companies scored (avg 29.2) — the market where ACORD wrote the standard and almost nobody implements it as an API. The vendors and risk-data monopolies out-publish every carrier they sell to, the insurtechs score no better than the incumbents they were founded to disrupt, and not one company in the sector reaches Exemplar.", "price": "500"}),
+        ("uk-insurance", "uk-insurance-roster.json", "UK Insurance",
+         "UK insurance organizations ranked by their Kin Score — the composite and specialty carriers (Aviva, Admiral, Direct Line, Hiscox, Beazley), the London Market and its modernization infrastructure (Lloyd's, PPL, Whitespace, Ki), the underwriting-AI cluster (Send, Artificial Labs, Cytora), the densest insurtech cohort in the series, brokers and agency technology, and the FCA.",
+         {"slug": "state-of-uk-insurance-apis", "title": "The State of UK Insurance APIs",
+          "blurb": "35 UK insurance organizations scored (avg 28.2) — and the one genuine surprise in the series: a 337-year-old subscription market, not a regulator, produced the only working data standard and public APIs in global insurance. A Lloyd's syndicate out-publishes every US software vendor, and ACORD lives in London rather than the country that wrote it.", "price": "500"}),
+        ("au-insurance", "au-insurance-roster.json", "Australian Insurance",
+         "Australian insurance organizations ranked by their Kin Score — the general-insurance oligopoly (IAG, Suncorp, QBE, Youi), the separately regulated private health funds (Medibank, nib, HCF, Bupa), the insurtech and embedded cohort including the global breakout Cover Genius, listed broker networks, claims and core-systems vendors, and the APRA / Insurance Council market layer.",
+         {"slug": "state-of-australian-insurance-apis", "title": "The State of Australian Insurance APIs",
+          "blurb": "20 Australian insurance organizations scored (avg 31.7) — the highest-scoring insurance market in the series, and the one that shows what a missing mandate costs: the CDR opened banking and energy, then stopped before insurance. The country has the legal machinery for open insurance and no live obligation, so a core-systems startup tops a market of national carriers.", "price": "500"}),
+        ("canadian-insurance", "canadian-insurance-roster.json", "Canadian Insurance",
+         "Canadian insurance organizations ranked by their Kin Score — the P&C oligopoly (Intact, Definity, Co-operators, Desjardins, Wawanesa), the life trio (Manulife, Sun Life, Great-West), digital-native brokers and insurtechs (Zensurance, APOLLO, Goose, Onlia), core systems, and OSFI — under the most fragmented supervision of the four markets.",
+         {"slug": "state-of-canadian-insurance-apis", "title": "The State of Canadian Insurance APIs",
+          "blurb": "20 Canadian insurance organizations scored (avg 26.9) — the lowest-scoring market in the quartet, where Consumer-Driven Banking pointedly excludes insurance and the federal regulator publishes a better API than any insurer it supervises. A digital broker tops the field; the Big-Few carriers sit beneath their own watchdog.", "price": "500"}),
+    ]
+    ins_counts = {}
+    build_roster_sections(INS_SECTIONS, INS_TIER_LABELS, ins_counts)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -814,6 +856,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in HEALTH_SECTIONS:
         n, sc = health_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in INS_SECTIONS:
+        n, sc = ins_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 
