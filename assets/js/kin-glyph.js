@@ -266,6 +266,30 @@ function kinGlyph(p, opts = {}) {
     try { return JSON.parse(raw); } catch (e) { return {}; }
   }
 
+  /* Facets accept either a keyed object or a COMPACT array in FACETS order:
+       data-facets='[67.5,61.8,73.7,94.7,84.8,76.3]'
+     The compact form exists because the apis.io listing payload carries every
+     provider in the network — keyed objects doubled that file. */
+  function readFacets(el) {
+    const v = parseJSONAttr(el, 'data-facets');
+    if (!Array.isArray(v)) return v;
+    const out = {};
+    for (let i = 0; i < FACETS.length; i++) out[FACETS[i].id] = Number(v[i]) || 0;
+    return out;
+  }
+
+  /* Dimensions accept a keyed object or a COMPACT bitstring in DIMENSIONS
+     order, '1' = satisfied:  data-dims='110100101010' */
+  function readDims(el) {
+    const raw = el.getAttribute('data-dims');
+    if (raw && /^[01]+$/.test(raw.trim())) {
+      const bits = raw.trim(), out = {};
+      for (let i = 0; i < DIMENSIONS.length; i++) out[DIMENSIONS[i].id] = bits.charAt(i) === '1';
+      return out;
+    }
+    return parseJSONAttr(el, 'data-dims');
+  }
+
   /** Render one placeholder element in place. */
   function render(el) {
     if (el.getAttribute('data-kin-rendered') === '1') return;
@@ -275,8 +299,8 @@ function kinGlyph(p, opts = {}) {
       band:        el.getAttribute('data-band') || null,
       agent_score: parseFloat(el.getAttribute('data-agent-score') || '0') || 0,
       agent_band:  el.getAttribute('data-agent-band') || 'human-only',
-      facets:      parseJSONAttr(el, 'data-facets'),
-      agent_dims:  parseJSONAttr(el, 'data-dims'),
+      facets:      readFacets(el),
+      agent_dims:  readDims(el),
     };
     const size = parseInt(el.getAttribute('data-size') || '72', 10);
     const mode = el.getAttribute('data-mode') ||
