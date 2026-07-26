@@ -8,30 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Business mass-payout service that sends funds to Japanese domestic bank accounts or to Kyash app wallets at a flat 50 yen per transfer, available 24/7 with no setup fee. Two integration paths are offe
-  name: Kyash Payout
-  slug: payout
-artifact_total: 3
+api_count: 0
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -122,35 +100,15 @@ description: 'Kyash Inc. (株式会社Kyash) is a Tokyo-based fintech founded in
   SDK, or sandbox.'
 image: https://cdn.prod.website-files.com/5db15c3bca3871afff172c17/5e999e9506f3ea01ffabcdbb_kyash_logo_symbol_blue.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-07-25'
 name: Kyash
 nav: Providers
 network: true
-overview: 'Kyash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Fintech, and Digital Wallet.
+overview: 'Kyash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Fintech, and Digital Wallet.
 
 
   Kyash''s developer surface includes engineering blog, support, pricing, signup flow, product news, and 16 more developer resources.'
-random_paper: 34
-score:
-  band: emerging
-  composite: 26.7
-  delta: 2.6
-  facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 24.1
-  regulatory:
-    applies: true
-    regime: Payments
-    regime_id: payments
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 40
 security:
 - kind: domain-security
   name: Kyash Domain Security

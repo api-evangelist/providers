@@ -9,29 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
-- description: 'Washington Gas is the regulated natural gas distribution utility subsidiary of WGL Holdings, providing safe, reliable, and affordable natural gas to more than 1.2 million customers in the District of '
-  name: Washington Gas
-  slug: washington-gas
 - description: WGL Energy Services is an unregulated retail energy subsidiary of WGL Holdings that sells natural gas and electricity to commercial, industrial, and residential customers in Maryland, Virginia, Delawa
   name: WGL Energy Services
   slug: wgl-energy-services
@@ -41,7 +20,7 @@ apis:
 - description: Hampshire Gas Company owns and operates interests in natural gas storage facilities in and around Hampshire County, West Virginia. It provides underground natural gas storage services that support pip
   name: Hampshire Gas
   slug: hampshire-gas
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -108,11 +87,11 @@ jsonld:
   property_count: 0
   slug: wgl-holdings-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: WGL Holdings
 nav: Providers
 network: true
-overview: 'WGL Holdings publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Electricity, and Retail Energy.
+overview: 'WGL Holdings publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Electricity, and Retail Energy.
 
 
   The WGL Holdings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -136,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Climate and Energy
   url: https://www.asyousow.org/our-work/climate-and-energy
-random_paper: 7
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Wgl Holdings Rate Limits
@@ -150,21 +129,6 @@ rules:
     info: 2
     warn: 3
   slug: wgl-holdings-jsonschema-spectral-rules
-score:
-  band: thin
-  composite: 34.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 86.8
-    operational_transparency: 31.6
-  previous_composite: 34.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Wgl Holdings Domain Security

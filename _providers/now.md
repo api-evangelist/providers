@@ -8,42 +8,12 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 5
+api_count: 1
 apis:
-- description: DigitalNOW B2B eCommerce platform delivered through shop.dnow.com providing contract-priced electronic catalogs of more than 160,000 SKUs, real-time inventory visibility, online ordering, custom appro
-  name: DigitalNOW B2B eCommerce (shop.dnow.com)
-  slug: digitalnow-ecommerce
 - description: Punchout / roundtrip integration that connects a customer's ERP or third-party procurement system to shop.dnow.com using cXML or OCI. DNOW configures the connection so buyers can browse the DNOW catal
   name: DigitalNOW ERP Punchout (cXML / OCI)
   slug: digitalnow-erp-punchout
-- description: eSpec is DNOW's online product configurator for engineered equipment packages. Users select design options and material specifications and the tool generates a 3D drawing and a priced, complete techni
-  name: eSpec Product Configurator
-  slug: espec-configurator
-- description: AccessNOW is DNOW's automated inventory control solution for customer tool cribs and stockrooms. It provides 24/7 controlled access to materials via badge reader, keypad, or facial recognition; barcod
-  name: AccessNOW Automated Inventory Control
-  slug: accessnow-inventory
-- description: A library of customer-facing mobile applications under the DigitalNOW umbrella, including a B2B eCommerce companion app whose activity syncs with shop.dnow.com (cart, order status, history, favorites)
-  name: DNOW Mobile App Library
-  slug: dnow-mobile-app-library
-artifact_total: 23
+artifact_total: 19
 common:
 - group: auth
   title: ''
@@ -81,6 +51,10 @@ common:
   title: ''
   type: Absences
   url: ''
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.dnow.com/ecommerce
 created: '2026-05-23'
 description: 'DNOW Inc. (NYSE: DNOW), formerly NOW Inc. and operating as DistributionNOW, is a Houston-headquartered Fortune 1000 distributor of pipe, valves, fittings (PVF), pumps and packaged, engineered process and production equipment serving the upstream, midstream, downstream energy, and industrial sectors. Spun off from National Oilwell Varco in 2014 and built on a heritage that spans more than 160 years, DNOW combines a global network of distribution branches and engineering facilities with the DigitalNOW platform — shop.dnow.com B2B eCommerce, cXML/OCI ERP punchout integrations, the eSpec product configurator, the AccessNOW automated inventory control system, and a library of customer-facing mobile applications. DNOW does not publish a public developer portal, OpenAPI specifications, or a self-serve API program; customer integrations are delivered through configured cXML/OCI punchout sessions tied to enterprise ERP systems. In June 2025 DNOW announced a definitive merger agreement
   to acquire MRC Global in an all-stock transaction valued at approximately $1.5 billion.'
@@ -110,30 +84,15 @@ integrations:
 - description: Pending all-stock merger announced June 26, 2025; once closed, MRC Global's PVF distribution and digital surfaces are expected to be combined with DNOW's DigitalNOW platform.
   name: MRC Global (Pending Merger)
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: DNOW
 nav: Providers
 network: true
-overview: 'DNOW publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Industrial Distribution, Pipe Valves And Fittings, PVF, and Supply Chain.
+overview: 'DNOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Industrial Distribution, Pipe Valves And Fittings, PVF, and Supply Chain.
 
 
-  DNOW''s developer surface includes developer portal and 7 more developer resources.'
-random_paper: 34
-score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  DNOW''s developer surface includes developer portal and 8 more developer resources.'
+random_paper: 25
 screenshot: https://raw.githubusercontent.com/api-evangelist/now/refs/heads/main/screenshots/now-2026-06-20T190441.png
 security:
 - kind: domain-security

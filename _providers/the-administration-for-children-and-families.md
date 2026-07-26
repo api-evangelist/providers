@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -35,14 +17,11 @@ agentic_access:
   operation_count: 48
   slug: the-administration-for-children-and-families-agentic-access
   summary_line: 48 operations · 15 acting
-api_count: 6
+api_count: 5
 apis:
 - description: The TANF Data Portal (TDP) is a secure, web-based data reporting system for state agencies to submit Temporary Assistance for Needy Families (TANF) program data to ACF. It provides data submission wor
   name: TANF Data Portal
   slug: tanf-data-portal
-- description: ACF's initiative to develop interoperability standards for human services programs using HL7 FHIR and USCDI+ (United States Core Data for Interoperability Plus). Aims to enable data sharing between so
-  name: ACF Human Services Interoperability Initiative
-  slug: acf-interoperability
 - description: NDACAN is the central repository for datasets related to child abuse, neglect, and child welfare at Cornell University, funded by ACF. Provides access to AFCARS (foster care/adoption), NCANDS (child a
   name: National Data Archive on Child Abuse and Neglect
   slug: ndacan
@@ -55,7 +34,7 @@ apis:
 - description: The v1 API from The Administration for Children and Families — 35 operation(s) for v1.
   name: The Administration for Children and Families v1 API
   slug: the-administration-for-children-and-families-v1-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: TDP API
@@ -141,7 +120,7 @@ jsonld:
   property_count: 21
   slug: acf-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: The Administration for Children and Families
 nav: Providers
 network: true
@@ -156,7 +135,7 @@ plans:
 - name: The Administration For Children And Families Plans Pricing
   plan_count: 3
   slug: the-administration-for-children-and-families-plans-pricing
-random_paper: 38
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: The Administration For Children And Families Rate Limits
@@ -170,21 +149,6 @@ rules:
     info: 2
     warn: 4
   slug: the-administration-for-children-and-families-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 48.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.5
-    developer_ergonomics: 19.6
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 36.8
-  previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:
 - kind: authentication

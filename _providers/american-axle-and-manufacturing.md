@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: The AAM iSupplier Portal provides suppliers access to DELFORS forecasts, DELJIT releases, standard purchase orders, payment status, bulletins, specifications, manuals, PPAP documents, and ASN (Advance
-  name: AAM iSupplier Portal
-  slug: isupplier-portal
 - description: Demand AAM provides access to genuine AAM OE replacement driveline parts for the aftermarket. The portal serves automotive parts distributors and repair shops with OE-quality driveline components.
   name: Demand AAM Aftermarket Parts Portal
   slug: demand-aam
-artifact_total: 17
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -53,6 +32,10 @@ common:
   title: ''
   type: Portal
   url: https://www.aam.com/suppliers
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://www.aam.com/suppliers/doing-business-with-aam
 created: '2026-03-23'
 description: American Axle & Manufacturing (AAM), now operating as Dauch Corporation following the February 2026 acquisition of Dowlais Group (GKN Automotive and GKN Powder Metallurgy), is a global Tier 1 automotive supplier designing, engineering, and manufacturing driveline and metal forming technologies for electric, hybrid, and internal combustion vehicles. AAM operates an iSupplier Portal for supplier communication, EDI integration for forecasts and releases, and the Demand AAM aftermarket parts portal.
 features:
@@ -79,14 +62,14 @@ integrations:
 - description: Integration of GKN Powder Metallurgy's sintered components business following the Dowlais Group acquisition.
   name: GKN Powder Metallurgy
 layout: provider
-modified: '2026-04-19'
+modified: '2026-07-25'
 name: American Axle and Manufacturing
 nav: Providers
 network: true
-overview: 'American Axle and Manufacturing publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Manufacturing, Driveline, Automotive Supplier, and EDI.
+overview: 'American Axle and Manufacturing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Manufacturing, Driveline, Automotive Supplier, and EDI.
 
 
-  American Axle and Manufacturing''s developer surface includes developer portal and 3 more developer resources.'
+  American Axle and Manufacturing''s developer surface includes developer portal and 4 more developer resources.'
 plans:
 - name: American Axle And Manufacturing Plans Pricing
   plan_count: 1
@@ -107,26 +90,11 @@ press:
 - date: '2026-05-25'
   title: AAM Announces Combination with Dowlais for $1.44 ...
   url: https://www.aam.com/media/story/aam-announces-combination-with-dowlais
-random_paper: 36
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: American Axle And Manufacturing Rate Limits
   slug: american-axle-and-manufacturing-rate-limits
-score:
-  band: emerging
-  composite: 19.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 19.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/screenshots/american-axle-and-manufacturing-2026-06-20T171904.png
 security:
 - kind: domain-security

@@ -9,33 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
-apis:
-- description: Web client for chatting with Characters, creating new Characters, and managing rooms, voices, scenes, and personas. Internal endpoints are private and not part of a public developer surface.
-  name: Character.AI Web Application
-  slug: character-ai-web-app
-- description: iOS and Android mobile clients providing the same Character chat experience and creation flows.
-  name: Character.AI Mobile Apps
-  slug: character-ai-mobile-app
-artifact_total: 6
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -81,11 +56,11 @@ finops:
   slug: character-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/character-ai.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-07-25'
 name: Character.AI
 nav: Providers
 network: true
-overview: 'Character.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Chatbots, Personas, and Generative AI.
+overview: 'Character.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Chatbots, Personas, and Generative AI.
 
 
   Character.AI''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -93,26 +68,11 @@ plans:
 - name: Character Ai Plans Pricing
   plan_count: 3
   slug: character-ai-plans-pricing
-random_paper: 15
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Character Ai Rate Limits
   slug: character-ai-rate-limits
-score:
-  band: emerging
-  composite: 24.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 24.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/character-ai/refs/heads/main/screenshots/character-ai-2026-06-20T174219.png
 security:
 - kind: domain-security

@@ -8,35 +8,17 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
 api_count: 7
 apis:
+- description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
+  name: ResWare Contacts API
+  slug: resware-contacts-api
 - description: Modeled logical service area for creating and managing title/escrow files (orders) - the core transaction records that carry file number, property, parties, and status through the closing lifecycle. D
   name: ResWare Files & Orders API
   slug: resware-files-orders-api
 - description: Modeled logical service area for retrieving, uploading, and generating documents attached to a file - closing packages, executed documents, and auto-generated forms. In partner integrations this is th
   name: ResWare Documents API
   slug: resware-documents-api
-- description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
-  name: ResWare Contacts API
-  slug: resware-contacts-api
 - description: Modeled logical service area for ResWare's action-based tasks and multi-directional workflow steps that drive a file through its lifecycle - creating, completing, and querying tasks. Delivered over Re
   name: ResWare Tasks API
   slug: resware-tasks-api
@@ -84,7 +66,7 @@ description: ResWare is customizable title and escrow production software for re
   areas below are modeled from partner-integration behavior; ResWare publishes no public API reference or OpenAPI, so no REST surface is fabricated here.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resware.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-07-25'
 name: ResWare
 nav: Providers
 network: true
@@ -92,22 +74,7 @@ overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   ResWare''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 47
-score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 5
 security:
 - kind: domain-security
   name: Resware Domain Security

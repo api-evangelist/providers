@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
 - description: The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest servicing applications and proprietary systems. S
   name: Epiq AACER Bankruptcy API
@@ -38,10 +20,7 @@ apis:
 - description: EpiqPay is Epiq's proprietary platform facilitating digital settlement payments. Provides APIs for disbursing class action and settlement funds to claimants via diverse payment networks including PayP
   name: EpiqPay Payment API
   slug: epiqpay-payment-api
-- description: EpiqFiling manages securities class action claims in one secure portal, providing APIs to file, track, and review claims. Enables automated claims submission, status tracking, and reporting for securi
-  name: EpiqFiling Claims API
-  slug: epiqfiling-claims-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -75,6 +54,10 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/finops/epiq-finops.yml
+- group: company
+  title: ''
+  type: Investors
+  url: https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling
 created: '2026-06-13'
 description: Epiq is a global legal operations and technology company providing REST APIs for case management, eDiscovery, settlement administration, bankruptcy services, and class action claims processing. Their API suite includes AACER for real-time bankruptcy case data retrieval and monitoring, EpiqFiling for securities claims management, and EpiqPay for settlement payment disbursement.
 finops:
@@ -88,41 +71,26 @@ jsonld:
   property_count: 38
   slug: epiq-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-07-25'
 name: Epiq
 nav: Providers
 network: true
-overview: 'Epiq publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, eDiscovery, Bankruptcy, Class Action, and Settlement Administration.
+overview: 'Epiq publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, eDiscovery, Bankruptcy, Class Action, and Settlement Administration.
 
 
   The Epiq catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Epiq''s developer surface includes developer portal and 7 more developer resources.'
+  Epiq''s developer surface includes developer portal and 8 more developer resources.'
 plans:
 - name: Epiq Plans Pricing
   plan_count: 3
   slug: epiq-plans-pricing
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Epiq Rate Limits
   slug: epiq-rate-limits
-score:
-  band: emerging
-  composite: 24.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 20.8
-    developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 24.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/screenshots/epiq-2026-06-20T180757.png
 security:
 - kind: domain-security

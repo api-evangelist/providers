@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Wingstop does not expose a public, self-service API. Ordering, delivery integration, menu data, loyalty, and restaurant information flow through bilateral partner integrations rather than open develop
-  name: Wingstop API
-  slug: wingstop-api
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -102,11 +80,11 @@ finops:
   slug: wingstop-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wingstop.png
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Wingstop
 nav: Providers
 network: true
-overview: 'Wingstop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, QSR, Fast Food, Online Ordering, and Mobile Ordering.
+overview: 'Wingstop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, QSR, Fast Food, Online Ordering, and Mobile Ordering.
 
 
   Wingstop''s developer surface includes signup flow, support, and 13 more developer resources.'
@@ -114,26 +92,11 @@ plans:
 - name: Wingstop Plans Pricing
   plan_count: 1
   slug: wingstop-plans-pricing
-random_paper: 24
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Wingstop Rate Limits
   slug: wingstop-rate-limits
-score:
-  band: emerging
-  composite: 21.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 21.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/screenshots/wingstop-2026-06-20T201518.png
 security:
 - kind: domain-security

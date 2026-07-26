@@ -8,42 +8,12 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 5
+api_count: 1
 apis:
-- description: Authenticated customer self-service portal hosted at secure.peco.com that lets residential and small-business customers view and pay bills, schedule payments, enroll in AutoPay and Budget Billing, rep
-  name: PECO My Account Customer Portal
-  slug: my-account-portal
-- description: Customer-driven My Data / Energy Usage export inside the PECO My Account portal, providing smart-meter interval, daily, and monthly usage views with download options for the authenticated account hold
-  name: PECO My Data / Energy Usage Export
-  slug: my-data-energy-usage
-- description: Public county- and ZIP-level outage map showing active electric outages across PECO's southeastern Pennsylvania service territory, with customer counts affected, estimated restoration, and crew status
-  name: PECO Outage Map
-  slug: outage-map
-- description: Native iOS (App Store id 1274171957) and Android (com.exelon.mobile.peco) mobile apps providing biometric sign-in, bill pay, outage reporting, outage map, usage and bill comparison, alerts, multi-acco
-  name: PECO Mobile Apps (iOS and Android)
-  slug: mobile-apps
 - description: Shared Exelon Utilities backend (eudapi.peco.com) referenced by the PECO web portal's runtime configuration at https://www.peco.com/api/GetConfig (which exposes baseUrl, contentApiBaseUrl, euApiUrl, A
   name: Exelon Utilities Content API (Internal)
   slug: eudapi-content-api
-artifact_total: 6
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -110,27 +80,12 @@ description: 'PECO Energy Company is the largest electric and natural gas utilit
   the customer-facing My Data / Energy Usage tools and, where supported via the Pennsylvania PUC EDI / data access framework, through third-party data aggregators (UtilityAPI, Arcadia, etc.) using customer credentials.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peco-energy.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: PECO Energy
 nav: Providers
 network: true
-overview: PECO Energy publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Electric, Energy, Exelon, Mobile App, and Natural Gas.
+overview: PECO Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electric, Energy, Exelon, Mobile App, and Natural Gas.
 random_paper: 47
-score:
-  band: minimal
-  composite: 8.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 8.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peco-energy/refs/heads/main/screenshots/peco-energy-2026-06-20T191527.png
 security:
 - kind: domain-security

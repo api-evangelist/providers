@@ -8,29 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 10
+api_count: 8
 apis:
-- description: Parent company surface for Equinox Holdings, the privately held luxury fitness and lifestyle group. Acts as the corporate umbrella over Equinox, SoulCycle, Pure Yoga, Blink Fitness, Equinox Hotels, an
-  name: Equinox Holdings — Corporate
-  slug: equinox-holdings-corporate
 - description: 'The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S. cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal training (EFTI-certified), '
   name: Equinox Fitness Clubs
   slug: equinox-fitness-clubs
@@ -55,10 +34,7 @@ apis:
 - description: Equinox-owned indoor running concept and class format offered both inside Equinox clubs and as on-demand programming on Equinox+. No public API surface.
   name: Precision Run
   slug: precision-run
-- description: Equinox Holdings' internal content/media studio producing programming for Equinox+, SoulCycle At-Home, and other brand surfaces. No public API.
-  name: Equinox Media
-  slug: equinox-media
-artifact_total: 11
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -116,35 +92,15 @@ created: 2026-05-22
 description: Equinox Holdings is a privately held luxury lifestyle and fitness company majority-owned by Related Companies. Its portfolio spans high-end fitness clubs (Equinox), boutique indoor cycling (SoulCycle), yoga (Pure Yoga), value-tier gyms (Blink Fitness), luxury hospitality (Equinox Hotels), and a consumer streaming fitness app (Equinox+). The group operates more than 300 club facilities across the United States, Canada, and the United Kingdom and is positioned around the tagline "It's not fitness. It's life." Equinox Holdings does not publish a public developer program, OpenAPI specification, SDKs, or a GitHub organization; all consumer experiences are delivered through its native iOS/Android apps and websites, with no documented partner or open API surface.
 image: https://avatars.githubusercontent.com/u/equinox-holdings
 layout: provider
-modified: 2026-05-23
+modified: '2026-07-25'
 name: Equinox Holdings
 nav: Providers
 network: true
-overview: 'Equinox Holdings publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Luxury, Health, Wellness, and Hospitality.
+overview: 'Equinox Holdings publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Luxury, Health, Wellness, and Hospitality.
 
 
   Equinox Holdings'' developer surface includes privacy policy, YouTube channel, and 11 more developer resources.'
-random_paper: 46
-score:
-  band: emerging
-  composite: 16.6
-  delta: 2.4
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 14.2
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 40
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinox-holdings/refs/heads/main/screenshots/equinox-holdings-2026-06-20T180804.png
 security:
 - kind: domain-security

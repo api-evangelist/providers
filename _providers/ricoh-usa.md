@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -34,7 +16,7 @@ agentic_access:
   operation_count: 5
   slug: ricoh-usa-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 5
+api_count: 4
 apis:
 - description: GATT-based Bluetooth Low Energy API for controlling RICOH THETA cameras (V, Z1, X, A1). Built on Bluetooth 4.2 Core Specifications with Ricoh-specific service and characteristic extensions for shutter
   name: RICOH THETA Bluetooth API
@@ -45,13 +27,10 @@ apis:
 - description: Hosted REST API for capture, upload, sharing, and management of 360-degree imagery from RICOH THETA and partner spherical cameras. Provides serverless image processing, AI-powered editing, virtual tou
   name: RICOH360 Cloud API
   slug: ricoh360-cloud-api
-- description: Cloud workflow platform that connects Ricoh multifunction printers (MFPs) and Smart Operation Panel devices to cloud storage (Box, Dropbox, Google Drive, OneDrive, SharePoint), document conversion (OC
-  name: Ricoh Smart Integration
-  slug: smart-integration
 - description: Core OSC protocol endpoints
   name: Ricoh USA Protocol API
   slug: ricoh-usa-protocol-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: RICOH THETA Web API
@@ -145,6 +124,10 @@ common:
   title: ''
   type: Capabilities
   url: ''
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.ricoh-usa.com/en/services-and-solutions
 created: '2026-05-23'
 description: 'Ricoh USA is the United States operating company of Ricoh Co., Ltd. — a global imaging, printing, document services, and workplace technology vendor. Beyond its printer / MFP and managed document services portfolio, Ricoh exposes developer surfaces under three umbrellas: (1) Ricoh Smart Integration, a cloud workflow platform that connects MFPs to cloud storage and processing services; (2) RICOH360, a developer platform with a Cloud API for managing 360-degree spatial imagery; and (3) the open RICOH THETA Web / Bluetooth / USB APIs that control THETA 360 cameras directly. The THETA APIs and SDKs are published openly on GitHub; Ricoh360 Cloud API access is gated behind application approval; the older Ricoh Smart Integration developer endpoints (smartintegrationapi.com / api.smartintegrationapi.com) are not currently publicly reachable.'
 examples:
@@ -223,7 +206,7 @@ jsonld:
   property_count: 2
   slug: ricoh-usa-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Ricoh USA
 nav: Providers
 network: true
@@ -233,12 +216,12 @@ overview: 'Ricoh USA publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Ricoh USA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ricoh USA''s developer surface includes documentation, support, GitHub presence, tooling, and 13 more developer resources.'
+  Ricoh USA''s developer surface includes documentation, support, GitHub presence, tooling, and 14 more developer resources.'
 plans:
 - name: Ricoh Usa Plans Pricing
   plan_count: 3
   slug: ricoh-usa-plans-pricing
-random_paper: 40
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Ricoh Usa Rate Limits
@@ -260,21 +243,6 @@ rules:
     info: 0
     warn: 11
   slug: theta-web-api-rules
-score:
-  band: developing
-  composite: 50.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.1
-    developer_ergonomics: 28.3
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 36.8
-  previous_composite: 50.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/screenshots/ricoh-usa-2026-06-20T193118.png
 security:
 - kind: domain-security

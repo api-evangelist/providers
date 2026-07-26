@@ -8,45 +8,15 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 2
 apis:
 - description: ASTM Compass is the subscription digital library and workflow platform that delivers ASTM standards alongside third-party publisher content (AASHTO, API, BSI, etc.), books, journals, papers, and video
   name: ASTM Compass
   slug: astm-compass
-- description: The ASTM Standards Catalog is the canonical inventory of 13,000+ ASTM consensus standards organized by technical committee designation (A through G, plus J joint committees). Each standard carries a d
-  name: ASTM Standards Catalog
-  slug: astm-standards-catalog
-- description: The ASTM Digital Library is the historical archive of ASTM-published books, technical papers, manuals, monographs, journals, and Selected Technical Papers (STPs) dating back to 1932. The library aggre
-  name: ASTM Digital Library
-  slug: astm-digital-library
 - description: ASTM SpecBuilder is a tool for assembling, packaging, and delivering customized digital collections of ASTM standards content for enterprise teams and educational programs. It is positioned as part of
   name: ASTM SpecBuilder
   slug: astm-specbuilder
-- description: 'ASTM operates more than 25 interlaboratory proficiency testing (PT) programs covering petroleum products, cement, plastics, and other materials. Labs subscribe to receive samples, submit results, and '
-  name: ASTM Proficiency Testing Programs
-  slug: astm-proficiency-testing
-- description: ASTM operates a global training and personnel certification program across additive manufacturing (via the AM CoE with Auburn University), cannabis, cement, and other technical domains. Training is de
-  name: ASTM Training and Certification
-  slug: astm-training-and-certification
-artifact_total: 39
+artifact_total: 35
 common:
 - group: auth
   title: ''
@@ -217,18 +187,18 @@ jsonld:
   property_count: 13
   slug: astm-international-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: ASTM International
 nav: Providers
 network: true
-overview: 'ASTM International publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Standards, Standards Development Organization, Consensus Standards, Technical Committees, and Materials Testing.
+overview: 'ASTM International publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Standards, Standards Development Organization, Consensus Standards, Technical Committees, and Materials Testing.
 
 
   The ASTM International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   ASTM International''s developer surface includes product news, YouTube channel, and 20 more developer resources.'
-random_paper: 46
+random_paper: 55
 rules:
 - name: ASTM International API Rules
   rule_count: 5
@@ -238,21 +208,6 @@ rules:
     info: 2
     warn: 3
   slug: astm-international-jsonschema-spectral-rules
-score:
-  band: emerging
-  composite: 22.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 20.8
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 0.0
-  previous_composite: 22.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Astm International Domain Security

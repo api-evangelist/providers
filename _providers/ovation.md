@@ -8,30 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Ovation captures guest feedback through frictionless integrations with online ordering, POS, loyalty, reservations, and digital signage platforms, then routes sentiment data into its guest-recovery, r
-  name: Ovation Integrations
-  slug: rest-api
-artifact_total: 2
+api_count: 0
+artifact_total: 1
 common:
 - group: auth
   title: ''
@@ -86,30 +64,15 @@ description: 'Ovation is an AI-first guest experience and feedback platform for 
   through the partner''s customer success and developer teams rather than via a self-serve Ovation API. Integration access is arranged directly with the company.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ovation.png
 layout: provider
-modified: '2026-06-02'
+modified: '2026-07-25'
 name: Ovation
 nav: Providers
 network: true
-overview: 'Ovation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Guest Feedback, Guest Experience, Reputation Management, and SMS Marketing.
+overview: 'Ovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Guest Feedback, Guest Experience, Reputation Management, and SMS Marketing.
 
 
   Ovation''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 3
-score:
-  band: emerging
-  composite: 16.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 16.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovation/refs/heads/main/screenshots/ovation-2026-06-20T191237.png
 security:
 - kind: domain-security

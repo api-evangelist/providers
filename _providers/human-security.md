@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: Bot Defender (formerly PerimeterX Bot Defender) is HUMAN's flagship product for stopping automated traffic against web and mobile properties. A JavaScript sensor and mobile SDKs collect signals from t
   name: HUMAN Bot Defender
@@ -38,16 +20,13 @@ apis:
 - description: Code Defender is HUMAN's client-side security product, providing runtime visibility and controls for third-party scripts, supply-chain attacks (Magecart, formjacking), and unauthorized data exfiltrati
   name: HUMAN Code Defender
   slug: code-defender
-- description: MediaGuard is HUMAN's ad fraud and ad quality product (incorporating capabilities from the Clean.io and Adwerx acquisitions and HUMAN's ad-fraud heritage), focused on protecting publishers, platforms,
-  name: HUMAN MediaGuard
-  slug: mediaguard
 - description: Transaction Abuse Defense extends HUMAN's signals into checkout, payment, and high-value transaction flows to detect carding, payment abuse, gift-card cracking, and similar automated attacks that surv
   name: HUMAN Transaction Abuse Defense
   slug: transaction-abuse-defense
 - description: Scraper Protection targets large-scale content scraping by automated agents, including LLM training scrapers and competitive intelligence bots, layering signals from the JS sensor with edge enforcemen
   name: HUMAN Scraper Protection
   slug: scraper-protection
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -97,6 +76,10 @@ common:
   title: ''
   type: Contact
   url: https://www.humansecurity.com/contact/
+- group: company
+  title: ''
+  type: News
+  url: https://www.humansecurity.com/products/mediaguard/
 created: '2026-05-23'
 description: 'HUMAN Security (formerly PerimeterX) is an application security company focused on stopping automated abuse: sophisticated bots, account takeover, fake account creation, scraping, ad fraud, client-side supply-chain attacks, and transaction fraud. HUMAN operates the Human Defense Platform, which combines a JavaScript sensor and mobile SDKs running on the client with risk decisioning services on the server side. Products in the platform include Bot Defender (formerly PerimeterX Bot Defender), Account Defender, Credential Intelligence, Transaction Abuse Defense, Ad Fraud Sensor / MediaGuard, Code Defender (client-side script and supply-chain protection), and Scraper Protection. HUMAN is primarily an enterprise vendor — onboarding, sensor configuration, and policy tuning go through the HUMAN portal and a customer success team — but the platform exposes REST APIs and SDKs that engineering teams integrate into web apps, mobile apps, edge workers, and back-end services.'
 finops:
@@ -105,38 +88,23 @@ finops:
   slug: human-security-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/human-security.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: HUMAN Security
 nav: Providers
 network: true
-overview: 'HUMAN Security publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bot Mitigation, Account Takeover, Ad Fraud, Client-Side Security, and Application Security.
+overview: 'HUMAN Security publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bot Mitigation, Account Takeover, Ad Fraud, Client-Side Security, and Application Security.
 
 
-  HUMAN Security''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  HUMAN Security''s developer surface includes documentation, engineering blog, product news, and 10 more developer resources.'
 plans:
 - name: Human Security Plans Pricing
   plan_count: 1
   slug: human-security-plans-pricing
-random_paper: 42
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Human Security Rate Limits
   slug: human-security-rate-limits
-score:
-  band: emerging
-  composite: 22.3
-  delta: 0.0
-  facets:
-    commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 22.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/screenshots/human-security-2026-06-20T182929.png
 security:
 - kind: domain-security

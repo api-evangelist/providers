@@ -8,39 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 4
-apis:
-- description: Commercial treasury management surface covering deposit and liquidity management, payables, receivables, ACH and wire origination, positive pay, and fraud prevention. Delivered through Enhanced Busine
-  name: WSFS Treasury Management
-  slug: treasury-management
-- description: Cash Connect is WSFS Bank's ATM-as-a-service and cash logistics business, supplying vault cash, smart safe services, and managed services to independent ATM operators and retailers. Access to the Cash
-  name: Cash Connect
-  slug: cash-connect
-- description: Bryn Mawr Trust, acquired by WSFS in 2022, provides financial and wealth planning, investment management, trust and estate services, private banking, and corporate retirement plans. Bryn Mawr Trust ma
-  name: Bryn Mawr Trust
-  slug: bryn-mawr-trust
-- description: 'WSFS Institutional Services delivers global capital markets access, SPV management, and corporate trust services with $30.43B under administration as of March 31, 2026. Services are delivered through '
-  name: WSFS Institutional Services
-  slug: institutional-services
-artifact_total: 20
+api_count: 0
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -90,6 +59,18 @@ common:
   title: ''
   type: Scale
   url: ''
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.wsfsbank.com/cash-connect
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.bmt.com
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.wsfsbank.com/institutional-services
 created: '2026-05-23'
 description: WSFS Financial Corporation is a multibillion-dollar financial services company headquartered in Wilmington, Delaware. Its primary subsidiary WSFS Bank has operated since 1832, making it one of the oldest banks in the United States. As of March 31, 2026 the company reported $22.1 billion in assets and $97.6 billion in assets under management and administration across 114 offices in six states. Business lines include personal banking, small business and commercial banking, treasury management, WSFS Mortgage, WSFS Wealth Management, Bryn Mawr Trust (acquired 2022), WSFS Institutional Services, and the Cash Connect ATM-as-a-service business that provides cash logistics and vault cash to independent ATM operators. WSFS does not publish a public developer portal, OpenAPI specifications, or SDKs; all APIs are bilateral treasury / cash management integrations delivered through Enhanced Business Online Banking, ACH/wire file feeds, and the Cash Connect partner portal.
 features:
@@ -114,35 +95,15 @@ integrations:
 - description: Card acceptance integrations through merchant services partners.
   name: Merchant Services Integration
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: WSFS Financial
 nav: Providers
 network: true
-overview: 'WSFS Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Wealth Management, Trust Services, Cash Logistics, and Commercial Banking.
+overview: 'WSFS Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Wealth Management, Trust Services, Cash Logistics, and Commercial Banking.
 
 
-  WSFS Financial''s developer surface includes developer portal, engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 1
-score:
-  band: emerging
-  composite: 17.4
-  delta: 2.2
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 15.2
-  regulatory:
-    applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  WSFS Financial''s developer surface includes developer portal, engineering blog, YouTube channel, and 10 more developer resources.'
+random_paper: 43
 screenshot: https://raw.githubusercontent.com/api-evangelist/wsfs-financial/refs/heads/main/screenshots/wsfs-financial-2026-06-20T201636.png
 security:
 - kind: domain-security

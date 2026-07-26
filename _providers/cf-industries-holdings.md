@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: CF Industries publishes financial disclosures, press releases, and investor presentations that are accessible programmatically through SEC EDGAR filings feeds and the corporate newsroom RSS.
-  name: CF Industries Investor Relations Data
-  slug: cf-investor-relations
 - description: 'CF Industries exchanges orders, shipments, and invoices with distributors, rail carriers, and industrial customers through traditional EDI transactions and private B2B integrations rather than public '
   name: CF Industries EDI / B2B Supply Chain
   slug: cf-edi-b2b
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -89,11 +68,11 @@ finops:
   slug: cf-industries-holdings-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cf-industries-holdings.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: CF Industries Holdings
 nav: Providers
 network: true
-overview: CF Industries Holdings publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Ammonia, Chemicals, Clean Energy, and Fertilizer.
+overview: CF Industries Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Ammonia, Chemicals, Clean Energy, and Fertilizer.
 plans:
 - name: Cf Industries Holdings Plans Pricing
   plan_count: 1
@@ -114,26 +93,11 @@ press:
 - date: '2026-05-25'
   title: CF Industries and NextEra Energy Resources announce a ...
   url: https://www.prnewswire.com/news-releases/cf-industries-and-nextera-energy-resources-announce-a-memorandum-of-understanding-for-a-green-hydrogen-project-in-oklahoma-to-support-decarbonization-of-the-agriculture-supply-chain-301806063.html
-random_paper: 1
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Cf Industries Holdings Rate Limits
   slug: cf-industries-holdings-rate-limits
-score:
-  band: emerging
-  composite: 18.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 18.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cf-industries-holdings/refs/heads/main/screenshots/cf-industries-holdings-2026-06-20T174146.png
 security:
 - kind: domain-security

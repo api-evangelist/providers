@@ -9,48 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 7
-apis:
-- description: Adhesives, sealants and bonding solutions delivered through the Bostik brand across construction (tile adhesives, sealing, roofing, building materials), flexible and rigid packaging, absorbent hygiene
-  name: Arkema Adhesive Solutions (Bostik)
-  slug: arkema-adhesive-solutions
-- description: High performance polymers and performance additives including Kynar PVDF fluoropolymers, Rilsan and Rilsamid polyamide 11/12, Pebax thermoplastic elastomers, Kepstan PEKK polyetherketoneketone, organi
-  name: Arkema Advanced Materials
-  slug: arkema-advanced-materials
-- description: Acrylic monomers, waterborne and solvent-borne coating resins, photocure (UV/LED/EB) resins from the Sartomer line and Coatex rheology additives. Serves decorative paint, architectural coatings, indus
-  name: Arkema Coating Solutions
-  slug: arkema-coating-solutions
-- description: Upstream and intermediates business covering fluorogases and refrigerants, acrylic monomers and PMMA (Altuglas / Plexiglas), hydrogen peroxide and derivatives. Supplies internal Specialty Materials se
-  name: Arkema Intermediates
-  slug: arkema-intermediates
-- description: Web-based access to Safety Data Sheets, regulatory documentation and product stewardship resources for Arkema chemical products. Distributed as downloadable documents rather than a structured API; doc
-  name: Arkema Product Safety and SDS
-  slug: arkema-product-safety
-- description: 'Public sustainability program covering a 1.5 degree trajectory validated by the Science Based Targets initiative, a Net-Zero by 2050 ambition, decarbonization of manufacturing operations, sustainable '
-  name: Arkema Sustainability Program
-  slug: arkema-sustainability-program
-- description: Investor relations surface for Arkema S.A., listed on Euronext Paris under ticker AKE (ISIN FR0010313833) and a component of the SBF 120 index. Publishes Universal Registration Document, quarterly res
-  name: Arkema Investor Relations
-  slug: arkema-investor-relations
-artifact_total: 27
+api_count: 0
+artifact_total: 20
 common:
 - group: auth
   title: ''
@@ -96,6 +56,10 @@ common:
   title: ''
   type: Strategy
   url: ''
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.arkema.com/global/en/products/product-safety/
 created: '2026-05-23'
 description: Arkema S.A. is a French specialty materials company headquartered in La Defense, Paris and listed on Euronext Paris under ticker AKE. The group is organized around three Specialty Materials segments — Adhesive Solutions (anchored by the Bostik brand), Advanced Materials (high-performance polymers including Kynar PVDF, Rilsan polyamides, Pebax elastomers, Sartomer photocurable resins) and Coating Solutions (acrylic monomers, waterborne and solvent-borne resins, additives) — plus a smaller Intermediates business. Arkema employs roughly 21,000 people across 55 countries with about 154 production plants and 17 R&D centers, generating around EUR 9.1 billion in 2025 revenue. Strategy is anchored in materials science, decarbonization and a validated 1.5 degree SBTi pathway toward Net-Zero by 2050. Arkema does not publish a public developer portal or REST API; customer integrations and product data are exchanged through commercial sales channels, the Product Finder web UI and Safety
   Data Sheet downloads.
@@ -127,38 +91,23 @@ integrations:
 - description: Alignment with the Science Based Targets initiative (SBTi), Responsible Care, EcoVadis and CDP for emissions, water and supply-chain disclosure.
   name: Sustainability Frameworks
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Arkema
 nav: Providers
 network: true
-overview: 'Arkema publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Materials, Adhesives, Polymers, and Coatings.
+overview: 'Arkema is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Materials, Adhesives, Polymers, and Coatings.
 
 
-  Arkema''s developer surface includes developer portal, product news, GitHub presence, and 6 more developer resources.'
+  Arkema''s developer surface includes developer portal, product news, GitHub presence, and 7 more developer resources.'
 plans:
 - name: Arkema Plans Pricing
   plan_count: 1
   slug: arkema-plans-pricing
-random_paper: 13
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Arkema Rate Limits
   slug: arkema-rate-limits
-score:
-  band: emerging
-  composite: 19.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkema/refs/heads/main/screenshots/arkema-2026-06-20T172433.png
 security:
 - kind: domain-security

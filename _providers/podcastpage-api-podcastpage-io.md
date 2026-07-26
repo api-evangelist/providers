@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Podcastpage.io's API supported management of podcast websites, episodes, and related content. The service has rebranded to Beamly and does not publish a public OpenAPI specification at this time. This
-  name: Podcastpage API
-  slug: podcastpage-api
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -66,11 +44,11 @@ finops:
   slug: podcastpage-api-podcastpage-io-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podcastpage-api-podcastpage-io.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Podcastpage
 nav: Providers
 network: true
-overview: 'Podcastpage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Podcasting, Website Builder, Content Management, and Hosting.
+overview: 'Podcastpage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Podcasting, Website Builder, Content Management, and Hosting.
 
 
   Podcastpage''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -78,26 +56,11 @@ plans:
 - name: Podcastpage Api Podcastpage Io Plans Pricing
   plan_count: 3
   slug: podcastpage-api-podcastpage-io-plans-pricing
-random_paper: 33
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Podcastpage Api Podcastpage Io Rate Limits
   slug: podcastpage-api-podcastpage-io-rate-limits
-score:
-  band: emerging
-  composite: 20.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 20.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/screenshots/podcastpage-api-podcastpage-io-2026-06-20T191831.png
 security:
 - kind: domain-security

@@ -8,25 +8,7 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: CN's Application Programming Interface (API) enables shippers to integrate CN data and operations into their own systems. The API supports automated shipment ordering, equipment release, real-time car
   name: CN Shipper API
@@ -43,10 +25,7 @@ apis:
 - description: CN eBill is the customer tool for managing rail freight invoices, account statements, and online bill payment. Integrated with the eBusiness portal for end-to-end shipping financial management.
   name: CN eBill
   slug: cn-ebill
-- description: CN's carbon calculator allows shippers to estimate the greenhouse gas emissions associated with their rail and intermodal shipments, supporting sustainability reporting and modal comparison versus tru
-  name: CN Carbon Calculator
-  slug: cn-carbon-calculator
-artifact_total: 25
+artifact_total: 24
 common:
 - group: auth
   title: ''
@@ -106,30 +85,15 @@ integrations:
 - description: Financing partnerships for shippers.
   name: TransUnion Eagle Capital
 layout: provider
-modified: '2026-05-16'
+modified: '2026-07-25'
 name: Canadian National Railway
 nav: Providers
 network: true
-overview: 'Canadian National Railway publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Rail, Freight, Transportation, Logistics, and Supply Chain.
+overview: 'Canadian National Railway publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Rail, Freight, Transportation, Logistics, and Supply Chain.
 
 
   Canadian National Railway''s developer surface includes developer portal and 6 more developer resources.'
-random_paper: 21
-score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/screenshots/canadian-national-railway-2026-06-20T173917.png
 security:
 - kind: domain-security

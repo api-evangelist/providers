@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,9 +19,6 @@ agentic_access:
   summary_line: 3 operations
 api_count: 4
 apis:
-- description: The Livestock Mandatory Price Reporting System (LMPRS) API provides programmatic access to federally mandated livestock price report data. The API requires no authentication for public access and retu
-  name: USDA AMS LMPRS API (Livestock Mandatory Price Reporting)
-  slug: usda-ams-lmprs-api-livestock-mandatory-price-reporting
 - description: The USDA Local Food Directories API provides data sharing access to directory information for farmers markets, food hubs, on-farm markets, community supported agriculture (CSA) operations, and food co
   name: USDA Local Food Directories API
   slug: usda-local-food-directories-api
@@ -49,6 +28,9 @@ apis:
 - description: Agricultural market news reports across all commodity types
   name: Agricultural Marketing Service Reports API
   slug: agricultural-marketing-service-reports-api
+- description: The Livestock Mandatory Price Reporting System (LMPRS) API provides programmatic access to federally mandated livestock price report data. The API requires no authentication for public access and retu
+  name: USDA AMS LMPRS API (Livestock Mandatory Price Reporting)
+  slug: usda-ams-lmprs-api-livestock-mandatory-price-reporting
 artifact_total: 50
 common:
 - group: agent
@@ -205,7 +187,7 @@ jsonld:
   property_count: 25
   slug: agricultural-marketing-service-mars-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Agricultural Marketing Service
 nav: Providers
 network: true
@@ -220,7 +202,7 @@ plans:
 - name: Agricultural Marketing Service Plans Pricing
   plan_count: 3
   slug: agricultural-marketing-service-plans-pricing
-random_paper: 40
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Agricultural Marketing Service Rate Limits
@@ -242,21 +224,6 @@ rules:
     info: 0
     warn: 19
   slug: agricultural-marketing-service-spectral-rules
-score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 60.5
-    contract_quality: 76.1
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
-    operational_transparency: 36.8
-  previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:
 - kind: authentication

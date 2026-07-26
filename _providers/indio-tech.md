@@ -9,39 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 4
-apis:
-- description: 'Logical grouping (modeled, not publicly documented) for Indio''s core submission object - the workspace that packages digital applications, schedule workbooks, document-upload requests and e-signature '
-  name: Indio Submissions API
-  slug: indio-tech-submissions-api
-- description: Logical grouping (modeled, not publicly documented) for Indio's library of 10,000+ digitally enhanced "smart" insurance forms and ACORD applications that can be added to a submission, auto-mapped, pre
-  name: Indio Forms and Applications API
-  slug: indio-tech-forms-applications-api
-- description: Logical grouping (modeled, not publicly documented) for the client/insured records a submission is created against. Client data is synchronized bi-directionally with the Applied Epic agency management
-  name: Indio Clients API
-  slug: indio-tech-clients-api
-- description: Logical grouping (modeled, not publicly documented) for Indio's document-upload requests, secure document sharing and full e-signature solution that ride inside a submission. These are product feature
-  name: Indio Documents and E-Signature API
-  slug: indio-tech-documents-esignature-api
-artifact_total: 7
+api_count: 0
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -80,11 +49,11 @@ description: Indio Technologies is a cloud-based insurance application and submi
   are logical groupings, not publicly documented endpoints (endpointsModeled).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indio-tech.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-07-25'
 name: Indio Technologies
 nav: Providers
 network: true
-overview: 'Indio Technologies publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Insurance Applications, Submissions, and Digital Forms.
+overview: 'Indio Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Insurance Applications, Submissions, and Digital Forms.
 
 
   Indio Technologies'' developer surface includes documentation and 7 more developer resources.'
@@ -92,27 +61,7 @@ plans:
 - name: Indio Tech Plans Pricing
   plan_count: 2
   slug: indio-tech-plans-pricing
-random_paper: 27
-score:
-  band: emerging
-  composite: 16.4
-  delta: 1.7
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 14.7
-  regulatory:
-    applies: true
-    regime: Insurance
-    regime_id: insurance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 51
 security:
 - kind: domain-security
   name: Indio Tech Domain Security

@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,7 +17,7 @@ agentic_access:
   operation_count: 1
   slug: department-of-education-agentic-access
   summary_line: 1 operation
-api_count: 5
+api_count: 4
 apis:
 - description: The College Scorecard API provides programmatic access to postsecondary institution and field-of-study data published by the U.S. Department of Education. The API exposes more than 6,000 schools and o
   name: College Scorecard API
@@ -46,13 +28,10 @@ apis:
 - description: The Integrated Postsecondary Education Data System (IPEDS) gathers data annually from every college, university, and technical and vocational institution that participates in the federal student finan
   name: IPEDS Data
   slug: ipeds-data
-- description: EDFacts is a centralized data collection through which state education agencies submit pre-kindergarten through grade 12 (PK-12) education data to the U.S. Department of Education. EDFacts data are pu
-  name: EDFacts Data
-  slug: edfacts-data
 - description: The Schools API from Department of Education — 1 operation(s) for schools.
   name: Department of Education Schools API
   slug: department-of-education-schools-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: U.S. Department of Education — College Scorecard API
@@ -134,6 +113,10 @@ common:
   title: ''
   type: Blog
   url: https://www.ed.gov/rss.xml
+- group: company
+  title: ''
+  type: About
+  url: https://www2.ed.gov/about/inits/ed/edfacts/index.html
 created: '2024-12-03'
 description: The U.S. Department of Education (ED) is a federal agency that manages and coordinates federal assistance to education and establishes policy for it. ED's mission is to promote student achievement and preparation for global competitiveness, and to ensure equal access to education. The Department exposes a portfolio of public APIs through api.data.gov, NCES, and the Open Data Platform (ODP) at data.ed.gov for postsecondary outcomes, institutional characteristics, and federal education programs.
 finops:
@@ -147,7 +130,7 @@ jsonld:
   property_count: 5
   slug: department-of-education-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Department of Education
 nav: Providers
 network: true
@@ -157,36 +140,16 @@ overview: 'Department of Education publishes 1 API on the [APIs.io](https://apis
   The Department of Education catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Education''s developer surface includes authentication, product news, engineering blog, and 16 more developer resources.'
+  Department of Education''s developer surface includes authentication, product news, engineering blog, and 17 more developer resources.'
 plans:
 - name: Department Of Education Plans Pricing
   plan_count: 3
   slug: department-of-education-plans-pricing
-random_paper: 40
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Department Of Education Rate Limits
   slug: department-of-education-rate-limits
-score:
-  band: thin
-  composite: 44.7
-  delta: 0.2
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 21.7
-    discoverability: 67.5
-    governance: 13.2
-    operational_transparency: 36.8
-  previous_composite: 44.5
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/screenshots/department-of-education-2026-06-20T175915.png
 security:
 - kind: authentication

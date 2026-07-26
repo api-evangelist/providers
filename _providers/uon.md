@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -35,11 +17,8 @@ agentic_access:
   operation_count: 157
   slug: uon-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 10
 apis:
-- description: Open Research Newcastle, on the Figshare platform, exposes an OAI-PMH metadata harvesting endpoint for its open access records. The endpoint is reachable at openresearch.newcastle.edu.au/oai; automate
-  name: Open Research Newcastle (OAI-PMH)
-  slug: open-research-oai
 - description: The altmetric API from University of Newcastle Australia — 1 operation(s) for altmetric.
   name: University of Newcastle Australia altmetric API
   slug: uon-altmetric-api
@@ -70,7 +49,7 @@ apis:
 - description: The symplectic API from University of Newcastle Australia — 5 operation(s) for symplectic.
   name: University of Newcastle Australia symplectic API
   slug: uon-symplectic-api
-artifact_total: 27
+artifact_total: 26
 common:
 - group: agent
   title: ''
@@ -116,6 +95,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://openresearch.newcastle.edu.au/
 created: '2026-06-03'
 description: 'The University of Newcastle (UON) is a public research university based in Newcastle, New South Wales, Australia, ranked #179 in the QS World University Rankings 2025. Like most Australian universities, UON does not operate a dedicated public API developer portal; the bulk of its student, staff, and enterprise systems (myUni, online tools, ServiceNow) sit behind institutional SSO and are not openly documented. Its most accessible programmatic footprint is research-oriented: Open Research Newcastle, the institutional open access repository hosted on the Figshare platform, exposes machine-readable access via the Figshare public REST API and an OAI-PMH endpoint, and the University maintains a research code presence on GitHub.'
 examples:
@@ -150,7 +133,7 @@ jsonld:
   property_count: 3
   slug: uon-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Newcastle Australia
 nav: Providers
 network: true
@@ -160,12 +143,12 @@ overview: 'University of Newcastle Australia publishes 10 APIs on the [APIs.io](
   The University of Newcastle Australia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Newcastle Australia''s developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  University of Newcastle Australia''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Uon Plans Pricing
   plan_count: 2
   slug: uon-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Uon Rate Limits
@@ -192,21 +175,6 @@ scopes:
   scope_count: 1
   slug: uon-scopes
   summary_line: 1 scope · authorizationCode
-score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.4
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 47.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png
 security:
 - kind: authentication

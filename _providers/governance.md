@@ -16,11 +16,11 @@ created: '2026-05-22'
 description: API Governance is the practice of defining and enforcing the policies, standards, and processes that guide how APIs are designed, built, secured, versioned, and retired across an organization. This topic indexes the providers, tools, and open-source linters that operationalize spec governance, design governance, security governance, and lifecycle governance for the API estate.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/governance.png
 layout: provider
-modified: '2026-05-22'
+modified: '2026-07-25'
 name: API Governance
 nav: Providers
 network: true
-random_paper: 44
+random_paper: 56
 slug: governance
 tags:
 - Governance

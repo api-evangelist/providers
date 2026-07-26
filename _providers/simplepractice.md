@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
 api_count: 1
 apis:
 - description: Partner-only integration announced by SimplePractice Enterprise (September 2022) that connects to overlapping SimplePractice provider accounts so that Employee Assistance Programs (EAPs), Managed Care
@@ -75,7 +57,7 @@ finops:
   slug: simplepractice-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplepractice.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-07-25'
 name: SimplePractice
 nav: Providers
 network: true
@@ -87,27 +69,7 @@ plans:
 - name: Simplepractice Plans Pricing
   plan_count: 5
   slug: simplepractice-plans-pricing
-random_paper: 14
-score:
-  band: emerging
-  composite: 19.5
-  delta: 1.2
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 18.3
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 44
 security:
 - kind: domain-security
   name: Simplepractice Domain Security

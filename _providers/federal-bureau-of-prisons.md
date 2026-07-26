@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: The Federal Bureau of Prisons web presence including the inmate locator and facility directory. No public developer API is currently published.
-  name: Federal Bureau of Prisons
-  slug: federal-bureau-of-prisons
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -58,35 +36,20 @@ finops:
   slug: federal-bureau-of-prisons-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-bureau-of-prisons.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Federal Bureau of Prisons
 nav: Providers
 network: true
-overview: Federal Bureau of Prisons publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal Government, and Prisons.
+overview: Federal Bureau of Prisons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal Government, and Prisons.
 plans:
 - name: Federal Bureau Of Prisons Plans Pricing
   plan_count: 3
   slug: federal-bureau-of-prisons-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Federal Bureau Of Prisons Rate Limits
   slug: federal-bureau-of-prisons-rate-limits
-score:
-  band: emerging
-  composite: 18.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 18.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-prisons/refs/heads/main/screenshots/federal-bureau-of-prisons-2026-06-20T181111.png
 security:
 - kind: domain-security

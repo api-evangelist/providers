@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: 'IIT Madras exposes single sign-on (SSO) and OAuth2 identity endpoints under iitm.ac.in for authenticating institutional users to internal web properties. These are gated to institutional accounts and '
-  name: IIT Madras SSO / OAuth2 Identity
-  slug: sso
-artifact_total: 6
+api_count: 0
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -74,6 +52,10 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/iit-madras-context.jsonld
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.iitm.ac.in/sso
 created: '2026-06-03'
 description: 'Indian Institute of Technology Madras (IIT Madras) is a public technical and research university in Chennai, India, ranked #227 in the QS World University Rankings 2025. It operates an institutional website (iitm.ac.in), a central library with electronic databases, a large online BS degree program in Data Science and Applications, and SSO/OAuth2-based identity endpoints. As of this review IIT Madras does not publish a public, documented developer portal or open API program. Its official GitHub organization exists but currently exposes no public repositories. The properties cataloged below reflect only publicly confirmed institutional web properties and identity endpoints, not documented third-party APIs.'
 finops:
@@ -87,41 +69,26 @@ jsonld:
   property_count: 4
   slug: iit-madras-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Indian Institute of Technology Madras
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Madras publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and India.
+overview: 'Indian Institute of Technology Madras is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and India.
 
 
   The Indian Institute of Technology Madras catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Indian Institute of Technology Madras'' developer surface includes GitHub presence, engineering blog, and 8 more developer resources.'
+  Indian Institute of Technology Madras'' developer surface includes GitHub presence, engineering blog, and 9 more developer resources.'
 plans:
 - name: Iit Madras Plans Pricing
   plan_count: 2
   slug: iit-madras-plans-pricing
-random_paper: 34
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Iit Madras Rate Limits
   slug: iit-madras-rate-limits
-score:
-  band: emerging
-  composite: 21.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 2.2
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/screenshots/iit-madras-2026-06-20T183233.png
 security:
 - kind: domain-security

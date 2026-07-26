@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 10
+api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
   name: MSP DX (Direct Exchange) APIs
@@ -50,16 +32,13 @@ apis:
 - description: Workflow and data APIs for the Resitrader loan-trading application — execute trades, manage data modules, centralize trading operations. Now operated by Optimal Blue under Constellation Software owner
   name: Optimal Blue Loan Trading APIs (Resitrader)
   slug: optimal-blue-trading
-- description: Automated workflows, originator data, and compliance checks for investors buying loans on the secondary market.
-  name: Optimal Blue Investor Solutions APIs
-  slug: optimal-blue-investor-solutions
 - description: Data tools including 16 Mortgage Market Rate Indices, integrable into dashboards. Successor to Black Knight's Originations Market Monitor and Mortgage Monitor data products at the API level.
   name: Optimal Blue Business Intelligence APIs
   slug: optimal-blue-business-intelligence
 - description: Loansifter is the turnkey PPE for mortgage brokers — generate and display eligible products and pricing across borrower scenarios. Originally a Black Knight (via Optimal Blue) product, now under Const
   name: Optimal Blue Broker Pricing APIs (Loansifter)
   slug: optimal-blue-broker-pricing
-artifact_total: 44
+artifact_total: 43
 common:
 - group: auth
   title: ''
@@ -200,7 +179,7 @@ jsonld:
   property_count: 10
   slug: black-knight-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology)
 nav: Providers
 network: true
@@ -212,7 +191,7 @@ plans:
 - name: Black Knight Plans Pricing
   plan_count: 4
   slug: black-knight-plans-pricing
-random_paper: 26
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Black Knight Rate Limits
@@ -234,21 +213,6 @@ rules:
     info: 1
     warn: 4
   slug: black-knight-rules
-score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 39.6
-    developer_ergonomics: 8.7
-    discoverability: 80.0
-    governance: 86.8
-    operational_transparency: 5.3
-  previous_composite: 38.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/screenshots/black-knight-2026-06-20T173333.png
 security:
 - kind: domain-security

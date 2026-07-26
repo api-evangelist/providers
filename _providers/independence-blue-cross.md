@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,14 +17,11 @@ agentic_access:
   operation_count: 60
   slug: independence-blue-cross-agentic-access
   summary_line: 60 operations
-api_count: 5
+api_count: 4
 apis:
 - description: 'Monthly machine-readable JSON files published under 45 CFR Part Â§147.211 / the Transparency in Coverage rule for three carrier brands operated by Independence Blue Cross: Keystone Health Plan East, Q'
   name: Independence Blue Cross Transparency In Coverage Data
   slug: transparency-in-coverage
-- description: Public corporate website for Independence Blue Cross hosting member, provider, employer, broker, and producer portals; product pages for Medicare Advantage, commercial, dental, and vision; the affilia
-  name: Independence Blue Cross Corporate Website
-  slug: website
 - description: Public Da Vinci USDF FHIR R4 drug formulary resources.
   name: Independence Blue Cross Formulary API
   slug: independence-blue-cross-formulary-api
@@ -52,7 +31,7 @@ apis:
 - description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
-artifact_total: 63
+artifact_total: 62
 collections:
 - collection_type: open
   name: Independence Blue Cross Drug Formulary FHIR API
@@ -310,7 +289,7 @@ jsonld:
   property_count: 12
   slug: independence-blue-cross-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Independence Blue Cross
 nav: Providers
 network: true
@@ -325,7 +304,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 23
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -352,26 +331,6 @@ scopes:
   scope_count: 4
   slug: independence-blue-cross-scopes
   summary_line: 4 scopes · authorizationCode
-score:
-  band: developing
-  composite: 59.2
-  delta: 3.0
-  facets:
-    commercial_clarity: 73.7
-    contract_quality: 56.6
-    developer_ergonomics: 30.4
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 31.6
-  previous_composite: 56.2
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
 - kind: authentication

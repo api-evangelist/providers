@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: The Vertice SaaS Procurement API enables deep, bi-directional data flow for partners and enterprise integrations. The API supports procurement workflows including intake-to-procure, contract lifecycle
-  name: Vertice SaaS Procurement API
-  slug: saas-procurement-api
 - description: Vertice Cloud Cost Optimization integrates with AWS, GCP, and Azure accounts to provide cloud visibility, cost analytics, and optimization recommendations. The integration uses cross-account IAM roles
   name: Vertice Cloud Cost Optimization API
   slug: cloud-cost-optimization-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -97,11 +76,11 @@ finops:
   slug: vertice-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertice.png
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: Vertice
 nav: Providers
 network: true
-overview: 'Vertice publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost Optimization, Contract Management, Procurement, SaaS Management, and Spend Management.
+overview: 'Vertice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost Optimization, Contract Management, Procurement, SaaS Management, and Spend Management.
 
 
   Vertice''s developer surface includes support, pricing, engineering blog, and 10 more developer resources.'
@@ -109,26 +88,11 @@ plans:
 - name: Vertice Plans Pricing
   plan_count: 3
   slug: vertice-plans-pricing
-random_paper: 40
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Vertice Rate Limits
   slug: vertice-rate-limits
-score:
-  band: emerging
-  composite: 25.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 57.9
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 25.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Vertice Domain Security

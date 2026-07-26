@@ -9,24 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,14 +16,8 @@ agentic_access:
   operation_count: 3
   slug: blink-agentic-access
   summary_line: 3 operations
-api_count: 5
+api_count: 3
 apis:
-- description: 'Blink Fleet is Blink''s fleet-charging management platform for organizations running electric fleets (rental, ride-hail, delivery, government, transit). Blink states the portal "can be integrated into '
-  name: Blink Fleet API
-  slug: blink-fleet-api
-- description: In September 2025 Blink joined Hubject's Intercharge eRoaming platform as a charge point operator (CPO), using the industry-standard Open Charge Point Interface (OCPI) protocol so partner e-mobility s
-  name: Blink Charging OCPI Roaming Interface
-  slug: blink-ocpi-roaming-interface
 - description: Geo-radius search for Blink charging station locations.
   name: Blink Charging Locations API
   slug: blink-locations-api
@@ -51,7 +27,7 @@ apis:
 - description: Live status lookup for a single Blink charging location.
   name: Blink Charging Status API
   slug: blink-status-api
-artifact_total: 8
+artifact_total: 6
 common:
 - group: agent
   title: ''
@@ -81,34 +57,27 @@ common:
   title: ''
   type: Documentation
   url: https://prod.blinknetwork.com/developer.html
+- group: company
+  title: ''
+  type: News
+  url: https://blinkcharging.com/news/blink-and-presto-announce-strategic-collaboration-to-provide-advanced-tools-for-ev-fleet-charging
+- group: company
+  title: ''
+  type: News
+  url: https://blinkcharging.com/news/hubject-teams-with-blink-charging-to-further-expand-intercharge-network-across-north-america
 created: '2026-07-03'
 description: Blink Charging Co. (Nasdaq BLNK) operates the Blink Network of Level 2 and DC Fast electric vehicle chargers across North America and Europe, alongside brands acquired via SemaConnect, Blue Corner, BlueLA, and Envoy. Blink's charger hardware (Series 7/8/9) is OCPP 2.0.1 certified for CSMS interoperability, and in 2025 Blink joined Hubject's Intercharge eRoaming platform as a charge point operator using the OCPI protocol so third-party e-mobility service providers can route drivers and billing to Blink stations. Blink also runs a gated BlinkMap API developer program (station locations, hours, and live network status) and a Blink Fleet platform that partners such as Presto and BetterFleet integrate with via API for fleet charging, sessions, and billing. None of these programs currently publish a full public self-serve API reference; access requires signing up directly with Blink.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blink.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-07-25'
 name: Blink Charging
 nav: Providers
 network: true
 overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Search API, and Status API. Tagged areas include EV Charging, Electric Vehicle, Charging Stations, OCPI, and OCPP.
 
 
-  Blink Charging''s developer surface includes authentication, documentation, and 5 more developer resources.'
-random_paper: 18
-score:
-  band: emerging
-  composite: 29.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 58.4
-    developer_ergonomics: 19.6
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 29.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  Blink Charging''s developer surface includes authentication, documentation, product news, and 6 more developer resources.'
+random_paper: 24
 security:
 - kind: authentication
   name: Blink Authentication

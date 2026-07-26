@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Corebridge Financial's public website serves as the institutional and consumer entry point for retirement, insurance, and annuity solutions. Authenticated portals are provided for annuity holders, lif
-  name: Corebridge Financial Website
-  slug: website
-artifact_total: 6
+api_count: 0
+artifact_total: 5
 collections:
 - collection_type: open
   name: Corebridge Financial API
@@ -98,11 +76,11 @@ finops:
   slug: corebridge-financial-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corebridge-financial.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Corebridge Financial
 nav: Providers
 network: true
-overview: 'Corebridge Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial Services, Fortune 500, and Insurance.
+overview: 'Corebridge Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial Services, Fortune 500, and Insurance.
 
 
   Corebridge Financial''s developer surface includes product news and 12 more developer resources.'
@@ -110,31 +88,11 @@ plans:
 - name: Corebridge Financial Plans Pricing
   plan_count: 3
   slug: corebridge-financial-plans-pricing
-random_paper: 35
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Corebridge Financial Rate Limits
   slug: corebridge-financial-rate-limits
-score:
-  band: emerging
-  composite: 23.4
-  delta: 1.2
-  facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 60.0
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 22.2
-  regulatory:
-    applies: true
-    regime: Insurance
-    regime_id: insurance
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/screenshots/corebridge-financial-2026-06-20T175023.png
 security:
 - kind: domain-security

@@ -8,25 +8,7 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: Public store-locator surface used by the Acme Markets website to render store information (address, hours, services, phone, departments). Pages are rendered under the `local.acmemarkets.com` subdomain
   name: Acme Markets Store Locator
@@ -43,10 +25,7 @@ apis:
 - description: Acme Markets operates in-store pharmacies offering prescription refills, transfers, immunizations, and pharmacy account management. The pharmacy surface is delivered through the website and the shared
   name: Acme Markets Pharmacy
   slug: pharmacy
-- description: The ACME Markets Deals & Delivery mobile application consolidates the shopping list, weekly ad, digital coupons, Points, purchase history, DriveUp & Go ordering, delivery, contactless payment, pharmac
-  name: ACME Markets Deals & Delivery Mobile App
-  slug: mobile-app
-artifact_total: 24
+artifact_total: 23
 common:
 - group: auth
   title: ''
@@ -84,6 +63,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/api-evangelist/acme-markets
+- group: company
+  title: ''
+  type: About
+  url: https://www.acmemarkets.com/about-us/mobile-apps.html
 created: '2026-05-22'
 description: 'Acme Markets is a regional supermarket chain founded in 1891 and headquartered in the U.S. Northeast, operating approximately 164 stores across Pennsylvania, New Jersey, Delaware, New York, Connecticut, and Maryland. Acme is a banner of Albertsons Companies, Inc., one of the largest food and drug retailers in the United States. The brand has no publicly documented developer program or public API: digital surfaces (store locator, loyalty program "ACME for U", FreshPass subscription, DriveUp & Go, delivery, pharmacy) are delivered through Albertsons-shared web and mobile platforms. The Android package ID (`com.safeway.client.android.acme`) confirms that the Acme app is built on the shared Safeway/Albertsons banner application, suggesting a shared backend API surface across Albertsons banners that is not externally published.'
 features:
@@ -114,27 +97,12 @@ integrations:
 - description: Per-store landing pages delivered via the `local.acmemarkets.com` subdomain, a pattern typical of vendor-hosted local-pages SEO platforms.
   name: Local Pages Platform
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Acme Markets
 nav: Providers
 network: true
-overview: Acme Markets publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Albertsons Banner, Delivery, E-Commerce, Grocery, and Loyalty.
-random_paper: 37
-score:
-  band: minimal
-  composite: 14.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 14.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+overview: Acme Markets publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Albertsons Banner, Delivery, E-Commerce, Grocery, and Loyalty.
+random_paper: 13
 security:
 - kind: domain-security
   name: Acme Markets Domain Security

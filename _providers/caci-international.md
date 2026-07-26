@@ -9,30 +9,8 @@ access_model:
   - finops
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: CACI International delivers national security technology and expertise to U.S. federal government agencies. No public developer API is currently documented; corporate, capabilities, investor, newsroom
-  name: CACI International
-  slug: caci-website
-artifact_total: 6
+api_count: 0
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -91,11 +69,11 @@ jsonld:
   property_count: 15
   slug: caci-international-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: CACI International
 nav: Providers
 network: true
-overview: 'CACI International publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Information Technology, Cybersecurity, and Government Services.
+overview: 'CACI International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Information Technology, Cybersecurity, and Government Services.
 
 
   The CACI International catalog on APIs.io includes 1 JSON-LD context.'
@@ -119,26 +97,11 @@ press:
 - date: '2026-05-25'
   title: CACI Awarded $290 Million Contract to Provide AI and ...
   url: https://investor.caci.com/news/news-details/2024/CACI-Awarded-290-Million-Contract-to-Provide-AI-and-Geospatial-Expertise-to-the-National-Geospatial-Intelligence-Agency-NGA/default.aspx
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Caci International Rate Limits
   slug: caci-international-rate-limits
-score:
-  band: emerging
-  composite: 19.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 20.8
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/screenshots/caci-international-2026-06-20T173834.png
 security:
 - kind: domain-security

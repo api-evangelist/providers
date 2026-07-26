@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -35,11 +17,8 @@ agentic_access:
   operation_count: 97
   slug: bolt-eu-agentic-access
   summary_line: 97 operations · 97 acting
-api_count: 4
+api_count: 3
 apis:
-- description: Partner-gated fleet integration for companies operating driver fleets on the Bolt ride-hailing platform. Fleet owners can generate API credentials (Client ID and Secret) under Settings > API in the Bo
-  name: Bolt Fleet API
-  slug: bolt-eu-fleet-api
 - description: The GenericClient API from Bolt — 17 operation(s) for genericclient.
   name: Bolt GenericClient API
   slug: bolt-eu-genericclient-api
@@ -49,7 +28,7 @@ apis:
 - description: The ValidateLoyaltyCard API from Bolt — 1 operation(s) for validateloyaltycard.
   name: Bolt ValidateLoyaltyCard API
   slug: bolt-eu-validateloyaltycard-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: agent
   title: ''
@@ -95,38 +74,27 @@ common:
   title: ''
   type: Blog
   url: https://bolt.eu/en/blog/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://fleets.bolt.eu/
 created: '2026-07-11'
 description: Bolt (bolt.eu) is the Estonian mobility super-app operating ride-hailing, ride booking, scooter and e-bike rentals, car-sharing, and food and grocery delivery across 50+ countries in Europe and Africa. This is NOT Bolt the US checkout/payments company (bolt.com). Bolt does not offer a public ride-booking API - the company states it has no public or private APIs for ride-hailing, and business ride booking happens through the Ride Booker web tool and private travel-platform partnerships. Its documented developer surface at developer.bolt.eu is partner-gated and covers the delivery side of the platform - Food, Stores, and Delivery APIs for POS, menu, order, warehouse, and PIM integration - plus a fleet API whose credentials are issued in the Fleet Portal but whose endpoints are not publicly documented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bolt-eu.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-07-25'
 name: Bolt
 nav: Providers
 network: true
 overview: 'Bolt publishes 3 APIs on the [APIs.io](https://apis.io/) network: GenericClient API, Pim API, and ValidateLoyaltyCard API. Tagged areas include Ride Booking, Ride Hailing, Mobility, Transportation, and Food Delivery.
 
 
-  Bolt''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Bolt''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Bolt Eu Plans Pricing
   plan_count: 3
   slug: bolt-eu-plans-pricing
-random_paper: 33
-score:
-  band: thin
-  composite: 35.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 56.6
-    developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 35.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 3
 security:
 - kind: authentication
   name: Bolt Eu Authentication

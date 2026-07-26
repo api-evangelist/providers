@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -35,11 +17,8 @@ agentic_access:
   operation_count: 24
   slug: moodys-corporation-agentic-access
   summary_line: 24 operations · 8 acting
-api_count: 19
+api_count: 17
 apis:
-- description: Moody's Ratings (formerly Moody's Investors Service / MIS) publishes credit ratings, research, and risk analysis on debt obligations issued by corporations, governments, and structured finance vehicle
-  name: Moody's Ratings (Moody's Investors Service)
-  slug: moodys-ratings
 - description: Programmatic access to the Scenario Studio macroeconomic scenario platform, enabling automatic retrieval of custom scenarios generated against the Moody's Analytics Global Macroeconomic Model. Support
   name: Moody's Analytics Scenario Studio API
   slug: scenario-studio-api
@@ -64,9 +43,6 @@ apis:
 - description: APIs for the RMS Intelligent Risk Platform covering catastrophe modeling, exposure management, and event response across natural perils (hurricane, earthquake, flood, severe convective storm, wildfire
   name: Moody's RMS Intelligent Risk Platform (IRP) API
   slug: rms-irp-api
-- description: ESG scores, controversies, climate physical and transition risk metrics sourced from Four Twenty Seven and Moody's ESG Solutions. Used for portfolio screening, sustainable-finance reporting, climate s
-  name: Moody's ESG & Climate Solutions API
-  slug: esg-climate-api
 - description: OAuth2 client-credentials token issuance and HMAC signing helpers
   name: Moody's Corporation Authentication API
   slug: moodys-corporation-authentication-api
@@ -94,7 +70,7 @@ apis:
 - description: Operations for retrieving individual and multi-series time series data
   name: Moody's Corporation Series API
   slug: moodys-corporation-series-api
-artifact_total: 43
+artifact_total: 41
 collections:
 - collection_type: open
   name: Moody's Analytics Developer Platform API
@@ -151,6 +127,10 @@ common:
   title: ''
   type: Insights
   url: https://www.moodys.com/web/en/us/insights/all.html
+- group: company
+  title: ''
+  type: Investors
+  url: https://ratings.moodys.com/
 description: 'Moody''s Corporation (NYSE: MCO) is a global integrated risk-assessment firm operating through two segments: Moody''s Ratings (Moody''s Investors Service), which publishes credit ratings and assessment services on debt obligations, and Moody''s Analytics, which provides data, software, research, and APIs spanning economic data, credit risk, KYC/AML, ESG, climate, and catastrophe modeling. Moody''s Analytics products are exposed through multiple developer APIs and a portal at developer.moodys.com, with deeper API surfaces published at api.economy.com (Data Buffet, Scenario Studio, AutoCycle, ECCL) and through subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC), and Four Twenty Seven (climate).'
 examples:
 - key_count: 8
@@ -202,7 +182,7 @@ jsonld:
   property_count: 0
   slug: moodys-corporation-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Moody's Corporation
 nav: Providers
 network: true
@@ -212,12 +192,12 @@ overview: 'Moody''s Corporation publishes 9 APIs on the [APIs.io](https://apis.i
   The Moody''s Corporation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Moody''s Corporation''s developer surface includes authentication, developer portal, engineering blog, and 9 more developer resources.'
+  Moody''s Corporation''s developer surface includes authentication, developer portal, engineering blog, and 10 more developer resources.'
 plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
   slug: moodys-corporation-plans-pricing
-random_paper: 25
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Moodys Corporation Rate Limits
@@ -244,21 +224,6 @@ scopes:
   scope_count: 2
   slug: moodys-corporation-scopes
   summary_line: 2 scopes · clientCredentials
-score:
-  band: thin
-  composite: 42.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.8
-    developer_ergonomics: 21.7
-    discoverability: 67.5
-    governance: 26.3
-    operational_transparency: 5.3
-  previous_composite: 42.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: authentication
   name: Moodys Corporation Authentication

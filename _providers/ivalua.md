@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: true
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: The Ivalua REST API provides programmatic access to the full source-to-pay procurement lifecycle, including supplier registration and onboarding, contract creation and management, sourcing event orche
-  name: Ivalua Procurement REST API
-  slug: ivalua-procurement-rest-api
-artifact_total: 7
+api_count: 0
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -100,11 +78,11 @@ jsonld:
   property_count: 5
   slug: ivalua-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-07-25'
 name: Ivalua
 nav: Providers
 network: true
-overview: 'Ivalua publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Procurement, Source-to-Pay, Supplier Management, Contract Management, and Sourcing.
+overview: 'Ivalua is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Procurement, Source-to-Pay, Supplier Management, Contract Management, and Sourcing.
 
 
   The Ivalua catalog on APIs.io includes 1 JSON-LD context.
@@ -115,26 +93,11 @@ plans:
 - name: Ivalua Plans Pricing
   plan_count: 1
   slug: ivalua-plans-pricing
-random_paper: 30
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Ivalua Rate Limits
   slug: ivalua-rate-limits
-score:
-  band: emerging
-  composite: 29.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 52.6
-  previous_composite: 29.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/screenshots/ivalua-2026-06-20T183638.png
 security:
 - kind: domain-security

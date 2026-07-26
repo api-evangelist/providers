@@ -8,24 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,15 +17,15 @@ agentic_access:
   summary_line: 2 operations
 api_count: 3
 apis:
-- description: Operational status endpoint exposed by PHP-FPM via the pm.status_path directive. Returns pool statistics (active processes, idle processes, accepted connections, slow requests) in plain text, JSON, XM
-  name: PHP-FPM Status Endpoint
-  slug: status-endpoint
 - description: PHP-FPM liveness check.
   name: PHP-FPM Ping API
   slug: php-fpm-ping-api
 - description: PHP-FPM pool status.
   name: PHP-FPM Status API
   slug: php-fpm-status-api
+- description: Operational status endpoint exposed by PHP-FPM via the pm.status_path directive. Returns pool statistics (active processes, idle processes, accepted connections, slow requests) in plain text, JSON, XM
+  name: PHP-FPM Status Endpoint
+  slug: status-endpoint
 artifact_total: 7
 collections:
 - collection_type: open
@@ -86,7 +68,7 @@ created: '2026-05-11'
 description: PHP-FPM (FastCGI Process Manager) is the primary PHP FastCGI implementation bundled with PHP for handling heavy-loaded sites, providing advanced process management with multiple worker pools, graceful start/stop, adaptive process spawning (static, dynamic, ondemand), slowlog tracking, and accelerated upload support. It is configured via php.ini-style pool files and is typically deployed behind a web server such as Nginx, Apache, Caddy, or LiteSpeed via FastCGI. PHP-FPM exposes operational status pages (in plain, JSON, XML, OpenMetrics, and HTML formats) but does not provide a public HTTP API; it runs only on POSIX systems that support fork().
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/php-fpm.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-07-25'
 name: PHP-FPM
 nav: Providers
 network: true
@@ -94,22 +76,7 @@ overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   PHP-FPM''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 33
-score:
-  band: emerging
-  composite: 21.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 52.2
-    developer_ergonomics: 8.7
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 21.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:
 - kind: domain-security

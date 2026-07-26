@@ -8,33 +8,12 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: 'SAP America, Inc. — the US operating subsidiary of SAP SE. No US-specific API portal exists; all developer surfaces are shared with the global SAP organization and are catalogued in the sibling `sap` '
-  name: SAP America (US Subsidiary)
-  slug: sap-america-us-subsidiary
 - description: 'SAP NS2 is an independent US subsidiary of SAP SE that operates SAP cloud and software workloads for the US federal government, the Department of Defense, the Intelligence Community, and commercially '
   name: SAP NS2 (SAP National Security Services)
   slug: sap-ns2-sap-national-security-services
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -108,40 +87,24 @@ common:
   title: ''
   type: Blog
   url: https://news.sap.com/feed/
+- group: company
+  title: ''
+  type: About
+  url: https://help.sap.com
 created: '2026-05-23'
 description: SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP). This repo is a subsidiary placeholder that exists to (1) record SAP America as a distinct US legal entity for partnership, public-sector, procurement, and FedRAMP / GovCloud contexts, and (2) cross-link to related US-only sibling subsidiaries — most importantly SAP NS2 (SAP National Security Services), the independent US subsidiary that operates SAP workloads in the Cloud Intelligence Enterprise (CIE), the DoD cloud environment, and the Commercially Regulated Environment
   (CRE) for federal, defense, and intelligence community customers. No tier-1 API artifacts (OpenAPI, AsyncAPI, JSON Schema, capabilities, plans, rate limits, FinOps) are generated in this repo per the api-evangelist no-empty-artifact rule — they are maintained under the parent `sap` repo and the per-product child repos (`sap-business-technology-platform`, `sap-successfactors`, `sap-ariba`, `sap-concur`, `sap-fieldglass`, `sap-api-management`, `sap-integration-suite`).
 image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: SAP America
 nav: Providers
 network: true
-overview: 'SAP America publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Subsidiary, ERP, Enterprise Software, Cloud, and Public Sector.
+overview: 'SAP America publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Subsidiary, ERP, Enterprise Software, Cloud, and Public Sector.
 
 
-  SAP America''s developer surface includes privacy policy, legal docs, engineering blog, and 15 more developer resources.'
+  SAP America''s developer surface includes privacy policy, legal docs, engineering blog, and 16 more developer resources.'
 random_paper: 20
-score:
-  band: emerging
-  composite: 18.2
-  delta: 4.9
-  facets:
-    commercial_clarity: 18.4
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 13.3
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png
 security:
 - kind: domain-security

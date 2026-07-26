@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: HUSCAP (Hokkaido University Collection of Scholarly and Academic Papers) is the university's open-access institutional repository of journal articles, conference materials, doctoral dissertations, and
-  name: HUSCAP Institutional Repository
-  slug: huscap
 - description: Publicly crawlable XML sitemap index for the HUSCAP repository, providing a machine-readable list of repository item URLs. This is an open, robots.txt- permitted endpoint usable for programmatic disco
   name: HUSCAP XML Sitemaps
   slug: huscap-sitemap
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -65,6 +44,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://eprints.lib.hokudai.ac.jp/
 created: '2026-06-03'
 description: 'Hokkaido University (北海道大学) is a national research university in Sapporo, Japan, founded in 1876 as Sapporo Agricultural College and ranked #173 in the QS World University Rankings 2025. It operates 12 undergraduate schools, 21 graduate schools, and numerous research institutes. Its public, machine-readable developer footprint is limited and centered on scholarly infrastructure: the HUSCAP institutional repository (Hokkaido University Collection of Scholarly and Academic Papers) and public XML sitemaps. The university does not publish a dedicated developer portal or documented public REST API; most institutional systems (ELMS LMS, syllabus search, researcher directory) are web UIs without documented programmatic access.'
 finops:
@@ -78,11 +61,11 @@ jsonld:
   property_count: 5
   slug: hokkaido-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Hokkaido University
 nav: Providers
 network: true
-overview: 'Hokkaido University publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'Hokkaido University publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Access.
 
 
   The Hokkaido University catalog on APIs.io includes 1 JSON-LD context.'
@@ -90,26 +73,11 @@ plans:
 - name: Hokkaido Plans Pricing
   plan_count: 2
   slug: hokkaido-plans-pricing
-random_paper: 26
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Hokkaido Rate Limits
   slug: hokkaido-rate-limits
-score:
-  band: emerging
-  composite: 21.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 21.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png
 security:
 - kind: domain-security

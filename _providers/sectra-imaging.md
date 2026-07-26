@@ -8,25 +8,7 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
   name: Sectra DICOMweb API
@@ -43,10 +25,7 @@ apis:
 - description: IHE Cross-Enterprise Document Sharing (XDS/XDS-I) interface for registering, querying, and retrieving imaging documents and manifests across enterprise boundaries. A profile-based interoperability int
   name: Sectra IHE XDS Interface
   slug: sectra-imaging-xds-interface
-- description: The Amplifier Marketplace / Amplifier Services ecosystem through which AI and third-party applications integrate with the Sectra diagnostic viewer. Two partnership tiers exist (Amplifier Partner and A
-  name: Sectra Amplifier Marketplace Integration
-  slug: sectra-imaging-amplifier-marketplace
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -85,35 +64,15 @@ description: Sectra is a Swedish medical technology company providing an enterpr
   sandbox and reference implementation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sectra-imaging.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-07-25'
 name: Sectra
 nav: Providers
 network: true
-overview: 'Sectra publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Medical Imaging, Enterprise Imaging, PACS, VNA, and Radiology.
+overview: 'Sectra publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Medical Imaging, Enterprise Imaging, PACS, VNA, and Radiology.
 
 
   Sectra''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 42
-score:
-  band: minimal
-  composite: 12.8
-  delta: 2.3
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 33
 security:
 - kind: domain-security
   name: Sectra Imaging Domain Security

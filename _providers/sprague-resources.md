@@ -9,33 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
-apis:
-- description: 'SpraguePORT is Sprague Energy''s electronic customer portal providing one-stop access to account management, order history, invoice details, market pricing data, and energy management tools. Available '
-  name: SpraguePORT Customer Portal
-  slug: sprague-port
-- description: Sprague Real-time is described as "the industry's best and simplest online pricing tool" for resellers and channel partners to access current market pricing for petroleum products. Provides market tra
-  name: Sprague Real-time Pricing
-  slug: sprague-realtime-pricing
-artifact_total: 10
+api_count: 0
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -81,6 +56,10 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/sprague-resources-vocabulary.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.spragueenergy.com/
 created: '2023-01-01'
 description: Sprague Resources (operating as Sprague Energy) is one of the largest independent suppliers of energy products and related services in the northeastern United States and Quebec, founded in 1870. The company distributes refined fuel products (heating oil, diesel, gasoline, kerosene, biofuels), natural gas, and electricity to commercial and industrial customers, and operates 20+ port terminal facilities for materials handling. Sprague was acquired by Hartree Partners in 2024 and continues to expand through strategic acquisitions. While Sprague does not publish a public developer API, the company operates SpraguePORT, a digital customer portal for account management, pricing, and order history, and Sprague Real-time for market pricing.
 finops:
@@ -102,17 +81,17 @@ jsonld:
   property_count: 3
   slug: sprague-resources-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-07-25'
 name: Sprague Resources
 nav: Providers
 network: true
-overview: 'Sprague Resources publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Petroleum, Natural Gas, Fuel Distribution, and Materials Handling.
+overview: 'Sprague Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Petroleum, Natural Gas, Fuel Distribution, and Materials Handling.
 
 
   The Sprague Resources catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sprague Resources'' developer surface includes engineering blog and 10 more developer resources.'
+  Sprague Resources'' developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Sprague Resources Plans Pricing
   plan_count: 3
@@ -133,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Sprague Resources LP Announces Cash Distribution for the First ...
   url: https://www.marketscreener.com/quote/stock/SPRAGUE-RESOURCES-LP-14670204/news/Sprague-Resources-LP-Announces-Cash-Distribution-for-the-First-Quarter-of-2022-and-Earnings-Conferen-40140081/
-random_paper: 6
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Sprague Resources Rate Limits
@@ -147,21 +126,6 @@ rules:
     info: 1
     warn: 4
   slug: sprague-resources-jsonschema-spectral-rules
-score:
-  band: thin
-  composite: 34.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 2.2
-    discoverability: 80.0
-    governance: 86.8
-    operational_transparency: 31.6
-  previous_composite: 34.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/screenshots/sprague-resources-2026-06-20T194400.png
 security:
 - kind: domain-security

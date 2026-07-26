@@ -9,30 +9,8 @@ access_model:
   - finops
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Cablevision Systems' operations continue under Altice USA and its Optimum consumer brand, providing cable television, broadband internet, and voice services. No public developer API is currently docum
-  name: Cablevision Systems (now Optimum / Altice USA)
-  slug: cablevision-optimum
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -70,11 +48,11 @@ finops:
   slug: cablevision-systems-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cablevision-systems.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: Cablevision Systems
 nav: Providers
 network: true
-overview: Cablevision Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Cable, Internet, Television, and Altice USA.
+overview: Cablevision Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Cable, Internet, Television, and Altice USA.
 plans:
 - name: Cablevision Systems Plans Pricing
   plan_count: 0
@@ -95,26 +73,11 @@ press:
 - date: '2026-05-25'
   title: 2025 Columbia-Dream Sports AI Innovation Symposium
   url: https://www.newswise.com/articles/2025-columbia-dream-sports-ai-innovation-symposium
-random_paper: 15
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Cablevision Systems Rate Limits
   slug: cablevision-systems-rate-limits
-score:
-  band: minimal
-  composite: 11.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 18.4
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 11.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Cablevision Systems Domain Security

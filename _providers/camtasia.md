@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -35,14 +17,11 @@ agentic_access:
   operation_count: 38
   slug: camtasia-agentic-access
   summary_line: 38 operations · 15 acting
-api_count: 12
+api_count: 11
 apis:
 - description: 'Public oEmbed API for TechSmith Screencast (app.screencast.com), the cloud destination where Camtasia videos and images are shared. The oEmbed endpoint returns embed HTML, thumbnail, and metadata for '
   name: TechSmith Screencast oEmbed API
   slug: screencast-oembed-api
-- description: A developer toolkit from TechSmith that lets developers embed reliable high-quality screen, webcam, and audio recording into their own applications. The SDK exposes APIs to configure, start, stop, and
-  name: Camtasia Screen Recorder SDK
-  slug: camtasia-screen-recorder-sdk
 - description: Browse and manage media assets
   name: Camtasia Assets API
   slug: camtasia-assets-api
@@ -73,7 +52,7 @@ apis:
 - description: Manage timeline tracks within a project
   name: Camtasia Tracks API
   slug: camtasia-tracks-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: Camtasia Asset Library API
@@ -158,7 +137,7 @@ jsonld:
   property_count: 7
   slug: camtasia-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Camtasia
 nav: Providers
 network: true
@@ -173,7 +152,7 @@ plans:
 - name: Camtasia Plans Pricing
   plan_count: 3
   slug: camtasia-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Camtasia Rate Limits
@@ -187,21 +166,6 @@ rules:
     info: 2
     warn: 3
   slug: camtasia-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 53.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 60.5
-    contract_quality: 64.6
-    developer_ergonomics: 28.3
-    discoverability: 67.5
-    governance: 73.7
-    operational_transparency: 31.6
-  previous_composite: 53.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/screenshots/camtasia-2026-06-20T173915.png
 security:
 - kind: authentication

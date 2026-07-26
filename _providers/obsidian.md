@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -35,17 +17,11 @@ agentic_access:
   operation_count: 31
   slug: obsidian-agentic-access
   summary_line: 31 operations · 20 acting
-api_count: 12
+api_count: 10
 apis:
 - description: In-app TypeScript/JavaScript Plugin API for building Obsidian plugins. Plugins access the Vault, Workspace, MetadataCache, file system, command palette, settings, editor, and Markdown post-processing.
   name: Obsidian Plugin API
   slug: obsidian-plugin-api
-- description: Paid managed service that syncs an Obsidian vault across devices with end-to-end encryption, version history, and shared-vault collaboration. Not exposed as a public REST API; integration is via the O
-  name: Obsidian Sync
-  slug: obsidian-sync
-- description: Paid managed service that publishes selected notes from an Obsidian vault as a public website with graph view, full-text search, and customizable themes. Not exposed as a public REST API; configured f
-  name: Obsidian Publish
-  slug: obsidian-publish
 - description: The Active File API from Obsidian — 1 operation(s) for active file.
   name: Obsidian Active File API
   slug: obsidian-active-file-api
@@ -73,7 +49,7 @@ apis:
 - description: The Vault Files API from Obsidian — 1 operation(s) for vault files.
   name: Obsidian Vault Files API
   slug: obsidian-vault-files-api
-artifact_total: 19
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -131,6 +107,14 @@ common:
   title: ''
   type: Blog
   url: https://obsidian.md/feed.xml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://obsidian.md/sync
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://obsidian.md/publish
 created: '2026-05-08'
 description: Obsidian is a local-first knowledge base and note-taking app built on plain Markdown files. Obsidian itself does not publish a hosted SaaS API; programmatic access is provided through (1) the in-app Plugin API for community plugins, (2) the community-built Local REST API plugin that exposes vault operations over localhost HTTPS, and (3) optional paid add-on services Obsidian Sync and Obsidian Publish.
 finops:
@@ -139,38 +123,23 @@ finops:
   slug: obsidian-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/obsidian.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Obsidian
 nav: Providers
 network: true
 overview: 'Obsidian publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Active File API, Commands API, Open API, and 6 more. Tagged areas include Productivity, Knowledge Management, Markdown, Notes, and Local-First.
 
 
-  Obsidian''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
+  Obsidian''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Obsidian Plans Pricing
   plan_count: 5
   slug: obsidian-plans-pricing
-random_paper: 25
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Obsidian Rate Limits
   slug: obsidian-rate-limits
-score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 49.7
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 41.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:
 - kind: authentication

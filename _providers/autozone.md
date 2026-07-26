@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: AutoZone Pro provides electronic ordering capabilities for professional automotive service providers and repair shops. The platform supports EDI-based parts ordering integrations enabling shop managem
-  name: AutoZone Pro Electronic Ordering
-  slug: autozonepro-electronic-ordering
 - description: AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delive
   name: AutoZone E-Commerce Platform
   slug: autozone-ecommerce
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: AutoZone Pro Electronic Ordering API
@@ -61,6 +40,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/autozone
+- group: company
+  title: ''
+  type: About
+  url: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
 created: '2026-03-21'
 description: AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 7,000 stores across the Americas. AutoZone serves both do-it-yourself (DIY) customers and professional automotive service providers (DIFM) through retail stores, e-commerce, and electronic ordering integrations for commercial accounts via AutoZone Pro.
 features:
@@ -87,14 +70,14 @@ integrations:
 - description: Integration with fleet maintenance platforms for commercial accounts managing parts procurement across vehicle fleets.
   name: Fleet Management Software
 layout: provider
-modified: '2026-04-19'
+modified: '2026-07-25'
 name: AutoZone
 nav: Providers
 network: true
-overview: 'AutoZone publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Parts, Automotive Retail, Automotive, Parts Distribution, and EDI.
+overview: 'AutoZone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Parts, Automotive Retail, Automotive, Parts Distribution, and EDI.
 
 
-  AutoZone''s developer surface includes developer portal and 4 more developer resources.'
+  AutoZone''s developer surface includes developer portal and 5 more developer resources.'
 plans:
 - name: Autozone Plans Pricing
   plan_count: 1
@@ -115,26 +98,11 @@ press:
 - date: '2026-05-25'
   title: 'AutoZone''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/autozone-ai-strategy-analysis-of-dominance-in-automotive-parts-ai/
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Autozone Rate Limits
   slug: autozone-rate-limits
-score:
-  band: emerging
-  composite: 16.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 60.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 16.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/screenshots/autozone-2026-06-20T172710.png
 security:
 - kind: domain-security

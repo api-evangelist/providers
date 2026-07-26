@@ -8,29 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 8
+api_count: 5
 apis:
-- description: The universalmusic.com corporate site is the public-facing surface for Universal Music Group. It catalogs UMG's labels, divisions, news, sustainability, careers, and investor relations content. The si
-  name: UMG Corporate Web Surface
-  slug: umg-corporate
 - description: Authenticated royalty statement portal for UMG-distributed artists and labels. Provides login-gated access to royalty statements, statement history, and supporting documentation. The portal is deliver
   name: UMG Royalty Portal
   slug: umg-royalty-portal
@@ -40,19 +19,13 @@ apis:
 - description: Bravado is UMG's global merchandise and brand-management division, operating direct-to-consumer artist merchandise storefronts and tour merchandise for UMG's roster. Each artist store is delivered via
   name: Bravado Merchandise Storefronts
   slug: bravado-merch
-- description: UMG's recorded-music catalog reaches developers and end users almost exclusively through downstream Digital Service Providers (Spotify, Apple Music, Amazon Music, YouTube Music, Tidal, Deezer, Pandora
-  name: UMG Catalog Delivery to DSPs
-  slug: partner-dsp-feeds
 - description: 7digital operates a B2B catalog and media-delivery API that includes UMG-licensed recordings for hackathon and partner use. This is the closest thing to a publicly documented developer surface for UMG
   name: 7digital UMG Catalog API (Partner Surface)
   slug: partner-7digital
-- description: UMG's "Artist Centric AI" framework governs licensed access to UMG's recordings and compositions by generative-AI music platforms. The program is operated as a series of bilateral commercial agreement
-  name: UMG AI Licensing Program
-  slug: ai-licensing-program
 - description: Official UMG GitHub organization (login Universal-Music-Group, org id 169924279), created May 15, 2024. As of profiling, the org has 0 public repositories, 0 public gists, 0 followers, no bio, no blog
   name: Universal-Music-Group GitHub Organization
   slug: github-org
-artifact_total: 37
+artifact_total: 34
 common:
 - group: auth
   title: ''
@@ -181,30 +154,15 @@ integrations:
 - description: UMG runs Drupal-based corporate properties (organization listed at drupal.org/UMG).
   name: Drupal
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Universal Music Group
 nav: Providers
 network: true
-overview: 'Universal Music Group publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Licensing, Big Three, Catalog, Entertainment, and Generative Music.
+overview: 'Universal Music Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Licensing, Big Three, Catalog, Entertainment, and Generative Music.
 
 
   Universal Music Group''s developer surface includes product news, engineering blog, and 13 more developer resources.'
 random_paper: 35
-score:
-  band: emerging
-  composite: 15.3
-  delta: 0.0
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 15.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universal-music-group/refs/heads/main/screenshots/universal-music-group-2026-06-20T200122.png
 security:
 - kind: domain-security

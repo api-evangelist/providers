@@ -9,42 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 5
+api_count: 1
 apis:
-- description: Partner-gated interface that lets approved third parties place and control their own experiences on the Dealer.com website platform without custom per-dealer integrations, while Dealer.com monitors pe
-  name: Dealer.com Website Integration API
-  slug: dealer-com-website-integration-api
-- description: Logical grouping for the vehicle inventory and imagery integrations exposed to certified partners - photography, 360-degree spins, video, and image optimization tools that read and enrich dealer inven
-  name: Dealer.com Inventory and Imagery API
-  slug: dealer-com-inventory-imagery-api
 - description: Lead generation and management capability - pre-qualification, messaging, and customer-engagement tools that capture website leads and route them into dealer CRM and Cox Automotive systems (Dealertrac
   name: Dealer.com Leads API
   slug: dealer-com-leads-api
-- description: Website Experience Optimization capability that personalizes inventory, content, specials, and assets on dealer sites using cross-platform shopper behavior from Autotrader and Kelley Blue Book. Delive
-  name: Dealer.com Website Personalization API
-  slug: dealer-com-website-personalization-api
-- description: Digital advertising and marketing integration - paid search, display, social, and video advertising plus analytics tied to Dealer.com sites and the Cox Automotive advertising stack. Available to certi
-  name: Dealer.com Digital Advertising API
-  slug: dealer-com-digital-advertising-api
-artifact_total: 10
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -82,6 +52,14 @@ common:
   title: ''
   type: FinOps
   url: finops/dealer-com-finops.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.dealer.com/integrations/
+- group: company
+  title: ''
+  type: News
+  url: https://www.dealer.com/company-news/data-integration-unlocks-website-personalization-press-release/
 created: '2026-07-10'
 description: 'Dealer.com, a Cox Automotive brand, builds automotive dealership websites, digital advertising, and digital marketing technology used by thousands of franchise and independent dealers across North America. Its integration surface is partner-gated: third parties embed experiences on dealer sites through the Dealer.com Website Integration API and the Integrated Partner Program, while inventory, leads, deal, and digital-retail data flow through the broader Cox Automotive Integration Platform (developer.coxautoinc.com), which uses OAuth (Okta) and requires an approved partner agreement. Dealer.com does not publish an open, self-serve public API; the endpoints modeled here are logical groupings of the partner capabilities, not a documented public surface.'
 finops:
@@ -90,38 +68,23 @@ finops:
   slug: dealer-com-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealer-com.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-07-25'
 name: Dealer.com
 nav: Providers
 network: true
-overview: 'Dealer.com publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Digital Marketing, Website Platform, and Inventory.
+overview: 'Dealer.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Digital Marketing, Website Platform, and Inventory.
 
 
-  Dealer.com''s developer surface includes documentation and 8 more developer resources.'
+  Dealer.com''s developer surface includes documentation, product news, and 9 more developer resources.'
 plans:
 - name: Dealer Com Plans Pricing
   plan_count: 2
   slug: dealer-com-plans-pricing
-random_paper: 16
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Dealer Com Rate Limits
   slug: dealer-com-rate-limits
-score:
-  band: emerging
-  composite: 20.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 20.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Dealer Com Domain Security

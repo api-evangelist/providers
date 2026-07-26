@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_skills: true
-    agentic_access: true
-    asyncapi_events: true
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: true
-    idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,9 +28,6 @@ apis:
 - description: The EDF-X API provides easy access to probability of default calculations for approximately 400 million companies globally via the Orbis database. It provides a PD term structure with annualized, cumu
   name: Moody's EDF-X API
   slug: edf-x-api
-- description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
-  name: Moody's NewsEdge API
-  slug: newsedge-api
 - description: Moody's Analytics QUIQspread is an intelligent, financial spreading software that will accelerate a company's spreading process. The API enables integration of automated financial statement processing
   name: Moody's QUIQSpread API
   slug: quiqspread-api
@@ -70,7 +49,10 @@ apis:
 - description: API solutions to empower commercial real estate developers to build systems and platforms faster. Brings efficiency and automation into your organization, including the Commercial Location Score API a
   name: Moody's Commercial Real Estate API
   slug: commercial-real-estate-api
-artifact_total: 82
+- description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
+  name: Moody's NewsEdge API
+  slug: newsedge-api
+artifact_total: 83
 collections:
 - collection_type: open
   name: Moody's Data Buffet API
@@ -404,7 +386,11 @@ jsonld:
   property_count: 0
   slug: moodys-data-buffet-context
 layout: provider
-modified: '2026-06-20'
+mcp_servers:
+- description: ''
+  name: moodys-mcp.yml
+  slug: moodys-mcpyml
+modified: '2026-07-25'
 name: Moody's
 nav: Providers
 network: true
@@ -435,7 +421,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 4
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -462,26 +448,6 @@ scopes:
   scope_count: 0
   slug: moodys-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: strong
-  composite: 66.1
-  delta: 1.8
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 76.1
-    discoverability: 67.5
-    governance: 73.7
-    operational_transparency: 50.0
-  previous_composite: 64.3
-  regulatory:
-    applies: true
-    regime: Insurance
-    regime_id: insurance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:
 - kind: authentication

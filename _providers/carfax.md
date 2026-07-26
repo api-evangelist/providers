@@ -9,29 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-23'
 api_count: 5
 apis:
-- description: Enterprise API for retrieving CARFAX Vehicle History Reports (VHR) by VIN. Provides accident and damage history, service records, ownership history, title problems, lemon history, and recall informati
-  name: CARFAX Vehicle History Report API
-  slug: vehicle-history-report-api
 - description: 'Converts a license plate number and state into a VIN with full vehicle decode (year, make, model, trim). Each QuickVIN lookup includes access to a CARFAX Vehicle History Report. Available to lenders, '
   name: CARFAX QuickVIN API
   slug: quickvin-api
@@ -44,6 +23,9 @@ apis:
 - description: Delivers comprehensive VIN-level data in ten groupings including vehicle description, demographic information, activity logs, problem indicators, damage assessment, ownership history, and fraud detect
   name: CARFAX VIN Scan Detail API
   slug: vin-scan-detail-api
+- description: Enterprise API for retrieving CARFAX Vehicle History Reports (VHR) by VIN. Provides accident and damage history, service records, ownership history, title problems, lemon history, and recall informati
+  name: CARFAX Vehicle History Report API
+  slug: vehicle-history-report-api
 artifact_total: 9
 common:
 - group: auth
@@ -102,7 +84,7 @@ finops:
   slug: carfax-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carfax.png
 layout: provider
-modified: 2026-06-13
+modified: '2026-07-25'
 name: CARFAX
 nav: Providers
 network: true
@@ -114,31 +96,11 @@ plans:
 - name: Carfax Plans Pricing
   plan_count: 6
   slug: carfax-plans-pricing
-random_paper: 17
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Carfax Rate Limits
   slug: carfax-rate-limits
-score:
-  band: thin
-  composite: 33.5
-  delta: -3.6
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 37.7
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 42.1
-  previous_composite: 37.1
-  regulatory:
-    applies: true
-    regime: Insurance
-    regime_id: insurance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carfax/refs/heads/main/screenshots/carfax-2026-06-20T173958.png
 security:
 - kind: domain-security

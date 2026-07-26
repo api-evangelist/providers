@@ -9,36 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 2
 apis:
-- description: OAI-PMH metadata harvesting interface for UQ eSpace, the University of Queensland's institutional digital repository of research publications, theses, and datasets. Supports standard OAI-PMH verbs (Id
-  name: UQ eSpace OAI-PMH
-  slug: espace-oai
 - description: 'REST API for UQ eSpace providing programmatic access to research outputs and dataset records held in the repository. UQ Library has published API documentation with executable examples describing the '
   name: UQ eSpace REST API
   slug: espace-api
 - description: UQ's API platform for transactional and business data, used to integrate institutional systems. Access is not open or self-service; developers must request access via the Integration Services Team and
   name: Central Integration Platform
   slug: central-integration
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -84,6 +63,10 @@ common:
   title: ''
   type: x-blogs
   url: blogs/blogs.json
+- group: company
+  title: ''
+  type: About
+  url: https://espace.library.uq.edu.au/
 created: '2026-06-03'
 description: 'The University of Queensland (UQ) is a public research university in Brisbane, Australia, ranked #54 in the QS World University Rankings 2025. UQ''s public developer and API footprint is concentrated in its library and research infrastructure: UQ eSpace, the institutional digital repository (built on the Fez/Fedora platform), exposes an OAI-PMH metadata harvesting endpoint and a documented REST API with executable examples. The UQ Library maintains an active public GitHub organisation (uqlibrary) with 150+ repositories. Broader institutional/transactional data access is governed through the Central Integration Platform and Data Hub, which are gated and require approval rather than offering open self-service APIs.'
 finops:
@@ -97,46 +80,26 @@ jsonld:
   property_count: 5
   slug: uq-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Queensland
 nav: Providers
 network: true
-overview: 'University of Queensland publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'University of Queensland publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
 
 
   The University of Queensland catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Queensland''s developer surface includes GitHub presence and 10 more developer resources.'
+  University of Queensland''s developer surface includes GitHub presence and 11 more developer resources.'
 plans:
 - name: Uq Plans Pricing
   plan_count: 2
   slug: uq-plans-pricing
-random_paper: 26
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Uq Rate Limits
   slug: uq-rate-limits
-score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 23.5
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png
 security:
 - kind: domain-security

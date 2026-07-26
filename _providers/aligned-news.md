@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,11 +17,8 @@ agentic_access:
   operation_count: 11
   slug: aligned-news-agentic-access
   summary_line: 11 operations
-api_count: 9
+api_count: 8
 apis:
-- description: Consumer-facing AI news intelligence platform delivering Stories, Signals, Reports, and Bundles synthesized from 63 curated X lists tracking 100,000+ accounts across AI, technology, and science.
-  name: Aligned News
-  slug: aligned-news
 - description: Reference Model Context Protocol server distributed as a single TypeScript file (mcp-server.ts) that proxies the Aligned News REST API to MCP-compatible AI tools like Claude Code, Claude Desktop, Curs
   name: Aligned News MCP Server
   slug: aligned-news-mcp-server
@@ -64,7 +43,7 @@ apis:
 - description: AI news stories curated and synthesized from monitored accounts.
   name: Aligned News Stories API
   slug: aligned-news-stories-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: Aligned News REST API
@@ -240,7 +219,7 @@ jsonld:
   property_count: 9
   slug: aligned-news-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Aligned News
 nav: Providers
 network: true
@@ -255,7 +234,7 @@ plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 41
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -269,21 +248,6 @@ rules:
     info: 2
     warn: 3
   slug: aligned-news-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 52.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.8
-    developer_ergonomics: 23.9
-    discoverability: 67.5
-    governance: 73.7
-    operational_transparency: 36.8
-  previous_composite: 52.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:
 - kind: authentication

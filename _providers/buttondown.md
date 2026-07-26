@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,9 +19,6 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 6
 apis:
-- description: The Buttondown hosted newsletter platform provides a markdown-based composition experience, subscriber management, delivery infrastructure, analytics, monetization via paid subscriptions, team collabo
-  name: Buttondown Newsletter Platform
-  slug: newsletter-platform
 - description: The Emails API from Buttondown — 2 operation(s) for emails.
   name: Buttondown Emails API
   slug: buttondown-emails-api
@@ -55,6 +34,9 @@ apis:
 - description: The Webhooks API from Buttondown — 1 operation(s) for webhooks.
   name: Buttondown Webhooks API
   slug: buttondown-webhooks-api
+- description: The Buttondown hosted newsletter platform provides a markdown-based composition experience, subscriber management, delivery infrastructure, analytics, monetization via paid subscriptions, team collabo
+  name: Buttondown Newsletter Platform
+  slug: newsletter-platform
 artifact_total: 14
 collections:
 - collection_type: open
@@ -125,7 +107,7 @@ finops:
   slug: buttondown-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buttondown.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Buttondown
 nav: Providers
 network: true
@@ -142,21 +124,6 @@ rate_limits:
 - limit_count: 5
   name: Buttondown Rate Limits
   slug: buttondown-rate-limits
-score:
-  band: thin
-  composite: 42.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 47.8
-    developer_ergonomics: 26.1
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 68.4
-  previous_composite: 42.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication

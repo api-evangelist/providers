@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
   name: DSCA Website
@@ -38,10 +20,7 @@ apis:
 - description: 'Government-to-government portal that hosts case management, financial, and logistical information for security cooperation partners. SCIP requires authenticated access and operates outside the public '
   name: Security Cooperation Information Portal (SCIP)
   slug: defense-security-cooperation-agency-scip
-- description: DSCA portal supporting Security Cooperation Workforce certification, training, and the Defense Security Cooperation University (DSCU). Public information is available on the website with authenticated
-  name: DSCA Security Cooperation Workforce Development
-  slug: defense-security-cooperation-agency-workforce
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -75,6 +54,10 @@ common:
   title: ''
   type: FOIA
   url: https://open.defense.gov/Transparency/FOIA.aspx
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.dscu.edu
 created: '2024-12-03'
 description: The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP).
 finops:
@@ -83,38 +66,23 @@ finops:
   slug: defense-security-cooperation-agency-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-security-cooperation-agency.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Defense Security Cooperation Agency
 nav: Providers
 network: true
-overview: 'Defense Security Cooperation Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
+overview: 'Defense Security Cooperation Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
 
 
-  Defense Security Cooperation Agency''s developer surface includes product news and 7 more developer resources.'
+  Defense Security Cooperation Agency''s developer surface includes product news and 8 more developer resources.'
 plans:
 - name: Defense Security Cooperation Agency Plans Pricing
   plan_count: 3
   slug: defense-security-cooperation-agency-plans-pricing
-random_paper: 1
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Defense Security Cooperation Agency Rate Limits
   slug: defense-security-cooperation-agency-rate-limits
-score:
-  band: emerging
-  composite: 22.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
 security:
 - kind: domain-security

@@ -8,39 +8,12 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 1
 apis:
-- description: GEO Secure Services designs, builds, finances and operates secure correctional and ICE detention facilities under contracts with federal, state and international government agencies. No public develop
-  name: GEO Secure Services
-  slug: geo-secure-services
-- description: GEO Care delivers community-based reentry, residential treatment, cognitive behavioral programming, substance-abuse treatment and non-residential supervision through GEO Reentry Services and partner f
-  name: GEO Care
-  slug: geo-care
-- description: GEO Transport Inc. provides secure transportation services for detainees and inmates between facilities, courts and removal flights, primarily under federal contract. No public developer API is publis
-  name: GEO Transport
-  slug: geo-transport
 - description: 'BI Incorporated, acquired by GEO Group in 2011, is the technology subsidiary that builds and operates the electronic monitoring stack used across community supervision and ICE''s Intensive Supervision '
   name: BI Incorporated
   slug: bi-incorporated
-artifact_total: 5
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -75,30 +48,15 @@ description: 'The GEO Group, Inc. (NYSE: GEO) is a publicly traded private corre
   it exposes are customer-facing operational systems (BI TotalAccess for officers, BI SmartLINK for supervised individuals) used inside its own contracts. This repository documents the corporate footprint, the technology subsidiary, and the public-record controversies surrounding the firm under the second Trump administration''s 2025+ ICE detention expansion, for purposes of the API Evangelist network''s coverage of API absence in sensitive sectors.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geo-group.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: The GEO Group
 nav: Providers
 network: true
-overview: 'The GEO Group publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Private Prisons, Immigration Detention, Electronic Monitoring, and Surveillance.
+overview: 'The GEO Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Private Prisons, Immigration Detention, Electronic Monitoring, and Surveillance.
 
 
   The GEO Group''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 50
-score:
-  band: minimal
-  composite: 9.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 9.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 35
 screenshot: https://raw.githubusercontent.com/api-evangelist/geo-group/refs/heads/main/screenshots/geo-group-2026-06-20T181746.png
 security:
 - kind: domain-security

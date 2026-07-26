@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 11
+api_count: 10
 apis:
 - description: Olivia is Paradox's conversational AI assistant that powers candidate engagement, screening, scheduling, and onboarding across every Paradox surface and partner integration.
   name: Paradox Olivia Conversational AI
@@ -38,9 +20,6 @@ apis:
 - description: Talent CRM for finding, pipelining, and re-engaging qualified candidates via conversational outreach.
   name: Paradox Conversational CRM
   slug: conversational-crm
-- description: Dynamic, 24/7 conversational career sites that surface relevant jobs and capture candidate interest through chat.
-  name: Paradox Conversational Career Sites
-  slug: conversational-career-sites
 - description: Text- and chat-based applicant flow that screens candidates and captures structured application data without traditional web forms.
   name: Paradox Conversational Apply
   slug: conversational-apply
@@ -62,7 +41,7 @@ apis:
 - description: Paradox's customer- and partner-facing Open API used to build custom integrations with ATS, HRIS, and operational systems beyond the productised connectors. Access is gated and provisioned under contr
   name: Paradox Open API
   slug: open-api
-artifact_total: 16
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -100,11 +79,11 @@ finops:
   slug: paradox-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paradox-ai.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Paradox
 nav: Providers
 network: true
-overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conversational AI, Recruiting Automation, High-Volume Hiring, Chatbot, and ATS.
+overview: 'Paradox publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conversational AI, Recruiting Automation, High-Volume Hiring, Chatbot, and ATS.
 
 
   Paradox''s developer surface includes engineering blog and 6 more developer resources.'
@@ -112,26 +91,11 @@ plans:
 - name: Paradox Ai Plans Pricing
   plan_count: 1
   slug: paradox-ai-plans-pricing
-random_paper: 29
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Paradox Ai Rate Limits
   slug: paradox-ai-rate-limits
-score:
-  band: emerging
-  composite: 20.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 20.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox-ai/refs/heads/main/screenshots/paradox-ai-2026-06-20T191416.png
 security:
 - kind: domain-security

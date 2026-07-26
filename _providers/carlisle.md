@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
-- description: The Carlisle Customer Success Portal is the primary digital channel for Carlisle Construction Materials distributors and direct contractor customers across the continental United States and Canada. It
-  name: Carlisle Customer Success Portal
-  slug: customer-success-portal
 - description: Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with distributors, retailers, and large contractor
   name: Carlisle EDI Trading Partner Integration
   slug: edi-trading-partner
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -81,6 +60,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/carlisle-companies-incorporated/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://customersuccesslogin.com
 created: '2026-03-23'
 description: 'Carlisle Companies Incorporated (NYSE: CSL) is a global diversified manufacturer of highly engineered building envelope products and solutions, serving commercial and residential construction, insulation, roofing, waterproofing, and specialty markets. Carlisle''s primary operating segment is Carlisle Construction Materials (CCM), which includes brands such as Carlisle SynTec Systems, Hunter Panels, Henry Company, MB Technology, and WIP Industrial. Carlisle does not publish a public developer API; distributors and direct contractors transact through the Carlisle Customer Success Portal, and commercial trading partners integrate with Carlisle using standard X12 EDI transactions (850, 855, 856, 810) over AS2/SFTP.'
 finops:
@@ -89,11 +72,11 @@ finops:
   slug: carlisle-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carlisle.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: Carlisle Companies
 nav: Providers
 network: true
-overview: Carlisle Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Building Envelope, Building Products, Construction, Contractor Portal, and Distributors.
+overview: Carlisle Companies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Building Envelope, Building Products, Construction, Contractor Portal, and Distributors.
 plans:
 - name: Carlisle Plans Pricing
   plan_count: 3
@@ -114,26 +97,11 @@ press:
 - date: '2026-05-25'
   title: Ducker Carlisle Adds Data and AI Services to Help Clients ...
   url: https://www.prnewswire.com/news-releases/ducker-carlisle-adds-data-and-ai-services-to-help-clients-accelerate-growth-302309287.html
-random_paper: 31
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Carlisle Rate Limits
   slug: carlisle-rate-limits
-score:
-  band: emerging
-  composite: 24.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 24.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Carlisle Domain Security

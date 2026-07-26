@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: TouchBistro does not publish an open developer API or public API reference. Integration with third-party services is implemented via a private, approval-gated integration partner program. Approved par
-  name: TouchBistro Partner Integrations
-  slug: partner-integrations
-artifact_total: 48
+api_count: 0
+artifact_total: 47
 common:
 - group: auth
   title: ''
@@ -154,11 +132,11 @@ integrations:
 - description: Business insurance integration.
   name: Coverdash
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: TouchBistro
 nav: Providers
 network: true
-overview: 'TouchBistro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include POS, Restaurant, Hospitality, Payments, and Integrations.
+overview: 'TouchBistro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include POS, Restaurant, Hospitality, Payments, and Integrations.
 
 
   TouchBistro''s developer surface includes pricing and 10 more developer resources.'
@@ -166,31 +144,11 @@ plans:
 - name: Touchbistro Plans Pricing
   plan_count: 1
   slug: touchbistro-plans-pricing
-random_paper: 33
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Touchbistro Rate Limits
   slug: touchbistro-rate-limits
-score:
-  band: emerging
-  composite: 20.3
-  delta: 1.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 19.3
-  regulatory:
-    applies: true
-    regime: Payments
-    regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/screenshots/touchbistro-2026-06-20T195504.png
 security:
 - kind: domain-security

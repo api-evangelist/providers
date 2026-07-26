@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 2
 apis:
 - description: Zhejiang University's unified identity authentication platform, a Central Authentication Service (CAS) single sign-on login used to access campus systems. It supports username/password, QR-code scanni
   name: Unified Identity Authentication (CAS / SSO)
@@ -35,10 +17,7 @@ apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider (entityID https://idp.zju.edu.cn/idp/shibboleth) used for federated single sign-on to external academic resources and services. Thi
   name: Shibboleth Identity Provider (SAML)
   slug: shibboleth
-- description: A community-maintained (LUG@ZJU) open-source software mirror service that hosts and serves Linux distribution and software package repositories. It is an rsync/HTTP file-mirror service rather than a p
-  name: ZJU Open Source Software Mirrors
-  slug: mirrors
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -80,6 +59,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://mirrors.zju.edu.cn/
 created: '2026-06-03'
 description: 'Zhejiang University (ZJU) is a comprehensive public research university based in Hangzhou, Zhejiang Province, China, ranked #44 in the QS World University Rankings 2025. ZJU is one of China''s oldest and most selective institutions, with strengths across AI, engineering, medicine, and the sciences. ZJU does not publish a centralized, public developer portal or documented open API program. Its confirmable public technical surface is limited to infrastructure endpoints: a unified identity / single sign-on (CAS + Shibboleth SAML IdP) platform and a community-run open-source software mirror, alongside numerous research-lab GitHub organizations. No open, self-service application APIs were found at the time of review.'
 finops:
@@ -93,41 +76,26 @@ jsonld:
   property_count: 3
   slug: zhejiang-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Zhejiang University
 nav: Providers
 network: true
-overview: 'Zhejiang University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
+overview: 'Zhejiang University publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
 
 
   The Zhejiang University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Zhejiang University''s developer surface includes GitHub presence, authentication, and 8 more developer resources.'
+  Zhejiang University''s developer surface includes GitHub presence, authentication, and 9 more developer resources.'
 plans:
 - name: Zhejiang Plans Pricing
   plan_count: 2
   slug: zhejiang-plans-pricing
-random_paper: 32
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Zhejiang Rate Limits
   slug: zhejiang-rate-limits
-score:
-  band: emerging
-  composite: 25.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 25.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:
 - kind: domain-security

@@ -9,39 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 2
 apis:
-- description: 'Public OAI-PMH 2.0 metadata-harvesting interface for Minerva Access, the University of Melbourne Library Digital Repository (DSpace 7.6). Supports standard OAI verbs (Identify, ListRecords, ListSets, '
-  name: Minerva Access OAI-PMH
-  slug: minerva-oai
-- description: DSpace 7.6 REST/HAL API backing the Minerva Access institutional repository, exposing communities, collections, items and bitstreams as HAL+JSON resources. The API root is publicly reachable and self-
-  name: Minerva Access DSpace REST API
-  slug: minerva-rest
 - description: University of Melbourne open spatial-data portal hosted on ArcGIS Hub for exploring and downloading campus GIS layers including building, road and tree-canopy footprints. Datasets are served through t
   name: Open Spatial Data Portal (ArcGIS Hub)
   slug: spatial-open-data
 - description: The University of Melbourne operates a Boomi-based API management developer portal providing self-service access to internal data APIs for staff and students. This portal is gated behind university au
   name: Internal API Management Developer Portal (Boomi) — Gated
   slug: boomi-developer-portal
-artifact_total: 10
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -83,6 +59,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://minerva-access.unimelb.edu.au/
 created: '2026-06-03'
 description: 'The University of Melbourne is Australia''s leading research university, ranked #24 in the QS World University Rankings 2025. Its public developer and API footprint is modest and federated rather than centralized: the Library operates the Minerva Access institutional repository on DSpace 7.6, which exposes a public OAI-PMH metadata interface and a DSpace REST API, and the institution publishes campus GIS data through an ArcGIS Hub open spatial-data portal with the standard ArcGIS/Hub query APIs. Internally the university runs a Boomi-based API management developer portal for staff and students, but that portal is gated and not publicly documented. Identity is managed via central SSO (Okta) with OAuth 2.0 / OpenID Connect, but no public API program is offered there. An official GitHub organization (github.com/unimelb) exists with mostly archived projects.'
 finops:
@@ -96,46 +76,26 @@ jsonld:
   property_count: 3
   slug: university-of-melbourne-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Melbourne
 nav: Providers
 network: true
-overview: 'University of Melbourne publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Open Data.
+overview: 'University of Melbourne publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Open Data.
 
 
   The University of Melbourne catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Melbourne''s developer surface includes GitHub presence, authentication, and 8 more developer resources.'
+  University of Melbourne''s developer surface includes GitHub presence, authentication, and 9 more developer resources.'
 plans:
 - name: University Of Melbourne Plans Pricing
   plan_count: 2
   slug: university-of-melbourne-plans-pricing
-random_paper: 48
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Melbourne Rate Limits
   slug: university-of-melbourne-rate-limits
-score:
-  band: emerging
-  composite: 27.8
-  delta: 3.9
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 23.9
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png
 security:
 - kind: domain-security

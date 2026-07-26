@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Public online catalog (OPAC) for Tianjin University Library. The catalog is browsable over the web, but no documented, openly accessible search or discovery API (e.g. Primo/Alma REST, SRU, or OAI-PMH)
-  name: Tianjin University Library OPAC
-  slug: opac
-artifact_total: 6
+api_count: 0
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -66,6 +44,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://opac.lib.tju.edu.cn
 created: '2026-06-03'
 description: 'Tianjin University (TJU) is a national public research university in Tianjin, China, founded in 1895 as Peiyang University and recognized as the oldest modern university in China. It is ranked #269 in the QS World University Rankings 2025. TJU operates the usual institutional web properties (official site, library OPAC, faculty and international-cooperation portals) but does not publish a public developer portal or documented, openly accessible API. No public API documentation, base URLs, or sign-up flows could be verified at the time of cataloging; the entries below reflect only confirmed public web properties, not documented APIs.'
 finops:
@@ -79,41 +61,26 @@ jsonld:
   property_count: 3
   slug: tianjin-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Tianjin University
 nav: Providers
 network: true
-overview: 'Tianjin University publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
+overview: 'Tianjin University is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
 
 
   The Tianjin University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Tianjin University''s developer surface includes GitHub presence and 7 more developer resources.'
+  Tianjin University''s developer surface includes GitHub presence and 8 more developer resources.'
 plans:
 - name: Tianjin Plans Pricing
   plan_count: 2
   slug: tianjin-plans-pricing
-random_paper: 35
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Tianjin Rate Limits
   slug: tianjin-rate-limits
-score:
-  band: emerging
-  composite: 21.0
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 21.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tianjin/refs/heads/main/screenshots/tianjin-2026-06-20T195443.png
 security:
 - kind: domain-security

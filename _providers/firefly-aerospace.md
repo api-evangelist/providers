@@ -9,42 +9,8 @@ access_model:
   - finops
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 5
-apis:
-- description: 'Alpha is Firefly''s operational small-lift orbital launch vehicle in the ~1,000 kg class, serving dedicated and rideshare customers. This is an informational product surface; Firefly exposes no public '
-  name: Firefly Alpha Launch
-  slug: firefly-alpha-launch
-- description: Eclipse (formerly the Medium Launch Vehicle, MLV) is Firefly's medium-lift, reusable launch vehicle co-developed with Northrop Grumman, targeting roughly 16,000 kg to orbit. This is an informational p
-  name: Firefly Eclipse Launch
-  slug: firefly-eclipse-launch
-- description: Blue Ghost is Firefly's lunar lander for delivering and hosting payloads on the lunar surface, including NASA Commercial Lunar Payload Services (CLPS) task orders. This is an informational mission/ser
-  name: Firefly Blue Ghost Lunar Lander
-  slug: firefly-blue-ghost-lunar
-- description: Elytra is Firefly's multi-mission orbital vehicle (Dawn, Dusk, and Dark configurations) providing in-space maneuverability, hosting, and servicing, and is the platform for the Ocula commercial lunar i
-  name: Firefly Elytra Orbital Vehicle
-  slug: firefly-elytra-orbital
-- description: Firefly's "Book A Ride" rideshare and payload booking experience lets prospective customers inquire about available flights and orbits. It is a sales inquiry / web form workflow, not a programmatic AP
-  name: Firefly Rideshare and Payload Booking
-  slug: firefly-rideshare-payload
-artifact_total: 10
+api_count: 0
+artifact_total: 5
 collections:
 - collection_type: open
   name: Firefly Aerospace
@@ -82,6 +48,22 @@ common:
   title: ''
   type: Blog
   url: https://fireflyspace.com/news/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://fireflyspace.com/alpha/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://fireflyspace.com/eclipse/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://fireflyspace.com/blue-ghost/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://fireflyspace.com/elytra/
 created: '2026-06-20'
 description: Firefly Aerospace is an end-to-end space transportation company building the Alpha small-lift rocket, the Eclipse (formerly MLV) medium-lift vehicle, the Blue Ghost lunar lander, and the Elytra orbital vehicle (with the Ocula lunar imaging service). Firefly sells launch, lunar delivery, and on-orbit services through sales and payload-user-guide channels; it does not publish a public developer API.
 finops:
@@ -90,38 +72,23 @@ finops:
   slug: firefly-aerospace-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firefly-aerospace.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-07-25'
 name: Firefly Aerospace
 nav: Providers
 network: true
-overview: 'Firefly Aerospace publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Launch, Lunar, and Spacecraft.
+overview: 'Firefly Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Launch, Lunar, and Spacecraft.
 
 
-  Firefly Aerospace''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Firefly Aerospace''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Firefly Aerospace Plans Pricing
   plan_count: 0
   slug: firefly-aerospace-plans-pricing
-random_paper: 11
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Firefly Aerospace Rate Limits
   slug: firefly-aerospace-rate-limits
-score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 7.9
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firefly-aerospace/refs/heads/main/screenshots/firefly-aerospace-2026-06-20T181231.png
 security:
 - kind: domain-security

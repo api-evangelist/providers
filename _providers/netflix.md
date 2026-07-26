@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
 - description: Netflix Open Connect is the purpose-built content delivery network that delivers Netflix streaming traffic. The Open Connect program provides partner ISPs with embedded appliances and peering arrangem
   name: Netflix Open Connect
   slug: netflix-open-connect
-- description: 'The Netflix Partner Help Center provides resources for device manufacturers, integrators, and content partners. It documents device certification requirements, integration specifications, and support '
-  name: Netflix Partner Help Center
-  slug: netflix-partner-help-center
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -89,11 +68,11 @@ graphqls:
   slug: netflix-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netflix.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: Netflix
 nav: Providers
 network: true
-overview: Netflix publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CDN, Content Delivery, Device Certification, Entertainment, and Media.
+overview: Netflix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CDN, Content Delivery, Device Certification, Entertainment, and Media.
 plans:
 - name: Netflix Plans Pricing
   plan_count: 2
@@ -114,26 +93,11 @@ press:
 - date: '2026-05-25'
   title: Netflix aims to be an innovator in using AI in the creative ...
   url: https://www.instagram.com/reel/DXNX3-8DBcV/?hl=en
-random_paper: 48
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Netflix Rate Limits
   slug: netflix-rate-limits
-score:
-  band: emerging
-  composite: 17.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 17.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix/refs/heads/main/screenshots/netflix-2026-06-20T190152.png
 security:
 - kind: domain-security

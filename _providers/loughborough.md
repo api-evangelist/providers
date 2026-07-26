@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -35,14 +17,11 @@ agentic_access:
   operation_count: 157
   slug: loughborough-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 11
 apis:
 - description: OAI-PMH metadata harvesting endpoint for the Loughborough Research Repository, served via figshare and scoped to the Loughborough portal set. Supports Open Archives Initiative Protocol for Metadata Ha
   name: Loughborough Research Repository OAI-PMH
   slug: research-repository-oai
-- description: Loughborough University's Shibboleth-based SAML 2.0 identity provider used for federated single sign-on (the UK Access Management Federation) across university and licensed third-party services. The S
-  name: Loughborough Shibboleth/SAML Identity Provider
-  slug: shibboleth-idp
 - description: The altmetric API from Loughborough University — 1 operation(s) for altmetric.
   name: Loughborough University altmetric API
   slug: loughborough-altmetric-api
@@ -73,7 +52,7 @@ apis:
 - description: The symplectic API from Loughborough University — 5 operation(s) for symplectic.
   name: Loughborough University symplectic API
   slug: loughborough-symplectic-api
-artifact_total: 27
+artifact_total: 26
 common:
 - group: agent
   title: ''
@@ -127,6 +106,10 @@ common:
   title: ''
   type: Blog
   url: https://www.lboro.ac.uk/news-events/rss/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.lboro.ac.uk/services/it/topics/student-account/
 created: '2026-06-03'
 description: 'Loughborough University is a public research university in Leicestershire, United Kingdom, ranked #224 in the QS World University Rankings 2025. It is well known for sport, engineering, and design programmes and operates a campus in London alongside its main Loughborough campus. The university does not publish a first-party developer portal or open-data API; its public programmatic footprint is limited to its figshare-powered Loughborough Research Repository (which exposes the standard figshare REST API and an OAI-PMH metadata harvesting endpoint scoped to the institution) and a Shibboleth/SAML identity provider used for federated single sign-on.'
 examples:
@@ -158,7 +141,7 @@ jsonld:
   property_count: 12
   slug: loughborough-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Loughborough University
 nav: Providers
 network: true
@@ -168,12 +151,12 @@ overview: 'Loughborough University publishes 10 APIs on the [APIs.io](https://ap
   The Loughborough University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Loughborough University''s developer surface includes authentication, GitHub presence, engineering blog, and 10 more developer resources.'
+  Loughborough University''s developer surface includes authentication, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
   slug: loughborough-plans-pricing
-random_paper: 26
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits
@@ -200,21 +183,6 @@ scopes:
   scope_count: 1
   slug: loughborough-scopes
   summary_line: 1 scope · authorizationCode
-score:
-  band: developing
-  composite: 48.0
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 74.4
-    developer_ergonomics: 13.0
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 48.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:
 - kind: authentication

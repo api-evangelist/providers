@@ -9,36 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 2
 apis:
 - description: The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery plans, and Section 7 consultations. ECOS exp
   name: USFWS Environmental Conservation Online System (ECOS)
   slug: ecos
-- description: Information for Planning and Consultation (IPaC) is a USFWS web-based project planning tool that helps users identify potential impacts on protected species and habitats, generate official species lis
-  name: USFWS Information for Planning and Consultation (IPaC)
-  slug: ipac
 - description: The Service Catalog (ServCat) is the USFWS reference library for reports, datasets, and other documents produced by or for the agency. ServCat is backed by an internal services layer; while the catalo
   name: USFWS Service Catalog (ServCat)
   slug: servcat
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -80,35 +59,20 @@ finops:
   slug: fish-and-wildlife-service-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fish-and-wildlife-service.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: U.S. Fish and Wildlife Service
 nav: Providers
 network: true
-overview: U.S. Fish and Wildlife Service publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal Government, Fisheries, and Wildlife.
+overview: U.S. Fish and Wildlife Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal Government, Fisheries, and Wildlife.
 plans:
 - name: Fish And Wildlife Service Plans Pricing
   plan_count: 3
   slug: fish-and-wildlife-service-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Fish And Wildlife Service Rate Limits
   slug: fish-and-wildlife-service-rate-limits
-score:
-  band: emerging
-  composite: 21.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/screenshots/fish-and-wildlife-service-2026-06-20T181254.png
 security:
 - kind: domain-security

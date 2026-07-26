@@ -9,33 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
-apis:
-- description: 'The Hebrew University Library Authority runs its catalog and discovery on Ex Libris Primo/Alma (HUfind). Ex Libris provides standard Primo and Alma REST APIs and OAI-PMH publishing, but these are not '
-  name: HUJI Library Discovery (Ex Libris Primo/Alma)
-  slug: library-discovery
-- description: OpenScholar is HUJI's Drupal-based website-building and content management platform for faculty, labs, and academic projects, hosting profiles, publications, CVs, courses, and events. It is an interna
-  name: OpenScholar @ HUJI
-  slug: openscholar
-artifact_total: 7
+api_count: 0
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -77,6 +52,14 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/hebrew-university-of-jerusalem-context.jsonld
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://en.libraries.huji.ac.il/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://scholars.huji.ac.il/
 created: '2026-06-03'
 description: 'The Hebrew University of Jerusalem (HUJI) is Israel''s leading research university, ranked #272 in the QS World University Rankings 2025. It operates multiple campuses in Jerusalem, Rehovot, and Eilat across the humanities, sciences, medicine, and law. HUJI does not publish a dedicated public developer portal or documented open API program. Its developer-relevant surface is limited to standards-based academic infrastructure: an Ex Libris Primo/Alma library discovery system (whose APIs require institution-issued keys), the OpenScholar profile/CMS platform, Shibboleth/SAML single sign-on (internal/gated), and a number of research-lab open-source GitHub organizations. No public, self-service API endpoints were confirmed.'
 finops:
@@ -90,41 +73,26 @@ jsonld:
   property_count: 6
   slug: hebrew-university-of-jerusalem-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Hebrew University of Jerusalem
 nav: Providers
 network: true
-overview: 'Hebrew University of Jerusalem publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Hebrew University of Jerusalem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
 
 
   The Hebrew University of Jerusalem catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Hebrew University of Jerusalem''s developer surface includes GitHub presence, engineering blog, and 8 more developer resources.'
+  Hebrew University of Jerusalem''s developer surface includes GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Hebrew University Of Jerusalem Plans Pricing
   plan_count: 2
   slug: hebrew-university-of-jerusalem-plans-pricing
-random_paper: 15
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Hebrew University Of Jerusalem Rate Limits
   slug: hebrew-university-of-jerusalem-rate-limits
-score:
-  band: emerging
-  composite: 21.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 2.2
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/screenshots/hebrew-university-of-jerusalem-2026-06-20T182715.png
 security:
 - kind: domain-security

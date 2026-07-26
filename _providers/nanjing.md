@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
 - description: Nanjing University operates a unified identity authentication platform providing single sign-on across university systems. The login service is a CAS (Central Authentication Service) deployment suppor
   name: Nanjing University Unified Identity Authentication (CAS SSO)
   slug: auth
-- description: Nanjing University Library provides an online public access catalog (OPAC) and the Summon next-generation discovery service for searching its collections and licensed databases. These are end-user web
-  name: Nanjing University Library Discovery & OPAC
-  slug: library
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -73,6 +52,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://lib.nju.edu.cn/
 created: '2026-06-03'
 description: 'Nanjing University (NJU), founded in 1902 and located in Nanjing, Jiangsu, China, is one of China''s oldest and most prestigious research universities and is ranked #145 in the QS World University Rankings 2025. The university operates a unified identity authentication (CAS-based single sign-on) platform at authserver.nju.edu.cn and runs library discovery systems (OPAC and Summon) and a campus map, but it does not publish a public, documented developer API program or an open-data portal. The footprint cataloged here reflects only publicly observable, institution-facing systems; no public API endpoints, signup, or developer documentation were confirmed.'
 finops:
@@ -86,41 +69,26 @@ jsonld:
   property_count: 0
   slug: nanjing-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Nanjing University
 nav: Providers
 network: true
-overview: 'Nanjing University publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
+overview: 'Nanjing University publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and China.
 
 
   The Nanjing University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Nanjing University''s developer surface includes GitHub presence, authentication, and 7 more developer resources.'
+  Nanjing University''s developer surface includes GitHub presence, authentication, and 8 more developer resources.'
 plans:
 - name: Nanjing Plans Pricing
   plan_count: 2
   slug: nanjing-plans-pricing
-random_paper: 27
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Nanjing Rate Limits
   slug: nanjing-rate-limits
-score:
-  band: emerging
-  composite: 23.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanjing/refs/heads/main/screenshots/nanjing-2026-06-20T190003.png
 security:
 - kind: domain-security

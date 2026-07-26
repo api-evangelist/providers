@@ -8,32 +8,11 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 7
+api_count: 6
 apis:
 - description: Routes electronic prescriptions between prescribers and pharmacies over the NCPDP SCRIPT standard, supporting NewRx, RxRenewal, RxChange, RxTransfer, RxFill, CancelRx, and NewRxRequest transactions, p
   name: Surescripts E-Prescribing
   slug: surescripts-e-prescribing-api
-- description: Returns a patient's fills and claims-based medication history aggregated across pharmacies and PBMs to support medication reconciliation at the point of care. Exchanged as NCPDP medication history req
-  name: Surescripts Medication History
-  slug: surescripts-medication-history-api
 - description: Verifies patient pharmacy benefit eligibility and returns formulary and benefit coverage details so prescribers see coverage and coverage alternatives in workflow. Modeled on X12 270/271 eligibility e
   name: Surescripts Eligibility and Formulary
   slug: surescripts-eligibility-formulary-api
@@ -49,7 +28,7 @@ apis:
 - description: 'Locates where a patient has clinical records across the network and enables retrieval of relevant clinical documents to inform care decisions. Delivered to certified participants through the network; '
   name: Surescripts Record Locator and Exchange
   slug: surescripts-record-locator-exchange-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -76,35 +55,15 @@ description: Surescripts operates the largest health information network in the 
   NCPDP/X12 transaction standards - endpoints are not publicly documented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surescripts.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-07-25'
 name: Surescripts
 nav: Providers
 network: true
-overview: 'Surescripts publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, E-Prescribing, Health Information Network, NCPDP SCRIPT, and Medication History.
+overview: 'Surescripts publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, E-Prescribing, Health Information Network, NCPDP SCRIPT, and Medication History.
 
 
   Surescripts'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 50
-score:
-  band: minimal
-  composite: 10.9
-  delta: 0.4
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 10.5
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 26
 security:
 - kind: domain-security
   name: Surescripts Domain Security

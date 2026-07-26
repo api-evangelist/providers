@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: IIIF Presentation (v2 stable, v3 alpha) and Image v2 APIs for digital image interoperability across the Stanford Digital Repository. Presentation manifests served from purl.stanford.edu; image tiles f
   name: Stanford Libraries IIIF API
@@ -38,16 +20,13 @@ apis:
 - description: Public API returning operating hours for Stanford library locations.
   name: Stanford Libraries Library Hours API
   slug: library-hours
-- description: Programmatic XML query of the Registrar's course catalog (13,000+ courses) via explorecourses.stanford.edu/search?view=xml-20140630. Community Python and R client libraries exist; no formal public ref
-  name: ExploreCourses Course Data API
-  slug: explorecourses
 - description: API over the Community Academic Profiles directory (18,000+ faculty, students, postdocs, and staff profiles). Interactive console available; access requires credentials issued via HelpSU.
   name: CAP / Stanford Profiles API
   slug: cap-profiles
 - description: 'University IT MaIS Registry REST APIs — Account, Person, Student, CourseClass, Privilege, and Workgroup — documented publicly but gated: access requires an x509 client certificate signed by the MaIS t'
   name: MaIS Registry APIs
   slug: mais-registry
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -105,6 +84,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: company
+  title: ''
+  type: About
+  url: https://explorecourses.stanford.edu/about
 created: '2026-06-03'
 description: 'Stanford University is a private research university in Stanford, California (QS World 2025 #6) with a substantial, multi-pronged developer footprint. University IT (UIT) runs a developer hub at uit.stanford.edu/developers exposing certificate-secured MaIS Registry REST APIs (Account, Person, Student, CourseClass, Privilege, Workgroup) plus an AI API Gateway. Stanford Libraries (DLSS) publishes a public API documentation site at api.library.stanford.edu (IIIF, PURL, Embed, Digital Stacks, Library Hours) backing the Stanford Digital Repository, and the Registrar''s ExploreCourses offers a course-data XML query interface.'
 finops:
@@ -118,41 +101,26 @@ jsonld:
   property_count: 2
   slug: stanford-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Stanford University
 nav: Providers
 network: true
-overview: 'Stanford University publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Stanford University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
 
 
   The Stanford University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Stanford University''s developer surface includes GitHub presence, authentication, and 12 more developer resources.'
+  Stanford University''s developer surface includes GitHub presence, authentication, and 13 more developer resources.'
 plans:
 - name: Stanford Plans Pricing
   plan_count: 2
   slug: stanford-plans-pricing
-random_paper: 49
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Stanford Rate Limits
   slug: stanford-rate-limits
-score:
-  band: emerging
-  composite: 27.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 36.8
-    contract_quality: 15.1
-    developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 27.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:
 - kind: domain-security

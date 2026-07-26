@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: The Autoliv Supplier Portal (autoliv.biz) provides suppliers and partners with access to procurement, logistics, and collaboration tools for doing business with Autoliv. It enables supplier onboarding
-  name: Autoliv Supplier Portal
-  slug: supplier-portal
-artifact_total: 18
+api_count: 0
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -50,6 +28,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/autoliv
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://autoliv.biz
 created: '2026-03-21'
 description: Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.
 features:
@@ -78,11 +60,11 @@ integrations:
 - description: Quality management integrations aligned with the IATF 16949 automotive quality management standard.
   name: IATF 16949 Quality Systems
 layout: provider
-modified: '2026-04-19'
+modified: '2026-07-25'
 name: Autoliv
 nav: Providers
 network: true
-overview: Autoliv publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Automotive Safety, Airbags, Seatbelts, and Safety Systems.
+overview: Autoliv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Automotive Safety, Airbags, Seatbelts, and Safety Systems.
 plans:
 - name: Autoliv Plans Pricing
   plan_count: 1
@@ -103,26 +85,11 @@ press:
 - date: '2026-05-25'
   title: NANGA SYSTEMS' Post
   url: https://www.linkedin.com/posts/nanga-systems_the-recent-press-release-that-autoliv-is-activity-7445439948893184000-nIRn
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Autoliv Rate Limits
   slug: autoliv-rate-limits
-score:
-  band: emerging
-  composite: 17.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 17.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png
 security:
 - kind: domain-security

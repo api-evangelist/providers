@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: VWR's eProcurement integration supports OCI/PunchOut catalog connections and EDI order transmission for enterprise customers using procurement platforms like SAP Ariba, Coupa, Jaggaer, and Oracle Proc
-  name: VWR eProcurement Integration
-  slug: vwr-eprocurement-api
-artifact_total: 6
+api_count: 0
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -75,11 +53,11 @@ jsonld:
   property_count: 15
   slug: vwr-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: VWR International (Avantor)
 nav: Providers
 network: true
-overview: 'VWR International (Avantor) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Laboratory, Life Sciences, Procurement, and Scientific Supplies.
+overview: 'VWR International (Avantor) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Laboratory, Life Sciences, Procurement, and Scientific Supplies.
 
 
   The VWR International (Avantor) catalog on APIs.io includes 1 JSON-LD context.
@@ -106,31 +84,11 @@ press:
 - date: '2026-05-25'
   title: Avantor® Completes Acquisition of VWR
   url: https://www.labmanager.com/avantor-completes-acquisition-of-vwr-5935
-random_paper: 45
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Vwr Rate Limits
   slug: vwr-rate-limits
-score:
-  band: emerging
-  composite: 25.6
-  delta: -0.3
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 8.7
-    discoverability: 67.5
-    governance: 13.2
-    operational_transparency: 31.6
-  previous_composite: 25.9
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/screenshots/vwr-2026-06-20T201153.png
 security:
 - kind: domain-security

@@ -9,39 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 2
 apis:
 - description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
   name: Pump.fun On-Chain Program (Solana)
   slug: onchain-program
-- description: PumpSwap is Pump.fun's native automated market maker on Solana that hosts liquidity for graduated tokens. Integrators trade and provide liquidity by calling the on-chain program from Solana clients.
-  name: PumpSwap AMM
-  slug: pumpswap
 - description: Open-source TypeScript SDK wrapping the Pump.fun Solana program - create-token, buy, sell, and bonding-curve math. Widely used as the de-facto client because Pump.fun does not publish an official SDK.
   name: pump-fun-sdk (Community TypeScript SDK)
   slug: pump-fun-sdk
-- description: 'Pump.fun activity is most commonly consumed via third-party data providers that index Solana - Bitquery, Helius, Jupiter, Tatum, and similar. These expose REST and GraphQL queries over Pump.fun token '
-  name: Third-Party Pump.fun Indexers
-  slug: third-party-indexers
-artifact_total: 10
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -75,35 +51,20 @@ graphqls:
   slug: pump-fun-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pump-fun.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Pump.fun
 nav: Providers
 network: true
-overview: Pump.fun publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Livestreaming.
+overview: Pump.fun publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Livestreaming.
 plans:
 - name: Pump Fun Plans Pricing
   plan_count: 1
   slug: pump-fun-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Pump Fun Rate Limits
   slug: pump-fun-rate-limits
-score:
-  band: emerging
-  composite: 18.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 18.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
 security:
 - kind: domain-security

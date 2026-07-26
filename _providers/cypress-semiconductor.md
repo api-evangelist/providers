@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 7
+api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
   name: ModusToolbox Software Ecosystem
@@ -47,10 +29,7 @@ apis:
 - description: TRAVEO T2G is the automotive Arm Cortex-M microcontroller family inherited from Cypress, now developed under Infineon. Developers program TRAVEO T2G via ModusToolbox using a dedicated PDL, HAL, and BS
   name: TRAVEO T2G Automotive Microcontroller SDK
   slug: traveo-t2g
-- description: Cypress' Semper, HyperFlash, FL-S, and FL-L Serial NOR Flash families became part of Infineon's memory portfolio after the 2020 acquisition. Developer-facing artifacts include the Semper Flash Configu
-  name: Cypress / Infineon NOR Flash Memory
-  slug: nor-flash
-artifact_total: 39
+artifact_total: 38
 common:
 - group: auth
   title: ''
@@ -132,6 +111,10 @@ common:
   title: ''
   type: FinOps
   url: finops/cypress-semiconductor-finops.yml
+- group: company
+  title: ''
+  type: News
+  url: https://www.infineon.com/cms/en/product/memories/nor-flash/
 description: Cypress Semiconductor was a US-based semiconductor company known for its PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth connectivity stacks, NOR Flash memory, CapSense capacitive touch sensing, and Traveo automotive microcontrollers. Infineon Technologies completed its $9.4 billion acquisition of Cypress on April 16, 2020, and Cypress now operates as a wholly owned subsidiary of Infineon. The former Cypress product lines (PSoC, AIROC formerly WICED, NOR Flash, CapSense, Traveo) remain in active development under Infineon branding, and the cypress.com domain redirects to infineon.com. The former Cypress developer surface — including PSoC Creator (legacy) and the modern ModusToolbox embedded development ecosystem — is now hosted on the Infineon GitHub organization (github.com/Infineon) which contains 2,143 public repositories spanning code examples, board support packages, HAL libraries, middleware, and configurators for PSoC, AIROC, Traveo, XMC,
   and AURIX device families. The original Cypress GitHub organization (github.com/cypresssemiconductorco) has been wound down to four placeholder repos that redirect users to the Infineon org. Cypress' APIs are predominantly embedded software APIs (C/C++ HAL, PDL, middleware libraries) rather than HTTP/REST surfaces, consumed by firmware engineers via ModusToolbox, Eclipse, and Visual Studio Code workflows.
 features:
@@ -187,22 +170,22 @@ jsonld:
   property_count: 10
   slug: cypress-semiconductor-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Cypress Semiconductor
 nav: Providers
 network: true
-overview: 'Cypress Semiconductor publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Bluetooth, CapSense, Embedded Systems, and Hardware.
+overview: 'Cypress Semiconductor publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Bluetooth, CapSense, Embedded Systems, and Hardware.
 
 
   The Cypress Semiconductor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cypress Semiconductor''s developer surface includes developer portal, documentation, support, engineering blog, and 16 more developer resources.'
+  Cypress Semiconductor''s developer surface includes developer portal, documentation, support, engineering blog, product news, and 16 more developer resources.'
 plans:
 - name: Cypress Semiconductor Plans Pricing
   plan_count: 1
   slug: cypress-semiconductor-plans-pricing
-random_paper: 36
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Cypress Semiconductor Rate Limits
@@ -224,21 +207,6 @@ rules:
     info: 1
     warn: 7
   slug: cypress-semiconductor-rules
-score:
-  band: thin
-  composite: 42.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 36.8
-    contract_quality: 20.8
-    developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 86.8
-    operational_transparency: 36.8
-  previous_composite: 42.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
 security:
 - kind: domain-security

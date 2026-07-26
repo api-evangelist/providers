@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: 1xgpt is 1X Technologies' open-source world-modeling challenge for humanoid robots, providing dataset tooling, baseline code, and evaluation utilities for training and benchmarking generative video an
-  name: 1X World Model Challenge (1xgpt)
-  slug: 1xgpt-world-model-challenge
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -94,6 +72,10 @@ common:
   title: ''
   type: Blog
   url: https://www.1x.tech/discover
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://github.com/1x-technologies/1xgpt
 created: '2026-05-23'
 description: 1X Technologies is a humanoid robotics company headquartered in Palo Alto, California with vertically integrated manufacturing at the NEO Factory in Hayward. Its product line includes EVE (an earlier wheeled-base humanoid used for commercial pilots) and NEO, the company's bipedal consumer humanoid marketed as the "world's first consumer-ready humanoid robot for the home," with NEO Beta and NEO Gamma development variants and a consumer pre-order program. 1X is an OpenAI portfolio company and collaborates with NVIDIA on training-data generation and on-board model execution. The company maintains a public GitHub organization (github.com/1x-technologies) with 24 repositories, most notably 1xgpt — a world-modeling challenge for humanoid robots — alongside Halodi robot URDF models, ROS2 examples for the EVE robot, and robotics infrastructure tools. 1X does not publish a public hosted API or developer SDK; engagement is via product purchase, research challenges, and open-source code.
 finops:
@@ -102,38 +84,23 @@ finops:
   slug: 1x-technologies-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1x-technologies.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: 1X Technologies
 nav: Providers
 network: true
-overview: '1X Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Robotics, Humanoid Robots, Consumer Robotics, Home Robotics, and Embodied AI.
+overview: '1X Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotics, Humanoid Robots, Consumer Robotics, Home Robotics, and Embodied AI.
 
 
-  1X Technologies'' developer surface includes YouTube channel, engineering blog, and 13 more developer resources.'
+  1X Technologies'' developer surface includes YouTube channel, engineering blog, and 14 more developer resources.'
 plans:
 - name: 1X Technologies Plans Pricing
   plan_count: 1
   slug: 1x-technologies-plans-pricing
-random_paper: 19
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: 1X Technologies Rate Limits
   slug: 1x-technologies-rate-limits
-score:
-  band: emerging
-  composite: 18.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 18.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1x-technologies/refs/heads/main/screenshots/1x-technologies-2026-06-20T162615.png
 security:
 - kind: domain-security

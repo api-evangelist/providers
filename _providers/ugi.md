@@ -9,39 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 1
 apis:
-- description: UGI Utilities provides natural gas and electric distribution services to approximately 700,000 customers in 45 counties in Pennsylvania and one county in Maryland. Residential and commercial customers
-  name: UGI Utilities
-  slug: ugi-utilities
-- description: AmeriGas is the largest retail propane marketer in the United States, serving approximately 1.5 million residential, commercial, industrial, and agricultural customers across all 50 states. A wholly-o
-  name: AmeriGas Propane
-  slug: amerigas
-- description: UGI Energy Services (UGIES) is a competitive natural gas and electricity supplier and midstream service provider for commercial and industrial customers in the northeastern United States. Offers energ
-  name: UGI Energy Services
-  slug: ugi-energy-services
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
   name: UGI International
   slug: ugi-international
-artifact_total: 12
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -51,6 +24,18 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/ugi-corporation
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.ugi.com
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.amerigas.com
+- group: operate
+  title: ''
+  type: Contact
+  url: https://ugies.com
 created: '2026-05-03'
 description: 'UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange.'
 finops:
@@ -72,11 +57,11 @@ jsonld:
   property_count: 13
   slug: ugi-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: UGI Corporation
 nav: Providers
 network: true
-overview: 'UGI Corporation publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Natural Gas, Propane, and Electric.
+overview: 'UGI Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Natural Gas, Propane, and Electric.
 
 
   The UGI Corporation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -100,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Ugi Rate Limits
@@ -114,21 +99,6 @@ rules:
     info: 2
     warn: 3
   slug: ugi-jsonschema-spectral-rules
-score:
-  band: thin
-  composite: 31.3
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 20.8
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 21.1
-  previous_composite: 31.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png
 security:
 - kind: domain-security

@@ -9,39 +9,18 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
   name: Carepatron Clients API (Modeled)
   slug: carepatron-clients-api
-- description: 'Modeled product-area API for scheduling and calendar - appointments, online booking, and reminders. endpointsModeled: true. Carepatron does not publish a developer API for this surface; scheduling aut'
-  name: Carepatron Appointments API (Modeled)
-  slug: carepatron-appointments-api
 - description: 'Modeled product-area API for clinical notes, forms, intakes, templates, and AI-assisted documentation (the AI scribe / note taker). endpointsModeled: true. Carepatron does not publish a developer API '
   name: Carepatron Notes and Documentation API (Modeled)
   slug: carepatron-notes-api
 - description: 'Modeled product-area API for billing - invoices, payments, and insurance claim management. endpointsModeled: true. Carepatron does not publish a developer API for this surface; there is no documented '
   name: Carepatron Billing API (Modeled)
   slug: carepatron-billing-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -79,11 +58,11 @@ created: '2026-07-10'
 description: Carepatron is a cloud-based healthcare practice management and EHR platform for therapists, counselors, psychologists, health coaches, nutritionists, and other practitioners. It brings client records, appointment scheduling and online booking, telehealth, AI-assisted clinical notes and documentation, and billing/invoicing with insurance claims into one workspace, and markets HIPAA/SOC/GDPR compliance across 100,000+ clinicians in 120+ countries. As of this review Carepatron does NOT publish a documented public developer API - its pricing page lists "API (coming soon)" on the Advanced plan, and there is no developer portal, API reference, published base URL, OpenAPI definition, or SDK. Third-party connectivity today is limited to a handful of native integrations (Zoom, accounting software, Google Tag Manager). The APIs listed below are logical/product-area groupings modeled from Carepatron's own feature set; their endpoints are NOT documented and are marked as modeled, not confirmed.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carepatron.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-07-25'
 name: Carepatron
 nav: Providers
 network: true
-overview: 'Carepatron publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Practice Management, EHR, Therapy, and Telehealth.
+overview: 'Carepatron publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Practice Management, EHR, Therapy, and Telehealth.
 
 
   Carepatron''s developer surface includes documentation, pricing, and 6 more developer resources.'
@@ -92,26 +71,6 @@ plans:
   plan_count: 3
   slug: carepatron-plans-pricing
 random_paper: 0
-score:
-  band: emerging
-  composite: 21.6
-  delta: 0.4
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 21.2
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Carepatron Domain Security

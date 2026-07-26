@@ -8,24 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,7 +15,7 @@ agentic_access:
   operation_count: 27
   slug: chickfila-agentic-access
   summary_line: 27 operations · 1 acting
-api_count: 15
+api_count: 14
 apis:
 - description: The Chick-fil-A mobile app provides mobile ordering, in-restaurant pickup, curbside, drive-thru express, and delivery ordering. The app manages Chick-fil-A One loyalty membership, points balance, tier
   name: Chick-fil-A Mobile App
@@ -50,9 +32,6 @@ apis:
 - description: Chick-fil-A eGift Cards in denominations from $5 to $100 are deliverable via email and redeemable in-restaurant, through the mobile app, and via the online ordering platform.
   name: Chick-fil-A eGift Cards
   slug: chick-fil-a-egift-cards
-- description: Chick-fil-A restaurant locator for finding nearby locations with filters for services such as drive-thru, dine-in, delivery, catering, and curbside pickup, plus hours and contact info.
-  name: Chick-fil-A Restaurant Locator
-  slug: chick-fil-a-restaurant-locator
 - description: AWS account inventory and metadata operations.
   name: Chick-fil-A Accounts API
   slug: chickfila-accounts-api
@@ -80,7 +59,7 @@ apis:
 - description: Health and configuration operations.
   name: Chick-fil-A System API
   slug: chickfila-system-api
-artifact_total: 130
+artifact_total: 129
 collections:
 - collection_type: open
   name: Chick-fil-A BOVINE API
@@ -150,6 +129,10 @@ common:
   title: Kustomize Application Feeder Repository
   type: CodeExamples
   url: https://github.com/chick-fil-a/kustomize-application
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.chick-fil-a.com/locations
 created: '2026-05-05'
 description: Chick-fil-A is an American fast-food restaurant chain specializing in chicken sandwiches and operating over 3,000 locations across the United States. Known for customer service and a closed-on-Sunday policy, Chick-fil-A operates the Chick-fil-A One tiered loyalty program, the Chick-fil-A mobile app for ordering and rewards, the catering platform, and eGift Cards.
 examples:
@@ -465,7 +448,7 @@ jsonld:
   property_count: 73
   slug: chickfila-bovine-context
 layout: provider
-modified: '2026-06-02'
+modified: '2026-07-25'
 name: Chick-fil-A
 nav: Providers
 network: true
@@ -475,8 +458,8 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   The Chick-fil-A catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 12 more developer resources.'
-random_paper: 8
+  Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 13 more developer resources.'
+random_paper: 44
 rules:
 - name: Chick-fil-A API Rules
   rule_count: 5
@@ -494,21 +477,6 @@ rules:
     info: 11
     warn: 21
   slug: chickfila-spectral-rules
-score:
-  band: thin
-  composite: 36.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 13.2
-    contract_quality: 63.1
-    developer_ergonomics: 2.2
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 5.3
-  previous_composite: 36.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:
 - kind: domain-security

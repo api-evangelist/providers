@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,14 +17,8 @@ agentic_access:
   operation_count: 8
   slug: university-of-bristol-agentic-access
   summary_line: 8 operations
-api_count: 6
+api_count: 4
 apis:
-- description: OAI-PMH 2.0 interface for the "University of Bristol Open Access Interface Repository", allowing harvesting of metadata for the institution's open-access research publications via the standard OAI-PMH
-  name: Bristol Research Portal OAI-PMH
-  slug: pure-oai-pmh
-- description: data.bris is the University of Bristol's open research data repository, providing public access to multidisciplinary research datasets. Datasets are issued British Library DataCite DOIs and the majori
-  name: data.bris Research Data Repository
-  slug: data-bris
 - description: The data-set API from University of Bristol — 2 operation(s) for data-set.
   name: University of Bristol data-set API
   slug: university-of-bristol-data-set-api
@@ -55,7 +31,7 @@ apis:
 - description: The research-output API from University of Bristol — 2 operation(s) for research-output.
   name: University of Bristol research-output API
   slug: university-of-bristol-research-output-api
-artifact_total: 24
+artifact_total: 22
 common:
 - group: agent
   title: ''
@@ -105,6 +81,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: company
+  title: ''
+  type: About
+  url: https://data.bris.ac.uk/data/
 created: '2026-06-03'
 description: 'The University of Bristol is a public research university in Bristol, United Kingdom, ranked #58 in the QS World University Rankings 2025. Its public developer/API footprint is research-oriented rather than a centralized developer portal: the Bristol Research Portal (Pure, by Elsevier) exposes a documented REST API and an OAI-PMH 2.0 interface over its open-access research outputs, and data.bris is the institution''s open research data repository with DataCite DOIs. Department-level engineering groups (notably HPC and Computer Science) publish open-source code on GitHub, but the university does not operate a single unified institutional API/developer program.'
 examples:
@@ -148,7 +128,7 @@ jsonld:
   property_count: 5
   slug: university-of-bristol-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Bristol
 nav: Providers
 network: true
@@ -158,7 +138,7 @@ overview: 'University of Bristol publishes 4 APIs on the [APIs.io](https://apis.
   The University of Bristol catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Bristol''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  University of Bristol''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
 plans:
 - name: University Of Bristol Plans Pricing
   plan_count: 2
@@ -185,26 +165,6 @@ rules:
     info: 2
     warn: 4
   slug: university-of-bristol-rules
-score:
-  band: developing
-  composite: 45.9
-  delta: -1.5
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 66.8
-    developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 47.4
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png
 security:
 - kind: authentication

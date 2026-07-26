@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
   name: OCC Financial Institution Search API
@@ -38,10 +20,7 @@ apis:
 - description: Search and retrieve enforcement actions taken by the OCC against national banks, federal savings associations, and individuals. Searchable by bank name, person name, city, state, date range, enforceme
   name: OCC Enforcement Actions Search API
   slug: enforcement-actions
-- description: Search for corporate applications submitted to the OCC for bank licensing and other corporate filings, including new bank charters, branches, mergers, and other licensing activities for national banks
-  name: OCC Corporate Applications Search (CAS)
-  slug: corporate-applications
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -91,6 +70,10 @@ common:
   title: ''
   type: FinOps
   url: finops/occ-finops.yml
+- group: company
+  title: ''
+  type: About
+  url: https://apps.occ.gov/CAAS_CATS
 created: '2026-06-13'
 description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, Community Reinvestment Act (CRA) performance evaluations, enforcement actions, and bank licensing and corporate applications information.
 finops:
@@ -104,46 +87,26 @@ jsonld:
   property_count: 1
   slug: occ-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-07-25'
 name: Office of the Comptroller of the Currency (OCC)
 nav: Providers
 network: true
-overview: 'Office of the Comptroller of the Currency (OCC) publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Federal, Regulation, National Banks, and Financial Institutions.
+overview: 'Office of the Comptroller of the Currency (OCC) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Federal, Regulation, National Banks, and Financial Institutions.
 
 
   The Office of the Comptroller of the Currency (OCC) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Office of the Comptroller of the Currency (OCC)''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Office of the Comptroller of the Currency (OCC)''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Occ Plans Pricing
   plan_count: 1
   slug: occ-plans-pricing
-random_paper: 3
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Occ Rate Limits
   slug: occ-rate-limits
-score:
-  band: emerging
-  composite: 26.2
-  delta: -0.4
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 26.6
-  regulatory:
-    applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/screenshots/occ-2026-06-20T190555.png
 security:
 - kind: domain-security

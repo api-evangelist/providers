@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
 api_count: 1
 apis:
 - description: API for the OCUDU Ecosystem Foundation, providing programmatic access to the open collaboration platform for Radio Access Network reference implementations and AI-based RAN algorithms.
@@ -62,7 +44,7 @@ finops:
   slug: ocudu-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ocudu.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-25'
 name: OCUDU Ecosystem Foundation
 nav: Providers
 network: true
@@ -74,26 +56,11 @@ plans:
 - name: Ocudu Plans Pricing
   plan_count: 3
   slug: ocudu-plans-pricing
-random_paper: 34
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Ocudu Rate Limits
   slug: ocudu-rate-limits
-score:
-  band: emerging
-  composite: 21.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 21.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocudu/refs/heads/main/screenshots/ocudu-2026-06-20T190617.png
 security:
 - kind: domain-security

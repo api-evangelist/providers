@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,9 +70,6 @@ apis:
 - description: Native multi-chain crypto wallet built into the Brave browser. Supports EVM and Solana networks; integrates with WalletConnect and dApps.
   name: Brave Wallet
   slug: wallet
-- description: Privacy-preserving news feed integrated into the browser's new tab page, sourced from a curated set of publisher feeds.
-  name: Brave News
-  slug: news
 - description: The Images API from Brave — 1 operation(s) for images.
   name: Brave Images API
   slug: brave-browser-images-api
@@ -115,6 +94,9 @@ apis:
 - description: The Web API from Brave — 1 operation(s) for web.
   name: Brave Web API
   slug: brave-browser-web-api
+- description: Privacy-preserving news feed integrated into the browser's new tab page, sourced from a curated set of publisher feeds.
+  name: Brave News
+  slug: news
 artifact_total: 34
 collections:
 - collection_type: open
@@ -173,7 +155,7 @@ finops:
   slug: brave-browser-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brave-browser.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Brave
 nav: Providers
 network: true
@@ -185,26 +167,11 @@ plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
   slug: brave-browser-plans-pricing
-random_paper: 19
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Brave Browser Rate Limits
   slug: brave-browser-rate-limits
-score:
-  band: thin
-  composite: 33.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 53.3
-    developer_ergonomics: 21.7
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 33.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/screenshots/brave-browser-2026-06-20T173637.png
 security:
 - kind: authentication

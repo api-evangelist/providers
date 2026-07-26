@@ -9,33 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
-apis:
-- description: The primary Boomy creation surface, a browser-based app for generating, editing, and releasing AI-composed songs. There is no documented public REST API; the web app is the supported integration point
-  name: Boomy Web App
-  slug: web-app
-- description: Built-in distribution that ships Boomy-created songs to major streaming services (Spotify, Apple Music, Amazon Music, YouTube Music, TikTok, and others) and pays creators a share of streaming royaltie
-  name: Boomy Distribution
-  slug: distribution
-artifact_total: 6
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -77,11 +52,11 @@ finops:
   slug: boomy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boomy.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Boomy
 nav: Providers
 network: true
-overview: 'Boomy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Music, Generative, Consumer, Streaming Distribution, and Royalties.
+overview: 'Boomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Music, Generative, Consumer, Streaming Distribution, and Royalties.
 
 
   Boomy''s developer surface includes signup flow and 6 more developer resources.'
@@ -89,26 +64,11 @@ plans:
 - name: Boomy Plans Pricing
   plan_count: 1
   slug: boomy-plans-pricing
-random_paper: 40
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Boomy Rate Limits
   slug: boomy-rate-limits
-score:
-  band: emerging
-  composite: 22.9
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomy/refs/heads/main/screenshots/boomy-2026-06-20T173609.png
 security:
 - kind: domain-security

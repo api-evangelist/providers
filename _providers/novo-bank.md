@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 3
 apis:
 - description: Novo business checking account data - account identity, balances, and auth. Novo does not expose a public first-party Accounts API; account connectivity is provided through the Plaid aggregator (Asset
   name: Novo Accounts
@@ -38,10 +20,7 @@ apis:
 - description: Novo money movement - invoicing, ACH transfers, and faster payouts (Express ACH). These capabilities are delivered through the Novo app and partner rails; no public payments API is documented for thir
   name: Novo Payments
   slug: novo-payments
-- description: Productized, prebuilt integrations that connect a Novo account to business tools - Stripe, Shopify, Square, Amazon, Etsy, eBay, Wise, QuickBooks, Xero, Slack, and DocuSign. These are configured in-app
-  name: Novo Integrations
-  slug: novo-integrations
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: Novo API
@@ -87,7 +66,7 @@ finops:
   slug: novo-bank-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novo-bank.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-07-25'
 name: Novo
 nav: Providers
 network: true
@@ -99,31 +78,11 @@ plans:
 - name: Novo Bank Plans Pricing
   plan_count: 4
   slug: novo-bank-plans-pricing
-random_paper: 40
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Novo Bank Rate Limits
   slug: novo-bank-rate-limits
-score:
-  band: emerging
-  composite: 29.2
-  delta: -0.9
-  facets:
-    commercial_clarity: 47.4
-    contract_quality: 37.7
-    developer_ergonomics: 8.7
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 30.1
-  regulatory:
-    applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/screenshots/novo-bank-2026-06-20T190435.png
 security:
 - kind: domain-security

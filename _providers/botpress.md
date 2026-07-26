@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -37,9 +19,6 @@ agentic_access:
   summary_line: 31 operations · 19 acting
 api_count: 8
 apis:
-- description: REST API for managing bots, integrations, conversations, users, and analytics on Botpress Cloud. Authentication via personal access tokens or workspace API keys.
-  name: Botpress Cloud Management API
-  slug: cloud-management
 - description: Webhook-based REST API for sending and receiving chat messages with deployed Botpress bots. Endpoint pattern is https://chat.botpress.cloud/{webhookUrl}/messages.
   name: Botpress Chat API
   slug: chat
@@ -61,6 +40,9 @@ apis:
 - description: The Users API from Botpress — 2 operation(s) for users.
   name: Botpress Users API
   slug: botpress-users-api
+- description: REST API for managing bots, integrations, conversations, users, and analytics on Botpress Cloud. Authentication via personal access tokens or workspace API keys.
+  name: Botpress Cloud Management API
+  slug: cloud-management
 artifact_total: 16
 collections:
 - collection_type: open
@@ -123,7 +105,7 @@ finops:
   slug: botpress-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/botpress.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-07-25'
 name: Botpress
 nav: Providers
 network: true
@@ -135,26 +117,11 @@ plans:
 - name: Botpress Plans Pricing
   plan_count: 6
   slug: botpress-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Botpress Rate Limits
   slug: botpress-rate-limits
-score:
-  band: thin
-  composite: 37.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 47.4
-    contract_quality: 51.3
-    developer_ergonomics: 19.6
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 37.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/screenshots/botpress-2026-06-20T173622.png
 security:
 - kind: authentication

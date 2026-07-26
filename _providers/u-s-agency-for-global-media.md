@@ -9,36 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 1
 apis:
-- description: The United States Agency for Global Media (USAGM) is an independent federal agency that oversees a network of media organizations providing news and information to audiences around the world in suppor
-  name: U.S. Agency for Global Media
-  slug: u-s-agency-for-global-media
-- description: USAGM press freedom data and resources published on GitHub.
-  name: USAGM Press Freedom
-  slug: usagm-press-freedom
 - description: 'The Open Technology Fund (OTF) is a U.S. government-funded independent nonprofit that supports the development of open-source internet freedom technologies to advance human rights and open societies. '
   name: Open Technology Fund
   slug: open-technology-fund
-artifact_total: 23
+artifact_total: 21
 common:
 - group: auth
   title: ''
@@ -76,6 +52,10 @@ common:
   title: ''
   type: Blog
   url: https://www.usagm.gov/feed/
+- group: company
+  title: ''
+  type: News
+  url: https://github.com/usagm/usagm-press-freedom
 created: '2024-11-21'
 description: The U.S. Agency for Global Media (USAGM) is an independent federal agency that oversees a network of international media organizations aimed at providing news and information to audiences around the world in support of freedom and democracy. These media outlets include Voice of America (VOA), Radio Free Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), Office of Cuba Broadcasting (OCB), Middle East Broadcasting Networks (MBN), and the Open Technology Fund (OTF). Together these entities operate in over 64 languages and reach approximately 427 million people weekly, producing more than 3,000 hours of original programming per week in regions where access to a free press is limited.
 features:
@@ -109,41 +89,26 @@ jsonld:
   property_count: 19
   slug: u-s-agency-for-global-media-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: U.S. Agency for Global Media
 nav: Providers
 network: true
-overview: 'U.S. Agency for Global Media publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Media, Broadcasting, International, and Press Freedom.
+overview: 'U.S. Agency for Global Media publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Media, Broadcasting, International, and Press Freedom.
 
 
   The U.S. Agency for Global Media catalog on APIs.io includes 1 JSON-LD context.
 
 
-  U.S. Agency for Global Media''s developer surface includes engineering blog and 8 more developer resources.'
+  U.S. Agency for Global Media''s developer surface includes engineering blog, product news, and 8 more developer resources.'
 plans:
 - name: U S Agency For Global Media Plans Pricing
   plan_count: 3
   slug: u-s-agency-for-global-media-plans-pricing
-random_paper: 2
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: U S Agency For Global Media Rate Limits
   slug: u-s-agency-for-global-media-rate-limits
-score:
-  band: emerging
-  composite: 28.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 20.8
-    developer_ergonomics: 2.2
-    discoverability: 87.5
-    governance: 13.2
-    operational_transparency: 36.8
-  previous_composite: 28.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/screenshots/u-s-agency-for-global-media-2026-06-20T195915.png
 security:
 - kind: domain-security

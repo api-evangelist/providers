@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,14 +17,11 @@ agentic_access:
   operation_count: 11
   slug: department-of-the-interior-agentic-access
   summary_line: 11 operations
-api_count: 15
+api_count: 14
 apis:
 - description: Department-wide open-data catalog at data.doi.gov, including datasets from all Interior bureaus.
   name: DOI Open Data Catalog
   slug: doi-open-data
-- description: Bureau of Land Management public-land data, including the Land Records System, mining claims, and recreation areas.
-  name: BLM Public Lands Data
-  slug: blm-public-lands
 - description: U.S. Fish and Wildlife Service data on listed species under the Endangered Species Act and the National Wildlife Refuge System.
   name: USFWS Environmental Conservation Online System (ECOS) API
   slug: usfws-environmental-conservation-api
@@ -82,7 +61,7 @@ apis:
 - description: Visitor centers
   name: Department of the Interior VisitorCenters API
   slug: department-of-the-interior-visitorcenters-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: National Park Service (NPS) Data API
@@ -153,7 +132,7 @@ jsonld:
   property_count: 4
   slug: doi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-07-25'
 name: Department of the Interior
 nav: Providers
 network: true
@@ -168,7 +147,7 @@ plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
   slug: department-of-the-interior-plans-pricing
-random_paper: 20
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Department Of The Interior Rate Limits
@@ -190,21 +169,6 @@ rules:
     info: 0
     warn: 0
   slug: doi-rules
-score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 56.1
-    developer_ergonomics: 28.3
-    discoverability: 55.0
-    governance: 73.7
-    operational_transparency: 36.8
-  previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:
 - kind: authentication

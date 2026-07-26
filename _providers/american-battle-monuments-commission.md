@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: The ABMC We Remember portal provides a searchable database of more than 200,000 fallen U.S. service members buried or commemorated at American military cemeteries abroad. Includes World War II Registr
-  name: ABMC We Remember Burial Search
-  slug: we-remember
-artifact_total: 13
+api_count: 0
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -69,11 +47,11 @@ finops:
   slug: american-battle-monuments-commission-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/american-battle-monuments-commission.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-07-25'
 name: American Battle Monuments Commission
 nav: Providers
 network: true
-overview: 'American Battle Monuments Commission publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, Veterans, World War II, and Memorial.
+overview: 'American Battle Monuments Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Military, Veterans, World War II, and Memorial.
 
 
   American Battle Monuments Commission''s developer surface includes developer portal and 3 more developer resources.'
@@ -81,31 +59,11 @@ plans:
 - name: American Battle Monuments Commission Plans Pricing
   plan_count: 3
   slug: american-battle-monuments-commission-plans-pricing
-random_paper: 18
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: American Battle Monuments Commission Rate Limits
   slug: american-battle-monuments-commission-rate-limits
-score:
-  band: emerging
-  composite: 21.5
-  delta: -1.5
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 23.0
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-battle-monuments-commission/refs/heads/main/screenshots/american-battle-monuments-commission-2026-06-20T171913.png
 security:
 - kind: domain-security

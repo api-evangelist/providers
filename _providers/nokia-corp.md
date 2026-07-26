@@ -8,24 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
 api_count: 6
 apis:
 - description: CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN functions through standardized northbound interfaces. Includes Quality on Demand, Device Location (Verification, Retrieval), Ge
@@ -209,7 +191,7 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   Platform that enables operators to expose their own network capabilities to developers. Nokia also operates Nokia Technologies (licensing), the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3 tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-07-25'
 name: Nokia
 nav: Providers
 network: true
@@ -217,22 +199,7 @@ overview: 'Nokia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nokia''s developer surface includes developer portal, documentation, getting-started guide, signup flow, tooling, engineering blog, YouTube channel, and 32 more developer resources.'
-random_paper: 42
-score:
-  band: emerging
-  composite: 21.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 21.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/screenshots/nokia-corp-2026-06-20T190352.png
 security:
 - kind: domain-security

@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,11 +16,8 @@ agentic_access:
   operation_count: 7
   slug: national-university-of-colombia-agentic-access
   summary_line: 7 operations
-api_count: 4
+api_count: 3
 apis:
-- description: Datos Abiertos Universidad Nacional de Colombia is the institution's open data portal publishing primary, interoperable datasets for public reuse. The portal resolves publicly but does not advertise a
-  name: UNAL Open Data Portal
-  slug: open-data
 - description: OAI-PMH 2.0 metadata harvesting interface.
   name: National University of Colombia OAI-PMH API
   slug: national-university-of-colombia-oai-pmh-api
@@ -48,7 +27,7 @@ apis:
 - description: Faceted search across archived objects.
   name: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
-artifact_total: 19
+artifact_total: 18
 common:
 - group: agent
   title: ''
@@ -86,6 +65,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://datosabiertos.unal.edu.co/
 created: '2026-06-03'
 description: 'The National University of Colombia (Universidad Nacional de Colombia, UNAL) is the country''s largest public research university, ranked #219 in the QS World University Rankings 2025. UNAL maintains an open-data portal and a DSpace-based institutional repository, but does not publish a formal, documented public developer portal or REST API program. The most accessible programmatic surface is the OAI-PMH interface exposed by its institutional repository, alongside an open-data portal and an official GitHub organization with limited public code.'
 examples:
@@ -123,7 +106,7 @@ jsonld:
   property_count: 3
   slug: national-university-of-colombia-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: National University of Colombia
 nav: Providers
 network: true
@@ -133,12 +116,12 @@ overview: 'National University of Colombia publishes 3 APIs on the [APIs.io](htt
   The National University of Colombia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  National University of Colombia''s developer surface includes GitHub presence and 8 more developer resources.'
+  National University of Colombia''s developer surface includes GitHub presence and 9 more developer resources.'
 plans:
 - name: National University Of Colombia Plans Pricing
   plan_count: 2
   slug: national-university-of-colombia-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: National University Of Colombia Rate Limits
@@ -160,26 +143,6 @@ rules:
     info: 0
     warn: 3
   slug: national-university-of-colombia-rules
-score:
-  band: thin
-  composite: 40.2
-  delta: -2.9
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 65.2
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 43.1
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: National University Of Colombia Domain Security

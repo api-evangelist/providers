@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
 api_count: 6
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -97,7 +79,7 @@ created: '2026-07-04'
 description: Qualia is a digital real estate closing platform for the title, escrow, and settlement industry, connecting title agents, lenders, real estate agents, and homebuyers on a single system for managing closings end to end. The Qualia API is an enterprise-grade, cloud-based GraphQL read-write API with a developer hub and sandbox. It lets real estate businesses and PropTech companies place and track title orders, send and receive messages and documents, and pull order, accounting, and contact data for custom reporting and to connect accounting, CRM, and BI systems. Access is partner-gated behind a secure authorization framework (capability gates, authorized organizations, HTTP authentication, and rate limiting); Qualia does not publish an open, unauthenticated developer portal, so the API areas below are modeled from Qualia's public product and press material rather than from a public GraphQL schema.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualia-title.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-07-25'
 name: Qualia
 nav: Providers
 network: true
@@ -109,26 +91,11 @@ plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
   slug: qualia-title-plans-pricing
-random_paper: 4
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Qualia Title Rate Limits
   slug: qualia-title-rate-limits
-score:
-  band: emerging
-  composite: 21.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 21.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Qualia Title Domain Security

@@ -8,30 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Corporate web presence for ManTech International. No public developer API, OpenAPI specification, SDK, or status page is published. Public surfaces are limited to corporate, capability, newsroom, care
-  name: ManTech International
-  slug: mantech-website
-artifact_total: 2
+api_count: 0
+artifact_total: 1
 common:
 - group: auth
   title: ''
@@ -77,27 +55,12 @@ created: '2026-05-23'
 description: ManTech International is a Herndon, Virginia-based federal services contractor providing cybersecurity, data and AI, digital transformation, and intelligent engineering capabilities to U.S. defense, intelligence, and federal civilian agencies. Founded in 1968 and publicly traded on NASDAQ as MANT until 2022, the company was acquired by The Carlyle Group in April 2022 in an all-cash take-private transaction valued at approximately $4.2 billion and now operates as a Carlyle portfolio company. ManTech holds positions on major federal contract vehicles including Alliant 2/3, OASIS+, SeaPort NxG, CIO-SP3, T4NG, and ICON, and does not publish any developer-facing API or public OpenAPI surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mantech.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: ManTech International
 nav: Providers
 network: true
-overview: ManTech International publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Cybersecurity, Federal Services, and Information Technology.
-random_paper: 22
-score:
-  band: minimal
-  composite: 8.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 8.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+overview: ManTech International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Cybersecurity, Federal Services, and Information Technology.
+random_paper: 43
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantech/refs/heads/main/screenshots/mantech-2026-06-20T184929.png
 security:
 - kind: domain-security

@@ -9,33 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: true
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: true
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-23'
-api_count: 2
-apis:
-- description: USAA exposes member-permissioned financial data — account metadata, current and available balances, and transaction history for checking, savings, credit, and investment accounts — through consumer-pe
-  name: USAA Open Banking via Aggregators
-  slug: open-banking-aggregation
-- description: USAA maintains a small set of public open-source projects on GitHub focused on internal developer tooling and cybersecurity rather than published product APIs. Notable repositories include sonar-quali
-  name: USAA Open Source GitHub Projects
-  slug: github-open-source
-artifact_total: 13
+api_count: 0
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -121,11 +96,11 @@ jsonld:
   property_count: 12
   slug: us-usaa-context
 layout: provider
-modified: '2026-07-23'
+modified: '2026-07-25'
 name: USAA
 nav: Providers
 network: true
-overview: 'USAA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Insurance, Military Finance, and Open Banking.
+overview: 'USAA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Insurance, Military Finance, and Open Banking.
 
 
   The USAA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -152,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Responsible Use of Artificial Intelligence
   url: https://www.usaa.com/about/artificial-intelligence/
-random_paper: 18
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Usaa Rate Limits
@@ -166,26 +141,6 @@ rules:
     info: 2
     warn: 3
   slug: usaa-jsonschema-spectral-rules
-score:
-  band: thin
-  composite: 37.3
-  delta: 8.2
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 19.6
-    discoverability: 80.0
-    governance: 73.7
-    operational_transparency: 36.8
-  previous_composite: 29.1
-  regulatory:
-    applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:
 - kind: authentication

@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 6
+api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
   name: Repolinter
@@ -44,10 +26,7 @@ apis:
 - description: The OSPOlogy program provides monthly community webinars, working group meetings, and collaborative sessions focused on OSPO practices and challenges. It serves as the primary community engagement pla
   name: OSPOlogy
   slug: ospology
-- description: An open source career development framework defining roles, skills, and progression paths for OSPO professionals. Covers job functions from open source program manager to legal counsel, providing orga
-  name: OSPO Career Path
-  slug: ospo-career-path
-artifact_total: 30
+artifact_total: 29
 common:
 - group: auth
   title: ''
@@ -89,6 +68,10 @@ common:
   title: ''
   type: Blog
   url: https://todogroup.org/blog/
+- group: company
+  title: ''
+  type: Careers
+  url: https://github.com/todogroup/ospo-career-path
 created: '2026-03-16'
 description: The TODO Group is an open community of practitioners under the Linux Foundation who collaborate on best practices, tools, and guidance for running successful Open Source Program Offices (OSPOs). It provides open source tooling including Repolinter for repository linting, the OSPO Landscape mapping OSPO adopters and tools, comprehensive OSPO guides and case studies, and OSPOlogy community programs. The TODO Group serves organizations managing enterprise open source strategies across 120+ member organizations.
 features:
@@ -125,22 +108,22 @@ integrations:
 - description: Collaboration with Open Source Security Foundation on best practices for open source security and compliance.
   name: OpenSSF
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: TODO Group
 nav: Providers
 network: true
-overview: 'TODO Group publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Linux Foundation, Open Source, and OSPO.
+overview: 'TODO Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Linux Foundation, Open Source, and OSPO.
 
 
   The TODO Group catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  TODO Group''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  TODO Group''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Todo Group Plans Pricing
   plan_count: 3
   slug: todo-group-plans-pricing
-random_paper: 20
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Todo Group Rate Limits
@@ -154,21 +137,6 @@ rules:
     info: 5
     warn: 16
   slug: todo-group-spectral-rules
-score:
-  band: emerging
-  composite: 29.6
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 75.0
-    governance: 60.5
-    operational_transparency: 36.8
-  previous_composite: 29.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:
 - kind: domain-security

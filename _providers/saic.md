@@ -8,30 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: SAIC's corporate website is the public-facing surface for the company's federal services portfolio (Mission IT, Enterprise IT, Engineering Services, Professional Services, Mission Integration). No dev
-  name: SAIC Corporate
-  slug: saic-website
-artifact_total: 2
+api_count: 0
+artifact_total: 1
 common:
 - group: auth
   title: ''
@@ -66,30 +44,15 @@ description: Science Applications International Corporation (SAIC) is a Reston, 
   and platforms are delivered under federal contract to government customers rather than as externally-consumable developer products.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saic.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Science Applications International Corporation (SAIC)
 nav: Providers
 network: true
-overview: 'Science Applications International Corporation (SAIC) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Federal IT, Digital Engineering, and Artificial Intelligence.
+overview: 'Science Applications International Corporation (SAIC) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Federal IT, Digital Engineering, and Artificial Intelligence.
 
 
   Science Applications International Corporation (SAIC)''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 8
-score:
-  band: minimal
-  composite: 8.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 8.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 38
 screenshot: https://raw.githubusercontent.com/api-evangelist/saic/refs/heads/main/screenshots/saic-2026-06-20T193330.png
 security:
 - kind: domain-security

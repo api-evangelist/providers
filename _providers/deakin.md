@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -35,17 +17,11 @@ agentic_access:
   operation_count: 157
   slug: deakin-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 13
+api_count: 11
 apis:
 - description: 'Deakin Research Online is the university''s research repository, now hosted on the figshare platform. It exposes research-output metadata for harvesting via the OAI-PMH protocol. The DRO host issues a '
   name: Deakin Research Online (DRO) OAI-PMH
   slug: dro-oai
-- description: A public portal for Deakin researchers and research groups to share data and collected materials with the Australian research community. It is a web-delivered data-sharing platform; no documented publ
-  name: Deakin Data Portal
-  slug: data-portal
-- description: Deakin operates a Shibboleth/SAML2 identity provider for single sign-on across university systems. The IdP metadata endpoint is publicly reachable, but this is federated SSO infrastructure for relying
-  name: Deakin Single Sign-On (Shibboleth/SAML2 IdP)
-  slug: sso
 - description: The altmetric API from Deakin University — 1 operation(s) for altmetric.
   name: Deakin University altmetric API
   slug: deakin-altmetric-api
@@ -76,7 +52,7 @@ apis:
 - description: The symplectic API from Deakin University — 5 operation(s) for symplectic.
   name: Deakin University symplectic API
   slug: deakin-symplectic-api
-artifact_total: 33
+artifact_total: 31
 common:
 - group: agent
   title: ''
@@ -126,6 +102,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://dataportal.deakin.edu.au/
 created: '2026-06-03'
 description: 'Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne, ranked #197 in the QS World University Rankings 2025. Like most universities, Deakin operates an integration-heavy IT estate (its SSO is a Shibboleth/SAML2 identity provider) but does not publish a public, self-service developer API portal. Its confirmed public, machine-readable footprint is concentrated in research infrastructure: the Deakin Research Online (DRO) repository runs on figshare (which exposes a public OAI-PMH and REST API), a public Data Portal for sharing research datasets, and an active GitHub organization. Most catalogued surfaces below are third-party-hosted or gated rather than first-party, documented APIs.'
 examples:
@@ -172,7 +152,7 @@ jsonld:
   property_count: 8
   slug: deakin-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Deakin University
 nav: Providers
 network: true
@@ -182,12 +162,12 @@ overview: 'Deakin University publishes 10 APIs on the [APIs.io](https://apis.io/
   The Deakin University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Deakin University''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Deakin University''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Deakin Plans Pricing
   plan_count: 2
   slug: deakin-plans-pricing
-random_paper: 8
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Deakin Rate Limits
@@ -214,26 +194,6 @@ scopes:
   scope_count: 1
   slug: deakin-scopes
   summary_line: 1 scope · authorizationCode
-score:
-  band: developing
-  composite: 48.3
-  delta: 1.8
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 70.0
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 46.5
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png
 security:
 - kind: authentication

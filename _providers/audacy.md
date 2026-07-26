@@ -8,42 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 5
-apis:
-- description: Audacy.com and the Audacy mobile apps deliver live radio, podcasts, sports play-by-play, and exclusive stations across iOS, Android, and connected devices. The product is a consumer streaming surface,
-  name: Audacy Streaming App
-  slug: audacy-streaming-app
-- description: Audacy operates one of the largest podcast networks in the United States, reporting approximately 2 billion annual downloads and 44 million monthly listeners across flagship shows including Office Lad
-  name: Audacy Podcast Network
-  slug: audacy-podcast-network
-- description: 'Amperwave is Audacy''s cloud-based audio hosting, distribution, and monetization platform serving broadcasters and audio publishers outside Audacy itself. The platform packages three products: Amperwav'
-  name: Amperwave
-  slug: amperwave
-- description: Audacy's advertising business sells across the company's broadcast radio, digital streaming, podcast, and event inventory, reaching a stated 200 million monthly listeners. Buying happens through Audac
-  name: Audacy Advertising Solutions
-  slug: audacy-advertising-solutions
-- description: 'Audacy is the second-largest radio broadcaster in the United States, operating approximately 230 radio brands across 47 media markets in formats that include news, sports, talk, and every major music '
-  name: Audacy Radio Stations Network
-  slug: audacy-radio-stations-network
-artifact_total: 20
+api_count: 0
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -105,6 +71,18 @@ common:
   title: ''
   type: Partners
   url: ''
+- group: operate
+  title: ''
+  type: Contact
+  url: https://amperwave.com
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.audacyinc.com/podcasts
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.audacy.com/stations
 created: '2026-05-23'
 description: Audacy, Inc. is a U.S. multi-platform audio and entertainment company that operates the country's second-largest radio group alongside the Audacy streaming app, a major podcast network, and the Amperwave audio ad-tech and distribution platform. Formerly known as Entercom (rebranded to Audacy on March 30, 2021), the company filed prepackaged Chapter 11 bankruptcy on January 7, 2024 and emerged on September 30, 2024 as a privately held company after equitizing approximately $1.6 billion of funded debt and reducing total debt from roughly $1.9 billion to $350 million. The current portfolio spans ~230 radio brands across 47 markets, 200+ million monthly listeners, ~2 billion annual podcast downloads, and the Cadence13, Pineapple Street Studios, Podcorn, and BetMGM Network (formerly BetQL) audio brands. There is no public developer API, no published OpenAPI, and no GitHub organization with public repositories; integration is brokered through ad sales, programmatic marketplaces, and
   the Amperwave platform.
@@ -139,30 +117,15 @@ integrations:
   source: https://amperwave.com
   value: Audacy-owned audio hosting and ad-tech platform offered to third-party broadcasters
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Audacy
 nav: Providers
 network: true
-overview: 'Audacy publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Radio, Podcasts, Streaming, and Broadcasting.
+overview: 'Audacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Radio, Podcasts, Streaming, and Broadcasting.
 
 
-  Audacy''s developer surface includes developer portal, engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 19
-score:
-  band: emerging
-  composite: 17.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 17.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  Audacy''s developer surface includes developer portal, engineering blog, YouTube channel, and 12 more developer resources.'
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/audacy/refs/heads/main/screenshots/audacy-2026-06-20T172543.png
 security:
 - kind: domain-security

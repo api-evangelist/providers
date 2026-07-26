@@ -9,36 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 1
 apis:
 - description: REST API for CisionOne that allows connection of media monitoring data with internal tools and BI platforms. Provides access to mention streams, aggregated analytics, and media coverage data. Response
   name: CisionOne API
   slug: cisionone-api
-- description: API providing access to Cision's media contacts database with over 1.4 million journalist, blogger, and influencer contacts for targeted PR outreach and media list management.
-  name: Cision Media Database API
-  slug: media-database-api
-- description: 'API for distributing press releases through PR Newswire''s wire service, enabling programmatic submission, distribution management, and delivery confirmation for press releases across local, national, '
-  name: PR Newswire Distribution API
-  slug: pr-distribution-api
-artifact_total: 8
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -88,6 +64,10 @@ common:
   title: ''
   type: FinOps
   url: finops/cision-finops.yml
+- group: company
+  title: ''
+  type: News
+  url: https://www.cision.com/pr-distribution-and-placement/prnewswire/
 created: '2026-06-13'
 description: Cision is an AI-powered PR and earned media software platform offering REST APIs for media database access, press release distribution, media monitoring, analytics, and influencer identification. CisionOne provides a REST API that connects media monitoring data with internal tools, BI platforms, and reporting systems.
 finops:
@@ -101,7 +81,7 @@ jsonld:
   property_count: 5
   slug: cision-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-07-25'
 name: Cision
 nav: Providers
 network: true
@@ -111,31 +91,16 @@ overview: 'Cision publishes 1 API on the [APIs.io](https://apis.io/) network: Ci
   The Cision catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Cision''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Cision''s developer surface includes documentation, engineering blog, pricing, product news, and 9 more developer resources.'
 plans:
 - name: Cision Plans Pricing
   plan_count: 5
   slug: cision-plans-pricing
-random_paper: 33
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
   slug: cision-rate-limits
-score:
-  band: thin
-  composite: 39.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 47.2
-    developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 42.1
-  previous_composite: 39.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:
 - kind: domain-security

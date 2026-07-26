@@ -8,30 +8,8 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: A single, honestly MODELED logical surface representing what a Custom Ink developer API could cover - a Products catalog (garment styles, colors, sizes), a Design capability (Design Lab artwork placem
-  name: Custom Ink Storefront API (Modeled)
-  slug: customink-api-storefront-api
-artifact_total: 3
+api_count: 0
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -73,30 +51,15 @@ created: '2026-07-11'
 description: Custom Ink is a direct-to-consumer custom apparel and promotional products company that lets groups design and order custom t-shirts, hoodies, hats, drinkware, bags, and other branded merchandise through an online Design Lab, instant price quotes, and full-service order fulfillment. As of the review date Custom Ink does not publish a public or partner developer API - there is no documented, self-serve programmatic surface for products, designs, quotes, or orders. An internal API host (api.customink.com) backs Custom Ink's own web and mobile storefront but is private and undocumented, secured behind AWS API Gateway and Cognito. Partnerships are handled as commercial/business relationships rather than technical developer integrations. This entry is a gated stub - the logical APIs below are honestly MODELED from Custom Ink's public product surface, not sourced from published API documentation, and no endpoints are fabricated as if real.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/customink-api.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-07-25'
 name: Custom Ink
 nav: Providers
 network: true
-overview: 'Custom Ink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, T-Shirts, Print on Demand, Promotional Products, and eCommerce.
+overview: 'Custom Ink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, T-Shirts, Print on Demand, Promotional Products, and eCommerce.
 
 
   Custom Ink''s developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 22
-score:
-  band: minimal
-  composite: 13.0
-  delta: 0.0
-  facets:
-    commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+random_paper: 25
 security:
 - kind: domain-security
   name: Customink Api Domain Security

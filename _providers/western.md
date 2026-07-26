@@ -9,36 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 2
 apis:
 - description: DSpace 8.3 REST (HAL) API for Western University's Open Repository, Scholarship@Western, hosted on the national Scholaris service by Scholars Portal. Exposes communities, collections, items, bitstream
   name: Scholaris (Scholarship@Western) DSpace REST API
   slug: scholaris-rest
-- description: OAI-PMH 2.0 metadata harvesting endpoint for Western University's Open Repository (DSpace 8 on Scholaris). Supports the standard OAI verbs (Identify, ListRecords, ListSets, GetRecord, etc.) for third-
-  name: Scholarship@Western OAI-PMH
-  slug: scholaris-oai
 - description: Western Technology Services operates an institutional Single Sign-On service supporting SAML2, OAuth, OpenID Connect (OIDC), and CAS for authenticating users against their Western institutional accoun
   name: Western Single Sign-On (SAML2 / OAuth / OIDC / CAS)
   slug: sso
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -76,6 +55,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: company
+  title: ''
+  type: About
+  url: https://uwo.scholaris.ca/home
 created: '2026-06-03'
 description: 'Western University is a public research university in London, Ontario, Canada, ranked #120 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on Western Libraries: the institutional repository Scholarship@Western migrated in 2025 to Scholaris, a national shared DSpace 8 service hosted by Scholars Portal, which exposes a live DSpace REST API and an OAI-PMH metadata harvesting endpoint. Western Technology Services also operates an institutional Single Sign-On service supporting SAML2, OAuth, OpenID Connect, and CAS, but it is gated behind institutional affiliation rather than self-service. Western does not publish an official open course/timetable or open-data API; timetable data is documented only as scrape targets and via unofficial third-party projects.'
 finops:
@@ -89,41 +72,26 @@ jsonld:
   property_count: 9
   slug: western-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Western University
 nav: Providers
 network: true
-overview: 'Western University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Canada, and Library.
+overview: 'Western University publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Canada, and Library.
 
 
   The Western University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Western University''s developer surface includes authentication and 8 more developer resources.'
+  Western University''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Western Plans Pricing
   plan_count: 2
   slug: western-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Western Rate Limits
   slug: western-rate-limits
-score:
-  band: emerging
-  composite: 23.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png
 security:
 - kind: domain-security

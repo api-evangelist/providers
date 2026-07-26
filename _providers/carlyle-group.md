@@ -9,36 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 3
+api_count: 2
 apis:
-- description: LP Connect is Carlyle's secure portal for Limited Partners and their advisors to access fund reporting, capital calls and distributions, investor statements, tax documents, and ad-hoc diligence materi
-  name: Carlyle LP Connect Portal
-  slug: lp-connect
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
   name: Carlyle Direct Lending Investor Portal
   slug: direct-lending-portal
 - description: The Carlyle Global Portfolio Solutions Portal (resources.carlyle.com) is the secure workspace used by Carlyle's portfolio operations team, portfolio company executives, and advisors to share tools, te
   name: Carlyle Global Portfolio Solutions Portal
   slug: global-portfolio-solutions
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -112,11 +91,11 @@ finops:
   slug: carlyle-group-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carlyle-group.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: The Carlyle Group
 nav: Providers
 network: true
-overview: The Carlyle Group publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Asset Management, Direct Lending, Global Credit, and Investment Firm.
+overview: The Carlyle Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Asset Management, Direct Lending, Global Credit, and Investment Firm.
 plans:
 - name: Carlyle Group Plans Pricing
   plan_count: 1
@@ -137,26 +116,11 @@ press:
 - date: '2026-05-25'
   title: Carlyle Agrees to Acquire Adastra
   url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
-random_paper: 24
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Carlyle Group Rate Limits
   slug: carlyle-group-rate-limits
-score:
-  band: emerging
-  composite: 24.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 63.2
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 24.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/screenshots/carlyle-group-2026-06-20T174007.png
 security:
 - kind: domain-security

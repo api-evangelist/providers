@@ -9,36 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 3
-apis:
-- description: Fully integrated business checking account with no monthly fees on the standard tier, high-yield APY, unlimited transactions, bill pay, automated accounts payable, professional invoicing, and FDIC ins
-  name: Bluevine Business Checking
-  slug: business-checking
-- description: Revolving business line of credit up to $250,000 issued by Celtic Bank, with no maintenance fees, fee-free ACH draws, and funding in as fast as 24 hours. Qualification requires a 625+ personal FICO sc
-  name: Bluevine Line of Credit
-  slug: line-of-credit
-- description: 'Bluevine''s programmatic connectivity surface for third parties. Rather than a first-party public API, Bluevine exposes account and transaction data to external software through the Plaid open-banking '
-  name: Bluevine Connected Apps & Financial Integrations
-  slug: connected-apps
-artifact_total: 8
+api_count: 0
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -112,6 +84,14 @@ common:
   title: ''
   type: FinOps
   url: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/finops/bluevine-finops.yml
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.bluevine.com/line-of-credit/
+- group: other
+  title: ''
+  type: ProductPage
+  url: https://www.bluevine.com/help-center/sending-payments/connecting-financial-apps
 created: '2026-06-13'
 description: Bluevine is a small business banking and lending platform offering business checking accounts, lines of credit, bill pay, invoicing, and cash flow management tools for United States small and medium businesses. Bluevine does not publish a first-party public developer API or developer portal; external programmatic connectivity is delivered through the Plaid open-banking aggregator (with Finicity/Mastercard coverage also reported) and through native app integrations to QuickBooks Online, Xero, Wave, Expensify, Stripe, Square, Gusto, Cash App, and Venmo. Deposits are FDIC-insured up to $3 million through a sweep network, with revolving credit up to $250,000 issued by Celtic Bank.
 finops:
@@ -125,46 +105,26 @@ jsonld:
   property_count: 0
   slug: bluevine
 layout: provider
-modified: '2026-07-23'
+modified: '2026-07-25'
 name: Bluevine
 nav: Providers
 network: true
-overview: 'Bluevine publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Banking, Small Business, Fintech, Line of Credit, and Bill Pay.
+overview: 'Bluevine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Business Banking, Small Business, Fintech, Line of Credit, and Bill Pay.
 
 
   The Bluevine catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Bluevine''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
+  Bluevine''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Bluevine Plans Pricing
   plan_count: 3
   slug: bluevine-plans-pricing
-random_paper: 42
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Bluevine Rate Limits
   slug: bluevine-rate-limits
-score:
-  band: thin
-  composite: 33.1
-  delta: 7.8
-  facets:
-    commercial_clarity: 84.2
-    contract_quality: 9.4
-    developer_ergonomics: 15.2
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 25.3
-  regulatory:
-    applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/screenshots/bluevine-2026-06-20T173536.png
 security:
 - kind: domain-security

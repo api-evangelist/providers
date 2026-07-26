@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: true
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,7 +16,7 @@ agentic_access:
   operation_count: 3
   slug: jito-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 11
+api_count: 10
 apis:
 - description: Real-time streaming surfaces from Jito infrastructure — the wss tip_stream for continuous bundle-tip percentile updates, the ShredstreamProxy SubscribeEntries gRPC method for sub-slot Solana shred del
   name: Jito Streaming Surfaces
@@ -54,9 +36,6 @@ apis:
 - description: Jito Restaking — the on-chain program suite (Restaking + Vault) that lets SPL tokens be restaked into Vaults whose security is rented to NCNs (Node Consensus Networks). Includes the tip router, the re
   name: Jito Restaking And Vaults
   slug: jito-restaking
-- description: Jito DAO governance — JTO token holders direct treasury, fee parameters, and the JitoSOL validator selection policy through Realms. Includes the Jito Realms governance UI fork and the merkle-based tok
-  name: Jito Foundation Governance
-  slug: jito-foundation-governance
 - description: Jito-Solana — the Jito Foundation MEV-enabled fork of the Solana validator client. Adds the Block Engine / Relayer integration that makes the bundle auction possible at the validator layer. Ships alon
   name: Jito-Solana Validator Client
   slug: jito-solana
@@ -69,7 +48,7 @@ apis:
 - description: Direct sendTransaction proxy to validator leaders.
   name: Jito Labs Transactions API
   slug: jito-transactions-api
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: 'Real-time streaming endpoints exposed by Jito infrastructure: the WebSocket bundle tip stream and the gRPC ShredStream for low-latency Solana shred delivery. These are the canonical out-of-band feeds '
   name: Jito Streaming Surfaces
@@ -238,6 +217,10 @@ common:
   title: ''
   type: FinOps
   url: finops/jito-finops.yml
+- group: company
+  title: ''
+  type: About
+  url: https://gov.jito.network
 created: '2026-05-24T00:00:00.000Z'
 description: Jito Labs is the Solana MEV infrastructure company behind Jito-Solana, the MEV-enabled validator client that runs on the majority of Solana mainnet stake, and the Jito Block Engine, an off-chain auction service that accepts bundles and transactions from searchers and forwards them to the next leader. Together with the Jito Foundation it stewards JitoSOL — Solana's largest MEV-aware liquid staking token — the StakeNet validator scoring system, the Jito Restaking and Vault programs that power Node Consensus Networks, the merkle-based token distributor used for airdrops, and the JTO governance token. Developer surfaces include a JSON-RPC API for bundle and transaction submission, a public REST tip floor and WebSocket tip stream for pricing, the ShredStream gRPC service for sub-slot Solana shreds, and the open mev-protos repository that defines the canonical Auth, Block Engine, Bundle, Packet, Relayer, Searcher, Shared, and ShredStream gRPC interfaces — with official SDKs in TypeScript,
   Python, Rust, and Go.
@@ -329,7 +312,7 @@ jsonld:
   property_count: 0
   slug: jito-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-07-25'
 name: Jito Labs
 nav: Providers
 network: true
@@ -339,12 +322,12 @@ overview: 'Jito Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Jito Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Jito Labs'' developer surface includes developer portal, documentation, developer console, code examples, tooling, and 34 more developer resources.'
+  Jito Labs'' developer surface includes developer portal, documentation, developer console, code examples, tooling, and 35 more developer resources.'
 plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 30
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -374,21 +357,6 @@ rules:
     info: 0
     warn: 3
   slug: jito-rules
-score:
-  band: developing
-  composite: 49.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.4
-    developer_ergonomics: 39.1
-    discoverability: 67.5
-    governance: 78.9
-    operational_transparency: 5.3
-  previous_composite: 49.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:
 - kind: domain-security

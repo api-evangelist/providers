@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -34,7 +16,7 @@ agentic_access:
   operation_count: 14
   slug: chief-financial-officers-council-agentic-access
   summary_line: 14 operations · 7 acting
-api_count: 13
+api_count: 11
 apis:
 - description: The cfo.gov public website is the official portal for the federal CFO Council, hosting member rosters, council news, working-group outputs, financial-management policy guidance, and links to companion
   name: CFO Council Website
@@ -42,15 +24,9 @@ apis:
 - description: The CFO Council operates topical working groups covering areas such as financial systems, internal control, grants management, payment integrity, financial reporting, and data analytics. Working-group
   name: CFO Council Working Groups
   slug: cfoc-working-groups
-- description: PaymentAccuracy.gov is the OMB-maintained transparency site for reporting government-wide improper payments and payment-integrity activities. The site publishes downloadable agency-level payment accur
-  name: PaymentAccuracy.gov (Payment Integrity)
-  slug: cfoc-payment-integrity
 - description: USAspending.gov is the Treasury-operated public source of accountable federal spending data, exposing a comprehensive REST API for federal awards, contracts, grants, sub-awards, and agency budget data
   name: USAspending.gov API (Treasury)
   slug: usaspending
-- description: Performance.gov is the OMB-administered public site for federal cross-agency priority goals, agency strategic plans, and performance reports. The CFO Council collaborates with OMB on financial-managem
-  name: MAX.gov / Performance.gov
-  slug: max-gov
 - description: The Agencies API from Chief Financial Officers Council — 2 operation(s) for agencies.
   name: Chief Financial Officers Council Agencies API
   slug: chief-financial-officers-council-agencies-api
@@ -75,7 +51,7 @@ apis:
 - description: The Subawards API from Chief Financial Officers Council — 1 operation(s) for subawards.
   name: Chief Financial Officers Council Subawards API
   slug: chief-financial-officers-council-subawards-api
-artifact_total: 19
+artifact_total: 17
 collections:
 - collection_type: open
   name: USAspending.gov API (CFO Council context)
@@ -169,7 +145,7 @@ finops:
   slug: chief-financial-officers-council-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-financial-officers-council.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: Chief Financial Officers Council
 nav: Providers
 network: true
@@ -181,31 +157,11 @@ plans:
 - name: Chief Financial Officers Council Plans Pricing
   plan_count: 3
   slug: chief-financial-officers-council-plans-pricing
-random_paper: 15
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Chief Financial Officers Council Rate Limits
   slug: chief-financial-officers-council-rate-limits
-score:
-  band: thin
-  composite: 30.6
-  delta: -1.5
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 45.1
-    developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 32.1
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 21.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: domain-security
   name: Chief Financial Officers Council Domain Security

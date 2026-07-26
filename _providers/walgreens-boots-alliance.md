@@ -9,33 +9,12 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 2
+api_count: 1
 apis:
 - description: Walgreens Boots Alliance specialty pharmacy platform serves patients with complex chronic conditions including oncology, rare diseases, and specialty biologics. The specialty pharmacy network integrat
   name: WBA Specialty Pharmacy API
   slug: wba-specialty-pharmacy
-- description: Walgreens Boots Alliance healthcare data and analytics platform supporting population health management, clinical quality initiatives, and digital health services. Leverages data from over 200 million
-  name: WBA Healthcare Data Platform
-  slug: wba-healthcare-platform
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -78,11 +57,11 @@ jsonld:
   property_count: 4
   slug: walgreens-boots-alliance-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: Walgreens Boots Alliance
 nav: Providers
 network: true
-overview: 'Walgreens Boots Alliance publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmacy, Healthcare, Health Wellbeing, Retail, and Specialty Pharmacy.
+overview: 'Walgreens Boots Alliance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmacy, Healthcare, Health Wellbeing, Retail, and Specialty Pharmacy.
 
 
   The Walgreens Boots Alliance catalog on APIs.io includes 1 JSON-LD context.
@@ -93,31 +72,11 @@ plans:
 - name: Walgreens Boots Alliance Plans Pricing
   plan_count: 1
   slug: walgreens-boots-alliance-plans-pricing
-random_paper: 37
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Walgreens Boots Alliance Rate Limits
   slug: walgreens-boots-alliance-rate-limits
-score:
-  band: emerging
-  composite: 26.9
-  delta: 1.1
-  facets:
-    commercial_clarity: 39.5
-    contract_quality: 15.1
-    developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 25.8
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/screenshots/walgreens-boots-alliance-2026-06-20T201207.png
 security:
 - kind: domain-security

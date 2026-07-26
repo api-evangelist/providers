@@ -9,39 +9,15 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 4
+api_count: 2
 apis:
-- description: The TJX Oracle iSupplier portal allows not-for-resale suppliers to manage purchase orders, track invoices, monitor payment status, and handle deduction disputes. Suppliers can access real-time account
-  name: TJX Oracle iSupplier Portal
-  slug: tjx-isupplier
 - description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
   name: TJX EDI Integration
   slug: tjx-edi
-- description: 'The TJX Companies LLC Advanced Shipping Notice (ASN) Vendor Portal powered by DiCentral allows resale vendors to create and submit advance shipping notices, manage compliance requirements, and handle '
-  name: TJX ASN Vendor Portal
-  slug: tjx-asn-vendor-portal
 - description: The TJX SupplierOne portal enables diverse supplier registration, certification tracking, and quarterly Tier II program reporting. Suppliers can complete vendor applications, provide business document
   name: TJX SupplierOne Diversity Portal
   slug: tjx-supplierone
-artifact_total: 27
+artifact_total: 25
 common:
 - group: auth
   title: ''
@@ -67,6 +43,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/TJX
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx
 created: '2024-11-27'
 description: The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.
 features:
@@ -103,14 +83,14 @@ integrations:
 - description: EDI integration solution for TJX trading partner compliance.
   name: Cleo
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: TJX Companies
 nav: Providers
 network: true
-overview: 'TJX Companies publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Off-Price, Fortune 100, Supply Chain, and EDI.
+overview: 'TJX Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Off-Price, Fortune 100, Supply Chain, and EDI.
 
 
-  TJX Companies'' developer surface includes documentation, developer portal, and 4 more developer resources.'
+  TJX Companies'' developer surface includes documentation, developer portal, and 5 more developer resources.'
 plans:
 - name: Tjx Plans Pricing
   plan_count: 1
@@ -131,26 +111,11 @@ press:
 - date: '2026-05-25'
   title: Retailers Embracing AI
   url: https://logisticsti.com/insights/f/retailers-embracing-ai
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Tjx Rate Limits
   slug: tjx-rate-limits
-score:
-  band: emerging
-  composite: 21.4
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 17.4
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png
 security:
 - kind: domain-security

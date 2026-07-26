@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 5
+api_count: 4
 apis:
 - description: REST API for Tabula, Warwick's tool for the administration of teaching and learning. Uses resource-oriented URLs and returns JSON. Categories include Administration & Information (departments, modules
   name: Tabula API
@@ -38,13 +20,10 @@ apis:
 - description: OAuth-protected access to Warwick web services, including Sitebuilder, Warwick Search, Files.Warwick, Warwick Blogs, Warwick Forums, Exam Timetabling, Printer Credits and Web Sign-on. Uses OAuth 1.0 w
   name: Warwick OAuth Web Services
   slug: oauth
-- description: REST API provided by the Warwick Students' Union that lets clubs, societies and organisations validate membership and retrieve member rosters. Uses an organisation key plus per-member keys generated t
-  name: Warwick SU Membership API
-  slug: su-membership
 - description: Warwick Research Archive Portal (WRAP) is the institutional repository of research outputs. It exposes harvestable Dublin Core metadata via the standard OAI-PMH protocol for open metadata harvesting.
   name: WRAP OAI-PMH (Warwick Research Archive Portal)
   slug: wrap-oai
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -86,6 +65,10 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: company
+  title: ''
+  type: About
+  url: https://www.warwicksu.com/membershipapi/about/
 created: '2026-06-03'
 description: 'The University of Warwick is a public research university in Coventry, England, ranked #49 in the QS World University Rankings 2025. Its developer/API footprint is provided primarily by the institution''s Software Engineering / IT Services and IDG teams. Public, documented APIs include the Tabula REST API (teaching and learning administration, including timetabling, profiles, coursework, small group teaching and monitoring points), the Files.Warwick file APIs, and OAuth-protected Warwick web services. The Warwick Students'' Union additionally publishes a Membership API, and the Warwick Research Archive Portal (WRAP) exposes harvestable metadata via OAI-PMH. Most APIs require Warwick web sign-on / OAuth credentials and are not openly available without an account.'
 finops:
@@ -99,17 +82,17 @@ jsonld:
   property_count: 4
   slug: university-of-warwick-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Warwick
 nav: Providers
 network: true
-overview: 'University of Warwick publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
+overview: 'University of Warwick publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
 
 
   The University of Warwick catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Warwick''s developer surface includes GitHub presence and 9 more developer resources.'
+  University of Warwick''s developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: University Of Warwick Plans Pricing
   plan_count: 2
@@ -119,21 +102,6 @@ rate_limits:
 - limit_count: 1
   name: University Of Warwick Rate Limits
   slug: university-of-warwick-rate-limits
-score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 23.5
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png
 security:
 - kind: domain-security

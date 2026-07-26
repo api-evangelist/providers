@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,15 +22,15 @@ apis:
 - description: Published University of Alberta collections and datasets on Borealis are harvestable via the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH), allowing other repositories and discov
   name: University of Alberta Borealis OAI-PMH Metadata Harvesting
   slug: borealis-oai-pmh
-- description: The University of Alberta Library publishes open-source code through its GitHub organization (ualbertalib), including tools that interact with repository and digital-asset platform APIs (for example D
-  name: University of Alberta Library Open Source (GitHub)
-  slug: library-open-source
 - description: The Info API from University of Alberta — 1 operation(s) for info.
   name: University of Alberta Info API
   slug: university-of-alberta-info-api
 - description: The Search API from University of Alberta — 1 operation(s) for search.
   name: University of Alberta Search API
   slug: university-of-alberta-search-api
+- description: The University of Alberta Library publishes open-source code through its GitHub organization (ualbertalib), including tools that interact with repository and digital-asset platform APIs (for example D
+  name: University of Alberta Library Open Source (GitHub)
+  slug: library-open-source
 artifact_total: 18
 common:
 - group: agent
@@ -126,7 +108,7 @@ jsonld:
   property_count: 12
   slug: university-of-alberta-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: University of Alberta
 nav: Providers
 network: true
@@ -163,26 +145,6 @@ rules:
     info: 0
     warn: 3
   slug: university-of-alberta-rules
-score:
-  band: developing
-  composite: 46.0
-  delta: -1.5
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.3
-    developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
-    operational_transparency: 26.3
-  previous_composite: 47.5
-  regulatory:
-    applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 security:
 - kind: authentication
   name: University Of Alberta Authentication

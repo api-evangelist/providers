@@ -9,24 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
 api_count: 3
 apis:
 - description: 'Tel Aviv University Libraries run ExLibris Primo for catalog/discovery (branded "DaTA Search"), institution code 972TAU_INST:TAU. The hosted Primo platform exposes the standard Primo Search REST API. '
@@ -89,7 +71,7 @@ jsonld:
   property_count: 6
   slug: tel-aviv-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-07-25'
 name: Tel Aviv University
 nav: Providers
 network: true
@@ -104,26 +86,11 @@ plans:
 - name: Tel Aviv University Plans Pricing
   plan_count: 2
   slug: tel-aviv-university-plans-pricing
-random_paper: 37
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Tel Aviv University Rate Limits
   slug: tel-aviv-university-rate-limits
-score:
-  band: emerging
-  composite: 21.7
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 15.1
-    developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 21.7
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/screenshots/tel-aviv-university-2026-06-20T195022.png
 security:
 - kind: domain-security

@@ -9,30 +9,8 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 1
-apis:
-- description: Cabot Corporation manufactures specialty chemicals and performance materials including carbon black, fumed silica, aerogels, inkjet colorants, and elastomer composites. No public developer API is curr
-  name: Cabot Corporation
-  slug: cabot-corporation
-artifact_total: 5
+api_count: 0
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -74,11 +52,11 @@ finops:
   slug: cabot-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cabot.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-07-25'
 name: Cabot Corporation
 nav: Providers
 network: true
-overview: Cabot Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Performance Materials, Carbon Black, Manufacturing, and Company.
+overview: Cabot Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Performance Materials, Carbon Black, Manufacturing, and Company.
 plans:
 - name: Cabot Plans Pricing
   plan_count: 3
@@ -99,26 +77,11 @@ press:
 - date: '2026-05-25'
   title: The Dr. CaBot AI system was created to generate ...
   url: https://www.facebook.com/TheNewEnglandJournalofMedicine/posts/the-dr-cabot-ai-system-was-created-to-generate-differential-diagnoses-in-the-sty/1197451285748712/
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Cabot Rate Limits
   slug: cabot-rate-limits
-score:
-  band: emerging
-  composite: 22.1
-  delta: 0.0
-  facets:
-    commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 22.1
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabot/refs/heads/main/screenshots/cabot-2026-06-20T173834.png
 security:
 - kind: domain-security

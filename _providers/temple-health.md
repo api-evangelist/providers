@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,17 +17,11 @@ agentic_access:
   operation_count: 11
   slug: temple-health-agentic-access
   summary_line: 11 operations
-api_count: 12
+api_count: 10
 apis:
 - description: 'The legacy Temple Health DSTU2 FHIR endpoint listed in Epic''s public DSTU2 endpoint registry under the organization "TempleHealth". It remains available for backward compatibility with older SMART on '
   name: Temple Health FHIR DSTU2 API
   slug: temple-health-fhir-dstu2-api
-- description: myTempleHealth is the patient-facing Epic MyChart deployment used by Temple Health patients to view test results, message providers, request prescription renewals, schedule appointments, pay bills, an
-  name: myTempleHealth MyChart Patient Portal
-  slug: mytemplehealth-mychart
-- description: The Hospital Price Transparency dataset Temple Health publishes per the CMS Hospital Price Transparency Final Rule (45 CFR 180). Each Temple Health hospital files a CSV of standard charges (gross, pay
-  name: Temple Health Hospital Price Transparency Machine-Readable Files
-  slug: price-transparency-mrf
 - description: Risk of harmful or undesirable physiological response to a substance.
   name: Temple Health Allergy Intolerance API
   slug: temple-health-allergy-intolerance-api
@@ -73,7 +49,7 @@ apis:
 - description: Demographics and other administrative information about an individual receiving care.
   name: Temple Health Patient API
   slug: temple-health-patient-api
-artifact_total: 30
+artifact_total: 28
 collections:
 - collection_type: open
   name: Temple Health FHIR R4 API
@@ -224,7 +200,7 @@ jsonld:
   property_count: 0
   slug: temple-health-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: Temple Health
 nav: Providers
 network: true
@@ -239,7 +215,7 @@ plans:
 - name: Temple Health Plans Pricing
   plan_count: 4
   slug: temple-health-plans-pricing
-random_paper: 47
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Temple Health Rate Limits
@@ -266,26 +242,6 @@ scopes:
   scope_count: 13
   slug: temple-health-scopes
   summary_line: 13 scopes · authorizationCode
-score:
-  band: developing
-  composite: 52.3
-  delta: 4.6
-  facets:
-    commercial_clarity: 57.9
-    contract_quality: 62.7
-    developer_ergonomics: 13.0
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 5.3
-  previous_composite: 47.7
-  regulatory:
-    applies: true
-    regime: Health
-    regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:
 - kind: authentication

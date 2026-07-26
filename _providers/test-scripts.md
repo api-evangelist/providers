@@ -10,24 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_skills: false
-    agentic_access: true
-    asyncapi_events: false
-    auth_clarity: true
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-23'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,9 +34,6 @@ apis:
 - description: Playwright is a cross-browser end-to-end testing framework from Microsoft that supports writing test scripts in JavaScript, TypeScript, Python, Java, and .NET. It is widely used for API testing, brows
   name: Playwright Test
   slug: playwright-test
-- description: 'Cypress is a JavaScript end-to-end testing framework designed for modern web applications. Its test scripting API supports both API testing and browser automation, with real-time test runner feedback '
-  name: Cypress
-  slug: cypress
 - description: Schemathesis is a property-based testing tool for web APIs. It reads OpenAPI or GraphQL schemas and automatically generates test scripts to discover edge cases, crashes, and specification violations t
   name: Schemathesis
   slug: schemathesis
@@ -70,6 +49,9 @@ apis:
 - description: The Monitors API from Test Scripts — 1 operation(s) for monitors.
   name: Test Scripts Monitors API
   slug: test-scripts-monitors-api
+- description: 'Cypress is a JavaScript end-to-end testing framework designed for modern web applications. Its test scripting API supports both API testing and browser automation, with real-time test runner feedback '
+  name: Cypress
+  slug: cypress
 artifact_total: 27
 collections:
 - collection_type: open
@@ -148,7 +130,7 @@ jsonld:
   property_count: 9
   slug: test-scripts-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-07-25'
 name: Test Scripts
 nav: Providers
 network: true
@@ -163,7 +145,7 @@ plans:
 - name: Test Scripts Plans Pricing
   plan_count: 3
   slug: test-scripts-plans-pricing
-random_paper: 45
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Test Scripts Rate Limits
@@ -177,21 +159,6 @@ rules:
     info: 1
     warn: 4
   slug: test-scripts-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 48.2
-  delta: 0.0
-  facets:
-    commercial_clarity: 47.4
-    contract_quality: 58.4
-    developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 86.8
-    operational_transparency: 36.8
-  previous_composite: 48.2
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-scripts/refs/heads/main/screenshots/test-scripts-2026-06-20T195157.png
 security:
 - kind: authentication

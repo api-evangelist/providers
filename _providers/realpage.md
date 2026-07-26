@@ -9,25 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_skills: false
-    agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
-    consent_identity: false
-    error_semantics: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-23'
-api_count: 13
+api_count: 11
 apis:
 - description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is p
   name: RealPage Exchange (RPX)
@@ -59,16 +41,10 @@ apis:
 - description: Facilities and maintenance management product covering work orders, preventive maintenance, and vendor coordination.
   name: RealPage Facilities & Maintenance
   slug: facilities
-- description: Utility billing, sub-metering, and sustainability reporting product set for rental-housing operators.
-  name: RealPage Utility & Sustainability Management
-  slug: utility-sustainability
-- description: Procurement, vendor management, and spend controls integrated with RealPage accounting and operations.
-  name: RealPage Spend & Vendor Management
-  slug: spend-vendor
 - description: Analytics and benchmarking products covering operational, financial, market, and revenue metrics for the rental-housing portfolio.
   name: RealPage Analytics
   slug: analytics
-artifact_total: 19
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -114,11 +90,11 @@ graphqls:
   slug: realpage-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realpage.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-07-25'
 name: RealPage
 nav: Providers
 network: true
-overview: 'RealPage publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily, Rental Housing, Revenue Management, and Leasing.
+overview: 'RealPage publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily, Rental Housing, Revenue Management, and Leasing.
 
 
   RealPage''s developer surface includes engineering blog, training material, support, and 5 more developer resources.'
@@ -126,26 +102,11 @@ plans:
 - name: Realpage Plans Pricing
   plan_count: 1
   slug: realpage-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Realpage Rate Limits
   slug: realpage-rate-limits
-score:
-  band: emerging
-  composite: 19.8
-  delta: 0.0
-  facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 100.0
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 19.8
-  schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/screenshots/realpage-2026-06-20T192646.png
 security:
 - kind: domain-security
