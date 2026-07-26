@@ -35,6 +35,20 @@ nav: Providers
   .access-pill { display: inline-block; padding: 0.25em 0.7em; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
   .ax-free,.ax-freemium,.ax-open,.ax-try{background:#d1f7e0;color:#0f5132}.ax-self-serve{background:#cfe2ff;color:#0a3d91}.ax-free-trial{background:#cff4e4;color:#0f5132}.ax-paid{background:#e9ecef;color:#495057}.ax-enterprise,.ax-approval{background:#ffe0c2;color:#7a3e07}
 
+  /* Kin Score band — glyph | read | mark. Same anatomy on apis.io. */
+  .kin-band { display: flex; align-items: center; gap: 1rem; }
+  .kin-band-glyph { flex: 0 0 auto; line-height: 0; }
+  .kin-band-glyph svg { display: block; }
+  .kin-band-read { flex: 1 1 auto; min-width: 0; }
+  .kin-band-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .kin-band-blurb { margin: 0.3rem 0 0; font-size: 0.83rem; line-height: 1.45; color: #5b6270; }
+  .kin-band-mark { flex: 0 0 auto; margin-left: auto; opacity: 0.9; }
+  .kin-band-mark img { height: 34px; width: auto; display: block; }
+  @media (max-width: 575px) {
+    .kin-band { gap: 0.7rem; }
+    .kin-band-blurb { font-size: 0.78rem; }
+    .kin-band-mark img { height: 26px; }
+  }
   .score-header { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; margin-bottom: 1rem; padding: 0.7rem 1rem; background: #fff; border: 1px solid #e3e7ee; border-radius: 10px; }
   .score-composite { font-size: 1.4rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; line-height: 1; }
   .score-composite span { font-size: 0.8rem; font-weight: 500; color: #8a94a6; }
@@ -182,20 +196,49 @@ nav: Providers
       <h1 class="provider-title">{{ page.name }}</h1>
       {%- if page.description %}<p class="provider-desc">{{ page.description }}</p>{% endif %}
 
-      {%- comment -%} Score + agent-readiness headline. {%- endcomment -%}
+      {%- comment -%}
+        The Kin Score band. Fixed anatomy across every detail page on both
+        apievangelist.com and apis.io: the K'in sun glyph on the left, a
+        one-line read of the overall level in the middle, the Kin mark on the
+        far right. See api-evangelist/kin-score/glyph/GLYPH.md.
+      {%- endcomment -%}
       {%- if page.score and page.score.composite %}
-      <div class="score-header">
-        <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
+      <div class="score-header kin-band">
+        <span class="kin-band-glyph"
+              data-kin-glyph
+              data-size="76"
+              data-palette="facet"
+              data-name="{{ page.name | escape }}"
+              data-score="{{ page.score.composite }}"
+              data-band="{{ page.score.band }}"
+              data-agent-score="{{ page.agent_readiness.score | default: 0 }}"
+              data-agent-band="{{ page.agent_readiness.band | default: 'human-only' }}"
+              data-facets='{"discoverability":{{ page.score.facets.discoverability | default: 0 }},"contract_quality":{{ page.score.facets.contract_quality | default: 0 }},"governance":{{ page.score.facets.governance | default: 0 }},"operational_transparency":{{ page.score.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ page.score.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ page.score.facets.commercial_clarity | default: 0 }}}'
+              data-dims='{"spec_presence":{{ page.agent_readiness.dimensions.spec_presence | default: false }},"agentic_access":{{ page.agent_readiness.dimensions.agentic_access | default: false }},"mcp_server":{{ page.agent_readiness.dimensions.mcp_server | default: false }},"auth_clarity":{{ page.agent_readiness.dimensions.auth_clarity | default: false }},"idempotency":{{ page.agent_readiness.dimensions.idempotency | default: false }},"error_semantics":{{ page.agent_readiness.dimensions.error_semantics | default: false }},"openapi_examples":{{ page.agent_readiness.dimensions.openapi_examples | default: false }},"rate_limit_signal":{{ page.agent_readiness.dimensions.rate_limit_signal | default: false }},"asyncapi_events":{{ page.agent_readiness.dimensions.asyncapi_events | default: false }},"agent_skills":{{ page.agent_readiness.dimensions.agent_skills | default: false }},"well_known_catalog":{{ page.agent_readiness.dimensions.well_known_catalog | default: false }},"consent_identity":{{ page.agent_readiness.dimensions.consent_identity | default: false }}}'></span>
+
+        <div class="kin-band-read">
+          <div class="kin-band-line">
+            <span class="score-composite">{{ page.score.composite }}<span>/100</span></span>
+            <span class="band-pill band-{{ page.score.band }}">{{ page.score.band }}</span>
+            {%- if page.agent_readiness and page.agent_readiness.band %}
+            <span class="band-pill band-{{ page.agent_readiness.band }}">{{ page.agent_readiness.band | replace: '-', ' ' }}</span>
+            {%- endif %}
+          </div>
+          <p class="kin-band-blurb">
+            {%- case page.score.band -%}
+            {%- when 'exemplar' -%}Reference-quality API operations across every facet — a rich contract, published governance, transparent operations, and machine-readable commercial terms.
+            {%- when 'strong' -%}Solid contracts, transparent operations, and an easy start — typically complete on four or five facets with one clear soft spot.
+            {%- when 'developing' -%}Real signal across most facets with visible, nameable gaps — the contract exists but is thin, or the portal is good while governance and commercial terms are absent.
+            {%- when 'thin' -%}Limited machine-readable signal and partial portal coverage — documentation a human can read, but little a machine or agent can consume without scraping.
+            {%- when 'emerging' -%}More than an index entry, but the surface is still mostly links rather than artifacts — the cohort most likely to move a full band from modest, well-targeted work.
+            {%- else -%}Index entry only — little beyond a description and a link, and nothing machine-readable enough for an agent to act on without a human reading the site first.
+            {%- endcase -%}
+          </p>
+        </div>
+
+        <a class="kin-band-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
           <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-kin.png" alt="Kin Score">
         </a>
-        <span class="score-composite">{{ page.score.composite }}<span>/100</span></span>
-        <span class="band-pill band-{{ page.score.band }}">{{ page.score.band }}</span>
-        {%- if page.agent_readiness and page.agent_readiness.band %}
-        <span class="score-divider" aria-hidden="true"></span>
-        <span class="agent-label">Agent</span>
-        <span class="agent-score">{{ page.agent_readiness.score | round }}<span>/100</span></span>
-        <span class="band-pill band-{{ page.agent_readiness.band }}">{{ page.agent_readiness.band | replace: '-', ' ' }}</span>
-        {%- endif %}
       </div>
       {%- endif %}
 

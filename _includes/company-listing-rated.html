@@ -15,6 +15,9 @@
 .rate-rank { width: 2.2rem; font-variant-numeric: tabular-nums; color: #9aa4b5; font-weight: 600; }
 .rate-scores { cursor: pointer; border-radius: 8px; padding: 0.35rem 0.55rem; min-width: 8.5rem; }
 .rate-scores:hover { background: #f5f8fe; }
+.kin-row-glyph { line-height: 0; }
+.kin-row-glyph svg { display: block; }
+@media (max-width: 767px) { .kin-row-glyph { display: none; } }
 .rate-scores .rs-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa4b5; font-weight: 600; }
 .band-section { border: 1px solid #e3e7ee; border-radius: 12px; margin-bottom: 0.85rem; background: #fff; overflow: hidden; }
 .band-section > summary { display: flex; align-items: center; gap: 0.7rem; padding: 0.9rem 1.15rem; cursor: pointer; list-style: none; user-select: none; }
@@ -137,6 +140,23 @@
           </div>
           {% endif %}
         </div>
+        {%- comment -%}
+          The K'in sun, far right of the row. Listing anatomy across both
+          apievangelist.com and apis.io — see kin-score/glyph/GLYPH.md.
+        {%- endcomment -%}
+        {% if item.score %}
+        <span class="kin-row-glyph flex-shrink-0 ms-3"
+              data-kin-glyph
+              data-size="46"
+              data-palette="facet"
+              data-name="{{ item.name | escape }}"
+              data-score="{{ item.score }}"
+              data-band="{{ item.band }}"
+              data-agent-score="{{ item.agent_score | default: 0 }}"
+              data-agent-band="{{ item.agent_band | default: 'human-only' }}"
+              data-facets='{"discoverability":{{ item.facets.discoverability | default: 0 }},"contract_quality":{{ item.facets.contract_quality | default: 0 }},"governance":{{ item.facets.governance | default: 0 }},"operational_transparency":{{ item.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ item.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ item.facets.commercial_clarity | default: 0 }}}'
+              data-dims='{"spec_presence":{{ item.agent_dims.spec_presence | default: false }},"agentic_access":{{ item.agent_dims.agentic_access | default: false }},"mcp_server":{{ item.agent_dims.mcp_server | default: false }},"auth_clarity":{{ item.agent_dims.auth_clarity | default: false }},"idempotency":{{ item.agent_dims.idempotency | default: false }},"error_semantics":{{ item.agent_dims.error_semantics | default: false }},"openapi_examples":{{ item.agent_dims.openapi_examples | default: false }},"rate_limit_signal":{{ item.agent_dims.rate_limit_signal | default: false }},"asyncapi_events":{{ item.agent_dims.asyncapi_events | default: false }},"agent_skills":{{ item.agent_dims.agent_skills | default: false }},"well_known_catalog":{{ item.agent_dims.well_known_catalog | default: false }},"consent_identity":{{ item.agent_dims.consent_identity | default: false }}}'></span>
+        {% endif %}
       </div>
       {% if item.facets and rubric.facets %}
       <div class="rate-detail">
