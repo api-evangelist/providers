@@ -41,19 +41,24 @@ nav: Providers
   /* 24 / 49 / 24 with a 1.5% gap on each side = exactly 100%. A rem gap on top
      of 25/50/25 overflowed and bumped the Kin mark to the next line; a
      percentage gap keeps the row exact at every width. */
-  .kin-band { display: flex; align-items: center; gap: 1.5%; flex-wrap: nowrap; }
+  /* NOTE the .score-header.kin-band selector: .score-header is defined LATER in
+     this stylesheet with flex-wrap:wrap and gap:0.7rem, and at equal specificity
+     it was winning — which is why the Kin mark kept wrapping to a second line no
+     matter what the column percentages were. Two classes beats one, so this now
+     holds regardless of rule order. */
+  .score-header.kin-band { display: flex; align-items: center; gap: 1.5%; flex-wrap: nowrap; }
   .kin-band-glyph { flex: 0 0 24%; max-width: 24%; line-height: 0; display: flex; justify-content: center; }
-  .kin-band-glyph svg { display: block; width: 100%; height: auto; max-width: 170px; }
+  .kin-band-glyph svg { display: block; width: 100%; height: auto; max-width: 150px; }
   .kin-band-read { flex: 0 0 49%; max-width: 49%; min-width: 0; }
   .kin-band-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
   .kin-band-blurb { margin: 0.3rem 0 0; font-size: 0.83rem; line-height: 1.45; color: #5b6270; }
   .kin-band-mark { flex: 0 0 24%; max-width: 24%; display: flex; justify-content: center; opacity: 0.95; }
-  .kin-band-mark img { display: block; width: 100%; height: auto; max-width: 150px; }
+  .kin-band-mark img { display: block; width: 100%; height: auto; max-width: 120px; }
   @media (max-width: 575px) {
-    .kin-band { gap: 0.55rem; }
+    .score-header.kin-band { gap: 1.5%; }
     .kin-band-blurb { font-size: 0.75rem; }
-    .kin-band-glyph svg { max-width: 96px; }
-    .kin-band-mark img { max-width: 84px; }
+    .kin-band-glyph svg { max-width: 88px; }
+    .kin-band-mark img { max-width: 70px; }
   }
   .score-header { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; margin-bottom: 1rem; padding: 0.7rem 1rem; background: #fff; border: 1px solid #e3e7ee; border-radius: 10px; }
   .score-composite { font-size: 1.4rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; line-height: 1; }
