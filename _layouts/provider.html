@@ -38,13 +38,16 @@ nav: Providers
   /* Kin Score band — ONE ROW, 25% sun | 50% read | 25% Kin mark.
      The proportions are the anatomy; both sun and mark scale to fill their
      column (the SVG carries a viewBox, so width:100% is all it needs). */
-  .kin-band { display: flex; align-items: center; gap: 1rem; flex-wrap: nowrap; }
-  .kin-band-glyph { flex: 0 0 25%; max-width: 25%; line-height: 0; display: flex; justify-content: center; }
+  /* 24 / 49 / 24 with a 1.5% gap on each side = exactly 100%. A rem gap on top
+     of 25/50/25 overflowed and bumped the Kin mark to the next line; a
+     percentage gap keeps the row exact at every width. */
+  .kin-band { display: flex; align-items: center; gap: 1.5%; flex-wrap: nowrap; }
+  .kin-band-glyph { flex: 0 0 24%; max-width: 24%; line-height: 0; display: flex; justify-content: center; }
   .kin-band-glyph svg { display: block; width: 100%; height: auto; max-width: 170px; }
-  .kin-band-read { flex: 0 0 50%; max-width: 50%; min-width: 0; }
+  .kin-band-read { flex: 0 0 49%; max-width: 49%; min-width: 0; }
   .kin-band-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
   .kin-band-blurb { margin: 0.3rem 0 0; font-size: 0.83rem; line-height: 1.45; color: #5b6270; }
-  .kin-band-mark { flex: 0 0 25%; max-width: 25%; display: flex; justify-content: center; opacity: 0.95; }
+  .kin-band-mark { flex: 0 0 24%; max-width: 24%; display: flex; justify-content: center; opacity: 0.95; }
   .kin-band-mark img { display: block; width: 100%; height: auto; max-width: 150px; }
   @media (max-width: 575px) {
     .kin-band { gap: 0.55rem; }
@@ -221,8 +224,11 @@ nav: Providers
 
         <div class="kin-band-read">
           <div class="kin-band-line">
-            <span class="score-composite">{{ page.score.composite }}<span>/100</span></span>
-            <span class="band-pill band-{{ page.score.band }}">{{ page.score.band }}</span>
+            {%- comment -%}
+              No composite number here: the sun already carries it in its core,
+              with the band label beneath. Printing it again beside the glyph
+              was reading as a duplicate.
+            {%- endcomment -%}
             {%- if page.agent_readiness and page.agent_readiness.band %}
             <span class="band-pill band-{{ page.agent_readiness.band }}">{{ page.agent_readiness.band | replace: '-', ' ' }}</span>
             {%- endif %}
