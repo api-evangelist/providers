@@ -741,7 +741,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 21,
+   "count": 20,
    "companies": [
     {
      "name": "AMETEK",
@@ -1034,6 +1034,7 @@
      "name": "Carlisle Companies",
      "slug": "carlisle",
      "description": "Carlisle Companies Incorporated (NYSE: CSL) is a global diversified manufacturer of highly engineered building envelope products and solutions, serving commercial and residential construction, insulation, roofing, waterproofing, and specialty markets. Carlisle's primary operating segment is Carlisle Construction Materials (CCM), which includes brands such as Carlisle SynTec Systems, Hunter Panels, Henry Company, MB Technology, and WIP Industrial. Carlisle does not publish a public developer API; distributors and direct contractors transact through the Carlisle Customer Success Portal, and commercial trading partners integrate with Carlisle using standard X12 EDI transactions (850, 855, 856, 810) over AS2/SFTP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carlisle/refs/heads/main/screenshots/carlisle-2026-07-25T204623.png",
      "score": 24.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1138,20 +1139,20 @@
      "rank": 31
     },
     {
-     "name": "Cabot Corporation",
-     "slug": "cabot",
-     "description": "Cabot Corporation is a global specialty chemicals and performance materials company serving the transportation, infrastructure, environment, and consumer industries. The company's products include reinforcing carbons, specialty carbons, fumed silica, inkjet colorants, and engineered elastomer composites.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cabot/refs/heads/main/screenshots/cabot-2026-06-20T173834.png",
-     "score": 22.1,
+     "name": "Lennox International",
+     "slug": "lennox-international",
+     "description": "Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HVAC system access. Smart-home integrations with the iComfort S30, E30, and M30 thermostat product lines are delivered through partnerships (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through community-maintained, reverse-engineered Python and TypeScript libraries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/screenshots/lennox-international-2026-06-20T184421.png",
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 87.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-25",
      "schema_version": 0.5,
@@ -1174,20 +1175,20 @@
      "rank": 32
     },
     {
-     "name": "Lennox International",
-     "slug": "lennox-international",
-     "description": "Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HVAC system access. Smart-home integrations with the iComfort S30, E30, and M30 thermostat product lines are delivered through partnerships (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through community-maintained, reverse-engineered Python and TypeScript libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/screenshots/lennox-international-2026-06-20T184421.png",
-     "score": 21.6,
+     "name": "Cabot Corporation",
+     "slug": "cabot",
+     "description": "Cabot Corporation is a global specialty chemicals and performance materials company serving the transportation, infrastructure, environment, and consumer industries. The company's products include reinforcing carbons, specialty carbons, fumed silica, inkjet colorants, and engineered elastomer composites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cabot/refs/heads/main/screenshots/cabot-2026-06-20T173834.png",
+     "score": 20.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-25",
      "schema_version": 0.5,
@@ -1389,48 +1390,6 @@
      "rank": 38
     },
     {
-     "name": "Moog",
-     "slug": "moog",
-     "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
-     "score": 16.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 13.0
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 39
-    },
-    {
      "name": "WestRock",
      "slug": "westrock",
      "description": "WestRock (now Smurfit Westrock following its 2024 merger with Smurfit Kappa) is one of the world's largest paper and packaging companies. The company provides differentiated paper and packaging solutions including corrugated containers, consumer packaging, displays, and specialty packaging. WestRock serves consumer and industrial markets with an integrated supply chain connecting mills, converting operations, and customers globally.",
@@ -1463,7 +1422,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Bosch",
@@ -1499,7 +1458,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 40
     }
    ]
   },
@@ -1508,8 +1467,50 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 96,
+   "count": 97,
    "companies": [
+    {
+     "name": "Moog",
+     "slug": "moog",
+     "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 41
+    },
     {
      "name": "Ball Corporation",
      "slug": "ball",
@@ -2465,6 +2466,7 @@
      "name": "Avery Dennison",
      "slug": "avery-dennison",
      "description": "Avery Dennison is a global materials science and manufacturing company specializing in the design and manufacture of labeling and functional materials, packaging, and intelligent labels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avery-dennison/refs/heads/main/screenshots/avery-dennison-2026-07-25T202123.png",
      "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4152,6 +4154,7 @@
      "name": "ITT",
      "slug": "itt",
      "description": "ITT Inc. is a diversified leading manufacturer of highly engineered critical components and customized technology solutions for the transportation, industrial, and oil and gas markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itt/refs/heads/main/screenshots/itt-2026-07-25T223010.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",

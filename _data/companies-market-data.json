@@ -6,7 +6,7 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 8,
+   "count": 9,
    "companies": [
     {
      "name": "Alpaca",
@@ -351,6 +351,49 @@
      },
      "tier": "Enterprise Platform",
      "rank": 8
+    },
+    {
+     "name": "Moody's",
+     "slug": "moodys",
+     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
+      "governance": 73.7,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Enterprise Platform",
+     "rank": 9
     }
    ],
    "open": true
@@ -360,7 +403,7 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 12,
+   "count": 11,
    "companies": [
     {
      "name": "DTN",
@@ -403,7 +446,7 @@
       "consent_identity": false
      },
      "tier": "Feed & Infrastructure",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "CryptoCompare",
@@ -446,7 +489,7 @@
       "consent_identity": false
      },
      "tier": "Crypto Market Data",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "StockData",
@@ -489,49 +532,6 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 11
-    },
-    {
-     "name": "Moody's",
-     "slug": "moodys",
-     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 66.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
-      "governance": 73.7,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 76.1
-     },
-     "agent_score": 81.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Enterprise Platform",
      "rank": 12
     },
     {

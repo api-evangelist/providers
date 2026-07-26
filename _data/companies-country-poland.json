@@ -106,6 +106,7 @@
      "name": "inFakt",
      "slug": "infakt",
      "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png",
      "score": 43.8,
      "band": "thin",
      "band_label": "Thin",

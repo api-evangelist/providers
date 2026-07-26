@@ -1,5 +1,5 @@
 {
- "total": 119,
+ "total": 122,
  "bands": [
   {
    "band": "strong",
@@ -12,6 +12,7 @@
      "name": "Helcim",
      "slug": "helcim",
      "description": "Helcim is a Calgary, Canada based payment processor and merchant services provider serving small and medium-sized businesses across Canada and the United States with interchange-plus pricing and no monthly fees. Beyond its merchant dashboard, Smart Terminal hardware, and online store, Helcim ships a genuine developer surface: the versioned Helcim API (v2) for taking card and ACH payments, managing customers, cards, bank accounts and pre-authorized debits (PADs), issuing invoices, settling card and ACH batches, and driving in-person Card Terminal devices, alongside HelcimPay.js hosted checkout and connected-account webhooks. Authentication is a permissioned API access token passed in an api-token header, and the public developer portal publishes a downloadable OpenAPI 3.0 definition. In Canada's small, concentrated payments market, Helcim is one of the API-native SMB money-movement fintechs building above the incumbent acquiring and Interac rails.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png",
      "score": 61.6,
      "band": "strong",
      "band_label": "Strong",
@@ -93,7 +94,7 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 13,
+   "count": 15,
    "companies": [
     {
      "name": "Moneris",
@@ -222,6 +223,7 @@
      "name": "APOLLO Insurance",
      "slug": "apollo-insurance",
      "description": "APOLLO Insurance (APOLLO Insurance Agency Ltd., apollocover.com) is a Vancouver-founded Canadian digital insurance brokerage and MGA-style distribution platform that sells personal and small-commercial coverage entirely online — tenant and student tenant insurance in every province, homeowner, condo and townhouse, landlord and pet insurance on the personal side, and general liability, professional liability and directors and officers coverage on the business side. APOLLO does not underwrite; it distributes on a commission basis on behalf of A+ to A- rated Canadian carriers, and it sits in the thin digital-broker layer of a Big-Few Canadian market dominated by Intact, Definity, Co-operators and Desjardins. Its distinctive business is embedded tenant insurance for REITs and property managers: automated resident enrolment at lease signing, renewal handling, and real-time building-level compliance tracking, delivered through a Yardi Systems integration and its CoverTrack compliance product. Unusually for the Canadian insurance sector, APOLLO publishes a genuine, publicly readable developer portal at docs.apollocover.com — a Stoplight workspace with three public projects and downloadable OpenAPI definitions covering quote and application (pre-fill) for tenant insurance and compliance-status lookup for partner properties. The surface is real but partner-scoped: every call needs an affiliateId (a co-branded APOLLO subdomain) and an x-api-key token that APOLLO issues by hand to affiliates and property-manager partners, so there is no self-serve credential path and no consumer-facing API. Canada has no open-insurance mandate — OSFI supervises prudentially, the provinces (FSRA, AMF) supervise market conduct, and Consumer-Driven Banking excludes insurance entirely — so nothing forces this disclosure; APOLLO published it as a distribution strategy. No ACORD, AL3, IVANS or agency-management-system reference appears anywhere in its public site or documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png",
      "score": 54.0,
      "band": "developing",
      "band_label": "Developing",
@@ -301,9 +303,51 @@
      "rank": 7
     },
     {
+     "name": "TELUS",
+     "slug": "telus",
+     "description": "TELUS Corporation is one of Canada's three national facilities-based telecommunications carriers, operating a nationwide mobile network alongside broadband, TV, security, health (TELUS Health) and agriculture (TELUS Agriculture & Consumer Goods) businesses from its Vancouver headquarters. In the API value chain TELUS is a network owner rather than a developer-facing platform: its API Marketplace at api.telus.com sits behind the TELUS Client Identity login, its developers.telus.com \"Simplify\" portal is an internal/partner surface that refuses anonymous requests, and its IoT Marketplace is a login wall. Two TELUS APIs are nonetheless documented in the open, and neither is on a telus.com property. The TELUS Insights Location API publishes a 27-operation reference through Postman Documenter and runs a live OAuth2-protected gateway. The TELUS Health Collaborative Health Record (CHR) Enterprise API is a substantial GraphQL platform — 505 types, 64 queries, 49 mutations and a 21-topic signed webhook service — whose full introspection document is anonymously fetchable from apidocs.ca.inputhealth.com, making it the only machine-readable API contract TELUS publishes anywhere. Both are gated commercially: Insights credentials come from a sales-led ticket in the Insights Portal, and CHR Enterprise API access is a paid feature enabled per clinic account after a contract and a privacy questionnaire. TELUS is a named participant in the CAMARA project and appears in the CAMARA landscape as an operator, but it publishes no first-party CAMARA endpoint — its Number Verification and SIM Swap network APIs reach developers indirectly through EnStream LP, the Bell/Rogers/TELUS identity joint venture, which feeds Aduna and from there CPaaS channels such as Vonage. TELUS is partner-gated and, for network APIs, reachable only through aggregators.",
+     "score": 49.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 89.1
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Jane",
      "slug": "jane-app",
      "description": "Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (including AI-assisted notes), insurance billing, payments, patient intake, a patient mobile app, and telehealth in a single system used by interdisciplinary clinics — physiotherapy, massage therapy, chiropractic, counselling, midwifery, and more. The Jane Developer Platform (developers.jane.app) exposes a documented REST API that lets approved Technology Partners build \"Jane Extensions\" — practitioner-authorized integrations that read and write clinic data. Authentication is OAuth 2.0 with PKCE over OpenID Connect (Keycloak realms), using RS256 JWT bearer access tokens and granular scopes (e.g. observations:read). The API is date-versioned in the URL path and is per-clinic (https://<clinic>/api/YYYY-MM-DD/), covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png",
      "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
@@ -339,7 +383,42 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
+    },
+    {
+     "name": "Bell Canada",
+     "slug": "bell-canada",
+     "description": "Bell Canada is Canada's largest communications company and the principal operating subsidiary of BCE Inc., providing wireless, wireline, internet, television and enterprise network services across Canada, and operating Bell Media as the country's largest broadcaster. As a facilities-based mobile network operator and broadband carrier it sits at the connectivity layer of the telecom value chain, and its public API posture reflects that: Bell runs a real developer portal at developer.bell.ca whose only published API suite is a set of four TM Forum Open API aligned B2B service management interfaces — Trouble Ticket (TMF621), Service Order (TMF641), Resource Inventory (TMF639) and Change Management (TMF655) — for enterprise and wholesale partners integrating their ITSM systems with Bell. The Swagger 2.0 definitions and PDF specifications are downloadable without a login, but access to the sandbox and to any live endpoint requires a business registration form and manual approval; no base URL, no credential scheme and no self-serve key issuance is published, and the documented request examples redact the credential as a literal SECURITY_CREDENTIALS placeholder. Bell publishes no first-party CAMARA network APIs and runs no Open Gateway portal of its own. Its network APIs reach developers indirectly, through EnStream LP — the identity and fraud-signal joint venture Bell Mobility owns with Rogers and TELUS — which announced a partnership with Aduna, the Ericsson-and-carrier joint venture, on 27 February 2025 to distribute Canadian Number Verification and SIM Swap signals through Aduna's CAMARA-aligned global channel. Bell is therefore an aggregator-mediated carrier: partner-gated on its own surface, reachable by developers only through a third party.",
+     "score": 48.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 10
     },
     {
      "name": "OSFI",
@@ -380,7 +459,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 11
     },
     {
      "name": "Sun Life",
@@ -421,7 +500,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "University of Calgary",
@@ -463,7 +542,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "University of Waterloo",
@@ -505,7 +584,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "University of Alberta",
@@ -546,7 +625,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Payments Canada",
@@ -587,7 +666,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Scotiabank",
@@ -629,7 +708,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 17
     }
    ],
    "open": true
@@ -639,12 +718,13 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 16,
+   "count": 17,
    "companies": [
     {
      "name": "Canada Health Infoway",
      "slug": "canada-health-infoway",
      "description": "Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway stewards the pan-Canadian FHIR interoperability specifications - CA Core+ and the CA Baseline profiles developed with the Canadian Institute for Health Information (CIHI) - and operates the Canadian FHIR Registry, the Canadian URI Registry, and a national Terminology Gateway. Its developer-facing API surface, published through the Accelero developer portal, is a HAPI-FHIR R4 (4.0.1) Terminology Service exposing CodeSystem, ValueSet, and ConceptMap resources with $lookup, $expand, $translate, and $validate-code operations, alongside a companion RESTful Terminology API for browsing code systems, subsets, maps, and packages. Infoway is a standards steward and terminology infrastructure operator for the Canadian market rather than a commercial clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png",
      "score": 44.4,
      "band": "thin",
      "band_label": "Thin",
@@ -680,12 +760,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Great-West Lifeco",
      "slug": "great-west-lifeco",
      "description": "Great-West Lifeco Inc. is a Winnipeg-headquartered international financial services holding company and a member of the Power Corporation group, and one of the largest life insurers in North America. It operates through Canada Life in Canada, the United Kingdom, the Isle of Man and Germany, through Irish Life in Ireland, and through Empower in the United States, spanning individual and group life, health and dental, disability and critical illness insurance, annuities and payout products, segregated funds and wealth management, employer-sponsored retirement recordkeeping, and life reinsurance. Its home market is Canada, where it is federally supervised by OSFI for prudential matters while market conduct is regulated province by province, and where no open-insurance mandate exists (Consumer-Driven Banking excludes insurance outright). Its API posture reflects that absence of a forcing function: the Great-West Lifeco corporate site and the Canadian consumer site canadalife.com publish no developer portal and no API documentation, and probes of developer/docs subdomains and /developers, /api, /developer, /partners and /integrations paths return no such surface. Two production API surfaces nevertheless exist inside the group, both partner-gated and unrelated to each other. Canada Life runs an Apigee gateway at api.canadalife.com that serves a real OpenID Connect discovery document anonymously - issuer, JWKS, token, revocation and userinfo endpoints, with the authorization endpoint deliberately published as \"authorize-NOT-SUPPORTED\" and an empty scopes_supported array - and whose error envelopes point to https://apimarketplace.canadalife.com, a digitalML-hosted API marketplace that does not resolve publicly. The U.S. retirement subsidiary Empower runs a genuine developer portal that lists two production APIs publicly while naming eight API products plus three coming soon on its marketing site, places every piece of reference documentation behind login, documents an x-api-key header with OAuth 2.0 client_credentials and private_key_jwt in support of FAPI, publishes release notes, a maintenance window and a mock-data sandbox, and issues credentials only after a reviewed access request. There is no downloadable OpenAPI anywhere, no public Postman collection, no SDK, no MCP server, no webhook or event catalog, and no ACORD, AL3 or IVANS reference on any public property in the group.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/screenshots/great-west-lifeco-2026-07-25T220257.png",
      "score": 43.7,
      "band": "thin",
      "band_label": "Thin",
@@ -721,7 +802,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "TMX Group",
@@ -763,7 +844,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "McGill University",
@@ -805,12 +886,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Loon Finance",
      "slug": "loon-finance",
      "description": "Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prospectus pre-filed with the Alberta Securities Commission. CADC is issued on Ethereum, Base, Polygon, Arbitrum, Linea, and Solana, and Loon acquired the token from Paytrie (launched 2021, $200M+ in cumulative volume). Loon publishes a small public, unauthenticated Transparency API exposing live circulating supply per chain, on-chain issuance (mint) events, and the monthly reserve-attestation history, backed by an llms.txt, a security.txt disclosure policy, and a public transparency dashboard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png",
      "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
@@ -846,7 +928,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "University of British Columbia",
@@ -888,12 +970,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Flinks",
      "slug": "flinks",
      "description": "Flinks is a Canadian financial data platform (owned by National Bank",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
      "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
@@ -929,7 +1012,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Rotessa",
@@ -970,12 +1053,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "The Co-operators",
      "slug": "cooperators",
      "description": "The Co-operators is a Canadian insurance and financial services co-operative, formed in 1978 from the amalgamation of the Saskatchewan and Ontario co-operative insurers whose roots run back to the Co-operative Life Insurance Company founded in Regina in 1945. It is owned by Canadian co-operatives, credit union centrals and farm organizations rather than public shareholders, and writes multi-line property and casualty, home, auto, farm, travel and life insurance alongside group benefits, group retirement and savings, wealth management and institutional asset management, reporting more than $62 billion in assets under administration, nearly 7,000 employees and more than 2,800 licensed insurance representatives across Canada. Its API posture is partner-gated. There is no first-party developer portal on cooperators.ca — developer, developers, docs, api and partners subdomains do not resolve in DNS, and /developers, /developer, /api, /partners and /integrations all return HTTP 404 — while the advisor and broker channel is a set of sign-in walls (lifeportal.cooperators.ca, benefitsnowlogon.cooperators.ca, basis.cooperators.ca, illustration.cumis.com). The only public API surface in the group belongs to its embedded-insurance brand Duuo, whose Duuo Platform partner APIs cover account, quote, payment and policy issuance for tenant and event insurance behind a signed partnership agreement and issued OAuth 2.0 client credentials; the developer portal Duuo advertises at developer.duuo.ca is a Postman-hosted documentation domain that returns HTTP 404 as of 2026-07-25. No ACORD, AL3 or CSIO reference was found anywhere in the company's public materials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png",
      "score": 37.2,
      "band": "thin",
      "band_label": "Thin",
@@ -1011,7 +1095,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Queen's University at Kingston",
@@ -1053,12 +1137,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "BMO Financial Group",
      "slug": "bank-of-montreal",
      "description": "BMO Financial Group (Bank of Montreal) is one of Canada's Big Six banks and a Schedule I domestic chartered bank, founded in Montreal in 1817 as Canada's oldest bank. It is a diversified North American financial-services provider serving personal, commercial, wealth, and capital-markets clients across Canada and the United States (where it operates as the separately chartered BMO Bank N.A.). BMO runs a first-party, bilingual (EN/FR) commercial developer portal at developer.bmo.com for Online Banking for Business customers, publishing OAuth 2.0-secured Account Information, Account Validation, Image Retrieval, Payment (domestic and international / embedded finance), Authorize, and Encryption APIs on an IBM API Connect platform with a free sandbox and pre-production environment. Documentation and OpenAPI/API Explorer specs sit behind an approved organization account, so the surface is partner-gated rather than openly downloadable. Canada has no operational open-banking mandate yet — the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) is legislated but not live — so consumer data access today remains voluntary and largely aggregator-based (Flinks, Plaid), while BMO's own public program is a commercial treasury/ payments API offering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/screenshots/bank-of-montreal-2026-07-25T202338.png",
      "score": 35.6,
      "band": "thin",
      "band_label": "Thin",
@@ -1094,7 +1179,42 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 28
+    },
+    {
+     "name": "Rogers Communications",
+     "slug": "rogers",
+     "description": "Rogers Communications is Canada's largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country's largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers' network capabilities reach developers only through intermediaries: EnStream LP, the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft's Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna's integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing is callable from a Rogers-owned domain.",
+     "score": 35.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 12.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 29
     },
     {
      "name": "Université de Montréal",
@@ -1136,12 +1256,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 30
     },
     {
      "name": "Interac",
      "slug": "interac",
      "description": "Interac Corp. is Canada's domestic payments and digital verification network, founded in 1984 as the Interac Association and reorganized as a for-profit corporation in 2018 (through the merger of Interac Association and Acxsys). Headquartered in Toronto and owned by a consortium of Canadian financial institutions and payment processors, Interac is shared national payment infrastructure rather than a chartered bank — it has no Schedule I / Schedule II banking charter. It operates the Interac Debit domestic debit network, Interac e-Transfer (used by roughly 88% of Canadians), and Interac verification / digital identity services, connecting 300+ financial institutions and processing on the order of 18.6 million transactions a day. As one of the core Canadian rails alongside Payments Canada, Interac runs the Interac Innovation Hub developer program. Its most openly documented public API surface is the Interac Hub Verification Service, an HTTP identity-verification API built on OAuth 2.0 and OpenID Connect (Authorization Code Grant with Pushed Authorization Requests); a self-serve sandbox is available through the Hub Verification developer portal, while full production access and other products (Business Request Money, Interac Direct) are partner-gated behind a commercial relationship with an issuing financial institution.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png",
      "score": 33.4,
      "band": "thin",
      "band_label": "Thin",
@@ -1177,7 +1298,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 31
     },
     {
      "name": "Shakepay",
@@ -1218,12 +1339,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 29
+     "rank": 32
     },
     {
      "name": "humi.ca",
      "slug": "humica",
      "description": "humi.ca is the Canadian HR, payroll, benefits, and hiring platform originally built as Humi and now operating as Employment Hero Canada (humi.ca redirects to employmenthero.com/en-ca). The platform is an all-in-one Employment Operating System covering HR management, payroll processing, applicant tracking (ATS), employee experience, learning, and Employer-of-Record hiring across 180+ countries. Employment Hero exposes a public REST API at api.employmenthero.com, secured with OAuth 2.0 authorization-code plus PKCE (mandatory from 2026-09-14), with documented resources spanning employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks, plus a partner integration marketplace (Xero, QuickBooks, Slack, Google Workspace, Microsoft 365, Square, Indeed, LinkedIn and more).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/screenshots/humica-2026-07-25T221713.png",
      "score": 30.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1253,7 +1375,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 30
+     "rank": 33
     },
     {
      "name": "Wawanesa Insurance",
@@ -1294,7 +1416,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 34
     }
    ]
   },
@@ -1309,6 +1431,7 @@
      "name": "Canada Life",
      "slug": "canada-life",
      "description": "The Canada Life Assurance Company is one of Canada's largest life and health insurers, formed from the 2020 amalgamation of Great-West Life, London Life and Canada Life under Winnipeg-based parent Great-West Lifeco. From its home market of Canada it underwrites individual life insurance, critical illness and disability coverage, individual and group health and dental benefits, group retirement and savings, segregated funds and annuities, distributed through an advisor and managing-general-agent channel rather than direct-to-developer. Canada Life publishes no public, self-serve developer portal and no downloadable API specifications. Its integration surface is entirely partner-gated: a live OAuth2-protected API gateway at api.canadalife.com that returns 403 on every path and exposes only OpenID discovery and JWKS anonymously, a Liferay \"Digital Agent\" advisor login wall at advisor.canadalife.com, a Salesforce-hosted customer portal at my.canadalife.com that publishes its own OpenID Connect discovery document with 36 platform scopes, and — the real machine-to-machine channel for this market — ACORD XML for Life data exchange with distributors through its carrier membership in CLIEDIS, the Canadian Life Insurance EDI Standards body. A former Apigee developer portal at developers.canadalife.com survives only as a dangling DNS CNAME pointing at prod-canadalife-portal.apigee.net, which no longer resolves.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/screenshots/canada-life-2026-07-25T204322.png",
      "score": 28.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1344,7 +1467,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 35
     },
     {
      "name": "Wealthsimple",
@@ -1385,12 +1508,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 33
+     "rank": 36
     },
     {
      "name": "Maple",
      "slug": "maple-health",
      "description": "Maple is a Canadian virtual-care company (getmaple.ca) headquartered in Toronto that connects patients across every Canadian province to Canadian-licensed doctors and nurse practitioners for on-demand and scheduled telehealth. Its consumer membership and B2B programs cover same-day acute care, paediatrics, mental health therapy and psychiatry, specialist consultations, chronic-condition management, prescriptions with pickup or delivery, lab requisitions, and medical notes, delivered through iOS, Android, and web apps. Maple sells to individuals and to employers, insurers, and health systems (clients include Air Canada, Blue Cross, Rogers, and Green Shield) via custom care programs rather than a self-serve technical platform. As of this review Maple publishes NO public developer portal, REST API, or HL7 FHIR endpoint; there is no documented CapabilityStatement or SMART-on-FHIR configuration. Its interoperability posture is enterprise/partner-gated, and its security program is SOC 2 Type II and ISO 27001 aligned with a responsible-disclosure channel at security@getmaple.ca.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maple-health/refs/heads/main/screenshots/maple-health-2026-07-25T230125.png",
      "score": 27.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1426,7 +1550,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 34
+     "rank": 37
     },
     {
      "name": "Steinbach Credit Union",
@@ -1467,7 +1591,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 38
     },
     {
      "name": "Certn",
@@ -1503,12 +1627,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 39
     },
     {
      "name": "Definity Financial",
      "slug": "definity-financial",
      "description": "Definity Financial Corporation is a Canadian property and casualty insurance group headquartered in Waterloo, Ontario and listed on the Toronto Stock Exchange (DFY). It is the demutualized successor to Economical Mutual Insurance Company, founded in 1871 in Berlin (now Kitchener), Ontario; policyholders approved demutualization in May 2021 and the company completed its IPO in November 2021, renaming the operating carrier Definity Insurance Company. Definity underwrites personal and commercial property, automobile, farm, and pet lines across Canada through four brands: Economical (broker-distributed home, auto, farm and business insurance), Sonnet (described by the company as the largest fully digital direct-to-consumer insurance business in Canada), Family Insurance Solutions, and Petline/Petsecure (pet insurance). It is one of the Big Few Canadian P&C carriers and reported roughly $6.3B in gross written premiums on a trailing-twelve-month pro-forma basis including its Travelers Canada acquisition. Its API posture is partner-gated and honest to state plainly: Definity publishes no public, self-serve developer portal and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI definition on any first-party host. Every developer-shaped subdomain of definityfinancial.com fails to resolve, an api.definity.com host exists behind Imperva but answers HTTP 404 with an empty body to every anonymous path including OAuth and OpenID discovery, and the only reachable broker surface, broker.economical.com, is a Docebo learning management system for broker training rather than an API reference. The gated API is nonetheless real and independently attested: CSIO, Canada's property-and-casualty data-standards body and the domestic counterpart to ACORD, certified Definity against its API Security Standards on 27 November 2024 — the industry's standard authentication and authorization API model for insurer-to-broker-management-system connectivity, requiring confirmed mitigation of 16 OAuth security concerns and 18 API endpoint concerns — and Definity is additionally CSIO eDocs Certified and Compliance Certified (all non-standard Z-Codes eliminated from broker data exchange). Its Vyne broker digital platform runs on Guidewire Cloud, which Definity was the first Canadian P&C insurer to adopt for its core insurance platform. Two brands, Sonnet and Economical, publish real hand-authored llms.txt documents with explicit AI-training, generation, summarization and crawling directives, including named directives for OpenAI, Google-DeepMind and Anthropic. All of this sits in a Canadian market where OSFI supervises prudentially, the provinces regulate conduct, and Consumer-Driven Banking excludes insurance entirely, so no open-insurance mandate forces a public API surface and standardization is industry-led through CSIO instead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/definity-financial/refs/heads/main/screenshots/definity-financial-2026-07-25T211640.png",
      "score": 26.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1544,7 +1669,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 40
     },
     {
      "name": "Blue Cross Canada",
@@ -1585,12 +1710,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 41
     },
     {
      "name": "CAA Insurance",
      "slug": "caa-insurance",
      "description": "CAA Insurance Company is a Canadian property and casualty carrier that began underwriting in 1974 and is part of CAA Club Group, the CAA South Central Ontario federation, with its head office at 60 Commerce Valley Drive East in Thornhill, Ontario. It underwrites personal-lines auto insurance (including accident benefits, the CAA MyPace pay-as-you-drive product, CAA Connect telematics, and antique and classic vehicle coverage) and personal property insurance (homeowners, condominium, and tenant), plus optional endorsements such as tire coverage, home equipment breakdown, service line, renewable energy equipment, and legal expense coverage. It sells in British Columbia, Saskatchewan, Manitoba, Ontario, New Brunswick, Nova Scotia, and Prince Edward Island through a direct-to-consumer channel and through independent brokers. Its API posture is honestly none: as of the July 2026 review there is no public developer portal, no self-serve API program, no downloadable OpenAPI or Swagger definition, and no published event or webhook catalog. Every developer-style host and path probed (developer/developers/docs/api subdomains, and /developers, /api, /developer, /partners, /integrations on both caainsurancecompany.com and caainsurancecompany.ca) either failed DNS or returned 404. The only integration surface is the CAA Broker Portal at caabrokerportal.ca, which is a Microsoft Entra External ID (CIAM) WS-Federation login wall in front of a SharePoint broker workspace, and the broker program microsite at broker.caainsurance.com, which is marketing and business-development content only. The one machine-readable contract anywhere in the estate is platform-provided rather than authored by CAA: the broker portal runs Microsoft SharePoint 16.0.0.5552 and serves twenty SOAP WSDL documents (199 operations, none of them insurance operations) anonymously at /_vti_bin/<service>.asmx?WSDL, with its REST/OData sibling at /_api/web returning 403 to anonymous callers; the CAA Club Group Entra External ID tenant likewise serves standard OpenID Connect discovery. Consumer quoting runs through hosted web applications rather than an exposed quote API. This is a representative record of the Canadian carrier tier, where there is no open-insurance mandate — OSFI supervises prudentially, provincial regulators such as FSRA and the AMF handle market conduct, and Consumer-Driven Banking excludes insurance entirely — so carriers face no forcing function to publish anything.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caa-insurance/refs/heads/main/screenshots/caa-insurance-2026-07-25T204155.png",
      "score": 25.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1626,7 +1752,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 42
     },
     {
      "name": "OSCAR EMR",
@@ -1667,7 +1793,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 43
     },
     {
      "name": "Plooto",
@@ -1708,7 +1834,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 44
     },
     {
      "name": "Royal Bank of Canada",
@@ -1749,7 +1875,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 45
     },
     {
      "name": "KOHO",
@@ -1790,7 +1916,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 43
+     "rank": 46
     },
     {
      "name": "Trufla",
@@ -1831,7 +1957,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 47
     },
     {
      "name": "University of Ottawa",
@@ -1867,7 +1993,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 48
     },
     {
      "name": "McMaster University",
@@ -1903,7 +2029,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 49
     },
     {
      "name": "Peoples Group",
@@ -1944,43 +2070,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
-    },
-    {
-     "name": "Western University",
-     "slug": "western",
-     "description": "Western University is a public research university in London, Ontario, Canada, ranked #120 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on Western Libraries: the institutional repository Scholarship@Western migrated in 2025 to Scholaris, a national shared DSpace 8 service hosted by Scholars Portal, which exposes a live DSpace REST API and an OAI-PMH metadata harvesting endpoint. Western Technology Services also operates an institutional Single Sign-On service supporting SAML2, OAuth, OpenID Connect, and CAS, but it is gated behind institutional affiliation rather than self-service. Western does not publish an official open course/timetable or open-data API; timetable data is documented only as scrape targets and via unofficial third-party projects.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png",
-     "score": 23.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "WELL Health Technologies",
@@ -2021,7 +2111,43 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 51
+    },
+    {
+     "name": "Western University",
+     "slug": "western",
+     "description": "Western University is a public research university in London, Ontario, Canada, ranked #120 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on Western Libraries: the institutional repository Scholarship@Western migrated in 2025 to Scholaris, a national shared DSpace 8 service hosted by Scholars Portal, which exposes a live DSpace REST API and an OAI-PMH metadata harvesting endpoint. Western Technology Services also operates an institutional Single Sign-On service supporting SAML2, OAuth, OpenID Connect, and CAS, but it is gated behind institutional affiliation rather than self-service. Western does not publish an official open course/timetable or open-data API; timetable data is documented only as scrape targets and via unofficial third-party projects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png",
+     "score": 22.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 52
     },
     {
      "name": "Finaeo",
@@ -2062,12 +2188,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Alterna Savings",
      "slug": "alterna-savings",
      "description": "Alterna Savings and Credit Union Limited is a member-owned financial cooperative (credit union) founded in 1908 as the Civil Service Savings and Loan Society, headquartered in Ottawa, Ontario and regulated provincially by the Financial Services Regulatory Authority of Ontario (FSRAO). It is one of Ontario's largest credit unions, serving roughly 217,000 members with about C$10.8 billion in assets across branches in Ontario, and operates the federally regulated direct-banking subsidiary Alterna Bank, one of Canada's earliest digital-first banks. Alterna offers personal and business banking, mortgages, lending, investments and insurance. Consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework (legislated in Budget 2024 / Fall Economic Statement 2024 with the FCAC as overseer), Alterna Savings exposes NO public first-party developer portal or documented API. Digital access is delivered through its online and mobile banking apps and the Interac e-Transfer consumer rail; any third-party data access today is aggregator/screen-scraping based rather than a first-party API. This is an identity-only record with an honest no-public-API posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/screenshots/alterna-savings-2026-07-25T195822.png",
      "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2103,7 +2230,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "University of Toronto",
@@ -2145,7 +2272,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "TELUS Health",
@@ -2186,12 +2313,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Dialogue",
      "slug": "dialogue",
      "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialogue/refs/heads/main/screenshots/dialogue-2026-07-25T211910.png",
      "score": 20.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2227,7 +2355,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Yukon Open Data",
@@ -2269,12 +2397,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "connectFirst Credit Union",
      "slug": "connect-first-credit-union",
      "description": "connectFirst Credit Union is a member-owned, cooperative (Schedule-equivalent provincial credit union) financial institution headquartered in Calgary, Alberta, formed on May 3, 2021 by amalgamating four Alberta credit unions (First Calgary Financial, Chinook Financial, Mountain View Financial, and Legacy Financial). At its peak it held over CAD $6 billion in assets under administration and served more than 128,000 members across 41 branches in Central and Southern Alberta, offering retail, commercial, agricultural, and dealer-services banking. Members voted in November 2023 to merge with Servus Credit Union; the legal amalgamation closed May 1, 2024 as \"Connect First and Servus Credit Union Ltd.\" (~CAD $29.3B assets, 600,000+ members), and the unified brand realigned to Servus Credit Union in January 2025 — the connectfirstcu.com domain now 301-redirects to servus.ca. Its open-finance posture is honest and typical of a Canadian credit union: no first-party public developer portal or downloadable OpenAPI, digital banking delivered via the Celero Xpress platform (powered by ebankIT) with core/banking-tech through the Central 1 / Celero cooperative ecosystem, and third-party consumer data access available only through aggregators (Plaid coverage confirmed). Canada's federal Consumer-Driven Banking framework (Budget 2024 / FCAC-overseen) is legislated but not yet operational, so no mandated open-banking API exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/screenshots/connect-first-credit-union-2026-07-25T210259.png",
      "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2310,12 +2439,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Canadian Tire Bank",
      "slug": "canadian-tire-bank",
      "description": "Canadian Tire Bank (operating as Canadian Tire Financial Services) is a federally regulated Schedule I bank, wholly owned by Canadian Tire Corporation, Limited and federally chartered in 2003. Headquartered in Oakville, Ontario with operations in St. Catharines and Welland, the bank is the financial-services arm of one of Canada's best-known retailers. It issues the Triangle Mastercard, Triangle World Mastercard, Triangle World Elite Mastercard, Gas Advantage and Cash Advantage Mastercards, and offers high-interest savings accounts and GICs, all tied to the Triangle Rewards loyalty program. On open finance, the bank exposes no first-party public developer API or banking API portal. Canada's Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) is legislated but not yet operational, so consumer data access today is voluntary and aggregator-based — Canadian Tire Bank card and account data is reached through aggregators such as Finicity (by Mastercard), Flinks and Plaid rather than a first-party API. The cantire.com developer portal is run by the retail parent Canadian Tire Corporation, not the bank, is gated behind sign-in, and its TLS certificate expired in February 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-tire-bank/refs/heads/main/screenshots/canadian-tire-bank-2026-07-25T204326.png",
      "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2351,12 +2481,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Coast Capital Savings",
      "slug": "coast-capital",
      "description": "Coast Capital Savings is a member-owned financial co-operative headquartered in Surrey, British Columbia, serving over 600,000 members across roughly 45 branches. On November 1, 2018 it became Canada's first British Columbia-based federal credit union (regulated federally rather than provincially), and in May 2026 it completed a merger with Prospera Credit Union. With approximately $21.9 billion CAD in total assets it is one of Canada's largest credit unions. As a cooperative credit union rather than a Schedule I/II bank, Coast Capital operates within Canada's voluntary and still-fragmented open-finance landscape: the federal Consumer-Driven Banking (open banking) framework legislated under Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational. Coast Capital publishes NO public first-party developer portal or documented API; consumer financial-data access today is aggregator-mediated (e.g. Plaid) via screen-scraping/credential-based connections rather than a first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/screenshots/coast-capital-2026-07-25T205833.png",
      "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2392,7 +2523,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Tia Health",
@@ -2433,7 +2564,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Vancity Community Investment Bank",
@@ -2474,7 +2605,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Donnees Quebec",
@@ -2516,7 +2647,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "Alberta",
@@ -2558,7 +2689,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "BC Data Catalogue",
@@ -2600,7 +2731,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "British Columbia (DataBC)",
@@ -2642,7 +2773,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "City of Toronto Open Data",
@@ -2684,7 +2815,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "Donnees Ouvertes Montreal",
@@ -2726,7 +2857,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Gouvernement ouvert Canada (FR)",
@@ -2768,7 +2899,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Montréal, Québec",
@@ -2810,7 +2941,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Niagara Open Data",
@@ -2852,7 +2983,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "Ontario Data Catalogue",
@@ -2894,7 +3025,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Open Government Canada",
@@ -2936,12 +3067,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Brim Financial",
      "slug": "brim-financial",
      "description": "Brim Financial is a Toronto-based Canadian fintech (founded 2017) that operates a fully-integrated, API-first credit-card Platform-as-a-Service (PaaS). It is not a chartered Schedule I or Schedule II bank; it describes itself as the only fintech in North America licensed to issue credit cards, and it delivers Credit-Cards-as-a-Service (CCaaS), loyalty/rewards, BNPL, and money-movement infrastructure to banks, credit unions, fintechs, and large brands (clients include Manulife Bank, Laurentian Bank, Canadian Western Bank, Affinity Credit Union, and Air France-KLM). Brim is registered under Canada's Retail Payment Activities Act (RPAA) to Bank of Canada standards and was admitted to Payments Canada as a payment service provider, and has partnered with Mastercard to embed open-banking capabilities. Although Brim markets a comprehensive API-first platform, that API is delivered to enterprise/embedded-finance partners through a commercial onboarding relationship: as of this review there is no public, self-serve first-party developer portal, no downloadable OpenAPI/Swagger, and no operational consumer-driven-banking (open-banking) API, consistent with Canada's voluntary, not-yet-live open-finance framework.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brim-financial/refs/heads/main/screenshots/brim-financial-2026-07-25T203902.png",
      "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2977,12 +3109,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "Desjardins Group",
      "slug": "desjardins",
      "description": "Desjardins Group (Mouvement Desjardins) is the largest cooperative financial group in North America, founded in 1900 in Lévis, Quebec by Alphonse Desjardins. It is a federation of caisses populaires (member-owned credit unions) rather than a share-capital chartered bank, comprising the Fédération des caisses Desjardins du Québec and its subsidiaries, the caisses in Quebec and the Caisse Desjardins Ontario Credit Union, regulated in Quebec by the Autorité des marchés financiers (AMF). It holds roughly CAD $470 billion in assets and serves more than 7.8 million members and clients with personal, business, wealth-management and insurance products. On open finance, Desjardins publishes no first-party public developer portal or downloadable API specification; developer.desjardins.com and other API-portal subdomains do not resolve, and consumer financial-data access is delivered today through third-party aggregators (Flinks, Plaid, Finicity, Tink) via screen-scraping/aggregator connectivity rather than a documented Desjardins API. Canada's Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024/2025, overseen by the FCAC) but not yet operational; as a cooperative outside the Big Six, Desjardins may opt in to Phase 1 rather than being mandated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/desjardins/refs/heads/main/screenshots/desjardins-2026-07-25T211754.png",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3018,7 +3151,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "Intact Financial",
@@ -3059,7 +3192,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Zensurance",
@@ -3100,12 +3233,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Cortico",
      "slug": "cortico",
      "description": "Cortico (Cortico Health Technologies) is a Vancouver, British Columbia based healthcare connection platform, founded in 2019, that links patients, medical clinics, and health records across Canada and the United States. Its patient-engagement suite layers online booking, automated appointment reminders, secure two-way patient messaging, digital intake forms, telemedicine, specialist e-referrals, payments, and AI-driven administrative automation on top of the electronic medical records (EMRs) clinics already run — most notably a supported two-way integration with OSCAR EMR through that system's REST/SOAP web services, plus SMART on FHIR contextual launch and robotic process automation (RPA). Cortico is SOC 2 Type II and ISO 27001 certified and compliant with HIPAA, PIPEDA, and PHIPA. Cortico consumes EMR and FHIR interfaces rather than publishing its own public developer API: as of this review there is no public developer portal, API reference, or FHIR CapabilityStatement, and integration is delivered through a partnership and onboarding model rather than self-serve API access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cortico/refs/heads/main/screenshots/cortico-2026-07-25T210445.png",
      "score": 17.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3141,7 +3275,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "Sonnet Insurance",
@@ -3182,7 +3316,7 @@
       "well_known_catalog": false,
       "consent_identity": true
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "Tangerine",
@@ -3223,12 +3357,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 81
     },
     {
      "name": "Goose Insurance",
      "slug": "goose-insurance",
      "description": "Goose Insurance Services Inc. is a Vancouver, British Columbia based digital insurance distributor — an app-first licensed agency and MGA rather than a carrier — that sells travel medical, Visitors to Canada, term life, whole life, final expense, critical illness, accidental death and dismemberment, hospital cash, kids and renters coverage through the Goose mobile \"insurance super app\". Founded in 2017 and licensed in British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec (AMF firm registration 603913), New Brunswick and Nova Scotia, Goose underwrites nothing itself: every policy is placed with a partner carrier including AIG Canada, iA Financial Group, TuGo, IMG, MSH, American-Amicable, Teachers Life, Lloyd's of London and Sutton National. Its home market is Canada, with a US launch in 2020, and it sits in the thin digital-broker layer beneath the Big-Few Canadian oligopoly alongside Zensurance and APOLLO. Goose's API posture is closed: as of the 2026-07-25 review there is no public developer portal, no self-serve API documentation, no downloadable OpenAPI or Swagger, and no published ACORD, AL3 or agency-management-system integration. The only host that answers on the api. subdomain is a private Heroku-backed mobile-app backend that returns 404 at every probed path, and the only partner surfaces the company publishes are a marketing affiliate/referral program and a carrier-relationships page — quote, bind, issue and FNOL are all consumer-facing inside the app only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/screenshots/goose-insurance-2026-07-25T220107.png",
      "score": 16.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3264,7 +3399,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "Onlia",
@@ -3305,12 +3440,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
      "name": "Affinity Credit Union",
      "slug": "affinity-credit-union",
      "description": "Affinity Credit Union is a member-owned financial cooperative headquartered in Saskatoon, Saskatchewan, Canada. Formed in 2005 through the amalgamation of several Saskatchewan credit unions, it is the largest credit union in Saskatchewan and among the ten largest in Canada, with roughly CAD 9.6 billion in managed assets and a province-wide branch and advice-centre network serving personal and business members. As a provincially regulated cooperative under its \"Banking on Values\" mandate, members democratically own and govern the institution. Affinity exposes NO first-party public developer API or developer portal; digital and core banking are delivered through banking-technology providers (the credit-union system's Central 1 rails), and third-party consumer data access today is aggregator/screen-scraping based. Affinity is a stated supporter of the credit-union-system \"Open Banking Solution\" delivered by Caspian One under the Large Credit Union Coalition, positioning it for Canada's legislated-but-not-yet-operational Consumer-Driven Banking framework (FCAC).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/affinity-credit-union/refs/heads/main/screenshots/affinity-credit-union-2026-07-25T181740.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3346,12 +3482,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 84
     },
     {
      "name": "Bridgewater Bank",
      "slug": "bridgewater-bank",
      "description": "Bridgewater Bank is a Canadian Schedule I chartered bank, a wholly-owned",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridgewater-bank/refs/heads/main/screenshots/bridgewater-bank-2026-07-25T203817.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3387,12 +3524,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Conexus Credit Union",
      "slug": "conexus-credit-union",
      "description": "Conexus Credit Union is Saskatchewan's largest credit union, a member-owned cooperative financial institution headquartered in Regina with over $10 billion in consolidated assets under management, more than 140,000 members, roughly 30 branches, and over 800 employees across the province. As a provincially regulated Saskatchewan credit union it operates under a cooperative charter, with member deposits guaranteed by the Credit Union Deposit Guarantee Corporation (CUDGC). In November 2024 Conexus announced its intent to explore a merger with Cornerstone and Synergy credit unions. Conexus does not publish a first-party public developer API or a developer portal; developer.conexus.ca does not resolve, and /developer and /api on the corporate site return 404. Consumer financial-data access is provided through third-party aggregators (notably Plaid in Canada) via screen-scraping and connection-based data sharing rather than a first-party API. Digital and online banking are delivered through core-banking and fintech partners (banking.online.conexus.ca), and investing runs through the credit-union system's Aviso Wealth / Qtrade and Thrive Wealth partners. Canada's federal Consumer-Driven Banking (open banking) framework, overseen by the Financial Consumer Agency of Canada (FCAC), is legislated but not yet operational, so Conexus's open-finance access remains voluntary and aggregator-mediated today.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conexus-credit-union/refs/heads/main/screenshots/conexus-credit-union-2026-07-25T210244.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3428,12 +3566,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "Equitable Bank",
      "slug": "equitable-bank",
      "description": "Equitable Bank is Canada's seventh largest independent Schedule I bank by assets and a wholly owned subsidiary of EQB Inc. (TSX: EQB), a Toronto-based Canadian financial services company with over CAD $144 billion in combined assets under management and administration. Federally chartered and Canadian owned, Equitable Bank markets itself as \"Canada's Challenger Bank\" and, in 2016, launched EQ Bank, its digital-only banking platform offering high interest savings accounts, GICs, and payments alongside the parent bank's single-family residential and commercial lending. Equitable Bank and Equitable Trust are members of the Canada Deposit Insurance Corporation (CDIC). On the open-finance front, Equitable Bank does not operate a public first-party developer portal or publish downloadable API specifications; consumer permissioned data sharing is delivered through the Canadian aggregator Flinks (Flinks Outbound) rather than a first-party API. Canada's federal Consumer-Driven Banking framework (legislated in Budget 2024 with the Financial Consumer Agency of Canada as overseer) is not yet operational, so the bank's data-access posture today is voluntary and aggregator-mediated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-bank/refs/heads/main/screenshots/equitable-bank-2026-07-25T213552.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3469,12 +3608,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Laurentian Bank of Canada",
      "slug": "laurentian-bank",
      "description": "Laurentian Bank of Canada (Banque Laurentienne du Canada) is a Montreal-headquartered Schedule I chartered bank, founded in 1846 as the Montreal City and District Savings Bank and listed on the Toronto Stock Exchange as LB. With roughly CA$47 billion in assets, about 3,000 employees, and approximately 1.5 million clients, it serves personal, commercial, and capital-markets customers - concentrated in Quebec with commercial offices across Canada - through subsidiaries including B2B Bank, Laurentian Bank Securities, and LBC Capital. The bank operates no public developer portal and exposes no first-party or FDX-style data-access API; consumer data access is aggregator-mediated today (screen-scraping via providers such as Flinks and Plaid), and Canada's federal Consumer-Driven Banking framework remains legislated but not yet operational, so participation is voluntary. In December 2025 the bank announced a proposed sale to Fairstone Bank of Canada, with National Bank of Canada acquiring its retail operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3510,7 +3650,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "PC Financial",
@@ -3551,7 +3691,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Simplii Financial",
@@ -3592,12 +3732,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "CIBC",
      "slug": "cibc",
      "description": "Canadian Imperial Bank of Commerce (CIBC) is a Schedule I domestic chartered bank and one of Canada's Big Six, formed in 1961 through the merger of the Canadian Bank of Commerce and the Imperial Bank of Canada and headquartered in Toronto, Ontario. Serving roughly eleven million personal, business, commercial, wealth, and capital-markets clients across Personal & Business Banking, Wealth Management, and Capital Markets, CIBC is a participant in the shared Canadian rails, including Interac e-Transfer and Payments Canada settlement systems. Canada has no operational open-banking mandate today: the federal Consumer-Driven Banking framework legislated in Budget 2024 and the 2024 Fall Economic Statement, overseen by the Financial Consumer Agency of Canada (FCAC), is not yet live, so access remains voluntary and fragmented. CIBC runs no first-party public developer portal (developer.cibc.com does not resolve) and publishes no downloadable OpenAPI or Swagger specifications. Consumer-permissioned data access is aggregator-mediated: CIBC signed a tokenized data-access agreement with U.S. aggregator MX (announced August 2022, MX's first in Canada) to let clients share financial data with third-party apps without exposing banking credentials, and its accounts are also reachable through Plaid (Assets, Auth, Balance). Corporate connectivity is offered through CIBC SWIFT Corporate Access (SCA) file exchange rather than a public REST API, so CIBC's honest public API surface today is aggregator-mediated only, pending the coming Consumer-Driven Banking regime.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cibc/refs/heads/main/screenshots/cibc-2026-07-25T205336.png",
      "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3633,7 +3774,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "Servus Credit Union",
@@ -3674,12 +3815,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "ApplyBoard Inc.",
      "slug": "applyboard-inc",
      "description": "'ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/applyboard-inc/refs/heads/main/screenshots/applyboard-inc-2026-07-25T200803.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3709,7 +3851,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "Neo Financial",
@@ -3750,12 +3892,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Citibank Canada",
      "slug": "citibank-canada",
      "description": "Citibank Canada (Citi Canada) is the Canadian arm of Citigroup, chartered under Canada's Bank Act as a Schedule II (foreign bank subsidiary) deposit-taking institution, established in 1919 in Toronto and headquartered at Citigroup Place, 123 Front Street West. It is a member of the Canadian Bankers Association and the Canada Deposit Insurance Corporation (CDIC). Citi Canada is an institutional and corporate bank only — securities trading, cash management, treasury, trade finance, custody, clearing, securities financing and private banking — having exited Canadian consumer retail banking years ago (its MasterCard portfolio was sold to CIBC in 2010 and CitiFinancial Canada, now Fairstone, was divested in 2017). It runs no Canada-specific developer portal; its corporate and institutional clients integrate through Citigroup's group-level Citi Developer Experience and CitiConnect API platform for payments, statements/reporting, balance inquiry and FX. Canada has no operational open-banking mandate — the federal Consumer-Driven Banking framework (Budget 2024 / FES 2024, overseen by the FCAC) is legislated but not yet live — and because Citi Canada holds no retail consumer accounts here, consumer data-aggregation access is not applicable to this entity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/screenshots/citibank-canada-2026-07-25T205424.png",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3791,12 +3934,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "First Nations Bank of Canada",
      "slug": "first-nations-bank-of-canada",
      "description": "First Nations Bank of Canada (FNBC) is a Schedule I federally regulated chartered bank under the Bank Act, chartered on 19 November 1996 and headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered bank to be independently controlled by Indigenous shareholders — roughly 88% Indigenous owned and controlled by 78 Indigenous shareholder groups from Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and Quebec — and focuses on serving the Indigenous marketplace, with over 90% of its loans going directly to Indigenous communities, many of its branches on reserve, and CDIC-insured deposits. On the open-finance and API front, FNBC runs no first-party developer portal and publishes no public API: probes of developer.fnbc.ca, api.fnbc.ca and developers.fnbc.ca all fail to resolve, and the fnbc.ca site exposes only retail online-banking and a mobile app, not a documented API surface. Canada's federal Consumer-Driven Banking framework (legislated via Budget 2024 / Fall Economic Statement 2024, with FCAC as overseer) is not yet operational, so third-party access to FNBC account data today is voluntary and effectively aggregator-mediated (Flinks, Plaid and similar), not a first-party open-banking API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/screenshots/first-nations-bank-of-canada-2026-07-25T214606.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3832,7 +3976,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "Remitbee",
@@ -3873,7 +4017,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 94
+     "rank": 97
     }
    ]
   },
@@ -3888,6 +4032,7 @@
      "name": "Dominion Dynamics",
      "slug": "dominion-dynamics",
      "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominion-dynamics/refs/heads/main/screenshots/dominion-dynamics-2026-07-25T212245.png",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3923,7 +4068,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 95
+     "rank": 98
     },
     {
      "name": "National Bank of Canada",
@@ -3964,7 +4109,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 96
+     "rank": 99
     },
     {
      "name": "Paperstack",
@@ -3999,7 +4144,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 97
+     "rank": 100
     },
     {
      "name": "Pine",
@@ -4034,12 +4179,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 101
     },
     {
      "name": "Amex Bank of Canada",
      "slug": "amex-bank-of-canada",
      "description": "Amex Bank of Canada is the Canadian banking subsidiary of the American Express Company (United States), incorporated in 1990 and headquartered in the Toronto area (Markham, Ontario). It is a Schedule II bank under Canada's Bank Act — a foreign-bank subsidiary regulated by the Office of the Superintendent of Financial Institutions (OSFI) and treated as a Category II small-and-medium-sized deposit-taking institution — and it issues American Express charge and credit cards to Canadian consumers and businesses. As a card-centric Schedule II bank, Amex Bank of Canada runs no first-party developer portal of its own; the global American Express developer platform at developer.americanexpress.com is operated by the U.S. parent (a separate profile), not by this Canadian entity. Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and the 2024 Fall Economic Statement with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational, so consumer data access to Amex-Canada accounts today is voluntary and largely aggregator-based rather than served by a public first-party API. This is an identity/provider record; no public Canadian API surface is documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amex-bank-of-canada/refs/heads/main/screenshots/amex-bank-of-canada-2026-07-25T200104.png",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4075,12 +4221,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 99
+     "rank": 102
     },
     {
      "name": "B2B Bank",
      "slug": "b2b-bank",
      "description": "B2B Bank is a Schedule I Canadian bank, headquartered in Toronto and wholly owned by Laurentian Bank of Canada (Laurentian Bank Financial Group). It operates a business-to-business, intermediary-only model: rather than serving retail consumers directly, it manufactures and distributes banking products through a network of roughly 27,000 financial professionals — financial advisors and their dealerships, deposit and mortgage brokers and their firms, mutual fund and insurance manufacturers, and CIRO (formerly MFDA/IIROC) members. Its product lines include investment loans, RSP and TFSA loans, broker deposits (GICs and high-interest savings/investment accounts), broker mortgages, and investment and banking accounts. The bank became a Schedule I bank and adopted the B2B Bank name in 2012, consolidating predecessor trust businesses (North American Trust, Sun Life Trust), and its deposits are CDIC insured. On open finance, B2B Bank publishes no first-party developer portal or public API: developer.b2bbank.com and api.b2bbank.com do not resolve, and the public site exposes only gated advisor/broker applications (Advisor Access, EASE online loans, Group Access, Investor Access, online banking). Canada's Consumer-Driven Banking framework is legislated but not yet operational, and the bank documents no FDX participation, Interac data-sharing API, or aggregator program of its own — consistent with an intermediary bank whose digital surface is partner-gated rather than developer-facing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4116,7 +4263,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "Meridian Credit Union",
@@ -4157,7 +4304,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 101
+     "rank": 104
     },
     {
      "name": "Alexi",
@@ -4193,12 +4340,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 102
+     "rank": 105
     },
     {
      "name": "BitAccess",
      "slug": "bitaccess",
      "description": "Bitaccess is a Canadian blockchain company (Ottawa, founded 2013, Y Combinator) that builds the enterprise software and hardware powering Bitcoin ATM (BTM) operations and fintech businesses in more than 15 countries. Its stack includes the Bitaccess BTM operating software, the Cash API for cash-in and cash-out crypto transaction flows, and the Catena blockchain suite for publishing complex datasets to public or private blockchains via smart contracts. Bitaccess maintains an in-house HD/multisig enterprise wallet built for high-velocity applications and publishes first-party open-source client libraries under the npm @bitaccess scope and the github.com/bitaccess organization, led by the coinlib unified Node.js/TypeScript crypto-payments library. Surfaced as a portfolio company of Pantera Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitaccess/refs/heads/main/screenshots/bitaccess-2026-07-25T203126.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4234,12 +4382,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Home Trust",
      "slug": "home-trust",
      "description": "Home Trust Company is a federally regulated Canadian trust company founded in 1977 and headquartered in Toronto, and the principal operating subsidiary of Home Capital Group. Home Capital was taken private by Smith Financial Corporation (Stephen Smith) in 2023, and the group now spans Home Trust, Home Bank (a Schedule I bank), Fairstone Bank, and the Oaken Financial deposit brand, positioning itself as one of Canada's leading alternative (non-prime) lenders. Its products include residential and commercial mortgages, reverse mortgages, Equityline, Preferred and Secured Visa credit cards, and Oaken GIC and high-interest savings deposits. Home Trust operates no public developer portal or first-party API: developer.hometrust.ca and api.hometrust.ca do not resolve (DNS NXDOMAIN), no downloadable OpenAPI/Swagger is published, and no Interac e-Transfer or Payments Canada Real-Time Rail (RTR) API surface is documented. Canada's federal Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024 / Fall Economic Statement 2024, FCAC as overseer) but not yet operational, and Home Trust publishes no stated CDB or FDX position; any consumer data access today would be via screen-scraping aggregators such as Flinks or Plaid rather than a first-party API. This is an identity-only record: no public API exists as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-trust/refs/heads/main/screenshots/home-trust-2026-07-25T221334.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4275,12 +4424,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "ATB Financial",
      "slug": "atb-financial",
      "description": "ATB Financial (formerly Alberta Treasury Branches) is a financial institution and Crown corporation wholly owned by the Government of Alberta, established in 1938 and operating under the provincial ATB Financial Act rather than the federal Bank Act. Headquartered in Edmonton, it is Alberta's largest home-grown financial institution and the largest public bank in North America, with roughly C$64 billion in assets, more than 800,000 customers, about 5,000 team members, and 300+ branches and agencies across the province; deposits are guaranteed by the Province of Alberta rather than covered by CDIC. On the open-finance front, ATB does NOT operate a public first-party developer portal or documented public API surface (developer.atb.com returns HTTP 404), and Canada's federal Consumer-Driven Banking framework (legislated in Budget 2024 and the Fall Economic Statement 2024, with the FCAC as overseer) is not yet operational. Consumer financial-data access to ATB today is therefore voluntary and aggregator-mediated — reached through third-party aggregators such as Finicity (by Mastercard) and Flinks rather than a direct bank API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atb-financial/refs/heads/main/screenshots/atb-financial-2026-07-25T201528.png",
      "score": 12.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4316,48 +4466,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 105
-    },
-    {
-     "name": "TD Bank Group",
-     "slug": "td-bank-group",
-     "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
-     "score": 12.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 21.7
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "Resolute Forest Products",
@@ -4393,7 +4502,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Pomelo Health",
@@ -4434,7 +4543,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "Prospera Credit Union",
@@ -4475,12 +4584,54 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
+     "rank": 111
+    },
+    {
+     "name": "TD Bank Group",
+     "slug": "td-bank-group",
+     "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
+     "score": 11.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 21.7
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 112
     },
     {
      "name": "Breathe Life",
      "slug": "breathe-life",
      "description": "Breathe Life is a Montreal, Quebec based life insurance technology company — an enterprise SaaS core-systems vendor rather than a carrier or a broker — founded in 2018 to sell life insurers a modern new-business origination and distribution platform. Its product was the Breathe Life Hybrid Origination (Hybrid Distribution) Platform, sold either end-to-end or as four separately licensable modules: Quoter, Hybrid e-App, Advisor Tools and Data Dashboards, supporting advisor-driven, consumer self-serve, or blended selling of individual life products with simple and complex underwriting paths. Its home market is Canada, and its named clients were Canadian and North American life carriers, fraternals and faith-based insurers including Teachers Life, FaithLife Financial, National Bank Insurance, National Catholic Society of Foresters and La Capitale. The company raised CAD $11.5M in August 2020 from Diagram Ventures, Real Ventures and Investissement Quebec plus angels from AXA, AIG and RGA, was named to the 2020 InsurTech 100, and held PCI DSS, SOC 2 Type II and SOC 3 attestations. SE2, an Eldridge business, announced its acquisition of Breathe Life on 2022-03-28; SE2 subsequently rebranded as Zinnia, and the Breathe Life site carried a \"We are now part of Zinnia!\" banner before being decommissioned. Its API posture is closed and now historical: as of the 2026-07-25 review Breathe Life never published a developer portal, API reference, OpenAPI or Swagger definition, Postman collection, GraphQL endpoint, webhook catalog or ACORD/AL3 conformance claim on breathelife.com, and the domain no longer serves a site at all — breathelife.com returns an nginx \"Site Not Configured\" 404 and www.breathelife.com returns a WP Engine \"Site is not available\" 404. Quote, bind, issue and FNOL existed only as capabilities inside a carrier-licensed, login-gated SaaS product, never as an addressable public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-life/refs/heads/main/screenshots/breathe-life-2026-07-25T203742.png",
      "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4516,7 +4667,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 110
+     "rank": 113
     },
     {
      "name": "Skipthedishes",
@@ -4551,7 +4702,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 111
+     "rank": 114
     },
     {
      "name": "Vancity",
@@ -4592,12 +4743,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 115
     },
     {
      "name": "Airborne Entertainment",
      "slug": "airborne-entertainment",
      "description": "'Airborne Entertainment was a Montreal, Quebec mobile entertainment company",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airborne-entertainment/refs/heads/main/screenshots/airborne-entertainment-2026-07-25T195420.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4627,12 +4779,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 113
+     "rank": 116
     },
     {
      "name": "Canadian Western Bank",
      "slug": "canadian-western-bank",
      "description": "Canadian Western Bank (CWB) is a Schedule I domestic chartered bank founded in 1988 (through the merger of the Bank of Alberta and Western & Pacific Bank) and headquartered in Edmonton, Alberta at Canadian Western Bank Place. Historically the largest publicly traded Schedule I bank headquartered in Western Canada and listed on the Toronto Stock Exchange (TSX: CWB), it held roughly CA$43 billion in assets and focused on full-service business and commercial banking, personal banking, equipment financing and leasing, trust services, and wealth management across a network of affiliated entities. In June 2024 National Bank of Canada agreed to acquire CWB in an all-share deal valued at roughly CA$5 billion, and the acquisition closed in early 2025; CWB now operates as a subsidiary of National Bank of Canada and its branches and brand are being wound down and rebranded under National Bank. Consistent with Canada's voluntary and still fragmented open-finance landscape — the federal Consumer-Driven Banking framework was legislated in 2024 (Budget 2024 / Fall Economic Statement, overseen by the FCAC) but is not yet operational — CWB publishes no first-party public developer portal and no documented public API. Its developer and API hostnames do not resolve, and the entire cwbank.com domain now 301-redirects to National Bank of Canada (nbc.ca). Consumer-permissioned account and transaction data is reached only indirectly through third-party data aggregators (Plaid is confirmed via aggregator coverage directories). No first-party FDX-conformant data-access API was found. This is an honest identity-only, aggregator-only record for an institution now absorbed into National Bank of Canada.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/screenshots/canadian-western-bank-2026-07-25T204330.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4668,12 +4821,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 117
     },
     {
      "name": "First West Credit Union",
      "slug": "first-west-credit-union",
      "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-west-credit-union/refs/heads/main/screenshots/first-west-credit-union-2026-07-25T214610.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4709,12 +4863,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 118
     },
     {
      "name": "Manulife Bank",
      "slug": "manulife-bank",
      "description": "Manulife Bank of Canada is a Schedule I federally chartered bank and a wholly-owned subsidiary of The Manufacturers Life Insurance Company, part of Manulife Financial Corporation. Launched in 1993 as Canada's first branchless (direct) bank — and the first federally regulated bank opened by an insurance company in Canada — it operates entirely through online banking, a mobile app, and telephone banking, with no physical branches. It is best known for the Manulife One all-in-one account, the Advantage Account, GICs, mortgages, and lines of credit that connect everyday banking and borrowing with long-term financial planning. Manulife Bank publishes no first-party public developer portal or downloadable API specifications; no developer.manulifebank.ca host resolves, and the public site is bot-protected. Canada's Consumer-Driven Banking (open-banking) framework — legislated in Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is legislated but not yet operational, so consumer financial data access today is voluntary and occurs through financial-data aggregators (Plaid, Flinks, MX) rather than a first-party bank API. Interac e-Transfer is offered as a consumer feature but is not exposed as a documented public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife-bank/refs/heads/main/screenshots/manulife-bank-2026-07-25T230113.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4750,7 +4905,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 116
+     "rank": 119
     },
     {
      "name": "WayPay",
@@ -4791,7 +4946,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 120
     },
     {
      "name": "Smart Reno",
@@ -4826,7 +4981,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 121
     }
    ]
   },
@@ -4841,7 +4996,7 @@
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 119
+     "rank": 122
     }
    ]
   }

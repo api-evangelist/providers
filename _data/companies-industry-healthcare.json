@@ -106,6 +106,7 @@
      "name": "Agilent Technologies",
      "slug": "agilent-technologies",
      "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png",
      "score": 55.4,
      "band": "developing",
      "band_label": "Developing",
@@ -1223,48 +1224,6 @@
      "rank": 29
     },
     {
-     "name": "Roche",
-     "slug": "roche",
-     "description": "F. Hoffmann-La Roche is a Swiss multinational healthcare company with two divisions: Roche Pharma and Roche Diagnostics. Roche does not publish a general public developer API but exposes interoperability through the navify diagnostics platform, the cobas infinity laboratory software, and an open-source GitHub presence focused on data-science tooling such as pyreadstat, foxops, and OligoGym.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 15.1,
-      "governance": 13.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.0
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 30
-    },
-    {
      "name": "Teladoc Health",
      "slug": "teladoc-health",
      "description": "Teladoc Health is a global leader in whole-person virtual care, providing on-demand healthcare, expert medical opinions, mental health services, chronic condition management, and integrated virtual care solutions to consumers, employers, health plans, hospitals, and clinicians. The company connects patients with clinicians via mobile, web, phone, and video to deliver 24/7 access to care across a wide range of conditions. Teladoc Health offers integration capabilities for partners and health systems, but does not publish a publicly accessible developer API portal with open documentation.",
@@ -1304,7 +1263,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "AstraZeneca",
@@ -1345,7 +1304,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Ensign Group",
@@ -1387,7 +1346,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Quest Diagnostics",
@@ -1429,7 +1388,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Encompass Health",
@@ -1471,7 +1430,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Medtronic",
@@ -1508,6 +1467,48 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "Roche",
+     "slug": "roche",
+     "description": "F. Hoffmann-La Roche is a Swiss multinational healthcare company with two divisions: Roche Pharma and Roche Diagnostics. Roche does not publish a general public developer API but exposes interoperability through the navify diagnostics platform, the cobas infinity laboratory software, and an open-source GitHub presence focused on data-science tooling such as pyreadstat, foxops, and OligoGym.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 15.1,
+      "governance": 13.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -3454,6 +3455,7 @@
      "name": "Henry Schein",
      "slug": "henry-schein",
      "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/henry-schein/refs/heads/main/screenshots/henry-schein-2026-07-25T220959.png",
      "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",

@@ -54,6 +54,7 @@
      "name": "Form3",
      "slug": "form3",
      "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
      "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
@@ -234,6 +235,7 @@
      "name": "Dojo",
      "slug": "dojo",
      "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png",
      "score": 57.6,
      "band": "developing",
      "band_label": "Developing",
@@ -650,9 +652,52 @@
      "rank": 15
     },
     {
+     "name": "Trust Payments",
+     "slug": "trust-payments",
+     "description": "Trust Payments is a London-headquartered payment gateway and processor (formerly Secure Trading / SecureTrading) operating across the United Kingdom, Europe, and the United States. It offers online, in-store point-of-sale, unattended, and mobile card acceptance, acquiring, alternative and local payment methods, tokenisation, recurring billing, payouts, and 3-D Secure authentication through its TRU Connect gateway. The developer surface centres on the Secure Trading Payment Platform (STPP) - a server-to-server JSON Webservices API for processing (AUTH, ACCOUNTCHECK, REFUND, SUBSCRIPTION, TRANSACTIONUPDATE, and TRANSACTIONQUERY), a JWT-authenticated client-side JavaScript Library for PCI-reduced hosted card fields, and mobile SDKs, all documented as reference articles in the Trust Payments help centre with Python, PHP, ReactJS, and Swift libraries published under the SecureTrading GitHub organisation. Trust Payments does not publish a downloadable OpenAPI/Swagger definition; production Webservices access requires PCI certification, account approval, and credential (key) exchange, so the surface is documentation-and-SDK driven rather than open self-serve.",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 23.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 16
+    },
+    {
      "name": "ECOMMPAY",
      "slug": "ecommpay",
      "description": "ECOMMPAY is a London-headquartered international payment service provider and direct card acquirer founded in 2012, authorised by the UK Financial Conduct Authority (FRN 607597), PCI DSS Level 1 certified, and holding Visa and Mastercard Principal Membership. It operates its own payment gateway, acquiring, and certified processing platform, serving e-commerce merchants across Europe, the UK, and global markets with card processing, 100+ alternative and local payment methods, open banking, payouts, multi-currency settlement, and fraud prevention. Its developer surface is API-native but signature-authenticated rather than token-based: merchants integrate through a hosted Payment Page API, a server-to-server Gate API for direct payment processing, a Data API for reporting and reconciliation, and a Dashboard for operational management, all documented on a public developer portal with callbacks/webhooks and multi-language SDKs. Its home market is the United Kingdom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png",
      "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
@@ -689,48 +734,6 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 16
-    },
-    {
-     "name": "Trust Payments",
-     "slug": "trust-payments",
-     "description": "Trust Payments is a London-headquartered payment gateway and processor (formerly Secure Trading / SecureTrading) operating across the United Kingdom, Europe, and the United States. It offers online, in-store point-of-sale, unattended, and mobile card acceptance, acquiring, alternative and local payment methods, tokenisation, recurring billing, payouts, and 3-D Secure authentication through its TRU Connect gateway. The developer surface centres on the Secure Trading Payment Platform (STPP) - a server-to-server JSON Webservices API for processing (AUTH, ACCOUNTCHECK, REFUND, SUBSCRIPTION, TRANSACTIONUPDATE, and TRANSACTIONQUERY), a JWT-authenticated client-side JavaScript Library for PCI-reduced hosted card fields, and mobile SDKs, all documented as reference articles in the Trust Payments help centre with Python, PHP, ReactJS, and Swift libraries published under the SecureTrading GitHub organisation. Trust Payments does not publish a downloadable OpenAPI/Swagger definition; production Webservices access requires PCI certification, account approval, and credential (key) exchange, so the surface is documentation-and-SDK driven rather than open self-serve.",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 23.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
      "rank": 17
     }
    ],
@@ -747,6 +750,7 @@
      "name": "Cashflows",
      "slug": "cashflows",
      "description": "Cashflows is a United Kingdom payment gateway and card acquirer,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png",
      "score": 43.7,
      "band": "thin",
      "band_label": "Thin",
@@ -789,6 +793,7 @@
      "name": "Cardstream",
      "slug": "cardstream",
      "description": "Cardstream is an independent United Kingdom payment gateway providing a",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png",
      "score": 43.2,
      "band": "thin",
      "band_label": "Thin",
@@ -831,6 +836,7 @@
      "name": "Banked",
      "slug": "banked",
      "description": "Banked is a global account-to-account (A2A) payments network built on open banking that enables real-time pay-by-bank payments for consumers, businesses, and banks. Its API-first platform provides hosted Checkout, Payment Links and QR codes, Payouts, Refunds, Reporting, loyalty (Incentivize), and fraud protection, using bank-native biometric authentication and Strong Customer Authentication (SCA) to move money securely with minimal chargebacks. A single Payments API and Partner API integration gives merchants and platforms access across multiple markets, and Banked ships an official hosted MCP server so agents can create, search, and refund payments over OAuth 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png",
      "score": 42.9,
      "band": "thin",
      "band_label": "Thin",
@@ -1081,6 +1087,48 @@
      "rank": 25
     },
     {
+     "name": "takepayments",
+     "slug": "takepayments",
+     "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 26
+    },
+    {
      "name": "Paddle",
      "slug": "paddle",
      "description": "Paddle is a merchant-of-record billing platform for SaaS and digital",
@@ -1120,48 +1168,6 @@
       "consent_identity": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 26
-    },
-    {
-     "name": "takepayments",
-     "slug": "takepayments",
-     "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
      "rank": 27
     }
    ]
@@ -1219,11 +1225,11 @@
      "name": "Pay.UK",
      "slug": "pay-uk",
      "description": "Pay.UK Limited is the recognised operator and standards body for the United Kingdom's interbank retail payment systems. It runs the domestic rails that move most of the money in the UK economy: Bacs (batch Direct Debit and Direct Credit), the Faster Payment System (24/7 real-time account-to-account payments), and the Image Clearing System for cheques, alongside the Current Account Switch Service. On top of the rails it owns industry overlay services including Confirmation of Payee (the API-based account name-checking service that fights Authorised Push Payment fraud) and Request to Pay, and through its Standards Authority it defines UK payments standards and the ISO 20022 migration underpinning the New Payments Architecture. Pay.UK is a scheme and standards operator, not a self-serve API platform: it publishes rulebooks, participation requirements, and ISO 20022 message specifications rather than an open public API, and its technical standards are distributed through the gated Standards Source and Faster Payment System Standards Library portals (single-login, registration required). Confirmation of Payee is a documented, API-based peer-to-peer scheme that participants and approved vendors implement against Pay.UK's technical standards. Home market is the United Kingdom.",
-     "score": 21.0,
+     "score": 20.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1261,6 +1267,7 @@
      "name": "Curve",
      "slug": "curve",
      "description": "Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curve/refs/heads/main/screenshots/curve-2026-07-25T210952.png",
      "score": 18.5,
      "band": "emerging",
      "band_label": "Emerging",

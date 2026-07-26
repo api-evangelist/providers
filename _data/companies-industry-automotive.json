@@ -638,18 +638,18 @@
      "rank": 17
     },
     {
-     "name": "Autoliv",
-     "slug": "autoliv",
-     "description": "Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png",
-     "score": 17.2,
+     "name": "AutoNation",
+     "slug": "autonation",
+     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
+     "score": 16.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 80.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
@@ -674,18 +674,18 @@
      "rank": 18
     },
     {
-     "name": "AutoNation",
-     "slug": "autonation",
-     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
-     "score": 16.5,
+     "name": "Autoliv",
+     "slug": "autoliv",
+     "description": "Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png",
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },

@@ -1,5 +1,5 @@
 {
- "total": 84,
+ "total": 85,
  "bands": [
   {
    "band": "strong",
@@ -131,6 +131,7 @@
      "name": "Lifen",
      "slug": "lifen",
      "description": "'Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
      "score": 60.3,
      "band": "strong",
      "band_label": "Strong",
@@ -176,12 +177,13 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
+   "count": 4,
    "companies": [
     {
      "name": "Defacto",
      "slug": "defacto",
      "description": "Defacto is an ACPR-authorized French fintech providing instant, embedded financing for small and medium-sized businesses across Europe. Through a single REST API, partners (marketplaces, neobanks, B2B SaaS, e-invoicing platforms) can onboard borrowers, test eligibility and credit limits, share business and bank-transaction data, create invoices, request and manage loans, handle repayments and recollection, issue credit cards, bill fees, and subscribe to webhooks. Defacto has powered over EUR 1B in financing for 12K+ SMBs through 15+ partners, with products spanning receivables, payables, pay-later, cash-in-now, and wallet financing. This profile was enriched by the API Evangelist pipeline from Defacto's public developer portal (developers.getdefacto.com).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png",
      "score": 54.7,
      "band": "developing",
      "band_label": "Developing",
@@ -212,6 +214,41 @@
       "consent_identity": false
      },
      "rank": 5
+    },
+    {
+     "name": "ETSI",
+     "slug": "etsi",
+     "description": "'ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards",
+     "score": 52.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 52.9,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 60.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 6
     },
     {
      "name": "La Poste",
@@ -253,7 +290,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "École Normale Supérieure de Paris",
@@ -295,7 +332,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     }
    ],
    "open": true
@@ -347,7 +384,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "La Ruche qui dit Oui!",
@@ -382,7 +419,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Revyze",
@@ -417,7 +454,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -462,7 +499,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "SideCare",
@@ -503,7 +540,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "École Normale Supérieure de Lyon",
@@ -539,7 +576,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "La Fraise Pro",
@@ -580,7 +617,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Sorbonne University",
@@ -616,12 +653,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Lassie",
      "slug": "lassie",
      "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
      "score": 23.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -657,7 +695,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "École des Ponts ParisTech",
@@ -699,7 +737,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Yampa",
@@ -734,7 +772,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Swan",
@@ -775,12 +813,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Graneet",
      "slug": "graneet",
      "description": "Graneet is a French vertical-SaaS ERP for the construction and public-works",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graneet/refs/heads/main/screenshots/graneet-2026-07-25T220223.png",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -810,7 +849,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Sumeria",
@@ -851,12 +890,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Faks",
      "slug": "faks",
      "description": "Faks is a French SaaS platform that digitizes and streamlines the commercial relationships across the pharmacy ecosystem. It gives pharmacies, pharmacy groups (groupements), and laboratories a single place to manage supplier relationships, commercial claims and disputes (litiges), expired and returnable product handling, promotions, and sell-in / sell-out performance. Faks connects to pharmacy management systems (LGO), purchasing platforms, and accounting tools through its Konnect integrations to automate what has traditionally been manual, paper, and email-driven work between the ~18,000 pharmacies, ~100 groups, and ~500 laboratories it targets in France. The company is backed by Seedcamp. Faks does not currently publish a public developer API, OpenAPI, or developer portal; this profile captures its public identity and the enrichment surfaces that could be probed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/faks/refs/heads/main/screenshots/faks-2026-07-25T214200.png",
      "score": 18.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -892,7 +932,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Montpellier Open Data",
@@ -934,12 +974,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Luko",
      "slug": "luko",
      "description": "'Luko is an online home, travel, and auto insurance provider founded in France in 2016 and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/luko/refs/heads/main/screenshots/luko-2026-07-25T225651.png",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -975,7 +1016,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Papernest",
@@ -1016,12 +1057,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Lalilo",
      "slug": "lalilo",
      "description": "'Lalilo is an adaptive reading and literacy web application for primary-school",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lalilo/refs/heads/main/screenshots/lalilo-2026-07-25T224440.png",
      "score": 17.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1051,7 +1093,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Trezy",
@@ -1092,12 +1134,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Dalma",
      "slug": "dalma",
      "description": "'Dalma is a French insurtech offering pet health insurance for dogs and cats, reimbursing",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dalma/refs/heads/main/screenshots/dalma-2026-07-25T211146.png",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1133,7 +1176,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Orus",
@@ -1174,7 +1217,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Plus Simple",
@@ -1215,12 +1258,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "HostnFly",
      "slug": "hostnfly",
      "description": "HostnFly is a French short-term-rental (Airbnb) concierge and property-management company, founded in 2016 and headquartered in Paris. It manages the full lifecycle of short-stay rentals on behalf of property owners: listing creation and optimization, multi-platform distribution (Airbnb, Booking.com, Abritel), guest screening and 24/7 communication, check-in/check-out and key handling, hotel-grade housekeeping and linen, maintenance, short-term-rental insurance, and dynamic revenue optimization. HostnFly operates on a commission-only model (from ~20% of nightly revenue, no fixed fees) and covers 340+ cities across metropolitan France and Corsica. It is a Partech portfolio company. HostnFly publishes an llms.txt agent-discovery file but does not expose a public developer API, SDKs, or OpenAPI at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hostnfly/refs/heads/main/screenshots/hostnfly-2026-07-25T221450.png",
      "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1250,12 +1294,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Doctolib",
      "slug": "doctolib",
      "description": "Doctolib is a European e-health company founded in 2013 and headquartered in Levallois-Perret, France, operating across France, Germany, Italy and the Netherlands. It provides an online medical appointment-booking platform and practice-management software used by patients and by hundreds of thousands of healthcare professionals and facilities. Its product surface spans appointment booking, telehealth/video consultation, patient messaging, clinical software, patient billing, and the Doctolib Connect integration and single-sign-on layer. Doctolib exposes a partner/integration API via an authentication-gated developer portal (developers.doctolib.com); it publishes an RFC 9116 security.txt and runs a public YesWeHack bug-bounty program, an Atlassian Statuspage, and an open-source GitHub organization, but does not publish a public OpenAPI specification, first-party API SDK, or hosted MCP server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doctolib/refs/heads/main/screenshots/doctolib-2026-07-25T212221.png",
      "score": 16.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1291,12 +1336,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Evaneos",
      "slug": "evaneos",
      "description": "'Evaneos is a French online marketplace for tailor-made travel, founded in 2009 and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evaneos/refs/heads/main/screenshots/evaneos-2026-07-25T213708.png",
      "score": 16.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1326,12 +1372,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Joko",
      "slug": "joko",
      "description": "'Joko is a French fintech company operating a consumer cashback, rewards, and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joko/refs/heads/main/screenshots/joko-2026-07-25T223229.png",
      "score": 16.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1367,7 +1414,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Poppins",
@@ -1408,12 +1455,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Djust",
      "slug": "djust",
      "description": "DJUST is a French all-in-one, modular B2B commerce platform that helps distributors, wholesalers, manufacturers and retailers launch and automate their B2B eCommerce and eProcurement operations. The platform covers automated order management (24/7 online ordering), AI-assisted quoting with automatic pricing and discounts, integrated online payments with deadline tracking, a conversational AI sales assistant, real-time sales analytics, and prebuilt ERP/CRM integrations. Customers include Eiffage, Auchan Retail and Lesaffre; DJUST reports EUR 1.5B GMV and 2M orders processed in 2025. Backed by Speedinvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/djust/refs/heads/main/screenshots/djust-2026-07-25T212140.png",
      "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1449,12 +1497,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "DoorFeed",
      "slug": "doorfeed",
      "description": "'DoorFeed is a technology-led residential real estate investment platform,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doorfeed/refs/heads/main/screenshots/doorfeed-2026-07-25T212303.png",
      "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1484,7 +1533,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Tulyp",
@@ -1519,7 +1568,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 39
     }
    ]
   },
@@ -1534,41 +1583,7 @@
      "name": "Epsor",
      "slug": "epsor",
      "description": "Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.",
-     "score": 14.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Flease",
-     "slug": "flease",
-     "description": "'Flease is a French vehicle-leasing marketplace offering flexible long-term (LLD, 24-50",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/screenshots/epsor-2026-07-25T213527.png",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1599,6 +1614,42 @@
       "consent_identity": false
      },
      "rank": 40
+    },
+    {
+     "name": "Flease",
+     "slug": "flease",
+     "description": "'Flease is a French vehicle-leasing marketplace offering flexible long-term (LLD, 24-50",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flease/refs/heads/main/screenshots/flease-2026-07-25T214726.png",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 41
     },
     {
      "name": "Regular Finance",
@@ -1633,7 +1684,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "RockFi",
@@ -1668,7 +1719,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Selency",
@@ -1703,12 +1754,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Happypal",
      "slug": "happypal",
      "description": "Happypal (HappyPal) is a Paris-based HR-tech and fintech company, founded in 2019, that operates the most widely used digital platform for French works councils (Comite Social et Economique, or CSE). The SaaS and payment platform lets CSE administrators distribute employee benefits and perks, manage budgets and accounting, run ticketing and gift-voucher (cheques-cadeaux) programs, and engage more than 500,000 beneficiaries through a mobile app. Happypal replaces paper gift vouchers with a dematerialized SaaS-plus-fintech model targeting France's employee-benefits market. It is a portfolio company of Anthemis. Happypal does not currently publish a public developer portal, API reference, or SDKs; this profile captures its public web and identity surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happypal/refs/heads/main/screenshots/happypal-2026-07-25T220659.png",
      "score": 14.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1738,12 +1790,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Happytal",
      "slug": "happytal",
      "description": "'Happytal is a French healthtech and services company founded in 2013 and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happytal/refs/heads/main/screenshots/happytal-2026-07-25T220701.png",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1779,12 +1832,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Kartable",
      "slug": "kartable",
      "description": "'Kartable is a French online education platform (edtech) delivering standards-aligned",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kartable/refs/heads/main/screenshots/kartable-2026-07-25T223512.png",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1814,12 +1868,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Matera",
      "slug": "matera",
      "description": "'Matera is a French proptech company providing a digital platform for condominium",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/matera/refs/heads/main/screenshots/matera-2026-07-25T230355.png",
      "score": 14.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1849,7 +1904,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Shippingbo",
@@ -1885,12 +1940,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Karnott",
      "slug": "karnott",
      "description": "'Karnott is a French agricultural technology company based in Lille that",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karnott/refs/heads/main/screenshots/karnott-2026-07-25T223511.png",
      "score": 13.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1920,7 +1976,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Tengo",
@@ -1961,12 +2017,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Grace",
      "slug": "grace",
      "description": "Grace (Grâce) is a Paris-based insurtech that lets luxury maisons offer their clients complimentary, embedded protection against theft, loss, and damage for high-value goods such as watches, jewelry, and accessories. Founded in 2022 and backed by Speedinvest and FinTech Collective, Grace pairs a top-tier underwriter with a technology platform that handles instant coverage, fraud detection, claims processing, and logistics through the Grace app, and integrates into a brand's existing purchase journeys via a customizable API. The company raised a €5.9M seed round in 2025 and operates across Europe and beyond. Grace publishes no public developer portal or API specification; its API is a private, partner-facing integration offered to luxury brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grace/refs/heads/main/screenshots/grace-2026-07-25T220153.png",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2002,12 +2059,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Asap Work",
      "slug": "asap-work",
      "description": "Asap.work is a next-generation temporary staffing, permanent placement, and freelance recruitment platform for the French construction and skilled-trades sector (BTP - Batiment et Travaux Publics). It connects tradespeople with short-term missions, permanent roles, and freelance projects through a mobile app and a network of consultants, and layers on worker benefits such as housing assistance, medical consultations, training via asap.academy, and wage advances. The company is backed by speedinvest and is expanding toward the United States. Asap.work publishes no public developer API, developer portal, or API documentation; this profile was added to the API Evangelist network as a portfolio-lead stub and, on enrichment, was confirmed to have no machine-readable API surface (searched 2026-07-18).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/screenshots/asap-work-2026-07-25T201356.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2037,12 +2095,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Dejbox (Refectory)",
      "slug": "dejbox",
      "description": "'Dejbox is a French corporate-catering company founded in Lille in 2015 by Adrien",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/screenshots/dejbox-2026-07-25T211637.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2072,47 +2131,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Gourmey",
      "slug": "gourmey",
      "description": "'Gourmey is a Paris-based cultivated meat company producing sustainable,",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "Kerys",
-     "slug": "kerys",
-     "description": "Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, YS::Desktop closes VM escape and cross-VM attack vectors while sustaining roughly 92% native performance. It replaces dedicated admin machines, air-gapped OT laptops, and traditional VDI for regulated organizations in aerospace and defense, energy, finance, construction, and the public sector, with a mandatory Security Domain model (no unmanaged VMs) administered through the YAC console. The company positions around NIS2, IEC 62443, and ANSSI multi-environment workstation guidance and sells 100% through resellers. Kerys does not publish a public developer API, developer portal, SDKs, or pricing; it was surfaced as a Seedcamp portfolio company and enriched here from its public site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2145,9 +2170,10 @@
      "rank": 55
     },
     {
-     "name": "La Solive",
-     "slug": "la-solive",
-     "description": "La Solive is a French vocational training organization (organisme de formation) preparing career-changers and apprentices for the trades behind building energy renovation and the climate transition. It runs state-recognized, practice-based programs — chef de projet en rénovation énergétique, conducteur de travaux, plombier chauffagiste pompe à chaleur et gaz, technicien de maintenance CVC, installateur de panneaux photovoltaïques, QualiPAC and agent de maintenance du bâtiment — delivered across campuses in Paris, Lyon, Nantes, Marseille, Toulouse and Lille plus a distance-learning track, with Qualiopi certification and France Travail / Mon Compte Formation / Transitions Pro financing. La Solive reports 1,500+ students trained and 500+ recruiting partner companies. It is a Partech portfolio company in the Climate sector. As of this enrichment pass La Solive publishes no public API, developer portal, or /.well-known/ discovery surface; it does publish an /llms.txt agent-readable site index, captured in this repo.",
+     "name": "Kerys",
+     "slug": "kerys",
+     "description": "Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, YS::Desktop closes VM escape and cross-VM attack vectors while sustaining roughly 92% native performance. It replaces dedicated admin machines, air-gapped OT laptops, and traditional VDI for regulated organizations in aerospace and defense, energy, finance, construction, and the public sector, with a mandatory Security Domain model (no unmanaged VMs) administered through the YAC console. The company positions around NIS2, IEC 62443, and ANSSI multi-environment workstation guidance and sells 100% through resellers. Kerys does not publish a public developer API, developer portal, SDKs, or pricing; it was surfaced as a Seedcamp portfolio company and enriched here from its public site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kerys/refs/heads/main/screenshots/kerys-2026-07-25T223633.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2180,9 +2206,10 @@
      "rank": 56
     },
     {
-     "name": "La Vie",
-     "slug": "la-vie",
-     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
+     "name": "La Solive",
+     "slug": "la-solive",
+     "description": "La Solive is a French vocational training organization (organisme de formation) preparing career-changers and apprentices for the trades behind building energy renovation and the climate transition. It runs state-recognized, practice-based programs — chef de projet en rénovation énergétique, conducteur de travaux, plombier chauffagiste pompe à chaleur et gaz, technicien de maintenance CVC, installateur de panneaux photovoltaïques, QualiPAC and agent de maintenance du bâtiment — delivered across campuses in Paris, Lyon, Nantes, Marseille, Toulouse and Lille plus a distance-learning track, with Qualiopi certification and France Travail / Mon Compte Formation / Transitions Pro financing. La Solive reports 1,500+ students trained and 500+ recruiting partner companies. It is a Partech portfolio company in the Climate sector. As of this enrichment pass La Solive publishes no public API, developer portal, or /.well-known/ discovery surface; it does publish an /llms.txt agent-readable site index, captured in this repo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-solive/refs/heads/main/screenshots/la-solive-2026-07-25T224411.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2215,9 +2242,46 @@
      "rank": 57
     },
     {
+     "name": "La Vie",
+     "slug": "la-vie",
+     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/screenshots/la-vie-2026-07-25T224407.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 58
+    },
+    {
      "name": "Kelvin",
      "slug": "kelvin",
      "description": "'Kelvin (kelvin°) is a Paris-based startup, founded in 2023 and backed",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2247,12 +2311,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Demander Justice",
      "slug": "demander-justice",
      "description": "'Demander Justice (demanderjustice.com) is a French legal-technology company that lets",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demander-justice/refs/heads/main/screenshots/demander-justice-2026-07-25T211706.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2282,7 +2347,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Quandela",
@@ -2318,12 +2383,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Inmemori",
      "slug": "inmemori",
      "description": "'Inmemori is a French funeral services company (\"pompes funebres\") that",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inmemori/refs/heads/main/screenshots/inmemori-2026-07-25T222450.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2353,7 +2419,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Showroomprive.com",
@@ -2388,12 +2454,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Alan",
      "slug": "alan",
      "description": "'Alan is a French digital health insurance and healthcare company that combines",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alan/refs/heads/main/screenshots/alan-2026-07-25T195537.png",
      "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2429,12 +2496,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Lydia",
      "slug": "lydia",
      "description": "'Lydia is a French fintech, founded in 2013, that built one of Europe''s most popular",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/screenshots/lydia-2026-07-25T225745.png",
      "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2470,12 +2538,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Finres",
      "slug": "finres",
      "description": "Finres (finres SAS) is a French climate-risk analytics company building a decision platform",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finres/refs/heads/main/screenshots/finres-2026-07-25T214543.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2505,7 +2574,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Alan",
@@ -2547,12 +2616,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Amblea",
      "slug": "amblea",
      "description": "Amblea is a French mission-driven (\"entreprise à mission\") healthcare-logistics platform that centralizes and optimizes patient (medical / sanitary) transport across the French health system. Formed in 2023 from the merger of Ambler (founded 2018) and Sanilea (2013), it operates a marketplace connecting healthcare establishments (hospitals, clinics, EHPADs, day-care centers) with licensed transport providers (ambulance companies and medical taxi services). The platform handles centralized booking and digital prescription management, shared-transport optimization (grouping patients per trip), real-time tracking, budget and contract management, and automated billing between facilities and transporters. Amblea reports 800+ healthcare establishments, 6,300 transport partner companies, and roughly 8,000 daily trips, making it one of France's largest healthcare-transport coordination platforms. It exposes no public developer API, documentation, or SDKs; access is via its web application and direct business arrangements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amblea/refs/heads/main/screenshots/amblea-2026-07-25T200028.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2588,12 +2658,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Flatlooker",
      "slug": "flatlooker",
      "description": "Flatlooker (founded 2016) is a French digital real-estate agency for online rental search, tenant placement, and full rental property management (gestion locative). It now operates under the Manda brand (formerly Flatlooker and Hello Syndic); flatlooker.com redirects to manda.fr. Manda covers rental and property management, sales, condominium (syndic) management, and energy renovation for owners, tenants, investors, and co-ownerships across France, working primarily online — remote viewings, electronic dossiers and signatures, and mobile apps to track properties in real time — while relying on local agents in Paris, Lyon, and Marseille. Flatlooker was surfaced as a Partech portfolio company. It publishes no public developer API; this profile captures its live llms.txt and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flatlooker/refs/heads/main/screenshots/flatlooker-2026-07-25T214724.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2623,12 +2694,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Le Collectionist",
      "slug": "le-collectionist",
      "description": "'Le Collectionist is a French luxury travel and villa-rental marketplace",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/le-collectionist/refs/heads/main/screenshots/le-collectionist-2026-07-25T224709.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2658,7 +2730,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Ornikar",
@@ -2699,12 +2771,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "ManoMano",
      "slug": "manomano",
      "description": "ManoMano is Europe's leading online marketplace dedicated to DIY, home improvement and gardening, operating consumer storefronts across France, Germany, Italy, Spain and the United Kingdom plus a ManoManoPro offering for construction professionals and craftsmen. Founded in France and backed by Partech, it connects millions of DIY, tools, heating, electrical, kitchen, bathroom, flooring and garden products from thousands of third-party sellers and brands to individuals and trade buyers. This API Evangelist profile was added as a portfolio-company stub; enrichment found a consumer marketplace with a published llms.txt and help center, but no public developer, seller or partner API surface (no developer portal, OpenAPI, or API subdomain resolves).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manomano/refs/heads/main/screenshots/manomano-2026-07-25T230104.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2734,7 +2807,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "8sec",
@@ -2769,47 +2842,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Alassio",
      "slug": "alassio",
      "description": "'Alassio is a French financial-technology company building a next-generation",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 73
-    },
-    {
-     "name": "Gens de confiance",
-     "slug": "gens-de-confiance",
-     "description": "'Gens de confiance is a French online classified-ads marketplace built",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/screenshots/alassio-2026-07-25T195535.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2840,6 +2879,42 @@
       "consent_identity": false
      },
      "rank": 74
+    },
+    {
+     "name": "Gens de confiance",
+     "slug": "gens-de-confiance",
+     "description": "'Gens de confiance is a French online classified-ads marketplace built",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gens-de-confiance/refs/heads/main/screenshots/gens-de-confiance-2026-07-25T215632.png",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 75
     },
     {
      "name": "Qapa",
@@ -2874,7 +2949,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "StarOfService",
@@ -2909,7 +2984,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Toasty",
@@ -2944,7 +3019,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "ValueCo",
@@ -2979,7 +3054,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Outils De Gestion Des Risques",
@@ -3014,7 +3089,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Outil Achats",
@@ -3055,7 +3130,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Outils De Tarification",
@@ -3090,7 +3165,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Outils De Transfert",
@@ -3125,7 +3200,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Outils De Travail Digitaux",
@@ -3160,7 +3235,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Outils Digitaux",
@@ -3195,7 +3270,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 85
     }
    ]
   }

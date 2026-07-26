@@ -6,7 +6,7 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
+   "count": 2,
    "companies": [
     {
      "name": "Bloomberg",
@@ -49,28 +49,18 @@
       "consent_identity": true
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "companies": [
+    },
     {
      "name": "Moody's",
      "slug": "moodys",
      "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 66.1,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
       "governance": 73.7,
       "operational_transparency": 50.0,
       "developer_ergonomics": 76.1,
@@ -101,7 +91,17 @@
       "consent_identity": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "companies": [
     {
      "name": "Snowflake",
      "slug": "snowflake",

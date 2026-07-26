@@ -1,5 +1,5 @@
 {
- "total": 143,
+ "total": 146,
  "bands": [
   {
    "band": "strong",
@@ -217,12 +217,13 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 52,
+   "count": 55,
    "companies": [
     {
      "name": "Azupay",
      "slug": "azupay",
      "description": "'Azupay is an Australian real-time payments company that moves money over the New Payments",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png",
      "score": 59.9,
      "band": "developing",
      "band_label": "Developing",
@@ -264,6 +265,7 @@
      "name": "Coviu",
      "slug": "coviu",
      "description": "Coviu is an Australian telehealth company, headquartered in Sydney and spun out of CSIRO's Data61, that provides a purpose-built video consultation platform for healthcare providers, allied health, and enterprise clinical networks. Its browser-based, WebRTC video calling supports virtual care workflows including waiting rooms, in-call clinical tools, screen and file sharing, medical device integrations, and payments. For developers, Coviu ships a secure OAuth2-protected REST API (base https://api.coviu.com) that lets applications create and manage video consultation Sessions and Participants, monitor Waiting Area queues in real time, retrieve Collections (submissions, files, and audio recordings), and receive event Webhooks, plus an in-call Plugin API and embedded iframe mode. Coviu is a telehealth video/interoperability layer rather than an EHR or FHIR data platform, so its documented public surface is REST + webhooks, not HL7 FHIR.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/screenshots/coviu-2026-07-25T210604.png",
      "score": 59.4,
      "band": "developing",
      "band_label": "Developing",
@@ -305,6 +307,7 @@
      "name": "Fat Zebra",
      "slug": "fat-zebra",
      "description": "Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png",
      "score": 59.0,
      "band": "developing",
      "band_label": "Developing",
@@ -346,6 +349,7 @@
      "name": "Halo Connect",
      "slug": "halo-connect",
      "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png",
      "score": 58.3,
      "band": "developing",
      "band_label": "Developing",
@@ -503,9 +507,51 @@
      "rank": 12
     },
     {
+     "name": "ACMA",
+     "slug": "acma",
+     "description": "The Australian Communications and Media Authority (ACMA) is the Commonwealth regulator for telecommunications, radiocommunications, broadcasting and online content in Australia. It issues carrier licences and apparatus and spectrum licences, maintains the Register of Radiocommunications Licences, administers the Australian telephone numbering plan through the Numbering System, operates the Do Not Call Register, and polices the Telecommunications Consumer Protections and scam-call rules that bind Telstra, Optus, TPG and every other Australian carrier. Its API posture is that of a regulator: two real programmatic surfaces, both attached to a statutory register rather than to a platform. The ACMA Spectrum Licensing API is fully public and anonymous — a WCF service at api.acma.gov.au exposing 22 REST operations (XML and JSON projections of eleven web methods) plus a SOAP endpoint and a live WSDL, letting anyone query licences, licensees, transmitter sites, device registrations, antennas, access areas and the 400 MHz band register, capped at 2,000 records per query. The Do Not Call Register's Real Time Access washing service is a live, publicly-retrievable ColdFusion SOAP WSDL whose three operations require a paid industry subscription, alongside an SFTP automated washing channel at sftp.donotcall.gov.au. ACMA also runs an Azure API Management developer portal at developer.acma.gov.au that is entirely behind a sign-in wall. Public register and licence bulk data is published as daily file downloads and on data.gov.au rather than as a queryable API. ACMA is a regulator, not an operator, so it sits outside the CAMARA and GSMA Open Gateway commitment layer entirely; no CAMARA reference was found anywhere in its public surface.",
+     "score": 56.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 57.5,
+      "governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 67.4
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Evari",
      "slug": "evari",
      "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png",
      "score": 56.3,
      "band": "developing",
      "band_label": "Developing",
@@ -541,7 +587,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Telstra",
@@ -577,7 +623,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Macquarie Bank",
@@ -619,7 +665,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Tyro Payments",
@@ -660,7 +706,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "IMB Bank",
@@ -702,7 +748,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Basiq",
@@ -744,7 +790,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 19
+    },
+    {
+     "name": "Optus",
+     "slug": "optus",
+     "description": "Optus (Singtel Optus Pty Limited) is Australia's second-largest telecommunications carrier, wholly owned by Singapore's Singtel and headquartered in Macquarie Park, Sydney. It runs a national mobile network reaching over 99% of the Australian population, alongside NBN and cable broadband, satellite capacity inherited from AUSSAT, enterprise and government connectivity, IoT/M2M services, and consumer media. Its API posture is split in two. The only genuinely public, self-serve developer surface Optus operates is The Optus SMS Suite — an enterprise messaging platform white-labelled from New Zealand's Modica Group at sms.optus.com.au, which publishes open documentation, downloadable OpenAPI/Swagger definitions, a WSDL, delivery-receipt callbacks, and a free-trial signup. Everything else is partner-gated: the IoT Control Centre is a Cisco/Jasper platform behind a referral-coded starter kit, and Optus has no first-party network-API portal — developer.optus.com.au and api.optus.com.au resolve on Akamai but return HTTP 403 Access Denied. On network APIs Optus is a stated GSMA Open Gateway participant and an endorser of the Bridge Alliance API Exchange (BAEx), but as of this review no CAMARA API is callable from Optus directly; its route to developers runs through its parent Singtel's Paragon-powered BAEx and Aduna, not through anything Optus publishes itself.",
+     "score": 53.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 58.4,
+      "governance": 0.0,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 20
     },
     {
      "name": "Buildxact",
@@ -780,7 +861,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Newcastle Permanent Building Society",
@@ -822,7 +903,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Monash University",
@@ -864,7 +945,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "BankVic",
@@ -906,7 +987,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Westpac Banking Corporation",
@@ -948,12 +1029,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Best Practice Software",
      "slug": "best-practice",
      "description": "Best Practice Software is an Australian clinical and practice-management software company, headquartered in Bundaberg, Queensland, and one half of the Australian GP-software duopoly (alongside MedicalDirector). Its flagship products - Bp Premier (general practice), Bp VIP.net (specialist and allied), and Bp Allied - run in thousands of Australian medical practices. Best Practice's programmatic surface is delivered through Halo Connect (Halo Cloud / Halo Link), a FHIR-based integration platform that lets approved partners query practice data over a modern API instead of the legacy SQL database. The FHIR API for Bp Premier is built to the AU Base 4.1.0 implementation guide, falling back to HL7 FHIR R4 (4.0.1), and exposes resources such as Patient, Appointment, Slot (Find Free Slots) and a Patient $summary document. Halo Cloud also offers SQL Passthrough and Registered Queries for structured practice data. Access is gated - integrators require a Halo Cloud subscription plus per-practice pairing and PMS-managed database credentials, authenticated with an Azure API Management subscription key (desktop apps additionally use a bearer JWT and device id). This is not a self-serve public API; it is a partner-onboarded, standards-aligned interoperability layer for the Australian primary-care market.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png",
      "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
@@ -989,7 +1071,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Commonwealth Bank",
@@ -1031,7 +1113,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -1073,7 +1155,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Teachers Mutual Bank",
@@ -1115,7 +1197,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "QBE Insurance",
@@ -1156,7 +1238,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "University of Adelaide",
@@ -1198,7 +1280,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "National Australia Bank",
@@ -1240,7 +1322,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "St.George Bank",
@@ -1282,7 +1364,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "BCU Bank",
@@ -1324,7 +1406,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Bendigo and Adelaide Bank",
@@ -1366,7 +1448,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "Suncorp Bank",
@@ -1408,7 +1490,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 36
     },
     {
      "name": "Regional Australia Bank",
@@ -1450,7 +1532,49 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 37
+    },
+    {
+     "name": "Deakin University",
+     "slug": "deakin",
+     "description": "Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne, ranked #197 in the QS World University Rankings 2025. Like most universities, Deakin operates an integration-heavy IT estate (its SSO is a Shibboleth/SAML2 identity provider) but does not publish a public, self-service developer API portal. Its confirmed public, machine-readable footprint is concentrated in research infrastructure: the Deakin Research Online (DRO) repository runs on figshare (which exposes a public OAI-PMH and REST API), a public Data Portal for sharing research datasets, and an active GitHub organization. Most catalogued surfaces below are third-party-hosted or gated rather than first-party, documented APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png",
+     "score": 49.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 70.0,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 58.7
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 38
     },
     {
      "name": "MOVE Bank",
@@ -1492,7 +1616,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 39
     },
     {
      "name": "AMP Bank",
@@ -1534,7 +1658,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 37
+     "rank": 40
     },
     {
      "name": "Bank First",
@@ -1576,7 +1700,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 41
     },
     {
      "name": "Weel",
@@ -1617,7 +1741,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 39
+     "rank": 42
     },
     {
      "name": "Great Southern Bank",
@@ -1659,7 +1783,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 43
     },
     {
      "name": "RMIT University",
@@ -1695,49 +1819,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
-    },
-    {
-     "name": "Deakin University",
-     "slug": "deakin",
-     "description": "Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne, ranked #197 in the QS World University Rankings 2025. Like most universities, Deakin operates an integration-heavy IT estate (its SSO is a Shibboleth/SAML2 identity provider) but does not publish a public, self-service developer API portal. Its confirmed public, machine-readable footprint is concentrated in research infrastructure: the Deakin Research Online (DRO) repository runs on figshare (which exposes a public OAI-PMH and REST API), a public Data Portal for sharing research datasets, and an active GitHub organization. Most catalogued surfaces below are third-party-hosted or gated rather than first-party, documented APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 70.0,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 58.7
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "Open",
@@ -1778,7 +1860,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Qudos Bank",
@@ -1820,7 +1902,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "Beyond Bank Australia",
@@ -1862,7 +1944,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Macquarie University",
@@ -1898,7 +1980,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Australian Military Bank",
@@ -1940,7 +2022,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "University of Newcastle Australia",
@@ -1976,7 +2058,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "University of Western Australia",
@@ -2012,7 +2094,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "Bank of Queensland",
@@ -2054,7 +2136,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "Summerland Bank",
@@ -2096,7 +2178,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Bankwest",
@@ -2138,7 +2220,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Unity Bank",
@@ -2180,7 +2262,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Bank of us",
@@ -2222,7 +2304,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "HSBC Bank Australia",
@@ -2264,7 +2346,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "ING Australia",
@@ -2306,7 +2388,42 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 56
+     "rank": 58
+    },
+    {
+     "name": "TPG Telecom",
+     "slug": "tpg-telecom",
+     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
+     "score": 45.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 52.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 59
     },
     {
      "name": "Rabobank Australia",
@@ -2348,7 +2465,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 57
+     "rank": 60
     }
    ],
    "open": true
@@ -2400,7 +2517,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Defence Bank",
@@ -2442,7 +2559,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Alex Bank",
@@ -2484,7 +2601,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Greater Bank",
@@ -2526,7 +2643,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "BankSA",
@@ -2568,7 +2685,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "P&N Bank",
@@ -2610,7 +2727,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "Till Payments",
@@ -2651,7 +2768,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "People First Bank",
@@ -2693,7 +2810,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "Bank Australia",
@@ -2735,7 +2852,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Avenue Bank",
@@ -2777,7 +2894,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Auswide Bank",
@@ -2819,7 +2936,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Australian Unity Bank",
@@ -2861,7 +2978,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "RACQ Bank",
@@ -2903,7 +3020,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Gateway Bank",
@@ -2945,12 +3062,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "eWAY",
      "slug": "eway",
      "description": "eWAY (Eway) is an Australian online payment gateway founded in Sydney in 1998 and now part of Global Payments Oceania, providing card-not-present payment acceptance for e-commerce merchants across Australia, New Zealand, and Asia. Its flagship developer surface is the Rapid API, a versioned HTTP payments API (currently version 47) that processes purchases, pre-authorisations, MOTO and recurring transactions, and tokenised (stored-card) payments, offered through seven integration methods ranging from server-to-server Direct Connection to PCI-scope-reducing Transparent Redirect, Secure Fields, and the Responsive Shared Page. Merchants authenticate with an API key and password over HTTP Basic auth, and eWAY publishes open-source MIT-licensed SDKs for PHP, Java, .NET, Node.js, Ruby, Android, and iOS plus a free sandbox. The Rapid API is genuinely API-first and well documented, but eWAY does not publish a downloadable OpenAPI/Swagger definition, and no public OAuth, webhooks catalog, or AsyncAPI event stream is documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/screenshots/eway-2026-07-25T213830.png",
      "score": 41.1,
      "band": "thin",
      "band_label": "Thin",
@@ -2986,12 +3104,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "HotDoc",
      "slug": "hotdoc",
      "description": "HotDoc is an Australian patient-engagement platform, founded in 2012 and headquartered in Melbourne, that connects patients with general practices, dentists, and specialists. Roughly one in three Australians use HotDoc to find and book healthcare, and the platform serves more than 21,000 practitioners across the country. Its clinic-facing SaaS provides online bookings, telehealth, appointment reminders, SMS recalls for clinical reminders and results, mobile and kiosk check-in, digital new-patient registration forms, online repeat prescription requests, and preventative-health outreach. HotDoc operates as an engagement layer on top of Australian practice-management systems (Best Practice, MedicalDirector, Zedmed, Genie, Cliniko, Nookal and others): a clinic connects HotDoc by entering its practice-management-system API key into the HotDoc dashboard, so HotDoc consumes those PMS APIs rather than publishing its own. HotDoc does operate a real OpenID Connect / OAuth 2.0 authorization server (Rails/Doorkeeper) for clinic and partner sign-in, served with live discovery metadata and a JWKS, but exposes no self-serve public developer portal, no documented third-party REST/OpenAPI, and no HL7 FHIR CapabilityStatement; its integration surface is partner/PMS-gated. HotDoc was acquired by Potentia in February 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/screenshots/hotdoc-2026-07-25T221455.png",
      "score": 41.1,
      "band": "thin",
      "band_label": "Thin",
@@ -3027,7 +3146,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "ubank",
@@ -3069,12 +3188,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Healthdirect Australia",
      "slug": "healthdirect",
      "description": "Healthdirect Australia is a national, government-owned, not-for-profit organisation that operates core Australian digital-health infrastructure and consumer health services on behalf of the Commonwealth, states, and territories. It runs the free healthdirect symptom checker and health advice service and, most relevant to developers, delivers the National Health Services Directory (NHSD) — the authoritative national directory of health services and practitioners, covering more than 400,000 service and practitioner records. Healthdirect exposes the NHSD to government, commercial, and clinical software developers through standards-based HL7 FHIR APIs (aligned to the HL7 AU Provider Directory / AU-PD implementation guide, using SNOMED CT-AU terminology and G-NAF geocoded addresses), a FHIR bulk data export, a FHIR ingestion/data-acquisition hub for contributing sources, an embeddable NHSD search widget, and a Provider Appointments API that surfaces real-time appointment availability from certified booking platforms. Integration is gated behind a formal onboarding and test-environment registration process, and APIs are secured with OAuth 2.0 client-credentials plus an API key. Home market is Australia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png",
      "score": 40.8,
      "band": "thin",
      "band_label": "Thin",
@@ -3110,7 +3230,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "La Trobe University",
@@ -3152,7 +3272,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "MedAdvisor",
@@ -3193,7 +3313,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "Police Bank",
@@ -3235,7 +3355,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 81
     },
     {
      "name": "MyState Bank",
@@ -3277,7 +3397,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "Steadfast Group",
@@ -3318,7 +3438,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
      "name": "G&C Mutual Bank",
@@ -3360,12 +3480,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 84
     },
     {
      "name": "Codafication",
      "slug": "codafication",
      "description": "Codafication is a Brisbane, Australia insurtech founded in 2015 by Daniel Sandaver and Drew Butler out of a property claims and repair construction business, building software for the general insurance claims supply chain rather than for underwriting or policy administration. Its three products are Crunchwork, a cloud claims and project management platform that acts as a control tower across insurers, assessors, builders, restorers and trades (tasks and workflow, report writer, quotes and variations, catalog, asset manager, purchase orders, invoices, finance, analytics, vendor manager, zones, tenants and teams, and Pulse); Virtual Assist, a real-time video streaming and virtual assessment tool used for remote triage of property claims; and Unity Cloud, the GraphQL data, extension and integration platform the other two products are built on. Unity Cloud does publish a public developer reference at docs.unitycloud.io - the Unity Platform SDK documentation - covering the Portal SDK (React), the Node.js Unity SDK, the GraphQL client, setQueries and setMutations, GraphQL links and type extensions, public and private REST endpoints served under a tenant Cloud domain, GraphQL-payload webhooks, before/after logic hooks, and the Twilio, SendGrid and Bitly platform services. Authentication is Auth0-backed (SAML 2.0 and Active Directory connections) with tenant-scoped role-based access control, plus Unity API tokens issued from the in-product Developer Portal and pre-shared extension secrets. What is missing is the self-serve layer: no OpenAPI or AsyncAPI definition, no public GraphQL introspection endpoint, no Postman collection, no public npm distribution of the SDKs, no status page and no self-serve signup - access runs through named enterprise engagements. Customers and partners include Insurance Australia Group (IAG, announced December 2025), Suncorp, Urban Utilities and the Australian Building and Construction Group, alongside a Guidewire partnership and SOC 2 Type II certification attained in January 2026. Australia has no live open-insurance obligation - the Consumer Data Right was designated to extend to general insurance and then deferred - so nothing forces this platform to open further than it already has.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png",
      "score": 38.5,
      "band": "thin",
      "band_label": "Thin",
@@ -3401,7 +3522,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Bank of Sydney",
@@ -3443,7 +3564,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "Bank of Melbourne",
@@ -3485,12 +3606,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Insurance Council of Australia",
      "slug": "insurance-council-australia",
      "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png",
      "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
@@ -3526,7 +3648,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "Shippit",
@@ -3561,7 +3683,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Zeller",
@@ -3602,7 +3724,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "NPP Australia (AP+)",
@@ -3643,12 +3765,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "APRA",
      "slug": "apra",
      "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png",
      "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
@@ -3684,7 +3807,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "Judo Bank",
@@ -3726,7 +3849,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "PSC Insurance",
@@ -3767,12 +3890,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Bupa Australia",
      "slug": "bupa-australia",
      "description": "Bupa Australia is the Australian market unit of the UK-headquartered Bupa group and one of the country's largest private health insurers, trading as Bupa HI Pty Ltd (ABN 81 000 057 590). It writes private health insurance — hospital and ancillary \"extras\" cover, overseas visitor and overseas student health cover, and corporate health plans — and, unusually for a carrier, also owns the provision that consumes those benefits through Bupa Dental, Bupa Optical, Bupa Medical Visa Services and Bupa Aged Care. Its lines of business are health and care rather than property and casualty or life, so the ACORD data standards that shape most of the insurance sector are entirely absent from its published surface; no reference to ACORD, AL3, ACORD XML or NGDS appears anywhere on its public web estate. Australia gives it no forcing function either: the Consumer Data Right was designated to extend to general insurance and then deferred, and a first-hand query of the CDR participant register at api.cdr.gov.au on 2026-07-25 returned 203 data-holder brands drawn only from banking and energy, with no insurance sector and no Bupa brand present. Bupa Australia's API posture is accordingly partner-gated. It does run a genuine first-party developer portal at portal.api.bupa.com.au — an Azure API Management managed portal whose meta author tag names Bupa HI Pty Ltd — but the portal returns HTTP 200 while listing nothing: its /apis and /products routes render empty \"APIs: List\" and \"Products: List\" headings to anonymous visitors, its config.json points at an internal-only management host, and its Get Started page routes every onboarding step through the \"Bupa Integration Fabric Team\" before any API specification is released. No public OpenAPI or Swagger definition, Postman collection, GraphQL schema, gRPC service or webhook catalog could be confirmed, and none of the four insurance verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers. The real integration surface for Bupa Australia's counterparties is not an API at all: ancillary providers claim through HICAPS and HealthPoint terminals, hospital providers check patient eligibility and lodge claims through ECLIPSE, the national Services Australia claiming channel reached via Civica's ECF web front-end, and access to the Bupa Partner Portal at partner.bupa.com.au is requested by downloading and returning a PDF form.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/screenshots/bupa-australia-2026-07-25T204113.png",
      "score": 33.6,
      "band": "thin",
      "band_label": "Thin",
@@ -3808,7 +3932,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "nib",
@@ -3849,7 +3973,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "MYOB",
@@ -3885,7 +4009,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 94
+     "rank": 97
     }
    ]
   },
@@ -3935,7 +4059,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 95
+     "rank": 98
     },
     {
      "name": "HCF",
@@ -3976,54 +4100,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 96
-    },
-    {
-     "name": "University of Melbourne",
-     "slug": "university-of-melbourne",
-     "description": "The University of Melbourne is Australia's leading research university, ranked #24 in the QS World University Rankings 2025. Its public developer and API footprint is modest and federated rather than centralized: the Library operates the Minerva Access institutional repository on DSpace 7.6, which exposes a public OAI-PMH metadata interface and a DSpace REST API, and the institution publishes campus GIS data through an ArcGIS Hub open spatial-data portal with the standard ArcGIS/Hub query APIs. Internally the university runs a Boomi-based API management developer portal for staff and students, but that portal is gated and not publicly documented. Identity is managed via central SSO (Okta) with OAuth 2.0 / OpenID Connect, but no public API program is offered there. An official GitHub organization (github.com/unimelb) exists with mostly archived projects.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png",
-     "score": 27.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 50.0
-     },
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Cuscal",
      "slug": "cuscal",
      "description": "Cuscal Limited is Australia's largest independent provider of payments and regulated data services outside the Big Four banks, founded in 1966 and listed on the ASX (ticker CCL). An Authorised Deposit-taking Institution regulated by APRA and ASIC, Cuscal supplies the connectivity and processing layer beneath hundreds of banks, mutuals, credit unions, fintechs, non-bank lenders and corporates - carrying scheme card issuing and acquiring, the New Payments Platform (NPP) with PayID and PayTo, Direct Entry, BPAY, RTGS, ATM services, AI-driven fraud monitoring, and Consumer Data Right (open banking) data-holder and accredited-data-recipient services. Its acquisitions of Indue and the Paymark/Strategic Payments Services businesses broadened its issuer-processor and acquiring reach. Cuscal's API posture is B2B and relationship-gated: it runs a public-facing Developer Hub (ReadMe-hosted) documenting CMS REST APIs for card issuing, card controls and PIN services with webhook notifications, but the full reference and any machine-readable OpenAPI definitions sit behind client onboarding rather than open self-serve signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/screenshots/cuscal-2026-07-25T211000.png",
      "score": 27.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4059,12 +4142,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Honey Insurance",
      "slug": "honey-insurance",
      "description": "Honey Insurance is an Australian direct-to-consumer insurtech selling smart home, contents, renters and landlord insurance, founded by Richard Joffe and headquartered in Sydney. Honey Insurance Pty Ltd (ABN 52 643 672 628, AFSL 528244) distributes and administers the policies, which are underwritten by RACQ Insurance Limited (ABN 50 009 704 152, AFSL 233082), an APRA-authorised general insurer. Its differentiator is a bundle of free smart-home sensors supplied at policy inception in exchange for a recurring premium discount, a three-minute online quote-and-bind funnel, and a heavy prevention rather than indemnity pitch. It sells personal lines only and distributes through its own website plus embedded partnerships with mortgage aggregators, home builders and real-estate groups (Finsure, Metricon, McGrath, BGC, Specialist Finance Group, Bank of Queensland, AGL, RACQ). Its API posture is closed: Honey publishes no public developer portal, no API reference, no OpenAPI or Swagger definition, no Postman collection, no GraphQL surface and no webhook or event catalogue. Probes of developer, developers, docs, /developers, /api, /developer, /partners and /integrations all return NXDOMAIN or HTTP 404, and the sitemap contains no developer, API or partner-portal page at all. A real backend host exists at api.honeyinsurance.com, but it is a private AWS API Gateway that answers every path with HTTP 403 {\"message\":\"Forbidden\"}; it serves Honey's own quote funnel and account app and is not documented for third parties. The only publicly reachable standards-based surface is an Auth0 custom-domain tenant at auth.honeyinsurance.com serving anonymous OpenID Connect discovery for consumer account sign-in — not developer API credentials. Quote, bind, issue and FNOL all exist only as consumer web and telephone journeys. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere on the site, which is consistent with an Australian personal-lines carrier operating outside the ACORD agency-download world and with a home market where the Consumer Data Right was designated for general insurance and then deferred, leaving no forcing function for open insurance APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honey-insurance/refs/heads/main/screenshots/honey-insurance-2026-07-25T221358.png",
      "score": 27.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4100,7 +4184,49 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 99
+     "rank": 101
+    },
+    {
+     "name": "University of Melbourne",
+     "slug": "university-of-melbourne",
+     "description": "The University of Melbourne is Australia's leading research university, ranked #24 in the QS World University Rankings 2025. Its public developer and API footprint is modest and federated rather than centralized: the Library operates the Minerva Access institutional repository on DSpace 7.6, which exposes a public OAI-PMH metadata interface and a DSpace REST API, and the institution publishes campus GIS data through an ArcGIS Hub open spatial-data portal with the standard ArcGIS/Hub query APIs. Internally the university runs a Boomi-based API management developer portal for staff and students, but that portal is gated and not publicly documented. Identity is managed via central SSO (Okta) with OAuth 2.0 / OpenID Connect, but no public API program is offered there. An official GitHub organization (github.com/unimelb) exists with mostly archived projects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png",
+     "score": 27.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 50.0
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 102
     },
     {
      "name": "TAL",
@@ -4141,12 +4267,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "Budget Direct",
      "slug": "budget-direct",
      "description": "Budget Direct is one of Australia's largest direct-to-consumer general insurance brands, operated from Toowong, Queensland by Auto & General Services Pty Ltd (ABN 61 003 617 909) with general insurance products issued by Auto & General Insurance Company Limited (ABN 42 111 586 353), an APRA-authorised insurer. The brand sells car, home and contents, motorcycle, travel, pet and life insurance plus roadside assistance direct to Australian consumers online and by phone, with life cover underwritten by NobleOak Life Limited and travel cover by Zurich Australian Insurance Limited. Its parent, Auto & General, also white-labels personal lines through distribution partners including Qantas, Coles Insurance, ING and Oceania Insurance. Budget Direct publishes NO public self-serve developer portal and NO public API. Every candidate developer host was probed on 2026-07-25 — developer., developers., docs., api., partners., portal., broker., sandbox. and apis.budgetdirect.com.au all fail DNS resolution, and /developers, /developer, /api, /partners and /integrations all return HTTP 404 — while the full 738-URL sitemap contains no developer, API or integration page. Quote, bind, issue and claim (FNOL) exist only as consumer web journeys and a logged-in existing-customer self-service area; there is no documented machine surface for any of them. The parent domain does carry an Apigee gateway hostname (api.autogeneral.com.au, CNAME to autogeneral-prod.apigee.net, preconnect-hinted by the consumer site) but it is first-party and undocumented, with no developer portal, no OpenAPI, no ACORD/AL3 reference anywhere on either site, and partner integration handled as private commercial arrangements through Auto & General. This record is an honest stub: an APRA-regulated Australian carrier with no public API surface. The only machine-readable documents it serves are an RFC 9116 /.well-known/security.txt pointing at Auto & General's published external vulnerability disclosure policy, and the Apple and Android app-association files for its Fuel Discounts mobile app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/budget-direct/refs/heads/main/screenshots/budget-direct-2026-07-25T204030.png",
      "score": 25.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4182,7 +4309,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 101
+     "rank": 104
     },
     {
      "name": "Youi",
@@ -4223,7 +4350,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 102
+     "rank": 105
     },
     {
      "name": "MedicalDirector",
@@ -4264,7 +4391,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Medibank",
@@ -4305,7 +4432,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "PayTo",
@@ -4346,7 +4473,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 105
+     "rank": 108
     },
     {
      "name": "University of New South Wales",
@@ -4382,49 +4509,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 106
-    },
-    {
-     "name": "University of Queensland",
-     "slug": "uq",
-     "description": "The University of Queensland (UQ) is a public research university in Brisbane, Australia, ranked #54 in the QS World University Rankings 2025. UQ's public developer and API footprint is concentrated in its library and research infrastructure: UQ eSpace, the institutional digital repository (built on the Fez/Fedora platform), exposes an OAI-PMH metadata harvesting endpoint and a documented REST API with executable examples. The UQ Library maintains an active public GitHub organisation (uqlibrary) with 150+ repositories. Broader institutional/transactional data access is governed through the Central Integration Platform and Data Hub, which are gated and require approval rather than offering open self-service APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png",
-     "score": 23.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 23.9
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Griffith University",
@@ -4466,7 +4551,49 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 110
+    },
+    {
+     "name": "University of Queensland",
+     "slug": "uq",
+     "description": "The University of Queensland (UQ) is a public research university in Brisbane, Australia, ranked #54 in the QS World University Rankings 2025. UQ's public developer and API footprint is concentrated in its library and research infrastructure: UQ eSpace, the institutional digital repository (built on the Fez/Fedora platform), exposes an OAI-PMH metadata harvesting endpoint and a documented REST API with executable examples. The UQ Library maintains an active public GitHub organisation (uqlibrary) with 150+ repositories. Broader institutional/transactional data access is governed through the Central Integration Platform and Data Hub, which are gated and require approval rather than offering open self-service APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png",
+     "score": 22.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 111
     },
     {
      "name": "Australian National University",
@@ -4508,48 +4635,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
-    },
-    {
-     "name": "Queensland University of Technology",
-     "slug": "qut",
-     "description": "Queensland University of Technology (QUT) is a public research university based in Brisbane, Australia, ranked #213 in the QS World University Rankings 2025. QUT serves around 50,000 students with an applied emphasis in teaching and research. Its public, machine-accessible developer footprint is modest and centered on open research infrastructure: the QUT ePrints institutional repository exposes a live OAI-PMH metadata harvesting interface, and QUT maintains several active research-group GitHub organizations (eResearch, Centre for Robotics, Aerospace Systems, Digital Observatory). Most other institutional systems (Library Search built on Ex Libris Primo VE / Alma, the Timetable Planner, the QUT mobile app backend, and the SSO identity layer) are internal or gated and do not publish open developer documentation.",
-     "score": 22.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 23.9
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "REA Group",
@@ -4584,7 +4670,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "University of Sydney",
@@ -4626,7 +4712,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Curtin University",
@@ -4668,7 +4754,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "University of Wollongong",
@@ -4704,12 +4790,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Limepay",
      "slug": "limepay",
      "description": "Limepay was a Melbourne-based Australian embedded-payments and white-label buy-now-pay-later (BNPL) company that let merchants and platforms accept card payments and offer pay-in-instalments through a single drop-in checkout and a REST API. Its developer surface covered an embeddable Checkout, a Payments API (orders, order-pay, transaction capture/void, refunds, 3-D Secure and wallet payments such as Apple Pay and Google Pay), and a Platform API for marketplaces to onboard and manage sub-merchants, run KYC/identification, and pull settlement reports. Authentication used a Publishable API key for frontend/checkout calls, a Secret API key for server-to-server calls, and a platform API key for administrative onboarding, all passed as Bearer tokens. After a failed 2021 IPO, Limepay was acquired by ASX-listed Spenda in 2024 and its product line was continued under the April Solutions brand; the primary domain limepay.com.au now redirects to meetapril.com and the docs.limepay.com.au developer portal is gated behind a Redocly login. This profile documents Limepay's real, historically public API family honestly; no machine-readable OpenAPI is currently downloadable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/screenshots/limepay-2026-07-25T225213.png",
      "score": 21.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4745,7 +4832,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Transport for NSW Open Data Hub",
@@ -4787,7 +4874,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "NSW Government Open Data",
@@ -4829,12 +4916,54 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 119
+    },
+    {
+     "name": "Queensland University of Technology",
+     "slug": "qut",
+     "description": "Queensland University of Technology (QUT) is a public research university based in Brisbane, Australia, ranked #213 in the QS World University Rankings 2025. QUT serves around 50,000 students with an applied emphasis in teaching and research. Its public, machine-accessible developer footprint is modest and centered on open research infrastructure: the QUT ePrints institutional repository exposes a live OAI-PMH metadata harvesting interface, and QUT maintains several active research-group GitHub organizations (eResearch, Centre for Robotics, Aerospace Systems, Digital Observatory). Most other institutional systems (Library Search built on Ex Libris Primo VE / Alma, the Timetable Planner, the QUT mobile app backend, and the SSO identity layer) are internal or gated and do not publish open developer documentation.",
+     "score": 20.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 120
     },
     {
      "name": "Kismet",
      "slug": "kismet",
      "description": "'Kismet is an Australian digital-health marketplace that connects people with disability",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kismet/refs/heads/main/screenshots/kismet-2026-07-25T223857.png",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4870,12 +4999,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 121
     },
     {
      "name": "HealthEngine",
      "slug": "healthengine",
      "description": "HealthEngine is Australia's largest consumer healthcare marketplace and patient-engagement platform, founded in 2006 and headquartered in Perth, Western Australia. Its consumer app and website let millions of Australians search a national directory of primary-care providers and book, manage, and attend appointments (including telehealth) across GP, dental, allied-health, and specialist practices. For practices, HealthEngine sells a SaaS suite - GP Complete, Patient Connect, Online Booking, Appointment Reminders and Recalls, Featured Listings, online payments, patient reviews, and Scripts - that plugs into the practice's existing software. It maintains private, real-time integrations into 25+ Australian practice management systems (Best Practice / Bp Premier, MedicalDirector Pracsoft, Zedmed, Cliniko, Genie, Gentu, Medtech, Nookal, PracSuite, Dental4Windows, and others) so appointment availability and bookings sync directly with the front desk. Home market is Australia. HealthEngine does NOT publish a public developer portal, REST OpenAPI, or HL7 FHIR endpoint - its API surface is a set of gated, partner-only PMS integrations rather than a self-serve developer program, so this profile is an honest identity stub with no public machine-readable contract to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/screenshots/healthengine-2026-07-25T220836.png",
      "score": 18.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4911,7 +5041,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 119
+     "rank": 122
     },
     {
      "name": "Queensland Government Data",
@@ -4953,12 +5083,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 120
+     "rank": 123
     },
     {
      "name": "Butn",
      "slug": "butn",
      "description": "Butn is an Australian embedded-finance company that funds business cashflow at the point of transaction, plugging invoice finance, outsourced credit terms, and supplier \"pay now, settle later\" directly into the platforms its business customers already use. Its funding products — Butn X (invoice finance to draw cash early against receivables), Butn Terms (outsourced buyer credit where Butn carries the risk), and Butn Pay (paying suppliers upfront in exchange for extended repayment) — are designed to be embedded into partner marketplaces, accounting tools, and B2B platforms such as MYOB, Salesforce, and FoodByUs rather than sold as a standalone destination. Butn sits in the spend / accounts payable and accounts receivable financing layer of Australia's payments market, where money movement rides the New Payments Platform and the banks opened by the Consumer Data Right. Its integration and embedding are delivered through private, partner-provisioned APIs: Butn markets \"plug and play\" embedding for partners but does not operate a public self-serve developer portal, publish downloadable OpenAPI/Swagger definitions, or expose openly documented API reference material as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/butn/refs/heads/main/screenshots/butn-2026-07-25T204119.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4994,7 +5125,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 121
+     "rank": 124
     },
     {
      "name": "data.gov.au Federal",
@@ -5036,7 +5167,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 122
+     "rank": 125
     },
     {
      "name": "data.sa.gov.au South Australia",
@@ -5078,7 +5209,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 123
+     "rank": 126
     },
     {
      "name": "DataVic Victoria",
@@ -5120,7 +5251,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 124
+     "rank": 127
     },
     {
      "name": "Northern Territory Open Data",
@@ -5162,7 +5293,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 125
+     "rank": 128
     },
     {
      "name": "Queensland Geoscience Data",
@@ -5204,7 +5335,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 126
+     "rank": 129
     },
     {
      "name": "Western Australia Data Catalogue",
@@ -5246,7 +5377,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 127
+     "rank": 130
     },
     {
      "name": "Suncorp Group",
@@ -5287,12 +5418,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 128
+     "rank": 131
     },
     {
      "name": "Chimelabs Holdings PTY LTD",
      "slug": "chimelabs-holdings-pty-ltd",
      "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
      "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5322,12 +5454,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 129
+     "rank": 132
     },
     {
      "name": "Eucalyptus",
      "slug": "eucalyptus",
      "description": "'Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eucalyptus/refs/heads/main/screenshots/eucalyptus-2026-07-25T213704.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5363,7 +5496,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 130
+     "rank": 133
     }
    ]
   },
@@ -5378,6 +5511,7 @@
      "name": "Care GP",
      "slug": "care-gp",
      "description": "Care GP is a Sydney-based healthcare technology company (Y Combinator Summer 2026) building a suite of AI agents that automate the administrative and operational work of Australian general practice clinics. Its products include Samantha (medical document allocation that files inbound emails, faxes, and scans), Veronica (24/7 inbound and outbound phone and booking management), and a Billing beta for billing and debt-collection automation. Care GP states it is ISO 27001 certified with onshore Australian data storage, multi-factor authentication, and encryption, and reports serving 400+ clinic operators. As of this enrichment pass the company exposes a customer web application (agent.caregp.com.au) but no public developer portal, API documentation, or OpenAPI definition.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/care-gp/refs/heads/main/screenshots/care-gp-2026-07-25T204525.png",
      "score": 14.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5413,7 +5547,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 131
+     "rank": 134
     },
     {
      "name": "Refundid",
@@ -5448,12 +5582,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 132
+     "rank": 135
     },
     {
      "name": "Carma",
      "slug": "carma",
      "description": "'Carma is an Australian online used-car retailer that lets consumers buy, sell,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carma/refs/heads/main/screenshots/carma-2026-07-25T204623.png",
      "score": 13.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5483,7 +5618,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 133
+     "rank": 136
     },
     {
      "name": "Transfercar",
@@ -5518,12 +5653,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 134
+     "rank": 137
     },
     {
      "name": "Booko",
      "slug": "booko",
      "description": "Booko is an Australian book, eBook, audiobook, DVD, music and collectibles price-comparison service operating since 2007. It aggregates new and used prices across many online retailers and regions, calculates shipping, and converts international prices to the shopper's local currency to surface the cheapest place to buy a title. Booko also offers shopping lists with bundled shipping calculations, barcode scanning, reading lists, price alerts and notifications. It is a consumer-facing comparison site rather than a retailer or a public API provider, earning referral fees from partner shops (including Amazon Associates) when shoppers buy through its links. Booko is a solo developer-run product surfaced through the API Evangelist network as a Y Combinator portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/booko/refs/heads/main/screenshots/booko-2026-07-25T203610.png",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5553,12 +5689,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 135
+     "rank": 138
     },
     {
      "name": "Insurance Australia Group",
      "slug": "iag",
      "description": "Insurance Australia Group (IAG, ASX: IAG) is the largest general insurance company in Australia and New Zealand, headquartered in Sydney and operating a portfolio of underwriting brands rather than a single consumer-facing label. In Australia it trades as NRMA Insurance, CGU, WFI, Swann Insurance and the digital-native ROLLiN'; in New Zealand as State, AMI, NZI and Lumley. Its lines of business are property and casualty — home and contents, motor, commercial, rural and farm, compulsory third party and specialty — split across a Direct Insurance Australia arm and an Intermediated Insurance Australia arm that sells through brokers and authorised representatives. IAG has no public, self-serve API surface. Probing every conventional developer hostname on iag.com.au, cgu.com.au and nrma.com.au found no developer portal and no published reference documentation; docs.iag.com.au exists but immediately redirects to a Microsoft Entra ID sign-in and is an internal wall, not a portal. What the probes did confirm is a real Apigee API gateway fronting three brand virtual hosts — api.iag.com.au, api.cgu.com.au and api.nrma.com.au — each returning an Apigee ApplicationNotFound fault at the root, meaning proxies exist but none is discoverable or documented to the public. A second round of probing added a fourth brand virtual host, api.wfi.com.au, and a publicly resolvable non-production Apigee organisation at test-api.iag.com.au. IAG has also deployed MuleSoft's Anypoint API Experience Hub and is migrating roughly 600 APIs onto it, with a stated intent to make them agent aware — a substantial API estate that is entirely internal. Broker and partner integration in this market runs through human-facing trading portals — CGU's PolicyPlace quote-and-bind platform, the Ebix Sunrise Exchange and the Steadfast Client Trading Platform — not through an open API programme. IAG does run a HackerOne vulnerability disclosure programme, and published an RFC 9116 security.txt across seven brand domains until it was withdrawn in mid-2025. Australia has the legal machinery for open insurance and no live obligation: the Consumer Data Right that opened banking and energy was flagged for general insurance and then paused, so nothing compels IAG to publish. This record is therefore an honest stub: a partner-gated carrier with a private gateway and zero public specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iag/refs/heads/main/screenshots/iag-2026-07-25T221946.png",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5594,7 +5731,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 136
+     "rank": 139
     },
     {
      "name": "Collabra",
@@ -5629,12 +5766,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 137
+     "rank": 140
     },
     {
      "name": "Ensurance",
      "slug": "ensurance",
      "description": "Ensurance Limited (ASX:ENA) was an Australian ASX-listed insurance underwriting agency headquartered in Perth, Western Australia, marketing itself as \"innovating the online insurance sector.\" Its Australian arm, Ensurance Underwriting Australia, operated as a wholesale underwriting agency under an Australian Financial Services Licence, assembling a consortium of local and international capacity — including Lloyd's, Swiss Re and XL Catlin — behind construction-specific products sold exclusively through intermediaries: Licensed Builder Annual Construction, Plant and Liability, Project-Specific Construction, Trades Liability, Owner Builder, and Home and Contents insurance, distributed to a broker network the company described as 340-plus intermediaries. A sister company, Ensurance UK Limited, ran as a Managing General Agent authorised and regulated by the UK Financial Conduct Authority and a coverholder at Lloyd's. The group's API posture is nil and always was. Ensurance never published a public developer portal, API reference, OpenAPI or Swagger definition, Postman collection, GraphQL endpoint, webhook or event catalogue. What the company called its \"customised online platform\" for intermediaries was BOB (bob.ensurance.com.au), a form-based, session-login ASP.NET MVC quote-and-proposal wizard keyed to per-agent codes — an agent login wall, not a programmable interface. No ACORD, AL3, ACORD XML or NGDS reference appears anywhere in the company's live or archived web estate. As of this review the ensurance.com.au TLS certificate has expired and every path on the domain, along with the ensurance.ltd domain family, blanket 301-redirects to Chase Underwriting Solutions Pty Ltd, an Australian professional-lines underwriting agency that likewise publishes no API. Ensurance is recorded here as a partner-gated, no-public-API insurance provider in the Australian market — a faithful data point for a sector where the Consumer Data Right was designated for general insurance and then deferred, leaving carriers and underwriting agencies with no forcing function to expose anything.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ensurance/refs/heads/main/screenshots/ensurance-2026-07-25T213422.png",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5670,12 +5808,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 138
+     "rank": 141
     },
     {
      "name": "Fixed",
      "slug": "fixed",
      "description": "Fixed (fixed.com.au) is a Brisbane, Australia based construction, refurbishment and facility-maintenance company specialising in the childcare sector. The business delivers centre refurbishments, reactive and preventative maintenance, emergency repairs, landscaping and outdoor play-space (yard) services for childcare and early-learning facilities across Australia, with licensed and inducted teams and 24/7 after-hours availability. It is a services trades business with a WordPress marketing website and no public developer program, API, SDK, or machine-readable surface. This entry was auto-created as a stub from a venture-portfolio match; that match is almost certainly a domain/name collision (see x-notes) and the profile is retained here as an enriched, no-API-surface company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fixed/refs/heads/main/screenshots/fixed-2026-07-25T214652.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5705,12 +5844,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 139
+     "rank": 142
     },
     {
      "name": "DGIT",
      "slug": "dgit",
      "description": "'DGIT Systems is a Melbourne, Australia telecommunications software vendor best known for",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dgit/refs/heads/main/screenshots/dgit-2026-07-25T211855.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5740,12 +5880,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 140
+     "rank": 143
     },
     {
      "name": "Gilmour Space",
      "slug": "gilmour-space",
      "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gilmour-space/refs/heads/main/screenshots/gilmour-space-2026-07-25T215818.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5775,7 +5916,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 141
+     "rank": 144
     },
     {
      "name": "MYSALE GROUP PLC",
@@ -5810,7 +5951,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 142
+     "rank": 145
     }
    ]
   },
@@ -5825,7 +5966,7 @@
      "name": "PropTrack",
      "slug": "proptrack",
      "description": "PropTrack is an Australian property data, analytics, and automated valuation business, part of REA Group. It supplies residential property data, an industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from more than a trillion property data points across some twelve million Australian residential properties. Its raw data is sourced from public records (State/Territory land titles offices, Valuers General, and Geoscape Australia) and proprietary sources including the realestate.com.au listing portal. PropTrack exposes this through a developer program of REST APIs — covering address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations, and market metrics — documented on a hosted Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at banks, lenders, brokers, proptech platforms, and other enterprise customers integrating Australian property intelligence.",
-     "rank": 143
+     "rank": 146
     }
    ]
   }

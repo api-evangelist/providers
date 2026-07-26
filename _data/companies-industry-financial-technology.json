@@ -6,7 +6,7 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 3,
+   "count": 4,
    "companies": [
     {
      "name": "Stripe",
@@ -127,6 +127,48 @@
       "consent_identity": true
      },
      "rank": 3
+    },
+    {
+     "name": "Moody's",
+     "slug": "moodys",
+     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
+      "governance": 73.7,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 4
     }
    ],
    "open": true
@@ -136,12 +178,13 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
+   "count": 2,
    "companies": [
     {
      "name": "Block",
      "slug": "block",
      "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
      "score": 67.8,
      "band": "strong",
      "band_label": "Strong",
@@ -177,7 +220,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "PayPal",
@@ -217,48 +260,6 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "Moody's",
-     "slug": "moodys",
-     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 66.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
-      "governance": 73.7,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 76.1
-     },
-     "agent_score": 81.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false
      },
      "rank": 6
@@ -1554,6 +1555,7 @@
      "name": "Bread Financial",
      "slug": "bread",
      "description": "Bread Financial is a technology-driven financial services company offering white-label buy now pay later (BNPL), installment financing, and branded credit card products for merchants. The platform processes $27 billion in annual sales volume for 35.6 million active customers. Bread Pay enables merchants to embed financing options directly into their checkout flow for both online and in-store purchases, including installment plans (Bread Pay) and short-term split payment options (SplitPay).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bread/refs/heads/main/screenshots/bread-2026-07-25T203737.png",
      "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",

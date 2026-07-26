@@ -307,48 +307,6 @@
      "rank": 7
     },
     {
-     "name": "Roche",
-     "slug": "roche",
-     "description": "F. Hoffmann-La Roche is a Swiss multinational healthcare company with two divisions: Roche Pharma and Roche Diagnostics. Roche does not publish a general public developer API but exposes interoperability through the navify diagnostics platform, the cobas infinity laboratory software, and an open-source GitHub presence focused on data-science tooling such as pyreadstat, foxops, and OligoGym.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 15.1,
-      "governance": 13.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.0
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 8
-    },
-    {
      "name": "AstraZeneca",
      "slug": "astrazeneca",
      "description": "AstraZeneca is a British-Swedish multinational pharmaceutical and biotechnology company focused on oncology, cardiovascular, renal, metabolism, and respiratory therapies. AstraZeneca does not publish a general developer portal or commercial public APIs; technology integration is delivered through enterprise partner programs, clinical trial data portals such as clinicaltrials.gov and the Vivli platform, and EDI/x12 channels used by distributors and pharmacy benefit managers.",
@@ -387,7 +345,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Catalent",
@@ -418,6 +376,48 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Roche",
+     "slug": "roche",
+     "description": "F. Hoffmann-La Roche is a Swiss multinational healthcare company with two divisions: Roche Pharma and Roche Diagnostics. Roche does not publish a general public developer API but exposes interoperability through the navify diagnostics platform, the cobas infinity laboratory software, and an open-source GitHub presence focused on data-science tooling such as pyreadstat, foxops, and OligoGym.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 15.1,
+      "governance": 13.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -733,6 +733,7 @@
      "name": "Eli Lilly",
      "slug": "eli-lilly",
      "description": "Eli Lilly and Company is a Fortune 500 global pharmaceutical company that discovers, develops, manufactures, and sells human pharmaceutical products in therapeutic areas including diabetes, oncology, immunology, and neuroscience. Eli Lilly does not currently publish a public developer API portal; the company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs but does not offer general purpose, self-serve APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/screenshots/eli-lilly-2026-07-25T213138.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -858,6 +859,7 @@
      "name": "Henry Schein",
      "slug": "henry-schein",
      "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/henry-schein/refs/heads/main/screenshots/henry-schein-2026-07-25T220959.png",
      "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",

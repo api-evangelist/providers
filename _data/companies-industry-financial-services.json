@@ -1157,48 +1157,6 @@
      "rank": 28
     },
     {
-     "name": "USAA",
-     "slug": "usaa",
-     "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 73.7,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 50.0
-     },
-     "agent_score": 23.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 29
-    },
-    {
      "name": "First Citizens BancShares",
      "slug": "first-citizens-bancshares",
      "description": "First Citizens BancShares is a super-regional financial holding company (parent of First-Citizens Bank & Trust) providing general banking, trust, investment, insurance, and asset-management services to individuals, businesses, and professionals. Its programmable surface runs through Silicon Valley Bank (SVB) — acquired in 2023 and now a division of First Citizens — whose Apigee-backed developer portal at developer.svb.com publishes a family of commercial banking REST APIs covering authorization, account balance, transfers, ACH, instant payments, wires, stop payment, virtual cards, webhooks, and reference/reachability. Access is partner-gated (commercial onboarding); consumer account data is reachable via the Plaid aggregator.",
@@ -1234,6 +1192,48 @@
       "openapi_examples": false,
       "rate_limit_signal": false,
       "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 29
+    },
+    {
+     "name": "USAA",
+     "slug": "usaa",
+     "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
+     "score": 36.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 15.1,
+      "governance": 73.7,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 50.0
+     },
+     "agent_score": 23.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true
@@ -1745,11 +1745,11 @@
      "slug": "carlyle-group",
      "description": "The Carlyle Group (NASDAQ: CG) is a global investment firm that deploys private capital across Global Private Equity, Global Credit, Global Investment Solutions (AlpInvest), and carveouts such as Carlyle Direct Lending. Carlyle does not publish a public developer API. Institutional LPs, co-investors, and portfolio companies interact with the firm through a set of private, authentication-gated portals: LP Connect for fund investors, Carlyle Direct Lending's portal for direct lending clients, the Carlyle Global Portfolio Solutions (resources.carlyle.com) portal, and brand experiences such as Carlyle & Co. Integrations with fund administrators, custodians, and placement agents run through bespoke secure file exchange and vendor-managed APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/screenshots/carlyle-group-2026-06-20T174007.png",
-     "score": 24.1,
+     "score": 23.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 80.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -2020,6 +2020,7 @@
      "name": "Bread Financial",
      "slug": "bread",
      "description": "Bread Financial is a technology-driven financial services company offering white-label buy now pay later (BNPL), installment financing, and branded credit card products for merchants. The platform processes $27 billion in annual sales volume for 35.6 million active customers. Bread Pay enables merchants to embed financing options directly into their checkout flow for both online and in-store purchases, including installment plans (Bread Pay) and short-term split payment options (SplitPay).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bread/refs/heads/main/screenshots/bread-2026-07-25T203737.png",
      "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2831,48 +2832,6 @@
      "rank": 69
     },
     {
-     "name": "BOK Financial",
-     "slug": "bok-financial",
-     "description": "BOK Financial Corporation (NASDAQ: BOKF) is a regional financial-services holding company headquartered in Tulsa, Oklahoma, delivering banking under the Bank of Oklahoma, Bank of Texas, and BOK Financial brands across the Southwest and Midwest, along with wealth management and commercial treasury services. As of July 2026 it does not publish a first-party public developer portal or any documented API products — developer.bokfinancial.com does not resolve and /developer and /api return 404. Its public, machine-accessible surface is consumer-permissioned account data access delivered through third-party aggregators (Plaid coverage confirmed), while commercial treasury and ERP connectivity is offered privately to clients under contract rather than through a self-serve documented developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bok-financial/refs/heads/main/screenshots/bok-financial-2026-06-20T173552.png",
-     "score": 12.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 21.7
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 70
-    },
-    {
      "name": "HSBC",
      "slug": "hsbc",
      "description": "'One of the world''s largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.'",
@@ -2912,7 +2871,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Rabobank",
@@ -2954,7 +2913,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Western Alliance Bancorp.",
@@ -2979,6 +2938,48 @@
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "BOK Financial",
+     "slug": "bok-financial",
+     "description": "BOK Financial Corporation (NASDAQ: BOKF) is a regional financial-services holding company headquartered in Tulsa, Oklahoma, delivering banking under the Bank of Oklahoma, Bank of Texas, and BOK Financial brands across the Southwest and Midwest, along with wealth management and commercial treasury services. As of July 2026 it does not publish a first-party public developer portal or any documented API products — developer.bokfinancial.com does not resolve and /developer and /api return 404. Its public, machine-accessible surface is consumer-permissioned account data access delivered through third-party aggregators (Plaid coverage confirmed), while commercial treasury and ERP connectivity is offered privately to clients under contract rather than through a self-serve documented developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bok-financial/refs/heads/main/screenshots/bok-financial-2026-06-20T173552.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 21.7
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4306,6 +4307,7 @@
      "name": "LPL Financial Holdings",
      "slug": "lpl-financial-holdings",
      "description": "LPL Financial Holdings Inc. (NASDAQ: LPLA) is the parent company of LPL Financial LLC, one of the largest independent broker-dealers in the United States and a leading retail investment advisory firm. The company supports thousands of independent financial advisors, banks, credit unions, and registered investment advisors. LPL Financial Holdings does not operate a public developer program; APIs and integrations are operated under the LPL Financial subsidiary brand for partners and advisors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/screenshots/lpl-financial-holdings-2026-07-25T225629.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

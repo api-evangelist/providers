@@ -1,12 +1,12 @@
 {
- "total": 15,
+ "total": 14,
  "bands": [
   {
    "band": "developing",
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
+   "count": 1,
    "companies": [
     {
      "name": "Verizon",
@@ -43,41 +43,6 @@
       "consent_identity": false
      },
      "rank": 1
-    },
-    {
-     "name": "AT&T",
-     "slug": "at-and-t",
-     "description": "AT&T is a multinational telecommunications holding company providing wireless and wireline telecommunications",
-     "score": 57.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 69.7,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 2
     }
    ],
    "open": true
@@ -123,7 +88,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 2
     },
     {
      "name": "Lumen Technologies",
@@ -159,7 +124,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "Qualcomm",
@@ -195,7 +160,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 4
     }
    ],
    "open": true
@@ -241,7 +206,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Telephone and Data Systems",
@@ -277,7 +242,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 6
     }
    ]
   },
@@ -321,12 +286,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "American Tower",
      "slug": "american-tower",
      "description": "American Tower Corporation is one of the largest global REITs and a leading independent owner, operator, and developer of multitenant communications real estate. The company owns and operates approximately 225,000 communications sites globally, providing tower space and related services to wireless carriers and broadcasters across the United States, Latin America, Europe, Africa, India, and Asia-Pacific. American Tower enables wireless communications networks by leasing antenna space on its towers to mobile network operators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-tower/refs/heads/main/screenshots/american-tower-2026-07-25T200050.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -356,7 +322,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "EchoStar",
@@ -392,7 +358,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "AT&T",
@@ -427,7 +393,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Viasat",
@@ -463,7 +429,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Altice USA",
@@ -499,7 +465,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Frontier Communications",
@@ -535,7 +501,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "SBA Communications",
@@ -571,7 +537,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 14
     }
    ]
   }

@@ -1,13 +1,48 @@
 {
- "total": 29,
+ "total": 30,
  "bands": [
   {
    "band": "developing",
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
+   "count": 10,
    "companies": [
+    {
+     "name": "KPN",
+     "slug": "kpn",
+     "description": "'Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands,",
+     "score": 59.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 65.1,
+      "governance": 0.0,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 70.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 1
+    },
     {
      "name": "Payt",
      "slug": "payt",
@@ -47,7 +82,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Telefoon",
@@ -82,12 +117,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "ChannelEngine",
      "slug": "channelengine",
      "description": "ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once and sell across 1,300+ global marketplaces, social platforms, and emerging AI commerce channels. It centralizes product listing, inventory and offer synchronization, order and fulfillment management, returns, and dynamic repricing from a single dashboard, and exposes three REST APIs: the Merchant API (integrate your own systems with ChannelEngine), the Channel API (build your own marketplace on ChannelEngine), and the Channel Management API (export marketplace categories and product attributes). The APIs use API-key authentication, JSON response envelopes, page-based pagination, header-based rate limiting, and webhooks for near-real-time events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png",
      "score": 49.9,
      "band": "developing",
      "band_label": "Developing",
@@ -117,7 +153,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Wageningen University & Research",
@@ -159,7 +195,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "University of Amsterdam",
@@ -201,7 +237,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "bunq",
@@ -243,7 +279,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Erasmus University Rotterdam",
@@ -279,7 +315,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Eindhoven University of Technology",
@@ -321,7 +357,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Utrecht University",
@@ -357,7 +393,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -409,7 +445,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "University of Groningen",
@@ -451,7 +487,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Nmbrs",
@@ -486,7 +522,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Maastricht University",
@@ -528,7 +564,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     }
    ],
    "open": true
@@ -579,7 +615,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Leiden University",
@@ -615,7 +651,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "University of Twente",
@@ -651,7 +687,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "data.overheid.nl",
@@ -693,12 +729,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Insify",
      "slug": "insify",
      "description": "'Insify is a Dutch insurtech offering fully digital business insurance for freelancers,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insify/refs/heads/main/screenshots/insify-2026-07-25T222531.png",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -734,7 +771,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Plumery",
@@ -775,7 +812,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 20
     }
    ]
   },
@@ -819,7 +856,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Rabobank",
@@ -861,7 +898,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Otrium",
@@ -896,12 +933,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Leyden Labs",
      "slug": "leyden-labs",
      "description": "'Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leyden-labs/refs/heads/main/screenshots/leyden-labs-2026-07-25T225008.png",
      "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -937,12 +975,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "aardaia",
      "slug": "aardaia",
      "description": "Aardaia is a Wageningen (Netherlands) agri-biotech startup that turns wild plant species",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aardaia/refs/heads/main/screenshots/aardaia-2026-07-25T181321.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -972,7 +1011,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Fraudio",
@@ -1014,7 +1053,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Tibo Energy",
@@ -1049,7 +1088,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Peerby",
@@ -1084,7 +1123,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Baan",
@@ -1119,7 +1158,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Greenchoice",
@@ -1155,7 +1194,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 30
     }
    ]
   }

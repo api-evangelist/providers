@@ -1,5 +1,5 @@
 {
- "total": 81,
+ "total": 82,
  "bands": [
   {
    "band": "exemplar",
@@ -109,6 +109,7 @@
      "name": "KUFU",
      "slug": "kufu",
      "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
      "score": 56.4,
      "band": "developing",
      "band_label": "Developing",
@@ -228,6 +229,7 @@
      "name": "Logiless",
      "slug": "logiless",
      "description": "LOGILESS (ロジレス) is a Japanese cloud EC logistics platform that unifies order management (OMS) and warehouse management (WMS) for e-commerce merchants — automating order intake from marketplaces and shopping carts (Rakuten, Shopify, ColorMe, futureshop, ec-force and more), inventory synchronization, allocation, shipping-label issuance and warehouse operations. LOGILESS exposes a RESTful, OAuth2-protected API (scoped per merchant) for reading and writing sales orders, outbound and inbound deliveries, sales returns, inter-warehouse transfers, articles (product master), multi-layer inventory summaries, warehouses, stores and suppliers. The company is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline from LOGILESS's public developer documentation; the OpenAPI here is derived and not an official LOGILESS artifact.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png",
      "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
@@ -426,6 +428,7 @@
      "name": "KOMOJU",
      "slug": "komoju",
      "description": "KOMOJU is a Japan-focused global payment gateway operated by Degica. Its",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png",
      "score": 37.2,
      "band": "thin",
      "band_label": "Thin",
@@ -503,6 +506,7 @@
      "name": "freee",
      "slug": "freee",
      "description": "freee K.K. (freee株式会社) is a Japanese cloud business-management SaaS",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png",
      "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
@@ -681,6 +685,7 @@
      "name": "MakeLeaps",
      "slug": "makeleaps",
      "description": "MakeLeaps is a cloud invoicing, quoting, and payment-management SaaS operated by Meikuriipusu K.K., a Ricoh Group company headquartered in Meguro-ku, Tokyo. The platform lets businesses create ten document types (quotes, invoices, purchase orders, receipts and more), send them electronically or by post in one click, track payments with automated bank reconciliation, and stay compliant with Japan's qualified-invoice law and electronic-bookkeeping regulations. MakeLeaps exposes a REST API at api.makeleaps.com secured with OAuth 2.0 client-credentials, letting partners create clients and documents and drive the sending workflow programmatically, plus a Salesforce (Apex) managed-package SDK and published tutorials for building your own MCP server over your invoice data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/makeleaps/refs/heads/main/screenshots/makeleaps-2026-07-25T225937.png",
      "score": 30.5,
      "band": "thin",
      "band_label": "Thin",
@@ -722,6 +727,7 @@
      "name": "LegalOn",
      "slug": "legalon",
      "description": "'LegalOn Technologies is a legal-technology company building AI software for in-house legal",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/screenshots/legalon-2026-07-25T224826.png",
      "score": 30.3,
      "band": "thin",
      "band_label": "Thin",
@@ -760,7 +766,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 25,
+   "count": 26,
    "companies": [
     {
      "name": "Woodstock",
@@ -804,14 +810,50 @@
      "rank": 20
     },
     {
-     "name": "Kyash",
-     "slug": "kyash",
-     "description": "Kyash Inc. (株式会社Kyash) is a Tokyo-based fintech founded in 2015 that operates a consumer mobile wallet and Visa prepaid card in Japan, covering charging, peer-to-peer transfers, shared accounts, buy-now-pay-later, personal finance management, and contactless payment through Apple Pay, Google Pay, and Samsung Pay. Kyash is a registered Funds Transfer Service Provider (Kanto Local Finance Bureau No. 00082) and a third-party Prepaid Payment Instrument Issuer (No. 00698), and is ISO/IEC 27001:2022, PCI DSS, and TRUSTe certified. Its business-facing product is Kyash Payout, a mass payout service that sends funds to Japanese domestic bank accounts or Kyash wallets at a flat 50 yen per transfer, integrated either by Zengin/CSV file upload or by direct API integration including a balance API. Kyash previously sold Kyash Direct, an API-based Visa card issuer processing platform launched in 2019. All API access is sales-gated: Kyash publishes no developer portal, API reference, specification, SDK, or sandbox.",
-     "score": 26.7,
+     "name": "NTT Docomo",
+     "slug": "ntt-docomo",
+     "description": "NTT DOCOMO, Inc. is Japan's largest mobile network operator and a wholly owned subsidiary of Nippon Telegraph and Telephone (NTT), serving roughly 90 million mobile subscriptions in its home market of Japan across the docomo, ahamo and irumo brands, alongside the d ACCOUNT identity, d POINT loyalty, d Payment wallet and Lemino media franchises. In the telecom value chain DOCOMO is a facilities-based incumbent carrier — it owns the 5G radio, core and subscriber identity — but it does not sell that capability to developers directly. Its API posture is partner-gated and sales-led: the first-party \"docomo Developer support\" programme launched in 2013 was shut down on 31 March 2021 and its host no longer resolves, no developer, developers, docs, api or opengateway subdomain exists on docomo.ne.jp, and the only surviving public developer page documents handset and content technical information rather than any HTTP API. DOCOMO's network APIs reach developers only through aggregation: the company participates in the GSMA Open Gateway initiative and signed a distribution partnership with Aduna, the Ericsson-and-carrier joint venture, on 29 January 2026 to expose CAMARA Number Verification and SIM Swap for international markets — a commitment announced in press releases, with nothing callable published first-party as of this profile. Enterprise and wholesale API traffic is redirected to sibling company NTT DOCOMO BUSINESS on a separate domain.",
+     "score": 26.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Kyash",
+     "slug": "kyash",
+     "description": "Kyash Inc. (株式会社Kyash) is a Tokyo-based fintech founded in 2015 that operates a consumer mobile wallet and Visa prepaid card in Japan, covering charging, peer-to-peer transfers, shared accounts, buy-now-pay-later, personal finance management, and contactless payment through Apple Pay, Google Pay, and Samsung Pay. Kyash is a registered Funds Transfer Service Provider (Kanto Local Finance Bureau No. 00082) and a third-party Prepaid Payment Instrument Issuer (No. 00698), and is ISO/IEC 27001:2022, PCI DSS, and TRUSTe certified. Its business-facing product is Kyash Payout, a mass payout service that sends funds to Japanese domestic bank accounts or Kyash wallets at a flat 50 yen per transfer, integrated either by Zengin/CSV file upload or by direct API integration including a balance API. Kyash previously sold Kyash Direct, an API-based Visa card issuer processing platform launched in 2019. All API access is sales-gated: Kyash publishes no developer portal, API reference, specification, SDK, or sandbox.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyash/refs/heads/main/screenshots/kyash-2026-07-25T224346.png",
+     "score": 25.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -842,7 +884,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Keio University",
@@ -878,7 +920,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Nagoya University",
@@ -914,7 +956,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Waseda University",
@@ -950,7 +992,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -986,7 +1028,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "University of Tokyo",
@@ -1028,7 +1070,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Tohoku University",
@@ -1064,7 +1106,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Hokkaido University",
@@ -1100,12 +1142,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "ANDPAD",
      "slug": "andpad",
      "description": "ANDPAD (株式会社アンドパッド / ANDPAD Inc.) is Japan's leading cloud construction-management and construction-DX platform, used by more than 260,000 companies and hundreds of thousands of field and office users across new-build housing, renovation, specialty trades, general contracting, and facilities management. The platform spans scheduling, photo and document management, drawings, inspection checklists, chat, billing, and procurement, and exposes an external REST API (api.andpad.jp) plus an app marketplace (ANDPAD App Market) so partners can integrate their own services with ANDPAD. ANDPAD is backed by Hongshan (HongShan / Sequoia China) and operates a public developer site, a system status page, and a published security.txt disclosure channel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/screenshots/andpad-2026-07-25T200226.png",
      "score": 20.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1135,7 +1178,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "NTT",
@@ -1171,12 +1214,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Graffer",
      "slug": "graffer",
      "description": "'Graffer, Inc. (株式会社グラファー) is a Tokyo-based GovTech and generative-AI company",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graffer/refs/heads/main/screenshots/graffer-2026-07-25T220205.png",
      "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1212,7 +1256,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Trustdock",
@@ -1247,7 +1291,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "BODIK ODCS",
@@ -1289,7 +1333,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "DATA GO JP",
@@ -1331,7 +1375,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "e-Gov Data Catalog",
@@ -1373,7 +1417,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Gifu Prefecture Open Data",
@@ -1415,7 +1459,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Tokyo Metropolitan Open Data",
@@ -1457,7 +1501,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Yokohama City Open Data",
@@ -1499,7 +1543,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Ulysses (Kaminashi)",
@@ -1534,7 +1578,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Souco",
@@ -1569,7 +1613,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Zehitomo",
@@ -1604,12 +1648,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Hokan",
      "slug": "hokan",
      "description": "Hokan, Inc. (株式会社hokan) is a Japanese InsurTech company that builds hokan®, a cloud-based customer and contract management (CRM) system for insurance agencies and brokerages. The platform consolidates customer and policy information, digitizes proposal and activity workflows, and adds modules for intent capture (意向把握), case management (案件管理), dashboards, accounting/cashiering (出納), and staff management (People). It targets paperless operations, stronger audit and compliance controls, renewal and aftercare tracking, and mobile access for agents. Customers include Orix Life, ANA, Sekisui, and other Japanese insurers and agencies. Hokan is backed by 500 Global. The company exposes API-based website integration for its product but does not publish a public developer portal, OpenAPI, or SDK; this profile is maintained in the API Evangelist network as a company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hokan/refs/heads/main/screenshots/hokan-2026-07-25T221315.png",
      "score": 15.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1645,12 +1690,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Habitto",
      "slug": "habitto",
      "description": "Habitto is a Tokyo-based fintech company building a mobile financial wellness",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habitto/refs/heads/main/screenshots/habitto-2026-07-25T220514.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1686,12 +1732,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Leaner Technologies",
      "slug": "leaner-technologies",
      "description": "'Leaner Technologies (株式会社Leaner Technologies) is a Tokyo-based B2B SaaS company",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/screenshots/leaner-technologies-2026-07-25T224738.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1721,7 +1768,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 45
     }
    ]
   },
@@ -1736,6 +1783,7 @@
      "name": "ClassAction",
      "slug": "classaction",
      "description": "ClassAction operates enjin (集団訴訟プラットフォーム enjin), a Japanese class-action / group-litigation",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/classaction/refs/heads/main/screenshots/classaction-2026-07-25T205517.png",
      "score": 14.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1765,12 +1813,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Linc'well",
      "slug": "lingxi-linc-well",
      "description": "Linc'well, Inc. (株式会社Linc'well) is a Tokyo-based healthcare technology company founded in January 2018 whose stated mission is to take healthcare one step further through technology. It operates a healthcare platform that connects medical professionals with patients across online and offline care, organized into three business lines: a telehealth platform licensed to medical institutions, where patients complete everything from booking to consultation on web, smartphone, or tablet, pay by credit card or pay-later, and have medication delivered or dispensed at a local pharmacy; a Smart Clinic clinic-DX service that digitizes core primary-care operations including appointment booking, medical intake, payment, and medical record entry; and a healthcare e-commerce business covering cosmetics, contact lenses, over-the-counter medicines, online medication guidance, and prescription dispensing. Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API specification; integration is a commercial arrangement with medical institutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingxi-linc-well/refs/heads/main/screenshots/lingxi-linc-well-2026-07-25T225250.png",
      "score": 13.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1806,47 +1855,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Kuraseru",
      "slug": "kuraseru",
      "description": "'KURASERU, INC. (株式会社KURASERU) is a Kobe-based Japanese technology company",
-     "score": 13.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 26.3
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 47
-    },
-    {
-     "name": "Magic Moment",
-     "slug": "magic-moment",
-     "description": "'Magic Moment is a Tokyo-based AI sales-automation company whose platform",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuraseru/refs/heads/main/screenshots/kuraseru-2026-07-25T224330.png",
      "score": 13.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1879,9 +1894,46 @@
      "rank": 48
     },
     {
+     "name": "Magic Moment",
+     "slug": "magic-moment",
+     "description": "'Magic Moment is a Tokyo-based AI sales-automation company whose platform",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png",
+     "score": 13.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 26.3
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 49
+    },
+    {
      "name": "Aculys",
      "slug": "aculys",
      "description": "Aculys Pharma, Inc. is a Japanese clinical-stage biopharmaceutical company focused on neurological and psychiatric diseases where there is high unmet medical need. The company works to eliminate Japan's drug lag and drug loss by bringing innovative medicines already approved in Western markets to Japanese patients as early as possible. Its lead product is Spydia (diazepam nasal spray), Japan's first domestically developed intranasal anti-seizure agent, approved in June 2025 and administrable outside medical facilities. Originally funded by SoftBank Vision Fund (Series C, March 2025), Aculys was acquired by and became part of the Viatris Group in October 2025. Aculys publishes no public developer program, API, or technical documentation surface; this profile is maintained for network completeness and identity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aculys/refs/heads/main/screenshots/aculys-2026-07-25T181541.png",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1911,12 +1963,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "HERP",
      "slug": "herp",
      "description": "'HERP Inc. (株式会社HERP) is a Japanese HR Tech company whose mission is \"採用を変え、日本を強く。\"",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/herp/refs/heads/main/screenshots/herp-2026-07-25T221058.png",
      "score": 12.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1946,12 +1999,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Dinii",
      "slug": "dinii",
      "description": "'Dinii (株式会社ダイニー) is a Tokyo-based restaurant-technology SaaS company, founded",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dinii/refs/heads/main/screenshots/dinii-2026-07-25T212047.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1981,7 +2035,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Pokelabo",
@@ -2016,7 +2070,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Rakuten Mobile",
@@ -2052,12 +2106,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "enechain",
      "slug": "enechain",
      "description": "'enechain operates the largest energy exchange in Japan, offering trading",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enechain/refs/heads/main/screenshots/enechain-2026-07-25T213326.png",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2093,12 +2148,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Kakehashi",
      "slug": "kakehashi",
      "description": "Kakehashi is a Japanese healthcare technology company digitally transforming",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakehashi/refs/heads/main/screenshots/kakehashi-2026-07-25T223425.png",
      "score": 11.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2134,12 +2190,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "CAPS",
      "slug": "caps",
      "description": "'CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/screenshots/caps-2026-07-25T204431.png",
      "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2175,7 +2232,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Tyffon",
@@ -2210,7 +2267,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "TokyoOtakuMode",
@@ -2245,47 +2302,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Connected Robotics",
      "slug": "connected-robotics",
      "description": "Connected Robotics Inc. is a Japanese foodtech startup, founded in 2014 by Tetsuya Sawanobori and headquartered in Koganei, Tokyo, that develops specialized robotics and AI systems to automate labor-intensive work across food factories and restaurants. Its product line pairs AI image-processing and robot-control technology with purpose-built machines including the Delibot S plating robot, Delibot X filling robot, AI inspection software, a soft-serve ice-cream robot, and a french-fry cooking robot, targeting labor shortages, productivity, and food safety. The company has raised multiple rounds (including a July 2019 Series A led by Global Brain and a Series B closed in 2023 with strategic investors such as Yaskawa Electric, Hoshizaki, and Mitsubishi HC Capital) and was surfaced in the API Evangelist network as a 500 Global portfolio company. As a hardware and robotics manufacturer, Connected Robotics publishes no public web API, developer portal, or SDK at this time.",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Every.tv",
-     "slug": "everytv",
-     "description": "'Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connected-robotics/refs/heads/main/screenshots/connected-robotics-2026-07-25T210302.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2318,9 +2341,10 @@
      "rank": 60
     },
     {
-     "name": "Koska",
-     "slug": "koska",
-     "description": "KOSKA Corporation (株式会社KOSKA) is a Tokyo-based manufacturing technology company, founded in October 2018, that applies cost accounting and IoT to the Japanese factory floor. Its flagship product GenKan (原価管理自動化サービス) automates cost management for high-mix low-volume manufacturers: RFID and power sensors installed on existing equipment capture work progress and consumption without changing operator behavior, then make processing cost, material cost, and electricity cost visible line by line, feeding real actual-cost figures and KPI setting back to the shop floor and management. A second product, ながら記録 (Nagara Kiroku / \"vScribe\"), is an AI record-keeping app for manufacturing, construction, and logistics sites — photograph a paper form and AI generates the input form, then operators record hands-free by speaking, with the AI parsing natural speech into structured records, inspections, and reports. KOSKA is led by CEO Kenichiro Sone (Forbes 30 Under 30 Asia 2021) and advised by Hiroshi Obata, former chair of the Japan Cost Accounting Association. As of this profile the company publishes no public developer API, SDK, or developer portal — it is a sensor-and-SaaS product company, not an API provider.",
+     "name": "Every.tv",
+     "slug": "everytv",
+     "description": "'Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/everytv/refs/heads/main/screenshots/everytv-2026-07-25T213757.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2351,6 +2375,42 @@
       "consent_identity": false
      },
      "rank": 61
+    },
+    {
+     "name": "Koska",
+     "slug": "koska",
+     "description": "KOSKA Corporation (株式会社KOSKA) is a Tokyo-based manufacturing technology company, founded in October 2018, that applies cost accounting and IoT to the Japanese factory floor. Its flagship product GenKan (原価管理自動化サービス) automates cost management for high-mix low-volume manufacturers: RFID and power sensors installed on existing equipment capture work progress and consumption without changing operator behavior, then make processing cost, material cost, and electricity cost visible line by line, feeding real actual-cost figures and KPI setting back to the shop floor and management. A second product, ながら記録 (Nagara Kiroku / \"vScribe\"), is an AI record-keeping app for manufacturing, construction, and logistics sites — photograph a paper form and AI generates the input form, then operators record hands-free by speaking, with the AI parsing natural speech into structured records, inspections, and reports. KOSKA is led by CEO Kenichiro Sone (Forbes 30 Under 30 Asia 2021) and advised by Hiroshi Obata, former chair of the Japan Cost Accounting Association. As of this profile the company publishes no public developer API, SDK, or developer portal — it is a sensor-and-SaaS product company, not an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koska/refs/heads/main/screenshots/koska-2026-07-25T224233.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 62
     },
     {
      "name": "Spacee",
@@ -2385,7 +2445,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Shippio",
@@ -2420,12 +2480,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "EVERSTEEL",
      "slug": "eversteel",
      "description": "'EVERSTEEL is a University of Tokyo-originated startup building AI image-recognition systems",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eversteel/refs/heads/main/screenshots/eversteel-2026-07-25T213741.png",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2455,7 +2516,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "newmo",
@@ -2490,12 +2551,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "KDDI",
      "slug": "kddi",
      "description": "KDDI Corporation is a Japanese multinational telecommunications operator headquartered in Tokyo, providing mobile, fixed-line, broadband, and enterprise ICT services. KDDI markets its consumer mobile services under the au brand, alongside UQ mobile and povo, and serves enterprise customers globally through KDDI Global and KDDI America. The company operates the KDDI Open API for Developers portal exposing inquiry-gated product APIs including the au PAY Mini App platform, an XR/MEC low-latency application API, a PPM consent management API, and an au mobile Identification Support Service for KYC/identity verification. KDDI also runs the au OPEN DEVICE DEVELOPER SITE for cellular module device certification, and a KDDI Cloud Platform Service knowledge site with developer API references for cloud infrastructure. In 2025 KDDI became an equity partner in Aduna, the GSMA/Ericsson-backed network API venture aggregating CAMARA-aligned carrier APIs (Number Verify, SIM Swap, Quality on Demand, Device Location) across global operators. Public OpenAPI specifications are not openly published; API access is provided through contact/inquiry workflows after partner onboarding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kddi/refs/heads/main/screenshots/kddi-2026-07-25T223539.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2525,7 +2587,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Ocean Network Express",
@@ -2561,12 +2623,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "AI Medical Service",
      "slug": "ai-medical-service",
      "description": "'AI Medical Service Inc. (AIM) is a Tokyo-based med-tech company founded in September",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ai-medical-service/refs/heads/main/screenshots/ai-medical-service-2026-07-25T195338.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2596,7 +2659,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Excite Japan Co., Ltd. (JASDAQ:3754)",
@@ -2631,7 +2694,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Sansan",
@@ -2666,7 +2729,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Pocket Menu",
@@ -2707,12 +2770,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "App-CM",
      "slug": "app-cm",
      "description": "'App-CM, Inc. (株式会社アップシーエム) is a Tokyo-based technology company that",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/app-cm/refs/heads/main/screenshots/app-cm-2026-07-25T200700.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2742,7 +2806,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Sumutasu",
@@ -2777,47 +2841,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Dverse",
      "slug": "dverse",
      "description": "Dverse is the API Evangelist network profile for Symmetry Dimensions Inc. (株式会社SYMMETRY), a Tokyo-based technology company whose \"DVERSE\" digital-twin lineage evolved into a portfolio of DX solution services, infrastructure operations and maintenance support (インフラ維持管理支援), and SDTC data services. The company was surfaced as a 500 Global portfolio company and added to the network as an enrichment lead. The branded domain symmetry-dimensions.com now redirects to the company's live site at symmetry-inc.co.jp. As of this enrichment pass the company publishes a corporate/marketing site (a Nuxt single-page app on Google Cloud) but no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or /.well-known discovery surface — so no machine-readable API artifacts could be harvested. This record therefore carries company identity plus a probed domain-security profile only, and remains a lead awaiting a public API surface.",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 74
-    },
-    {
-     "name": "Fact Base Inc.",
-     "slug": "fact-base-inc",
-     "description": "'Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dverse/refs/heads/main/screenshots/dverse-2026-07-25T212532.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2848,6 +2878,42 @@
       "consent_identity": false
      },
      "rank": 75
+    },
+    {
+     "name": "Fact Base Inc.",
+     "slug": "fact-base-inc",
+     "description": "'Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fact-base-inc/refs/heads/main/screenshots/fact-base-inc-2026-07-25T214146.png",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 76
     },
     {
      "name": "HiCustomer",
@@ -2882,7 +2948,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "SODA",
@@ -2917,7 +2983,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Stailer",
@@ -2952,7 +3018,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "VisasQ",
@@ -2987,7 +3053,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "P2P, Inc.",
@@ -3028,7 +3094,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 81
     }
    ]
   },
@@ -3043,7 +3109,8 @@
      "name": "DCM Ventures",
      "slug": "dcm-ventures",
      "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
-     "rank": 81
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcm-ventures/refs/heads/main/screenshots/dcm-ventures-2026-07-25T211459.png",
+     "rank": 82
     }
    ]
   }

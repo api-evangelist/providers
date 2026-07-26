@@ -1,5 +1,5 @@
 {
- "total": 301,
+ "total": 305,
  "bands": [
   {
    "band": "strong",
@@ -12,6 +12,7 @@
      "name": "Kaleyra",
      "slug": "kaleyra",
      "description": "Kaleyra is a global omnichannel CPaaS provider (a Tata Communications",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png",
      "score": 67.3,
      "band": "strong",
      "band_label": "Strong",
@@ -47,6 +48,7 @@
      "name": "Digio",
      "slug": "digio",
      "description": "Digio is an India-based digital trust and paperwork automation platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png",
      "score": 64.4,
      "band": "strong",
      "band_label": "Strong",
@@ -118,6 +120,7 @@
      "name": "Groww",
      "slug": "groww",
      "description": "Groww is an Indian fintech company offering investing and trading in stocks, futures & options, mutual funds, ETFs, IPOs and more through its consumer app and web platform. Backed by Iconiq Capital, Ribbit Capital and Y Combinator, Groww also operates the Groww Trading API — an official programmatic interface for algorithmic trading that covers order management (place/modify/cancel), portfolio holdings and positions, margin calculation, live market data (LTP, full quote, OHLC, option chain and greeks) and historical candle data across the CASH (equity) and FNO (derivatives) segments on Indian exchanges. Requests hit https://api.groww.in, are versioned with the X-API-VERSION header, and are authenticated with a daily Bearer access token generated via an API key + secret checksum, a TOTP flow, or an OAuth2 authorization-code flow.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png",
      "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
@@ -163,7 +166,7 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
+   "count": 15,
    "companies": [
     {
      "name": "Xflow",
@@ -207,6 +210,41 @@
      "rank": 5
     },
     {
+     "name": "Route Mobile",
+     "slug": "route-mobile",
+     "description": "Route Mobile Limited is a Mumbai-headquartered cloud communications platform (CPaaS) provider and one of India's largest A2P messaging aggregators, listed on the BSE and NSE and now majority-owned by Belgium's Proximus Group, where it sits alongside BICS and Telesign inside Proximus Global. It sells enterprise messaging (SMS, WhatsApp Business Platform, RCS, Viber, Google Business Messages, Telegram, Instagram), OTP and identity verification, voice and cloud telephony, transactional email through SendClean, URL shortening through Acculync, and a telecom-operator product line (SMSC-as-a-service, the Route Shield SMS firewall, Route Hub, and Instant Virtual Numbers) that puts it on both sides of the carrier relationship — reselling operator connectivity to enterprises while also selling infrastructure back to operators. Its API posture is genuinely self-serve and public: a ReadMe-hosted developer portal at developer.rmlconnect.net documents roughly 108 REST operations across SMS, WhatsApp, RCS, Viber and email, backed by five downloadable OpenAPI 3.0 definitions that are also mirrored in first-party GitHub repositories with Postman collections and Redoc pages. That places Route Mobile firmly in the CPaaS-aggregator half of telecom rather than the partner-gated operator half. On the sector's defining standards question it is thinner than its marketing suggests: nothing in its public documentation references CAMARA, GSMA Open Gateway, Number Verification, SIM Swap, Device Location or CIBA, and its network-API story lives entirely at the parent level, in Proximus Global's Konera aggregation platform announced as \"aligned with GSMA's CAMARA standardization initiative\" — a press release, not a callable Route Mobile endpoint. Authentication across its live APIs is legacy-CPaaS rather than telco-standard: username and password query parameters for SMS, JWT bearer tokens minted by product-level login endpoints for WhatsApp, RCS and Viber, and owner_id plus token in the request body for email.",
+     "score": 54.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 65.0,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
      "name": "Cashfree Payments",
      "slug": "cashfree",
      "description": "Cashfree Payments is an Indian payment gateway and banking platform providing REST APIs for payment links, subscriptions, payouts, refunds, QR codes, and banking payouts across UPI, credit and debit cards, net banking, and international payment methods. It serves over one million businesses with RBI authorisation as a Payment Aggregator and Prepaid Payment Instrument provider.",
@@ -246,12 +284,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Credgenics",
      "slug": "credgenics",
      "description": "Credgenics is an AI-powered debt collection and loan recovery SaaS platform used by banks, NBFCs, housing-finance companies, microfinance institutions, fintechs and asset-reconstruction companies (primarily in India). Its REST Recovery API lets lenders push loan, customer, payment and transaction data into the platform and read collections status, DPD and penalties back, alongside digital communications, a GenAI voicebot (Swara), predictive dialing (DialNext), field collections (CG Collect), litigation management, online dispute resolution and the Billzy loan-repayment payments product. Authentication is a client-credentials exchange returning a short-lived `authenticationtoken`; every request carries the tenant `company_id`.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png",
      "score": 52.0,
      "band": "developing",
      "band_label": "Developing",
@@ -281,7 +320,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Keka HR",
@@ -317,7 +356,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "WazirX",
@@ -359,7 +398,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Beatoven.ai",
@@ -394,7 +433,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Instamojo",
@@ -436,7 +475,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
+    },
+    {
+     "name": "Tata Communications",
+     "slug": "tata-communications",
+     "description": "Tata Communications is the global wholesale carrier and digital-infrastructure arm of India's Tata Group, headquartered in Mumbai. It owns one of the world's largest subsea cable networks, carries a large share of global internet routes, and sells international voice and messaging wholesale, IZO network services, MOVE global IoT and eSIM connectivity, MVNE services, and — through its October 2023 acquisition of Kaleyra — a full CPaaS, UCaaS, and CCaaS stack. It sits in the supply layer of the telecom value chain: a carrier's carrier whose customers are mostly other operators, enterprises, and aggregators rather than individual developers. Its API posture matches that position and is honestly partner-gated. Tata Communications runs a real first-party developer portal at developer.tatacommunications.com, built on Akana Community Manager, whose catalogue names 49 APIs — but only three are marked Public and return a downloadable Swagger 2.0 document to an anonymous caller; the other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a \"we will get in touch\" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
     },
     {
      "name": "Razorpay",
@@ -478,7 +552,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 14
+    },
+    {
+     "name": "Bharti Airtel",
+     "slug": "bharti-airtel",
+     "description": "Bharti Airtel Limited is an Indian multinational telecommunications operator headquartered in New Delhi, and one of the two dominant mobile network operators in its home market of India alongside Reliance Jio. It runs mobile (2G/4G/5G), fixed broadband, DTH television, enterprise connectivity, data centre (Nxtra) and payments-bank businesses across India, South Asia and — through the separately listed Airtel Africa — fourteen African countries. In the telecom value chain Airtel is an access-network owner: it holds the spectrum, the SIM estate, the subscriber identity and the network signalling that the rest of the industry resells. Its API posture is split in two, and the split is the whole story. The connectivity-product side is genuinely API-native and publicly documented: Airtel IQ, the operator's CPaaS suite, publishes open Swagger for its SMS and CDR reporting APIs and offers a self-serve trial account, while the Airtel IoT and Airtel Locate developer portals publish complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel's network capabilities only through aggregators — Aduna, and Nokia's Network as Code platform — never directly. Its own \"Airtel API Marketplace\" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.",
+     "score": 47.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 54.9,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 15
     },
     {
      "name": "Decentro",
@@ -520,7 +629,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 16
     },
     {
      "name": "Orange Health",
@@ -561,12 +670,48 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 17
+    },
+    {
+     "name": "Reliance Jio",
+     "slug": "reliance-jio",
+     "description": "Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 50.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 78.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 18
     },
     {
      "name": "Exotel",
      "slug": "exotel",
      "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS)",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
      "score": 45.9,
      "band": "developing",
      "band_label": "Developing",
@@ -596,7 +741,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 19
     }
    ],
    "open": true
@@ -612,6 +757,7 @@
      "name": "Leo1",
      "slug": "leo1",
      "description": "'LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png",
      "score": 44.0,
      "band": "thin",
      "band_label": "Thin",
@@ -647,12 +793,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 20
     },
     {
      "name": "CashFlo",
      "slug": "cashflo",
      "description": "CashFlo is an India-based fintech platform that automates enterprise finance operations across accounts payable, payments, GST compliance, vendor management, and supply-chain financing. Its modules cover invoice OCR and n-way matching, approval workflows, multi-bank payments and reconciliation, GST filing / e-invoicing / e-way bills, vendor onboarding and KYC, and dynamic cash discounting for working-capital optimization. CashFlo connects to major ERPs (SAP ECC/S4 HANA/Business One, Oracle NetSuite/Fusion/EBS, Microsoft Dynamics 365/NAV/Business Central) and exposes a JWT-secured Data Ingestion API for pushing purchase orders and goods-receipt notes into the platform. Backed by General Catalyst.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png",
      "score": 43.5,
      "band": "thin",
      "band_label": "Thin",
@@ -688,7 +835,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 21
     },
     {
      "name": "Indian Institute of Science Bangalore",
@@ -724,12 +871,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 22
     },
     {
      "name": "Acko",
      "slug": "acko",
      "description": "Acko (ACKO Technology & Services Private Limited) is an Indian digital-first general insurance company founded in 2016 and headquartered in Bengaluru, Karnataka. Acko sells car, bike, health, term life and travel insurance entirely online, along with group health and personal-accident cover and embedded insurance for partners. It is a portfolio company of Accel. Acko exposes insurance policy certificates to citizens through India's government API Setu / DigiLocker platform (car, health and two-wheeler certificate fetch), and operates a separate enterprise/partner issuance API covering token generation, Loan-Shield, Trip, GIG, Health, House, Credit Life, Fire, Cyber and Electronics products plus policy and claims management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png",
      "score": 40.1,
      "band": "thin",
      "band_label": "Thin",
@@ -765,12 +913,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 23
     },
     {
      "name": "Gupshup",
      "slug": "gupshup",
      "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png",
      "score": 38.6,
      "band": "thin",
      "band_label": "Thin",
@@ -800,12 +949,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 24
     },
     {
      "name": "CoinSwitch",
      "slug": "coinswitch",
      "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png",
      "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
@@ -841,12 +991,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 25
     },
     {
      "name": "HyperVerge",
      "slug": "hyperverge",
      "description": "HyperVerge is an AI-based identity verification and customer onboarding",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
      "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
@@ -876,7 +1027,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 26
     },
     {
      "name": "Indian Institute of Technology Kanpur",
@@ -912,12 +1063,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 27
     },
     {
      "name": "Cleartax",
      "slug": "cleartax",
      "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png",
      "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
@@ -953,12 +1105,13 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 24
+     "rank": 28
     },
     {
      "name": "Delhivery",
      "slug": "delhivery",
      "description": "Delhivery is India's largest integrated third-party logistics (3PL) service provider, offering express parcel delivery, part-truckload and full-truckload freight, warehousing, supply-chain services, cross-border logistics and shipment tracking. Its developer platform exposes REST APIs for pincode serviceability, waybill generation, order creation and manifestation, shipment tracking (pull and webhook push), shipping-cost invoicing, packing-slip and shipping-label generation, pickup requests, client-warehouse management and NDR (non-delivery report) actions. APIs are consumed with a client API token and are documented across the Delhivery One developer portal, the Express Last-Mile API reference (ReadMe) and the OS1 platform docs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png",
      "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
@@ -988,12 +1141,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 29
     },
     {
      "name": "Juspay",
      "slug": "juspay",
      "description": "Juspay is an Indian payments orchestration and checkout platform that",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png",
      "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
@@ -1029,12 +1183,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 30
     },
     {
      "name": "Easebuzz",
      "slug": "easebuzz",
      "description": "'Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png",
      "score": 36.4,
      "band": "thin",
      "band_label": "Thin",
@@ -1070,7 +1225,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 31
     },
     {
      "name": "Ola",
@@ -1105,7 +1260,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 32
     },
     {
      "name": "PhonePe",
@@ -1147,12 +1302,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 33
     },
     {
      "name": "Falcon",
      "slug": "falcon",
      "description": "'Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png",
      "score": 33.4,
      "band": "thin",
      "band_label": "Thin",
@@ -1188,7 +1344,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 34
     },
     {
      "name": "Paytm",
@@ -1230,7 +1386,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 35
     },
     {
      "name": "Indian Institute of Technology Bombay",
@@ -1266,12 +1422,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 36
     },
     {
      "name": "Flipkart",
      "slug": "flipkart",
      "description": "'Flipkart is one of India''s largest e-commerce marketplaces, headquartered in Bengaluru",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png",
      "score": 32.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1301,12 +1458,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 37
     },
     {
      "name": "KartRocket",
      "slug": "kartrocket",
      "description": "KartRocket is the original brand of what is now Shiprocket, India's leading eCommerce enablement and shipping-logistics platform (operated by BigFoot Retail Solutions Pvt Ltd). Shiprocket helps D2C brands, SMEs, and enterprise sellers manage eCommerce shipping, last-mile delivery, reverse logistics, freight, hyperlocal delivery, cross-border shipping, warehouse fulfillment, and seller analytics from one platform — delivering to 19,000+ pin codes in India and 220+ countries. The public Shiprocket API (apiv2.shiprocket.in/v1/external) lets sellers rate-shop couriers, create and cancel orders, generate AWBs and labels, schedule pickups, and track shipments; an official MCP server and agentic UI component library extend it to AI agents. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kartrocket/refs/heads/main/screenshots/kartrocket-2026-07-25T223516.png",
      "score": 32.2,
      "band": "thin",
      "band_label": "Thin",
@@ -1336,7 +1494,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 38
     },
     {
      "name": "Power2SME",
@@ -1371,12 +1529,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 39
     },
     {
      "name": "Kotak Mahindra Bank",
      "slug": "kotak",
      "description": "'Kotak Mahindra Bank Limited is an Indian private-sector bank headquartered",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png",
      "score": 31.4,
      "band": "thin",
      "band_label": "Thin",
@@ -1412,7 +1571,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 40
     },
     {
      "name": "Locus",
@@ -1448,7 +1607,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 41
     }
    ]
   },
@@ -1498,7 +1657,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 42
     },
     {
      "name": "WIBMO",
@@ -1539,7 +1698,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 43
     },
     {
      "name": "Quikr",
@@ -1574,7 +1733,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 40
+     "rank": 44
     },
     {
      "name": "Open (open.money)",
@@ -1616,7 +1775,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 45
     },
     {
      "name": "TartanHQ",
@@ -1657,7 +1816,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 42
+     "rank": 46
     },
     {
      "name": "BillDesk",
@@ -1699,12 +1858,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 47
     },
     {
      "name": "Fibe",
      "slug": "fibe",
      "description": "Fibe (formerly EarlySalary) is a digital consumer lending platform in India, founded in 2015 and headquartered in Pune. It offers instant personal loans up to Rs 10 lakh, loans against mutual funds, fixed deposits, a co-branded Fibe Axis Bank credit card, insurance, and purpose-driven (BNPL) financing across education, healthcare, travel, e-commerce, and solar. As of March 2026 Fibe reports over Rs 48,000 crore disbursed across 9.8 million loans to 3.3 million customers and 46 million app downloads. Fibe is ISO/IEC 27001, SOC 2, and PCI DSS certified. Notably, Fibe operates a live, OAuth-protected Model Context Protocol (MCP) server that lets AI agents read loan/eligibility information and initiate loan applications (scopes loan.read and loan.apply). Fibe publishes no public REST/OpenAPI developer surface; its machine-facing surface is the MCP server, secured with OAuth 2.0 authorization-code + PKCE and dynamic client registration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/screenshots/fibe-2026-07-25T214400.png",
      "score": 24.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1734,7 +1894,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 48
     },
     {
      "name": "Indian Institute of Technology Delhi",
@@ -1770,7 +1930,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 49
     },
     {
      "name": "Mitigata",
@@ -1811,43 +1971,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
-    },
-    {
-     "name": "Indian Institute of Technology Kharagpur",
-     "slug": "indian-institute-of-technology-kharagpur",
-     "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur / IIT KGP) is a public technical and research university in West Bengal, India, and the first of the IITs, ranked #222 in the QS World University Rankings 2025. Its public digital footprint centers on machine-readable scholarly infrastructure rather than a formal developer program: the Central Library operates a DSpace-based Institutional Digital Repository (the first IR among the IITs) and the institute maintains an IRINS research-profile portal hosted by INFLIBNET that ingests data from ORCID, Scopus, and Crossref. Operational systems such as the ERP/SSO platform are gated to enrolled members and expose no public API documentation. No official institution-wide developer portal was found; this profile catalogs the publicly reachable, standards-based endpoints only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/screenshots/indian-institute-of-technology-kharagpur-2026-06-20T183332.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 20.8,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 47
+     "rank": 50
     },
     {
      "name": "Meesho",
@@ -1882,7 +2006,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "Money View",
@@ -1923,7 +2047,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "Yubi (fka CredAvenue)",
@@ -1958,7 +2082,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Setu",
@@ -1994,43 +2118,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
-    },
-    {
-     "name": "Indian Institute of Technology Madras",
-     "slug": "iit-madras",
-     "description": "Indian Institute of Technology Madras (IIT Madras) is a public technical and research university in Chennai, India, ranked #227 in the QS World University Rankings 2025. It operates an institutional website (iitm.ac.in), a central library with electronic databases, a large online BS degree program in Data Science and Applications, and SSO/OAuth2-based identity endpoints. As of this review IIT Madras does not publish a public, documented developer portal or open API program. Its official GitHub organization exists but currently exposes no public repositories. The properties cataloged below reflect only publicly confirmed institutional web properties and identity endpoints, not documented third-party APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/screenshots/iit-madras-2026-06-20T183233.png",
-     "score": 21.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Probe Information",
@@ -2071,12 +2159,49 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 55
+    },
+    {
+     "name": "Indian Institute of Technology Kharagpur",
+     "slug": "indian-institute-of-technology-kharagpur",
+     "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur / IIT KGP) is a public technical and research university in West Bengal, India, and the first of the IITs, ranked #222 in the QS World University Rankings 2025. Its public digital footprint centers on machine-readable scholarly infrastructure rather than a formal developer program: the Central Library operates a DSpace-based Institutional Digital Repository (the first IR among the IITs) and the institute maintains an IRINS research-profile portal hosted by INFLIBNET that ingests data from ORCID, Scopus, and Crossref. Operational systems such as the ERP/SSO platform are gated to enrolled members and expose no public API documentation. No official institution-wide developer portal was found; this profile catalogs the publicly reachable, standards-based endpoints only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/screenshots/indian-institute-of-technology-kharagpur-2026-06-20T183332.png",
+     "score": 21.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 20.8,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 56
     },
     {
      "name": "Dukaan",
      "slug": "dukaan",
      "description": "Dukaan is an enterprise e-commerce platform, built by Growthpond Technology Private Limited (India), that lets businesses launch and run online stores without code. The platform bundles a store builder with curated themes, catalog and order management, pan-India logistics via Dukaan Delivery, payments, and an extendable plugin ecosystem. Dukaan's public developer surface is its Themes platform: a documented theming system (docs.mydukaan.io) built on HTML, CSS, JavaScript, and the Nunjucks templating language, with a \"Dukaan Data\" store-object model, \"Dukaan Functions\", and first-party plugins (wishlist, countdown timer, product scarcity). Dukaan does not publish a public REST/OpenAPI programmatic API; its extensibility is theme- and plugin-oriented rather than API-first. Added to the API Evangelist network from the Lightspeed Venture Partners portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dukaan/refs/heads/main/screenshots/dukaan-2026-07-25T212457.png",
      "score": 20.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2106,7 +2231,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Vested",
@@ -2147,7 +2272,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "Rupifi",
@@ -2182,12 +2307,49 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 56
+     "rank": 59
+    },
+    {
+     "name": "Indian Institute of Technology Madras",
+     "slug": "iit-madras",
+     "description": "Indian Institute of Technology Madras (IIT Madras) is a public technical and research university in Chennai, India, ranked #227 in the QS World University Rankings 2025. It operates an institutional website (iitm.ac.in), a central library with electronic databases, a large online BS degree program in Data Science and Applications, and SSO/OAuth2-based identity endpoints. As of this review IIT Madras does not publish a public, documented developer portal or open API program. Its official GitHub organization exists but currently exposes no public repositories. The properties cataloged below reflect only publicly confirmed institutional web properties and identity endpoints, not documented third-party APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/screenshots/iit-madras-2026-06-20T183233.png",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 60
     },
     {
      "name": "Lentra",
      "slug": "lentra",
      "description": "'Lentra is a Pune, India based cloud-native digital lending platform for banks and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lentra/refs/heads/main/screenshots/lentra-2026-07-25T224920.png",
      "score": 20.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2223,7 +2385,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 57
+     "rank": 61
     },
     {
      "name": "USPL Wrogn",
@@ -2258,12 +2420,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 58
+     "rank": 62
     },
     {
      "name": "BestDoc",
      "slug": "bestdoc",
      "description": "'BestDoc is a healthcare patient-relationship-management (PRM) company",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bestdoc/refs/heads/main/screenshots/bestdoc-2026-07-25T202757.png",
      "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2299,12 +2462,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 59
+     "rank": 63
     },
     {
      "name": "Dabba",
      "slug": "dabba",
      "description": "'Dabba (Wifi Dabba) is a Web3-powered decentralized physical infrastructure",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dabba/refs/heads/main/screenshots/dabba-2026-07-25T211118.png",
      "score": 19.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2334,12 +2498,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 60
+     "rank": 64
     },
     {
      "name": "Leap To Win Technologies Private",
      "slug": "leap-to-win-technologies-private",
      "description": "'Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png",
      "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2375,12 +2540,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 61
+     "rank": 65
     },
     {
      "name": "Jify",
      "slug": "jify",
      "description": "'Jify is an India-based financial wellness platform (part of the Moneyview group) that partners",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jify/refs/heads/main/screenshots/jify-2026-07-25T223150.png",
      "score": 19.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2416,12 +2582,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 62
+     "rank": 66
     },
     {
      "name": "Cult.fit",
      "slug": "cultfit",
      "description": "'Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/screenshots/cultfit-2026-07-25T210923.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2457,12 +2624,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 63
+     "rank": 67
     },
     {
      "name": "Innoviti",
      "slug": "innoviti",
      "description": "Innoviti Technologies Pvt. Ltd. is a Bengaluru-based payment technology company and RBI-authorized payment aggregator (online and, since January 2026, in-store) operating under India's Payment & Settlements Act 2007. Founded in 2002, Innoviti builds collections, reconciliation, and revenue-assurance infrastructure for large organized retail. Its products include innoviti unipay (an enterprise payment and reconciliation platform for omnichannel settlements and leakage control), innoviti genie (a sales acceleration and dealer-margin platform for mobile and electronics retail), and innoviti link (a POS-free mobile collection app accepting cards, UPI, and EMI). The company serves enterprise retailers including Samsung, Reliance Retail, Tanishq, Shoppers Stop, and More Retail, holds multiple payment-communication patents, and maintains PCI DSS, PCI P2PE, and PCI PIN certifications. Added to the API Evangelist network as a fintech portfolio lead; no public developer portal, OpenAPI, or self-serve API documentation was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innoviti/refs/heads/main/screenshots/innoviti-2026-07-25T222511.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2498,12 +2666,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 68
     },
     {
      "name": "Knight Fintech",
      "slug": "knight-fintech",
      "description": "Knight Fintech is a Mumbai-based banking technology company that sells digital lending infrastructure to Indian banks and NBFCs. It positions itself as \"India's leading digital lending infrastructure platform\", stating it powers 500+ financial institutions across co-lending, digital lending, treasury management, supply chain finance, embedded finance and credit line on UPI, alongside a Knight Aurix product line. The company describes its approach as cloud-first, API-driven middleware that integrates with legacy core banking systems without displacing them. It is enterprise sales-led: there is no public developer portal, no published API documentation, no SDKs and no self-service signup — evaluation runs through a scheduled demo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knight-fintech/refs/heads/main/screenshots/knight-fintech-2026-07-25T224006.png",
      "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2539,7 +2708,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 69
     },
     {
      "name": "QwikCilver",
@@ -2580,7 +2749,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 66
+     "rank": 70
     },
     {
      "name": "Dezerv",
@@ -2615,7 +2784,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 71
     },
     {
      "name": "Pharmeasy",
@@ -2656,7 +2825,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 72
     },
     {
      "name": "Truemeds",
@@ -2697,7 +2866,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 73
     },
     {
      "name": "Nova Benefits",
@@ -2738,7 +2907,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 74
     },
     {
      "name": "Uni",
@@ -2779,12 +2948,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 75
     },
     {
      "name": "Indifi",
      "slug": "indifi",
      "description": "'Indifi Technologies Pvt. Ltd. is an Indian digital lending platform that provides",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indifi/refs/heads/main/screenshots/indifi-2026-07-25T222318.png",
      "score": 17.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2814,12 +2984,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 76
     },
     {
      "name": "Ferra",
      "slug": "ferra",
      "description": "'Ferra is a smart home strength-training system for adults aged 50 and over,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ferra/refs/heads/main/screenshots/ferra-2026-07-25T214345.png",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2855,7 +3026,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 77
     },
     {
      "name": "Onecard",
@@ -2896,7 +3067,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 78
     },
     {
      "name": "PB Health",
@@ -2937,7 +3108,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 79
     },
     {
      "name": "Scripbox",
@@ -2972,12 +3143,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 80
     },
     {
      "name": "IndusInd Bank",
      "slug": "indusind",
      "description": "'IndusInd Bank Limited is a new-generation Indian private-sector bank, established in April",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indusind/refs/heads/main/screenshots/indusind-2026-07-25T222351.png",
      "score": 16.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3013,7 +3185,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 81
     },
     {
      "name": "Motilal Oswal",
@@ -3054,7 +3226,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 78
+     "rank": 82
     },
     {
      "name": "Sahi",
@@ -3095,7 +3267,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 83
     },
     {
      "name": "Slice",
@@ -3137,12 +3309,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 84
     },
     {
      "name": "Game Theory",
      "slug": "game-theory",
      "description": "Game Theory is a Bengaluru-based recreational sports and fitness membership",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/game-theory/refs/heads/main/screenshots/game-theory-2026-07-25T215409.png",
      "score": 16.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3172,7 +3345,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 85
     },
     {
      "name": "Yubi",
@@ -3207,7 +3380,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 86
     },
     {
      "name": "Duroflexworld",
@@ -3242,7 +3415,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 87
     },
     {
      "name": "Jupiter Money",
@@ -3284,7 +3457,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 88
     },
     {
      "name": "Perfios",
@@ -3319,7 +3492,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 89
     },
     {
      "name": "Fi Money",
@@ -3361,7 +3534,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 90
     },
     {
      "name": "Thyrocare",
@@ -3402,12 +3575,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 91
     },
     {
      "name": "Aspora",
      "slug": "aspora",
      "description": "Aspora is a cross-border fintech serving the Non-Resident Indian (NRI) diaspora, offering money transfers from the USA, UK, and UAE to India at near-mid-market (\"Google\") rates, NRE/NRO bank account opening, and digital gold investing, with multi-currency savings, bill payments, and EMI/SIP automation on its roadmap. The company reports over 1 million users moving more than $2 billion, with proactive fraud detection, 256-bit encryption, and funds held at regulated institutions. Formerly known as Vance, Aspora is a consumer mobile application (iOS and Android) and does not publish a public developer API, SDK, or API documentation. This profile was surfaced as a Greylock portfolio company and enriched by the API Evangelist pipeline from Aspora's public web surface (identity, links, and probed domain security).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aspora/refs/heads/main/screenshots/aspora-2026-07-25T201434.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3443,12 +3617,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 88
+     "rank": 92
     },
     {
      "name": "Deep Rooted",
      "slug": "deep-rooted",
      "description": "'Deep Rooted.Co is a direct-to-consumer fresh produce brand operated by Clover",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deep-rooted/refs/heads/main/screenshots/deep-rooted-2026-07-25T211542.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3478,7 +3653,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 89
+     "rank": 93
     },
     {
      "name": "Refyne",
@@ -3513,12 +3688,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 94
     },
     {
      "name": "axiTrust",
      "slug": "axitrust",
      "description": "'axiTrust is a technology and consulting platform for the Indian surety-bond",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/screenshots/axitrust-2026-07-25T202058.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3554,7 +3730,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 91
+     "rank": 95
     },
     {
      "name": "Coverfox",
@@ -3595,12 +3771,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 92
+     "rank": 96
     },
     {
      "name": "Edme Insurance Brokers",
      "slug": "edmeinsurance",
      "description": "'Edme Insurance Brokers Ltd (formerly Aditya Birla Insurance Brokers, ABIBL) is an",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edmeinsurance/refs/heads/main/screenshots/edmeinsurance-2026-07-25T212856.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3636,12 +3813,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 93
+     "rank": 97
     },
     {
      "name": "Fundly",
      "slug": "fundly",
      "description": "'Fundly is a Mumbai-based fintech platform purpose-built for India''s pharmaceutical",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundly/refs/heads/main/screenshots/fundly-2026-07-25T215321.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3677,7 +3855,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 94
+     "rank": 98
     },
     {
      "name": "MediBuddy (fka DocsApp)",
@@ -3718,7 +3896,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "Onco.com",
@@ -3759,7 +3937,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "Pluro",
@@ -3800,7 +3978,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Policybazaar",
@@ -3841,7 +4019,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "Shriram Finance",
@@ -3882,7 +4060,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 99
+     "rank": 103
     },
     {
      "name": "Sukino",
@@ -3923,7 +4101,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 104
     },
     {
      "name": "Zopper",
@@ -3964,7 +4142,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 101
+     "rank": 105
     }
    ]
   },
@@ -3979,6 +4157,7 @@
      "name": "Jiraaf",
      "slug": "jiraaf",
      "description": "'Jiraaf (Jiraaf Platform Private Limited, Bangalore, India) is an online",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiraaf/refs/heads/main/screenshots/jiraaf-2026-07-25T223208.png",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4008,7 +4187,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "Oxyzo",
@@ -4043,7 +4222,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "Vridhi Home Finance",
@@ -4078,12 +4257,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "BharatPe",
      "slug": "bharatpe",
      "description": "BharatPe is a New Delhi-based fintech company founded in 2018 by Ashneer Grover and Shashvat Nakrani that provides digital payments and financial services to Indian small and medium businesses. Its merchant stack centers on a single interoperable UPI QR for payment acceptance across all UPI apps, augmented by BharatPe Speaker for voice transaction confirmations, BharatSwipe POS card machines for offline acceptance, BharatPe One (all-in-one POS), bill payments, and a co-branded credit card. On the financing side, BharatPe originates business loans for merchants through partner NBFCs, runs the InvestBharatPe / 12% Club investment platform, operates the PostPe buy-now-pay-later product, and is a co-promoter of Unity Small Finance Bank. The company reports more than ten million merchant partners across 450+ Indian cities and turned profitable in FY24 with roughly INR 1,700 crore in revenue. BharatPe is owned by Resilient Innovations Private Limited; it does not publish a public developer API, SDK, sandbox, or OpenAPI surface — its merchant and consumer products are delivered through native Android/iOS apps and an enterprise sales channel for partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bharatpe/refs/heads/main/screenshots/bharatpe-2026-07-25T202853.png",
      "score": 14.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4119,7 +4299,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 105
+     "rank": 109
     },
     {
      "name": "Upswing",
@@ -4160,7 +4340,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 106
+     "rank": 110
     },
     {
      "name": "Onsitego",
@@ -4201,7 +4381,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "Policy Bazaar",
@@ -4242,7 +4422,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 112
     },
     {
      "name": "TechProcess Payment Services",
@@ -4283,12 +4463,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
+     "rank": 113
     },
     {
      "name": "BRND.ME",
      "slug": "brndme",
      "description": "'BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brndme/refs/heads/main/screenshots/brndme-2026-07-25T203942.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4324,12 +4505,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 110
+     "rank": 114
     },
     {
      "name": "Clinikk",
      "slug": "clinikk",
      "description": "Clinikk (Clinikk Health Hub) is a Bangalore, India-based primary healthcare provider",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clinikk/refs/heads/main/screenshots/clinikk-2026-07-25T205627.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4365,12 +4547,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 111
+     "rank": 115
     },
     {
      "name": "DeHaat",
      "slug": "dehaat",
      "description": "'DeHaat (Green Agrevolution Private Limited) is one of India''s largest full-stack",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dehaat/refs/heads/main/screenshots/dehaat-2026-07-25T211629.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4400,12 +4583,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 116
     },
     {
      "name": "Loop Health",
      "slug": "loop-health",
      "description": "Loop Health is an India-based health assurance and group insurance company, founded in 2018 by Mayank Kale and Amrit Singh and headquartered in Pune. It combines traditional group hospitalization insurance with unlimited primary care, telemedicine, wellness programs, mental-health counseling, and an Employee Assistance Program, delivered to employers and their teams through asset-light clinics and a member app. Backed by General Catalyst, Elevation Capital and Y Combinator, Loop serves 1,250+ companies and 950,000+ members across India. This profile was surfaced as a General Catalyst portfolio company; as of this enrichment pass Loop Health publishes no public developer portal, API documentation, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loop-health/refs/heads/main/screenshots/loop-health-2026-07-25T225525.png",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4441,7 +4625,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 113
+     "rank": 117
     },
     {
      "name": "Portea",
@@ -4482,7 +4666,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 118
     },
     {
      "name": "Apna",
@@ -4517,12 +4701,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 119
     },
     {
      "name": "FT Cash",
      "slug": "ft-cash",
      "description": "FTCash (ftcash) is a Mumbai, India based financial services / fintech company focused on financial inclusion for micro-merchants and small and medium enterprises (SMEs). It provides digital payment acceptance and working-capital business loans to small offline retailers and merchants who are typically underserved by traditional banking, enabling them to accept digital payments and access short-term credit. FTCash was surfaced as a portfolio company of 500 Global (500 Startups) and added to the API Evangelist network. At this time FTCash operates a public marketing website but publishes no public developer program, API documentation, or machine-readable API artifacts, so this profile is limited to verified company identity plus a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ft-cash/refs/heads/main/screenshots/ft-cash-2026-07-25T215246.png",
      "score": 13.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4558,12 +4743,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 116
+     "rank": 120
     },
     {
      "name": "Indian Energy Exchange",
      "slug": "indian-energy-exchange",
      "description": "'Indian Energy Exchange (IEX) is India''s largest electricity trading",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indian-energy-exchange/refs/heads/main/screenshots/indian-energy-exchange-2026-07-25T222308.png",
      "score": 13.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4599,7 +4785,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 121
     },
     {
      "name": "Vastu Housing Finance Corporation",
@@ -4634,7 +4820,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 122
     },
     {
      "name": "Cars24",
@@ -4669,7 +4855,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 119
+     "rank": 123
     },
     {
      "name": "Ummeed Housing Finance",
@@ -4704,7 +4890,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 120
+     "rank": 124
     },
     {
      "name": "FirstCry",
@@ -4739,7 +4925,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 121
+     "rank": 125
     },
     {
      "name": "Pratilipi",
@@ -4774,12 +4960,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 122
+     "rank": 126
     },
     {
      "name": "Dream11",
      "slug": "dream11",
      "description": "'Dream11 is India''s largest fantasy sports platform, operated by Sporta",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dream11/refs/heads/main/screenshots/dream11-2026-07-25T212352.png",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4809,12 +4996,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 123
+     "rank": 127
     },
     {
      "name": "Drivio",
      "slug": "drivio",
      "description": "Drivio (Drivio Technologies Pvt Ltd) is a tech-enabled, omni-channel two-wheeler financing marketplace in India that connects motorcycle, scooter, and electric-vehicle buyers with banks and NBFCs. Founded in 2022 by Saurabh Tripathi and Ankur Bhardwaj and headquartered in the Delhi NCR region (Gurugram / New Delhi), the platform offers EMI calculators, instant eligibility checks, curated finance offers, vehicle comparison, and same-day loan approval and disbursal through lending partners including IDFC First Bank, Bajaj Auto Credit, L&T Financial Services, HDB Financial Services, Moneyplus Financial Services, and Arthmate. Drivio is an ISO/IEC 27001 certified company and is backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/drivio/refs/heads/main/screenshots/drivio-2026-07-25T212422.png",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4844,7 +5032,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 124
+     "rank": 128
     },
     {
      "name": "OurHealthMate",
@@ -4885,7 +5073,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 125
+     "rank": 129
     },
     {
      "name": "Rentomojo",
@@ -4920,7 +5108,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 126
+     "rank": 130
     },
     {
      "name": "Udaan",
@@ -4955,7 +5143,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 127
+     "rank": 131
     },
     {
      "name": "Vedantu",
@@ -4990,12 +5178,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 128
+     "rank": 132
     },
     {
      "name": "High Mark Credit Information Services",
      "slug": "high-mark-credit-information-services",
      "description": "High Mark Credit Information Services (now operating as CRIF High Mark) is one of India's",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-mark-credit-information-services/refs/heads/main/screenshots/high-mark-credit-information-services-2026-07-25T221152.png",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5025,7 +5214,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 129
+     "rank": 133
     },
     {
      "name": "Jar",
@@ -5061,7 +5250,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 130
+     "rank": 134
     },
     {
      "name": "Stellapps",
@@ -5096,7 +5285,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 131
+     "rank": 135
     },
     {
      "name": "Venwiz",
@@ -5131,7 +5320,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 132
+     "rank": 136
     },
     {
      "name": "Physics Wallah",
@@ -5166,7 +5355,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 133
+     "rank": 137
     },
     {
      "name": "Transbnk",
@@ -5207,7 +5396,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 134
+     "rank": 138
     },
     {
      "name": "Unacademy",
@@ -5242,152 +5431,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 135
+     "rank": 139
     },
     {
      "name": "APAC Financial Services",
      "slug": "apacfin",
      "description": "'APAC Financial Services (Apacfin) is a Mumbai-based, Reserve Bank of India registered",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 136
-    },
-    {
-     "name": "Aramya",
-     "slug": "aramya",
-     "description": "'Aramya is a direct-to-consumer (D2C) women''s ethnic wear brand from India, operated by",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 137
-    },
-    {
-     "name": "Arivihan",
-     "slug": "arivihan",
-     "description": "'Arivihan is an Indian EdTech company operating an AI-based, fully automated online learning",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 138
-    },
-    {
-     "name": "Bolt.Earth",
-     "slug": "boltearth",
-     "description": "'Bolt.Earth operates what it describes as India''s largest EV charging network, with more",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "Brick&Bolt",
-     "slug": "brick-and-bolt",
-     "description": "'Brick&Bolt (bricknbolt.com) is a Bangalore-based, tech-enabled home and commercial",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apacfin/refs/heads/main/screenshots/apacfin-2026-07-25T200536.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5420,9 +5470,10 @@
      "rank": 140
     },
     {
-     "name": "Cashify",
-     "slug": "cashify",
-     "description": "'Cashify is an Indian re-commerce platform for buying, selling, and repairing",
+     "name": "Aramya",
+     "slug": "aramya",
+     "description": "'Aramya is a direct-to-consumer (D2C) women''s ethnic wear brand from India, operated by",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramya/refs/heads/main/screenshots/aramya-2026-07-25T201003.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5455,9 +5506,10 @@
      "rank": 141
     },
     {
-     "name": "CrownIT",
-     "slug": "crownit",
-     "description": "\"CrownIT (Crownit.in) is India's online market-research and consumer-insights platform,",
+     "name": "Arivihan",
+     "slug": "arivihan",
+     "description": "'Arivihan is an Indian EdTech company operating an AI-based, fully automated online learning",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arivihan/refs/heads/main/screenshots/arivihan-2026-07-25T201154.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5490,9 +5542,10 @@
      "rank": 142
     },
     {
-     "name": "Curefoods",
-     "slug": "curefoods",
-     "description": "'Curefoods is a Bengaluru-based multi-brand cloud kitchen and quick-service",
+     "name": "Bolt.Earth",
+     "slug": "boltearth",
+     "description": "'Bolt.Earth operates what it describes as India''s largest EV charging network, with more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boltearth/refs/heads/main/screenshots/boltearth-2026-07-25T203543.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5523,6 +5576,150 @@
       "consent_identity": false
      },
      "rank": 143
+    },
+    {
+     "name": "Brick&Bolt",
+     "slug": "brick-and-bolt",
+     "description": "'Brick&Bolt (bricknbolt.com) is a Bangalore-based, tech-enabled home and commercial",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brick-and-bolt/refs/heads/main/screenshots/brick-and-bolt-2026-07-25T203800.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 144
+    },
+    {
+     "name": "Cashify",
+     "slug": "cashify",
+     "description": "'Cashify is an Indian re-commerce platform for buying, selling, and repairing",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashify/refs/heads/main/screenshots/cashify-2026-07-25T204725.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 145
+    },
+    {
+     "name": "CrownIT",
+     "slug": "crownit",
+     "description": "\"CrownIT (Crownit.in) is India's online market-research and consumer-insights platform,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crownit/refs/heads/main/screenshots/crownit-2026-07-25T210814.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 146
+    },
+    {
+     "name": "Curefoods",
+     "slug": "curefoods",
+     "description": "'Curefoods is a Bengaluru-based multi-brand cloud kitchen and quick-service",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curefoods/refs/heads/main/screenshots/curefoods-2026-07-25T210934.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 147
     },
     {
      "name": "Finova Capital",
@@ -5557,152 +5754,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 144
+     "rank": 148
     },
     {
      "name": "HomeFirst",
      "slug": "homefirst",
      "description": "'HomeFirst (Home First Finance Company India Limited) is an affordable-housing finance",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 145
-    },
-    {
-     "name": "HomeLane",
-     "slug": "homelane",
-     "description": "'HomeLane is an Indian end-to-end interior design company that delivers",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 146
-    },
-    {
-     "name": "HouseEazy",
-     "slug": "houseeazy",
-     "description": "'HouseEazy is an Indian proptech startup, founded in 2021 by Tarun Sainani",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 147
-    },
-    {
-     "name": "IKF Finance",
-     "slug": "ikffinance",
-     "description": "'IKF Finance Limited is an India-based non-banking financial company (NBFC)",
-     "score": 12.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 148
-    },
-    {
-     "name": "LVX (formerly LetsVenture)",
-     "slug": "letsventure",
-     "description": "'LVX — formerly LetsVenture — is an India-based private market investing",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/homefirst/refs/heads/main/screenshots/homefirst-2026-07-25T221405.png",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5733,6 +5791,150 @@
       "consent_identity": false
      },
      "rank": 149
+    },
+    {
+     "name": "HomeLane",
+     "slug": "homelane",
+     "description": "'HomeLane is an Indian end-to-end interior design company that delivers",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/homelane/refs/heads/main/screenshots/homelane-2026-07-25T221341.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 150
+    },
+    {
+     "name": "HouseEazy",
+     "slug": "houseeazy",
+     "description": "'HouseEazy is an Indian proptech startup, founded in 2021 by Tarun Sainani",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/houseeazy/refs/heads/main/screenshots/houseeazy-2026-07-25T221525.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 151
+    },
+    {
+     "name": "IKF Finance",
+     "slug": "ikffinance",
+     "description": "'IKF Finance Limited is an India-based non-banking financial company (NBFC)",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ikffinance/refs/heads/main/screenshots/ikffinance-2026-07-25T222103.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 152
+    },
+    {
+     "name": "LVX (formerly LetsVenture)",
+     "slug": "letsventure",
+     "description": "'LVX — formerly LetsVenture — is an India-based private market investing",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/letsventure/refs/heads/main/screenshots/letsventure-2026-07-25T224932.png",
+     "score": 12.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 153
     },
     {
      "name": "Meragi",
@@ -5767,7 +5969,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 150
+     "rank": 154
     },
     {
      "name": "Oolka",
@@ -5802,7 +6004,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 151
+     "rank": 155
     },
     {
      "name": "Rapido",
@@ -5837,7 +6039,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 152
+     "rank": 156
     },
     {
      "name": "Seekho",
@@ -5872,7 +6074,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 153
+     "rank": 157
     },
     {
      "name": "Sharechat",
@@ -5907,7 +6109,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 154
+     "rank": 158
     },
     {
      "name": "Spinny",
@@ -5942,7 +6144,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 155
+     "rank": 159
     },
     {
      "name": "Stanza Living",
@@ -5977,7 +6179,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 156
+     "rank": 160
     },
     {
      "name": "Vaya",
@@ -6012,7 +6214,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 157
+     "rank": 161
     },
     {
      "name": "Khatabook",
@@ -6048,7 +6250,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 158
+     "rank": 162
     },
     {
      "name": "Hotelogix",
@@ -6084,12 +6286,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 159
+     "rank": 163
     },
     {
      "name": "Magicpin",
      "slug": "magicpin",
      "description": "Magicpin (operated by Samast Technologies Private Limited) is India's hyperlocal savings and discovery platform, connecting consumers with deals, cashback, and vouchers across restaurants, food delivery, fashion, grocery, beauty, fitness, and electronics merchants in cities throughout India. The company operates a consumer savings app alongside a merchant/brands portal and corporate voucher solutions. As of this enrichment pass Magicpin publishes a consumer web and mobile experience plus partner and brand onboarding portals, but exposes no public developer API, OpenAPI specification, SDK, or developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magicpin/refs/heads/main/screenshots/magicpin-2026-07-25T225853.png",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6119,12 +6322,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 160
+     "rank": 164
     },
     {
      "name": "ApniBus",
      "slug": "apnibus",
      "description": "'ApniBus is an India-based online bus ticket booking platform that lets travelers",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apnibus/refs/heads/main/screenshots/apnibus-2026-07-25T200657.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6154,12 +6358,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 161
+     "rank": 165
     },
     {
      "name": "Bachatt",
      "slug": "bachatt",
      "description": "'Bachatt is a daily savings and investments mobile app operated by Trusave Fintech Private Limited,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bachatt/refs/heads/main/screenshots/bachatt-2026-07-25T202206.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6189,12 +6394,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 162
+     "rank": 166
     },
     {
      "name": "Book My Show",
      "slug": "book-my-show",
      "description": "'BookMyShow (Bigtree Entertainment Pvt. Ltd.) is India''s premier online",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/book-my-show/refs/heads/main/screenshots/book-my-show-2026-07-25T203606.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6224,12 +6430,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 163
+     "rank": 167
     },
     {
      "name": "GrowXCD",
      "slug": "growxcd",
      "description": "'GrowXCD (GrowXCD Finance Private Limited) is an RBI-registered Non-Banking Financial",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/growxcd/refs/heads/main/screenshots/growxcd-2026-07-25T220402.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6259,12 +6466,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 164
+     "rank": 168
     },
     {
      "name": "Junglee Games",
      "slug": "junglee-games",
      "description": "Junglee Games is a skill-based online gaming company founded in 2012 by Ankush Gera, operating as an independent subsidiary of Flutter Entertainment, which acquired a majority stake in 2021 in a deal valuing the company at more than $440 million. Headquartered in Gurugram with a studio in Bengaluru, the company builds and operates consumer real-money and casual gaming apps for a base of over 150 million users, with flagship titles including Junglee Rummy, the Howzat fantasy cricket and football platform, Carrom Stars, and Junglee Poker. The company positions trust, safety, and fairness as engineering priorities. Junglee Games is a consumer gaming provider and does not publish a public developer API, SDK, or documented API program; this profile captures its identity, web properties, and probed security posture for the API Evangelist network. It was surfaced as a portfolio company of 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/junglee-games/refs/heads/main/screenshots/junglee-games-2026-07-25T223320.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6294,7 +6502,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 165
+     "rank": 169
     },
     {
      "name": "Openhouse",
@@ -6329,7 +6537,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 166
+     "rank": 170
     },
     {
      "name": "Rupeek",
@@ -6364,7 +6572,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 167
+     "rank": 171
     },
     {
      "name": "Snowman",
@@ -6399,7 +6607,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 168
+     "rank": 172
     },
     {
      "name": "Sulekha",
@@ -6434,7 +6642,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 169
+     "rank": 173
     },
     {
      "name": "Swish",
@@ -6469,7 +6677,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 170
+     "rank": 174
     },
     {
      "name": "Tejas Networks India",
@@ -6504,12 +6712,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 171
+     "rank": 175
     },
     {
      "name": "Livspace",
      "slug": "livspace",
      "description": "Livspace is India's largest home interior design and renovation company, founded in 2014 and headquartered in Bangalore. It runs an end-to-end, technology-driven interiors platform: free design consultation, in-browser 3D visualisation, factory-made modular products (kitchens, wardrobes, storage), and managed on-site installation, backed by a lifetime warranty on modular products. Livspace serves 125+ cities across India through 100+ Experience Centres and a network of interior designers, covering full-home interiors, modular kitchens, false ceilings, flooring, painting and related fit-out services. It is a Bessemer Venture Partners portfolio company. This profile currently exposes no public developer API or SDK surface; enrichment captured its public security, well-known, and llms.txt surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/livspace/refs/heads/main/screenshots/livspace-2026-07-25T225408.png",
      "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6539,7 +6748,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 172
+     "rank": 176
     },
     {
      "name": "One Assist",
@@ -6580,12 +6789,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 173
+     "rank": 177
     },
     {
      "name": "CarWale",
      "slug": "carwale",
      "description": "'CarWale is an Indian automotive marketplace and part of CarTrade Tech",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carwale/refs/heads/main/screenshots/carwale-2026-07-25T204707.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6615,12 +6825,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 174
+     "rank": 178
     },
     {
      "name": "FabHotels",
      "slug": "fabhotels",
      "description": "'FabHotels is an Indian branded-budget hotel chain and online booking platform,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabhotels/refs/heads/main/screenshots/fabhotels-2026-07-25T214110.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6650,12 +6861,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 175
+     "rank": 179
     },
     {
      "name": "First Club",
      "slug": "first-club",
      "description": "FirstClub is a member-exclusive quick-commerce grocery platform operating in Bengaluru and Hyderabad, India, delivering curated, quality-inspected groceries in as little as 30 minutes from physical \"ClubHouses\" rather than traditional dark stores. The company targets India's top-tier consumers with only trusted, tasted, and tested products, screening out a published list of banned ingredients across categories including fruits and vegetables, dairy and eggs, bakery, staples, kids nutrition, packaged foods, snacks and beverages, health supplements, and cleaning essentials. FirstClub also offers a subscription model, \"FirstClub Mornings.\" Founded by ex-Flipkart executive Ayyappan R, the company is backed by Accel and RTP Global. It surfaces here as an API Evangelist network profile; FirstClub is a consumer mobile-app business and currently publishes no public developer API, SDK, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-club/refs/heads/main/screenshots/first-club-2026-07-25T214559.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6685,12 +6897,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 176
+     "rank": 180
     },
     {
      "name": "Jain Irrigation Systems Ltd",
      "slug": "jains",
      "description": "Jain Irrigation Systems Ltd (JISL) is a global agri-industrial conglomerate headquartered in Jalgaon, Maharashtra, India, and is widely cited as the world's largest micro-irrigation company. Founded in 1963 by Padma Shri recipient Bhavarlal Jain under the slogan \"More Crop Per Drop,\" the company manufactures drip and sprinkler irrigation systems, PVC/HDPE/PP and plumbing piping, rigid and foam plastic sheets, solar pumping and photovoltaic systems, tissue-culture planting material, greenhouses and protected cultivation, and processed foods. JISL operates 33 manufacturing bases across four continents, serves 126+ countries through 11,000+ dealers, is listed on the BSE and NSE, and reports turnover exceeding USD 1.2 billion. The company publishes a structured llms.txt for AI crawlers but exposes no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jains/refs/heads/main/screenshots/jains-2026-07-25T223045.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6720,7 +6933,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 177
+     "rank": 181
     },
     {
      "name": "Pronto",
@@ -6755,7 +6968,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 178
+     "rank": 182
     },
     {
      "name": "Swiggy",
@@ -6790,7 +7003,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 179
+     "rank": 183
     },
     {
      "name": "Vetic",
@@ -6825,7 +7038,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 180
+     "rank": 184
     },
     {
      "name": "Niyo Solutions",
@@ -6867,12 +7080,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 181
+     "rank": 185
     },
     {
      "name": "Chai Shots",
      "slug": "chai-shots",
      "description": "Chai Shots is a Hyderabad-based microdrama OTT streaming platform for vertical, short-form fiction where every episode runs under two minutes. Built by the Chai Bisket team (co-founders Sharath Chandra and Anurag Reddy), it is positioned as India's first regional short-series OTT, launching in Telugu and other regional Indian languages for Gen Z and tier II/III audiences. The platform offers pay-per-episode and unlimited subscription access, a creator-first \"Clap\" tipping feature, and an AI-native production workflow. It raised a $5M seed round co-led by InfoEdge Ventures and General Catalyst. Chai Shots is a consumer content app with no public developer/API surface at this time; this profile carries the company's identity and published web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chai-shots/refs/heads/main/screenshots/chai-shots-2026-07-25T205021.png",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6902,7 +7116,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 182
+     "rank": 186
     },
     {
      "name": "Oto Capital",
@@ -6937,7 +7151,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 183
+     "rank": 187
     },
     {
      "name": "RedWing Aerospace Laboratories",
@@ -6972,7 +7186,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 184
+     "rank": 188
     },
     {
      "name": "Rigi",
@@ -7007,7 +7221,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 185
+     "rank": 189
     },
     {
      "name": "Wheelocity",
@@ -7042,7 +7256,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 186
+     "rank": 190
     },
     {
      "name": "Powerup Money",
@@ -7077,12 +7291,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 187
+     "rank": 191
     },
     {
      "name": "Agrostar",
      "slug": "agrostar",
      "description": "AgroStar (Ulink Agritech Private Ltd) is a leading Indian agri-tech company on a mission to help farmers grow more and earn more, sustainably. Founded in Pune, it operates India's largest digital farmer network and agri-inputs platform, serving millions of farmers across Gujarat, Rajasthan, Maharashtra, Madhya Pradesh and Uttar Pradesh through its Kisan (AgriDoctor) mobile app. AgroStar builds a connected ecosystem across the agricultural value chain — farm advisory, quality agri-inputs, omnichannel retail access and global market linkages — backed by data and agronomy expertise, with a focus on climate-smart agriculture, water conservation and reducing food waste. It is a portfolio company of Accel. AgroStar's public corporate site is Wix-powered and exposes a hosted Model Context Protocol (MCP) endpoint plus an /llms.txt for agentic AI access to public site content; it does not publish a developer-facing product API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agrostar/refs/heads/main/screenshots/agrostar-2026-07-25T195325.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7112,12 +7327,13 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 188
+     "rank": 192
     },
     {
      "name": "Data Sutram",
      "slug": "data-sutram",
      "description": "Data Sutram is an enterprise AI trust platform for the financial services sector, using external and alternative data intelligence plus agentic workflows to power fraud detection, identity and address verification, credit assessment, and collections. Its products - Trust (fraud and trust scoring), Auth (authentication and verification), and Echo (collections intelligence) - are applied across the customer lifecycle from acquisition and onboarding through portfolio monitoring and debt recovery. Data Sutram serves leading Indian banks and fintechs including HDFC, Axis, ICICI, Kotak, IndusInd, Jupiter, Navi, and Fibe, and maintains ISO 27001, ISO 27018, and SOC 2 certifications along with DPDP compliance. The company was surfaced as a portfolio company of Lightspeed Venture Partners and is also backed by B Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sutram/refs/heads/main/screenshots/data-sutram-2026-07-25T211252.png",
      "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7147,12 +7363,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 189
+     "rank": 193
     },
     {
      "name": "Jeh Aerospace",
      "slug": "jeh-aerospace",
      "description": "Jeh Aerospace is a precision aerospace manufacturing company building \"future factories\" across the US-India corridor to supply aerostructures and aero-engine components for the commercial aerospace supply chain. From certified facilities in India spanning more than 160,000 square feet, Jeh delivers machining, sheet metal, tubes and pipes, surface treatment, structural assembly, and engineering services on time and at scale. The company is fully compliant with AS9100, ISO 9001, OEM requirements, and export regulations, and weaves a digital thread across its supplier networks for radical transparency. Jeh operates from both the US and India and is backed by General Catalyst and IndiGo Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jeh-aerospace/refs/heads/main/screenshots/jeh-aerospace-2026-07-25T223127.png",
      "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7182,7 +7399,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 190
+     "rank": 194
     },
     {
      "name": "MediSage",
@@ -7223,7 +7440,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 191
+     "rank": 195
     },
     {
      "name": "Mirana Toys",
@@ -7258,12 +7475,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 192
+     "rank": 196
     },
     {
      "name": "ANSR",
      "slug": "ansr",
      "description": "ANSR Global is a workforce and operations company that helps enterprises build, manage, and scale Global Capability Centers (GCCs) — captive technology and shared-services hubs, most often in India and other emerging markets. Its end-to-end offering spans four areas: Talent Solutions (AI-driven recruiting, sourcing, onboarding, and talent management), Workspace (managed, customized office space and workplace strategy), Business Operations (payroll, HR, employer-of-record, compliance, legal, and finance/tax), and Research & Advisory (organizational design, capability planning, and market intelligence). ANSR engages clients through Global Capability Center subscriptions, Build-Operate-Transfer arrangements, and Managed Teams, and operates a proprietary workforce platform, 1Wrk. The company reports 20+ years of operations, 210+ global centers established, 225,000+ professionals hired, and 14M+ square feet of managed workspace. ANSR is a portfolio company of Accel. It is a business-services provider and does not publish a public API, developer portal, or developer documentation; this profile captures its public web surface and web-domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ansr/refs/heads/main/screenshots/ansr-2026-07-25T200319.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7293,12 +7511,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 193
+     "rank": 197
     },
     {
      "name": "Bizongo",
      "slug": "bizongo",
      "description": "'Bizongo is a Mumbai-based B2B commerce and supply-chain platform founded in 2015 that",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizongo/refs/heads/main/screenshots/bizongo-2026-07-25T203219.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7328,12 +7547,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 194
+     "rank": 198
     },
     {
      "name": "Cholamandalam",
      "slug": "cholamandalam",
      "description": "'Cholamandalam Investment and Finance Company (Chola) is an Indian non-banking financial",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cholamandalam/refs/heads/main/screenshots/cholamandalam-2026-07-25T205252.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7363,12 +7583,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 195
+     "rank": 199
     },
     {
      "name": "Fivestargroup",
      "slug": "fivestargroup",
      "description": "'Five Star Group (Five Star Business Finance) is an India-based non-banking",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fivestargroup/refs/heads/main/screenshots/fivestargroup-2026-07-25T214647.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7398,7 +7619,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 196
+     "rank": 200
     },
     {
      "name": "MemeChat",
@@ -7433,7 +7654,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 197
+     "rank": 201
     },
     {
      "name": "Ofbusiness",
@@ -7468,7 +7689,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 198
+     "rank": 202
     },
     {
      "name": "PropTiger",
@@ -7503,7 +7724,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 199
+     "rank": 203
     },
     {
      "name": "Veritasfin",
@@ -7538,7 +7759,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 200
+     "rank": 204
     },
     {
      "name": "Officebanao",
@@ -7573,7 +7794,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 201
+     "rank": 205
     },
     {
      "name": "Sadbhav Engineering Limited",
@@ -7608,7 +7829,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 202
+     "rank": 206
     },
     {
      "name": "Oyo Rooms",
@@ -7643,12 +7864,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 203
+     "rank": 207
     },
     {
      "name": "ApnaMart",
      "slug": "apnamart",
      "description": "ApnaMart (Apna Mart) is a Bengaluru-based Indian retail and quick-commerce company founded in 2022 by Chetan Kumar Garg and Abhishek Singh. It operates a network of franchise-model neighborhood grocery and FMCG stores combined with a 15-minute delivery app, serving customers across roughly 14 cities including tier-2 and tier-3 markets such as Ranchi, Hazaribagh, and Bilaspur. Backed by Accel, Peak XV, and Fundamentum, the company blends brick-and-mortar retail with on-demand delivery of daily essentials. ApnaMart is a consumer retail business and does not publish a public developer platform or API surface; this profile in the API Evangelist network captures its identity, domain-security posture, and published web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apnamart/refs/heads/main/screenshots/apnamart-2026-07-25T200647.png",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7678,12 +7900,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 204
+     "rank": 208
     },
     {
      "name": "ElasticRun",
      "slug": "elasticrun",
      "description": "'ElasticRun (legally NTEx Transportation Services Pvt Ltd) is a Pune,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elasticrun/refs/heads/main/screenshots/elasticrun-2026-07-25T213057.png",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7713,12 +7936,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 205
+     "rank": 209
     },
     {
      "name": "CityMall",
      "slug": "citymall",
      "description": "'CityMall is an Indian social-commerce and e-commerce platform operated by Rashanbox",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citymall/refs/heads/main/screenshots/citymall-2026-07-25T205443.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7748,7 +7972,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 206
+     "rank": 210
     },
     {
      "name": "Vegrow",
@@ -7783,7 +8007,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 207
+     "rank": 211
     },
     {
      "name": "Nueclear",
@@ -7824,7 +8048,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 208
+     "rank": 212
     },
     {
      "name": "Zet",
@@ -7865,7 +8089,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 209
+     "rank": 213
     },
     {
      "name": "CRED",
@@ -7901,7 +8125,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 210
+     "rank": 214
     },
     {
      "name": "FairMoney",
@@ -7943,7 +8167,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 211
+     "rank": 215
     },
     {
      "name": "Trinkerr",
@@ -7984,12 +8208,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 212
+     "rank": 216
     },
     {
      "name": "BlackBuck",
      "slug": "blackbuck",
      "description": "'BlackBuck, operated by Zinka Logistics Solutions and incorporated in 2015, runs India''s",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blackbuck/refs/heads/main/screenshots/blackbuck-2026-07-25T203247.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8019,12 +8244,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 213
+     "rank": 217
     },
     {
      "name": "Infra.Market",
      "slug": "inframarket",
      "description": "'Infra.Market is a technology-enabled building materials platform serving India''s",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inframarket/refs/heads/main/screenshots/inframarket-2026-07-25T222425.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8054,12 +8280,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 214
+     "rank": 218
     },
     {
      "name": "Matrimony Com",
      "slug": "matrimony-com",
      "description": "Matrimony.com Ltd is India's largest wed-tech company and a pioneer in online matchmaking since 2000. Headquartered in Chennai, it operates BharatMatrimony, EliteMatrimony, CommunityMatrimony, Jodii, MeraLuv and 300+ community and regional matrimony portals, alongside wedding-services brands WeddingBazaar, Mandap.com, ManyJobs and WeddingGiftBox. Publicly listed on the NSE and BSE, the company serves roughly 7.5 million customers monthly and is backed by investors including Mayfield. It is a consumer-facing platform and publishes no public developer API, SDK, or developer portal surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/matrimony-com/refs/heads/main/screenshots/matrimony-com-2026-07-25T230420.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8089,7 +8316,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 215
+     "rank": 219
     },
     {
      "name": "Rcom",
@@ -8124,12 +8351,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 216
+     "rank": 220
     },
     {
      "name": "Breathe Well-being",
      "slug": "breathe-well-being",
      "description": "'Breathe Well-being is an India-based digital therapeutics and chronic-care company focused",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-well-being/refs/heads/main/screenshots/breathe-well-being-2026-07-25T203747.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8165,12 +8393,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 217
+     "rank": 221
     },
     {
      "name": "InstaPaisa",
      "slug": "instapaisa",
      "description": "InstaPaisa was an India-based personal-finance and lending fintech surfaced as a 500 Global",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/instapaisa/refs/heads/main/screenshots/instapaisa-2026-07-25T222615.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8206,12 +8435,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 218
+     "rank": 222
     },
     {
      "name": "Itzcash",
      "slug": "itzcash",
      "description": "Itzcash (ItzCash Card Ltd, operated by Ebix Payment Services Private Limited, CIN U74999MH2006PTC160835, Mumbai) was one of India's early prepaid payment and digital-payments companies, offering prepaid/gift cards, utility and bill payments, domestic money transfer, insurance and travel payments, and an agent-assisted retail payment network across India. The company was acquired by Ebix, Inc. in 2017 and folded into the EbixCash financial-exchange business. The ItzCash brand has since been retired: www.itzcash.com now redirects to ebixcash.com, and there is no first-party ItzCash developer portal, public API, or OpenAPI definition. This profile was surfaced as a Lightspeed Venture Partners portfolio company and is retained as a historical company record in the API Evangelist network. Any live API surface belongs to the parent EbixCash entity (an \"Ebixcash API Hub\" root responds at api.ebixcash.com), not to the ItzCash brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itzcash/refs/heads/main/screenshots/itzcash-2026-07-25T223017.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8247,12 +8477,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 219
+     "rank": 223
     },
     {
      "name": "Koinex",
      "slug": "koinex",
      "description": "'Koinex was an Indian digital-asset exchange launched in 2017, describing itself as India''s",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koinex/refs/heads/main/screenshots/koinex-2026-07-25T224111.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8288,7 +8519,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 220
+     "rank": 224
     },
     {
      "name": "Medi Assist",
@@ -8329,7 +8560,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 221
+     "rank": 225
     },
     {
      "name": "Mintifi",
@@ -8370,7 +8601,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 222
+     "rank": 226
     },
     {
      "name": "Moneyview",
@@ -8411,7 +8642,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 223
+     "rank": 227
     },
     {
      "name": "NAKAD",
@@ -8452,7 +8683,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 224
+     "rank": 228
     },
     {
      "name": "NephroPlus",
@@ -8493,7 +8724,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 225
+     "rank": 229
     },
     {
      "name": "Nse-india",
@@ -8534,7 +8765,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 226
+     "rank": 230
     },
     {
      "name": "Okcredit",
@@ -8575,7 +8806,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 227
+     "rank": 231
     },
     {
      "name": "Open",
@@ -8616,7 +8847,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 228
+     "rank": 232
     },
     {
      "name": "Paytm Payments Bank",
@@ -8657,7 +8888,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 229
+     "rank": 233
     },
     {
      "name": "Regency Healthcare",
@@ -8698,7 +8929,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 230
+     "rank": 234
     },
     {
      "name": "Sayre Therapeutics",
@@ -8739,7 +8970,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 231
+     "rank": 235
     },
     {
      "name": "Uni Cards",
@@ -8780,12 +9011,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 232
+     "rank": 236
     },
     {
      "name": "Captain Fresh",
      "slug": "captain-fresh",
      "description": "'Captain Fresh is a Bangalore, India based B2B technology company building sustainable",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/captain-fresh/refs/heads/main/screenshots/captain-fresh-2026-07-25T204440.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8815,12 +9047,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 233
+     "rank": 237
     },
     {
      "name": "Material Depot",
      "slug": "material-depot",
      "description": "'Material Depot is India''s design-first interior-materials marketplace and experience-centre",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/material-depot/refs/heads/main/screenshots/material-depot-2026-07-25T230402.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8850,12 +9083,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 234
+     "rank": 238
     },
     {
      "name": "Matrimony.com",
      "slug": "matrimonycom",
      "description": "'Matrimony.com Limited is an India-based online matchmaking and wedding",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/matrimonycom/refs/heads/main/screenshots/matrimonycom-2026-07-25T230417.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8885,12 +9119,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 235
+     "rank": 239
     },
     {
      "name": "bigbasket",
      "slug": "bigbasket",
      "description": "'bigbasket is India''s largest online grocery and daily-essentials retailer, now part of the",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bigbasket/refs/heads/main/screenshots/bigbasket-2026-07-25T202926.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8920,12 +9155,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 236
+     "rank": 240
     },
     {
      "name": "Anar",
      "slug": "anar",
      "description": "'Anar was a B2B marketplace and business networking mobile app for small businesses,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anar/refs/heads/main/screenshots/anar-2026-07-25T200155.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8955,12 +9191,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 237
+     "rank": 241
     },
     {
      "name": "Frontrow",
      "slug": "frontrow",
      "description": "FrontRow was an India-based edtech company that operated an online learning platform teaching extracurricular skills and hobbies — such as music, singing, guitar, drawing, chess and other creative pursuits — to learners through recorded video courses and community-driven classes. The company was backed by Lightspeed Venture Partners. As of the last enrichment pass the product has shut down: its primary domain frontrow.co.in 301-redirects to a Medium shutdown announcement confirming \"FrontRow shut down a few months ago,\" and no developer portal, public API, documentation, or SDK surface exists. This entry is retained as a defunct portfolio-lead record; there are no live API artifacts to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontrow/refs/heads/main/screenshots/frontrow-2026-07-25T215237.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8990,7 +9227,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 238
+     "rank": 242
     },
     {
      "name": "Nabhdrishti Aerospace",
@@ -9025,7 +9262,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 239
+     "rank": 243
     },
     {
      "name": "Ninjacart",
@@ -9060,7 +9297,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 240
+     "rank": 244
     },
     {
      "name": "OnlineTyari",
@@ -9095,7 +9332,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 241
+     "rank": 245
     },
     {
      "name": "Quick Ride",
@@ -9130,7 +9367,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 242
+     "rank": 246
     },
     {
      "name": "Zepto",
@@ -9165,12 +9402,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 243
+     "rank": 247
     },
     {
      "name": "Aggra",
      "slug": "aggra",
      "description": "Aggra Technologies Private Limited operates Moneytor, an autonomous,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aggra/refs/heads/main/screenshots/aggra-2026-07-25T195258.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9200,12 +9438,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 244
+     "rank": 248
     },
     {
      "name": "Bharat Matrimony",
      "slug": "bharat-matrimony",
      "description": "'Bharat Matrimony is one of India''s largest online matrimonial and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bharat-matrimony/refs/heads/main/screenshots/bharat-matrimony-2026-07-25T202852.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9235,7 +9474,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 245
+     "rank": 249
     },
     {
      "name": "Bluelearn",
@@ -9270,12 +9509,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 246
+     "rank": 250
     },
     {
      "name": "Bluestone",
      "slug": "bluestone",
      "description": "\"BlueStone is one of India's largest online retailers of fine jewellery, founded in 2011 by",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluestone/refs/heads/main/screenshots/bluestone-2026-07-25T203505.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9305,12 +9545,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 247
+     "rank": 251
     },
     {
      "name": "Byjus",
      "slug": "byjus",
      "description": "\"Byju's is an Indian educational technology company founded in 2011 by Byju Raveendran and Divya Gokulnath and headquartered in Bengaluru, India. It offered app-based adaptive learning for K-12 students and preparation for competitive exams such as JEE, NEET, and civil services, and expanded through acquisitions including Aakash, WhiteHat Jr, Toppr, Osmo, Epic, and Great Learning. Once among the world's most valuable edtech startups, the company entered insolvency proceedings in India following a widely reported financial collapse. Byju's does not publish a public developer program or API; this profile is maintained in the API Evangelist network as a company record awaiting any future developer surface.\"",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/byjus/refs/heads/main/screenshots/byjus-2026-07-25T204138.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9340,12 +9581,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 248
+     "rank": 252
     },
     {
      "name": "Bzaar",
      "slug": "bzaar",
      "description": "'Bzaar is a cross-border business-to-business wholesale marketplace founded",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bzaar/refs/heads/main/screenshots/bzaar-2026-07-25T204149.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9375,12 +9617,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 249
+     "rank": 253
     },
     {
      "name": "CapriCoast",
      "slug": "capricoast",
      "description": "'CapriCoast (CapriCoast Home Solutions Pvt Ltd) was a Bengaluru, India based online",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capricoast/refs/heads/main/screenshots/capricoast-2026-07-25T204430.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9410,7 +9653,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 250
+     "rank": 254
     },
     {
      "name": "Craftsvilla",
@@ -9445,12 +9688,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 251
+     "rank": 255
     },
     {
      "name": "Culinarybrands",
      "slug": "culinarybrands",
      "description": "'Culinary Brands is an Indian foodservice and beverage operator on a mission",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/culinarybrands/refs/heads/main/screenshots/culinarybrands-2026-07-25T210914.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9480,12 +9724,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 252
+     "rank": 256
     },
     {
      "name": "Edukart",
      "slug": "edukart",
      "description": "EduKart was an Indian online education startup, backed by 500 Startups (500 Global), that sold",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edukart/refs/heads/main/screenshots/edukart-2026-07-25T212905.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9515,12 +9760,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 253
+     "rank": 257
     },
     {
      "name": "EduPristine",
      "slug": "edupristine",
      "description": "'EduPristine is a Mumbai-based finance, accounting, and analytics training",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edupristine/refs/heads/main/screenshots/edupristine-2026-07-25T212928.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9550,12 +9796,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 254
+     "rank": 258
     },
     {
      "name": "Ethereal Exploration Guild",
      "slug": "ethereal-exploration-guild",
      "description": "'Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ethereal-exploration-guild/refs/heads/main/screenshots/ethereal-exploration-guild-2026-07-25T213648.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9585,7 +9832,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 255
+     "rank": 259
     },
     {
      "name": "Fashionara",
@@ -9620,7 +9867,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 256
+     "rank": 260
     },
     {
      "name": "Fortigo",
@@ -9655,12 +9902,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 257
+     "rank": 261
     },
     {
      "name": "Freshmenu",
      "slug": "freshmenu",
      "description": "FreshMenu is a Bengaluru-based full-stack food-technology company that operates its own cloud kitchens and cooks, packages, and delivers a daily-changing menu of fresh gourmet meals directly to consumers. Unlike aggregator marketplaces, FreshMenu owns the end-to-end experience — from culinary R&D and kitchen operations to its consumer ordering website and mobile apps — serving Bengaluru, Mumbai, and the Delhi/NCR region (New Delhi and Gurgaon). The company is backed by Lightspeed Venture Partners and was surfaced into the API Evangelist network as a portfolio lead. It publishes a consumer ordering experience but no public API or developer program; this profile captures its identity and infrastructure posture for the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshmenu/refs/heads/main/screenshots/freshmenu-2026-07-25T215224.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9690,7 +9938,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 258
+     "rank": 262
     },
     {
      "name": "GlowRoad",
@@ -9725,12 +9973,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 259
+     "rank": 263
     },
     {
      "name": "Good Glamm Group",
      "slug": "good-glamm-group",
      "description": "'Good Glamm Group is an India-based content-to-commerce conglomerate",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/screenshots/good-glamm-group-2026-07-25T220036.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9760,7 +10009,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 260
+     "rank": 264
     },
     {
      "name": "Goyaz Silver Jewellery",
@@ -9795,7 +10044,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 261
+     "rank": 265
     },
     {
      "name": "HeartyyFresh",
@@ -9830,12 +10079,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 262
+     "rank": 266
     },
     {
      "name": "Hungama",
      "slug": "hungama",
      "description": "'Hungama (Hungama Digital Media Entertainment Pvt. Ltd.) is an Indian digital",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hungama/refs/heads/main/screenshots/hungama-2026-07-25T221736.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9865,7 +10115,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 263
+     "rank": 267
     },
     {
      "name": "Incognito Technologies",
@@ -9900,12 +10150,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 264
+     "rank": 268
     },
     {
      "name": "Kishlay Foods",
      "slug": "kishlayfoods",
      "description": "'Kishlay Foods is a snack-food manufacturing company based in Guwahati,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kishlayfoods/refs/heads/main/screenshots/kishlayfoods-2026-07-25T223905.png",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9935,7 +10186,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 265
+     "rank": 269
     },
     {
      "name": "Koo",
@@ -9970,7 +10221,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 266
+     "rank": 270
     },
     {
      "name": "Mensabrands",
@@ -10005,7 +10256,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 267
+     "rank": 271
     },
     {
      "name": "Meolaa",
@@ -10040,7 +10291,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 268
+     "rank": 272
     },
     {
      "name": "Moglix",
@@ -10075,7 +10326,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 269
+     "rank": 273
     },
     {
      "name": "MyGlamm",
@@ -10110,7 +10361,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 270
+     "rank": 274
     },
     {
      "name": "Myntra",
@@ -10145,7 +10396,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 271
+     "rank": 275
     },
     {
      "name": "Ola Electric",
@@ -10180,7 +10431,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 272
+     "rank": 276
     },
     {
      "name": "OYO",
@@ -10215,7 +10466,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 273
+     "rank": 277
     },
     {
      "name": "Pepperfry",
@@ -10250,7 +10501,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 274
+     "rank": 278
     },
     {
      "name": "PriceBaba",
@@ -10285,7 +10536,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 275
+     "rank": 279
     },
     {
      "name": "QikPod",
@@ -10320,7 +10571,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 276
+     "rank": 280
     },
     {
      "name": "S4S Technologies",
@@ -10355,7 +10606,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 277
+     "rank": 281
     },
     {
      "name": "Samunnati",
@@ -10390,7 +10641,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 278
+     "rank": 282
     },
     {
      "name": "Sheroes",
@@ -10425,7 +10676,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 279
+     "rank": 283
     },
     {
      "name": "Shriram City",
@@ -10460,7 +10711,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 280
+     "rank": 284
     },
     {
      "name": "Silagroup",
@@ -10495,7 +10746,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 281
+     "rank": 285
     },
     {
      "name": "simsim",
@@ -10530,7 +10781,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 282
+     "rank": 286
     },
     {
      "name": "SK Finance Ltd",
@@ -10565,7 +10816,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 283
+     "rank": 287
     },
     {
      "name": "SnapDeal",
@@ -10600,7 +10851,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 284
+     "rank": 288
     },
     {
      "name": "Spenny",
@@ -10635,7 +10886,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 285
+     "rank": 289
     },
     {
      "name": "StalkBuyLove",
@@ -10670,7 +10921,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 286
+     "rank": 290
     },
     {
      "name": "SwitchMe",
@@ -10705,7 +10956,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 287
+     "rank": 291
     },
     {
      "name": "Taggle Internet Ventures",
@@ -10740,7 +10991,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 288
+     "rank": 292
     },
     {
      "name": "Tapchief",
@@ -10775,7 +11026,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 289
+     "rank": 293
     },
     {
      "name": "Three Wheels United",
@@ -10810,7 +11061,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 290
+     "rank": 294
     },
     {
      "name": "Toolsvilla",
@@ -10845,7 +11096,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 291
+     "rank": 295
     },
     {
      "name": "Travelguru",
@@ -10880,7 +11131,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 292
+     "rank": 296
     },
     {
      "name": "Tripoto Travel",
@@ -10915,7 +11166,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 293
+     "rank": 297
     },
     {
      "name": "Virgio",
@@ -10950,7 +11201,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 294
+     "rank": 298
     },
     {
      "name": "Wiom",
@@ -10985,7 +11236,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 295
+     "rank": 299
     },
     {
      "name": "ZipDial",
@@ -11020,7 +11271,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 296
+     "rank": 300
     },
     {
      "name": "Getsupp",
@@ -11061,7 +11312,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 297
+     "rank": 301
     },
     {
      "name": "Mochatrade",
@@ -11102,7 +11353,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 298
+     "rank": 302
     },
     {
      "name": "Redcarpetup",
@@ -11137,7 +11388,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 299
+     "rank": 303
     }
    ]
   },
@@ -11152,13 +11403,13 @@
      "name": "Norwest Venture Partners",
      "slug": "norwest-venture-partners",
      "description": "Norwest Venture Partners is a multi-stage venture capital and growth equity investment firm founded in 1961 and headquartered in Menlo Park, California, with additional presence in San Francisco and subsidiaries in Mumbai, India and Tel Aviv, Israel. As of its 2024 NVP XVII fund ($3B), the firm manages more than $15.5 billion in capital and has backed over 700 companies across its history. Norwest invests across the full lifecycle — from early-stage venture through late-stage growth equity — with sector focus spanning enterprise and B2B SaaS, cloud and infrastructure, AI, fintech, healthcare and life sciences (including biotech and digital health), and consumer and lifestyle brands. The firm is known for a hands-on but non-intrusive partnership model, backing its founders with Portfolio Success programs across talent, operations, leadership, and go-to-market. Notable investments include Plaid, Uber, Spotify, Opendoor, Gong, Vuori, Kendra Scott, Casper, Udemy, Avetta, Adaptive Insights, YipitData, Babylist, Workato, and Veza.",
-     "rank": 300
+     "rank": 304
     },
     {
      "name": "Prosus Ventures",
      "slug": "prosus-ventures",
      "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The firm invests to \"fuel the ecommerce flywheel,\" backing companies across food delivery, fintech, consumer services, logistics, e-commerce and marketplaces, plus a strong and growing focus on early-stage AI startups that reshape the e-commerce value chain (shopping and advertising tech, customer support, AI agents and operations) and frontier technologies such as quantum computing, robotics, space and biotech. Prosus Ventures typically invests from seed through Series B and into growth rounds, with a primary geographic focus on India, Latin America and Europe, plus activity in Southeast Asia, the Middle East and ANZ. In fiscal year 2025 the group committed and invested over $400 million across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.",
-     "rank": 301
+     "rank": 305
     }
    ]
   }

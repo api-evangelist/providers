@@ -1,5 +1,5 @@
 {
- "total": 16,
+ "total": 17,
  "bands": [
   {
    "band": "strong",
@@ -12,6 +12,7 @@
      "name": "bexio",
      "slug": "bexio",
      "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png",
      "score": 66.7,
      "band": "strong",
      "band_label": "Strong",
@@ -51,12 +52,48 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
+   "count": 7,
    "companies": [
+    {
+     "name": "Swisscom",
+     "slug": "swisscom",
+     "description": "Swisscom is Switzerland's largest telecommunications provider and the incumbent mobile network operator, fixed-line carrier and IT services company for the Swiss market, majority-owned by the Swiss Confederation and also operating Fastweb in Italy. In the telecom value chain it is a facilities-based MNO that owns the radio access and core network, sells mobile, broadband, TV and enterprise IT, and monetises network-derived data. Its API posture is unusual for a European incumbent: alongside the expected partner-gated enterprise surface it runs a genuine first-party API marketplace at digital.swisscom.com listing ten productive API products (SMS, SMS token 2FA, inbound SMS, mobility heatmaps, dwell times, origin-destination, NATEL go smart catalogs, AI inference endpoints and a business identity validator) served from a live api.swisscom.com gateway, plus a separately maintained, actively released Swisscom Sign Integration API with a downloadable OpenAPI 3.1 document. The catch is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.",
+     "score": 59.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 54.9,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 91.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 2
+    },
     {
      "name": "Certifaction",
      "slug": "certifaction",
      "description": "Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png",
      "score": 55.9,
      "band": "developing",
      "band_label": "Developing",
@@ -86,7 +123,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "SIX",
@@ -128,7 +165,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "ETH Zurich – Swiss Federal Institute of Technology",
@@ -170,12 +207,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Hakuna",
      "slug": "hakuna",
      "description": "hakuna AG is a Swiss digital time-tracking and personnel-management platform for SMEs. The browser- and mobile-based product centralizes workforce administration: time recording with a running timer, absence and vacation management, expense processing, project and client tracking, task categorization, shift planning, personnel records, and compliance monitoring against Swiss labor-law requirements. hakuna is \"100% Swiss\" — all data is stored in Switzerland under Swiss data-protection law (DSG) — and requires no additional hardware terminals or badges. It exposes a token-authenticated REST API (X-Auth-Token) over JSON at app.hakuna.ch/api/v1 covering the timer, time entries, absences, projects, tasks, clients, users, company settings, and an organization-wide presence status endpoint, with admin-only management endpoints and a documented 100 requests/minute rate limit.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png",
      "score": 47.3,
      "band": "developing",
      "band_label": "Developing",
@@ -205,7 +243,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "University of Basel",
@@ -241,7 +279,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "EPFL",
@@ -283,7 +321,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     }
    ],
    "open": true
@@ -329,7 +367,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "University of Zurich",
@@ -371,7 +409,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "University of Geneva",
@@ -407,7 +445,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -452,7 +490,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "opendata.swiss",
@@ -494,7 +532,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 13
     }
    ]
   },
@@ -509,6 +547,7 @@
      "name": "KITRO",
      "slug": "kitro",
      "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -538,7 +577,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Zurich Open Data",
@@ -580,7 +619,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Swiss Education Group",
@@ -615,7 +654,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Myriad",
@@ -656,7 +695,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     }
    ]
   }

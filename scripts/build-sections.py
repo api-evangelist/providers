@@ -839,6 +839,35 @@ def main():
     ins_counts = {}
     build_roster_sections(INS_SECTIONS, INS_TIER_LABELS, ins_counts)
 
+    # --- Telecommunications (single GLOBAL cohort) ------------------------
+    # Deliberately NOT a country quartet: telecom's developer surface is owned
+    # by a globally-consolidated aggregator layer (CPaaS/IoT/identity) that is
+    # overwhelmingly US/EU-headquartered, so an HQ split would leave every
+    # non-US page carrier-only. The unit of analysis is the global network-API
+    # market and the CAMARA / GSMA Open Gateway programme spanning it.
+    TELECOM_TIER_LABELS = {
+        "mno-carrier":          "Mobile Network Operators",
+        "cpaas-aggregator":     "CPaaS & Messaging Aggregators",
+        "network-api-exposure": "Network-API Exposure (CAMARA / Open Gateway)",
+        "standards-body":       "Standards Bodies",
+        "wholesale-messaging":  "Wholesale & Interconnect",
+        "iot-esim":             "IoT Connectivity & eSIM",
+        "ucaas-voice":          "UCaaS & Cloud Voice",
+        "fixed-broadband":      "Fixed & Broadband",
+        "satellite-ntn":        "Satellite & Non-Terrestrial",
+        "identity-antifraud":   "Identity & Anti-Fraud",
+        "network-vendor-bss":   "Network Vendors & BSS/OSS",
+        "regulator":            "Regulators",
+    }
+    TELECOM_SECTIONS = [
+        ("telecom", "telecom-roster.json", "Telecommunications",
+         "The global telecom landscape ranked by Kin Score — mobile network operators across every major market, the CPaaS and messaging aggregators that resell their connectivity, the CAMARA / GSMA Open Gateway network-API exposure layer (Aduna, Nokia Network as Code), the standards bodies that write the specs (CAMARA, GSMA, 3GPP, ETSI, MEF, TM Forum), IoT and eSIM connectivity, UCaaS, wholesale interconnect, satellite and non-terrestrial networks, identity and anti-fraud, network vendors and BSS/OSS, and the regulators.",
+         {"slug": "state-of-telecom-apis", "title": "The State of Telecom APIs",
+          "blurb": "83 telecom organizations scored — the only sector with a real, industry-built API standard, and the widest gap in the series between signing it and shipping it. The aggregators that resell carrier connectivity out-publish their own suppliers by 19 points, and the standards bodies out-publish the carriers that wrote the standards.", "price": "500"}),
+    ]
+    telecom_counts = {}
+    build_roster_sections(TELECOM_SECTIONS, TELECOM_TIER_LABELS, telecom_counts)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -859,6 +888,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in INS_SECTIONS:
         n, sc = ins_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in TELECOM_SECTIONS:
+        n, sc = telecom_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 

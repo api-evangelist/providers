@@ -312,7 +312,7 @@
   "name": "Telecommunications",
   "description": "Companies that build and operate networks providing voice, data, internet, and broadband services to consumers and businesses.",
   "icon": "cell_tower",
-  "count": 15
+  "count": 14
  },
  {
   "slug": "transportation",

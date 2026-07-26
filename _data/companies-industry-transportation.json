@@ -426,6 +426,7 @@
      "name": "Delta Air Lines",
      "slug": "delta-air-lines",
      "description": "Delta Air Lines is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. Delta operates a developer API portal for partner integrations covering flight search, flight offers, customer journey, loyalty, and operations data, with an emphasis on NDC-based content distribution.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-air-lines/refs/heads/main/screenshots/delta-air-lines-2026-07-25T211713.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",

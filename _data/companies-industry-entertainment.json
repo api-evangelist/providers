@@ -174,7 +174,7 @@
     {
      "name": "Netflix",
      "slug": "netflix",
-     "description": "Netflix is a streaming entertainment service operating one of the world's",
+     "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/netflix/refs/heads/main/screenshots/netflix-2026-06-20T190152.png",
      "score": 17.2,
      "band": "emerging",
@@ -217,41 +217,6 @@
    "count": 11,
    "companies": [
     {
-     "name": "Caesars Entertainment",
-     "slug": "caesars-entertainment",
-     "description": "Caesars Entertainment is the largest U.S. casino-entertainment company, operating over 50 gaming facilities, hotels, restaurants, and entertainment venues across the country and internationally. The company operates the Caesars Rewards loyalty program and offers gaming, hospitality, dining, entertainment, meetings and conventions, and retail experiences.",
-     "score": 12.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Cinemark Holdings",
      "slug": "cinemark-holdings",
      "description": "Cinemark Holdings is one of the largest motion picture exhibitors in the world, operating theatres across the United States and Latin America under the Cinemark, Century, Tinseltown, Rave, and CineArts brands. Cinemark does not currently publish a general-purpose public developer portal; ticketing, showtime, and loyalty integrations are typically delivered through partner agreements and third-party aggregators (Movio, Atom Tickets, Fandango).",
@@ -284,7 +249,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Paramount",
@@ -315,6 +280,41 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Caesars Entertainment",
+     "slug": "caesars-entertainment",
+     "description": "Caesars Entertainment is the largest U.S. casino-entertainment company, operating over 50 gaming facilities, hotels, restaurants, and entertainment venues across the country and internationally. The company operates the Caesars Rewards loyalty program and offers gaming, hospitality, dining, entertainment, meetings and conventions, and retail experiences.",
+     "score": 11.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,

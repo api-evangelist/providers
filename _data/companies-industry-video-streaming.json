@@ -470,7 +470,7 @@
     {
      "name": "Netflix",
      "slug": "netflix",
-     "description": "Netflix is a streaming entertainment service operating one of the world's",
+     "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/netflix/refs/heads/main/screenshots/netflix-2026-06-20T190152.png",
      "score": 17.2,
      "band": "emerging",

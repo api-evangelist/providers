@@ -1,13 +1,48 @@
 {
- "total": 14,
+ "total": 15,
  "bands": [
   {
    "band": "developing",
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
+   "count": 3,
    "companies": [
+    {
+     "name": "Nokia Network as Code",
+     "slug": "nokia-network-as-code",
+     "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
+     "score": 56.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 62.8,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 1
+    },
     {
      "name": "Enable Banking",
      "slug": "enable-banking",
@@ -48,12 +83,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Holvi",
      "slug": "holvi",
      "description": "Holvi is a Finnish digital business-banking service for freelancers, founders and small businesses, founded in Helsinki in 2011 and operating as a regulated Authorised Payment Institution supervised by the Finnish Financial Supervisory Authority. It combines a business account with its own IBAN, a Holvi Business Mastercard, invoicing, expense tracking, VAT calculation and bookkeeping preparation in one dashboard, serving more than 150,000 businesses across Europe with a focus on Finland, Germany and Austria. For developers, Holvi publishes a PSD2 API v2.0 for licensed Third Party Providers, exposing account information (AISP) and payment initiation (PISP, SEPA / SEPA Instant / SWIFT) with Strong Customer Authentication and optional Verification of Payee.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png",
      "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
@@ -89,7 +125,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 2
+     "rank": 3
     }
    ],
    "open": true
@@ -141,7 +177,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -193,7 +229,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Avoindata.fi",
@@ -235,7 +271,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     }
    ]
   },
@@ -250,6 +286,7 @@
      "name": "KNL",
      "slug": "knl",
      "description": "'KNL (KNL Networks Oy) is a Finnish defence-technology company founded in 2011 and headquartered",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knl/refs/heads/main/screenshots/knl-2026-07-25T224001.png",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -279,7 +316,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Playsome",
@@ -314,12 +351,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Futureplay",
      "slug": "futureplay",
      "description": "'Futureplay is a Helsinki, Finland-based mobile game studio founded in 2015 that develops",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/futureplay/refs/heads/main/screenshots/futureplay-2026-07-25T215333.png",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -349,7 +387,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Rovio Entertainment",
@@ -384,7 +422,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "BIT ODD",
@@ -419,12 +457,13 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Huuva",
      "slug": "huuva",
      "description": "Huuva is a Finnish food-court aggregator that lets customers order from",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -454,7 +493,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Kuva Space",
@@ -490,7 +529,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Kodit.io",
@@ -525,7 +564,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Small Giant Games",
@@ -560,7 +599,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     }
    ]
   }

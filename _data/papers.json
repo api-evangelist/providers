@@ -320,6 +320,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-healthcare-apis.png"
   },
   {
+    "slug": "state-of-australian-insurance-apis",
+    "title": "The State of Australian Insurance APIs",
+    "tagline": "What twenty Australian insurance organizations actually publish, scored — the country with the machinery for open insurance and no obligation to use it.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-insurance-apis.png"
+  },
+  {
     "slug": "state-of-australian-payments-apis",
     "title": "The State of Australian Payments APIs",
     "tagline": "What twenty Australian payment companies actually publish, scored — the NPP-native market where the signature resource is PayID, and the agent surface is almost entirely synthetic.",
@@ -342,6 +350,14 @@
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-canadian-insurance-apis",
+    "title": "The State of Canadian Insurance APIs",
+    "tagline": "What twenty Canadian insurance organizations actually publish, scored — the only market with a real API certification programme, and its largest carrier is Not Yet Rated.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-insurance-apis.png"
   },
   {
     "slug": "state-of-canadian-payments-apis",
@@ -376,6 +392,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-healthcare-apis.png"
   },
   {
+    "slug": "state-of-uk-insurance-apis",
+    "title": "The State of UK Insurance APIs",
+    "tagline": "What thirty-five UK insurance organizations and the London Market actually publish, scored — where a 337-year-old market beat every regulator to open APIs.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-insurance-apis.png"
+  },
+  {
     "slug": "state-of-uk-payments-apis",
     "title": "The State of UK Payments APIs",
     "tagline": "What thirty-two UK payment companies actually publish, scored — the open-banking payment-initiation heartland, and the market that hides its own crown jewels.",
@@ -398,6 +422,14 @@
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-healthcare-apis.png"
+  },
+  {
+    "slug": "state-of-us-insurance-apis",
+    "title": "The State of US Insurance APIs",
+    "tagline": "What seventy-nine US insurance organizations actually publish, scored — the market with no mandate, where one company in the country publishes bind.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-insurance-apis.png"
   },
   {
     "slug": "state-of-us-payments-apis",

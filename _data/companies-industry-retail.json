@@ -648,77 +648,6 @@
      "rank": 17
     },
     {
-     "name": "Delek US Holdings",
-     "slug": "delek-us-holdings",
-     "description": "Delek US Holdings, Inc. (NYSE: DK) is a diversified downstream energy company headquartered in Brentwood, Tennessee with assets in petroleum refining, logistics, asphalt operations, renewable fuels, and convenience store retailing. Delek operates four refineries in Tyler and Big Spring (Texas), El Dorado (Arkansas), and Krotz Springs (Louisiana) with combined crude throughput capacity of roughly 302,000 barrels per day. Logistics assets are operated through Delek Logistics Partners (NYSE: DKL). The company provides investor relations and ESG reporting on its public website but does not publish a developer API; partner integrations occur through industry-standard EDI, terminal automation, and ticketing systems.",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "TJX Companies",
-     "slug": "tjx",
-     "description": "The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png",
-     "score": 21.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 19
-    },
-    {
      "name": "Pool",
      "slug": "pool",
      "description": "Pool.com is a Web3 domain service provider offering Infinity Domains, enabling ICANN-accredited registrars and other partners to mint and distribute Second Level Domains and integrate Web3 naming into their services through Pool's registrar API.",
@@ -752,7 +681,43 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 18
+    },
+    {
+     "name": "TJX Companies",
+     "slug": "tjx",
+     "description": "The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png",
+     "score": 20.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 19
     },
     {
      "name": "Aéropostale",
@@ -788,7 +753,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Simon Property Group",
@@ -824,7 +789,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "7-Eleven",
@@ -860,22 +825,57 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
-     "name": "Dollar Tree",
-     "slug": "dollar-tree",
-     "description": "Dollar Tree is a leading operator of discount variety stores in North America, operating more than 16,000 stores under the Dollar Tree and Family Dollar banners. Vendor and supplier integration is primarily handled through EDI, SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API is currently available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/screenshots/dollar-tree-2026-06-20T180143.png",
-     "score": 18.2,
+     "name": "Delek US Holdings",
+     "slug": "delek-us-holdings",
+     "description": "Delek US Holdings, Inc. (NYSE: DK) is a diversified downstream energy company headquartered in Brentwood, Tennessee with assets in petroleum refining, logistics, asphalt operations, renewable fuels, and convenience store retailing. Delek operates four refineries in Tyler and Big Spring (Texas), El Dorado (Arkansas), and Krotz Springs (Louisiana) with combined crude throughput capacity of roughly 302,000 barrels per day. Logistics assets are operated through Delek Logistics Partners (NYSE: DKL). The company provides investor relations and ESG reporting on its public website but does not publish a developer API; partner integrations occur through industry-standard EDI, terminal automation, and ticketing systems.",
+     "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "AutoZone",
+     "slug": "autozone",
+     "description": "AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 7,000 stores across the Americas. AutoZone serves both do-it-yourself (DIY) customers and professional automotive service providers (DIFM) through retail stores, e-commerce, and electronic ordering integrations for commercial accounts via AutoZone Pro.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/screenshots/autozone-2026-06-20T172710.png",
+     "score": 18.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-25",
@@ -935,19 +935,19 @@
      "rank": 25
     },
     {
-     "name": "AutoZone",
-     "slug": "autozone",
-     "description": "AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 7,000 stores across the Americas. AutoZone serves both do-it-yourself (DIY) customers and professional automotive service providers (DIFM) through retail stores, e-commerce, and electronic ordering integrations for commercial accounts via AutoZone Pro.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/screenshots/autozone-2026-06-20T172710.png",
-     "score": 16.9,
+     "name": "Fortune Brands Innovations",
+     "slug": "fortune-brands-innovations",
+     "description": "Fortune Brands Innovations is a major US corporation and Fortune 1000 company. The Fortune Brands Innovations API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortune-brands-innovations/refs/heads/main/screenshots/fortune-brands-innovations-2026-06-20T181448.png",
+     "score": 16.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 80.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-25",
@@ -971,19 +971,19 @@
      "rank": 26
     },
     {
-     "name": "Fortune Brands Innovations",
-     "slug": "fortune-brands-innovations",
-     "description": "Fortune Brands Innovations is a major US corporation and Fortune 1000 company. The Fortune Brands Innovations API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortune-brands-innovations/refs/heads/main/screenshots/fortune-brands-innovations-2026-06-20T181448.png",
-     "score": 16.5,
+     "name": "Dollar Tree",
+     "slug": "dollar-tree",
+     "description": "Dollar Tree is a leading operator of discount variety stores in North America, operating more than 16,000 stores under the Dollar Tree and Family Dollar banners. Vendor and supplier integration is primarily handled through EDI, SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/screenshots/dollar-tree-2026-06-20T180143.png",
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-25",
@@ -1702,6 +1702,7 @@
      "name": "LVMH",
      "slug": "lvmh",
      "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2310,6 +2311,7 @@
      "name": "Macy's",
      "slug": "macys",
      "description": "Macy's, Inc. is one of the nation's premier omnichannel retailers, operating department stores, websites, and apps under the Macy's, Bloomingdale's, and Bluemercury brands. This repository tracks any APIs, developer tools, and machine-readable artifacts that are made publicly available by Macy's.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/screenshots/macys-2026-07-25T225826.png",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2417,6 +2419,7 @@
      "name": "H&M",
      "slug": "hm",
      "description": "'A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world''s largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
      "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",

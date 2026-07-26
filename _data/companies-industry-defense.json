@@ -166,7 +166,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
+   "count": 7,
    "companies": [
     {
      "name": "General Dynamics",
@@ -251,11 +251,11 @@
      "slug": "bwx-technologies",
      "description": "BWX Technologies is a manufacturer of nuclear components and provider of nuclear services to the U.S. government and commercial customers worldwide. The company delivers innovative nuclear solutions across naval propulsion, small modular reactors, nuclear fuel, medical isotopes, and complex site operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bwx-technologies/refs/heads/main/screenshots/bwx-technologies-2026-06-20T173824.png",
-     "score": 24.6,
+     "score": 23.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
@@ -323,11 +323,11 @@
      "slug": "caci-international",
      "description": "CACI International provides information technology, professional services, and managed solutions to U.S. federal government agencies in the defense, intelligence, homeland security, and civilian markets. The company delivers expertise and technology across C3I, cyber, digital solutions, enterprise IT, mission support, space, and spectrum superiority domains.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/screenshots/caci-international-2026-06-20T173834.png",
-     "score": 19.7,
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 20.8,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -431,17 +431,27 @@
       "consent_identity": false
      },
      "rank": 11
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 19,
+   "companies": [
     {
      "name": "Moog",
      "slug": "moog",
      "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
-     "score": 16.0,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -473,17 +483,7 @@
       "consent_identity": false
      },
      "rank": 12
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0–14.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 18,
-   "companies": [
+    },
     {
      "name": "Science Applications International Corporation (SAIC)",
      "slug": "science-applications-international",
@@ -706,42 +706,6 @@
      "rank": 18
     },
     {
-     "name": "Rolls-Royce",
-     "slug": "rolls-royce",
-     "description": "Rolls-Royce plc is a British multinational aerospace and defense company manufacturing aero engines (Trent series), defense propulsion, and power systems. Rolls-Royce does not publish a public developer API. The company operates supplier portals at suppliers.rolls-royce.com and maintains a small GitHub presence with the qc-cfd open-source repository covering quantum computing for computational fluid dynamics research.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rolls-royce/refs/heads/main/screenshots/rolls-royce-2026-06-20T193209.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 13.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 19
-    },
-    {
      "name": "Raytheon",
      "slug": "raytheon",
      "description": "Raytheon is an American aerospace and defense manufacturer operating as a business of RTX Corporation, the world's largest aerospace and defense company. Raytheon designs, develops, and produces advanced defense systems including precision weapons, air and missile defense systems, sensors, radar, electronic warfare, command-and-control solutions, and cyber capabilities for the U.S. military and allied governments worldwide. Key products include the Patriot missile defense system, StormBreaker smart weapons, RAIVEN electro-optical/infrared sensor suites, and advanced electronic attack systems. Raytheon also develops world-class logistics software through the EAGLE team supporting production management, technical manual development, and product support data. No public developer API or machine-readable specification is available at this time; Raytheon's software solutions are deployed within government program contracts.",
@@ -765,6 +729,42 @@
       "regime_id": "government",
       "score": 13.0
      },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "Rolls-Royce",
+     "slug": "rolls-royce",
+     "description": "Rolls-Royce plc is a British multinational aerospace and defense company manufacturing aero engines (Trent series), defense propulsion, and power systems. Rolls-Royce does not publish a public developer API. The company operates supplier portals at suppliers.rolls-royce.com and maintains a small GitHub presence with the qc-cfd open-source repository covering quantum computing for computational fluid dynamics research.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rolls-royce/refs/heads/main/screenshots/rolls-royce-2026-06-20T193209.png",
+     "score": 8.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 0.0,
+      "governance": 13.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-25",
+     "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
