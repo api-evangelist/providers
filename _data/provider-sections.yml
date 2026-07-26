@@ -119,6 +119,37 @@
           href: /canadian-healthcare/
           count: { from: total, key: companies-canadian-healthcare }
 
+    - name: Insurance
+      icon: verified_user
+      description: >-
+        Carriers, insurtech, embedded distribution, core policy administration, risk data,
+        claims tech and the market bodies across four markets with no open-insurance mandate
+        anywhere, ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-insurance/
+          count: { from: total, key: companies-us-insurance }
+        - name: United Kingdom
+          href: /uk-insurance/
+          count: { from: total, key: companies-uk-insurance }
+        - name: Australia
+          href: /au-insurance/
+          count: { from: total, key: companies-au-insurance }
+        - name: Canada
+          href: /canadian-insurance/
+          count: { from: total, key: companies-canadian-insurance }
+
+    - name: Telecommunications
+      icon: cell_tower
+      unit: providers
+      count: { from: total, key: companies-telecom }
+      description: >-
+        A single global cohort — mobile network operators, the CPaaS aggregators that resell
+        their connectivity, the CAMARA / GSMA Open Gateway exposure layer, standards bodies
+        and regulators, ranked by Kin Score.
+      href: /telecom/
+      cta: Browse Telecommunications
+
     - name: Market Data
       icon: monitoring
       unit: providers
