@@ -1,10 +1,10 @@
-aid: api-evangelist-companies
-url: https://github.com/api-evangelist/companies/blob/main/apis.yml
+aid: api-evangelist-providers
+url: https://github.com/api-evangelist/providers/blob/main/apis.yml
 apis: []
-name: API Evangelist Companies
+name: API Evangelist Providers
 tags:
-  - Companies
-kind: companies
+  - Providers
+kind: providers
 image: >-
   https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 access: 3rd-Party

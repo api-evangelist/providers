@@ -1,17 +1,17 @@
-# API Evangelist Companies (api-evangelist-companies)
-An alphabetical listing of every company tracked across the API Evangelist network.
+# API Evangelist Providers (api-evangelist-providers)
+An alphabetical listing of every provider tracked across the API Evangelist network.
 
-**URL:** [Visit APIs.json URL](https://github.com/api-evangelist/companies/blob/main/apis.yml)
+**URL:** [Visit APIs.json URL](https://github.com/api-evangelist/providers/blob/main/apis.yml)
 
 ## Scope
 
-- **Type:** Companies
+- **Type:** Providers
 - **Position:** Consuming
 - **Access:** 3rd-Party
 
 ## Tags
 
-- Companies
+- Providers
 
 ## Timestamps
 
@@ -20,15 +20,15 @@ An alphabetical listing of every company tracked across the API Evangelist netwo
 
 ## Listing
 
-The site is a static, alphabetically-grouped index (A–Z plus 0-9) of all company
-repositories under `all/*`. There are no detail pages — each company links out to:
+The site is a static, alphabetically-grouped index (A–Z plus 0-9) of all provider
+repositories under `all/*`. There are no detail pages — each provider links out to:
 
 - its **APIs.io provider page** (`https://providers.apis.io/providers/<slug>/`) when the
-  company has an API listed (i.e. it appears in `api-search/providers/_providers/`), or
+  provider has an API listed (i.e. it appears in `api-search/providers/_providers/`), or
 - its **GitHub repository** (`https://github.com/api-evangelist/<slug>`) otherwise.
 
 The listing data is generated into `_data/companies.json` by `scripts/build-listing.py`,
-which scans `all/*` (company repos) and `api-search/providers/_providers/*` (provider
+which scans `all/*` (provider repos) and `api-search/providers/_providers/*` (provider
 listings). Re-run it to refresh the index:
 
 ```
@@ -40,7 +40,7 @@ time from local repositories and deployed as plain HTML + a static `apis.json` f
 
 ## Properties
 
-- [GitHubRepository](https://github.com/api-evangelist/companies)
+- [GitHubRepository](https://github.com/api-evangelist/providers)
 - [Documentation](https://developer.apievangelist.com/documentation/)
 
 ## Common Properties

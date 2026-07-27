@@ -84,19 +84,11 @@ sass:
   style: compressed
 
 collections:
-  companies:
-    output: true
-    permalink: /companies/:path/
   providers:
     output: true
     permalink: /providers/:path/
 
 defaults:
-  - scope:
-      path: ""
-      type: companies
-    values:
-      layout: company
   - scope:
       path: ""
       type: providers
