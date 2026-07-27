@@ -1,4 +1,4 @@
-title: API Evangelist Companies
+title: API Evangelist Providers
 theme: null
 description: An alphabetical listing of every company tracked across the API Evangelist network.
 lang: en
@@ -8,7 +8,7 @@ baseurl: ""
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title/
 
-url: "https://companies.apievangelist.com"
+url: "https://providers.apievangelist.com"
 
 logo: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
 
