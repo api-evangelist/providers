@@ -340,6 +340,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:
 - kind: authentication
   name: Corelogic Au Authentication

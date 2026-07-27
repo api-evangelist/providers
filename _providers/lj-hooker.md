@@ -122,6 +122,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lj-hooker/refs/heads/main/screenshots/lj-hooker-2026-07-27T125340.png
 security:
 - kind: domain-security
   name: Lj Hooker Domain Security

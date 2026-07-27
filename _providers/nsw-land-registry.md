@@ -244,6 +244,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:
 - kind: authentication
   name: Nsw Land Registry Authentication

@@ -151,6 +151,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/screenshots/console-group-2026-07-27T125333.png
 security:
 - kind: domain-security
   name: Console Group Domain Security

@@ -161,6 +161,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reia/refs/heads/main/screenshots/reia-2026-07-27T125402.png
 security:
 - kind: domain-security
   name: Reia Domain Security

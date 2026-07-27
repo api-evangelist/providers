@@ -263,6 +263,7 @@ score:
   schema_version: 0.5
   scored_at: '2026-07-27'
   trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:
 - kind: authentication
   name: Rea Group Authentication
