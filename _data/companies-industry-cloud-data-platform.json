@@ -1,5 +1,7 @@
 {
  "total": 7,
+ "shown": 7,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Bloomberg",
@@ -101,6 +104,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Snowflake",
@@ -147,6 +151,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Dow Jones",
@@ -282,6 +287,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Thomson Reuters",

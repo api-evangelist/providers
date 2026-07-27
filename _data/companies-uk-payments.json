@@ -1,5 +1,7 @@
 {
  "total": 32,
+ "shown": 32,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Moneyhub",
@@ -53,7 +56,7 @@
     {
      "name": "Form3",
      "slug": "form3",
-     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology",
+     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
      "score": 61.3,
      "band": "strong",
@@ -102,6 +105,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 15,
+   "shown": 15,
    "companies": [
     {
      "name": "Primer",
@@ -191,7 +195,7 @@
     {
      "name": "TrueLayer",
      "slug": "truelayer",
-     "description": "TrueLayer is Europe's leading open banking platform providing unified",
+     "description": "TrueLayer is Europe's leading open banking platform providing unified access to bank data, payments, payouts, refunds, and variable recurring payments across the UK and EU. TrueLayer connects to 69+ financial institutions and enables instant bank payments, data enrichment, and account verification through a single API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png",
      "score": 58.7,
      "band": "developing",
@@ -234,7 +238,7 @@
     {
      "name": "Dojo",
      "slug": "dojo",
-     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in",
+     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in London) that provides card acquiring and payment processing for in-person, online, and omnichannel merchants. It combines Dojo card machines and terminals, a payment gateway, and merchant tooling (bookings, EPOS integrations, business banking-style accounts) into a single acquirer-processor stack aimed at UK small and mid-market businesses and hospitality. Dojo is genuinely API-native and publishes a public developer portal at docs.dojo.tech with a REST API for payment intents, customers, refunds, captures, terminals, and webhooks, alongside separate specs for transactions, EPOS data ingestion, and Tap to Pay on iPhone. Authentication is a secret API key sent in the Authorization header (sandbox sk_sandbox_ and production sk_prod_ prefixes), and the platform supports webhook event subscriptions. Positioned within the UK's dense card-acquiring and PSP cluster alongside players like Checkout.com and SumUp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png",
      "score": 57.6,
      "band": "developing",
@@ -356,7 +360,7 @@
     {
      "name": "SumUp",
      "slug": "sumup",
-     "description": "European mobile payment and POS platform with REST APIs for creating",
+     "description": "European mobile payment and POS platform with REST APIs for creating checkout links, managing card readers, processing payments, tracking transactions, and accessing payout data. SumUp serves over 4 million merchants in 37 markets with built-in fraud protection, sandbox environments for testing, and SDKs for multiple programming languages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png",
      "score": 56.0,
      "band": "developing",
@@ -484,7 +488,7 @@
     {
      "name": "Wise",
      "slug": "wise",
-     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency",
+     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency accounts for personal and business customers. The Wise Platform API exposes profiles, balances, transfers, recipients, quotes, multi-currency accounts, cards, statements, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
      "score": 51.7,
      "band": "developing",
@@ -527,7 +531,7 @@
     {
      "name": "Tribe Payments",
      "slug": "tribe-payments",
-     "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer",
+     "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.",
      "score": 51.0,
      "band": "developing",
      "band_label": "Developing",
@@ -745,11 +749,12 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "Cashflows",
      "slug": "cashflows",
-     "description": "Cashflows is a United Kingdom payment gateway and card acquirer,",
+     "description": "Cashflows is a United Kingdom payment gateway and card acquirer, headquartered in London and a principal member of Visa and Mastercard, that helps businesses accept, process, and manage card payments across online, in-app, and in-person channels. Its product family spans a REST Cashflows Gateway (payment jobs, captures, refunds, tokenisation, recurring payments, and webhooks), hosted and embedded checkout, a cardholder-not-present Payments API with 3-D Secure, a Remote Authentication API for connecting to the acquiring network, and an In-Person Payments API served locally from Kinetic PCI-PTS terminals. Cashflows ships a genuine self-serve developer portal at developer.cashflows.com with reference documentation, a dedicated integration/sandbox environment, and webhook-based payment notifications, but it does not publish a downloadable OpenAPI/Swagger definition or a public Postman collection; its API reference is hand-authored HTML. Authentication is header-based (ConfigurationId plus a SHA-512 request hash for the Gateway, and auth_id/auth_pass for Remote Authentication) rather than OAuth.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png",
      "score": 43.7,
      "band": "thin",
@@ -792,7 +797,7 @@
     {
      "name": "Cardstream",
      "slug": "cardstream",
-     "description": "Cardstream is an independent United Kingdom payment gateway providing a",
+     "description": "Cardstream is an independent United Kingdom payment gateway providing a white-label payment platform that banks, PSPs, ISOs, acquirers and software companies resell under their own brand. It connects merchants to card schemes (Visa, Mastercard), digital wallets and 150+ Alternative Payment Methods from a single integration, with PCI DSS Level 1 processing, tokenisation, recurring billing, 3-D Secure 2 authentication, risk and fraud checking, and dynamic currency conversion. Its developer surface is a mature form-post gateway API exposed through three integration methods — Hosted (Hosted Payment Pages and Hosted Payment Fields), Direct (server-to-server), and Batch — documented in a public GitBook integration guide and supported by SDKs for PHP, Java, Node.js, Go, Ruby, C#, iOS and Android plus e-commerce modules. Requests are HTTP POST with application/x-www-form-urlencoded fields authenticated by merchantID plus optional password, HMAC message signing and IP allow-listing; the gateway does not publish a downloadable OpenAPI/Swagger definition or a JSON/REST surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png",
      "score": 43.2,
      "band": "thin",
@@ -1004,7 +1009,7 @@
     {
      "name": "Checkout.com",
      "slug": "checkout-com",
-     "description": "Checkout.com is a global payment processor offering card acquiring, alternative",
+     "description": "Checkout.com is a global payment processor offering card acquiring, alternative payments, fraud, and connected accounts via a single API. Direct integrations with Visa, Mastercard, and APMs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png",
      "score": 38.8,
      "band": "thin",
@@ -1131,7 +1136,7 @@
     {
      "name": "Paddle",
      "slug": "paddle",
-     "description": "Paddle is a merchant-of-record billing platform for SaaS and digital",
+     "description": "Paddle is a merchant-of-record billing platform for SaaS and digital products. The Paddle Billing API manages the full revenue lifecycle - products, prices, customers, subscriptions, transactions, invoices, adjustments, and discounts - while Paddle handles global sales tax, payment processing, fraud, and compliance on the seller's behalf.",
      "score": 35.1,
      "band": "thin",
      "band_label": "Thin",
@@ -1178,6 +1183,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Zilch",
@@ -1266,7 +1272,7 @@
     {
      "name": "Curve",
      "slug": "curve",
-     "description": "Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates",
+     "description": "Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates multiple debit and credit cards into a single smart card and mobile wallet. Its \"over-the-top\" banking platform lets customers spend from any linked Mastercard or Visa card, switch the funding source of a past purchase up to 120 days later with \"Go Back in Time\", avoid foreign-exchange fees, earn cashback, and pay in instalments with Curve Flex. Premium tiers (Curve Pay X / Pro / Pro+) add insurance, lounge access, and richer rewards. Curve is backed by Seedcamp and Speedinvest among others. Curve does not publish a public developer API — it acts as an open-banking consumer to aggregate customer account balances rather than exposing a provider API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/curve/refs/heads/main/screenshots/curve-2026-07-25T210952.png",
      "score": 18.5,
      "band": "emerging",
@@ -1309,7 +1315,7 @@
     {
      "name": "Rapyd",
      "slug": "rapyd",
-     "description": "Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across",
+     "description": "Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across 100+ countries with local payment methods, cards, and bank transfers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapyd/refs/heads/main/screenshots/rapyd-2026-06-20T192606.png",
      "score": 17.6,
      "band": "emerging",
@@ -1357,11 +1363,12 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Vyne",
      "slug": "vyne",
-     "description": "'Vyne was a London-based account-to-account (A2A) open banking payments platform,",
+     "description": "Vyne was a London-based account-to-account (A2A) open banking payments platform, founded in 2019. It offered merchants real-time pay-by-bank payments, instant refunds, no-code payment links and verified payouts, built on open banking rails and real-time ACH networks with in-app biometric SCA across the UK and Europe. Vyne served retail, financial services and automotive merchants and won Best Open Banking Payments Project at the Open Banking Expo Awards 2023. In September 2024 Vyne was acquired by Dubai-based open banking platform Tarabut, and it wound down its UK operations effective 22 April 2025. The payvyne.com domain has since been repurposed to an unrelated site, and Vyne no longer operates a public developer portal, API reference or OpenAPI surface. This profile is retained as a historical record; there is no live API to enrich.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",

@@ -1,5 +1,7 @@
 {
  "total": 30,
+ "shown": 30,
+ "limit": 1000,
  "bands": [
   {
    "band": "thin",
@@ -7,6 +9,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Airbus",
@@ -167,6 +170,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "General Dynamics",
@@ -441,6 +445,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 19,
+   "shown": 19,
    "companies": [
     {
      "name": "Moog",

@@ -1,5 +1,7 @@
 {
  "total": 125,
+ "shown": 125,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 17,
+   "shown": 17,
    "companies": [
     {
      "name": "Verisk",
@@ -712,6 +715,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 21,
+   "shown": 21,
    "companies": [
     {
      "name": "Blackstone",
@@ -1578,6 +1582,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 28,
+   "shown": 28,
    "companies": [
     {
      "name": "Thrivent Financial",
@@ -2717,6 +2722,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 59,
+   "shown": 59,
    "companies": [
     {
      "name": "Cullen/Frost Bankers",

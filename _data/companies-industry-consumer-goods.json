@@ -1,5 +1,7 @@
 {
  "total": 83,
+ "shown": 83,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Under Armour",
@@ -166,6 +169,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 9,
+   "shown": 9,
    "companies": [
     {
      "name": "Tyson Foods",
@@ -505,6 +509,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "Columbia Sportswear",
@@ -873,6 +878,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 60,
+   "shown": 60,
    "companies": [
     {
      "name": "TreeHouse Foods",

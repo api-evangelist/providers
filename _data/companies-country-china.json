@@ -1,5 +1,7 @@
 {
  "total": 301,
+ "shown": 301,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Xiaoman (OKKI)",
@@ -52,6 +55,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "LianLian Global",
@@ -330,6 +334,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 15,
+   "shown": 15,
    "companies": [
     {
      "name": "StepFun",
@@ -890,6 +895,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 27,
+   "shown": 27,
    "companies": [
     {
      "name": "qingflow",
@@ -1899,6 +1905,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 247,
+   "shown": 247,
    "companies": [
     {
      "name": "Sunyur",
@@ -11158,6 +11165,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "DCM Ventures",

@@ -1,5 +1,7 @@
 {
  "total": 77,
+ "shown": 77,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Medplum",
@@ -103,6 +106,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 23,
+   "shown": 23,
    "companies": [
     {
      "name": "Particle Health",
@@ -150,7 +154,7 @@
     {
      "name": "Canvas Medical",
      "slug": "canvas-medical",
-     "description": "Canvas Medical is a developer-first EHR platform built for virtual and",
+     "description": "Canvas Medical is a developer-first EHR platform built for virtual and value-based care, offering a comprehensive FHIR R4 REST API with 41 resources for clinical workflows, patient management, and care team coordination. The platform combines a standards-based FHIR API with a native Python SDK that enables plugins to execute synchronously within the EMR, supporting scheduling, charting, billing, and custom workflow automation across more than 650 clinical and operational events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png",
      "score": 56.4,
      "band": "developing",
@@ -193,7 +197,7 @@
     {
      "name": "Veeva",
      "slug": "veeva",
-     "description": "Veeva Systems is a leader in cloud-based software for the global life",
+     "description": "Veeva Systems is a leader in cloud-based software for the global life sciences industry, providing solutions to help pharmaceutical and biotechnology companies bring products to market more efficiently.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
      "score": 56.4,
      "band": "developing",
@@ -658,7 +662,7 @@
     {
      "name": "Benchling",
      "slug": "benchling",
-     "description": "'Benchling is a life sciences R&D cloud platform offering a comprehensive",
+     "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
      "score": 50.5,
      "band": "developing",
@@ -1079,6 +1083,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 24,
+   "shown": 24,
    "companies": [
     {
      "name": "Luma Health",
@@ -1126,7 +1131,7 @@
     {
      "name": "Cerner (Oracle Health)",
      "slug": "cerner",
-     "description": "Cerner is a global healthcare technology company that designs and develops",
+     "description": "Cerner is a global healthcare technology company that designs and develops electronic health record (EHR) and health information technology solutions for hospitals, clinics, and integrated delivery networks. Cerner was acquired by Oracle in June 2022 and is now branded as Oracle Health, with the Cerner Millennium EHR platform's developer program operating as the Oracle Health Developer Program. Millennium exposes HL7 FHIR R4 and DSTU2 APIs, SMART on FHIR app launching, Bulk FHIR, the CareAware device and integration APIs, and the Code Console developer portal for registering applications and obtaining sandbox and production credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png",
      "score": 44.7,
      "band": "thin",
@@ -1169,7 +1174,7 @@
     {
      "name": "Centers for Medicare and Medicaid Services",
      "slug": "cms",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite",
+     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
      "score": 44.6,
      "band": "thin",
@@ -1381,7 +1386,7 @@
     {
      "name": "Validic",
      "slug": "validic",
-     "description": "Validic is an enterprise health-data platform that connects patient-recorded",
+     "description": "Validic is an enterprise health-data platform that connects patient-recorded data from digital health applications, medical devices, and wearables to healthcare organizations. Its Inform API and Mobile SDK provision users against an organization, present a hosted Marketplace for connecting API/cloud and Bluetooth sources, and return standardized health observations - CGM, intraday activity, point-in-time measurements, nutrition, sleep, daily summaries, and workouts. Validic also manages cellular-enabled devices, exposes connection-event history, and delivers data in real time through a Server-Sent Events Streaming API and a webhook Push Service. The platform is HITRUST-certified and HIPAA-compliant. Requests authenticate with an organization access token passed as the token query parameter over HTTPS.",
      "score": 39.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1508,7 +1513,7 @@
     {
      "name": "Allscripts",
      "slug": "allscripts",
-     "description": "Allscripts, now operating as Veradigm, is a healthcare IT company providing",
+     "description": "Allscripts, now operating as Veradigm, is a healthcare IT company providing REST and FHIR APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers FHIR R4 APIs covering 28 clinical resources as well as a Unity API for clinical, scheduling, demographic, and practice management functions across Allscripts EHR products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png",
      "score": 38.1,
      "band": "thin",
@@ -1679,7 +1684,7 @@
     {
      "name": "Flexpa",
      "slug": "flexpa",
-     "description": "Flexpa is a patient-access platform that lets applications connect a patient",
+     "description": "Flexpa is a patient-access platform that lets applications connect a patient to their health insurance plan and retrieve claims and clinical data as normalized FHIR R4 resources. Patients authorize access through Flexpa Link / OAuth 2.0 PKCE, and applications read ExplanationOfBenefit, Coverage, Patient, and other resources from a single FHIR API at https://api.flexpa.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png",
      "score": 35.3,
      "band": "thin",
@@ -1722,7 +1727,7 @@
     {
      "name": "Metriport",
      "slug": "metriport",
-     "description": "Metriport is an open-source, universal API for healthcare data. The Medical",
+     "description": "Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.",
      "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1764,7 +1769,7 @@
     {
      "name": "Health Gorilla",
      "slug": "health-gorilla",
-     "description": "Health Gorilla operates a national health-data interoperability network",
+     "description": "Health Gorilla operates a national health-data interoperability network and a FHIR-first API suite for healthcare developers. Its HL7 FHIR R4 REST API provides access to patient records, person-authorized record retrieval across national exchange networks (QHIN / TEFCA), diagnostic (lab and radiology) ordering and results, clinical documents, and coverage/eligibility data under OAuth 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/screenshots/health-gorilla-2026-07-25T220828.png",
      "score": 35.2,
      "band": "thin",
@@ -1849,7 +1854,7 @@
     {
      "name": "Kno2",
      "slug": "kno2",
-     "description": "Kno2 provides Interoperability as a Service for healthcare - a single",
+     "description": "Kno2 provides Interoperability as a Service for healthcare - a single Communication API to SEND, RECEIVE, and FIND patient information across the healthcare ecosystem. One connection reaches Direct Secure Messaging, clinical document exchange, HL7 FHIR resources, HL7 V2.x, cloud fax, and national record location and retrieval through Kno2's private network, Carequality, eHealth Exchange, and TEFCA (Kno2 is a federally designated QHIN). API access is partner/enterprise gated - integrators are provisioned a per-subscription tenant host with OAuth2 client-credentials keys and an IP allowlist; a staging sandbox is available through the Kno2 Developer Program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png",
      "score": 35.0,
      "band": "thin",
@@ -1892,7 +1897,7 @@
     {
      "name": "pVerify",
      "slug": "pverify",
-     "description": "pVerify provides real-time healthcare insurance eligibility verification",
+     "description": "pVerify provides real-time healthcare insurance eligibility verification and revenue-cycle APIs. Its RESTful API at https://api.pverify.com exchanges EDI 270/271 eligibility transactions, returns plan and benefit summaries, checks claim status (276/277), lists supported payers, and estimates patient financial responsibility, secured with OAuth2 bearer tokens.",
      "score": 34.1,
      "band": "thin",
      "band_label": "Thin",
@@ -1934,7 +1939,7 @@
     {
      "name": "Cohere Health",
      "slug": "cohere-health",
-     "description": "Cohere Health is a United States clinical-intelligence and utilization-management",
+     "description": "Cohere Health is a United States clinical-intelligence and utilization-management company that digitizes prior authorization for health plans. Its Unify platform applies clinical AI and evidence-based policy to streamline authorization intake, review, and decisioning, and its API suite implements the HL7 Da Vinci Burden Reduction guides — Coverage Requirements Discovery (CRD), Documentation Templates and Rules (DTR), and Prior Authorization Support (PAS) — to help payers meet the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F). The FHIR R4 APIs support SMART on FHIR applications and are sold to and embedded with health plans rather than offered through a self-serve public developer portal; the documented product surface is real but the API endpoints are partner/health-plan gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png",
      "score": 32.7,
      "band": "thin",
@@ -1977,7 +1982,7 @@
     {
      "name": "DoseSpot",
      "slug": "dosespot",
-     "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing",
+     "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing (eRx) platform. Its REST API (v2) lets healthcare and EHR/EMR software embed the full prescription lifecycle - patient and clinician management, medication and drug search, pharmacy selection, e-prescribing, medication history, eligibility, and push notifications - using OAuth2 Bearer tokens scoped by clinic and clinician keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png",
      "score": 32.3,
      "band": "thin",
@@ -2020,7 +2025,7 @@
     {
      "name": "Truepill",
      "slug": "truepill",
-     "description": "Truepill is a pharmacy and healthcare-infrastructure company providing",
+     "description": "Truepill is a pharmacy and healthcare-infrastructure company providing API-driven prescription fulfillment, pharmacy dispensing, insurance/copay adjudication, telehealth, and at-home diagnostics. Following LetsGetChecked's 2024 acquisition of Truepill, the combined company rebranded as Fuze Health in May 2025, and the developer platform now ships as FuzeRx. The REST API exposes JSON endpoints for patients, prescriptions, transfers, insurance/copay, and webhook events under https://rxapi.fuzehealth.com/v1.",
      "score": 32.1,
      "band": "thin",
      "band_label": "Thin",
@@ -2109,11 +2114,12 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 24,
+   "shown": 24,
    "companies": [
     {
      "name": "Amwell",
      "slug": "amwell",
-     "description": "Amwell (American Well) is a United States telehealth and hybrid-care",
+     "description": "Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, and government programs. Converge is built on an open architecture whose APIs leverage HL7 FHIR, single sign-on, and embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships verified embedded-telehealth integrations with the Epic and Oracle Cerner EHRs and connects software-enabled Carepoint devices. The developer surface is a gated partner developer portal (developers.amwell.com) — the REST/FHIR API reference, SDKs, and sandbox sit behind a partner login rather than an anonymous public spec.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amwell/refs/heads/main/screenshots/amwell-2026-07-25T200143.png",
      "score": 29.8,
      "band": "emerging",
@@ -2156,7 +2162,7 @@
     {
      "name": "athenahealth",
      "slug": "athenahealth",
-     "description": "athenahealth is a cloud-based healthcare network offering REST APIs for",
+     "description": "athenahealth is a cloud-based healthcare network offering REST APIs for electronic health records (EHR), practice management, patient portal, revenue cycle management, and care coordination across ambulatory and acute care settings. The platform provides over 800 API endpoints enabling developers to extend athenaOne and integrate clinical, financial, and operational workflows across a national network of 84,000+ care sites.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png",
      "score": 29.5,
      "band": "emerging",
@@ -2326,7 +2332,7 @@
     {
      "name": "eClinicalWorks",
      "slug": "eclinicalworks",
-     "description": "eClinicalWorks is a cloud-based EHR and practice management platform",
+     "description": "eClinicalWorks is a cloud-based EHR and practice management platform serving more than 180,000 physicians and 850,000 medical professionals. It provides REST and FHIR-compliant APIs for accessing patient data, appointments, clinical notes, billing, and health information exchange. Third-party developers can build patient-facing apps via the healow developer portal and provider-facing or backend service apps via the eClinicalWorks FHIR developer portal, using SMART on FHIR and OAuth 2.0 authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png",
      "score": 27.3,
      "band": "emerging",
@@ -2369,7 +2375,7 @@
     {
      "name": "Fasten Health",
      "slug": "fasten-health",
-     "description": "Fasten Health is a healthcare data interoperability company offering a unified medical record",
+     "description": "Fasten Health is a healthcare data interoperability company offering a unified medical record platform that gives patients and developers access to clinical data across the U.S. healthcare system. Fasten began as an open-source project — Fasten OnPrem, a self-hosted personal/family electronic medical record manager that ingests FHIR Bundles and is distributed under GPL-3.0 with 2.7k+ GitHub stars. The team then productized the connectivity layer as Fasten Connect, a commercial REST + FHIR API and Stitch client SDK suite that lets developers retrieve clinical records from 50,000+ healthcare systems and 60,000+ organizations including Epic, Cerner, MyChart, Kaiser Permanente, HCA, Ascension, Humana, and Medicare. Founded by engineers who lived through the fragmentation of health data firsthand and based in New York City, Fasten ships GPL/MIT/Apache 2.0 open source repos alongside the hosted Fasten Connect platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/screenshots/fasten-health-2026-06-20T181048.png",
      "score": 25.2,
      "band": "emerging",
@@ -2455,7 +2461,7 @@
     {
      "name": "Waystar",
      "slug": "waystar",
-     "description": "Waystar is a healthcare payments and revenue cycle management (RCM)",
+     "description": "Waystar is a healthcare payments and revenue cycle management (RCM) software company that operates a national clearinghouse connecting providers to payers. Its cloud platform spans financial clearance (eligibility, prior authorization, patient estimation), claim management, payment and remittance management, and denial prevention and recovery. Waystar exposes integration through REST APIs, web services, HL7, sFTP/batch, RPA, and X12 EDI transactions (270/271 eligibility, 276/277 claim status, 837 claims, 835 remittance/ERA, 278 authorization). API access is delivered through a partner/developer program at developer.waystar.com; detailed endpoint specifications, sandbox credentials, and authentication (HMAC-SHA256 / OAuth 2.0) are gated behind registration and a signed partnership, so the API surface below is modeled from Waystar's public product and developer-portal descriptions and the underlying X12 standards rather than from a published OpenAPI definition.",
      "score": 23.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2540,7 +2546,7 @@
     {
      "name": "Abridge",
      "slug": "abridge",
-     "description": "Abridge provides enterprise-grade generative AI for clinical conversations,",
+     "description": "Abridge provides enterprise-grade generative AI for clinical conversations, transforming patient-clinician interactions into contextually aware, clinically useful, and billable AI-generated notes. Its Contextual Reasoning Engine powers ambient documentation embedded directly in the Epic EHR (Abridge Inside), with deployments across more than 100 health systems including Mayo Clinic, UPMC, Kaiser Permanente, Johns Hopkins, and Duke Health. Abridge reaches third-party developers and EHR partners through Epic's Partners and Pals program rather than a public, self-service developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/abridge/refs/heads/main/screenshots/abridge-2026-06-20T163318.png",
      "score": 23.1,
      "band": "emerging",
@@ -2669,7 +2675,7 @@
     {
      "name": "Notable",
      "slug": "notable",
-     "description": "'Notable is an intelligent-automation company purpose-built for healthcare,",
+     "description": "Notable is an intelligent-automation company purpose-built for healthcare, applying AI agents to administrative and operational workflows across patient access, revenue cycle management, care operations, and contact-center automation. Its platform pairs a library of prebuilt AI Agents with Flow Builder, a low-code interface for designing, training, and deploying automations, and Sidekick, a natural-language assistant for staff. Deployed at more than 1,000 healthcare locations and used by health systems including Intermountain Healthcare and the Medical University of South Carolina, Notable is backed by Greylock and ICONIQ Capital. This profile has been enriched from the company's public trust, security, and developer surfaces.",
      "score": 22.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2880,7 +2886,7 @@
     {
      "name": "Sesame",
      "slug": "sesame",
-     "description": "Sesame is a direct-to-consumer telehealth marketplace that connects patients",
+     "description": "Sesame is a direct-to-consumer telehealth marketplace that connects patients with board-certified clinicians for affordable, transparent, cash-pay virtual and in-person care. Patients browse and book pay-per-visit appointments starting around $34 across urgent care, prescription refills, weight loss and GLP-1 treatment, mental health, women's health, dermatology, pediatrics and more, with no insurance required and up-front pricing. The company also offers a SesamePlus membership, a mobile app, provider tooling for listing a practice, and Sesame @ Work employer plans. Sesame is backed by General Catalyst, GV, Matrix Partners, Redpoint Ventures, Spark Capital and SV Angel. As of this enrichment pass Sesame publishes a consumer web and mobile experience but no public developer API, developer portal, SDKs, or OpenAPI surface; its public GitHub organization hosts internal utility libraries rather than first-party client SDKs.",
      "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2958,7 +2964,7 @@
     {
      "name": "Sprinter Health",
      "slug": "sprinter-health",
-     "description": "Sprinter Health is an in-home preventive and diagnostic healthcare company",
+     "description": "Sprinter Health is an in-home preventive and diagnostic healthcare company that pairs trained community health workers (\"Sprinters\") who visit patients at home with a virtual team of physicians, nurses, and care navigators. Its hybrid Sprinter Care+ model delivers vitals, blood draws, ECGs, cancer and diabetic screenings, wellness visits, medication reconciliation, care-gap closure, health risk assessments, and social-needs screening, and partners with health plans such as Humana, Molina Healthcare, and Anthem. Backed by a16z, Accel, General Catalyst, and GV. No public developer or API surface was found during enrichment; this profile captures the company's identity, security posture, and legal/trust properties.",
      "score": 16.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3000,7 +3006,7 @@
     {
      "name": "Change Healthcare",
      "slug": "change-healthcare",
-     "description": "Change Healthcare is a major US corporation and Fortune 1000 company.",
+     "description": "Change Healthcare is a major US corporation and Fortune 1000 company. The Change Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/screenshots/change-healthcare-2026-06-20T174215.png",
      "score": 16.6,
      "band": "emerging",
@@ -3134,11 +3140,12 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Clarify Health",
      "slug": "clarify-health",
-     "description": "'Clarify Health Solutions is a healthcare analytics and outcomes company that helps health",
+     "description": "Clarify Health Solutions is a healthcare analytics and outcomes company that helps health systems, payers, and life sciences organizations understand cost, quality, and utilization across the care journey. Its flagship platform, Clarify Meridian, unifies referral intelligence, physician activation, consumer engagement, and outcomes attribution into a single analytics environment built on billions of longitudinal patient records and claims data. Clarify Health is backed by SoftBank Vision Fund and, in 2026, acquired Loyal Health to expand its consumer engagement capabilities. The company operates a SaaS analytics product rather than a public developer API; this profile tracks its identity and public web surface within the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/screenshots/clarify-health-2026-07-25T205504.png",
      "score": 13.9,
      "band": "minimal",

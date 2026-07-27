@@ -1,5 +1,7 @@
 {
  "total": 826,
+ "shown": 826,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Affinda",
@@ -95,6 +98,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 22,
+   "shown": 22,
    "companies": [
     {
      "name": "Workday Extend",
@@ -919,6 +923,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 114,
+   "shown": 114,
    "companies": [
     {
      "name": "Reflektive",
@@ -5174,6 +5179,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 127,
+   "shown": 127,
    "companies": [
     {
      "name": "handy",
@@ -9790,6 +9796,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 277,
+   "shown": 277,
    "companies": [
     {
      "name": "Employment Hero",
@@ -20227,6 +20234,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 281,
+   "shown": 281,
    "companies": [
     {
      "name": "Brightside",
@@ -30437,6 +30445,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "AlayaCare",

@@ -1,5 +1,7 @@
 {
  "total": 82,
+ "shown": 82,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Shell",
@@ -88,6 +91,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Baker Hughes",
@@ -277,6 +281,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 11,
+   "shown": 11,
    "companies": [
     {
      "name": "Cheniere Energy",
@@ -681,6 +686,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 64,
+   "shown": 64,
    "companies": [
     {
      "name": "Adams Resources & Energy",

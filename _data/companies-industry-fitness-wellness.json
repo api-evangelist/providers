@@ -1,5 +1,7 @@
 {
  "total": 5,
+ "shown": 5,
+ "limit": 1000,
  "bands": [
   {
    "band": "minimal",
@@ -7,6 +9,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Peloton",

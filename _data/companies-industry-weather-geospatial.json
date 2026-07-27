@@ -1,5 +1,7 @@
 {
  "total": 469,
+ "shown": 469,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Tomorrow.io",
@@ -53,6 +56,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 18,
+   "shown": 18,
    "companies": [
     {
      "name": "Bentley Systems",
@@ -729,6 +733,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 79,
+   "shown": 79,
    "companies": [
     {
      "name": "Felt",
@@ -3680,6 +3685,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 86,
+   "shown": 86,
    "companies": [
     {
      "name": "FlightAware",
@@ -6822,6 +6828,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 73,
+   "shown": 73,
    "companies": [
     {
      "name": "Department of Housing and Urban Development",
@@ -9551,6 +9558,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 204,
+   "shown": 204,
    "companies": [
     {
      "name": "Datumate",
@@ -16870,6 +16878,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "Energy and Utilities",

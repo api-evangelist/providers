@@ -1,5 +1,7 @@
 {
  "total": 14,
+ "shown": 14,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,11 +9,12 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Trulioo",
      "slug": "trulioo",
-     "description": "Trulioo is a Vancouver-based global identity verification platform that",
+     "description": "Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP screening, identity document verification (DocV), biometric face match, and fraud-intelligence risk scoring. The Trulioo Platform layers Workflow Studio (hosted and low-code), reusable end-client profiles, event-driven webhooks, native mobile and web capture SDKs, and an MCP server on top of the underlying Verifications and Business APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png",
      "score": 79.0,
      "band": "exemplar",
@@ -54,6 +57,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Helcim",
@@ -107,6 +111,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Moneris",
@@ -153,7 +158,7 @@
     {
      "name": "VoPay",
      "slug": "vopay",
-     "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service",
+     "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.",
      "score": 57.1,
      "band": "developing",
      "band_label": "Developing",
@@ -326,11 +331,12 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Flinks",
      "slug": "flinks",
-     "description": "Flinks is a Canadian financial data platform (owned by National Bank",
+     "description": "Flinks is a Canadian financial data platform (owned by National Bank of Canada) that lets businesses connect to consumer and business bank accounts to aggregate account, transaction, and statement data, verify identity, and derive income, credit-risk, and fraud analytics. Access begins with a Flinks Connect authentication session and a multi-step /Authorize (MFA) call, after which banking, enrichment, and analytics endpoints are invoked with the returned RequestId.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
      "score": 38.1,
      "band": "thin",
@@ -373,7 +379,7 @@
     {
      "name": "Nuvei",
      "slug": "nuvei",
-     "description": "Nuvei is a global payment technology company headquartered in Montreal,",
+     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
      "score": 37.6,
      "band": "thin",
@@ -506,11 +512,12 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Lightspeed Commerce",
      "slug": "lightspeed",
-     "description": "Omnichannel commerce platform with REST APIs for retail and restaurant",
+     "description": "Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling custom integrations through APIs for sales, inventory, customers, orders, payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series, Restaurant K-Series, and eCom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png",
      "score": 25.8,
      "band": "emerging",

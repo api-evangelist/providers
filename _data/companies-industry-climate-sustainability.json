@@ -1,5 +1,7 @@
 {
  "total": 877,
+ "shown": 877,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Autodesk",
@@ -89,6 +92,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 9,
+   "shown": 9,
    "companies": [
     {
      "name": "OpenWeatherMap",
@@ -422,6 +426,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 62,
+   "shown": 62,
    "companies": [
     {
      "name": "Maxar Technologies",
@@ -2715,6 +2720,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 68,
+   "shown": 68,
    "companies": [
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
@@ -5252,6 +5258,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 125,
+   "shown": 125,
    "companies": [
     {
      "name": "NOAA ERDDAP",
@@ -9807,6 +9814,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 591,
+   "shown": 591,
    "companies": [
     {
      "name": "AMP Robotics",
@@ -30963,6 +30971,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 20,
+   "shown": 20,
    "companies": [
     {
      "name": "Anthemis Group",

@@ -1,5 +1,7 @@
 {
  "total": 76,
+ "shown": 76,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Salla",
@@ -100,6 +103,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Lean Technologies",
@@ -313,6 +317,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 9,
+   "shown": 9,
    "companies": [
     {
      "name": "Lean Technologies",
@@ -671,6 +676,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Labayh",
@@ -840,6 +846,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 15,
+   "shown": 15,
    "companies": [
     {
      "name": "Karaz Platform",
@@ -1424,6 +1431,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 41,
+   "shown": 41,
    "companies": [
     {
      "name": "Adalah for IT Systems LLC",

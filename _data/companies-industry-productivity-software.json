@@ -1,5 +1,7 @@
 {
  "total": 17,
+ "shown": 17,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Asana",
@@ -161,6 +164,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Atlassian",
@@ -279,6 +283,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "Microsoft",
@@ -552,6 +557,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Thomson Reuters",
@@ -633,6 +639,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Gartner",

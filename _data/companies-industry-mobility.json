@@ -1,5 +1,7 @@
 {
  "total": 552,
+ "shown": 552,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "Olo",
@@ -383,6 +386,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 71,
+   "shown": 71,
    "companies": [
     {
      "name": "Arcadia",
@@ -2985,6 +2989,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 62,
+   "shown": 62,
    "companies": [
     {
      "name": "Picker",
@@ -5217,6 +5222,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 123,
+   "shown": 123,
    "companies": [
     {
      "name": "EVgo",
@@ -9819,6 +9825,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 284,
+   "shown": 284,
    "companies": [
     {
      "name": "Acme Markets",
@@ -19996,6 +20003,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Energy and Utilities",

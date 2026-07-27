@@ -1,5 +1,7 @@
 {
  "total": 6,
+ "shown": 6,
+ "limit": 1000,
  "bands": [
   {
    "band": "emerging",
@@ -7,6 +9,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Clean Harbors",
@@ -89,6 +92,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "American Water Works",

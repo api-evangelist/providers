@@ -1,5 +1,7 @@
 {
  "total": 5,
+ "shown": 5,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Waste Management",
@@ -53,6 +56,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Stericycle",
@@ -105,6 +109,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Clean Harbors",
@@ -150,6 +155,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Republic Services",

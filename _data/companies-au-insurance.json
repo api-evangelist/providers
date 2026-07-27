@@ -1,5 +1,7 @@
 {
  "total": 20,
+ "shown": 20,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,11 +9,12 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Evari",
      "slug": "evari",
-     "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty",
+     "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-business and trades insurance brand at evari.insure, a Lloyd's coverholder with direct and partner distribution, then moved upstream into core systems with CloudStream, a cloud-native policy administration platform covering quote, bind and issue through endorsement, renewal and cancellation, broker and MGA portals, appetite and eligibility rules, commission tracking and policyholder self-service. Its current positioning is insurance AI operations for brokers, MGAs and insurers, delivered as 30-day assistant deployment sprints powered by the third-party QuivaWorks platform. Evari publishes no developer portal and no API reference, and every running API host is tenant-scoped and closed - api.cloudstream.evari.tech returns 404 unauthenticated, api.envest.evari.tech returns 502, and the customer and admin applications are login walls. One real first-party contract does exist off-portal - Evari published its Quotes microservice to npm as evari-quotes-api, and that tarball ships a generated Swagger 2.0 document of 49 paths and 56 operations plus a draft-07 JSON Schema set of 369 definitions, both harvested here. Evari is otherwise a consumer of other vendors' APIs, integrating into Socotra, Vertafore AMS360 and Sagitta, Applied Epic and Guidewire read access, and no ACORD, AL3 or IVANS reference appears anywhere on its site, in its help centre or in its data model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png",
      "score": 56.3,
      "band": "developing",
@@ -96,7 +99,7 @@
     {
      "name": "Open",
      "slug": "open-insurance",
-     "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading",
+     "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading as Open, is an Australian insurtech and underwriting agency that packages car, home and contents, landlord and travel cover as an embedded product other brands can sell. Open is not a carrier — it holds a binding authority from the insurer, acts as the insurer's agent to issue, vary, renew and cancel policies and to handle claims, and appoints partner brands as authorised representatives. Huddle Insurance is a business name of Open, and partner programs include Bupa and the SuperSaveClub marketplace; the business also operates in the United Kingdom and New Zealand from its Australian home market. Its API posture is real but narrow and partner-gated. Open runs a public, unauthenticated ReadMe developer hub at developers.beopen.com covering the Open.js browser SDK, the Open.Widget embed and a URL-handover redirect, plus exactly one documented server-side REST operation — POST /v1/policy/coc, Retrieve a Certificate of Currency — for which a real OpenAPI 3.0.3 definition is published. Quote is only prepared and polled through the SDK; bind, issue, policy servicing and claims all happen inside Open's hosted (optionally white-labelled) journey rather than over an API, and there is no public FNOL, webhook, GraphQL or Postman surface. API keys and secrets are issued by Open at partner account creation — there is no self-serve signup — and no ACORD, AL3 or NGDS reference appears anywhere on the site or in the documentation.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -144,6 +147,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "Steadfast Group",
@@ -276,7 +280,7 @@
     {
      "name": "APRA",
      "slug": "apra",
-     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth",
+     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth statutory authority that prudentially supervises Australia's banks, credit unions, building societies, general insurers, life insurers, private health insurers, reinsurers and most of the superannuation industry, protecting depositors, policyholders and fund members under the Financial Sector (Collection of Data) Act 2001 and the Insurance Act 1973. Across insurance it authorises and registers general insurers, life insurers and friendly societies, and private health insurers; publishes prudential standards and practice guides; maintains public registers of authorised institutions; and runs the quarterly general, life and private health insurance performance statistics plus the National Claims and Policies Database. Its API posture is honestly none as of July 2026 — APRA operates no developer portal, publishes no OpenAPI or Swagger definition, and offers no self-serve API. Regulated entities lodge data through APRA Connect (connect.apra.gov.au), a browser-only portal gated behind the Australian Government Digital ID System (myID plus Relationship Authorisation Manager); APRA's own technical specification page lists the API Technical Specification as \"to be provided when this functionality is available,\" so machine-to-machine submission remains a roadmap item and not a shipped surface. What APRA does publish machine-readably is a standards corpus rather than an API — per-industry APRA Connect taxonomy artefacts (XSD schemas, reporting taxonomy and validation rule workbooks) for General Insurance, Private Health Insurance and Life Insurance — while statistics ship as XLSX and Power BI, and the public insurer registers are HTML tables with no bulk export. No ACORD, AL3 or NGDS reference appears anywhere on apra.gov.au; APRA's reporting data model is its own XBRL/XSD taxonomy, not the insurance industry's ACORD standards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png",
      "score": 35.0,
      "band": "thin",
@@ -319,7 +323,7 @@
     {
      "name": "PSC Insurance",
      "slug": "psc-insurance",
-     "description": "PSC Insurance is an Australian insurance broking and intermediary group",
+     "description": "PSC Insurance is an Australian insurance broking and intermediary group operating as PSC Insurance Brokers across every Australian state and territory, with a New Zealand arm trading as PSC Broking. It places commercial and SME risk — business packages, construction and civil contracting, public liability, cyber, professional indemnity, directors and officers, management liability, commercial property and industrial special risks, strata, motor and fleet, agribusiness and livestock, workers compensation, financial lines and trade credit, and medical and allied health cover — advising clients rather than carrying underwriting risk itself. Formerly the ASX-listed PSC Insurance Group, the business now sits inside The Ardonagh Group's Australian distribution platform; its former corporate domain pscinsurancegroup.com.au 301-redirects to envest.com.au, and the broking site's security.txt names an @envest.com.au contact. Its API posture is honestly assessed as none. There is no public developer portal, no self-serve API, no published OpenAPI or Swagger definition, no GraphQL surface, no Postman collection, no SDK, no webhook catalog, and no ACORD, AL3, IVANS or agency-download reference anywhere on its public estate. Two machine-facing surfaces are confirmed live and neither is documented by PSC — an Auth0-hosted OpenID Connect identity endpoint at login.pscinsurance.com.au fronting a client/broker login wall, and the Sanity Content Lake dataset behind the marketing site, whose GROQ query, document, export and real-time listen endpoints all answer anonymously. Both are vendor infrastructure under PSC tenancy, not developer products. This matches the Australian market seam — the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred, so no forcing function ever reached brokers, and integration here remains partner-gated and broker-platform mediated.",
      "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
@@ -361,7 +365,7 @@
     {
      "name": "Cover Genius",
      "slug": "cover-genius",
-     "description": "Cover Genius is an insurtech company providing embedded insurance and",
+     "description": "Cover Genius is an insurtech company providing embedded insurance and protection at the point of sale. The XCover distribution API lets partners create insurance offers, confirm bookings, modify and cancel policies, and receive policy lifecycle webhooks, while the XClaim API handles claims intake and instant payments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png",
      "score": 34.5,
      "band": "thin",
@@ -495,6 +499,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "HCF",
@@ -669,7 +674,7 @@
     {
      "name": "Youi",
      "slug": "youi",
-     "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the",
+     "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the Queensland Sunshine Coast, authorised by APRA and operating under AFSL 316511 (ABN 79 123 074 733). It is a wholly owned subsidiary of Youi Holdings Pty Ltd, part of OUTsurance International Holdings, with the South African-listed OUTsurance Group as ultimate holding company. Youi writes personal and small-business property and casualty lines direct to consumers - car, NSW CTP Green Slip, SA CTP, motorcycle, caravan and trailer, watercraft, home building and contents, and small business cover including public liability - and is a member of the Insurance Council of Australia and a signatory to the General Insurance Code of Practice. Its positioning is direct-to-consumer telephone and online underwriting rather than broker distribution. On API posture the honest finding is that Youi publishes no public API surface at all. Probing on 2026-07-25 found no developer portal (the developer., developers., docs. and api. subdomains do not resolve, and /developers, /api, /developer, /partners and /integrations all return HTTP 404), no downloadable OpenAPI or Swagger, no public Postman collection, no GraphQL, and no webhook or event catalog. The only integration-adjacent hosts are the customer self-service policy portal at portal.youi.com.au (HTTP 200, robots noindex, an Angular single-page app behind a login) and its private first-party backend portalapi.youi.com.au (HTTP 404 at root, serving no swagger or openapi document). No ACORD, AL3, ACORD XML, NGDS or IVANS reference was found anywhere on the public site. Australia's Consumer Data Right, which opened banking and energy, was designated for general insurance and then deferred, so no regulatory forcing function exists, and Youi's direct-to-consumer model gives it no broker or agency-management integration seam either. Recorded as partner-gated and customer-login-gated only, with no public self-serve API.",
      "score": 24.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -800,6 +805,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Insurance Australia Group",

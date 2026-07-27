@@ -1,5 +1,7 @@
 {
  "total": 823,
+ "shown": 823,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Mux",
@@ -88,6 +91,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 35,
+   "shown": 35,
    "companies": [
     {
      "name": "Meta",
@@ -1363,6 +1367,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 103,
+   "shown": 103,
    "companies": [
     {
      "name": "Neuphonic",
@@ -5096,6 +5101,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 143,
+   "shown": 143,
    "companies": [
     {
      "name": "VSCO",
@@ -10260,6 +10266,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 139,
+   "shown": 139,
    "companies": [
     {
      "name": "Reverb",
@@ -15309,6 +15316,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 397,
+   "shown": 397,
    "companies": [
     {
      "name": "80,000 Hours",
@@ -29449,6 +29457,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Custom Chat API | MirrorFly",

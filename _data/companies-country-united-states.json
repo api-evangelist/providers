@@ -1,5 +1,7 @@
 {
  "total": 243,
+ "shown": 243,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Plaid",
@@ -101,6 +104,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "8x8",
@@ -432,6 +436,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 33,
+   "shown": 33,
    "companies": [
     {
      "name": "Zoom Phone",
@@ -1754,6 +1759,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 43,
+   "shown": 43,
    "companies": [
     {
      "name": "Luma Health",
@@ -3536,6 +3542,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 96,
+   "shown": 96,
    "companies": [
     {
      "name": "Amwell",
@@ -7491,6 +7498,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 28,
+   "shown": 28,
    "companies": [
     {
      "name": "UBS Bank USA",
@@ -8646,6 +8654,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 33,
+   "shown": 33,
    "companies": [
     {
      "name": "Accel",

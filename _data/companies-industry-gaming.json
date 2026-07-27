@@ -1,5 +1,7 @@
 {
  "total": 661,
+ "shown": 661,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 9,
+   "shown": 9,
    "companies": [
     {
      "name": "Meta",
@@ -353,6 +356,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 52,
+   "shown": 52,
    "companies": [
     {
      "name": "Lichess",
@@ -2261,6 +2265,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 67,
+   "shown": 67,
    "companies": [
     {
      "name": "k-ID",
@@ -4723,6 +4728,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 112,
+   "shown": 112,
    "companies": [
     {
      "name": "FRVR",
@@ -8774,6 +8780,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 419,
+   "shown": 419,
    "companies": [
     {
      "name": "Dapperlabs",
@@ -23737,6 +23744,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Bullpen Capital",

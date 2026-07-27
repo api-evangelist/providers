@@ -1,5 +1,7 @@
 {
  "total": 67,
+ "shown": 67,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "HubSpot",
@@ -304,6 +307,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 17,
+   "shown": 17,
    "companies": [
     {
      "name": "Palo Alto Networks",
@@ -938,6 +942,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 16,
+   "shown": 16,
    "companies": [
     {
      "name": "Rackspace Technology",
@@ -1529,6 +1534,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 11,
+   "shown": 11,
    "companies": [
     {
      "name": "Broadcom",
@@ -1933,6 +1939,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Cadence Design Systems",
@@ -2086,6 +2093,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 11,
+   "shown": 11,
    "companies": [
     {
      "name": "Zscaler",

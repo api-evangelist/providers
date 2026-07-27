@@ -1,5 +1,7 @@
 {
  "total": 20,
+ "shown": 20,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "APOLLO Insurance",
@@ -54,7 +57,7 @@
     {
      "name": "OSFI",
      "slug": "osfi",
-     "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal",
+     "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal prudential regulator, supervising more than 400 federally regulated financial institutions and over 1,200 private pension plans. On the insurance side OSFI supervises federally regulated life insurance companies, property and casualty insurers, mortgage insurers and fraternal benefit societies for solvency and capital adequacy — issuing the LICAT, MCT and BAAT capital guidelines and collecting the LF1/LF2/LF3, PC1-PC4 and MI1-MI5 regulatory returns. It does NOT regulate market conduct; that sits with the provinces (FSRA in Ontario, AMF in Quebec), and Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance entirely. OSFI publishes no first-party developer portal and no OpenAPI — developer.osfi-bsif.gc.ca, api.osfi-bsif.gc.ca and docs.osfi-bsif.gc.ca do not resolve, and /developers, /api and /developer all return 404. Its real machine-readable surface is its insurance and banking regulatory data (FINDAT) plus the \"Who we regulate\" register, published as datastore-active datasets on Canada's Open Government portal and readable anonymously through the CKAN 3 Action API (datastore_search; the SQL passthrough datastore_search_sql is disabled on the portal) — OSFI ships a step-by-step API usage guide PDF with each dataset. The filing side (the Regulatory Reporting System) is institution-gated behind a Bank of Canada Connect login. Everything else is a documentation-and-rulebook corpus of 313 guidance-library pages and 142 financial reporting instruction pages.",
      "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
@@ -96,7 +99,7 @@
     {
      "name": "Sun Life",
      "slug": "sun-life",
-     "description": "'Sun Life Financial Inc. is a Canadian multinational life and health insurer and asset manager",
+     "description": "Sun Life Financial Inc. is a Canadian multinational life and health insurer and asset manager headquartered in Toronto, one of the \"life trio\" that dominates Canada's insurance market alongside Manulife and Great-West Lifeco. Sun Life writes individual life insurance, individual and group health and dental coverage, group benefits, disability and absence management, annuities and retirement products, and runs a large wealth business through Sun Life Global Investments, SLC Management and MFS Investment Management, with operations across Canada, the United States, the United Kingdom, Ireland and Asia. In the United States it is a leading group benefits, stop-loss and dental carrier and owns DentaQuest. Sun Life publishes no developer portal under its own brand: its only named Sun Life API surface is Sun Life Link, a partner-gated benefits-connectivity program that exchanges evidence of insurability, plan setup, enrollment, billing and absence data with HR and benefits-administration platforms including Workday, ADP, UKG, PlanSource, Employee Navigator and bswift, negotiated per client rather than signed up for. The public, machine-readable APIs in the Sun Life group belong to DentaQuest, its U.S. dental subsidiary, which runs an Azure API Management developer portal at developers.dentaquest.com publishing three OpenAPI 3.0.1 definitions: a SMART-on-FHIR Patient Access API, a Da Vinci PDex Plan-Net Provider Directory API and an anonymous FHIR CapabilityStatement endpoint, all released under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F) and served for both the DentaQuest and Delta Dental of Massachusetts brands. Canada's supervisory split between OSFI and the provincial conduct regulators, and the exclusion of insurance from Consumer-Driven Banking, means no open-insurance mandate creates a forcing function for a public Sun Life API in its home market; the U.S. CMS mandate is what produced the only public one.",
      "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
@@ -144,6 +147,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Great-West Lifeco",
@@ -282,6 +286,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "Canada Life",
@@ -499,7 +504,7 @@
     {
      "name": "Finaeo",
      "slug": "finaeo",
-     "description": "Finaeo Inc. is a Toronto-based Canadian insurtech operating a digital",
+     "description": "Finaeo Inc. is a Toronto-based Canadian insurtech operating a digital marketplace that connects life insurance carriers, independent brokers and their clients. Its platform gives independent life brokers a product marketplace across carriers and hundreds of products, side-by-side product comparison and quoting, a place-a-policy checkout flow with selected carriers, a white-labeled client portal with digital onboarding and custom Financial Needs Assessments, contact and document management, broker landing pages, and team and distributor white-label offerings. Its home market is Canada, with expansion into the United States through IMO and broker-agency partnerships. Line of business is life insurance distribution — Finaeo is a distribution and agency technology vendor, not a risk carrier. Its API posture is honestly one of absence — Finaeo publishes no public developer portal, no API reference, no downloadable OpenAPI or Swagger, and no SDK. No developer, docs or api subdomain resolves in DNS, and a sweep of 2,840 archived first-party URLs turns up no developer surface at all. Finaeo's own carrier marketing explicitly positions its integration story against APIs, describing a \"no-code toolkit to digitize products, configure applications, and launch custom workflows\" that works \"without the need for bulky APIs.\" The only documented carrier integration is a bilateral, partner-negotiated data handoff (Empire Life Fast & Full Life Application, 2021). Everything else sits behind a broker login or a book-a-demo form, making Finaeo a partner-gated, no-public-API provider.",
      "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -584,7 +589,7 @@
     {
      "name": "Intact Financial",
      "slug": "intact-financial",
-     "description": "Intact Financial Corporation is the largest provider of property and",
+     "description": "Intact Financial Corporation is the largest provider of property and casualty insurance in Canada, headquartered in Toronto and trading on the TSX as IFC. It underwrites personal auto, personal property, and commercial P&C lines through the Intact Insurance, belairdirect, BrokerLink, Intact Prestige, Intact Public Entities, and On Side Restoration brands in Canada, through Intact Insurance Specialty Solutions in the United States, and through Intact Insurance UK, EU, IE and 123.ie internationally following the 2021 acquisition of RSA. Distribution runs through a network of more than 6,000 independent broker offices plus direct-to-consumer channels. Its API posture is partner-gated and closed. There is no public, self-serve developer portal, no published API reference, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI artifact on any Intact domain probed. developer/developers/docs/api subdomains on intactfc.com and intact.ca do not resolve; /developers, /api, /developer and /partners return 404. The only integration surfaces are login walls — the Intact Portal for brokers at portal.intactinsurance.com (brokers.intact.ca redirects there) and the customer Client Centre behind IBM Security WebSEAL at apps.intactinsurance.com. Broker connectivity in Canada is mediated by CSIO, the industry standards body whose EDI, XML, eDocs and JSON API standards are the Canadian analogue of ACORD. Intact Insurance is listed in the CSIO member directory but appears on none of CSIO's certified-member lists (eDocs, CL Data, Compliance/Z-code, API Security Standards, JSON API Standards) and is recorded as \"Not Yet Rated\" on both the personal and commercial tracks of CSIO's 2026 Standards Certification Ratings. No ACORD reference was found anywhere on the company's public web properties.",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -626,7 +631,7 @@
     {
      "name": "Zensurance",
      "slug": "zensurance",
-     "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded",
+     "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded in 2016 that sells small-business and freelancer coverage online across every Canadian province, placing risk with Canadian carriers rather than underwriting it. Its book is commercial property and casualty — general and commercial general liability, professional liability and errors and omissions, cyber liability, directors and officers, commercial property, commercial auto, builder's risk, and a long tail of trade- and profession-specific packages — sold through a quote-to-bind web flow marketed as an instant online price with licensed broker support and claims advocacy behind it. It sits in the thin digital-broker layer beneath Canada's Big-Few carrier oligopoly, in a market with no open-insurance mandate — OSFI supervises federally-regulated insurers prudentially while FSRA, the AMF, and the other provincial regulators own market conduct, and Consumer-Driven Banking excludes insurance outright. Its API posture reflects that. Zensurance publishes no public, self-serve developer portal, no reference documentation, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI definition. The company's partnership page advertises \"seamless API integrations and co-branded white-label tools\" for distribution partners, but the only route to that surface is a partnership application form — the integration is partner-gated and privately negotiated. A first-party host at api.zensurance.com answers on the public internet (HTTP 200, returning a bare version string, with a /health endpoint) but it is the undocumented backend for Zensurance's own quoting and policy application, not a published product API. No ACORD, AL3, ACORD XML, NGDS, or agency-management-system integration claim appears anywhere on the company's public web properties. The one machine-addressable surface the company does publish for automated consumers is an llms.txt at www.zensurance.com/llms.txt — a 178KB marketing index of its pages, blog posts, and FAQs (which inadvertently lists its zenstage.wpengine.com staging host rather than the production domain). It describes insurance products for AI assistants; it documents no API.",
      "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -668,7 +673,7 @@
     {
      "name": "Sonnet Insurance",
      "slug": "sonnet-insurance",
-     "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and",
+     "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and casualty insurer launched in 2016 and a member of the Definity family of companies, underwriting its own auto, home, condo, tenant, landlord and pet policies through Sonnet Insurance Company. It sells auto, home, condo, tenant and landlord coverage in Ontario, Quebec, New Brunswick, Nova Scotia and Prince Edward Island, and home-only coverage in British Columbia and Alberta, positioning itself as \"Canada's original digital-first home and auto insurance company\" with a fully online quote-and-buy flow and licensed agents for support. Sonnet is an explicit direct writer -- its own FAQ states that \"a third party -- even a licensed broker -- cannot purchase a Sonnet policy on your behalf\" -- so it operates no broker or agency distribution channel and therefore no ACORD/AL3 agency-download path. Its API posture is closed -- no developer, developers, docs or api subdomain resolves in DNS, every first-party developer path probed returns HTTP 404, and no OpenAPI, Swagger, GraphQL, Postman collection, webhook catalog or partner technical onboarding surface is published. The only third-party integrations Sonnet describes -- the Kanetix.ca (RATESDOTCA) quote-and-buy partnership and the Sonnet Connect brand referral program -- are privately negotiated commercial arrangements with no public technical documentation. Two machine-readable surfaces do exist and are captured here. Sonnet serves a real llms.txt at www.sonnet.ca/llms.txt that declares per-agent AI-Training, AI-Generation, AI-Summarization and AI-Crawling directives (Allow for OpenAI, Google-DeepMind and Anthropic) alongside a curated reference-content index -- an AI consent signal rather than an API contract. And the secure.sonnet.ca quote-and-buy application is driven by an undocumented first-party REST/JSON surface under /api/v1 covering quoting, binding, policy servicing, payments and identity; it is observable from Sonnet's own public JavaScript bundle but carries no documentation, no specification and no third-party terms of use, so it is recorded as observed evidence, not as an integratable API.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -800,6 +805,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Breathe Life",

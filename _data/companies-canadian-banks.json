@@ -1,5 +1,7 @@
 {
  "total": 42,
+ "shown": 42,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Moneris",
@@ -144,11 +147,12 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Nuvei",
      "slug": "nuvei",
-     "description": "Nuvei is a global payment technology company headquartered in Montreal,",
+     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
      "score": 37.6,
      "band": "thin",
@@ -283,11 +287,12 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 24,
+   "shown": 24,
    "companies": [
     {
      "name": "Wealthsimple",
      "slug": "wealthsimple",
-     "description": "'Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014,",
+     "description": "Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014, offering a full suite of consumer financial products: managed investing (Invest), self-directed stock and ETF trading (Trade), cryptocurrency, tax filing (Tax), spending, saving, and cash and card products. It serves more than four million Canadians with roughly CAD $125 billion in assets under administration and reached a CAD $10 billion valuation in its 2025 Series F round. Wealthsimple does not publish an official public developer API or OpenAPI specification; programmatic account access is available only through open-banking aggregators (SnapTrade, Plaid) and community-built unofficial libraries. This profile captures the company's public trust, security, and developer-adjacent surface (security.txt, HackerOne bug bounty, Trust Center, status page, verified GitHub organization).",
      "score": 28.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -413,7 +418,7 @@
     {
      "name": "KOHO",
      "slug": "koho",
-     "description": "KOHO is a Canadian financial-technology company (neobank) founded in 2014",
+     "description": "KOHO is a Canadian financial-technology company (neobank) founded in 2014 by Daniel Eberhard and headquartered in Vancouver, British Columbia, serving more than 2.5 million Canadians through a mobile-first money app. KOHO is not a chartered bank; it issues a KOHO Mastercard prepaid card through KOHO Financial Inc. and places customer balances in trust with CDIC-member institutions (its longstanding banking partner is Peoples Trust Company), while offering high-interest savings, cash back, credit building, Cover cash advances, and Pay Later. The company is in the final stages of pursuing a federal Schedule I banking licence, which would make it one of Canada's first new federally regulated banks in decades, and in May 2026 it joined the Interac e-Transfer network directly as a Participant under the broadened access for Payment Service Providers. On the open-finance front, KOHO exposes no first-party public developer API or portal; consumer account and transaction data access today is available only through third-party aggregators (Plaid and Flinks), consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework.",
      "score": 24.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -840,7 +845,7 @@
     {
      "name": "Bridgewater Bank",
      "slug": "bridgewater-bank",
-     "description": "Bridgewater Bank is a Canadian Schedule I chartered bank, a wholly-owned",
+     "description": "Bridgewater Bank is a Canadian Schedule I chartered bank, a wholly-owned subsidiary of the Alberta Motor Association (AMA), headquartered in Calgary, Alberta and established in 1997. It is a member of the Canada Deposit Insurance Corporation (CDIC) and operates a broker-distributed, deposit-and-lending model rather than a direct-to-consumer retail branch network — residential mortgages, Guaranteed Investment Certificates (GICs), and high-interest savings accounts sold through a select network of trusted mortgage and deposit brokers, with roughly $3.3 billion in mortgages and deposits across approximately 53,000 customer accounts nationwide. Bridgewater Bank exposes NO public first-party developer API or developer portal. Its only dedicated digital surface beyond the corporate site is a partner-gated broker information portal (bwbbrokerinfo.ca). Canada's Consumer-Driven Banking (open-banking) framework is legislated but not yet operational, so any consumer data access from a bank of this size is voluntary and today would be aggregator/screen-scraping based rather than through a documented first-party API. No Interac, Real-Time Rail (RTR), FDX, or consumer-driven-banking API participation is publicly documented by the institution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridgewater-bank/refs/heads/main/screenshots/bridgewater-bank-2026-07-25T203817.png",
      "score": 16.1,
      "band": "emerging",
@@ -1314,6 +1319,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "National Bank of Canada",
@@ -1574,7 +1580,7 @@
     {
      "name": "Prospera Credit Union",
      "slug": "prospera-credit-union",
-     "description": "Prospera Credit Union is a member-owned cooperative financial institution",
+     "description": "Prospera Credit Union is a member-owned cooperative financial institution headquartered in British Columbia, Canada, formed on January 1, 2020 through the merger of the original Prospera Credit Union and Westminster Savings Credit Union — the largest credit-union merger in Canadian history. With roughly CA$9 billion in assets under management, about 120,000 members, and some 900 employees across branches in Metro Vancouver, the Fraser Valley, and the Okanagan, it is the third largest credit union in British Columbia and among the six largest in Canada. As a provincially regulated cooperative (credit unions in BC are overseen by BC Financial Services Authority and deposits are protected by the Credit Union Deposit Insurance Corporation of BC), Prospera serves personal and business members with chequing and savings accounts, credit cards, mortgages, loans, and Interac e-Transfer. On the open-finance side, Prospera runs NO public first-party developer portal or documented API — none of developer/api/developers.prospera.ca resolve — and Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and overseen by the FCAC, is not yet operational. Like most Canadian credit unions, Prospera reaches national payment rails and consumer data-sharing through shared credit-union-system infrastructure rather than a proprietary API, and third-party data access today is aggregator/screen-scraping based (e.g. Flinks, Plaid). This is an honest identity-only profile with no public API surface to catalog.",
      "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1743,7 +1749,7 @@
     {
      "name": "First West Credit Union",
      "slug": "first-west-credit-union",
-     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is",
+     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is a member-owned Canadian cooperative financial institution headquartered in Langley, British Columbia. Formed in 2010 by the merger of Envision Credit Union and Valley First, and later joined by Island Savings and Enderby & District Financial, it operates those four regional brands over a shared branch network with roughly 291,000 members, about $20.8 billion in total assets, 45 branches, and around 1,300 employees. After members voted in 2021 for federal continuance, it received a federal charter under Canada's Bank Act and became a federal credit union / cooperative bank (CDIC-insured) as of April 1, 2026. On the open-finance front First West / Tru runs no first-party public developer portal and publishes no downloadable OpenAPI or partner API; both developer.firstwestcu.ca and developer.trucooperativebank.ca resolve to nothing (NXDOMAIN). Third-party access to member account data today is aggregator-based (screen-scraping via providers such as Plaid and Flinks), the fragmented and voluntary Canadian norm while the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) remains legislated but not yet operational.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-west-credit-union/refs/heads/main/screenshots/first-west-credit-union-2026-07-25T214610.png",
      "score": 7.7,
      "band": "minimal",

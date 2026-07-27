@@ -1,5 +1,7 @@
 {
  "total": 13,
+ "shown": 13,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Semble",
@@ -53,7 +56,7 @@
     {
      "name": "NHS England",
      "slug": "nhs-england",
-     "description": "'NHS England (which absorbed NHS Digital in 2023) is the national body that runs England''s",
+     "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
      "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
@@ -101,6 +104,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "NHS Digital",
@@ -232,7 +236,7 @@
     {
      "name": "EMIS Health",
      "slug": "emis-health",
-     "description": "EMIS Health is a United Kingdom health-technology company and one of",
+     "description": "EMIS Health is a United Kingdom health-technology company and one of the two dominant GP clinical-system providers in the NHS (alongside TPP SystmOne), supplying the EMIS Web electronic patient record used across primary care, community pharmacy, and other care settings. EMIS is migrating from EMIS Web to EMIS-X, a cloud-first platform, and exposes third-party integration through the EMIS Partner Developer Portal at docs.partner.emis-x.uk. The gated partner programme documents a RESTful JSON Partner API (PAPI) covering appointments, the clinical/medical record, patient demographics and matching, organisation lookup and clinical searches, plus EMIS-X App Launch and an EMIS-X Analytics data warehouse. Authentication is OAuth2 / OIDC (Microsoft Entra External ID / Azure AD B2C) using authorization-code, PKCE, and client-credentials flows with scoped JWT access tokens; native HL7 FHIR resource support is documented as upcoming rather than yet available.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png",
      "score": 37.3,
      "band": "thin",
@@ -281,6 +285,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "TPP (SystmOne)",
@@ -503,11 +508,12 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Push Doctor",
      "slug": "push-doctor",
-     "description": "'Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs",
+     "description": "Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs via smartphone, describing itself as the UK's first platform to provide video doctor consultations on mobile. It serves both NHS patients and private paying customers, covering online GP appointments, digital prescriptions, referrals and follow-up care. Headquartered in Manchester and backed by Partech, Push Doctor operates as a consumer-facing telemedicine service; no public developer API, developer portal, or SDK surface was found during enrichment probes.",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",

@@ -446,6 +446,13 @@ BAND_LABELS = {
     "thin": "Thin", "emerging": "Emerging", "minimal": "Minimal",
 }
 
+# Most providers a rated listing renders. Each row carries a full Kin Score panel
+# (every facet, every agent-readiness dimension), which costs ~12KB of HTML — fine
+# at 137 providers, not at 4,910: the Artificial Intelligence page shipped at 62MB
+# before this cap. Band headers keep their true counts; only the rendered rows are
+# cut, top-down by Kin Score, and both listing and band say so.
+LISTING_LIMIT = 1000
+
 
 def slugify(name):
     s = name.lower()
@@ -757,13 +764,21 @@ def main():
             members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
             if not members:
                 continue
+            # `count` is what the band really holds; `companies` is what the page
+            # renders. They differ only past LISTING_LIMIT, and the band says so.
+            shown = [e for e in members if e["rank"] <= LISTING_LIMIT]
             groups.append({
                 "band": band, "label": label, "range": band_range, "blurb": blurb,
-                "count": len(members), "companies": members,
+                "count": len(members), "shown": len(shown), "companies": shown,
             })
         for g in groups[:2]:
             g["open"] = True
-        return {"total": len(entries), "bands": groups}
+        return {
+            "total": len(entries),
+            "shown": min(len(entries), LISTING_LIMIT),
+            "limit": LISTING_LIMIT,
+            "bands": groups,
+        }
 
     # --- Industries -------------------------------------------------------
     # Two sources, unioned by slug: the jobs taxonomy in industries.yml (which

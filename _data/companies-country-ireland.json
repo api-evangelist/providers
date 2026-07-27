@@ -1,5 +1,7 @@
 {
  "total": 20,
+ "shown": 20,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "University College Dublin",
@@ -52,6 +55,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "LegitFit",
@@ -104,6 +108,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Ceartas",
@@ -303,6 +308,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 13,
+   "shown": 13,
    "companies": [
     {
      "name": "Ireland Open Data Catalogue",

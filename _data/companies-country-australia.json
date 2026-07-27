@@ -1,5 +1,7 @@
 {
  "total": 163,
+ "shown": 163,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Heidi Health",
@@ -218,6 +221,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 55,
+   "shown": 55,
    "companies": [
     {
      "name": "Azupay",
@@ -2476,6 +2480,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 37,
+   "shown": 37,
    "companies": [
     {
      "name": "Hume Bank",
@@ -4019,6 +4024,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 36,
+   "shown": 36,
    "companies": [
     {
      "name": "Australian Digital Health Agency",
@@ -5506,6 +5512,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "Care GP",
@@ -5961,6 +5968,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 18,
+   "shown": 18,
    "companies": [
     {
      "name": "Agentbox",

@@ -1,5 +1,7 @@
 {
  "total": 947,
+ "shown": 947,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "Dynatrace",
@@ -448,6 +451,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 32,
+   "shown": 32,
    "companies": [
     {
      "name": "Workday Extend",
@@ -1610,6 +1614,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 104,
+   "shown": 104,
    "companies": [
     {
      "name": "Activepieces",
@@ -5372,6 +5377,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 87,
+   "shown": 87,
    "companies": [
     {
      "name": "Missive",
@@ -8500,6 +8506,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 191,
+   "shown": 191,
    "companies": [
     {
      "name": "Clay",
@@ -15507,6 +15514,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 507,
+   "shown": 507,
    "companies": [
     {
      "name": "AMP Robotics",
@@ -33759,6 +33767,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 14,
+   "shown": 14,
    "companies": [
     {
      "name": "Automated Sorting Systems",

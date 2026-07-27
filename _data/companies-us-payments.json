@@ -1,5 +1,7 @@
 {
  "total": 68,
+ "shown": 68,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Stripe",
@@ -54,7 +57,7 @@
     {
      "name": "Square",
      "slug": "square",
-     "description": "Square provides APIs for payment processing, point of sale, and business",
+     "description": "Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png",
      "score": 75.7,
      "band": "exemplar",
@@ -97,7 +100,7 @@
     {
      "name": "Plaid",
      "slug": "plaid",
-     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API",
+     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API platform for businesses to securely connect with their users' bank and financial accounts. Plaid acts as the interface between 12,000+ financial institutions and third-party applications, powering bank-account verification (Auth, Balance, Identity), transactions and enrichment, income and asset verification, lending data (Assets, Liabilities, Investments, Consumer Report/CRA), risk and fraud tooling (Signal, Beacon, Monitor watchlist screening, Identity Verification), and money movement (Transfer, Payment Initiation, Virtual Accounts). Developers integrate through Plaid Link, a self-serve dashboard, client credentials, per-Item access tokens, and a publicly published OpenAPI definition. In the US voluntary open-finance landscape Plaid is an aggregator, and it also operates Core Exchange, its FDX-aligned data-access API for data providers, positioning it for CFPB 1033 open-banking rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png",
      "score": 74.9,
      "band": "exemplar",
@@ -140,7 +143,7 @@
     {
      "name": "Unit",
      "slug": "unit",
-     "description": "Unit is a US Banking-as-a-Service (BaaS) platform that lets companies",
+     "description": "Unit is a US Banking-as-a-Service (BaaS) platform that lets companies embed banking, cards, and payments into their own products. Its REST API — organized around Applications, Customers, Accounts (deposit, credit, wallet/FBO, DACA), Cards, Payments (book, ACH, wire, recurring, received, cash deposit), Checks, Card Authorizations, Disputes, Transactions, Statements, Tax Forms, Fees & Rewards, Credit repayments, Stop Payments, and Webhooks — is authenticated with organization and customer bearer tokens and secured with idempotency keys and resource tagging. Unit publishes a public OpenAPI 3.0.2 specification (openapi-unit-sdk) and generates official Node, Python, Ruby, and Java SDKs from it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png",
      "score": 72.7,
      "band": "exemplar",
@@ -189,11 +192,12 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "Block",
      "slug": "block",
-     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including",
+     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
      "score": 67.8,
      "band": "strong",
@@ -273,7 +277,7 @@
     {
      "name": "PayPal",
      "slug": "paypal",
-     "description": "PayPal is a global online payment system that lets individuals and businesses",
+     "description": "PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner referrals, payment experience, and webhook notifications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png",
      "score": 66.7,
      "band": "strong",
@@ -316,7 +320,7 @@
     {
      "name": "Highnote",
      "slug": "highnote",
-     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service",
+     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
      "score": 65.5,
      "band": "strong",
@@ -481,7 +485,7 @@
     {
      "name": "Dwolla",
      "slug": "dwolla",
-     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform",
+     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png",
      "score": 62.5,
      "band": "strong",
@@ -524,7 +528,7 @@
     {
      "name": "Ramp",
      "slug": "ramp",
-     "description": "Ramp is a finance automation platform that combines corporate cards,",
+     "description": "Ramp is a finance automation platform that combines corporate cards, expense management, accounts payable, vendor management, and accounting integrations into a single product. The Ramp Developer API enables developers to access and manage Ramp account data, build applications for the Ramp App Center reaching over 25,000 Ramp customers, and automate financial workflows by integrating Ramp into existing systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png",
      "score": 62.5,
      "band": "strong",
@@ -561,7 +565,7 @@
     {
      "name": "Payabli",
      "slug": "payabli",
-     "description": "Payabli is an embedded payments platform and fintech operating system that lets software",
+     "description": "Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its \"three Ps\" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), and Pay Ops (boarding, operations, reporting, and money movement). The platform provides card and ACH processing, tokenization, PCI-certified embedded checkout components, subscriptions and recurring billing, invoicing, vendor and customer management, disputes, and a webhook event surface, along with official server SDKs in eight languages, a hosted MCP server, and packaged agent skills.",
      "score": 60.6,
      "band": "strong",
      "band_label": "Strong",
@@ -603,7 +607,7 @@
     {
      "name": "Cash App",
      "slug": "cash-app",
-     "description": "Cash App is a consumer mobile-first financial services platform operated",
+     "description": "Cash App is a consumer mobile-first financial services platform operated by Block, Inc. (formerly Square, Inc.), a publicly traded company. Cash App is not itself a chartered bank; its banking, card, and lending features are delivered through partner institutions (deposit accounts and the Cash App Card are issued by partner banks, historically Sutton Bank and Lincoln Savings Bank; brokerage and bitcoin services run through Block subsidiaries). Its public developer surface is a merchant/PSP payment-acceptance product, not a consumer-permissioned data-access API - Cash App Pay lets partners and payment service providers charge customers directly from their Cash App balance or linked funding source, and the Afterpay (Cash App Afterpay) buy-now-pay-later product is offered through the same portal. Block runs a real, public first-party developer portal at developers.cash.app (built on Fern) that publishes downloadable OpenAPI 3.1 specifications for the Cash App Pay Partner API (Customer Request, Network, and Management APIs on api.cash.app) and the Afterpay Global API (on global-api.afterpay.com). Consumer-side account data is reached by third parties through aggregators (e.g. Plaid) rather than a first-party FDX data-access API; no FDX participation or CFPB Section 1033 data-rights posture is documented in the developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png",
      "score": 60.4,
      "band": "strong",
@@ -695,6 +699,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 17,
+   "shown": 17,
    "companies": [
     {
      "name": "Paxos",
@@ -741,7 +746,7 @@
     {
      "name": "TabaPay",
      "slug": "tabapay",
-     "description": "'TabaPay is an instant money movement platform for fintechs, banks, and payment",
+     "description": "TabaPay is an instant money movement platform for fintechs, banks, and payment companies. One Unified API accepts payments (pull) and sends payouts (push) across debit and credit card networks (Visa, Mastercard, Discover, American Express, Accel, STAR), RTP by The Clearing House, and ACH, with cross-border push-to-card, 3D Secure, account verification (AVS, ANI, OFAC), tokenized card storage, KYB/KYC verifications, ledgers, and real-time transaction monitoring. TabaPay is a PCI DSS Level 1 service provider, SOC 1 and SOC 2 Type II certified, and backed by SoftBank Vision Fund. APIs are not publicly self-serve: clients board through TabaPay and receive a dedicated FQDN plus bearer credentials for sandbox and production.",
      "score": 57.5,
      "band": "developing",
      "band_label": "Developing",
@@ -912,7 +917,7 @@
     {
      "name": "Mastercard",
      "slug": "mastercard",
-     "description": "Mastercard is a global technology company in the payments industry, providing",
+     "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
      "score": 52.2,
      "band": "developing",
@@ -1206,7 +1211,7 @@
     {
      "name": "Lithic",
      "slug": "lithic",
-     "description": "Lithic is a modern card-issuing and program-management platform offering",
+     "description": "Lithic is a modern card-issuing and program-management platform offering REST APIs for cards, accounts, transactions, authorization control, ACH/wire payments, external bank accounts, account-holder KYC/KYB, 3-D Secure, tokenization, disputes, and webhooks. OpenAPI spec is published via Stainless and powers official SDKs in Node, Python, Go, Java, Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithic/refs/heads/main/screenshots/lithic-2026-06-20T184605.png",
      "score": 46.8,
      "band": "developing",
@@ -1249,7 +1254,7 @@
     {
      "name": "Marqeta",
      "slug": "marqeta",
-     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core",
+     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core API is a large RESTful surface covering cards, users, businesses, GPA orders, KYC/KYB, fee transfer, transactions, real-time decisioning, MCC groups, programs, and webhooks. The Diva (Digital Wallets, Tokenization, 3DS) API extends the Core API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png",
      "score": 46.7,
      "band": "developing",
@@ -1335,7 +1340,7 @@
     {
      "name": "Affirm",
      "slug": "affirm",
-     "description": "Affirm is a buy-now-pay-later platform offering installment loans at",
+     "description": "Affirm is a buy-now-pay-later platform offering installment loans at point-of-sale via merchant SDKs and direct APIs. Public Series A through F-funded company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png",
      "score": 46.1,
      "band": "developing",
@@ -1425,11 +1430,12 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 21,
+   "shown": 21,
    "companies": [
     {
      "name": "Visa",
      "slug": "visa",
-     "description": "Visa is a global payment technology company that facilitates electronic",
+     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
      "score": 43.7,
      "band": "thin",
@@ -1675,7 +1681,7 @@
     {
      "name": "Modern Treasury",
      "slug": "modern-treasury",
-     "description": "Modern Treasury is a money movement platform unifying ACH, wires, RTP, checks, FX, and reconciliation across",
+     "description": "Modern Treasury is a money movement platform unifying ACH, wires, RTP, checks, FX, and reconciliation across multiple bank partners. Operates as the financial operations system of record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png",
      "score": 42.3,
      "band": "thin",
@@ -1841,7 +1847,7 @@
     {
      "name": "Basis Theory",
      "slug": "basis-theory",
-     "description": "Basis Theory is a PCI Level 1 compliant tokenization and data vault platform.",
+     "description": "Basis Theory is a PCI Level 1 compliant tokenization and data vault platform. Its API-first product lets developers tokenize, store, and use sensitive data - cardholder data, PII, PHI, and bank account numbers - without that data ever touching their own systems, using tokens, a detokenizing Proxy, serverless Reactors, and 3D Secure authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png",
      "score": 38.4,
      "band": "thin",
@@ -1884,7 +1890,7 @@
     {
      "name": "Nacha",
      "slug": "nacha",
-     "description": "'Nacha (formerly the National Automated Clearing House Association) is the nonprofit, member-governed",
+     "description": "Nacha (formerly the National Automated Clearing House Association) is the nonprofit, member-governed steward of the ACH Network, the batch-based account-to-account payment rail that moves consumer and business direct deposits, direct payments, bill pay, and B2B transfers across the United States — more than 30 billion payments and over $80 trillion in value annually. Nacha writes and enforces the Nacha Operating Rules that bind the network's participating depository financial institutions, but it is not itself an ACH Operator (the Federal Reserve and The Clearing House clear and settle the files). Nacha is documentation- and rulebook-first rather than a self-serve PSP: it does not operate a public production payments API of its own. Its API posture is delivered through Afinis Interoperability Standards, the Nacha-stewarded group that publishes royalty-free, standardized financial-services API specifications (payment initiation, account validation, transaction status, returns reporting, and directory services) as Swagger/OpenAPI documents on SwaggerHub, and through Phixius, its payment-information exchange platform. Its home market is the United States.",
      "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
@@ -2054,7 +2060,7 @@
     {
      "name": "Cross River",
      "slug": "cross-river",
-     "description": "Cross River is a regulated bank (FDIC member, Fort Lee, NJ) that delivers",
+     "description": "Cross River is a regulated bank (FDIC member, Fort Lee, NJ) that delivers embedded finance and Banking-as-a-Service (BaaS) through its Cross River Operating System (COS) - a collection of REST APIs for deposit accounts, ACH, wires, instant payments (RTP, FedNow, CRNow), card issuing and processing, lending, and KYC/customer onboarding. Access is partner/enterprise-gated - programs are onboarded through Cross River sales and a relationship manager, and OAuth2 client credentials are provisioned for sandbox and then production. Endpoints are grounded in the public developer documentation at docs.crossriver.com; request/response schemas are modeled where the live sandbox is credential-gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png",
      "score": 36.0,
      "band": "thin",
@@ -2097,7 +2103,7 @@
     {
      "name": "Worldpay",
      "slug": "worldpay",
-     "description": "Worldpay is a global payment processing platform (part of FIS) offering",
+     "description": "Worldpay is a global payment processing platform (part of FIS) offering REST APIs for payment acceptance, transaction management, tokenization, recurring billing, fraud prevention, and global acquiring services. It supports card payments, digital wallets, alternative payment methods, payouts, foreign exchange, and hosted payment pages across more than 146 countries.",
      "score": 35.8,
      "band": "thin",
      "band_label": "Thin",
@@ -2182,7 +2188,7 @@
     {
      "name": "Increase",
      "slug": "increase",
-     "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct",
+     "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct connectivity (no aggregator middle layer).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png",
      "score": 32.0,
      "band": "thin",
@@ -2225,7 +2231,7 @@
     {
      "name": "Column",
      "slug": "column",
-     "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow,",
+     "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow, checks, BIN sponsorship, and bank-direct ledgering.",
      "score": 30.8,
      "band": "thin",
      "band_label": "Thin",
@@ -2315,11 +2321,12 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 9,
+   "shown": 9,
    "companies": [
     {
      "name": "Payoneer",
      "slug": "payoneer",
-     "description": "'Payoneer is a global payment platform that enables businesses to pay",
+     "description": "Payoneer is a global payment platform that enables businesses to pay and get paid across borders in multiple currencies. It offers REST APIs for mass payouts, marketplace payment distribution, payment requests, and currency conversion. The Mass Payout API supports payee registration, account approval, and fund transfers at scale, while the Checkout API provides ecommerce platforms with tools to accept and manage global payments. Authentication is handled via OAuth2 bearer tokens using the client credentials flow, with credentials issued after an integration partnership is approved. Payoneer also provides a PSD2-compliant developer portal for European banking integrations, and maintains a Postman workspace with published API collections.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/screenshots/payoneer-2026-06-20T191503.png",
      "score": 28.9,
      "band": "emerging",
@@ -2447,7 +2454,7 @@
     {
      "name": "Discover",
      "slug": "discover",
-     "description": "Discover is a financial services company that offers a range of products",
+     "description": "Discover is a financial services company that offers a range of products and services to help individuals manage their money. They provide credit cards, personal loans, home equity loans, and savings and checking accounts. Discover also operates an online banking platform that allows customers to easily access and manage their accounts from anywhere. Additionally, Discover offers cash back rewards and other perks to help customers make the most of their finances.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/screenshots/discover-2026-06-20T180039.png",
      "score": 24.4,
      "band": "emerging",
@@ -2484,7 +2491,7 @@
     {
      "name": "Remitly",
      "slug": "remitly",
-     "description": "'Remitly is a Seattle-based digital financial services provider for immigrants",
+     "description": "Remitly is a Seattle-based digital financial services provider for immigrants and their families, operating a global cross-border remittance and money-movement network across more than 170 countries. Beyond its consumer money-transfer app, Remitly runs \"Remitly for Developers\" (Remitly Access), a gated enterprise partner API that lets businesses embed international payouts, cross-border payments, and locally relevant disbursement options into their own products, along with open-source \"Connected Experiences\" mobile/web SDK components. Remitly is a regulated money services business: FinCEN-registered, licensed as a money transmitter across all 50 U.S. states, and registered with FINTRAC in Canada. Added to the API Evangelist network as a fintech company profile and enriched with identity, domain-security, and compliance artifacts.",
      "score": 23.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2702,6 +2709,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Billtrust",
@@ -2743,7 +2751,7 @@
     {
      "name": "WePay",
      "slug": "wepay",
-     "description": "WePay is a payments platform, founded in 2008 and backed by 500 Global and Y Combinator,",
+     "description": "WePay is a payments platform, founded in 2008 and backed by 500 Global and Y Combinator, that provided integrated payments (payment processing, merchant onboarding, and payouts) embedded inside software platforms and online marketplaces. WePay was acquired by JPMorgan Chase in 2017 and its capabilities were folded into Chase Integrated Payments (WePay Clear and WePay Link). As of this enrichment pass the standalone WePay developer platform has been decommissioned. developer.wepay.com serves a deleted storage bucket, api.wepay.com is unreachable, www.wepay.com redirects to a dead landing page, and all wepay.com TLS certificates have expired, so no live public API surface remains.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2828,7 +2836,7 @@
     {
      "name": "Ripple",
      "slug": "ripple",
-     "description": "Ripple is a company surfaced as a portfolio company of 500-global, lightspeed-venture-partners",
+     "description": "Ripple is a company surfaced as a portfolio company of 500-global, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2864,7 +2872,7 @@
     {
      "name": "WEX",
      "slug": "wex",
-     "description": "'Fortune 1000 company WEX. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company WEX. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wex/refs/heads/main/screenshots/wex-2026-06-20T201419.png",
      "score": 4.6,
      "band": "minimal",

@@ -1,5 +1,7 @@
 {
  "total": 891,
+ "shown": 891,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Amazon HealthOmics",
@@ -59,6 +62,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 20,
+   "shown": 20,
    "companies": [
     {
      "name": "TetraScience",
@@ -904,6 +908,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 39,
+   "shown": 39,
    "companies": [
     {
      "name": "Labguru",
@@ -2486,6 +2491,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 176,
+   "shown": 176,
    "companies": [
     {
      "name": "Life Sciences",
@@ -9746,6 +9752,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 651,
+   "shown": 651,
    "companies": [
     {
      "name": "Massive Bio",
@@ -35882,6 +35889,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Canaan Partners",

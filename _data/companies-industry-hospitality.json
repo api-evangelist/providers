@@ -1,5 +1,7 @@
 {
  "total": 19,
+ "shown": 19,
+ "limit": 1000,
  "bands": [
   {
    "band": "thin",
@@ -7,6 +9,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Hilton",
@@ -52,6 +55,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 18,
+   "shown": 18,
    "companies": [
     {
      "name": "Caesars Entertainment",

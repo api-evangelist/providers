@@ -1,5 +1,7 @@
 {
  "total": 10,
+ "shown": 10,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Jane",
@@ -60,6 +63,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Canada Health Infoway",
@@ -113,6 +117,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "Maple",
@@ -286,7 +291,7 @@
     {
      "name": "Dialogue",
      "slug": "dialogue",
-     "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness",
+     "description": "Dialogue is a leading Canadian virtual healthcare and employee wellness provider operating an Integrated Health Platform that delivers primary care, mental health support, Employee Assistance Programs (EAP), and wellness programming to members through a single mobile and web application available 24/7/365. The company serves more than 52,000 Canadian organizations — including Sun Life, National Bank of Canada, Via Rail, Lightspeed, and Samsung — connecting employees and their families with multidisciplinary care teams of nurses, physicians, and mental health specialists. Dialogue is a consumer-facing digital health application; it does not currently publish a public developer API or OpenAPI surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialogue/refs/heads/main/screenshots/dialogue-2026-07-25T211910.png",
      "score": 20.7,
      "band": "emerging",
@@ -329,7 +334,7 @@
     {
      "name": "Tia Health",
      "slug": "tia-health",
-     "description": "Tia Health is a Canadian telehealth platform that connects patients with",
+     "description": "Tia Health is a Canadian telehealth platform that connects patients with licensed Canadian providers - family doctors, nurse practitioners, specialists, and naturopaths - for on-demand virtual care by phone, video, and secure messaging. Its services span virtual walk-in and family-practice appointments, prescription renewals, sick notes, lab requisitions, and mental health therapy (via partner Focus Mental Wellness), with visits covered by provincial health plans in Ontario (OHIP), British Columbia (MSP), and Alberta (AHCIP) and paid options elsewhere. Tia Health is part of the WELL Health Technologies Corp. clinic network, one of the largest outpatient networks in Canada. As of this review Tia Health is a consumer-facing virtual-care product with no public developer portal, no documented REST/OpenAPI, and no exposed HL7 FHIR CapabilityStatement or SMART-on-FHIR configuration; interoperability in the Canadian market is stewarded federally through Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications, which this platform does not publicly surface.",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -419,6 +424,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Pomelo Health",

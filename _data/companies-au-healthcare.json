@@ -1,5 +1,7 @@
 {
  "total": 12,
+ "shown": 12,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Heidi Health",
@@ -60,6 +63,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Coviu",
@@ -107,7 +111,7 @@
     {
      "name": "Halo Connect",
      "slug": "halo-connect",
-     "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered",
+     "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered in Brisbane, Queensland, that makes primary-care data integration simple by exposing on-premise practice management system (PMS) databases through a modern cloud API. Its Halo Link agent and Halo Cloud service let approved software integrators query systems such as Best Practice, Zedmed, and Dental4Windows using either SQL passthrough or a standards-based FHIR R4 (4.0.1) API built toward the AU Base 4.1.0 implementation guide, without maintaining a separate database agent per integration. Halo Connect built the first FHIR API for the Best Practice Premier medical-practice industry. The platform runs on Microsoft Azure hosted in Australia, and access is gated behind a Halo Cloud subscription using Azure API Management subscription keys and, for desktop applications, bearer JWT tokens issued from a token endpoint; there is no self-serve public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png",
      "score": 58.3,
      "band": "developing",
@@ -199,6 +203,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "HotDoc",
@@ -331,7 +336,7 @@
     {
      "name": "Cliniko",
      "slug": "cliniko",
-     "description": "Cliniko is practice management software for allied health practices and",
+     "description": "Cliniko is practice management software for allied health practices and clinics - physiotherapy, osteopathy, chiropractic, podiatry, psychology, massage, and similar - covering patient records, appointment scheduling and online bookings, practitioners and businesses (locations), treatment notes, invoicing, and payments. Cliniko exposes a well-documented public REST API over HTTPS. The API is region-sharded - the base host is derived from the shard suffix on your API key (for example `https://api.au1.cliniko.com/v1/`) - and is authenticated with an API key passed as the username in HTTP Basic authentication. Every request must also send a `User-Agent` header containing an app/vendor name and a valid contact email, or requests may be blocked.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png",
      "score": 36.9,
      "band": "thin",
@@ -379,6 +384,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Australian Digital Health Agency",
@@ -510,7 +516,7 @@
     {
      "name": "Eucalyptus",
      "slug": "eucalyptus",
-     "description": "'Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and",
+     "description": "Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and headquartered in Sydney, Australia, that builds and operates patient-first telehealth clinics. It runs four consumer digital-health brands — Juniper (women's weight management and menopause), Pilot (men's health, hair loss, sexual health and weight), Software (clinical-grade skincare and dermatology) and Kin (reproductive, fertility and postpartum care) — across Australia, the United Kingdom, Germany, Japan and Canada, pairing licensed practitioners with technology and connected-care tooling. Eucalyptus was acquired by Hims & Hers Health in June 2026. This profile is a consumer-facing healthtech company: it publishes no public developer API, developer portal, or OpenAPI at this time, so enrichment is limited to verified corporate identity, published website properties, a responsible-disclosure program, and probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eucalyptus/refs/heads/main/screenshots/eucalyptus-2026-07-25T213704.png",
      "score": 15.0,
      "band": "emerging",

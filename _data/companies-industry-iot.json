@@ -1,5 +1,7 @@
 {
  "total": 786,
+ "shown": 786,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,6 +9,7 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Twilio",
@@ -161,6 +164,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 38,
+   "shown": 38,
    "companies": [
     {
      "name": "Amazon Snow Family",
@@ -1574,6 +1578,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 113,
+   "shown": 113,
    "companies": [
     {
      "name": "Oura Ring",
@@ -5712,6 +5717,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 113,
+   "shown": 113,
    "companies": [
     {
      "name": "aWATTar",
@@ -9842,6 +9848,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 192,
+   "shown": 192,
    "companies": [
     {
      "name": "Amphenol",
@@ -16990,6 +16997,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 324,
+   "shown": 324,
    "companies": [
     {
      "name": "Beewise",
@@ -28788,6 +28796,7 @@
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "High Tech",

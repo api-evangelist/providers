@@ -1,5 +1,7 @@
 {
  "total": 23,
+ "shown": 23,
+ "limit": 1000,
  "bands": [
   {
    "band": "emerging",
@@ -7,6 +9,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "ABM Industries",
@@ -279,6 +282,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 16,
+   "shown": 16,
    "companies": [
     {
      "name": "Alexandria Real Estate Equities",

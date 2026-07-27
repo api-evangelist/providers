@@ -1,5 +1,7 @@
 {
  "total": 113,
+ "shown": 113,
+ "limit": 1000,
  "bands": [
   {
    "band": "exemplar",
@@ -7,11 +9,12 @@
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Plaid",
      "slug": "plaid",
-     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API",
+     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API platform for businesses to securely connect with their users' bank and financial accounts. Plaid acts as the interface between 12,000+ financial institutions and third-party applications, powering bank-account verification (Auth, Balance, Identity), transactions and enrichment, income and asset verification, lending data (Assets, Liabilities, Investments, Consumer Report/CRA), risk and fraud tooling (Signal, Beacon, Monitor watchlist screening, Identity Verification), and money movement (Transfer, Payment Initiation, Virtual Accounts). Developers integrate through Plaid Link, a self-serve dashboard, client credentials, per-Item access tokens, and a publicly published OpenAPI definition. In the US voluntary open-finance landscape Plaid is an aggregator, and it also operates Core Exchange, its FDX-aligned data-access API for data providers, positioning it for CFPB 1033 open-banking rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png",
      "score": 74.9,
      "band": "exemplar",
@@ -54,7 +57,7 @@
     {
      "name": "Unit",
      "slug": "unit",
-     "description": "Unit is a US Banking-as-a-Service (BaaS) platform that lets companies",
+     "description": "Unit is a US Banking-as-a-Service (BaaS) platform that lets companies embed banking, cards, and payments into their own products. Its REST API — organized around Applications, Customers, Accounts (deposit, credit, wallet/FBO, DACA), Cards, Payments (book, ACH, wire, recurring, received, cash deposit), Checks, Card Authorizations, Disputes, Transactions, Statements, Tax Forms, Fees & Rewards, Credit repayments, Stop Payments, and Webhooks — is authenticated with organization and customer bearer tokens and secured with idempotency keys and resource tagging. Unit publishes a public OpenAPI 3.0.2 specification (openapi-unit-sdk) and generates official Node, Python, Ruby, and Java SDKs from it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png",
      "score": 72.7,
      "band": "exemplar",
@@ -103,11 +106,12 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Highnote",
      "slug": "highnote",
-     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service",
+     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
      "score": 65.5,
      "band": "strong",
@@ -150,7 +154,7 @@
     {
      "name": "Dwolla",
      "slug": "dwolla",
-     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform",
+     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png",
      "score": 62.5,
      "band": "strong",
@@ -193,7 +197,7 @@
     {
      "name": "MX",
      "slug": "mx",
-     "description": "MX Technologies is a privately held financial data platform headquartered",
+     "description": "MX Technologies is a privately held financial data platform headquartered in Lehi, Utah, operating as a B2B data aggregator and open-finance infrastructure provider rather than a chartered bank or credit union. MX connects consumer and business accounts across tens of thousands of financial institutions and fintechs, then cleanses, categorizes, and enhances the resulting transaction data so banks and fintechs can build verification, aggregation, and personal-finance experiences. Unlike most US banks, MX runs a real, self-documented developer surface — the MX Platform API (HTTP Basic auth over https://api.mx.com), a Consent Management API, and a Data Access product that shares and consumes institution data using FDX and OAuth standards — with downloadable OpenAPI 3.0 specifications published at docs.mx.com. MX is one of the major US open-finance aggregators (alongside Plaid, Finicity, and Akoya) and positions Data Access as FDX-conformant, consumer-permissioned, tokenized data sharing.",
      "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
@@ -235,7 +239,7 @@
     {
      "name": "Cash App",
      "slug": "cash-app",
-     "description": "Cash App is a consumer mobile-first financial services platform operated",
+     "description": "Cash App is a consumer mobile-first financial services platform operated by Block, Inc. (formerly Square, Inc.), a publicly traded company. Cash App is not itself a chartered bank; its banking, card, and lending features are delivered through partner institutions (deposit accounts and the Cash App Card are issued by partner banks, historically Sutton Bank and Lincoln Savings Bank; brokerage and bitcoin services run through Block subsidiaries). Its public developer surface is a merchant/PSP payment-acceptance product, not a consumer-permissioned data-access API - Cash App Pay lets partners and payment service providers charge customers directly from their Cash App balance or linked funding source, and the Afterpay (Cash App Afterpay) buy-now-pay-later product is offered through the same portal. Block runs a real, public first-party developer portal at developers.cash.app (built on Fern) that publishes downloadable OpenAPI 3.1 specifications for the Cash App Pay Partner API (Customer Request, Network, and Management APIs on api.cash.app) and the Afterpay Global API (on global-api.afterpay.com). Consumer-side account data is reached by third parties through aggregators (e.g. Plaid) rather than a first-party FDX data-access API; no FDX participation or CFPB Section 1033 data-rights posture is documented in the developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png",
      "score": 60.4,
      "band": "strong",
@@ -284,11 +288,12 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 25,
+   "shown": 25,
    "companies": [
     {
      "name": "Financial Data Exchange (FDX)",
      "slug": "fdx",
-     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body",
+     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
      "score": 57.1,
      "band": "developing",
@@ -331,7 +336,7 @@
     {
      "name": "Charles Schwab",
      "slug": "charles-schwab",
-     "description": "Charles Schwab is a financial services company providing brokerage, banking,",
+     "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
      "score": 56.0,
      "band": "developing",
@@ -411,7 +416,7 @@
     {
      "name": "Bank of America",
      "slug": "bank-of-america",
-     "description": "Bank of America is a multinational investment bank and financial services",
+     "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
      "score": 55.4,
      "band": "developing",
@@ -625,7 +630,7 @@
     {
      "name": "Chime",
      "slug": "chime",
-     "description": "Chime is a neobank and fintech platform offering fee-free checking and",
+     "description": "Chime is a neobank and fintech platform offering fee-free checking and savings accounts, early paycheck access, credit building, and peer-to-peer payment features for consumer banking. The Chime Partner API enables developers to access user account information, transaction details, account balances, statements, and payment initiation through OAuth 2.0 authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/screenshots/chime-2026-06-20T174317.png",
      "score": 52.2,
      "band": "developing",
@@ -834,7 +839,7 @@
     {
      "name": "Wells Fargo",
      "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
      "score": 48.3,
      "band": "developing",
@@ -871,7 +876,7 @@
     {
      "name": "Customers Bank",
      "slug": "customers-bank",
-     "description": "Customers Bank is a Pennsylvania state-chartered, FDIC-insured full-service commercial",
+     "description": "Customers Bank is a Pennsylvania state-chartered, FDIC-insured full-service commercial bank and the principal subsidiary of Customers Bancorp, Inc. (NYSE CUBI), a super-regional bank holding company with roughly $22 billion in assets headquartered in West Reading, Pennsylvania. Beyond traditional commercial and consumer banking it operates a national embedded-banking / Banking-as-a-Service platform, exposing a first-party, OAuth2-secured REST API surface (accounts, ACH, wires, instant payments, book transfers, consumer lending, plus partner, IT-operations and webhook management) to fintech and corporate partners through a public ReadMe developer portal at cubiapi.readme.io, complete with a hosted Model Context Protocol (MCP) server for AI agents. This is proprietary, partner-gated integration infrastructure rather than an FDX or CFPB Section 1033 consumer-permissioned data-sharing API; no FDX-conformant or Section 1033 data-access endpoint is publicly documented, and the surface is a sandbox-first partner API secured by OAuth2 client-credentials with HMAC-signed webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png",
      "score": 47.7,
      "band": "developing",
@@ -914,7 +919,7 @@
     {
      "name": "Finicity",
      "slug": "finicity",
-     "description": "Finicity, LLC is a Utah-based financial-data aggregator and open-finance",
+     "description": "Finicity, LLC is a Utah-based financial-data aggregator and open-finance technology provider acquired by Mastercard in 2020 and now operating as Mastercard Open Banking (US) within Mastercard Open Finance. It is not a chartered bank but a consumer-permissioned data-access and decisioning platform (and an FCRA-regulated consumer reporting agency for its verification products), providing account and transaction aggregation, Verification of Assets, Income and Employment, transaction and cash-flow analysis, statements, and account validation for ACH payments. Finicity runs a first-party developer portal (developer.mastercard.com/open-banking-us, formerly developer.finicity.com and docs.finicity.com, both of which now redirect) over the live api.finicity.com host, is a founding participant in the Financial Data Exchange (FDX) with FDX-aligned data-sharing APIs, and positions its platform as an enabler of CFPB Section 1033 personal financial data rights. Public product documentation is openly reachable, but the full API reference and any machine-readable OpenAPI specification are partner-gated behind Mastercard Developers credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png",
      "score": 47.5,
      "band": "developing",
@@ -1043,7 +1048,7 @@
     {
      "name": "Lithic",
      "slug": "lithic",
-     "description": "Lithic is a modern card-issuing and program-management platform offering",
+     "description": "Lithic is a modern card-issuing and program-management platform offering REST APIs for cards, accounts, transactions, authorization control, ACH/wire payments, external bank accounts, account-holder KYC/KYB, 3-D Secure, tokenization, disputes, and webhooks. OpenAPI spec is published via Stainless and powers official SDKs in Node, Python, Go, Java, Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithic/refs/heads/main/screenshots/lithic-2026-06-20T184605.png",
      "score": 46.8,
      "band": "developing",
@@ -1086,7 +1091,7 @@
     {
      "name": "Marqeta",
      "slug": "marqeta",
-     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core",
+     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core API is a large RESTful surface covering cards, users, businesses, GPA orders, KYC/KYB, fee transfer, transactions, real-time decisioning, MCC groups, programs, and webhooks. The Diva (Digital Wallets, Tokenization, 3DS) API extends the Core API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png",
      "score": 46.7,
      "band": "developing",
@@ -1129,7 +1134,7 @@
     {
      "name": "Envestnet",
      "slug": "envestnet",
-     "description": "Envestnet is an ever-evolving network of data-driven services, products, tools, and technologies designed to",
+     "description": "Envestnet is an ever-evolving network of data-driven services, products, tools, and technologies designed to enable the Intelligent Financial Life. Our robust financial wellness ecosystem offers solutions for every role in the financial advice industry, including the Yodlee account aggregation, verification, credit, insights, and personalized view APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png",
      "score": 46.6,
      "band": "developing",
@@ -1348,6 +1353,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 18,
+   "shown": 18,
    "companies": [
     {
      "name": "KeyCorp",
@@ -1395,7 +1401,7 @@
     {
      "name": "Mercury",
      "slug": "mercury",
-     "description": "Mercury is a banking platform built for startups and tech companies,",
+     "description": "Mercury is a banking platform built for startups and tech companies, offering checking, savings, treasury, and corporate-card services. The Mercury REST API exposes accounts, transactions, statements, recipients, ACH and wire payments, treasury yield, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png",
      "score": 42.9,
      "band": "thin",
@@ -1438,7 +1444,7 @@
     {
      "name": "Capital One",
      "slug": "capital-one",
-     "description": "Capital One is a US money-center bank and financial services company offering",
+     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
      "score": 40.1,
      "band": "thin",
@@ -1825,7 +1831,7 @@
     {
      "name": "Yodlee",
      "slug": "yodlee",
-     "description": "Yodlee (Envestnet | Yodlee) is a financial data aggregation platform",
+     "description": "Yodlee (Envestnet | Yodlee) is a financial data aggregation platform providing unified API access to bank accounts, credit card transactions, investments, loans, and insurance data across thousands of financial institutions. The Yodlee Core APIs v1.1 enable secure account aggregation, transaction enrichment, risk analytics, consent management, and account verification for fintech applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png",
      "score": 32.4,
      "band": "thin",
@@ -1868,7 +1874,7 @@
     {
      "name": "Increase",
      "slug": "increase",
-     "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct",
+     "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct connectivity (no aggregator middle layer).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png",
      "score": 32.0,
      "band": "thin",
@@ -2039,7 +2045,7 @@
     {
      "name": "Column",
      "slug": "column",
-     "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow,",
+     "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow, checks, BIN sponsorship, and bank-direct ledgering.",
      "score": 30.8,
      "band": "thin",
      "band_label": "Thin",
@@ -2129,6 +2135,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 40,
+   "shown": 40,
    "companies": [
     {
      "name": "East West Bank",
@@ -2176,7 +2183,7 @@
     {
      "name": "Treasury Prime",
      "slug": "treasury-prime",
-     "description": "Treasury Prime is an embedded banking platform connecting fintechs and",
+     "description": "Treasury Prime is an embedded banking platform connecting fintechs and enterprises to a network of partner banks. Provides REST APIs for persons, businesses, accounts, cards, payments (ACH, wire, book), transactions, statements, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png",
      "score": 29.8,
      "band": "emerging",
@@ -2303,7 +2310,7 @@
     {
      "name": "Novo",
      "slug": "novo",
-     "description": "Novo is a New York- and Miami-based financial technology company, founded",
+     "description": "Novo is a New York- and Miami-based financial technology company, founded in 2016, that operates a digital business-banking platform for small businesses, entrepreneurs, and freelancers. Novo is not itself a chartered bank; it is a service provider to Middlesex Federal Savings, F.A. (Member FDIC), which holds the deposits and provides the underlying banking products accessed through Novo's app. The platform offers fee-free business checking, invoicing, Novo Reserves, expense management, a business debit/credit card, working-capital funding, and inbound integrations with tools like QuickBooks, Stripe, Shopify, and Wise. On open-finance posture, Novo publishes no first-party public developer API and runs no developer portal; consumer-permissioned account data (Auth, Balance, Identity, Transactions) is reached by third parties only through the Plaid aggregator. No documented FDX participation or CFPB Section 1033 data-access commitment is published as of this review.",
      "score": 24.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2431,7 +2438,7 @@
     {
      "name": "Axos Bank",
      "slug": "axos-bank",
-     "description": "Axos Bank is a branchless, digital-first federal savings bank chartered",
+     "description": "Axos Bank is a branchless, digital-first federal savings bank chartered and regulated by the U.S. Office of the Comptroller of the Currency (OCC) and a member of the FDIC. Founded in 2000 as Bank of Internet USA and rebranded Axos in 2018, it is the primary banking subsidiary of Axos Financial, Inc. (NYSE AX), a Delaware financial holding company headquartered in San Diego, California with roughly $29 billion in consolidated assets. Axos offers consumer and commercial deposit, lending, and treasury-management products online, and runs a first-party developer / Banking-as-a-Service program. That program is real but partner-gated - the public API Store documents four API product families (Account Enrollment, Account Maintenance, Payment Solutions, and Account Reporting) secured with OAuth 2.0, but access requires contacting the Axos API team; there is no self-serve signup, no publicly downloadable OpenAPI/Swagger specification, and no documented first-party FDX participation or published CFPB Section 1033 data-access posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/axos-bank/refs/heads/main/screenshots/axos-bank-2026-07-25T202103.png",
      "score": 23.1,
      "band": "emerging",
@@ -2474,7 +2481,7 @@
     {
      "name": "UMB Bank",
      "slug": "umb-financial",
-     "description": "UMB Bank, National Association is the primary banking subsidiary of UMB",
+     "description": "UMB Bank, National Association is the primary banking subsidiary of UMB Financial Corporation (Nasdaq ticker UMBF), a Kansas City, Missouri financial services holding company. UMB is a commercial bank operating under a national (federal) bank charter supervised by the Office of the Comptroller of the Currency (OCC), with roughly $70 billion in assets following its 2025 acquisition of Heartland Financial and branches across the central United States. It offers personal, commercial, and institutional banking, including asset servicing, corporate trust, and healthcare (HSA) services. UMB runs a partner-facing open-banking and Banking-as-a-Service (BaaS) program through its Institutional & Fintech Banking group, exposing REST APIs across risk & compliance, customer onboarding, accounts, information (statements/check images), and cash management. Access is partner-gated through a consultation and contracting process — there is no public self-serve developer portal, no publicly downloadable OpenAPI/Swagger specification, and no published FDX or CFPB 1033 posture. Consumer-permissioned account data is reached primarily through the Plaid aggregator rather than a first-party public API.",
      "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2602,7 +2609,7 @@
     {
      "name": "EverBank",
      "slug": "everbank",
-     "description": "EverBank, N.A. is a Jacksonville, Florida based national bank (Member",
+     "description": "EverBank, N.A. is a Jacksonville, Florida based national bank (Member FDIC) focused on high-yield consumer deposits, business and treasury banking, and commercial lending, serving customers nationwide online plus a small network of financial centers in Florida, California and New York. The bank operated as TIAA Bank from 2017 until 2023, when it was acquired by an investor group and reverted to the EverBank brand as an independent institution. Like most US banks, EverBank publishes NO first-party public developer API or developer portal; there is no documented open-banking, FDX, or CFPB Section 1033 data-access API exposed directly. Consumer-permissioned account data is reached only through third-party aggregators (e.g. Plaid, MX, Finicity), which is the honest, non-fabricated posture recorded here.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/everbank/refs/heads/main/screenshots/everbank-2026-07-25T213722.png",
      "score": 20.2,
      "band": "emerging",
@@ -2901,7 +2908,7 @@
     {
      "name": "Dave",
      "slug": "dave",
-     "description": "'Dave is a U.S. consumer financial-technology company (Nasdaq: DAVE), founded in 2016",
+     "description": "Dave is a U.S. consumer financial-technology company (Nasdaq: DAVE), founded in 2016 and headquartered in Los Angeles, that operates a mobile banking app serving roughly 14 million members. Its products include ExtraCash short-term cash advances of up to $500 (underwritten with its CashAI cash-flow model rather than credit scores), an FDIC-insured Dave Checking account with early direct deposit and Round-Up savings, and a Goals savings account. Banking services are provided through partner banks such as Coastal Community Bank. Dave is a consumer app and does not publish a first-party public developer API, SDKs, or a developer portal: there is no developer.dave.com / docs.dave.com, and api.dave.com is the app's private, undocumented mobile backend. Programmatic access to Dave-held consumer data is aggregator-mediated — Dave both consumes Plaid (to let members link external accounts) and is reachable as a supported institution through open-finance aggregators. This profile captures its public identity, aggregator-only open-finance posture, commercial link surface, and domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dave/refs/heads/main/screenshots/dave-2026-07-25T211429.png",
      "score": 17.4,
      "band": "emerging",
@@ -2944,7 +2951,7 @@
     {
      "name": "BECU",
      "slug": "becu",
-     "description": "BECU (Boeing Employees' Credit Union) is a member-owned, not-for-profit",
+     "description": "BECU (Boeing Employees' Credit Union) is a member-owned, not-for-profit state-chartered credit union founded in 1935 and headquartered in Tukwila, Washington (NMLS ID 490518). Originally serving Boeing employees, it is today one of the largest credit unions in the United States, offering consumer and business deposit accounts, lending, mortgages, and investment services across the Pacific Northwest and nationally through digital channels. Like the vast majority of US credit unions, BECU exposes no public first-party developer API or developer portal; its digital banking runs on established core and fintech vendors (FIS, LPL/Client Point, ICE/Ellie Mae for mortgage), and consumer-permissioned data access for third-party fintech apps is intermediated through data aggregators rather than a documented, self-serve BECU API. US open finance is voluntary and fragmented, and no mandated open-banking API contract applies here; the CFPB Section 1033 Personal Financial Data Rights rule is the emerging framework that will shape BECU's future data-access posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/becu/refs/heads/main/screenshots/becu-2026-07-25T202614.png",
      "score": 17.2,
      "band": "emerging",
@@ -2987,7 +2994,7 @@
     {
      "name": "First Hawaiian Bank",
      "slug": "first-hawaiian-bank",
-     "description": "First Hawaiian Bank is Hawaii's oldest and largest financial institution,",
+     "description": "First Hawaiian Bank is Hawaii's oldest and largest financial institution, founded in 1858 and headquartered at First Hawaiian Center in Honolulu. It is a Hawaii state-chartered commercial bank and member FDIC, operating as the principal subsidiary of First Hawaiian, Inc. (NASDAQ ticker FHB), a publicly traded bank holding company. The bank serves consumer and commercial customers through roughly 57 branches in Hawaii plus locations in Guam and Saipan, offering deposit accounts, lending, wealth management, treasury/cash management, and merchant services. On the open-finance front, First Hawaiian operates no public first-party developer portal and publishes no downloadable OpenAPI/Swagger specifications; probes of developer.fhb.com, api.fhb.com, and fhb.com/en/developers returned no host or HTTP 404. Consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), not a direct bank API. No documented Financial Data Exchange (FDX) participation or published CFPB Section 1033 data-access posture was found as of this record. Its commercial online banking product (FHB Commercial Online, formerly OBC) is a traditional web application rather than a developer-facing API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/screenshots/first-hawaiian-bank-2026-07-25T214608.png",
      "score": 17.2,
      "band": "emerging",
@@ -3030,7 +3037,7 @@
     {
      "name": "Cadence Bank",
      "slug": "cadence-bank",
-     "description": "Cadence Bank is a regional U.S. commercial bank headquartered in Tupelo,",
+     "description": "Cadence Bank is a regional U.S. commercial bank headquartered in Tupelo, Mississippi and Houston, Texas, formed in October 2021 when legacy Cadence Bancorporation merged into BancorpSouth Bank (the surviving entity, subsequently renamed Cadence Bank; NYSE ticker CADE). It is a Mississippi state-chartered bank operating roughly 400+ branches across the U.S. South, Midwest, and Texas with about $48-50 billion in assets, offering consumer banking, mortgages, home equity, credit cards, small business and commercial banking, treasury management, and wealth/insurance services. On open finance, Cadence Bank exposes no first-party public developer API or developer portal; consumer-permissioned account data is reachable only through third-party aggregators (notably Plaid), which is the honest, prevailing posture for most U.S. regional banks. No documented direct FDX (Financial Data Exchange) membership or published CFPB Section 1033 data-access API was found as of this profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence-bank/refs/heads/main/screenshots/cadence-bank-2026-07-25T204210.png",
      "score": 16.8,
      "band": "emerging",
@@ -3073,7 +3080,7 @@
     {
      "name": "Associated Bank",
      "slug": "associated-banc-corp",
-     "description": "Associated Bank, N.A. is the primary banking subsidiary of Associated",
+     "description": "Associated Bank, N.A. is the primary banking subsidiary of Associated Banc-Corp (NYSE ASB), a nationally chartered commercial bank and the largest bank holding company headquartered in Wisconsin, based in Green Bay. With roughly $50 billion in total assets following the April 2026 acquisition of American National Corporation, Associated operates a full-service Midwest banking franchise of more than 200 locations across Wisconsin, Illinois, Iowa, Minnesota, Missouri and Nebraska, offering consumer, business, commercial and wealth-management services. Associated does not publish a first-party public developer portal or downloadable OpenAPI/Swagger specifications. Its digital banking runs on a core-provider stack (Jack Henry), and consumer-permissioned data access is delivered through third-party aggregators (Plaid, Tink/TrueLayer) rather than a direct first-party API. Its commercial treasury customers use the login-gated Associated Connect platform. No FDX participation or CFPB Section 1033 data-access posture is publicly documented as of this review.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/associated-banc-corp/refs/heads/main/screenshots/associated-banc-corp-2026-07-25T201444.png",
      "score": 16.1,
      "band": "emerging",
@@ -3329,7 +3336,7 @@
     {
      "name": "First Tech Federal Credit Union",
      "slug": "first-tech-federal",
-     "description": "First Tech Federal Credit Union is a federally chartered, member-owned,",
+     "description": "First Tech Federal Credit Union is a federally chartered, member-owned, not-for-profit financial cooperative headquartered in San Jose, California, and one of the largest credit unions in the United States. It was founded to serve employees of the technology industry and their families, and its membership is drawn heavily from workers at major technology employers. As an NCUA-insured credit union, First Tech offers consumer and business deposit accounts, lending, mortgages, credit cards, and wealth services delivered primarily through its website and mobile apps. Like the vast majority of US credit unions, First Tech publishes no first-party public developer portal or documented open API; consumer-permissioned financial data sharing is handled through third-party data aggregators (such as Plaid, MX, Finicity, and Akoya) rather than a directly documented first-party API surface. US open finance is voluntary and fragmented — the Financial Data Exchange (FDX) standard and the CFPB Section 1033 Personal Financial Data Rights rule are still emerging — and no first-party FDX-conformant data-access API or published Section 1033 posture was found for First Tech during this review.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-tech-federal/refs/heads/main/screenshots/first-tech-federal-2026-07-25T214611.png",
      "score": 15.9,
      "band": "emerging",
@@ -3372,7 +3379,7 @@
     {
      "name": "America First Credit Union",
      "slug": "america-first-credit-union",
-     "description": "America First Credit Union is a federally chartered, NCUA-insured credit",
+     "description": "America First Credit Union is a federally chartered, NCUA-insured credit union headquartered in Riverdale, Utah, founded in 1939. With roughly $19 billion in assets, more than one million members, and about 124 branches across seven western states (Utah, Idaho, Oregon, New Mexico, Arizona, Nevada, and California), it is one of the largest credit unions in the United States. Like the vast majority of US credit unions, America First operates no public first-party developer portal and publishes no downloadable OpenAPI/Swagger specifications. It provides no self-serve, publicly documented API surface; consumer-permissioned account data access is handled through third-party data aggregators and its core banking provider rather than a direct first-party API. No public FDX participation or CFPB Section 1033 data-access posture is documented on its public website as of this bootstrap. This record is an honest identity profile with no fabricated API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/america-first-credit-union/refs/heads/main/screenshots/america-first-credit-union-2026-07-25T200050.png",
      "score": 15.8,
      "band": "emerging",
@@ -3711,7 +3718,7 @@
     {
      "name": "Bank OZK",
      "slug": "bank-ozk",
-     "description": "Bank OZK is a regional bank headquartered in Little Rock, Arkansas, tracing",
+     "description": "Bank OZK is a regional bank headquartered in Little Rock, Arkansas, tracing its charter to 1903 and today operating roughly 265 offices across Arkansas, Georgia, Florida, North Carolina, Texas, and New York. It is a state-chartered commercial bank and the wholly owned subsidiary of Bank OZK holding company, publicly traded on the Nasdaq Global Select Market under the symbol OZK, with about $40.8 billion in total assets as of year-end 2025 and a national reputation in commercial real estate lending. Bank OZK runs no first-party public developer portal and publishes no downloadable OpenAPI/Swagger specifications; it is not a documented Financial Data Exchange (FDX) participant and has not published a specific CFPB Section 1033 data-access posture. Consumer-permissioned account data is reached only indirectly through third-party aggregators, with Plaid documented as the supporting aggregator. This is an honest identity-only profile with no public API surface.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3844,6 +3851,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 24,
+   "shown": 24,
    "companies": [
     {
      "name": "UBS Bank USA",
@@ -4484,7 +4492,7 @@
     {
      "name": "Randolph-Brooks FCU",
      "slug": "randolph-brooks",
-     "description": "Randolph-Brooks Federal Credit Union (RBFCU) is a member-owned, not-for-profit",
+     "description": "Randolph-Brooks Federal Credit Union (RBFCU) is a member-owned, not-for-profit federal credit union headquartered in Live Oak, Texas, federally insured by the NCUA and serving more than one million members across Texas and beyond. Chartered as a federal credit union rather than a state or national bank, RBFCU is one of the largest credit unions in the United States by membership and assets, offering retail banking, mortgages, auto loans, credit cards, and deposit products through branches and digital channels. As a member-focused retail institution, RBFCU publishes no first-party public developer program, API documentation, or downloadable OpenAPI/Swagger specifications; consumer-permissioned account data is reached through third-party aggregators (such as Plaid, MX, Finicity, or Akoya) rather than a directly documented open-finance API, and it publishes no stated CFPB Section 1033 data-access posture or documented FDX participation.",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",

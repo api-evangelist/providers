@@ -1,5 +1,7 @@
 {
  "total": 111,
+ "shown": 111,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "Syntage",
@@ -332,6 +335,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 14,
+   "shown": 14,
    "companies": [
     {
      "name": "Bitso",
@@ -901,6 +905,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 31,
+   "shown": 31,
    "companies": [
     {
      "name": "AstroPay",
@@ -2168,6 +2173,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 58,
+   "shown": 58,
    "companies": [
     {
      "name": "Circulo de Belleza",

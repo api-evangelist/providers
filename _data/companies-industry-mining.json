@@ -1,5 +1,7 @@
 {
  "total": 20,
+ "shown": 20,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "United States Steel",
@@ -53,6 +56,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "A-Mark Precious Metals",
@@ -177,6 +181,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 16,
+   "shown": 16,
    "companies": [
     {
      "name": "Albemarle",

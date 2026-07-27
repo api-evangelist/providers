@@ -93,7 +93,7 @@
   </div>
 </div>
 
-<p class="text-muted small mb-3">{{ listing.total }} provider{% unless listing.total == 1 %}s{% endunless %}</p>
+<p class="text-muted small mb-3">{{ listing.total }} provider{% unless listing.total == 1 %}s{% endunless %}{% if listing.shown < listing.total %} &middot; showing the top {{ listing.shown }} by Kin Score{% endif %}</p>
 
 <!-- Band groups -->
 <div id="item-list">
@@ -106,6 +106,9 @@
       <span class="band-blurb">{{ group.blurb }}</span>
     </summary>
     <div class="band-body">
+  {% if group.shown < group.count %}
+    <p class="band-cap text-muted small mb-2">Showing {{ group.shown }} of {{ group.count }} — this listing renders the top {{ listing.limit }} providers by Kin Score.</p>
+  {% endif %}
   {% for item in group.companies %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">

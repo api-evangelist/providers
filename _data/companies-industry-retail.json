@@ -1,5 +1,7 @@
 {
  "total": 90,
+ "shown": 90,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 8,
+   "shown": 8,
    "companies": [
     {
      "name": "BJ's Wholesale Club",
@@ -308,6 +311,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Skechers U.S.A.",
@@ -497,6 +501,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 15,
+   "shown": 15,
    "companies": [
     {
      "name": "Ross Stores",
@@ -1050,6 +1055,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 62,
+   "shown": 62,
    "companies": [
     {
      "name": "Abercrombie and Fitch",

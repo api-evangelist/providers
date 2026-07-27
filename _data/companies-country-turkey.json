@@ -1,5 +1,7 @@
 {
  "total": 9,
+ "shown": 9,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "KolayIK",
@@ -53,6 +56,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 3,
+   "shown": 3,
    "companies": [
     {
      "name": "Paraşüt",
@@ -175,6 +179,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Fazla Gida",

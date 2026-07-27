@@ -1,5 +1,7 @@
 {
  "total": 28,
+ "shown": 28,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Vistra",
@@ -53,6 +56,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "CBRE",
@@ -135,6 +139,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "Deloitte",
@@ -401,6 +406,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 18,
+   "shown": 18,
    "companies": [
     {
      "name": "UL Solutions",

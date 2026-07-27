@@ -1,5 +1,7 @@
 {
  "total": 30,
+ "shown": 30,
+ "limit": 1000,
  "bands": [
   {
    "band": "developing",
@@ -7,6 +9,7 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "KPN",
@@ -404,6 +407,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Vrije Universiteit Amsterdam",
@@ -575,6 +579,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 6,
+   "shown": 6,
    "companies": [
     {
      "name": "Delft University of Technology",
@@ -822,6 +827,7 @@
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "Smiler",

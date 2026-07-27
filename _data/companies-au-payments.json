@@ -1,5 +1,7 @@
 {
  "total": 20,
+ "shown": 20,
+ "limit": 1000,
  "bands": [
   {
    "band": "strong",
@@ -7,6 +9,7 @@
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Airwallex",
@@ -96,7 +99,7 @@
     {
      "name": "Pinch Payments",
      "slug": "pinch-payments",
-     "description": "'Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator",
+     "description": "Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator platform that automates invoice collection and receivables for service businesses, bookkeepers, and software platforms across Australia and New Zealand. Marketing itself as \"Aussie-Made Payments Infrastructure,\" Pinch lets merchants accept direct debit (bank account) and card payments (Visa, Mastercard, American Express), build payment plans and subscriptions, tokenise payment sources client-side with its CaptureJS library, and reconcile settlements back into Xero, QuickBooks, and MYOB. Its Glassbox / Managed Merchants offering is a Payfac-as-a-Service seam with KYC, compliance, and sub-merchant onboarding for platforms acting as aggregators or marketplaces. Pinch is genuinely API-first: it ships a fully documented REST API (JSON, OAuth2 client-credentials auth), a ReadMe-hosted developer portal with a live API explorer, per-product OpenAPI 3.1 definitions, a published Postman collection, an official .NET SDK, Zapier/n8n/viaSocket no-code connectors, webhooks for real-time events, and an llms.txt + docs MCP server for AI-assisted integration.",
      "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
@@ -138,7 +141,7 @@
     {
      "name": "Zai",
      "slug": "zai",
-     "description": "'Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and",
+     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
      "score": 60.2,
      "band": "strong",
      "band_label": "Strong",
@@ -186,11 +189,12 @@
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "Azupay",
      "slug": "azupay",
-     "description": "'Azupay is an Australian real-time payments company that moves money over the New Payments",
+     "description": "Azupay is an Australian real-time payments company that moves money over the New Payments Platform (NPP), the account-to-account rails operated by Australian Payments Plus. It is API-first: merchants and platforms embed Azupay to receive payments via PayID (AzupayId), send outbound payments to a PayID or BSB/account number (AzupayOut), and collect recurring or on-demand debits through PayTo mandates and payment agreements (AzupayTo). Azupay also offers Confirmation of Payee (CoP) account checks and PayID enquiry to reduce misdirected-payment and fraud risk, batch/file (ABA and SFTP) processing for bulk payouts and collections, reporting, balance management, sub-client and API-key management, and hosted UX apps (Pay by Bank, Disbursements, Subscriptions). Its public developer portal documents a REST API at api.azupay.com.au/v1 with a UAT environment, authenticated by API key (secret and distributable keys in the Authorization header) with OAuth 2.0 client-credentials available as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png",
      "score": 59.9,
      "band": "developing",
@@ -233,7 +237,7 @@
     {
      "name": "Fat Zebra",
      "slug": "fat-zebra",
-     "description": "Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present",
+     "description": "Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present and card-not-present payment gateway and processing platform for merchants, ISOs, and software platforms across Australia and New Zealand. Its API-first Gateway handles Visa, Mastercard, and Amex purchases, authorizations and captures, refunds and voids, card tokenization, 3D Secure, recurring payment plans, direct debits and direct credits over local bank rails, chargeback handling, batch processing, and hosted payment pages (PayNow), alongside wallet acceptance for Apple Pay, Google Pay, and Click to Pay. A separate Partner API lets platforms and ISOs create and board their own sub-merchants onto acquirer connections programmatically. The developer surface is a genuine, well-documented ReadMe hub at docs.fatzebra.com with four downloadable OpenAPI definitions, and the runtime platform is branded pmnts (gateway.pmnts.io). Authentication is HTTP Basic using a username and API token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png",
      "score": 59.0,
      "band": "developing",
@@ -276,7 +280,7 @@
     {
      "name": "Monoova",
      "slug": "monoova",
-     "description": "'Monoova is an Australian payments platform that lets businesses receive, manage, and pay",
+     "description": "Monoova is an Australian payments platform that lets businesses receive, manage, and pay funds in AUD across every domestic rail through a single set of RESTful JSON APIs. Operated by Monoova Global Payments Pty Ltd (AFSL 421414) and enrolled with AUSTRAC, it connects directly to the New Payments Platform (real-time account-to-account transfers via NPP/Osko, PayID addressing, and PayTo mandated debits) alongside BPAY, direct entry (credit/debit), card acquiring, and Apple Pay / Google Pay. Its Automatcher reconciliation engine, virtual mAccount/mWallet hierarchies, Confirmation of Payee, account verification, payment tokenisation, and webhook-driven reporting target fintechs, marketplaces, payroll, lending, remittance, and SaaS businesses (customers include Wise, Nium, Finder, and Sharesies). Monoova is genuinely API-first: it ships a public developer portal, a Redoc API reference, downloadable OpenAPI specifications, and a public Postman workspace, plus a free self-serve sandbox.",
      "score": 57.7,
      "band": "developing",
      "band_label": "Developing",
@@ -318,7 +322,7 @@
     {
      "name": "Tyro Payments",
      "slug": "tyro",
-     "description": "'Tyro Payments is an ASX-listed Australian payments company and one of the country''s largest",
+     "description": "Tyro Payments is an ASX-listed Australian payments company and one of the country's largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.",
      "score": 55.0,
      "band": "developing",
      "band_label": "Developing",
@@ -445,7 +449,7 @@
     {
      "name": "Pin Payments",
      "slug": "pin-payments",
-     "description": "A complete payments solution, built for speed and simplicity around your unique business needs. The Pin Payments",
+     "description": "A complete payments solution, built for speed and simplicity around your unique business needs. The Pin Payments API enables developers to charge cards, manage customers, store payment sources, issue refunds, and run subscriptions through a RESTful JSON interface secured with HTTP Basic authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/screenshots/pin-payments-2026-06-20T191711.png",
      "score": 45.8,
      "band": "developing",
@@ -494,6 +498,7 @@
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Till Payments",
@@ -672,6 +677,7 @@
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Cuscal",
@@ -804,7 +810,7 @@
     {
      "name": "Afterpay",
      "slug": "afterpay",
-     "description": "Afterpay (acquired by Block / Square) is a buy-now-pay-later platform",
+     "description": "Afterpay (acquired by Block / Square) is a buy-now-pay-later platform offering Pay-in-4 installments at thousands of merchants. APIs for merchants to integrate via Square or direct.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/afterpay/refs/heads/main/screenshots/afterpay-2026-06-20T165725.png",
      "score": 19.2,
      "band": "emerging",
