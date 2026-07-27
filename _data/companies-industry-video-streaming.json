@@ -11,7 +11,7 @@
     {
      "name": "Spotify",
      "slug": "spotify",
-     "description": "Spotify is the world's leading music streaming platform with 600M+ users",
+     "description": "Spotify is the world's leading music streaming platform with 600M+ users and 100M+ tracks. The Spotify Web API enables developers to discover music and podcasts, manage Spotify libraries, control audio playback, access audio analysis, and build personalized music experiences. Authentication uses OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February 2026 with new generic library endpoints and streamlined playlist management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png",
      "score": 63.2,
      "band": "strong",
@@ -57,7 +57,7 @@
     {
      "name": "Roku",
      "slug": "roku",
-     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico,",
+     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico, offering a comprehensive operating system that powers smart TVs, streaming players, and audio devices. Roku provides a robust developer program for building channel apps, monetizing through Roku Pay, integrating analytics, and controlling devices via the External Control Protocol. The platform supports both BrightScript and SceneGraph frameworks for app development, and the Nabu Cloud developer cloud for managing remote test devices and channel builds.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
      "score": 59.5,
      "band": "developing",
@@ -93,7 +93,7 @@
     {
      "name": "Riot Games",
      "slug": "riot-games",
-     "description": "Riot Games provides a comprehensive developer platform for accessing",
+     "description": "Riot Games provides a comprehensive developer platform for accessing game data across League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and other titles. The Riot Developer Portal offers REST APIs for match history, ranked standings, champion mastery, live spectator data, tournament management, and player account data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
      "score": 53.7,
      "band": "developing",
@@ -658,7 +658,7 @@
     {
      "name": "Warner Brothers",
      "slug": "warner-brothers",
-     "description": "'A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.'",
+     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
      "score": 6.7,
      "band": "minimal",
@@ -765,7 +765,7 @@
     {
      "name": "USA TODAY",
      "slug": "usa-today",
-     "description": "'A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.'",
+     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
      "score": 5.4,
      "band": "minimal",

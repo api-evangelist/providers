@@ -89,7 +89,7 @@
     {
      "name": "Archer Daniels Midland",
      "slug": "archer-daniels-midland",
-     "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and",
+     "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
      "score": 48.0,
      "band": "developing",
@@ -123,7 +123,7 @@
      "rank": 3
     },
     {
-     "name": "Aptargroup",
+     "name": "AptarGroup",
      "slug": "aptargroup",
      "description": "AptarGroup is a global supplier of consumer-product dispensing, sealing, and active packaging solutions serving the beauty, personal care, home care, food, beverage, pharmaceutical, and other markets.",
      "score": 45.4,
@@ -617,7 +617,7 @@
     {
      "name": "Adidas",
      "slug": "adidas",
-     "description": "'A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world''s largest sportswear brands competing across performance and lifestyle markets.'",
+     "description": "A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world's largest sportswear brands competing across performance and lifestyle markets.",
      "score": 21.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -688,7 +688,7 @@
     {
      "name": "Anheuser-Busch",
      "slug": "anheuser-busch",
-     "description": "'An American brewing company and subsidiary of AB InBev producing iconic beer brands including Budweiser, Bud Light, Michelob, and Stella Artois. One of the largest beverage producers in North America with operations across brewing, distribution, and marketing.'",
+     "description": "An American brewing company and subsidiary of AB InBev producing iconic beer brands including Budweiser, Bud Light, Michelob, and Stella Artois. One of the largest beverage producers in North America with operations across brewing, distribution, and marketing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/screenshots/anheuser-busch-2026-06-20T172001.png",
      "score": 18.5,
      "band": "emerging",
@@ -1304,7 +1304,7 @@
     {
      "name": "Heineken",
      "slug": "heineken",
-     "description": "'A Dutch multinational brewing company and one of the world''s largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis. Maintains an internal HEIWAY API portal (api-portal.production.az.heiway.com) used for partner, distributor, and on-trade B2B integrations; access is gated and not openly published.'",
+     "description": "A Dutch multinational brewing company and one of the world's largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis. Maintains an internal HEIWAY API portal (api-portal.production.az.heiway.com) used for partner, distributor, and on-trade B2B integrations; access is gated and not openly published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heineken/refs/heads/main/screenshots/heineken-2026-06-20T182617.png",
      "score": 9.6,
      "band": "minimal",
@@ -1733,7 +1733,7 @@
     {
      "name": "LVMH",
      "slug": "lvmh",
-     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods",
+     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods conglomerate, headquartered in Paris and operating over 75 prestigious brands. Its portfolio spans fashion and leather goods (Louis Vuitton, Christian Dior, Fendi, Loewe, Celine), wines and spirits (Moët & Chandon, Hennessy, Veuve Clicquot), perfumes and cosmetics (Givenchy, Guerlain), watches and jewelry (Tiffany & Co., Bulgari, TAG Heuer), and selective retailing (Sephora, DFS). LVMH does not currently publish a public developer API or developer portal at the group level; technical and partner integrations are handled brand-by-brand and through closed innovation partnerships such as the Aura Blockchain Consortium.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png",
      "score": 7.4,
      "band": "minimal",
@@ -2091,7 +2091,7 @@
     {
      "name": "Henkel",
      "slug": "henkel",
-     "description": "'A German multinational company operating in adhesives, beauty care, and laundry and home care markets. Produces well-known consumer brands alongside industrial adhesive technologies used worldwide. No public developer API or developer portal was located; Henkel operates a Safety Data Sheets product portal at mysds.henkel.com but does not publish open developer APIs.'",
+     "description": "A German multinational company operating in adhesives, beauty care, and laundry and home care markets. Produces well-known consumer brands alongside industrial adhesive technologies used worldwide. No public developer API or developer portal was located; Henkel operates a Safety Data Sheets product portal at mysds.henkel.com but does not publish open developer APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/henkel/refs/heads/main/screenshots/henkel-2026-06-20T182637.png",
      "score": 6.6,
      "band": "minimal",
@@ -2486,7 +2486,7 @@
     {
      "name": "Unilever",
      "slug": "unilever",
-     "description": "'A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry''s, Hellmann''s, and Vaseline sold in 190 countries.'",
+     "description": "A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry's, Hellmann's, and Vaseline sold in 190 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png",
      "score": 5.4,
      "band": "minimal",
@@ -2772,7 +2772,7 @@
     {
      "name": "Vista Outdoor",
      "slug": "vista-outdoor",
-     "description": "'Profile for Vista Outdoor in the API Evangelist network. Fortune F1000 (rank 976).'",
+     "description": "Profile for Vista Outdoor in the API Evangelist network. Fortune F1000 (rank 976).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vista-outdoor/refs/heads/main/screenshots/vista-outdoor-2026-06-20T201059.png",
      "score": 4.2,
      "band": "minimal",
@@ -2808,7 +2808,7 @@
     {
      "name": "Altria",
      "slug": "altria",
-     "description": "'Fortune 1000 company Altria. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Altria. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/altria/refs/heads/main/screenshots/altria-2026-06-20T171550.png",
      "score": 3.5,
      "band": "minimal",
@@ -2844,7 +2844,7 @@
     {
      "name": "Deckers Outdoor",
      "slug": "deckers-outdoor",
-     "description": "'Profile for Deckers Outdoor in the API Evangelist network. Fortune F1000 (rank 989).'",
+     "description": "Profile for Deckers Outdoor in the API Evangelist network. Fortune F1000 (rank 989).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deckers-outdoor/refs/heads/main/screenshots/deckers-outdoor-2026-06-20T175753.png",
      "score": 3.5,
      "band": "minimal",
@@ -2986,7 +2986,7 @@
     {
      "name": "Spectrum Brands",
      "slug": "spectrum-brands",
-     "description": "'Fortune 1000 company Spectrum Brands. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Spectrum Brands. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spectrum-brands/refs/heads/main/screenshots/spectrum-brands-2026-06-20T194301.png",
      "score": 3.5,
      "band": "minimal",

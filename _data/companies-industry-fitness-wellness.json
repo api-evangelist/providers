@@ -161,7 +161,7 @@
     {
      "name": "Vail Resorts",
      "slug": "vail-resorts",
-     "description": "'Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).'",
+     "description": "Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vail-resorts/refs/heads/main/screenshots/vail-resorts-2026-06-20T200756.png",
      "score": 4.2,
      "band": "minimal",

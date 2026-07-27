@@ -53,7 +53,7 @@
     {
      "name": "Twilio",
      "slug": "twilio",
-     "description": "Cloud communications platform providing APIs for SMS, voice, video, and",
+     "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
      "score": 75.6,
      "band": "exemplar",
@@ -203,7 +203,7 @@
     {
      "name": "Splunk",
      "slug": "splunk",
-     "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated",
+     "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png",
      "score": 71.5,
      "band": "exemplar",
@@ -285,7 +285,7 @@
     {
      "name": "Meta",
      "slug": "meta",
-     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging,",
+     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising, content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png",
      "score": 69.4,
      "band": "strong",
@@ -399,7 +399,7 @@
     {
      "name": "Zuplo",
      "slug": "zuplo",
-     "description": "Zuplo is the API management platform for developers. Build, deploy, and",
+     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
      "score": 68.7,
      "band": "strong",
@@ -543,7 +543,7 @@
     {
      "name": "Cisco",
      "slug": "cisco",
-     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure",
+     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
      "score": 65.2,
      "band": "strong",
@@ -614,7 +614,7 @@
     {
      "name": "Amadeus",
      "slug": "amadeus",
-     "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
+     "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
      "score": 63.2,
      "band": "strong",
@@ -686,7 +686,7 @@
     {
      "name": "Doordash",
      "slug": "doordash",
-     "description": "DoorDash is an on-demand local commerce platform whose developer program",
+     "description": "DoorDash is an on-demand local commerce platform whose developer program exposes its logistics and marketplace network through public APIs. The Drive and Drive Classic APIs let businesses request on-demand deliveries fulfilled by DoorDash's Dasher fleet, while the Marketplace, Item Management, and Reporting APIs let merchants and retailers receive orders, synchronize menus and catalogs, and access financial and operational reporting. All APIs use JWT-based authentication and are documented at developer.doordash.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png",
      "score": 62.4,
      "band": "strong",
@@ -722,7 +722,7 @@
     {
      "name": "Amazon",
      "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
      "score": 62.0,
      "band": "strong",
@@ -882,7 +882,7 @@
     {
      "name": "Roku",
      "slug": "roku",
-     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico,",
+     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico, offering a comprehensive operating system that powers smart TVs, streaming players, and audio devices. Roku provides a robust developer program for building channel apps, monetizing through Roku Pay, integrating analytics, and controlling devices via the External Control Protocol. The platform supports both BrightScript and SceneGraph frameworks for app development, and the Nabu Cloud developer cloud for managing remote test devices and channel builds.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
      "score": 59.5,
      "band": "developing",
@@ -918,7 +918,7 @@
     {
      "name": "Verizon",
      "slug": "verizon",
-     "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
+     "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
      "score": 59.5,
      "band": "developing",
@@ -954,7 +954,7 @@
     {
      "name": "AssemblyAI",
      "slug": "assemblyai",
-     "description": "Built by AI experts, AssemblyAI's Speech AI models include accurate speech-to-text",
+     "description": "Built by AI experts, AssemblyAI's Speech AI models include accurate speech-to-text for voice data (such as calls, virtual meetings, and podcasts), speaker detection, sentiment analysis, chapter detection, PII redaction, and more. AssemblyAI provides powerful APIs for transcribing and understanding audio data at scale. The platform supports real-time streaming transcription via WebSocket, asynchronous batch transcription, and audio intelligence features including summarization, auto chapters, entity detection, and content safety filtering. SDKs are available for Python, Node.js, Ruby, Java, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png",
      "score": 59.2,
      "band": "developing",
@@ -1062,7 +1062,7 @@
     {
      "name": "Snapchat",
      "slug": "snapchat",
-     "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform",
+     "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform with developer tools including the Marketing API for programmatic advertising, Conversions API for server-side conversion tracking, Login Kit for OAuth-based user authentication, Creative Kit for content sharing to Snapchat, Camera Kit for embedding Snap AR technology into third-party apps, and Lens Studio for building augmented reality experiences.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png",
      "score": 57.5,
      "band": "developing",
@@ -1170,7 +1170,7 @@
     {
      "name": "Uber",
      "slug": "uber",
-     "description": "Uber is a global technology platform offering transportation, food delivery,",
+     "description": "Uber is a global technology platform offering transportation, food delivery, and logistics services. Its developer platform provides APIs for integrating ride requests, food ordering, on-demand delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth 2.0 authentication with scope-based access controls and support both production and sandbox environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
      "score": 56.9,
      "band": "developing",
@@ -1386,7 +1386,7 @@
     {
      "name": "Best Buy",
      "slug": "best-buy",
-     "description": "Best Buy is a multinational consumer electronics retailer offering technology",
+     "description": "Best Buy is a multinational consumer electronics retailer offering technology products, services, and solutions through stores, online, and in-home consultations. Best Buy provides a developer API giving access to product data, store locations, categories, recommendations, open box offers, and commerce capabilities for partners and developers building retail integrations and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png",
      "score": 54.6,
      "band": "developing",
@@ -1422,7 +1422,7 @@
     {
      "name": "Airbnb",
      "slug": "airbnb",
-     "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace,",
+     "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace, connecting hosts who offer accommodations and experiences with guests worldwide. The Airbnb developer platform provides connectivity partners — property management systems, channel managers, and experience operators — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event notifications. Access is restricted to approved partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
      "score": 54.3,
      "band": "developing",
@@ -1818,7 +1818,7 @@
     {
      "name": "Rapid7",
      "slug": "rapid7",
-     "description": "Rapid7 is a cybersecurity company providing the Insight Platform with",
+     "description": "Rapid7 is a cybersecurity company providing the Insight Platform with products for vulnerability management (InsightVM), SIEM/XDR (InsightIDR), application security (InsightAppSec), cloud security (InsightCloudSec), and SOAR (InsightConnect). The Rapid7 Command/Insight Platform API exposes REST endpoints across regional hosts such as us.api.insight.rapid7.com for managing assets, vulnerabilities, investigations, and integrations. Authentication is performed with an organization or user API key passed in the `X-Api-Key` header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png",
      "score": 49.3,
      "band": "developing",
@@ -1890,7 +1890,7 @@
     {
      "name": "Pinterest",
      "slug": "pinterest",
-     "description": "Pinterest is an American image sharing and social media service designed",
+     "description": "Pinterest is an American image sharing and social media service designed to enable saving and discovery of information like recipes, home, style, motivation, and inspiration on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pinboards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png",
      "score": 48.7,
      "band": "developing",
@@ -2142,7 +2142,7 @@
     {
      "name": "UPS",
      "slug": "ups",
-     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company",
+     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
      "score": 45.8,
      "band": "developing",
@@ -2516,7 +2516,7 @@
     {
      "name": "Analog Devices",
      "slug": "analog-devices",
-     "description": "Analog Devices (ADI) is a global semiconductor company designing high-performance analog, mixed-signal, and digital signal processing integrated circuits for industrial, communications,",
+     "description": "Analog Devices (ADI) is a global semiconductor company designing high-performance analog, mixed-signal, and digital signal processing integrated circuits for industrial, communications, automotive, and consumer markets. ADI provides developer tools through its CodeFusion Studio embedded development environment and the ADI Developer Portal. ADI's APIs are primarily embedded software APIs for microcontrollers and DSPs via the libiio library for Linux Industrial I/O devices, pyadi-iio Python interfaces, and security APIs within the ADI Assure Trusted Edge Security Architecture. The company also maintains the no-OS driver library for bare-metal embedded systems.",
      "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
@@ -2551,7 +2551,7 @@
     {
      "name": "Equinix",
      "slug": "equinix",
-     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to",
+     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
      "score": 36.6,
      "band": "thin",
@@ -2587,7 +2587,7 @@
     {
      "name": "FedEx",
      "slug": "fedex",
-     "description": "FedEx is a logistics company that provides shipping and delivery services",
+     "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
      "score": 36.0,
      "band": "thin",
@@ -2665,7 +2665,7 @@
     {
      "name": "DHL",
      "slug": "dhl",
-     "description": "DHL is a global logistics company that provides a wide range of services,",
+     "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
      "score": 34.6,
      "band": "thin",
@@ -2845,7 +2845,7 @@
     {
      "name": "Qualcomm",
      "slug": "qualcomm",
-     "description": "Qualcomm is a multinational semiconductor and telecommunications equipment",
+     "description": "Qualcomm is a multinational semiconductor and telecommunications equipment company that creates intellectual property, semiconductors, software, and services related to wireless technology.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png",
      "score": 30.3,
      "band": "thin",
@@ -2997,7 +2997,7 @@
     {
      "name": "Intel",
      "slug": "intel",
-     "description": "Discover Intel® Trust Authority, the independent attestation service",
+     "description": "Discover Intel® Trust Authority, the independent attestation service for securing your confidential computing workloads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png",
      "score": 28.6,
      "band": "emerging",
@@ -3141,7 +3141,7 @@
     {
      "name": "Travelport",
      "slug": "travelport",
-     "description": "A global travel technology company connecting travel providers with online",
+     "description": "A global travel technology company connecting travel providers with online and offline travel agencies. Operates a commerce platform facilitating airline, hotel, and car rental bookings through its Galileo, Apollo, and Worldspan systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
      "score": 24.8,
      "band": "emerging",
@@ -3327,7 +3327,7 @@
     {
      "name": "CrowdStrike",
      "slug": "crowdstrike",
-     "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike",
+     "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png",
      "score": 21.3,
      "band": "emerging",
@@ -3363,7 +3363,7 @@
     {
      "name": "Nvidia",
      "slug": "nvidia",
-     "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration",
+     "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png",
      "score": 21.1,
      "band": "emerging",
@@ -3471,7 +3471,7 @@
     {
      "name": "Nasdaq",
      "slug": "nasdaq",
-     "description": "'Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.'",
+     "description": "Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png",
      "score": 19.6,
      "band": "emerging",
@@ -3507,7 +3507,7 @@
     {
      "name": "Accenture",
      "slug": "accenture",
-     "description": "'A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.'",
+     "description": "A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/screenshots/accenture-2026-06-20T163607.png",
      "score": 18.5,
      "band": "emerging",
@@ -3665,7 +3665,7 @@
     {
      "name": "Tamr",
      "slug": "tamr",
-     "description": "'An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.'",
+     "description": "An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tamr/refs/heads/main/screenshots/tamr-2026-06-20T194913.png",
      "score": 14.5,
      "band": "minimal",
@@ -4131,7 +4131,7 @@
     {
      "name": "Alphabet",
      "slug": "alphabet",
-     "description": "'The parent company of Google and one of the world''s most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.'",
+     "description": "The parent company of Google and one of the world's most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png",
      "score": 6.4,
      "band": "minimal",
@@ -4345,7 +4345,7 @@
     {
      "name": "AMD",
      "slug": "amd",
-     "description": "'A multinational semiconductor company designing high-performance processors, graphics cards, and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen, EPYC, and Radeon product lines.'",
+     "description": "A multinational semiconductor company designing high-performance processors, graphics cards, and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen, EPYC, and Radeon product lines.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amd/refs/heads/main/screenshots/amd-2026-06-20T171858.png",
      "score": 5.4,
      "band": "minimal",
@@ -4417,7 +4417,7 @@
     {
      "name": "TSMC",
      "slug": "tsmc",
-     "description": "'The world''s largest dedicated semiconductor foundry manufacturing chips for leading technology companies. Produces the most advanced processor chips used in smartphones, data centers, and AI applications for clients including Apple, NVIDIA, and AMD.'",
+     "description": "The world's largest dedicated semiconductor foundry manufacturing chips for leading technology companies. Produces the most advanced processor chips used in smartphones, data centers, and AI applications for clients including Apple, NVIDIA, and AMD.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tsmc/refs/heads/main/screenshots/tsmc-2026-06-20T195815.png",
      "score": 4.8,
      "band": "minimal",
@@ -4489,7 +4489,7 @@
     {
      "name": "Arista Networks",
      "slug": "arista-networks",
-     "description": "'Profile for Arista Networks in the API Evangelist network. Fortune F1000 (rank 886).'",
+     "description": "Profile for Arista Networks in the API Evangelist network. Fortune F1000 (rank 886).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arista-networks/refs/heads/main/screenshots/arista-networks-2026-06-20T172434.png",
      "score": 4.6,
      "band": "minimal",
@@ -4525,7 +4525,7 @@
     {
      "name": "Qorvo",
      "slug": "qorvo",
-     "description": "'Profile for Qorvo in the API Evangelist network. Fortune F1000 (rank 765).'",
+     "description": "Profile for Qorvo in the API Evangelist network. Fortune F1000 (rank 765).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qorvo/refs/heads/main/screenshots/qorvo-2026-06-20T192352.png",
      "score": 4.6,
      "band": "minimal",
@@ -4632,7 +4632,7 @@
     {
      "name": "Keysight Technologies",
      "slug": "keysight-technologies",
-     "description": "'Profile for Keysight Technologies in the API Evangelist network. Fortune F1000 (rank 617).'",
+     "description": "Profile for Keysight Technologies in the API Evangelist network. Fortune F1000 (rank 617).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keysight-technologies/refs/heads/main/screenshots/keysight-technologies-2026-06-20T184023.png",
      "score": 4.2,
      "band": "minimal",
@@ -4739,7 +4739,7 @@
     {
      "name": "Digital Realty Trust",
      "slug": "digital-realty-trust",
-     "description": "'Profile for Digital Realty Trust in the API Evangelist network. Fortune F1000 (rank 746).'",
+     "description": "Profile for Digital Realty Trust in the API Evangelist network. Fortune F1000 (rank 746).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/digital-realty-trust/refs/heads/main/screenshots/digital-realty-trust-2026-06-20T180025.png",
      "score": 3.9,
      "band": "minimal",

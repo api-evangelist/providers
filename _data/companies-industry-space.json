@@ -57,7 +57,7 @@
     {
      "name": "DTN",
      "slug": "dtn",
-     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market",
+     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
      "score": 68.3,
      "band": "strong",
@@ -99,7 +99,7 @@
     {
      "name": "Amazon Ground Station",
      "slug": "amazon-ground-station",
-     "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, process satellite",
+     "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, process satellite data, and scale your satellite operations without having to worry about building or managing your own ground station infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/screenshots/amazon-ground-station-2026-06-20T171659.png",
      "score": 67.2,
      "band": "strong",
@@ -325,7 +325,7 @@
     {
      "name": "Maxar Technologies",
      "slug": "maxar-technologies",
-     "description": "'Maxar Technologies was a publicly traded Earth-imaging and space-systems",
+     "description": "Maxar Technologies was a publicly traded Earth-imaging and space-systems company formed from the 2017 merger of MacDonald, Dettwiler and Associates (MDA) with DigitalGlobe (founded 1992 in Oakland, California). In December 2022 private-equity firm Advent International agreed to take Maxar private in a USD 6.4 billion cash deal that closed in May 2023, after which Advent split the company into two operating units: Maxar Intelligence (imagery and geospatial software in Westminster, Colorado) and Maxar Space Systems (satellite manufacturing in Palo Alto, California). On 1 October 2025 both units rebranded — Maxar Intelligence became Vantor and Maxar Space Systems became Lanteris Space Systems. On 13 January 2026 Intuitive Machines completed the acquisition of Lanteris from Advent for approximately USD 800 million, leaving Vantor as the sole remaining Advent-owned successor of the Maxar brand. The public developer surface for the original Maxar APIs — imagery search, streaming (WMS/WMTS/WFS), tasking, ordering, monitoring, authentication and account services — is now delivered through the Vantor Hub (hub.vantor.com / pro.maxar.com) and the Maxar Geospatial Platform (MGP) SDKs (Python, Java, R). The Maxar Open Data Program continues to publish a public STAC catalog of pre-/post-event high-resolution imagery on AWS Open Data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png",
      "score": 59.3,
      "band": "developing",
@@ -553,7 +553,7 @@
     {
      "name": "ADS-B Exchange",
      "slug": "adsbexchange",
-     "description": "Unfiltered flight tracking network with REST APIs for accessing real-time",
+     "description": "Unfiltered flight tracking network with REST APIs for accessing real-time aircraft positions, military flights, and global ADS-B flight data without filtering. Operated by a crowdsourced global network of ADS-B and MLAT receivers providing ultra-low-latency aircraft tracking data for aviation research and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png",
      "score": 54.6,
      "band": "developing",
@@ -589,7 +589,7 @@
     {
      "name": "Starlink",
      "slug": "starlink",
-     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by",
+     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
      "score": 54.6,
      "band": "developing",
      "band_label": "Developing",
@@ -624,7 +624,7 @@
     {
      "name": "Alaska Airlines",
      "slug": "alaska-air",
-     "description": "Alaska Air Group is the parent company of Alaska Airlines and Horizon Air, providing passenger and cargo air",
+     "description": "Alaska Air Group is the parent company of Alaska Airlines and Horizon Air, providing passenger and cargo air transportation throughout the United States, Mexico, Canada, Costa Rica, and Belize. Alaska Airlines offers a developer portal at developers.alaskaair.com for accessing flight status, schedules, and other APIs, and operates Alaska Air Cargo serving 115+ destinations worldwide with dedicated cargo aircraft.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png",
      "score": 54.5,
      "band": "developing",
@@ -958,7 +958,7 @@
     {
      "name": "Airlabs",
      "slug": "airlabs",
-     "description": "Aviation data REST API providing real-time flight status, schedules,",
+     "description": "Aviation data REST API providing real-time flight status, schedules, routes, airports, airlines, aircraft data, and delays from 250+ airlines and 3,500+ airports worldwide. Built by Data Products LTD, the platform covers approximately 7,300 active flights at any given time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airlabs/refs/heads/main/screenshots/airlabs-2026-06-20T171424.png",
      "score": 51.2,
      "band": "developing",
@@ -1179,7 +1179,7 @@
     {
      "name": "DLR",
      "slug": "dlr",
-     "description": "The German Aerospace Center (DLR) Earth Observation Center (EOC) provides",
+     "description": "The German Aerospace Center (DLR) Earth Observation Center (EOC) provides public APIs for accessing Earth observation satellite data, remote sensing products, and scientific datasets from German aerospace research missions. Services include OGC-compliant WMS, WCS, CSW, STAC, and WMTS endpoints covering atmospheric trace gases, digital elevation models, land cover, hyperspectral imagery, water resources, and more from missions such as TanDEM-X, TerraSAR-X, EnMAP, DESIS, and Sentinel series.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/screenshots/dlr-2026-06-20T180058.png",
      "score": 49.8,
      "band": "developing",
@@ -1221,7 +1221,7 @@
     {
      "name": "China Mobile",
      "slug": "china-mobile",
-     "description": "China Mobile Limited is the world's largest mobile network operator by",
+     "description": "China Mobile Limited is the world's largest mobile network operator by subscribers, serving approximately 1,005 million mobile customers and 110 million gigabit broadband customers across all 31 provinces of mainland China plus Hong Kong, with roaming into more than 200 countries. Listed on the Hong Kong Stock Exchange and the Shanghai Stock Exchange and majority-owned by state-held China Mobile Communications Group, it runs mobile, broadband, cellular IoT, satellite internet, data centre, cloud and AI businesses on annual revenue of about RMB 1,050.2 billion. In the network-API value chain China Mobile sits squarely on the operator side, not the aggregator side. It joined the GSMA Open Gateway initiative in June 2023, sponsors and maintains several CAMARA APIs upstream (Click to Dial, the Model as a Service family, High-throughput Elastic Network, Facial Recognition, and co-sponsors Network Slice Booking), and in October 2024 secured GSMA Open Gateway certification for its Network-as-a-Service platform after its Quality on Demand API passed 63 conformance tests on ZTE NEF/SCEF exposure functions. None of that is callable from the open internet. Its API posture is partner-gated and domestic — the capability platforms at dev.10086.cn, ct.open.10086.cn and api.iot.10086.cn publish real product and interface documentation but issue credentials only to registered mainland enterprise customers under contract, and China Mobile is not a shareholder in Aduna, so it reaches developers through its own Chinese-language capability marketplaces rather than through the global CPaaS or aggregator channel. The one genuinely self-serve surface is OneNET, its IoT PaaS, which publishes open developer documentation and a live token-authenticated device API.",
      "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
@@ -1400,7 +1400,7 @@
     {
      "name": "SpaceX (Community API)",
      "slug": "spacex",
-     "description": "Community-maintained, open-source REST and GraphQL API for SpaceX data — launches, rockets, capsules, cores, crew, dragons, payloads, ships, landpads, launchpads, Starlink satellites, the Tesla Roadster ephemeris, company info, and historical events. Operated by the r-spacex community (the same group behind the r/SpaceX subreddit) and licensed Apache 2.0. The canonical hosted base URL is https://api.spacexdata.com and the canonical source repository is https://github.com/r-spacex/SpaceX-API.",
+     "description": "Community-maintained, open-source REST and GraphQL API for SpaceX data — launches, rockets, capsules, cores, crew, dragons, payloads, ships, landpads, launchpads, Starlink satellites, the Tesla Roadster ephemeris, company info, and historical events. Operated by the r-spacex community (the same group behind the r/SpaceX subreddit) and licensed Apache 2.0. The canonical hosted base URL is https://api.spacexdata.com and the canonical source repository is https://github.com/r-spacex/SpaceX-API. The API is currently in MAINTENANCE-ONLY MODE as of 2024. New launches and missions are NOT being added to the dataset; the project remains online for historical lookups and as a teaching/sample API. This makes it an excellent fixture for SDK tutorials, MCP server demos, and API design exercises, but it is no longer a live source of upcoming SpaceX flight data. The data is organized as a MongoDB document store with cross-resource UUID references; the /query endpoints expose mongoose-paginate-v2 with full MongoDB find()/options semantics. Authentication is only required for destructive (create/update/delete) admin routes; all read operations are public. This community project is not affiliated with, endorsed by, or officially connected to Space Exploration Technologies Corp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png",
      "score": 48.1,
      "band": "developing",
@@ -1442,7 +1442,7 @@
     {
      "name": "NASA CMR",
      "slug": "nasa-cmr",
-     "description": "'NASA Common Metadata Repository (CMR) is a high-performance metadata",
+     "description": "NASA Common Metadata Repository (CMR) is a high-performance metadata system that catalogs Earth science data collections, granules, variables, services, and tools across NASA data centers. It provides REST, GraphQL, STAC, OpenSearch, and CSW interfaces for discovering, searching, and ingesting metadata for satellite and Earth observation datasets spanning decades of NASA missions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png",
      "score": 47.4,
      "band": "developing",
@@ -1484,7 +1484,7 @@
     {
      "name": "FlightLabs",
      "slug": "flightlabs",
-     "description": "Aviation data REST API providing real-time and historical flight information,",
+     "description": "Aviation data REST API providing real-time and historical flight information, airline schedules, aircraft data, airport details, and global flight tracking with worldwide airline coverage. Operated by Zyla Labs, FlightLabs offers 16+ endpoints covering live flights, flight delays, future predictions, airline routes, and flight pricing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/screenshots/flightlabs-2026-06-20T181312.png",
      "score": 46.2,
      "band": "developing",
@@ -1636,7 +1636,7 @@
     {
      "name": "LeoLabs",
      "slug": "leo-labs",
-     "description": "'LeoLabs is a commercial space situational awareness company that operates",
+     "description": "LeoLabs is a commercial space situational awareness company that operates a global network of phased-array radars and a cloud analytics platform delivering what it calls Persistent Orbital Intelligence for low Earth orbit. It independently tracks more than 23,000 objects in LEO and turns those radar observations into a commercial catalog, orbital state vectors, conjunction alerts, maneuver detection, pattern-of-life analysis and launch support for satellite operators, insurers, defense and civil space agencies. Customers reach the data either through the LeoLabs Platform web interface or, as LeoLabs describes it, \"a suite of full-featured RESTful APIs for ground system integration and automation at scale\" — the v1 Platform API over the catalog, radar measurements, state vectors, TLEs, ephemeris propagation and radar tasking. The company is backed by Insight Partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png",
      "score": 44.9,
      "band": "thin",
@@ -1672,7 +1672,7 @@
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
      "slug": "noaa-gov",
-     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and",
+     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and regulatory agency within the Department of Commerce charged with monitoring oceanic and atmospheric conditions, charting the seas, conducting deep-sea exploration, managing fishing and protection of marine mammals, and providing weather, climate, space weather, and ecosystem forecasts and warnings. NOAA's developer surface spans six line offices — the National Weather Service (NWS), the National Environmental Satellite, Data, and Information Service (NESDIS) including the National Centers for Environmental Information (NCEI), the National Ocean Service (NOS) including Tides & Currents (CO-OPS), the National Marine Fisheries Service (NMFS / NOAA Fisheries), the Office of Oceanic and Atmospheric Research (OAR), and the Office of Marine and Aviation Operations (OMAO). NOAA exposes free, open APIs at api.weather.gov, services.swpc.noaa.gov, api.tidesandcurrents.noaa.gov, ncei.noaa.gov/access, ERDDAP servers across line offices, the National Data Buoy Center (NDBC), and bulk forecast model output (GFS, GEFS, HRRR, GOES) through the NOAA Open Data Dissemination (NODD) program on AWS, GCP, and Azure.",
      "score": 44.9,
      "band": "thin",
      "band_label": "Thin",
@@ -1976,7 +1976,7 @@
     {
      "name": "Capella Space",
      "slug": "capella-space",
-     "description": "Capella Space operates a constellation of synthetic aperture radar (SAR) satellites and provides",
+     "description": "Capella Space operates a constellation of synthetic aperture radar (SAR) satellites and provides on-demand, high-resolution Earth-observation imagery through a self-service Console and public API. Customers can task the constellation with 15-minute scheduling cycles, search a STAC-based catalog of archive collects, place orders, and download imagery products for defense, intelligence, maritime, energy, insurance, and analytics use cases.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/screenshots/capella-space-2026-06-20T173938.png",
      "score": 43.4,
      "band": "thin",
@@ -2090,7 +2090,7 @@
     {
      "name": "Airbus",
      "slug": "airbus",
-     "description": "'A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.'",
+     "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
      "score": 41.6,
      "band": "thin",
@@ -2126,7 +2126,7 @@
     {
      "name": "American Airlines",
      "slug": "american-airlines",
-     "description": "American Airlines is one of the world's largest airlines, operating an",
+     "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
      "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
@@ -2429,7 +2429,7 @@
     {
      "name": "UP42",
      "slug": "up42",
-     "description": "UP42 is a geospatial marketplace and developer platform for Earth",
+     "description": "UP42 is a geospatial marketplace and developer platform for Earth observation (EO) data and analytics, operated by Airbus Defence and Space. It lets you search a global archive of satellite and aerial imagery (Catalog), task new satellite acquisitions on demand (Tasking), place and track Orders, store and download results as cloud-native Assets, and browse everything through a STAC-compliant data management API. Delivery, ordering, and storage are exposed over a documented REST API at https://api.up42.com, authenticated with OAuth2 access tokens (obtained from an API key or account credentials), and are also wrapped by an official Python SDK. Storage is powered by STAC and the cloud-native asset model, and job/order status changes can be pushed to consumer endpoints via webhooks.",
      "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
@@ -2506,7 +2506,7 @@
     {
      "name": "European Space Agency (ESA)",
      "slug": "esa",
-     "description": "The European Space Agency (ESA) provides public REST and standards-based",
+     "description": "The European Space Agency (ESA) provides public REST and standards-based APIs spanning Copernicus Earth observation (OData, STAC, Sentinel Hub, openEO, OGC, S3, On-Demand Processing), space weather monitoring (HAPI), astronomical mission archives (Gaia TAP, ESASky Legacy TAP), scientific data labs (Datalabs GraphQL), and climate change initiative datasets (ESGF, THREDDS, OpenSearch). Data includes Sentinel satellite imagery, solar and heliospheric time-series, gamma-ray and stellar catalogues, and multi-mission Earth observation products from European space programs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/screenshots/esa-2026-06-20T180819.png",
      "score": 37.0,
      "band": "thin",
@@ -2578,7 +2578,7 @@
     {
      "name": "Southwest Airlines",
      "slug": "southwest-airlines",
-     "description": "Southwest Airlines is one of the world's most profitable airlines and",
+     "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png",
      "score": 37.0,
      "band": "thin",
@@ -2614,7 +2614,7 @@
     {
      "name": "SkyWatch",
      "slug": "skywatch",
-     "description": "SkyWatch Space Applications is an Earth observation company whose EarthCache",
+     "description": "SkyWatch Space Applications is an Earth observation company whose EarthCache platform gives developers a single API to discover, price, order, and deliver commercial satellite imagery and geospatial data from many providers - Pleiades, SPOT, PlanetScope, SkySat, Sentinel-1, Sentinel-2, TripleSat, Kompsat, and more. The EarthCache API (base https://api.skywatch.co/earthcache, x-api-key auth) exposes Archive Search over historical imagery, Pipelines that monitor an area of interest and deliver imagery on a schedule, interval results with analytics and metadata download URLs, cost estimation, reusable output configurations (format, bands, mosaicking), saved locations, and callback-based subscriptions for platform events. Imagery is billed per square kilometre with resolution-based minimums.",
      "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
@@ -2835,7 +2835,7 @@
     {
      "name": "Planet Labs",
      "slug": "planet-labs",
-     "description": "'Planet Labs operates the world''s largest commercial Earth observation",
+     "description": "Planet Labs operates the world's largest commercial Earth observation constellation, imaging the entire landmass of the planet daily with its PlanetScope satellites and capturing high-resolution targeted imagery with SkySat and Pelican. The Planet Insights Platform is API-first: developers search the archive through the Data and Catalog APIs, order processed bundles through the Orders API, set up standing area-of-interest deliveries through the Subscriptions API, request tip-and-cue collections through the Tasking API, and consume mosaics through the Basemaps and Tiles APIs. Analytics, Processing, Statistical, and Batch APIs run server-side workflows over the catalog and over Planetary Variables. All APIs sit under api.planet.com, authenticate with an API key over HTTP Basic, and are wrapped by the official Planet Python SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png",
      "score": 35.7,
      "band": "thin",
@@ -3049,7 +3049,7 @@
     {
      "name": "Climate Engine",
      "slug": "climate-engine",
-     "description": "Climate Engine is a geospatial climate and remote-sensing data platform",
+     "description": "Climate Engine is a geospatial climate and remote-sensing data platform that runs on Google Earth Engine. Its commercial REST API (api.climateengine.org) provides on-demand processing of satellite and gridded climate datasets - Landsat, Sentinel, MODIS, GRIDMET, ERA5, CHIRPS and more - returning timeseries, map tiles, zonal statistics, and pre-built reports over points, polygons, and feature collections.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/screenshots/climate-engine-2026-06-20T174522.png",
      "score": 33.3,
      "band": "thin",
@@ -3085,7 +3085,7 @@
     {
      "name": "Urban Sky",
      "slug": "urban-sky",
-     "description": "Urban Sky is a Denver-based aerospace company, founded in 2016, that designs",
+     "description": "Urban Sky is a Denver-based aerospace company, founded in 2016, that designs and operates reusable stratospheric microballoons for high-altitude remote sensing, persistent aerial surveillance, communications relay, and atmospheric data collection. Its balloons launch in under five minutes, float at 61,000-75,000 feet for multi-day missions, and carry the modular Wallabee payload platform with RGB, VNIR, and LWIR thermal sensors delivering 10cm-resolution imagery with real-time downlink. Through its Atmosys software platform, Urban Sky publishes an SDK for developers (JavaScript and Python, delivered via CDN loader) that streams real-time balloon telemetry over WebSocket and provides mission imagery access, serving defense and intelligence, commercial monitoring, and science and weather markets. Urban Sky is a Techstars portfolio company.",
      "score": 33.3,
      "band": "thin",
      "band_label": "Thin",
@@ -3309,7 +3309,7 @@
     {
      "name": "Byteport",
      "slug": "byteport",
-     "description": "Byteport is a San Francisco-based file transfer acceleration company (Y Combinator",
+     "description": "Byteport is a San Francisco-based file transfer acceleration company (Y Combinator W2026) that moves large datasets across the internet using DART (Dynamic Accelerated Record Transfer), a proprietary protocol the company reports as typically 10x faster than TCP and up to 1000-1500x faster over unreliable cellular or satellite links. The Byteport API lets developers copy, move, pull, share, and list files across connected storage providers such as Amazon S3, Google Drive, Dropbox, and Box at scales from 1GB to 100TB with zero network configuration, targeting robotics, satellite, AI/ML, SaaS data-distribution, and defense workloads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/screenshots/byteport-2026-07-25T204142.png",
      "score": 28.4,
      "band": "emerging",
@@ -3345,7 +3345,7 @@
     {
      "name": "Vast",
      "slug": "vast-space",
-     "description": "Vast is a commercial space company building next-generation crewed space",
+     "description": "Vast is a commercial space company building next-generation crewed space stations, beginning with Haven-1 (the first commercial space station, targeting a 2026 launch on a SpaceX Falcon 9) and the larger Haven-2. Vast is an aerospace hardware and human-spaceflight company; as of this writing it does not publish a public developer API. The surfaces catalogued here are informational product, research, and partnership pages rather than programmable HTTP APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/screenshots/vast-space-2026-06-20T200831.png",
      "score": 26.4,
      "band": "emerging",
@@ -3531,7 +3531,7 @@
     {
      "name": "Garmin",
      "slug": "garmin",
-     "description": "Garmin is the global leader in GPS-enabled wearables, cycling computers,",
+     "description": "Garmin is the global leader in GPS-enabled wearables, cycling computers, outdoor handhelds, marine electronics, aviation avionics, and automotive navigation. Garmin's developer surface spans the Connect IQ wearable app platform (Monkey C, watch faces, data fields, widgets, device apps), the Garmin Connect Developer Program cloud APIs (Health, Activity, Women's Health, Training, Courses), the Health SDK for direct BLE streaming from wearables, the FIT SDK that defines the industry's de-facto endurance data interchange format, Navionics marine cartography, inReach satellite messaging, the ANT/ANT+ wireless protocol, and specialized APIs for golf, aviation flight data, fleet telematics, and custom outdoor maps.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/garmin/refs/heads/main/screenshots/garmin-2026-06-20T181648.png",
      "score": 23.8,
      "band": "emerging",
@@ -3645,7 +3645,7 @@
     {
      "name": "Relativity Space",
      "slug": "relativity-space",
-     "description": "Relativity Space is an aerospace manufacturer building Terran R, a reusable",
+     "description": "Relativity Space is an aerospace manufacturer building Terran R, a reusable medium-to-heavy lift orbital launch vehicle produced with the company's proprietary Stargate metal 3D printing platform in Long Beach, CA. The company sells launch services - dedicated and rideshare payload missions to LEO and GTO - to government, commercial, and telecommunications customers. Relativity Space does not publish a public developer API; its developer-facing artifact is the Terran payload user's guide (mission integration documentation), not a programmatic interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/screenshots/relativity-space-2026-06-20T192820.png",
      "score": 23.7,
      "band": "emerging",
@@ -3873,7 +3873,7 @@
     {
      "name": "Wyvern",
      "slug": "wyvern",
-     "description": "Wyvern is a Canadian space technology company operating the world's first commercial",
+     "description": "Wyvern is a Canadian space technology company operating the world's first commercial hyperspectral satellite constellation. Its Dragonette satellites deliver 31-band VNIR imagery at 5.3 metre ground sampling distance for agriculture, forestry, energy, mining, and defence use cases. Wyvern publishes an Open Data Program of free hyperspectral imagery delivered as a public STAC 1.0.0 catalog, alongside a knowledge centre, data product guide, and open notebooks for working with its imagery.",
      "score": 22.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4062,7 +4062,7 @@
     {
      "name": "Rocket Lab",
      "slug": "rocket-lab",
-     "description": "Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch",
+     "description": "Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch services, spacecraft, satellite components, and on-orbit services. Its Electron rocket is the world's most frequently launched orbital small launch vehicle; the medium-lift Neutron rocket is in development. Rocket Lab Space Systems supplies Photon spacecraft, reaction wheels, star trackers, solar arrays, propulsion, separation systems, and composite structures to civil, national security, and commercial customers. Rocket Lab does not currently offer a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/screenshots/rocket-lab-2026-06-20T193150.png",
      "score": 20.6,
      "band": "emerging",
@@ -4247,7 +4247,7 @@
     {
      "name": "Delta Airlines",
      "slug": "delta-airlines",
-     "description": "Delta Airlines (alias of Delta Air Lines) is a major U.S. airline providing",
+     "description": "Delta Airlines (alias of Delta Air Lines) is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. This repository is an alias of the canonical delta-air-lines profile and points to the same partner developer portal at apiportal.delta.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-airlines/refs/heads/main/screenshots/delta-airlines-2026-07-25T211717.png",
      "score": 18.7,
      "band": "emerging",
@@ -4283,7 +4283,7 @@
     {
      "name": "LIFT Aircraft",
      "slug": "lift",
-     "description": "LIFT Aircraft is an Austin, Texas experiential aviation company founded",
+     "description": "LIFT Aircraft is an Austin, Texas experiential aviation company founded by former Boeing engineer Matt Chasen, built around HEXA — an amphibious electric vertical take-off and landing aircraft with eighteen independent electric motors and propellers, a 432lb carbon fibre airframe, a triply redundant autopilot flown with a single three-axis joystick, an autonomous ballistic parachute, and enough redundancy to fly and land safely with up to six motors disabled. Because HEXA is compliant with the FAA's powered ultralight classification, no pilot's licence is required, and LIFT sells flight as a paid experience rather than selling aircraft — a short training session followed by a solo flight from waterfront bases in Austin and other US cities. The company has raised over $25 million from venture capital, accredited investors and US government grants, has worked with the US Air Force Agility Prime programme and the US Army, and has begun the FAA type certification process for a commercial edition. LIFT publishes no developer REST API or OpenAPI; its only machine-readable surface is a live, unauthenticated Model Context Protocol endpoint and an llms.txt served by its Wix-hosted site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/screenshots/lift-2026-07-25T225052.png",
      "score": 17.9,
      "band": "emerging",
@@ -4397,7 +4397,7 @@
     {
      "name": "Agreena",
      "slug": "agreena",
-     "description": "'Agreena is a Copenhagen-based agtech and climate finance company, founded in 2021,",
+     "description": "Agreena is a Copenhagen-based agtech and climate finance company, founded in 2021, that helps farmers transition to regenerative agriculture and monetize the resulting soil-carbon outcomes. Its AgreenaCarbon platform combines farmer enrollment, a satellite-, AI-, and soil-sampling-based digital measurement, reporting and verification (dMRV) engine, and Verra-certified carbon credit issuance. Agreena also offers standalone remote-sensing products such as a field-boundary-detection API for agrifood supply-chain monitoring. The platform spans roughly 5 million hectares and 2,500+ farmers across ~20 European countries. This profile was surfaced as a portfolio company of Anthemis and HV Capital and is being enriched by the API Evangelist pipeline; Agreena publishes no public developer portal or OpenAPI surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agreena/refs/heads/main/screenshots/agreena-2026-07-25T195320.png",
      "score": 16.6,
      "band": "emerging",
@@ -4546,7 +4546,7 @@
     {
      "name": "Loft Orbital",
      "slug": "loft-orbital",
-     "description": "'Loft Orbital is a space infrastructure company operating under the banner \"Space Made",
+     "description": "Loft Orbital is a space infrastructure company operating under the banner \"Space Made Simple\" that integrates, launches, and operates low-Earth-orbit satellites so customers can fly physical payloads or deploy software \"virtual missions\" without building or operating their own spacecraft. Its Cockpit mission-control platform lets operators task payloads, monitor telemetry, and downlink data in real time through a secure web UI or an authenticated API, and a customer SDK provides frameworks, documentation, and satellite APIs (including Azure Orbital space-edge deploys) for onboard sensors and compute. The Cockpit API and developer docs are gated behind login at api.cockpit.loftorbital.com, so no public specification is available. Backed by Uncork Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loft-orbital/refs/heads/main/screenshots/loft-orbital-2026-07-25T225454.png",
      "score": 16.0,
      "band": "emerging",
@@ -4626,7 +4626,7 @@
     {
      "name": "Loft Dynamics",
      "slug": "loft-dynamics",
-     "description": "'Loft Dynamics is a Swiss aviation technology company (founded 2016, headquartered in",
+     "description": "Loft Dynamics is a Swiss aviation technology company (founded 2016, headquartered in Dübendorf, Switzerland with a North American office in Santa Monica) that builds virtual reality flight simulation training devices (FSTDs) for helicopters, fixed-wing aircraft, and eVTOLs. Its simulators combine full-scale replica cockpits, dynamic motion platforms, 360-degree VR visuals, and advanced pose tracking, and were the first VR aircraft simulators to earn EASA and FAA qualification. Products include VR simulators for the Airbus H145, Airbus H125, and Robinson R22 helicopters, with Boeing 737 and eVTOL platforms in development. Customers include Alaska Airlines, the FAA, Airbus Helicopters, the LAPD, and Marshall University. The company operates the LoftHUB customer platform but publishes no public developer API, SDK, or API documentation surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loft-dynamics/refs/heads/main/screenshots/loft-dynamics-2026-07-25T225451.png",
      "score": 14.9,
      "band": "minimal",
@@ -4697,7 +4697,7 @@
     {
      "name": "Draxon",
      "slug": "draxon",
-     "description": "'Draxon is a Berlin-based company (founded 2025, backed by HV Capital and Point Nine)",
+     "description": "Draxon is a Berlin-based company (founded 2025, backed by HV Capital and Point Nine) that provides IATA-certified virtual reality training for airport ground handling operations. The platform ships pre-configured Meta Quest VR headsets and an immersive training library covering ramp equipment such as belt loaders, tractors, pushback tugs, GPUs and towable stairs, plus safety procedures and hand signals for frontline ramp personnel. Its Trainer Hub delivers automated, IATA-compliant certification tracking with self-paced or instructor-led modules. Draxon operates as a B2B SaaS training provider and does not publish a public developer API, SDKs, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/draxon/refs/heads/main/screenshots/draxon-2026-07-25T212523.png",
      "score": 14.5,
      "band": "minimal",
@@ -4768,7 +4768,7 @@
     {
      "name": "Orbio",
      "slug": "orbio",
-     "description": "'Orbio Earth is a climate-tech company (founded 2021; Dover, Delaware, USA and Cologne, Germany)",
+     "description": "Orbio Earth is a climate-tech company (founded 2021; Dover, Delaware, USA and Cologne, Germany) that turns open satellite data into industrial methane intelligence for the energy sector. Its platform detects, quantifies, and tracks methane emissions from oil-and-gas infrastructure globally at asset level with a roughly 5-day revisit rate, using multispectral imagery (Sentinel-2, Landsat 8/9, EMIT) and machine learning, plus Bayesian uncertainty estimation. Customers — oil-and-gas operators and private-equity firms — use it for super-emitter identification, historical trend and root-cause analysis, and compliance with emerging methane regulation. Platform access is offered via the web application or a sales-gated data API integration; there is no public self-serve developer portal, OpenAPI, or SDK. Orbio also publishes the open-source Project Eucalyptus methane-detection pipelines on GitHub for research use.",
      "score": 14.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4911,7 +4911,7 @@
     {
      "name": "CesiumAstro",
      "slug": "cesiumastro",
-     "description": "'CesiumAstro designs, manufactures, and tests full-stack communication",
+     "description": "CesiumAstro designs, manufactures, and tests full-stack communication systems and satellites for space, air, and ground missions. The Austin, Texas company, founded in 2017, builds active phased array payloads (Vireo), software-defined radios (SDR-1001/2051/2104/3104), reconfigurable processing units, SATCOM terminals (Skylark), tactical ISR/PNT payloads (Nightingale), and the integrated Element LEO satellite platform. Its hardware enables inter-satellite links, high-speed downlinks, lunar communications, and 5G non-terrestrial networks. CesiumAstro publishes no public developer API, SDK, or documentation portal; this profile tracks the company as an aerospace hardware provider in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cesiumastro/refs/heads/main/screenshots/cesiumastro-2026-07-25T205013.png",
      "score": 13.0,
      "band": "minimal",
@@ -4947,7 +4947,7 @@
     {
      "name": "EnduroSat",
      "slug": "endurosat",
-     "description": "'EnduroSat is a Sofia, Bulgaria-based satellite manufacturer and space",
+     "description": "EnduroSat is a Sofia, Bulgaria-based satellite manufacturer and space service provider working to make space universally accessible by lowering the cost and complexity of accessing space data. The company builds CubeSat and SmallSat platforms (FRAME Max, FRAME L, FRAME S buses and 8U/12U/16U CubeSats), avionics and communication modules (X-Band SDR, S-Band and UHF transceivers, EPS power modules, solar panels, and antennas), and delivers end-to-end Space Service, SpaceOps, and SpaceDev offerings that take customers from idea to orbit in roughly six months. EnduroSat has deployed 100+ satellites with 3,500+ modules in operation, downlinked 500+ TB of data, and serves ~450 customers including NASA, ESA, and IBM Space. It maintains an open-source GitHub organization publishing Cubesat Space Protocol (CSP) implementations and NextGen ground-station and onboard API frameworks. Backed by Founders Fund and GV.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4982,7 +4982,7 @@
     {
      "name": "Hula Earth",
      "slug": "hula-earth",
-     "description": "Hula Earth is a Munich-based environmental technology company providing",
+     "description": "Hula Earth is a Munich-based environmental technology company providing real-time biodiversity monitoring. It combines solar-powered, maintenance-free Hula BioT IoT sensors with AI-powered species detection, satellite-based Earth Observation, and the Hula Platform dashboard so organizations can monitor, manage, and report on biodiversity at landscape scale. Hula Earth serves renewables (solar and wind), agriculture, nature conservation, and urban development, turning environmental uncertainty into operational confidence and compliance-ready reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hula-earth/refs/heads/main/screenshots/hula-earth-2026-07-25T221634.png",
      "score": 13.0,
      "band": "minimal",
@@ -5018,7 +5018,7 @@
     {
      "name": "Isar Aerospace",
      "slug": "isar-aerospace",
-     "description": "'Isar Aerospace is a European space launch service provider founded in",
+     "description": "Isar Aerospace is a European space launch service provider founded in 2018 and headquartered in Ottobrunn near Munich, Germany. The company designs and manufactures Spectrum, a two-stage orbital small-lift launch vehicle capable of carrying up to 1,000 kg to low Earth orbit or up to 700 kg to Sun-synchronous orbit, using liquid oxygen and propane propulsion. Spectrum is fully developed and produced in-house with automated, scalable manufacturing including additive manufacturing and carbon-composite structures. Isar Aerospace offers dedicated, lead, and rideshare launch services for small and medium satellites and constellations. Backed by more than EUR 500 million in private capital from investors including Earlybird and HV Capital, the company employs over 400 people from nearly 50 nations and conducted the inaugural Spectrum test flight from Andoya Spaceport, Norway, on 30 March 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/isar-aerospace/refs/heads/main/screenshots/isar-aerospace-2026-07-25T222936.png",
      "score": 13.0,
      "band": "minimal",
@@ -5054,7 +5054,7 @@
     {
      "name": "True Anomaly",
      "slug": "true-anomaly",
-     "description": "'True Anomaly is a defense-technology company building spacecraft, software,",
+     "description": "True Anomaly is a defense-technology company building spacecraft, software, and payloads for space superiority. Its products include Jackal, a multirole space-superiority platform positioned as a tactical fighter-interceptor for contested orbital environments, and Mosaic, an autonomy software platform that transforms commander intent into autonomous action. The company serves U.S. government and allied defense customers from facilities in Centennial and Colorado Springs, Colorado; Long Beach, California; and Washington, DC. True Anomaly publishes no public API, developer portal, or SDK; its only machine-readable public surface is an RFC 9116 security.txt vulnerability-disclosure contact.",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5125,7 +5125,7 @@
     {
      "name": "Airspace Intelligence",
      "slug": "airspace-intelligence",
-     "description": "'Air Space Intelligence (ASI) builds AI software for mission-critical, geospatial",
+     "description": "Air Space Intelligence (ASI) builds AI software for mission-critical, geospatial operations across aviation, defense, logistics, and energy. Its Prescience platform fuses data, models operational domains, runs predictive simulations, and optimizes complex operations in real time — spanning airline operations, air traffic management, global logistics, defense (space, air, land, sea), and energy grids. ASI holds an $875M FAA contract to help modernize the U.S. National Airspace System and works with partners including Alaska Airlines, National Grid, and the U.S. Air Force. As of this profile the company publishes no public developer API, OpenAPI specification, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airspace-intelligence/refs/heads/main/screenshots/airspace-intelligence-2026-07-25T195435.png",
      "score": 12.3,
      "band": "minimal",
@@ -5197,7 +5197,7 @@
     {
      "name": "Boom Supersonic",
      "slug": "boom-supersonic",
-     "description": "'Boom Supersonic is a Denver-based aerospace company building supersonic",
+     "description": "Boom Supersonic is a Denver-based aerospace company building supersonic commercial aircraft to make the world dramatically more accessible. Its flagship airliner, Overture, is designed to carry passengers at twice the speed of today's jets and has orders and pre-orders from United Airlines, American Airlines, and Japan Airlines. The company develops the Symphony medium-bypass turbofan engine purpose-built for supersonic flight, flew the XB-1 demonstrator past Mach 1, and is applying its propulsion technology to Superpower gas turbines for data-center energy. Boom is a deep-tech, hardware-first manufacturer and does not currently publish a public developer API surface; this profile tracks its identity and security posture in the API Evangelist network. Backed by Bessemer Venture Partners, Electric Capital, and Homebrew.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boom-supersonic/refs/heads/main/screenshots/boom-supersonic-2026-07-25T203612.png",
      "score": 12.3,
      "band": "minimal",
@@ -5233,7 +5233,7 @@
     {
      "name": "Canopy Aerospace & Defense",
      "slug": "canopy-aerospace",
-     "description": "Canopy Aerospace & Defense (Canopy A&D) is a vertically integrated advanced",
+     "description": "Canopy Aerospace & Defense (Canopy A&D) is a vertically integrated advanced materials platform serving the aerospace, defense, space, maritime, and power-electronics industries. The company manufactures and delivers highly specialized materials with exceptional insulative, absorptive, and signal-reducing characteristics, including thermal protection systems (TPS), ultra-high-temperature ceramics, additive-manufactured ceramic components, multi-layer insulation and soft goods, and composite structures. Formed by Trive Capital through the combination of Canopy Aerospace, Hera Technologies, and MSM Industries, Canopy partners with OEMs from initial design and R&D through turnkey manufacturing and refurbishment of reusable platforms, operating facilities across the US, UK, and Netherlands. This is a physical materials manufacturer and publishes no public developer API; this profile captures its web and identity surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canopy-aerospace/refs/heads/main/screenshots/canopy-aerospace-2026-07-25T204348.png",
      "score": 12.3,
      "band": "minimal",
@@ -5304,7 +5304,7 @@
     {
      "name": "PierSight Space",
      "slug": "piersight-space",
-     "description": "PierSight Space is an India-based space technology company building a constellation",
+     "description": "PierSight Space is an India-based space technology company building a constellation of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites for persistent, all-weather maritime surveillance of the world's oceans. Founded by former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones, support maritime insurance risk assessment, and improve shipping operations. The company has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital, and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise and government clients and does not publish a public developer API, SDKs, or API documentation.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5339,7 +5339,7 @@
     {
      "name": "Renoster Systems",
      "slug": "renoster-systems",
-     "description": "'Renoster Systems is a carbon-credit ratings agency bringing deep transparency",
+     "description": "Renoster Systems is a carbon-credit ratings agency bringing deep transparency to the nature-based voluntary carbon markets. Using remote sensing, LiDAR, satellite data, and machine learning, Renoster independently rates forestry and other nature-based carbon offset projects, quantifying how much CO2 per credit a project has actually sequestered, and publishes public tools such as its Mercury project database and Renoster/Mercury rubric for researchers, reserve managers, policymakers, and corporate buyers. Renoster is a Techstars-backed startup. As of this profile the company does not publish a public developer API, SDKs, or machine-readable API surface; this record captures its company identity and public web properties.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5374,7 +5374,7 @@
     {
      "name": "Sarla Aviation",
      "slug": "sarla-aviation",
-     "description": "'Sarla Aviation is an Indian advanced air mobility company building electric vertical",
+     "description": "Sarla Aviation is an Indian advanced air mobility company building electric vertical takeoff and landing (eVTOL) aircraft for urban transportation. Its flagship flying taxi, Shunya, uses a hybrid-electric propulsion system (seven electric units, dual battery packs, and a sustainable aviation fuel tank) to reach up to 250 km/h with a range up to 800 km and 150 km fully electric, in cabin configurations spanning 6-seat, 4-seat, cargo, and ambulance variants. Founded by former Lilium engineers Rakesh Gaonkar and Adrian Schmidt, the company is a portfolio company of Accel. The public website exposes no developer, API, or technical integration surface as of this enrichment pass; this profile captures corporate identity, legal, and domain-security signals only.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5444,7 +5444,7 @@
     {
      "name": "The Exploration Company",
      "slug": "the-exploration-company",
-     "description": "'The Exploration Company (TEC) is a European deep-tech space startup founded",
+     "description": "The Exploration Company (TEC) is a European deep-tech space startup founded in July 2021 by Hélène Huby and a team of aerospace engineers from Airbus and ArianeGroup. Headquartered in Munich, Germany with sites in Bordeaux, Oberpfaffenhofen, Italy, France, Houston, and the MENA region, TEC develops Nyx, a family of modular, reusable, in-orbit refuelable spacecraft designed to carry cargo — and eventually humans — to low Earth orbit, lunar orbit, and the Moon, serving space stations and long-distance research missions. The company has raised a €40.5M Series A and a €150M Series B and is a certified B Corp. It exposes no public developer API; interfaces are provided to payload customers via a Payload User's Guide.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5479,7 +5479,7 @@
     {
      "name": "World View",
      "slug": "world-view",
-     "description": "'World View (World View Enterprises) is a Tucson, Arizona-based stratospheric",
+     "description": "World View (World View Enterprises) is a Tucson, Arizona-based stratospheric balloon company focused on remote sensing and persistent intelligence, surveillance, and reconnaissance (ISR). Its uncrewed high-altitude balloons carry EO/FMV, IR, SAR, and hyperspectral sensors for defense, government, and commercial missions. Acquired by Ondas Holdings in 2026, it now operates as part of the Ondas Sentinel multi-domain intelligence platform, with partnerships including Palantir and Sierra Nevada Corporation. World View publishes no public developer program or API.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5549,7 +5549,7 @@
     {
      "name": "Skylo",
      "slug": "skylo",
-     "description": "'Skylo Technologies is a satellite communications company based in Mountain",
+     "description": "Skylo Technologies is a satellite communications company based in Mountain View, California, operating a global Non-Terrestrial Network (NTN) that lets standard smartphones and IoT cellular devices connect directly to satellites over 3GPP Release 17 direct-to-device (D2D) standards for SMS, sensor telemetry, and other low-bandwidth messaging. Founded in 2017 and backed by DCM, SoftBank, Intel Capital, Innovation Endeavors, BMW i Ventures, Samsung Catalyst, Next47, Seraphim Space, and NGP Capital, Skylo has commercial service across the US, Brazil, Australia, New Zealand, and Europe. Skylo does not publish a public REST/HTTP API; developer integration is device-level (certified modules such as Quectel, Murata, Blues Notecard and Particle) with detailed procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks the company and its developer surface.",
      "score": 12.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5882,7 +5882,7 @@
     {
      "name": "Kepler Communications",
      "slug": "kepler-communications",
-     "description": "Kepler Communications operates a cloud-based infrastructure network in space, delivering real-time",
+     "description": "Kepler Communications operates a cloud-based infrastructure network in space, delivering real-time connectivity, on-orbit edge compute, and hosted payload services for satellite operators and space missions. Its offerings include the Kepler Network for space-based data relay and communications, Kepler Compute for on-orbit processing, and hosted payload services that reduce the cost and technical complexity of operating in orbit. Kepler is backed by Canaan Partners, Costanoa Ventures, and Techstars. No public developer API, OpenAPI specification, or SDK has been identified; services are accessed through the Kepler customer portal and an Atlassian-hosted support service desk.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kepler-communications/refs/heads/main/screenshots/kepler-communications-2026-07-25T223633.png",
      "score": 11.5,
      "band": "minimal",
@@ -6060,7 +6060,7 @@
     {
      "name": "Whisper Aero",
      "slug": "whisper-aero",
-     "description": "'Whisper Aero is a Crossville, Tennessee based aerospace company developing",
+     "description": "Whisper Aero is a Crossville, Tennessee based aerospace company developing ultra-quiet electric ducted-fan propulsion that converts electricity into thrust with roughly 20 percent more efficiency and 20 dB less noise than conventional systems, scaling from 5 to 500 pounds of thrust and 40 to 400 knots for aviation, defense, and commercial applications. Backed by Kindred Ventures, Lux Capital, and Menlo Ventures. The company is a hardware manufacturer and, as of this enrichment pass, publishes no public developer API, portal, or documentation surface.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6095,7 +6095,7 @@
     {
      "name": "Varda",
      "slug": "varda",
-     "description": "'Varda Space Industries is a microgravity-enabled life sciences company",
+     "description": "Varda Space Industries is a microgravity-enabled life sciences company that processes materials in orbit and returns them to Earth. Its in-house W-Series spacecraft are free-flying orbital production satellites with reentry capability, used for in-orbit pharmaceutical crystallization for biopharma partners and as a hypersonic reentry testbed for government flight testing. Backed by Founders Fund, General Catalyst, Khosla Ventures, and Lux Capital, Varda publishes no public API or developer surface as of July 2026.",
      "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6136,7 +6136,7 @@
     {
      "name": "Beyond Aero",
      "slug": "beyond-aero",
-     "description": "'Beyond Aero is a French aerospace company building the world''s first",
+     "description": "Beyond Aero is a French aerospace company building the world's first electric business aircraft powered by hydrogen propulsion. Its flagship aircraft, \"One\", is designed to fly more than 800 nautical miles with zero in-flight carbon emissions, targeting the light business-jet market. The company pairs rapid prototyping and iterative aircraft design with in-house engineering tools such as HADES (Hydrogen Aircraft Data Exploration Software). Backed by Initialized Capital, Beyond Aero is a frontier-tech hardware startup rather than an API provider; it publishes no public developer API, SDKs, or machine-readable API surface at this time. This profile was surfaced from a VC portfolio and enriched with company identity and web/domain-security signals.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6171,7 +6171,7 @@
     {
      "name": "Cowboy Space",
      "slug": "cowboy-space",
-     "description": "'Cowboy Space Corporation builds space-based infrastructure for artificial-intelligence",
+     "description": "Cowboy Space Corporation builds space-based infrastructure for artificial-intelligence computing. Its flagship program, Stampede, is a constellation of solar-powered GPU data centers in Low Earth Orbit that integrate the rocket's upper stage with the satellite to form a megawatt-class data center with active thermal management and integrated compute. The company positions orbital compute as an alternative to terrestrial data centers, whose grid-connection lead times in major US markets can run five to seven years or more, arguing that Earth's energy grid cannot keep pace with AI demand. Cowboy Space is an early-stage aerospace and AI-infrastructure startup backed by Index Ventures and Ribbit Capital; it currently publishes a corporate and careers presence with no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowboy-space/refs/heads/main/screenshots/cowboy-space-2026-07-25T210618.png",
      "score": 11.0,
      "band": "minimal",
@@ -6207,7 +6207,7 @@
     {
      "name": "Cowboy Space Corporation",
      "slug": "cowboy-space-corporation",
-     "description": "'Cowboy Space Corporation is a space infrastructure company building orbital",
+     "description": "Cowboy Space Corporation is a space infrastructure company building orbital data centers to address Earth's power constraints on artificial intelligence. Its Stampede satellite constellation places megawatt-class, GPU-equipped data centers in Low Earth Orbit powered by abundant solar energy, integrating the compute payload directly into the rocket's upper stage to maximize capacity and sidestep the multi-year terrestrial grid-connection delays that constrain traditional data centers. The company is an early-stage, venture-backed lead (backed by IVP); it currently publishes a corporate marketing site and careers portal but no developer portal, public API, or technical documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowboy-space-corporation/refs/heads/main/screenshots/cowboy-space-corporation-2026-07-25T210619.png",
      "score": 11.0,
      "band": "minimal",
@@ -6279,7 +6279,7 @@
     {
      "name": "Scout",
      "slug": "scout",
-     "description": "Scout (Scout Space) is a Techstars- and venture-backed space technology company founded in",
+     "description": "Scout (Scout Space) is a Techstars- and venture-backed space technology company founded in 2019 that builds next-generation orbital sensing and autonomy for Space Domain Awareness (SDA). Its in-space products, first launched in 2021, let spacecraft see and understand objects around them through electro-optical and infrared sensors (the Owl long-range SDA sensor line), edge processing hardware, mission autonomy software developed with the U.S. Space Force, and mission-design analysis. Scout supplies cross-orbit intelligence and dynamic space operations to government and commercial operators and has been awarded multiple AFWERX SBIR and USSF TACFI contracts. Scout does not publish a public developer API, SDK, or developer portal; this profile captures its identity and domain-security posture for the API Evangelist network.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6314,7 +6314,7 @@
     {
      "name": "TrustPoint",
      "slug": "trustpoint",
-     "description": "TrustPoint, Inc. is a space technology company building a fully commercial,",
+     "description": "TrustPoint, Inc. is a space technology company building a fully commercial, next-generation global navigation satellite system (GNSS) — a C-band LEO microsatellite constellation delivering secure positioning, navigation, and timing (PNT) independent of GPS, with improved accuracy, faster time to first fix, and anti-jamming / anti-spoofing capabilities for automotive, aviation, critical infrastructure, and national security applications. Headquartered in Northern Virginia with an office in Mountain View, California, and backed by DCVC, TrustPoint does not currently publish a public API or developer portal.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6385,7 +6385,7 @@
     {
      "name": "GE Aerospace",
      "slug": "ge-aerospace",
-     "description": "'A leading manufacturer of jet engines and aviation systems for commercial and military aircraft. Spun off from General Electric to focus exclusively on aerospace propulsion and services, GE Aerospace also offers software-as-a-service tooling, engine health monitoring (Collaborative Insight), TRUEngine certification, and OnPoint maintenance and support services.'",
+     "description": "A leading manufacturer of jet engines and aviation systems for commercial and military aircraft. Spun off from General Electric to focus exclusively on aerospace propulsion and services, GE Aerospace also offers software-as-a-service tooling, engine health monitoring (Collaborative Insight), TRUEngine certification, and OnPoint maintenance and support services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-aerospace/refs/heads/main/screenshots/ge-aerospace-2026-06-20T181702.png",
      "score": 10.9,
      "band": "minimal",
@@ -6493,7 +6493,7 @@
     {
      "name": "Brumby",
      "slug": "brumby",
-     "description": "'Brumby (formerly GrazeMate) is a Y Combinator-backed (W2026) precision-grazing",
+     "description": "Brumby (formerly GrazeMate) is a Y Combinator-backed (W2026) precision-grazing company based in Sydney, Australia, building an autonomous drone toolkit for cattle ranchers. Brumby drones plan routes and move herds with gentle, AI-guided pressure, fly scheduled monitoring missions that locate and count every animal, measure standing dry-matter pasture biomass from the air, and inspect water troughs, tanks and fences on every flight — all managed from a single phone app that works online or in a local base-station mode without connectivity. The company is running pilot programs and does not yet publish a public API, developer portal, or documentation; this profile is a company lead maintained in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brumby/refs/heads/main/screenshots/brumby-2026-07-25T204002.png",
      "score": 10.2,
      "band": "minimal",
@@ -6601,7 +6601,7 @@
     {
      "name": "IONA",
      "slug": "iona",
-     "description": "IONA (IONA Drones) is a UK-based autonomous drone delivery company building",
+     "description": "IONA (IONA Drones) is a UK-based autonomous drone delivery company building the full technology stack for logistics operators. Its tilt-rotor Sonnet aircraft performs VTOL from compact sites and carries up to 20 parcels up to 200 km per autonomous flight. IONA pairs the aircraft with an onboard autonomy operating system, GPS/LiDAR sensor-fusion precision landing, a SORA-aligned BVLOS compliance engine, an operations centre for real-time fleet monitoring and analytics, and a digital twin for simulation and predictive maintenance. The platform integrates with existing TMS/WMS logistics systems and targets healthcare, rural/remote, express e-commerce, industrial, and maritime delivery. Backed by Techstars.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iona/refs/heads/main/screenshots/iona-2026-07-25T222824.png",
      "score": 10.2,
      "band": "minimal",
@@ -6637,7 +6637,7 @@
     {
      "name": "Savion Aerospace",
      "slug": "savion-aerospace",
-     "description": "Savion Aerospace (FlySavion) is an aerospace company developing sustainable, zero-emissions",
+     "description": "Savion Aerospace (FlySavion) is an aerospace company developing sustainable, zero-emissions aviation technology. Its flagship SavionJet is an autonomous blended-wing-body (ABWB) aircraft with a standup cabin and satellite-based piloting via proprietary autonomous flight software, and the company offers Zero-Emissions Flight Credits (ZFCs) as a subscription for organizations seeking carbon-free air travel beyond offsetting. Savion demonstrated a cryogenic LNG-fueled flight in 2019 and is a 500 Global (500 Startups) and Alchemist Accelerator portfolio company. The company operates as an aviation hardware and services business and publishes no public developer API, SDK, or documentation surface.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6672,7 +6672,7 @@
     {
      "name": "Stoke Space",
      "slug": "stoke-space",
-     "description": "'Stoke Space Technologies is an American space launch company based in Kent, Washington,",
+     "description": "Stoke Space Technologies is an American space launch company based in Kent, Washington, founded in 2020 by a team of former Blue Origin and SpaceX engineers, led by co-founders Andy Lapsa and Tom Feldman (both ex-Blue Origin). The company is developing Nova, a medium-lift, 100% fully reusable rocket aimed at dramatically lowering the cost of access to orbit, along with its Zenith full-flow staged-combustion first-stage engine, the Andromeda second-stage engine, and a reusable metallic reentry heat shield. Stoke operates a 168,000 sq ft assembly facility and headquarters in Kent and a rocket test site near Moses Lake, Washington. Backed by Spark Capital and others, the company extended its Series D financing to $860 million in 2026. Stoke Space is a physical aerospace/hardware manufacturer and launch provider; it publishes no public developer API, API documentation, or developer portal.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6815,7 +6815,7 @@
     {
      "name": "Northwood Space",
      "slug": "northwood-space",
-     "description": "Northwood Space is an El Segundo, California ground-infrastructure company for the space",
+     "description": "Northwood Space is an El Segundo, California ground-infrastructure company for the space industry, founded in 2022 by Bridgit Mendler (CEO), Griffin Cleverly (CTO), and Shaurya Luthra. It designs and delivers rapidly deployable satellite ground stations built on electronically steerable phased-array antennas that track many satellites at once with no moving parts, paired with software (\"Portal\") that orchestrates every contact, automates scheduling, and moves data from spacecraft to customer. Northwood aims to turn ground infrastructure into cloud-like, on-demand global capacity for defense and commercial operators. The company's software stack is described as developer-oriented with modern APIs and integration hooks, but it publishes no public developer portal, API documentation, or SDKs at this time. Backed by Andreessen Horowitz (a16z), Founders Fund, Washington Harbour Partners, and Alpine Space Ventures; raised a $100M Series B and won a $50M Space Force contract in early 2026.",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6886,7 +6886,7 @@
     {
      "name": "Ampaire",
      "slug": "ampaire",
-     "description": "Ampaire is a Long Beach, California electric aviation company that develops",
+     "description": "Ampaire is a Long Beach, California electric aviation company that develops hybrid-electric propulsion systems for aircraft. Its AmpDrive powertrain retrofits and powers regional aircraft, and the company reports more than 30,000 flight miles with a stated goal of cutting fuel consumption, maintenance costs, and noise. Ampaire is backed by Techstars and has worked with partners including NASA and ARPA-E. The company currently exposes no public API, developer portal, or documentation surface; this profile is maintained in the API Evangelist network as a company record awaiting any future developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ampaire/refs/heads/main/screenshots/ampaire-2026-07-25T200119.png",
      "score": 8.9,
      "band": "minimal",
@@ -6958,7 +6958,7 @@
     {
      "name": "Kela Technologies",
      "slug": "kela-technologies",
-     "description": "'Kela Technologies (kela.io) is a defense technology company founded by veterans",
+     "description": "Kela Technologies (kela.io) is a defense technology company founded by veterans of elite Israeli intelligence units, providing a secure, open platform that enables rapid and seamless integration of commercial and military systems in service of Western defense. The company emerged from stealth in 2025 after raising $39M from Sequoia Capital, Lux Capital, and In-Q-Tel (the CIA's venture arm). Kela is building \"Sovereign Sky,\" a low-Earth-orbit satellite constellation for resilient communication and navigation independent of foreign infrastructure, and acquired cloud-management company Pelanor. As of this enrichment pass the company publishes a single-page marketing site with a privacy policy but no public API, developer portal, documentation, or machine-readable interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kela-technologies/refs/heads/main/screenshots/kela-technologies-2026-07-25T223553.png",
      "score": 8.9,
      "band": "minimal",
@@ -7066,7 +7066,7 @@
     {
      "name": "AstroForge",
      "slug": "astroforge",
-     "description": "'AstroForge is a commercial space startup founded in 2022 and based in Huntington Beach,",
+     "description": "AstroForge is a commercial space startup founded in 2022 and based in Huntington Beach, California, focused on asteroid mining and the in-space extraction and refining of platinum group metals and other critical minerals. Backed by Initialized Capital and a Y Combinator alum, the company designs low-cost, autonomous, replicable interplanetary spacecraft to prospect and mine near-Earth asteroids, with its DeepSpace-2 mission targeting the first commercial rendezvous with a body outside Earth's gravity well. AstroForge does not currently publish a public developer API, SDK, or documentation surface; this API Evangelist profile tracks the company as a frontier-tech lead and will be enriched further if and when a developer program appears.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/astroforge/refs/heads/main/screenshots/astroforge-2026-07-25T201511.png",
      "score": 8.1,
      "band": "minimal",
@@ -7138,7 +7138,7 @@
     {
      "name": "Heart Aerospace",
      "slug": "heart-aerospace",
-     "description": "'Heart Aerospace is a hybrid-electric aircraft manufacturer founded in",
+     "description": "Heart Aerospace is a hybrid-electric aircraft manufacturer founded in 2019 and headquartered in Torrance / Los Angeles, California, working to decarbonize and lower the cost of regional air travel. The company is developing the X1, a full-scale hybrid-electric technology demonstrator, and the ES-30, a 30-seat regional production aircraft, backed by strategic airline partners including United Airlines and Air Canada and investors such as Breakthrough Energy Ventures, Lowercarbon Capital, EQT Ventures, and Y Combinator. Heart Aerospace publishes no public developer or API surface; this profile tracks the company as an API Evangelist network entry in the sustainable-transport sector.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heart-aerospace/refs/heads/main/screenshots/heart-aerospace-2026-07-25T220847.png",
      "score": 8.1,
      "band": "minimal",
@@ -7174,7 +7174,7 @@
     {
      "name": "Orbital Arc",
      "slug": "orbital-arc",
-     "description": "Orbital Arc is a Houston-based deep-tech spacecraft propulsion startup founded in 2023 by",
+     "description": "Orbital Arc is a Houston-based deep-tech spacecraft propulsion startup founded in 2023 by Jonathan Huffman, building Gas-Phase Field Effect Electric Propulsion (Gas FEEP) thrusters and the RIOT Drive (Relativistic Ion Thrust Drive) for satellites and in-space transportation. Its ultra-lightweight electric thrusters use solid naphthalene fuel that sublimates at room temperature instead of noble gases, targeting high specific impulse for satellite constellations. Backed by Techstars and Capital Factory, the company completed a sub-scale physics demonstration at Oak Ridge National Laboratory (TRL 3). This is a hardware company with no public API, SDK, or developer surface as of this enrichment pass.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7209,7 +7209,7 @@
     {
      "name": "Reflect Orbital",
      "slug": "reflect-orbital",
-     "description": "'Reflect Orbital is a space-technology company developing satellite-based",
+     "description": "Reflect Orbital is a space-technology company developing satellite-based infrastructure to redirect natural sunlight to precise locations on Earth. It offers a Lighting service (adjustable illumination from moonlight to full-daylight intensity, controllable via app or website with no ground infrastructure) and an Energy service (augmenting solar-farm output by directing concentrated sunlight onto photovoltaic arrays). The company plans to expand its constellation from 2 satellites in 2026 toward 50,000+ by 2035. Reflect Orbital is backed by Lux Capital and was added to the API Evangelist network as a portfolio-sourced company profile. As of this enrichment pass the company publishes no public API, developer portal, documentation, SDKs, pricing, or sign-up surface.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7244,7 +7244,7 @@
     {
      "name": "Solestial",
      "slug": "solestial",
-     "description": "Solestial is a space solar energy company developing space-stable silicon photovoltaics",
+     "description": "Solestial is a space solar energy company developing space-stable silicon photovoltaics — radiation-hardened, ultrathin flexible silicon heterojunction solar cells and modules for spacecraft. Its products are the only solar products on the market that self-cure radiation damage at operating temperatures, offering competitive performance at lower cost than III-V multijunction solar. Solestial has flight heritage across multiple spacecraft and works with customers including NASA, Boeing, and the U.S. Space Force. This is a hardware and manufacturing company with no public developer API surface.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7315,7 +7315,7 @@
     {
      "name": "VXB Aerospace",
      "slug": "vxb-aerospace",
-     "description": "VXB Aerospace is an Australian space technology company founded in 2022",
+     "description": "VXB Aerospace is an Australian space technology company founded in 2022 by Alexander Ryan, developing generative design software and Hall-effect plasma propulsion for the satellite market. Its platform automates the design, manufacturability analysis, multi-physics modeling and validation of complex aerospace hardware such as propulsion systems, antennas and satellite layouts, while its ZEPHYR-35 Hall-effect thruster (Argon/Krypton/Xenon) provides in-orbit mobility, refueling, servicing and de-orbiting. The company was surfaced as a Techstars portfolio lead and enriched in the API Evangelist network; it publishes no public developer API, SDK, or documentation surface at this time.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7464,7 +7464,7 @@
     {
      "name": "Arctus Aerospace",
      "slug": "arctus-aerospace",
-     "description": "'Arctus Aerospace is a Bengaluru, India based deep-tech startup building high-altitude,",
+     "description": "Arctus Aerospace is a Bengaluru, India based deep-tech startup building high-altitude, long-endurance autonomous unmanned aircraft (MALE/HALE UAVs) for real-time Earth observation and geospatial intelligence. Its platforms are designed to operate near 45,000 feet for over 24 hours while carrying payloads up to 250 kg, delivering centimeter-level multispectral imagery as a \"zero-infrastructure\" alternative to satellites. The company positions itself as a data-as-a-service provider, selling subscription-based aerial coverage for energy, infrastructure, climate, defense, and agriculture use cases. Founded in 2024 by Shreepoorna S. Rao, Arctus raised a $2.6M pre-seed round led by Version One Ventures (with South Park Commons, gradCapital, and angels). As of this writing the company is pre-product from an API standpoint and publishes no public developer surface, API, or documentation; this profile was surfaced as a Version One Ventures portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arctus-aerospace/refs/heads/main/screenshots/arctus-aerospace-2026-07-25T201108.png",
      "score": 7.6,
      "band": "minimal",
@@ -7680,7 +7680,7 @@
     {
      "name": "Aethero",
      "slug": "aethero",
-     "description": "Aethero designs and manufactures radiation-hardened, space-rated edge",
+     "description": "Aethero designs and manufactures radiation-hardened, space-rated edge computing systems and AI/ML software for satellites, space stations, and orbital data centers, enabling autonomous on-orbit processing of imagery and sensor data rather than downlinking raw feeds. Its NVIDIA Jetson Orin/Thor-based NxN-ECM and NxA-ECM edge computing modules, Titan and Phobos platforms, the Aether fleet-management software framework, and the AMATDT model annotation/training/deployment tool let spacecraft run AI inference in orbit. Founded in 2023 and headquartered in San Francisco, Aethero raised an $8.4M seed round led by Kindred Ventures in June 2025. Aethero exposes no public web API today; this profile captures the company's identity and its live domain-security posture for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aethero/refs/heads/main/screenshots/aethero-2026-07-25T181737.png",
      "score": 7.2,
      "band": "minimal",
@@ -7788,7 +7788,7 @@
     {
      "name": "Fortastra",
      "slug": "fortastra",
-     "description": "Fortastra is a spacecraft manufacturer building low-cost, maneuverable",
+     "description": "Fortastra is a spacecraft manufacturer building low-cost, maneuverable orbital defense systems designed for scalability and autonomous operation. Its spacecraft protect space-based infrastructure with autonomous navigation that detects, analyzes, and responds to orbital anomalies without relying on distant ground-based sensors. The company's open software architecture spans sensing, maneuvering, coordination, and response functions, and its hardware is validated through component testing, simulation, and orbital deployment. Surfaced as a portfolio company of bloomberg-beta.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortastra/refs/heads/main/screenshots/fortastra-2026-07-25T215002.png",
      "score": 7.2,
      "band": "minimal",
@@ -7860,7 +7860,7 @@
     {
      "name": "Inversion",
      "slug": "inversion",
-     "description": "'Inversion is a Los Angeles-based aerospace and defense company founded in 2021 by Austin",
+     "description": "Inversion is a Los Angeles-based aerospace and defense company founded in 2021 by Austin Briggs and Justin Fiaschetti, building a new class of highly maneuverable reentry vehicles. Its flagship Arc is an autonomous, reusable, low-cost space-based delivery vehicle designed to store cargo in orbit and deliver it with precision to anywhere on Earth in under an hour, descending under parachutes using non-toxic propellants so crews can approach it immediately on landing. The company also develops hypersonics and space-based interceptor technology and flew its first reentry capsule, Ray, as an early technical demonstrator. Inversion has raised roughly $54M to date, including a $44M Series A led by Spark Capital and Adjacent with participation from Lockheed Martin Ventures, Kindred Ventures, and Y Combinator. It does not currently publish a public developer API; this profile tracks the company for the API Evangelist network.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7895,7 +7895,7 @@
     {
      "name": "Inversion Space",
      "slug": "inversion-space",
-     "description": "'Inversion Space is a Los Angeles-based aerospace and defense company",
+     "description": "Inversion Space is a Los Angeles-based aerospace and defense company founded in 2021 by Justin Fiaschetti and Austin Briggs, building autonomous, reusable, and low-cost reentry vehicles that turn space into a global logistics network. Its Arc vehicle is designed to store cargo in orbit and deliver a 500-pound payload to anywhere on Earth in under an hour, while its first spacecraft, Ray, validated key reentry subsystems. The company also develops hypersonic test capabilities and space-based interceptor technology, partnering with Anduril on the Golden Dome program and Kratos on the MACH-TB 2.0 hypersonic test program, backed by a $71M U.S. Space Force contract. It is in the API Evangelist network as a company profile; no public developer API, documentation, or SDK surface was found during enrichment.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7930,7 +7930,7 @@
     {
      "name": "MightyFly",
      "slug": "mightyfly",
-     "description": "MightyFly is an autonomous air-logistics company building hybrid-electric",
+     "description": "MightyFly is an autonomous air-logistics company building hybrid-electric eVTOL cargo aircraft for expedited, long-range, same-day deliveries. Its autonomous aircraft carry up to 500 pounds, travel up to 1,000 miles at roughly 150 MPH, and cut delivery emissions by around 64% versus traditional ground and air freight. MightyFly targets B2B logistics and defense delivery partnerships rather than offering a public developer platform. As of this enrichment pass the company publishes no developer API, SDK, developer portal, or public specifications; this profile captures its public web presence and probed domain-security posture.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8000,7 +8000,7 @@
     {
      "name": "Nabhdrishti Aerospace",
      "slug": "nabhdrishti-aerospace",
-     "description": "'Nabhdrishti Aerospace is a Bangalore-based deep-tech startup building",
+     "description": "Nabhdrishti Aerospace is a Bangalore-based deep-tech startup building India's first fuel-flex micro gas turbine for aviation and power generation. Its ND 400 engine is a 400 N single-core micro gas turbine designed for UAVs, hybrid-electric aircraft, and small aircraft as well as oil & gas, manufacturing, and vehicle range-extender power generation, running on conventional fuels, biofuels, and hydrogen with an innovative recuperator design that targets greater than 15% efficiency at under half the cost of competing turbines. Backed by Accel, the company raised USD 3M and operates from the IISc Bangalore IHUB. As a hardware manufacturer it publishes no public API, SDK, or developer platform; this profile tracks its public web presence.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8035,7 +8035,7 @@
     {
      "name": "Orbital Operations",
      "slug": "orbital-operations",
-     "description": "'Orbital Operations is a space-defense technology company founded in 2024 and based in Huntington",
+     "description": "Orbital Operations is a space-defense technology company founded in 2024 and based in Huntington Beach, California, developing high-thrust, cryogenic-powered orbital vehicles for rapid-response satellite defense, interception, and in-orbit repositioning. Its flagship Astraeus vehicle uses liquid-hydrogen propulsion with a proprietary zero-boil-off (ZBO) cryogenic storage system enabling in-space refueling and efficient payload transport between LEO, MEO, GEO, and lunar orbits. Backed by Initialized Capital, the company builds spaceflight hardware and does not currently expose a public developer API, SDK, or developer portal.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8177,7 +8177,7 @@
     {
      "name": "Xona Space Systems",
      "slug": "xona-space-systems",
-     "description": "'Xona Space Systems builds Pulsar, a commercial low-Earth-orbit (LEO)",
+     "description": "Xona Space Systems builds Pulsar, a commercial low-Earth-orbit (LEO) positioning, navigation, and timing (PNT) satellite service designed to complement and harden GPS with centimeter-level accuracy and encrypted, jam-resistant signals usable by existing GNSS devices via software updates. The planned constellation is 258 small satellites at roughly 1,080 km altitude, with the Pulsar Verified ecosystem (receivers, simulators, test platforms) delivered through partners including Trimble, Septentrio, Topcon, Furuno, and Murata. A Craft Ventures portfolio company serving defense, agriculture, telecom, transportation, maritime, aviation, and autonomous systems. No public developer API surface was found as of July 2026.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8212,7 +8212,7 @@
     {
      "name": "Zeno Power",
      "slug": "zeno-power",
-     "description": "Zeno Power is a deep-tech energy company developing radioisotope power",
+     "description": "Zeno Power is a deep-tech energy company developing radioisotope power systems (nuclear batteries) that convert the heat of radioisotope decay into reliable, long-duration electricity for extreme environments where conventional power sources fail. Its compact radioisotope Stirling generators target 1-100+ watts for use cases spanning NASA lunar surface missions (americium-241 fueled), seabed and maritime sensor infrastructure, and Department of Defense / U.S. Space Force applications (strontium-90 fueled). The company works with partners including NASA, the Pentagon, Westinghouse, and Orano, with commercial market delivery targeted for 2027. Backed by DCVC, Zeno Power was added to the API Evangelist network as a portfolio lead; enrichment found no public API, developer platform, SDKs, or technical documentation surface as of this pass.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8247,7 +8247,7 @@
     {
      "name": "AirMap",
      "slug": "airmap",
-     "description": "'AirMap was a drone airspace-management and unmanned traffic management (UTM) platform",
+     "description": "AirMap was a drone airspace-management and unmanned traffic management (UTM) platform that provided airspace intelligence, flight planning, digital notice, and geofencing services for drones and their operators, exposed through a developer platform of airspace and flight APIs. It was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as an enrichment lead. As of this enrichment pass (2026-07) the company appears defunct: airmap.com no longer serves a developer portal or API and now resolves to a parked Squarespace-hosted page with a mismatched TLS certificate, and the legacy developer.airmap.com / api.airmap.com / docs.airmap.com hosts no longer resolve. No live API surface remains to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airmap/refs/heads/main/screenshots/airmap-2026-07-25T195428.png",
      "score": 6.8,
      "band": "minimal",
@@ -8319,7 +8319,7 @@
     {
      "name": "Albedo",
      "slug": "albedo",
-     "description": "'Albedo is a company surfaced as a portfolio company of initialized-capital and added to",
+     "description": "Albedo is a company surfaced as a portfolio company of initialized-capital and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment pipeline.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8354,7 +8354,7 @@
     {
      "name": "Aliena",
      "slug": "aliena",
-     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs",
+     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing. Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API Evangelist profile tracks the company as a 500 Global portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/screenshots/aliena-2026-07-25T195616.png",
      "score": 6.8,
      "band": "minimal",
@@ -8462,7 +8462,7 @@
     {
      "name": "Basalt",
      "slug": "basalt",
-     "description": "'Basalt (Basalt Technologies Corp.) is a San Francisco spacecraft-software company building",
+     "description": "Basalt (Basalt Technologies Corp.) is a San Francisco spacecraft-software company building Dispatch, a simulation-based operating system for satellites that makes flight software portable across dissimilar spacecraft hardware — pitched as \"Windows for spacecraft\" and \"Constellations as a Service.\" Dispatch provides a common control layer so fleets of different satellites can work together on tasking (visible, infrared, and radar imaging), in-orbit networking and telecom, signals intelligence, and monitoring or inspecting other on-orbit assets, including autonomous re-tasking for national security missions. Founded in 2023 by Max Bhatti and Alex Choi (ex-SpaceX engineers, MIT CubeSat program), Basalt is a Y Combinator W24 company that raised a $3.5M seed round led by Initialized Capital in May 2024, with participation from Y Combinator, Liquid 2 Ventures, and General Catalyst. The company publishes no public developer API, documentation, or SDK surface; this profile captures its identity and probed domain security. Sector: frontier-tech / space / defense.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basalt/refs/heads/main/screenshots/basalt-2026-07-25T202410.png",
      "score": 6.8,
      "band": "minimal",
@@ -8498,7 +8498,7 @@
     {
      "name": "Beyond Reach Labs",
      "slug": "beyond-reach-labs",
-     "description": "Beyond Reach Labs is a Brooklyn, New York aerospace company building deployable",
+     "description": "Beyond Reach Labs is a Brooklyn, New York aerospace company building deployable solar arrays and thermal radiators for spacecraft that expand from compact launch sizes to enormous structures in orbit. Its patented geometry-changing panels grow from the size of a dining table to a football field once deployed, giving satellites, orbital data centers, commercial space stations, and lunar outposts up to 10x more usable power without adding launch mass or volume. Founded by two aerospace engineers, the company is targeting its first in-space demonstration in Q2 2027 and is a Y Combinator portfolio company. Beyond Reach Labs is a hardware manufacturer and does not currently publish a public API or developer program.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8533,7 +8533,7 @@
     {
      "name": "Deice",
      "slug": "deice",
-     "description": "'De-Ice Technologies is an aviation deep-tech company that develops a fast, chemical-free",
+     "description": "De-Ice Technologies is an aviation deep-tech company that develops a fast, chemical-free aircraft de-icing system to replace traditional glycol chemical spray methods. Spun out of MIT in 2015 by co-founders Alexander Bratianu-Badea and Ruben Toubiana, the Somerville, Massachusetts company uses gallium nitride (GaN) semiconductors to generate high-frequency electric current through tape-like strips attached to an aircraft's exterior, melting snow and ice during the boarding window instead of the usual 30-45 minute glycol spray delay. The approach eliminates glycol spraying costs and the carbon emissions from idling and chemical production/transport, improving airline on-time performance. Air Canada is the launch customer, and the technology was featured in Time's Best Inventions of 2024. De-Ice is a portfolio company of Playground Global. This is a company profile in the API Evangelist network; De-Ice publishes no public API, SDK, or developer surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deice/refs/heads/main/screenshots/deice-2026-07-25T211634.png",
      "score": 6.8,
      "band": "minimal",
@@ -8641,7 +8641,7 @@
     {
      "name": "Enhanced Radar",
      "slug": "enhanced-radar",
-     "description": "Enhanced Radar is a San Francisco-based applied AI company building intelligent",
+     "description": "Enhanced Radar is a San Francisco-based applied AI company building intelligent systems for aviation, the world's most complex transportation domain. Its work centers on pilot-controller communications, where the company owns the full pipeline from data collection through in-house labeling and quality assurance to produce high-quality aviation AI training datasets. Products include Pattern, an aviation operational intelligence platform; ATC.com, a live air traffic control radio service; and Y4, an aviation understanding model announced in February 2026. Enhanced Radar has demonstrated real-time detection of runway incursion risks and raised $7 million in May 2026. It is backed by DCVC and Initialized Capital. The company does not currently publish a public API, developer documentation, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enhanced-radar/refs/heads/main/screenshots/enhanced-radar-2026-07-25T213357.png",
      "score": 6.8,
      "band": "minimal",
@@ -8713,7 +8713,7 @@
     {
      "name": "Ethereal Exploration Guild",
      "slug": "ethereal-exploration-guild",
-     "description": "'Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in",
+     "description": "Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in Bengaluru by Manu J. Nair, Prashant Sharma, and Shubhayu Sardar, building fully reusable medium-lift launch vehicles. Its lead product, the Razor Crest Mk-1 (RCM1), targets roughly 25 tons to low Earth orbit with high launch cadence, up to 16 orbit insertions per flight, and 72-96 hour turnaround. The company has manufactured its 80kN reusable upper-stage engine (Pegasus) using a proprietary Full Flow Segregated Cooling Cycle (FFSCC) and operates a large private rocket testing facility in Cuddalore, Tamil Nadu. EtherealX has raised on the order of $26M across multiple rounds, including a Series A in December 2025. The company offers launch services rather than any developer-facing API or platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ethereal-exploration-guild/refs/heads/main/screenshots/ethereal-exploration-guild-2026-07-25T213648.png",
      "score": 6.8,
      "band": "minimal",
@@ -8749,7 +8749,7 @@
     {
      "name": "GAGO Group",
      "slug": "gago-group",
-     "description": "'GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology",
+     "description": "GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology company focused on agricultural and rural big data applications. Its homepage positions the business around agricultural and rural big data, applying remote-sensing and data-analytics techniques to agriculture. GAGO Group is backed by DCM Ventures and was added to the API Evangelist network from that portfolio. As of this enrichment pass the company publishes a corporate website at gagogroup.cn but no public developer portal, API documentation, or machine-readable API specification could be verified, so no spec-derived API artifacts were produced.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gago-group/refs/heads/main/screenshots/gago-group-2026-07-25T215454.png",
      "score": 6.8,
      "band": "minimal",
@@ -8785,7 +8785,7 @@
     {
      "name": "General Aviation",
      "slug": "general-aviation",
-     "description": "General Aviation is a Y Combinator-backed startup (Spring 2026 batch) building a new air",
+     "description": "General Aviation is a Y Combinator-backed startup (Spring 2026 batch) building a new air traffic control (ATC) system by connecting aircraft to the internet. Founded by Ben Frank, the company develops remote ATC tower technology aimed at the roughly 90 percent of airports in the U.S. National Airspace System that currently operate without control towers, giving smaller airfields an affordable path to the safety and efficiency benefits of tower services without the cost of traditional tower infrastructure and staffing. As of this profile the company operates a single marketing landing page and publishes no public developer API, documentation, or SDK surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-aviation/refs/heads/main/screenshots/general-aviation-2026-07-25T215532.png",
      "score": 6.8,
      "band": "minimal",
@@ -8893,7 +8893,7 @@
     {
      "name": "Gilmour Space",
      "slug": "gilmour-space",
-     "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on",
+     "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on the Gold Coast in Queensland, founded in 2012 by brothers Adam and James Gilmour. The company designs and manufactures hybrid-propulsion orbital launch vehicles (the Eris rocket) and satellite platforms (the G-class / ElaraSat bus), and operates the Bowen Orbital Spaceport in North Queensland from which it is pursuing Australia's first sovereign orbital launch. Gilmour Space is backed by investors including Blackbird Ventures, Main Sequence Ventures, 500 Global, Fine Structure Ventures and HESTA. It is added to the API Evangelist network as a company profile; the company operates in aerospace and space launch and does not currently publish a public developer API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gilmour-space/refs/heads/main/screenshots/gilmour-space-2026-07-25T215818.png",
      "score": 6.8,
      "band": "minimal",
@@ -9072,7 +9072,7 @@
     {
      "name": "Iris Automation",
      "slug": "iris-automation",
-     "description": "'Iris Automation was a Reno, Nevada deep-tech company that built Casia, a",
+     "description": "Iris Automation was a Reno, Nevada deep-tech company that built Casia, a computer-vision detect-and-avoid (DAA) system enabling beyond-visual-line-of-sight (BVLOS) drone operations. Its onboard products (Casia, Casia X) and the ground-based Casia G used industrial cameras and machine-learning to detect non-cooperative intruder aircraft and prevent near mid-air collisions, integrating with MavLink-based autopilots and UAS ground control systems. Iris Automation was acquired by uAvionix in late 2023; the irisonboard.com domain now 301-redirects to uAvionix and the company exposes no public developer API, documentation, or well-known surface of its own.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iris-automation/refs/heads/main/screenshots/iris-automation-2026-07-25T222859.png",
      "score": 6.8,
      "band": "minimal",
@@ -9108,7 +9108,7 @@
     {
      "name": "K2 Space",
      "slug": "k2-space",
-     "description": "'K2 Space (K2 Space Corporation) is a Los Angeles / Torrance, California",
+     "description": "K2 Space (K2 Space Corporation) is a Los Angeles / Torrance, California aerospace startup that designs and manufactures high-power \"Mega Class\" satellite buses. Its platforms deliver roughly 20kW of array power and up to one metric ton of payload capacity - about ten times the power and payload of conventional buses - to maximize the throw-weight of next-generation launch vehicles like SpaceX Starship and Blue Origin New Glenn. K2 builds radiation-tolerant, vertically integrated (80% in-house) spacecraft with redundant avionics and high-delta-v propulsion for LEO, MEO, GEO and cislunar missions, serving commercial and U.S. government / defense customers. Backed by First Round Capital, Lightspeed Venture Partners and Redpoint Ventures, the company raised a $250M Series C at a $3B valuation and is preparing its first production satellite, GRAVITAS. K2 Space is a hardware company with no public developer API; this profile tracks its identity and web presence in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/k2-space/refs/heads/main/screenshots/k2-space-2026-07-25T223352.png",
      "score": 6.8,
      "band": "minimal",
@@ -9144,7 +9144,7 @@
     {
      "name": "Kyten Technologies",
      "slug": "kyten-technologies",
-     "description": "'Kyten Technologies is a Seattle, Washington hardware manufacturing startup",
+     "description": "Kyten Technologies is a Seattle, Washington hardware manufacturing startup building a factory to produce custom aerospace-grade battery packs. The founders spent six years at Starlink, where they put more than 5,000 battery packs into space, and are now bringing rapid development and volume production of aerospace-grade battery packs to the wider industry. The company positions itself against a legacy supply chain that cannot keep up with the 100,000+ drones, submarines, and satellites being built in the United States. Kyten Technologies is a Y Combinator Winter 2026 company, classified under Industrials / Manufacturing and Robotics, and was an early-stage two-person team at the time of profiling. As a hardware manufacturer it publishes no public API, developer portal, or machine-readable API artifacts; this profile is maintained in the API Evangelist network as a company record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9179,7 +9179,7 @@
     {
      "name": "Lunasonde",
      "slug": "lunasonde",
-     "description": "Lunasonde is a Techstars-backed deep-tech space company building a satellite",
+     "description": "Lunasonde is a Techstars-backed deep-tech space company building a satellite constellation for subsurface Earth imaging. Its sensing technology aims to scan beneath the surface from orbit to detect groundwater, minerals, and other underground features, delivering the resulting geophysical data to mining, agriculture, water, and natural-resource customers. As of this profile the company exposes no public developer API, documentation portal, SDK, or machine-readable API surface; this record captures its verifiable web and domain-security footprint for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunasonde/refs/heads/main/screenshots/lunasonde-2026-07-25T225726.png",
      "score": 6.8,
      "band": "minimal",
@@ -9215,7 +9215,7 @@
     {
      "name": "Lydian",
      "slug": "lydian",
-     "description": "Lydian (Lydian Labs) develops modular, turnkey plants that produce sustainable aviation",
+     "description": "Lydian (Lydian Labs) develops modular, turnkey plants that produce sustainable aviation fuel (SAF) from captured CO2 and hydrogen. Its technology converts carbon dioxide and electrolytic hydrogen into jet fuel via a syngas production process compatible with existing aircraft, targeting deployment in under two years and capital costs roughly 50% lower than conventional SAF plants. The company markets to airlines, fuel buyers, and facility operators. Based in Charlestown, Massachusetts, Lydian is backed by Union Square Ventures. This is a hardware/industrial company with no public API, SDK, or developer portal surface at the time of enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lydian/refs/heads/main/screenshots/lydian-2026-07-25T225747.png",
      "score": 6.8,
      "band": "minimal",
@@ -9251,7 +9251,7 @@
     {
      "name": "Mantari",
      "slug": "mantari",
-     "description": "'Mantari is a weather-intelligence and earth-sensing company building a decision-intelligence",
+     "description": "Mantari is a weather-intelligence and earth-sensing company building a decision-intelligence platform that fuses a distributed network of sensors with AI to turn environmental data across oceans, skies, and space into mission-critical, actionable intelligence. It initially targets government and defense decision support, with plans to extend into broader economic and commercial applications. As of this profile Mantari publishes a marketing homepage and a careers page but no public API, developer portal, documentation, or SDKs; this record captures its identity plus a live domain-security probe, pending a future developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9286,7 +9286,7 @@
     {
      "name": "Nexus Lab Technologies, Inc.",
      "slug": "nexus-lab-technologies-inc",
-     "description": "Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in",
+     "description": "Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in 2022 and backed by 500 Global. Operating from nexuslab.fr, it applies machine learning to satellite imagery, flight traffic data, and meteorological parameters to help airlines optimize flight paths and reduce contrail formation, mitigating aviation's non-CO2 climate impact. As of this enrichment pass the company publishes only a marketing website with no public API, developer portal, documentation, or SDKs; no developer surface was found to catalog.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9321,7 +9321,7 @@
     {
      "name": "OptoAtmospherics",
      "slug": "optoatmospherics",
-     "description": "OptoAtmospherics, Inc. is an Ann Arbor, Michigan company (founded 2009, spun out of Michigan",
+     "description": "OptoAtmospherics, Inc. is an Ann Arbor, Michigan company (founded 2009, spun out of Michigan Aerospace Corporation) that develops UV-based Light Detection and Ranging (LIDAR) systems for the wind energy industry. Its laser-based atmospheric measurement products deliver continuous wind speed, direction, temperature, and density reporting from turbine-mounted or ground-based platforms, with real-time detection of wind gusts, shear, and turbulence to improve site assessment, increase energy output, and protect turbine equipment. The business is a hardware and atmospheric-sensing venture; it exposes no public developer API, SDK, or software platform. Its former domain (optoatmospherics.com) is now parked/for-sale and the product line lives on under michiganaerospace.com/optoatmospherics/.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9427,7 +9427,7 @@
     {
      "name": "Pulse Space",
      "slug": "pulse-space",
-     "description": "Pulse (Pulse - Space Power Solutions) is a Techstars-backed space technology company building",
+     "description": "Pulse (Pulse - Space Power Solutions) is a Techstars-backed space technology company building power solutions for spacecraft and satellites. The company operates a WebGL marketing site at pulsespace.com and, as of this enrichment pass, publishes no public API, developer portal, SDKs, or machine-readable API specifications. This profile was added to the API Evangelist network as a portfolio lead; enrichment probing confirmed a marketing-only web presence (TLS 1.3 with HSTS) and no developer or API surface to harvest.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9462,7 +9462,7 @@
     {
      "name": "Rocket Lab",
      "slug": "rocketlabusa",
-     "description": "Rocket Lab (Rocket Lab Corporation, formerly Rocket Lab USA; Nasdaq RKLB) is an",
+     "description": "Rocket Lab (Rocket Lab Corporation, formerly Rocket Lab USA; Nasdaq RKLB) is an American aerospace manufacturer and end-to-end space company founded in 2006 by Peter Beck. It designs and launches the Electron small-lift orbital rocket, is developing the reusable Neutron medium-lift vehicle, and builds the Photon spacecraft platform along with satellites, spacecraft components, solar cells, reaction wheels, star trackers, separation systems and other space systems. Rocket Lab operates launch complexes in Mahia, New Zealand and at Wallops Island, Virginia, providing dedicated and rideshare launch services plus on-orbit management for commercial, civil and national-security customers. It was added to the API Evangelist network as a portfolio company of Khosla Ventures; this profile is enriched from public identity and live domain probes only, as Rocket Lab publishes no public developer API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9497,7 +9497,7 @@
     {
      "name": "Skybox Imaging",
      "slug": "skybox-imaging",
-     "description": "Skybox Imaging was a high-resolution Earth-observation smallsat startup",
+     "description": "Skybox Imaging was a high-resolution Earth-observation smallsat startup founded in 2009 out of Stanford University, building the SkySat constellation of small satellites to capture sub-meter commercial imagery and video. Backed by Canaan Partners among other venture investors, it was acquired by Google in 2014 for roughly $500M, renamed Terra Bella in 2016, and then sold to Planet Labs in 2017. The company no longer exists as an independent entity and publishes no live developer API, docs, or discovery surface; this profile is retained as a portfolio-graph node for canaan-partners.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9532,7 +9532,7 @@
     {
      "name": "Skyboximaging",
      "slug": "skyboximaging",
-     "description": "'Skybox Imaging was a satellite imaging and geospatial-analytics company (founded 2009, Mountain",
+     "description": "Skybox Imaging was a satellite imaging and geospatial-analytics company (founded 2009, Mountain View, CA) that built a constellation of small high-resolution Earth-observation satellites (SkySat) and the analytics to turn frequent imagery into commercial insight. Backed by Norwest Venture Partners, Bessemer, Khosla Ventures and others, it was acquired by Google in 2014 (~$500M), renamed Terra Bella, and its satellite business was sold to Planet Labs in 2017. The skyboximaging.com domain is no longer a live product surface; this profile is retained in the API Evangelist network for portfolio-graph and historical reference.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9567,7 +9567,7 @@
     {
      "name": "SpinLaunch",
      "slug": "spinlaunch",
-     "description": "'SpinLaunch is a space technology company developing a kinetic launch",
+     "description": "SpinLaunch is a space technology company developing a kinetic launch system that uses a rotating carbon-fiber arm inside a large vacuum chamber to accelerate launch vehicles to thousands of kilometers per hour before ignition, aiming to eliminate up to 70 percent of the fuel and structure of a conventional rocket. It operates a Suborbital Accelerator test facility at Spaceport America in New Mexico that doubles as a customer payload-testing platform, and is developing an Orbital Launch System alongside its Meridian satellite broadband constellation for enterprise connectivity. Backed by GV, the company currently publishes no public developer API, documentation, or SDK surface; this profile captures its identity and domain-security posture.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9602,7 +9602,7 @@
     {
      "name": "Swarm Technologies",
      "slug": "swarm-technologies",
-     "description": "'Swarm Technologies is a company surfaced as a portfolio company of social-capital and added",
+     "description": "Swarm Technologies is a company surfaced as a portfolio company of social-capital and added to the API Evangelist network as a stub for enrichment. Sector: space. This profile is a lead awaiting the enrichment pipeline.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9637,7 +9637,7 @@
     {
      "name": "Terra Bella (fka Skybox Imaging)",
      "slug": "terra-bella-fka-skybox-imaging",
-     "description": "'Terra Bella, originally founded in 2009 as Skybox Imaging (Mountain View, California), was a",
+     "description": "Terra Bella, originally founded in 2009 as Skybox Imaging (Mountain View, California), was a satellite imaging and geospatial analytics company that built and operated the SkySat constellation of high-resolution Earth-observation satellites. Google acquired Skybox Imaging in 2014 for roughly $500 million and rebranded it Terra Bella. In 2017 Alphabet/Google sold Terra Bella and its SkySat satellites to Planet Labs, folding the business into Planet's Earth-observation operations. Terra Bella no longer exists as an independent operating entity and publishes no independent developer portal, API, or SDK surface; its capabilities live on inside Planet Labs. Surfaced as a portfolio company of bessemer-venture-partners.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9708,7 +9708,7 @@
     {
      "name": "Virgin Galactic",
      "slug": "virgin-galactic",
-     "description": "'Virgin Galactic is a publicly traded (NYSE: SPCE) commercial spaceflight company",
+     "description": "Virgin Galactic is a publicly traded (NYSE: SPCE) commercial spaceflight company founded by Richard Branson that develops and operates suborbital, crewed spaceplanes for space tourism and research payloads. It flies its air-launched SpaceShipTwo-class and next generation Delta-class vehicles from Spaceport America in New Mexico, carrying private astronauts and scientific experiments to the edge of space. The company was surfaced as a portfolio company of Social Capital and added to the API Evangelist network. Enrichment found no public developer API, portal, or documentation surface: it is a consumer-facing space-tourism business, not an API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9743,7 +9743,7 @@
     {
      "name": "Zeno Power Systems",
      "slug": "zeno-power-systems",
-     "description": "Zeno Power Systems (Zeno Power) develops radioisotope power systems — compact \"nuclear",
+     "description": "Zeno Power Systems (Zeno Power) develops radioisotope power systems — compact \"nuclear batteries\" that convert the decay heat of radioisotopes into long-duration electricity for extreme environments such as the lunar surface, deep-sea infrastructure, and remote defense installations. Backed by Techstars and other investors, Zeno is a hardware and energy-systems company; as of this enrichment pass it publishes no public web API, developer portal, documentation, SDK, or GitHub organization, so this profile is identity-only.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

@@ -11,7 +11,7 @@
     {
      "name": "Agilent Technologies",
      "slug": "agilent-technologies",
-     "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing",
+     "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing instruments, software, services, and consumables for laboratory workflows. Agilent offers APIs for laboratory operations management including iLab for core facility billing and scheduling, SLIMS for laboratory information management, CrossLab Asset Manager for instrument management, and VWorks for laboratory automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png",
      "score": 55.4,
      "band": "developing",
@@ -518,7 +518,7 @@
     {
      "name": "IDEXX Laboratories",
      "slug": "idexx-laboratories",
-     "description": "'Profile for IDEXX Laboratories in the API Evangelist network. Fortune F1000 (rank 887).'",
+     "description": "Profile for IDEXX Laboratories in the API Evangelist network. Fortune F1000 (rank 887).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idexx-laboratories/refs/heads/main/screenshots/idexx-laboratories-2026-06-20T183213.png",
      "score": 4.6,
      "band": "minimal",
@@ -554,7 +554,7 @@
     {
      "name": "Avantor",
      "slug": "avantor",
-     "description": "'Fortune 1000 company Avantor. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Avantor. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avantor/refs/heads/main/screenshots/avantor-2026-06-20T172724.png",
      "score": 4.2,
      "band": "minimal",
@@ -590,7 +590,7 @@
     {
      "name": "Illumina",
      "slug": "illumina",
-     "description": "'Profile for Illumina in the API Evangelist network. Fortune F1000 (rank 687).'",
+     "description": "Profile for Illumina in the API Evangelist network. Fortune F1000 (rank 687).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/illumina/refs/heads/main/screenshots/illumina-2026-06-20T183244.png",
      "score": 4.2,
      "band": "minimal",
@@ -626,7 +626,7 @@
     {
      "name": "Keysight Technologies",
      "slug": "keysight-technologies",
-     "description": "'Profile for Keysight Technologies in the API Evangelist network. Fortune F1000 (rank 617).'",
+     "description": "Profile for Keysight Technologies in the API Evangelist network. Fortune F1000 (rank 617).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keysight-technologies/refs/heads/main/screenshots/keysight-technologies-2026-06-20T184023.png",
      "score": 4.2,
      "band": "minimal",
@@ -662,7 +662,7 @@
     {
      "name": "Teradyne",
      "slug": "teradyne",
-     "description": "'Profile for Teradyne in the API Evangelist network. Fortune F1000 (rank 921).'",
+     "description": "Profile for Teradyne in the API Evangelist network. Fortune F1000 (rank 921).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/teradyne/refs/heads/main/screenshots/teradyne-2026-06-20T195128.png",
      "score": 3.9,
      "band": "minimal",
@@ -698,7 +698,7 @@
     {
      "name": "Bruker",
      "slug": "bruker",
-     "description": "'Profile for Bruker in the API Evangelist network. Fortune F1000 (rank 968).'",
+     "description": "Profile for Bruker in the API Evangelist network. Fortune F1000 (rank 968).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bruker/refs/heads/main/screenshots/bruker-2026-06-20T173727.png",
      "score": 3.5,
      "band": "minimal",
@@ -734,7 +734,7 @@
     {
      "name": "Charles River Laboratories International",
      "slug": "charles-river-laboratories-international",
-     "description": "'Profile for Charles River Laboratories International in the API Evangelist network. Fortune F1000 (rank 855).'",
+     "description": "Profile for Charles River Laboratories International in the API Evangelist network. Fortune F1000 (rank 855).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-river-laboratories-international/refs/heads/main/screenshots/charles-river-laboratories-international-2026-06-20T174226.png",
      "score": 3.5,
      "band": "minimal",

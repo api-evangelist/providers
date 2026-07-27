@@ -47,7 +47,7 @@
     {
      "name": "Tesla",
      "slug": "tesla",
-     "description": "Tesla, Inc. is an American electric vehicle and clean energy company",
+     "description": "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003. Tesla offers the Fleet API for partners to access Tesla vehicles and energy devices with owner-granted permissions, covering vehicle telemetry, remote commands, charging management, energy site management, and fleet management capabilities.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -128,7 +128,7 @@
     {
      "name": "Air Products and Chemicals",
      "slug": "air-products-and-chemicals",
-     "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and",
+     "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API.",
      "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
@@ -1260,7 +1260,7 @@
     {
      "name": "TotalEnergies",
      "slug": "totalenergies",
-     "description": "'A French multinational integrated energy company operating across oil, natural gas, and low-carbon electricity. One of the largest energy companies in the world with significant investments in solar, wind, and battery storage.'",
+     "description": "A French multinational integrated energy company operating across oil, natural gas, and low-carbon electricity. One of the largest energy companies in the world with significant investments in solar, wind, and battery storage.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/totalenergies/refs/heads/main/screenshots/totalenergies-2026-06-20T195501.png",
      "score": 7.4,
      "band": "minimal",
@@ -2551,7 +2551,7 @@
     {
      "name": "Texaco",
      "slug": "texaco",
-     "description": "'An American petroleum brand owned by Chevron marketing fuels, lubricants, and petrochemical products. Operates a network of service stations across the United States and internationally with a long history in the oil industry.'",
+     "description": "An American petroleum brand owned by Chevron marketing fuels, lubricants, and petrochemical products. Operates a network of service stations across the United States and internationally with a long history in the oil industry.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/texaco/refs/heads/main/screenshots/texaco-2026-06-20T195202.png",
      "score": 5.5,
      "band": "minimal",
@@ -2693,7 +2693,7 @@
     {
      "name": "California Resources",
      "slug": "california-resources",
-     "description": "'Profile for California Resources in the API Evangelist network. Fortune F1000 (rank 853).'",
+     "description": "Profile for California Resources in the API Evangelist network. Fortune F1000 (rank 853).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/california-resources/refs/heads/main/screenshots/california-resources-2026-06-20T173846.png",
      "score": 3.5,
      "band": "minimal",
@@ -2764,7 +2764,7 @@
     {
      "name": "EnLink Midstream",
      "slug": "enlink-midstream",
-     "description": "'Profile for EnLink Midstream in the API Evangelist network. Fortune F500 (rank 406).'",
+     "description": "Profile for EnLink Midstream in the API Evangelist network. Fortune F500 (rank 406).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enlink-midstream/refs/heads/main/screenshots/enlink-midstream-2026-06-20T180718.png",
      "score": 3.5,
      "band": "minimal",
@@ -2943,7 +2943,7 @@
     {
      "name": "Valvoline",
      "slug": "valvoline",
-     "description": "'Profile for Valvoline in the API Evangelist network. Fortune F1000 (rank 894).'",
+     "description": "Profile for Valvoline in the API Evangelist network. Fortune F1000 (rank 894).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/valvoline/refs/heads/main/screenshots/valvoline-2026-06-20T200805.png",
      "score": 3.5,
      "band": "minimal",

@@ -664,7 +664,7 @@
      "rank": 17
     },
     {
-     "name": "Peter Kiewit Sons",
+     "name": "Peter Kiewit Sons'",
      "slug": "peter-kiewit-sons",
      "description": "Peter Kiewit Sons' (Kiewit Corporation) is one of North America's largest and most respected construction and engineering organizations, working on projects in transportation, water, oil, gas, power, and building markets. This repository tracks any publicly available APIs, SDKs, and developer resources for Kiewit.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/peter-kiewit-sons/refs/heads/main/screenshots/peter-kiewit-sons-2026-06-20T191623.png",
@@ -1490,7 +1490,7 @@
     {
      "name": "Fluor Corporation",
      "slug": "fluor-corporation",
-     "description": "'A multinational engineering and construction firm providing design, procurement, construction, and maintenance services. Serves energy, chemicals, mining, infrastructure, and government sectors with large-scale capital project expertise.'",
+     "description": "A multinational engineering and construction firm providing design, procurement, construction, and maintenance services. Serves energy, chemicals, mining, infrastructure, and government sectors with large-scale capital project expertise.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fluor-corporation/refs/heads/main/screenshots/fluor-corporation-2026-06-20T181339.png",
      "score": 5.2,
      "band": "minimal",
@@ -1597,7 +1597,7 @@
     {
      "name": "M/I Homes",
      "slug": "mi-homes",
-     "description": "'Profile for M/I Homes in the API Evangelist network. Fortune F1000 (rank 871).'",
+     "description": "Profile for M/I Homes in the API Evangelist network. Fortune F1000 (rank 871).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-homes/refs/heads/main/screenshots/mi-homes-2026-06-20T185323.png",
      "score": 3.9,
      "band": "minimal",
@@ -1633,7 +1633,7 @@
     {
      "name": "MYR Group",
      "slug": "myr-group",
-     "description": "'Profile for MYR Group in the API Evangelist network. Fortune F1000 (rank 971).'",
+     "description": "Profile for MYR Group in the API Evangelist network. Fortune F1000 (rank 971).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/myr-group/refs/heads/main/screenshots/myr-group-2026-06-20T185916.png",
      "score": 3.9,
      "band": "minimal",
@@ -1669,7 +1669,7 @@
     {
      "name": "BrightView Holdings",
      "slug": "brightview-holdings",
-     "description": "'Profile for BrightView Holdings in the API Evangelist network. Fortune F1000 (rank 891).'",
+     "description": "Profile for BrightView Holdings in the API Evangelist network. Fortune F1000 (rank 891).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightview-holdings/refs/heads/main/screenshots/brightview-holdings-2026-06-20T173703.png",
      "score": 3.5,
      "band": "minimal",
@@ -1705,7 +1705,7 @@
     {
      "name": "GMS",
      "slug": "gms",
-     "description": "'Profile for GMS in the API Evangelist network. Fortune F1000 (rank 758).'",
+     "description": "Profile for GMS in the API Evangelist network. Fortune F1000 (rank 758).",
      "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1740,7 +1740,7 @@
     {
      "name": "MDC Holdings",
      "slug": "mdc-holdings",
-     "description": "'Profile for MDC Holdings in the API Evangelist network. Fortune F1000 (rank 733).'",
+     "description": "Profile for MDC Holdings in the API Evangelist network. Fortune F1000 (rank 733).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mdc-holdings/refs/heads/main/screenshots/mdc-holdings-2026-06-20T185107.png",
      "score": 3.5,
      "band": "minimal",
@@ -1811,7 +1811,7 @@
     {
      "name": "TopBuild",
      "slug": "topbuild",
-     "description": "'Profile for TopBuild in the API Evangelist network. Fortune F1000 (rank 854).'",
+     "description": "Profile for TopBuild in the API Evangelist network. Fortune F1000 (rank 854).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/topbuild/refs/heads/main/screenshots/topbuild-2026-06-20T195451.png",
      "score": 3.5,
      "band": "minimal",

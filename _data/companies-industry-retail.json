@@ -11,7 +11,7 @@
     {
      "name": "BJ's Wholesale Club",
      "slug": "bjs-wholesale-club",
-     "description": "BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated primarily on the eastern",
+     "description": "BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated primarily on the eastern half of the United States. BJ's offers its members significant savings on a wide assortment of merchandise, including fresh foods, groceries, household essentials, and general merchandise. The company operates over 230 clubs and is focused on digital transformation, offering APIs to partners for product data, inventory, pricing, and order management integrations.",
      "score": 54.4,
      "band": "developing",
      "band_label": "Developing",
@@ -118,7 +118,7 @@
     {
      "name": "Walmart",
      "slug": "walmart",
-     "description": "Walmart is a multinational retail corporation that operates a chain of",
+     "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png",
      "score": 52.4,
      "band": "developing",
@@ -260,7 +260,7 @@
     {
      "name": "Walgreens",
      "slug": "walgreens",
-     "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies",
+     "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies in the United States, operating over 8,000 locations nationwide. The Walgreens Developer Program provides APIs enabling third-party applications to integrate pharmacy prescription management, vaccine scheduling, retail shopping, store locations, and product inventory. The APIs support seamless healthcare delivery, prescription refills, immunization appointments, and retail e-commerce integrations for mobile and web applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
      "score": 48.4,
      "band": "developing",
@@ -348,7 +348,7 @@
     {
      "name": "IKEA",
      "slug": "ikea",
-     "description": "'A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world''s largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.'",
+     "description": "A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.",
      "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
@@ -455,7 +455,7 @@
     {
      "name": "Home Depot",
      "slug": "home-depot",
-     "description": "The Home Depot is the world's largest home improvement retailer, offering",
+     "description": "The Home Depot is the world's largest home improvement retailer, offering tools, construction products, appliances, and services through stores, websites, and apps in the United States, Canada, and Mexico.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png",
      "score": 31.2,
      "band": "thin",
@@ -722,7 +722,7 @@
     {
      "name": "Aéropostale",
      "slug": "aeropostale",
-     "description": "'An American specialty retailer offering on-trend apparel, accessories, and personal care products targeted at teens and young adults. Operates stores across the United States and internationally through franchise partnerships.'",
+     "description": "An American specialty retailer offering on-trend apparel, accessories, and personal care products targeted at teens and young adults. Operates stores across the United States and internationally through franchise partnerships.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/screenshots/aeropostale-2026-06-20T165520.png",
      "score": 20.4,
      "band": "emerging",
@@ -794,7 +794,7 @@
     {
      "name": "7-Eleven",
      "slug": "7-eleven",
-     "description": "'A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.'",
+     "description": "A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/screenshots/7-eleven-2026-06-20T162752.png",
      "score": 19.8,
      "band": "emerging",
@@ -1701,7 +1701,7 @@
     {
      "name": "LVMH",
      "slug": "lvmh",
-     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods",
+     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods conglomerate, headquartered in Paris and operating over 75 prestigious brands. Its portfolio spans fashion and leather goods (Louis Vuitton, Christian Dior, Fendi, Loewe, Celine), wines and spirits (Moët & Chandon, Hennessy, Veuve Clicquot), perfumes and cosmetics (Givenchy, Guerlain), watches and jewelry (Tiffany & Co., Bulgari, TAG Heuer), and selective retailing (Sephora, DFS). LVMH does not currently publish a public developer API or developer portal at the group level; technical and partner integrations are handled brand-by-brand and through closed innovation partnerships such as the Aura Blockchain Consortium.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png",
      "score": 7.4,
      "band": "minimal",
@@ -2275,7 +2275,7 @@
     {
      "name": "Inditex",
      "slug": "inditex",
-     "description": "'A Spanish multinational fashion group and the world''s largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.'",
+     "description": "A Spanish multinational fashion group and the world's largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2418,7 +2418,7 @@
     {
      "name": "H&M",
      "slug": "hm",
-     "description": "'A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world''s largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.'",
+     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
      "score": 5.9,
      "band": "minimal",
@@ -2670,7 +2670,7 @@
     {
      "name": "Trader Joe's",
      "slug": "trader-joes",
-     "description": "'An American chain of specialty grocery stores known for its unique private-label products, affordable prices, and quirky branding. Operates over 500 stores nationwide with a cult following for its curated selection of food and beverages.'",
+     "description": "An American chain of specialty grocery stores known for its unique private-label products, affordable prices, and quirky branding. Operates over 500 stores nationwide with a cult following for its curated selection of food and beverages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trader-joes/refs/heads/main/screenshots/trader-joes-2026-06-20T195523.png",
      "score": 5.5,
      "band": "minimal",
@@ -2706,7 +2706,7 @@
     {
      "name": "TJX Companies",
      "slug": "tjx-companies",
-     "description": "'The leading off-price retailer in the United States and worldwide operating TJ Maxx, Marshalls, HomeGoods, and Sierra. Sources brand-name and designer merchandise at discount prices through an opportunistic buying model.'",
+     "description": "The leading off-price retailer in the United States and worldwide operating TJ Maxx, Marshalls, HomeGoods, and Sierra. Sources brand-name and designer merchandise at discount prices through an opportunistic buying model.",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2741,7 +2741,7 @@
     {
      "name": "Tiffany & Co.",
      "slug": "tiffany-and-co",
-     "description": "'An iconic American luxury jewelry and specialty retailer known for its diamond engagement rings and signature blue boxes. A subsidiary of LVMH operating flagship stores and boutiques in major cities around the world.'",
+     "description": "An iconic American luxury jewelry and specialty retailer known for its diamond engagement rings and signature blue boxes. A subsidiary of LVMH operating flagship stores and boutiques in major cities around the world.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiffany-and-co/refs/heads/main/screenshots/tiffany-and-co-2026-06-20T195344.png",
      "score": 5.2,
      "band": "minimal",
@@ -2812,7 +2812,7 @@
     {
      "name": "Camping World Holdings",
      "slug": "camping-world-holdings",
-     "description": "'Profile for Camping World Holdings in the API Evangelist network. Fortune F1000 (rank 555).'",
+     "description": "Profile for Camping World Holdings in the API Evangelist network. Fortune F1000 (rank 555).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/camping-world-holdings/refs/heads/main/screenshots/camping-world-holdings-2026-06-20T173917.png",
      "score": 4.2,
      "band": "minimal",
@@ -2919,7 +2919,7 @@
     {
      "name": "BlueLinx Holdings",
      "slug": "bluelinx-holdings",
-     "description": "'Profile for BlueLinx Holdings in the API Evangelist network. Fortune F1000 (rank 852).'",
+     "description": "Profile for BlueLinx Holdings in the API Evangelist network. Fortune F1000 (rank 852).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluelinx-holdings/refs/heads/main/screenshots/bluelinx-holdings-2026-06-20T173538.png",
      "score": 3.5,
      "band": "minimal",
@@ -2955,7 +2955,7 @@
     {
      "name": "Designer Brands",
      "slug": "designer-brands",
-     "description": "'Profile for Designer Brands in the API Evangelist network. Fortune F1000 (rank 698).'",
+     "description": "Profile for Designer Brands in the API Evangelist network. Fortune F1000 (rank 698).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/designer-brands/refs/heads/main/screenshots/designer-brands-2026-06-20T175934.png",
      "score": 3.5,
      "band": "minimal",
@@ -2991,7 +2991,7 @@
     {
      "name": "FIVE Below",
      "slug": "five-below",
-     "description": "'Fortune 1000 company FIVE Below. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company FIVE Below. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/five-below/refs/heads/main/screenshots/five-below-2026-06-20T181253.png",
      "score": 3.5,
      "band": "minimal",
@@ -3027,7 +3027,7 @@
     {
      "name": "Floor &amp; Decor Holdings",
      "slug": "floor-and-decor-holdings",
-     "description": "'Profile for Floor &amp; Decor Holdings in the API Evangelist network. Fortune F1000 (rank 983).'",
+     "description": "Profile for Floor &amp; Decor Holdings in the API Evangelist network. Fortune F1000 (rank 983).",
      "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3062,7 +3062,7 @@
     {
      "name": "Grocery Outlet Holding",
      "slug": "grocery-outlet-holding",
-     "description": "'Profile for Grocery Outlet Holding in the API Evangelist network. Fortune F1000 (rank 865).'",
+     "description": "Profile for Grocery Outlet Holding in the API Evangelist network. Fortune F1000 (rank 865).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/grocery-outlet-holding/refs/heads/main/screenshots/grocery-outlet-holding-2026-06-20T182410.png",
      "score": 3.5,
      "band": "minimal",
@@ -3134,7 +3134,7 @@
     {
      "name": "ODP",
      "slug": "odp",
-     "description": "'Profile for ODP in the API Evangelist network. Fortune F500 (rank 446).'",
+     "description": "Profile for ODP in the API Evangelist network. Fortune F500 (rank 446).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/odp/refs/heads/main/screenshots/odp-2026-06-20T190623.png",
      "score": 3.5,
      "band": "minimal",
@@ -3170,7 +3170,7 @@
     {
      "name": "Qurate Retail",
      "slug": "qurate-retail",
-     "description": "'Profile for Qurate Retail in the API Evangelist network. Fortune F500 (rank 342).'",
+     "description": "Profile for Qurate Retail in the API Evangelist network. Fortune F500 (rank 342).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qurate-retail/refs/heads/main/screenshots/qurate-retail-2026-06-20T192453.png",
      "score": 3.5,
      "band": "minimal",
@@ -3206,7 +3206,7 @@
     {
      "name": "RH",
      "slug": "rh",
-     "description": "'Profile for RH in the API Evangelist network. Fortune F1000 (rank 850).'",
+     "description": "Profile for RH in the API Evangelist network. Fortune F1000 (rank 850).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rh/refs/heads/main/screenshots/rh-2026-06-20T193104.png",
      "score": 3.5,
      "band": "minimal",
@@ -3242,7 +3242,7 @@
     {
      "name": "SiteOne Landscape Supply",
      "slug": "siteone-landscape-supply",
-     "description": "'Profile for SiteOne Landscape Supply in the API Evangelist network. Fortune F1000 (rank 904).'",
+     "description": "Profile for SiteOne Landscape Supply in the API Evangelist network. Fortune F1000 (rank 904).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/siteone-landscape-supply/refs/heads/main/screenshots/siteone-landscape-supply-2026-06-20T194001.png",
      "score": 3.5,
      "band": "minimal",

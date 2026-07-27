@@ -9,7 +9,7 @@
    "count": 10,
    "companies": [
     {
-     "name": "Adt",
+     "name": "ADT",
      "slug": "adt",
      "description": "ADT is a provider of monitored security, interactive home and business automation, and related monitoring services for residential and small business customers across the United States and Canada. ADT offers smart home security systems, professional monitoring, video surveillance, access control, and automation integrations with Google Nest, Amazon Alexa, and Z-Wave smart home devices through the ADT+ platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png",
@@ -332,7 +332,7 @@
     {
      "name": "Rockwell Automation",
      "slug": "rockwell-automation",
-     "description": "Rockwell Automation is a global provider of industrial automation and",
+     "description": "Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industrial networking, motor control, safety systems, and the FactoryTalk software suite for MES, SCADA, historian, remote access, and industrial data management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png",
      "score": 45.2,
      "band": "developing",
@@ -629,7 +629,7 @@
     {
      "name": "Air Products and Chemicals",
      "slug": "air-products-and-chemicals",
-     "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and",
+     "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API.",
      "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
@@ -1213,7 +1213,7 @@
     {
      "name": "John Deere",
      "slug": "john-deere",
-     "description": "John Deere is a renowned American corporation that specializes in manufacturing",
+     "description": "John Deere is a renowned American corporation that specializes in manufacturing agricultural, construction, and forestry machinery. The company, founded in 1837 by John Deere, has a long history of innovation and has become a leader in the industry. John Deere's products include tractors, combines, excavators, and other equipment designed to support and improve farming and construction operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png",
      "score": 20.7,
      "band": "emerging",
@@ -4296,7 +4296,7 @@
     {
      "name": "Resideo Technologies",
      "slug": "resideo-technologies",
-     "description": "'Profile for Resideo Technologies in the API Evangelist network. Fortune F1000 (rank 548).'",
+     "description": "Profile for Resideo Technologies in the API Evangelist network. Fortune F1000 (rank 548).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/resideo-technologies/refs/heads/main/screenshots/resideo-technologies-2026-06-20T192949.png",
      "score": 4.6,
      "band": "minimal",
@@ -4367,7 +4367,7 @@
     {
      "name": "Vista Outdoor",
      "slug": "vista-outdoor",
-     "description": "'Profile for Vista Outdoor in the API Evangelist network. Fortune F1000 (rank 976).'",
+     "description": "Profile for Vista Outdoor in the API Evangelist network. Fortune F1000 (rank 976).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vista-outdoor/refs/heads/main/screenshots/vista-outdoor-2026-06-20T201059.png",
      "score": 4.2,
      "band": "minimal",
@@ -4403,7 +4403,7 @@
     {
      "name": "Louisiana-Pacific",
      "slug": "louisiana-pacific",
-     "description": "'Profile for Louisiana-Pacific in the API Evangelist network. Fortune F1000 (rank 919).'",
+     "description": "Profile for Louisiana-Pacific in the API Evangelist network. Fortune F1000 (rank 919).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/louisiana-pacific/refs/heads/main/screenshots/louisiana-pacific-2026-06-20T184731.png",
      "score": 3.9,
      "band": "minimal",
@@ -4439,7 +4439,7 @@
     {
      "name": "Middleby",
      "slug": "middleby",
-     "description": "'Profile for Middleby in the API Evangelist network. Fortune F1000 (rank 791).'",
+     "description": "Profile for Middleby in the API Evangelist network. Fortune F1000 (rank 791).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/middleby/refs/heads/main/screenshots/middleby-2026-06-20T185549.png",
      "score": 3.9,
      "band": "minimal",
@@ -4475,7 +4475,7 @@
     {
      "name": "Summit Materials",
      "slug": "summit-materials",
-     "description": "'Profile for Summit Materials in the API Evangelist network. Fortune F1000 (rank 938).'",
+     "description": "Profile for Summit Materials in the API Evangelist network. Fortune F1000 (rank 938).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/summit-materials/refs/heads/main/screenshots/summit-materials-2026-06-20T194643.png",
      "score": 3.9,
      "band": "minimal",
@@ -4511,7 +4511,7 @@
     {
      "name": "Teradyne",
      "slug": "teradyne",
-     "description": "'Profile for Teradyne in the API Evangelist network. Fortune F1000 (rank 921).'",
+     "description": "Profile for Teradyne in the API Evangelist network. Fortune F1000 (rank 921).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/teradyne/refs/heads/main/screenshots/teradyne-2026-06-20T195128.png",
      "score": 3.9,
      "band": "minimal",
@@ -4547,7 +4547,7 @@
     {
      "name": "Woodward",
      "slug": "woodward",
-     "description": "'Profile for Woodward in the API Evangelist network. Fortune F1000 (rank 803).'",
+     "description": "Profile for Woodward in the API Evangelist network. Fortune F1000 (rank 803).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/woodward/refs/heads/main/screenshots/woodward-2026-06-20T201540.png",
      "score": 3.9,
      "band": "minimal",
@@ -4583,7 +4583,7 @@
     {
      "name": "Chemours",
      "slug": "chemours",
-     "description": "'Fortune 1000 company Chemours. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Chemours. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemours/refs/heads/main/screenshots/chemours-2026-06-20T174257.png",
      "score": 3.5,
      "band": "minimal",
@@ -4619,7 +4619,7 @@
     {
      "name": "Crown Holdings",
      "slug": "crown-holdings",
-     "description": "'Fortune 1000 company Crown Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Crown Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crown-holdings/refs/heads/main/screenshots/crown-holdings-2026-06-20T175301.png",
      "score": 3.5,
      "band": "minimal",
@@ -4655,7 +4655,7 @@
     {
      "name": "Generac Holdings",
      "slug": "generac-holdings",
-     "description": "'Profile for Generac Holdings in the API Evangelist network. Fortune F1000 (rank 946).'",
+     "description": "Profile for Generac Holdings in the API Evangelist network. Fortune F1000 (rank 946).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/generac-holdings/refs/heads/main/screenshots/generac-holdings-2026-06-20T181720.png",
      "score": 3.5,
      "band": "minimal",
@@ -4691,7 +4691,7 @@
     {
      "name": "Griffon",
      "slug": "griffon",
-     "description": "'Profile for Griffon in the API Evangelist network. Fortune F1000 (rank 944).'",
+     "description": "Profile for Griffon in the API Evangelist network. Fortune F1000 (rank 944).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/griffon/refs/heads/main/screenshots/griffon-2026-06-20T182407.png",
      "score": 3.5,
      "band": "minimal",
@@ -4727,7 +4727,7 @@
     {
      "name": "Herc Holdings",
      "slug": "herc-holdings",
-     "description": "'Profile for Herc Holdings in the API Evangelist network. Fortune F1000 (rank 997).'",
+     "description": "Profile for Herc Holdings in the API Evangelist network. Fortune F1000 (rank 997).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/herc-holdings/refs/heads/main/screenshots/herc-holdings-2026-06-20T182636.png",
      "score": 3.5,
      "band": "minimal",
@@ -4763,7 +4763,7 @@
     {
      "name": "Ingersoll Rand",
      "slug": "ingersoll-rand",
-     "description": "'Profile for Ingersoll Rand in the API Evangelist network. Fortune F1000 (rank 881).'",
+     "description": "Profile for Ingersoll Rand in the API Evangelist network. Fortune F1000 (rank 881).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ingersoll-rand/refs/heads/main/screenshots/ingersoll-rand-2026-06-20T183347.png",
      "score": 3.5,
      "band": "minimal",
@@ -4799,7 +4799,7 @@
     {
      "name": "JELD-WEN Holding",
      "slug": "jeld-wen-holding",
-     "description": "'Profile for JELD-WEN Holding in the API Evangelist network. Fortune F1000 (rank 618).'",
+     "description": "Profile for JELD-WEN Holding in the API Evangelist network. Fortune F1000 (rank 618).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jeld-wen-holding/refs/heads/main/screenshots/jeld-wen-holding-2026-06-20T183719.png",
      "score": 3.5,
      "band": "minimal",
@@ -4835,7 +4835,7 @@
     {
      "name": "LCI Industries",
      "slug": "lci-industries",
-     "description": "'Profile for LCI Industries in the API Evangelist network. Fortune F1000 (rank 900).'",
+     "description": "Profile for LCI Industries in the API Evangelist network. Fortune F1000 (rank 900).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lci-industries/refs/heads/main/screenshots/lci-industries-2026-06-20T184343.png",
      "score": 3.5,
      "band": "minimal",
@@ -4941,7 +4941,7 @@
     {
      "name": "Wabash National",
      "slug": "wabash-national",
-     "description": "'Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).'",
+     "description": "Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wabash-national/refs/heads/main/screenshots/wabash-national-2026-06-20T201154.png",
      "score": 3.5,
      "band": "minimal",

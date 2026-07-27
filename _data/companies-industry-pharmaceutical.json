@@ -894,7 +894,7 @@
     {
      "name": "Moderna",
      "slug": "moderna",
-     "description": "'Profile for Moderna in the API Evangelist network. Fortune 500.'",
+     "description": "Profile for Moderna in the API Evangelist network. Fortune 500.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moderna/refs/heads/main/screenshots/moderna-2026-06-20T185701.png",
      "score": 4.2,
      "band": "minimal",
@@ -965,7 +965,7 @@
     {
      "name": "Incyte",
      "slug": "incyte",
-     "description": "'Profile for Incyte in the API Evangelist network. Fortune F1000 (rank 953).'",
+     "description": "Profile for Incyte in the API Evangelist network. Fortune F1000 (rank 953).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/incyte/refs/heads/main/screenshots/incyte-2026-06-20T183311.png",
      "score": 3.5,
      "band": "minimal",

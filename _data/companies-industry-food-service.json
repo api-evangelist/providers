@@ -11,7 +11,7 @@
     {
      "name": "Starbucks",
      "slug": "starbucks",
-     "description": "Starbucks provides partner APIs for ordering, loyalty program integration,",
+     "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
      "score": 51.5,
      "band": "developing",
@@ -175,7 +175,7 @@
     {
      "name": "Yum Brands",
      "slug": "yum-brands",
-     "description": "Yum! Brands is one of the world's largest restaurant companies, with",
+     "description": "Yum! Brands is one of the world's largest restaurant companies, with global brands including KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill. The company operates the Byte by Yum! AI-driven technology platform that powers digital ordering, loyalty programs, point-of-sale, kitchen operations, inventory management, and team member tools across over 63,000 restaurants in 155 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png",
      "score": 26.0,
      "band": "emerging",
@@ -328,7 +328,7 @@
     {
      "name": "Subway",
      "slug": "subway",
-     "description": "'One of the world''s largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model. Subway has no public developer API or self-service developer portal; ordering, store locator, nutrition, and MyWay/MVP loyalty integrations are handled through internal systems and direct franchise/partner agreements.'",
+     "description": "One of the world's largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model. Subway has no public developer API or self-service developer portal; ordering, store locator, nutrition, and MyWay/MVP loyalty integrations are handled through internal systems and direct franchise/partner agreements.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/subway/refs/heads/main/screenshots/subway-2026-06-20T194635.png",
      "score": 11.0,
      "band": "minimal",
@@ -543,7 +543,7 @@
     {
      "name": "Cheesecake Factory",
      "slug": "cheesecake-factory",
-     "description": "'Profile for Cheesecake Factory in the API Evangelist network. Fortune F1000 (rank 876).'",
+     "description": "Profile for Cheesecake Factory in the API Evangelist network. Fortune F1000 (rank 876).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheesecake-factory/refs/heads/main/screenshots/cheesecake-factory-2026-06-20T174247.png",
      "score": 3.5,
      "band": "minimal",
@@ -579,7 +579,7 @@
     {
      "name": "Texas Roadhouse",
      "slug": "texas-roadhouse",
-     "description": "'Profile for Texas Roadhouse in the API Evangelist network. Fortune F1000 (rank 829).'",
+     "description": "Profile for Texas Roadhouse in the API Evangelist network. Fortune F1000 (rank 829).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-roadhouse/refs/heads/main/screenshots/texas-roadhouse-2026-06-20T195206.png",
      "score": 3.5,
      "band": "minimal",

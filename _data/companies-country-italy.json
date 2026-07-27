@@ -1484,7 +1484,7 @@
     {
      "name": "Istante",
      "slug": "istante",
-     "description": "Istante is an Italian technology company (VAT IT03635230547, based in",
+     "description": "Istante is an Italian technology company (VAT IT03635230547, based in the Perugia area) that develops and operates Athena, a business-process-automation platform built around a team of specialized AI assistants. Athena covers assistants for communication routing and email classification, credit management and collections, a 24/7 voice/phone assistant, quote and order processing, automated tender monitoring and scoring, outbound lead engagement, contract and legal analysis, and HR and onboarding. It is positioned to collaborate with staff rather than replace them, keeping critical decisions under human oversight, and is offered on a fixed-cost \"Digital Working Units\" (DWU) pricing model rather than variable token pricing. The platform integrates across email, Microsoft Teams, WhatsApp, SMS, and phone, and is presented as GDPR and EU AI Act compliant. Istante was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network for enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/istante/refs/heads/main/screenshots/istante-2026-07-25T222950.png",
      "score": 9.7,
      "band": "minimal",
@@ -1556,7 +1556,7 @@
     {
      "name": "Tutornow",
      "slug": "tutornow",
-     "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects",
+     "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects students from elementary school through university with qualified tutors across 150+ subjects, including math, physics, chemistry, and languages. It offers individual and group online lessons starting around €15/hour, homework help, exam and university preparation, academic-recovery programs, and specialized support for students with learning differences (DSA/BES), with 250,000+ lesson hours delivered and 20,000+ tutors across major Italian cities. Tutornow is a consumer (B2C) education service and publishes no public developer API, API documentation, or developer portal — this profile is maintained as a company record in the API Evangelist network.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

@@ -11,7 +11,7 @@
     {
      "name": "HubSpot",
      "slug": "hubspot",
-     "description": "HubSpot provides a full platform of marketing, sales, customer service,",
+     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
      "score": 78.5,
      "band": "exemplar",
@@ -93,7 +93,7 @@
     {
      "name": "AppLovin",
      "slug": "applovin",
-     "description": "AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through",
+     "description": "AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through mobile advertising, mediation, and analytics. The company operates platforms including AppDiscovery (Axon) for performance-based user acquisition, MAX for in-app bidding mediation, Adjust for mobile measurement, and Wurl for connected TV. AppLovin provides SDKs and REST APIs that allow app developers and advertisers to integrate ad serving, monetization, campaign management, conversion tracking, and reporting capabilities into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png",
      "score": 60.4,
      "band": "strong",
@@ -129,7 +129,7 @@
     {
      "name": "Pipedrive",
      "slug": "pipedrive",
-     "description": "Pipedrive is a sales CRM and pipeline management tool focused on small",
+     "description": "Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png",
      "score": 60.1,
      "band": "strong",

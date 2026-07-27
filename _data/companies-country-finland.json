@@ -285,7 +285,7 @@
     {
      "name": "KNL",
      "slug": "knl",
-     "description": "'KNL (KNL Networks Oy) is a Finnish defence-technology company founded in 2011 and headquartered",
+     "description": "KNL (KNL Networks Oy) is a Finnish defence-technology company founded in 2011 and headquartered in Oulu, Finland, that builds long-range, GNSS-independent HF radio communication systems for military, naval, and critical-communications operators. Its Cognitive Networked HF (CNHF) platform is a family of software-defined radios — CNHF Manpack, CNHF1 Radio, CNHF Vehicular, and CNHF Evolve — that perform continuous spectrum estimation and automatically switch to the next best channel to sustain IP data links over thousands of kilometres in jammed, contested, or infrastructure-denied environments. Radios are operated through a web-based CNHF User Interface providing role-based access, webmail, XMPP-interoperable instant messaging, mapping, and spectrum analysis. KNL was acquired by Telenor Maritime at the end of 2020 and now operates as Telenor's dedicated defence and security connectivity business. The company holds ISO 9001, AQAP 2110 (NATO), and ISO/IEC 27001 certifications and publishes no public developer API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knl/refs/heads/main/screenshots/knl-2026-07-25T224001.png",
      "score": 14.5,
      "band": "minimal",
@@ -356,7 +356,7 @@
     {
      "name": "Futureplay",
      "slug": "futureplay",
-     "description": "'Futureplay is a Helsinki, Finland-based mobile game studio founded in 2015 that develops",
+     "description": "Futureplay is a Helsinki, Finland-based mobile game studio founded in 2015 that develops free-to-play games for a global audience, having released six titles for more than 120 million players including Merge Gardens, Battlelands Royale, and Idle Farming Empire. Backed by Creandum and now part of Plarium, the studio operates in the consumer gaming sector. Futureplay publishes no public developer API, SDK, MCP server, or developer portal; player-facing support runs through a Zendesk help center, and legal terms are hosted on the Plarium company site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/futureplay/refs/heads/main/screenshots/futureplay-2026-07-25T215333.png",
      "score": 11.8,
      "band": "minimal",
@@ -392,7 +392,7 @@
     {
      "name": "Rovio Entertainment",
      "slug": "rovio-entertainment",
-     "description": "'Rovio Entertainment is a Finnish mobile game company founded in 2003 and headquartered in Espoo, best known for the Angry Birds franchise and a portfolio of casual and puzzle titles played by hundreds of millions of players worldwide. It operates game studios across Finland, Sweden, Denmark, Canada, Spain, and Turkey, and became part of Sega Sammy Holdings in 2023. Rovio was surfaced as a portfolio company of Atomico and added to the API Evangelist network. As of this enrichment pass Rovio publishes a corporate/marketing website but no public developer portal, API, SDK, or well-known discovery surface.'",
+     "description": "Rovio Entertainment is a Finnish mobile game company founded in 2003 and headquartered in Espoo, best known for the Angry Birds franchise and a portfolio of casual and puzzle titles played by hundreds of millions of players worldwide. It operates game studios across Finland, Sweden, Denmark, Canada, Spain, and Turkey, and became part of Sega Sammy Holdings in 2023. Rovio was surfaced as a portfolio company of Atomico and added to the API Evangelist network. As of this enrichment pass Rovio publishes a corporate/marketing website but no public developer portal, API, SDK, or well-known discovery surface.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -427,7 +427,7 @@
     {
      "name": "BIT ODD",
      "slug": "bit-odd",
-     "description": "'BIT ODD is a Helsinki-based mobile game studio founded in 2019 by former",
+     "description": "BIT ODD is a Helsinki-based mobile game studio founded in 2019 by former Supercell creative leads Lasse Louhento, Taneli Oksama, and Jani Lintunen. The studio hand-crafts casual mobile games driven by feeling and a sense of wonder rather than aggressive monetization, explicitly rejecting ad-spam and dark-pattern design. Backed by Index Ventures, Griffin Gaming Partners, and Makers Fund across a EUR 5M seed and a EUR 17M round, BIT ODD is a consumer entertainment company with no public developer platform, API, or SDK surface; this API Evangelist profile tracks the company as a portfolio lead and carries only the artifacts that can be honestly probed from its public web presence (domain security, legal pages).",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -462,7 +462,7 @@
     {
      "name": "Huuva",
      "slug": "huuva",
-     "description": "Huuva is a Finnish food-court aggregator that lets customers order from",
+     "description": "Huuva is a Finnish food-court aggregator that lets customers order from multiple partner restaurants in a single order under the tagline \"The hottest restaurants, all in one address.\" It operates physical food-court locations across Finland and runs a consumer web and mobile ordering platform for delivery and pickup, alongside lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology and food-delivery space and does not currently publish a public developer or API program. It is a General Catalyst portfolio company based in Europe.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
      "score": 8.9,
      "band": "minimal",
@@ -534,7 +534,7 @@
     {
      "name": "Kodit.io",
      "slug": "kodit-io",
-     "description": "Kodit.io was a Helsinki-based proptech and \"iBuyer\" that used machine learning",
+     "description": "Kodit.io was a Helsinki-based proptech and \"iBuyer\" that used machine learning and automation to make instant cash offers on residential property, buying homes directly from sellers and reselling them, with operations in Finland, Spain and Poland. Founded in 2017 and backed by Speedinvest among others, the company rebranded to Rive in 2022 after a EUR 23M Series A aimed at simplifying home buying and selling across Europe. In January 2024 Rive (formerly Kodit.io) transferred its entire Finnish real estate brokerage business to Neliöt Liikkuu LKV, and the Kodit.io LKV entity subsequently entered bankruptcy proceedings in late 2024. The company operated a consumer-facing marketplace only; it never published a public developer portal, API documentation, SDKs, or machine-readable API artifacts, and the kodit.io domain has since lapsed to an unrelated registrant. This profile is retained as a historical network record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -569,7 +569,7 @@
     {
      "name": "Small Giant Games",
      "slug": "small-giant-games",
-     "description": "'Small Giant Games is a Helsinki, Finland based mobile game studio best known for the",
+     "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

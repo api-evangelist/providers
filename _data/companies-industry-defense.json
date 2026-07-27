@@ -11,7 +11,7 @@
     {
      "name": "Airbus",
      "slug": "airbus",
-     "description": "'A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.'",
+     "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
      "score": 41.6,
      "band": "thin",
@@ -672,7 +672,7 @@
     {
      "name": "GE Aerospace",
      "slug": "ge-aerospace",
-     "description": "'A leading manufacturer of jet engines and aviation systems for commercial and military aircraft. Spun off from General Electric to focus exclusively on aerospace propulsion and services, GE Aerospace also offers software-as-a-service tooling, engine health monitoring (Collaborative Insight), TRUEngine certification, and OnPoint maintenance and support services.'",
+     "description": "A leading manufacturer of jet engines and aviation systems for commercial and military aircraft. Spun off from General Electric to focus exclusively on aerospace propulsion and services, GE Aerospace also offers software-as-a-service tooling, engine health monitoring (Collaborative Insight), TRUEngine certification, and OnPoint maintenance and support services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-aerospace/refs/heads/main/screenshots/ge-aerospace-2026-06-20T181702.png",
      "score": 10.9,
      "band": "minimal",
@@ -1109,7 +1109,7 @@
     {
      "name": "Viasat",
      "slug": "viasat",
-     "description": "'Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).'",
+     "description": "Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/viasat/refs/heads/main/screenshots/viasat-2026-06-20T201040.png",
      "score": 4.2,
      "band": "minimal",

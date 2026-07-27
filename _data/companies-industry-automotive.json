@@ -11,7 +11,7 @@
     {
      "name": "Volkswagen",
      "slug": "volkswagen",
-     "description": "Volkswagen is a German automotive company and the parent of the VW Group,",
+     "description": "Volkswagen is a German automotive company and the parent of the VW Group, manufacturing vehicles under brands including Volkswagen, Audi, SEAT, Skoda, CUPRA, Porsche, Lamborghini, and Bentley. The OKAPI (Open Konfigurator API) provides programmatic access to VW AG product data for vehicle catalog browsing, interactive configuration, buildability validation, WLTP emissions data, configuration images, and order/pricing information across global markets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png",
      "score": 54.9,
      "band": "developing",
@@ -47,7 +47,7 @@
     {
      "name": "Tesla",
      "slug": "tesla",
-     "description": "Tesla, Inc. is an American electric vehicle and clean energy company",
+     "description": "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003. Tesla offers the Fleet API for partners to access Tesla vehicles and energy devices with owner-granted permissions, covering vehicle telemetry, remote commands, charging management, energy site management, and fleet management capabilities.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -127,7 +127,7 @@
     {
      "name": "Lyft",
      "slug": "lyft",
-     "description": "Lyft is a transportation network company that develops, markets, and",
+     "description": "Lyft is a transportation network company that develops, markets, and operates a mobile app offering ride-hailing, vehicles for hire, motorized scooters, bicycle-sharing, and food delivery services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
      "score": 44.5,
      "band": "thin",
@@ -307,7 +307,7 @@
     {
      "name": "Ford",
      "slug": "ford",
-     "description": "Ford is a multinational automotive company that designs, manufactures,",
+     "description": "Ford is a multinational automotive company that designs, manufactures, and sells a wide range of vehicles, including cars, trucks, and SUVs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png",
      "score": 33.5,
      "band": "thin",
@@ -451,7 +451,7 @@
     {
      "name": "BMW",
      "slug": "bmw",
-     "description": "BMW is a German multinational company specializing in manufacturing luxury",
+     "description": "BMW is a German multinational company specializing in manufacturing luxury vehicles and motorcycles. BMW provides automotive data APIs through the Aftersales Online System (AOS) portal and the BMW Open Data Platform, enabling dealers, repair shops, and developers to access vehicle identification, maintenance, technical campaign, pricing, and diagnostic data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/screenshots/bmw-2026-06-20T173545.png",
      "score": 30.9,
      "band": "thin",
@@ -533,7 +533,7 @@
     {
      "name": "Honda",
      "slug": "honda",
-     "description": "Honda Motor Co., Ltd. is a Japanese multinational manufacturer known",
+     "description": "Honda Motor Co., Ltd. is a Japanese multinational manufacturer known for automobiles, motorcycles, and power equipment. Honda provides APIs for customer satisfaction programs, roadside assistance, vehicle services, and dealer integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/screenshots/honda-2026-06-20T182819.png",
      "score": 20.5,
      "band": "emerging",
@@ -1152,7 +1152,7 @@
     {
      "name": "Toyota Motor Corporation",
      "slug": "toyota-motor-corporation",
-     "description": "'The world''s largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.'",
+     "description": "The world's largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toyota-motor-corporation/refs/heads/main/screenshots/toyota-motor-corporation-2026-06-20T195510.png",
      "score": 5.9,
      "band": "minimal",
@@ -1294,7 +1294,7 @@
     {
      "name": "Allison Transmission Holdings",
      "slug": "allison-transmission-holdings",
-     "description": "'Fortune 1000 company Allison Transmission Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Allison Transmission Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/screenshots/allison-transmission-holdings-2026-06-20T171533.png",
      "score": 3.9,
      "band": "minimal",
@@ -1330,7 +1330,7 @@
     {
      "name": "REV Group",
      "slug": "rev-group",
-     "description": "'Profile for REV Group in the API Evangelist network. Fortune F1000 (rank 892).'",
+     "description": "Profile for REV Group in the API Evangelist network. Fortune F1000 (rank 892).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rev-group/refs/heads/main/screenshots/rev-group-2026-06-20T193044.png",
      "score": 3.9,
      "band": "minimal",
@@ -1366,7 +1366,7 @@
     {
      "name": "Garrett Motion",
      "slug": "garrett-motion",
-     "description": "'Profile for Garrett Motion in the API Evangelist network. Fortune F1000 (rank 739).'",
+     "description": "Profile for Garrett Motion in the API Evangelist network. Fortune F1000 (rank 739).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/garrett-motion/refs/heads/main/screenshots/garrett-motion-2026-06-20T181649.png",
      "score": 3.5,
      "band": "minimal",
@@ -1472,7 +1472,7 @@
     {
      "name": "Polaris",
      "slug": "polaris",
-     "description": "'Profile for Polaris in the API Evangelist network. Fortune F500 (rank 424).'",
+     "description": "Profile for Polaris in the API Evangelist network. Fortune F500 (rank 424).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/polaris/refs/heads/main/screenshots/polaris-2026-06-20T191850.png",
      "score": 3.5,
      "band": "minimal",
@@ -1508,7 +1508,7 @@
     {
      "name": "Wabash National",
      "slug": "wabash-national",
-     "description": "'Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).'",
+     "description": "Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wabash-national/refs/heads/main/screenshots/wabash-national-2026-06-20T201154.png",
      "score": 3.5,
      "band": "minimal",

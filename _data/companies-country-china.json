@@ -56,7 +56,7 @@
     {
      "name": "LianLian Global",
      "slug": "lianlian-global",
-     "description": "LianLian Global (连连国际) is the cross-border payments arm of LianLian DigiTech, providing licensed collection,",
+     "description": "LianLian Global (连连国际) is the cross-border payments arm of LianLian DigiTech, providing licensed collection, disbursement, foreign exchange and card issuing rails for e-commerce sellers, marketplaces, travel platforms and B2B traders moving money between China and the rest of the world. Its developer platform publishes 18 distinct API products on a Stoplight portal at developer.lianlianglobal.com — covering B2C marketplace collection, multi-currency e-wallets, global payout, B2B import/export settlement, standard remittance, tuition and travel payments, embedded Connect accounts, virtual and physical card issuing, and the OAuth 2.0 LPPE platform surface — backed by 173 published OpenAPI/Swagger specifications describing more than 550 operations. LianLian authenticates with API keys and OAuth 2.0, signs every request and webhook with RSA SHA-256 via the LLPAY-Signature header, and ships first-party Java and TypeScript SDKs, a Python sandbox CLI and three published AI agent skills from its LLGlobal GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png",
      "score": 55.9,
      "band": "developing",
@@ -170,7 +170,7 @@
     {
      "name": "China Mobile",
      "slug": "china-mobile",
-     "description": "China Mobile Limited is the world's largest mobile network operator by",
+     "description": "China Mobile Limited is the world's largest mobile network operator by subscribers, serving approximately 1,005 million mobile customers and 110 million gigabit broadband customers across all 31 provinces of mainland China plus Hong Kong, with roaming into more than 200 countries. Listed on the Hong Kong Stock Exchange and the Shanghai Stock Exchange and majority-owned by state-held China Mobile Communications Group, it runs mobile, broadband, cellular IoT, satellite internet, data centre, cloud and AI businesses on annual revenue of about RMB 1,050.2 billion. In the network-API value chain China Mobile sits squarely on the operator side, not the aggregator side. It joined the GSMA Open Gateway initiative in June 2023, sponsors and maintains several CAMARA APIs upstream (Click to Dial, the Model as a Service family, High-throughput Elastic Network, Facial Recognition, and co-sponsors Network Slice Booking), and in October 2024 secured GSMA Open Gateway certification for its Network-as-a-Service platform after its Quality on Demand API passed 63 conformance tests on ZTE NEF/SCEF exposure functions. None of that is callable from the open internet. Its API posture is partner-gated and domestic — the capability platforms at dev.10086.cn, ct.open.10086.cn and api.iot.10086.cn publish real product and interface documentation but issue credentials only to registered mainland enterprise customers under contract, and China Mobile is not a shareholder in Aduna, so it reaches developers through its own Chinese-language capability marketplaces rather than through the global CPaaS or aggregator channel. The one genuinely self-serve surface is OneNET, its IoT PaaS, which publishes open developer documentation and a live token-authenticated device API.",
      "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
@@ -738,7 +738,7 @@
     {
      "name": "XSKY",
      "slug": "xsky",
-     "description": "XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined",
+     "description": "XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined storage vendor serving nearly 2,000 large government and enterprise institutions, ranked first in China's object-storage software market. Its distributed storage products — XEUS unified storage, XEBS block storage, XEOS object storage, XGFS file storage, and the XEDP unified data platform — are all managed through XMS, the platform's REST controller API, which XSKY publishes as a Swagger 2.0 contract with official Go and Python clients plus a CloudFormation-style provisioning tool (sds-formation) and a Kubernetes CSI driver.",
      "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1048,7 +1048,7 @@
     {
      "name": "Fxiaoke",
      "slug": "fxiaoke",
-     "description": "'Fxiaoke (纷享销客 / Fenxiang) is a Chinese enterprise SaaS company providing",
+     "description": "Fxiaoke (纷享销客 / Fenxiang) is a Chinese enterprise SaaS company providing a connected, AI-driven \"Agentic CRM\" platform that spans marketing, sales, and customer service for 6,000+ enterprise customers across manufacturing, consumer goods, healthcare, and technology. Its Open API v2 platform (developer.fxiaoke.com) exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services such as approval workflows, contact/directory sync, and business-data sync over a JSON/HTTP RPC interface hosted at open.fxiaoke.com. Authentication uses a self-built enterprise application (appId + appSecret + permanentCode) exchanged for a corp/app access token, alongside a modern OAuth 2.1 authorization server (PKCE, dynamic client registration) discoverable via RFC 8414 metadata. Backed by DCM Ventures and Qiming Venture Partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png",
      "score": 26.0,
      "band": "emerging",
@@ -1264,7 +1264,7 @@
     {
      "name": "Xiao-Y Technology (小y科技)",
      "slug": "xy51",
-     "description": "Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology",
+     "description": "Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology Co., Ltd. (北京视游互动科技有限公司), is a Chinese smart-TV and big-screen gaming platform behind the 小y游戏厅 TV game store and YFans app, publishing licensed TV editions of titles like 葫芦娃, 胡莱三国2, 我叫MT2, and 中超荣耀. Its 小y手游开放平台 developer platform onboards game studios through first-party YTS SDKs (Android Fusion and iOS) rather than a public REST API, covering registration, qualification review, game submission, and revenue sharing. A Qiming Venture Partners portfolio company.",
      "score": 23.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1526,7 +1526,7 @@
     {
      "name": "JD Technology",
      "slug": "jd-technology",
-     "description": "'JD Technology Group (京东科技集团) is the technology and cloud subsidiary of",
+     "description": "JD Technology Group (京东科技集团) is the technology and cloud subsidiary of JD.com, delivering digital-transformation services to government, financial institutions, and enterprises. Its primary developer surface is JD Cloud (京东云), a full-stack public cloud offering compute, storage, databases, networking, AI, security, and industry solutions exposed through the JD Cloud OpenAPI. Developers integrate via signed (access-key / secret-key) OpenAPI calls to per-service endpoints, and JD Technology publishes first-party SDKs for Java, Go, Python, PHP, .NET, Node.js and iOS plus a cross-platform command line (jdc) on GitHub. This profile was surfaced as a portfolio company of hongshan and enriched from JD Technology's public developer surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/screenshots/jd-technology-2026-07-25T223219.png",
      "score": 22.1,
      "band": "emerging",
@@ -1562,7 +1562,7 @@
     {
      "name": "Transwarp",
      "slug": "transwarp",
-     "description": "Transwarp Technology (星环科技) is a Shanghai-based enterprise big data",
+     "description": "Transwarp Technology (星环科技) is a Shanghai-based enterprise big data and AI infrastructure software company backed by Qiming Venture Partners. Its self-hosted platform spans Transwarp Data Hub (TDH, including a free Community Edition) with the Inceptor SQL analytics engine, Slipstream real-time stream computing, Hyperbase wide-table store, StellarDB distributed graph database, TimeLyre time-series and Scope search engines, the ArgoDB analytical database, the Sophon AI platform (Base, MLDev, MLOps, LLMOps), the TDC data cloud, and the Hippo distributed vector database. Hippo exposes a documented RESTful API and Python API, with an official hippo-api client library published on PyPI.",
      "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1752,7 +1752,7 @@
     {
      "name": "Kuaishou",
      "slug": "kuaishou",
-     "description": "'Kuaishou Technology (快手) is a Beijing-based short-video and live-streaming platform operating",
+     "description": "Kuaishou Technology (快手) is a Beijing-based short-video and live-streaming platform operating Kuaishou in mainland China and Kwai internationally, spanning short video, live commerce, local services and online marketing. Its developer surface is split across two public properties: the Kuaishou Open Platform (open.kuaishou.com), which exposes an OAuth 2.0 authorization-code flow and a JSON Open API for third-party apps, mini programs and merchant integrations; and Kwai for Business (developers.kwai.com), the international marketing/advertising API used by advertisers and measurement partners. Kuaishou also publishes open source under the Kwai GitHub organization. Documentation on both portals is delivered as a JavaScript single-page application and is largely Chinese-language and gated behind developer registration, so this profile records only endpoints and pages verified by live HTTP probe.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/screenshots/kuaishou-2026-07-25T224317.png",
      "score": 18.9,
      "band": "emerging",
@@ -1788,7 +1788,7 @@
     {
      "name": "Huice",
      "slug": "huice",
-     "description": "'Huice (慧策) is a Chinese enterprise software company whose flagship product, Wangdiantong",
+     "description": "Huice (慧策) is a Chinese enterprise software company whose flagship product, Wangdiantong (旺店通) ERP, is a tailor-made e-commerce management system for merchants operating across multiple online channels. It provides order management, warehouse and inventory management (WMS), goods and product-archive management, procurement, after-sales/returns processing, and financial operations (慧经营). Huice runs a public Open Platform (open.wangdian.cn) exposing an HTTP API (openapi2) for third-party integrators to synchronize shops, goods, orders, stock, purchasing, and logistics. The API uses a sid + appkey + timestamp + MD5 signature (sign) authentication scheme, page_no/page_size pagination, and a code/message response envelope, with separate sandbox and production hosts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/screenshots/huice-2026-07-25T221632.png",
      "score": 18.4,
      "band": "emerging",
@@ -1824,7 +1824,7 @@
     {
      "name": "Tuniu",
      "slug": "tuniu",
-     "description": "'Tuniu (途牛旅游网) is a leading online leisure travel company in China, headquartered",
+     "description": "Tuniu (途牛旅游网) is a leading online leisure travel company in China, headquartered in Nanjing and listed on NASDAQ under ticker TOUR. It offers packaged tours, self-guided tours, and a broad range of travel-related services and products including hotels, flights, train tickets, cruises, visas, and local activities. For partners, Tuniu runs an Open Platform (途牛开放平台) at developer.tuniu.com that exposes supplier and retail-partner integration APIs behind developer registration, letting suppliers publish inventory and retail partners distribute Tuniu travel products. This profile was surfaced as a portfolio company of DCM Ventures and enriched by the API Evangelist pipeline.",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1938,7 +1938,7 @@
     {
      "name": "Tungee",
      "slug": "tungee",
-     "description": "Tungee (Guangzhou Tungee Technology Co., Ltd., 探迹科技) is a Chinese AI",
+     "description": "Tungee (Guangzhou Tungee Technology Co., Ltd., 探迹科技) is a Chinese AI sales-intelligence company backed by Qiming Venture Partners. Its Tungee AI Sales Cloud covers the full B2B sales cycle -- AI prospecting over a 300M+ company knowledge graph, inbound capture, outreach via call center, SMS, and email, and an AI CRM -- plus a Sales GPT agent line, a mobile app, and a DingTalk edition. The group also operates Futern, an international B2B leads product, and reports 50,000+ customers. Tungee publishes no public developer portal or API documentation.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1973,7 +1973,7 @@
     {
      "name": "Gan & Lee Pharmaceuticals",
      "slug": "gan-and-lee-pharmaceuticals",
-     "description": "'Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical",
+     "description": "Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical company founded in 1998, specializing in the research, development, production, and commercialization of recombinant insulin analogs and injection devices for diabetes care, alongside a growing oncology pipeline and medical devices. Its products, including insulin glargine injections and prefilled pen injectors, are marketed across 23 countries with 19 products launched globally and clinical trials running in 10 countries. Gan & Lee does not currently publish a public developer API, SDK, or developer portal; this API Evangelist profile tracks the company's public web presence and domain security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gan-and-lee-pharmaceuticals/refs/heads/main/screenshots/gan-and-lee-pharmaceuticals-2026-07-25T215436.png",
      "score": 14.6,
      "band": "minimal",
@@ -2015,7 +2015,7 @@
     {
      "name": "1hai",
      "slug": "1hai",
-     "description": "'eHi Car Rental (一嗨租车), operated by Shanghai eHi Information Technology",
+     "description": "eHi Car Rental (一嗨租车), operated by Shanghai eHi Information Technology Services Co., Ltd., is one of China's leading car rental and mobility companies. Founded in 2006 and headquartered in Shanghai, eHi offers self-drive car rentals, chauffeured car service, used-car sales, and corporate and government mobility programs across more than 500 cities nationwide, with cross-city return and airport pickup. eHi is a portfolio company of Qiming Venture Partners, added to the API Evangelist network as a company profile. The business operates consumer web and mobile (iOS, Android, HarmonyOS) booking channels; no public developer or API platform was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/1hai/refs/heads/main/screenshots/1hai-2026-07-25T181118.png",
      "score": 14.5,
      "band": "minimal",
@@ -2087,7 +2087,7 @@
     {
      "name": "Xpeng",
      "slug": "xpeng",
-     "description": "'XPENG (Xiaopeng Motors) is a Chinese smart electric-vehicle company headquartered",
+     "description": "XPENG (Xiaopeng Motors) is a Chinese smart electric-vehicle company headquartered in Guangzhou that designs and manufactures smart EVs (G6, G7, G9, P7/P7+, X9, MONA M03) with in-house advanced driver-assistance and in-car software, listed on the NYSE (XPEV) and HKEX (9868). Surfaced as a portfolio company of hongshan and idg-capital. XPENG publishes no public developer API: its open platform (open.xiaopeng.com) is geo-restricted and account-gated, and no public API docs, specs, or SDKs were found.",
      "score": 14.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2194,7 +2194,7 @@
     {
      "name": "Vongi Health (芝兰健康)",
      "slug": "vongihealth",
-     "description": "Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also branded Slan Health) is a Qiming",
+     "description": "Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also branded Slan Health) is a Qiming Venture Partners-backed Chinese digital therapeutics company founded in Hangzhou in 2015. Its hepatitis B mother-to-child transmission prevention digital therapeutic (小贝壳) was the first digital therapeutic certified by China's NMPA, and it also operates a sleep specialty (CBT-I) digital therapeutics platform and a DTx CDMO business covering product R&D, clinical research, regulatory registration, and commercial operations. The company publishes no public API or developer surface.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2235,7 +2235,7 @@
     {
      "name": "Deppon Express",
      "slug": "deppon-express",
-     "description": "'Deppon Express (德邦快递), operated by Deppon Logistics Co., Ltd., is a",
+     "description": "Deppon Express (德邦快递), operated by Deppon Logistics Co., Ltd., is a major Chinese express delivery and logistics provider specializing in large-parcel (heavy/bulky) express, less-than-truckload freight, full-truckload, air freight, warehousing, supply chain, and cross-border services. Founded from Cui's Freight Company (1996) and incorporated in 2009, it became part of the JD Logistics group in 2022 and ranks among China's largest express carriers by market share. For developers and enterprise partners, Deppon runs the Deppon Open Platform (德邦开放平台, established 2015) at dpopen.deppon.com, offering system-integration APIs for order creation, standard track/tracking queries, and electronic waybill (面单) printing, with access granted to contracted monthly-settlement customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deppon-express/refs/heads/main/screenshots/deppon-express-2026-07-25T211747.png",
      "score": 12.7,
      "band": "minimal",
@@ -2271,7 +2271,7 @@
     {
      "name": "Lilith Games",
      "slug": "lilith-games",
-     "description": "'Lilith Games (上海莉莉丝网络科技有限公司) is a Shanghai-headquartered video game developer",
+     "description": "Lilith Games (上海莉莉丝网络科技有限公司) is a Shanghai-headquartered video game developer and publisher founded in 2013, known for globally distributed mobile and PC titles including Rise of Kingdoms (万国觉醒), AFK Arena (剑与远征), AFK Journey (剑与远征：启程), Farlight 84 (远光84), Warpath (战火勋章), Art of Conquest (剑与家园) and a portfolio of indie games. The company operates as a consumer game publisher rather than an API platform: it publishes no public developer portal, API documentation, or partner API program. Its public engineering surface is the LilithGames GitHub organization, which open-sources backend and build infrastructure (Go networking and reverse-proxy tooling, build caching, Perforce virtual file system work) rather than client SDKs for a Lilith API. Surfaced as a portfolio company of IDG Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lilith-games/refs/heads/main/screenshots/lilith-games-2026-07-25T225155.png",
      "score": 12.1,
      "band": "minimal",
@@ -2343,7 +2343,7 @@
     {
      "name": "EZR",
      "slug": "ezr",
-     "description": "'EZR (上海驿氪 / Shanghai Yike Information Technology) is a Shanghai-based retail",
+     "description": "EZR (上海驿氪 / Shanghai Yike Information Technology) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The company advertises an open platform of 100+ APIs covering products, users, transactions, and marketing, though it publishes no public developer portal, OpenAPI, or API reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png",
      "score": 11.9,
      "band": "minimal",
@@ -2451,7 +2451,7 @@
     {
      "name": "B612",
      "slug": "b612",
-     "description": "'B612 is a consumer selfie and beauty camera application for iOS and Android, published",
+     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
      "score": 11.8,
      "band": "minimal",
@@ -2487,7 +2487,7 @@
     {
      "name": "Guazi",
      "slug": "guazi",
-     "description": "'Guazi is a China-based used-car export, auction, and trading platform",
+     "description": "Guazi is a China-based used-car export, auction, and trading platform founded in 2015 and headquartered in Beijing. It connects international dealers and buyers with used vehicles sourced across China, offering sealed-bid online auctions, Buy It Now direct sales, a 200-plus-point vehicle inspection process, direct sourcing on request, and global logistics shipping to more than 50 countries via container and Ro-Ro. Backed by SoftBank Vision Fund, HongShan (Sequoia China), and Tencent, Guazi handles over 200,000 vehicles annually. This API Evangelist profile currently tracks the company's public web presence; no public developer program, API, or SDK has been found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guazi/refs/heads/main/screenshots/guazi-2026-07-25T220422.png",
      "score": 11.8,
      "band": "minimal",
@@ -2523,7 +2523,7 @@
     {
      "name": "Leapmotor",
      "slug": "leapmotor",
-     "description": "'Leapmotor (Zhejiang Leapmotor Technology Co., Ltd., HKEX: 9863) is a Chinese intelligent",
+     "description": "Leapmotor (Zhejiang Leapmotor Technology Co., Ltd., HKEX: 9863) is a Chinese intelligent electric vehicle manufacturer founded in 2015 and headquartered in Hangzhou, China, which sold its first vehicles in 2019. Leapmotor designs and builds battery-electric and range-extended (REEV) passenger vehicles — including the T03 city car and the B03X, B05, B10 and C10 SUVs — on its own vertically integrated LEAP platform, developing its electric drive, battery, and intelligent cockpit and driving systems in house. Stellantis took a stake in the company in 2023 and, through the Leapmotor International joint venture, distributes Leapmotor vehicles across Europe and other export markets via leapmotor.net. Leapmotor operates connected-vehicle services — the Leapmotor mobile app, OTA software updates, and the Leapmotor Connected Experience — but publishes no public developer API program, developer portal, or API documentation; the vehicle cloud interfaces used by its mobile app are private and only reached through unofficial, reverse-engineered community clients.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2558,7 +2558,7 @@
     {
      "name": "biolink",
      "slug": "biolink",
-     "description": "BioLink (百林科医药科技（上海）有限公司) is a Shanghai-based bioprocessing company that",
+     "description": "BioLink (百林科医药科技（上海）有限公司) is a Shanghai-based bioprocessing company that manufactures core equipment and single-use consumable solutions for biopharmaceutical manufacturing. Its product lines span cell culture and bioreactors, fluid management, chromatography purification, process filtration, and pre-formulated aqueous products (buffers, water for injection, defoamers), serving antibody therapeutics and ADCs, vaccines, cell and gene therapy, and recombinant protein production. BioLink is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile; it publishes no public API or developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/biolink/refs/heads/main/screenshots/biolink-2026-07-25T203049.png",
      "score": 11.5,
      "band": "minimal",
@@ -2683,7 +2683,7 @@
     {
      "name": "XellSmart Biomedical",
      "slug": "xellsmart",
-     "description": "XellSmart Biomedical (士泽生物医药) is a clinical-stage biotechnology company",
+     "description": "XellSmart Biomedical (士泽生物医药) is a clinical-stage biotechnology company based in Suzhou and Shanghai, China, founded in 2021 by Dr. Xiang Li. The company develops clinical-grade, allogeneic, off-the-shelf iPSC-derived cell therapies for central nervous system diseases, with NMPA- and U.S. FDA-cleared registrational clinical trials in Parkinson's disease, spinal cord injury, and ALS. XellSmart is a Qiming Venture Partners portfolio company and publishes no public developer or API surface.",
      "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2724,7 +2724,7 @@
     {
      "name": "Zhangmen",
      "slug": "zhangmen",
-     "description": "'Zhangmen (掌门1对1 / 掌门教育) is a Shanghai-based online education company",
+     "description": "Zhangmen (掌门1对1 / 掌门教育) is a Shanghai-based online education company offering premium one-on-one and small-group tutoring to K-12 students across China. Its platform pairs students with elite instructors and layers on data-driven, intelligent learning analysis: diagnostic assessment, personalized study plans, real-time classroom monitoring, automated learning reports, and parent progress tracking. Beyond core academic tutoring the company runs quality-education modules spanning public speaking, creative art, programming, and comprehensive/mathematical thinking, along with a piano accompaniment-practice product (zmpeilian.com). The business is a direct-to-consumer web and mobile app play delivered in Simplified Chinese; it exposes no public developer API, SDK, or documentation surface. This profile was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network for enrichment.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2759,7 +2759,7 @@
     {
      "name": "Zhihu",
      "slug": "zhihu",
-     "description": "'Zhihu (知乎) is a Chinese online question-and-answer and knowledge-sharing",
+     "description": "Zhihu (知乎) is a Chinese online question-and-answer and knowledge-sharing community, often described as China's answer to Quora, where users post questions and answers, follow topics and creators, and consume long-form content, columns, live sessions, e-books and short video. Founded in 2011 and headquartered in Beijing, Zhihu operates one of China's largest online content communities and is dual-listed (NYSE: ZH; HKEX: 2390). It was surfaced in the API Evangelist network as a portfolio company of Qiming Venture Partners. As of this enrichment pass Zhihu publishes no public developer platform, open API, SDKs, or machine-readable API artifacts on its primary domain; this profile therefore captures company identity plus a probed domain-security posture rather than an API surface.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2836,7 +2836,7 @@
     {
      "name": "Xinhe Technology",
      "slug": "xinhe-technology",
-     "description": "'Xinhe Technology (Shanghai Xinhe Box Technology Co., Ltd. / 上海心盒科技有限公司) operates",
+     "description": "Xinhe Technology (Shanghai Xinhe Box Technology Co., Ltd. / 上海心盒科技有限公司) operates 心愿盒 Match Box, a consumer experience co-creation platform. Brands distribute product samples to precisely targeted consumer segments matched on age, gender, occupation, and consumption-preference tags, collect structured questionnaire feedback and reviews for agile marketing iteration, and convert triallists into private-domain traffic on WeChat official accounts and mini programs. A DCM Ventures portfolio company; it publishes no public developer portal or API surface as of July 2026.",
      "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2907,7 +2907,7 @@
     {
      "name": "Ctrip",
      "slug": "ctrip",
-     "description": "'Ctrip (Ctrip.com International / Trip.com Group, NASDAQ: TCOM) is one of the world''s largest",
+     "description": "Ctrip (Ctrip.com International / Trip.com Group, NASDAQ: TCOM) is one of the world's largest online travel agencies, founded in 1999 and headquartered in Shanghai, China. Its consumer platform sells hotels, flights, train tickets, car rentals, tours, cruises, and travel packages across China and internationally, and the broader Trip.com Group also operates the Trip.com, Qunar, and Skyscanner brands. Ctrip exposes partner and B2B travel-distribution capabilities through the Ctrip Open Platform (openapi.ctrip.com), the Trip.com Group open platform (connect.trip.com), and a corporate-travel developer platform (ctripbiz). These developer surfaces are partner-gated and largely account-restricted; no public OpenAPI or first-party SDK has been discovered for this profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ctrip/refs/heads/main/screenshots/ctrip-2026-07-25T210858.png",
      "score": 10.2,
      "band": "minimal",
@@ -2943,7 +2943,7 @@
     {
      "name": "HONESS (Shanghai Hongji Environmental Protection)",
      "slug": "honess",
-     "description": "HONESS (泓济环保 / Shanghai Hongji Environmental Protection, honess.cn) is a Chinese",
+     "description": "HONESS (泓济环保 / Shanghai Hongji Environmental Protection, honess.cn) is a Chinese environmental services provider founded in 2006, specializing in industrial wastewater treatment and the broader treatment of the \"three wastes\" (wastewater, waste gas, and hazardous waste). It offers customized environmental solutions, environmental equipment manufacturing and integration, EPC delivery for energy and chemical full-water systems, fine-chemical waste treatment, process packages for new and upgraded wastewater plants, and technology-enabled (\"smart\") digital operations and maintenance. The company holds top-grade design and contracting qualifications, has delivered 500+ design/build/operation projects for 300+ clients across China and abroad, and operates manufacturing and R&D bases in Shanghai and Anhui. It is not a developer/API company; the public surface is a WordPress corporate site with no developer portal, API documentation, SDKs, or OAuth. Surfaced as a portfolio company of Qiming Venture Partners and profiled in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/honess/refs/heads/main/screenshots/honess-2026-07-25T221407.png",
      "score": 10.2,
      "band": "minimal",
@@ -2979,7 +2979,7 @@
     {
      "name": "morewis",
      "slug": "morewis",
-     "description": "Morewis (摩尔元数) is a Chinese industrial software company founded in 2017 and",
+     "description": "Morewis (摩尔元数) is a Chinese industrial software company founded in 2017 and headquartered in Xiamen, Fujian, that develops cloud-based Manufacturing Execution System (MES) and Manufacturing Operations Management (MOM) software for the manufacturing sector. Its Morewis Cloud industrial internet platform, MoreDEV low-code development platform (including the WisIDE cloud IDE), and MoreAgent / N³ industrial AI large model let manufacturers build and run smart-factory applications with reduced hand coding. Reference clients include Haier, Hisense, Aisino, Inspur, and 3Trees Group. The company raised a ~100M yuan Series B led by Qiming Venture Partners. No public English-language REST API, OpenAPI, SDK, or GitHub organization was found; the developer surface is a China-hosted low-code industrial application platform.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3050,7 +3050,7 @@
     {
      "name": "Beisen",
      "slug": "beisen",
-     "description": "'Beisen (北森) is a China-based enterprise software company and the country''s",
+     "description": "Beisen (北森) is a China-based enterprise software company and the country's largest cloud-native Human Capital Management (HCM) and talent-management SaaS provider, delivered through its iTalent platform. Its integrated suite spans recruiting and applicant tracking, talent assessment and psychometric testing, performance and goals (OKR), core HR and personnel records, compensation, learning and development, and succession planning for large enterprises. Beisen operates an Open Platform (open.italent.cn) that lets partners and customers integrate HR data and workflows into the iTalent ecosystem via web APIs. The company is publicly listed on the Hong Kong Stock Exchange (9669) and was surfaced to the API Evangelist network as a SoftBank Vision Fund portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/screenshots/beisen-2026-07-25T202708.png",
      "score": 9.8,
      "band": "minimal",
@@ -3192,7 +3192,7 @@
     {
      "name": "Baletu",
      "slug": "baletu",
-     "description": "'Baletu (巴乐兔) is a landlord-direct online residential rental platform operated by",
+     "description": "Baletu (巴乐兔) is a landlord-direct online residential rental platform operated by Shanghai Wanjian Information Technology Co., Ltd. Founded in 2012 and based in Shanghai, it lets tenants rent apartments directly from landlords with monthly-payment (\"月付\") options, reducing agency fees. The platform spans first-tier Chinese cities including Beijing, Shanghai, and Shenzhen plus more than ten second-tier cities, listing over one million properties. Baletu is a consumer proptech company backed by DCM Ventures, Tiantu Capital, Nan Fung Group, and ZWC Partners, having raised roughly $140M through a 2018 Series C. It ships consumer iOS/Android apps and a partner portal; it does not publish a public developer API program (api.baletu.com serves its own apps).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/baletu/refs/heads/main/screenshots/baletu-2026-07-25T202315.png",
      "score": 9.4,
      "band": "minimal",
@@ -3263,7 +3263,7 @@
     {
      "name": "Z-Trip",
      "slug": "z-trip",
-     "description": "'Z-Trip (在途商旅) is a Shanghai-based enterprise travel and expense management",
+     "description": "Z-Trip (在途商旅) is a Shanghai-based enterprise travel and expense management SaaS platform (a corporate travel management company, or TMC) serving medium and large Chinese enterprises. It unifies booking of flights, hotels, trains, car rentals, visas, insurance, and MICE events with automated expense reporting, budget and policy controls, monthly invoicing, and up to 45 days of advance funding. The platform integrates with corporate OA, ERP, cost-control, and HR systems and offers single sign-on, aggregating supplier inventory from 200+ airlines and millions of hotels for 1,700+ enterprise clients. Surfaced from the dcm-ventures portfolio; no public first-party API/developer platform is published, though third-party integration connectors and SSO exist.",
      "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3298,7 +3298,7 @@
     {
      "name": "ZhongAn Insurance",
      "slug": "zhongan-insurance",
-     "description": "'ZhongAn Online P&C Insurance Co., Ltd. is China''s first online-only insurance company,",
+     "description": "ZhongAn Online P&C Insurance Co., Ltd. is China's first online-only insurance company, founded in 2013 by Ant Financial, Tencent, and Ping An and listed on the Hong Kong Stock Exchange (6060) in 2017. Headquartered in Shanghai, ZhongAn sells digital insurance across health, consumer finance, auto, and lifestyle lines entirely through internet channels, and operates a partner \"open platform\" (open.zhongan.com) plus a technology arm, ZhongAn Technology (zhongan.io), that offers insurtech and cloud services. ZhongAn does not publish a self-serve public developer API program or OpenAPI documentation; integration is partner/ecosystem-driven. This profile was surfaced as a portfolio company of softbank-vision-fund and enriched by the API Evangelist pipeline.",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3339,7 +3339,7 @@
     {
      "name": "Beike",
      "slug": "beike",
-     "description": "'Beike (KE Holdings Inc.) is China''s largest integrated online-and-offline",
+     "description": "Beike (KE Holdings Inc.) is China's largest integrated online-and-offline platform for housing transactions and services, connecting home buyers, sellers, renters, and real estate agents. It operates the Beike (贝壳) platform and the Lianjia (链家) brokerage brand, along with businesses spanning existing-home and new-home transactions, home rentals, and home renovation and furnishing. Its Agent Cooperation Network (ACN) lets brokerages and agents share listings and commissions across a standardized workflow. KE Holdings is dual-listed on the New York Stock Exchange (NYSE: BEKE) and the Hong Kong Stock Exchange (HKEX: 2423) and is headquartered in Beijing. This API Evangelist profile was created from venture-portfolio sourcing and enriched via the pipeline; Beike operates consumer-facing housing web and mobile properties and does not currently publish a public developer API program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beike/refs/heads/main/screenshots/beike-2026-07-25T202712.png",
      "score": 8.9,
      "band": "minimal",
@@ -3375,7 +3375,7 @@
     {
      "name": "Bitauto",
      "slug": "bitauto",
-     "description": "'Bitauto (易车, Yiche) is one of China''s largest automotive internet companies, founded in 2000 with the mission of making car ownership simpler. It operates consumer-facing platforms that provide car buyers with pricing, reviews, specifications, and automotive news across new and used vehicles, alongside an enterprise EP (dealer) platform offering web-based digital marketing and CRM applications to Chinese automobile dealers. Bitauto runs regional informational portals across 20+ countries cataloging Chinese car brands. This profile was surfaced as a portfolio company of DCM Ventures; as of enrichment Bitauto publishes no public developer API, SDK, or documentation surface.'",
+     "description": "Bitauto (易车, Yiche) is one of China's largest automotive internet companies, founded in 2000 with the mission of making car ownership simpler. It operates consumer-facing platforms that provide car buyers with pricing, reviews, specifications, and automotive news across new and used vehicles, alongside an enterprise EP (dealer) platform offering web-based digital marketing and CRM applications to Chinese automobile dealers. Bitauto runs regional informational portals across 20+ countries cataloging Chinese car brands. This profile was surfaced as a portfolio company of DCM Ventures; as of enrichment Bitauto publishes no public developer API, SDK, or documentation surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitauto/refs/heads/main/screenshots/bitauto-2026-07-25T203132.png",
      "score": 8.9,
      "band": "minimal",
@@ -3411,7 +3411,7 @@
     {
      "name": "Kuaidian Reading",
      "slug": "kuaidian-reading",
-     "description": "'Kuaidian Reading (快点阅读) is a Chinese mobile reading community operated by Beijing",
+     "description": "Kuaidian Reading (快点阅读) is a Chinese mobile reading community operated by Beijing Tiantong Interactive Technology Co., Ltd. (Sky Platanus Interactive, 天桐互动), positioning itself as China's first dialogue-based reading app. Instead of long-form web fiction, the platform publishes chat-style novels rendered as character dialogue, which it argues gives clearer characterization, tighter pacing and stronger reader immersion. Content is user-generated at scale — the company claims over 20,000 new novels uploaded daily — and distributed through a decentralized recommendation algorithm rather than editorial merchandising. Social mechanics include barrage-style inline comments, author tipping, and a co-writing mode that lowers the barrier for first-time writers. Authors work in a separate creation console at editor.kuaidianyuedu.com. The company was surfaced as a portfolio company of DCM Ventures. As of this enrichment pass Kuaidian Reading publishes no public API, SDK, developer portal, or /.well-known/ discovery surface; it is a consumer-app company with no developer-facing program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/screenshots/kuaidian-reading-2026-07-25T224311.png",
      "score": 8.9,
      "band": "minimal",
@@ -3447,7 +3447,7 @@
     {
      "name": "Xiudan (Showball)",
      "slug": "xiudan",
-     "description": "Shenzhen Xiudan Technology Co., Ltd. (深圳秀蛋科技有限公司) is the Chinese company",
+     "description": "Shenzhen Xiudan Technology Co., Ltd. (深圳秀蛋科技有限公司) is the Chinese company behind Showball (秀蛋), a virtual social \"meta\" mobile app where users create avatars and socialize in virtual spaces, distributed through the iOS App Store and an Android download on xiudan.net. A Qiming Venture Partners portfolio company, Xiudan publishes no public developer program, API documentation, or machine-readable API artifacts as of July 2026 - this profile records the company identity and probe results for the API Evangelist network.",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3482,7 +3482,7 @@
     {
      "name": "Avistone",
      "slug": "avistone",
-     "description": "'Beijing Avistone Biotechnology Co., Ltd. is a commercial-stage innovative biopharmaceutical",
+     "description": "Beijing Avistone Biotechnology Co., Ltd. is a commercial-stage innovative biopharmaceutical company headquartered in Beijing, China, focused on the research, development, and commercialization of first-in-class and best-in-class oncology therapies. Founded in 2012 (originally Beijing Pearl Biotechnology) and renamed Avistone in 2018, the company has two approved cancer drugs on the market: Vebreltinib (万比锐®), a MET inhibitor approved for non-small cell lung cancer and glioma indications and included in China's National Reimbursement Drug List, and Andamertinib (安比锐®), an EGFR exon 20 insertion inhibitor approved in 2026 for advanced NSCLC. Avistone maintains a pipeline of additional candidates (ANS01 through ANS09) across solid-tumor indications and is backed by IDG Capital. The company publishes no public developer API or programmatic surface; this profile captures its corporate and investor identity.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avistone/refs/heads/main/screenshots/avistone-2026-07-25T201949.png",
      "score": 8.8,
      "band": "minimal",
@@ -3691,7 +3691,7 @@
     {
      "name": "58.com",
      "slug": "58com",
-     "description": "'58.com (58同城, \"58 Tongcheng\") is China''s largest online classifieds and local-services",
+     "description": "58.com (58同城, \"58 Tongcheng\") is China's largest online classifieds and local-services marketplace, often called the \"Chinese Craigslist.\" Founded in 2005 and headquartered in Beijing, it operates listings across recruitment and jobs, real estate and housing (Anjuke), used goods (Zhuanzhuan), automobiles, local services, and yellow-pages business directories. Formerly listed on the NYSE (WUBA), it was taken private in 2020 by a Warburg Pincus / General Atlantic consortium. Its 58 Open Platform (open.58.com) exposes payment, recruitment/jobs data, housing, local-service information, security risk-control, marketing, and social capabilities to approved third-party partners via reviewed developer accounts and API keys. Backed historically by DCM Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/58com/refs/heads/main/screenshots/58com-2026-07-25T181216.png",
      "score": 8.5,
      "band": "minimal",
@@ -3763,7 +3763,7 @@
     {
      "name": "Downjoy (当乐网)",
      "slug": "d",
-     "description": "'Downjoy (当乐网, d.cn) is a Chinese mobile game distribution and community",
+     "description": "Downjoy (当乐网, d.cn) is a Chinese mobile game distribution and community platform operated by Beijing Downjoy Information Technology Co., Ltd (北京当乐信息技术有限公司). The site offers mobile game downloads, gaming news and original editorial content, game-related video, community features, and game rankings and recommendations. Downjoy also runs an open platform at open.d.cn where game publishers and developers register, create and submit games, integrate the Downjoy SDK, and manage launch and updates. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network; enriched with verified public identity and infrastructure probes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/d/refs/heads/main/screenshots/d-2026-07-25T211111.png",
      "score": 8.5,
      "band": "minimal",
@@ -3835,7 +3835,7 @@
     {
      "name": "JD Business",
      "slug": "jd-business",
-     "description": "'JD Business is the enterprise-facing arm of JD.com (Jingdong), one of China''s largest",
+     "description": "JD Business is the enterprise-facing arm of JD.com (Jingdong), one of China's largest technology and retail companies, offering B2B procurement, supply-chain, and corporate purchasing services to businesses. JD.com operates across retail, logistics, technology, health, and industrials, and runs the JD Open Platform (JOS / \"Zeus\" Developer Center) at jos.jd.com, where third-party merchants and partners integrate with JD's e-commerce, order, product, and logistics systems. This profile was surfaced as a portfolio-linked company and is being enriched from JD's public surface; JD's developer platform and enterprise services are primarily China-market and Chinese-language.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jd-business/refs/heads/main/screenshots/jd-business-2026-07-25T223114.png",
      "score": 8.5,
      "band": "minimal",
@@ -3871,7 +3871,7 @@
     {
      "name": "Meituan",
      "slug": "meituan",
-     "description": "'Meituan (美团) is a Chinese technology-retail company operating one of the world''s largest",
+     "description": "Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery, in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking, bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing merchant, delivery/logistics, and local-services integration APIs to business partners; these are partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or self-serve developer signup surfaced at this time.",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3906,7 +3906,7 @@
     {
      "name": "RedNote (Xiaohongshu)",
      "slug": "rednote-xiaohongshu",
-     "description": "'RedNote, known in China as Xiaohongshu (小红书, \"Little Red Book\"), is a",
+     "description": "RedNote, known in China as Xiaohongshu (小红书, \"Little Red Book\"), is a Shanghai-based social and e-commerce platform operated by Xingyin Information Technology (行吟信息科技). It blends user-generated lifestyle content, community discovery, and in-app shopping, and is one of China's largest content-commerce platforms. Beyond the consumer app, RedNote runs an open platform (open.xiaohongshu.com) plus the Qianfan (千帆) merchant commerce workbench (ark.xiaohongshu.com) and a mini-program surface (miniapp.xiaohongshu.com) that let brands, merchants, and marketing partners integrate storefronts, content, and campaigns. It was surfaced as a portfolio company of HongShan (Sequoia China) and added to the API Evangelist network for enrichment.",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3982,7 +3982,7 @@
     {
      "name": "Alpha Biopharma",
      "slug": "alphabiopharma",
-     "description": "'Alpha Biopharma is a clinical-stage biopharmaceutical company founded in 2017 and headquartered",
+     "description": "Alpha Biopharma is a clinical-stage biopharmaceutical company founded in 2017 and headquartered in Shanghai, China, with an additional office in Beijing. The company focuses on the clinical development and commercialization of global innovative drugs across oncology and immunotherapy, spanning medical affairs, clinical operations, regulatory affairs and commercialization. Its lead product is Zorifertinib (formerly AZD-3759, marketed as Zorifer), a next-generation EGFR TKI designed for EGFR mutation positive advanced NSCLC patients with central nervous system metastases, which received NMPA approval in November 2024 as the first EGFR-TKI indicated for lung cancer with brain metastases. Alpha Biopharma also partners with Wugen Inc. on universal off-the-shelf memory NK and CAR-T cell therapies. The company raised a Series A led by Qiming Venture Partners. Alpha Biopharma publishes a corporate marketing website only and operates no public API, developer portal, or software platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alphabiopharma/refs/heads/main/screenshots/alphabiopharma-2026-07-25T195801.png",
      "score": 8.1,
      "band": "minimal",
@@ -4066,7 +4066,7 @@
     {
      "name": "Beijing Goodwill (bjgoodwill)",
      "slug": "bjgoodwill",
-     "description": "Beijing Goodwill Information Technology Co., Ltd. (北京嘉和美康信息技术有限公司,",
+     "description": "Beijing Goodwill Information Technology Co., Ltd. (北京嘉和美康信息技术有限公司, brand 嘉和美康 / Goodwill E-Health) is a Chinese healthcare-IT company founded in 2005 and publicly listed on the Shanghai Stock Exchange STAR Market (科创板, code 688246). It builds electronic medical record (EMR) systems, hospital information platforms, clinical data centers, smart-healthcare products, internet-medicine platforms, and medical research / big-data solutions used across hospitals and clinics in more than thirty provinces and autonomous regions of China. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. No public developer portal, API, or OpenAPI surface was found during enrichment; this profile is identity-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bjgoodwill/refs/heads/main/screenshots/bjgoodwill-2026-07-25T203227.png",
      "score": 8.1,
      "band": "minimal",
@@ -4108,7 +4108,7 @@
     {
      "name": "Busy Ming Group",
      "slug": "busy-ming-group",
-     "description": "'Busy Ming Group (Hunan Mingming Busy Commercial Chain Co., Ltd. / 湖南鸣鸣很忙商业连锁股份有限公司)",
+     "description": "Busy Ming Group (Hunan Mingming Busy Commercial Chain Co., Ltd. / 湖南鸣鸣很忙商业连锁股份有限公司) is a mass-market snack retail chain operator headquartered in Changsha, Hunan, China, and a consumer-sector portfolio company of HongShan (formerly Sequoia Capital China). It operates two discount snack store brands — Snacks Are Busy (零食很忙, founded 2017) and Zhao Yiming Snacks (赵一鸣零食, founded 2019) — which combined into a network of more than 21,000 retail locations, heavily concentrated in county-level cities and townships. The group publishes no public developer API; this profile captures the company's corporate, franchising, and investor-relations web presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/busy-ming-group/refs/heads/main/screenshots/busy-ming-group-2026-07-25T204124.png",
      "score": 8.1,
      "band": "minimal",
@@ -4144,7 +4144,7 @@
     {
      "name": "Country Style Cooking",
      "slug": "country-style-cooking",
-     "description": "'Country Style Cooking Restaurant Chain (乡村基, Xiangcunji) is a large Chinese",
+     "description": "Country Style Cooking Restaurant Chain (乡村基, Xiangcunji) is a large Chinese quick-service restaurant group founded on 23 November 1996 in Chongqing by Li Hong and Zhang Xingqiang. The group operates two directly-managed chain brands — Xiangcunji (乡村基) and Mr. Rice (大米先生) — serving Sichuan-style fast food cooked to order in restaurant kitchens under a long-standing \"good taste at affordable prices\" operating philosophy. The company formerly traded on the New York Stock Exchange under the ticker CCSC and was, at the time, the only Asia-headquartered restaurant chain listed on the NYSE. It was surfaced in the API Evangelist network as a portfolio company of Hongshan. Country Style Cooking publishes a Chinese-language corporate website (csc100.com) covering its restaurants, brands, group news, recruiting, and procurement bidding, but it publishes no developer portal, no public API, and no machine-readable API artifacts — this profile records that verified absence of an API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/country-style-cooking/refs/heads/main/screenshots/country-style-cooking-2026-07-25T210537.png",
      "score": 8.1,
      "band": "minimal",
@@ -4258,7 +4258,7 @@
     {
      "name": "Joes Future Food (Zhouzi Future)",
      "slug": "joesfuturefood",
-     "description": "Joes Future Food (周子未来 / Nanjing Zhouzi Future Food Technology Co., Ltd.)",
+     "description": "Joes Future Food (周子未来 / Nanjing Zhouzi Future Food Technology Co., Ltd.) is a Nanjing-based cellular agriculture and food-technology company pioneering cultivated (cell-cultured) meat in China. The founding team produced what it describes as China's first piece of cultivated meat, and the company develops cell-cultured pork products (pork belly, fatback, skin, meatballs, and a mixed family pack) alongside serum-free culture media and a catalog of primary and gene-edited animal cell lines (porcine adipose and muscle stem cells, bovine muscle and adipose cells, chicken embryo fibroblasts, and more) used across cultivated-meat research and biomanufacturing. Backed by Qiming Venture Partners. The company runs a corporate marketing website and publishes no public API, developer portal, or machine-readable specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/joesfuturefood/refs/heads/main/screenshots/joesfuturefood-2026-07-25T223229.png",
      "score": 8.1,
      "band": "minimal",
@@ -4294,7 +4294,7 @@
     {
      "name": "LemonBox",
      "slug": "lemonbox",
-     "description": "'LemonBox (来檬) is a health-technology brand working in AI-generative",
+     "description": "LemonBox (来檬) is a health-technology brand working in AI-generative personalized nutrition. Founded in 2016 in Silicon Valley, incubated at the University of Chicago Polsky Center in 2017, and accepted into Y Combinator in 2018, it entered the Chinese market that year and is now headquartered in Shanghai. LemonBox builds individualized daily vitamin and supplement packs from a three-minute FFQ (food frequency questionnaire) nutrition assessment scored by its LemonAlgo adaptive engine, then fulfills them one pack at a time (MOQ=1) through its Personalization Fulfillment Center in Hong Kong. The company reports serving more than 10 million cumulative users as of 2026 and sells both direct-to-consumer and B2B. Investors include Y Combinator and Partech. LemonBox operates a consumer web and WeChat mini-program experience and publishes no public developer API, SDK, or developer portal; its agent-facing surface is limited to a published /llms.txt and a robots.txt that explicitly allow-lists generative-AI crawlers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonbox/refs/heads/main/screenshots/lemonbox-2026-07-25T224911.png",
      "score": 8.1,
      "band": "minimal",
@@ -4372,7 +4372,7 @@
     {
      "name": "Singular Medical",
      "slug": "singularmedical",
-     "description": "Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司)",
+     "description": "Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司) is a Chinese medical-device company pioneering the domestic research, development, and manufacturing of cardiac rhythm management (CRM) products. It builds China's own implantable cardioverter defibrillators (ICD) and implantable cardiac monitors (ICM) — devices that automatically identify malignant arrhythmias, deliver anti-tachycardia pacing and defibrillation to prevent sudden cardiac death, and provide long-term subcutaneous ECG monitoring for the diagnosis of unexplained syncope, atrial fibrillation, and cryptogenic stroke, with cloud-based event transmission for remote clinical review. Backed by Qiming Venture Partners. This is a medical-device hardware manufacturer with a corporate marketing web presence and no public developer, API, or documentation program at this time.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4484,7 +4484,7 @@
     {
      "name": "aistarfish",
      "slug": "aistarfish",
-     "description": "'aistarfish (aistarfish.com) is the web home of Haixin Health (海心健康),",
+     "description": "aistarfish (aistarfish.com) is the web home of Haixin Health (海心健康), a Chinese digital-health company operated by Zhejiang Haixin Zhihui Technology Co., Ltd. that provides full-course disease management and support services for cancer patients across their entire treatment journey. Its consumer-facing products are iOS and Android mobile apps built around a patient community, peer-support networks, patient and official medical diaries, and patient-to-doctor connections, under the mission of \"helping cancer patients live longer and live better.\" The company holds an Internet Pharmaceutical Information Service qualification. It is surfaced here as a portfolio company of the Qiming venture network. As of this pass it publishes no public developer portal, API documentation, or machine-readable API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aistarfish/refs/heads/main/screenshots/aistarfish-2026-07-25T195453.png",
      "score": 7.7,
      "band": "minimal",
@@ -4568,7 +4568,7 @@
     {
      "name": "besunyen",
      "slug": "besunyen",
-     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional",
+     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional and detox teas plus related wellness and nutrition products, surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. Enrichment on 2026-07-18 found no public developer, API, or documentation surface — besunyen.com serves only an nginx 404 and its TLS certificate is issued for besunyen.co (hostname mismatch); the only real artifact captured is a domain-security probe.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4609,7 +4609,7 @@
     {
      "name": "Boohee",
      "slug": "boohee",
-     "description": "'Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific",
+     "description": "Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific weight management, serving a cumulative 180 million users over its ~17-year history. Its portfolio spans the Boohee Health mobile app (calorie and food tracking, diet and exercise logging, AI weight-management coaching, meal plans, smart body scales, community), Boohee Life nutritional foods and subscription services, the Boohee Life Internet Hospital (Tianjin-based telemedicine for internal and traditional Chinese medicine), and a Boohee weight-loss SaaS platform that helps hospitals stand up weight-management clinics. The company operates as a consumer mobile and content platform and does not publish a public developer API or open platform; this profile is maintained in the API Evangelist network as a portfolio lead of DCM Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boohee/refs/heads/main/screenshots/boohee-2026-07-25T203611.png",
      "score": 7.7,
      "band": "minimal",
@@ -4651,7 +4651,7 @@
     {
      "name": "Brosmed",
      "slug": "brosmed",
-     "description": "'BrosMed Medical (Guangdong Brosmed Medical Technology Co., Ltd.) is a medical device",
+     "description": "BrosMed Medical (Guangdong Brosmed Medical Technology Co., Ltd.) is a medical device manufacturer founded in 2012 and headquartered in Dongguan, Guangdong, China, specializing in the research, manufacturing, and global sale of high-performance vascular intervention medical devices. Its product families span cardiovascular intervention, peripheral vascular intervention, hemodialysis access, neurointervention, and intervention accessories. The company employs over 1,000 staff, holds 650+ product registrations, and sells across 100+ countries. It was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network; as a physical medical-device manufacturer it publishes no public developer/API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brosmed/refs/heads/main/screenshots/brosmed-2026-07-25T203957.png",
      "score": 7.7,
      "band": "minimal",
@@ -4693,7 +4693,7 @@
     {
      "name": "cansinotech",
      "slug": "cansinotech",
-     "description": "'CanSino Biologics (康希诺生物, cansinotech.com.cn / cansinotech.com) is a Tianjin-based",
+     "description": "CanSino Biologics (康希诺生物, cansinotech.com.cn / cansinotech.com) is a Tianjin-based Chinese biopharmaceutical company founded in 2009 and dual-listed on the Hong Kong and Shanghai (STAR) exchanges. It researches, manufactures, and commercializes human vaccines across five proprietary technology platforms, with a portfolio covering COVID-19, meningococcal, pneumococcal, tuberculosis, Ebola, and DTcP indications. Surfaced as a portfolio company of Qiming Ventures and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or technical documentation; only its corporate web presence was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cansinotech/refs/heads/main/screenshots/cansinotech-2026-07-25T204421.png",
      "score": 7.7,
      "band": "minimal",
@@ -4735,7 +4735,7 @@
     {
      "name": "Centreherbs (Beijing Shengtaier Biotechnology)",
      "slug": "centreherbs",
-     "description": "Centreherbs is the brand of Beijing Shengtaier Biotechnology Co., Ltd.,",
+     "description": "Centreherbs is the brand of Beijing Shengtaier Biotechnology Co., Ltd., a veterinary pharmaceutical company founded in 1999 and headquartered in the Daxing Biopharmaceutical Industrial Park, Beijing, China. An integrated research, development, production, and distribution organization for animal health, it specializes in veterinary traditional Chinese medicine preparations, animal vaccines for poultry and livestock, plant-based premixed feed additives, and pet health products, backed by four wholly-owned subsidiaries and an internal biotech research institute. It is a healthcare portfolio company of Qiming Venture Partners. The company operates a corporate marketing website and publishes no public API, developer portal, or machine-readable specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/centreherbs/refs/heads/main/screenshots/centreherbs-2026-07-25T204934.png",
      "score": 7.7,
      "band": "minimal",
@@ -4777,7 +4777,7 @@
     {
      "name": "Chiral Quest",
      "slug": "chiral-quest",
-     "description": "'Chiral Quest (Suzhou) Co., Ltd. (凯瑞斯德生化（苏州）有限公司) is a Chinese pharmaceutical",
+     "description": "Chiral Quest (Suzhou) Co., Ltd. (凯瑞斯德生化（苏州）有限公司) is a Chinese pharmaceutical CDMO specializing in chiral chemistry. The company operates asymmetric catalytic hydrogenation, enzyme-catalyzed biosynthesis, flow chemistry, and process innovation technology platforms, using proprietary catalysts to develop and manufacture chiral drug molecules, key raw materials, regulatory starting materials (RSMs), and advanced GMP intermediates for global pharmaceutical companies. Founded around its asymmetric hydrogenation catalyst technology, Chiral Quest merged with Jiangxi Longlai in 2012 and with Suzhou Pengxu in 2020; the group employs more than 800 people including a research team of roughly 150. Suzhou is the parent company and R&D center, Jiangxi Longlai is the manufacturing base, and the company maintains offices in the United Kingdom and the United States. Chiral Quest is a brochure-site company with no public API, developer portal, or machine-readable data surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chiral-quest/refs/heads/main/screenshots/chiral-quest-2026-07-25T205247.png",
      "score": 7.7,
      "band": "minimal",
@@ -4819,7 +4819,7 @@
     {
      "name": "cmlabs",
      "slug": "cmlabs",
-     "description": "CMLabs (千麦医疗 / Qianmai Medical) is an independent third-party clinical",
+     "description": "CMLabs (千麦医疗 / Qianmai Medical) is an independent third-party clinical laboratory group headquartered in China. It operates a network of medical testing laboratories that provide clinical laboratory diagnostics, pathology diagnosis, routine and specialty blood testing, clinical trial and research testing, and laboratory information system (LIS) services to hospitals, clinics, and other medical institutions. The company is a portfolio company of Qiming Venture Partners. It does not currently publish a public developer API, documentation, or SDK surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4860,7 +4860,7 @@
     {
      "name": "dezhentech",
      "slug": "dezhentech",
-     "description": "'Dezhen Technology (德臻) is a Shanghai-based healthcare information technology",
+     "description": "Dezhen Technology (德臻) is a Shanghai-based healthcare information technology company providing informatization solutions for public hospitals and medical institutions across China. Its portfolio spans hospital operations management centers, integrated electronic medical record (EMR) systems, information integration platforms, hospital data centers and big-data analytics, refined operations management dashboards, EMR interoperability testing, and domestic (localized) technology transformation of core hospital systems. Dezhen is a portfolio company of Qiming Venture Partners. As of this profile the company publishes a corporate marketing site but no public developer portal, API documentation, or machine-readable API specifications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dezhentech/refs/heads/main/screenshots/dezhentech-2026-07-25T211852.png",
      "score": 7.7,
      "band": "minimal",
@@ -5028,7 +5028,7 @@
     {
      "name": "guokang",
      "slug": "guokang",
-     "description": "Guokang (国康私人医生 / Guokang Private Doctor, 深圳市国康健康管理服务有限公司)",
+     "description": "Guokang (国康私人医生 / Guokang Private Doctor, 深圳市国康健康管理服务有限公司) is a Shenzhen-based corporate and personal health-management service provider founded in 2005. It positions itself as one of China's leading health-management companies, integrating more than 1,000 domestic and international medical resources — private physicians, specialist experts, tertiary hospitals, and health-examination centers — to deliver private doctor services, family medical-care programs, and corporate health services such as medical screening, employee assistance programs (EAP), group insurance, and on-site corporate health centers. Surfaced as a portfolio company of the Qiming venture network; no public developer portal or API surface was found during enrichment (the site is served behind a Huawei Cloud WAF).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guokang/refs/heads/main/screenshots/guokang-2026-07-25T220447.png",
      "score": 7.7,
      "band": "minimal",
@@ -5070,7 +5070,7 @@
     {
      "name": "huimei",
      "slug": "huimei",
-     "description": "Huimei Technology (惠每科技) is a Chinese medical artificial intelligence",
+     "description": "Huimei Technology (惠每科技) is a Chinese medical artificial intelligence company whose core hospital-facing platform, Dr.Mayson, delivers clinical decision support systems (CDSS) built on a curated medical knowledge base. Its product suite spans specialty CDSS, single-disease quality management and reporting, medical-record quality control, DRG/DIP insurance cost control, and VTE intelligent prevention, helping hospitals raise clinical quality and safety. Huimei is a portfolio company of Qiming Venture Partners. This profile was surfaced through the VC portfolio graph and enriched by the API Evangelist pipeline; the company publishes no public developer API program at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huimei/refs/heads/main/screenshots/huimei-2026-07-25T221632.png",
      "score": 7.7,
      "band": "minimal",
@@ -5154,7 +5154,7 @@
     {
      "name": "jfkbio",
      "slug": "jfkbio",
-     "description": "'jfkbio (今复康生物科技 / JFK Bio) is a biotechnology and life-sciences company",
+     "description": "jfkbio (今复康生物科技 / JFK Bio) is a biotechnology and life-sciences company in China, surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network for enrichment. Its public presence at jfkbio.com is a JavaScript single-page marketing site; no public developer portal, API documentation, OpenAPI definition, or other machine-readable API surface was found during enrichment, so most API artifact types are not applicable to this provider. This profile records what is genuinely observable today (identity and live domain-security posture) and remains a lead pending any future developer or API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jfkbio/refs/heads/main/screenshots/jfkbio-2026-07-25T223150.png",
      "score": 7.7,
      "band": "minimal",
@@ -5196,7 +5196,7 @@
     {
      "name": "LeapStack",
      "slug": "leapstack",
-     "description": "'LeapStack (栈略数据 / Stack Strategy Data) is a Shanghai-based insurance technology and",
+     "description": "LeapStack (栈略数据 / Stack Strategy Data) is a Shanghai-based insurance technology and data-analytics company operating in China's health-insurance sector, applying big-data and risk-control intelligence to help insurers with claims, underwriting, and healthcare-cost analysis. It is a portfolio company of DCM Ventures and Qiming Venture Partners. Its public web presence (www.leapstack.tech) is a client-rendered marketing site; as of this enrichment pass no public developer portal, API documentation, OpenAPI specification, SDK, or other public API surface was found. This profile is maintained in the API Evangelist network as a company record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leapstack/refs/heads/main/screenshots/leapstack-2026-07-25T224801.png",
      "score": 7.7,
      "band": "minimal",
@@ -5238,7 +5238,7 @@
     {
      "name": "LIH Healthcare (长和医疗)",
      "slug": "lih-invest",
-     "description": "'Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH",
+     "description": "Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH Healthcare (长和医疗) — is a Chinese rehabilitation-medicine group that invests in, manages, and operates rehabilitation hospitals and outpatient clinics. The company imports international rehabilitation techniques, service models, and management practices and adapts them to the Chinese market across pediatric developmental and behavioral rehabilitation, cardiopulmonary and critical-care rehabilitation, pain rehabilitation, neurological rehabilitation, and bone and joint rehabilitation. Its three business models are building and investing in high-standard rehabilitation hospitals and clinics, co-operating rehabilitation-medicine departments inside existing general hospitals, and selling systematized rehabilitation service solutions (planning, clinical pathways, operations, equipment, IT consulting, and staff training) to hospitals. Facilities include Beijing Changhe Dayun Pediatric Clinic, Shanghai and Shenzhen pediatric rehabilitation outpatient centers, and Kunming Changhe Tiancheng Rehabilitation Hospital. It is a portfolio company of Qiming Venture Partners. LIH Healthcare publishes no public developer program, API, or SDK — this profile carries identity and domain-security data only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lih-invest/refs/heads/main/screenshots/lih-invest-2026-07-25T225144.png",
      "score": 7.7,
      "band": "minimal",
@@ -5363,7 +5363,7 @@
     {
      "name": "MedSci",
      "slug": "medsci",
-     "description": "MedSci (梅斯医学 / MedSci Healthcare Holdings Limited, HKEX 2415) is a leading",
+     "description": "MedSci (梅斯医学 / MedSci Healthcare Holdings Limited, HKEX 2415) is a leading online professional physician platform in China, founded in 2012 and headquartered in Shanghai. It connects roughly 2.9 million registered physician users with pharmaceutical and medical device companies through big data and AI, offering physician platform solutions (medical knowledge, clinical study assistance), precision omni-channel marketing, real-world study (RWS) solutions, and the MedSci xAI medical AI agent. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. No public third-party developer API program, OpenAPI/SDK, or developer portal was found; the primary web host is geo-restricted and unreachable for HTTP probing.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5445,7 +5445,7 @@
     {
      "name": "Sai De Yang Guang Oral Care",
      "slug": "sunnydental",
-     "description": "Sai De Yang Guang Oral Care (赛德阳光口腔) is a dental healthcare chain operating",
+     "description": "Sai De Yang Guang Oral Care (赛德阳光口腔) is a dental healthcare chain operating across China, founded in 2007 by orthodontist Zhou Yanheng, formerly a director at Peking University School of Stomatology. It runs roughly 30 clinics across major cities including Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Xiamen, Xi'an, Tianjin, Shenyang and Changsha, with nearly 340 treatment chairs, and provides orthodontics (including Invisalign), dental implants, pediatric dentistry, cosmetic dentistry and periodontal treatment. It is a portfolio company of Qiming Venture Partners. The company operates a patient-facing website (appointment booking, clinic locations, expert profiles) and publishes no public API or developer program.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5486,7 +5486,7 @@
     {
      "name": "sh-eco",
      "slug": "sh-eco",
-     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer",
+     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer specializing in the research, production, and customized fabrication of medical catheters and membrane materials. Its product range spans single-lumen tubing, multi-lumen tubing, composite/multi-layer tubing, and injection-molded components serving healthcare and multiple industrial applications. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile. It publishes a corporate marketing website but exposes no public developer or API surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5527,7 +5527,7 @@
     {
      "name": "shsongli",
      "slug": "shsongli",
-     "description": "'shsongli (Shanghai Pine & Power / Songli Biotech Co., Ltd.) is a Shanghai-based",
+     "description": "shsongli (Shanghai Pine & Power / Songli Biotech Co., Ltd.) is a Shanghai-based biotechnology and medical-device maker specializing in the R&D, manufacture and sale of biological hemostatic products, most notably animal-derived quick-dissolving fibrin glue with independent IP, used in surgery and expanding into tissue engineering. The company operates a Class III medical-device line and is ISO 13485 and GMP certified. Surfaced as a portfolio company of the venture firm qiming and added to the API Evangelist network. The enrichment pass found no public developer or API surface: the shsongli.com domain returns 404 on every path (EIMS web server) with an expired TLS certificate, and no docs, portal, packages, MCP, llms.txt, /.well-known/ endpoints, or security program were published.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5568,7 +5568,7 @@
     {
      "name": "shukun",
      "slug": "shukun",
-     "description": "Shukun Technology (数坤科技) is a Beijing-based, globally operating AI medical-imaging company",
+     "description": "Shukun Technology (数坤科技) is a Beijing-based, globally operating AI medical-imaging company founded in 2017. It builds an AI-powered \"Digital Doctor\" portfolio (CoronaryDoc, NeuroDoc and related Digital Heart / Digital Brain products) that analyzes CT and other medical images to assist clinicians in screening, diagnosing, and planning treatment for cardiovascular, cerebrovascular, chest, abdominal and musculoskeletal disease. Shukun holds NMPA Class III certificates, EU MDR CE markings, and US FDA clearance across several therapeutic areas, and its products are deployed in nearly 3,000 healthcare institutions. The company is a clinical/enterprise AI vendor with no public developer or API surface at the time of this enrichment pass.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5609,7 +5609,7 @@
     {
      "name": "SinoMDT",
      "slug": "sinomdt",
-     "description": "Sino Medical-Device Technology Co., Ltd. (SinoMDT), founded in 2007 and",
+     "description": "Sino Medical-Device Technology Co., Ltd. (SinoMDT), founded in 2007 and headquartered in Shenzhen, China, is a high-tech medical equipment manufacturer that researches, designs, and produces accurate injection and infusion devices along with radiographic imaging diagnosis systems. Its product line spans the SN-50 series syringe pumps, SN-1500 series infusion pumps, SinoPower high-pressure contrast injectors used for CT/MRI/DSA enhanced scans, and molybdenum-anode film and full-digital mammography systems for breast radiographic diagnosis. SinoMDT is a portfolio company backed by Qiming Venture Partners. It manufactures physical medical hardware and publishes no public API, SDK, or developer platform.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5691,7 +5691,7 @@
     {
      "name": "SinoUnited Health",
      "slug": "suh",
-     "description": "SinoUnited Health (曜影医疗) is a premium private healthcare provider headquartered",
+     "description": "SinoUnited Health (曜影医疗) is a premium private healthcare provider headquartered in Shanghai, China, operating a group of international-standard medical and dental clinics offering family medicine, specialty care, and dental services. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. As a private, in-person healthcare services provider, it publishes no public developer API, SDK, or developer portal surface at this time.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5732,7 +5732,7 @@
     {
      "name": "snssurgical",
      "slug": "snssurgical",
-     "description": "snssurgical is a surgical / medical-device company (domain snssurgical.com.cn, based in",
+     "description": "snssurgical is a surgical / medical-device company (domain snssurgical.com.cn, based in China) surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the company website presents no public developer portal, API documentation, or machine-readable API surface (its host serves a self-signed localhost certificate and redirects to a non-responsive HTTP endpoint), so there is no API to profile yet. This profile is a lead retained for future re-enrichment should an API surface appear.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5773,7 +5773,7 @@
     {
      "name": "tisenc",
      "slug": "tisenc",
-     "description": "tisenc (天深医疗 / Tianshen Medical) is a Chinese in-vitro diagnostics (IVD)",
+     "description": "tisenc (天深医疗 / Tianshen Medical) is a Chinese in-vitro diagnostics (IVD) medical-device manufacturer based in Guangdong, backed by Qiming Venture Partners. The company develops chemiluminescence immunoassay analyzers and point-of-care testing (POCT) systems — its ACCRE 8, ACCRE 90, and ACCRE 120 single-sample chemiluminescence platforms and an accompanying reagent menu — together with a digital POCT management platform. It is a nationally recognized high-tech enterprise. tisenc operates a corporate marketing website only (WordPress/Qifeiye, hosted in China); as of this enrichment pass it publishes no public API, developer portal, SDK, or machine-readable specification.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5855,7 +5855,7 @@
     {
      "name": "VINNO",
      "slug": "vinno",
-     "description": "'VINNO Corporation (飞依诺科技股份有限公司) is a Chinese medical device manufacturer,",
+     "description": "VINNO Corporation (飞依诺科技股份有限公司) is a Chinese medical device manufacturer, headquartered in Suzhou, that develops and produces digital color ultrasound (Doppler) imaging systems — cart-based, portable, and handheld/pocket devices — for clinical diagnostics and research. Product lines include the ULTIMUS and VINNO R-series ultrasound platforms plus Stream-series CPAP respiratory devices, built on proprietary soft beamforming and ultra-high-resolution micro-vascular imaging technology, with remote-diagnostic center and support services across 50+ countries. Surfaced as a portfolio company of Qiming Venture Partners. As of enrichment the company publishes no public API, SDK, or developer surface (medical-device hardware manufacturer).",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5896,7 +5896,7 @@
     {
      "name": "Vistel",
      "slug": "vistel",
-     "description": "Vistel (Beijing Zhiyuan Huitu Technology, 致远慧图) is a Beijing-based medical",
+     "description": "Vistel (Beijing Zhiyuan Huitu Technology, 致远慧图) is a Beijing-based medical AI company founded in 2016 that applies computer vision and deep learning to ophthalmology. Its NMPA Class III and EU CE certified software analyzes fundus images to screen for diabetic retinopathy, glaucoma, and age-related macular degeneration, paired with its RC350 and RX350 fundus cameras and VS550 vision screener, plus telemedicine and image management systems. Backed by Qiming Venture Partners, Cyberport Hong Kong, and Redhill Capital. Vistel publishes no public developer portal or API surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5937,7 +5937,7 @@
     {
      "name": "Wuxi Vision Pro",
      "slug": "wx-visionpro",
-     "description": "Wuxi Vision Pro Co., Ltd. (无锡蕾明视康科技有限公司, \"蕾明视康\"), founded in 2010, is a",
+     "description": "Wuxi Vision Pro Co., Ltd. (无锡蕾明视康科技有限公司, \"蕾明视康\"), founded in 2010, is a Chinese ophthalmic medical device company that develops, manufactures, and sells intraocular lenses (IOLs) and other high-end ophthalmic consumables, focused on foldable IOL R&D and domestic substitution of imported lenses. Headquartered in Wuxi with a Shanghai branch, and backed by Qiming Venture Partners. No public API or developer surface was found.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5978,7 +5978,7 @@
     {
      "name": "xiaoniaokuaiyan",
      "slug": "xiaoniaokuaiyan",
-     "description": "'Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and blood-testing",
+     "description": "Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and blood-testing service brand operated by Beijing Cloud Artery Health Management Co., Ltd (北京云动脉健康管理有限公司), a Qiming-backed internet-healthcare startup based in Chaoyang, Beijing. It offers on-demand at-home sample collection by licensed nurses with results processed by nationally accredited laboratories, spanning routine checkups, tumor screening, infection testing, chronic-disease monitoring, and custom corporate and family panels. The company operates via its consumer website, WeChat official account, and mobile apps; it publishes no public developer portal, documentation, or API surface. This profile was added to the API Evangelist network as a Qiming portfolio lead and enriched by the pipeline; the honest result is that no public API artifacts exist to harvest.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6101,7 +6101,7 @@
     {
      "name": "zeenhealth",
      "slug": "zeenhealth",
-     "description": "zeenhealth is a health company surfaced as a portfolio company of Qiming Venture",
+     "description": "zeenhealth is a health company surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as a stub for enrichment. Its public web and API surface (zeenhealth.com, zeenhealth.cn, api.zeenhealth.com) is hosted on Chinese cloud infrastructure (Tencent Cloud, with Feishu/Lark email) and was not reachable from the enrichment environment, so no developer portal, OpenAPI, SDKs, or documentation could be harvested this pass. This profile remains a lead awaiting a reachable developer surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6289,7 +6289,7 @@
     {
      "name": "Uxin",
      "slug": "uxin",
-     "description": "'Uxin (优信) is a Chinese used-car e-commerce company backed by DCM Ventures. It operates",
+     "description": "Uxin (优信) is a Chinese used-car e-commerce company backed by DCM Ventures. It operates the xin.com consumer used-car retail marketplace and the Youxinpai (优信拍) B2B online used-car auction and trading platform that connects dealers with buyers, including vehicle listings, auctions, logistics, and post-sale services. Uxin publishes no public developer portal or API documentation as of this enrichment pass.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6359,7 +6359,7 @@
     {
      "name": "My China Roots",
      "slug": "my-china-roots",
-     "description": "My China Roots is a Chinese heritage genealogy platform that helps people of Chinese",
+     "description": "My China Roots is a Chinese heritage genealogy platform that helps people of Chinese descent trace their ancestry, find records of their ancestors, connect with long-lost relatives, and organize roots trips to China. The platform offers a searchable database of roughly 200 million ancestors drawn from digitized clan books (zupu), overseas immigration records, tombstones, obituaries, and clan association member lists, alongside family-tree building and a Library Edition for institutions. It was surfaced as a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline; the company exposes a consumer web application only, with no discoverable public API, developer portal, SDKs, or machine-readable API surface at this time.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6394,7 +6394,7 @@
     {
      "name": "Simple Love Yogurt",
      "slug": "simple-love-yogurt",
-     "description": "'Simple Love (简爱酸奶) is a Chinese natural yogurt brand operated by Pucheng",
+     "description": "Simple Love (简爱酸奶) is a Chinese natural yogurt brand operated by Pucheng Dairy (Group) Co., Ltd. (朴诚乳业), founded in 2016. Known for zero-additive, low-temperature fresh yogurts with short ingredient lists — including its no-sugar, probiotic, high-protein, and coconut lines — the brand is distributed across supermarket shelves in every Chinese province and operates its own manufacturing capacity in Hebei. Surfaced as a portfolio company of Hongshan and added to the API Evangelist network as a stub. As a consumer packaged-goods (CPG) dairy company it publishes a corporate/consumer website but no public developer, API, or programmatic surface.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6464,7 +6464,7 @@
     {
      "name": "2duche",
      "slug": "2duche",
-     "description": "2Duche was a Chinese used-car marketing and trading service platform, backed by",
+     "description": "2Duche was a Chinese used-car marketing and trading service platform, backed by Qiming Venture Partners and recognized on the Red Herring Asia 100 in 2009. It was surfaced as a portfolio company of Qiming and added to the API Evangelist network as an enrichment lead. As of the July 2026 enrichment pass the company appears defunct — the apex domain 2duche.com does not resolve and www.2duche.com is unreachable, with no discoverable developer portal, API, documentation, SDKs, or public code repositories. No API artifacts could be produced without fabrication.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6535,7 +6535,7 @@
     {
      "name": "61draw",
      "slug": "61draw",
-     "description": "61draw (广东省六一线上非学科培训学校有限公司, Guangdong Liuyi Online Non-Academic",
+     "description": "61draw (广东省六一线上非学科培训学校有限公司, Guangdong Liuyi Online Non-Academic Training School Co., Ltd.) is a China-based online children's art and non-academic education platform delivering live-broadcast art lessons to children roughly aged five to nine. It is a portfolio company of Qiming Venture Partners and Matrix Partners China, which co-led its Series B round, and was surfaced to the API Evangelist network as a venture-portfolio lead. The company runs a consumer web and mobile presence at 61draw.com; no public developer, API, or documentation surface has been found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/61draw/refs/heads/main/screenshots/61draw-2026-07-25T181229.png",
      "score": 6.8,
      "band": "minimal",
@@ -6571,7 +6571,7 @@
     {
      "name": "7k7k",
      "slug": "7k7k",
-     "description": "7k7k (7k7k.com) is a Chinese online casual gaming portal operating a consumer-facing",
+     "description": "7k7k (7k7k.com) is a Chinese online casual gaming portal operating a consumer-facing website that aggregates hundreds of free browser-based mini games across action, role-playing, strategy, puzzle, and two-player categories. Surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network as a stub for enrichment. The 7k7k property is a consumer web destination and publishes no public developer platform, API, SDK, or developer documentation; enrichment probes confirmed no OpenAPI, no .well-known discovery documents, and no security-disclosure or trust-center program at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/7k7k/refs/heads/main/screenshots/7k7k-2026-07-25T181236.png",
      "score": 6.8,
      "band": "minimal",
@@ -6607,7 +6607,7 @@
     {
      "name": "afujingyou",
      "slug": "afujingyou",
-     "description": "'afujingyou (阿芙 / AFU) is a Chinese consumer essential-oil, aromatherapy",
+     "description": "afujingyou (阿芙 / AFU) is a Chinese consumer essential-oil, aromatherapy and skincare brand founded in 2006, backed by Qiming Venture Partners (Series C, 2017). It sells single and blended essential oils, base/carrier oils, masks, emulsions and face creams through retail and e-commerce channels (Tmall/JD/Weibo storefronts). Enrichment finding (2026-07-17): this is a consumer packaged-goods brand, not an API provider — no public developer portal, documentation, OpenAPI, or other API artifacts exist to harvest, and the catalog domain afujingyou.net.cn does not resolve (NXDOMAIN). Retained as an identity-only record; no API artifacts are applicable.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6642,7 +6642,7 @@
     {
      "name": "AInnovation",
      "slug": "ainnovation",
-     "description": "'AInnovation (创新奇智, Qingdao AInnovation Technology Group) is a Chinese enterprise",
+     "description": "AInnovation (创新奇智, Qingdao AInnovation Technology Group) is a Chinese enterprise artificial-intelligence company founded in 2018 and listed on the Hong Kong Stock Exchange (02121.HK). It focuses on \"AI + Manufacturing\", delivering industrial AI through its AInnoGC platform — an industrial large-language-model and AI-agent application-development platform — and its MMOC technology stack: ManuVision machine-vision, MatrixVision edge-video intelligence, and the Orion distributed machine-learning platform. It serves manufacturing verticals including semiconductors, steel, 3C electronics, automotive, energy, food and materials, construction, and financial services. Backed by SoftBank Vision Fund, the company reports 1,400+ patent applications. No public developer API, SDK, or developer portal is published as of this profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ainnovation/refs/heads/main/screenshots/ainnovation-2026-07-25T195412.png",
      "score": 6.8,
      "band": "minimal",
@@ -6678,7 +6678,7 @@
     {
      "name": "airquality",
      "slug": "airquality",
-     "description": "'AirQuality (爱优特) is a Shanghai-based manufacturer of high-efficiency electrostatic",
+     "description": "AirQuality (爱优特) is a Shanghai-based manufacturer of high-efficiency electrostatic air purification and disinfection products, including central air filtration systems, commercial kitchen exhaust (hood) cleaners, odor-elimination units, and smart air-quality detection systems for schools, hospitals, offices, shopping malls, and hotels. The company was surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. It is a hardware/manufacturing business that publishes a consumer website and online shop but no public developer API, SDK, or documentation surface at this time, so most enrichment artifacts are not applicable.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6713,7 +6713,7 @@
     {
      "name": "Alibaba Local Services",
      "slug": "alibaba-local-services",
-     "description": "'Alibaba Local Services (阿里巴巴本地生活) is Alibaba Group''s on-demand local-life",
+     "description": "Alibaba Local Services (阿里巴巴本地生活) is Alibaba Group's on-demand local-life services business, formed in 2018 by integrating the Ele.me food-delivery platform with the Koubei local-services and restaurant-discovery platform. It operates on-demand food and grocery delivery, local merchant services, reviews and reservations, and last-mile logistics across China, and received a major financing round led by the SoftBank Vision Fund. This API Evangelist profile was surfaced as a SoftBank Vision Fund portfolio company and added to the network as a lead; no distinct public developer API surface has been confirmed for the holding entity under this name (its consumer platforms Ele.me and Koubei operate their own separate open platforms).",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6784,7 +6784,7 @@
     {
      "name": "appconomy",
      "slug": "appconomy",
-     "description": "Appconomy was a mobile-commerce platform company, founded in 2010 and dual-headquartered",
+     "description": "Appconomy was a mobile-commerce platform company, founded in 2010 and dual-headquartered in Austin, Texas and Shanghai, China, that let brands, retailers, service providers, and mobile carriers add commerce functionality (daily deals, coupons, loyalty and rewards, mobile gifting, and merchant app generation for marketplaces such as Taobao) to their mobile apps. It was venture-backed with strategic investors including Qiming Venture Partners (lead of a $10M Series A), True Ventures, Neusoft Holdings, and WTI. The company is now permanently closed and publishes no live developer surface. The appconomy.cn domain does not resolve, appconomy.com returns 404, and no public API, documentation, developer portal, SDK, or /.well-known/ endpoint could be found. This profile is retained as a historical portfolio-graph record rather than an active API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6819,7 +6819,7 @@
     {
      "name": "Babycare",
      "slug": "babycare",
-     "description": "'Babycare is a Chinese mother-and-baby (母婴) consumer brand offering a broad",
+     "description": "Babycare is a Chinese mother-and-baby (母婴) consumer brand offering a broad range of maternity and infant-care products, including diapers, wipes, strollers, baby carriers, feeding bottles, toys, and maternal care goods. It operates primarily as a direct-to-consumer brand, selling through major Chinese e-commerce marketplaces (Tmall, JD.com, Douyin) alongside its own channels and offline retail, and is one of the leading new-generation mother-baby brands in China. Babycare is backed by venture investor Hongshan (formerly Sequoia Capital China). This profile is a consumer-brand entry in the API Evangelist network; no public developer API surface has been identified for this provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6890,7 +6890,7 @@
     {
      "name": "BAMA TEA",
      "slug": "bama-tea",
-     "description": "'BAMA TEA (八马茶业), a brand of Fujian Bama Tea Industry Co., Ltd., is a large-scale Chinese",
+     "description": "BAMA TEA (八马茶业), a brand of Fujian Bama Tea Industry Co., Ltd., is a large-scale Chinese tea enterprise founded in 1997 and headquartered in Anxi County, Quanzhou, Fujian Province. It integrates tea plantation cultivation, production and processing, branded retail-chain distribution, and export, and is best known for Tieguanyin oolong. The company operates a nationwide network of branded retail stores across China and sells oolong, black, green, white, and dark teas. It is a publicly listed company and a portfolio investment of IDG Capital. Added to the API Evangelist network as a consumer-sector lead: BAMA TEA publishes a consumer e-commerce website but no public developer API, SDK, or documentation surface, so the API-artifact enrichment recipes do not apply.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bama-tea/refs/heads/main/screenshots/bama-tea-2026-07-25T202323.png",
      "score": 6.8,
      "band": "minimal",
@@ -6926,7 +6926,7 @@
     {
      "name": "baoyugame",
      "slug": "baoyugame",
-     "description": "baoyugame (Guangzhou Baoyou Network Technology) is a Chinese game development and",
+     "description": "baoyugame (Guangzhou Baoyou Network Technology) is a Chinese game development and publishing studio founded in 2011 and headquartered in Guangzhou, focused on the research and development of mobile games and web (browser) games. Its founding team came from established studios including NetEase, and it operates multiple internal game studios with a development team of roughly 100 people, shipping turn-based RPG, ARPG, and strategy titles. The company is venture-backed, appearing in the portfolios of Qiming Venture Partners, Morningside Venture Capital, and Jiuhe Capital. baoyugame publishes a consumer game website only and exposes no public developer API, documentation, or SDK surface, so this profile carries company identity rather than API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/baoyugame/refs/heads/main/screenshots/baoyugame-2026-07-25T202357.png",
      "score": 6.8,
      "band": "minimal",
@@ -6962,7 +6962,7 @@
     {
      "name": "beijingyuanxin",
      "slug": "beijingyuanxin",
-     "description": "beijingyuanxin (Beijing Yuanxin) is a company surfaced as a portfolio company of qiming and",
+     "description": "beijingyuanxin (Beijing Yuanxin) is a company surfaced as a portfolio company of qiming and added to the API Evangelist network for enrichment. Its primary domain beijingyuanxin.com is served over HTTPS (TLS 1.3) and 301-redirects to www.yuanxinjituan.com (Yuanxin Group). During this enrichment pass no public developer program, API documentation, or machine-readable API surface (OpenAPI/AsyncAPI/GraphQL) was discoverable; the domain answered TLS/DNS security probes, but its content host was not reachable from the probe location. This remains a portfolio lead pending a discoverable API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beijingyuanxin/refs/heads/main/screenshots/beijingyuanxin-2026-07-25T202705.png",
      "score": 6.8,
      "band": "minimal",
@@ -6998,7 +6998,7 @@
     {
      "name": "Belle International",
      "slug": "belle-international",
-     "description": "'Belle International Holdings (百丽国际) is one of China''s largest women''s footwear",
+     "description": "Belle International Holdings (百丽国际) is one of China's largest women's footwear and fashion retailers, designing, manufacturing, and distributing shoe brands such as Belle, Teenmix, Tata, and Staccato alongside a sportswear-distribution business, across thousands of directly operated retail outlets and a growing e-commerce presence. Formerly listed on the Hong Kong Stock Exchange, the group was taken private in 2017 by a consortium led by Hillhouse Capital and CDH Investments in one of the largest Hong Kong take-private deals. It was surfaced in the API Evangelist network as a portfolio company of Hillhouse; enrichment found no public developer portal, API program, or machine-readable API surface for this consumer-retail company. This remains an identity and domain-security profile rather than an integratable API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7105,7 +7105,7 @@
     {
      "name": "BrandCT",
      "slug": "brandct",
-     "description": "'BrandCT (品牌CT) is an offline-retail market-monitoring service operated by Mashangying",
+     "description": "BrandCT (品牌CT) is an offline-retail market-monitoring service operated by Mashangying (马上赢市场调查 / yikuaigao), a Chinese retail-data company. It has built a national offline-retail monitoring network based on POS data from a panel of sample stores, and delivers brand owners a \"BrandCT\" service that scans more than 10 million products across offline retail formats to quantify market share, distribution (铺市率), and product sell-through. The platform supports quantitative analysis of product innovation, channel competition, and category trends to speed up and sharpen client decision-making. The product is delivered through a login-gated web dashboard (WeChat, phone, and email verification sign-in); no public developer API, OpenAPI specification, or /.well-known discovery surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brandct/refs/heads/main/screenshots/brandct-2026-07-25T203723.png",
      "score": 6.8,
      "band": "minimal",
@@ -7141,7 +7141,7 @@
     {
      "name": "cashbus",
      "slug": "cashbus",
-     "description": "'CashBus (现金巴士), operated by Micro-Credit Speed Express (Group) Co., Ltd.",
+     "description": "CashBus (现金巴士), operated by Micro-Credit Speed Express (Group) Co., Ltd. (微额速达集团有限公司) of Shanghai, is a Chinese mobile financial-technology platform providing quick microloans to underserved consumers who lack access to traditional banking. The company runs an automated, AI-driven credit decision engine that scores applicants in seconds using thousands of risk factors and big-data analysis, with risk management spanning pre-loan, in-loan, and post-loan stages. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. The public presence is a corporate marketing site (company vision, team, careers, contact) with no published developer portal, API documentation, or machine-readable API surface at this time.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7176,7 +7176,7 @@
     {
      "name": "cdhot (Hot New Energy Technology)",
      "slug": "cdhot",
-     "description": "cdhot (Hot New Energy Technology) is a Chinese industrial energy-efficiency",
+     "description": "cdhot (Hot New Energy Technology) is a Chinese industrial energy-efficiency company listed in the Qiming Venture Partners portfolio. Qiming describes the company as providing EPC (engineering, procurement and construction) and EMC (energy management contracting) services to industrial customers to achieve waste heat recovery — capturing surplus process heat from industrial operations and converting it into reusable energy. The company is an engineering and energy-services business rather than a software or API provider. As of the July 2026 enrichment pass its published website at cdhot.cc did not resolve over HTTPS, redirected to www.cdhot.cc over HTTP and returned an empty HTTP 404, and no developer portal, documentation, specification, or API surface of any kind could be found.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7247,7 +7247,7 @@
     {
      "name": "changeducation",
      "slug": "changeducation",
-     "description": "ChangEducation is an integrated teaching-service provider of artificial-intelligence and",
+     "description": "ChangEducation is an integrated teaching-service provider of artificial-intelligence and STEAM curriculum systems, surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. It builds AI and STEAM (Science, Technology, Engineering, Arts, Mathematics) curriculum products and teaching services for the Chinese K-12 education market. As of this enrichment pass the company publishes only a marketing website (changeducation.cn, which redirects to a JavaScript-rendered landing page) with no public developer portal, API reference, OpenAPI, SDKs, or documentation surface, so this profile remains an identity-only lead with no technical API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/changeducation/refs/heads/main/screenshots/changeducation-2026-07-25T205041.png",
      "score": 6.8,
      "band": "minimal",
@@ -7283,7 +7283,7 @@
     {
      "name": "chatail",
      "slug": "chatail",
-     "description": "Chatail is a Shanghai-based SaaS company (founded 2016) that provides private-domain",
+     "description": "Chatail is a Shanghai-based SaaS company (founded 2016) that provides private-domain livestream and video sales software for high-end and luxury retail brands across fashion, jewelry, beauty, automotive, and home-goods verticals, pairing intelligent customer acquisition with conversion tooling (\"智能获客与高效转化双轮驱动\"). The product is delivered as a hosted web application at chatail.com; no public developer API, documentation portal, or OpenAPI surface is published at this time (api.chatail.com serves a default nginx placeholder). Chatail raised a Series B round led by Qiming Venture Partners and is tracked in the API Evangelist network as a Qiming portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chatail/refs/heads/main/screenshots/chatail-2026-07-25T205127.png",
      "score": 6.8,
      "band": "minimal",
@@ -7319,7 +7319,7 @@
     {
      "name": "Chery",
      "slug": "chery",
-     "description": "'Chery Automobile Co., Ltd. is a Chinese state-owned automobile manufacturer headquartered in Wuhu, Anhui, and one of China''s largest passenger-vehicle exporters, conducting business in more than 130 countries and regions. Its brand portfolio spans the core Chery marque (TIGGO and ARRIZO SUV and sedan series), the Fengyun and OMODA/JAECOO new-energy lines, and the QQ city-car brand, with a growing emphasis on the CSH (Chery Super Hybrid) powertrain and connected-vehicle technology. Chery was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment. As an automotive manufacturer, Chery publishes corporate and consumer web properties but no public developer portal or API surface was found during this pass.'",
+     "description": "Chery Automobile Co., Ltd. is a Chinese state-owned automobile manufacturer headquartered in Wuhu, Anhui, and one of China's largest passenger-vehicle exporters, conducting business in more than 130 countries and regions. Its brand portfolio spans the core Chery marque (TIGGO and ARRIZO SUV and sedan series), the Fengyun and OMODA/JAECOO new-energy lines, and the QQ city-car brand, with a growing emphasis on the CSH (Chery Super Hybrid) powertrain and connected-vehicle technology. Chery was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment. As an automotive manufacturer, Chery publishes corporate and consumer web properties but no public developer portal or API surface was found during this pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chery/refs/heads/main/screenshots/chery-2026-07-25T205203.png",
      "score": 6.8,
      "band": "minimal",
@@ -7355,7 +7355,7 @@
     {
      "name": "chushou",
      "slug": "chushou",
-     "description": "Chushou (触手TV / 触手直播) was a China-based mobile game live-streaming",
+     "description": "Chushou (触手TV / 触手直播) was a China-based mobile game live-streaming platform, at one point among the largest mobile-focused game streaming services in China, letting players broadcast and watch mobile gameplay. It was backed by Qiming Venture Partners and Tencent and is surfaced here as a portfolio lead. As of this enrichment pass the company's public web presence at chushou.tv is unreachable (the server returns empty replies) and it exposes no documented developer API, SDK, or portal, so this profile remains an inactive/defunct lead with no live API surface to enrich beyond DNS/TLS-level signals.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7460,7 +7460,7 @@
     {
      "name": "CYGIA",
      "slug": "cygia",
-     "description": "CYGIA (Zhuhai CYGIA Automation Equipment Co.) is an intelligent-factory equipment and",
+     "description": "CYGIA (Zhuhai CYGIA Automation Equipment Co.) is an intelligent-factory equipment and solution provider founded in 2006 and headquartered in Zhuhai, China. It develops, manufactures, and services intelligent automation and automated-test equipment for consumer electronics, semiconductor and integrated-circuit, automotive, medical, and new-energy industries. Once backed by Qiming Venture Partners, CYGIA became a subsidiary of publicly traded CYG (Changyuan Group, Shanghai Stock Exchange 600525.SH) in 2015. This profile was added to the API Evangelist network as a VC-portfolio lead; enrichment found no public API, developer portal, documentation, or SDK surface for CYGIA, which is a hardware/automation-equipment manufacturer rather than an API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7530,7 +7530,7 @@
     {
      "name": "Dangdang",
      "slug": "dangdang",
-     "description": "'Dangdang (当当, dangdang.com) is a Chinese business-to-consumer e-commerce company founded",
+     "description": "Dangdang (当当, dangdang.com) is a Chinese business-to-consumer e-commerce company founded in 1999 and headquartered in Beijing. It began as one of China's largest online booksellers and expanded into a broad general-merchandise marketplace spanning books, e-books and e-readers, digital reading, consumer electronics, apparel, home goods, and maternal and baby products. Once listed on the New York Stock Exchange (ticker DANG) before being taken private, Dangdang was surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network. No active public developer program, open platform, or machine-readable API surface was reachable during enrichment (the site is geo-restricted); this profile carries a probed domain-security posture and awaits any discoverable API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dangdang/refs/heads/main/screenshots/dangdang-2026-07-25T211201.png",
      "score": 6.8,
      "band": "minimal",
@@ -7602,7 +7602,7 @@
     {
      "name": "Dingdong",
      "slug": "dingdong",
-     "description": "'Dingdong (Dingdong Maicai / 叮咚买菜) is a Shanghai-based on-demand fresh-grocery e-commerce",
+     "description": "Dingdong (Dingdong Maicai / 叮咚买菜) is a Shanghai-based on-demand fresh-grocery e-commerce company operating a front-warehouse (dark-store) model that delivers fruit, vegetables, meat, seafood and prepared foods to consumers, typically within about 30 minutes, through its mobile app. The company is publicly listed on the New York Stock Exchange (ticker DDL) and is backed by Hongshan (formerly Sequoia Capital China). Its public surface (ddxq.mobi) is a consumer mobile-app backend rather than a developer platform; no public developer portal, API documentation, or open API program was found during enrichment, and the host is not reachable outside of China.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7637,7 +7637,7 @@
     {
      "name": "Dingdong Maicai",
      "slug": "dingdong-maicai",
-     "description": "'Dingdong Maicai (叮咚买菜), operated by Shanghai Yibai Mi Network Technology Co., Ltd., is",
+     "description": "Dingdong Maicai (叮咚买菜), operated by Shanghai Yibai Mi Network Technology Co., Ltd., is a Chinese on-demand fresh grocery e-commerce and delivery platform. It runs a mobile-app marketplace for fresh produce, meat, seafood, prepared foods, and daily groceries, backed by a network of front-line neighborhood micro-fulfillment stations that enable fast, same-hour delivery in major Chinese cities. The company is publicly listed on the NYSE (ticker DDL) and was backed by SoftBank Vision Fund. It is a consumer-facing operation with no public developer program or open API surface; this profile is a network lead maintained by the API Evangelist enrichment pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dingdong-maicai/refs/heads/main/screenshots/dingdong-maicai-2026-07-25T212049.png",
      "score": 6.8,
      "band": "minimal",
@@ -7673,7 +7673,7 @@
     {
      "name": "DMall",
      "slug": "dmall",
-     "description": "'DMall (多点数智, Dmall Inc.) is an Asia-Pacific retail digitalization service",
+     "description": "DMall (多点数智, Dmall Inc.) is an Asia-Pacific retail digitalization service provider that pairs consulting with technology to deliver an all-in-one digital retail operating system for supermarkets, grocery chains, and other retailers. Its cloud-native SaaS platform (Dmall OS) spans supply chain, point-of-sale, store operations, membership, e-commerce, and O2O fulfillment, helping traditional retailers modernize into data-driven omnichannel businesses. The company is backed by IDG Capital among other investors. DMall does not currently publish a public developer portal, open-platform documentation, or machine-readable API specifications; this profile captures its public web identity and domain security posture while awaiting a documented API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dmall/refs/heads/main/screenshots/dmall-2026-07-25T212157.png",
      "score": 6.8,
      "band": "minimal",
@@ -7745,7 +7745,7 @@
     {
      "name": "dstzc",
      "slug": "dstzc",
-     "description": "'dstzc (地上铁, DiShangTie Green Technology, Shenzhen) is a leading Chinese provider of",
+     "description": "dstzc (地上铁, DiShangTie Green Technology, Shenzhen) is a leading Chinese provider of digitalized operations-management solutions for new-energy (electric) logistics vehicles. It operates a full-lifecycle fleet platform covering vehicle sales and leasing, digital fleet management, safety and risk management, maintenance, charging and battery-swap services, and residual-value management, reporting 224,000+ operational vehicles across 3,246 service locations spanning all 333 prefecture-level regions of mainland China. It is a portfolio company of Qiming Venture Partners. The company has no public API or developer surface; this profile is maintained as a company lead in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dstzc/refs/heads/main/screenshots/dstzc-2026-07-25T212437.png",
      "score": 6.8,
      "band": "minimal",
@@ -7781,7 +7781,7 @@
     {
      "name": "Eigentech",
      "slug": "eigentech",
-     "description": "Eigentech (eigentech.ai) is an artificial intelligence technology company,",
+     "description": "Eigentech (eigentech.ai) is an artificial intelligence technology company, reported to have been founded around 2016 and headquartered in Hangzhou, China, that applies AI and machine learning to business and industrial domains. Its platform is positioned to help enterprises improve operational efficiency, optimize workflows, and strengthen data-driven decision-making by embedding AI into existing business processes. Eigentech is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a lead for the enrichment pipeline. NOTE - as of the latest enrichment pass the company website (https://eigentech.ai) does not resolve and no public developer, documentation, or API surface could be reached, so no API artifacts could be harvested without fabrication.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7851,7 +7851,7 @@
     {
      "name": "fanli",
      "slug": "fanli",
-     "description": "'fanli (返利网, fanli.com) is a Chinese cashback and shopping-rewards platform",
+     "description": "fanli (返利网, fanli.com) is a Chinese cashback and shopping-rewards platform that aggregates promotions, coupons, and rebate offers across major online retailers, letting consumers earn money back on purchases they route through the site. It was surfaced as a portfolio company of Qiming and added to the API Evangelist network. As of this enrichment pass, fanli.com is a live consumer-facing web property; no public developer portal, API documentation, machine-readable API definition, /.well-known discovery surface, llms.txt, or published security/vulnerability-disclosure program was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fanli/refs/heads/main/screenshots/fanli-2026-07-25T214221.png",
      "score": 6.8,
      "band": "minimal",
@@ -7887,7 +7887,7 @@
     {
      "name": "Fenxiang Life",
      "slug": "fenxiang-life",
-     "description": "'Fenxiang Life (分享生活) is a Hangzhou-based Chinese social e-commerce and",
+     "description": "Fenxiang Life (分享生活) is a Hangzhou-based Chinese social e-commerce and shopping-guide platform that combines cashback rebates with AI-driven price comparison. It returns platform commissions to consumers as cashback and analyzes historical price trends across major Chinese marketplaces including Taobao, JD.com, Pinduoduo, Douyin, and VipShop to help shoppers save money. Founded in 2018, the company reports 50M+ users and is backed by DCM Ventures, Xiaomi, and Toutoushidao Fund. It was added to the API Evangelist network as a portfolio-lead stub; the company is consumer-facing and publishes no public developer program, API, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fenxiang-life/refs/heads/main/screenshots/fenxiang-life-2026-07-25T214340.png",
      "score": 6.8,
      "band": "minimal",
@@ -7923,7 +7923,7 @@
     {
      "name": "Fortune Technology (China FIF)",
      "slug": "china-fif",
-     "description": "'Fortune Technology, listed by Qiming Venture Partners as one of the largest",
+     "description": "Fortune Technology, listed by Qiming Venture Partners as one of the largest commercial factoring companies in China, historically operating at china-fif.com. Commercial factoring is a trade-finance business: purchasing accounts receivable from suppliers at a discount to provide working capital. As of the 2026-07-20 enrichment probe the company publishes no developer surface of any kind — no public API, no documentation portal, no OpenAPI or other machine-readable specification, and no /.well-known/ discovery documents. The china-fif.com domain no longer serves the company: HTTPS is refused outright (port 443 closed) and plain HTTP returns an unrelated Chinese Premier League sports-streaming site running EmpireCMS. This record is retained as an honest negative result for the API Evangelist network rather than deleted.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7958,7 +7958,7 @@
     {
      "name": "Full Truck Alliance",
      "slug": "full-truck-alliance",
-     "description": "'Full Truck Alliance Co. Ltd. (Manbang Group / 满帮集团, NYSE: YMM) operates a leading",
+     "description": "Full Truck Alliance Co. Ltd. (Manbang Group / 满帮集团, NYSE: YMM) operates a leading digital freight platform in China that connects truckers and shippers to make road transportation more efficient. It runs the Yunmanman (运满满) and Huochebang (货车帮) mobile apps, applying mobile internet, big data, and artificial intelligence to freight matching, brokerage, transaction services, and value-added offerings across hundreds of cities and tens of thousands of routes. It was surfaced as a portfolio company of dcm-ventures, hongshan, and softbank-vision-fund and added to the API Evangelist network. As of this enrichment pass the company publishes no public developer portal, API documentation, or open platform on its corporate site; this profile carries verified company identity plus a probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/full-truck-alliance/refs/heads/main/screenshots/full-truck-alliance-2026-07-25T215309.png",
      "score": 6.8,
      "band": "minimal",
@@ -7994,7 +7994,7 @@
     {
      "name": "Futurtec",
      "slug": "futurtec",
-     "description": "'Futurtec (鑫君特) is a Chinese medical-device company founded in 2015 and recognized as a",
+     "description": "Futurtec (鑫君特) is a Chinese medical-device company founded in 2015 and recognized as a national high-tech enterprise, focused on orthopedic surgical robotics. Its flagship ORTHBOT surgical system combines navigation with automatic robotic execution — intelligent needle placement, non-invasive positioning, dual-camera navigation, and visual force-feedback pressure protection — and holds Chinese regulatory approval (Feb 2021) and EU MDR CE certification (May 2023). The company reports 251+ patents filed or granted, including 84+ invention patents and 25+ PCT applications. As of this enrichment pass, Futurtec publishes no public API, SDK, developer portal, or software surface: it is a clinical hardware manufacturer, so the enrichment pipeline found no API artifacts to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/futurtec/refs/heads/main/screenshots/futurtec-2026-07-25T215339.png",
      "score": 6.8,
      "band": "minimal",
@@ -8030,7 +8030,7 @@
     {
      "name": "GAGO Group",
      "slug": "gago-group",
-     "description": "'GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology",
+     "description": "GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology company focused on agricultural and rural big data applications. Its homepage positions the business around agricultural and rural big data, applying remote-sensing and data-analytics techniques to agriculture. GAGO Group is backed by DCM Ventures and was added to the API Evangelist network from that portfolio. As of this enrichment pass the company publishes a corporate website at gagogroup.cn but no public developer portal, API documentation, or machine-readable API specification could be verified, so no spec-derived API artifacts were produced.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gago-group/refs/heads/main/screenshots/gago-group-2026-07-25T215454.png",
      "score": 6.8,
      "band": "minimal",
@@ -8066,7 +8066,7 @@
     {
      "name": "galbot",
      "slug": "galbot",
-     "description": "Galbot (银河通用机器人, \"Galaxy Universal Robotics\") is the official site of",
+     "description": "Galbot (银河通用机器人, \"Galaxy Universal Robotics\") is the official site of a general-purpose, embodied-AI robotics company. It was surfaced through the API Evangelist network as a portfolio company of the venture firm Qiming and profiled here for API and developer-surface enrichment. As of this enrichment pass Galbot publishes only a marketing website rendered as a client-side single-page app; no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, or MCP surface could be discovered. The only machine-readable signals captured are the DNS, TLS, and email-authentication (SPF/DMARC) posture of the galbot.com domain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/galbot/refs/heads/main/screenshots/galbot-2026-07-25T215402.png",
      "score": 6.8,
      "band": "minimal",
@@ -8102,7 +8102,7 @@
     {
      "name": "gohoo",
      "slug": "gohoo",
-     "description": "gohoo was a boutique e-commerce company based in Hangzhou, China (founded",
+     "description": "gohoo was a boutique e-commerce company based in Hangzhou, China (founded circa 2001) that linked high-quality goods to supplier channels by integrating the factory supply chain to reduce brand premium. It raised a seed round in 2018 and a Series A in March 2019 with backing from Qiming Venture Partners and Bertelsmann Asia Investments. The company is no longer active (deadpooled), and its gohoo.com domain now redirects to an atom.com domain-for-sale landing page. No live company website, developer portal, documentation, or public API surface exists, so there is nothing to enrich beyond this honest identity record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gohoo/refs/heads/main/screenshots/gohoo-2026-07-25T220013.png",
      "score": 6.8,
      "band": "minimal",
@@ -8138,7 +8138,7 @@
     {
      "name": "Goodme",
      "slug": "goodme",
-     "description": "'Goodme (brand \"Good me\", Chinese: 古茗; legal entity Guming Holdings Limited)",
+     "description": "Goodme (brand \"Good me\", Chinese: 古茗; legal entity Guming Holdings Limited) is one of China's largest freshly-made tea-beverage franchise chains, founded in 2010 by Wang Yun'an and headquartered in Hangzhou, Zhejiang. It sells fruit tea, milk tea, and coffee through a franchise model concentrated in China's lower-tier cities, and had grown to roughly 9,800 outlets nationwide by late 2024. The company listed on the Hong Kong Stock Exchange (SEHK: 1364) in February 2025, raising about US$233 million. It is a consumer-sector portfolio company of HongShan and was added to the API Evangelist network as a company profile. As a food-and-beverage retail franchise, Goodme publishes no public developer API, OpenAPI, SDK, or agent-facing surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/goodme/refs/heads/main/screenshots/goodme-2026-07-25T220057.png",
      "score": 6.8,
      "band": "minimal",
@@ -8281,7 +8281,7 @@
     {
      "name": "Herbeast",
      "slug": "herbeast",
-     "description": "Herbeast is a sustainable skin care and lifestyle brand based in China, backed by Lightspeed",
+     "description": "Herbeast is a sustainable skin care and lifestyle brand based in China, backed by Lightspeed Venture Partners. The company explores the application of Chinese herbal essence to the skin, grounding its formulations in the concepts and technical principles of biomedicine. Founded and led by CEO Yisa He with Chief Scientist and co-founder Yanjing Bai, Herbeast operates as a consumer skin care and lifestyle products brand rather than an API-first technology provider. As of this enrichment pass it publishes no public developer portal, API documentation, or machine-readable API surface; its only observed web property (herbeast.com) resolves to a deactivated Shopify storefront. It is retained in the API Evangelist network as a Lightspeed portfolio identity record, not as an active API producer.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8316,7 +8316,7 @@
     {
      "name": "Heytea",
      "slug": "heytea",
-     "description": "'Heytea is a Chinese premium modern tea-beverage chain founded in 2012 in Jiangmen, Guangdong.",
+     "description": "Heytea is a Chinese premium modern tea-beverage chain founded in 2012 in Jiangmen, Guangdong. It pioneered cheese-topped tea and fresh-fruit \"new-style tea\" and has grown to thousands of stores across mainland China and international markets including Singapore, the United Kingdom, Australia, Canada and the United States. Backed by investors including Hongshan (formerly Sequoia Capital China) and IDG Capital, Heytea runs its own mobile ordering app and retail loyalty program. As a consumer food-and-beverage retailer it publishes no public developer API, documentation portal, or SDKs; this profile is retained in the network as a company identity lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heytea/refs/heads/main/screenshots/heytea-2026-07-25T221131.png",
      "score": 6.8,
      "band": "minimal",
@@ -8388,7 +8388,7 @@
     {
      "name": "Huixiaoer",
      "slug": "huixiaoer",
-     "description": "'Huixiaoer (会小二) is a Chinese online platform for booking meeting venues, hotel",
+     "description": "Huixiaoer (会小二) is a Chinese online platform for booking meeting venues, hotel conference rooms, and event spaces, operated by Beijing Yundong Digital Media Technology (北京云动数字媒体技术有限公司). It connects companies with a network of conference hotels and specialty venues across China and 20+ overseas cities, offering venue matching, price negotiation, and one-on-one meeting-planning advisors, plus bundled catering, accommodation, transportation, staging, team-building, incentive travel, and exhibition booth services on a free-to-client, commission-based model. Backed by DCM Ventures and added to the API Evangelist network as a portfolio lead; no public developer program, API, or documentation surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huixiaoer/refs/heads/main/screenshots/huixiaoer-2026-07-25T221638.png",
      "score": 6.8,
      "band": "minimal",
@@ -8424,7 +8424,7 @@
     {
      "name": "iceonline",
      "slug": "iceonline",
-     "description": "'iceonline (冰场联盟) operates an enterprise-grade backend management platform for",
+     "description": "iceonline (冰场联盟) operates an enterprise-grade backend management platform for ice rinks in China, published at www.iceonline.cn as a login-gated single-page administrative console branded \"冰场联盟 企业级后台管理系统\" (Ice Rink Alliance Enterprise Management System). The company was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as a lead for enrichment. As of this enrichment pass the public surface is a private SPA with no discoverable API: no OpenAPI/Swagger, SDK, developer portal, changelog, or security.txt was found — every probed path (including /.well-known/*, /swagger.json, /openapi.json) returns the SPA shell rather than a real document. Only live domain-security posture (TLS/DNS) could be captured this round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iceonline/refs/heads/main/screenshots/iceonline-2026-07-25T222106.png",
      "score": 6.8,
      "band": "minimal",
@@ -8495,7 +8495,7 @@
     {
      "name": "inbilin",
      "slug": "inbilin",
-     "description": "inbilin was a Shanghai-based social networking mobile app founded in 2013 that let",
+     "description": "inbilin was a Shanghai-based social networking mobile app founded in 2013 that let users place voice calls to strangers, either dialing a person of interest or being paired at random for a live conversation. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as an enrichment lead. Public company databases (Crunchbase, CB Insights, Tracxn) record inbilin as permanently closed / deadpooled; the inbilin.com domain no longer resolves to a live site and no developer program, documentation, OpenAPI, SDK, or public API surface could be located during enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8566,7 +8566,7 @@
     {
      "name": "Jiumaojiu",
      "slug": "jiumaojiu",
-     "description": "'Jiumaojiu (Jiu Mao Jiu International Holdings, HKEX: 09922) is a Chinese casual-dining",
+     "description": "Jiumaojiu (Jiu Mao Jiu International Holdings, HKEX: 09922) is a Chinese casual-dining restaurant group headquartered in Guangzhou and listed on the Hong Kong Stock Exchange since January 2020. Founded roughly three decades ago, it operates 600+ restaurants across mainland China, Southeast Asia and North America under five brands: Jiumaojiu (Shanxi handmade-noodle cuisine), Tai Er (sour cabbage fish, 400+ locations), Song Hot Pot (Chongqing hot pot), Shan Wai Mian (Guizhou sour-soup hot pot) and Chao Na Bian (Chaoshan grilled beef). Backed by IDG Capital. As a consumer food-and-beverage operator it publishes no public developer API, documentation portal, or SDKs; this profile is retained in the API Evangelist network as a company identity lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiumaojiu/refs/heads/main/screenshots/jiumaojiu-2026-07-25T223212.png",
      "score": 6.8,
      "band": "minimal",
@@ -8602,7 +8602,7 @@
     {
      "name": "jsgaiya",
      "slug": "jsgaiya",
-     "description": "'Jiangsu Gaiya Environmental Engineering Co., Ltd. (江苏盖亚环境工程有限公司)",
+     "description": "Jiangsu Gaiya Environmental Engineering Co., Ltd. (江苏盖亚环境工程有限公司) is a Suzhou-based environmental engineering and technology company, described on its site as the region's first firm specializing in contaminated-soil remediation, with offices at the Nanjing University Suzhou High-Tech Research Institute. Its business covers environmental engineering design and construction, environmental testing and risk assessment, R&D and sale of environmental-protection equipment, product distribution, and environmental technology consulting. It was surfaced as a portfolio company of the Qiming venture network. Enrichment probes found a static Chinese-language marketing website (IIS, GB2312) and no public API, developer portal, OpenAPI/AsyncAPI specification, SDK, or other machine-readable developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8637,7 +8637,7 @@
     {
      "name": "Julu Mobile",
      "slug": "julu-mobile",
-     "description": "Julu Mobile was a Shanghai, China based mobile advertising network that served targeted,",
+     "description": "Julu Mobile was a Shanghai, China based mobile advertising network that served targeted, personalized ads to Chinese mobile users by analyzing mobile interactions to profile user interests. Backed by 500 Global, the company was acquired by Zhubajie on November 1, 2012 and no longer operates an independent product or developer platform. This profile was surfaced from the 500 Global portfolio and added to the API Evangelist network. As of the July 2026 enrichment pass the company publishes no public API, SDK, documentation, MCP server, or developer surface, and julumobile.com resolves to a Cloudflare block page.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8672,7 +8672,7 @@
     {
      "name": "Junlebao",
      "slug": "junlebao",
-     "description": "'Junlebao Dairy Group (Shijiazhuang Junlebao Dairy Co., Ltd., 君乐宝乳业)",
+     "description": "Junlebao Dairy Group (Shijiazhuang Junlebao Dairy Co., Ltd., 君乐宝乳业) is one of China's largest dairy processors, founded in 1995 and headquartered in Shijiazhuang, Hebei Province. Its business spans the full dairy value chain: infant and toddler formula, low-temperature (chilled) yogurt, room-temperature liquid milk, fresh milk, cheese and dairy-farming/animal-husbandry operations. Junlebao is the largest dairy company in Hebei and ranks among China's top dairy producers, leading domestic infant-formula sales volume and holding a top position in low-temperature yogurt. It was surfaced in the API Evangelist network as a portfolio company of Hongshan (HSG). As a consumer packaged-goods / food manufacturer it publishes no public developer program, API, or open-data surface; this profile tracks its corporate web presence and company identity.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8707,7 +8707,7 @@
     {
      "name": "juren",
      "slug": "juren",
-     "description": "'Juren (巨人教育 / Juren Education) is a Chinese comprehensive basic-education",
+     "description": "Juren (巨人教育 / Juren Education) is a Chinese comprehensive basic-education training institution founded in 1994 and headquartered in Beijing (Zhongguancun, Haidian District). It is a B2C education and tutoring business — spanning brands such as Juren School, Juren 1-on-1, Xiao Juren, and Juren online school — offering courses in Chinese, English, mathematics, arts, study tours, and seasonal camps, plus education publishing and franchising. It was surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network as a stub. Enrichment found NO public developer, API, or technical-integration surface: the historic official domain juren.com does not resolve (DNS), juren.ai is a parked for-sale domain, and juren.cn is a Chinese-language marketing mirror with no developer section. This is a non-API B2C company lead retained for network completeness rather than API artifact enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8742,7 +8742,7 @@
     {
      "name": "kaiheikeji",
      "slug": "kaiheikeji",
-     "description": "Kaiheikeji Digital (开黑科技) is a Chinese mobile entertainment and esports social platform",
+     "description": "Kaiheikeji Digital (开黑科技) is a Chinese mobile entertainment and esports social platform operating an online game \"sparring\"/companion marketplace, where players post demands (game, skill level, and price) and qualified players selectively take orders to play alongside clients. Backed by Qiming Venture Partners, which led a roughly $15M Series A+ round in 2018. The company operates a consumer-facing mobile app rather than a public developer API program; no public API, developer portal, or API documentation surface has been identified. This profile is maintained in the API Evangelist network as a company record surfaced from the Qiming portfolio.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8812,7 +8812,7 @@
     {
      "name": "kechowpharma",
      "slug": "kechowpharma",
-     "description": "Kechow Pharma (Shanghai Kezhou Pharmaceutical Co., Ltd.) is a clinical-stage biopharmaceutical",
+     "description": "Kechow Pharma (Shanghai Kezhou Pharmaceutical Co., Ltd.) is a clinical-stage biopharmaceutical company founded in 2014 and headquartered in Shanghai's Zhangjiang High-Tech Park. It focuses on innovative small-molecule drug research and development in oncology and free-radical-related diseases, pursuing Best-in-Class therapeutics based on independent intellectual property. Its lead approved product is Kelopin (tolametinib), a MEK inhibitor for advanced NRAS-mutant melanoma. Surfaced as a portfolio company of Qiming Venture Partners; no public developer or API surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kechowpharma/refs/heads/main/screenshots/kechowpharma-2026-07-25T223548.png",
      "score": 6.8,
      "band": "minimal",
@@ -8848,7 +8848,7 @@
     {
      "name": "Kezaihui",
      "slug": "kezaihui",
-     "description": "'Kezaihui (再惠 / Zaihuihui (Shanghai) Network Technology Co., Ltd.) is a",
+     "description": "Kezaihui (再惠 / Zaihuihui (Shanghai) Network Technology Co., Ltd.) is a Shanghai-based Chinese SaaS platform for local-life-service commerce, providing offline merchants — primarily mid-tier restaurants plus entertainment, beauty, and hospitality businesses — with one-stop store-opening and digital-operations tooling. Founded around 2012, the company offers private-domain member and community management, trading-platform shop diagnostics and automated strategy recommendations, content-creator (influencer) marketing, multi-channel precision ad delivery, and the Hui Shenghuo (惠生活) rights-aggregation platform, helping merchants operate across Meituan, Douyin, Xiaohongshu, and Taobao. It reports serving hundreds of thousands of merchants across dozens of Chinese cities with more than 1,000 employees. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network; no public developer program or API surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kezaihui/refs/heads/main/screenshots/kezaihui-2026-07-25T223708.png",
      "score": 6.8,
      "band": "minimal",
@@ -8919,7 +8919,7 @@
     {
      "name": "liangyihui",
      "slug": "liangyihui",
-     "description": "'liangyihui is a company operating the web property at liangyihui.net,",
+     "description": "liangyihui is a company operating the web property at liangyihui.net, surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network for enrichment. As of this enrichment pass the company publishes no public developer program: no developer portal, no API reference or documentation, no OpenAPI, AsyncAPI or GraphQL definition, no first-party SDK packages on any public registry, and no working /.well-known/ discovery surface. The public site is served from Chinese CDN infrastructure (Tengine / kunlunpi) behind a bot shield that answers every path with the same obfuscated JavaScript challenge, so the property soft-404s and cannot be crawled or inspected. A live API host does exist at api.liangyihui.net: it answers its root with a Tomcat-served \"Welcome to LYH!\" page and returns genuine HTTP 404s for probe paths, indicating a real but private first-party backend for the company's own clients rather than a documented public API. This profile records verified DNS, TLS and endpoint posture only; no API artifacts have been fabricated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/liangyihui/refs/heads/main/screenshots/liangyihui-2026-07-25T225014.png",
      "score": 6.8,
      "band": "minimal",
@@ -8990,7 +8990,7 @@
     {
      "name": "Light Chaser Animation Studios",
      "slug": "light-chaser-animation-studios",
-     "description": "'Light Chaser Animation Studios (追光动画) is a Chinese computer-animation film studio founded",
+     "description": "Light Chaser Animation Studios (追光动画) is a Chinese computer-animation film studio founded in March 2013 by Gary Wang (王微), founder and former CEO of the video platform Tudou, and headquartered in Beijing. The studio produces original CG animated feature films for the Chinese domestic market, drawing on Chinese mythology, literature and history. Its released titles include Little Door Gods (小门神), Tea Pets (阿唐奇遇), Cats and Peachtopia (猫与桃花源), White Snake (白蛇：缘起), New Gods: Nezha Reborn (新神榜：哪吒重生), White Snake 2: Green Snake (白蛇2：青蛇劫起), New Gods: Yang Jian (新神榜：杨戬) and Chang An (长安三万里). Light Chaser is a film-production company rather than a technology vendor: its public web presence is a bilingual WordPress marketing and recruiting site at zhuiguang.com, and as of this enrichment pass it publishes no developer portal, API documentation, SDKs, or machine-readable API artifacts of any kind.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/light-chaser-animation-studios/refs/heads/main/screenshots/light-chaser-animation-studios-2026-07-25T225138.png",
      "score": 6.8,
      "band": "minimal",
@@ -9062,7 +9062,7 @@
     {
      "name": "Luckin Coffee",
      "slug": "luckin-coffee",
-     "description": "'Luckin Coffee (瑞幸咖啡) is a Chinese multinational coffee company and coffeehouse chain",
+     "description": "Luckin Coffee (瑞幸咖啡) is a Chinese multinational coffee company and coffeehouse chain headquartered in Xiamen, China. Founded in 2017, it runs a technology-driven, mobile-app-first retail model in which nearly all ordering, payment, and membership happen through its native app and mini-programs rather than at a counter. As of 31 March 2026 the company operated 33,596 stores globally. It was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network. As of this enrichment pass Luckin Coffee publishes no public developer program, open platform, or API — its digital surface is a consumer ordering app, not a documented API product.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/luckin-coffee/refs/heads/main/screenshots/luckin-coffee-2026-07-25T225644.png",
      "score": 6.8,
      "band": "minimal",
@@ -9098,7 +9098,7 @@
     {
      "name": "Luckypai",
      "slug": "luckypai",
-     "description": "Luckypai (乐酷天 / LuckyPai Ltd) was a Chinese television home-shopping",
+     "description": "Luckypai (乐酷天 / LuckyPai Ltd) was a Chinese television home-shopping company founded around 2006-2007 that grew into a leading nationwide TV and online shopping network, selling home appliances, cosmetics, apparel, food, and digital devices. It raised roughly $25M from investors including Lightspeed Venture Partners, Intel Capital, and the LOTTE Group, and was acquired by Lotte Home Shopping in 2010 for approximately $160M. It was surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub. As an acquired, no-longer-operating consumer commerce business it has no public developer program, API, or independent web presence; the luckypai.com domain is parked and listed for sale.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9133,7 +9133,7 @@
     {
      "name": "Mafengwo",
      "slug": "mafengwo",
-     "description": "Mafengwo (马蜂窝, \"Honeycomb\") is a Chinese travel social and user-generated-content",
+     "description": "Mafengwo (马蜂窝, \"Honeycomb\") is a Chinese travel social and user-generated-content platform offering travel guides, destination reviews, trip notes (游记), community Q&A, and online booking for flights, hotels, tours, and local activities. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as a stub for enrichment. No public developer or open-platform (开放平台) API surface was discoverable during this enrichment pass; the site is protected by anti-bot measures and exposes no OpenAPI, well-known discovery documents, or security.txt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mafengwo/refs/heads/main/screenshots/mafengwo-2026-07-25T225838.png",
      "score": 6.8,
      "band": "minimal",
@@ -9169,7 +9169,7 @@
     {
      "name": "Maimai",
      "slug": "maimai",
-     "description": "'Maimai (脉脉) is a Chinese professional networking and workplace social",
+     "description": "Maimai (脉脉) is a Chinese professional networking and workplace social platform operated by Beijing Taoyou Tianxia Technology Development Co., Ltd. It combines professional networking, recruitment and talent matching, job referrals, company reviews and workplace community, and career-development learning (脉课堂) for the Chinese-language market. Surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network. As of this enrichment pass Maimai publishes no public developer program, open platform, or API documentation, so this profile carries identity and domain-security signals only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maimai/refs/heads/main/screenshots/maimai-2026-07-25T225916.png",
      "score": 6.8,
      "band": "minimal",
@@ -9241,7 +9241,7 @@
     {
      "name": "mobike",
      "slug": "mobike",
-     "description": "Mobike (Chinese 摩拜单车 / 摩拜科技, \"Mobike Technology\") was a Beijing-based",
+     "description": "Mobike (Chinese 摩拜单车 / 摩拜科技, \"Mobike Technology\") was a Beijing-based dockless bicycle-sharing company founded in 2015. Riders located, unlocked, and paid for GPS smart-lock bikes through a mobile app and QR codes. Mobike was acquired by Meituan in 2018 and its standalone brand was subsequently folded into Meituan Bike; the public site (www.mobike.com) is now a bare ICP-filing landing page with no developer API, SDK, documentation, or portal surface. It is tracked in the API Evangelist network as a portfolio company of Qiming Venture Partners.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9276,7 +9276,7 @@
     {
      "name": "mogujie",
      "slug": "mogujie",
-     "description": "Mogujie (蘑菇街), operated by Mogu Inc. (NYSE MOGU), is a Chinese online",
+     "description": "Mogujie (蘑菇街), operated by Mogu Inc. (NYSE MOGU), is a Chinese online fashion and lifestyle social-commerce destination that pairs a shopping marketplace with live video streaming and influencer-led content across apparel, beauty, and accessories. The company was formed from the 2016 merger of Mogujie and Meilishuo, is headquartered in Hangzhou, China, and listed on the New York Stock Exchange in December 2018. Mogujie's historical third-party open platform (open.mogujie.com) has been retired and now redirects away, and no active public API developer surface was found during enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9311,7 +9311,7 @@
     {
      "name": "MoreTickets",
      "slug": "moretickets",
-     "description": "'MoreTickets (摩天轮票务), operated by Shanghai Juqitech, is a next-generation",
+     "description": "MoreTickets (摩天轮票务), operated by Shanghai Juqitech, is a next-generation internet performance ticketing marketplace founded in 2015. The platform lets consumers buy and sell tickets to concerts, stage plays, musicals, and sports events through a transparent, competitive pricing marketplace with standardized ticketing services. It operates primarily as a consumer-facing web and mobile marketplace and does not publish a public developer API or open platform. The company is backed by Qiming Venture Partners and has raised a reported $108M in funding.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9346,7 +9346,7 @@
     {
      "name": "nasn-auto",
      "slug": "nasn-auto",
-     "description": "'NASN Automotive Electronics Co., Ltd. is a Shanghai-based automotive chassis",
+     "description": "NASN Automotive Electronics Co., Ltd. is a Shanghai-based automotive chassis electronic-control manufacturer founded in 2016, developing brake-by-wire and steer-by-wire systems for smart and assisted driving. Its products include the NBooster intelligent braking system, brushless electric power steering (EPS) controllers, and motion-control solutions for autonomous vehicles. Backed by Qiming Venture Partners, Matrix Partners China, Hillhouse and CATL, NASN has raised roughly $231M and is a Tier-1 supplier pursuing a Hong Kong listing. Surfaced as a Qiming portfolio company; NASN is an automotive hardware manufacturer with no public developer API surface at nasn-auto.com.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9416,7 +9416,7 @@
     {
      "name": "OneASP",
      "slug": "oneasp",
-     "description": "OneASP (Application Security Protection) is the runtime application security",
+     "description": "OneASP (Application Security Protection) is the runtime application security product line of OneAPM (Beijing Blue Ocean Xuntong Technology / 蓝海讯通), a Qiming-backed Chinese IT operations management (ITOM) and application performance monitoring vendor founded in 2008. OneASP delivered runtime application self-protection (RASP) for web applications, and was also marketed internationally under the OneRASP brand. As of enrichment (2026-07), no standalone OneASP developer portal, public API, or SDK surface resolves - the oneasp.com brand domain no longer resolves and OneASP appears to be a legacy/absorbed product line of the parent OneAPM platform.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9486,7 +9486,7 @@
     {
      "name": "PPS (pps.tv)",
      "slug": "pps",
-     "description": "'PPS (pps.tv), originally the PPStream peer-to-peer online-video client,",
+     "description": "PPS (pps.tv), originally the PPStream peer-to-peer online-video client, is a Chinese internet-video brand backed by Qiming Venture Partners. The pps.tv domain now issues a permanent HTTP 301 redirect to suike.cn, the home of iQIYI Suike (爱奇艺随刻) — a video-sharing and short-video community operated by iQIYI. It is a consumer video product; as of this enrichment pass it publishes no public developer API, developer portal, SDKs, or /.well-known discovery surface, so there is no API artifact set to harvest for this profile.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9591,7 +9591,7 @@
     {
      "name": "reetian",
      "slug": "reetian",
-     "description": "'reetian (Chinese brand 瑞天数智, Reetian Digital Intelligence) is a China-based",
+     "description": "reetian (Chinese brand 瑞天数智, Reetian Digital Intelligence) is a China-based digital-intelligence company surfaced as a portfolio company of the venture firm qiming and added to the API Evangelist network. Its public presence is a JavaScript single-page marketing site at reetian.com fronted by Cloudflare; as of this enrichment pass the company publishes no public developer portal, API documentation, OpenAPI specification, SDKs, or source repositories that could be discovered and harvested. This profile remains a company-level lead pending a public API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9626,7 +9626,7 @@
     {
      "name": "Renren",
      "slug": "renren",
-     "description": "'Renren (人人网), originally launched as Xiaonei in 2005 and renamed in 2009,",
+     "description": "Renren (人人网), originally launched as Xiaonei in 2005 and renamed in 2009, was one of China's largest social networking platforms and was widely described as the \"Facebook of China,\" especially popular among university students. Renren Inc. listed on the NYSE in 2011; the social-networking business later declined and the assets were sold in 2018. The site is now operated by Chengdu Renren Interactive Entertainment Technology Co., Ltd. and is undergoing a service upgrade. Historically Renren ran an Open Platform with an OAuth2 REST API (wiki.dev.renren.com) for third-party login and social integration; that developer surface is now defunct and no live API endpoints respond.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9661,7 +9661,7 @@
     {
      "name": "Rens Energy",
      "slug": "rensenergy",
-     "description": "Rens Energy is a Shanghai-based distributed energy-storage and energy-management",
+     "description": "Rens Energy is a Shanghai-based distributed energy-storage and energy-management company founded in 2017. It builds distributed energy-storage systems and energy-management software that let customers deliver power and energy-balance scheduling, energy-usage analysis, and energy optimization for efficient operation and asset appreciation of their power assets. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Enrichment probing found no public API, developer portal, SDK, or documentation surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9696,7 +9696,7 @@
     {
      "name": "roxmotor",
      "slug": "roxmotor",
-     "description": "ROX Motor (roxmotor.com) is a Chinese electric-vehicle manufacturer, a portfolio",
+     "description": "ROX Motor (roxmotor.com) is a Chinese electric-vehicle manufacturer, a portfolio company of Qiming Venture Partners, best known for the ROX 01 electric off-road SUV. It is a consumer automotive brand with no public developer API surface; this profile was added to the API Evangelist network as a portfolio lead and enriched with a domain-security probe. The site is hosted on Tencent Cloud and was not reachable from the enrichment environment for content search.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9766,7 +9766,7 @@
     {
      "name": "sinocelltech",
      "slug": "sinocelltech",
-     "description": "Sinocelltech (Beijing Sino Cell Biotechnology Group Co., Ltd.; Shanghai",
+     "description": "Sinocelltech (Beijing Sino Cell Biotechnology Group Co., Ltd.; Shanghai Stock Exchange STAR Market code 688520) is a biopharmaceutical research and development company founded in 2002 by Dr. Xie Liangzhi. It develops and commercializes recombinant protein and monoclonal antibody therapeutics across oncology, autoimmune disease, and infectious disease, together with preventive vaccines including a recombinant 14-valent HPV vaccine and COVID-19 vaccines. The company has multiple marketed products in China and a pipeline of clinical-stage candidates. It publishes no public developer platform, API, or technical documentation surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9836,7 +9836,7 @@
     {
      "name": "Super Sports Media",
      "slug": "super-sports-media",
-     "description": "'Super Sports Media Group is an IDG Capital-backed Chinese sports-media company best known",
+     "description": "Super Sports Media Group is an IDG Capital-backed Chinese sports-media company best known for holding the English Premier League broadcast rights in mainland China and operating consumer sports streaming and content services under the ssports.com brand. Its platform was subsequently absorbed into iQiyi Sports (爱奇艺体育), and ssports.com now redirects there. This is a business-to-consumer sports streaming and media-rights operation with no public developer program: no API documentation, developer portal, SDKs, OpenAPI, or open platform surface could be found during enrichment. Profile retained as a network company record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9906,7 +9906,7 @@
     {
      "name": "thorough",
      "slug": "thorough",
-     "description": "thorough (透彻未来 / Thorough Future) is a China-based company surfaced as",
+     "description": "thorough (透彻未来 / Thorough Future) is a China-based company surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network for enrichment. Its site at thorough.ai serves a Chinese-language single-page web application over HTTP only (HTTPS is unreachable at the time of this pass) and exposes no public API, developer portal, documentation, or machine-readable specification surface. This profile remains a lead awaiting a public developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9941,7 +9941,7 @@
     {
      "name": "Three Squirrels",
      "slug": "three-squirrels",
-     "description": "'Three Squirrels (三只松鼠) is a Chinese consumer snack company founded in",
+     "description": "Three Squirrels (三只松鼠) is a Chinese consumer snack company founded in 2012 by Zhang Liaoyuan and headquartered in Wuhu, Anhui Province. Positioned as one of China's first internet-native food brands, it sells nuts, seeds, dried fruits, baked goods, and other leisure snacks primarily through e-commerce channels (Tmall, JD.com, and its own storefronts) alongside a growing offline retail footprint. The company is publicly listed on the Shenzhen Stock Exchange ChiNext board (stock code 300783). It was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network as a stub for enrichment; as a consumer packaged-goods retailer it does not publish a public developer API, open platform, or API documentation. Sector: consumer.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9976,7 +9976,7 @@
     {
      "name": "Tiebaobei",
      "slug": "tiebaobei",
-     "description": "'Tiebaobei (铁甲二手机) is a used construction-machinery C2C trading platform",
+     "description": "Tiebaobei (铁甲二手机) is a used construction-machinery C2C trading platform operated by Beijing Tiejialong Technology Co., Ltd. (北京铁甲龙科技有限公司). Founded in 2009 out of the Tiebaobei (Cehome) construction-equipment forum, it lets individuals buy and sell used excavators, loaders, bulldozers, cranes, rotary drills and other heavy equipment, backed by a network of ~400 regional \"city manager\" brokers across 30 Chinese provinces who verify and co-inspect machines. The platform layers industry news, equipment inspection/detection, price rankings and financing services on top of the marketplace. It raised A financing from Qiming Venture Partners, a DCM-led Series B (¥100M, 2015) and a Yuansheng-led Series C (¥200M, 2016). This profile was enriched by the API Evangelist pipeline; no public developer API or open platform was found.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10046,7 +10046,7 @@
     {
      "name": "tuhu",
      "slug": "tuhu",
-     "description": "Tuhu (途虎养车) is a Chinese online-to-offline automotive services platform founded in",
+     "description": "Tuhu (途虎养车) is a Chinese online-to-offline automotive services platform founded in 2011 and headquartered in Shanghai. Through its app, website, and network of franchised and self-operated workshops it sells tires and provides car maintenance, repair, and related aftermarket services to consumers across China. Tuhu is publicly listed on the Hong Kong Stock Exchange (9690) and counts Qiming Venture Partners among its investors. This API Evangelist profile tracks the company; enrichment probes found no public developer API, open platform, or developer portal.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10116,7 +10116,7 @@
     {
      "name": "VIPThink",
      "slug": "vipthink",
-     "description": "'VIPThink (豌豆思维) is a Chinese online education company operated by Guangdong",
+     "description": "VIPThink (豌豆思维) is a Chinese online education company operated by Guangdong Happy Seeds Technology Co., Ltd. (广东快乐种子科技有限公司), delivering small-class live-streaming courses in mathematical thinking and logic for young children (roughly ages 3-8). It is part of a family of consumer education brands that also includes Hualala drawing classes (画啦啦), Wandou speech training (豌豆口才), Gubi early-learning (咕比启蒙), and Little Lighthouse (小灯塔). The company was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network. As of this enrichment pass, VIPThink operates only consumer-facing web and mobile learning products and publishes no public developer portal, API documentation, SDKs, or machine-readable API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10151,7 +10151,7 @@
     {
      "name": "Wandoujia",
      "slug": "wandoujia",
-     "description": "'Wandoujia (豌豆荚, \"pea pod\") is a Chinese Android app distribution platform and mobile",
+     "description": "Wandoujia (豌豆荚, \"pea pod\") is a Chinese Android app distribution platform and mobile assistant launched in 2009 by Beijing-based Wandoulabs (Zhuoyi Xunchang Technology). It was known for its PC-based Android management client and its in-app content search that indexed apps, games, video, and other content across the Chinese Android ecosystem. Wandoujia was acquired by Alibaba/UCWeb in 2016 and folded into Alibaba's app-distribution business. Its consumer and developer web properties (www., open., and developer.wandoujia.com) no longer resolve; only residual Alibaba-hosted infrastructure (api. and account.wandoujia.com) remains, and there is no documented public API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10186,7 +10186,7 @@
     {
      "name": "Xiaomishu (订餐小秘书)",
      "slug": "xiaomishu",
-     "description": "'Xiaomishu (订餐小秘书, \"Dining Little Secretary\") is a Shanghai-based restaurant",
+     "description": "Xiaomishu (订餐小秘书, \"Dining Little Secretary\") is a Shanghai-based restaurant reservation and dining-marketing technology company operating since 2005 via xiaomishu.com and the 021-57575777 booking hotline. Its platforms — 订餐小秘书, 宴位 (Yanwei, an AI-driven dynamic-pricing product for restaurant private rooms), and 高能店长 — let diners book tables and discounted private-room packages at Shanghai restaurants through web, WAP (m.xiaomishu.com / m.57.cn), phone, and WeChat mini-program channels. The company cites strategic investment from Ctrip and SIG and was surfaced in the API Evangelist network as a Qiming Venture Partners portfolio lead. It publishes no public developer API, portal, or machine-readable surface; api.xiaomishu.com serves a closed (HTTP 403) backend, and the main site is HTTP-only with a mismatched HTTPS certificate.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10256,7 +10256,7 @@
     {
      "name": "Ziroom",
      "slug": "ziroom",
-     "description": "'Ziroom (自如) is a Beijing-based proptech company operating China''s largest",
+     "description": "Ziroom (自如) is a Beijing-based proptech company operating China's largest centralized long-term apartment rental platform. Spun out of the Lianjia (Homelink) real-estate group in 2011, it leases, renovates, furnishes and manages residential units and re-rents them to urban tenants through its app and website, layering on cleaning, maintenance and smart-home services. It is backed by the SoftBank Vision Fund, Tencent and Sequoia Capital. This profile was added to the API Evangelist network as a VC-portfolio lead; enrichment found no publicly discoverable developer or API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10291,7 +10291,7 @@
     {
      "name": "Zuoyebang",
      "slug": "zuoyebang",
-     "description": "Zuoyebang (作业帮) is a Chinese educational technology company founded in 2015 and headquartered",
+     "description": "Zuoyebang (作业帮) is a Chinese educational technology company founded in 2015 and headquartered in Beijing, backed by SoftBank Vision Fund. It operates a \"technology + education\" online learning platform whose flagship homework-help app lets K-12 students photograph a problem to get step-by-step answers, on-demand tutoring, and self-study tools across all subjects, alongside math tutoring products aimed at elementary-school parents and teachers. It is a consumer mobile/web product with no public developer program, open platform, or documented API surface at the time of this enrichment pass.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10326,7 +10326,7 @@
     {
      "name": "Bestcomm",
      "slug": "bestcomm",
-     "description": "'Bestcomm (Bestcomm Pharmaceutical) is a China-based pharmaceutical company backed by IDG",
+     "description": "Bestcomm (Bestcomm Pharmaceutical) is a China-based pharmaceutical company backed by IDG Capital, surfaced as a portfolio company and added to the API Evangelist network for enrichment. It operates in the healthcare / life-sciences sector and raised venture funding alongside IDG Capital and regional investors. As a pharmaceutical manufacturer it has no known public developer portal, OpenAPI specification, SDKs, or programmatic API surface; this profile remains a company lead rather than an API provider. It is distinct from the unrelated BestComm Networks wireless-LAN company.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10367,7 +10367,7 @@
     {
      "name": "coremed",
      "slug": "coremed",
-     "description": "CoreMed (Beijing) Biomedical Research Co., Ltd. is a China-based contract research",
+     "description": "CoreMed (Beijing) Biomedical Research Co., Ltd. is a China-based contract research organization (CRO) founded in 2013 that provides clinical professional services for innovative cardiovascular medical devices and structural-heart products. Its services span animal testing, human clinical trials, data management, statistical analysis, and independent core-laboratory imaging analysis, and it was among the first domestic providers in China to run trials for interventional heart valves, LAA occluders, and bioresorbable scaffolds. Headquartered in Beijing with branches in Shanghai, Guangzhou, and Chengdu, CoreMed is backed by Qiming Venture Partners. This is a services/CRO company with no public API, developer portal, or machine-readable surface; its site (coremed.com.cn) was unreachable at enrichment time (connection refused, expired TLS cert).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coremed/refs/heads/main/screenshots/coremed-2026-07-25T210428.png",
      "score": 5.7,
      "band": "minimal",
@@ -10409,7 +10409,7 @@
     {
      "name": "gammastar",
      "slug": "gammastar",
-     "description": "GammaStar (GammaStar Medical Group) is a Shanghai-based medical-device company backed by",
+     "description": "GammaStar (GammaStar Medical Group) is a Shanghai-based medical-device company backed by Qiming Venture Partners that develops, manufactures, and services precision radiotherapy and oncotherapy equipment, including rotary cobalt-60 gamma-ray radiosurgery systems, and operates a network of oncotherapy and psychosurgery centers. It is a medical-hardware manufacturer rather than an API provider; enrichment found no public developer portal, API documentation, OpenAPI, SDK, or MCP surface, and the gammastar.com domain currently resolves to a parked \"for sale\" listing on Atom.com rather than a corporate site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gammastar/refs/heads/main/screenshots/gammastar-2026-07-25T215432.png",
      "score": 5.7,
      "band": "minimal",
@@ -10451,7 +10451,7 @@
     {
      "name": "gaugene",
      "slug": "gaugene",
-     "description": "Gaugene (Beijing Zhizhen Biotechnology Co., Ltd. / 知真生物), founded in 2017 and headquartered",
+     "description": "Gaugene (Beijing Zhizhen Biotechnology Co., Ltd. / 知真生物), founded in 2017 and headquartered in Beijing, China, develops and supplies flow cytometry instruments and reagents for the in-vitro diagnostics and life-sciences research market. Its analyzers use high-power lasers and high-sensitivity multi-color fluorescence detection for clinical hematology diagnosis, single-cell analysis, protein screening, and clinical-indicator discovery. Gaugene is a venture-backed diagnostics-hardware and reagents maker rather than an API provider; as of this enrichment pass it publishes no reachable public developer portal, API documentation, or machine-readable API surface (its apex domain does not resolve and www.gaugene.com returns a 502). It was added to the API Evangelist network as a portfolio-lead stub via Qiming Venture Partners.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10492,7 +10492,7 @@
     {
      "name": "i-Incubator Healthcare",
      "slug": "i-incubator-healthcare",
-     "description": "'i-Incubator Healthcare is a pharmaceutical innovation incubator established by IDG Capital",
+     "description": "i-Incubator Healthcare is a pharmaceutical innovation incubator established by IDG Capital and officially launched in Shanghai (Xuhui District) in 2024. It operates an \"incubation + empowerment\" model to develop innovative drug-research programs across oncology, immunology, and metabolic disease areas, pairing global innovation perspectives with China-based execution to advance projects to international quality standards. It is backed by a dedicated, long-horizon (15-year) incubation fund. Surfaced as a portfolio company of idg-capital; this is a research/biotech venture with no public developer or API surface.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10533,7 +10533,7 @@
     {
      "name": "immune-path",
      "slug": "immune-path",
-     "description": "'Immune-Path (Yidao Biotechnology (Suzhou) Co., Ltd. / 怡道生物) is a China-based",
+     "description": "Immune-Path (Yidao Biotechnology (Suzhou) Co., Ltd. / 怡道生物) is a China-based vaccine biotechnology company founded in 2017 and headquartered in Suzhou. The company develops human vaccines across recombinant protein antigen, novel viral vector, and messenger RNA (mRNA) platforms, backed by its own vaccine adjuvant technology. Its clinical and preclinical pipeline includes a recombinant zoster (shingles) vaccine produced in CHO cells, a nine-valent recombinant HPV vaccine expressed in Pichia pastoris, a respiratory syncytial virus (RSV) vaccine, a therapeutic gastric cancer vaccine, and a COVID-19 vaccine. Immune-Path is a portfolio company of Qiming Venture Partners. It is a life-sciences drug developer with no public developer, API, or software surface; this profile is maintained as a company record in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/immune-path/refs/heads/main/screenshots/immune-path-2026-07-25T222135.png",
      "score": 5.7,
      "band": "minimal",
@@ -10575,7 +10575,7 @@
     {
      "name": "justmedical",
      "slug": "justmedical",
-     "description": "JUST Medical Devices (Tianjin) Co., Ltd. (嘉思特医疗器材（天津）股份有限公司) is a",
+     "description": "JUST Medical Devices (Tianjin) Co., Ltd. (嘉思特医疗器材（天津）股份有限公司) is a Chinese orthopedic medical device manufacturer based in Tianjin, China, and a portfolio company of Qiming Venture Partners. The company designs and produces joint replacement implants and orthopedic prosthetics, applying 3D printing and additive manufacturing to hip, knee, and other joint reconstruction systems. Its public presence at justmedical.cn is a corporate marketing website (built on the Faisco/fkw.com site builder); the company publishes no developer program, API, SDK, or machine-readable API surface. This profile is retained as a company identity record in the API Evangelist network rather than an API provider entry.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/justmedical/refs/heads/main/screenshots/justmedical-2026-07-25T223346.png",
      "score": 5.7,
      "band": "minimal",
@@ -10617,7 +10617,7 @@
     {
      "name": "Kanghui Medical",
      "slug": "kanghui-medical",
-     "description": "'Kanghui Medical (Changzhou Kanghui Medical Innovation Co., Ltd.), founded in 1997 and headquartered",
+     "description": "Kanghui Medical (Changzhou Kanghui Medical Innovation Co., Ltd.), founded in 1997 and headquartered in Changzhou, Jiangsu Province, China, is an orthopedic medical device manufacturer focused on the R&D and production of trauma and spine implants and instruments, plus professional surgical education and services across China and emerging markets. Formerly China Kanghui Holdings (NYSE: KH), it was acquired by Medtronic in 2012 and now operates as a Medtronic company. This is a corporate/physical-device provider with a public marketing website but no public developer portal, API documentation, or API surface; the profile is maintained as an API Evangelist network company record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kanghui-medical/refs/heads/main/screenshots/kanghui-medical-2026-07-25T223449.png",
      "score": 5.7,
      "band": "minimal",
@@ -10659,7 +10659,7 @@
     {
      "name": "Kelun-Biotech",
      "slug": "kelun-biotech",
-     "description": "'Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (Kelun Botai, HKEX: 6990), a Chengdu-based",
+     "description": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (Kelun Botai, HKEX: 6990), a Chengdu-based subsidiary of Sichuan Kelun Pharmaceutical (SZSE: 002422) established in 2016, is an innovative biopharmaceutical company focused on the research, development, manufacturing, and commercialization of novel drugs. It specializes in antibody-drug conjugates (ADCs) and other conjugated therapies across both large-molecule and small-molecule modalities, targeting oncology and autoimmune diseases. The company operates several core drug-discovery platforms and maintains a pipeline of 30+ candidates with multiple approved and clinical-stage programs. It was surfaced as a portfolio company of idg-capital and added to the API Evangelist network; as a pharmaceutical manufacturer it publishes no public developer or API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelun-biotech/refs/heads/main/screenshots/kelun-biotech-2026-07-25T223609.png",
      "score": 5.7,
      "band": "minimal",
@@ -10701,7 +10701,7 @@
     {
      "name": "Minghui Pharmaceutical",
      "slug": "minghui-pharmaceutical",
-     "description": "'Minghui Pharmaceutical is a company surfaced as a portfolio company of idg-capital and added",
+     "description": "Minghui Pharmaceutical is a company surfaced as a portfolio company of idg-capital and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10742,7 +10742,7 @@
     {
      "name": "Minova Pharma",
      "slug": "minova-pharma",
-     "description": "'Nanjing Minova Pharmaceutical Technology Co., Ltd. (南京迈诺威医药科技有限公司) is a",
+     "description": "Nanjing Minova Pharmaceutical Technology Co., Ltd. (南京迈诺威医药科技有限公司) is a drug-discovery and pharmaceutical R&D company founded in February 2021 and headquartered in Nanjing, China. The company focuses on the discovery, development, and industrialization of novel drugs for mental diseases and disfiguring (cosmetic/dermatological) diseases, operating in the consumer-pharmaceutical space as both a drug R&D house and supplier. Its stated capabilities span early drug discovery, compound/drug screening, and druggability (developability) research. Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network. Minova Pharma publishes a corporate marketing website but exposes no public developer portal, API, SDK, or machine-readable interface.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10824,7 +10824,7 @@
     {
      "name": "Ping An Good Doctor",
      "slug": "ping-an-good-doctor",
-     "description": "'Ping An Good Doctor (Ping An Healthcare and Technology Company Limited, since rebranded",
+     "description": "Ping An Good Doctor (Ping An Healthcare and Technology Company Limited, since rebranded Ping An Health, HKEX: 1833) is the online-healthcare arm of China's Ping An Insurance Group and one of the country's largest one-stop online healthcare platforms. Through its consumer app it offers online medical consultations delivered by an in-house medical team and AI triage, family-doctor memberships, a health mall for pharmaceutical and wellness e-commerce, and health-management and chronic-disease services. The platform serves individual consumers as well as enterprise and financial channels across China. As surfaced to the API Evangelist network it is a consumer/enterprise app business with no public developer API program: enrichment found no developer portal, OpenAPI, SDKs, or open-platform documentation, and the historical corporate domain (pahtg.com) now resolves to a parked landing page.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10865,7 +10865,7 @@
     {
      "name": "Ping An HealthKonnect",
      "slug": "ping-an-healthkonnect",
-     "description": "'Ping An HealthKonnect (Ping An Healthcare Technology), founded in September 2016 and",
+     "description": "Ping An HealthKonnect (Ping An Healthcare Technology), founded in September 2016 and headquartered in Shanghai, is a technology-driven managed care platform in China. As an AI-powered big data platform it brings together patients with providers of health insurance and medical services, offering budget planning, precision healthcare, medical health-care accounts, medical resources management, health records, and fraud/abuse detection to optimize healthcare spending. The platform covers roughly 70% of Chinese cities and a market of some 800 million people, and has raised about USD 1.15 billion backed by SoftBank Vision Fund, IDG Capital, and others. It is a B2B and government-facing enterprise platform with no public developer API surface; this profile was surfaced as a SoftBank Vision Fund portfolio company and added to the API Evangelist network for enrichment.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10906,7 +10906,7 @@
     {
      "name": "Shanghai Desano Pharmaceutical Group",
      "slug": "desano",
-     "description": "'Shanghai Desano Pharmaceutical Group Co., Ltd. is a Chinese pharmaceutical",
+     "description": "Shanghai Desano Pharmaceutical Group Co., Ltd. is a Chinese pharmaceutical company established in 1996 and headquartered in Shanghai's Zhangjiang High-Tech Park. It develops and commercializes medications addressing global public health needs, specializing in anti-AIDS (antiretroviral) and anti-malaria drugs, steroid hormone drugs, and nucleic acid drugs, with operations spanning R&D, manufacturing, regulatory registration, and international distribution across multiple production bases in Shanghai, Jiangsu, and Jiangxi. Note: in this company's domain \"API\" means Active Pharmaceutical Ingredient (drug chemistry), not a web/developer API. Desano publishes no developer API, OpenAPI, SDK, developer portal, or other machine-readable API surface, so the API Evangelist enrichment pipeline has no technical artifacts to produce for this provider. It was surfaced as a false-positive lead from the Qiming venture portfolio.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/desano/refs/heads/main/screenshots/desano-2026-07-25T211744.png",
      "score": 5.7,
      "band": "minimal",
@@ -10948,7 +10948,7 @@
     {
      "name": "Shulan Health",
      "slug": "shulanhealth",
-     "description": "Shulan Health (树兰医疗 / Shulan Medical Management Group) is a Hangzhou-based",
+     "description": "Shulan Health (树兰医疗 / Shulan Medical Management Group) is a Hangzhou-based private healthcare group founded in 2014 by academicians Li Lanjuan and Zheng Shusen. It integrates hospital services, life-science research, medical education, and incubation investment, owning and operating comprehensive medical institutions and providing hospital-management services to partner hospitals across China. Services include rehabilitation, nutrition, health examinations, regional medical imaging, and remote consultation. Its information systems are built internally by subsidiary Huazhuo Technology on a self-developed RubikStack hybrid-cloud platform; the group publishes no public developer portal or API. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as an enrichment lead.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10989,7 +10989,7 @@
     {
      "name": "Sunshine Lake Pharma",
      "slug": "sunshine-lake-pharma",
-     "description": "'Sunshine Lake Pharma (Guangdong East Sunshine Pharmaceutical Co., Ltd.,",
+     "description": "Sunshine Lake Pharma (Guangdong East Sunshine Pharmaceutical Co., Ltd., also known as HEC Pharm) is a Chinese pharmaceutical company established in 2003 and part of the Dongyangguang (HEC) Group. It engages in drug research, development, production, and commercialization across innovative drugs, improved formulations, generics, and biosimilars, focused on infections, chronic diseases, and oncology. Notable products include oseltamivir phosphate (influenza), sofosbuvir-based hepatitis C therapy, and insulin glargine (diabetes). It is a manufacturer with no public developer or API surface. Surfaced as a portfolio company of idg-capital and added to the API Evangelist network.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11030,7 +11030,7 @@
     {
      "name": "Vincentage",
      "slug": "vincentage",
-     "description": "'Vincentage (Vincentage Pharma Co., Ltd.) is a clinical-stage biotech founded in 2021",
+     "description": "Vincentage (Vincentage Pharma Co., Ltd.) is a clinical-stage biotech founded in 2021 and headquartered in Suzhou, China, developing novel small-molecule drugs for metabolic and cardiometabolic diseases including type 2 diabetes, obesity, and MASH. Its lead candidate is VCT220 (also known as CX11), an oral small-molecule GLP-1 receptor agonist; worldwide rights (excluding Greater China) to CX11 were acquired by Corxel Pharmaceuticals. Investors include IDG Capital, Everest VC, Shenzhen Capital Group, Galaxy Industry Group, and Kunshan Asia Aroma. Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment; as a drug-discovery pharmaceutical company it publishes no public API, developer portal, or technical artifacts.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11071,7 +11071,7 @@
     {
      "name": "Wecare Probiotics",
      "slug": "wecare-bio",
-     "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic",
+     "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic strain research, intelligent manufacturing, and application solutions for the food, nutrition, and agriculture industries. It operates three research institutes and five intelligent manufacturing facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics, WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant food in mainland China. The company presents a corporate information website only; no public developer portal, API, or technical documentation is published, so this profile carries company identity rather than API artifacts.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",

@@ -11,7 +11,7 @@
     {
      "name": "Union Pacific",
      "slug": "union-pacific",
-     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states",
+     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
      "score": 44.3,
      "band": "thin",
      "band_label": "Thin",
@@ -271,7 +271,7 @@
     {
      "name": "CSX Corporation",
      "slug": "csx-corporation",
-     "description": "'A leading freight transportation company operating one of the largest rail networks in eastern North America. Moves goods across 23 states and connects to over 70 ocean, river, and lake ports with a focus on efficient and sustainable freight solutions.'",
+     "description": "A leading freight transportation company operating one of the largest rail networks in eastern North America. Moves goods across 23 states and connects to over 70 ocean, river, and lake ports with a focus on efficient and sustainable freight solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx-corporation/refs/heads/main/screenshots/csx-corporation-2026-06-20T175324.png",
      "score": 4.8,
      "band": "minimal",

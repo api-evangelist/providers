@@ -696,7 +696,7 @@
     {
      "name": "USA TODAY",
      "slug": "usa-today",
-     "description": "'A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.'",
+     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
      "score": 5.4,
      "band": "minimal",
@@ -732,7 +732,7 @@
     {
      "name": "Wiley",
      "slug": "wiley",
-     "description": "'A global publishing and education company providing research, professional development, and learning solutions. Publishes peer-reviewed journals, textbooks, and digital content across science, technology, medicine, social science, and business.'",
+     "description": "A global publishing and education company providing research, professional development, and learning solutions. Publishes peer-reviewed journals, textbooks, and digital content across science, technology, medicine, social science, and business.",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -767,7 +767,7 @@
     {
      "name": "Paramount Global",
      "slug": "paramount-global",
-     "description": "'Fortune 1000 company Paramount Global. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Paramount Global. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount-global/refs/heads/main/screenshots/paramount-global-2026-06-20T191404.png",
      "score": 4.2,
      "band": "minimal",
@@ -803,7 +803,7 @@
     {
      "name": "Gray Television",
      "slug": "gray-television",
-     "description": "'Profile for Gray Television in the API Evangelist network. Fortune F1000 (rank 962).'",
+     "description": "Profile for Gray Television in the API Evangelist network. Fortune F1000 (rank 962).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gray-television/refs/heads/main/screenshots/gray-television-2026-06-20T182346.png",
      "score": 3.5,
      "band": "minimal",
@@ -839,7 +839,7 @@
     {
      "name": "Nexstar Media Group",
      "slug": "nexstar-media-group",
-     "description": "'Fortune 1000 company Nexstar Media Group. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Nexstar Media Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexstar-media-group/refs/heads/main/screenshots/nexstar-media-group-2026-06-20T190253.png",
      "score": 3.5,
      "band": "minimal",

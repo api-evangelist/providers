@@ -57,7 +57,7 @@
     {
      "name": "Eventbrite",
      "slug": "eventbrite",
-     "description": "'A global self-service ticketing and event technology platform for live experiences. Enables creators to plan, promote, and sell tickets for events of all sizes. The Eventbrite Platform exposes a REST API plus webhooks that lets developers manage events, attendees, orders, organizations, ticket classes, and venues.'",
+     "description": "A global self-service ticketing and event technology platform for live experiences. Enables creators to plan, promote, and sell tickets for events of all sizes. The Eventbrite Platform exposes a REST API plus webhooks that lets developers manage events, attendees, orders, organizations, ticket classes, and venues.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png",
      "score": 33.9,
      "band": "thin",

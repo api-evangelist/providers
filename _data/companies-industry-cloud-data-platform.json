@@ -105,7 +105,7 @@
     {
      "name": "Snowflake",
      "slug": "snowflake",
-     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science,",
+     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
      "score": 66.1,
      "band": "strong",

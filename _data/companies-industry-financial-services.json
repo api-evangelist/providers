@@ -95,7 +95,7 @@
     {
      "name": "Charles Schwab",
      "slug": "charles-schwab",
-     "description": "Charles Schwab is a financial services company providing brokerage, banking,",
+     "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
      "score": 56.0,
      "band": "developing",
@@ -173,7 +173,7 @@
     {
      "name": "Bank of America",
      "slug": "bank-of-america",
-     "description": "Bank of America is a multinational investment bank and financial services",
+     "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
      "score": 55.4,
      "band": "developing",
@@ -545,7 +545,7 @@
     {
      "name": "Wells Fargo",
      "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
      "score": 48.3,
      "band": "developing",
@@ -871,7 +871,7 @@
     {
      "name": "Capital One",
      "slug": "capital-one",
-     "description": "Capital One is a US money-center bank and financial services company offering",
+     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
      "score": 40.1,
      "band": "thin",
@@ -1117,7 +1117,7 @@
     {
      "name": "AIG",
      "slug": "aig",
-     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk",
+     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk solutions including property casualty, cyber, professional liability, casualty, specialty insurance, and reinsurance services for individuals and businesses. AIG operates digital portals for brokers and clients including myAIG for North America brokers and IntelliRisk Advanced for claims management, but does not currently offer a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png",
      "score": 37.9,
      "band": "thin",
@@ -1243,7 +1243,7 @@
     {
      "name": "ABN AMRO",
      "slug": "abn-amro",
-     "description": "'A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.'",
+     "description": "A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/screenshots/abn-amro-2026-06-20T163250.png",
      "score": 35.6,
      "band": "thin",
@@ -1707,7 +1707,7 @@
     {
      "name": "Discover",
      "slug": "discover",
-     "description": "Discover is a financial services company that offers a range of products",
+     "description": "Discover is a financial services company that offers a range of products and services to help individuals manage their money. They provide credit cards, personal loans, home equity loans, and savings and checking accounts. Discover also operates an online banking platform that allows customers to easily access and manage their accounts from anywhere. Additionally, Discover offers cash back rewards and other perks to help customers make the most of their finances.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/screenshots/discover-2026-06-20T180039.png",
      "score": 24.4,
      "band": "emerging",
@@ -1779,7 +1779,7 @@
     {
      "name": "Allianz",
      "slug": "allianz",
-     "description": "'A German multinational financial services company and one of the world''s largest insurance and asset management firms. Operates in over 70 countries providing insurance, banking, and investment products.'",
+     "description": "A German multinational financial services company and one of the world's largest insurance and asset management firms. Operates in over 70 countries providing insurance, banking, and investment products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allianz/refs/heads/main/screenshots/allianz-2026-06-20T171535.png",
      "score": 23.2,
      "band": "emerging",
@@ -2502,7 +2502,7 @@
     {
      "name": "Fidelity Investments",
      "slug": "fidelity-investments",
-     "description": "One of the largest financial services companies in the world providing",
+     "description": "One of the largest financial services companies in the world providing investment management, retirement planning, brokerage, and wealth management services. Manages trillions of dollars in assets and serves tens of millions of individual investors and institutions. Fidelity does not run a public developer portal; partner integrations are delivered through curated marketplace relationships and through Fidelity Institutional / Wealthscape for advisors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fidelity-investments/refs/heads/main/screenshots/fidelity-investments-2026-06-20T181152.png",
      "score": 16.1,
      "band": "emerging",
@@ -2670,7 +2670,7 @@
     {
      "name": "UBS",
      "slug": "ubs",
-     "description": "'A Swiss multinational investment bank and financial services company and the world''s largest wealth manager. UBS exposes a multi-ecosystem developer platform at developer.ubs.com covering retail banking, mortgages, QR billing, EU PSD2 open banking, Swiss TWINT payments, corporate bLink connectivity, and the enterprise UBS Partner / KeyPort offering.'",
+     "description": "A Swiss multinational investment bank and financial services company and the world's largest wealth manager. UBS exposes a multi-ecosystem developer platform at developer.ubs.com covering retail banking, mortgages, QR billing, EU PSD2 open banking, Swiss TWINT payments, corporate bLink connectivity, and the enterprise UBS Partner / KeyPort offering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubs/refs/heads/main/screenshots/ubs-2026-06-20T195946.png",
      "score": 15.3,
      "band": "emerging",
@@ -2834,7 +2834,7 @@
     {
      "name": "HSBC",
      "slug": "hsbc",
-     "description": "'One of the world''s largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.'",
+     "description": "One of the world's largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc/refs/heads/main/screenshots/hsbc-2026-06-20T182858.png",
      "score": 12.8,
      "band": "minimal",
@@ -3080,7 +3080,7 @@
     {
      "name": "ING",
      "slug": "ing",
-     "description": "'A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.'",
+     "description": "A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing/refs/heads/main/screenshots/ing-2026-06-20T183349.png",
      "score": 10.8,
      "band": "minimal",
@@ -4151,7 +4151,7 @@
     {
      "name": "Standard Chartered",
      "slug": "standard-chartered",
-     "description": "'A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.'",
+     "description": "A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png",
      "score": 7.0,
      "band": "minimal",
@@ -4193,7 +4193,7 @@
     {
      "name": "Trumark Financial",
      "slug": "trumark-financial",
-     "description": "'A Philadelphia-area credit union providing a full range of personal and business banking products and financial services to members across the region.'",
+     "description": "A Philadelphia-area credit union providing a full range of personal and business banking products and financial services to members across the region.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trumark-financial/refs/heads/main/screenshots/trumark-financial-2026-06-20T195800.png",
      "score": 6.9,
      "band": "minimal",
@@ -4697,7 +4697,7 @@
     {
      "name": "Equitable Holdings",
      "slug": "equitable-holdings",
-     "description": "'Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-holdings/refs/heads/main/screenshots/equitable-holdings-2026-06-20T180821.png",
      "score": 4.2,
      "band": "minimal",
@@ -4733,7 +4733,7 @@
     {
      "name": "Goldman Sachs Group",
      "slug": "goldman-sachs-group",
-     "description": "'Fortune 1000 company Goldman Sachs Group. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Goldman Sachs Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs-group/refs/heads/main/screenshots/goldman-sachs-group-2026-06-20T181956.png",
      "score": 4.2,
      "band": "minimal",
@@ -4805,7 +4805,7 @@
     {
      "name": "Stonex Group",
      "slug": "stonex-group",
-     "description": "'Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stonex-group/refs/heads/main/screenshots/stonex-group-2026-06-20T194605.png",
      "score": 4.2,
      "band": "minimal",
@@ -4841,7 +4841,7 @@
     {
      "name": "AGNC Investment",
      "slug": "agnc-investment",
-     "description": "'Profile for AGNC Investment in the API Evangelist network. Fortune F1000 (rank 798).'",
+     "description": "Profile for AGNC Investment in the API Evangelist network. Fortune F1000 (rank 798).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agnc-investment/refs/heads/main/screenshots/agnc-investment-2026-06-20T170327.png",
      "score": 3.9,
      "band": "minimal",
@@ -4877,7 +4877,7 @@
     {
      "name": "Air Lease",
      "slug": "air-lease",
-     "description": "'Profile for Air Lease in the API Evangelist network. Fortune F1000 (rank 992).'",
+     "description": "Profile for Air Lease in the API Evangelist network. Fortune F1000 (rank 992).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/air-lease/refs/heads/main/screenshots/air-lease-2026-06-20T171412.png",
      "score": 3.5,
      "band": "minimal",
@@ -4948,7 +4948,7 @@
     {
      "name": "Jackson Financial",
      "slug": "jackson-financial",
-     "description": "'Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).'",
+     "description": "Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jackson-financial/refs/heads/main/screenshots/jackson-financial-2026-06-20T183648.png",
      "score": 3.5,
      "band": "minimal",
@@ -4984,7 +4984,7 @@
     {
      "name": "SLM",
      "slug": "slm",
-     "description": "'Profile for SLM in the API Evangelist network. Fortune F1000 (rank 898).'",
+     "description": "Profile for SLM in the API Evangelist network. Fortune F1000 (rank 898).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slm/refs/heads/main/screenshots/slm-2026-06-20T194036.png",
      "score": 3.5,
      "band": "minimal",

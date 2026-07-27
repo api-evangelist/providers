@@ -94,7 +94,7 @@
     {
      "name": "Pinch Payments",
      "slug": "pinch-payments",
-     "description": "'Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator",
+     "description": "Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator platform that automates invoice collection and receivables for service businesses, bookkeepers, and software platforms across Australia and New Zealand. Marketing itself as \"Aussie-Made Payments Infrastructure,\" Pinch lets merchants accept direct debit (bank account) and card payments (Visa, Mastercard, American Express), build payment plans and subscriptions, tokenise payment sources client-side with its CaptureJS library, and reconcile settlements back into Xero, QuickBooks, and MYOB. Its Glassbox / Managed Merchants offering is a Payfac-as-a-Service seam with KYC, compliance, and sub-merchant onboarding for platforms acting as aggregators or marketplaces. Pinch is genuinely API-first: it ships a fully documented REST API (JSON, OAuth2 client-credentials auth), a ReadMe-hosted developer portal with a live API explorer, per-product OpenAPI 3.1 definitions, a published Postman collection, an official .NET SDK, Zapier/n8n/viaSocket no-code connectors, webhooks for real-time events, and an llms.txt + docs MCP server for AI-assisted integration.",
      "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
@@ -171,7 +171,7 @@
     {
      "name": "Zai",
      "slug": "zai",
-     "description": "'Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and",
+     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
      "score": 60.2,
      "band": "strong",
      "band_label": "Strong",
@@ -222,7 +222,7 @@
     {
      "name": "Azupay",
      "slug": "azupay",
-     "description": "'Azupay is an Australian real-time payments company that moves money over the New Payments",
+     "description": "Azupay is an Australian real-time payments company that moves money over the New Payments Platform (NPP), the account-to-account rails operated by Australian Payments Plus. It is API-first: merchants and platforms embed Azupay to receive payments via PayID (AzupayId), send outbound payments to a PayID or BSB/account number (AzupayOut), and collect recurring or on-demand debits through PayTo mandates and payment agreements (AzupayTo). Azupay also offers Confirmation of Payee (CoP) account checks and PayID enquiry to reduce misdirected-payment and fraud risk, batch/file (ABA and SFTP) processing for bulk payouts and collections, reporting, balance management, sub-client and API-key management, and hosted UX apps (Pay by Bank, Disbursements, Subscriptions). Its public developer portal documents a REST API at api.azupay.com.au/v1 with a UAT environment, authenticated by API key (secret and distributable keys in the Authorization header) with OAuth 2.0 client-credentials available as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png",
      "score": 59.9,
      "band": "developing",
@@ -306,7 +306,7 @@
     {
      "name": "Fat Zebra",
      "slug": "fat-zebra",
-     "description": "Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present",
+     "description": "Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present and card-not-present payment gateway and processing platform for merchants, ISOs, and software platforms across Australia and New Zealand. Its API-first Gateway handles Visa, Mastercard, and Amex purchases, authorizations and captures, refunds and voids, card tokenization, 3D Secure, recurring payment plans, direct debits and direct credits over local bank rails, chargeback handling, batch processing, and hosted payment pages (PayNow), alongside wallet acceptance for Apple Pay, Google Pay, and Click to Pay. A separate Partner API lets platforms and ISOs create and board their own sub-merchants onto acquirer connections programmatically. The developer surface is a genuine, well-documented ReadMe hub at docs.fatzebra.com with four downloadable OpenAPI definitions, and the runtime platform is branded pmnts (gateway.pmnts.io). Authentication is HTTP Basic using a username and API token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png",
      "score": 59.0,
      "band": "developing",
@@ -348,7 +348,7 @@
     {
      "name": "Halo Connect",
      "slug": "halo-connect",
-     "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered",
+     "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered in Brisbane, Queensland, that makes primary-care data integration simple by exposing on-premise practice management system (PMS) databases through a modern cloud API. Its Halo Link agent and Halo Cloud service let approved software integrators query systems such as Best Practice, Zedmed, and Dental4Windows using either SQL passthrough or a standards-based FHIR R4 (4.0.1) API built toward the AU Base 4.1.0 implementation guide, without maintaining a separate database agent per integration. Halo Connect built the first FHIR API for the Best Practice Premier medical-practice industry. The platform runs on Microsoft Azure hosted in Australia, and access is gated behind a Halo Cloud subscription using Azure API Management subscription keys and, for desktop applications, bearer JWT tokens issued from a token endpoint; there is no self-serve public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png",
      "score": 58.3,
      "band": "developing",
@@ -390,7 +390,7 @@
     {
      "name": "Monoova",
      "slug": "monoova",
-     "description": "'Monoova is an Australian payments platform that lets businesses receive, manage, and pay",
+     "description": "Monoova is an Australian payments platform that lets businesses receive, manage, and pay funds in AUD across every domestic rail through a single set of RESTful JSON APIs. Operated by Monoova Global Payments Pty Ltd (AFSL 421414) and enrolled with AUSTRAC, it connects directly to the New Payments Platform (real-time account-to-account transfers via NPP/Osko, PayID addressing, and PayTo mandated debits) alongside BPAY, direct entry (credit/debit), card acquiring, and Apple Pay / Google Pay. Its Automatcher reconciliation engine, virtual mAccount/mWallet hierarchies, Confirmation of Payee, account verification, payment tokenisation, and webhook-driven reporting target fintechs, marketplaces, payroll, lending, remittance, and SaaS businesses (customers include Wise, Nium, Finder, and Sharesies). Monoova is genuinely API-first: it ships a public developer portal, a Redoc API reference, downloadable OpenAPI specifications, and a public Postman workspace, plus a free self-serve sandbox.",
      "score": 57.7,
      "band": "developing",
      "band_label": "Developing",
@@ -467,7 +467,7 @@
     {
      "name": "Up",
      "slug": "up-bank",
-     "description": "Up is an Australian digital-only neobank founded in 2018 as a collaboration",
+     "description": "Up is an Australian digital-only neobank founded in 2018 as a collaboration between Melbourne software company Ferocia and Bendigo and Adelaide Bank. Up is not a mutual and is not separately licensed; it operates as a brand of ASX-listed Bendigo and Adelaide Bank, which holds the Authorised Deposit-taking Institution (ADI) licence, provides the underlying deposit products, and acquired full ownership of Ferocia and Up in 2021. Marketed as Australia's first fully cloud-hosted bank, Up serves more than one million customers through a mobile-first app with no monthly account fees, high-interest savers, and rich transaction categorisation. Up has a strong public API posture for its size - it exposes both a documented personal-banking developer API (accounts, transactions, tags, webhooks) and, as required of every Australian data holder under the Consumer Data Right (CDR / Open Banking), a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png",
      "score": 56.5,
      "band": "developing",
@@ -550,7 +550,7 @@
     {
      "name": "Evari",
      "slug": "evari",
-     "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty",
+     "description": "Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-business and trades insurance brand at evari.insure, a Lloyd's coverholder with direct and partner distribution, then moved upstream into core systems with CloudStream, a cloud-native policy administration platform covering quote, bind and issue through endorsement, renewal and cancellation, broker and MGA portals, appetite and eligibility rules, commission tracking and policyholder self-service. Its current positioning is insurance AI operations for brokers, MGAs and insurers, delivered as 30-day assistant deployment sprints powered by the third-party QuivaWorks platform. Evari publishes no developer portal and no API reference, and every running API host is tenant-scoped and closed - api.cloudstream.evari.tech returns 404 unauthenticated, api.envest.evari.tech returns 502, and the customer and admin applications are login walls. One real first-party contract does exist off-portal - Evari published its Quotes microservice to npm as evari-quotes-api, and that tarball ships a generated Swagger 2.0 document of 49 paths and 56 operations plus a draft-07 JSON Schema set of 369 definitions, both harvested here. Evari is otherwise a consumer of other vendors' APIs, integrating into Socotra, Vertafore AMS360 and Sagitta, Applied Epic and Guidewire read access, and no ACORD, AL3 or IVANS reference appears anywhere on its site, in its help centre or in its data model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png",
      "score": 56.3,
      "band": "developing",
@@ -628,7 +628,7 @@
     {
      "name": "Macquarie Bank",
      "slug": "macquarie-bank",
-     "description": "Macquarie Bank Limited is an Australian authorised deposit-taking institution",
+     "description": "Macquarie Bank Limited is an Australian authorised deposit-taking institution (ADI) and the retail and business banking arm of Macquarie Group Limited, the ASX-listed (ASX:MQG) global financial services group headquartered in Sydney. It is not a mutual or customer-owned bank; it is a wholly-owned, shareholder-owned subsidiary of a publicly listed parent. Its digital bank offers transaction and savings accounts, home loans, credit and charge cards, term deposits, overdrafts and business lending. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), Macquarie Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS), alongside accredited-data-recipient data sharing and a registered developer portal that documents its DEFT payments platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png",
      "score": 55.6,
      "band": "developing",
@@ -670,7 +670,7 @@
     {
      "name": "Tyro Payments",
      "slug": "tyro",
-     "description": "'Tyro Payments is an ASX-listed Australian payments company and one of the country''s largest",
+     "description": "Tyro Payments is an ASX-listed Australian payments company and one of the country's largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.",
      "score": 55.0,
      "band": "developing",
      "band_label": "Developing",
@@ -711,7 +711,7 @@
     {
      "name": "IMB Bank",
      "slug": "imb-bank",
-     "description": "IMB Bank (IMB Ltd, ABN 92 087 651 974) is a member-owned Australian mutual",
+     "description": "IMB Bank (IMB Ltd, ABN 92 087 651 974) is a member-owned Australian mutual bank founded in 1880 as the Illawarra Mutual Building Society in Wollongong, New South Wales. It is an authorised deposit-taking institution (ADI) regulated by APRA and ASIC, offering home loans, personal and business banking, deposits, cards and insurance to members across NSW, Victoria and the ACT. As a mutual, IMB is owned by its members rather than external shareholders. Under Australia's Consumer Data Right (CDR / Open Banking), IMB operates as a data holder and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, alongside an accredited data recipient (ADR) consent flow for sharing member banking data. IMB also runs a public developer sandbox and marketplace at developer.openbanking.imb.com.au.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png",
      "score": 54.9,
      "band": "developing",
@@ -866,7 +866,7 @@
     {
      "name": "Newcastle Permanent Building Society",
      "slug": "newcastle-permanent",
-     "description": "Newcastle Permanent Building Society is a customer-owned Australian authorised",
+     "description": "Newcastle Permanent Building Society is a customer-owned Australian authorised deposit-taking institution (ADI) founded in 1903 and headquartered in Newcastle, New South Wales. As a mutual, it is owned by its members rather than shareholders, and it provides retail banking, home loans, savings, term deposits, and insurance to communities across NSW. In March 2023 it merged with Greater Bank to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned banks, while Newcastle Permanent continues to operate as a consumer brand. As a regulated ADI it is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards, alongside an NPBS Innovation Sandbox and Marketplace developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png",
      "score": 52.6,
      "band": "developing",
@@ -950,7 +950,7 @@
     {
      "name": "BankVic",
      "slug": "bankvic",
-     "description": "BankVic is an Australian customer-owned mutual bank and the trading name",
+     "description": "BankVic is an Australian customer-owned mutual bank and the trading name of Police Financial Services Limited, an authorised deposit-taking institution (ADI) founded in 1974 and headquartered in Melbourne, Victoria. Member-owned rather than shareholder-driven, it has served Victoria's police, health, and emergency-services communities and the broader Victorian public under a \"people before profits\" ethos for more than fifty years, offering everyday accounts, home and personal loans, term deposits, credit cards, and insurance. As a regulated ADI, BankVic participates in Australia's Consumer Data Right (CDR / Open Banking) regime and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside its consented, ADR-mediated consumer data-sharing surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png",
      "score": 51.9,
      "band": "developing",
@@ -992,7 +992,7 @@
     {
      "name": "Westpac Banking Corporation",
      "slug": "westpac",
-     "description": "Westpac Banking Corporation is Australia's oldest bank and company, founded",
+     "description": "Westpac Banking Corporation is Australia's oldest bank and company, founded in 1817 as the Bank of New South Wales, and is one of the country's \"Big Four\" banks. Headquartered in Sydney, it is a publicly listed company on the Australian Securities Exchange (ASX:WBC), not a customer-owned mutual, and operates a multi-brand group that includes St.George, BankSA, Bank of Melbourne, and RAMS. As an authorised deposit-taking institution (ADI) regulated by APRA, Westpac is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards. Consumer and account data sharing beyond product reference data is available only to accredited data recipients through the CDR's authenticated, consent-driven channels.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png",
      "score": 51.7,
      "band": "developing",
@@ -1118,7 +1118,7 @@
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
      "slug": "anz",
-     "description": "Australia and New Zealand Banking Group Limited (ANZ) is one of Australia's",
+     "description": "Australia and New Zealand Banking Group Limited (ANZ) is one of Australia's \"Big Four\" banks, a publicly listed company (ASX and NZX code ANZ) headquartered in Melbourne that provides retail, commercial, and institutional banking across Australia, New Zealand, and internationally. ANZ is not a mutual or customer-owned institution; it is a shareholder-owned Authorised Deposit-taking Institution (ADI) regulated by APRA. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), ANZ exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and operates a separate CDR brand endpoint for ANZ Plus. Consumer data sharing beyond product reference data is gated behind the CDR accredited-data-recipient (ADR) model using OAuth2 / OpenID Connect FAPI security profiles.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png",
      "score": 50.4,
      "band": "developing",
@@ -1160,7 +1160,7 @@
     {
      "name": "Teachers Mutual Bank",
      "slug": "teachers-mutual-bank",
-     "description": "Teachers Mutual Bank is an Australian customer-owned mutual bank and a",
+     "description": "Teachers Mutual Bank is an Australian customer-owned mutual bank and a brand of Teachers Mutual Bank Limited (TMBL), an authorised deposit-taking institution (ADI) regulated by APRA that also operates UniBank, Firefighters Mutual Bank, Health Professionals Bank and Hiver. As a member-owned bank it returns value to members rather than external shareholders and serves teachers, education staff and the wider community. Under Australia's Consumer Data Right (CDR / Open Banking), Teachers Mutual Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, letting anyone retrieve its banking product catalogue. Consumer (account and transaction) data sharing is available to accredited data recipients through the authenticated CDR channel using the OAuth2 / OpenID Connect FAPI security profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png",
      "score": 50.4,
      "band": "developing",
@@ -1285,7 +1285,7 @@
     {
      "name": "National Australia Bank",
      "slug": "national-australia-bank",
-     "description": "National Australia Bank (NAB) is one of Australia's \"Big Four\" banks and",
+     "description": "National Australia Bank (NAB) is one of Australia's \"Big Four\" banks and a major Authorised Deposit-taking Institution (ADI), headquartered in Melbourne and publicly listed on the Australian Securities Exchange (ASX:NAB) - a shareholder-owned institution rather than a customer-owned mutual. NAB serves retail, business, corporate, and institutional customers across Australia and New Zealand. As a regulated ADI, NAB is a mandated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards (CDS), alongside its accredited-only consumer data sharing surface and a public developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png",
      "score": 50.0,
      "band": "developing",
@@ -1327,7 +1327,7 @@
     {
      "name": "St.George Bank",
      "slug": "st-george-bank",
-     "description": "St.George Bank is one of Australia's largest retail and business banks",
+     "description": "St.George Bank is one of Australia's largest retail and business banks and a division of Westpac Banking Corporation (ASX:WBC), one of the country's \"Big Four\" banks. Originally a New South Wales building society that grew into an independent ADI, St.George merged into the Westpac Group in 2008 and today operates as a Westpac brand alongside BankSA, Bank of Melbourne and RAMS. As an authorised deposit-taking institution it is a designated Data Holder under Australia's Consumer Data Right (CDR / Open Banking), and therefore exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the consented, ADR-gated CDR data-sharing APIs. St.George does not operate a broad public developer portal beyond its CDR Open Banking surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png",
      "score": 50.0,
      "band": "developing",
@@ -1369,7 +1369,7 @@
     {
      "name": "BCU Bank",
      "slug": "bcu-bank",
-     "description": "BCU Bank is a customer-owned banking brand operated by Police & Nurses",
+     "description": "BCU Bank is a customer-owned banking brand operated by Police & Nurses Limited (ABN 69 087 651 876), the mutual bank formed when Bananacoast Community Credit Union merged into the P&N Group. Headquartered on the New South Wales north coast, BCU serves retail and business members with everyday accounts, savings, home and personal lending, and cards. As an Authorised Deposit-taking Institution, BCU is a Consumer Data Right (CDR) Data Holder that exposes a public, unauthenticated Product Reference Data (PRD) API under the DSB Consumer Data Standards, and supports consumer data sharing to accredited data recipients through the CDR consent and Open Banking model. BCU does not run a general-purpose developer portal; its programmatic surface is the standards-based CDR banking API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png",
      "score": 49.9,
      "band": "developing",
@@ -1411,7 +1411,7 @@
     {
      "name": "Bendigo and Adelaide Bank",
      "slug": "bendigo-and-adelaide-bank",
-     "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest",
+     "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest retail banks, formed by the 2007 merger of the community-focused Bendigo Bank and the wholesale-strong Adelaide Bank, and headquartered in Bendigo, Victoria. The group serves millions of customers through the Bendigo Bank, Adelaide Bank, Rural Bank, and Up (neobank) brands, with a distinctive Community Bank branch-franchise model. As an authorised deposit-taking institution and accredited Consumer Data Right (CDR) data holder, the bank exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the Australian Consumer Data Standards, alongside the authenticated CDR consumer data-sharing surface governed by the ACCC/DSB rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png",
      "score": 49.7,
      "band": "developing",
@@ -1453,7 +1453,7 @@
     {
      "name": "Suncorp Bank",
      "slug": "suncorp-bank",
-     "description": "Suncorp Bank is an Australian retail and business bank headquartered in",
+     "description": "Suncorp Bank is an Australian retail and business bank headquartered in Brisbane, Queensland, offering transaction and savings accounts, home and personal lending, credit cards, and business banking. Formerly the banking arm of Suncorp Group, it was acquired by Australia and New Zealand Banking Group (ANZ) on 31 July 2024 and now operates as a division of ANZ while retaining the Suncorp Bank brand under a multi-year transition. As an authorised deposit-taking institution (ADI) it is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, powered by the Frollo PRD portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png",
      "score": 49.6,
      "band": "developing",
@@ -1495,7 +1495,7 @@
     {
      "name": "Regional Australia Bank",
      "slug": "regional-australia-bank",
-     "description": "Regional Australia Bank is a customer-owned (mutual) authorised deposit-taking",
+     "description": "Regional Australia Bank is a customer-owned (mutual) authorised deposit-taking institution (ADI) headquartered in Armidale and Port Macquarie, New South Wales. Founded in 1969 as New England Staff Credit Union at the University of New England, it grew through successive credit-union mergers into Community Mutual Group and rebranded as Regional Australia Bank in 2016; it is currently completing a merger with Summerland Bank. As a mutual, its customers are its owners, and it serves more than 100,000 members across regional NSW from roughly 39 locations. As an active ADI it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside the accredited-data-recipient consumer data sharing surface secured under the CDR OAuth2/OIDC model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png",
      "score": 49.5,
      "band": "developing",
@@ -1579,7 +1579,7 @@
     {
      "name": "MOVE Bank",
      "slug": "move-bank",
-     "description": "MOVE Bank is a 100% customer-owned Australian mutual bank operated by MoveBank",
+     "description": "MOVE Bank is a 100% customer-owned Australian mutual bank operated by MoveBank Ltd (ABN 91 087 651 090, AFSL/Australian credit licence 234 536), headquartered in Brisbane, Queensland. Founded in 1968 as Railways Credit Union to serve railway workers and their families, it rebranded to MOVE Bank in 2018 to serve the broader transport and logistics community nationally, and today manages more than $750 million in assets across transaction and savings accounts, term deposits, home and personal loans, and insurance. As an authorised deposit-taking institution, MOVE Bank participates in Australia's Consumer Data Right (CDR / Open Banking) as a data holder, exposing a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body's Consumer Data Standards, alongside the accredited, consent-based consumer data sharing surface governed by the CDR security profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png",
      "score": 49.4,
      "band": "developing",
@@ -1621,7 +1621,7 @@
     {
      "name": "AMP Bank",
      "slug": "amp-bank",
-     "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited",
+     "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited (ASX:AMP), a diversified Australian financial services group operating since 1849 and headquartered in Sydney. AMP Bank is a publicly listed (shareholder-owned, not a mutual) authorised deposit-taking institution (ADI) regulated by APRA, offering home loans, deposit and savings accounts, and the digital AMP Bank GO small-business and everyday banking brand. As an active ADI, AMP participates in Australia's Consumer Data Right (CDR / Open Banking) regime and exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the DSB Consumer Data Standards, alongside the accredited, FAPI-secured consumer data sharing surface used by authorised data recipients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png",
      "score": 49.3,
      "band": "developing",
@@ -1663,7 +1663,7 @@
     {
      "name": "Bank First",
      "slug": "bank-first",
-     "description": "Bank First is an Australian customer-owned mutual bank headquartered in",
+     "description": "Bank First is an Australian customer-owned mutual bank headquartered in Hawthorn East, Victoria. Founded in 1972 as VTU Credit Union by members of the Victorian Teachers Union and rebranded from Victoria Teachers Mutual Bank in December 2017, it is owned by its 90,000-plus members rather than external shareholders and serves the education and healthcare communities with savings, loans, and insurance. As an Authorised Deposit-taking Institution, Bank First is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data API built to the Data Standards Body Consumer Data Standards, alongside an accreditation-gated consumer data sharing surface for Accredited Data Recipients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png",
      "score": 49.2,
      "band": "developing",
@@ -1746,7 +1746,7 @@
     {
      "name": "Great Southern Bank",
      "slug": "great-southern-bank",
-     "description": "Great Southern Bank is one of Australia's largest customer-owned (mutual)",
+     "description": "Great Southern Bank is one of Australia's largest customer-owned (mutual) banks, operating as a business name of Credit Union Australia Ltd (ABN 44 087 650 959, AFSL and Australian Credit Licence 238317). Formerly known as Credit Union Australia (CUA) before rebranding to Great Southern Bank in 2021, it is owned by its customers rather than shareholders and serves retail and small-business members with transaction accounts, savings, term deposits, home loans, credit cards, and insurance. As an Australian authorised deposit-taking institution (ADI) it participates in the Consumer Data Right (CDR / Open Banking) as a data holder, exposing public, unauthenticated Product Reference Data (PRD) APIs for both its retail and Business+ brands that conform to the Data Standards Body (DSB) Consumer Data Standards (CDS). Authenticated consumer data sharing is available only to accredited data recipients (ADRs) via the CDR ecosystem; the bank does not operate a self-serve public developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png",
      "score": 48.4,
      "band": "developing",
@@ -1824,7 +1824,7 @@
     {
      "name": "Open",
      "slug": "open-insurance",
-     "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading",
+     "description": "Open Insurance Pty Limited (ABN 23 166 949 444, AFSL 451712), trading as Open, is an Australian insurtech and underwriting agency that packages car, home and contents, landlord and travel cover as an embedded product other brands can sell. Open is not a carrier — it holds a binding authority from the insurer, acts as the insurer's agent to issue, vary, renew and cancel policies and to handle claims, and appoints partner brands as authorised representatives. Huddle Insurance is a business name of Open, and partner programs include Bupa and the SuperSaveClub marketplace; the business also operates in the United Kingdom and New Zealand from its Australian home market. Its API posture is real but narrow and partner-gated. Open runs a public, unauthenticated ReadMe developer hub at developers.beopen.com covering the Open.js browser SDK, the Open.Widget embed and a URL-handover redirect, plus exactly one documented server-side REST operation — POST /v1/policy/coc, Retrieve a Certificate of Currency — for which a real OpenAPI 3.0.3 definition is published. Quote is only prepared and polled through the SDK; bind, issue, policy servicing and claims all happen inside Open's hosted (optionally white-labelled) journey rather than over an API, and there is no public FNOL, webhook, GraphQL or Postman surface. API keys and secrets are issued by Open at partner account creation — there is no self-serve signup — and no ACORD, AL3 or NGDS reference appears anywhere on the site or in the documentation.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -1865,7 +1865,7 @@
     {
      "name": "Qudos Bank",
      "slug": "qudos-bank",
-     "description": "Qudos Bank is an Australian customer-owned (mutual) bank that has been",
+     "description": "Qudos Bank is an Australian customer-owned (mutual) bank that has been 100% customer-owned since 1959, serving members with everyday transaction and savings accounts, term deposits, credit cards, home and personal loans, and offset accounts. Following its 2025 merger it now operates as a division of Bank Australia Limited (ABN 21 087 651 607, trading as Qudos Bank), one of the largest customer-owned banks in the country. As an Australian authorised deposit-taking institution and a designated data holder under the Consumer Data Right (CDR / Open Banking), Qudos Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards, and supports authenticated CDR consumer data sharing with accredited data recipients under the ACCC / FAPI security profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/screenshots/qudos-bank-2026-07-21T114742.png",
      "score": 47.9,
      "band": "developing",
@@ -1907,7 +1907,7 @@
     {
      "name": "Beyond Bank Australia",
      "slug": "beyond-bank",
-     "description": "Beyond Bank Australia Limited (ABN 15 087 651 143, AFSL/Australian Credit",
+     "description": "Beyond Bank Australia Limited (ABN 15 087 651 143, AFSL/Australian Credit Licence 237856) is one of the country's largest customer-owned (mutual) banks, owned by its members rather than shareholders, and the first bank in Australia to become a certified B Corp. It serves roughly 280,000 members from around 56 branches across South Australia, Victoria, the ACT, Western Australia, and New South Wales, with more than nine billion dollars in funds under management, offering everyday accounts, savings, term deposits, loans, insurance, and financial planning. As an Authorised Deposit-taking Institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards; consumer data sharing beyond product reference data requires accredited data recipient status and the CDR OAuth2/OIDC FAPI authorization model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png",
      "score": 47.7,
      "band": "developing",
@@ -1985,7 +1985,7 @@
     {
      "name": "Australian Military Bank",
      "slug": "australian-military-bank",
-     "description": "Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian Credit",
+     "description": "Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian Credit Licence 237988, BSB 642170) is a customer-owned mutual authorised deposit-taking institution (ADI) that has served the Australian Defence Force community, veterans, and their families since 1959, making it one of Australia's longest-serving Defence financial institutions. As an active ADI it participates in Australia's Consumer Data Right (CDR) open banking regime, and its only public, unauthenticated API surface is the mandated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards. Consumer data sharing (accounts, balances, transactions) is available only to accredited data recipients through the CDR's authenticated, FAPI-profiled OAuth2/OIDC flows; the bank does not publish a broader self-serve developer portal or proprietary API program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png",
      "score": 47.5,
      "band": "developing",
@@ -2099,7 +2099,7 @@
     {
      "name": "Bank of Queensland",
      "slug": "bank-of-queensland",
-     "description": "Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest",
+     "description": "Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest banks, founded in Brisbane in 1874, and today an APRA-regulated authorised deposit-taking institution (ADI) and ASX-listed regional retail and commercial bank - a publicly listed company, not a customer-owned mutual. Its banking group includes the ME Bank, Virgin Money Australia and BOQ Specialist brands. As an accredited Consumer Data Right (CDR) data holder, BOQ exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Australian Consumer Data Standards, while consumer data sharing runs through the regulated CDR / Accredited Data Recipient (ADR) model with OAuth2 / OIDC (FAPI) authorization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png",
      "score": 46.1,
      "band": "developing",
@@ -2183,7 +2183,7 @@
     {
      "name": "Bankwest",
      "slug": "bankwest",
-     "description": "Bankwest is an Australian retail and business bank headquartered in Perth,",
+     "description": "Bankwest is an Australian retail and business bank headquartered in Perth, Western Australia. Founded in 1895 as the Agricultural Bank of Western Australia and later the Bank of Western Australia, it has operated as a wholly owned subsidiary of Commonwealth Bank of Australia (CBA) since CBA's December 2008 acquisition. In March 2024 Bankwest announced it would close its remaining branch network and become a digital-only bank, retaining the Bankwest brand for personal and business customers nationally. As an authorised deposit-taking institution brand operating under Australia's Consumer Data Right (CDR / Open Banking) regime, Bankwest exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards; consumer data sharing beyond PRD requires ACCC accreditation and customer consent under the CDR authorisation model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png",
      "score": 46.0,
      "band": "developing",
@@ -2225,7 +2225,7 @@
     {
      "name": "Unity Bank",
      "slug": "unity-bank",
-     "description": "Unity Bank Limited (ABN 72 087 650 637, AFSL & Australian Credit Licence",
+     "description": "Unity Bank Limited (ABN 72 087 650 637, AFSL & Australian Credit Licence 238311, BSB 659 000) is an Australian member-owned mutual bank that consolidated the Unity Bank and Reliance Bank brands under a single Unity Bank identity. As an authorised deposit-taking institution (ADI) it offers transaction and savings accounts, term deposits, home loans, personal loans, credit cards, business banking, and wealth services to its members across Australia. Under the Australian Consumer Data Right (CDR / open banking), Unity Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, served on a shared CDR platform (ibank.gcmutualbank.com.au) and documented on the bank's public APIs page. Broader consumer data sharing follows the CDR Accredited Data Recipient (ADR) model and is out of scope of the public PRD surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/screenshots/unity-bank-2026-07-21T114754.png",
      "score": 46.0,
      "band": "developing",
@@ -2267,7 +2267,7 @@
     {
      "name": "Bank of us",
      "slug": "bank-of-us",
-     "description": "Bank of us is Tasmania's only customer-owned bank, a mutual authorised",
+     "description": "Bank of us is Tasmania's only customer-owned bank, a mutual authorised deposit-taking institution (ADI) trading as B&E Ltd (brand \"BNE LTD\") and headquartered in Launceston, Tasmania. Formed from the former Bass & Equitable Building Society and rebranded to Bank of us in 2016, it is owned by its members rather than shareholders and offers home loans, personal and business banking, savings, and term deposits. As a regulated ADI it participates in Australia's Consumer Data Right (CDR / Open Banking) as a data holder, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, and enabling customers to share account and transaction data with accredited data recipients under ACCC oversight.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png",
      "score": 45.5,
      "band": "developing",
@@ -2309,7 +2309,7 @@
     {
      "name": "HSBC Bank Australia",
      "slug": "hsbc-australia",
-     "description": "HSBC Bank Australia Limited is the Australian banking subsidiary of the",
+     "description": "HSBC Bank Australia Limited is the Australian banking subsidiary of the global HSBC Group (HSBC Holdings plc), operating as an Authorised Deposit-taking Institution (ADI) regulated by APRA and ASIC. It is a wholly owned, shareholder-owned bank (not a customer-owned mutual) offering home loans, everyday and savings accounts, credit cards, term deposits, and business and international banking across Australia. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking), HSBC Australia exposes a public, unauthenticated Product Reference Data (PRD) API plus the full authenticated CDR Banking surface - accounts, balances, transactions, direct debits, scheduled payments, and payees - conforming to the DSB Consumer Data Standards CDR Banking API (v1.36.0). The public product endpoints are on https://public.ob.hsbc.com.au/cds-au/v1 and the consumer-authorized endpoints on the MTLS host https://mtls.ob.hsbc.com.au/cds-au/v1, accessible only to Accredited Data Recipients under the CDR ADR model. HSBC is presently a data holder only and is not accredited to receive third-party banking data. Beyond the Australian CDR surface, HSBC Group operates a global developer portal at develop.hsbc.com covering commercial/corporate banking APIs and non-Australian Open Banking markets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png",
      "score": 45.5,
      "band": "developing",
@@ -2351,7 +2351,7 @@
     {
      "name": "ING Australia",
      "slug": "ing-australia",
-     "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited",
+     "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited (ABN 24 000 893 292), a wholly owned subsidiary of the Dutch multinational ING Groep N.V. headquartered in Amsterdam. Launched in 1999 as ING Direct and rebranded to ING in 2017, it is a branchless, digital-first direct bank offering everyday transaction and savings accounts, home loans, superannuation, and insurance to Australian consumers. It is not a customer-owned mutual; it is a foreign-owned Authorised Deposit-taking Institution (ADI) regulated by APRA and ASIC. As an active ADI, ING is an accredited data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes the mandatory public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Authenticated consumer-data sharing follows the CDR ecosystem model (OAuth2 / OIDC FAPI profile via accredited data recipients); ING does not operate a broad, self-serve public developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png",
      "score": 45.5,
      "band": "developing",
@@ -2428,7 +2428,7 @@
     {
      "name": "Rabobank Australia",
      "slug": "rabobank-australia",
-     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered",
+     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
      "score": 45.0,
      "band": "developing",
@@ -2480,7 +2480,7 @@
     {
      "name": "Hume Bank",
      "slug": "hume-bank",
-     "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in",
+     "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in Albury, New South Wales. Founded in 1955 as the Hume Co-operative Building & Investment Society, it became Hume Building Society and then Hume Bank on 1 July 2014, serving roughly 65,000 customers with around A$1.70 billion in assets. As an authorised deposit-taking institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking) regime, exposing a public, unauthenticated Product Reference Data (PRD) API built to the Consumer Data Standards for its retail and business deposit and credit card products, alongside the accredited-data-recipient consent flows required of a CDR data holder.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png",
      "score": 44.9,
      "band": "thin",
@@ -2522,7 +2522,7 @@
     {
      "name": "Defence Bank",
      "slug": "defence-bank",
-     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established",
+     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established in 1975 and headquartered in Melbourne, serving current and former Australian Defence Force personnel, Department of Defence employees, and their families as well as the broader community. As an APRA-regulated Authorised Deposit-taking Institution (ADI), it exists to return value to members rather than external shareholders. Under Australia's Consumer Data Right (CDR / Open Banking), Defence Bank operates as a data holder and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards; deeper consumer-data sharing requires an accredited data recipient and the OAuth2/OIDC FAPI CDR authorization model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
      "score": 44.6,
      "band": "thin",
@@ -2606,7 +2606,7 @@
     {
      "name": "Greater Bank",
      "slug": "greater-bank",
-     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
+     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in Newcastle, New South Wales, offering everyday transaction and savings accounts, term deposits, home loans, personal loans, and credit cards to personal and business customers. In March 2023 Greater Bank merged with Newcastle Permanent to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned mutual banking organisations, while continuing to trade under the Greater Bank brand. As an Authorised Deposit-taking Institution (ADI) it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards. Consumer-data sharing beyond PRD runs on the accredited CDR data-recipient (ADR) model with OAuth2/OpenID Connect FAPI-profile security.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
      "score": 44.3,
      "band": "thin",
@@ -2648,7 +2648,7 @@
     {
      "name": "BankSA",
      "slug": "banksa",
-     "description": "BankSA is a South Australian retail and business banking brand operating",
+     "description": "BankSA is a South Australian retail and business banking brand operating as a division of Westpac Banking Corporation (ABN 33 007 457 141, AFSL and Australian credit licence 233714). It is not a mutual or independent ADI - it shares the Westpac Group core banking platform alongside sibling brands St.George and Bank of Melbourne. Under Australia's Consumer Data Right (CDR / Open Banking) regime, BankSA exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, hosted at digital-api.banksa.com.au. Consumer and account data sharing beyond product reference data runs on the accredited-data-recipient (ADR) model with OAuth2 / OpenID Connect (FAPI) authorization; BankSA does not publish an open self-service developer portal for third-party integration outside the CDR channel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png",
      "score": 44.0,
      "band": "thin",
@@ -2690,7 +2690,7 @@
     {
      "name": "P&N Bank",
      "slug": "pn-bank",
-     "description": "P&N Bank is the retail banking brand of Police & Nurses Limited (ABN",
+     "description": "P&N Bank is the retail banking brand of Police & Nurses Limited (ABN 69 087 651 876, AFSL/Australian Credit Licence 240701), a customer-owned (mutual) bank owned by its members rather than shareholders and one of Western Australia's largest locally based banks, headquartered in Perth. It grew out of the Police & Nurses Credit Society and today sits within the broader P&N Group, which also operates the bcu brand on the New South Wales / Queensland east coast, offering everyday transaction and savings accounts, term deposits, home and personal loans, credit cards, and insurance. As an Authorised Deposit-taking Institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking), exposing a public, unauthenticated Product Reference Data (PRD) API built to the Data Standards Body (DSB) Consumer Data Standards; consumer data sharing beyond product reference data requires accredited data recipient status and the CDR OAuth2/OIDC FAPI authorization model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pn-bank/refs/heads/main/screenshots/pn-bank-2026-07-21T114741.png",
      "score": 43.6,
      "band": "thin",
@@ -2773,7 +2773,7 @@
     {
      "name": "People First Bank",
      "slug": "people-first-bank",
-     "description": "People First Bank is an Australian customer-owned mutual bank, trading name",
+     "description": "People First Bank is an Australian customer-owned mutual bank, trading name of Heritage and People's Choice Ltd (ABN 11 087 651 125), formed from the 2023 merger of Heritage Bank and People's Choice Credit Union and carrying more than 150 years of combined mutual heritage. As a B Corp certified, member-owned authorised deposit-taking institution (ADI), it offers everyday transaction and savings accounts, home, personal and car loans, and insurance across digital channels and a national branch network. Under Australia's Consumer Data Right (CDR / open banking), the bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards; consumer data sharing beyond PRD runs through the accredited data recipient model secured with OAuth2/OIDC (FAPI) rather than a general-purpose public developer platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png",
      "score": 43.2,
      "band": "thin",
@@ -2857,7 +2857,7 @@
     {
      "name": "Avenue Bank",
      "slug": "avenue-bank",
-     "description": "Avenue Bank Ltd (ABN 24 628 073 085, AFSL 520239) is an Australian",
+     "description": "Avenue Bank Ltd (ABN 24 628 073 085, AFSL 520239) is an Australian Authorised Deposit-taking Institution (ADI) regulated by APRA, holding a full (unrestricted) banking licence granted in 2024 after operating as a Restricted ADI from 2021. Founded by Dale Hurley and Colin Porter (co-founders of CreditorWatch) and majority-backed by Sherman Ma's Liberty Financial Group as its largest strategic shareholder, Avenue is a digital business bank that is the first and only Australian bank specialising exclusively in bank guarantees for SMEs, alongside term deposits. As an ADI, Avenue is a designated data holder class under Australia's Consumer Data Right (CDR / Open Banking) and is therefore subject to the shared Data Standards Body (DSB) Consumer Data Standards Banking API surface (Get Products through Get Payees) that every ADI data holder implements verbatim under the /cds-au/v1 path. Avenue holds a permanent ACCC exemption (granted 6 June 2025, s56GD) covering the term-deposit aspect of its bank guarantee product, publishes no first-party developer portal, and a probe of its API host on 2026-07-21 returned HTTP 403 (WAF) rather than a CDS-conformant payload, so its live CDR data-holder surface is documented here against the standard but recorded as unverified.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png",
      "score": 42.6,
      "band": "thin",
@@ -2899,7 +2899,7 @@
     {
      "name": "Auswide Bank",
      "slug": "auswide-bank",
-     "description": "Auswide Bank Ltd is an Australian authorised deposit-taking institution",
+     "description": "Auswide Bank Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Bundaberg, Queensland, offering home loans, savings and transaction accounts, term deposits, credit cards, and personal and business banking. Formerly Wide Bay Australia and previously ASX-listed (ABA), Auswide is now a division of MyState Bank Limited, a wholly owned subsidiary of the ASX-listed MyState Limited (ASX MYS) following the 2025 merger. As an active CDR data holder under Australia's Consumer Data Right (Open Banking), Auswide exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the accredited-data-recipient consumer data sharing channels required of every Australian bank.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png",
      "score": 42.3,
      "band": "thin",
@@ -2941,7 +2941,7 @@
     {
      "name": "Australian Unity Bank",
      "slug": "australian-unity-bank",
-     "description": "Australian Unity Bank Limited is the banking arm of Australian Unity,",
+     "description": "Australian Unity Bank Limited is the banking arm of Australian Unity, a member-owned Australian mutual founded in Melbourne in 1840 with origins in the friendly-societies movement and a group spanning health insurance, wealth management, aged and home care, retirement living, and banking. The bank traces to Big Sky Credit Union, which merged with Australian Unity in 2012, became Big Sky Building Society Limited, and was later renamed Australian Unity Bank Limited; it offers everyday transaction and savings accounts, term deposits, and home loans to members as an APRA-authorised deposit-taking institution (ADI) covered by the Financial Claims Scheme. On its Consumer Data Right (CDR / Open Banking) posture, Australian Unity Bank is a genuine ADI and operates a real CDR Open Banking gateway at open-banking.australianunity.com.au (CloudFront-fronted), which as a mandated data holder exposes the full DSB Consumer Data Standards (CDS) Banking API surface under the /cds-au/v1/banking prefix - the public Product Reference Data (PRD) endpoints plus the consumer-authorized Accounts, Balances, Transactions, Direct Debits, Scheduled Payments, and Payees endpoints. A July 2026 probe from a non-AU IP returned HTTP 403 across x-v 1-4 (typical WAF / geo / accreditation gating on CDR hosts), so payloads could not be captured verbatim, but the host resolves and responds - confirming Australian Unity as a live data-holder surface. The bank publishes no separate first-party developer portal or open-banking API documentation beyond CDR (its api.australianunity.com.au host serves only a webMethods Integration Server admin page, not documented APIs); the API contract is the shared DSB Consumer Data Standards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/screenshots/australian-unity-bank-2026-07-21T114715.png",
      "score": 42.0,
      "band": "thin",
@@ -2983,7 +2983,7 @@
     {
      "name": "RACQ Bank",
      "slug": "racq-bank",
-     "description": "RACQ Bank is the retail banking division of RACQ (The Royal Automobile",
+     "description": "RACQ Bank is the retail banking division of RACQ (The Royal Automobile Club of Queensland), a member-owned mutual organisation and one of Queensland's largest clubs, long known for roadside assistance, insurance, and banking for its members. The bank is an Australian authorised deposit-taking institution (ADI) regulated by APRA, offering transaction and savings accounts, term deposits, home loans, personal loans, and credit cards. Its banking arm traces to QT Mutual Bank, which merged with RACQ in 2016. As an active data holder under Australia's Consumer Data Right (CDR / Open Banking), RACQ Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards, alongside the accredited-data-recipient consumer-data-sharing channels mandated of every Australian bank.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png",
      "score": 41.7,
      "band": "thin",
@@ -3025,7 +3025,7 @@
     {
      "name": "Gateway Bank",
      "slug": "gateway-bank",
-     "description": "Gateway Bank Ltd is a 100% customer-owned Australian mutual bank headquartered",
+     "description": "Gateway Bank Ltd is a 100% customer-owned Australian mutual bank headquartered in Sydney, New South Wales. Founded in 1955 as Gateway Credit Union and rebranded to Gateway Bank in 2018, it is an APRA-regulated Authorised Deposit-taking Institution (ADI) serving more than 30,000 members with over one billion dollars in assets across transaction and savings accounts, home, personal and car loans, reverse and commercial mortgages, term deposits and Visa debit cards. As an active ADI, Gateway Bank is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) and implements the full Data Standards Body (DSB) Consumer Data Standards Banking API surface - a public, unauthenticated Product Reference Data (PRD) API plus the consumer-authorized Accounts, Balances, Transactions, Direct Debits, Scheduled Payments and Payees endpoints accessed through the CDR Accredited Data Recipient model. Its registered CDR public base URI is https://public.cdr-api.gatewaybank.com.au. As a small customer-owned mutual, Gateway Bank does not operate a broader self-serve first-party developer portal beyond these CDR obligations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png",
      "score": 41.6,
      "band": "thin",
@@ -3151,7 +3151,7 @@
     {
      "name": "ubank",
      "slug": "ubank",
-     "description": "ubank is an Australian digital-only bank offering savings accounts and",
+     "description": "ubank is an Australian digital-only bank offering savings accounts and home loans online and over the phone. Launched in 2008 as the online banking brand of National Australia Bank (NAB), ubank operates under NAB's authorised deposit-taking institution (ADI) licence and is registered in the Consumer Data Right (CDR) ecosystem as the \"UBank\" data holder brand under NAB (ABN 12 004 044 937). After NAB acquired neobank 86 400 in 2021, its customers and technology were migrated onto the 86 400 platform, which is why ubank's public CDR API surface is hosted at public.cdr-api.86400.com.au. As a CDR data holder, ubank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, while authenticated consumer banking data is shared only with accredited data recipients under the CDR's OAuth2/OIDC (FAPI) authorization model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png",
      "score": 41.1,
      "band": "thin",
@@ -3318,7 +3318,7 @@
     {
      "name": "Police Bank",
      "slug": "police-bank",
-     "description": "Police Bank is a mutual, member-owned Australian bank (ABN 95 087 650 799,",
+     "description": "Police Bank is a mutual, member-owned Australian bank (ABN 95 087 650 799, ACN 087 650 799, AFSL / Australian Credit Licence No. 240018) founded to serve the New South Wales police community and their families and now open to the wider public. As an Authorised Deposit-taking Institution it participates in Australia's Consumer Data Right (Open Banking) regime as an active data holder - it publishes an unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, and lets members share their banking data with ACCC-accredited data recipients. Police Bank states it is in the process of gaining ACCC accreditation to also receive data as an Accredited Data Recipient.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/screenshots/police-bank-2026-07-21T114745.png",
      "score": 40.0,
      "band": "thin",
@@ -3360,7 +3360,7 @@
     {
      "name": "MyState Bank",
      "slug": "mystate-bank",
-     "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania,",
+     "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania, and the principal banking brand of ASX-listed MyState Limited (ASX:MYS). It traces its origins to a Tasmanian credit union serving teachers, police and nurses, formed its current group in the 2009 merger of Tasmanian Perpetual Trustees and MyState Financial, was authorised to use the MyState Bank name in 2014, and in February 2025 completed a merger with Queensland regional lender Auswide Bank to create one of Australia's larger regional banking groups. As an authorised deposit-taking institution (ADI) it is a regulated data holder under the Australian Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Consumer data sharing beyond PRD is protected under the CDR's accredited-data-recipient model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png",
      "score": 39.6,
      "band": "thin",
@@ -3443,7 +3443,7 @@
     {
      "name": "G&C Mutual Bank",
      "slug": "gc-mutual-bank",
-     "description": "G&C Mutual Bank is an Australian customer-owned mutual bank and authorised",
+     "description": "G&C Mutual Bank is an Australian customer-owned mutual bank and authorised deposit-taking institution (ADI) providing retail and business banking to its members, including home loans, transaction and savings accounts, and credit cards. It merged with Unity Bank effective 7 March 2025, with the combined entity renamed Unity Bank Limited from 1 July 2025; the G&C Mutual Bank brand and its digital banking host (gcmutualbank.com.au) remain operational during the multi-brand consolidation, while the public website gcmutual.bank now redirects to unity.bank. Under Australia's Consumer Data Right (CDR / Open Banking) the bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside the authenticated consumer-data (accounts and transactions) surface that is restricted to accredited data recipients under the CDR ADR model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/screenshots/gc-mutual-bank-2026-07-21T114725.png",
      "score": 38.7,
      "band": "thin",
@@ -3527,7 +3527,7 @@
     {
      "name": "Bank of Sydney",
      "slug": "bank-of-sydney",
-     "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution",
+     "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Sydney, New South Wales, offering personal and business banking, home loans, deposits, and everyday accounts. It is a wholly owned subsidiary of Lebanon-based Bank of Beirut and operates a national branch and digital footprint across Australia. As a regulated ADI, Bank of Sydney participates in Australia's Consumer Data Right (CDR) / Open Banking regime, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards. Consumer-facing account and transaction data sharing is delivered to Accredited Data Recipients (ADRs) under the CDR authorisation model, backed by OAuth2/OIDC.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png",
      "score": 38.3,
      "band": "thin",
@@ -3569,7 +3569,7 @@
     {
      "name": "Bank of Melbourne",
      "slug": "bank-of-melbourne",
-     "description": "Bank of Melbourne is a Victorian retail and business banking brand",
+     "description": "Bank of Melbourne is a Victorian retail and business banking brand operated by Westpac Banking Corporation (ASX code WBC) as part of the Westpac Group. The original Bank of Melbourne was acquired by Westpac in 1997 and the brand was relaunched in 2011; today it operates under the St.George Bank banking authority within Westpac and is NOT a customer-owned mutual - it is a division of a publicly listed, APRA-regulated authorised deposit-taking institution (ADI). As an accredited Consumer Data Right (CDR) data holder, Bank of Melbourne exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Australian Consumer Data Standards, confirmed live on shared Westpac Group infrastructure at digital-api.bankofmelbourne.com.au. Consumer data sharing runs through the regulated CDR / Accredited Data Recipient (ADR) model using OAuth2 / OpenID Connect (FAPI) authorization; the bank does not run a broader third-party developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png",
      "score": 38.2,
      "band": "thin",
@@ -3653,7 +3653,7 @@
     {
      "name": "Shippit",
      "slug": "shippit",
-     "description": "Shippit is an Australian multi-carrier shipping and fulfillment platform",
+     "description": "Shippit is an Australian multi-carrier shipping and fulfillment platform for retailers and e-commerce merchants across Australia, New Zealand, and Southeast Asia. Its REST API (v3) lets merchants request live carrier quotes, create and cancel orders, book consignments with carriers, retrieve A6 shipping labels and pick slips, and track parcels via pull requests or push webhooks. Authentication is a per-merchant API key passed as an HTTP Bearer token, with a staging sandbox and a production environment.",
      "score": 35.9,
      "band": "thin",
      "band_label": "Thin",
@@ -3770,7 +3770,7 @@
     {
      "name": "APRA",
      "slug": "apra",
-     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth",
+     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth statutory authority that prudentially supervises Australia's banks, credit unions, building societies, general insurers, life insurers, private health insurers, reinsurers and most of the superannuation industry, protecting depositors, policyholders and fund members under the Financial Sector (Collection of Data) Act 2001 and the Insurance Act 1973. Across insurance it authorises and registers general insurers, life insurers and friendly societies, and private health insurers; publishes prudential standards and practice guides; maintains public registers of authorised institutions; and runs the quarterly general, life and private health insurance performance statistics plus the National Claims and Policies Database. Its API posture is honestly none as of July 2026 — APRA operates no developer portal, publishes no OpenAPI or Swagger definition, and offers no self-serve API. Regulated entities lodge data through APRA Connect (connect.apra.gov.au), a browser-only portal gated behind the Australian Government Digital ID System (myID plus Relationship Authorisation Manager); APRA's own technical specification page lists the API Technical Specification as \"to be provided when this functionality is available,\" so machine-to-machine submission remains a roadmap item and not a shipped surface. What APRA does publish machine-readably is a standards corpus rather than an API — per-industry APRA Connect taxonomy artefacts (XSD schemas, reporting taxonomy and validation rule workbooks) for General Insurance, Private Health Insurance and Life Insurance — while statistics ship as XLSX and Power BI, and the public insurer registers are HTML tables with no bulk export. No ACORD, AL3 or NGDS reference appears anywhere on apra.gov.au; APRA's reporting data model is its own XBRL/XSD taxonomy, not the insurance industry's ACORD standards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png",
      "score": 35.0,
      "band": "thin",
@@ -3812,7 +3812,7 @@
     {
      "name": "Judo Bank",
      "slug": "judo-bank",
-     "description": "Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger bank",
+     "description": "Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger bank founded in 2016 and headquartered in Melbourne, purpose-built to serve small and medium-sized enterprises (SMEs) with relationship-led business lending alongside personal and business term deposits. It was the first new domestically-owned bank in decades to be granted a full, unrestricted authorised deposit-taking institution (ADI) licence by APRA, in April 2019, and has been publicly listed on the Australian Securities Exchange (ticker ASX JDO) since November 2021 - it is a for-profit, shareholder-owned bank, not a customer-owned mutual. As a designated ADI and data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, Judo Bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer-data sharing is governed by the accredited data recipient (ADR) model rather than an open self-serve developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/screenshots/judo-bank-2026-07-21T114730.png",
      "score": 34.9,
      "band": "thin",
@@ -3854,7 +3854,7 @@
     {
      "name": "PSC Insurance",
      "slug": "psc-insurance",
-     "description": "PSC Insurance is an Australian insurance broking and intermediary group",
+     "description": "PSC Insurance is an Australian insurance broking and intermediary group operating as PSC Insurance Brokers across every Australian state and territory, with a New Zealand arm trading as PSC Broking. It places commercial and SME risk — business packages, construction and civil contracting, public liability, cyber, professional indemnity, directors and officers, management liability, commercial property and industrial special risks, strata, motor and fleet, agribusiness and livestock, workers compensation, financial lines and trade credit, and medical and allied health cover — advising clients rather than carrying underwriting risk itself. Formerly the ASX-listed PSC Insurance Group, the business now sits inside The Ardonagh Group's Australian distribution platform; its former corporate domain pscinsurancegroup.com.au 301-redirects to envest.com.au, and the broking site's security.txt names an @envest.com.au contact. Its API posture is honestly assessed as none. There is no public developer portal, no self-serve API, no published OpenAPI or Swagger definition, no GraphQL surface, no Postman collection, no SDK, no webhook catalog, and no ACORD, AL3, IVANS or agency-download reference anywhere on its public estate. Two machine-facing surfaces are confirmed live and neither is documented by PSC — an Auth0-hosted OpenID Connect identity endpoint at login.pscinsurance.com.au fronting a client/broker login wall, and the Sanity Content Lake dataset behind the marketing site, whose GROQ query, document, export and real-time listen endpoints all answer anonymously. Both are vendor infrastructure under PSC tenancy, not developer products. This matches the Australian market seam — the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred, so no forcing function ever reached brokers, and integration here remains partner-gated and broker-platform mediated.",
      "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
@@ -4314,7 +4314,7 @@
     {
      "name": "Youi",
      "slug": "youi",
-     "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the",
+     "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the Queensland Sunshine Coast, authorised by APRA and operating under AFSL 316511 (ABN 79 123 074 733). It is a wholly owned subsidiary of Youi Holdings Pty Ltd, part of OUTsurance International Holdings, with the South African-listed OUTsurance Group as ultimate holding company. Youi writes personal and small-business property and casualty lines direct to consumers - car, NSW CTP Green Slip, SA CTP, motorcycle, caravan and trailer, watercraft, home building and contents, and small business cover including public liability - and is a member of the Insurance Council of Australia and a signatory to the General Insurance Code of Practice. Its positioning is direct-to-consumer telephone and online underwriting rather than broker distribution. On API posture the honest finding is that Youi publishes no public API surface at all. Probing on 2026-07-25 found no developer portal (the developer., developers., docs. and api. subdomains do not resolve, and /developers, /api, /developer, /partners and /integrations all return HTTP 404), no downloadable OpenAPI or Swagger, no public Postman collection, no GraphQL, and no webhook or event catalog. The only integration-adjacent hosts are the customer self-service policy portal at portal.youi.com.au (HTTP 200, robots noindex, an Angular single-page app behind a login) and its private first-party backend portalapi.youi.com.au (HTTP 404 at root, serving no swagger or openapi document). No ACORD, AL3, ACORD XML, NGDS or IVANS reference was found anywhere on the public site. Australia's Consumer Data Right, which opened banking and energy, was designated for general insurance and then deferred, so no regulatory forcing function exists, and Youi's direct-to-consumer model gives it no broker or agency-management integration seam either. Recorded as partner-gated and customer-login-gated only, with no public self-serve API.",
      "score": 24.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4640,7 +4640,7 @@
     {
      "name": "REA Group",
      "slug": "rea-group",
-     "description": "REA Group Limited is an ASX-listed (ASX:REA) digital real estate advertising",
+     "description": "REA Group Limited is an ASX-listed (ASX:REA) digital real estate advertising business headquartered in Melbourne, Australia and majority-owned by News Corp. It operates realestate.com.au and realcommercial.com.au, the property data and analytics brand PropTrack, the Mortgage Choice broking network, and REA India (Housing.com, PropTiger, and Makaan). REA Group's public developer surface is delivered through PropTrack, whose developer portal documents a suite of property data APIs - address matching, automated valuations (AVM), property and listing data, sold transactions, and suburb-level market insights - sourced from Australia's largest real estate portal. The APIs are documented publicly but are partner-gated; access requires a commercial agreement, and the data endpoints are authenticated via REA Group's OAuth identity service rather than being self-serve. Alongside PropTrack, REA Group runs the realestate.com.au Partner Portal (partner.realestate.com.au), the integration surface for real estate agencies and their CRM / software providers to publish for-sale and for-rent listings onto realestate.com.au and realcommercial.com.au and to receive buyer and renter enquiries. Listing distribution uses REAXML, REA's long-standing industry-standard XML property feed (schema published at reaxml.realestate.com.au), which the majority of Australian agency CRMs implement, with partner onboarding, API credentials (Client ID + secret) and enquiry delivery managed through the partner portal.",
      "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4962,7 +4962,7 @@
     {
      "name": "Kismet",
      "slug": "kismet",
-     "description": "'Kismet is an Australian digital-health marketplace that connects people with disability",
+     "description": "Kismet is an Australian digital-health marketplace that connects people with disability — primarily National Disability Insurance Scheme (NDIS) participants — to verified, available service providers across occupational therapy, speech therapy, physiotherapy, support coordination and plan management. The platform pairs a searchable provider marketplace and care index with a Concierge AI matching service that builds a shortlist of suitable, available providers within 48 hours, alongside budget-tracking and plan-management tools for participants. Kismet is backed by Prosus Ventures and ships consumer iOS and Android apps. This profile was added to the API Evangelist network as a portfolio-lead stub; no public developer API, documentation, or SDK surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kismet/refs/heads/main/screenshots/kismet-2026-07-25T223857.png",
      "score": 19.0,
      "band": "emerging",
@@ -5459,7 +5459,7 @@
     {
      "name": "Eucalyptus",
      "slug": "eucalyptus",
-     "description": "'Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and",
+     "description": "Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and headquartered in Sydney, Australia, that builds and operates patient-first telehealth clinics. It runs four consumer digital-health brands — Juniper (women's weight management and menopause), Pilot (men's health, hair loss, sexual health and weight), Software (clinical-grade skincare and dermatology) and Kin (reproductive, fertility and postpartum care) — across Australia, the United Kingdom, Germany, Japan and Canada, pairing licensed practitioners with technology and connected-care tooling. Eucalyptus was acquired by Hims & Hers Health in June 2026. This profile is a consumer-facing healthtech company: it publishes no public developer API, developer portal, or OpenAPI at this time, so enrichment is limited to verified corporate identity, published website properties, a responsible-disclosure program, and probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eucalyptus/refs/heads/main/screenshots/eucalyptus-2026-07-25T213704.png",
      "score": 15.0,
      "band": "emerging",
@@ -5587,7 +5587,7 @@
     {
      "name": "Carma",
      "slug": "carma",
-     "description": "'Carma is an Australian online used-car retailer that lets consumers buy, sell,",
+     "description": "Carma is an Australian online used-car retailer that lets consumers buy, sell, and trade in pre-owned vehicles entirely online. Every car is inspected and reconditioned, and the platform bundles financing through partner lenders, home delivery, trade-in valuations, a 7-day money-back guarantee, a 3-month warranty, and NRMA roadside assistance as an alternative to the traditional dealership experience. Backed by General Catalyst since 2022, Carma is headquartered in Sydney, Australia. This API Evangelist profile was surfaced as a General Catalyst portfolio company and enriched from Carma's public web surface; Carma publishes no public developer API at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carma/refs/heads/main/screenshots/carma-2026-07-25T204623.png",
      "score": 13.2,
      "band": "minimal",
@@ -5736,7 +5736,7 @@
     {
      "name": "Collabra",
      "slug": "collabra",
-     "description": "'Collabra (Collabra Pty Ltd, ABN 35 672 933 818) is an Australian enterprise",
+     "description": "Collabra (Collabra Pty Ltd, ABN 35 672 933 818) is an Australian enterprise AI automation company whose platform combines robotic process automation with large language models to run back-office operations — contract review, revenue assurance, financial operations, vendor management, data processing, and compliance monitoring. Its product suite is CollabraCore (isolated, segmented data-protection workspaces), CollabraGuard (an AI-safety layer that constrains LLM output to prevent hallucinations and errors while logging every action), and CollabraFlow (a rapid build-test-deploy environment for automation workflows). The public tagline is \"AI you can trust to run your operations\". As of this profile Collabra is a demo-led SaaS with no public developer API, SDK, or documentation surface.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5849,7 +5849,7 @@
     {
      "name": "DGIT",
      "slug": "dgit",
-     "description": "'DGIT Systems is a Melbourne, Australia telecommunications software vendor best known for",
+     "description": "DGIT Systems is a Melbourne, Australia telecommunications software vendor best known for Telflow, an order-management and service-orchestration (BSS/OSS) platform used by communications service providers to design, quote, order and fulfil connectivity products. DGIT was surfaced as a portfolio company of Sierra Ventures. As of this enrichment pass the company has no independent public web presence: its product domains dgitsystems.com and telflow.com both 308-redirect to csgi.com, indicating DGIT has been absorbed into CSG Systems International, and the domain listed by the Sierra Ventures portfolio page (dgit.us) is an Afternic/GoDaddy for-sale parking page rather than a company site. No developer portal, API documentation, OpenAPI specification, SDK or package surface could be located.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dgit/refs/heads/main/screenshots/dgit-2026-07-25T211855.png",
      "score": 7.4,
      "band": "minimal",
@@ -5885,7 +5885,7 @@
     {
      "name": "Gilmour Space",
      "slug": "gilmour-space",
-     "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on",
+     "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on the Gold Coast in Queensland, founded in 2012 by brothers Adam and James Gilmour. The company designs and manufactures hybrid-propulsion orbital launch vehicles (the Eris rocket) and satellite platforms (the G-class / ElaraSat bus), and operates the Bowen Orbital Spaceport in North Queensland from which it is pursuing Australia's first sovereign orbital launch. Gilmour Space is backed by investors including Blackbird Ventures, Main Sequence Ventures, 500 Global, Fine Structure Ventures and HESTA. It is added to the API Evangelist network as a company profile; the company operates in aerospace and space launch and does not currently publish a public developer API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gilmour-space/refs/heads/main/screenshots/gilmour-space-2026-07-25T215818.png",
      "score": 6.8,
      "band": "minimal",
@@ -5921,7 +5921,7 @@
     {
      "name": "MYSALE GROUP PLC",
      "slug": "mysale-group-plc",
-     "description": "'MySale Group PLC is a former AIM-listed online retailer that operated flash-sale and",
+     "description": "MySale Group PLC is a former AIM-listed online retailer that operated flash-sale and outlet e-commerce marketplaces across Australia, New Zealand and Southeast Asia under brands including MySale, OzSale, BuyInvite and Cocosa. The group was delisted and its corporate operations wound down; the surviving consumer brand, OzSale (ozsale.com.au), now runs as a Shopify-hosted storefront. As of this enrichment pass the company exposes no public developer program, API, SDK, or webhook surface: the corporate domain mysalegroup.com no longer resolves and the remaining brand sites are consumer retail storefronts only. This record is retained as a portfolio-lead profile surfaced from the Insight Partners portfolio; it has no API artifacts to catalog.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5965,7 +5965,7 @@
     {
      "name": "Agentbox",
      "slug": "agentbox",
-     "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered",
+     "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered proptech group Reapit - is an Australian real estate CRM and sales platform used by residential sales agencies across Australia and New Zealand, covering contacts and prospecting, listing management, appraisals, vendor management, marketing, agency websites, and a mobile agent app. Its position in the value chain is the agency system of record and, critically, the portal uploader - Agentbox is the system that pushes an agency's for-sale and for-rent listings out to realestate.com.au, domain.com.au, allhomes, commercialrealestate.com.au and dozens of other Australian portals, which in the Australian market is the REAXML feed seam rather than an MLS. Its API posture is honest but closed - a production API gateway is live at api.agentboxcrm.com.au (Tyk, HTTP 401 \"Authorization field missing\" to anonymous callers, authenticated with an X-API-Key header alongside a Client ID and Office ID), but there is no public developer portal, no published reference, and no downloadable machine-readable contract. Access is application-approval only - every third party must complete the Reapit Sales Integrator Application and be reviewed before an agency's API Key, Client ID and Office ID are issued by support. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier - RESO is a North American MLS regime with no presence in this Australian vendor's surface - and no open data is published.",
      "rank": 146
     },
     {
@@ -5977,7 +5977,7 @@
     {
      "name": "Console Group",
      "slug": "console-group",
-     "description": "Console Group is an Australian property management software company, founded",
+     "description": "Console Group is an Australian property management software company, founded in 1992 in Brisbane, Queensland, that built the first property management and trust accounting software released in Australia and launched its cloud platform, Console Cloud, in 2017. It serves thousands of residential and commercial property management agencies across Australia and New Zealand with trust accounting, tenancy and lease management, inspections (Console Go + Inspect), maintenance, arrears, owner and tenant portals, SMS, analytics and payments (Console Pay). The company was acquired by the United Kingdom's Reapit and its flagship product has been rebranded Reapit PM, though the business continues to trade from console.com.au. In the Australian value chain Console Group sits on the property MANAGEMENT side rather than the sales-listing side, as the system of record for the rent roll, the trust account and the tenancy, downstream of REA Group's realestate.com.au and Domain and separate from PEXA's conveyancing rail and from PropTrack and CoreLogic valuation data. Its API posture is honestly closed. Console Group publishes no developer portal, no API reference, no OpenAPI or Swagger document and no partner developer program on console.com.au; the full sitemap contains no /developers, /api or /docs page, and the developer., developers. and docs. subdomains do not resolve. An api.console.com.au host answers but returns 404 on every probed path. A live integration marketplace at /integrate lists roughly eighteen third-party products, so a working private integration API demonstrably exists, but access is by commercial marketplace arrangement only and nothing about it is published. Australia has no MLS, so there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Console Group's stack, and the company publishes no open data.",
      "rank": 148
     },
     {
@@ -5989,13 +5989,13 @@
     {
      "name": "Domain Group",
      "slug": "domain-group",
-     "description": "'Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of",
+     "description": "Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of Australia's two national residential property portals, alongside REA Group's realestate.com.au, and since 27 August 2025 has been a wholly owned subsidiary of CoStar Group. Headquartered in Sydney, Domain operates the domain.com.au consumer marketplace plus commercial, agent, and developer-project brands, and sits in the middle of the Australian value chain between selling and leasing agencies on one side and buyers, renters, banks, and PropTech builders on the other. Unlike most of the real estate sector, Domain runs a genuine, self-serve public developer portal at developer.domain.com.au: a developer signs up with GitHub, Google, or email, creates a project, and is immediately granted the \"Agents & Listings\" and \"Properties & Locations\" packages, with the remaining eleven packages - Address Suggestions, Campaign reporting, Listings Management, Price Estimation, Property Enrichment, Property Package, PropertyRadar, Rental AVM, Schools Data, and Webhooks - added per project and negotiated with an account manager. Domain publishes three machine-readable OpenAPI 3.0.4 documents (latest, v1, v2) directly from its Libraries page, backs them with an OpenID Connect discovery document at auth.domain.com.au, and serves everything from api.domain.com.au behind API-key or OAuth 2.0 (client credentials, authorization code, implicit) credentials. Write access is a different gate entirely: uploading or updating listings requires sandbox sign-off by email to api@domain.com.au and written permission from the principal agent of each agency, making listing management broker-authorised even though the read surface is self-serve. Domain carries no RESO Web API or RESO Data Dictionary certification, exposes no OData $metadata document and no Universal Property Identifier - RESO is a North American NAR-driven standard with no presence in the Australian portal duopoly - and it publishes no open, unlicensed dataset; all data is licensed under the Domain Group API Terms and Conditions.",
      "rank": 150
     },
     {
      "name": "Landgate",
      "slug": "landgate",
-     "description": "Landgate is the Western Australian Land Information Authority — the WA government",
+     "description": "Landgate is the Western Australian Land Information Authority — the WA government agency that maintains the state land titles register, values every rateable property in Western Australia, and curates the state's foundational location data (cadastre, tenure, property addresses, sales evidence, imagery, elevation, geographic names). In the Australian real estate value chain Landgate sits underneath the listing portals (REA Group's realestate.com.au and Domain) and underneath PEXA's electronic conveyancing rail as the authoritative source of the public land record for WA; since 2019 the automated land titling and registry operations have been operated under a commercial services arrangement while Landgate retains the Registrar of Titles function and the data custodianship. Its API posture is genuinely split and should not be overstated — a real, anonymously callable public surface exists (the SLIP Shared Location Information Platform ArcGIS REST directory plus OGC WMS/WFS services, and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.",
      "rank": 151
     },
     {
@@ -6025,13 +6025,13 @@
     {
      "name": "Pricefinder",
      "slug": "pricefinder",
-     "description": "Pricefinder is an Australian property intelligence and valuation platform operating",
+     "description": "Pricefinder is an Australian property intelligence and valuation platform operating at pricefinder.com.au, supplying property records, comparable sales and rental history, suburb statistics, AVM-powered price estimates and CMA/appraisal reports to real estate agencies, mortgage brokers, banks and lenders, valuers, property developers, advisory firms and government. Its home market is Australia and it sits on the data side of the value chain rather than the portal side — it blends Domain and Allhomes first-party listing feeds with state and territory government land valuation and sales data plus third-party mapping, then resells that as reports, a web application and an API. Pricefinder is a brand of Domain Holdings Australia, which CoStar Group completed the acquisition of in August 2025, so it now sits inside the same group as Domain, Allhomes and Commercial Real Estate. Its API posture is unusually honest for this sector — the full machine-readable contract is genuinely public. A complete Swagger 2.0 document (v1.13.1, 112 paths, 188 definitions, 19 tags) and an interactive Swagger UI are served anonymously from api.pricefinder.com.au, and OAuth 2.0 client_credentials, authorization_code and refresh_token flows are documented in full. But every data path returns 401 without credentials, and credentials are not self-serve — there is no developer signup, only industry \"Get started\" forms that route to sales for a custom, minimum-one-month commercial subscription governed by the Domain Group API Terms and Conditions. Australia has no MLS system and no RESO regime — no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier appears anywhere in Pricefinder's contract or documentation. The land-registry seam shows up instead as state-specific title reference lookups (NSW/VIC/QLD/SA/WA/TAS/NT/ACT plan, lot, section, volume and folio paths).",
      "rank": 156
     },
     {
      "name": "PropertyMe",
      "slug": "propertyme",
-     "description": "PropertyMe is an Australian cloud property management and trust accounting platform",
+     "description": "PropertyMe is an Australian cloud property management and trust accounting platform for residential real estate agencies, founded in 2013 and operated by MePay Holdings Pty Ltd (AFCA member ID 81095, AFS licence no. 528836), with roughly 1.7 million properties under management across Australia and New Zealand. In the Australian property value chain it sits on the PROPERTY MANAGEMENT rail rather than the listing or settlement rails — it does not operate a portal like REA Group's realestate.com.au or Domain, and it is not a PEXA conveyancing participant; it is the system of record for the rental portfolio, holding lots, tenancies, owners, tenants, suppliers, trust transactions, inspections, maintenance jobs and documents, plus its own MePay payments product and the Grow CRM and AiMe assistant products. Its API posture is unusually honest for this sector — the machine-readable contract is genuinely open while the credentials are not. A Swagger 2.0 document describing 75 paths, 86 operations and 296 definitions is served anonymously with no login at https://app.propertyme.com/api/openapi.json, rendered by a public Swagger UI at https://app.propertyme.com/api/swagger-ui/, and the OpenID Connect discovery document at https://login.propertyme.com is also served anonymously and advertises the full scope list. But no self-serve developer signup, app registration route or public client-credential issuance path exists anywhere on propertyme.com.au, app.propertyme.com or any developer/developers/docs/api subdomain (none of which resolve); a developer must approach PropertyMe to be issued an OAuth client_id and client_secret, and every call is additionally scoped to one customer's portfolio that the agency itself connects and can disconnect. RESO is absent — PropertyMe does not appear in the RESO certification directory, there is no OData service, no $metadata document and no Universal Property Identifier, which is the expected Australian answer because RESO is a North American NAR/MLS construct with no Australian counterpart. PropertyMe publishes no open data.",
      "rank": 157
     },
     {
@@ -6043,7 +6043,7 @@
     {
      "name": "Ray White",
      "slug": "ray-white",
-     "description": "Ray White is Australasia's largest real estate group, a family-owned",
+     "description": "Ray White is Australasia's largest real estate group, a family-owned brokerage network founded in 1902 and headquartered in Brisbane, Australia, running 550+ Australian offices and roughly a thousand offices in total across Australia, New Zealand, Indonesia, Hong Kong, China, Papua New Guinea, the Middle East and Atlanta USA, spanning residential sales, auctions, commercial (Ray White Commercial / rwc.com.au), rural and livestock, property management, projects, marine, hotels, valuations, business sales, insurance and mortgage broking through sister brand Loan Market. In the Australian property value chain Ray White sits on the AGENCY side of a portal duopoly — it lists into REA Group's realestate.com.au and Domain rather than operating a portal or a registry of its own — and it is an API CONSUMER, not an API producer. In December 2025 Ray White named realestate.com.au and PropTrack its data partners explicitly for their \"industry leading API architecture\", piping that licensed market data into its proprietary OneSystem, NurtureCloud and Pulse platforms. Its API posture is therefore honestly stated as none-published — as of 2026-07-26 no developer portal, no public API documentation, no OpenAPI or OData $metadata contract, and no published partner-API application path could be found on raywhite.com or any developer/api/docs subdomain (all of which fail DNS resolution). RESO is absent — Ray White does not appear in the RESO certification directory, which is unsurprising because RESO is a North American, NAR-driven mandate with no Australian counterpart; Australia's closest thing to a required machine-readable property rail is PEXA electronic conveyancing, which Ray White transacts through as a participant rather than exposes.",
      "rank": 159
     },
     {

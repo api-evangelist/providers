@@ -503,7 +503,7 @@
     {
      "name": "Warner Brothers",
      "slug": "warner-brothers",
-     "description": "'A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.'",
+     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
      "score": 6.7,
      "band": "minimal",
@@ -539,7 +539,7 @@
     {
      "name": "Paramount Global",
      "slug": "paramount-global",
-     "description": "'Fortune 1000 company Paramount Global. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Paramount Global. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount-global/refs/heads/main/screenshots/paramount-global-2026-06-20T191404.png",
      "score": 4.2,
      "band": "minimal",
@@ -575,7 +575,7 @@
     {
      "name": "PENN Entertainment",
      "slug": "penn-entertainment",
-     "description": "'Fortune 1000 company PENN Entertainment. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company PENN Entertainment. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/penn-entertainment/refs/heads/main/screenshots/penn-entertainment-2026-06-20T191537.png",
      "score": 3.5,
      "band": "minimal",

@@ -57,7 +57,7 @@
     {
      "name": "Bentley Systems",
      "slug": "bentley-systems",
-     "description": "'Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software",
+     "description": "Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software company providing comprehensive applications and cloud services for the design, construction, and operations of infrastructure across roads, bridges, rail, water, energy, and the built environment. Bentley exposes its developer platform through iTwin — a digital twin platform with 30+ REST APIs covering iModel data management, reality capture, project scheduling, reporting, visualization, clash detection, and webhooks. The company reports $1.3 billion in annual revenue, ~5,500 colleagues across 42 countries, and serves 42,000 accounts in 189 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png",
      "score": 69.6,
      "band": "strong",
@@ -93,7 +93,7 @@
     {
      "name": "OpenWeatherMap",
      "slug": "openweathermap",
-     "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current",
+     "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current weather, multi-horizon forecasts, historical archives, climate statistics, air pollution, solar irradiance, road risk, geocoding, and weather map tiles. Data is sourced from satellites, weather models, radars, and a worldwide network of weather stations, served through REST APIs across a freemium, multi-tier, and pay-per-call commercial model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png",
      "score": 68.7,
      "band": "strong",
@@ -129,7 +129,7 @@
     {
      "name": "Yelp",
      "slug": "yelp",
-     "description": "Yelp connects people with great local businesses. The Yelp Fusion API",
+     "description": "Yelp connects people with great local businesses. The Yelp Fusion API gives developers programmatic access to Yelp's database of millions of local businesses, ratings, reviews, photos, events, and category taxonomy, plus the Yelp Fusion AI conversational search endpoint. Core public capabilities include business search and discovery, business details, review excerpts, autocomplete, phone and address matching, and local event search. Partner-tier APIs add reviews response, leads, advertising, reservations, waitlist, checkout, and reporting. Authentication uses a Yelp API key passed as a bearer token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png",
      "score": 68.4,
      "band": "strong",
@@ -165,7 +165,7 @@
     {
      "name": "DTN",
      "slug": "dtn",
-     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market",
+     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
      "score": 68.3,
      "band": "strong",
@@ -207,7 +207,7 @@
     {
      "name": "Onfleet",
      "slug": "onfleet",
-     "description": "'Onfleet is an AI-powered last-mile delivery management platform that",
+     "description": "Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kroger, and Urbanstems across industries from prepared meals and grocery to cannabis, pharmacy, and furniture. Onfleet exposes a comprehensive REST API v2.7 for tasks, workers, route plans, route optimization, orders, recipients, destinations, organizations/teams, and webhooks — backed by official SDKs in Python, Node.js, PHP, Java, and Go, plus the 150+ courier Onfleet Connect network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png",
      "score": 66.7,
      "band": "strong",
@@ -315,7 +315,7 @@
     {
      "name": "Google Maps Platform",
      "slug": "google-maps",
-     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places",
+     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png",
      "score": 63.6,
      "band": "strong",
@@ -609,7 +609,7 @@
     {
      "name": "Agricultural Statistics Service",
      "slug": "agricultural-statistics-service",
-     "description": "The National Agricultural Statistics Service (NASS) is an agency of the United States Department of Agriculture",
+     "description": "The National Agricultural Statistics Service (NASS) is an agency of the United States Department of Agriculture (USDA) whose mission is to support the United States, its agricultural sector, and rural communities by providing accurate, objective, and meaningful statistical information and services. NASS operates the QuickStats API for programmatic access to agricultural survey and census data, as well as geospatial APIs for cropland data, vegetation conditions, and crop moisture monitoring covering the continental United States.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png",
      "score": 60.6,
      "band": "strong",
@@ -769,7 +769,7 @@
     {
      "name": "Maxar Technologies",
      "slug": "maxar-technologies",
-     "description": "'Maxar Technologies was a publicly traded Earth-imaging and space-systems",
+     "description": "Maxar Technologies was a publicly traded Earth-imaging and space-systems company formed from the 2017 merger of MacDonald, Dettwiler and Associates (MDA) with DigitalGlobe (founded 1992 in Oakland, California). In December 2022 private-equity firm Advent International agreed to take Maxar private in a USD 6.4 billion cash deal that closed in May 2023, after which Advent split the company into two operating units: Maxar Intelligence (imagery and geospatial software in Westminster, Colorado) and Maxar Space Systems (satellite manufacturing in Palo Alto, California). On 1 October 2025 both units rebranded — Maxar Intelligence became Vantor and Maxar Space Systems became Lanteris Space Systems. On 13 January 2026 Intuitive Machines completed the acquisition of Lanteris from Advent for approximately USD 800 million, leaving Vantor as the sole remaining Advent-owned successor of the Maxar brand. The public developer surface for the original Maxar APIs — imagery search, streaming (WMS/WMTS/WFS), tasking, ordering, monitoring, authentication and account services — is now delivered through the Vantor Hub (hub.vantor.com / pro.maxar.com) and the Maxar Geospatial Platform (MGP) SDKs (Python, Java, R). The Maxar Open Data Program continues to publish a public STAC catalog of pre-/post-event high-resolution imagery on AWS Open Data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png",
      "score": 59.3,
      "band": "developing",
@@ -948,7 +948,7 @@
     {
      "name": "AccuWeather",
      "slug": "accuweather",
-     "description": "AccuWeather provides the world's most sophisticated weather intelligence",
+     "description": "AccuWeather provides the world's most sophisticated weather intelligence to make lives simpler, safer, and better. Their mission is to save lives and protect property through accurate weather forecasting and data. The AccuWeather One Platform API delivers current conditions, forecasts (hourly, daily, minutecast), air quality, storm tracking, lifestyle indices, and imagery to tens of billions of API calls daily.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/screenshots/accuweather-2026-06-20T163703.png",
      "score": 57.2,
      "band": "developing",
@@ -1128,7 +1128,7 @@
     {
      "name": "Weatherbit",
      "slug": "weatherbit",
-     "description": "Weatherbit is a leading provider of weather data and forecasting services. They specialize in delivering accurate",
+     "description": "Weatherbit is a leading provider of weather data and forecasting services. They specialize in delivering accurate and up-to-date weather information to businesses and individuals around the world. Services include real-time current weather, 16-day daily and 240-hour hourly forecasts, historical weather data, severe alerts, air quality monitoring, agricultural weather, energy forecasts, and climate normals. Data is available globally via lat/lon, city name, postal code, and station ID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/screenshots/weatherbit-2026-06-20T201311.png",
      "score": 56.7,
      "band": "developing",
@@ -1278,7 +1278,7 @@
     {
      "name": "OpenRouteService",
      "slug": "openrouteservice",
-     "description": "OpenRouteService is a free, open-source geospatial API platform built",
+     "description": "OpenRouteService is a free, open-source geospatial API platform built on OpenStreetMap data, providing routing directions for multiple transport modes, isochrones for reachability analysis, time-distance matrices, geocoding, elevation data, points of interest, and vehicle route optimization for logistics and humanitarian use cases.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/screenshots/openrouteservice-2026-06-20T191029.png",
      "score": 55.5,
      "band": "developing",
@@ -1637,7 +1637,7 @@
     {
      "name": "Carto",
      "slug": "carto",
-     "description": "CARTO is a cloud-native location intelligence platform that lets developers",
+     "description": "CARTO is a cloud-native location intelligence platform that lets developers and analysts build spatial applications directly on top of modern data warehouses (BigQuery, Snowflake, Redshift, Databricks). It exposes a Maps API for vector and tileset map data, an SQL API for spatial analytics, a Workflows API for executing no-code spatial pipelines, an Import API for data ingestion, and the Data Observatory for curated third-party spatial datasets — all backed by OAuth access tokens and API access tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/screenshots/carto-2026-06-20T174026.png",
      "score": 53.5,
      "band": "developing",
@@ -2618,7 +2618,7 @@
     {
      "name": "DLR",
      "slug": "dlr",
-     "description": "The German Aerospace Center (DLR) Earth Observation Center (EOC) provides",
+     "description": "The German Aerospace Center (DLR) Earth Observation Center (EOC) provides public APIs for accessing Earth observation satellite data, remote sensing products, and scientific datasets from German aerospace research missions. Services include OGC-compliant WMS, WCS, CSW, STAC, and WMTS endpoints covering atmospheric trace gases, digital elevation models, land cover, hyperspectral imagery, water resources, and more from missions such as TanDEM-X, TerraSAR-X, EnMAP, DESIS, and Sentinel series.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/screenshots/dlr-2026-06-20T180058.png",
      "score": 49.8,
      "band": "developing",
@@ -3227,7 +3227,7 @@
     {
      "name": "NASA CMR",
      "slug": "nasa-cmr",
-     "description": "'NASA Common Metadata Repository (CMR) is a high-performance metadata",
+     "description": "NASA Common Metadata Repository (CMR) is a high-performance metadata system that catalogs Earth science data collections, granules, variables, services, and tools across NASA data centers. It provides REST, GraphQL, STAC, OpenSearch, and CSW interfaces for discovering, searching, and ingesting metadata for satellite and Earth observation datasets spanning decades of NASA missions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png",
      "score": 47.4,
      "band": "developing",
@@ -3383,7 +3383,7 @@
     {
      "name": "Redfin",
      "slug": "redfin",
-     "description": "Redfin is a technology-powered real estate brokerage that provides property",
+     "description": "Redfin is a technology-powered real estate brokerage that provides property search, home value estimates, listing details, neighborhood statistics, commute data, and downloadable housing market data across the United States. Their platform exposes a Stingray REST API used by the Redfin website and mobile apps, a GIS CSV Export endpoint for bulk property downloads, and the Redfin Data Center for time-series housing market statistics at national, metro, state, county, city, ZIP code, and neighborhood levels.",
      "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
@@ -3719,7 +3719,7 @@
     {
      "name": "LeoLabs",
      "slug": "leo-labs",
-     "description": "'LeoLabs is a commercial space situational awareness company that operates",
+     "description": "LeoLabs is a commercial space situational awareness company that operates a global network of phased-array radars and a cloud analytics platform delivering what it calls Persistent Orbital Intelligence for low Earth orbit. It independently tracks more than 23,000 objects in LEO and turns those radar observations into a commercial catalog, orbital state vectors, conjunction alerts, maneuver detection, pattern-of-life analysis and launch support for satellite operators, insurers, defense and civil space agencies. Customers reach the data either through the LeoLabs Platform web interface or, as LeoLabs describes it, \"a suite of full-featured RESTful APIs for ground system integration and automation at scale\" — the v1 Platform API over the catalog, radar measurements, state vectors, TLEs, ephemeris propagation and radar tasking. The company is backed by Insight Partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png",
      "score": 44.9,
      "band": "thin",
@@ -3755,7 +3755,7 @@
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
      "slug": "noaa-gov",
-     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and",
+     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and regulatory agency within the Department of Commerce charged with monitoring oceanic and atmospheric conditions, charting the seas, conducting deep-sea exploration, managing fishing and protection of marine mammals, and providing weather, climate, space weather, and ecosystem forecasts and warnings. NOAA's developer surface spans six line offices — the National Weather Service (NWS), the National Environmental Satellite, Data, and Information Service (NESDIS) including the National Centers for Environmental Information (NCEI), the National Ocean Service (NOS) including Tides & Currents (CO-OPS), the National Marine Fisheries Service (NMFS / NOAA Fisheries), the Office of Oceanic and Atmospheric Research (OAR), and the Office of Marine and Aviation Operations (OMAO). NOAA exposes free, open APIs at api.weather.gov, services.swpc.noaa.gov, api.tidesandcurrents.noaa.gov, ncei.noaa.gov/access, ERDDAP servers across line offices, the National Data Buoy Center (NDBC), and bulk forecast model output (GFS, GEFS, HRRR, GOES) through the NOAA Open Data Dissemination (NODD) program on AWS, GCP, and Azure.",
      "score": 44.9,
      "band": "thin",
      "band_label": "Thin",
@@ -3979,7 +3979,7 @@
     {
      "name": "Capella Space",
      "slug": "capella-space",
-     "description": "Capella Space operates a constellation of synthetic aperture radar (SAR) satellites and provides",
+     "description": "Capella Space operates a constellation of synthetic aperture radar (SAR) satellites and provides on-demand, high-resolution Earth-observation imagery through a self-service Console and public API. Customers can task the constellation with 15-minute scheduling cycles, search a STAC-based catalog of archive collects, place orders, and download imagery products for defense, intelligence, maritime, energy, insurance, and analytics use cases.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/screenshots/capella-space-2026-06-20T173938.png",
      "score": 43.4,
      "band": "thin",
@@ -4123,7 +4123,7 @@
     {
      "name": "Propeller Aero",
      "slug": "propeller-aero",
-     "description": "Propeller Aero is a drone survey and earthworks analytics platform for",
+     "description": "Propeller Aero is a drone survey and earthworks analytics platform for construction, mining, aggregates, and waste sites. Teams fly a drone, process imagery with Propeller's AeroPoints ground control and photogrammetry pipeline, and get accurate 3D site surveys, terrain models, volumes, and progress tracking in the Propeller Platform. The Propeller Public API is a paid, premium feature (available on higher tiers such as Scale) that gives programmatic, read-oriented access to organizations, sites, workspaces, surveys, downloadable survey files (orthophotos, terrain, point clouds), user-defined shapes and their calculated widgets (volumes, distances, areas), and DirtMate position-monitoring data. It is a REST API over HTTPS authenticated with a Bearer access token or via OpenID Connect.",
      "score": 43.3,
      "band": "thin",
      "band_label": "Thin",
@@ -4314,7 +4314,7 @@
     {
      "name": "Airbus",
      "slug": "airbus",
-     "description": "'A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.'",
+     "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
      "score": 41.6,
      "band": "thin",
@@ -4350,7 +4350,7 @@
     {
      "name": "ParkWhiz",
      "slug": "parkwhiz",
-     "description": "ParkWhiz is a parking reservation and mobility platform (with the",
+     "description": "ParkWhiz is a parking reservation and mobility platform (with the BestParking discovery brand) that lets drivers search, price, reserve, and pay for parking at facilities, venues, and events across North America. Its consumer apps and website are backed by a documented v4 REST API (api.parkwhiz.com / api.arrive.com) covering location and quote search, bookings, parking passes, venues and events, monthly parking, vehicles, payment methods, and accounts. ParkWhiz was rebranded to Arrive / Arrive Mobility and merged into FlashParking (Flash) in January 2021; separately, EasyPark Group acquired the rights to the \"Arrive\" name from Flash and rebranded itself to Arrive in 2025. The v4 API is publicly documented but partner-gated - OAuth client credentials are issued to approved partners on request (dev@parkwhiz.com), not self-serve.",
      "score": 41.5,
      "band": "thin",
      "band_label": "Thin",
@@ -4457,7 +4457,7 @@
     {
      "name": "Geocodio",
      "slug": "geocodio",
-     "description": "Geocodio is a US and Canada geocoding API that converts addresses to",
+     "description": "Geocodio is a US and Canada geocoding API that converts addresses to coordinates (forward), coordinates to addresses (reverse), processes batches and spreadsheet lists, and enriches results with appended data such as congressional and state legislative districts, census geographies, ACS demographics, school districts, and timezones. Authentication is via an api_key query parameter and the first 2,500 lookups per day are free.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png",
      "score": 40.4,
      "band": "thin",
@@ -4671,7 +4671,7 @@
     {
      "name": "Sinay",
      "slug": "sinay",
-     "description": "Sinay is a maritime data and analytics company whose Developers Platform",
+     "description": "Sinay is a maritime data and analytics company whose Developers Platform exposes a marketplace of REST APIs for the shipping and ocean-tech industry - vessel and port lookup from combined satellite and terrestrial AIS, metocean (weather and ocean) conditions, per-voyage CO2 emissions modeled on the GLEC Framework, ETA prediction, live port congestion, sailing schedules, and underwater noise. Every API is called over HTTPS at api.sinay.ai, authenticated with a single API_KEY header, and metered as monthly API units / credits with a free developer key to start.",
      "score": 40.0,
      "band": "thin",
      "band_label": "Thin",
@@ -4742,7 +4742,7 @@
     {
      "name": "Jawg Maps",
      "slug": "jawg-maps",
-     "description": "Jawg is a French location platform delivering customizable vector and",
+     "description": "Jawg is a French location platform delivering customizable vector and raster map tiles, hosted map styles, geocoding and places search, routing, isochrones, distance matrices, and static maps. All surfaces are authenticated with a Jawg access token passed as an access-token query parameter (or header) and are served from tile.jawg.io and api.jawg.io.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/screenshots/jawg-maps-2026-07-25T223104.png",
      "score": 39.2,
      "band": "thin",
@@ -4813,7 +4813,7 @@
     {
      "name": "Sensibo",
      "slug": "sensibo",
-     "description": "Sensibo builds smart air conditioning controllers and indoor air quality",
+     "description": "Sensibo builds smart air conditioning controllers and indoor air quality monitors (Sensibo Sky, Air, Air Pro, and Elements) that add app, voice, and API control to existing mini-split, window, and portable AC and heat-pump units. The Sensibo REST API (base https://home.sensibo.com/api/v2) gives developers full control over enrolled devices (\"pods\") - reading temperature, humidity, and air quality measurements, getting and setting the AC state (power, mode, target temperature, fan, swing), configuring the Climate React smart automation, and managing schedules and timers. Authentication is a per-account API key passed as an apiKey query parameter, generated from home.sensibo.com/me/api. OAuth2 is available for commercial integrations.",
      "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
@@ -5124,7 +5124,7 @@
     {
      "name": "Badger Maps",
      "slug": "badger-maps",
-     "description": "Badger Maps is field sales route planning, mapping, and CRM software for",
+     "description": "Badger Maps is field sales route planning, mapping, and CRM software for outside sales and field teams - it optimizes daily driving routes, maps and filters accounts on a territory, captures check-ins, and reports on rep activity. Badger Maps also exposes a token-authenticated REST API (base https://badgerapis.badgermapping.com/api/2) that lets teams programmatically manage accounts (customers), account locations, routes, check-ins, and users, and sync data with CRMs and other systems. API/Developer Key access is included with paid plans (max 25k requests per day, per team); the key must be enabled by contacting Badger Maps support.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png",
      "score": 38.4,
      "band": "thin",
@@ -5160,7 +5160,7 @@
     {
      "name": "MyShipTracking",
      "slug": "myshiptracking",
-     "description": "MyShipTracking is a real-time terrestrial AIS vessel-tracking platform.",
+     "description": "MyShipTracking is a real-time terrestrial AIS vessel-tracking platform. Its REST API delivers live vessel positions, voyage and static particulars, vessels within a geographic zone or near a reference ship, historical tracks, port details, port calls, estimated arrivals, and fleet management - all returned in a standardized JSON or XML envelope. Access is credit-metered under monthly subscription plans or a pay-per-use coin model, authenticated with an API key over Bearer or x-api-key.",
      "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
@@ -5195,7 +5195,7 @@
     {
      "name": "Placekey",
      "slug": "placekey",
-     "description": "Placekey is a free, universal identifier for any physical place, designed",
+     "description": "Placekey is a free, universal identifier for any physical place, designed to make it easy to join and match address and point-of-interest data across disparate datasets. The Placekey API resolves an address or latitude/longitude into a single Placekey, supporting both single and bulk (up to 100 per batch) lookups for address matching, deduplication, and data enrichment.",
      "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
@@ -5230,7 +5230,7 @@
     {
      "name": "UP42",
      "slug": "up42",
-     "description": "UP42 is a geospatial marketplace and developer platform for Earth",
+     "description": "UP42 is a geospatial marketplace and developer platform for Earth observation (EO) data and analytics, operated by Airbus Defence and Space. It lets you search a global archive of satellite and aerial imagery (Catalog), task new satellite acquisitions on demand (Tasking), place and track Orders, store and download results as cloud-native Assets, and browse everything through a STAC-compliant data management API. Delivery, ordering, and storage are exposed over a documented REST API at https://api.up42.com, authenticated with OAuth2 access tokens (obtained from an API key or account credentials), and are also wrapped by an official Python SDK. Storage is powered by STAC and the cloud-native asset model, and job/order status changes can be pushed to consumer endpoints via webhooks.",
      "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
@@ -5265,7 +5265,7 @@
     {
      "name": "Searoutes",
      "slug": "searoutes",
-     "description": "Searoutes is a maritime routing and carbon-emissions API platform for",
+     "description": "Searoutes is a maritime routing and carbon-emissions API platform for logistics, freight forwarding, and supply-chain teams. Its REST APIs compute point-to-point, port-to-point, and port-to-port sea routes with distances and durations (including SECA, HRA, and ice-area avoidance), geocode ports, airports, and places, calculate multimodal CO2e emissions (sea, road, rail, air, inland waterway) using a GLEC-accredited methodology, track vessels via AIS (positions, ETAs, traces, arrivals), look up carriers and services, and return historical, real-time, and forecasted weather along routes. All APIs are served from https://api.searoutes.com and authenticated with an x-api-key header.",
      "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
@@ -5300,7 +5300,7 @@
     {
      "name": "Geocode Earth",
      "slug": "geocode-earth",
-     "description": "Geocode Earth is a hosted geocoding and address autocomplete API built",
+     "description": "Geocode Earth is a hosted geocoding and address autocomplete API built by the team that maintains Pelias, the open-source geocoder. It provides forward (search), autocomplete, reverse, and structured geocoding plus place lookup over fully open data (OpenStreetMap, OpenAddresses, Who's on First, and Geonames), with results that can be stored without restrictive licensing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/screenshots/geocode-earth-2026-07-25T215637.png",
      "score": 37.3,
      "band": "thin",
@@ -5342,7 +5342,7 @@
     {
      "name": "Windy",
      "slug": "windy",
-     "description": "Windy.com is a weather visualization platform serving high-resolution",
+     "description": "Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API based on Leaflet, and a Webcams API for the world's largest webcam repository.",
      "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
@@ -5413,7 +5413,7 @@
     {
      "name": "European Space Agency (ESA)",
      "slug": "esa",
-     "description": "The European Space Agency (ESA) provides public REST and standards-based",
+     "description": "The European Space Agency (ESA) provides public REST and standards-based APIs spanning Copernicus Earth observation (OData, STAC, Sentinel Hub, openEO, OGC, S3, On-Demand Processing), space weather monitoring (HAPI), astronomical mission archives (Gaia TAP, ESASky Legacy TAP), scientific data labs (Datalabs GraphQL), and climate change initiative datasets (ESGF, THREDDS, OpenSearch). Data includes Sentinel satellite imagery, solar and heliospheric time-series, gamma-ray and stellar catalogues, and multi-mission Earth observation products from European space programs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/screenshots/esa-2026-06-20T180819.png",
      "score": 37.0,
      "band": "thin",
@@ -5484,7 +5484,7 @@
     {
      "name": "SkyWatch",
      "slug": "skywatch",
-     "description": "SkyWatch Space Applications is an Earth observation company whose EarthCache",
+     "description": "SkyWatch Space Applications is an Earth observation company whose EarthCache platform gives developers a single API to discover, price, order, and deliver commercial satellite imagery and geospatial data from many providers - Pleiades, SPOT, PlanetScope, SkySat, Sentinel-1, Sentinel-2, TripleSat, Kompsat, and more. The EarthCache API (base https://api.skywatch.co/earthcache, x-api-key auth) exposes Archive Search over historical imagery, Pipelines that monitor an area of interest and deliver imagery on a schedule, interval results with analytics and metadata download URLs, cost estimation, reusable output configurations (format, bands, mosaicking), saved locations, and callback-based subscriptions for platform events. Imagery is billed per square kilometre with resolution-based minimums.",
      "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
@@ -5703,7 +5703,7 @@
     {
      "name": "Radar",
      "slug": "radar-io",
-     "description": "Radar is a geofencing and maps platform that gives developers a unified",
+     "description": "Radar is a geofencing and maps platform that gives developers a unified location infrastructure - forward and reverse geocoding, IP geocoding, address and place autocomplete, place and geofence search, routing (distance, matrix, directions, and route matching), geofence management, device tracking, events, trips, address verification, and map tiles - all under a single api.radar.io/v1 REST interface.",
      "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
@@ -5738,7 +5738,7 @@
     {
      "name": "Ambee",
      "slug": "ambee",
-     "description": "Ambee is an environmental-intelligence company that aggregates satellite,",
+     "description": "Ambee is an environmental-intelligence company that aggregates satellite, sensor, and ground-station data into a unified REST API. The Ambee API delivers hyperlocal air quality, pollen, weather, wildfire, soil, and NDVI/vegetation data worldwide via simple lat/lng, postal-code, and place lookups secured with an x-api-key header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/screenshots/ambee-2026-07-25T200014.png",
      "score": 35.8,
      "band": "thin",
@@ -5846,7 +5846,7 @@
     {
      "name": "AISHub",
      "slug": "aishub",
-     "description": "AISHub is a cooperative AIS (Automatic Identification System) data",
+     "description": "AISHub is a cooperative AIS (Automatic Identification System) data sharing network for vessel tracking. Members who contribute a raw NMEA AIS feed from their own receiver (via UDP) get free access in return - a real-time aggregated feed from 1,500+ stations across 80 countries, plus an HTTP web service that returns vessel positions and station metadata as XML, JSON, or CSV. There is no pay-for-access tier; API credentials are earned by sharing a feed that meets coverage and uptime quality thresholds.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/screenshots/aishub-2026-07-25T195448.png",
      "score": 35.7,
      "band": "thin",
@@ -5882,7 +5882,7 @@
     {
      "name": "Planet Labs",
      "slug": "planet-labs",
-     "description": "'Planet Labs operates the world''s largest commercial Earth observation",
+     "description": "Planet Labs operates the world's largest commercial Earth observation constellation, imaging the entire landmass of the planet daily with its PlanetScope satellites and capturing high-resolution targeted imagery with SkySat and Pelican. The Planet Insights Platform is API-first: developers search the archive through the Data and Catalog APIs, order processed bundles through the Orders API, set up standing area-of-interest deliveries through the Subscriptions API, request tip-and-cue collections through the Tasking API, and consume mosaics through the Basemaps and Tiles APIs. Analytics, Processing, Statistical, and Batch APIs run server-side workflows over the catalog and over Planetary Variables. All APIs sit under api.planet.com, authenticate with an API key over HTTP Basic, and are wrapped by the official Planet Python SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png",
      "score": 35.7,
      "band": "thin",
@@ -5953,7 +5953,7 @@
     {
      "name": "AISStream",
      "slug": "aisstream",
-     "description": "AISStream.io is a free service that streams global real-time AIS",
+     "description": "AISStream.io is a free service that streams global real-time AIS (Automatic Identification System) vessel-tracking data over a WebSocket. Clients register for a free API key, open a secure WebSocket to \"wss://stream.aisstream.io/v0/stream\", and send a JSON subscription message declaring one or more geographic bounding boxes plus optional MMSI and message-type filters. The server then pushes a continuous stream of AIS messages - PositionReport, ShipStaticData, and the full set of ITU-R M.1371 message types - each wrapped in an envelope carrying MessageType, MetaData, and the decoded Message. There is no REST API; the service is WebSocket-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aisstream/refs/heads/main/screenshots/aisstream-2026-07-25T195450.png",
      "score": 35.1,
      "band": "thin",
@@ -6210,7 +6210,7 @@
     {
      "name": "Climate Engine",
      "slug": "climate-engine",
-     "description": "Climate Engine is a geospatial climate and remote-sensing data platform",
+     "description": "Climate Engine is a geospatial climate and remote-sensing data platform that runs on Google Earth Engine. Its commercial REST API (api.climateengine.org) provides on-demand processing of satellite and gridded climate datasets - Landsat, Sentinel, MODIS, GRIDMET, ERA5, CHIRPS and more - returning timeseries, map tiles, zonal statistics, and pre-built reports over points, polygons, and feature collections.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/screenshots/climate-engine-2026-06-20T174522.png",
      "score": 33.3,
      "band": "thin",
@@ -6282,7 +6282,7 @@
     {
      "name": "Urban Sky",
      "slug": "urban-sky",
-     "description": "Urban Sky is a Denver-based aerospace company, founded in 2016, that designs",
+     "description": "Urban Sky is a Denver-based aerospace company, founded in 2016, that designs and operates reusable stratospheric microballoons for high-altitude remote sensing, persistent aerial surveillance, communications relay, and atmospheric data collection. Its balloons launch in under five minutes, float at 61,000-75,000 feet for multi-day missions, and carry the modular Wallabee payload platform with RGB, VNIR, and LWIR thermal sensors delivering 10cm-resolution imagery with real-time downlink. Through its Atmosys software platform, Urban Sky publishes an SDK for developers (JavaScript and Python, delivered via CDN loader) that streams real-time balloon telemetry over WebSocket and provides mission imagery access, serving defense and intelligence, commercial monitoring, and science and weather markets. Urban Sky is a Techstars portfolio company.",
      "score": 33.3,
      "band": "thin",
      "band_label": "Thin",
@@ -6533,7 +6533,7 @@
     {
      "name": "MixerBox",
      "slug": "mixerbox",
-     "description": "MixerBox (\"Super-Apps to Live Easier\") is a Y Combinator and Initialized Capital-backed consumer",
+     "description": "MixerBox (\"Super-Apps to Live Easier\") is a Y Combinator and Initialized Capital-backed consumer software company that ships a broad family of AI assistant tools as ChatGPT plugins / GPT Actions. Its catalog spans music and podcasts (OnePlayer, Podcasts), weather, a Google Calendar assistant, translation and language learning, text-to-image generation, photo enhancement, PDF and academic-paper question answering (ChatPDF, Scholar), QR generation, diagram rendering, and prompt optimization. Each product publishes an OpenAI plugin manifest (/.well-known/ai-plugin.json) and an OpenAPI 3.1 specification; authentication is service-level or open.",
      "score": 31.6,
      "band": "thin",
      "band_label": "Thin",
@@ -6868,7 +6868,7 @@
     {
      "name": "Farmers Edge",
      "slug": "farmers-edge",
-     "description": "'Farmers Edge is a precision-agriculture and digital-farming company whose FarmCommand",
+     "description": "Farmers Edge is a precision-agriculture and digital-farming company whose FarmCommand platform combines satellite imagery, connected weather stations, in-field telematics (the CanPlug IoT device), agronomic modeling, carbon-program tooling, and soil/lab products such as LabCommand and Hefty/FESoils. The public FarmCommand API is a Django REST (drf-yasg) service on admin.farmcommand.com that handles self-serve client onboarding and verification, token-based login for FarmCommand, LabCommand, GridCalc, RecEngine and Hefty users, password resets, CanPlug device lookup, and inbound integration webhooks (Stripe billing, DocuSign envelopes, LEAF field alerts). Authentication is a FarmCommand API token passed as a query parameter.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png",
      "score": 29.4,
      "band": "emerging",
@@ -7095,7 +7095,7 @@
     {
      "name": "FarmLogs",
      "slug": "farmlogs",
-     "description": "FarmLogs was a farm management platform founded in 2011 (by Jesse Vollmar",
+     "description": "FarmLogs was a farm management platform founded in 2011 (by Jesse Vollmar and Brad Koch, operating as AgriSight Inc.) offering field mapping, in-season satellite imagery, weather/rainfall tracking, yield estimation, and profitability tools for row-crop farmers. FarmLogs was acquired by Bushel in June 2021, and in March 2023 Bushel retired the FarmLogs brand in favor of \"Bushel Farm,\" the next generation of its farm management software. As of this review, farmlogs.com 301-redirects to bushelfarm.com, which itself redirects to bushelpowered.com - the standalone FarmLogs product and website no longer exist. Bushel does publish a public API, but it is for a separate product line (Bushel Fulfillment and Bushel Production, covering grain contracts and scale-ticket data for grain merchandising) rather than for the FarmLogs-lineage farm-management capabilities (fields, imagery, weather, yield). No self-serve, openly documented public API exists for the farm-management product as of the review date.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/screenshots/farmlogs-2026-07-25T214231.png",
      "score": 26.9,
      "band": "emerging",
@@ -7495,7 +7495,7 @@
     {
      "name": "Cropio",
      "slug": "cropio",
-     "description": "Cropio was an independent Eastern European farm management and precision",
+     "description": "Cropio was an independent Eastern European farm management and precision agriculture platform (fields, satellite/NDVI imagery, weather, scouting, machinery telematics, and yield) founded in 2013. Syngenta acquired Cropio in September 2019 and folded it into its Cropwise digital agriculture portfolio; the product now operates as Cropwise Operations, and cropio.com redirects to operations.cropwise.com. The original Cropio API v3 was not shut down - it continues to run as the documented Cropwise Operations Platform API v3, reachable at operations.cropwise.com/api/v3 (the legacy cropio.com/api/v3 host has redirected there since April 1, 2022). It is a per-account HTTP JSON REST API (not a self-serve developer marketplace) - a Cropwise Operations login is required to obtain a USER_API_TOKEN, and there is no published self-signup API key flow or API-specific price list. Syngenta separately launched a broader \"Cropwise Open Platform\" for partners in 2025, which is a distinct, newer developer program outside the scope of this entry.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cropio/refs/heads/main/screenshots/cropio-2026-07-25T210746.png",
      "score": 24.4,
      "band": "emerging",
@@ -7638,7 +7638,7 @@
     {
      "name": "Local Logic",
      "slug": "local-logic",
-     "description": "Local Logic is a location intelligence platform for real estate, founded",
+     "description": "Local Logic is a location intelligence platform for real estate, founded in 2015, that turns 100B+ data points across 250 million addresses in the US and Canada into 18 proprietary location scores, points of interest, demographics, school ratings, market statistics, value drivers, and climate-risk signals. Its REST API at api.locallogic.co exposes Location Scores, Profiles, Geographies, Points of Interest, Demographics, Schools, Value Drivers, Similar Neighborhoods, Location Snapshot, Market Statistics, and Climate Risk endpoints to real estate brokerages, portals, lenders, and proptech platforms, authenticated with a client ID and secret.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/screenshots/local-logic-2026-07-25T225422.png",
      "score": 24.1,
      "band": "emerging",
@@ -7835,7 +7835,7 @@
     {
      "name": "BreezoMeter",
      "slug": "breezometer",
-     "description": "Environmental intelligence REST API providing real-time and forecast",
+     "description": "Environmental intelligence REST API providing real-time and forecast air quality, pollen counts, wildfire data, and weather information with street-level accuracy. BreezoMeter was acquired by Google in September 2022 and its technology is now integrated into Google Maps Platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/breezometer/refs/heads/main/screenshots/breezometer-2026-06-20T173650.png",
      "score": 22.9,
      "band": "emerging",
@@ -7913,7 +7913,7 @@
     {
      "name": "Wyvern",
      "slug": "wyvern",
-     "description": "Wyvern is a Canadian space technology company operating the world's first commercial",
+     "description": "Wyvern is a Canadian space technology company operating the world's first commercial hyperspectral satellite constellation. Its Dragonette satellites deliver 31-band VNIR imagery at 5.3 metre ground sampling distance for agriculture, forestry, energy, mining, and defence use cases. Wyvern publishes an Open Data Program of free hyperspectral imagery delivered as a public STAC 1.0.0 catalog, alongside a knowledge centre, data product guide, and open notebooks for working with its imagery.",
      "score": 22.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8326,7 +8326,7 @@
     {
      "name": "DroneDeploy",
      "slug": "dronedeploy",
-     "description": "DroneDeploy is a drone mapping, reality capture, and aerial analytics",
+     "description": "DroneDeploy is a drone mapping, reality capture, and aerial analytics platform for construction, energy, agriculture, and inspection. Its developer platform is a GraphQL API (endpoint https://www.dronedeploy.com/graphql) that lets Enterprise and Developer Partner accounts query and mutate DroneDeploy data - organizations, projects, map plans, exports, annotations/issues, images, and webhooks - using a single strongly typed, Relay-style (cursor-paginated) schema rooted at the `viewer` object. A set of legacy REST APIs (Map Processing / Map Engine as a Service, Plan API, Export API) also remains available, but DroneDeploy recommends the GraphQL API for most integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/screenshots/dronedeploy-2026-07-25T212423.png",
      "score": 21.2,
      "band": "emerging",
@@ -8630,7 +8630,7 @@
     {
      "name": "Urban SDK",
      "slug": "urban-sdk",
-     "description": "Urban SDK is a geospatial AI and data analytics company serving the public",
+     "description": "Urban SDK is a geospatial AI and data analytics company serving the public sector, delivering hourly road-speed and traffic data, analytics, and AI tools that help cities, counties, and transportation agencies prioritize issues, pinpoint trends, and act on traffic management, public safety, emergency response, and infrastructure planning. A Techstars portfolio company based in Jacksonville, Florida, Urban SDK delivers its data through a web platform and automated Workflows reports rather than a public API, and currently publishes no developer documentation or client SDKs.",
      "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8671,7 +8671,7 @@
     {
      "name": "UrbanFootprint",
      "slug": "urbanfootprint",
-     "description": "'UrbanFootprint is a resilient decision intelligence platform that",
+     "description": "UrbanFootprint is a resilient decision intelligence platform that delivers urban, climate, and community-resilience data and analytics, helping governments, utilities, financial institutions, and planners assess risk and make data-driven decisions. Its platform spans scenario analysis (Analyst), map-based data exploration (Explorer), and curated data subscriptions covering climate hazards, the built environment, and social vulnerability. UrbanFootprint is a closed SaaS platform sold via sales contact and publishes no public developer API; its application authenticates through Auth0 and consumes an internal platform API.",
      "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8706,7 +8706,7 @@
     {
      "name": "WindBorne Systems",
      "slug": "windbornesystems",
-     "description": "WindBorne Systems operates a global constellation of long-duration Global",
+     "description": "WindBorne Systems operates a global constellation of long-duration Global Sounding Balloons and pairs that proprietary in-situ atmospheric data with WeatherMesh, its AI-based numerical weather forecast model. The WindBorne Data API serves real-time balloon observations, soundings, super-observations, constellation and flight-path metadata, point and gridded WeatherMesh forecasts, tropical-cyclone tracks, and population-weighted heating/cooling degree-day insights. Access is via a Bearer API key over REST, an official Python library and CLI, and a hosted Model Context Protocol server for AI agents.",
      "score": 19.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8959,7 +8959,7 @@
     {
      "name": "Bikemap",
      "slug": "bikemap",
-     "description": "Bikemap is a Vienna-based cycling platform (backed by Speedinvest) offering a route",
+     "description": "Bikemap is a Vienna-based cycling platform (backed by Speedinvest) offering a route planner, turn-by-turn bike navigation, and one of the world's largest communities of user-generated cycling routes across road, mountain, gravel, and e-bike riding. Riders plan routes in a web and mobile route editor, discover millions of community routes, record and share rides, download offline maps, and sync with Garmin, Wahoo, Apple Watch, and Wear OS devices. Bikemap operates a consumer product surface (web, iOS, Android) and does not publish a documented public developer API; this profile captures its identity, published web properties, and probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bikemap/refs/heads/main/screenshots/bikemap-2026-07-25T202935.png",
      "score": 17.7,
      "band": "emerging",
@@ -9107,7 +9107,7 @@
     {
      "name": "PSD Citywide",
      "slug": "psdcitywide",
-     "description": "'PSD Citywide is a SaaS provider of enterprise asset management (EAM) and",
+     "description": "PSD Citywide is a SaaS provider of enterprise asset management (EAM) and public-sector software for North American municipalities and government organizations. Its integrated Citywide platform spans asset management, maintenance and work-order management, GIS integration (ESRI-powered mapping), permitting, planning and licensing with citizen portals, multi-year budgeting and forecasting, facility/space management (Spaces), and a field mobile app, alongside asset-management advisory and grant services. The homepage references a \"robust API\" for integration and customization, but no public developer portal, API reference, SDKs, or GitHub organization were found during enrichment; end-user product documentation is published in a HappyFox-powered help center. Added to the API Evangelist network via the norwest-venture-partners portfolio.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9255,7 +9255,7 @@
     {
      "name": "Agreena",
      "slug": "agreena",
-     "description": "'Agreena is a Copenhagen-based agtech and climate finance company, founded in 2021,",
+     "description": "Agreena is a Copenhagen-based agtech and climate finance company, founded in 2021, that helps farmers transition to regenerative agriculture and monetize the resulting soil-carbon outcomes. Its AgreenaCarbon platform combines farmer enrollment, a satellite-, AI-, and soil-sampling-based digital measurement, reporting and verification (dMRV) engine, and Verra-certified carbon credit issuance. Agreena also offers standalone remote-sensing products such as a field-boundary-detection API for agrifood supply-chain monitoring. The platform spans roughly 5 million hectares and 2,500+ farmers across ~20 European countries. This profile was surfaced as a portfolio company of Anthemis and HV Capital and is being enriched by the API Evangelist pipeline; Agreena publishes no public developer portal or OpenAPI surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agreena/refs/heads/main/screenshots/agreena-2026-07-25T195320.png",
      "score": 16.6,
      "band": "emerging",
@@ -9326,7 +9326,7 @@
     {
      "name": "Juxta",
      "slug": "juxta",
-     "description": "'Juxta is a San Francisco positioning-technology company building a hardware-free",
+     "description": "Juxta is a San Francisco positioning-technology company building a hardware-free Universal Positioning System (UPS) that delivers real-time indoor and outdoor tracking for people, assets, and robots with sub-meter accuracy indoors and roughly 3-meter accuracy outdoors. Rather than relying on satellites, beacons, or cameras, Juxta uses the inertial (IMU) sensors already present in mobile devices, robots, and machinery combined with machine-learning \"synthetic fingerprinting\" to map and track subjects in GPS-denied environments such as warehouses, hospitals, underground facilities, and battlefields. Its drag-and-drop deployment ingests a floorplan, satellite image, or CAD file and goes live in hours, priced by mapped area and assets tracked. Juxta serves defense, logistics and robotics, and healthcare, and is backed by Y Combinator and other early-stage investors. Access today is through a partner portal and booked demo; no public developer API is documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/juxta/refs/heads/main/screenshots/juxta-2026-07-25T223347.png",
      "score": 16.5,
      "band": "emerging",
@@ -9404,7 +9404,7 @@
     {
      "name": "Upciti",
      "slug": "upciti",
-     "description": "Upciti is a French smart-city company that equips cities with intelligent",
+     "description": "Upciti is a French smart-city company that equips cities with intelligent computer-vision sensors and the Upciti OS platform, turning streets into clear, anonymous data for informed municipal decisions across parking, mobility, energy, water, gas, lighting, temperature, weather, air quality, pollen, illegal dumping, and noise. Sensors process video 100% locally with no image storage (GDPR-native, DTPR-supporting), and the platform advertises an open API for connecting GIS, BI, and business tools with no proprietary lock-in. Product documentation is customer-gated.",
      "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9439,7 +9439,7 @@
     {
      "name": "GEODNET",
      "slug": "geodnet",
-     "description": "'GEODNET (Global Earth Observation Decentralized Network) is a Web3/DePIN",
+     "description": "GEODNET (Global Earth Observation Decentralized Network) is a Web3/DePIN blockchain-based RTK (Real-Time Kinematics) GNSS correction network. It incentivizes operators to deploy permanent GNSS reference stations (\"Satellite Miners\") that broadcast real-time correction data, letting nearby devices achieve centimeter-level positioning accuracy. Station operators earn GEOD token rewards, with a target of 100,000 evenly distributed base stations worldwide — roughly twenty times larger than existing CORS networks. The correction data fuels robots, drones, autonomous vehicles, precision agriculture, construction, surveying, and consumer mapping. Developer-facing surfaces are the GEODNET Console web platform, the RTK coverage service, and DAO governance; the GEOD token spans Polygon and Solana. This profile was seeded as a Multicoin Capital portfolio lead and enriched by the API Evangelist pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geodnet/refs/heads/main/screenshots/geodnet-2026-07-25T215644.png",
      "score": 15.7,
      "band": "emerging",
@@ -9732,7 +9732,7 @@
     {
      "name": "Mozi",
      "slug": "mozi",
-     "description": "Mozi is a private social network mobile app founded by Twitter and Medium co-founder Ev Williams",
+     "description": "Mozi is a private social network mobile app founded by Twitter and Medium co-founder Ev Williams and Molly DeWolf Swenson, and backed by Obvious Ventures. Rather than public profiles or follower counts, Mozi privately matches your phone contacts so you learn when friends are in the same city, attending the same events, or checking in nearby — designed to spark in-person \"social serendipity\" and get people off their screens. Launched in December 2024 and available in 135+ countries, Mozi is a consumer iOS/Android application with no public developer program, API, or SDK surface at this time.",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9802,7 +9802,7 @@
     {
      "name": "Orbio",
      "slug": "orbio",
-     "description": "'Orbio Earth is a climate-tech company (founded 2021; Dover, Delaware, USA and Cologne, Germany)",
+     "description": "Orbio Earth is a climate-tech company (founded 2021; Dover, Delaware, USA and Cologne, Germany) that turns open satellite data into industrial methane intelligence for the energy sector. Its platform detects, quantifies, and tracks methane emissions from oil-and-gas infrastructure globally at asset level with a roughly 5-day revisit rate, using multispectral imagery (Sentinel-2, Landsat 8/9, EMIT) and machine learning, plus Bayesian uncertainty estimation. Customers — oil-and-gas operators and private-equity firms — use it for super-emitter identification, historical trend and root-cause analysis, and compliance with emerging methane regulation. Platform access is offered via the web application or a sales-gated data API integration; there is no public self-serve developer portal, OpenAPI, or SDK. Orbio also publishes the open-source Project Eucalyptus methane-detection pipelines on GitHub for research use.",
      "score": 14.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9872,7 +9872,7 @@
     {
      "name": "Understory",
      "slug": "understory",
-     "description": "'Understory is an insurtech company headquartered in Madison, Wisconsin",
+     "description": "Understory is an insurtech company headquartered in Madison, Wisconsin (founded 2012) that combines its own network of ground-truth Dot weather sensors with a proprietary weather risk model to underwrite parametric insurance against severe weather, including hail coverage for automotive dealership open lots and agricultural weather risk. Its UnderstoryOS platform covers broker management, pricing and quoting, and automated weather-triggered claims. Understory publishes no public API or developer portal; the platform is offered to insurance partners rather than as a self-service developer product.",
      "score": 13.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9948,7 +9948,7 @@
     {
      "name": "2NDNATURE",
      "slug": "2ndnature",
-     "description": "2NDNATURE is a Santa Cruz, California environmental technology company",
+     "description": "2NDNATURE is a Santa Cruz, California environmental technology company that builds cloud-based stormwater management and water-quality software. Its flagship product, 2NFORM, is GIS-powered MS4/NPDES compliance software that helps municipalities automate stormwater permit reporting, track assets and BMPs, detect illicit discharges, and run construction and post-construction programs. Rainsteward is its corporate water-stewardship platform for reducing costs and maximizing the value of stormwater investments. The company embeds peer-reviewed environmental science into an enterprise SaaS platform and is backed by Techstars. No public developer API program has been identified; the 2NFORM and Rainsteward applications are gated SaaS logins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/2ndnature/refs/heads/main/screenshots/2ndnature-2026-07-25T181133.png",
      "score": 13.5,
      "band": "minimal",
@@ -10019,7 +10019,7 @@
     {
      "name": "Duranta",
      "slug": "duranta",
-     "description": "'Duranta Labs is an applied AI laboratory building geospatial and computer-vision",
+     "description": "Duranta Labs is an applied AI laboratory building geospatial and computer-vision technology to understand the physical world. Its foundation vision model, Aidan, generates accurate, current 4D digital twins from optical imagery. That model powers a Landscapers solution that lets professionals measure, design, and bid any property directly from imagery without a site visit, a general-purpose World Model for spatial intelligence, and a forthcoming AEC (architecture, engineering, and construction) product that turns an address into a precise digital model. Duranta is backed by Fifth Wall.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10054,7 +10054,7 @@
     {
      "name": "Hula Earth",
      "slug": "hula-earth",
-     "description": "Hula Earth is a Munich-based environmental technology company providing",
+     "description": "Hula Earth is a Munich-based environmental technology company providing real-time biodiversity monitoring. It combines solar-powered, maintenance-free Hula BioT IoT sensors with AI-powered species detection, satellite-based Earth Observation, and the Hula Platform dashboard so organizations can monitor, manage, and report on biodiversity at landscape scale. Hula Earth serves renewables (solar and wind), agriculture, nature conservation, and urban development, turning environmental uncertainty into operational confidence and compliance-ready reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hula-earth/refs/heads/main/screenshots/hula-earth-2026-07-25T221634.png",
      "score": 13.0,
      "band": "minimal",
@@ -10090,7 +10090,7 @@
     {
      "name": "Bedrock",
      "slug": "bedrock",
-     "description": "'Bedrock (Bedrock Ocean Exploration) builds advanced autonomous underwater",
+     "description": "Bedrock (Bedrock Ocean Exploration) builds advanced autonomous underwater vehicles (AUVs) and Mosaic, a cloud-native data platform that transforms how the world maps, monitors, and understands the seafloor. Its AUV fleet carries multibeam echosounder, side-scan sonar, magnetometer, and sub-bottom profiler payloads to deliver high-resolution geophysical survey data for offshore energy (wind, oil and gas, renewables), ports and harbors, submarine telecom infrastructure, defense, and scientific research. A Northzone portfolio company, Bedrock is an enterprise ocean-data provider; it publishes no public developer API at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bedrock/refs/heads/main/screenshots/bedrock-2026-07-25T202617.png",
      "score": 12.8,
      "band": "minimal",
@@ -10126,7 +10126,7 @@
     {
      "name": "INGU",
      "slug": "ingu",
-     "description": "INGU is a pipeline integrity technology company delivering inline inspection",
+     "description": "INGU is a pipeline integrity technology company delivering inline inspection for oil & gas and water/wastewater pipelines through its Pipers multi-sensor free-floating inspection system paired with AI analytics and GIS-based pipeline viewer software. The platform performs leak detection, deposit and wall-condition assessment, and detection of gas pockets, magnetic features, bends, and hot taps across pipelines of any diameter or material. INGU has inspected over 900 pipelines for operators including Chevron, Shell, TotalEnergies, SUEZ, and Vale. Added to the API Evangelist network as a portfolio company of 500 Global; the company publishes no public API or developer surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ingu/refs/heads/main/screenshots/ingu-2026-07-25T222433.png",
      "score": 12.3,
      "band": "minimal",
@@ -10198,7 +10198,7 @@
     {
      "name": "NCX",
      "slug": "ncx",
-     "description": "NCX (Natural Capital Exchange), originally founded as SilviaTerra, is a forestry",
+     "description": "NCX (Natural Capital Exchange), originally founded as SilviaTerra, is a forestry technology company that maps and measures every acre of U.S. forestland using satellite imagery and machine learning. NCX built the Natural Capital Exchange, a marketplace that paid landowners to defer timber harvests and generate forest carbon credits, and it now offers LandBook, a tool that helps landowners capture the story, plans, and practical knowledge behind their property so it can be passed on to the next steward. The company is backed by Union Square Ventures and Version One Ventures.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10233,7 +10233,7 @@
     {
      "name": "oneNav",
      "slug": "onenav",
-     "description": "'oneNav is a fabless GNSS (Global Navigation Satellite System) semiconductor",
+     "description": "oneNav is a fabless GNSS (Global Navigation Satellite System) semiconductor company building the next generation of mobile positioning. Its L5-direct receiver acquires and tracks on the modern L5 satellite band without legacy L1 aiding, delivering higher location accuracy in urban canyons and far greater resilience to GPS jamming and spoofing, in half the RF size, power and cost of hybrid L1+L5 solutions. Founded in 2019 (Steve Poizner, Paul McBurney) with offices in Sunnyvale, CA and Tampere, Finland, oneNav targets smartphones, wearables, IoT trackers, defense and emergency services. It is backed by GV, Norwest Venture Partners and GSR Ventures. oneNav is a hardware/silicon company and does not publish a public developer API, OpenAPI, or developer portal.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10268,7 +10268,7 @@
     {
      "name": "PierSight Space",
      "slug": "piersight-space",
-     "description": "PierSight Space is an India-based space technology company building a constellation",
+     "description": "PierSight Space is an India-based space technology company building a constellation of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites for persistent, all-weather maritime surveillance of the world's oceans. Founded by former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones, support maritime insurance risk assessment, and improve shipping operations. The company has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital, and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise and government clients and does not publish a public developer API, SDKs, or API documentation.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10303,7 +10303,7 @@
     {
      "name": "Renoster Systems",
      "slug": "renoster-systems",
-     "description": "'Renoster Systems is a carbon-credit ratings agency bringing deep transparency",
+     "description": "Renoster Systems is a carbon-credit ratings agency bringing deep transparency to the nature-based voluntary carbon markets. Using remote sensing, LiDAR, satellite data, and machine learning, Renoster independently rates forestry and other nature-based carbon offset projects, quantifying how much CO2 per credit a project has actually sequestered, and publishes public tools such as its Mercury project database and Renoster/Mercury rubric for researchers, reserve managers, policymakers, and corporate buyers. Renoster is a Techstars-backed startup. As of this profile the company does not publish a public developer API, SDKs, or machine-readable API surface; this record captures its company identity and public web properties.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10338,7 +10338,7 @@
     {
      "name": "World View",
      "slug": "world-view",
-     "description": "'World View (World View Enterprises) is a Tucson, Arizona-based stratospheric",
+     "description": "World View (World View Enterprises) is a Tucson, Arizona-based stratospheric balloon company focused on remote sensing and persistent intelligence, surveillance, and reconnaissance (ISR). Its uncrewed high-altitude balloons carry EO/FMV, IR, SAR, and hyperspectral sensors for defense, government, and commercial missions. Acquired by Ondas Holdings in 2026, it now operates as part of the Ondas Sentinel multi-domain intelligence platform, with partnerships including Palantir and Sierra Nevada Corporation. World View publishes no public developer program or API.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10443,7 +10443,7 @@
     {
      "name": "OnXMaps",
      "slug": "onxmaps",
-     "description": "'onX Maps (onXmaps) is a Montana-based GPS mapping technology company building",
+     "description": "onX Maps (onXmaps) is a Montana-based GPS mapping technology company building offline-capable navigation apps for outdoor recreation. Its product line spans onX Hunt (hunting maps with public/private land boundaries, species and unit data), onX Offroad (650K+ miles of off-road and overland trails), onX Backcountry (hiking, backpacking, skiing and climbing, incorporating Mountain Project and MTB Project data), and onX Fish (lake maps and fishing). The company is backed by Bessemer Venture Partners. onX does not publish a public developer API; this profile is a company record enriched from its public web, security, and trust surfaces rather than an API contract.",
      "score": 12.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10622,7 +10622,7 @@
     {
      "name": "Kiki",
      "slug": "kiki",
-     "description": "Kiki (Kikihub) is a location-based social networking and chat mobile app that connects people",
+     "description": "Kiki (Kikihub) is a location-based social networking and chat mobile app that connects people nearby for local friendships, dating, networking, and community conversations. Users join local chat rooms to discover people around them and start real conversations, meeting new friends and matches in their area. The app is available for iOS and Android. Kiki publishes no public API, developer portal, or documentation; this profile tracks the company within the API Evangelist network as a venture-backed (500 Global, a16z) consumer social lead awaiting any future developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiki/refs/heads/main/screenshots/kiki-2026-07-25T223735.png",
      "score": 11.8,
      "band": "minimal",
@@ -10658,7 +10658,7 @@
     {
      "name": "NNG",
      "slug": "nng",
-     "description": "NNG (NNG Software Developing and Commercial LLC), formerly Nav N Go, is",
+     "description": "NNG (NNG Software Developing and Commercial LLC), formerly Nav N Go, is a Budapest-based automotive navigation and location-based software company founded in 2004. Its flagship iGO platform delivers modular guidance, positioning, routing, map content management, and driver-assistance features such as Intelligent Speed Assistance, embedded in more than 60 million devices across 30+ vehicle brands and supplied to over 150 automotive and mobility partners in nearly 200 countries. NNG is backed by growth investment from Insight Partners. NNG sells embedded and OEM location-based software rather than a public developer API; no public developer portal, OpenAPI, SDK, or API documentation was found during enrichment.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10735,7 +10735,7 @@
     {
      "name": "Skycatch",
      "slug": "skycatch",
-     "description": "'Skycatch built spatial data capture, processing, and analytics for mining",
+     "description": "Skycatch built spatial data capture, processing, and analytics for mining and construction sites, turning drone and aerial imagery into high-precision 3D data, volumetrics, and AI-driven site insights. Its products included Spatial Sight, Spatial DataHub (datahub.skycatch.com), and EdgeServer for on-site edge processing. Skycatch was acquired by Caterpillar Inc. on July 7, 2026 (following Caterpillar's RPMGlobal acquisition) to expand its mining technology capabilities. A developer platform exists at docs.skycatch.com but is password-gated, and no public API specification is available. Originally surfaced as a GV (Google Ventures) portfolio company.",
      "score": 11.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10806,7 +10806,7 @@
     {
      "name": "Pano",
      "slug": "pano",
-     "description": "Pano AI provides enterprise-grade, AI-powered wildfire and bushfire detection.",
+     "description": "Pano AI provides enterprise-grade, AI-powered wildfire and bushfire detection. The platform combines ultra-high-definition 360-degree mountaintop cameras, satellite feeds, field sensor data, and machine learning to detect ignitions early, confirm and triangulate their location, and deliver real-time visual situational intelligence to utilities, fire agencies, first responders, and landowners. Operators access the Pano 360 platform at 360.pano.ai to monitor camera networks, review AI detections, and coordinate incident response. Backed by DCVC and Initialized Capital, Pano was added to the API Evangelist network as a portfolio-lead company profile; as of this enrichment pass the company publishes no public API, developer portal, or SDK surface.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10841,7 +10841,7 @@
     {
      "name": "Rexby",
      "slug": "rexby",
-     "description": "Rexby is a consumer travel discovery and trip-planning platform where local creators",
+     "description": "Rexby is a consumer travel discovery and trip-planning platform where local creators publish interactive travel guides and maps of curated \"spots,\" and travelers browse those guides, build personal itineraries, and follow creator recommendations. The product is delivered as iOS and Android mobile apps plus the rexby.com web experience, with a creator program that lets travel enthusiasts monetize their guides. Backed by Techstars. As of this profile Rexby publishes no public developer API, SDKs, or developer documentation; this apis.yml captures its identity and a domain-security probe for the API Evangelist network.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10911,7 +10911,7 @@
     {
      "name": "TrustPoint",
      "slug": "trustpoint",
-     "description": "TrustPoint, Inc. is a space technology company building a fully commercial,",
+     "description": "TrustPoint, Inc. is a space technology company building a fully commercial, next-generation global navigation satellite system (GNSS) — a C-band LEO microsatellite constellation delivering secure positioning, navigation, and timing (PNT) independent of GPS, with improved accuracy, faster time to first fix, and anti-jamming / anti-spoofing capabilities for automotive, aviation, critical infrastructure, and national security applications. Headquartered in Northern Virginia with an office in Mountain View, California, and backed by DCVC, TrustPoint does not currently publish a public API or developer portal.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11018,7 +11018,7 @@
     {
      "name": "Brumby",
      "slug": "brumby",
-     "description": "'Brumby (formerly GrazeMate) is a Y Combinator-backed (W2026) precision-grazing",
+     "description": "Brumby (formerly GrazeMate) is a Y Combinator-backed (W2026) precision-grazing company based in Sydney, Australia, building an autonomous drone toolkit for cattle ranchers. Brumby drones plan routes and move herds with gentle, AI-guided pressure, fly scheduled monitoring missions that locate and count every animal, measure standing dry-matter pasture biomass from the air, and inspect water troughs, tanks and fences on every flight — all managed from a single phone app that works online or in a local base-station mode without connectivity. The company is running pilot programs and does not yet publish a public API, developer portal, or documentation; this profile is a company lead maintained in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brumby/refs/heads/main/screenshots/brumby-2026-07-25T204002.png",
      "score": 10.2,
      "band": "minimal",
@@ -11090,7 +11090,7 @@
     {
      "name": "Vermeer",
      "slug": "vermeer",
-     "description": "'Vermeer is an American-Ukrainian defense-technology startup (founded 2018 by Brian Streem;",
+     "description": "Vermeer is an American-Ukrainian defense-technology startup (founded 2018 by Brian Streem; headquartered in New York with forward operations in Kyiv) building vision-based autonomy for unmanned aerial platforms. Its Visual Positioning System (VPS) uses electro-optical and infrared cameras plus onboard AI (NVIDIA) to match imagery to 2D/3D maps and deliver precise navigation in GPS-denied, jammed, or spoofed environments. Products include Air (absolute positioning without GPS), Celestial (star-based navigation), and Terminal Guidance (precision targeting). The technology has been fielded by the Armed Forces of Ukraine and is aimed at defense customers including Lockheed Martin, General Atomics, Northrop Grumman, and the U.S. Air Force and Army. Vermeer exposes no public API, SDK, or developer platform at this time; this profile is a company/marketing surface with no API artifacts.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11239,7 +11239,7 @@
     {
      "name": "PREDIK Data-Driven",
      "slug": "predikt-ai",
-     "description": "PREDIK Data-Driven is a big-data analytics and location-intelligence",
+     "description": "PREDIK Data-Driven is a big-data analytics and location-intelligence research firm (founded 2008, Coral Gables, Florida) that builds enriched geospatial datasets for site selection, demand forecasting, and web/reference intelligence. Its products cover Point-of-Interest (POI) data, aggregated foot-traffic and human mobility data derived from anonymized mobile devices, company and commercial-area intelligence, and socio-demographic enrichment - divided into geohash-7 (150x150m) cells with 100-200+ variables and coverage of up to 96 countries. PREDIK is a data-delivery / contact-sales provider - datasets are licensed and delivered as managed feeds via REST API, SOAP API, Feed API, or S3 bucket in JSON, CSV, and SQL formats. There is no public self-serve developer API portal or published API reference; access is arranged directly with PREDIK or through the Datarade marketplace. Endpoints are not publicly documented and are therefore not modeled here.",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11274,7 +11274,7 @@
     {
      "name": "Praan",
      "slug": "praan",
-     "description": "'Praan (Praan Climate Technologies) is a deep-tech climate startup working to",
+     "description": "Praan (Praan Climate Technologies) is a deep-tech climate startup working to democratize access to clean, healthy air and to rebuild the atmosphere by capturing air pollution and greenhouse gases with novel filterless technology. Its products include HIVE, an air-purification device for homes and commercial spaces paired with a companion mobile application, and MK II, an air-purification system for industrial environments. Praan is backed by Prosus Ventures. This profile was surfaced as a portfolio-company lead and enriched through the API Evangelist pipeline; as of this pass Praan publishes a consumer hardware and mobile-app surface but no public developer API, SDK, or documentation.",
      "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11416,7 +11416,7 @@
     {
      "name": "Geocod.io",
      "slug": "geocod-io",
-     "description": "\"Address geocoding / reverse geocoding in bulk\"",
+     "description": "Address geocoding / reverse geocoding in bulk",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocod-io/refs/heads/main/screenshots/geocod-io-2026-06-20T181809.png",
      "score": 8.8,
      "band": "minimal",
@@ -11524,7 +11524,7 @@
     {
      "name": "Cassie",
      "slug": "cassie",
-     "description": "Cassie (Aircassie) develops advanced air filtration technology for healthcare",
+     "description": "Cassie (Aircassie) develops advanced air filtration technology for healthcare and indoor environments. Its flagship CASSIE system uses patented filtration to eliminate mold, viruses, and bacteria with zero harmful emissions, contrasting with UV and ionizer systems that emit ozone. The company markets 99.9% effectiveness against viruses and bacteria, a 59-second disinfection cycle, and 24-hour air quality monitoring with real-time data. Cassie is a hardware and environmental-technology company backed by Techstars; it was added to the API Evangelist network as a portfolio lead. As of this enrichment pass it publishes a marketing website (Wix) with no public API, developer documentation, SDKs, or other machine-readable API artifacts.",
      "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11565,7 +11565,7 @@
     {
      "name": "Bing Maps",
      "slug": "bing-maps",
-     "description": "\"Create/customize digital maps based on Bing Maps data\"",
+     "description": "Create/customize digital maps based on Bing Maps data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bing-maps/refs/heads/main/screenshots/bing-maps-2026-06-20T173249.png",
      "score": 8.3,
      "band": "minimal",
@@ -11601,7 +11601,7 @@
     {
      "name": "GeographQL",
      "slug": "geographql",
-     "description": "\"A Country, State, and City GraphQL API\"",
+     "description": "A Country, State, and City GraphQL API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geographql/refs/heads/main/screenshots/geographql-2026-06-20T181751.png",
      "score": 8.3,
      "band": "minimal",
@@ -11637,7 +11637,7 @@
     {
      "name": "Lready",
      "slug": "lready",
-     "description": "'Lready, Inc. was the original 2007 incorporated name of Life360 — the",
+     "description": "Lready, Inc. was the original 2007 incorporated name of Life360 — the family safety and location-sharing company that rebranded to Life360, Inc. in October 2011. Life360 operates a consumer mobile platform (iOS and Android) for real-time family location sharing, driving safety, crash detection, roadside and emergency response, and is publicly traded. This profile resolves the \"Lready\" venture-portfolio lead to its operating entity, Life360, and captures the security posture the company exposes at its production domain. Life360 does not publish a public first-party developer API program or OpenAPI, so no API-surface artifacts are derived here.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lready/refs/heads/main/screenshots/lready-2026-07-25T225631.png",
      "score": 8.1,
      "band": "minimal",
@@ -11673,7 +11673,7 @@
     {
      "name": "Tile",
      "slug": "tile",
-     "description": "'Tile is a consumer-electronics company known for its Bluetooth tracker",
+     "description": "Tile is a consumer-electronics company known for its Bluetooth tracker devices, used to locate everyday items such as keys, wallets, bags, and phones through a companion mobile app and a crowd-sourced Find network. Tile was acquired by Life360 in 2021; its former site thetileapp.com now 301-redirects to life360.com. Surfaced as a portfolio company of Bessemer Venture Partners, Tile publishes no public developer API — this profile captures its security posture (security.txt, a HackerOne responsible-disclosure program, and probed domain security).",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11708,7 +11708,7 @@
     {
      "name": "VerAI",
      "slug": "verai",
-     "description": "VerAI Discoveries is an AI-driven mineral discovery company founded in 2020 and",
+     "description": "VerAI Discoveries is an AI-driven mineral discovery company founded in 2020 and headquartered in Boston, Massachusetts. Its proprietary AI/ML Discovery Platform searches magnetic, gravimetric, electromagnetic, and seismic geophysical datasets to detect concealed mineral deposits in underexplored covered terrain, generating drill-ready targets across a portfolio of more than sixty mineral projects and royalties in North and South America. VerAI partners with explorers and investors to develop critical-mineral assets essential to the green-energy transition. The company is backed by Insight Partners, Blumberg Capital, Chrysalix Venture Capital, and Orion Industrial Ventures, and to date exposes no public developer API surface.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11815,7 +11815,7 @@
     {
      "name": "Arctus Aerospace",
      "slug": "arctus-aerospace",
-     "description": "'Arctus Aerospace is a Bengaluru, India based deep-tech startup building high-altitude,",
+     "description": "Arctus Aerospace is a Bengaluru, India based deep-tech startup building high-altitude, long-endurance autonomous unmanned aircraft (MALE/HALE UAVs) for real-time Earth observation and geospatial intelligence. Its platforms are designed to operate near 45,000 feet for over 24 hours while carrying payloads up to 250 kg, delivering centimeter-level multispectral imagery as a \"zero-infrastructure\" alternative to satellites. The company positions itself as a data-as-a-service provider, selling subscription-based aerial coverage for energy, infrastructure, climate, defense, and agriculture use cases. Founded in 2024 by Shreepoorna S. Rao, Arctus raised a $2.6M pre-seed round led by Version One Ventures (with South Park Commons, gradCapital, and angels). As of this writing the company is pre-product from an API standpoint and publishes no public developer surface, API, or documentation; this profile was surfaced as a Version One Ventures portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arctus-aerospace/refs/heads/main/screenshots/arctus-aerospace-2026-07-25T201108.png",
      "score": 7.6,
      "band": "minimal",
@@ -11922,7 +11922,7 @@
     {
      "name": "VICTUS Technologies",
      "slug": "victus-technologies",
-     "description": "VICTUS Technologies builds contested-autonomy software for autonomous systems operating",
+     "description": "VICTUS Technologies builds contested-autonomy software for autonomous systems operating in GPS-denied and jamming-heavy environments. Its PhantomNAV platform delivers precise state estimation from the gravity and inertial sensors already embedded in drones, aircraft, submarines, satellites, and ships - no new hardware required - and integrates with Palantir Foundry's AIP infrastructure. VICTUS is backed by Techstars and added to the API Evangelist network. The company publishes a marketing and platform site but exposes no public developer API, SDK, or documentation surface at this time.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11993,7 +11993,7 @@
     {
      "name": "Blue Vision Labs",
      "slug": "blue-vision-labs",
-     "description": "'Blue Vision Labs was a London-based computer-vision company that built the first city-scale",
+     "description": "Blue Vision Labs was a London-based computer-vision company that built the first city-scale augmented reality cloud — crowdsourcing centimetre-accurate 3D maps of entire cities from images captured by car-mounted smartphone cameras, then letting developers use visual positioning to place shared and persistent AR content that every device sees in the same real-world spot. It emerged from stealth in March 2018 with a $14.5M round led by GV, alongside Accel and Horizons Ventures, and offered invite-only early access to iOS and Android SDKs covering San Francisco, New York City and London. Lyft acquired the company in October 2018 and made it the UK hub of its Level 5 self-driving division. The developer platform is retired: bluevisionlabs.com no longer resolves to a web host, the documentation and SDK downloads are offline, and no public API surface remains.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-vision-labs/refs/heads/main/screenshots/blue-vision-labs-2026-07-25T203444.png",
      "score": 7.4,
      "band": "minimal",
@@ -12101,7 +12101,7 @@
     {
      "name": "SubVysion",
      "slug": "subvysion",
-     "description": "SubVysion is a subsurface mapping intelligence company that delivers 3D maps of hidden",
+     "description": "SubVysion is a subsurface mapping intelligence company that delivers 3D maps of hidden underground infrastructure for construction crews, utility locators, and contractors. It combines multi-sensor ground-penetrating radar (GPR) with 3D mapping to visualize buried utilities, pipes, and conduits so teams can see what is below before they dig or break ground — reducing strikes, rework, and safety incidents. Backed by Y Combinator, SubVysion is an early-stage company that currently publishes a marketing website only; as of this enrichment pass it exposes no public API, developer portal, SDKs, or documentation surface.",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12136,7 +12136,7 @@
     {
      "name": "Urban Engines",
      "slug": "urban-engines",
-     "description": "Urban Engines was a Silicon Valley urban-mobility analytics startup founded by",
+     "description": "Urban Engines was a Silicon Valley urban-mobility analytics startup founded by Shiva Shivakumar and Balaji Prabhakar that built a Space/Time Engine for analyzing how people and objects move through cities, powering commuter routing and congestion insights for cities including Washington D.C., Sao Paulo, and Singapore. Backed by a16z and GV, the company was acquired by Google in September 2016 and is now defunct; it published no public API, developer portal, or client packages, and its former website is parked on Google infrastructure.",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12171,7 +12171,7 @@
     {
      "name": "Atomionics",
      "slug": "atomionics",
-     "description": "Atomionics is a Singapore-based deep-technology company, founded in 2018, that builds quantum",
+     "description": "Atomionics is a Singapore-based deep-technology company, founded in 2018, that builds quantum sensors for mineral resource exploration and GPS-free navigation. Its Gravio quantum-grade gravity-sensing platform uses cold-atom interferometry to measure tiny gravitational changes and map the Earth's subsurface at high resolution, and its ORE-O AI geologist visualizes complex geologies and mineral deposits in 3D to accelerate exploration for energy-transition resources such as copper, lithium, nickel, graphite and rare earth elements. The company does not currently publish a public API or developer platform; this profile tracks its identity and public web surface within the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atomionics/refs/heads/main/screenshots/atomionics-2026-07-25T201614.png",
      "score": 7.2,
      "band": "minimal",
@@ -12243,7 +12243,7 @@
     {
      "name": "Ducks Unlimited",
      "slug": "ducks-unlimited",
-     "description": "\"API explorer that gives a query URL with a JSON response of locations and cities\"",
+     "description": "API explorer that gives a query URL with a JSON response of locations and cities",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ducks-unlimited/refs/heads/main/screenshots/ducks-unlimited-2026-06-20T180309.png",
      "score": 7.2,
      "band": "minimal",
@@ -12279,7 +12279,7 @@
     {
      "name": "GeoDB Cities",
      "slug": "geodb-cities",
-     "description": "\"Get global city, region, and country data\"",
+     "description": "Get global city, region, and country data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geodb-cities/refs/heads/main/screenshots/geodb-cities-2026-06-20T181750.png",
      "score": 7.2,
      "band": "minimal",
@@ -12315,7 +12315,7 @@
     {
      "name": "IP Address Details",
      "slug": "ip-address-details",
-     "description": "\"Find geolocation with ip address\"",
+     "description": "Find geolocation with ip address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip-address-details/refs/heads/main/screenshots/ip-address-details-2026-06-20T183543.png",
      "score": 7.2,
      "band": "minimal",
@@ -12351,7 +12351,7 @@
     {
      "name": "IPstack",
      "slug": "ipstack",
-     "description": "\"Locate and identify website visitors by IP address\"",
+     "description": "Locate and identify website visitors by IP address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipstack/refs/heads/main/screenshots/ipstack-2026-06-20T183602.png",
      "score": 7.2,
      "band": "minimal",
@@ -12387,7 +12387,7 @@
     {
      "name": "ipstack",
      "slug": "ipstack-ipstack",
-     "description": "\"Locate and identify website visitors by IP address\"",
+     "description": "Locate and identify website visitors by IP address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipstack-ipstack/refs/heads/main/screenshots/ipstack-ipstack-2026-06-20T183601.png",
      "score": 7.2,
      "band": "minimal",
@@ -12423,7 +12423,7 @@
     {
      "name": "keycdn IP Location Finder",
      "slug": "keycdn-ip-location-finder",
-     "description": "\"Get the IP geolocation data through the simple REST API. All the responses are JSON encoded\"",
+     "description": "Get the IP geolocation data through the simple REST API. All the responses are JSON encoded",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keycdn-ip-location-finder/refs/heads/main/screenshots/keycdn-ip-location-finder-2026-06-20T184003.png",
      "score": 7.2,
      "band": "minimal",
@@ -12459,7 +12459,7 @@
     {
      "name": "LocationIQ",
      "slug": "locationiq",
-     "description": "\"Provides forward/reverse geocoding and batch geocoding\"",
+     "description": "Provides forward/reverse geocoding and batch geocoding",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12494,7 +12494,7 @@
     {
      "name": "Longdo Map",
      "slug": "longdo-map",
-     "description": "\"Interactive map with detailed places and information portal in Thailand\"",
+     "description": "Interactive map with detailed places and information portal in Thailand",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/longdo-map/refs/heads/main/screenshots/longdo-map-2026-06-20T184709.png",
      "score": 7.2,
      "band": "minimal",
@@ -12565,7 +12565,7 @@
     {
      "name": "OpenCage",
      "slug": "opencage",
-     "description": "\"Forward and reverse geocoding using open data\"",
+     "description": "Forward and reverse geocoding using open data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opencage/refs/heads/main/screenshots/opencage-2026-06-20T190916.png",
      "score": 7.2,
      "band": "minimal",
@@ -12601,7 +12601,7 @@
     {
      "name": "openrouteservice.org",
      "slug": "openrouteservice-org",
-     "description": "\"Directions, POIs, isochrones, geocoding (+reverse), elevation, and more\"",
+     "description": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openrouteservice-org/refs/heads/main/screenshots/openrouteservice-org-2026-06-20T191029.png",
      "score": 7.2,
      "band": "minimal",
@@ -12637,7 +12637,7 @@
     {
      "name": "Pinball Map",
      "slug": "pinball-map",
-     "description": "\"A crowdsourced map of public pinball machines\"",
+     "description": "A crowdsourced map of public pinball machines",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pinball-map/refs/heads/main/screenshots/pinball-map-2026-06-20T191709.png",
      "score": 7.2,
      "band": "minimal",
@@ -12673,7 +12673,7 @@
     {
      "name": "Postcodes.io",
      "slug": "postcodes-io",
-     "description": "\"Postcode lookup & Geolocation for the UK\"",
+     "description": "Postcode lookup & Geolocation for the UK",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postcodes-io/refs/heads/main/screenshots/postcodes-io-2026-06-20T191952.png",
      "score": 7.2,
      "band": "minimal",
@@ -12745,7 +12745,7 @@
     {
      "name": "RainViewer",
      "slug": "rainviewer",
-     "description": "\"Radar data collected from different websites across the Internet\"",
+     "description": "Radar data collected from different websites across the Internet",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rainviewer/refs/heads/main/screenshots/rainviewer-2026-06-20T192537.png",
      "score": 7.2,
      "band": "minimal",
@@ -12781,7 +12781,7 @@
     {
      "name": "Utah AGRC",
      "slug": "utah-agrc",
-     "description": "\"Utah Web API for geocoding Utah addresses\"",
+     "description": "Utah Web API for geocoding Utah addresses",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/utah-agrc/refs/heads/main/screenshots/utah-agrc-2026-06-20T200725.png",
      "score": 7.2,
      "band": "minimal",
@@ -12817,7 +12817,7 @@
     {
      "name": "Xona Space Systems",
      "slug": "xona-space-systems",
-     "description": "'Xona Space Systems builds Pulsar, a commercial low-Earth-orbit (LEO)",
+     "description": "Xona Space Systems builds Pulsar, a commercial low-Earth-orbit (LEO) positioning, navigation, and timing (PNT) satellite service designed to complement and harden GPS with centimeter-level accuracy and encrypted, jam-resistant signals usable by existing GNSS devices via software updates. The planned constellation is 258 small satellites at roughly 1,080 km altitude, with the Pulsar Verified ecosystem (receivers, simulators, test platforms) delivered through partners including Trimble, Septentrio, Topcon, Furuno, and Murata. A Craft Ventures portfolio company serving defense, agriculture, telecom, transportation, maritime, aviation, and autonomous systems. No public developer API surface was found as of July 2026.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12852,7 +12852,7 @@
     {
      "name": "7Timer!",
      "slug": "7timer",
-     "description": "\"Weather, especially for Astroweather\"",
+     "description": "Weather, especially for Astroweather",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/7timer/refs/heads/main/screenshots/7timer-2026-06-20T162848.png",
      "score": 6.8,
      "band": "minimal",
@@ -12888,7 +12888,7 @@
     {
      "name": "Actinia Grass GIS",
      "slug": "actinia-grass-gis",
-     "description": "\"Actinia is an open source REST API for geographical data that uses GRASS GIS\"",
+     "description": "Actinia is an open source REST API for geographical data that uses GRASS GIS",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/actinia-grass-gis/refs/heads/main/screenshots/actinia-grass-gis-2026-06-20T164022.png",
      "score": 6.8,
      "band": "minimal",
@@ -12924,7 +12924,7 @@
     {
      "name": "administrative-divisons-db",
      "slug": "administrative-divisons-db",
-     "description": "\"Get all administrative divisions of a country\"",
+     "description": "Get all administrative divisions of a country",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/administrative-divisons-db/refs/heads/main/screenshots/administrative-divisons-db-2026-06-20T164745.png",
      "score": 6.8,
      "band": "minimal",
@@ -12960,7 +12960,7 @@
     {
      "name": "adresse.data.gouv.fr",
      "slug": "adresse-data-gouv-fr",
-     "description": "\"Address database of France, geocoding and reverse\"",
+     "description": "Address database of France, geocoding and reverse",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adresse-data-gouv-fr/refs/heads/main/screenshots/adresse-data-gouv-fr-2026-06-20T165115.png",
      "score": 6.8,
      "band": "minimal",
@@ -12996,7 +12996,7 @@
     {
      "name": "Aemet",
      "slug": "aemet",
-     "description": "\"Weather and forecast data from Spain\"",
+     "description": "Weather and forecast data from Spain",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aemet/refs/heads/main/screenshots/aemet-2026-06-20T165442.png",
      "score": 6.8,
      "band": "minimal",
@@ -13032,7 +13032,7 @@
     {
      "name": "AirMap",
      "slug": "airmap",
-     "description": "'AirMap was a drone airspace-management and unmanned traffic management (UTM) platform",
+     "description": "AirMap was a drone airspace-management and unmanned traffic management (UTM) platform that provided airspace intelligence, flight planning, digital notice, and geofencing services for drones and their operators, exposed through a developer platform of airspace and flight APIs. It was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as an enrichment lead. As of this enrichment pass (2026-07) the company appears defunct: airmap.com no longer serves a developer portal or API and now resolves to a parked Squarespace-hosted page with a mismatched TLS certificate, and the legacy developer.airmap.com / api.airmap.com / docs.airmap.com hosts no longer resolve. No live API surface remains to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airmap/refs/heads/main/screenshots/airmap-2026-07-25T195428.png",
      "score": 6.8,
      "band": "minimal",
@@ -13068,7 +13068,7 @@
     {
      "name": "airquality",
      "slug": "airquality",
-     "description": "'AirQuality (爱优特) is a Shanghai-based manufacturer of high-efficiency electrostatic",
+     "description": "AirQuality (爱优特) is a Shanghai-based manufacturer of high-efficiency electrostatic air purification and disinfection products, including central air filtration systems, commercial kitchen exhaust (hood) cleaners, odor-elimination units, and smart air-quality detection systems for schools, hospitals, offices, shopping malls, and hotels. The company was surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. It is a hardware/manufacturing business that publishes a consumer website and online shop but no public developer API, SDK, or documentation surface at this time, so most enrichment artifacts are not applicable.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13103,7 +13103,7 @@
     {
      "name": "Airtel IP",
      "slug": "airtel-ip",
-     "description": "\"IP Geolocation API. Collecting data from multiple sources\"",
+     "description": "IP Geolocation API. Collecting data from multiple sources",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtel-ip/refs/heads/main/screenshots/airtel-ip-2026-07-25T195443.png",
      "score": 6.8,
      "band": "minimal",
@@ -13139,7 +13139,7 @@
     {
      "name": "Albedo",
      "slug": "albedo",
-     "description": "'Albedo is a company surfaced as a portfolio company of initialized-capital and added to",
+     "description": "Albedo is a company surfaced as a portfolio company of initialized-capital and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment pipeline.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13174,7 +13174,7 @@
     {
      "name": "AllTrails",
      "slug": "alltrails",
-     "description": "AllTrails is an outdoor recreation platform for discovering, mapping, and navigating hiking,",
+     "description": "AllTrails is an outdoor recreation platform for discovering, mapping, and navigating hiking, trail running, mountain biking, and backpacking routes. It offers a searchable database of hundreds of thousands of trails worldwide with maps, elevation profiles, community reviews, photos, and conditions, plus GPS turn-by-turn navigation, offline downloadable maps, and route planning through its AllTrails+ subscription. AllTrails is a consumer mobile and web application; it does not publish a public developer API program, and its web surface is served behind a Cloudflare WAF that blocks automated discovery. This profile was surfaced as a portfolio company of 500 Global and enriched with the verifiable public signals available.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alltrails/refs/heads/main/screenshots/alltrails-2026-07-25T195723.png",
      "score": 6.8,
      "band": "minimal",
@@ -13210,7 +13210,7 @@
     {
      "name": "American Aerospace Advisors",
      "slug": "american-aerospace-advisors",
-     "description": "American Aerospace Technologies, Inc., doing business as American Aerospace Advisors, is",
+     "description": "American Aerospace Technologies, Inc., doing business as American Aerospace Advisors, is a defense and critical-infrastructure monitoring company based in Conshohocken, Pennsylvania. It provides end-to-end airborne intelligence systems that combine unmanned aircraft systems (UAS), airborne sensors, analytics, and communications to deliver near-real-time data through a cloud-based intelligence gateway. Its flagship AiRanger medium-altitude long-endurance unmanned aircraft and InstiMaps sensor technology support pipeline and linear-asset patrol, beyond-visual-line-of-sight (BVLOS) flight services, sensor integration, and aviation policy consulting. As of this enrichment pass the company publishes no public developer API, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-aerospace-advisors/refs/heads/main/screenshots/american-aerospace-advisors-2026-07-25T200045.png",
      "score": 6.8,
      "band": "minimal",
@@ -13246,7 +13246,7 @@
     {
      "name": "Apiip",
      "slug": "apiip",
-     "description": "\"Get location information by IP address\"",
+     "description": "Get location information by IP address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiip/refs/heads/main/screenshots/apiip-2026-06-20T172241.png",
      "score": 6.8,
      "band": "minimal",
@@ -13282,7 +13282,7 @@
     {
      "name": "APIXU",
      "slug": "apixu",
-     "description": "\"Weather\"",
+     "description": "Weather",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apixu/refs/heads/main/screenshots/apixu-2026-06-20T172302.png",
      "score": 6.8,
      "band": "minimal",
@@ -13318,7 +13318,7 @@
     {
      "name": "ApogeoAPI",
      "slug": "apogeoapi",
-     "description": "\"Bundled API for countries, states, cities, IP geolocation, and live exchange rates\"",
+     "description": "Bundled API for countries, states, cities, IP geolocation, and live exchange rates",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apogeoapi/refs/heads/main/screenshots/apogeoapi-2026-06-20T172303.png",
      "score": 6.8,
      "band": "minimal",
@@ -13354,7 +13354,7 @@
     {
      "name": "AQICN",
      "slug": "aqicn",
-     "description": "\"Air Quality Index Data for over 1000 cities\"",
+     "description": "Air Quality Index Data for over 1000 cities",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aqicn/refs/heads/main/screenshots/aqicn-2026-06-20T172345.png",
      "score": 6.8,
      "band": "minimal",
@@ -13390,7 +13390,7 @@
     {
      "name": "Battuta",
      "slug": "battuta",
-     "description": "\"A (country/region/city) in-cascade location API\"",
+     "description": "A (country/region/city) in-cascade location API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/battuta/refs/heads/main/screenshots/battuta-2026-06-20T173046.png",
      "score": 6.8,
      "band": "minimal",
@@ -13426,7 +13426,7 @@
     {
      "name": "BdAPIs",
      "slug": "bdapis",
-     "description": "\"Get divisions, districts, and upazzilas of Bangladesh\"",
+     "description": "Get divisions, districts, and upazzilas of Bangladesh",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bdapis/refs/heads/main/screenshots/bdapis-2026-06-20T173059.png",
      "score": 6.8,
      "band": "minimal",
@@ -13462,7 +13462,7 @@
     {
      "name": "BigDataCloud",
      "slug": "bigdatacloud",
-     "description": "\"Provides fast and accurate IP geolocation APIs along with security checks and confidence area\"",
+     "description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bigdatacloud/refs/heads/main/screenshots/bigdatacloud-2026-06-20T173235.png",
      "score": 6.8,
      "band": "minimal",
@@ -13498,7 +13498,7 @@
     {
      "name": "bng2latlong",
      "slug": "bng2latlong",
-     "description": "\"Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude\"",
+     "description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bng2latlong/refs/heads/main/screenshots/bng2latlong-2026-07-25T203515.png",
      "score": 6.8,
      "band": "minimal",
@@ -13534,7 +13534,7 @@
     {
      "name": "Carmera *",
      "slug": "carmera",
-     "description": "'CARMERA was a New York City based road-intelligence and HD mapping company that",
+     "description": "CARMERA was a New York City based road-intelligence and HD mapping company that provided \"change-as-a-service\" map maintenance for autonomous driving, mobility-as-a-service and consumer navigation. It used consumer-grade cameras mounted on commercial fleet vehicles as crowdsourced visual probes to detect permanent road inventory change (signs, signals, lane markings) and temporary closure events (construction), then regenerated both HD and SD maps in near real time. Its commercial offering was described as detection APIs that identify map-impacting events plus vector APIs that deliver map updates, layered over a customer-supplied or CARMERA-supplied base map. The company was backed by GV and was acquired in July 2021 by Woven Planet (now Woven by Toyota), the advanced mobility subsidiary of Toyota Motor Corporation. Its APIs were sold under enterprise agreements and were never published as a public developer program; as of this enrichment pass the carmera.com domain no longer resolves and no developer portal, documentation, SDK, or API artifact survives.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13569,7 +13569,7 @@
     {
      "name": "Cartes.io",
      "slug": "cartes-io",
-     "description": "\"Create maps and markers for anything\"",
+     "description": "Create maps and markers for anything",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cartes-io/refs/heads/main/screenshots/cartes-io-2026-06-20T174021.png",
      "score": 6.8,
      "band": "minimal",
@@ -13605,7 +13605,7 @@
     {
      "name": "Cep.la",
      "slug": "cep-la",
-     "description": "\"Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states\"",
+     "description": "Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cep-la/refs/heads/main/screenshots/cep-la-2026-06-20T174132.png",
      "score": 6.8,
      "band": "minimal",
@@ -13641,7 +13641,7 @@
     {
      "name": "CitySDK",
      "slug": "citysdk",
-     "description": "\"Open APIs for select European cities\"",
+     "description": "Open APIs for select European cities",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/citysdk/refs/heads/main/screenshots/citysdk-2026-06-20T174428.png",
      "score": 6.8,
      "band": "minimal",
@@ -13677,7 +13677,7 @@
     {
      "name": "Country",
      "slug": "country",
-     "description": "\"Get your visitor's country from their IP\"",
+     "description": "Get your visitor's country from their IP",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/country/refs/heads/main/screenshots/country-2026-06-20T175100.png",
      "score": 6.8,
      "band": "minimal",
@@ -13713,7 +13713,7 @@
     {
      "name": "CountryStateCity",
      "slug": "countrystatecity",
-     "description": "\"World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format\"",
+     "description": "World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13748,7 +13748,7 @@
     {
      "name": "Digby",
      "slug": "digby",
-     "description": "'Digby was an Austin, Texas software-as-a-service provider of mobile commerce",
+     "description": "Digby was an Austin, Texas software-as-a-service provider of mobile commerce and mobile engagement solutions for large retailers, operating under parent company 30 Second Software Inc. Its platform — including the Localpoint location-based marketing product — delivered branded mobile web experiences and native shopping apps, connecting digital engagement to physical stores for customers such as Cabela's, Kohl's, Catalina Marketing and Hasbro. Digby raised venture funding from Battery Ventures, S3 Ventures, Daylight Ventures, Relay Ventures and the BlackBerry Partners Fund. The company was acquired by fellow Austin mobile company Phunware in May 2014 (along with its Movaya subsidiary in Seattle and Chengdu), terms undisclosed, and the Localpoint technology was folded into Phunware's product line. Digby no longer operates as an independent company: digby.com no longer resolves to a live site (last Internet Archive capture February 2015) and there is no current developer portal, documentation, API, SDK or other public API surface to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/digby/refs/heads/main/screenshots/digby-2026-07-25T211958.png",
      "score": 6.8,
      "band": "minimal",
@@ -13820,7 +13820,7 @@
     {
      "name": "Euskalmet",
      "slug": "euskalmet",
-     "description": "\"Meteorological data of the Basque Country\"",
+     "description": "Meteorological data of the Basque Country",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/euskalmet/refs/heads/main/screenshots/euskalmet-2026-06-20T180855.png",
      "score": 6.8,
      "band": "minimal",
@@ -13856,7 +13856,7 @@
     {
      "name": "Foreca",
      "slug": "foreca",
-     "description": "\"Weather\"",
+     "description": "Weather",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/foreca/refs/heads/main/screenshots/foreca-2026-06-20T181419.png",
      "score": 6.8,
      "band": "minimal",
@@ -13892,7 +13892,7 @@
     {
      "name": "GAGO Group",
      "slug": "gago-group",
-     "description": "'GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology",
+     "description": "GAGO Group (Beijing Jiage Tianyu Technology Co., Ltd.) is a China-based frontier-technology company focused on agricultural and rural big data applications. Its homepage positions the business around agricultural and rural big data, applying remote-sensing and data-analytics techniques to agriculture. GAGO Group is backed by DCM Ventures and was added to the API Evangelist network from that portfolio. As of this enrichment pass the company publishes a corporate website at gagogroup.cn but no public developer portal, API documentation, or machine-readable API specification could be verified, so no spec-derived API artifacts were produced.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gago-group/refs/heads/main/screenshots/gago-group-2026-07-25T215454.png",
      "score": 6.8,
      "band": "minimal",
@@ -13928,7 +13928,7 @@
     {
      "name": "GeoApi",
      "slug": "geoapi",
-     "description": "\"French geographical data\"",
+     "description": "French geographical data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geoapi/refs/heads/main/screenshots/geoapi-2026-06-20T181744.png",
      "score": 6.8,
      "band": "minimal",
@@ -13964,7 +13964,7 @@
     {
      "name": "Geocode.xyz",
      "slug": "geocode-xyz",
-     "description": "\"Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing\"",
+     "description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocode-xyz/refs/heads/main/screenshots/geocode-xyz-2026-06-20T181745.png",
      "score": 6.8,
      "band": "minimal",
@@ -14000,7 +14000,7 @@
     {
      "name": "Geocodify.com",
      "slug": "geocodify-com",
-     "description": "\"Worldwide geocoding, geoparsing and autocomplete for addresses\"",
+     "description": "Worldwide geocoding, geoparsing and autocomplete for addresses",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocodify-com/refs/heads/main/screenshots/geocodify-com-2026-06-20T181746.png",
      "score": 6.8,
      "band": "minimal",
@@ -14036,7 +14036,7 @@
     {
      "name": "Geodata.gov.gr",
      "slug": "geodata-gov-gr",
-     "description": "\"Open geospatial data and API service for Greece\"",
+     "description": "Open geospatial data and API service for Greece",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14071,7 +14071,7 @@
     {
      "name": "GeoDataSource",
      "slug": "geodatasource",
-     "description": "\"Geocoding of city name by using latitude and longitude coordinates\"",
+     "description": "Geocoding of city name by using latitude and longitude coordinates",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geodatasource/refs/heads/main/screenshots/geodatasource-2026-06-20T181748.png",
      "score": 6.8,
      "band": "minimal",
@@ -14107,7 +14107,7 @@
     {
      "name": "GeoJS",
      "slug": "geojs",
-     "description": "\"IP geolocation with ChatOps integration\"",
+     "description": "IP geolocation with ChatOps integration",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geojs/refs/heads/main/screenshots/geojs-2026-06-20T181751.png",
      "score": 6.8,
      "band": "minimal",
@@ -14143,7 +14143,7 @@
     {
      "name": "Geokeo",
      "slug": "geokeo",
-     "description": "\"Geokeo geocoding service- with 2500 free api requests daily\"",
+     "description": "Geokeo geocoding service- with 2500 free api requests daily",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geokeo/refs/heads/main/screenshots/geokeo-2026-06-20T181755.png",
      "score": 6.8,
      "band": "minimal",
@@ -14179,7 +14179,7 @@
     {
      "name": "GeoNames",
      "slug": "geonames",
-     "description": "\"Place names and other geographical data\"",
+     "description": "Place names and other geographical data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geonames/refs/heads/main/screenshots/geonames-2026-06-20T181755.png",
      "score": 6.8,
      "band": "minimal",
@@ -14215,7 +14215,7 @@
     {
      "name": "geoPlugin",
      "slug": "geoplugin",
-     "description": "\"IP geolocation and currency conversion\"",
+     "description": "IP geolocation and currency conversion",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14250,7 +14250,7 @@
     {
      "name": "Gowalla",
      "slug": "gowalla",
-     "description": "'Gowalla is a location-based social check-in application that lets people keep up with their",
+     "description": "Gowalla is a location-based social check-in application that lets people keep up with their friends in the real world by checking in at places, sharing their location, and collecting stamps and passport-style travel memories. Originally launched in 2007 as a pioneering location-based social game, Gowalla was acquired by Facebook in 2011 and wound down in 2012, then relaunched by founder Josh Williams in March 2023 as an iOS app before active development was paused in April 2023. The app remains available on the App Store and continues to operate on a limited basis, recruiting early testers through its Street Team program. Gowalla historically published a Check-In API with OAuth 2 support (2010), but no public developer API, SDK, or documentation is available today. This profile was surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network as a consumer-sector lead.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14285,7 +14285,7 @@
     {
      "name": "Graph Countries",
      "slug": "graph-countries",
-     "description": "\"Country-related data like currencies, languages, flags, regions+subregions and bordering countries\"",
+     "description": "Country-related data like currencies, languages, flags, regions+subregions and bordering countries",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/graph-countries/refs/heads/main/screenshots/graph-countries-2026-06-20T182327.png",
      "score": 6.8,
      "band": "minimal",
@@ -14321,7 +14321,7 @@
     {
      "name": "HackMyIP",
      "slug": "hackmyip",
-     "description": "\"IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups\"",
+     "description": "IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hackmyip/refs/heads/main/screenshots/hackmyip-2026-06-20T182452.png",
      "score": 6.8,
      "band": "minimal",
@@ -14357,7 +14357,7 @@
     {
      "name": "HelloSalut",
      "slug": "hellosalut",
-     "description": "\"Get hello translation following user language\"",
+     "description": "Get hello translation following user language",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hellosalut/refs/heads/main/screenshots/hellosalut-2026-06-20T182629.png",
      "score": 6.8,
      "band": "minimal",
@@ -14393,7 +14393,7 @@
     {
      "name": "HERE Maps",
      "slug": "here-maps",
-     "description": "\"Create/customize digital maps based on HERE Maps data\"",
+     "description": "Create/customize digital maps based on HERE Maps data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/here-maps/refs/heads/main/screenshots/here-maps-2026-06-20T182642.png",
      "score": 6.8,
      "band": "minimal",
@@ -14429,7 +14429,7 @@
     {
      "name": "HG Weather",
      "slug": "hg-weather",
-     "description": "\"Provides weather forecast data for cities in Brazil\"",
+     "description": "Provides weather forecast data for cities in Brazil",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hg-weather/refs/heads/main/screenshots/hg-weather-2026-06-20T182720.png",
      "score": 6.8,
      "band": "minimal",
@@ -14465,7 +14465,7 @@
     {
      "name": "Hirak IP to Country",
      "slug": "hirak-ip-to-country",
-     "description": "\"Ip to location with country code, currency code & currency name, fast response, unlimited requests\"",
+     "description": "Ip to location with country code, currency code & currency name, fast response, unlimited requests",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hirak-ip-to-country/refs/heads/main/screenshots/hirak-ip-to-country-2026-06-20T182754.png",
      "score": 6.8,
      "band": "minimal",
@@ -14501,7 +14501,7 @@
     {
      "name": "Hong Kong GeoData Store",
      "slug": "hong-kong-geodata-store",
-     "description": "\"API for accessing geo-data of Hong Kong\"",
+     "description": "API for accessing geo-data of Hong Kong",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14536,7 +14536,7 @@
     {
      "name": "Hong Kong Obervatory",
      "slug": "hong-kong-obervatory",
-     "description": "\"Provide weather information, earthquake information, and climate data\"",
+     "description": "Provide weather information, earthquake information, and climate data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hong-kong-obervatory/refs/heads/main/screenshots/hong-kong-obervatory-2026-06-20T182829.png",
      "score": 6.8,
      "band": "minimal",
@@ -14572,7 +14572,7 @@
     {
      "name": "IBGE",
      "slug": "ibge",
-     "description": "\"Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)\"",
+     "description": "Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibge/refs/heads/main/screenshots/ibge-2026-07-25T221953.png",
      "score": 6.8,
      "band": "minimal",
@@ -14608,7 +14608,7 @@
     {
      "name": "IP 2 Country",
      "slug": "ip-2-country",
-     "description": "\"Map an IP to a country\"",
+     "description": "Map an IP to a country",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip-2-country/refs/heads/main/screenshots/ip-2-country-2026-06-20T183535.png",
      "score": 6.8,
      "band": "minimal",
@@ -14644,7 +14644,7 @@
     {
      "name": "IP Geolocation",
      "slug": "ip-geolocation",
-     "description": "\"Geolocate website visitors from their IPs\"",
+     "description": "Geolocate website visitors from their IPs",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip-geolocation/refs/heads/main/screenshots/ip-geolocation-2026-06-20T183545.png",
      "score": 6.8,
      "band": "minimal",
@@ -14680,7 +14680,7 @@
     {
      "name": "IP Vigilante",
      "slug": "ip-vigilante",
-     "description": "\"Free IP Geolocation API\"",
+     "description": "Free IP Geolocation API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip-vigilante/refs/heads/main/screenshots/ip-vigilante-2026-06-20T183540.png",
      "score": 6.8,
      "band": "minimal",
@@ -14716,7 +14716,7 @@
     {
      "name": "ip-api",
      "slug": "ip-api",
-     "description": "\"Find location with IP address or domain\"",
+     "description": "Find location with IP address or domain",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip-api/refs/heads/main/screenshots/ip-api-2026-06-20T183538.png",
      "score": 6.8,
      "band": "minimal",
@@ -14752,7 +14752,7 @@
     {
      "name": "IP2Location",
      "slug": "ip2location",
-     "description": "\"IP geolocation web service to get more than 55 parameters\"",
+     "description": "IP geolocation web service to get more than 55 parameters",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip2location/refs/heads/main/screenshots/ip2location-2026-06-20T183542.png",
      "score": 6.8,
      "band": "minimal",
@@ -14788,7 +14788,7 @@
     {
      "name": "IP2Proxy",
      "slug": "ip2proxy",
-     "description": "\"Detect proxy and VPN using IP address\"",
+     "description": "Detect proxy and VPN using IP address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ip2proxy/refs/heads/main/screenshots/ip2proxy-2026-06-20T183542.png",
      "score": 6.8,
      "band": "minimal",
@@ -14824,7 +14824,7 @@
     {
      "name": "ipapi.co",
      "slug": "ipapi-co",
-     "description": "\"Find IP address location information\"",
+     "description": "Find IP address location information",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipapi-co/refs/heads/main/screenshots/ipapi-co-2026-06-20T183545.png",
      "score": 6.8,
      "band": "minimal",
@@ -14860,7 +14860,7 @@
     {
      "name": "ipapi.com",
      "slug": "ipapi-com",
-     "description": "\"Real-time Geolocation & Reverse IP Lookup REST API\"",
+     "description": "Real-time Geolocation & Reverse IP Lookup REST API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipapi-com/refs/heads/main/screenshots/ipapi-com-2026-06-20T183547.png",
      "score": 6.8,
      "band": "minimal",
@@ -14896,7 +14896,7 @@
     {
      "name": "IPGEO",
      "slug": "ipgeo",
-     "description": "\"Unlimited free IP Address API with useful information\"",
+     "description": "Unlimited free IP Address API with useful information",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipgeo/refs/heads/main/screenshots/ipgeo-2026-06-20T183550.png",
      "score": 6.8,
      "band": "minimal",
@@ -14932,7 +14932,7 @@
     {
      "name": "IPInfoDB",
      "slug": "ipinfodb",
-     "description": "\"Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address\"",
+     "description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14967,7 +14967,7 @@
     {
      "name": "IPMA",
      "slug": "ipma",
-     "description": "\"Portuguese weather and climate data\"",
+     "description": "Portuguese weather and climate data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ipma/refs/heads/main/screenshots/ipma-2026-06-20T183555.png",
      "score": 6.8,
      "band": "minimal",
@@ -15003,7 +15003,7 @@
     {
      "name": "Kakao Maps",
      "slug": "kakao-maps",
-     "description": "\"Kakao Maps provide multiple APIs for Korean maps\"",
+     "description": "Kakao Maps provide multiple APIs for Korean maps",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao-maps/refs/heads/main/screenshots/kakao-maps-2026-06-20T183903.png",
      "score": 6.8,
      "band": "minimal",
@@ -15039,7 +15039,7 @@
     {
      "name": "Lunasonde",
      "slug": "lunasonde",
-     "description": "Lunasonde is a Techstars-backed deep-tech space company building a satellite",
+     "description": "Lunasonde is a Techstars-backed deep-tech space company building a satellite constellation for subsurface Earth imaging. Its sensing technology aims to scan beneath the surface from orbit to detect groundwater, minerals, and other underground features, delivering the resulting geophysical data to mining, agriculture, water, and natural-resource customers. As of this profile the company exposes no public developer API, documentation portal, SDK, or machine-readable API surface; this record captures its verifiable web and domain-security footprint for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunasonde/refs/heads/main/screenshots/lunasonde-2026-07-25T225726.png",
      "score": 6.8,
      "band": "minimal",
@@ -15075,7 +15075,7 @@
     {
      "name": "Mantari",
      "slug": "mantari",
-     "description": "'Mantari is a weather-intelligence and earth-sensing company building a decision-intelligence",
+     "description": "Mantari is a weather-intelligence and earth-sensing company building a decision-intelligence platform that fuses a distributed network of sensors with AI to turn environmental data across oceans, skies, and space into mission-critical, actionable intelligence. It initially targets government and defense decision support, with plans to extend into broader economic and commercial applications. As of this profile Mantari publishes a marketing homepage and a careers page but no public API, developer portal, documentation, or SDKs; this record captures its identity plus a live domain-security probe, pending a future developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15110,7 +15110,7 @@
     {
      "name": "MetaWeather",
      "slug": "metaweather",
-     "description": "\"Weather\"",
+     "description": "Weather",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15145,7 +15145,7 @@
     {
      "name": "Meteorologisk Institutt",
      "slug": "meteorologisk-institutt",
-     "description": "\"Weather and climate data\"",
+     "description": "Weather and climate data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meteorologisk-institutt/refs/heads/main/screenshots/meteorologisk-institutt-2026-06-20T185255.png",
      "score": 6.8,
      "band": "minimal",
@@ -15181,7 +15181,7 @@
     {
      "name": "Mexico",
      "slug": "mexico",
-     "description": "\"Mexico RESTful zip codes API\"",
+     "description": "Mexico RESTful zip codes API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mexico/refs/heads/main/screenshots/mexico-2026-06-20T185321.png",
      "score": 6.8,
      "band": "minimal",
@@ -15217,7 +15217,7 @@
     {
      "name": "Micro Weather",
      "slug": "micro-weather",
-     "description": "\"Real time weather forecasts and historic data\"",
+     "description": "Real time weather forecasts and historic data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/micro-weather/refs/heads/main/screenshots/micro-weather-2026-06-20T185330.png",
      "score": 6.8,
      "band": "minimal",
@@ -15289,7 +15289,7 @@
     {
      "name": "Mixer Labs",
      "slug": "mixer-labs",
-     "description": "Mixer Labs was a San Francisco startup, backed by Uncork Capital (formerly SoftTech VC),",
+     "description": "Mixer Labs was a San Francisco startup, backed by Uncork Capital (formerly SoftTech VC), best known for building GeoAPI, a geolocation and geodata web API that let developers resolve places, points of interest, and location context from coordinates. The company was acquired by Twitter in December 2009, where its technology and team (co-founders Elad Gil and Othman Laraki) went on to power Twitter's location and geo features. Mixer Labs no longer operates as an independent company, its mixerlabs.com domain no longer resolves, and it publishes no live API, developer portal, or documentation surface today. This profile is retained in the API Evangelist network as a historical portfolio-company record rather than an active provider awaiting enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15324,7 +15324,7 @@
     {
      "name": "Northstar Technology",
      "slug": "northstar-technology",
-     "description": "Northstar Technology (Northstar Technologies, Inc.) was a marine navigation electronics company",
+     "description": "Northstar Technology (Northstar Technologies, Inc.) was a marine navigation electronics company and an exited Battery Ventures portfolio investment. It was a leader in premium marine GPS/chartplotter hardware and was acquired by Brunswick Corporation in December 2002 to form Brunswick New Technologies, and later sold to Navico in 2007. It is a defunct hardware company with no live website, developer portal, or public API surface; the enrichment pipeline found no API artifacts to harvest.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15359,7 +15359,7 @@
     {
      "name": "ODWeather",
      "slug": "odweather",
-     "description": "\"Weather and weather webcams\"",
+     "description": "Weather and weather webcams",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/odweather/refs/heads/main/screenshots/odweather-2026-06-20T190624.png",
      "score": 6.8,
      "band": "minimal",
@@ -15395,7 +15395,7 @@
     {
      "name": "OGSystems",
      "slug": "ogsystems",
-     "description": "OGSystems was a geospatial intelligence, data analytics, and advanced",
+     "description": "OGSystems was a geospatial intelligence, data analytics, and advanced technology company based in Chantilly, Virginia, serving the United States intelligence community and Department of Defense with threat analytics, machine learning, and geospatial exploitation solutions. The company was acquired by Parsons Corporation in 2019 and folded into Parsons' national security and intelligence portfolio. Its former domain (ogsystems.com) now redirects to parsons.com, and it maintains no independent public developer program, API reference, or machine-readable API surface. This profile is retained in the API Evangelist network as an identity/lead record surfaced from VC-portfolio data; there are no API artifacts to enrich.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15430,7 +15430,7 @@
     {
      "name": "Oikolab",
      "slug": "oikolab",
-     "description": "\"70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF\"",
+     "description": "70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oikolab/refs/heads/main/screenshots/oikolab-2026-06-20T190645.png",
      "score": 6.8,
      "band": "minimal",
@@ -15466,7 +15466,7 @@
     {
      "name": "One Map, Singapore",
      "slug": "one-map-singapore",
-     "description": "\"Singapore Land Authority REST API services for Singapore addresses\"",
+     "description": "Singapore Land Authority REST API services for Singapore addresses",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/one-map-singapore/refs/heads/main/screenshots/one-map-singapore-2026-06-20T190712.png",
      "score": 6.8,
      "band": "minimal",
@@ -15502,7 +15502,7 @@
     {
      "name": "OnWater",
      "slug": "onwater",
-     "description": "\"Determine if a lat/lon is on water or land\"",
+     "description": "Determine if a lat/lon is on water or land",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onwater/refs/heads/main/screenshots/onwater-2026-06-20T190722.png",
      "score": 6.8,
      "band": "minimal",
@@ -15538,7 +15538,7 @@
     {
      "name": "Open Topo Data",
      "slug": "open-topo-data",
-     "description": "\"Elevation and ocean depth for a latitude and longitude\"",
+     "description": "Elevation and ocean depth for a latitude and longitude",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-topo-data/refs/heads/main/screenshots/open-topo-data-2026-06-20T190852.png",
      "score": 6.8,
      "band": "minimal",
@@ -15574,7 +15574,7 @@
     {
      "name": "openSenseMap",
      "slug": "opensensemap",
-     "description": "\"Data from Personal Weather Stations called senseBoxes\"",
+     "description": "Data from Personal Weather Stations called senseBoxes",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opensensemap/refs/heads/main/screenshots/opensensemap-2026-06-20T191031.png",
      "score": 6.8,
      "band": "minimal",
@@ -15610,7 +15610,7 @@
     {
      "name": "OptoAtmospherics",
      "slug": "optoatmospherics",
-     "description": "OptoAtmospherics, Inc. is an Ann Arbor, Michigan company (founded 2009, spun out of Michigan",
+     "description": "OptoAtmospherics, Inc. is an Ann Arbor, Michigan company (founded 2009, spun out of Michigan Aerospace Corporation) that develops UV-based Light Detection and Ranging (LIDAR) systems for the wind energy industry. Its laser-based atmospheric measurement products deliver continuous wind speed, direction, temperature, and density reporting from turbine-mounted or ground-based platforms, with real-time detection of wind gusts, shear, and turbulence to improve site assessment, increase energy output, and protect turbine equipment. The business is a hardware and atmospheric-sensing venture; it exposes no public developer API, SDK, or software platform. Its former domain (optoatmospherics.com) is now parked/for-sale and the product line lives on under michiganaerospace.com/optoatmospherics/.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15645,7 +15645,7 @@
     {
      "name": "Pirate Weather",
      "slug": "pirate-weather",
-     "description": "\"Free weather API with forecast data similar to Dark Sky\"",
+     "description": "Free weather API with forecast data similar to Dark Sky",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pirate-weather/refs/heads/main/screenshots/pirate-weather-2026-06-20T191728.png",
      "score": 6.8,
      "band": "minimal",
@@ -15681,7 +15681,7 @@
     {
      "name": "Poncho",
      "slug": "poncho",
-     "description": "Poncho was a consumer weather service founded in 2013 in New York City by Kuan Huang",
+     "description": "Poncho was a consumer weather service founded in 2013 in New York City by Kuan Huang and Paul Murphy that delivered a personalized, personality-driven daily forecast through the messaging layer — Facebook Messenger, SMS, email, and Amazon Alexa — rather than a traditional weather app. Backed by Lightspeed Venture Partners, Comcast Ventures, and Lerer Hippeau, the company was acquired by Dirty Lemon and is no longer independently operating. It never published a public developer API, OpenAPI definition, SDKs, or developer portal, so this profile carries identity metadata only.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15716,7 +15716,7 @@
     {
      "name": "PostalCodes",
      "slug": "postalcodes",
-     "description": "\"Postal code search, country exports, and address validation data\"",
+     "description": "Postal code search, country exports, and address validation data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postalcodes/refs/heads/main/screenshots/postalcodes-2026-06-20T191947.png",
      "score": 6.8,
      "band": "minimal",
@@ -15752,7 +15752,7 @@
     {
      "name": "Postali",
      "slug": "postali",
-     "description": "\"Mexico Zip Codes API\"",
+     "description": "Mexico Zip Codes API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postali/refs/heads/main/screenshots/postali-2026-06-20T191948.png",
      "score": 6.8,
      "band": "minimal",
@@ -15788,7 +15788,7 @@
     {
      "name": "PostcodeData.nl",
      "slug": "postcodedata-nl",
-     "description": "\"Provide geolocation data based on postcode for Dutch addresses\"",
+     "description": "Provide geolocation data based on postcode for Dutch addresses",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postcodedata-nl/refs/heads/main/screenshots/postcodedata-nl-2026-06-20T191951.png",
      "score": 6.8,
      "band": "minimal",
@@ -15824,7 +15824,7 @@
     {
      "name": "Queimadas INPE",
      "slug": "queimadas-inpe",
-     "description": "\"Access to heat focus data (probable wildfire)\"",
+     "description": "Access to heat focus data (probable wildfire)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/queimadas-inpe/refs/heads/main/screenshots/queimadas-inpe-2026-06-20T192430.png",
      "score": 6.8,
      "band": "minimal",
@@ -15860,7 +15860,7 @@
     {
      "name": "QWeather",
      "slug": "qweather",
-     "description": "\"Location-based weather data\"",
+     "description": "Location-based weather data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qweather/refs/heads/main/screenshots/qweather-2026-06-20T192454.png",
      "score": 6.8,
      "band": "minimal",
@@ -15966,7 +15966,7 @@
     {
      "name": "RoadGoat Cities",
      "slug": "roadgoat-cities",
-     "description": "\"Cities content & photos API\"",
+     "description": "Cities content & photos API",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16001,7 +16001,7 @@
     {
      "name": "Rwanda Locations",
      "slug": "rwanda-locations",
-     "description": "\"Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets\"",
+     "description": "Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rwanda-locations/refs/heads/main/screenshots/rwanda-locations-2026-06-20T193307.png",
      "score": 6.8,
      "band": "minimal",
@@ -16037,7 +16037,7 @@
     {
      "name": "Skybox Imaging",
      "slug": "skybox-imaging",
-     "description": "Skybox Imaging was a high-resolution Earth-observation smallsat startup",
+     "description": "Skybox Imaging was a high-resolution Earth-observation smallsat startup founded in 2009 out of Stanford University, building the SkySat constellation of small satellites to capture sub-meter commercial imagery and video. Backed by Canaan Partners among other venture investors, it was acquired by Google in 2014 for roughly $500M, renamed Terra Bella in 2016, and then sold to Planet Labs in 2017. The company no longer exists as an independent entity and publishes no live developer API, docs, or discovery surface; this profile is retained as a portfolio-graph node for canaan-partners.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16072,7 +16072,7 @@
     {
      "name": "Skyboximaging",
      "slug": "skyboximaging",
-     "description": "'Skybox Imaging was a satellite imaging and geospatial-analytics company (founded 2009, Mountain",
+     "description": "Skybox Imaging was a satellite imaging and geospatial-analytics company (founded 2009, Mountain View, CA) that built a constellation of small high-resolution Earth-observation satellites (SkySat) and the analytics to turn frequent imagery into commercial insight. Backed by Norwest Venture Partners, Bessemer, Khosla Ventures and others, it was acquired by Google in 2014 (~$500M), renamed Terra Bella, and its satellite business was sold to Planet Labs in 2017. The skyboximaging.com domain is no longer a live product surface; this profile is retained in the API Evangelist network for portfolio-graph and historical reference.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16107,7 +16107,7 @@
     {
      "name": "SLF",
      "slug": "slf",
-     "description": "\"German city, country, river, database\"",
+     "description": "German city, country, river, database",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slf/refs/heads/main/screenshots/slf-2026-06-20T194026.png",
      "score": 6.8,
      "band": "minimal",
@@ -16143,7 +16143,7 @@
     {
      "name": "SpotSense",
      "slug": "spotsense",
-     "description": "\"Add location based interactions to your mobile app\"",
+     "description": "Add location based interactions to your mobile app",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16178,7 +16178,7 @@
     {
      "name": "Storm Glass",
      "slug": "storm-glass",
-     "description": "\"Global marine weather from multiple sources\"",
+     "description": "Global marine weather from multiple sources",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/storm-glass/refs/heads/main/screenshots/storm-glass-2026-06-20T194606.png",
      "score": 6.8,
      "band": "minimal",
@@ -16214,7 +16214,7 @@
     {
      "name": "Telize",
      "slug": "telize",
-     "description": "\"Telize offers location information from any IP address\"",
+     "description": "Telize offers location information from any IP address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/telize/refs/heads/main/screenshots/telize-2026-06-20T195047.png",
      "score": 6.8,
      "band": "minimal",
@@ -16250,7 +16250,7 @@
     {
      "name": "Terra Bella (fka Skybox Imaging)",
      "slug": "terra-bella-fka-skybox-imaging",
-     "description": "'Terra Bella, originally founded in 2009 as Skybox Imaging (Mountain View, California), was a",
+     "description": "Terra Bella, originally founded in 2009 as Skybox Imaging (Mountain View, California), was a satellite imaging and geospatial analytics company that built and operated the SkySat constellation of high-resolution Earth-observation satellites. Google acquired Skybox Imaging in 2014 for roughly $500 million and rebranded it Terra Bella. In 2017 Alphabet/Google sold Terra Bella and its SkySat satellites to Planet Labs, folding the business into Planet's Earth-observation operations. Terra Bella no longer exists as an independent operating entity and publishes no independent developer portal, API, or SDK surface; its capabilities live on inside Planet Labs. Surfaced as a portfolio company of bessemer-venture-partners.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16285,7 +16285,7 @@
     {
      "name": "Uebermaps",
      "slug": "uebermaps",
-     "description": "\"Discover and share maps with friends\"",
+     "description": "Discover and share maps with friends",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uebermaps/refs/heads/main/screenshots/uebermaps-2026-06-20T195953.png",
      "score": 6.8,
      "band": "minimal",
@@ -16357,7 +16357,7 @@
     {
      "name": "US Weather",
      "slug": "us-weather",
-     "description": "\"US National Weather Service\"",
+     "description": "US National Weather Service",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-weather/refs/heads/main/screenshots/us-weather-2026-06-20T200634.png",
      "score": 6.8,
      "band": "minimal",
@@ -16393,7 +16393,7 @@
     {
      "name": "US ZipCode",
      "slug": "us-zipcode",
-     "description": "\"Validate and append data for any US ZipCode\"",
+     "description": "Validate and append data for any US ZipCode",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-zipcode/refs/heads/main/screenshots/us-zipcode-2026-06-20T200635.png",
      "score": 6.8,
      "band": "minimal",
@@ -16429,7 +16429,7 @@
     {
      "name": "ViaCep",
      "slug": "viacep",
-     "description": "\"Brazil RESTful zip codes API\"",
+     "description": "Brazil RESTful zip codes API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/viacep/refs/heads/main/screenshots/viacep-2026-06-20T201006.png",
      "score": 6.8,
      "band": "minimal",
@@ -16465,7 +16465,7 @@
     {
      "name": "Visual Crossing",
      "slug": "visual-crossing",
-     "description": "\"Global historical and weather forecast data\"",
+     "description": "Global historical and weather forecast data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visual-crossing/refs/heads/main/screenshots/visual-crossing-2026-06-20T201057.png",
      "score": 6.8,
      "band": "minimal",
@@ -16501,7 +16501,7 @@
     {
      "name": "weather-api",
      "slug": "weather-api",
-     "description": "\"A RESTful free API to check the weather\"",
+     "description": "A RESTful free API to check the weather",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/weather-api/refs/heads/main/screenshots/weather-api-2026-06-20T201311.png",
      "score": 6.8,
      "band": "minimal",
@@ -16537,7 +16537,7 @@
     {
      "name": "Weatherstack",
      "slug": "weatherstack",
-     "description": "\"Real-Time & Historical World Weather Data API\"",
+     "description": "Real-Time & Historical World Weather Data API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/weatherstack/refs/heads/main/screenshots/weatherstack-2026-06-20T201314.png",
      "score": 6.8,
      "band": "minimal",
@@ -16573,7 +16573,7 @@
     {
      "name": "wttr.in",
      "slug": "wttr-in",
-     "description": "\"Weather in your terminal, supports JSON output\"",
+     "description": "Weather in your terminal, supports JSON output",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wttr-in/refs/heads/main/screenshots/wttr-in-2026-06-20T201636.png",
      "score": 6.8,
      "band": "minimal",
@@ -16609,7 +16609,7 @@
     {
      "name": "Yandex.Maps Geocoder",
      "slug": "yandex-maps-geocoder",
-     "description": "\"Use geocoding to get an object's coordinates from its address\"",
+     "description": "Use geocoding to get an object's coordinates from its address",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yandex-maps-geocoder/refs/heads/main/screenshots/yandex-maps-geocoder-2026-06-20T201723.png",
      "score": 6.8,
      "band": "minimal",
@@ -16645,7 +16645,7 @@
     {
      "name": "Yandex.Weather",
      "slug": "yandex-weather",
-     "description": "\"Assesses weather condition in specific locations\"",
+     "description": "Assesses weather condition in specific locations",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yandex-weather/refs/heads/main/screenshots/yandex-weather-2026-06-20T201723.png",
      "score": 6.8,
      "band": "minimal",
@@ -16681,7 +16681,7 @@
     {
      "name": "ZipCodeAPI",
      "slug": "zipcodeapi",
-     "description": "\"US zip code distance, radius and location API\"",
+     "description": "US zip code distance, radius and location API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zipcodeapi/refs/heads/main/screenshots/zipcodeapi-2026-06-20T201916.png",
      "score": 6.8,
      "band": "minimal",
@@ -16717,7 +16717,7 @@
     {
      "name": "Zippopotam.us",
      "slug": "zippopotam-us",
-     "description": "\"Get information about place such as country, city, state, etc\"",
+     "description": "Get information about place such as country, city, state, etc",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zippopotam-us/refs/heads/main/screenshots/zippopotam-us-2026-06-20T201918.png",
      "score": 6.8,
      "band": "minimal",
@@ -16753,7 +16753,7 @@
     {
      "name": "Ziptastic",
      "slug": "ziptastic",
-     "description": "\"Get the country, state, and city of any US zip-code\"",
+     "description": "Get the country, state, and city of any US zip-code",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ziptastic/refs/heads/main/screenshots/ziptastic-2026-06-20T201921.png",
      "score": 6.8,
      "band": "minimal",
@@ -16887,7 +16887,7 @@
     {
      "name": "Landgate",
      "slug": "landgate",
-     "description": "Landgate is the Western Australian Land Information Authority — the WA government",
+     "description": "Landgate is the Western Australian Land Information Authority — the WA government agency that maintains the state land titles register, values every rateable property in Western Australia, and curates the state's foundational location data (cadastre, tenure, property addresses, sales evidence, imagery, elevation, geographic names). In the Australian real estate value chain Landgate sits underneath the listing portals (REA Group's realestate.com.au and Domain) and underneath PEXA's electronic conveyancing rail as the authoritative source of the public land record for WA; since 2019 the automated land titling and registry operations have been operated under a commercial services arrangement while Landgate retains the Registrar of Titles function and the data custodianship. Its API posture is genuinely split and should not be overstated — a real, anonymously callable public surface exists (the SLIP Shared Location Information Platform ArcGIS REST directory plus OGC WMS/WFS services, and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.",
      "rank": 464
     },
     {
@@ -16912,7 +16912,7 @@
     {
      "name": "Ordnance Survey",
      "slug": "ordnance-survey",
-     "description": "'Ordnance Survey is Great Britain''s national mapping agency, a government-owned company",
+     "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "rank": 468
     },
     {

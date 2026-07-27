@@ -141,7 +141,7 @@
     {
      "name": "itslearning",
      "slug": "itslearning",
-     "description": "'itslearning is a Norwegian learning management system (LMS) founded in 1999 and",
+     "description": "itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, giving teachers lesson planning (\"Plans\"), assessment and quizzing, communication, an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1 deprecated since June 2022) for third-party tool and content integration into the itslearning Library.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/screenshots/itslearning-2026-07-25T223009.png",
      "score": 36.0,
      "band": "thin",
@@ -223,7 +223,7 @@
     {
      "name": "Funcom",
      "slug": "funcom",
-     "description": "'Funcom is a Norwegian video-game developer and publisher founded in",
+     "description": "Funcom is a Norwegian video-game developer and publisher founded in 1993, headquartered in Oslo with additional studios in Raleigh (North Carolina), Lisbon, and Bucharest. It is best known for online, open-world, and survival titles including Dune: Awakening, Conan Exiles, Age of Conan, and The Secret World / Secret World Legends, alongside published titles such as Metal: Hellsinger, Aloft, Dune: Spice Wars, and Mutant Year Zero. Funcom is majority-owned by Tencent. It was surfaced as a Northzone portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public developer API surface, so this profile captures company identity, legal/support links, and domain-security posture rather than API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/funcom/refs/heads/main/screenshots/funcom-2026-07-25T215300.png",
      "score": 11.8,
      "band": "minimal",
@@ -259,7 +259,7 @@
     {
      "name": "Villoid",
      "slug": "villoid",
-     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com)",
+     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -294,7 +294,7 @@
     {
      "name": "Nextgentel",
      "slug": "nextgentel",
-     "description": "'NextGenTel is one of Norway''s established independent internet service providers, delivering",
+     "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -329,7 +329,7 @@
     {
      "name": "Dimeq",
      "slug": "dimeq",
-     "description": "'Dimeq is a Norwegian maritime safety technology company working to prevent loss of life",
+     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
      "score": 6.8,
      "band": "minimal",
@@ -365,7 +365,7 @@
     {
      "name": "Energy Micro",
      "slug": "energy-micro",
-     "description": "'Energy Micro was a Norwegian fabless semiconductor company, founded in",
+     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
      "score": 6.8,
      "band": "minimal",
@@ -401,7 +401,7 @@
     {
      "name": "Mamut",
      "slug": "mamut",
-     "description": "'Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that",
+     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

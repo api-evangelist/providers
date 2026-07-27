@@ -527,7 +527,7 @@
     {
      "name": "Hyatt",
      "slug": "hyatt",
-     "description": "'A global hospitality company managing and franchising luxury and upscale hotels, resorts, and vacation properties. Operates brands including Park Hyatt, Grand Hyatt, Andaz, and Hyatt Regency across more than 70 countries. No public developer portal or open API catalogue was located; Hyatt distributes inventory through GDS and travel-industry channels rather than a public REST API surface.'",
+     "description": "A global hospitality company managing and franchising luxury and upscale hotels, resorts, and vacation properties. Operates brands including Park Hyatt, Grand Hyatt, Andaz, and Hyatt Regency across more than 70 countries. No public developer portal or open API catalogue was located; Hyatt distributes inventory through GDS and travel-industry channels rather than a public REST API surface.",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -598,7 +598,7 @@
     {
      "name": "Vail Resorts",
      "slug": "vail-resorts",
-     "description": "'Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).'",
+     "description": "Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vail-resorts/refs/heads/main/screenshots/vail-resorts-2026-06-20T200756.png",
      "score": 4.2,
      "band": "minimal",
@@ -634,7 +634,7 @@
     {
      "name": "Marriott Vacations Worldwide",
      "slug": "marriott-vacations-worldwide",
-     "description": "'Profile for Marriott Vacations Worldwide in the API Evangelist network. Fortune F1000 (rank 612).'",
+     "description": "Profile for Marriott Vacations Worldwide in the API Evangelist network. Fortune F1000 (rank 612).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marriott-vacations-worldwide/refs/heads/main/screenshots/marriott-vacations-worldwide-2026-06-20T185003.png",
      "score": 3.9,
      "band": "minimal",
@@ -670,7 +670,7 @@
     {
      "name": "Park Hotels &amp; Resorts",
      "slug": "park-hotels-and-resorts",
-     "description": "'Profile for Park Hotels &amp; Resorts in the API Evangelist network. Fortune F1000 (rank 817).'",
+     "description": "Profile for Park Hotels &amp; Resorts in the API Evangelist network. Fortune F1000 (rank 817).",
      "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",

@@ -128,7 +128,7 @@
     {
      "name": "COSCO Shipping",
      "slug": "cosco-shipping",
-     "description": "'A Chinese state-owned multinational shipping and logistics conglomerate and the world''s largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.'",
+     "description": "A Chinese state-owned multinational shipping and logistics conglomerate and the world's largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
      "score": 10.9,
      "band": "minimal",
@@ -164,7 +164,7 @@
     {
      "name": "Hapag-Lloyd",
      "slug": "hapag-lloyd",
-     "description": "'A German multinational container shipping company and one of the world''s largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability. Provides a public API portal (api-portal.hlag.com) exposing container tracking, schedule, and booking APIs to customers, partners, and logistics platforms.'",
+     "description": "A German multinational container shipping company and one of the world's largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability. Provides a public API portal (api-portal.hlag.com) exposing container tracking, schedule, and booking APIs to customers, partners, and logistics platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hapag-lloyd/refs/heads/main/screenshots/hapag-lloyd-2026-06-20T182512.png",
      "score": 9.2,
      "band": "minimal",
@@ -236,7 +236,7 @@
     {
      "name": "Matson",
      "slug": "matson",
-     "description": "'Profile for Matson in the API Evangelist network. Fortune F1000 (rank 947).'",
+     "description": "Profile for Matson in the API Evangelist network. Fortune F1000 (rank 947).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matson/refs/heads/main/screenshots/matson-2026-06-20T185047.png",
      "score": 4.2,
      "band": "minimal",

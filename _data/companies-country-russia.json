@@ -11,7 +11,7 @@
     {
      "name": "Avito",
      "slug": "avito",
-     "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where",
+     "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png",
      "score": 48.9,
      "band": "developing",
@@ -102,7 +102,7 @@
     {
      "name": "KupiVIP",
      "slug": "kupivip",
-     "description": "'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling",
+     "description": "KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling women's and men's apparel, footwear, bags, accessories and home goods from more than 250 international designer brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia, publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over 30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",

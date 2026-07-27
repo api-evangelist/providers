@@ -11,7 +11,7 @@
     {
      "name": "bexio",
      "slug": "bexio",
-     "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed,",
+     "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed, covering accounting, invoicing (incl. Swiss QR-bill), contacts, sales orders, projects and time tracking, banking, purchasing, and payroll. The bexio REST API at api.bexio.com/2.0 exposes these modules over HTTPS with JSON, secured by OAuth 2.0 (OpenID Connect) or Personal Access Tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png",
      "score": 66.7,
      "band": "strong",
@@ -128,7 +128,7 @@
     {
      "name": "SIX",
      "slug": "six-group",
-     "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including",
+     "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including SIX Swiss Exchange, BME, and Swiss interbank clearing and securities services, alongside SIX Financial Information, one of the largest global market data vendors. It sells real-time, intraday, end-of-day, and historical pricing, reference data, corporate actions, and regulatory/ESG datasets from more than 900 price sources, delivered via the SIX Web API (REST/JSON, GraphQL, WebSocket), the SIX Bulk API, streaming Market Data Feed, SIX Flex and Valordata Feed files, and Snowflake cloud shares. A public developer portal at developer.six-group.com fronts the bLink open banking platform, the debiX debit card API, and a shared Kong-based API catalog with Swiss interbank clearing and settlement APIs. Financial data access is enterprise and sales-gated with MTLS certificate authentication, while several Swiss payment infrastructure APIs are publicly documented with downloadable OpenAPI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
      "score": 55.2,
      "band": "developing",
@@ -546,7 +546,7 @@
     {
      "name": "KITRO",
      "slug": "kitro",
-     "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and",
+     "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and reduce food waste through AI-powered automation. Its KITRO TARE device pairs an IoT scale with a camera and computer vision to automatically identify, weigh and categorize discarded food with no change to kitchen workflow, feeding a cloud analytics dashboard that surfaces waste trends by time, item and station, compares performance across properties, and exports reports for sustainability and EU food-waste compliance reporting. KITRO serves hotel groups and resorts, hospitals and care homes, corporate canteens, universities and schools, and river and ocean cruise operators in 20+ countries, with customers including Marriott, Hyatt, TUI BLUE, Pestana, 25hours Hotels and Sydney Opera Bar. KITRO publishes no public developer API, SDKs or developer portal — the only customer-facing software surface is the authenticated dashboard at my.kitro.ch — but it does publish an llms.txt agent-readable company description at www.kitro.ch/llms.txt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png",
      "score": 14.9,
      "band": "minimal",
@@ -624,7 +624,7 @@
     {
      "name": "Swiss Education Group",
      "slug": "swiss-education-group",
-     "description": "'Swiss Education Group (SEG) is a Montreux-based alliance of internationally",
+     "description": "Swiss Education Group (SEG) is a Montreux-based alliance of internationally celebrated hospitality, business, and culinary arts schools in Switzerland, comprising Cesar Ritz Colleges, Culinary Arts Academy Switzerland, Swiss Hotel Management School, and HIM Business School. Across five campuses it educates more than 6,000 students from over 110 nationalities in hospitality management, culinary arts, and business. It was surfaced as a portfolio company of idg-capital and added to the API Evangelist network for enrichment. As of this pass SEG publishes no public developer portal, API documentation, SDKs, or machine-readable API surface; this profile is maintained as a company/identity record rather than an API provider.",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",

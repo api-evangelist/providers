@@ -52,7 +52,7 @@
     {
      "name": "Form3",
      "slug": "form3",
-     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology",
+     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
      "score": 61.3,
      "band": "strong",
@@ -228,7 +228,7 @@
     {
      "name": "Dojo",
      "slug": "dojo",
-     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in",
+     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in London) that provides card acquiring and payment processing for in-person, online, and omnichannel merchants. It combines Dojo card machines and terminals, a payment gateway, and merchant tooling (bookings, EPOS integrations, business banking-style accounts) into a single acquirer-processor stack aimed at UK small and mid-market businesses and hospitality. Dojo is genuinely API-native and publishes a public developer portal at docs.dojo.tech with a REST API for payment intents, customers, refunds, captures, terminals, and webhooks, alongside separate specs for transactions, EPOS data ingestion, and Tap to Pay on iPhone. Authentication is a secret API key sent in the Authorization header (sandbox sk_sandbox_ and production sk_prod_ prefixes), and the platform supports webhook event subscriptions. Positioned within the UK's dense card-acquiring and PSP cluster alongside players like Checkout.com and SumUp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png",
      "score": 57.6,
      "band": "developing",
@@ -311,7 +311,7 @@
     {
      "name": "GSMA",
      "slug": "gsma",
-     "description": "'The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry,",
+     "description": "The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona. In telecom's API value chain the GSMA is not a network operator and not an aggregator; it is the standards and commitment layer. Its GSMA Open Gateway initiative is the memorandum of understanding under which 69 operator groups, representing 78% of global mobile connections, commit to exposing a common set of network APIs, while the API specifications themselves are authored in the Linux Foundation's CAMARA project. The GSMA's API posture is unusually open for a standards body: its Open Gateway developer portal at open-gateway.gsma.com publishes 17 CAMARA OpenAPI 3.0.3 documents in full, without login, alongside a live public deployment map covering 607 launched API instances across 80 operators and 65 countries, and it runs a separate, fully open Mobile Money API developer portal with a downloadable OpenAPI 3.0.0 specification, SDKs, and use-case guides. The gates are real but narrow: the API sandbox requires a GitHub sign-in, the anti-fraud Scam Signal API is held in a private GSMA repository rather than in public CAMARA, and the commercial GSMA Services products (Device Check, IMEI Database, PathFinder, Disposable Number Check) are membership and contract gated with no public documentation. The GSMA runs no production network API endpoints of its own — every Open Gateway API is served by an operator or a channel partner such as Infobip, IPification, TMT iD, XConnect, or Singtel.",
      "score": 54.8,
      "band": "developing",
      "band_label": "Developing",
@@ -466,7 +466,7 @@
     {
      "name": "first direct",
      "slug": "first-direct",
-     "description": "first direct is a telephone- and internet-based retail bank and a division",
+     "description": "first direct is a telephone- and internet-based retail bank and a division of HSBC UK Bank plc, headquartered in Leeds, England and launched in 1989. It offers personal current accounts, savings, credit cards, loans, mortgages and insurance to UK consumers with a reputation for customer service, operating with no physical branches of its own. As an HSBC brand, first direct participates in the UK Open Banking regime under HSBC UK - one of the nine CMA9 banks mandated by the Competition and Markets Authority - and is regulated by the Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA). Its Open Banking surfaces conform to the Open Banking Implementation Entity (OBIE / Open Banking Limited) standards - a public, unauthenticated Open Data API (personal current account product reference data, ATM and branch locators, published on the shared HSBC api.hsbc.com host where \"first direct\" appears as a distinct brand) and the FAPI-secured OBIE Read/Write APIs - Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - onboarded and documented through HSBC's developer portal at develop.hsbc.com, which serves the HSBC UK, first direct and M&S Bank brands.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png",
      "score": 53.9,
      "band": "developing",
@@ -550,7 +550,7 @@
     {
      "name": "zopa",
      "slug": "zopa",
-     "description": "'Zopa Bank is a UK FCA-authorised, PRA-regulated digital bank offering flexible savings,",
+     "description": "Zopa Bank is a UK FCA-authorised, PRA-regulated digital bank offering flexible savings, personal loans, credit cards, car finance and the Biscuit current account. As a registered Account Servicing Payment Service Provider (ASPSP), Zopa exposes UK Open Banking Read/Write v4.0.0 APIs to authorised Third Party Providers: an Account & Transaction API (AIS) for consent-based access to accounts, balances, transactions, statements, standing orders, direct debits, beneficiaries and party data, and a Payment Initiation API (PIS) for domestic payments and standing orders. Access uses OAuth2 (client-credentials for TPPs, authorization-code for PSUs) over mutual TLS with FAPI headers and JWS request signing. Zopa was surfaced as a portfolio company of Balderton Capital, Bessemer Venture Partners, HV Capital, Northzone, QED Investors and SoftBank Vision Fund.",
      "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
@@ -591,7 +591,7 @@
     {
      "name": "Beazley",
      "slug": "beazley",
-     "description": "Beazley plc is a London-headquartered specialty insurer and one of the",
+     "description": "Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png",
      "score": 53.1,
      "band": "developing",
@@ -633,7 +633,7 @@
     {
      "name": "Coutts",
      "slug": "coutts",
-     "description": "Coutts & Co is a British private bank and wealth manager founded in 1692, headquartered in",
+     "description": "Coutts & Co is a British private bank and wealth manager founded in 1692, headquartered in London and serving high-net-worth individuals, families, commercial and institutional clients. It is a wholly owned subsidiary of NatWest Group (formerly The Royal Bank of Scotland Group), one of the UK CMA9 banking groups mandated to deliver Open Banking. Coutts is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (FCA Firm Reference 001b000000MfEueAAF). As an Account Servicing Payment Service Provider (ASPSP) it participates in UK Open Banking under PSD2, exposing its account, payment and confirmation-of-funds surfaces through NatWest Group's \"Bank of APIs\" developer platform. Those Read/Write APIs conform to the Open Banking Implementation Entity (OBIE) Read/Write Standard and are secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS client authentication using OBIE/eIDAS certificates. Coutts additionally publishes OBIE Open Data reference information for its commercial/business current accounts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png",
      "score": 52.7,
      "band": "developing",
@@ -949,7 +949,7 @@
     {
      "name": "Kriya",
      "slug": "kriya",
-     "description": "'Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and",
+     "description": "Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and working-capital provider that lets merchants offer trade credit to their business buyers. Its products span Embedded PayLater (B2B buy-now-pay-later terms at checkout), Invoice Finance, working capital loans, buyer authentication, offline payments and a Kriya-on-Stripe integration. Kriya publishes two partner-facing REST APIs — the Payments API for buyer registration, risk decisioning, order lifecycle and payment deductions, and the Onboarding API for automating company and KYC checks — alongside a hosted Payments Journey and Onboarding Journey web flow, HMAC-signed webhooks, a dedicated test environment with scenario simulators, and e-commerce plugins for BigCommerce, Magento, nopCommerce, PrestaShop and Salesforce. Kriya was acquired by Allica Bank in October 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png",
      "score": 51.2,
      "band": "developing",
@@ -991,7 +991,7 @@
     {
      "name": "Tribe Payments",
      "slug": "tribe-payments",
-     "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer",
+     "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.",
      "score": 51.0,
      "band": "developing",
      "band_label": "Developing",
@@ -1151,7 +1151,7 @@
     {
      "name": "GSMA Open Gateway",
      "slug": "open-gateway",
-     "description": "'GSMA Open Gateway is the mobile industry''s operator-commitment and certification layer",
+     "description": "GSMA Open Gateway is the mobile industry's operator-commitment and certification layer for network APIs, run by the GSM Association from its London headquarters in the United Kingdom. Launched at MWC Barcelona on 27 February 2023 with 21 operator groups and eight universal network APIs, it is the go-to-market wrapper around CAMARA, the Linux Foundation-hosted Telco Global API Alliance that actually authors the OpenAPI definitions. GSMA sits above the value chain rather than in it: it signs operators and channel partners to a memorandum of understanding, certifies implementations against CAMARA service APIs and TM Forum Operate APIs, and publishes which certified APIs are live in which markets. Its API posture is honestly non-existent as a first-party surface. GSMA operates no callable API, publishes no OpenAPI under its own name, and runs no self-serve developer portal with keys or a sandbox. open-gateway.gsma.com is a filterable directory of certified deployments, and every automated probe of it and of gsma.com returned an HTTP 403 Cloudflare bot challenge. The specifications are open on GitHub under camaraproject and tmforum-apis; the endpoints belong to operators; and developers reach them through aggregators and channel partners such as Aduna, Vonage, Infobip, Sinch, Twilio, Nokia, AWS and Bridge Alliance rather than through the GSMA. Per the GSMA's own Q1 2026 Open Gateway update, 81 operator groups and 61 channel partners covering 292 networks and about 80 percent of global mobile connections have signed, with 237 certified API assets drawn from 33 CAMARA tagged released APIs and 280 API instances commercially launched across 85 networks in 50 markets.",
      "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
@@ -1430,7 +1430,7 @@
     {
      "name": "Kroo",
      "slug": "kroo",
-     "description": "Kroo Bank Ltd is a UK app-based challenger bank, founded in 2016 and granted a full UK banking",
+     "description": "Kroo Bank Ltd is a UK app-based challenger bank, founded in 2016 and granted a full UK banking licence by the PRA/FCA in 2021 (restrictions lifted in 2022), that launched its digital-only personal current account in December 2022. Independent and venture-backed rather than mutual or part of a larger group, Kroo offers a fee-free everyday current account, interest-paying balances and \"Kroo Pots\", fee-free spending abroad, and FSCS deposit protection up to GBP 85,000. As an FCA-authorised ASPSP under PSD2, Kroo is a regulated Open Banking provider (though not one of the nine CMA9-mandated banks and, as a branchless digital bank, it publishes no Open Data reference APIs for ATMs or branches). It exposes the UK Open Banking Implementation Entity (OBIE) Read/Write API family - Account and Transaction Information, Payment Initiation, and Confirmation of Funds - through a Banfico-hosted developer portal at developer.kroo.banfico.io, secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication implemented as a CIBA decoupled (poll-mode) flow, and mutual-TLS client authentication using OBIE/eIDAS certificates, validated with the OpenID Foundation conformance suite.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png",
      "score": 48.3,
      "band": "developing",
@@ -1472,7 +1472,7 @@
     {
      "name": "Ofcom",
      "slug": "ofcom",
-     "description": "Ofcom is the Office of Communications, the United Kingdom's independent",
+     "description": "Ofcom is the Office of Communications, the United Kingdom's independent regulator and competition authority for telecommunications, spectrum, broadcasting, post, and online safety. It licenses UK spectrum, administers the national numbering plan, publishes the Connected Nations reports on fixed and mobile coverage, and supervises the operators (EE, VMO2, Vodafone, Three) rather than selling connectivity itself. Its position in the telecom value chain is therefore upstream of the market it measures — it is a data producer and rule-setter, not a network or a CPaaS aggregator. Its API posture is unusually good for a regulator and unusually narrow in scope. Ofcom runs a real, Ofcom-branded Azure API Management developer portal at api.ofcom.org.uk with open sign-up, an interactive console, published rate-limit tiers, and anonymously downloadable OpenAPI 3.0.1 documents for two APIs — the Connected Nations Broadband API and the Connected Nations Mobile API — both served from the live gateway at api-proxy.ofcom.org.uk and authenticated with an Azure APIM subscription key. Everything else Ofcom publishes (spectrum licence registers, numbering data, market research) is documents and datasets, not APIs, and the community has repeatedly built third-party APIs on top of those files. Ofcom appears once in the CAMARA project participant register but exposes no CAMARA network APIs and is not a GSMA Open Gateway participant — Open Gateway is an operator commitment programme and Ofcom is the regulator, not an operator.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -1591,7 +1591,7 @@
     {
      "name": "Starling Bank",
      "slug": "starling-bank",
-     "description": "Starling Bank is a UK app-only digital challenger bank founded in 2014 by",
+     "description": "Starling Bank is a UK app-only digital challenger bank founded in 2014 by Anne Boden and headquartered in London, holding a full UK banking licence and authorised and regulated by the Prudential Regulation Authority and the Financial Conduct Authority (FSCS-protected, SWIFT SRLGGB2L). It is a privately held company - not a mutual and not publicly listed - backed by investors including Goldman Sachs, Fidelity, and the Qatar Investment Authority, and it also licenses its core banking platform as Software-as-a-Service under the \"Engine by Starling\" brand. As an FCA-authorised ASPSP it participates in UK Open Banking / PSD2, but Starling is best known for its own developer-friendly, bespoke RESTful Developer API (accounts, transaction feed, payments, payees, savings goals/spaces, cards, mandates, and identity) served over OAuth2 at api.starlingbank.com with a full sandbox, alongside its Open Banking Read/Write (AIS, PIS, CBPII) conformance to the Open Banking Implementation Entity (OBIE) standard secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Starling is a challenger bank and is not one of the nine CMA9 mandated banks.",
      "score": 47.7,
      "band": "developing",
      "band_label": "Developing",
@@ -1876,7 +1876,7 @@
     {
      "name": "Mettle",
      "slug": "mettle",
-     "description": "Mettle is a digital-only business bank account brand for UK sole traders,",
+     "description": "Mettle is a digital-only business bank account brand for UK sole traders, freelancers, and small limited companies, wholly owned by NatWest Group and originally built with Capco. It has no physical branches and is run on separate technology from the core NatWest bank, offering an app-based current account with a UK sort code and account number, invoicing, bookkeeping, tax tools, and a free FreeAgent accounting integration. As a NatWest Group brand, Mettle participates in UK Open Banking through NatWest Group's \"Bank of APIs\" developer platform, publishing PSD2 / OBIE-conformant APIs - a public, unsecured Open Data (Product) API describing its business current accounts, plus the FAPI-secured Read/Write family (Account & Transaction Information, Payment Initiation, and Confirmation of Funds). Read/Write access runs against a live production gateway (api.openbanking.prd-mettle.co.uk) secured with OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates, onboarded via the Bank of APIs portal. Mettle is delivered under NatWest Group's FCA-authorised banking group and is a challenger/digital proposition rather than one of the CMA9 mandated brands.",
      "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
@@ -1917,7 +1917,7 @@
     {
      "name": "Allica Bank",
      "slug": "allica-bank",
-     "description": "Allica Bank Limited is a UK financial-technology bank built specifically",
+     "description": "Allica Bank Limited is a UK financial-technology bank built specifically for established small and medium-sized businesses, offering business current accounts, savings, commercial mortgages, asset finance, and invoice finance. It is a privately owned, venture-backed challenger bank (not a mutual or building society), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 821851), registered in England and Wales (company number 07706156). As an FCA-authorised ASPSP it participates in UK Open Banking under the Open Banking Implementation Entity (OBIE) Read/Write Standard and PSD2 - it is not one of the nine CMA9 mandated banks, but publishes a public developer portal exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (fundsconfirmations) APIs for its Business Rewards accounts. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using Open Banking Directory / eIDAS certificates and Software Statement Assertions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png",
      "score": 46.3,
      "band": "developing",
@@ -2203,7 +2203,7 @@
     {
      "name": "NHS England",
      "slug": "nhs-england",
-     "description": "'NHS England (which absorbed NHS Digital in 2023) is the national body that runs England''s",
+     "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
      "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
@@ -2499,7 +2499,7 @@
     {
      "name": "Lloyds Banking Group",
      "slug": "lloyds-banking-group",
-     "description": "Lloyds Banking Group plc is the United Kingdom's largest retail and",
+     "description": "Lloyds Banking Group plc is the United Kingdom's largest retail and commercial banking group, serving personal, business, and corporate customers through the Lloyds Bank, Halifax, Bank of Scotland, MBNA, and Scottish Widows brands. Formed in 2009 through the acquisition of HBOS by Lloyds TSB, it is a publicly listed company on the London Stock Exchange (LLOY) and a FTSE 100 constituent - not a mutual or building society. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the nine CMA-mandated banks (CMA9), Lloyds operates a public developer platform at developer.lloydsbanking.com that publishes UK Open Banking (OBIE / PSD2) APIs - unauthenticated Open Data reference APIs for ATMs, branches, and product information, plus the FAPI-secured Read/Write family - Account and Transaction Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), Variable Recurring Payments (VRP), and Event Notifications - conformant to the Open Banking Implementation Entity (OBIE) Read/Write API Standard, secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication using OBIE/eIDAS certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png",
      "score": 44.7,
      "band": "thin",
@@ -2863,7 +2863,7 @@
     {
      "name": "Nationwide Building Society",
      "slug": "nationwide-building-society",
-     "description": "Nationwide Building Society is the world's largest building society and",
+     "description": "Nationwide Building Society is the world's largest building society and one of the UK's biggest retail financial services providers, headquartered in Swindon, England. As a mutual it is owned by and run for the benefit of its members rather than external shareholders, offering current accounts, mortgages, savings, and personal loans across a large branch and digital network. Nationwide is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the CMA9 - the nine largest current-account providers mandated by the UK Competition and Markets Authority to deliver Open Banking - Nationwide operates a public developer portal that publishes UK Open Banking APIs conformant to the Open Banking Implementation Entity (OBIE) standards - public, unauthenticated Open Data APIs (ATM and branch locators, personal and business current account product reference data) and FAPI-secured Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), and Variable Recurring Payments (VRP), secured with OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates.",
      "score": 43.9,
      "band": "thin",
      "band_label": "Thin",
@@ -2904,7 +2904,7 @@
     {
      "name": "Aldermore Bank",
      "slug": "aldermore",
-     "description": "Aldermore Bank plc is a UK specialist bank founded in 2009 and headquartered",
+     "description": "Aldermore Bank plc is a UK specialist bank founded in 2009 and headquartered in Reading, offering savings accounts and specialist lending across residential and buy-to-let mortgages, commercial and property finance, asset finance, invoice finance, and motor finance (through sister company MotoNovo Finance). Aldermore Group is wholly owned by South Africa's FirstRand Group, which acquired it in 2018 and, as of 2026, has begun a process to sell the UK business and exit the market. Aldermore Bank plc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (Financial Services Register number 204503). It is a branchless, digitally-delivered specialist lender rather than a full-service current-account bank, and it is NOT one of the nine CMA-mandated banks (CMA9). Because it does not provide personal or business current accounts, its UK Open Banking (OBIE / PSD2) payment-account footprint is minimal, and no public Aldermore developer portal, Open Data endpoint, or bank-proprietary API surface could be confirmed at bootstrap; the OBIE Open Data and Read/Write API families below are represented as the shared UK Open Banking standard, unverified for this bank.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png",
      "score": 43.8,
      "band": "thin",
@@ -2946,7 +2946,7 @@
     {
      "name": "C. Hoare & Co.",
      "slug": "c-hoare-and-co",
-     "description": "C. Hoare & Co. (Hoares Bank) is the United Kingdom's oldest privately-owned bank, founded",
+     "description": "C. Hoare & Co. (Hoares Bank) is the United Kingdom's oldest privately-owned bank, founded in 1672 by Sir Richard Hoare and owned continuously by the Hoare family for twelve generations, operating a bespoke private banking, lending, and wealth business from Fleet Street in London and an office in Cambridge. It is an FCA-authorised ASPSP (Account Servicing Payment Service Provider) and a regulated participant in UK Open Banking under PSD2. As a private bank it is not one of the CMA9 mandated institutions, so it does not publish the unauthenticated Open Data (ATM / branch / product) reference APIs; instead it exposes the OBIE Read/Write standard through a MuleSoft Anypoint developer portal at developer.hoaresbank.co.uk, publishing Account and Transaction Information (AIS), Payment Initiation (PIS), and Dynamic Client Registration conformant to the Open Banking Implementation Entity (OBIE) v3.1 standard. Production access is FAPI-secured with OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS client authentication using OBIE/eIDAS certificates after third-party provider onboarding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png",
      "score": 43.8,
      "band": "thin",
@@ -2988,7 +2988,7 @@
     {
      "name": "Cashflows",
      "slug": "cashflows",
-     "description": "Cashflows is a United Kingdom payment gateway and card acquirer,",
+     "description": "Cashflows is a United Kingdom payment gateway and card acquirer, headquartered in London and a principal member of Visa and Mastercard, that helps businesses accept, process, and manage card payments across online, in-app, and in-person channels. Its product family spans a REST Cashflows Gateway (payment jobs, captures, refunds, tokenisation, recurring payments, and webhooks), hosted and embedded checkout, a cardholder-not-present Payments API with 3-D Secure, a Remote Authentication API for connecting to the acquiring network, and an In-Person Payments API served locally from Kinetic PCI-PTS terminals. Cashflows ships a genuine self-serve developer portal at developer.cashflows.com with reference documentation, a dedicated integration/sandbox environment, and webhook-based payment notifications, but it does not publish a downloadable OpenAPI/Swagger definition or a public Postman collection; its API reference is hand-authored HTML. Authentication is header-based (ConfigurationId plus a SHA-512 request hash for the Gateway, and auth_id/auth_pass for Remote Authentication) rather than OAuth.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png",
      "score": 43.7,
      "band": "thin",
@@ -3030,7 +3030,7 @@
     {
      "name": "Investec",
      "slug": "investec",
-     "description": "Investec is an international specialist bank and wealth manager, dual-listed on the London",
+     "description": "Investec is an international specialist bank and wealth manager, dual-listed on the London Stock Exchange and Johannesburg Stock Exchange and operating through Investec plc (UK) and Investec Limited (South Africa). In the United Kingdom, Investec Bank plc is authorised by the PRA and regulated by the FCA and PRA and is an FCA-registered Account Servicing Payment Service Provider (ASPSP) under UK Open Banking, exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) interfaces built to the Open Banking Implementation Entity (OBIE) Read/Write API Standard (v3.1), secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using OBIE/eIDAS certificates. Investec is a specialist private bank and wealth manager rather than a mass-market retail bank, so it is not one of the CMA9 and does not operate a branch or ATM network. Alongside Open Banking, Investec runs a first-party Programmable Banking / Open API developer platform at openapi.investec.com offering Private Bank, Business & Commercial Banking, Intermediaries, Intermediaries Forex, and Card APIs secured with OAuth2 client credentials, published through the Investec Developer Portal at developer.investec.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png",
      "score": 43.4,
      "band": "thin",
@@ -3114,7 +3114,7 @@
     {
      "name": "Cardstream",
      "slug": "cardstream",
-     "description": "Cardstream is an independent United Kingdom payment gateway providing a",
+     "description": "Cardstream is an independent United Kingdom payment gateway providing a white-label payment platform that banks, PSPs, ISOs, acquirers and software companies resell under their own brand. It connects merchants to card schemes (Visa, Mastercard), digital wallets and 150+ Alternative Payment Methods from a single integration, with PCI DSS Level 1 processing, tokenisation, recurring billing, 3-D Secure 2 authentication, risk and fraud checking, and dynamic currency conversion. Its developer surface is a mature form-post gateway API exposed through three integration methods — Hosted (Hosted Payment Pages and Hosted Payment Fields), Direct (server-to-server), and Batch — documented in a public GitBook integration guide and supported by SDKs for PHP, Java, Node.js, Go, Ruby, C#, iOS and Android plus e-commerce modules. Requests are HTTP POST with application/x-www-form-urlencoded fields authenticated by merchantID plus optional password, HMAC message signing and IP allow-listing; the gateway does not publish a downloadable OpenAPI/Swagger definition or a JSON/REST surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png",
      "score": 43.2,
      "band": "thin",
@@ -3315,7 +3315,7 @@
     {
      "name": "AIB Group (UK)",
      "slug": "aib-group-uk",
-     "description": "AIB Group (UK) p.l.c. is a UK bank incorporated in Northern Ireland",
+     "description": "AIB Group (UK) p.l.c. is a UK bank incorporated in Northern Ireland (registered number NI018800, registered office 92 Ann Street, Belfast BT1 3HH), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. It trades as Allied Irish Bank (GB) and Allied Irish Bank (GB) Savings Direct, and is the UK banking subsidiary of the Irish AIB Group plc. As one of the CMA9 banks mandated under the UK Competition and Markets Authority's Open Banking order, it runs a public developer portal publishing UK Open Banking APIs conformant to the Open Banking Implementation Entity (OBIE) standards - a public, unauthenticated Open Data API (v2.2) exposing personal current account, business current account, and unsecured SME loan product reference data, alongside the FAPI-secured Read/Write family (Account and Transaction Information, Payment Initiation, Confirmation of Funds, and Variable Recurring Payments to OBIE v4.0) accessed under OAuth2/OIDC consent with PSD2 strong customer authentication, dynamic client registration, and a sandbox for onboarding and testing before production.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png",
      "score": 42.3,
      "band": "thin",
@@ -3879,7 +3879,7 @@
     {
      "name": "Santander UK",
      "slug": "santander-uk",
-     "description": "Santander UK plc is a major British retail and commercial bank and one",
+     "description": "Santander UK plc is a major British retail and commercial bank and one of the CMA9 banks mandated to deliver UK Open Banking. It is a wholly owned, ring-fenced subsidiary of Banco Santander S.A. of Madrid, Spain, and was formed from the former Abbey National, Alliance & Leicester, and the savings business of Bradford & Bingley. Operating from Milton Keynes with a registered office in London, it serves around 14 million active personal, business, and corporate customers. Santander UK is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Under PSD2 and the CMA Order it publishes a developer portal (\"Santander Developers\") exposing free, unauthenticated Open Data APIs (ATMs, branches, and product reference data) plus the OBIE Read/Write API family - Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - conformant to the Open Banking Implementation Entity standard and secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication.",
      "score": 40.6,
      "band": "thin",
      "band_label": "Thin",
@@ -4085,7 +4085,7 @@
     {
      "name": "Ripe Insurance",
      "slug": "ripe-insurance",
-     "description": "Ripe Insurance Services Limited, trading as Ripe and part of Ripe Thinking",
+     "description": "Ripe Insurance Services Limited, trading as Ripe and part of Ripe Thinking Limited, is a Stockport-based United Kingdom digital Managing General Agent and specialist insurance intermediary authorised and regulated by the Financial Conduct Authority (FRN 313411). Founded in 1997 and majority-backed by Aquiline Capital Partners, Ripe underwrites and distributes niche personal and small-commercial lines direct to consumers through its own brands — Cycleplan, Golf Care, Insure4Boats, Insure4Sport and Ripe Caravans — covering caravans and motorhomes, park homes and holiday homes, photography and music equipment, valuables, shooting, golf, cycling, boats, over 400 sports, personal trainers, hair and beauty businesses, clubs and leisure organisations, and small business. It reports more than 400,000 policyholders. Ripe's API posture is honestly assessed as partner-gated with no public developer surface — there is no developer portal, no self-serve API programme, no published quote, bind, issue or FNOL API, and no ACORD reference anywhere on its estate. Its in-house platform is marketed as flexible and fast to integrate, but partnering is a business-development contact form on ripethinking.co.uk rather than a technical onboarding path. The only anonymously reachable, machine-readable API surface across the Ripe brand estate is the Umbraco CMS Content Delivery API that ships with its .NET content management system — read-only content and media, incidental infrastructure rather than an insurance product API. Its April 2026 Cycleplan ChatGPT app delivers real-time cycling quotes conversationally, but is a first-party consumer channel with no published API, MCP server, or spec.",
      "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
@@ -4168,7 +4168,7 @@
     {
      "name": "GB Bank",
      "slug": "gb-bank",
-     "description": "GB Bank Limited is a UK challenger bank headquartered in Middlesbrough",
+     "description": "GB Bank Limited is a UK challenger bank headquartered in Middlesbrough (2 Centre Square) with a London office (73 Brook Street, Mayfair). Wholly owned and privately backed rather than a mutual building society, it secured its full UK banking licence in 2022 and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (Financial Services Register number 850286). GB Bank funds SME regional property developers and investors with development finance, buy-to-let and bridging loans (typically between £26k and £5m across underserved UK regions) and funds that lending with retail deposits - fixed-rate bonds, notice accounts and easy-access savings accounts protected by the FSCS up to £85,000, managed through an online portal and a GB Bank mobile app. As a small, non-CMA9 FCA-authorised bank focused on savings and secured lending, GB Bank does not operate a public developer portal or a documented UK Open Banking (OBIE / PSD2) API surface; the Open Banking API families listed here are represented as the shared industry standard the bank would conform to as an FCA-authorised ASPSP, and are unverified for GB Bank pending a confirmed developer portal or Open Data endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png",
      "score": 37.9,
      "band": "thin",
@@ -4210,7 +4210,7 @@
     {
      "name": "Paragon Bank",
      "slug": "paragon-bank",
-     "description": "'Paragon Bank PLC is a UK specialist lender and retail savings bank, the principal banking",
+     "description": "Paragon Bank PLC is a UK specialist lender and retail savings bank, the principal banking subsidiary of Paragon Banking Group PLC (LSE: PAG), a FTSE 250 company founded in 1985 and headquartered in Solihull, West Midlands. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (Firm Reference Number 604551, company number 05390593), Paragon offers fixed-rate and easy-access savings accounts and cash ISAs alongside buy-to-let and residential mortgages, second-charge mortgages, development finance, motor finance, and asset and commercial lending. As a savings-and-lending institution rather than a personal current account provider, Paragon is not one of the CMA9 and publishes no public developer portal or Open Banking API surface of its own - its accounts are reachable to third parties only through account-information aggregators. This profile represents the UK Open Banking Implementation Entity (OBIE) standard - the PSD2 Open Data reference APIs and the FAPI-secured Read/Write family (Account and Transaction Information, Payment Initiation, Confirmation of Funds) - captured verbatim as the shared industry standard and clearly labelled as unverified for this bank; no Paragon-hosted endpoint was confirmed at profiling time.",
      "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
@@ -4251,7 +4251,7 @@
     {
      "name": "EMIS Health",
      "slug": "emis-health",
-     "description": "EMIS Health is a United Kingdom health-technology company and one of",
+     "description": "EMIS Health is a United Kingdom health-technology company and one of the two dominant GP clinical-system providers in the NHS (alongside TPP SystmOne), supplying the EMIS Web electronic patient record used across primary care, community pharmacy, and other care settings. EMIS is migrating from EMIS Web to EMIS-X, a cloud-first platform, and exposes third-party integration through the EMIS Partner Developer Portal at docs.partner.emis-x.uk. The gated partner programme documents a RESTful JSON Partner API (PAPI) covering appointments, the clinical/medical record, patient demographics and matching, organisation lookup and clinical searches, plus EMIS-X App Launch and an EMIS-X Analytics data warehouse. Authentication is OAuth2 / OIDC (Microsoft Entra External ID / Azure AD B2C) using authorization-code, PKCE, and client-credentials flows with scoped JWT access tokens; native HL7 FHIR resource support is documented as upcoming rather than yet available.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png",
      "score": 37.3,
      "band": "thin",
@@ -4293,7 +4293,7 @@
     {
      "name": "Metro Bank",
      "slug": "metro-bank",
-     "description": "Metro Bank is a UK retail and commercial bank founded in 2010 as the first",
+     "description": "Metro Bank is a UK retail and commercial bank founded in 2010 as the first new high-street bank to open in Britain in over 150 years, headquartered in London and listed on the London Stock Exchange (ticker MTRO). It is a public limited company (not a mutual or building society), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, serving personal and business customers through its branch (\"store\") network and digital channels. As an FCA-authorised account servicing payment service provider (ASPSP) under PSD2, Metro Bank participates in UK Open Banking without being one of the nine CMA-mandated banks (the CMA9). It operates a public developer portal, built on Google Apigee, that publishes PSD2 / UK Open Banking APIs aligned to the Open Banking Implementation Entity (OBIE) Read/Write standard - Account and Transaction Information, Payment Initiation, and Confirmation of Funds - secured with FAPI-grade OAuth2/OIDC, mutual TLS, dynamic client registration, and PSD2 strong customer authentication, alongside the OBIE Open Data reference-data APIs and FCA service-quality metrics reporting.",
      "score": 36.9,
      "band": "thin",
      "band_label": "Thin",
@@ -4667,7 +4667,7 @@
     {
      "name": "Hiscox",
      "slug": "hiscox",
-     "description": "'Hiscox Ltd is a diversified international specialist insurance and reinsurance group with",
+     "description": "Hiscox Ltd is a diversified international specialist insurance and reinsurance group with roots in the Lloyd's of London market dating to 1901, domiciled in Bermuda and listed on the London Stock Exchange, operating from 31 offices across 13 countries. Its home market is the United Kingdom, where it underwrites through three segments: Hiscox Retail (small business, professional and specialty personal lines sold direct and through brokers in the UK, Europe and the USA), Hiscox London Market (larger and more complex specialty risks written out of London for a worldwide client base, including marine, energy, aviation, specialty property and casualty, and cyber), and Hiscox Re & ILS (reinsurance and insurance-linked securities). Its API posture is partner-gated rather than public. Hiscox operates a genuine first-party developer portal at developer.hiscox.com serving its US small-business arm, and that portal publicly enumerates three active APIs - Eligibility, Quote v4 and Setup Payment - but every reference document, sandbox credential and OpenAPI/Swagger file sits behind a login that is only issued after a Hiscox Partnership Manager approves a commercial partnership. There is no self-serve signup, no downloadable specification and no public claims or FNOL API. The group does ship APIs outside that portal: Hiscox London Market launched a Cargo API for small cargo and stock throughput risks in June 2025, built in-house and distributed through broker partners as coverholders, but it has no developer portal listing, no documentation and no specification - it is announced through the newsroom and reached through a broker partnership. Authentication is OAuth 2.0 plus a partner-issued API key over TLS 1.2 only, all APIs are REST, and both XML and JSON are supported. Hiscox's most concrete open-standards footprint is ACORD rather than REST: in July 2025 ACORD and Howden announced that ACORD Standards for digital accounting and invoicing went live in the UK retail insurance market with Hiscox as the receiving insurer, responding in real time to Howden's digital invoices through the ACORD Solutions Group ADEPT (ACORD Data Exchange Platform & Translator) receiver portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png",
      "score": 34.9,
      "band": "thin",
@@ -5107,7 +5107,7 @@
     {
      "name": "National Grid ESO",
      "slug": "national-grid",
-     "description": "National Energy System Operator (NESO) provides open data APIs for",
+     "description": "National Energy System Operator (NESO) provides open data APIs for the UK electricity system, including carbon intensity forecasts, demand data, generation mix, ancillary services, balancing costs, and operational data for Great Britain's electricity network. The Carbon Intensity API delivers 96+ hour ahead forecasts at both national and regional levels, while the NESO Data Portal (CKAN-based) exposes hundreds of datasets covering the full spectrum of electricity system operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png",
      "score": 30.6,
      "band": "thin",
@@ -5402,7 +5402,7 @@
     {
      "name": "KRY | LIVI",
      "slug": "kry-livi",
-     "description": "'KRY International AB is Europe''s largest digital-first healthcare provider, founded in",
+     "description": "KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png",
      "score": 26.7,
      "band": "emerging",
@@ -5843,7 +5843,7 @@
     {
      "name": "Open GI",
      "slug": "open-gi",
-     "description": "Open GI is a Worcester-headquartered insurance software house that has",
+     "description": "Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. Its product estate spans the legacy Core policy administration system and the newer cloud Mobius platform — policy administration and client management, product management, Insurer Hosted Pricing (IHP and IHP+), Ratings, the Dynamic Pricing Tool, quote-and-buy websites, customer portals and a Partner Network of 150-plus insurers, aggregators, premium finance, payment and data-enrichment providers. Its API posture is honestly partner-gated. Mobius genuinely ships APIs — Open GI's own public release notes describe Client Checks / sanctions-check endpoints and an API-triggered custom-event call — but the Mobius Developer Portal is a customer-only surface whose URL Open GI does not publish, no developer, docs, api or partners subdomain resolves on opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.",
      "score": 23.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6191,7 +6191,7 @@
     {
      "name": "Redwood Bank",
      "slug": "redwood-bank",
-     "description": "Redwood Bank is a specialist UK challenger bank for small and medium-sized",
+     "description": "Redwood Bank is a specialist UK challenger bank for small and medium-sized businesses, headquartered in Letchworth Garden City, Hertfordshire. Launched in 2017 after receiving its banking licence from the Prudential Regulation Authority and Financial Conduct Authority (Financial Services Register firm reference 755924, company number 09872265), it is wholly owned by Redwood Financial Partners Ltd — a vehicle controlled by Jonathan and David Rowland, with Warrington Borough Council holding a roughly one-third stake. Redwood focuses narrowly on business and charity savings accounts and individually underwritten commercial and buy-to-let mortgages, and is not one of the CMA9 mandated banks. Because its product range is deposit- and lending-only (it does not offer a payment / business current account), it falls outside the PSD2 scope that compels UK Open Banking, and as of this review it publishes no public developer portal, no OBIE Read/Write (AIS/PIS/CBPII) APIs, and no confirmed Open Banking Open Data endpoint.",
      "score": 22.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6458,7 +6458,7 @@
     {
      "name": "Accord",
      "slug": "accord",
-     "description": "'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'",
+     "description": "A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.",
      "score": 20.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7089,7 +7089,7 @@
     {
      "name": "Sage Accounting",
      "slug": "sage-accounting",
-     "description": "Sage Accounting (formerly Sage Business Cloud Accounting and Sage One)",
+     "description": "Sage Accounting (formerly Sage Business Cloud Accounting and Sage One) is Sage's cloud-based accounting software for UK and international small and medium businesses, covering invoicing, expenses, banking, VAT, payroll integration, and financial reporting. Its REST API at https://api.accounting.sage.com/v3.1 provides programmatic access to contacts, sales and purchase invoices, ledger accounts, journals, tax rates, bank accounts, and attachments. Authentication uses OAuth 2.0 with the authorization endpoint at https://www.sageone.com/oauth2/auth/central and the token endpoint at https://oauth.accounting.sage.com/token; access tokens expire after five minutes and refresh tokens after 31 days, and the X-Business header selects the target business.",
      "score": 18.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7495,7 +7495,7 @@
     {
      "name": "LendInvest",
      "slug": "lendinvest",
-     "description": "'LendInvest is a London-based fintech property finance platform and mortgage lender, founded",
+     "description": "LendInvest is a London-based fintech property finance platform and mortgage lender, founded in 2013 after spinning out of Montello Bridging Finance, and listed on the London Stock Exchange AIM market under the ticker LINV since July 2021. It originates and services short-term bridging finance, property development finance, buy-to-let and residential mortgages for UK intermediaries, brokers, property developers, landlords and investors, and runs a parallel capital business that lets individual, corporate and institutional investors put money into secured UK property loans. The company distributes almost entirely through mortgage intermediaries via its Mortgages Portal, and was the first UK fintech to securitise its own buy-to-let loan book. LendInvest publishes no public developer API, developer portal or SDKs; its broker and borrower integrations run through hosted portals rather than a documented public API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lendinvest/refs/heads/main/screenshots/lendinvest-2026-07-25T224903.png",
      "score": 17.8,
      "band": "emerging",
@@ -7644,7 +7644,7 @@
     {
      "name": "Tooth Fairy",
      "slug": "tooth-fairy",
-     "description": "Toothfairy is a UK dental telehealth platform billing itself as the world's",
+     "description": "Toothfairy is a UK dental telehealth platform billing itself as the world's first dentist on-demand, pairing registered dentists with a consumer mobile app to deliver teeth straightening with clear aligners, prescription teeth whitening, and same-day emergency video dental consultations 24/7, plus employer dental plans for businesses. The company is health-regulated in the UK, backed by Seedcamp, and ships its product as iOS and Android apps with no public developer API surface.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7762,7 +7762,7 @@
     {
      "name": "Atom Learning",
      "slug": "atom-learning",
-     "description": "'Atom Learning is a UK edtech company providing an online, adaptive exam-preparation",
+     "description": "Atom Learning is a UK edtech company providing an online, adaptive exam-preparation and learning platform for children aged 7 to 16. Its consumer product, Atom Home, delivers personalised practice, unlimited mock tests with instant marking, and progress tracking for 11+ grammar and independent-school entrance exams (GL, CEM, CSSE, ISEB), CAT4, Key Stage 2 SATs, and GCSE revision. Its schools product, Atom School, gives teachers curriculum-mapped resources and assessment tools and is used by over 1,000 schools. Founded by educators and assessment specialists, Atom has supported hundreds of thousands of families as a lower-cost alternative to private tutoring. The company was surfaced as a SoftBank Vision Fund portfolio company and added to the API Evangelist network. It publishes a consumer web/app product surface but no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atom-learning/refs/heads/main/screenshots/atom-learning-2026-07-25T201558.png",
      "score": 17.0,
      "band": "emerging",
@@ -7834,7 +7834,7 @@
     {
      "name": "HomeTouch",
      "slug": "hometouch",
-     "description": "HomeTouch (myhometouch.com) is a UK-based live-in home care marketplace",
+     "description": "HomeTouch (myhometouch.com) is a UK-based live-in home care marketplace founded in 2015 by Dr Jamie Wilson, a former NHS dementia specialist. The CQC-regulated service connects families with vetted professional carers for live-in, overnight, and visiting care, with a specialism in dementia and complex-needs support, hospital discharge, end-of-life, respite, and companionship care. Backed by 500 Global and other impact investors, HomeTouch operates a carer marketplace alongside a fully managed care service. The company publishes no public developer program or API; this profile tracks its identity, published web properties, and domain security posture for the API Evangelist network.",
      "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7905,7 +7905,7 @@
     {
      "name": "Tuli",
      "slug": "tuli",
-     "description": "Tuli Health operates a UK-wide network of over 300 high-street pharmacies",
+     "description": "Tuli Health operates a UK-wide network of over 300 high-street pharmacies as local diagnostic hubs, making clinical services - primarily blood testing and phlebotomy - accessible in every neighbourhood so people can get care close to home. It offers healthcare providers three models - One Network (white-label phlebotomy), One Solution (end-to-end test kits, draws and lab analysis), and an Enterprise tier with custom integration. Tuli exposes an API and web portal for booking and managing tests, though public developer documentation is not yet published.",
      "score": 16.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7982,7 +7982,7 @@
     {
      "name": "Lendable",
      "slug": "lendable",
-     "description": "Lendable Ltd is a UK consumer lending fintech founded in 2014 and headquartered",
+     "description": "Lendable Ltd is a UK consumer lending fintech founded in 2014 and headquartered in London, offering unsecured personal loans directly to borrowers through a fully digital application. The company underwrites with technology and data analytics rather than relying on a credit score alone, describing its approach as looking at all of an applicant's data together to produce a personalised quote in minutes without paper forms or branch visits. Lendable distributes through the major UK price-comparison platforms including ClearScore, Compare the Market, MoneySuperMarket, Experian, TotallyMoney, TransUnion and Go.Compare. It is authorised and regulated by the Financial Conduct Authority (FCA reference 720261, company number 08828186) and is a CIFAS member. Lendable publishes no public developer API or developer portal — its public technical surface is an RFC 9116 security.txt, an llms.txt, and a set of first-party open source PHP/Symfony engineering libraries on Packagist and GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lendable/refs/heads/main/screenshots/lendable-2026-07-25T224856.png",
      "score": 16.5,
      "band": "emerging",
@@ -8094,7 +8094,7 @@
     {
      "name": "Gousto",
      "slug": "gousto",
-     "description": "'Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and",
+     "description": "Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and headquartered in Shepherd's Bush, London. It delivers recipe boxes with pre-portioned fresh ingredients and step-by-step recipes to homes across the UK, using proprietary data science, ERP, courier-integration and warehouse-automation systems to run its subscription operation. A SoftBank Vision Fund portfolio company, Gousto does not publish a public developer API; this profile captures its public digital surface (website, engineering blog, GitHub organization, and coordinated vulnerability-disclosure program) for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gousto/refs/heads/main/screenshots/gousto-2026-07-25T220135.png",
      "score": 16.1,
      "band": "emerging",
@@ -8285,7 +8285,7 @@
     {
      "name": "DoorFeed",
      "slug": "doorfeed",
-     "description": "'DoorFeed is a technology-led residential real estate investment platform,",
+     "description": "DoorFeed is a technology-led residential real estate investment platform, founded in 2021 and headquartered in Paris, that helps institutional investors, funds, and family offices source and manage single-family rental portfolios at scale across the UK and France. The platform ingests roughly 150,000 new property listings and over 1,000,000 property images every day, structuring market data, comparable transactions, valuation signals, and energy-performance data into a single acquisition and asset-management workflow that takes investors from market screening to investment decision in minutes. DoorFeed is backed by HV Capital, Seedcamp, and Motive Partners. This profile was added to the API Evangelist network as a portfolio-company lead and enriched by the pipeline; DoorFeed publishes no public API or developer program at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doorfeed/refs/heads/main/screenshots/doorfeed-2026-07-25T212303.png",
      "score": 15.8,
      "band": "emerging",
@@ -8321,7 +8321,7 @@
     {
      "name": "Atom Bank",
      "slug": "atom-bank",
-     "description": "'Atom Bank plc is a UK app-only digital bank headquartered in Newcastle upon Tyne, and the",
+     "description": "Atom Bank plc is a UK app-only digital bank headquartered in Newcastle upon Tyne, and the first mobile-only bank in the United Kingdom (no branches, no web banking). Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority (FS Register 661960), Atom offers fixed savings accounts, residential and commercial mortgages, and secured business lending, all delivered through its iOS and Android apps. Atom does not publish a public developer API or developer portal; it is a consumer of UK Open Banking, letting customers share a one-off snapshot of their bank data (via aggregators such as Plaid, Tink and TrueLayer) to speed lending decisions. Backed by Anthemis and others, Atom runs a Go/Python/Java/Kafka technology stack and operates a four-day working week.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atom-bank/refs/heads/main/screenshots/atom-bank-2026-07-25T201557.png",
      "score": 15.6,
      "band": "emerging",
@@ -8487,7 +8487,7 @@
     {
      "name": "Superscript",
      "slug": "superscript",
-     "description": "Superscript is a UK- and Netherlands-based business insurance provider offering",
+     "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8528,7 +8528,7 @@
     {
      "name": "Yonder",
      "slug": "yonder",
-     "description": "'Yonder is a UK-based financial technology company offering rewards credit and debit cards",
+     "description": "Yonder is a UK-based financial technology company offering rewards credit and debit cards — a \"financial membership\" that earns points on everyday spending, redeemable across 300+ dining, travel, shopping, entertainment and wellness partners. Cards run on the Mastercard network with no foreign-exchange fees, and Yonder is authorised and regulated by the UK Financial Conduct Authority (FCA) with FSCS-protected accounts held via partner banks. Yonder ships a consumer mobile app and a help centre but does not expose a public developer API or portal. Added to the API Evangelist network as a VC-portfolio lead (backers include Northzone, Seedcamp and Techstars).",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8578,7 +8578,7 @@
     {
      "name": "Carmoola",
      "slug": "carmoola",
-     "description": "'Carmoola is a UK-based, mobile-first car finance platform that lets consumers get a",
+     "description": "Carmoola is a UK-based, mobile-first car finance platform that lets consumers get a pre-approved budget in minutes through its app, then pay dealers or private sellers directly with a virtual card. It offers Hire Purchase (HP) and Personal Contract Purchase (PCP) financing, soft credit checks that do not affect the applicant's score, flexible repayment terms, and the ability to refinance an existing car loan. Carmoola is authorised and regulated by the UK Financial Conduct Authority (FCA) and is backed by investors including QED Investors. This profile was surfaced as a QED Investors portfolio company and enriched by the API Evangelist pipeline; Carmoola operates a consumer app rather than a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carmoola/refs/heads/main/screenshots/carmoola-2026-07-25T204623.png",
      "score": 14.9,
      "band": "minimal",
@@ -8614,7 +8614,7 @@
     {
      "name": "flatfair",
      "slug": "flatfair",
-     "description": "'flatfair is a UK-based tenancy deposit platform for letting agents, landlords, and Build-to-Rent",
+     "description": "flatfair is a UK-based tenancy deposit platform for letting agents, landlords, and Build-to-Rent operators, offering deposit alternatives and deposit administration products. Its products include No Deposit (tenants pay 28% of one month's rent plus VAT instead of a five-week cash deposit), Deposits, Unlock Deposits, Deposit Boost, tenant Referencing, and Tenant Guarantor. flatfair is used by more than 850 agents and Build-to-Rent operators to reduce move-in friction and cut deposit administration time by around 60 minutes per tenancy. The company operates a web application for agents and tenants but does not publish a public developer API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flatfair/refs/heads/main/screenshots/flatfair-2026-07-25T214720.png",
      "score": 14.9,
      "band": "minimal",
@@ -8650,7 +8650,7 @@
     {
      "name": "Fuse",
      "slug": "fuse",
-     "description": "'Fuse Energy is a UK retail energy supplier providing gas and electricity",
+     "description": "Fuse Energy is a UK retail energy supplier providing gas and electricity to homes and businesses, alongside EV charging, solar and battery storage tracking with grid export, and smart home energy management. The company emphasises savings against the UK price cap, a fast (~3 minute) online sign-up, automated supplier switching, and 24/7 customer support including an AI assistant called \"Plugs\". Fuse was surfaced as a portfolio company of Accel and Speedinvest and added to the API Evangelist network. It operates a consumer/business energy web and mobile experience and does not publish a public developer API program at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse/refs/heads/main/screenshots/fuse-2026-07-25T215326.png",
      "score": 14.9,
      "band": "minimal",
@@ -8686,7 +8686,7 @@
     {
      "name": "Fuse Energy",
      "slug": "fuse-energy",
-     "description": "'Fuse Energy (Fuse Energy Supply Limited) is a UK-based residential and",
+     "description": "Fuse Energy (Fuse Energy Supply Limited) is a UK-based residential and business energy supplier providing gas and electricity on variable, fixed, and multi-rate tariffs, alongside EV charging, solar and battery export tracking, multi-property account management, and an in-app AI energy assistant called Plugs. The company positions itself around beating the UK energy price cap, sign-up in under three minutes, and 24-hour customer support. It operates a consumer- and business-facing web and mobile app experience and publishes no public API, developer portal, or SDKs at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse-energy/refs/heads/main/screenshots/fuse-energy-2026-07-25T215328.png",
      "score": 14.9,
      "band": "minimal",
@@ -8757,7 +8757,7 @@
     {
      "name": "Numan",
      "slug": "numan",
-     "description": "'Numan (trading as Vir Health Limited) is a UK-based digital healthcare and telemedicine",
+     "description": "Numan (trading as Vir Health Limited) is a UK-based digital healthcare and telemedicine company offering convenient, clinician-led care direct to consumers. Its services span weight-loss programmes (including GLP-1 medications such as Mounjaro and Wegovy), men's health (erectile dysfunction, hair loss, testosterone), women's health (menopause support), at-home blood tests and diagnostics, supplements, and one-off doctor consultations, delivered through its website and iOS/Android app. Numan is regulated by the Care Quality Commission and operates a GPhC-licensed pharmacy. It is a portfolio company of Anthemis. As of this enrichment pass Numan publishes no public developer API, SDKs, MCP server, or partner integration surface.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8798,7 +8798,7 @@
     {
      "name": "Sidekick",
      "slug": "sidekick",
-     "description": "Sidekick is a UK-based online wealth management and investing platform that offers",
+     "description": "Sidekick is a UK-based online wealth management and investing platform that offers expert-led investments and savings products once reserved for the ultra-wealthy, delivered through a mobile app and web platform. Its product range spans managed investment portfolios, savings accounts, private equity access, and cryptocurrency exposure. Surfaced as a portfolio company of Seedcamp, Sidekick is a consumer (B2C) fintech and publishes no public developer API, developer portal, or API documentation as of this enrichment pass.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8911,7 +8911,7 @@
     {
      "name": "Push Doctor",
      "slug": "push-doctor",
-     "description": "'Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs",
+     "description": "Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs via smartphone, describing itself as the UK's first platform to provide video doctor consultations on mobile. It serves both NHS patients and private paying customers, covering online GP appointments, digital prescriptions, referrals and follow-up care. Headquartered in Manchester and backed by Partech, Push Doctor operates as a consumer-facing telemedicine service; no public developer API, developer portal, or SDK surface was found during enrichment probes.",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8952,7 +8952,7 @@
     {
      "name": "So Sure",
      "slug": "so-sure",
-     "description": "So Sure (wearesosure.com), operated by Open Insurance Services UK Limited, was a UK",
+     "description": "So Sure (wearesosure.com), operated by Open Insurance Services UK Limited, was a UK app-based social insurance provider offering mobile phone and home contents insurance, known for a social/peer insurance model that rewarded claim-free groups. It was an early portfolio company of 500 Global. The company has stopped selling new policies and has transitioned its mobile phone cover to the Huddle Insurance brand while continuing to service existing customers. So Sure publishes no public developer program, API, SDK, or technical documentation surface.",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9070,7 +9070,7 @@
     {
      "name": "Lottie",
      "slug": "lottie",
-     "description": "'Lottie is a UK-based later-life care marketplace that helps families and retirees find",
+     "description": "Lottie is a UK-based later-life care marketplace that helps families and retirees find and fund the country's best care homes, home care providers, and retirement living communities. The free consumer service matches people with regulated care providers, publishes availability and pricing, and offers guidance from care experts alongside a large library of funding and care guides. Backed by Accel and General Catalyst, Lottie serves tens of thousands of families monthly across England, Scotland, and Wales. As of this enrichment pass the company operates a consumer-facing web platform only and publishes no public developer API, OpenAPI specification, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lottie/refs/heads/main/screenshots/lottie-2026-07-25T225555.png",
      "score": 14.3,
      "band": "minimal",
@@ -9112,7 +9112,7 @@
     {
      "name": "Tripledot",
      "slug": "tripledot",
-     "description": "'Tripledot Studios (Tripledot Group) is a London-headquartered mobile games",
+     "description": "Tripledot Studios (Tripledot Group) is a London-headquartered mobile games developer and publisher focused on data-driven casual games, with chart-topping titles including Woodoku, Solitaire, Duplica, Wordhop, Solitaire Scapes, Sudoku, Spider Solitaire and Blackjack played by more than 25 million daily active users. Founded as an independent studio and named Best Developer at the Pocket Gamer Mobile Games Awards 2023, Tripledot closed an $800 million acquisition of AppLovin's mobile games studio portfolio (ten studios) on July 1, 2025, and is backed by investors including Lightspeed Venture Partners. Tripledot publishes no first-party developer API, portal or SDKs, but its website ships a real llms.txt and a live, publicly connectable MCP endpoint (the Wix Site Visitor Assistant) for agentic access to site content.",
      "score": 13.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9147,7 +9147,7 @@
     {
      "name": "Carwow",
      "slug": "carwow",
-     "description": "'Carwow is a UK-based online automotive marketplace that helps consumers",
+     "description": "Carwow is a UK-based online automotive marketplace that helps consumers buy, sell, lease, and finance cars without haggling or hidden fees. Buyers browse new and used car deals, compare dealer quotes, arrange leasing (including salary sacrifice and fleet through Carwow Leasey), find electric-vehicle deals, and access vehicle financing and credit brokering. Sellers get free car valuations, part-exchange, and van sales. Carwow also publishes professional car reviews and ratings, runs a large YouTube channel, and offers comparison tools, EV charging maps, a car history checker, and insurance services. Founded in London and backed by Accel, Balderton Capital, and Bessemer Venture Partners, Carwow operates across the UK and Europe. It maintains a public GitHub organization of open-source engineering tooling but does not currently publish a public developer API.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9253,7 +9253,7 @@
     {
      "name": "Tiney",
      "slug": "tiney",
-     "description": "'Tiney is the UK''s fastest-growing Ofsted-approved childminder agency, connecting parents",
+     "description": "Tiney is the UK's fastest-growing Ofsted-approved childminder agency, connecting parents with quality-assured home childminders and supporting educators through training, registration, and ongoing quality assurance. Operating as a government-regulated Childminder Agency (CMA), tiney runs a consumer marketplace plus a mobile app for finding local childcare and managing payments, communication, and children's learning updates. Tiney publishes no public developer API; its backend at api.tiney.co powers the parent and childminder apps and is access-restricted (HTTP 403) and undocumented.",
      "score": 12.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9288,7 +9288,7 @@
     {
      "name": "IMP Software",
      "slug": "imp-software",
-     "description": "'IMP Software builds MAT-first financial management software for the UK education",
+     "description": "IMP Software builds MAT-first financial management software for the UK education sector. Its flagship product, IMP Planner, is a single-database, trust-wide platform for budgeting, forecasting, reporting, Integrated Curriculum Financial Planning (ICFP) and purchasing, used by Multi-Academy Trusts (MATs) and their schools. Based in Exeter, UK, the company is trusted by more than 550 trusts across roughly 6,000 schools and secured a growth investment from Partech in September 2025. IMP Planner is a closed SaaS application for trust finance teams; IMP Software does not publish a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/imp-software/refs/heads/main/screenshots/imp-software-2026-07-25T222138.png",
      "score": 12.3,
      "band": "minimal",
@@ -9394,7 +9394,7 @@
     {
      "name": "The Modern Milkman",
      "slug": "the-modern-milkman",
-     "description": "'The Modern Milkman is a UK doorstep delivery service that brings farm-fresh",
+     "description": "The Modern Milkman is a UK doorstep delivery service that brings farm-fresh milk, groceries and household essentials to customers in returnable and reusable glass bottles or recyclable packaging, with flexible ordering and early-morning delivery. Founded to modernise the traditional milkround, the company focuses on reducing food waste and single-use plastic through a return-and-reuse model, local sourcing, and a subscription-style ordering experience delivered through its website and mobile apps. It was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network for enrichment. The company publishes no public developer API, but does maintain an llms.txt for AI agents, a customer help centre, and a blog. Sector: consumer / direct-to-consumer grocery delivery.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9500,7 +9500,7 @@
     {
      "name": "Wollit",
      "slug": "wollit",
-     "description": "'Wollit is a UK-based credit-health subscription service (£9.99/month)",
+     "description": "Wollit is a UK-based credit-health subscription service (£9.99/month) that helps consumers build and strengthen their credit profile. Authorised and regulated by the Financial Conduct Authority for credit-broking activities, Wollit reports rent and subscription payments to Experian, Equifax and TransUnion, and bundles a suite of consumer tools: Rent Reporting, Payment Reporting, an AI credit assistant (Olli), Affordability Boost, Credit Smart lessons, and Credit Wins. It is a consumer-facing fintech app and was surfaced as a portfolio company of Anthemis; it publishes no public API, developer portal, or SDKs.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9535,7 +9535,7 @@
     {
      "name": "Dwelly",
      "slug": "dwelly",
-     "description": "'Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group)",
+     "description": "Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group) is a UK-based, AI-first lettings and property-management company founded in 2023 by Ilya Drozdov (CEO), Dan Lifshits (CPO) and Dmitry Khanukov (CTO). Rather than selling software, Dwelly grows by acquiring independent UK lettings agencies and succession-planning their owners out, then running the acquired books on its own AI-powered operating platform. That platform automates tenant find (self-service enquiry chat, virtual viewings, verified offers), banking-grade tenant screening (KYC, Right to Rent, referencing), Direct Debit rent collection with automatic reconciliation and arrears handling, maintenance and property management workflows with centralised communications, and continuous lettings compliance. Dwelly is backed by General Catalyst, Begin Capital and S16VC. As of this profile Dwelly publishes no public API, developer portal, SDKs or technical documentation — the platform is operated internally for its own and its acquired agencies' portfolios.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwelly/refs/heads/main/screenshots/dwelly-2026-07-25T212545.png",
      "score": 11.7,
      "band": "minimal",
@@ -9571,7 +9571,7 @@
     {
      "name": "Habito",
      "slug": "habito",
-     "description": "'Habito is a UK-based digital mortgage broker that lets people research, compare, and apply",
+     "description": "Habito is a UK-based digital mortgage broker that lets people research, compare, and apply for mortgages online across the whole of the market, pairing self-serve digital tools with human mortgage experts, alongside related home-buying services. Founded as a fintech in the consumer lending and real-estate space and backed by Ribbit Capital, Habito has since joined Monzo. The company operates a consumer web product (Webflow-hosted marketing site) and does not publish a public developer API program, developer portal, or OpenAPI at the time of this profile; this record is maintained by the API Evangelist network and reflects only publicly verifiable surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/habito/refs/heads/main/screenshots/habito-2026-07-25T220512.png",
      "score": 11.4,
      "band": "minimal",
@@ -9678,7 +9678,7 @@
     {
      "name": "NOTHS",
      "slug": "noths",
-     "description": "'NOTHS (Not On The High Street, notonthehighstreet.com) is a UK online",
+     "description": "NOTHS (Not On The High Street, notonthehighstreet.com) is a UK online marketplace that curates and sells unique gifts, jewellery, homeware and personalised products made or sourced by thousands of small UK creative businesses. Founded in 2006 and backed by Index Ventures, the platform connects independent sellers (\"partners\") with consumers through a curated storefront, seller onboarding, and an affiliate programme. It exposes no public developer API, OpenAPI, SDK, or documentation surface; its api.notonthehighstreet.com host is a private backend serving the company's own web and mobile storefront. This profile is a VC-portfolio lead enriched by the API Evangelist pipeline via live domain/security probing.",
      "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9748,7 +9748,7 @@
     {
      "name": "Tuza",
      "slug": "tuza",
-     "description": "'Tuza is a banking automation platform that orchestrates AI agents, customers",
+     "description": "Tuza is a banking automation platform that orchestrates AI agents, customers and workflows to eliminate the manual processes that slow banks down. Originally launched in the UK at tuza.co.uk as a card-payment fee comparison and switching service for merchants, the company has repositioned as Tuza AI, delivering agentic automation for banks. It is an early-stage, venture-backed fintech (backed by Northzone) building a product that connects AI agents with core banking operations and customer-facing workflows. As of this profile Tuza publishes a marketing and careers site only — no public API, developer portal, SDKs, or documentation surface has been released yet, so this record captures verified company identity plus a domain-security probe.",
      "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9831,7 +9831,7 @@
     {
      "name": "getdinghy",
      "slug": "getdinghy",
-     "description": "Dinghy (getdinghy.com) was a UK insurtech offering on-demand professional indemnity and",
+     "description": "Dinghy (getdinghy.com) was a UK insurtech offering on-demand professional indemnity and business insurance for freelancers and contractors, and a Balderton Capital portfolio company. As of this enrichment pass the domain no longer serves an independent site - its TLS certificate and HTTP responses resolve to Kingsbridge Group infrastructure (kingsbridge.co.uk / kingsbridgegroup.com / kng.io) and every path returns HTTP 502, indicating the brand has been absorbed by Kingsbridge. No public API, developer portal, documentation, SDK, or well-known discovery surface is exposed, so no spec-grounded artifacts could be searched or derived. Retained as a network lead with evidence of the successor.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9872,7 +9872,7 @@
     {
      "name": "Trussle",
      "slug": "trussle",
-     "description": "Trussle was a UK online mortgage broker founded in 2015 and backed by Seedcamp, offering",
+     "description": "Trussle was a UK online mortgage broker founded in 2015 and backed by Seedcamp, offering a consumer-facing mortgage comparison, application and monitoring service. It was acquired and rebranded as Better.co.uk (trading as Trussle Lab Ltd, authorised and regulated by the Financial Conduct Authority); the trussle.com domain now 301-redirects entirely to better.co.uk. As of this enrichment pass Trussle publishes no public API, developer portal, SDK, or API documentation.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9913,7 +9913,7 @@
     {
      "name": "Vsim",
      "slug": "vsim",
-     "description": "'Vsim (Vsim Technology Ltd) is a Manchester, UK physics-simulation startup",
+     "description": "Vsim (Vsim Technology Ltd) is a Manchester, UK physics-simulation startup founded in 2022 by ex-NVIDIA simulation engineers Michelle Lu (CEO) and Kier Storey (CTO). The company builds a next-generation physics simulation platform and an end-to-end reinforcement-learning training framework for robotics, reporting up to 100x training performance speed-ups over existing solutions, with applications across robotics, AI, visual effects, aerodynamics, gaming, and e-commerce. Vsim raised a $21.5M seed round led by EQT Ventures (total ~$24M). It does not currently publish a public API or developer program.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9984,7 +9984,7 @@
     {
      "name": "Cambridge Aerospace",
      "slug": "cambridge-aerospace",
-     "description": "'Cambridge Aerospace is a UK-based defense technology company, incorporated in September",
+     "description": "Cambridge Aerospace is a UK-based defense technology company, incorporated in September 2024, developing scalable interceptor missiles and sovereign air-and-missile-defense systems for European nations. Its first product, Skyhammer, is a tube-launched subsonic interceptor with a Cambridge-developed radar seeker, positioned as an affordable, mass-producible counter to drones and cruise missiles (often likened to an Iron Dome-style layered air defense). The company operates in the aerospace and defense/security sector and is backed by a venture syndicate including Accel, Lakestar, Lux Capital, Spark Capital, and the D3 fund. This API Evangelist profile was surfaced as a portfolio company of Accel; it is a hardware-first defense company with no public API or developer surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cambridge-aerospace/refs/heads/main/screenshots/cambridge-aerospace-2026-07-25T204255.png",
      "score": 6.8,
      "band": "minimal",
@@ -10020,7 +10020,7 @@
     {
      "name": "Cazoo",
      "slug": "cazoo",
-     "description": "'Cazoo was a UK online used-car retailer founded in 2018 by Alex Chesterman, offering",
+     "description": "Cazoo was a UK online used-car retailer founded in 2018 by Alex Chesterman, offering a direct-to-consumer platform to buy, sell, and finance used cars fully online with home delivery. The company listed on the New York Stock Exchange via a SPAC merger in 2021 before restructuring and entering administration in 2024; its consumer marketplace brand was subsequently sold. Cazoo was surfaced as a portfolio company of D1 Capital, General Catalyst, and Sapphire Ventures and added to the API Evangelist network for enrichment. No public developer portal or API surface was found during enrichment: the site is behind bot protection (HTTP 429) and no /.well-known/ discovery documents are published. Sector: ecommerce / automotive retail.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10055,7 +10055,7 @@
     {
      "name": "City Reach International",
      "slug": "city-reach-international",
-     "description": "'City Reach International Limited was a UK-registered telecommunications and",
+     "description": "City Reach International Limited was a UK-registered telecommunications and internet-infrastructure company, incorporated 14 April 2000 at 8 Salisbury Square, Blackfriars, London EC4Y 8BB (Companies House number 03973748), classified under SIC 6420 (telecommunications) and 7260 (other computer related activities). It was a dot-com era venture backed in part by Battery Ventures, and appears on the Battery Ventures all-companies list, which is how it entered the API Evangelist network. The company was dissolved on 13 May 2014. Enrichment probing in July 2026 found no surviving corporate website, developer portal, documentation, or API surface: the candidate domains cityreach.com, cityreachinternational.com, cityreach.net and cityreachinternational.co.uk do not resolve, and cityreach.co.uk resolves only to a parked domain-for-sale landing page. There is no API, specification, SDK, or event surface to catalog for this company, and none should be fabricated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-reach-international/refs/heads/main/screenshots/city-reach-international-2026-07-25T205437.png",
      "score": 6.8,
      "band": "minimal",
@@ -10091,7 +10091,7 @@
     {
      "name": "crowdcube",
      "slug": "crowdcube",
-     "description": "Crowdcube is a UK-based equity crowdfunding platform that lets everyday and professional",
+     "description": "Crowdcube is a UK-based equity crowdfunding platform that lets everyday and professional investors buy shares in early-stage and growth-stage private companies, and lets founders raise capital directly from their community and the wider crowd. Founded in 2011 in Exeter by Darren Westlake and Luke Lang, it is authorised and regulated by the UK Financial Conduct Authority (FCA) and has helped hundreds of startups and scale-ups raise funding from a large base of retail investors. The platform covers pitch discovery, investment processing, share issuance, nominee shareholding, and a secondary-market cashout facility. Crowdcube surfaced in the API Evangelist network as a portfolio company of Balderton Capital. It does not currently publish a public developer API, SDKs, or developer portal; this profile captures its company identity and observable domain-security posture.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10197,7 +10197,7 @@
     {
      "name": "Hassle",
      "slug": "hassle",
-     "description": "'Hassle.com was a London-based on-demand home-cleaning marketplace, founded in 2012 by Alex",
+     "description": "Hassle.com was a London-based on-demand home-cleaning marketplace, founded in 2012 by Alex Depledge and Jules Coleman, connecting households with vetted local cleaners for one-off and recurring bookings. Backed by Accel Partners, it was acquired by Rocket Internet-backed Helpling in July 2015 for a reported EUR 32 million to form one of the world's largest home-cleaning marketplaces. The Hassle.com brand was subsequently folded into Helpling, whose UK operations have since ceased; the domain now redirects to Helpling. The company operates a consumer-facing web/mobile booking product and exposes no public developer API, SDK, or documentation surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hassle/refs/heads/main/screenshots/hassle-2026-07-25T220748.png",
      "score": 6.8,
      "band": "minimal",
@@ -10233,7 +10233,7 @@
     {
      "name": "nested",
      "slug": "nested",
-     "description": "Nested is a modern, technology-enabled UK estate agency that helps people sell, buy, and let",
+     "description": "Nested is a modern, technology-enabled UK estate agency that helps people sell, buy, and let residential property. It pairs hyper-local human agents with a digital platform and mobile app that give sellers transparency across the transaction, listing homes on major portals such as Rightmove, Zoopla, and OnTheMarket. Nested was surfaced as a portfolio company of balderton-capital and northzone and added to the API Evangelist network. The company operates a consumer-facing service and does not publish a public developer API, developer portal, or technical documentation at this time.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10268,7 +10268,7 @@
     {
      "name": "OneSwoop",
      "slug": "oneswoop",
-     "description": "OneSwoop is a UK car-buying and new-car price-comparison website, founded in 1999 and",
+     "description": "OneSwoop is a UK car-buying and new-car price-comparison website, founded in 1999 and based in Liverpool, England, that lets consumers compare prices on brand-new cars and buy them online at a discount. It operates as a consumer-facing e-commerce and comparison property and publishes no public developer platform, API, documentation, or SDK surface. Backed historically by Insight Partners and other venture investors, it is tracked in the API Evangelist network as a company profile rather than an API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10303,7 +10303,7 @@
     {
      "name": "PrimaryBid",
      "slug": "primarybid",
-     "description": "'PrimaryBid was a UK-based fintech that gave retail investors access to public",
+     "description": "PrimaryBid was a UK-based fintech that gave retail investors access to public capital markets — IPOs, follow-on equity raises, and public offerings that were historically restricted to institutional investors. It partnered with exchanges, banks, and issuers to broadcast live capital-raising events to individual investors, powering retail participation in listings such as Deliveroo, PensionBee, and Soho House. PrimaryBid's technology was acquired by SoFi Technologies, Inc. in May 2026; the standalone consumer platform has been wound down and its public website now redirects former shareholders to third-party share registrars. This profile is retained in the API Evangelist network as a historical company record. No public developer portal, API documentation, or machine-readable API surface was found during enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10338,7 +10338,7 @@
     {
      "name": "rentify",
      "slug": "rentify",
-     "description": "Rentify was a London-based property technology (PropTech) startup founded in 2011 that built",
+     "description": "Rentify was a London-based property technology (PropTech) startup founded in 2011 that built an online lettings and property-management platform for landlords, letting them list, market, price, and manage rental properties directly without a traditional high-street agent. It raised a Series A from Balderton Capital and later a crowdfunding round before ceasing operations. Surfaced as a balderton-capital portfolio company and added to the API Evangelist network for enrichment; the enrichment pass found no live developer portal, documentation, or public API surface (the company is no longer operating and rentify.com no longer serves an application).",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10382,7 +10382,7 @@
     {
      "name": "Alto (Vebra / Zoopla)",
      "slug": "alto-vebra",
-     "description": "'Alto — formerly Vebra Alto, and still trading through vebra.com — is the United Kingdom''s",
+     "description": "Alto — formerly Vebra Alto, and still trading through vebra.com — is the United Kingdom's most widely deployed estate agency CRM, used by more than 6,000 sales and lettings agency branches to run valuations, listings, applicant matching, offers, sales and lettings progression, tenancies, property management, work orders and client accounting. It is owned by Houseful Limited, the parent of the Zoopla portal, which places Alto at the exact chokepoint of the UK residential market — the country has no MLS, so listings reach Rightmove and Zoopla through agency CRM software rather than a shared cooperative database, and Alto is the largest of those pipes. Its API posture is genuinely strong on the contract side and closed on the access side: Alto publishes an open, unauthenticated developer portal at developers.vebraalto.com carrying a complete OpenAPI 3.0.4 document (95 paths, 112 operations across 27 resource families) served verbatim from api-docs.vebraalto.com, alongside 26 documented CloudEvents 1.0 webhook event types and 101 published OAuth scope strings. But credentials are partner-only — a developer must register an integration in Alto Connect, be bound by an existing contract with Vebra Solutions, and then wait for an individual agency to activate the integration and issue an AgencyRef before a single call can be made. Sibling Zoopla portal product APIs (Leads, Premium Listing Activations, Weekly Featured Property) are documented publicly at developers.zoopla.co.uk with downloadable specs but are likewise restricted to contracted Zoopla agency customers. There is no SDK, CLI, Postman collection, MCP server or status page anywhere in the estate, and no RESO Web API or Data Dictionary certification exists — RESO is a North American NAR-driven standard with no UK counterpart. Alto publishes no open data; the UK's open property layer sits with HM Land Registry and Ordnance Survey, not with the private CRM duopoly feeders.",
      "rank": 263
     },
     {
@@ -10395,13 +10395,13 @@
     {
      "name": "Apex27",
      "slug": "apex27",
-     "description": "Apex27 Limited is a United Kingdom estate agency CRM vendor, founded in",
+     "description": "Apex27 Limited is a United Kingdom estate agency CRM vendor, founded in 2019 and headquartered in the UK, selling cloud software to sales, lettings and commercial agents for £35 per user per month. It sits in the middle of the UK residential value chain — between the agent and the portals — capturing leads, applicants, listings, viewings, valuations, offers, sales progression and tenancies, then syndicating listings out to Rightmove, Zoopla, OnTheMarket and others. Because the UK has no MLS and no cooperative listing database, that CRM seat is the only practical route a listing takes to market, and Apex27 is one of the private gatekeepers of it. Apex27 does operate two real HTTP APIs — the Apex27 CRM API at api.apex27.co.uk and a per-tenant Portal API that powers agency websites — but neither has a public developer portal. The documentation URL that Apex27's own published n8n node points at, docs.apex27.co.uk, returns 404, and every CRM endpoint returns 401 Unauthorised without a key issued inside a paid tenant. Access is customer-only, not self-serve. RESO does not apply — no RESO Web API or Data Dictionary certification exists for Apex27 or for the UK market at all, since RESO is a NAR/MLS construct with no UK counterpart. Apex27 publishes no open data; the UK's open property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
      "rank": 265
     },
     {
      "name": "Arthur Online",
      "slug": "arthur-online",
-     "description": "'Arthur Online is a London-headquartered UK property management software platform, founded",
+     "description": "Arthur Online is a London-headquartered UK property management software platform, founded in 2008 and acquired by Aareon in January 2021, that gives letting agents, self-managing landlords, block and social housing managers, and student accommodation operators a cloud system of record for properties, units, tenancies, tenants, applicants, viewings, maintenance work orders, certificates, utilities and rental financials, with companion mobile apps for managers, tenants, contractors and owners. It sits in the middle of the UK residential lettings value chain: it is the agency-side operational system that pushes stock out to the Rightmove and Zoopla portals and pulls accounting into Xero and QuickBooks, rather than a listings marketplace or a data cooperative. Its API posture is unusually open for the sector but is not open data: the full Arthur API v2 reference is published without a login as a public Postman collection at developer.arthuronline.co.uk covering 324 documented requests across 16 resource areas, yet every call is tenant-scoped OAuth 2.0 Authorization Code plus an X-EntityID header, credentials are issued only from inside a paying Arthur account after contacting Arthur support, and no data is readable anonymously. There is no RESO posture at all — the United Kingdom has no MLS, no NAR, and no RESO Data Dictionary or Web API certification regime, so listings interoperability here is portal-to-CRM feeds rather than a certified machine-readable standard.",
      "rank": 266
     },
     {
@@ -10419,7 +10419,7 @@
     {
      "name": "Fixflo",
      "slug": "fixflo",
-     "description": "Fixflo (a trading name of Tactile Limited, London, United Kingdom, acquired by Aareon in",
+     "description": "Fixflo (a trading name of Tactile Limited, London, United Kingdom, acquired by Aareon in 2021) is a UK repairs, maintenance and compliance management platform for lettings agents, block managers and commercial property managers. Occupiers report issues through a guided fault tree, and Fixflo routes the work to contractors, tracks jobs, service programmes, warranties and invoices, and syncs the resulting records back into the agency CRM. It sits in the post-tenancy operations layer of the UK property value chain rather than the listings layer — the UK has no MLS and no RESO, so there is no industry-mandated machine-readable listing contract here and Fixflo makes no RESO claim. Its API posture is unusually open for the sector in one respect and closed in another. A genuinely public Stoplight developer portal at api-docs.fixflo.com publishes a complete OpenAPI 3.0 description of the v2 API (135 paths, 164 operations, 25 resource tags) that anyone can read and download without logging in, but actually calling it is licensed. Every use of the API is subject to the signed Fixflo Application Developer and API Licence Agreement, keys are issued by support after a review of the use case, and the runtime base URL is the customer's own per-tenant subdomain. Read the contract freely; sign an agreement to use it.",
      "rank": 269
     },
     {
@@ -10467,7 +10467,7 @@
     {
      "name": "Ordnance Survey",
      "slug": "ordnance-survey",
-     "description": "'Ordnance Survey is Great Britain''s national mapping agency, a government-owned company",
+     "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "rank": 277
     },
     {
@@ -10497,7 +10497,7 @@
     {
      "name": "Rightmove",
      "slug": "rightmove",
-     "description": "Rightmove is the United Kingdom's largest residential property portal,",
+     "description": "Rightmove is the United Kingdom's largest residential property portal, operated by Rightmove Group Limited (Milton Keynes) and listed on the London Stock Exchange as Rightmove plc. It aggregates for-sale, to-let, new-homes, commercial and overseas listings supplied by member estate agents, letting agents and new-homes developers, and monetises the audience by charging those agents for advertising rather than by licensing data. The UK has no MLS, so Rightmove sits at the demand end of the value chain and its inbound feeds — not any cooperative database — are the machine-readable surface. Its API posture is publish-in, not read-out - the documented APIs let an agent's CRM or feed provider push listings into Rightmove, and there is no public API for reading listings, sold prices or valuations. A public Apigee developer portal at api-docs.rightmove.co.uk (\"Rightmove APIs - Early adopters\") anonymously serves a real OpenAPI 3.0.1 contract for the Commercial Listings API, and www.rightmove.co.uk/adf.html publishes the Real Time Data Feed specification, but working credentials for every environment are issued case by case by the Rightmove Data Feed Team and use is governed by a binding End User Licence Agreement. No RESO Web API or Data Dictionary certification, OData `$metadata` document or Universal Property Identifier appears anywhere in Rightmove's surface - RESO is a North American, NAR-driven standard with no UK counterpart, and Rightmove uses its own proprietary ADF/RTDF schema instead.",
      "rank": 282
     },
     {
@@ -10521,13 +10521,13 @@
     {
      "name": "TwentyCi",
      "slug": "twentyci",
-     "description": "TwentyCi is a United Kingdom residential property data and home-mover",
+     "description": "TwentyCi is a United Kingdom residential property data and home-mover intelligence company. It aggregates roughly 31.5 million UK addresses and tens of billions of data points from hundreds of primary sources into the DOMUS property database, and sells that data to estate agents, lenders, insurers, conveyancers, house builders, retailers and media agencies through the TwentyCi, TwentyEA and TwentyConvey brands. In the UK value chain it sits on the data-supply side rather than the listing side - there is no UK MLS, listings are controlled by the Rightmove and Zoopla portals, and TwentyCi is one of the private aggregators that resells transaction, valuation and home-mover signal on top of that closed market. Its API posture is honest but commercial - TwentyAPI is a genuine RESTful v2 API at https://api.twentyci.co.uk/api/v2 with a live, publicly readable documentation portal covering roughly 57 documented operations across properties, AVM valuation, transaction triggers, agent performance, address matching, schools, housing market metrics and retail propensity - but every endpoint returns 401 without a TwentyCi-issued OAuth 2.0 bearer token, there is no self-serve signup, no published pricing, and the specification download TwentyCi advertises at https://api.twentyci.co.uk/docs/v2/spec.json returns HTTP 404. Access is sales-led and partner-only. RESO is entirely absent - the UK has no MLS or RESO regime and TwentyCi identifies property by UPRN, the Ordnance Survey/GeoPlace Unique Property Reference Number, rather than by any RESO Universal Property Identifier.",
      "rank": 286
     },
     {
      "name": "Zoopla",
      "slug": "zoopla",
-     "description": "'Zoopla Limited is one of the two dominant residential property portals in the",
+     "description": "Zoopla Limited is one of the two dominant residential property portals in the United Kingdom, operating zoopla.co.uk alongside PrimeLocation under the Houseful group (formerly ZPG), which also owns the Alto/Jupix estate-agency CRM software and the Hometrack valuation and mortgage-risk business. In a market with no MLS and no cooperative listing standard, Zoopla sits at the demand end of the value chain — consumers search on the portal, and listings reach it from agency CRM systems rather than from a shared data pool. Its API posture reflects that position honestly: the old public Zoopla listings API on the Mashery-hosted developer.zoopla.co.uk portal has been retired and the site no longer serves a valid certificate, and the current developer documentation at developers.zoopla.co.uk states plainly that \"the Zoopla listings API is no longer publicly available.\" What remains public is a small, real, machine-readable surface aimed at member estate agents and their CRM vendors — a Leads API for polling applicant and appraisal enquiries, a real-time lead Push service, and two product-activation APIs for Premium Listings and Weekly Featured Properties. The documentation and three Swagger/OpenAPI contracts are openly readable with no login, but credentials are not self-serve: you must already be a Zoopla member on a listings package, and client_id/client_secret are issued by Member Services after you send them a GPG public key. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier anywhere in Zoopla's stack — RESO is a North American construct and the UK has not adopted it. Zoopla publishes no open data; the open property layer in the UK belongs to the public sector (HM Land Registry Price Paid and Ordnance Survey), not to the portals.",
      "rank": 287
     }
    ]

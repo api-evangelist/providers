@@ -648,7 +648,7 @@
     {
      "name": "Alpha Metallurgical Resources",
      "slug": "alpha-metallurgical-resources",
-     "description": "'Profile for Alpha Metallurgical Resources in the API Evangelist network. Fortune F1000 (rank 925).'",
+     "description": "Profile for Alpha Metallurgical Resources in the API Evangelist network. Fortune F1000 (rank 925).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpha-metallurgical-resources/refs/heads/main/screenshots/alpha-metallurgical-resources-2026-06-20T171547.png",
      "score": 3.5,
      "band": "minimal",
@@ -684,7 +684,7 @@
     {
      "name": "Arch Resources",
      "slug": "arch-resources",
-     "description": "'Profile for Arch Resources in the API Evangelist network. Fortune F1000 (rank 922).'",
+     "description": "Profile for Arch Resources in the API Evangelist network. Fortune F1000 (rank 922).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arch-resources/refs/heads/main/screenshots/arch-resources-2026-06-20T172402.png",
      "score": 3.5,
      "band": "minimal",

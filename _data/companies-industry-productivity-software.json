@@ -11,7 +11,7 @@
     {
      "name": "Asana",
      "slug": "asana",
-     "description": "Asana is a web and mobile application designed to help teams organize,",
+     "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
      "score": 77.8,
      "band": "exemplar",
@@ -47,7 +47,7 @@
     {
      "name": "Notion",
      "slug": "notion",
-     "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis,",
+     "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png",
      "score": 75.7,
      "band": "exemplar",
@@ -119,7 +119,7 @@
     {
      "name": "Airtable",
      "slug": "airtable",
-     "description": "Airtable is a cloud-based collaboration service that combines the simplicity",
+     "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
      "score": 70.3,
      "band": "exemplar",
@@ -237,7 +237,7 @@
     {
      "name": "Slack",
      "slug": "slack",
-     "description": "Slack is a cloud-based team collaboration platform that provides chat,",
+     "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
      "score": 68.4,
      "band": "strong",
@@ -592,7 +592,7 @@
     {
      "name": "Loom",
      "slug": "loom",
-     "description": "Loom is an async video messaging platform (now part of Atlassian) used",
+     "description": "Loom is an async video messaging platform (now part of Atlassian) used by teams to record screen, voice, and camera. The Loom developer platform exposes the recordSDK and embedSDK for embedding recording and playback into other apps, plus SCIM provisioning and SSO/admin APIs available on Business and Enterprise plans.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/screenshots/loom-2026-06-20T184719.png",
      "score": 28.5,
      "band": "emerging",
@@ -637,7 +637,7 @@
     {
      "name": "Gartner",
      "slug": "gartner",
-     "description": "Gartner is a global research and advisory firm providing information,",
+     "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png",
      "score": 6.8,
      "band": "minimal",

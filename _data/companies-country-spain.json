@@ -212,7 +212,7 @@
     {
      "name": "Koalaboox",
      "slug": "koalaboox",
-     "description": "'Koalaboox is a Belgian cloud invoicing and cash-flow platform for small",
+     "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
      "score": 32.7,
      "band": "thin",
@@ -491,7 +491,7 @@
     {
      "name": "Lingokids",
      "slug": "lingokids",
-     "description": "'Lingokids is a children''s edutainment platform operated by Monkimun Inc. (Wilmington, Delaware)",
+     "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
      "score": 20.6,
      "band": "emerging",
@@ -937,7 +937,7 @@
     {
      "name": "Clikalia",
      "slug": "clikalia",
-     "description": "'Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that",
+     "description": "Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer, can close a sale within days, then renovates and returns properties to the market in turnkey condition. The company pairs proprietary technology with a large operations team to digitize a historically slow home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain, Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist profile captures its public web, legal, and domain-security surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/screenshots/clikalia-2026-07-25T205624.png",
      "score": 12.3,
      "band": "minimal",
@@ -1015,7 +1015,7 @@
     {
      "name": "Blink Booking",
      "slug": "blink-booking",
-     "description": "'Blink Booking was a Madrid, Spain based mobile application for last-minute",
+     "description": "Blink Booking was a Madrid, Spain based mobile application for last-minute hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The app presented travellers with a curated daily selection of four discounted hotels for same-day stays, working with more than 2,000 hotel partners across eight European countries, and competed directly with HotelTonight. The company raised approximately $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking in September 2013 to strengthen its Groupon Getaways travel division; the app was rebranded \"Blink by Groupon\" and was wound down over the following months. The company is defunct and publishes no developer surface, no API, and no documentation. Its former blinkbooking.com domain lapsed and was re-registered in August 2020 by an unrelated party; it now redirects to a third-party gambling site and must not be treated as a company property.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blink-booking/refs/heads/main/screenshots/blink-booking-2026-07-25T203318.png",
      "score": 6.8,
      "band": "minimal",
@@ -1086,7 +1086,7 @@
     {
      "name": "Groupalia",
      "slug": "groupalia",
-     "description": "'Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style",
+     "description": "Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style local commerce marketplace) founded in 2010 and backed by investors including Insight Partners, operating across Spain, Italy and parts of Latin America before consolidating in the group-buying downturn. The brand's only active surface today is the Italian domain groupalia.it, a gift-card storefront whose checkout is operated by EPIPOLI S.p.A. (mygiftcard.it); the original www.groupalia.com domain no longer resolves. No public API, developer portal, SDKs, or agent-facing surface is published, so this profile remains a consumer-company identity record rather than an API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/groupalia/refs/heads/main/screenshots/groupalia-2026-07-25T220348.png",
      "score": 6.8,
      "band": "minimal",

@@ -47,7 +47,7 @@
     {
      "name": "Langdock",
      "slug": "langdock",
-     "description": "'Langdock is an enterprise AI platform — \"The Platform for AI Adoption\"",
+     "description": "Langdock is an enterprise AI platform — \"The Platform for AI Adoption\" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II certification and GDPR alignment, and supports multi-tenant SaaS, single-tenant SaaS, bring-your-own-cloud, and on-premise Kubernetes deployment. The Langdock API exposes provider-compatible completion and embedding endpoints for OpenAI, Anthropic, Google Gemini, and Mistral models across EU and US regions, alongside first-party Agents, Skills, Knowledge Folder, Integrations, Audit Logs, Usage Export, and User Management APIs, plus a hosted Model Context Protocol server that exposes workspace agents as MCP tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png",
      "score": 62.8,
      "band": "strong",
@@ -169,7 +169,7 @@
     {
      "name": "Xentral",
      "slug": "xentral",
-     "description": "Xentral is a cloud ERP and business operations platform from Augsburg,",
+     "description": "Xentral is a cloud ERP and business operations platform from Augsburg, Germany that helps small and mid-sized product businesses run sales orders, purchasing, warehousing, fulfillment, invoicing, accounting, POS, and production from one system. It exposes a versioned REST API (v1/v2/v3) with Personal Access Token authentication, a Kafka-backed event system with webhooks, an official OpenAPI specification on GitHub, a hosted MCP server behind its AgentOS, and a published Claude Code plugin with agent skills for automating the ERP.",
      "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
@@ -204,7 +204,7 @@
     {
      "name": "Lemon Markets",
      "slug": "lemon-markets",
-     "description": "'lemon.markets is a Berlin-based, BaFin-licensed Brokerage-as-a-Service provider that sells",
+     "description": "lemon.markets is a Berlin-based, BaFin-licensed Brokerage-as-a-Service provider that sells white-label investment infrastructure as an API. Partners embed securities trading in their own products without holding a licence or operating custody, order routing, settlement, tax and reporting themselves. The Brokerage API covers account opening and KYC/ID+V, business and BPO accounts, securities accounts, instruments and prices across 10,000+ ETFs, stocks, bonds and funds, single and batch orders, trades, positions and financials, withdrawals and balance sweeps, corporate actions and income distributions, treasury mandates and transfers, German tax exemption orders (Freistellungsauftrag), documents, cash settlement, and recurring-investment workflows for savings plans. It is a REST API over JSON with bearer API-key auth, cursor pagination, an Idempotency-Key header on order creation, HMAC-signed webhooks across 83 event types, and a sandbox environment with published test ISINs. The API is invite-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemon-markets/refs/heads/main/screenshots/lemon-markets-2026-07-25T224842.png",
      "score": 51.4,
      "band": "developing",
@@ -246,7 +246,7 @@
     {
      "name": "lemon.markets",
      "slug": "lemonmarkets",
-     "description": "'lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage",
+     "description": "lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage infrastructure as an API. Its Brokerage API lets fintechs, banks and platforms embed investing — account opening and KYC/identification, securities accounts, order placement and execution, trades, positions, transactions, withdrawals, settlements, corporate actions, income distributions, tax exemption orders (Freistellungsauftrag) and treasury products — without building or licensing a broker-dealer stack themselves. Coverage spans 10,000+ ETFs, ETPs, stocks, bonds and funds, and the platform supports omnibus, fully disclosed and BPO (business process outsourcing) operating models. The REST API is complemented by a webhook/event surface, an Idempotency-Key contract on order placement, and a sandbox environment with published test ISINs. API access is invite-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png",
      "score": 51.2,
      "band": "developing",
@@ -366,7 +366,7 @@
     {
      "name": "Remberg",
      "slug": "remberg",
-     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance,",
+     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
      "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
@@ -958,7 +958,7 @@
     {
      "name": "sevdesk",
      "slug": "sevdesk",
-     "description": "sevdesk is a German cloud accounting, invoicing, and bookkeeping",
+     "description": "sevdesk is a German cloud accounting, invoicing, and bookkeeping platform for freelancers and small businesses. Its RESTful API (base https://my.sevdesk.de/api/v1) exposes everything the web application does - contacts, invoices, orders, credit notes, vouchers (receipts), bank check accounts and transactions, parts (inventory), tags, plus DATEV and CSV exports - authenticated with a per-administrator API token passed in the Authorization header. Nested resources can be pulled in with the embed query parameter.",
      "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
@@ -993,7 +993,7 @@
     {
      "name": "lexoffice",
      "slug": "lexoffice",
-     "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud",
+     "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud accounting, invoicing, and bookkeeping SaaS from Lexware (Haufe Group). Its public REST API lets developers push and pull business data - contacts, invoices, quotations, order confirmations, delivery notes, credit notes, dunnings, bookkeeping vouchers, files, payments, and profile metadata - and subscribe to webhooks via event subscriptions. Authentication is a self-serve Bearer API key. The API gateway moved from api.lexoffice.io to api.lexware.io on 26 May 2025 as part of the rebrand; the legacy host remained available through December 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png",
      "score": 37.4,
      "band": "thin",
@@ -1100,7 +1100,7 @@
     {
      "name": "Lendis",
      "slug": "lendis",
-     "description": "'Lendis GmbH is a Berlin-based B2B technology company, founded in 2018, that rents IT hardware",
+     "description": "Lendis GmbH is a Berlin-based B2B technology company, founded in 2018, that rents IT hardware to German small and mid-sized businesses under a Device-as-a-Service (DaaS) model. Lendis bundles hardware procurement, configuration and staging, delivery logistics, financing, IT support, lifecycle management and device offboarding into a single monthly rental rate, and manages the whole estate through LendisOS, a web platform covering a self-service shop, order tracking, asset inventory and contract management. The company targets organisations of roughly 50 to 500 employees that want to avoid tying up capital in laptops, smartphones, monitors and accessories. Lendis publishes no public developer program; its commercial platform runs on a private AWS API Gateway at api.lendis.io. Its marketing site does expose a public read-only WordPress REST content API, and Lendis publishes a machine-readable llms.txt for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png",
      "score": 34.0,
      "band": "thin",
@@ -1136,7 +1136,7 @@
     {
      "name": "Koppla",
      "slug": "koppla",
-     "description": "'koppla GmbH is a Potsdam, Germany based construction technology company",
+     "description": "koppla GmbH is a Potsdam, Germany based construction technology company building Bauterminplan (construction scheduling) software for general contractors, general planners, project developers and architects. The cloud platform combines lean-construction scheduling, day-to-day project control and collaboration, standardized company-wide templates, reporting and analytics, a jobsite mobile app, AI-assisted import of existing schedules from MS Project, Asta Powerproject and Primavera, and a BIM integration that adds the time dimension (4D) to the model. koppla states that more than 100 construction companies and 600+ live projects run on the platform, covering over EUR 15 billion of managed construction volume. An open interface (API) plus a Power BI integration are offered as part of the Enterprise plan; koppla does not publish a public developer portal, API reference or machine-readable specification, so the API is available under contract rather than via self-service onboarding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/screenshots/koppla-2026-07-25T224214.png",
      "score": 32.3,
      "band": "thin",
@@ -1172,7 +1172,7 @@
     {
      "name": "Kitchen Stories",
      "slug": "kitchenstories",
-     "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013",
+     "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013 by Verena Hubertz and Mengting Boensch, and majority-owned by the BSH Group (Bosch Siemens Hausgeraete) since 2017. The company publishes roughly 15,000 recipes and articles with HD step-by-step video tutorials across its iOS and Android apps, website, smart TVs, and Amazon Echo Show, reaching more than 6 million unique users from over 22 million app downloads. Alongside the consumer product it runs Kitchen Stories Business, a branded-content and native-advertising arm working with around 300 brand partners, and an online shop for its own organic spice mixes. Its content platform is served by the Kitchen Stories Internal API (Ultron), a bearer-token REST API at api.kitchenstories.io covering recipes, articles, videos, ingredients, utensils, categories, user cookbooks, meal plans, comments, ratings, and personalization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png",
      "score": 31.6,
      "band": "thin",
@@ -1365,7 +1365,7 @@
     {
      "name": "Deutsche Telekom",
      "slug": "deutsche-telekom",
-     "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany,",
+     "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany, serving more than 250 million mobile customers across 50+ countries. It is the parent company of T-Mobile US (NASDAQ TMUS) and the majority owner of T-Systems International, its enterprise IT and cloud arm. For developers, Deutsche Telekom operates a public developer portal at developer.telekom.com offering a MagentaBusiness CPaaS suite (SMS, RCS, Voice, Video, Conversational Connect, Reports, AI Studio) built in partnership with Vonage, plus a growing portfolio of GSMA Open Gateway / CAMARA-aligned Network APIs (Number Verification, Verify, 5G Slices) launched jointly with T-Mobile US. T-Systems operates Open Telekom Cloud, an OpenStack-based sovereign public cloud with full REST APIs across compute, storage, networking, container, database, AI, and API Gateway services. Deutsche Telekom is also a substantial open-source contributor — its github.com/telekom organization publishes 245+ repositories including the Open Telekom Integration Platform (O28M), the TARDIS control-plane suite (with OpenAPI 3 specs for Rover, Controlplane, Identity, Discovery, File Manager, Secret Manager, and Stargate), the Horizon pub/sub event-streaming ecosystem, the Scale design system, Wurzel RAG ETL framework, and Kubernetes-native networking and IPAM operators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png",
      "score": 27.4,
      "band": "emerging",
@@ -1401,7 +1401,7 @@
     {
      "name": "Lanes & Planes",
      "slug": "lanes-and-planes",
-     "description": "'Lanes & Planes is a Munich-based travel and expense (T&E) management platform",
+     "description": "Lanes & Planes is a Munich-based travel and expense (T&E) management platform that positions itself as the financial infrastructure for European corporate travel. The platform covers the full T&E lifecycle in one system: travel request, digital approval flows, booking, and final accounting. Its inventory spans European rail (Deutsche Bahn, ÖBB, SBB, SNCF), flights from the major global carriers and alliances including NDC content, over seven million hotels via direct interfaces plus HRS, Expedia and Booking.com, Airbnb for Work, global rental cars, and ground mobility including the Deutschland-Ticket and Flixbus. The product is built for finance departments, emphasizing VAT-compliant automated invoicing, German per-diem (VMA) tax logic, centralized billing on a single creditor, real-time budget tracking, and automated travel-policy enforcement. It integrates with ERP and accounting systems (DATEV, SAP, Microsoft Dynamics, Sage, Addison) and with HRIS platforms, offering native Personio synchronization and an External API (ExtAPI) for other HRIS and identity systems such as Workday, BambooHR and HiBob. Enterprise authentication is via SAML 2.0 single sign-on. The company is certified to ISO 27001 and ISO 9001, is GDPR compliant, and hosts on European servers. Lanes & Planes is backed by Battery Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanes-and-planes/refs/heads/main/screenshots/lanes-and-planes-2026-07-25T224513.png",
      "score": 26.6,
      "band": "emerging",
@@ -1785,7 +1785,7 @@
     {
      "name": "HOLY",
      "slug": "holy",
-     "description": "'HOLY is a German direct-to-consumer beverage brand offering sugar-free, powdered",
+     "description": "HOLY is a German direct-to-consumer beverage brand offering sugar-free, powdered and syrup-based drink mixes that customers prepare with water or milk. Its product families span HOLY Energy (caffeine and vitamins), HOLY Iced Tea, HOLY Hydration (isotonic electrolytes), HOLY Milkshake (low-calorie), and HOLY Syrup. Founded by three friends (Matze, Fred, and Phil), the company grew from a shared apartment to 50+ employees, 2 million customers, and 500,000+ social followers, positioned on \"great taste with a good conscience.\" HOLY sells online via a Shopify storefront and exposes a modern agentic-commerce surface: a hosted Storefront MCP server, a Universal Commerce Protocol (UCP) endpoint, llms.txt / agents.md agent instructions, and Shopify Customer Account OAuth/OIDC.",
      "score": 22.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1820,7 +1820,7 @@
     {
      "name": "Afilio",
      "slug": "afilio",
-     "description": "'Afilio (Afilio - Gesellschaft für Vorsorge mbH) is a Berlin-based digital",
+     "description": "Afilio (Afilio - Gesellschaft für Vorsorge mbH) is a Berlin-based digital provision platform (\"Vorsorgeplattform\") that helps German families prepare for emergencies, care situations, and death. Through a paid membership, users create legally valid advance directives (Patientenverfügung), healthcare powers of attorney (Vorsorgevollmacht), and wills (Testament), and maintain a digital inventory of documents and assets. A central emergency card gives doctors and relatives 24/7 access to critical medical and provision information, and Afilio also assists with care-level (Pflegegrad) applications and expert consultation. Over four million families use the GDPR-compliant service. Afilio is a consumer (B2C) platform and does not currently publish a public developer API; this profile captures its public product, legal, and security surface. Backed by Speedinvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/afilio/refs/heads/main/screenshots/afilio-2026-07-25T181739.png",
      "score": 22.1,
      "band": "emerging",
@@ -1862,7 +1862,7 @@
     {
      "name": "Kipu Quantum",
      "slug": "kipu-quantum",
-     "description": "'Kipu Quantum GmbH is a Berlin-based deep-tech company building application-specific,",
+     "description": "Kipu Quantum GmbH is a Berlin-based deep-tech company building application-specific, hardware-efficient quantum algorithms and delivering them as a managed cloud platform. Its flagship product, the Kipu Quantum Hub (hub.kipu-quantum.com), is an end-to-end platform for industrial quantum computing: it provides unified access to 20+ quantum backends (IBM Quantum, IonQ, IQM, QuEra, Rigetti, Pasqal, Azure Quantum), a visual workflow designer for quantum-classical pipelines, an AI \"matchmaker\" (Tinkuq) that translates a business problem into a solver configuration, and a Quantum Service Store of pre-built solvers (Miray, Rimay, Iskay, HUK) targeting optimization, portfolio mix, network routing, and classification. Developers automate runs and integrate via a Python SDK, REST API, and CLI, authenticating with API keys and OAuth2/OIDC (Keycloak, PlanQK realm). Founded and led by Prof. Dr. Enrique Solano and Dr. Tobias Grab. Backed by HV Capital and surfaced into the API Evangelist network via VC-portfolio enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/screenshots/kipu-quantum-2026-07-25T223849.png",
      "score": 21.4,
      "band": "emerging",
@@ -2179,7 +2179,7 @@
     {
      "name": "Laserhub",
      "slug": "laserhub",
-     "description": "'Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured",
+     "description": "Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured metal and plastic parts, founded to replace the traditional RFQ cycle for sheet metal, tube and machined components with instant online quoting. Buyers register at app.laserhub.com, upload CAD files, and receive an automated feasibility check plus an instant quote covering laser cutting, plasma and flame cutting, tube laser cutting, bending, CNC turning and milling, weldments, and secondary processes such as threading, deburring, galvanising, powder coating and engraving. Laserhub is itself the contracting party and allocates each order algorithmically across a network of roughly 100 ISO 9001:2015 certified producers in Germany, Austria and Switzerland, serving both SMEs and DAX40 manufacturers with framework agreements, a parts library, sample parts, inspection certificates and design guidelines. Laserhub publishes no public developer API, SDK, or API documentation as of this profile: api.laserhub.com is a private AWS API Gateway that rejects unauthenticated requests, and the only machine-adjacent ordering channel the company documents is an email-based ordering flow (anfrage@laserhub.com) that its own release notes describe as still in a test phase for a subset of customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/laserhub/refs/heads/main/screenshots/laserhub-2026-07-25T224547.png",
      "score": 19.0,
      "band": "emerging",
@@ -2501,7 +2501,7 @@
     {
      "name": "Simpleclub",
      "slug": "simpleclub",
-     "description": "'Simpleclub is a German digital learning platform serving over two million students (grades 5-13),",
+     "description": "Simpleclub is a German digital learning platform serving over two million students (grades 5-13), apprentices, and organizations across school, vocational training (Ausbildung), continuing education, retraining, and workforce upskilling. The product pairs curriculum-aligned content (including IHK-aligned vocational tracks) with an AI-powered learning assistant, trainer/learning-management tooling, and the ability for organizations to upload custom content. It counts 750+ corporate clients such as Deutsche Bahn, Bosch, and Vodafone. Simpleclub maintains a public GitHub organization of open-source Flutter tooling (math keyboard, flutter_math, design-token builder) but publishes no public developer API, developer portal, or machine-readable API specification; this profile is an end-user/EdTech company record rather than an API provider.",
      "score": 18.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2577,7 +2577,7 @@
     {
      "name": "claimsforce",
      "slug": "claimsforce",
-     "description": "claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property",
+     "description": "claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property and casualty claims management and underwriting. Its platform helps insurers, loss-adjusting and expert organizations, and independent adjusters digitize the end-to-end claims process - automating report and calculation generation, enabling video-based remote case assessment, optimizing adjuster disposition and route planning to cut travel time, and surfacing real-time analytics for claims handling and risk management. Named customers include Zurich Gruppe Deutschland, HanseMerkur, Concordia, Crawford, Sedgwick and Die Regulierer. The product is a private, login-only SaaS with no public API or developer portal as of July 2026. The company is ISO/IEC 27001:2022 certified (TUV Rheinland) and backed by Point Nine.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/claimsforce/refs/heads/main/screenshots/claimsforce-2026-07-25T205452.png",
      "score": 17.6,
      "band": "emerging",
@@ -2660,7 +2660,7 @@
     {
      "name": "METYCLE",
      "slug": "metycle",
-     "description": "'METYCLE is a Cologne, Germany-based digital B2B marketplace and AI-powered",
+     "description": "METYCLE is a Cologne, Germany-based digital B2B marketplace and AI-powered trading platform for the international secondary (scrap) metal industry, connecting suppliers and buyers of recycled metals - copper, aluminum, zinc, nickel, lead and magnesium - across borders. Operated by METYCLE GmbH and led by managing directors Rafael Suchan and Sebastian Brenner, the company raised a 14.1M euro Series A round to expand its platform for transparent, sustainable global metal trade and to advance circular-economy sourcing of secondary metals. Its customer platform supports biddable listings, product discovery and trade execution. This profile was added to the API Evangelist network as a company/provider record; METYCLE currently exposes no public developer API.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2815,7 +2815,7 @@
     {
      "name": "Hey",
      "slug": "hey",
-     "description": "heycater! is a B2B catering marketplace that connects companies with vetted",
+     "description": "heycater! is a B2B catering marketplace that connects companies with vetted catering partners across Germany and the United Kingdom, letting businesses request, compare, and book corporate food services through a single platform. Its service lines span heykantine! (daily office meals for teams of 50+), Meetings & Catering (event catering from 10 people drawing on 700+ vetted caterers), hey! Events (full-service event planning for ~100+ guests), and a Pantry Service for office beverages and snacks. The platform serves 2,500+ companies, including Spotify, Airbnb, Meta, and Salesforce, and has fulfilled more than 250,000 catering orders, returning comparable quotes within 48 hours at no cost. heycater! does not currently publish a public API or developer program; this profile captures its public web presence and domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hey/refs/heads/main/screenshots/hey-2026-07-25T221115.png",
      "score": 17.0,
      "band": "emerging",
@@ -2886,7 +2886,7 @@
     {
      "name": "Limehome",
      "slug": "limehome",
-     "description": "'Limehome is a Munich-headquartered digital hospitality operator founded in 2018 that designs,",
+     "description": "Limehome is a Munich-headquartered digital hospitality operator founded in 2018 that designs, leases and runs fully-equipped design apartments and aparthotels across Europe, from Berlin to Barcelona and Linz to Lecce. The company runs a 100% digital guest journey: guests browse and book units online, receive an access code, and complete check-in and check-out contactlessly with no on-site reception staff. Limehome operates offices in Munich and Madrid with more than 200 employees, is led by CEOs Dr. Josef Vollmayr and Cesar de Sousa Freitas, and is backed by Picus Capital, HV Capital and Lakestar. Revenue comes from direct bookings (fee-free, with a 15% membership discount) alongside a \"Lease to Limehome\" real-estate partnership model. Limehome runs a production API host at api.limehome.com behind AWS API Gateway, but publishes no public developer portal, documentation or machine-readable specification; that surface is first-party/private. The company does maintain a public GitHub organization with a small number of open-source engineering libraries, and an engineering blog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/limehome/refs/heads/main/screenshots/limehome-2026-07-25T225217.png",
      "score": 16.9,
      "band": "emerging",
@@ -2922,7 +2922,7 @@
     {
      "name": "Careship",
      "slug": "careship",
-     "description": "'Careship (operated by Care Companion GmbH, Berlin) is a German senior-care",
+     "description": "Careship (operated by Care Companion GmbH, Berlin) is a German senior-care marketplace that connects elderly people and their families with vetted, non-medical everyday helpers (\"Alltagshilfen\") from their own neighborhoods. The platform covers companionship, shopping, household support, mobility and leisure, light personal care, and dementia support, and helps families finance care through statutory long-term care insurance (Pflegekasse). Careship operates across 20+ German cities including Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, and Dresden. It was added to the API Evangelist network as a portfolio company of Creandum; it is a consumer care-services business with no public developer or API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/careship/refs/heads/main/screenshots/careship-2026-07-25T204558.png",
      "score": 16.8,
      "band": "emerging",
@@ -3339,7 +3339,7 @@
     {
      "name": "Comstruct",
      "slug": "comstruct",
-     "description": "'Comstruct is a Munich-based construction technology company that provides AI-powered",
+     "description": "Comstruct is a Munich-based construction technology company that provides AI-powered agents to automate the procurement of construction materials. Its platform runs the full procurement workflow from the bill of materials (Leistungsverzeichnis) through supplier inquiry, offer comparison, contract negotiation, digital delivery notes, AI-based invoice verification, and sustainability reporting. Customers include HOCHTIEF, Implenia, Marti, and Leonhard Weiss. Comstruct is backed by GV (Google Ventures). As of enrichment the company publishes no public developer portal, API reference, or OpenAPI definition; this profile is maintained in the API Evangelist network from its public web presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/comstruct/refs/heads/main/screenshots/comstruct-2026-07-25T210213.png",
      "score": 15.2,
      "band": "emerging",
@@ -3375,7 +3375,7 @@
     {
      "name": "KoRo",
      "slug": "koro",
-     "description": "'KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer",
+     "description": "KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer that sells nuts, dried fruit, nut butters, snacks, protein products, baking ingredients and drugstore goods in bulk packaging at wholesale-style prices, shipping across Europe from country storefronts in Germany (korodrogerie.de), Austria, Switzerland, France, Italy and the Benelux/EU shop at koro.com. Founded in 2014 and backed by HV Capital and Partech, KoRo runs a headless commerce stack — a Shopware 6 backend fronted by a Nuxt storefront deployed on Vercel — and publishes its engineering work as open source through the KoRoHandelsGmbH GitHub organization, including a Nitro-based Shopware Store-API proxy and several Shopware 6 build-tooling packages on npm under the @korodrogerie scope. KoRo publishes no public developer portal, no documented partner or commerce API, and no API specifications; its Store-API surface is internal and gated behind per-sales-channel access keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/koro/refs/heads/main/screenshots/koro-2026-07-25T224226.png",
      "score": 15.1,
      "band": "emerging",
@@ -3498,7 +3498,7 @@
     {
      "name": "Urbia",
      "slug": "urbia",
-     "description": "Urbia is a German online community and content platform for parents",
+     "description": "Urbia is a German online community and content platform for parents and families, covering fertility, pregnancy, birth, babies, and family life through expert-written magazine articles, active discussion forums, and planning tools. Founded in Cologne in 1998 and backed early by Earlybird Venture Capital, urbia.de is today part of the ELTERN family of parenting brands, operated by Funke Women, People & Family GmbH in Hamburg. Urbia does not publish a public API or developer program.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3533,7 +3533,7 @@
     {
      "name": "Lendorse",
      "slug": "lendorse",
-     "description": "Lendorse GmbH is a Berlin-based education-finance company that funds international",
+     "description": "Lendorse GmbH is a Berlin-based education-finance company that funds international master's students studying in Europe through Income Share Agreements (ISAs) instead of traditional credit-scored loans. Students receive between EUR 3,000 and EUR 20,000 toward tuition, visa deposits, relocation and living costs, then repay a fixed 6-12% share of gross monthly income for 12 to 60 months once they earn above a EUR 2,500 monthly salary floor, with total repayment capped at 2.3x the funded amount. No collateral, co-signer, parental guarantor or credit check is required, which opens funding to students from developing and emerging markets who are normally excluded. Lendorse also provides mentorship, CV review, mock interviews and industry introductions. It covers universities in Austria, Belgium, France, Germany, Italy, Spain, Sweden and Switzerland, went through the Techstars and ABN AMRO Future of Finance Accelerator, and raised EUR 1.75M co-led by LUMO Labs and Soulmates Ventures. Lendorse publishes no public API, SDKs or developer portal as of July 2026; this profile is a company record rather than an API profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lendorse/refs/heads/main/screenshots/lendorse-2026-07-25T224907.png",
      "score": 14.5,
      "band": "minimal",
@@ -3569,7 +3569,7 @@
     {
      "name": "Packmatic",
      "slug": "packmatic",
-     "description": "'Packmatic is a Berlin-based packaging procurement platform that helps",
+     "description": "Packmatic is a Berlin-based packaging procurement platform that helps companies source flexible and paper-based packaging at lower cost. It combines a proprietary supplier database and a smart-matching engine spanning 350+ suppliers with expert packaging engineers and a cloud-based platform for managing quotes, orders, and supplier communication. Customers pay no upfront fees; Packmatic earns a commission when they source through its network, reporting average savings around 16% and reducing supplier search time by roughly 70%. Packmatic does not currently publish a public developer API, SDKs, or developer documentation; this profile captures its company identity and domain-security posture for the API Evangelist network.",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3604,7 +3604,7 @@
     {
      "name": "Taxfix",
      "slug": "taxfix",
-     "description": "'Taxfix is a Berlin-based fintech that lets individuals and self-employed people in Germany",
+     "description": "Taxfix is a Berlin-based fintech that lets individuals and self-employed people in Germany prepare and file their annual income tax return from a mobile app or web browser. Users either answer a guided set of roughly 70 questions to self-file (Taxfix Basic) or hand the return to an independent tax expert via the Expert Service, with data transmitted to the tax authority over the official ELSTER interface. The company reports more than 10 million tax returns filed and over 5 billion euros in refunds. Taxfix is a consumer (B2C) product and does not publish a public developer API, developer portal, or API documentation; this profile captures its public identity and domain-security posture. Backed by Creandum, Index Ventures and Speedinvest.",
      "score": 14.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3639,7 +3639,7 @@
     {
      "name": "trawa",
      "slug": "trawa",
-     "description": "trawa (operated by Future Energy Services GmbH) is a Berlin-based energy",
+     "description": "trawa (operated by Future Energy Services GmbH) is a Berlin-based energy management company that helps mid-sized businesses procure and manage electricity. It pairs AI-optimized green-electricity sourcing on the wholesale market with cloud energy-management software that gives customers real-time visibility into consumption, costs, and CO2 emissions, alongside battery storage and smart control of energy-consuming assets such as CHP plants and charging stations. Founded in 2022, trawa is backed by Balderton Capital and Speedinvest. The platform is delivered through a customer web portal and a trust center; no public developer API was found as of this enrichment pass.",
      "score": 14.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3674,7 +3674,7 @@
     {
      "name": "Wellster",
      "slug": "wellster",
-     "description": "'Wellster Healthtech Group is a German digital healthcare company founded in Munich in 2018",
+     "description": "Wellster Healthtech Group is a German digital healthcare company founded in Munich in 2018 by Dr. Manuel Nothelfer and Nico Hribernik. It operates a digital health ecosystem that integrates a diverse range of direct-to-patient medical brands across Europe, combining synchronous and asynchronous telemedicine with value-based, evidence-driven care. Wellster emphasizes German-based medical supervision, data stored on German servers, and treatments aligned with established clinical standards, acting as a structured filter and patient-routing layer for the healthcare system. It is backed by HV Capital and was added to the API Evangelist network as a portfolio lead. Wellster does not publish a public API, developer portal, or API documentation as of this enrichment pass.",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3715,7 +3715,7 @@
     {
      "name": "Reiner.ai",
      "slug": "reinerai",
-     "description": "'Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction-",
+     "description": "Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction- and planning-industry AI platform for architects, engineers, and planners. It combines leading LLMs with domain-specific \"Reiner Knowledge\" and \"Reiner Logic\" layers to deliver Reiner Chat, task-specific KI-Agenten (AI agents) for site protocols, explanatory reports and project applications, company-knowledge integration, and a library of 50+ prebuilt construction prompts. The product is delivered as a hosted web application (app.reiner.ai); as of this enrichment pass there is no public developer API, SDKs, or developer documentation.",
      "score": 14.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3750,7 +3750,7 @@
     {
      "name": "Kraka",
      "slug": "kraka",
-     "description": "Kraka Technologies GmbH is a Berlin-based industrial AI company whose platform turns",
+     "description": "Kraka Technologies GmbH is a Berlin-based industrial AI company whose platform turns plain video recordings of shop-floor tasks into standardized, multilingual, step-by-step work instructions. Kraka Studio is the core product, extended by Training, Maintenance and Quality modules covering workforce qualification, AI-assisted fault diagnosis and checklist-driven quality control. Kraka positions itself as closing the execution gap between ERP systems that manage data and the work actually performed on the factory floor. Backed by Seedcamp. No public API, developer portal or SDK is published as of July 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kraka/refs/heads/main/screenshots/kraka-2026-07-25T224301.png",
      "score": 14.0,
      "band": "minimal",
@@ -3786,7 +3786,7 @@
     {
      "name": "Kyrok",
      "slug": "kyrok",
-     "description": "'Kyrok GmbH is a Berlin-based software company building an AI operating",
+     "description": "Kyrok GmbH is a Berlin-based software company building an AI operating system for mid-sized pharmaceutical and chemical manufacturers in Europe. The platform layers over a company's existing ERP (SAP S/4HANA, SAP R/3, Microsoft Dynamics 365, Infor, Applus) and connects the systems supply chain teams currently hold together by hand into intelligent operations across customer service, production planning, material planning and procurement. Kyrok positions itself on an \"AI assists, people decide\" model, running on European infrastructure in Frankfurt am Main, GDPR-compliant, with ISO 27001 and ISO 42001 certifications in progress. The company announced a EUR 3.1M round in June 2026 and names AnalytiChem and Konapharma as customers. Kyrok connects to ERP systems via API but publishes no public developer API, API reference, or SDKs as of this enrichment pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/screenshots/kyrok-2026-07-25T224350.png",
      "score": 14.0,
      "band": "minimal",
@@ -3822,7 +3822,7 @@
     {
      "name": "Xayn (now Noxtua)",
      "slug": "xayn",
-     "description": "Xayn is a Berlin-based AI company founded in 2017 as XAIN out of research",
+     "description": "Xayn is a Berlin-based AI company founded in 2017 as XAIN out of research by Dr. Leif-Nissen Lundbaek and Prof. Michael Huth at Oxford and Imperial College London. Rebranded to Xayn in 2020, it built the Xaynet privacy-preserving federated learning framework and a privacy-protecting search and discovery engine. In February 2024 the company pivoted to legal AI and rebranded as Noxtua AG (noxtua.com), Europe's sovereign Legal AI for research, document analysis, and drafting, backed by a Series A of EUR 10M (2021, Global Brain/KDDI, with Earlybird) and a Series B of roughly EUR 81M led by legal publisher C.H. Beck. xayn.com is offline and the company publishes no public API or developer portal today; its former open-source SDKs and packages are archived.",
      "score": 14.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3857,7 +3857,7 @@
     {
      "name": "Balance Re",
      "slug": "balance-re",
-     "description": "Balance Re is a fully licensed German life reinsurance company headquartered",
+     "description": "Balance Re is a fully licensed German life reinsurance company headquartered in Cologne, with an office in London, offering asset-liability management (ALM) reinsurance solutions to life insurers and pension funds. Its proprietary technology delivers real-time analytics that help clients manage capital and liquidity, price and transfer longevity, savings and retirement risk, and improve competitiveness through quantitative asset-liability management. Balance Re raised a $10M Series A in 2021 led by Anthemis Group, with participation from Global Brain, Roland Berger Industries and Talabot Finance. Added to the API Evangelist network as a portfolio-company lead; the company publishes a corporate marketing site but no public developer API, documentation, or machine-readable specifications as of this enrichment pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/balance-re/refs/heads/main/screenshots/balance-re-2026-07-25T202259.png",
      "score": 13.9,
      "band": "minimal",
@@ -3899,7 +3899,7 @@
     {
      "name": "One Data",
      "slug": "one-data",
-     "description": "'One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose",
+     "description": "One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose AI-native platform transforms legacy and fragmented enterprise data into trusted, governed, AI-ready data products. Its capabilities span metadata management, data quality assurance, data-product lifecycle management, SAP BW migration optimization, process-mining foundations, and sovereign data management for public-sector organizations. One Data is certified to ISO 27001:2022, ISO 9001:2015, and TISAX, and is a portfolio company of HV Capital. As of this enrichment pass One Data publishes no public developer API, OpenAPI definition, developer portal, or GitHub organization — its customer portal and documentation are authentication-gated.",
      "score": 13.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4053,7 +4053,7 @@
     {
      "name": "ecoplanet",
      "slug": "ecoplanet",
-     "description": "'ecoplanet provides cloud-based, integrated energy management software for German",
+     "description": "ecoplanet provides cloud-based, integrated energy management software for German mid-market companies. The platform combines three core functions: real-time consumption monitoring through meter integration with AI-powered anomaly detection and automated load-shifting on price signals; strategic energy procurement using algorithmic purchasing across spot markets, tranches, and power purchase agreements (PPAs); and automated ISO 50001 compliance documentation. The company reports customers achieve up to 15% consumption savings and ~13.9% average price advantages on energy purchases. Backed by EQT Ventures and HV Capital. No public developer/API surface was found at the time of profiling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecoplanet/refs/heads/main/screenshots/ecoplanet-2026-07-25T212805.png",
      "score": 12.8,
      "band": "minimal",
@@ -4089,7 +4089,7 @@
     {
      "name": "Enpal",
      "slug": "enpal",
-     "description": "'Enpal is a Berlin-based residential clean-energy company and one of Germany''s",
+     "description": "Enpal is a Berlin-based residential clean-energy company and one of Germany's market leaders in home solar. It sells and finances complete home energy systems — rooftop solar PV, battery storage, air-to-water heat pumps, EV wallbox chargers, and a dynamic electricity tariff — orchestrated by its Enpal.One+ smart energy-management platform, with flexible purchase and zero-down financing options. Enpal serves over 130,000 German households and operates business (business.enpal.de) and installer partner (enpal.pro) channels alongside its consumer offering. Backed by HV Capital and the SoftBank Vision Fund. This API Evangelist profile was created from a VC-portfolio lead; Enpal publishes a consumer website and customer portal but no public developer API surface at the time of enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enpal/refs/heads/main/screenshots/enpal-2026-07-25T213414.png",
      "score": 12.8,
      "band": "minimal",
@@ -4125,7 +4125,7 @@
     {
      "name": "Green Fusion",
      "slug": "green-fusion",
-     "description": "'Green Fusion GmbH is a Berlin-based climate-energy software company that",
+     "description": "Green Fusion GmbH is a Berlin-based climate-energy software company that provides an intelligent 360-degree energy management platform for the residential real estate sector (Wohnungswirtschaft). Its software digitizes and optimizes building heating systems: \"Der Energiespar-Pilot\" delivers digital boiler-room management and optimized operation of conventional heat sources (gas, oil, district heating, CHP/BHKW), while its AI platform for sector coupling (Sektorkopplung) integrates heat pumps, PV systems, storage, and grid connectivity for intelligent monitoring and control. The platform is TUV-certified under GEG section 71a. Green Fusion is backed by HV Capital and surfaced in the API Evangelist network as a climate-energy provider; it operates a customer control platform (control.green-fusion.de) but publishes no public developer API at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-fusion/refs/heads/main/screenshots/green-fusion-2026-07-25T220305.png",
      "score": 12.8,
      "band": "minimal",
@@ -4275,7 +4275,7 @@
     {
      "name": "Auxmoney",
      "slug": "auxmoney",
-     "description": "'Auxmoney (auxmoney GmbH) is a Düsseldorf-based German fintech operating",
+     "description": "Auxmoney (auxmoney GmbH) is a Düsseldorf-based German fintech operating one of Europe's largest online lending marketplaces, connecting consumer and small-business borrowers with private and institutional investors. Its fully digital platform handles personal-loan applications end to end — identity and credit checks, risk scoring, approval within seconds, and disbursement typically within 24 hours — funded by retail investors and institutional capital via its investment arm. Surfaced as a portfolio company of Index Ventures. auxmoney publishes no public developer API or portal; its integration surface is a partner/affiliate program plus internal open-source tooling on GitHub. This profile is maintained by the API Evangelist enrichment pipeline.",
      "score": 12.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4310,7 +4310,7 @@
     {
      "name": "QPLIX",
      "slug": "qplix",
-     "description": "'QPLIX GmbH is a Munich-based wealth management software company offering",
+     "description": "QPLIX GmbH is a Munich-based wealth management software company offering QPLIX-Q, an all-in-one SaaS platform for professional investors, family offices, asset managers, and banks to consolidate, manage, and report on multi-asset-class portfolios. The platform automates portfolio management, trading and rebalancing, accounting, tax, and client reporting, integrating direct data feeds from 150+ custodian banks (UBS, Julius Baer, Deutsche Bank, and others) and leading market-data providers (LSEG, Moody's, S&P Dow Jones Indices, ISS ESG). QPLIX runs a self-hosted, API-based infrastructure on ISO 27001-certified European data centers, holds an ISAE 3402 attestation, and is registered with Germany's BaFin as an account information service provider (AISP). The company does not publish a public developer API or portal; integrations are delivered as managed add-ons and there is no OpenAPI, SDK, or developer documentation surface.",
      "score": 12.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4453,7 +4453,7 @@
     {
      "name": "Enter",
      "slug": "enter",
-     "description": "'Enter is a Berlin-based residential energy-efficiency company that positions itself as",
+     "description": "Enter is a Berlin-based residential energy-efficiency company that positions itself as Germany's largest energy advisor, combining on-site building analysis with installation of heat pumps, photovoltaic (solar) systems, battery storage, EV wallboxes, and home energy-management systems. It guides homeowners through energy consulting, subsidy (Foerderung) applications, and financing, and reports 37,000+ completed projects and 150M+ EUR in secured subsidies. Enter is a B2C service provider with no public developer API, documentation portal, or SDKs; it was surfaced as a VC-portfolio lead and added to the API Evangelist network as a stub for enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enter/refs/heads/main/screenshots/enter-2026-07-25T213426.png",
      "score": 12.3,
      "band": "minimal",
@@ -4489,7 +4489,7 @@
     {
      "name": "Exporo",
      "slug": "exporo",
-     "description": "'Exporo is a Hamburg, Germany-based digital investment platform for real",
+     "description": "Exporo is a Hamburg, Germany-based digital investment platform for real estate and renewable-energy infrastructure, operating as a regulated European Crowdfunding Service Provider (ECSP). The platform lets private investors participate in residential and commercial property development as well as clean-energy projects such as solar, with typical terms of 12-36 months. Exporo has mediated over EUR 1.17 billion of capital across more than 600 financed projects, and also offers Club Deals for larger qualified investors. It was surfaced as a portfolio company of Partech and added to the API Evangelist network. No public developer API or developer portal is currently published; this profile is maintained as a company lead and will be enriched if a developer surface appears.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/exporo/refs/heads/main/screenshots/exporo-2026-07-25T213938.png",
      "score": 12.3,
      "band": "minimal",
@@ -4595,7 +4595,7 @@
     {
      "name": "The Exploration Company",
      "slug": "the-exploration-company",
-     "description": "'The Exploration Company (TEC) is a European deep-tech space startup founded",
+     "description": "The Exploration Company (TEC) is a European deep-tech space startup founded in July 2021 by Hélène Huby and a team of aerospace engineers from Airbus and ArianeGroup. Headquartered in Munich, Germany with sites in Bordeaux, Oberpfaffenhofen, Italy, France, Houston, and the MENA region, TEC develops Nyx, a family of modular, reusable, in-orbit refuelable spacecraft designed to carry cargo — and eventually humans — to low Earth orbit, lunar orbit, and the Moon, serving space stations and long-distance research missions. The company has raised a €40.5M Series A and a €150M Series B and is a certified B Corp. It exposes no public developer API; interfaces are provided to payload customers via a Payload User's Guide.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4630,7 +4630,7 @@
     {
      "name": "Check24",
      "slug": "check24",
-     "description": "\"CHECK24 is Germany's largest online comparison portal (Vergleichsportal), founded in 1999 and headquartered in Munich. It lets more than 20 million customers compare prices and switch providers across over 50 categories, including car, life and health insurance, loans and bank accounts, electricity and gas, DSL and mobile tariffs, travel, rental cars, and online shopping. CHECK24 runs its own comparison calculators and a licensed bank (CHECK24 Bank), and integrates partner providers such as Allianz Direct through API-based connections. Backed by Accel, it is profiled in the API Evangelist network as a consumer company. CHECK24 maintains a verified GitHub organization and a GenDev developer scholarship program but publishes no public developer API.\"",
+     "description": "CHECK24 is Germany's largest online comparison portal (Vergleichsportal), founded in 1999 and headquartered in Munich. It lets more than 20 million customers compare prices and switch providers across over 50 categories, including car, life and health insurance, loans and bank accounts, electricity and gas, DSL and mobile tariffs, travel, rental cars, and online shopping. CHECK24 runs its own comparison calculators and a licensed bank (CHECK24 Bank), and integrates partner providers such as Allianz Direct through API-based connections. Backed by Accel, it is profiled in the API Evangelist network as a consumer company. CHECK24 maintains a verified GitHub organization and a GenDev developer scholarship program but publishes no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/check24/refs/heads/main/screenshots/check24-2026-07-25T205132.png",
      "score": 12.1,
      "band": "minimal",
@@ -4755,7 +4755,7 @@
     {
      "name": "Kenbi",
      "slug": "kenbi",
-     "description": "'Kenbi is a German healthcare organization focused on nursing education and workforce",
+     "description": "Kenbi is a German healthcare organization focused on nursing education and workforce development, operating through two divisions. Kenbi Academy delivers continuing professional development for care workers with 100+ ZFU-certified courses recognized by all German health insurers and available nationwide, spanning nursing service management, quality assurance, wound care, and instructor training. Kenbi Campus runs vocational nursing programs in Berlin and Hamburg, including a three-year registered nurse generalist program and an 18-month nursing assistant curriculum. Originally surfaced as a portfolio company of Partech and added to the API Evangelist network for enrichment; no public developer program, API, or documentation surface was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kenbi/refs/heads/main/screenshots/kenbi-2026-07-25T223607.png",
      "score": 11.9,
      "band": "minimal",
@@ -4869,7 +4869,7 @@
     {
      "name": "LAP Coffee",
      "slug": "lap-coffee",
-     "description": "'LAP Coffee (Life Among People) is a Berlin-founded specialty coffee retail chain operated by",
+     "description": "LAP Coffee (Life Among People) is a Berlin-founded specialty coffee retail chain operated by Micro Retail Technologies MRT GmbH. It opened its first store in Berlin Mitte in August 2023 and has grown to a network of neighbourhood cafes across Berlin, with further locations and openings in Cologne, Frankfurt, Munich and Hamburg. LAP serves locally roasted specialty coffee at everyday prices from small, high-throughput stores, and runs a consumer mobile app (LAP: Everyday Coffee) for pre-ordering, in-store pickup, a stamps and rewards loyalty program, gifting and referrals, replacing an earlier Apple/Google Wallet stamp pass. LAP is backed by HV Capital. As of this enrichment pass LAP publishes no public developer program, API, SDK or developer documentation; its technology surface is the consumer app, the order.lap.coffee deep-link service and a Webflow marketing site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lap-coffee/refs/heads/main/screenshots/lap-coffee-2026-07-25T224531.png",
      "score": 11.8,
      "band": "minimal",
@@ -5058,7 +5058,7 @@
     {
      "name": "rabot.energy",
      "slug": "rabotenergy",
-     "description": "'rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier",
+     "description": "rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier offering dynamic and fixed-rate power tariffs where consumers pay hourly rates that track the wholesale electricity market. The company provides 100% renewable energy certified by TÜV NORD, smart meter installation and management, EV charging optimization (Autostrom), and home battery storage (Rabot Flow), all managed through a consumer mobile app for consumption monitoring. It is a consumer-facing energy retailer; no public developer portal or API is currently published. Added to the API Evangelist network as a portfolio company of HV Capital.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5129,7 +5129,7 @@
     {
      "name": "Lanch",
      "slug": "lanch",
-     "description": "'LANCH GmbH is a Berlin-based food-tech startup that builds creator-led",
+     "description": "LANCH GmbH is a Berlin-based food-tech startup that builds creator-led virtual restaurant brands for the delivery market. Founded by Nono Konopka and Jonas Meynert and headquartered at Schoenhauser Allee 180 in Berlin, LANCH develops food brands together with German influencers, musicians and athletes, then scales them through franchise partners and ghost-kitchen partners operating out of existing restaurant kitchens. Its two flagship brands are Loco Chicken (halal-certified wings, filets, burgers and chicken-and-waffle creations) and Happy Slice (hand-pulled pinsa-dough pizza, dips and cookies), both distributed through delivery marketplaces including Wolt, Lieferando and Uber Eats. The company is backed by HV Capital and Felix Capital alongside founders of FlixBus, Gorillas, Flaschenpost, Glovo, Foodspring, Foodora, Honest Food and Finleap. LANCH publishes a marketing and partner-recruitment website only; as of this enrichment pass it exposes no public developer portal, API documentation, machine-readable API specification or SDK surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanch/refs/heads/main/screenshots/lanch-2026-07-25T224453.png",
      "score": 11.0,
      "band": "minimal",
@@ -5207,7 +5207,7 @@
     {
      "name": "DailyDeal.de",
      "slug": "dailydealde",
-     "description": "DailyDeal.de is a German consumer deals, coupons, and discounts platform (\"Deals, Gutscheine",
+     "description": "DailyDeal.de is a German consumer deals, coupons, and discounts platform (\"Deals, Gutscheine & Schnäppchen\") that aggregates daily deals across categories including electronics, fashion, home and garden, beauty, kids, sports, and free-to-try product samples (\"gratis testen\"). Shoppers browse discounted products, brand vouchers, and shop-specific coupon codes, and read shopping guides in the site's Magazin. Originally founded in Berlin in 2009 and briefly owned by Google, DailyDeal today operates as a WordPress-based consumer commerce and content site and publishes no public developer API program. It was added to the API Evangelist network as an Insight Partners portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dailydealde/refs/heads/main/screenshots/dailydealde-2026-07-25T211137.png",
      "score": 10.2,
      "band": "minimal",
@@ -5351,7 +5351,7 @@
     {
      "name": "feld.energy",
      "slug": "feldenergy",
-     "description": "'feld.energy (Feld.Energy GmbH) is a Freising, Germany based Agri-PV (agrivoltaics)",
+     "description": "feld.energy (Feld.Energy GmbH) is a Freising, Germany based Agri-PV (agrivoltaics) project developer and investment company that helps farmers and landowners install turnkey agricultural photovoltaic systems on their fields. It combines expertise from agriculture, energy, and project development to co-locate crop or livestock production with solar generation, offering landowners lease income, revenue sharing, or full-ownership models with state-secured grid feed-in over roughly 20 years. The company handles every step from land assessment and permitting through construction and operation. It reports 800+ partner farmers, 900+ hectares of projects, and 320+ MW of secured grid capacity. It is a portfolio company of HV Capital and is in the API Evangelist network as a climate-energy company profile; it publishes no public developer API, portal, SDK, or machine-readable interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/feldenergy/refs/heads/main/screenshots/feldenergy-2026-07-25T214328.png",
      "score": 10.2,
      "band": "minimal",
@@ -5423,7 +5423,7 @@
     {
      "name": "Serviceware SE",
      "slug": "serviceware-se",
-     "description": "'Serviceware SE is a German enterprise software, consulting, and managed-services",
+     "description": "Serviceware SE is a German enterprise software, consulting, and managed-services company with more than 25 years in business, roughly 420 employees, and over EUR 100 million in annual revenue. Its platform spans Enterprise Service Management (ESM) for IT, HR, and customer service, IT Financial Management (ITFM) for cost tracking and technology business management, Corporate Performance Management (CPM) for budgeting, planning, and reporting, AI-powered Knowledge Management, and Field Service Management. Serviceware positions its platform as AI-native, with no-code workflows, data integration, governance, and self-service capabilities. It was surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. No public developer portal, API reference, or machine-readable API surface was found during enrichment.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5493,7 +5493,7 @@
     {
      "name": "Warehousing1",
      "slug": "warehousing1",
-     "description": "'Warehousing1 is a Berlin-based LogTech company, founded in 2018 by Nico",
+     "description": "Warehousing1 is a Berlin-based LogTech company, founded in 2018 by Nico Szeli, Nils Aschmann and Fabian Sedlmayr, that operates a digital fulfillment and warehousing marketplace connecting brands and e-commerce merchants to an independent network of more than 1,000 logistics locations across Germany, Europe and the US. Its cloud platform and customer portal centralize warehousing, order picking, packing and shipping, and integrate with common ERP systems, online shops and marketplaces so companies can scale contract logistics, distribution and e-commerce fulfillment. The company has served 500+ customers and is backed by HV Capital, Schenker Ventures, Aster Capital and Wille Finance. Warehousing1 does not publish a public developer API; integration is delivered through managed ERP/shop connectors and its customer portal.",
      "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5528,7 +5528,7 @@
     {
      "name": "sento",
      "slug": "sento",
-     "description": "sento is a Munich-based B2B software company (sento GmbH) building a cloud-based",
+     "description": "sento is a Munich-based B2B software company (sento GmbH) building a cloud-based EDI (Electronic Data Interchange) platform that automates complex business-partner processes, letting companies replace slow, manual partner-integration workflows with automated document and data exchange. Founded by Nimar Blume and Felix Krauth and backed by Insight Partners, sento raised a EUR 9 million seed round to expand its partner-onboarding and document-automation product. As of this profile sento does not publish a public developer API, developer portal, or API documentation - only its corporate marketing site and legal pages are publicly available.",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5634,7 +5634,7 @@
     {
      "name": "Rizm",
      "slug": "rizm",
-     "description": "RIZM is a holistic energy optimization platform for industrial enterprises,",
+     "description": "RIZM is a holistic energy optimization platform for industrial enterprises, operated by Kerith GmbH of Münster, Germany. It integrates data from production, energy procurement, and infrastructure into a digital twin, then optimizes energy system design and day-to-day operational decisions — from long-term infrastructure investment and power purchase agreements to short-term asset dispatch and production scheduling — helping manufacturers cut energy costs and emissions at the same time. Named customers include BMW Group, Bosch, Mercedes-Benz, Volkswagen, and BSH. The product is delivered as a login-gated web application (app.rizm.de) with authenticated documentation; no public developer API, OpenAPI, or SDK surface is published at this time. Backed by Point Nine, this profile was surfaced from the venture portfolio graph.",
      "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5669,7 +5669,7 @@
     {
      "name": "Buena",
      "slug": "buena",
-     "description": "'Buena (Buena GmbH) is a Berlin-based modern property management company",
+     "description": "Buena (Buena GmbH) is a Berlin-based modern property management company serving real estate owners across Germany, managing over 70,000 units. It provides WEG (condominium / Wohnungseigentümergemeinschaft) management, rental property management (Mietverwaltung), and property-management succession (Nachfolge) for owners seeking an alternative to conventional, reactive administrators. Buena positions itself as a technology-forward, proactive Hausverwaltung. It was surfaced as a portfolio company of EQT Ventures and GV and added to the API Evangelist network. As of this enrichment pass Buena publishes no public API, developer portal, SDK, or technical documentation — this profile captures verified company identity and public web properties only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/buena/refs/heads/main/screenshots/buena-2026-07-25T204029.png",
      "score": 9.3,
      "band": "minimal",
@@ -5705,7 +5705,7 @@
     {
      "name": "Craftview",
      "slug": "craftview",
-     "description": "'Craftview Software GmbH is a Frankfurt-headquartered European software",
+     "description": "Craftview Software GmbH is a Frankfurt-headquartered European software group that builds ERP and project-management software for the skilled trades. Formed as a buy-and-build platform, Craftview operates a portfolio of long-established regional ERP brands — C'FLUIDE, ES2000, EXTRABAT, GILDE, KS21, MOSER, OSD, PLENION, RITA BOSSE and WINWORKER — serving green industries, construction-related trades, technical services and specialized crafts across Germany, Belgium, the Netherlands and France. The group reports 25,000+ active customers, 330+ employees and 11 locations across 41 key European regions. Craftview publishes no public developer portal, API documentation or machine-readable API definitions; its software is sold and delivered per brand as on-premise and cloud ERP for trade businesses.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/craftview/refs/heads/main/screenshots/craftview-2026-07-25T210641.png",
      "score": 9.3,
      "band": "minimal",
@@ -5741,7 +5741,7 @@
     {
      "name": "Alphora Holdings",
      "slug": "alphora-holdings",
-     "description": "'Alphora (Alphora GmbH / Alphora Holdings) is a Berlin-based, AI-native managed IT",
+     "description": "Alphora (Alphora GmbH / Alphora Holdings) is a Berlin-based, AI-native managed IT services company founded in 2025 and backed by Northzone at the seed stage. Its agentic platform runs IT operations end-to-end for businesses and managed service providers (MSPs) — an integrated IT service desk, managed compliance and documentation, managed AI delivered by forward-deployed engineers, endpoint cybersecurity, user and hardware provisioning, and 24/7 network and cloud monitoring — pairing centralized intelligence with local execution across a shared data lake. The company operates alphora-it.com with a marketing site and active careers portal but does not yet expose a public API, developer portal, SDKs, or machine-readable API specifications.",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5776,7 +5776,7 @@
     {
      "name": "CatalYm",
      "slug": "catalym",
-     "description": "CatalYm GmbH is a clinical-stage biotechnology company based in Planegg-Martinsried",
+     "description": "CatalYm GmbH is a clinical-stage biotechnology company based in Planegg-Martinsried near Munich, Germany, developing next-generation cancer immunotherapies. Its lead approach neutralizes GDF-15 (Growth Differentiation Factor 15) to reverse a key immune-resistance mechanism in solid tumors, aiming to reinstate anti-tumor immune activity and overcome resistance to checkpoint-inhibitor and other cancer therapies. The company is a portfolio company of Canaan Partners. This is a biotech/pharmaceutical organization with no public developer API, SDK, or documentation surface; it is tracked in the API Evangelist network as a company profile rather than an API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalym/refs/heads/main/screenshots/catalym-2026-07-25T204751.png",
      "score": 8.9,
      "band": "minimal",
@@ -5961,7 +5961,7 @@
     {
      "name": "Heartbeat Medical",
      "slug": "heartbeat-medical",
-     "description": "'Heartbeat Medical is a company surfaced as a portfolio company of hv-capital and added to",
+     "description": "Heartbeat Medical is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heartbeat-medical/refs/heads/main/screenshots/heartbeat-medical-2026-07-25T220849.png",
      "score": 7.7,
      "band": "minimal",
@@ -6003,7 +6003,7 @@
     {
      "name": "mcmakler",
      "slug": "mcmakler",
-     "description": "McMakler is a German hybrid residential real-estate brokerage (proptech) headquartered",
+     "description": "McMakler is a German hybrid residential real-estate brokerage (proptech) headquartered in Berlin, combining local human agents with in-house technology to list, market, and sell homes across Germany, Austria, and France. It was surfaced as a portfolio company of balderton-capital and added to the API Evangelist network as a stub for enrichment. An enrichment pass on 2026-07-20 probed the public surface and found no public developer API, developer portal, documentation, or well-known discovery catalog; an internal backend host (api.mcmakler.de) exists but returns 403 and is not a published API. Domain transport/email security was probed and recorded.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6044,7 +6044,7 @@
     {
      "name": "Savedo",
      "slug": "savedo",
-     "description": "Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany",
+     "description": "Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany open fixed-term and savings accounts across multiple European partner banks from a single portal. Backed by Point Nine, it was acquired by Deposit Solutions in 2017 and is now a subsidiary brand of Raisin SE (WeltSparen). The Savedo customer portal was deactivated on 31 March 2022 and the brand no longer accepts new customers; existing balances are administered via flatexDEGIRO Bank AG. Savedo published no public API, developer portal, or SDKs. This profile is retained as a network lead surfaced from the Point Nine portfolio.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6085,7 +6085,7 @@
     {
      "name": "Thalamed",
      "slug": "thalamed",
-     "description": "Thalamed is a Berlin-based medical device procurement marketplace, founded in 2014,",
+     "description": "Thalamed is a Berlin-based medical device procurement marketplace, founded in 2014, that connects healthcare providers such as clinics, private practices, and outpatient care facilities with suppliers of medical equipment including ultrasound and x-ray devices, sterilization and disinfection systems, and medical lasers. Customers describe the device they need and Thalamed's team evaluates the request and contacts the most suitable providers to deliver matching quotes, simplifying comparison and purchasing. The company is a Point Nine and RTAventures portfolio company. No public developer API, documentation, or integration surface is published as of this enrichment pass.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6196,7 +6196,7 @@
     {
      "name": "Smava",
      "slug": "smava",
-     "description": "'Smava (smava GmbH) is a Berlin-based German consumer-finance marketplace, founded in 2007, that",
+     "description": "Smava (smava GmbH) is a Berlin-based German consumer-finance marketplace, founded in 2007, that lets borrowers compare personal, auto, and mortgage loan offers from more than 20 partner banks for amounts ranging from EUR 1,000 to EUR 120,000, without impacting their SCHUFA credit score. The company operates a digital, data-driven loan-brokerage platform serving consumers across Germany and employs roughly 600 people. It was added to the API Evangelist network as a portfolio company of Earlybird. As of this enrichment pass Smava is a consumer (B2C) web and mobile-app business and publishes no public developer API, developer portal, OpenAPI specification, or well-known API discovery endpoints.",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6267,7 +6267,7 @@
     {
      "name": "Purmeo",
      "slug": "purmeo",
-     "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer",
+     "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer of high-quality nutritional supplements, vitamins, and minerals, with a focus on digestive health (including H. pylori support), energy, immunity, cognitive function, vision, bone and joint support, and cardiovascular health. Products are formulated without artificial additives, GMOs, or magnesium stearate and are distributed via the company's own online shop as well as Amazon, DocMorris, Medpex, and Shop-Apotheke. Surfaced as a portfolio company of point-nine and added to the API Evangelist network. As of the enrichment pass this is a B2C e-commerce business with no public API, developer portal, or developer documentation surface.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6337,7 +6337,7 @@
     {
      "name": "asgoodasnew",
      "slug": "asgoodasnew",
-     "description": "asgoodasnew is a German e-commerce retailer of refurbished and pre-owned consumer electronics,",
+     "description": "asgoodasnew is a German e-commerce retailer of refurbished and pre-owned consumer electronics, including smartphones, tablets, laptops, cameras, and related accessories, sold with warranty through its online store at asgoodasnew.de (asgoodasnew.com redirects there). It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network as a lead. Probing the public surface found no developer portal, API documentation, or API host — this is a consumer-facing storefront with no public API program at this time. The profile is retained as a portfolio lead; only mechanical domain-security signals for the web host could be captured.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6408,7 +6408,7 @@
     {
      "name": "Conjectag",
      "slug": "conjectag",
-     "description": "Conjectag (Conject AG / Conject Holding GmbH) was a Munich-based German construction",
+     "description": "Conjectag (Conject AG / Conject Holding GmbH) was a Munich-based German construction technology company founded in 2000 that provided cloud-based software for the built environment, covering project management, collaboration, document control, and construction cost management for the AEC (architecture, engineering, and construction) sector. It was surfaced as a historical Earlybird Venture Capital portfolio company. Conject was acquired by the Australian construction collaboration platform Aconex in March 2016, and Aconex was subsequently acquired by Oracle in December 2017; the company no longer operates independently and publishes no live website or developer/API surface. This profile is retained for network provenance rather than active enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6443,7 +6443,7 @@
     {
      "name": "DaWanda.com",
      "slug": "dawandacom",
-     "description": "DaWanda.com was a German online marketplace for handmade, unique, and custom-made products,",
+     "description": "DaWanda.com was a German online marketplace for handmade, unique, and custom-made products, founded in 2006 in Berlin. It connected independent makers and small designers with buyers across Germany and Europe, comparable to Etsy in the DACH region. DaWanda ceased operations on 30 August 2018 and partnered with Etsy to migrate its sellers and buyers; the www.dawanda.com domain now redirects to Etsy Germany. This profile was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network as a stub. No public developer program or API surface was found during enrichment; the company is defunct and retained here as a historical/portfolio record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6514,7 +6514,7 @@
     {
      "name": "Dooyoo De",
      "slug": "dooyoo-de",
-     "description": "Dooyoo was a German consumer product-review and price-comparison platform built on",
+     "description": "Dooyoo was a German consumer product-review and price-comparison platform built on user-generated reviews, best known for its \"dooyooMiles\" rewards program that paid users for writing reviews. It was acquired by the French shopping-guide publisher LeGuide.com in 2008, and the LeGuide group (Ciao, Dooyoo, and others) was in turn acquired by Kelkoo in 2016 to form Kelkoo Group. The dooyoo.de domain no longer operates as an independent brand and now 301-redirects to kelkoogroup.com; there is no active developer portal, public API, or documentation surface. This profile is retained as a defunct/absorbed portfolio lead with no API artifacts to enrich.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6549,7 +6549,7 @@
     {
      "name": "Honest Food Company",
      "slug": "honest-food-company",
-     "description": "'Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded",
+     "description": "Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded in 2017 that produced and delivered food under a portfolio of virtual delivery-only brands (Mamacita, Blattgold, Baba Noni, Beste Freunde, Holy Chicken, Clubkitchen) ordered through its own sites and third-party delivery platforms. Backed by Creandum and Index Ventures, it was acquired by Delivery Hero SE in February 2020 and folded into the Delivery Hero group; it operates no independent public developer/API surface. Added to the API Evangelist network as a Creandum portfolio lead. Sector: consumer / food delivery.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6584,7 +6584,7 @@
     {
      "name": "Hundeland",
      "slug": "hundeland",
-     "description": "Hundeland was a German direct-to-consumer online shop for dog supplies — dog food,",
+     "description": "Hundeland was a German direct-to-consumer online shop for dog supplies — dog food, treats, accessories, and pet-care products — and a portfolio company of the Point Nine venture capital firm. The hundeland.de storefront has been permanently closed (\"dauerhaft geschlossen\") and now 302-redirects to Pets Premium (petspremium.de), operated by the same company, which carries the same brands and product range; former customers must re-register there. Hundeland publishes no public API, developer portal, documentation, or SDKs, so the enrichment pipeline found no API surface to harvest. This record is retained as a Point Nine portfolio lead with the real closure status captured; the only machine-verifiable artifact is the domain-security probe of the still-resolving hundeland.de host that serves the redirect.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hundeland/refs/heads/main/screenshots/hundeland-2026-07-25T221729.png",
      "score": 6.8,
      "band": "minimal",
@@ -6655,7 +6655,7 @@
     {
      "name": "Kiwilogic",
      "slug": "kiwilogic",
-     "description": "'Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999",
+     "description": "Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999 in Hamburg, with a secondary office in London. It built the Lingubot platform, one of the earliest commercial natural-language dialogue engines for the web, which let online businesses deploy interactive virtual characters that acted as store greeter, customer-support agent, product specialist and entertainer across web sites and mobile messaging channels. The company was backed by Earlybird Venture Capital (approximately $5.2M reported) and won a best-German-startup award in 2000. The Lingubot business was acquired in the mid-2000s and folded into Artificial Solutions, whose Teneo conversational-AI and voice-AI platform is the commercial successor; the kiwilogic.com domain now issues a blanket redirect to teneo.ai. Kiwilogic operates no independent developer portal, documentation, or API surface today, and this profile is maintained as a historical company record within the API Evangelist network rather than as an active API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/screenshots/kiwilogic-2026-07-25T223921.png",
      "score": 6.8,
      "band": "minimal",
@@ -6691,7 +6691,7 @@
     {
      "name": "Klima",
      "slug": "klima",
-     "description": "'Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH,",
+     "description": "Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH, founded in 2019 by Markus Gilles, Jonas Brandau and Andreas Pursian-Ehrlich. Its mobile app let individuals calculate a personal carbon footprint from a lifestyle questionnaire, then offset those emissions through a subscription funding Gold Standard and Verified Carbon Standard projects, with in-app education and reduction tips layered on top. The company raised roughly USD 16.7M across a 2020 seed round and a EUR 10M 2022 Series A, backed by HV Capital, Keen Venture Partners, Headline, 468 Capital and Adjacent. Klima was acquired by Wren on April 30, 2025; klima.com is now a single-page wind-down notice and the company exposes no public API, developer portal, SDKs or machine-readable artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/klima/refs/heads/main/screenshots/klima-2026-07-25T223942.png",
      "score": 6.8,
      "band": "minimal",
@@ -6727,7 +6727,7 @@
     {
      "name": "Kwest",
      "slug": "kwest",
-     "description": "Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy",
+     "description": "Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy installations. Founded by Robin Dechant, Marco Holst and Constantin Ehren, it gave solar, heat-pump and smart-meter installers a workflow platform covering project management, inspection documentation, automated report creation and incident management, plus integrations that synced installation data with the CRM, ERP and field-service tools those companies already ran (Salesforce, HubSpot, Pipedrive, Dynamics 365, Odoo, Xentral, weclapp, Zoho, Aurora Solar, Solytic, Praxedo, Zapier and others). Speedinvest invested in 2021. In 2024 Kwest was acquired by Kraken Technologies, the technology arm of Octopus Energy Group, which folded the Kwest workflow platform into the Kraken stack and opened its first development hub in Berlin around the seven-person team. Kwest published no public API or developer program, and the company no longer operates independently - its former getkwest.com domain has lapsed and now serves unrelated third-party content, so it is recorded here as historical only and is not linked as a live website.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kwest/refs/heads/main/screenshots/kwest-2026-07-25T224344.png",
      "score": 6.8,
      "band": "minimal",
@@ -6798,7 +6798,7 @@
     {
      "name": "Tipp24",
      "slug": "tipp24",
-     "description": "'Tipp24 is a German consumer online-lottery brand — a business-to-consumer service where",
+     "description": "Tipp24 is a German consumer online-lottery brand — a business-to-consumer service where players place bets on the outcomes of state and international lottery draws (secondary lottery / lottery brokerage) over the web and mobile apps. The brand is operated by ZEAL Network SE, a publicly listed company headquartered in Hamburg, Germany, whose email infrastructure (SPF/DMARC) still resolves to zealnetwork.de. Tipp24 is a regulated consumer gambling product; it exposes no public developer API, developer portal, or SDKs, and its web properties (tipp24.de, tipp24.com) sit behind Cloudflare bot protection. This profile originated as an Earlybird VC portfolio lead and was processed by the API Evangelist enrichment pipeline, which confirmed the absence of an API surface and captured the domain security posture of the brand.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6833,7 +6833,7 @@
     {
      "name": "Zeitgold",
      "slug": "zeitgold",
-     "description": "'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice",
+     "description": "Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice and receipt processing, payments, and financial administration for small and medium-sized businesses, blending software with human back-office review. It was backed by Battery Ventures and other investors and was acquired by Deel in 2021. As of this enrichment pass the company operates no independent public developer surface: zeitgold.com does not respond on HTTP or HTTPS, and zeitgold.de resolves to a parked/reserved domain page. No public API, developer portal, documentation, OpenAPI, or other machine-readable artifact could be discovered, so this profile remains an identity-only record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

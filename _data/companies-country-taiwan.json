@@ -271,7 +271,7 @@
     {
      "name": "OEN",
      "slug": "oen",
-     "description": "'Oen (應援科技) is a Taiwan-based fintech company operating an integrated",
+     "description": "Oen (應援科技) is a Taiwan-based fintech company operating an integrated payments and CRM cloud platform. It provides multi-channel payment processing (credit cards, convenience-store payments, bank transfers, and subscriptions), electronic invoicing, and a supporter-relationship CRM covering event and ticketing management, member and volunteer management, merchandise/reward redemption, and email/SMS communications. The platform serves nonprofits, political organizations, educational institutions, entertainment events, and commercial merchants, with more than 600 organizations and individuals using Oen. The company runs an API Gateway and mobile-payment surface, a public responsible-disclosure and bug-bounty program, and displays PCI DSS Level 1, ISO 27001, and ISO 27701 trust badges.",
      "score": 22.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -356,7 +356,7 @@
     {
      "name": "PopChill",
      "slug": "popchill",
-     "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform,",
+     "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform, operating as a mobile marketplace app for buying and selling authenticated pre-owned designer goods including handbags, watches, jewelry, apparel, and footwear from Chanel, Hermes, Louis Vuitton, Dior, Gucci, Prada, and 40+ other brands. The company provides item authentication, secure transactions, and seller support to a consumer audience. PopChill is backed by 500 Global. As of this enrichment pass the company publishes no public developer portal, API documentation, or technical integration surface; this profile tracks the company in the API Evangelist network pending any future API program.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -426,7 +426,7 @@
     {
      "name": "Fox-Tech",
      "slug": "fox-tech",
-     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global",
+     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png",
      "score": 7.2,
      "band": "minimal",
@@ -462,7 +462,7 @@
     {
      "name": "Bounty Hunter",
      "slug": "bounty-hunter",
-     "description": "'Bounty Hunter (獎金獵人) is Taiwan''s largest creative-competition platform, founded",
+     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
      "score": 6.8,
      "band": "minimal",
@@ -498,7 +498,7 @@
     {
      "name": "Tripplus",
      "slug": "tripplus",
-     "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform.",
+     "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -533,7 +533,7 @@
     {
      "name": "TryTry (穿穿)",
      "slug": "trytrytw",
-     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand",
+     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -568,7 +568,7 @@
     {
      "name": "WeGrow asia CO., LTD.",
      "slug": "wegrow-asia-co-ltd",
-     "description": "'WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company",
+     "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -603,7 +603,7 @@
     {
      "name": "ypxfood",
      "slug": "ypxfood",
-     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in",
+     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in Taiwanese food and snacks, backed by Qiming Venture Partners, LionRock Capital, and Ignition Capital. It is a consumer restaurant and food business with no public developer or API surface; enrichment probes found the corporate website (Cloudflare-fronted, returning 403 to automated clients) and no documentation, OpenAPI, SDKs, or well-known discovery endpoints. This profile is retained as a network company record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

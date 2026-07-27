@@ -11,7 +11,7 @@
     {
      "name": "Chewy",
      "slug": "chewy",
-     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
+     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png",
      "score": 26.5,
      "band": "emerging",
@@ -212,7 +212,7 @@
     {
      "name": "Elanco Animal Health",
      "slug": "elanco-animal-health",
-     "description": "'Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).'",
+     "description": "Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png",
      "score": 4.2,
      "band": "minimal",

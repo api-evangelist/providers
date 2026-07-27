@@ -11,7 +11,7 @@
     {
      "name": "KolayIK",
      "slug": "kolayik",
-     "description": "'Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources",
+     "description": "Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources and human-capital-management SaaS platform serving more than 4,500 companies and 300,000+ employees, predominantly in Türkiye. The product covers employee/personnel records (özlük), payroll (bordro), performance evaluation, shift management (vardiya), compensation review, applicant tracking, HR analytics, time and attendance (PDKS), leave management, expense and asset tracking, and training. Kolay publishes an official public REST API — the \"Kolay Public API\" (v2, https://api.kolayik.com) — documented as a public Postman collection at apidocs.kolayik.com, covering person, unit, leave, timelog, transaction, approval, calendar, training, expense and payroll resources, authenticated with a bearer API token created from the in-product developer settings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png",
      "score": 52.9,
      "band": "developing",

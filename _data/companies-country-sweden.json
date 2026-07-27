@@ -63,7 +63,7 @@
     {
      "name": "Safello",
      "slug": "safello",
-     "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory",
+     "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory Authority (Finansinspektionen) and listed on Nasdaq First North Growth Market since 2021. It lets people buy, sell, trade, and store digital assets, and exposes a \"Cryptocurrency as a Service\" (CaaS) Institutional API so third-party organisations can embed crypto buying/selling, BankID customer onboarding, KYC and compliance verification, market data, order management, and wallet balances. The v2 Institutional API (base https://api.safello.com) uses OAuth2 with client-credentials, authorization-code, and a custom Swedish BankID grant, plus a staging environment at api.s4f3.io for testing.",
      "score": 55.5,
      "band": "developing",
      "band_label": "Developing",
@@ -104,7 +104,7 @@
     {
      "name": "Telia Company",
      "slug": "telia",
-     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered",
+     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
      "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
@@ -382,7 +382,7 @@
     {
      "name": "Fortnox",
      "slug": "fortnox",
-     "description": "Fortnox is a Swedish cloud accounting, ERP, and business-administration",
+     "description": "Fortnox is a Swedish cloud accounting, ERP, and business-administration platform for small and medium-sized businesses and accounting bureaus. Its REST API at https://api.fortnox.se/3/ programmatically manages accounting and financial data - invoices, customers, articles, orders, offers, vouchers, accounts, suppliers, supplier invoices, projects, and financial years - authenticated with OAuth2 Authorization Code Flow. Fortnox also publishes a duplex WebSocket event stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change notifications across domains so integrations can react to changes instead of polling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png",
      "score": 40.6,
      "band": "thin",
@@ -498,7 +498,7 @@
     {
      "name": "Voi",
      "slug": "voi",
-     "description": "Voi Technology is a Swedish micromobility company founded in Stockholm in 2018",
+     "description": "Voi Technology is a Swedish micromobility company founded in Stockholm in 2018 that operates shared e-scooters and e-bikes in more than 100 cities across Europe. Voi publishes a Mobility-as-a-Service partner surface for deep integrations (register users, start and end rentals, pricing, vehicles, and zone areas at partners.voiapp.io), plus MDS provider and flavored GBFS feeds for cities and mobility partners at mds.voiapp.io.",
      "score": 27.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -533,7 +533,7 @@
     {
      "name": "KRY | LIVI",
      "slug": "kry-livi",
-     "description": "'KRY International AB is Europe''s largest digital-first healthcare provider, founded in",
+     "description": "KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png",
      "score": 26.7,
      "band": "emerging",
@@ -658,7 +658,7 @@
     {
      "name": "KRY",
      "slug": "kry",
-     "description": "'KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally",
+     "description": "KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally under the Livi brand. It delivers primary care through video and chat consultations with doctors, nurses, psychologists, physiotherapists, dietitians and midwives via its iOS and Android apps, and also runs physical primary care centres (vardcentraler), child health clinics and midwifery clinics across Sweden. KRY operates as Kry in Sweden (kry.se) and Norway (kry.no) and as Livi in the United Kingdom (livi.co.uk) and France (livi.fr). Services span digital consultations, prescription renewal, medical certificates, vaccination and testing, mental health programmes, occupational health for employers, and regional public healthcare contracts. KRY publishes no public developer program, partner API or SDK surface; the platform is consumer- and clinician-facing, so this profile captures the company identity plus its legal and security surface rather than an API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry/refs/heads/main/screenshots/kry-2026-07-25T224307.png",
      "score": 22.1,
      "band": "emerging",
@@ -854,7 +854,7 @@
     {
      "name": "Hedvig",
      "slug": "hedvig",
-     "description": "'Hedvig is a Swedish insurtech offering mobile-first digital insurance",
+     "description": "Hedvig is a Swedish insurtech offering mobile-first digital insurance to consumers, with more than 200,000 customers managing policies and reporting claims through its app. Products span home and apartment (hemförsäkring), villa, car, pet (dog and cat), accident, student, and travel insurance, with in-app chat support and fast digital claims. Backed by Anthemis and Obvious Ventures, Hedvig operates a consumer app over internal APIs and publishes no public developer API surface; this network profile captures the company identity, public web properties, and domain security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hedvig/refs/heads/main/screenshots/hedvig-2026-07-25T220904.png",
      "score": 15.6,
      "band": "emerging",
@@ -896,7 +896,7 @@
     {
      "name": "Linas Matkasse",
      "slug": "linas-matkasse",
-     "description": "'Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned",
+     "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
      "score": 15.6,
      "band": "emerging",
@@ -1019,7 +1019,7 @@
     {
      "name": "Matsmart",
      "slug": "matsmart",
-     "description": "'Matsmart (operating internationally as Motatos) is a Swedish e-commerce",
+     "description": "Matsmart (operating internationally as Motatos) is a Swedish e-commerce company that fights food waste by selling surplus, short-dated, and overstocked groceries and household goods at a discount, with average savings of up to 50%. Its catalog spans pantry staples, beverages, snacks, candy, baby food, health and beauty, cleaning supplies, pet food, and non-food surplus, sourced from manufacturers and retailers and shipped across Sweden and other European markets via partners including Bring, Airmee, and PostNord. The company runs a consumer web storefront and iOS/Android apps. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network; it publishes no public developer API or documentation, so this profile captures its public web, security, and identity surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matsmart/refs/heads/main/screenshots/matsmart-2026-07-25T230429.png",
      "score": 13.2,
      "band": "minimal",
@@ -1055,7 +1055,7 @@
     {
      "name": "iControl",
      "slug": "icontrol",
-     "description": "iControl is a Swedish construction-technology company whose mobile application",
+     "description": "iControl is a Swedish construction-technology company whose mobile application digitalizes documentation on construction sites, replacing paper-based protocols and inspection records with real-time digital capture. Field personnel create, share, and manage project documentation from the job site, with offline capture that syncs when connectivity returns, drawing and blueprint uploads, and team collaboration. Marketed under the promise \"Skriv aldrig ett protokoll igen\" (never write a protocol again), iControl is used by leading Nordic contractors including NCC, JM, Veidekke, ARCONA, and In3prenor across infrastructure, residential, commercial, and public-facility projects. The company is headquartered in Stockholm and is a portfolio company of 500 Global. iControl exposes a consumer-facing web and mobile application; no public developer API, OpenAPI specification, or SDK was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/icontrol/refs/heads/main/screenshots/icontrol-2026-07-25T222018.png",
      "score": 12.4,
      "band": "minimal",
@@ -1091,7 +1091,7 @@
     {
      "name": "Anyfin",
      "slug": "anyfin",
-     "description": "'Anyfin is a Swedish consumer-fintech company that helps people lower the cost of their existing",
+     "description": "Anyfin is a Swedish consumer-fintech company that helps people lower the cost of their existing debt. Through its mobile app, customers photograph or import a current loan, credit card, or installment plan and Anyfin offers to refinance and consolidate it at a lower interest rate into a single monthly payment. Products span personal loans, credit-card and installment refinancing, car loans, debt consolidation, credit-score checking (via UC) and optional payment-protection insurance (via AXA). Founded in 2018 and backed by Accel, EQT Ventures and Northzone, Anyfin operates primarily in the Swedish market. It exposes no public developer API or developer portal; its api.anyf.in backend serves the consumer app only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anyfin/refs/heads/main/screenshots/anyfin-2026-07-25T200505.png",
      "score": 12.3,
      "band": "minimal",
@@ -1127,7 +1127,7 @@
     {
      "name": "Stockeld Dreamery",
      "slug": "stockeld-dreamery",
-     "description": "'Stockeld Dreamery is a Swedish food-tech company founded in Stockholm",
+     "description": "Stockeld Dreamery is a Swedish food-tech company founded in Stockholm in early 2019 by Sorosh Tavakoli (previously founder of the video-advertising company Videoplaza) to reinvent animal-based staples as plant-based alternatives, starting with cheese. The company develops and manufactures fermented, legume-based cultured cheese products — including a cream cheese and a melting cheese aimed at foodservice — as a sustainable substitute for dairy. Backed by venture investors including Creandum and Northzone, Stockeld Dreamery operates as a consumer packaged-goods brand and does not currently publish a public API or developer program.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1234,7 +1234,7 @@
     {
      "name": "Edgeware",
      "slug": "edgeware",
-     "description": "'Edgeware AB was a Swedish video-delivery technology company founded in",
+     "description": "Edgeware AB was a Swedish video-delivery technology company founded in 2004 and headquartered in Stockholm, known for its TV CDN, origin and media server, and streaming video-delivery products used by telecom operators and broadcasters to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in 2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware brand has since been consolidated into AgileTV: edgeware.tv now redirects to agiletv.com/edgeware/, and its developer/technical documentation lives under docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling). Edgeware no longer operates as an independent company or publishes an independent developer API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/screenshots/edgeware-2026-07-25T212838.png",
      "score": 8.5,
      "band": "minimal",
@@ -1342,7 +1342,7 @@
     {
      "name": "Acne Studios",
      "slug": "acne-studios",
-     "description": "'Acne Studios is a Stockholm-based fashion house founded in 1996 as part",
+     "description": "Acne Studios is a Stockholm-based fashion house founded in 1996 as part of the creative collective ACNE (Ambition to Create Novel Expressions). The company designs and sells ready-to-wear womenswear and menswear, footwear, leather goods, denim, and accessories through its global network of retail stores and its official e-commerce site at acnestudios.com. Surfaced as a portfolio company of idg-capital and added to the API Evangelist network. Acne Studios publishes no public developer API program or developer portal; this profile captures its public web identity and live domain-security posture. Sector: consumer / fashion retail.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acne-studios/refs/heads/main/screenshots/acne-studios-2026-07-25T181507.png",
      "score": 6.8,
      "band": "minimal",
@@ -1378,7 +1378,7 @@
     {
      "name": "Bluebook",
      "slug": "bluebook",
-     "description": "'Bluebook is a Stockholm, Sweden based software company building AI agents for accounting",
+     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1413,7 +1413,7 @@
     {
      "name": "Cult of the North",
      "slug": "cult-of-the-north",
-     "description": "Cult of the North (established November 2022 under the codename \"Seidr\")",
+     "description": "Cult of the North (established November 2022 under the codename \"Seidr\") is a Stockholm, Sweden-based video game studio co-founded by former EA general manager Adam Schaub and former King SVP Marcus Jacobs, and backed by a seed investment from Andreessen Horowitz (a16z). The studio drew talent from King, Activision Blizzard, EA, Embark Studios, Resolution Games, and FunPlus, and set out to build large-scale, next-generation multiplayer PvP experiences for PC and console in Unreal Engine 5 — first the debut title codenamed \"Project Gundalf\" and later the free-to-play strategy war game \"We Will Be Gods.\" As a consumer game studio it exposes no public developer API, SDK, or documentation surface; this profile carries company identity only. Industry reporting in 2025 indicated the studio wound down operations.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1448,7 +1448,7 @@
     {
      "name": "Na Kd",
      "slug": "na-kd",
-     "description": "'Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes,",
+     "description": "Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes, and accessories direct-to-consumer through na-kd.com. It was added to the API Evangelist network as a venture-portfolio lead, backed by Northzone and Partech. As of this enrichment pass NA-KD publishes no public developer API, SDK, MCP server, or /.well-known discovery surface; this profile captures the company identity and its live domain-security posture.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1483,7 +1483,7 @@
     {
      "name": "Norstel",
      "slug": "norstel",
-     "description": "'Norstel AB was a Swedish semiconductor materials company that produced silicon carbide (SiC) wafers for power electronics, high-frequency and high-temperature electronics, and sensors, using its patented High Temperature Chemical Vapor Deposition (HTCVD) crystal-growth technology. Backed by Creandum among other investors, Norstel was acquired by STMicroelectronics in December 2019 and folded into ST''s silicon carbide operations; it no longer operates as an independent company. As a hardware and materials manufacturer, Norstel published no developer platform, API, or SDK, so this API Evangelist record is an identity-only profile with no API surface to enrich.'",
+     "description": "Norstel AB was a Swedish semiconductor materials company that produced silicon carbide (SiC) wafers for power electronics, high-frequency and high-temperature electronics, and sensors, using its patented High Temperature Chemical Vapor Deposition (HTCVD) crystal-growth technology. Backed by Creandum among other investors, Norstel was acquired by STMicroelectronics in December 2019 and folded into ST's silicon carbide operations; it no longer operates as an independent company. As a hardware and materials manufacturer, Norstel published no developer platform, API, or SDK, so this API Evangelist record is an identity-only profile with no API surface to enrich.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

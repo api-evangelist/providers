@@ -11,7 +11,7 @@
     {
      "name": "ArcBest",
      "slug": "arcbest",
-     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration",
+     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png",
      "score": 53.0,
      "band": "developing",
@@ -82,7 +82,7 @@
     {
      "name": "UPS",
      "slug": "ups",
-     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company",
+     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
      "score": 45.8,
      "band": "developing",
@@ -235,7 +235,7 @@
     {
      "name": "FedEx",
      "slug": "fedex",
-     "description": "FedEx is a logistics company that provides shipping and delivery services",
+     "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
      "score": 36.0,
      "band": "thin",
@@ -307,7 +307,7 @@
     {
      "name": "DHL",
      "slug": "dhl",
-     "description": "DHL is a global logistics company that provides a wide range of services,",
+     "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
      "score": 34.6,
      "band": "thin",

@@ -11,7 +11,7 @@
     {
      "name": "Twilio",
      "slug": "twilio",
-     "description": "Cloud communications platform providing APIs for SMS, voice, video, and",
+     "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
      "score": 75.6,
      "band": "exemplar",
@@ -57,7 +57,7 @@
     {
      "name": "Zoom",
      "slug": "zoom",
-     "description": "Zoom is a communications platform that allows users to connect with video,",
+     "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
      "score": 61.4,
      "band": "strong",
@@ -103,7 +103,7 @@
     {
      "name": "Verizon",
      "slug": "verizon",
-     "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
+     "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
      "score": 59.5,
      "band": "developing",
@@ -235,7 +235,7 @@
     {
      "name": "T-Mobile",
      "slug": "t-mobile",
-     "description": "A major American wireless network operator and the second-largest carrier",
+     "description": "A major American wireless network operator and the second-largest carrier in the United States. Known for its Un-carrier strategy disrupting the wireless industry with simplified plans, no-contract offerings, and aggressive 5G network expansion.",
      "score": 12.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -270,7 +270,7 @@
     {
      "name": "AT&T",
      "slug": "att",
-     "description": "'AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications,",
+     "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",

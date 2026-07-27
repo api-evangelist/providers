@@ -83,7 +83,7 @@
     {
      "name": "Archer Daniels Midland",
      "slug": "archer-daniels-midland",
-     "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and",
+     "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
      "score": 48.0,
      "band": "developing",
@@ -236,7 +236,7 @@
     {
      "name": "John Deere",
      "slug": "john-deere",
-     "description": "John Deere is a renowned American corporation that specializes in manufacturing",
+     "description": "John Deere is a renowned American corporation that specializes in manufacturing agricultural, construction, and forestry machinery. The company, founded in 1837 by John Deere, has a long history of innovation and has become a leader in the industry. John Deere's products include tractors, combines, excavators, and other equipment designed to support and improve farming and construction operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png",
      "score": 20.7,
      "band": "emerging",

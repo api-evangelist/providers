@@ -105,7 +105,7 @@
     {
      "name": "Agricultural Marketing Service",
      "slug": "agricultural-marketing-service",
-     "description": "'The Agricultural Marketing Service (AMS), an agency of the United States Department of Agriculture (USDA), oversees programs in five commodity areas: cotton and tobacco, dairy, fruits and vegetables, livestock and seeds, and poultry. AMS provides testing, standardization, grading, and market news services. AMS operates several public APIs for agricultural market data including the Market Analysis Reporting System (MARS) API for real-time commodity market news and the Livestock Mandatory Price Reporting System (LMPRS) API for livestock price data.'",
+     "description": "The Agricultural Marketing Service (AMS), an agency of the United States Department of Agriculture (USDA), oversees programs in five commodity areas: cotton and tobacco, dairy, fruits and vegetables, livestock and seeds, and poultry. AMS provides testing, standardization, grading, and market news services. AMS operates several public APIs for agricultural market data including the Market Analysis Reporting System (MARS) API for real-time commodity market news and the Livestock Mandatory Price Reporting System (LMPRS) API for livestock price data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png",
      "score": 60.7,
      "band": "strong",
@@ -141,7 +141,7 @@
     {
      "name": "Agricultural Statistics Service",
      "slug": "agricultural-statistics-service",
-     "description": "The National Agricultural Statistics Service (NASS) is an agency of the United States Department of Agriculture",
+     "description": "The National Agricultural Statistics Service (NASS) is an agency of the United States Department of Agriculture (USDA) whose mission is to support the United States, its agricultural sector, and rural communities by providing accurate, objective, and meaningful statistical information and services. NASS operates the QuickStats API for programmatic access to agricultural survey and census data, as well as geospatial APIs for cropland data, vegetation conditions, and crop moisture monitoring covering the continental United States.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png",
      "score": 60.6,
      "band": "strong",
@@ -354,7 +354,7 @@
     {
      "name": "U.S. Bureau of Labor Statistics",
      "slug": "u-s-bureau-of-labor-statistics",
-     "description": "The U.S. Bureau of Labor Statistics (BLS) is the principal federal statistical agency responsible for measuring",
+     "description": "The U.S. Bureau of Labor Statistics (BLS) is the principal federal statistical agency responsible for measuring labor market activity, working conditions, and price changes in the U.S. economy. BLS collects, processes, analyzes, and disseminates statistical data on employment, unemployment, inflation, wages, productivity, and occupational safety through a public API that provides programmatic access to published historical time series data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png",
      "score": 56.8,
      "band": "developing",
@@ -432,7 +432,7 @@
     {
      "name": "Flock Safety",
      "slug": "flock-safety",
-     "description": "'Flock Safety is a public safety technology company whose platform connects communities,",
+     "description": "Flock Safety is a public safety technology company whose platform connects communities, businesses, and law enforcement through crime detection, investigation, and response tools built around license plate recognition (LPR) cameras, audio detection, video, and the FlockOS situational-awareness platform. Its v3 API Platform (api.flocksafety.com) lets approved customer organizations and third-party developers build \"Flock Apps\" that bring data in (register hardware as devices, ingest vehicle images for detection, push CAD events, alerts, and geolocation telemetry, manage custom hotlists) and connect Flock data out (retrieve devices, look up license plate reads, and subscribe to real-time LPR hotlist alert webhooks). The APIs use OAuth 2.0 with machine-level (client_credentials) and recommended user-level (authorization_code) flows, role-based access control, audit logging, and data-stewardship requirements.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png",
      "score": 56.4,
      "band": "developing",
@@ -760,7 +760,7 @@
     {
      "name": "U.S. Treasury Fiscal Data",
      "slug": "u-s-treasury-fiscal-data",
-     "description": "The U.S. Treasury Bureau of the Fiscal Service manages the government's finances including collecting revenue,",
+     "description": "The U.S. Treasury Bureau of the Fiscal Service manages the government's finances including collecting revenue, paying federal bills, managing federal debt, and producing the nation's financial accounts. Their Fiscal Data API provides free, open access to federal financial data through a standardized RESTful API covering 80+ datasets. Key datasets include the Debt to the Penny (daily public debt outstanding), Treasury Reporting Rates of Exchange (quarterly foreign currency rates), Average Interest Rates on U.S. Treasury Securities, Daily Treasury Statements, Monthly Treasury Statements, and U.S. savings bond data. No authentication required.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png",
      "score": 52.8,
      "band": "developing",
@@ -1286,7 +1286,7 @@
     {
      "name": "U.S. Geological Survey",
      "slug": "u-s-geological-survey",
-     "description": "The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government that conducts research and provides",
+     "description": "The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government that conducts research and provides data on the natural resources and hazards of the United States. The USGS is known for its work in mapping and monitoring earthquakes, volcanoes, and landslides to help mitigate risks and protect communities. USGS also studies water resources including streamflow, groundwater, and water quality through a nationwide network of monitoring stations. Their public APIs provide programmatic access to real-time earthquake data, water monitoring observations, seismic design parameters, and geospatial data products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png",
      "score": 51.0,
      "band": "developing",
@@ -2042,7 +2042,7 @@
     {
      "name": "Vector Solutions",
      "slug": "vectorsolutions",
-     "description": "'Vector Solutions is a training and workforce management software company",
+     "description": "Vector Solutions is a training and workforce management software company serving education, public safety, government, manufacturing, construction, and gaming industries with products including Vector LMS, Vector EHS, Vector Scheduling, Vector Check It, Acadis, Guardian Tracking, and TargetSolutions. Its TargetSolutions platform for online training and records management exposes a REST API (v1) for managing sites, users, profile groups, supervisor and feature access, credentials, courses, and training assignments, documented at developers.targetsolutions.com.",
      "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
@@ -2203,7 +2203,7 @@
     {
      "name": "Kodex",
      "slug": "kodex",
-     "description": "'Kodex (Albatross Technologies) operates the Kodex Global Network, a platform",
+     "description": "Kodex (Albatross Technologies) operates the Kodex Global Network, a platform for managing law enforcement and government data requests — subpoenas, warrants, and emergency disclosure requests — for crypto exchanges, fintechs, banks, and telecommunications companies. The platform covers request intake and automation, requester verification against a network of 15K+ government agencies, threat intelligence, encrypted data production and delivery, cost recovery, and transparency reporting. Kodex exposes the same network programmatically through the Kodex API: a Verification API for real-time requester lookups, a Targets (Data Production) API for automating production on verified requests, and status webhooks for agent credential changes. Developer documentation is published on ReadMe at docs.kodexapi.com as two projects — Request Portal and Verifications API — both authenticated with scoped organization API keys sent in an X-API-Key header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/screenshots/kodex-2026-07-25T224044.png",
      "score": 47.3,
      "band": "developing",
@@ -2245,7 +2245,7 @@
     {
      "name": "VA Lighthouse",
      "slug": "va-gov",
-     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at",
+     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake), Health (HL7 FHIR R4 Patient Health and Clinical Health, Community Care Eligibility), Facilities, Forms, Veteran Verification and Confirmation, Appeals and Decision Reviews under the Appeals Modernization Act (AMA), Address Validation, Direct Deposit Management, VA Letter Generation, Education Benefits, and the full VA Home Loan Guaranty stack (Loan Guaranty, Loan Review, Guaranty Remittance, Health-Care-Costs Coverage). All authenticated APIs use OAuth 2.0 with both Authorization Code (Veteran consent) and Client Credentials (system) flows; the health APIs additionally support SMART-on-FHIR. The platform is operated by the VA Office of the CTO with open-source backend code in github.com/department-of-veterans-affairs/vets-api and reference clients in vets-api-clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png",
      "score": 47.3,
      "band": "developing",
@@ -2287,7 +2287,7 @@
     {
      "name": "Veterans Affairs",
      "slug": "va",
-     "description": "The US Department of Veterans Affairs (VA) Lighthouse API platform provides",
+     "description": "The US Department of Veterans Affairs (VA) Lighthouse API platform provides a portfolio of public-facing REST APIs enabling third-party developers and partners to access veteran benefits data, health records (FHIR), appeals and decision review status, facilities information, forms, and service history verification. APIs support OAuth 2.0 with OpenID Connect and API key authentication and are available with sandbox and production environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png",
      "score": 47.3,
      "band": "developing",
@@ -2972,7 +2972,7 @@
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
      "slug": "noaa-gov",
-     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and",
+     "description": "The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific and regulatory agency within the Department of Commerce charged with monitoring oceanic and atmospheric conditions, charting the seas, conducting deep-sea exploration, managing fishing and protection of marine mammals, and providing weather, climate, space weather, and ecosystem forecasts and warnings. NOAA's developer surface spans six line offices — the National Weather Service (NWS), the National Environmental Satellite, Data, and Information Service (NESDIS) including the National Centers for Environmental Information (NCEI), the National Ocean Service (NOS) including Tides & Currents (CO-OPS), the National Marine Fisheries Service (NMFS / NOAA Fisheries), the Office of Oceanic and Atmospheric Research (OAR), and the Office of Marine and Aviation Operations (OMAO). NOAA exposes free, open APIs at api.weather.gov, services.swpc.noaa.gov, api.tidesandcurrents.noaa.gov, ncei.noaa.gov/access, ERDDAP servers across line offices, the National Data Buoy Center (NDBC), and bulk forecast model output (GFS, GEFS, HRRR, GOES) through the NOAA Open Data Dissemination (NODD) program on AWS, GCP, and Azure.",
      "score": 44.9,
      "band": "thin",
      "band_label": "Thin",
@@ -3096,7 +3096,7 @@
     {
      "name": "Centers for Medicare and Medicaid Services",
      "slug": "cms",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite",
+     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
      "score": 44.6,
      "band": "thin",
@@ -4062,7 +4062,7 @@
     {
      "name": "Architect of the Capitol",
      "slug": "architect-of-the-capitol",
-     "description": "The Architect of the Capitol (AOC) serves Congress and the Supreme Court as builder and steward of Capitol Hill's landmark buildings and grounds, preserving historic structures,",
+     "description": "The Architect of the Capitol (AOC) serves Congress and the Supreme Court as builder and steward of Capitol Hill's landmark buildings and grounds, preserving historic structures, monuments, art, and gardens across the Capitol campus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png",
      "score": 42.4,
      "band": "thin",
@@ -4182,7 +4182,7 @@
     {
      "name": "Open States",
      "slug": "openstates",
-     "description": "'Open States is a civic technology project that aggregates and publishes",
+     "description": "Open States is a civic technology project that aggregates and publishes legislative data for all 50 US states, Washington DC, Puerto Rico, and select municipal governments. It provides a REST API (v3) and a deprecated GraphQL API (v2) for programmatic access to bill text, sponsors, votes, legislators, committee information, and legislative events. Data is also available via bulk downloads. The project is maintained by Plural Policy as open civic infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png",
      "score": 42.0,
      "band": "thin",
@@ -4710,7 +4710,7 @@
     {
      "name": "Geocodio",
      "slug": "geocodio",
-     "description": "Geocodio is a US and Canada geocoding API that converts addresses to",
+     "description": "Geocodio is a US and Canada geocoding API that converts addresses to coordinates (forward), coordinates to addresses (reverse), processes batches and spreadsheet lists, and enriches results with appended data such as congressional and state legislative districts, census geographies, ACS demographics, school districts, and timezones. Authentication is via an api_key query parameter and the first 2,500 lookups per day are free.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png",
      "score": 40.4,
      "band": "thin",
@@ -4782,7 +4782,7 @@
     {
      "name": "CMS Blue Button 2.0",
      "slug": "cms-blue-button",
-     "description": "Blue Button 2.0 is the Centers for Medicare & Medicaid Services (CMS)",
+     "description": "Blue Button 2.0 is the Centers for Medicare & Medicaid Services (CMS) API that lets Medicare beneficiaries share their Parts A, B, and D claims data with applications they trust. It is a FHIR R4 API conforming to the CARIN Blue Button Implementation Guide (CARIN Consumer Directed Payer Data Exchange), serving ExplanationOfBenefit, Patient, and Coverage resources for 60+ million people with Medicare. Access is patient-facing - each beneficiary authorizes an app through an OAuth 2.0 authorization-code flow (with mandatory PKCE) on Medicare.gov, choosing whether to share demographic data. A self-serve sandbox with synthetic enrollee data is open to everyone; production credentials are free but require CMS approval of the application.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/screenshots/cms-blue-button-2026-07-25T205758.png",
      "score": 40.3,
      "band": "thin",
@@ -6117,7 +6117,7 @@
     {
      "name": "Abound",
      "slug": "abound",
-     "description": "'Abound was a US tax-compliance API company for platforms, marketplaces and fintechs",
+     "description": "Abound was a US tax-compliance API company for platforms, marketplaces and fintechs serving the 1099 economy. Its v4 REST API covered the full information-return lifecycle: collecting Form W-9, W-8BEN and W-8BEN-E from payees, running real-time TIN verification against the IRS, then generating, filing, correcting, voiding and physically mailing Form 1099-NEC, 1099-MISC, 1099-K and 1099-INT to federal and state tax authorities. It also shipped drop-in UI components for payee onboarding, a 44-event webhook surface, and an official TypeScript SDK. Abound was acquired (announced November 2024) and the service has since been retired: the withabound.com DNS zone is fully de-delegated, the API and docs hosts no longer resolve, and the GitHub organization has been removed. This profile preserves the API surface, recovered from the first-party Fern API Definition shipped inside the official npm package.",
      "score": 36.4,
      "band": "thin",
      "band_label": "Thin",
@@ -6703,7 +6703,7 @@
     {
      "name": "Air Force Reserve",
      "slug": "air-force-reserve",
-     "description": "The Air Force Reserve (AFRC) is the reserve component of the United States Air Force, headquartered at Robins Air Force Base, Georgia. It provides trained units and individuals to be",
+     "description": "The Air Force Reserve (AFRC) is the reserve component of the United States Air Force, headquartered at Robins Air Force Base, Georgia. It provides trained units and individuals to be available for active duty in time of war, national emergency, or when otherwise authorized by law. Air Force Reserve members serve part-time, typically one weekend per month and two weeks per year, while maintaining civilian careers. AFRC does not currently provide a public developer API but offers digital recruitment and informational resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/air-force-reserve/refs/heads/main/screenshots/air-force-reserve-2026-06-20T171412.png",
      "score": 35.0,
      "band": "thin",
@@ -8029,7 +8029,7 @@
     {
      "name": "Bloomberg Government (BGOV)",
      "slug": "bloomberg-government-bgov",
-     "description": "Bloomberg Government (BGOV) is a comprehensive intelligence platform",
+     "description": "Bloomberg Government (BGOV) is a comprehensive intelligence platform for professionals working at the intersection of government and business. BGOV provides legislative tracking, regulatory intelligence, government contracting data, federal budget analysis, and policy research tools. It offers APIs and data feeds for integrating government and regulatory data into enterprise workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg-government-bgov/refs/heads/main/screenshots/bloomberg-government-bgov-2026-06-20T173440.png",
      "score": 29.9,
      "band": "emerging",
@@ -8071,7 +8071,7 @@
     {
      "name": "DBnomics",
      "slug": "dbnomics",
-     "description": "DBnomics is the world's economic database - a free, open-source",
+     "description": "DBnomics is the world's economic database - a free, open-source aggregator run by Cepremap that harvests macroeconomic time series from more than 90 national and international providers (IMF, ECB, Eurostat, World Bank, OECD, BLS, BEA, Banque de France, Federal Statistical Office Germany, and many more) into one standardized format. Hundreds of millions of series covering economic indicators, government statistics, prices, employment, trade, and finance are refreshed daily and served through a documented public REST API (api.db.nomics.world/v22) that requires no API key, plus official Python and R clients and community clients for Julia, Matlab, Stata, EViews, and Gretl.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png",
      "score": 29.8,
      "band": "emerging",
@@ -8872,7 +8872,7 @@
     {
      "name": "ShotSpotter (SoundThinking)",
      "slug": "shotspotter",
-     "description": "'ShotSpotter is the flagship acoustic gunshot detection service of SoundThinking, Inc.",
+     "description": "ShotSpotter is the flagship acoustic gunshot detection service of SoundThinking, Inc. (Nasdaq: SSTI), the public safety technology company formerly named ShotSpotter, Inc. SoundThinking operates a portfolio of law-enforcement and security products including ShotSpotter gunfire detection, SafePointe AI weapons detection, PlateRanger license-plate recognition, CrimeTracer investigative search, CaseBuilder case management, and ResourceRouter patrol analytics. Developers integrate via the SoundThinking developer documentation at docs.soundthinking.com, which publishes REST data APIs for ShotSpotter (incident data, CAD incident ID, ILS) and SafePointe (alert data, line-crossing data), plus NAPI, a webhook/push notification interface that delivers real-time XML alert documents (ShotSpotter IALRT incident presentations and SafePointe SPALRT alerts) to a customer network endpoint, alongside an Applications IT Resource Guide.",
      "score": 28.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9344,7 +9344,7 @@
     {
      "name": "Civic Roundtable",
      "slug": "civic-roundtable",
-     "description": "Civic Roundtable is a government operations platform that gives public sector organizations",
+     "description": "Civic Roundtable is a government operations platform that gives public sector organizations one place for the people, partners, and knowledge behind every mission. It combines Workspaces for cross-agency collaboration, a Knowledge Base for centralized search across systems, Communications for multi-channel stakeholder outreach, a CRM for contact and engagement tracking, Insights for data-driven decision analytics, and government-focused AI & Automation. The platform integrates with tools such as Microsoft Teams, SharePoint, Google Workspace, Slack, Salesforce, and HubSpot, runs on AWS GovCloud, and serves more than 4,000 organizations across all 50 U.S. states. It maintains SOC 2 Type II, FedRAMP High ATO, FIPS 140-2, and NIST 800-171 security posture. Civic Roundtable is backed by General Catalyst.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/civic-roundtable/refs/heads/main/screenshots/civic-roundtable-2026-07-25T205444.png",
      "score": 25.7,
      "band": "emerging",
@@ -9939,7 +9939,7 @@
     {
      "name": "USAspending.gov",
      "slug": "usaspending",
-     "description": "USAspending.gov is the official open data source of federal spending",
+     "description": "USAspending.gov is the official open data source of federal spending information operated by the U.S. Department of the Treasury's Bureau of the Fiscal Service, implementing the DATA Act's transparency mandate. The underlying USAspending API (api.usaspending.gov) is a free, public, unauthenticated REST API that exposes federal contracts, grants, loans, direct payments, and other financial assistance awards, along with agency budgets, federal account and Treasury Account Symbol data, recipient profiles, and COVID-19 / disaster emergency relief spending. Most search and listing endpoints accept a POST with a JSON filter object rather than query parameters, given the complexity of the filter combinations; simpler lookup endpoints use GET with path parameters. The API and the usaspending-api server are open source.",
      "score": 24.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -10217,7 +10217,7 @@
     {
      "name": "OpenFEMA",
      "slug": "fema",
-     "description": "OpenFEMA is FEMA's open data platform, publishing free, public,",
+     "description": "OpenFEMA is FEMA's open data platform, publishing free, public, machine-readable datasets on disaster declarations, public assistance grants, hazard mitigation projects, the National Flood Insurance Program (NFIP), and emergency alerting through a read-only RESTful API. The API uses OData-style query string parameters ($filter, $select, $top, $skip, $orderby) over individually versioned dataset endpoints, requires no API key or subscription, and returns JSON, CSV, or Parquet.",
      "score": 23.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -10945,7 +10945,7 @@
     {
      "name": "Plant an App",
      "slug": "plant-an-app",
-     "description": "Plant an App is a developer-first low-code application development platform used to build",
+     "description": "Plant an App is a developer-first low-code application development platform used to build case management systems, citizen service portals, workflow automation, compliance dashboards, and legacy-system integrations. It is positioned for government agencies, federal missions, and contractors, is hosted on Amazon Web Services, and offers a documentation portal, academy, and community for app builders. It is a low-code builder platform rather than a public REST API product; no public OpenAPI specification or API reference is published. Backed by 500 Global.",
      "score": 22.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -10986,7 +10986,7 @@
     {
      "name": "Adyton",
      "slug": "adyton",
-     "description": "'Adyton (Adyton PBC) is a veteran-founded defense technology company building",
+     "description": "Adyton (Adyton PBC) is a veteran-founded defense technology company building secure, mobile-first, zero-trust software for the U.S. military and defense enterprises. Founded in 2019 by Special Forces veterans James Boyd and JJ Wilson, Adyton delivers the Adyton Operations Kit (AOK) — a mobile productivity suite whose modules include Mustr (real-time personnel accountability and muster), Log-E (distributed logistics and equipment/hand-receipt tracking), and Skeds (planning and scheduling) — plus the Atlas edge platform for disconnected, denied, disrupted, and intermittent (DDIL) environments. The platform is engineered for IL5/IL6, FIPS 140-2 Level 3 encryption, FedRAMP+ and NIST 800-53r5 controls, runs on AWS GovCloud, and supports CAC/PIV, WebAuthn/FIDO2, and OAuth2 authentication. Added to the API Evangelist network as a portfolio company of Initialized Capital and Kindred Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adyton/refs/heads/main/screenshots/adyton-2026-07-25T181712.png",
      "score": 22.5,
      "band": "emerging",
@@ -11399,7 +11399,7 @@
     {
      "name": "Data.gov",
      "slug": "data-gov",
-     "description": "Data.gov is the United States federal government's open data catalog, operated",
+     "description": "Data.gov is the United States federal government's open data catalog, operated by the General Services Administration (GSA) Technology Transformation Services. It indexes over 300,000 datasets, tools, and resources from federal, state, local, and tribal governments, as well as universities and non-profits. The catalog runs on CKAN 2.11 and exposes the standard CKAN Action API at catalog.data.gov/api/3/action for programmatic discovery and retrieval of datasets, organizations, groups, tags, and resources. Data.gov also publishes the federal Project Open Data (POD) schema (data.json) catalog endpoint at /data.json on every federal agency site, which Data.gov harvests into the central catalog. Related properties include inventory.data.gov (publisher-facing CKAN inventory), resources.data.gov (open data policy resources), and the api.data.gov shared API gateway used by 25+ federal agencies for 450+ APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png",
      "score": 21.9,
      "band": "emerging",
@@ -11806,7 +11806,7 @@
     {
      "name": "Greenlite",
      "slug": "greenlite",
-     "description": "'GreenLite Technologies is a construction permitting and plan-review platform that",
+     "description": "GreenLite Technologies is a construction permitting and plan-review platform that uses AI-powered technology and expert services to streamline building-permit approval for builders, developers, and jurisdictions. Its products include Atlas (a real-time permit tracking and management dashboard), LiteTable (AI-assisted plan review and code-compliance analysis), Private Plan Review (PPR), and Code Compliance & Pre-Check. GreenLite claims to reduce permitting timelines from 90-120+ days to 21-45 days and serves national QSR, retail, healthcare, education, and financial-institution brands. Backed by Craft Ventures and Insight Partners. GreenLite currently exposes no public developer API, documentation, or SDKs; this profile captures its company identity and security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenlite/refs/heads/main/screenshots/greenlite-2026-07-25T220313.png",
      "score": 21.5,
      "band": "emerging",
@@ -11926,7 +11926,7 @@
     {
      "name": "Md Ally",
      "slug": "md-ally",
-     "description": "MD Ally is a New York-based digital health company that integrates telehealth into the 911",
+     "description": "MD Ally is a New York-based digital health company that integrates telehealth into the 911 emergency response system. Its platform lets emergency dispatchers route low-acuity, non-emergency callers to a virtual care tier, connecting patients with telehealth clinicians, in-network resources, and social services instead of dispatching EMS or defaulting to an emergency-room visit. MD Ally works with public safety agencies and payers to expand traditional two-tier dispatch models, reduce unnecessary ambulance transports and ER visits, and improve patient navigation. Backed by General Catalyst and Techstars.",
      "score": 21.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -12009,7 +12009,7 @@
     {
      "name": "PermitFlow",
      "slug": "permitflow",
-     "description": "'PermitFlow is an AI-powered construction permitting platform that simplifies",
+     "description": "PermitFlow is an AI-powered construction permitting platform that simplifies permit preparation, submission, and tracking nationwide for contractors, home builders, commercial contractors, architects, developers, and home-services businesses. The product handles permitting paperwork across municipalities with AI agents for intake, research, submission, coordination, and issuance, and covers permit management, inspections and closeouts, and license and registration management. Backed by Accel, Felicis, and Initialized Capital, PermitFlow operates an internal product API (api.permitflow.com) and web application (app.permitflow.com) but does not currently publish a public developer API, OpenAPI, or developer portal.",
      "score": 20.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -12283,7 +12283,7 @@
     {
      "name": "Census",
      "slug": "census-co",
-     "description": "Census, now operating as Fivetran Activations following its acquisition",
+     "description": "Census, now operating as Fivetran Activations following its acquisition by Fivetran, is a reverse ETL and data activation platform that turns the data warehouse into the operational source of truth for go-to-market and product teams. The platform configures managed, no-code reverse ETL pipelines that move modeled data from warehouses like Snowflake, BigQuery, Databricks, and Redshift into more than 200 SaaS destinations across CRM, marketing automation, advertising, customer success, product, finance, and productivity tools. Census also offers an Audience Hub for visual segment building, an Embedded product for white-labeling reverse ETL inside customer-facing applications, and a Connect workflow for collecting end-user credentials and programmatically creating sync pipelines. Developers integrate through the Census Management API, Embedded API, Connect Links, custom destination APIs, and a Terraform provider. This profile covers the Census product line and is distinct from the US Census Bureau public APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/census-co/refs/heads/main/screenshots/census-co-2026-06-20T174117.png",
      "score": 20.6,
      "band": "emerging",
@@ -12319,7 +12319,7 @@
     {
      "name": "Rocket Lab",
      "slug": "rocket-lab",
-     "description": "Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch",
+     "description": "Rocket Lab Corporation (Nasdaq RKLB) is an end-to-end space company providing launch services, spacecraft, satellite components, and on-orbit services. Its Electron rocket is the world's most frequently launched orbital small launch vehicle; the medium-lift Neutron rocket is in development. Rocket Lab Space Systems supplies Photon spacecraft, reaction wheels, star trackers, solar arrays, propulsion, separation systems, and composite structures to civil, national security, and commercial customers. Rocket Lab does not currently offer a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/screenshots/rocket-lab-2026-06-20T193150.png",
      "score": 20.6,
      "band": "emerging",
@@ -13295,7 +13295,7 @@
     {
      "name": "Asset Reality",
      "slug": "asset-reality",
-     "description": "Asset Reality builds end-to-end software infrastructure for the seizure,",
+     "description": "Asset Reality builds end-to-end software infrastructure for the seizure, management, custody, and disposal of both physical and virtual (crypto) assets, purpose-built for law enforcement, defense, and government agencies. Its platform unifies the asset-recovery lifecycle across four solutions — SEIZE, MANAGE, DEPLOY, and ESCROW — replacing clipboard-and-spreadsheet legacy processes with a single system that preserves asset value through investigation, confiscation, forfeiture, and reallocation to public purposes. The company is FCA-authorized to offer crypto custody in the UK, integrates with providers such as Fireblocks and Taxbit, and runs an Academy offering virtual-asset seizure certifications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/asset-reality/refs/heads/main/screenshots/asset-reality-2026-07-25T201439.png",
      "score": 20.2,
      "band": "emerging",
@@ -13337,7 +13337,7 @@
     {
      "name": "Conductor AI",
      "slug": "conductor-ai",
-     "description": "'Conductor AI (ConductorAI) is a defense- and intelligence-focused artificial",
+     "description": "Conductor AI (ConductorAI) is a defense- and intelligence-focused artificial intelligence company that turns disparate policy documents and organizational knowledge into agentic decision trees to accelerate document approvals and complex regulated workflows. Its Conduit platform combines agentic search across structured and unstructured data (Office documents, HTML, images, and video), workflow orchestration that encodes policy and expertise into AI-augmented decision steps, and review-and-collaboration tooling for redactions and compliance checks. Applications include ITAR/EAR export-control review, e-discovery and investigations, security-classification review, FOIA processing, and foreign-disclosure decisions. Conductor AI serves U.S. government and commercial customers and is backed by Lux Capital and Andreessen Horowitz. The company exposes no public developer API; integration is delivered as an enterprise platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/conductor-ai/refs/heads/main/screenshots/conductor-ai-2026-07-25T210242.png",
      "score": 20.2,
      "band": "emerging",
@@ -13742,7 +13742,7 @@
     {
      "name": "Urban SDK",
      "slug": "urban-sdk",
-     "description": "Urban SDK is a geospatial AI and data analytics company serving the public",
+     "description": "Urban SDK is a geospatial AI and data analytics company serving the public sector, delivering hourly road-speed and traffic data, analytics, and AI tools that help cities, counties, and transportation agencies prioritize issues, pinpoint trends, and act on traffic management, public safety, emergency response, and infrastructure planning. A Techstars portfolio company based in Jacksonville, Florida, Urban SDK delivers its data through a web platform and automated Workflows reports rather than a public API, and currently publishes no developer documentation or client SDKs.",
      "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -13938,7 +13938,7 @@
     {
      "name": "Graffer",
      "slug": "graffer",
-     "description": "'Graffer, Inc. (株式会社グラファー) is a Tokyo-based GovTech and generative-AI company",
+     "description": "Graffer, Inc. (株式会社グラファー) is a Tokyo-based GovTech and generative-AI company founded in 2017 whose mission is to change behavior and society through the power of products. It operates two pillars: the Graffer Platform, a suite of digital-government services for municipalities and national agencies (Smart Application for online applications, Procedure Guide, Window Reservation, and Graffer Call AI voice guidance), adopted by 179+ Japanese municipalities including Fukuoka, Sapporo, Kyoto, and Oita; and Graffer AI Solution, a generative-AI adoption offering for enterprises (consulting, training, and the Graffer AI Studio product). Graffer also runs the citizen-facing お悩みハンドブック benefits-discovery service and the Govtech Trends media. In 2023 it entered a capital and business alliance with Change Holdings. Surfaced as a 500 Global portfolio company; no public developer API is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/graffer/refs/heads/main/screenshots/graffer-2026-07-25T220205.png",
      "score": 19.3,
      "band": "emerging",
@@ -19187,7 +19187,7 @@
     {
      "name": "SAP America",
      "slug": "sap-america",
-     "description": "SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP).",
+     "description": "SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP). This repo is a subsidiary placeholder that exists to (1) record SAP America as a distinct US legal entity for partnership, public-sector, procurement, and FedRAMP / GovCloud contexts, and (2) cross-link to related US-only sibling subsidiaries — most importantly SAP NS2 (SAP National Security Services), the independent US subsidiary that operates SAP workloads in the Cloud Intelligence Enterprise (CIE), the DoD cloud environment, and the Commercially Regulated Environment (CRE) for federal, defense, and intelligence community customers. No tier-1 API artifacts (OpenAPI, AsyncAPI, JSON Schema, capabilities, plans, rate limits, FinOps) are generated in this repo per the api-evangelist no-empty-artifact rule — they are maintained under the parent `sap` repo and the per-product child repos (`sap-business-technology-platform`, `sap-successfactors`, `sap-ariba`, `sap-concur`, `sap-fieldglass`, `sap-api-management`, `sap-integration-suite`).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png",
      "score": 18.2,
      "band": "emerging",
@@ -19229,7 +19229,7 @@
     {
      "name": "Clear Ballot",
      "slug": "clear-ballot",
-     "description": "'Clear Ballot Group, Inc. is an election technology company that builds",
+     "description": "Clear Ballot Group, Inc. is an election technology company that builds transparent, verifiable voting systems for election administrators across the United States. Its flagship ClearVote platform spans vote-by-mail processing, in-person voting, ballot design, and independent post-election audit and results-verification software, alongside offerings for ranked-choice voting and elections-as-a-service. Clear Ballot operates as a closed, certified election-systems vendor rather than a public API platform, so this profile is identity- and security-focused: it captures the company's public web presence, domain-security posture, and its published vulnerability-disclosure program. Surfaced as a portfolio company of Bessemer Venture Partners and enriched by the API Evangelist pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clear-ballot/refs/heads/main/screenshots/clear-ballot-2026-07-25T205532.png",
      "score": 18.1,
      "band": "emerging",
@@ -19312,7 +19312,7 @@
     {
      "name": "Brain",
      "slug": "brain",
-     "description": "'Brain Co. builds agent-native operating systems for institutions across",
+     "description": "Brain Co. builds agent-native operating systems for institutions across the public and private sectors. Its Atlas platform powers GovOS — permitting, licensing, claims, and casework for government agencies at national scale — and InsuranceOS for underwriting, claims, authorization, and insurance operations, with an emphasis on sovereign-grade security and vendor neutrality. Founded in 2025 and based in San Francisco, the company was cofounded by Elad Gil, Jared Kushner, and Luis Videgaray, with a team drawn from Google, DeepMind, NVIDIA, Palantir, and Tesla. Brain Co. does not currently publish a public API, developer portal, SDKs, or OpenAPI definitions; this profile tracks its public web surface (news, trust center, privacy and terms) pending any future developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brain/refs/heads/main/screenshots/brain-2026-07-25T203701.png",
      "score": 18.0,
      "band": "emerging",
@@ -19480,7 +19480,7 @@
     {
      "name": "Biobot",
      "slug": "biobot",
-     "description": "'Biobot Analytics is a wastewater epidemiology company that operates a",
+     "description": "Biobot Analytics is a wastewater epidemiology company that operates a wastewater intelligence platform, analyzing sewage samples to detect and track more than 50 human health indicators — including pathogens (SARS-CoV-2, influenza, RSV, measles, norovirus), substances (fentanyl, cocaine, methamphetamine, buprenorphine), and public-health threats (HIV, mpox, poliovirus, Candida auris) — before they surface in conventional reporting. Founded from MIT research and headquartered in Cambridge, Massachusetts, Biobot serves federal, state, and local government agencies, pharmaceutical and life-sciences companies, and healthcare systems through dashboards, CSV exports, map visualizations, and enterprise data integrations. Biobot does not publish a public self-serve developer API; data access is arranged directly with the company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/biobot/refs/heads/main/screenshots/biobot-2026-07-25T203031.png",
      "score": 17.8,
      "band": "emerging",
@@ -19724,7 +19724,7 @@
     {
      "name": "Pavilion",
      "slug": "pavilion",
-     "description": "'Pavilion is a government purchasing platform that helps public-sector",
+     "description": "Pavilion is a government purchasing platform that helps public-sector buyers find vendors, get quotes, and buy what they need without the guesswork. It connects procurement teams at 3,500+ SLED (state, local, and education) agencies with qualified vendors, surfaces the most direct compliant route to purchase based on each agency's rules and existing cooperative contracts, and lets vendors claim a free supplier profile to get discovered. The product is 100% free for public agencies. Pavilion is a SaaS marketplace backed by Forerunner Ventures.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -19806,7 +19806,7 @@
     {
      "name": "PSD Citywide",
      "slug": "psdcitywide",
-     "description": "'PSD Citywide is a SaaS provider of enterprise asset management (EAM) and",
+     "description": "PSD Citywide is a SaaS provider of enterprise asset management (EAM) and public-sector software for North American municipalities and government organizations. Its integrated Citywide platform spans asset management, maintenance and work-order management, GIS integration (ESRI-powered mapping), permitting, planning and licensing with citizen portals, multi-year budgeting and forecasting, facility/space management (Spaces), and a field mobile app, alongside asset-management advisory and grant services. The homepage references a \"robust API\" for integration and customization, but no public developer portal, API reference, SDKs, or GitHub organization were found during enrichment; end-user product documentation is published in a HappyFox-powered help center. Added to the API Evangelist network via the norwest-venture-partners portfolio.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -19889,7 +19889,7 @@
     {
      "name": "Kaizen",
      "slug": "kaizen",
-     "description": "'Kaizen Labs is a New York City civic-technology company building a modular platform",
+     "description": "Kaizen Labs is a New York City civic-technology company building a modular platform that helps local, state, and federal government agencies serve constituents simply, securely, and at scale. Founded in 2022 by Nikhil Reddy and Kj Shah, the platform spans permitting and licensing, recreation reservations and registrations, parking management, tolls and transit fare collection, e-billing and tax payments, DMV and judicial-court services, and AI-assisted case management — reaching roughly 40 million residents across 50+ agencies in 17 states. Kaizen has raised about $35M from NEA, Andreessen Horowitz, Accel, 776, and Carpenter Capital. The company publishes no public developer API surface; this profile is enriched from its public website, llms.txt, and security & compliance disclosures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaizen/refs/heads/main/screenshots/kaizen-2026-07-25T223421.png",
      "score": 17.0,
      "band": "emerging",
@@ -19931,7 +19931,7 @@
     {
      "name": "Vector Solutions",
      "slug": "vector-solutions",
-     "description": "'Vector Solutions is a SaaS provider of industry-specific training, operational",
+     "description": "Vector Solutions is a SaaS provider of industry-specific training, operational readiness, workforce management, and risk-management software. Its portfolio spans Learning Management Systems (LMS), Environmental Health & Safety (EHS) management, staff scheduling, incident and equipment tracking, professional development and evaluation management, and large online course libraries. The company serves education (K-12 and higher ed), public safety (fire, EMS, law enforcement), government, manufacturing, construction, and gaming markets, helping organizations prepare their people, stay in compliance, and manage operational risk. Vector Solutions is a portfolio company of Insight Partners. It runs a GraphQL endpoint at api.vectorsolutions.com/graphql that backs its applications; that endpoint is live but not publicly documented and has schema introspection disabled.",
      "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -19966,7 +19966,7 @@
     {
      "name": "Autonomous Cyber",
      "slug": "autonomous-cyber",
-     "description": "Autonomous Cyber is the maker of FUZZ-E, an AI-powered platform for offensive",
+     "description": "Autonomous Cyber is the maker of FUZZ-E, an AI-powered platform for offensive cybersecurity marketed as \"The AI Platform for Hacking.\" It equips commercial and government red teams with deep reconnaissance to uncover hard-to-find bugs and compromise networks, adaptive tooling that responds to AI-enabled defenses by building custom capabilities per engagement, and integrated intelligence workflows that consolidate data and toolkits inside the platform. The company states it operates strictly in the American national interest. Surfaced as a portfolio company of Bloomberg Beta; no public developer API is currently documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonomous-cyber/refs/heads/main/screenshots/autonomous-cyber-2026-07-25T201841.png",
      "score": 16.8,
      "band": "emerging",
@@ -20008,7 +20008,7 @@
     {
      "name": "Countable",
      "slug": "countable",
-     "description": "'Countable was a civic-engagement technology company backed by Canaan Partners",
+     "description": "Countable was a civic-engagement technology company backed by Canaan Partners (seed, partner Joydeep Bhattacharyya) that built a digital platform helping citizens understand what Congress was doing in Washington and contact their elected representatives directly, later extending the same advocacy tooling to organizations and brands. As of this enrichment pass the Countable brand is no longer operating independently: both countable.com and countable.us HTTP 302 to https://www.myactionable.com/, the home of Actionable, a self-service advocacy campaign platform made by CSAG that offers petitions, pledges, lawmaker-message campaigns, supporter video collection, lead capture, polling and in-platform real-time campaign reporting on a $29.99/month self-service plan. No public developer portal, API documentation, OpenAPI definition, SDK, package, webhook catalog, MCP server or /.well-known discovery surface was found on either the legacy Countable hosts or the successor Actionable host during this pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/countable/refs/heads/main/screenshots/countable-2026-07-25T210505.png",
      "score": 16.8,
      "band": "emerging",
@@ -20050,7 +20050,7 @@
     {
      "name": "Ethos Systems",
      "slug": "ethossystems",
-     "description": "'Ethos Systems is an AI-powered human readiness platform that unifies learning, performance,",
+     "description": "Ethos Systems is an AI-powered human readiness platform that unifies learning, performance, and outcomes management in a single system built for enterprise and government deployment across both commercial and classified networks. Founded in 2019 and headquartered in Redwood City, California, Ethos delivers personalized training with algorithm-driven interventions, rapid AI content development, and real-time readiness dashboards that connect learning to operational outcomes. It serves the U.S. military, federal civilian agencies, life sciences, manufacturing, freight and logistics, hospitality, athletics, utilities, insurance, and government contractors, and is backed by Norwest Venture Partners, the Westly Group, and Pear VC. The company operates the Ethos and Learn to Win platforms; its developer and product documentation is gated behind authentication and it exposes no public REST API, OpenAPI specification, or developer portal at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ethossystems/refs/heads/main/screenshots/ethossystems-2026-07-25T213653.png",
      "score": 16.8,
      "band": "emerging",
@@ -20445,7 +20445,7 @@
     {
      "name": "Mechanical Orchard",
      "slug": "mechanical-orchard",
-     "description": "Mechanical Orchard is an enterprise software company, founded by Pivotal",
+     "description": "Mechanical Orchard is an enterprise software company, founded by Pivotal veterans, that modernizes mission-critical legacy and mainframe systems. Its flagship platform, Imogen, uses AI to observe how legacy applications actually behave, then incrementally rewrites them into modern, cloud-ready code while continuously verifying that behavior is preserved so nothing breaks during migration. The company pairs the Imogen platform with professional services and a free proof of concept, integrates with AWS Transform and Google Cloud, and serves both commercial enterprises and government agencies looking to retire risky COBOL and mainframe estates. It is backed by Bloomberg Beta, Emergence Capital, and GV.",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -21418,7 +21418,7 @@
     {
      "name": "Calvis",
      "slug": "calvis",
-     "description": "Calvis is a multi-agency security guard marketplace that connects businesses",
+     "description": "Calvis is a multi-agency security guard marketplace that connects businesses with vetted, state-licensed, background-checked security guards from multiple professional agencies across 40+ US cities. Founded in 2023 and headquartered in Miami, Florida, the platform pairs on-demand booking with AI-powered deployment matching, real-time GPS tracking and geofencing, live AI coaching delivered to guards through an earpiece, and automated incident reporting and site analytics. Businesses book unarmed, armed, event, retail, construction, corporate, residential, hospital, cannabis, and school security through the web platform and iOS/Android apps, while security professionals join the network to find work. Calvis is backed by Version One Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/calvis/refs/heads/main/screenshots/calvis-2026-07-25T204247.png",
      "score": 14.9,
      "band": "minimal",
@@ -21454,7 +21454,7 @@
     {
      "name": "Dominion Dynamics",
      "slug": "dominion-dynamics",
-     "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,",
+     "description": "Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa, Ontario) building the autonomy stack for the Arctic and other extreme, infrastructure-constrained operating environments. It develops integrated autonomy, edge sensing, communications, and command-and-control systems for defence, security, and critical infrastructure. Its AuraNet platform is a peer-to-peer sensor mesh that fuses EO/IR/SAR imagery, SIGINT/EW/RF signals, telemetry, and structured reporting into a unified local intelligence stream that interoperates with existing allied C2 architectures, and its Aurion product is an open-source government procurement intelligence platform built on Canadian federal open data. Founded by Anduril alum Eliot Pence, the company raised a $139M CAD Series A (2026) led by Georgian. This profile currently has no public developer/API surface; the entry captures the company identity, security.txt, and llms.txt the company publishes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominion-dynamics/refs/heads/main/screenshots/dominion-dynamics-2026-07-25T212245.png",
      "score": 14.9,
      "band": "minimal",
@@ -21681,7 +21681,7 @@
     {
      "name": "Rohirrim",
      "slug": "rohirrim",
-     "description": "'Rohirrim is an AI-native Unified Acquisition Platform that automates and",
+     "description": "Rohirrim is an AI-native Unified Acquisition Platform that automates and accelerates government procurement for both agencies and contractors. Its UnifiedAcquire product helps government agencies manage procurements from market research through award by automating acquisition documents and centralizing institutional knowledge, while UnifiedRespond (RohanRFP) helps companies identify, match, and draft RFP responses faster and at lower cost. The company targets federal agencies, government contractors, Fortune 500 firms, and healthcare organizations, and is backed by Bessemer Venture Partners and Insight Partners. Rohirrim publishes no public developer API surface today; this profile captures its public web, content, and security-posture footprint.",
      "score": 14.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -21722,7 +21722,7 @@
     {
      "name": "Infilla",
      "slug": "infilla",
-     "description": "Infilla is a permitting software platform that modernizes housing approvals for cities",
+     "description": "Infilla is a permitting software platform that modernizes housing approvals for cities and municipal planning departments. Its product suite—a fee Calculator, a guided Application Form for permit intake, and digital Plan Check checklists—cuts response times, eliminates repetitive administrative work, and accelerates housing production. Founded and led by CEO Jenny Song after research with 300+ planners across 50+ jurisdictions, Infilla targets permitting as a major barrier to housing development by equipping government staff to work faster and better serve their communities. No public API, developer portal, SDK, or machine-readable specification is published at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/infilla/refs/heads/main/screenshots/infilla-2026-07-25T222356.png",
      "score": 13.9,
      "band": "minimal",
@@ -21764,7 +21764,7 @@
     {
      "name": "Toka",
      "slug": "toka",
-     "description": "Toka is a defense and intelligence technology company, founded in 2017-2018",
+     "description": "Toka is a defense and intelligence technology company, founded in 2017-2018 and headquartered in Maryland with R&D in Israel, that develops signals intelligence, ISR, cyber operations, and force protection capabilities exclusively for militaries, homeland security organizations, intelligence agencies, and law enforcement in the United States and allied nations. Backed by Andreessen Horowitz (a16z), Eclipse Ventures, and Dell Technologies Capital, Toka sells government-facing capability platforms and cyber capacity-building services rather than a public developer or API surface, and publishes no developer portal, documentation, or machine-readable API artifacts.",
      "score": 13.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -21966,7 +21966,7 @@
     {
      "name": "Tengo",
      "slug": "tengo",
-     "description": "Tengo is an AI-powered public procurement platform that helps companies find,",
+     "description": "Tengo is an AI-powered public procurement platform that helps companies find, evaluate, and respond to public tenders in one place. Founded in 2023 in France by Hugues Renou and Yoann Gauthier, Tengo covers the full tender lifecycle — sourcing and targeting relevant opportunities, drafting and writing proposals with AI, and managing responses and performance analytics — serving SMEs, mid-sized companies, and large corporations. Tengo raised a €3M round led by Point Nine in 2024. It operates a business-user SaaS with a request-a-demo onboarding and no public developer API surface.",
      "score": 13.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -22186,7 +22186,7 @@
     {
      "name": "True Anomaly",
      "slug": "true-anomaly",
-     "description": "'True Anomaly is a defense-technology company building spacecraft, software,",
+     "description": "True Anomaly is a defense-technology company building spacecraft, software, and payloads for space superiority. Its products include Jackal, a multirole space-superiority platform positioned as a tactical fighter-interceptor for contested orbital environments, and Mosaic, an autonomy software platform that transforms commander intent into autonomous action. The company serves U.S. government and allied defense customers from facilities in Centennial and Colorado Springs, Colorado; Long Beach, California; and Washington, DC. True Anomaly publishes no public API, developer portal, or SDK; its only machine-readable public surface is an RFC 9116 security.txt vulnerability-disclosure contact.",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -22412,7 +22412,7 @@
     {
      "name": "Citizen",
      "slug": "citizen",
-     "description": "Citizen is a consumer public-safety mobile application that delivers real-time,",
+     "description": "Citizen is a consumer public-safety mobile application that delivers real-time, location-based safety alerts and incident notifications to users about events happening in their communities. The app surfaces verified alerts, live video streamed by witnesses at the scene, incident search, and community broadcast features to help people connect and stay safe. Backed by 8vc, Citizen positions itself as the leading public-safety app in the United States. It is a consumer product with no public developer program, API documentation, SDK, or developer portal exposed on its website as of this enrichment pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/citizen/refs/heads/main/screenshots/citizen-2026-07-25T205428.png",
      "score": 12.3,
      "band": "minimal",
@@ -22520,7 +22520,7 @@
     {
      "name": "Closure",
      "slug": "closure",
-     "description": "'Closure (Closure Intelligence, Inc.) builds an AI-powered digital analyst",
+     "description": "Closure (Closure Intelligence, Inc.) builds an AI-powered digital analyst platform for law enforcement agencies that securely transcribes, translates, searches, organizes, and analyzes case evidence — jail communications, warrant returns, and large multi-lingual case files — to help investigators overcome evidence overload and resolve homicides and cold cases. The platform runs under a zero-access security model with SOC 2 Type II, CJIS, and HIPAA compliance. Backed by CRV. No public API or developer program is currently published.",
      "score": 12.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -22603,7 +22603,7 @@
     {
      "name": "Forward Platform",
      "slug": "forward-platform",
-     "description": "FORWARD Platform is a govtech SaaS company (a Techstars portfolio company) offering one",
+     "description": "FORWARD Platform is a govtech SaaS company (a Techstars portfolio company) offering one secure platform for administering public-benefit programs. It serves governments, nonprofits, and foundations with tooling for program management, online form building, eligibility determination, case management, client communication, referrals, payment disbursement, reporting and analytics, and fraud prevention. FORWARD supports service-delivery programs such as guaranteed basic income, housing assistance, and emergency management, and is packaged in Direct, Pro, Enterprise, and Ally tiers. Enrichment found no public developer API, OpenAPI, SDKs, MCP server, or developer portal — this is a product/marketing web presence only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/forward-platform/refs/heads/main/screenshots/forward-platform-2026-07-25T215029.png",
      "score": 11.9,
      "band": "minimal",
@@ -22645,7 +22645,7 @@
     {
      "name": "GetInsured",
      "slug": "getinsured",
-     "description": "'GetInsured (Vimo, Inc.) is a SaaS technology provider for public-sector",
+     "description": "GetInsured (Vimo, Inc.) is a SaaS technology provider for public-sector healthcare that powers state-based health insurance marketplaces (SBMs). Its platform handles eligibility and enrollment, plan shopping and comparison, and consumer-assistance contact-center operations for state ACA exchanges. GetInsured powers ten state marketplaces (including Idaho, Illinois, Minnesota, Nevada, New Jersey, New Mexico, Pennsylvania, Georgia, Virginia, and Oregon, with Oregon launching in 2027) and supported the migration of roughly 4.5 million people off Healthcare.gov. It sells to state governments, insurance carriers, agents/brokers, and enrollment assisters. GetInsured does not publish a public self-serve developer portal or API; integrations are delivered under contract. Backed by Bessemer Venture Partners. This profile was enriched by the API Evangelist pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getinsured/refs/heads/main/screenshots/getinsured-2026-07-25T215735.png",
      "score": 11.9,
      "band": "minimal",
@@ -22855,7 +22855,7 @@
     {
      "name": "Synaptic",
      "slug": "synaptic",
-     "description": "Synaptic is a vertical AI solutions company that extends Salesforce and",
+     "description": "Synaptic is a vertical AI solutions company that extends Salesforce and Agentforce environments with pre-built, industry-specific AI agents and applications. Its AQ Platform ships purpose-built agents for healthcare payers and providers (Provider AQ), government citizen services (Citizen AQ), and high-tech customer service (Service AQ), using a value-first methodology that promises measurable results within 30 days and full implementation within 90 days. Synaptic is a managed-delivery solutions and consulting firm rather than a self-service developer platform; as of this enrichment pass it publishes no public API, developer portal, OpenAPI, or technical documentation. Backed by Bloomberg Beta and Ribbit Capital.",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -24479,7 +24479,7 @@
     {
      "name": "Dream",
      "slug": "dream",
-     "description": "'Dream (Dream Security / Dream Group) is an AI company for national cybersecurity and",
+     "description": "Dream (Dream Security / Dream Group) is an AI company for national cybersecurity and sovereign AI, founded in 2023 by Shalev Hulio, former Austrian Chancellor Sebastian Kurz, and Gil Dolev, with offices in Tel Aviv, Vienna, and Abu Dhabi. Dream builds a full sovereign AI stack that nations own, control, and operate with zero foreign reliance, delivered on-premises and air-gapped with no foreign telemetry. Its platform spans three products: Atlas, a national AI platform that turns government data into knowledge and decisions across intelligence, finance, health, and supply chain; Sphere, a unified cyber-defense system protecting government and critical infrastructure against nation-state threats; and Hero, an autonomous multi-agent solution for vulnerability discovery and patching. Backed by Bain Capital Ventures and others at a multibillion-dollar valuation, Dream has no public developer API surface; this profile captures its identity and domain-security posture.",
      "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -24520,7 +24520,7 @@
     {
      "name": "Flowbird",
      "slug": "flowbird",
-     "description": "Flowbird is a global urban mobility and parking technology company that",
+     "description": "Flowbird is a global urban mobility and parking technology company that builds pay stations, mobile parking apps, digital permits, EV charging, and transit ticketing systems for cities and transport authorities worldwide. Flowbird was acquired by EasyPark Group in an acquisition that closed in January 2025. Its integration surface is the Flowbird HUB, an open platform that exposes documented but partner/agency-gated APIs (OAuth2 and client-certificate secured, with role-based access control and ownership filters) for tariffs, rights/permits, parking sessions, pay stations, and transactions. There is no self-service public sign-up; access is granted to cities, transport agencies, and integration partners under contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowbird/refs/heads/main/screenshots/flowbird-2026-07-25T214835.png",
      "score": 11.2,
      "band": "minimal",
@@ -24562,7 +24562,7 @@
     {
      "name": "Fed10",
      "slug": "fed10",
-     "description": "Fed10 is a legislative-intelligence and government-affairs platform staffed",
+     "description": "Fed10 is a legislative-intelligence and government-affairs platform staffed by AI agents. It continuously monitors legislation across U.S. state legislatures and Congress, flags regulatory threats and opportunities relevant to a company's business, and delivers actionable policy insights — the analysis a $500/hour policy consultant produces in days, returned in seconds. Founded in 2026 by three former lobbyists and backed by Y Combinator (Winter 2026), Fed10 packages bill tracking, amendment analysis, compliance-gap assessment, and continuous legislative monitoring into an agentic workflow for public-affairs and compliance teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fed10/refs/heads/main/screenshots/fed10-2026-07-25T214310.png",
      "score": 11.1,
      "band": "minimal",
@@ -24676,7 +24676,7 @@
     {
      "name": "Pano",
      "slug": "pano",
-     "description": "Pano AI provides enterprise-grade, AI-powered wildfire and bushfire detection.",
+     "description": "Pano AI provides enterprise-grade, AI-powered wildfire and bushfire detection. The platform combines ultra-high-definition 360-degree mountaintop cameras, satellite feeds, field sensor data, and machine learning to detect ignitions early, confirm and triangulate their location, and deliver real-time visual situational intelligence to utilities, fire agencies, first responders, and landowners. Operators access the Pano 360 platform at 360.pano.ai to monitor camera networks, review AI detections, and coordinate incident response. Backed by DCVC and Initialized Capital, Pano was added to the API Evangelist network as a portfolio-lead company profile; as of this enrichment pass the company publishes no public API, developer portal, or SDK surface.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -24711,7 +24711,7 @@
     {
      "name": "Sensemesh",
      "slug": "sensemesh",
-     "description": "Sensemesh builds an AI-powered operating system that unifies cameras, sensors,",
+     "description": "Sensemesh builds an AI-powered operating system that unifies cameras, sensors, and drones into a single intelligent network for real-time perception and autonomous response. The platform fuses visual, thermal, audio, and pressure sensor data so organizations can detect threats, investigate incidents, dispatch drones autonomously, and query sensor history in natural language across law enforcement, corrections and prisons, events and venues, homeowners associations, and schools and universities. Backed by DCVC, Sensemesh was added to the API Evangelist network as a portfolio lead; as of this enrichment pass the company publishes a single marketing site (sensemesh.ai) with no public API, SDK, developer documentation, or well-known metadata.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -24830,7 +24830,7 @@
     {
      "name": "Govport",
      "slug": "govport",
-     "description": "'GovPort is a Software-as-a-Service platform built specifically for government contractors",
+     "description": "GovPort is a Software-as-a-Service platform built specifically for government contractors (GovCons) to manage subcontractor performance, compliance, and collaboration. It centralizes critical contract records, sends primes and subs automated requirements to keep every party compliant, and lets GovCons securely share and manage deliverables with one another across teams. Positioned as subcontractor management software for the federal contracting ecosystem, GovPort emphasizes high levels of data privacy and security. It was surfaced as a portfolio company of QED Investors and added to the API Evangelist network; the company references APIs in its terms of service but does not publish a public developer portal, API reference, or machine-readable specification at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/govport/refs/heads/main/screenshots/govport-2026-07-25T220141.png",
      "score": 10.8,
      "band": "minimal",
@@ -24872,7 +24872,7 @@
     {
      "name": "Rebellion Defense",
      "slug": "rebellion-defense",
-     "description": "'Rebellion Defense (rebelliondefense.com) is a defense-technology company",
+     "description": "Rebellion Defense (rebelliondefense.com) is a defense-technology company building an AI-driven \"intelligence shield\" for protecting critical infrastructure and military assets — combining multi-band AESA radar sensing (ARGUS/SPECTRUM), AI track-fusion and threat prediction (PRISM), operator alerting and situational awareness (IRIS/STATUS), and effector command-and-control (HADES) on an integrated RBLN-OS platform. Recent public activity includes U.S. Navy contracts and designation as an awardable vendor on the CDAO Tradewinds Solutions Marketplace. The company publishes a marketing site only: as of this enrichment pass no public API, developer portal, SDKs, or machine-readable discovery surface is exposed. Added to the API Evangelist network as an Insight Partners portfolio lead.",
      "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -25020,7 +25020,7 @@
     {
      "name": "Aurelius Systems",
      "slug": "aurelius-systems",
-     "description": "'Aurelius Systems is a defense technology company building autonomous",
+     "description": "Aurelius Systems is a defense technology company building autonomous directed-energy laser defense platforms for counter-unmanned-aerial-system (C-UAS) missions. Its flagship product, Archimedes, fuses high-power lasers, advanced optical sensing, and AI-guided autonomous tracking into a compact, field-deployable platform that detects, tracks, and neutralizes Group 1 and Group 2 drone threats at the speed of light and a fraction of the cost of traditional interceptors. The system runs on grid, generator, or commercial off-the-shelf batteries, is designed to operate without human operators, and can be networked into modular defensive grids to protect troops, bases, and critical infrastructure. Founded in 2025 by Michael LaFramboise and John Marmaduke, the company raised a $10M seed round co-led by General Catalyst and Draper Associates and is partnered with American Rheinmetall. Aurelius currently publishes no public API, developer portal, or software developer surface — it is a directed-energy hardware company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aurelius-systems/refs/heads/main/screenshots/aurelius-systems-2026-07-25T201753.png",
      "score": 10.2,
      "band": "minimal",
@@ -25056,7 +25056,7 @@
     {
      "name": "Cx2",
      "slug": "cx2",
-     "description": "CX2 is a defense technology company building AI-enabled electromagnetic",
+     "description": "CX2 is a defense technology company building AI-enabled electromagnetic spectrum (electronic warfare) systems for the tactical edge. Founded in 2024 and headquartered in El Segundo, California, CX2 develops attritable, machine-learning-powered hardware and software that detect, disrupt, and geolocate RF threats across land, air, sea, and space. Its flagship products are Wraith, a roughly 32-pound autonomous airborne EW platform that geolocates and identifies hostile emitters such as jammers and radars in GPS-denied environments, and Vadris, an RF-seeking payload for FPV drones that hunts ground control stations and other emitters of interest. CX2 is backed by 8VC, Point72 Ventures, Andreessen Horowitz, and others, and sells directly to military and government customers. It does not currently publish a public API or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cx2/refs/heads/main/screenshots/cx2-2026-07-25T211017.png",
      "score": 10.2,
      "band": "minimal",
@@ -25092,7 +25092,7 @@
     {
      "name": "DEFCON AI",
      "slug": "defcon-ai",
-     "description": "'DEFCON AI is a modeling, simulation, and analysis (MS&A) company based",
+     "description": "DEFCON AI is a modeling, simulation, and analysis (MS&A) company based in McLean, Virginia, building AI-driven optimization for contested logistics and mobility across defense and commercial operations. Founded in 2022, it develops mission-tailored optimization and intelligent-agent simulation products - including ARTIV (delivered to U.S. Air Force Air Mobility Command) and R-ALIGN for resilient multimodal logistics - that let planners rapidly generate and evaluate mission scenarios in dynamic, disrupted environments. The company was awarded a five-year, $115M prototype agreement supporting U.S. Marine Corps logistics modernization. DEFCON AI publishes no public API or developer platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/defcon-ai/refs/heads/main/screenshots/defcon-ai-2026-07-25T211614.png",
      "score": 10.2,
      "band": "minimal",
@@ -25247,7 +25247,7 @@
     {
      "name": "Vannevar Labs",
      "slug": "vannevar",
-     "description": "Vannevar Labs is a defense technology company that builds agentic AI for",
+     "description": "Vannevar Labs is a defense technology company that builds agentic AI for national security missions. Its Agent Orchestration platform fuses defense-grade foundational data, mission requirements, and strategic reasoning into mission-focused AI agents — spanning course-of-action, force-protection, information-operations, and cross-border pattern-analysis agents — used from tactical kill-chain decisions to theater-level campaigns. The company collects hard-to-reach data from adversarial information environments to train models for national security, and works across mission areas including Indo-Pacific deterrence, homeland security, and intelligent statecraft. Backed by General Catalyst; no public developer portal or API surface is published.",
      "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -25364,7 +25364,7 @@
     {
      "name": "Bank Negara Malaysia Open Data",
      "slug": "bank-negara-malaysia-open-data",
-     "description": "\"Malaysia Central Bank Open Data\"",
+     "description": "Malaysia Central Bank Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-negara-malaysia-open-data/refs/heads/main/screenshots/bank-negara-malaysia-open-data-2026-06-20T172953.png",
      "score": 9.7,
      "band": "minimal",
@@ -25406,7 +25406,7 @@
     {
      "name": "Brazil Central Bank Open Data",
      "slug": "brazil-central-bank-open-data",
-     "description": "\"Brazil Central Bank Open Data\"",
+     "description": "Brazil Central Bank Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brazil-central-bank-open-data/refs/heads/main/screenshots/brazil-central-bank-open-data-2026-06-20T173643.png",
      "score": 9.7,
      "band": "minimal",
@@ -25448,7 +25448,7 @@
     {
      "name": "City, Berlin",
      "slug": "city-berlin",
-     "description": "\"Berlin(DE) City Open Data\"",
+     "description": "Berlin(DE) City Open Data",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -25489,7 +25489,7 @@
     {
      "name": "City, Nantes Open Data",
      "slug": "city-nantes-open-data",
-     "description": "\"Nantes(FR) City Open Data\"",
+     "description": "Nantes(FR) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-nantes-open-data/refs/heads/main/screenshots/city-nantes-open-data-2026-06-20T174423.png",
      "score": 9.7,
      "band": "minimal",
@@ -25531,7 +25531,7 @@
     {
      "name": "Data.parliament.uk",
      "slug": "data-parliament-uk",
-     "description": "\"Contains live datasets including information about petitions, bills, MP votes, attendance and more\"",
+     "description": "Contains live datasets including information about petitions, bills, MP votes, attendance and more",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-parliament-uk/refs/heads/main/screenshots/data-parliament-uk-2026-06-20T175607.png",
      "score": 9.7,
      "band": "minimal",
@@ -25573,7 +25573,7 @@
     {
      "name": "Deutscher Bundestag DIP",
      "slug": "deutscher-bundestag-dip",
-     "description": "\"This API provides read access to DIP entities (e.g. activities, persons, printed material)\"",
+     "description": "This API provides read access to DIP entities (e.g. activities, persons, printed material)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutscher-bundestag-dip/refs/heads/main/screenshots/deutscher-bundestag-dip-2026-06-20T175945.png",
      "score": 9.7,
      "band": "minimal",
@@ -25615,7 +25615,7 @@
     {
      "name": "District of Columbia Open Data",
      "slug": "district-of-columbia-open-data",
-     "description": "\"Contains D.C. government public datasets, including crime, GIS, financial data, and so on\"",
+     "description": "Contains D.C. government public datasets, including crime, GIS, financial data, and so on",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/district-of-columbia-open-data/refs/heads/main/screenshots/district-of-columbia-open-data-2026-06-20T180053.png",
      "score": 9.7,
      "band": "minimal",
@@ -25657,7 +25657,7 @@
     {
      "name": "Federal Register",
      "slug": "federal-register",
-     "description": "\"The Daily Journal of the United States Government\"",
+     "description": "The Daily Journal of the United States Government",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/federal-register/refs/heads/main/screenshots/federal-register-2026-06-20T181127.png",
      "score": 9.7,
      "band": "minimal",
@@ -25699,7 +25699,7 @@
     {
      "name": "Food Standards Agency",
      "slug": "food-standards-agency",
-     "description": "\"UK food hygiene rating data API\"",
+     "description": "UK food hygiene rating data API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/food-standards-agency/refs/heads/main/screenshots/food-standards-agency-2026-06-20T181401.png",
      "score": 9.7,
      "band": "minimal",
@@ -25741,7 +25741,7 @@
     {
      "name": "Open Government, ACT",
      "slug": "open-government-act",
-     "description": "\"Australian Capital Territory Open Data\"",
+     "description": "Australian Capital Territory Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-act/refs/heads/main/screenshots/open-government-act-2026-06-20T190748.png",
      "score": 9.7,
      "band": "minimal",
@@ -25783,7 +25783,7 @@
     {
      "name": "Open Government, Netherlands",
      "slug": "open-government-netherlands",
-     "description": "\"Netherlands Government Open Data\"",
+     "description": "Netherlands Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-netherlands/refs/heads/main/screenshots/open-government-netherlands-2026-06-20T190808.png",
      "score": 9.7,
      "band": "minimal",
@@ -25825,7 +25825,7 @@
     {
      "name": "Open Government, New South Wales",
      "slug": "open-government-new-south-wales",
-     "description": "\"New South Wales Government Open Data\"",
+     "description": "New South Wales Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/screenshots/open-government-new-south-wales-2026-06-20T190811.png",
      "score": 9.7,
      "band": "minimal",
@@ -25867,7 +25867,7 @@
     {
      "name": "Open Government, Switzerland",
      "slug": "open-government-switzerland",
-     "description": "\"Switzerland Government Open Data\"",
+     "description": "Switzerland Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-switzerland/refs/heads/main/screenshots/open-government-switzerland-2026-06-20T190829.png",
      "score": 9.7,
      "band": "minimal",
@@ -25909,7 +25909,7 @@
     {
      "name": "Open Government, UK",
      "slug": "open-government-uk",
-     "description": "\"UK Government Open Data\"",
+     "description": "UK Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-uk/refs/heads/main/screenshots/open-government-uk-2026-06-20T190832.png",
      "score": 9.7,
      "band": "minimal",
@@ -26142,7 +26142,7 @@
     {
      "name": "Kela Technologies",
      "slug": "kela-technologies",
-     "description": "'Kela Technologies (kela.io) is a defense technology company founded by veterans",
+     "description": "Kela Technologies (kela.io) is a defense technology company founded by veterans of elite Israeli intelligence units, providing a secure, open platform that enables rapid and seamless integration of commercial and military systems in service of Western defense. The company emerged from stealth in 2025 after raising $39M from Sequoia Capital, Lux Capital, and In-Q-Tel (the CIA's venture arm). Kela is building \"Sovereign Sky,\" a low-Earth-orbit satellite constellation for resilient communication and navigation independent of foreign infrastructure, and acquired cloud-management company Pelanor. As of this enrichment pass the company publishes a single-page marketing site with a privacy policy but no public API, developer portal, documentation, or machine-readable interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kela-technologies/refs/heads/main/screenshots/kela-technologies-2026-07-25T223553.png",
      "score": 8.9,
      "band": "minimal",
@@ -26304,7 +26304,7 @@
     {
      "name": "Gallatin AI",
      "slug": "gallatin-ai",
-     "description": "Gallatin AI builds AI-powered software for defense logistics, giving military",
+     "description": "Gallatin AI builds AI-powered software for defense logistics, giving military planners and logisticians decision advantage across the tactical, operational, and strategic levels of the supply chain. Its products include Navigator, an AI decision-support \"S4\" that aggregates and analyzes brigade-level logistics reports in real time to streamline resupply planning; Burrow, a DoD-compliant third-party logistics (3PL) solution managing vendor qualification, transportation, inventory, storage, and fulfillment for domestic and international operations; and Phalanx, an automated asset and in-transit visibility system combining traditional reporting with hardware sensors and computer vision. Founded by veterans of Scale AI, Palantir, Amazon Prime Air, and the DoD, the company emerged from stealth in 2025 and is backed by 8VC, Silent Ventures, Timeless, Moonshots Capital, and Banter Capital.",
      "score": 8.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -26500,7 +26500,7 @@
     {
      "name": "GetCalFresh",
      "slug": "getcalfresh",
-     "description": "GetCalFresh is a service delivered by Code for America on behalf of",
+     "description": "GetCalFresh is a service delivered by Code for America on behalf of the people of California, providing plain-language guidance to help Californians understand and navigate CalFresh (SNAP) food benefits. Since California's statewide move to BenefitsCal.com on the CalSAWS platform, GetCalFresh.org no longer accepts applications directly - it is an informational and guidance site that hands off to BenefitsCal and county agencies for eligibility determination and case processing. No public developer API is documented; historically, before BenefitsCal existed, Code for America's application tooling submitted CalFresh applications to county systems via generated PDF forms, fax, and secure email rather than a documented API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getcalfresh/refs/heads/main/screenshots/getcalfresh-2026-07-25T215723.png",
      "score": 8.3,
      "band": "minimal",
@@ -26662,7 +26662,7 @@
     {
      "name": "Andrenam",
      "slug": "andrenam",
-     "description": "'Andrenam is a defense technology company building an AI-powered maritime",
+     "description": "Andrenam is a defense technology company building an AI-powered maritime sensing network for undersea surveillance. It develops mass-manufacturable, low-cost buoy-based autonomous sonar systems that deploy from manned and unmanned vessels to detect, track, and identify real-time maritime traffic using cloud and edge AI, then dispatch resources to priority areas. Its product line spans deployment, AI-enhanced detection, and integration with naval command-and-control systems, targeting government and military maritime-domain-awareness customers. No public API, developer portal, or documentation surface is currently published.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -26733,7 +26733,7 @@
     {
      "name": "City, Toronto Open Data",
      "slug": "city-toronto-open-data",
-     "description": "\"Toronto (CA) City Open Data\"",
+     "description": "Toronto (CA) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-toronto-open-data/refs/heads/main/screenshots/city-toronto-open-data-2026-06-20T174423.png",
      "score": 8.1,
      "band": "minimal",
@@ -26817,7 +26817,7 @@
     {
      "name": "Gazette Data, UK",
      "slug": "gazette-data-uk",
-     "description": "\"UK official public record API\"",
+     "description": "UK official public record API",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gazette-data-uk/refs/heads/main/screenshots/gazette-data-uk-2026-06-20T181654.png",
      "score": 8.1,
      "band": "minimal",
@@ -26859,7 +26859,7 @@
     {
      "name": "GreenQ",
      "slug": "greenq",
-     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem)",
+     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem) promoting the \"Internet of Garbage\" — turning ordinary garbage trucks into smart trucks. Its GreenTrack device installs on any collection vehicle to weigh incoming waste and track route, mileage, capacity, time and per-bin (single-can-level) pickup data without requiring sensors on the bins, using a patent-pending visual-recognition algorithm. A recommendations engine then suggests route-optimization and scheduling improvements, surfaced through the GreenQ dashboard of reports and analytics. Collected data can be integrated with a municipality's local-authority systems through a private integration API; the company publishes no public developer portal, API reference, SDKs, or specification. GreenQ was surfaced as a portfolio company of 500 Global (also backed by URBAN-X) and added to the API Evangelist network.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -26936,7 +26936,7 @@
     {
      "name": "LocalGov.jp",
      "slug": "localgov-jp",
-     "description": "\"Japan grants and subsidies (central J-Grants + 1,916 municipalities)\"",
+     "description": "Japan grants and subsidies (central J-Grants + 1,916 municipalities)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/localgov-jp/refs/heads/main/screenshots/localgov-jp-2026-06-20T184633.png",
      "score": 8.1,
      "band": "minimal",
@@ -26978,7 +26978,7 @@
     {
      "name": "Obvio",
      "slug": "obvio",
-     "description": "'Obvio is an AI-powered traffic-safety platform that helps cities and police departments",
+     "description": "Obvio is an AI-powered traffic-safety platform that helps cities and police departments detect and enforce reckless driving. Its context-aware computer-vision cameras identify stop-sign violations, crosswalk failures, school-zone speeding, and distracted driving, then support law enforcement in reducing infractions and improving road safety. Obvio is a physical-AI company deployed with police departments in Maryland and expanding into new states; it is backed by Bain Capital Ventures, Homebrew, and Khosla Ventures. Added to the API Evangelist network from a VC portfolio lead; no public API or developer surface is currently published.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -27055,7 +27055,7 @@
     {
      "name": "Open Government, Czech Republic",
      "slug": "open-government-czech-republic",
-     "description": "\"Czech Republic Government Open Data\"",
+     "description": "Czech Republic Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-czech-republic/refs/heads/main/screenshots/open-government-czech-republic-2026-06-20T190753.png",
      "score": 8.1,
      "band": "minimal",
@@ -27097,7 +27097,7 @@
     {
      "name": "Open Government, Greece",
      "slug": "open-government-greece",
-     "description": "\"Greece Government Open Data\"",
+     "description": "Greece Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-greece/refs/heads/main/screenshots/open-government-greece-2026-06-20T190800.png",
      "score": 8.1,
      "band": "minimal",
@@ -27139,7 +27139,7 @@
     {
      "name": "Open Government, Ireland",
      "slug": "open-government-ireland",
-     "description": "\"Ireland Government Open Data\"",
+     "description": "Ireland Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-ireland/refs/heads/main/screenshots/open-government-ireland-2026-06-20T190801.png",
      "score": 8.1,
      "band": "minimal",
@@ -27181,7 +27181,7 @@
     {
      "name": "Open Government, Italy",
      "slug": "open-government-italy",
-     "description": "\"Italy Government Open Data\"",
+     "description": "Italy Government Open Data",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -27222,7 +27222,7 @@
     {
      "name": "Represent by Open North",
      "slug": "represent-by-open-north",
-     "description": "\"Find Canadian Government Representatives\"",
+     "description": "Find Canadian Government Representatives",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/represent-by-open-north/refs/heads/main/screenshots/represent-by-open-north-2026-06-20T192908.png",
      "score": 8.1,
      "band": "minimal",
@@ -27264,7 +27264,7 @@
     {
      "name": "Smacktechnologies",
      "slug": "smacktechnologies",
-     "description": "Smack Technologies is a frontier AI lab dedicated to national security, building",
+     "description": "Smack Technologies is a frontier AI lab dedicated to national security, building domain-specific multimodal models trained via deep reinforcement learning in synthetic warfare environments to deliver decision dominance to the U.S. Department of War, its allies and partners. The company ships two product suites — Omega, a command-level AI stack pairing frontier models with customer-specific applications for strategic decision-making, and Alpha, an edge-level stack of lightweight models on proprietary hardware for tactical platforms and autonomous systems. Founded by MARSOC veterans Andrew Markoff and Clint Alanis and headquartered in El Segundo, California, Smack has raised $32M across Seed and Series A rounds led by Felicis. As of this enrichment pass the company publishes no public API, developer portal, or SDKs — a defense-domain vendor with no external developer surface.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -27305,7 +27305,7 @@
     {
      "name": "UK Companies House",
      "slug": "uk-companies-house",
-     "description": "\"UK Companies House Data from the UK government\"",
+     "description": "UK Companies House Data from the UK government",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uk-companies-house/refs/heads/main/screenshots/uk-companies-house-2026-06-20T200000.png",
      "score": 8.1,
      "band": "minimal",
@@ -27580,7 +27580,7 @@
     {
      "name": "BCLaws",
      "slug": "bclaws",
-     "description": "\"Access to the laws of British Columbia\"",
+     "description": "Access to the laws of British Columbia",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bclaws/refs/heads/main/screenshots/bclaws-2026-06-20T173058.png",
      "score": 7.7,
      "band": "minimal",
@@ -27622,7 +27622,7 @@
     {
      "name": "Brazil",
      "slug": "brazil",
-     "description": "\"Community driven API for Brazil Public Data\"",
+     "description": "Community driven API for Brazil Public Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brazil/refs/heads/main/screenshots/brazil-2026-06-20T173640.png",
      "score": 7.7,
      "band": "minimal",
@@ -27664,7 +27664,7 @@
     {
      "name": "Brazil Receita WS",
      "slug": "brazil-receita-ws",
-     "description": "\"Consult companies by CNPJ for Brazilian companies\"",
+     "description": "Consult companies by CNPJ for Brazilian companies",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brazil-receita-ws/refs/heads/main/screenshots/brazil-receita-ws-2026-06-20T173642.png",
      "score": 7.7,
      "band": "minimal",
@@ -27706,7 +27706,7 @@
     {
      "name": "Brazilian Chamber of Deputies Open Data",
      "slug": "brazilian-chamber-of-deputies-open-data",
-     "description": "\"Provides legislative information in Apis XML and JSON, as well as files in various formats\"",
+     "description": "Provides legislative information in Apis XML and JSON, as well as files in various formats",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brazilian-chamber-of-deputies-open-data/refs/heads/main/screenshots/brazilian-chamber-of-deputies-open-data-2026-06-20T173647.png",
      "score": 7.7,
      "band": "minimal",
@@ -27748,7 +27748,7 @@
     {
      "name": "Census.gov",
      "slug": "census-gov",
-     "description": "\"The US Census Bureau provides various APIs and data sets on demographics and businesses\"",
+     "description": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/census-gov/refs/heads/main/screenshots/census-gov-2026-06-20T174118.png",
      "score": 7.7,
      "band": "minimal",
@@ -27832,7 +27832,7 @@
     {
      "name": "City, Gdańsk",
      "slug": "city-gda-sk",
-     "description": "\"Gdańsk (PL) City Open Data\"",
+     "description": "Gdańsk (PL) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-gda-sk/refs/heads/main/screenshots/city-gda-sk-2026-06-20T174418.png",
      "score": 7.7,
      "band": "minimal",
@@ -27874,7 +27874,7 @@
     {
      "name": "City, Gdynia",
      "slug": "city-gdynia",
-     "description": "\"Gdynia (PL) City Open Data\"",
+     "description": "Gdynia (PL) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-gdynia/refs/heads/main/screenshots/city-gdynia-2026-06-20T174420.png",
      "score": 7.7,
      "band": "minimal",
@@ -27916,7 +27916,7 @@
     {
      "name": "City, Helsinki",
      "slug": "city-helsinki",
-     "description": "\"Helsinki(FI) City Open Data\"",
+     "description": "Helsinki(FI) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-helsinki/refs/heads/main/screenshots/city-helsinki-2026-06-20T174421.png",
      "score": 7.7,
      "band": "minimal",
@@ -27958,7 +27958,7 @@
     {
      "name": "City, Lviv",
      "slug": "city-lviv",
-     "description": "\"Lviv(UA) City Open Data\"",
+     "description": "Lviv(UA) City Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -27999,7 +27999,7 @@
     {
      "name": "City, New York Open Data",
      "slug": "city-new-york-open-data",
-     "description": "\"New York (US) City Open Data\"",
+     "description": "New York (US) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-new-york-open-data/refs/heads/main/screenshots/city-new-york-open-data-2026-06-20T174423.png",
      "score": 7.7,
      "band": "minimal",
@@ -28041,7 +28041,7 @@
     {
      "name": "City, Prague Open Data",
      "slug": "city-prague-open-data",
-     "description": "\"Prague(CZ) City Open Data\"",
+     "description": "Prague(CZ) City Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-prague-open-data/refs/heads/main/screenshots/city-prague-open-data-2026-06-20T174424.png",
      "score": 7.7,
      "band": "minimal",
@@ -28083,7 +28083,7 @@
     {
      "name": "Clausematch",
      "slug": "clausematch",
-     "description": "Clausematch is a London-founded regulatory technology (RegTech) company providing",
+     "description": "Clausematch is a London-founded regulatory technology (RegTech) company providing a cloud platform for policy and procedure management, regulatory change management, and structured document authoring and collaboration for banks, insurers, and other regulated financial institutions. Its tooling helps compliance teams draft, review, version, and attest to policies while mapping regulatory obligations to internal controls. Clausematch was acquired by Corlytics in 2024; the clausematch.com domain now 301-redirects to corlytics.com. This profile was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network for enrichment. No public developer portal, API reference, or machine-readable API specification was found during enrichment (the web surface is WAF-protected and returns HTTP 403 to automated probes).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clausematch/refs/heads/main/screenshots/clausematch-2026-07-25T205528.png",
      "score": 7.7,
      "band": "minimal",
@@ -28125,7 +28125,7 @@
     {
      "name": "Code.gov",
      "slug": "code-gov",
-     "description": "\"The primary platform for Open Source and code sharing for the U.S. Federal Government\"",
+     "description": "The primary platform for Open Source and code sharing for the U.S. Federal Government",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/code-gov/refs/heads/main/screenshots/code-gov-2026-06-20T174654.png",
      "score": 7.7,
      "band": "minimal",
@@ -28167,7 +28167,7 @@
     {
      "name": "Colorado Information Marketplace",
      "slug": "colorado-information-marketplace",
-     "description": "\"Colorado State Government Open Data\"",
+     "description": "Colorado State Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/colorado-information-marketplace/refs/heads/main/screenshots/colorado-information-marketplace-2026-06-20T174757.png",
      "score": 7.7,
      "band": "minimal",
@@ -28209,7 +28209,7 @@
     {
      "name": "CPFHub",
      "slug": "cpfhub",
-     "description": "\"Brazilian CPF lookup — returns full name, birth date, and gender for any CPF\"",
+     "description": "Brazilian CPF lookup — returns full name, birth date, and gender for any CPF",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cpfhub/refs/heads/main/screenshots/cpfhub-2026-06-20T175156.png",
      "score": 7.7,
      "band": "minimal",
@@ -28251,7 +28251,7 @@
     {
      "name": "Data USA",
      "slug": "data-usa",
-     "description": "\"US Public Data\"",
+     "description": "US Public Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-usa/refs/heads/main/screenshots/data-usa-2026-06-20T175621.png",
      "score": 7.7,
      "band": "minimal",
@@ -28335,7 +28335,7 @@
     {
      "name": "FBI Wanted",
      "slug": "fbi-wanted",
-     "description": "\"Access information on the FBI Wanted program\"",
+     "description": "Access information on the FBI Wanted program",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fbi-wanted/refs/heads/main/screenshots/fbi-wanted-2026-06-20T181059.png",
      "score": 7.7,
      "band": "minimal",
@@ -28377,7 +28377,7 @@
     {
      "name": "FEC",
      "slug": "fec",
-     "description": "\"Information on campaign donations in federal elections\"",
+     "description": "Information on campaign donations in federal elections",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fec/refs/heads/main/screenshots/fec-2026-06-20T181108.png",
      "score": 7.7,
      "band": "minimal",
@@ -28419,7 +28419,7 @@
     {
      "name": "Gun Policy",
      "slug": "gun-policy",
-     "description": "\"International firearm injury prevention and policy\"",
+     "description": "International firearm injury prevention and policy",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28502,7 +28502,7 @@
     {
      "name": "Indian Pincode",
      "slug": "indian-pincode",
-     "description": "\"Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data\"",
+     "description": "Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28543,7 +28543,7 @@
     {
      "name": "INEI",
      "slug": "inei",
-     "description": "\"Peruvian Statistical Government Open Data\"",
+     "description": "Peruvian Statistical Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28584,7 +28584,7 @@
     {
      "name": "Interpol Red Notices",
      "slug": "interpol-red-notices",
-     "description": "\"Access and search Interpol Red Notices\"",
+     "description": "Access and search Interpol Red Notices",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/interpol-red-notices/refs/heads/main/screenshots/interpol-red-notices-2026-06-20T183503.png",
      "score": 7.7,
      "band": "minimal",
@@ -28626,7 +28626,7 @@
     {
      "name": "Istanbul (İBB) Open Data",
      "slug": "istanbul-i-bb-open-data",
-     "description": "\"Data sets from the İstanbul Metropolitan Municipality (İBB)\"",
+     "description": "Data sets from the İstanbul Metropolitan Municipality (İBB)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/istanbul-i-bb-open-data/refs/heads/main/screenshots/istanbul-i-bb-open-data-2026-06-20T183629.png",
      "score": 7.7,
      "band": "minimal",
@@ -28668,7 +28668,7 @@
     {
      "name": "National Park Service, US",
      "slug": "national-park-service-us",
-     "description": "\"Data from the US National Park Service\"",
+     "description": "Data from the US National Park Service",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-park-service-us/refs/heads/main/screenshots/national-park-service-us-2026-06-20T190036.png",
      "score": 7.7,
      "band": "minimal",
@@ -28710,7 +28710,7 @@
     {
      "name": "Open Government, Argentina",
      "slug": "open-government-argentina",
-     "description": "\"Argentina Government Open Data\"",
+     "description": "Argentina Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-argentina/refs/heads/main/screenshots/open-government-argentina-2026-06-20T190746.png",
      "score": 7.7,
      "band": "minimal",
@@ -28752,7 +28752,7 @@
     {
      "name": "Open Government, Australia",
      "slug": "open-government-australia",
-     "description": "\"Australian Government Open Data\"",
+     "description": "Australian Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-australia/refs/heads/main/screenshots/open-government-australia-2026-06-20T190748.png",
      "score": 7.7,
      "band": "minimal",
@@ -28794,7 +28794,7 @@
     {
      "name": "Open Government, Austria",
      "slug": "open-government-austria",
-     "description": "\"Austria Government Open Data\"",
+     "description": "Austria Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-austria/refs/heads/main/screenshots/open-government-austria-2026-06-20T190750.png",
      "score": 7.7,
      "band": "minimal",
@@ -28836,7 +28836,7 @@
     {
      "name": "Open Government, Belgium",
      "slug": "open-government-belgium",
-     "description": "\"Belgium Government Open Data\"",
+     "description": "Belgium Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28877,7 +28877,7 @@
     {
      "name": "Open Government, Canada",
      "slug": "open-government-canada",
-     "description": "\"Canadian Government Open Data\"",
+     "description": "Canadian Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-canada/refs/heads/main/screenshots/open-government-canada-2026-06-20T190749.png",
      "score": 7.7,
      "band": "minimal",
@@ -28919,7 +28919,7 @@
     {
      "name": "Open Government, Colombia",
      "slug": "open-government-colombia",
-     "description": "\"Colombia Government Open Data\"",
+     "description": "Colombia Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28960,7 +28960,7 @@
     {
      "name": "Open Government, Cyprus",
      "slug": "open-government-cyprus",
-     "description": "\"Cyprus Government Open Data\"",
+     "description": "Cyprus Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-cyprus/refs/heads/main/screenshots/open-government-cyprus-2026-06-20T190756.png",
      "score": 7.7,
      "band": "minimal",
@@ -29002,7 +29002,7 @@
     {
      "name": "Open Government, Denmark",
      "slug": "open-government-denmark",
-     "description": "\"Denmark Government Open Data\"",
+     "description": "Denmark Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-denmark/refs/heads/main/screenshots/open-government-denmark-2026-06-20T190810.png",
      "score": 7.7,
      "band": "minimal",
@@ -29044,7 +29044,7 @@
     {
      "name": "Open Government, Estonia",
      "slug": "open-government-estonia",
-     "description": "\"Estonia Government Open Data\"",
+     "description": "Estonia Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-estonia/refs/heads/main/screenshots/open-government-estonia-2026-06-20T190756.png",
      "score": 7.7,
      "band": "minimal",
@@ -29086,7 +29086,7 @@
     {
      "name": "Open Government, Finland",
      "slug": "open-government-finland",
-     "description": "\"Finland Government Open Data\"",
+     "description": "Finland Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -29127,7 +29127,7 @@
     {
      "name": "Open Government, France",
      "slug": "open-government-france",
-     "description": "\"French Government Open Data\"",
+     "description": "French Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-france/refs/heads/main/screenshots/open-government-france-2026-06-20T190759.png",
      "score": 7.7,
      "band": "minimal",
@@ -29169,7 +29169,7 @@
     {
      "name": "Open Government, Germany",
      "slug": "open-government-germany",
-     "description": "\"Germany Government Open Data\"",
+     "description": "Germany Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-germany/refs/heads/main/screenshots/open-government-germany-2026-06-20T190758.png",
      "score": 7.7,
      "band": "minimal",
@@ -29211,7 +29211,7 @@
     {
      "name": "Open Government, India",
      "slug": "open-government-india",
-     "description": "\"Indian Government Open Data\"",
+     "description": "Indian Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -29252,7 +29252,7 @@
     {
      "name": "Open Government, Korea",
      "slug": "open-government-korea",
-     "description": "\"Korea Government Open Data\"",
+     "description": "Korea Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-korea/refs/heads/main/screenshots/open-government-korea-2026-06-20T190815.png",
      "score": 7.7,
      "band": "minimal",
@@ -29294,7 +29294,7 @@
     {
      "name": "Open Government, Lithuania",
      "slug": "open-government-lithuania",
-     "description": "\"Lithuania Government Open Data\"",
+     "description": "Lithuania Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-lithuania/refs/heads/main/screenshots/open-government-lithuania-2026-06-20T190804.png",
      "score": 7.7,
      "band": "minimal",
@@ -29336,7 +29336,7 @@
     {
      "name": "Open Government, Luxembourg",
      "slug": "open-government-luxembourg",
-     "description": "\"Luxembourgish Government Open Data\"",
+     "description": "Luxembourgish Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-luxembourg/refs/heads/main/screenshots/open-government-luxembourg-2026-06-20T190807.png",
      "score": 7.7,
      "band": "minimal",
@@ -29378,7 +29378,7 @@
     {
      "name": "Open Government, Mexico",
      "slug": "open-government-mexico",
-     "description": "\"Mexican Statistical Government Open Data\"",
+     "description": "Mexican Statistical Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-mexico/refs/heads/main/screenshots/open-government-mexico-2026-06-20T190809.png",
      "score": 7.7,
      "band": "minimal",
@@ -29420,7 +29420,7 @@
     {
      "name": "Open Government, Mexico",
      "slug": "open-government-mexico-datos",
-     "description": "\"Mexico Government Open Data\"",
+     "description": "Mexico Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-mexico-datos/refs/heads/main/screenshots/open-government-mexico-datos-2026-06-20T190808.png",
      "score": 7.7,
      "band": "minimal",
@@ -29462,7 +29462,7 @@
     {
      "name": "Open Government, New Zealand",
      "slug": "open-government-new-zealand",
-     "description": "\"New Zealand Government Open Data\"",
+     "description": "New Zealand Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-new-zealand/refs/heads/main/screenshots/open-government-new-zealand-2026-06-20T190814.png",
      "score": 7.7,
      "band": "minimal",
@@ -29504,7 +29504,7 @@
     {
      "name": "Open Government, Norway",
      "slug": "open-government-norway",
-     "description": "\"Norwegian Government Open Data\"",
+     "description": "Norwegian Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-norway/refs/heads/main/screenshots/open-government-norway-2026-06-20T190815.png",
      "score": 7.7,
      "band": "minimal",
@@ -29546,7 +29546,7 @@
     {
      "name": "Open Government, Peru",
      "slug": "open-government-peru",
-     "description": "\"Peru Government Open Data\"",
+     "description": "Peru Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -29587,7 +29587,7 @@
     {
      "name": "Open Government, Poland",
      "slug": "open-government-poland",
-     "description": "\"Poland Government Open Data\"",
+     "description": "Poland Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-poland/refs/heads/main/screenshots/open-government-poland-2026-06-20T190816.png",
      "score": 7.7,
      "band": "minimal",
@@ -29629,7 +29629,7 @@
     {
      "name": "Open Government, Portugal",
      "slug": "open-government-portugal",
-     "description": "\"Portugal Government Open Data\"",
+     "description": "Portugal Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-portugal/refs/heads/main/screenshots/open-government-portugal-2026-06-20T190821.png",
      "score": 7.7,
      "band": "minimal",
@@ -29671,7 +29671,7 @@
     {
      "name": "Open Government, Queensland Government",
      "slug": "open-government-queensland-government",
-     "description": "\"Queensland Government Open Data\"",
+     "description": "Queensland Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-queensland-government/refs/heads/main/screenshots/open-government-queensland-government-2026-06-20T190820.png",
      "score": 7.7,
      "band": "minimal",
@@ -29713,7 +29713,7 @@
     {
      "name": "Open Government, Saudi Arabia",
      "slug": "open-government-saudi-arabia",
-     "description": "\"Saudi Arabia Government Open Data\"",
+     "description": "Saudi Arabia Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -29754,7 +29754,7 @@
     {
      "name": "Open Government, Singapore",
      "slug": "open-government-singapore",
-     "description": "\"Singapore Government Open Data\"",
+     "description": "Singapore Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-singapore/refs/heads/main/screenshots/open-government-singapore-2026-06-20T190826.png",
      "score": 7.7,
      "band": "minimal",
@@ -29796,7 +29796,7 @@
     {
      "name": "Open Government, Slovakia",
      "slug": "open-government-slovakia",
-     "description": "\"Slovakia Government Open Data\"",
+     "description": "Slovakia Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-slovakia/refs/heads/main/screenshots/open-government-slovakia-2026-06-20T190822.png",
      "score": 7.7,
      "band": "minimal",
@@ -29838,7 +29838,7 @@
     {
      "name": "Open Government, Slovenia",
      "slug": "open-government-slovenia",
-     "description": "\"Slovenia Government Open Data\"",
+     "description": "Slovenia Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-slovenia/refs/heads/main/screenshots/open-government-slovenia-2026-06-20T190824.png",
      "score": 7.7,
      "band": "minimal",
@@ -29880,7 +29880,7 @@
     {
      "name": "Open Government, South Australian Government",
      "slug": "open-government-south-australian-government",
-     "description": "\"South Australian Government Open Data\"",
+     "description": "South Australian Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-south-australian-government/refs/heads/main/screenshots/open-government-south-australian-government-2026-06-20T190826.png",
      "score": 7.7,
      "band": "minimal",
@@ -29922,7 +29922,7 @@
     {
      "name": "Open Government, Spain",
      "slug": "open-government-spain",
-     "description": "\"Spain Government Open Data\"",
+     "description": "Spain Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-spain/refs/heads/main/screenshots/open-government-spain-2026-06-20T190828.png",
      "score": 7.7,
      "band": "minimal",
@@ -29964,7 +29964,7 @@
     {
      "name": "Open Government, Sweden",
      "slug": "open-government-sweden",
-     "description": "\"Sweden Government Open Data\"",
+     "description": "Sweden Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-sweden/refs/heads/main/screenshots/open-government-sweden-2026-06-20T190831.png",
      "score": 7.7,
      "band": "minimal",
@@ -30006,7 +30006,7 @@
     {
      "name": "Open Government, Taiwan",
      "slug": "open-government-taiwan",
-     "description": "\"Taiwan Government Open Data\"",
+     "description": "Taiwan Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-taiwan/refs/heads/main/screenshots/open-government-taiwan-2026-06-20T190834.png",
      "score": 7.7,
      "band": "minimal",
@@ -30048,7 +30048,7 @@
     {
      "name": "Open Government, Thailand",
      "slug": "open-government-thailand",
-     "description": "\"Thailand Government Open Data\"",
+     "description": "Thailand Government Open Data",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -30089,7 +30089,7 @@
     {
      "name": "Open Government, USA",
      "slug": "open-government-usa",
-     "description": "\"United States Government Open Data\"",
+     "description": "United States Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-usa/refs/heads/main/screenshots/open-government-usa-2026-06-20T190834.png",
      "score": 7.7,
      "band": "minimal",
@@ -30131,7 +30131,7 @@
     {
      "name": "Open Government, Victoria State Government",
      "slug": "open-government-victoria-state-government",
-     "description": "\"Victoria State Government Open Data\"",
+     "description": "Victoria State Government Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-victoria-state-government/refs/heads/main/screenshots/open-government-victoria-state-government-2026-06-20T190838.png",
      "score": 7.7,
      "band": "minimal",
@@ -30173,7 +30173,7 @@
     {
      "name": "Open Government, West Australia",
      "slug": "open-government-west-australia",
-     "description": "\"West Australia Open Data\"",
+     "description": "West Australia Open Data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-government-west-australia/refs/heads/main/screenshots/open-government-west-australia-2026-06-20T190837.png",
      "score": 7.7,
      "band": "minimal",
@@ -30215,7 +30215,7 @@
     {
      "name": "OpenRegistry",
      "slug": "openregistry",
-     "description": "\"Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more)\"",
+     "description": "Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openregistry/refs/heads/main/screenshots/openregistry-2026-06-20T191023.png",
      "score": 7.7,
      "band": "minimal",
@@ -30298,7 +30298,7 @@
     {
      "name": "Seneca Systems",
      "slug": "seneca-systems",
-     "description": "'Seneca Systems is a govtech company whose stated mission is \"building",
+     "description": "Seneca Systems is a govtech company whose stated mission is \"building better government\" through software that helps public-sector organizations serve constituents and modernize internal operations. Its flagship product is Romulus, a constituent-relationship and case-management platform aimed at local and state government. The company was surfaced as a portfolio company of Cowboy Ventures and added to the API Evangelist network for enrichment; as of this pass it publishes no public API, developer portal, or machine-readable discovery surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -30339,7 +30339,7 @@
     {
      "name": "US Presidential Election Data by TogaTech",
      "slug": "us-presidential-election-data-by-togatech",
-     "description": "\"Basic candidate data and live electoral vote counts for top two parties in US presidential election\"",
+     "description": "Basic candidate data and live electoral vote counts for top two parties in US presidential election",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-presidential-election-data-by-togatech/refs/heads/main/screenshots/us-presidential-election-data-by-togatech-2026-06-20T200629.png",
      "score": 7.7,
      "band": "minimal",
@@ -30381,7 +30381,7 @@
     {
      "name": "USA.gov",
      "slug": "usa-gov",
-     "description": "\"Authoritative information on U.S. programs, events, services and more\"",
+     "description": "Authoritative information on U.S. programs, events, services and more",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-gov/refs/heads/main/screenshots/usa-gov-2026-06-20T200650.png",
      "score": 7.7,
      "band": "minimal",
@@ -30423,7 +30423,7 @@
     {
      "name": "USAspending.gov",
      "slug": "usaspending-gov",
-     "description": "\"US federal spending data\"",
+     "description": "US federal spending data",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaspending-gov/refs/heads/main/screenshots/usaspending-gov-2026-06-20T200644.png",
      "score": 7.7,
      "band": "minimal",
@@ -30465,7 +30465,7 @@
     {
      "name": "Heaviside Industries",
      "slug": "heaviside-industries",
-     "description": "Heaviside Industries is a defense-technology company founded in 2024 in Los Angeles,",
+     "description": "Heaviside Industries is a defense-technology company founded in 2024 in Los Angeles, California, building autonomous precision munitions for U.S. and allied special operations and conventional forces. Its products — MOTH (land electromagnetic signal intelligence and spectrum awareness), TYR (autonomous aerial munition), and HYDRA (autonomous underwater munition) — are designed to deliver hyper-precise strike capabilities across air, land, and sea in GPS-denied and contested environments. Named after physicist Oliver Heaviside, whose electromagnetic theory enabled miniaturized electronics, the company emerged from stealth in May 2026 with a $28M Series A. It does not currently publish a public API, developer portal, SDKs, or machine-readable API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heaviside-industries/refs/heads/main/screenshots/heaviside-industries-2026-07-25T220855.png",
      "score": 7.6,
      "band": "minimal",
@@ -30501,7 +30501,7 @@
     {
      "name": "Team Wildfire",
      "slug": "team-wildfire",
-     "description": "Team Wildfire develops jet engine-enabled fire suppression technology",
+     "description": "Team Wildfire develops jet engine-enabled fire suppression technology built to prevent catastrophic wildfire losses. Its mobile units, the \"Hurricane\" and \"Storm Cell\", apply fire retardant at scale to deny ground to advancing wildfires. The company offers fireground services, evacuation route hardening, asset protection, prescribed fire containment, and military base protection. Team Wildfire is a physical hardware and services company backed by Techstars; it publishes a marketing and services website but no public API, developer portal, SDKs, or developer documentation. This API Evangelist profile was surfaced as a Techstars portfolio lead and enriched with the identity and domain-security signals available for a non-API company.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -30608,7 +30608,7 @@
     {
      "name": "Faception",
      "slug": "faception",
-     "description": "Faception is an Israeli facial personality analytics company that applies proprietary",
+     "description": "Faception is an Israeli facial personality analytics company that applies proprietary computer vision and machine learning to analyze facial images from photos, video streams, and cameras, scoring individuals against personality and behavioral classifiers. The company markets its technology to public-safety and smart-city security, fintech, retail, insurance, recruiting, and personal-robotics use cases, and states that it analyzes faces anonymously by storing mathematical classifiers rather than personal identity data. It was added to the API Evangelist network as a portfolio company of 500 Global; at this time it publishes a marketing site and blog but no public API, developer documentation, or machine-readable API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/faception/refs/heads/main/screenshots/faception-2026-07-25T214133.png",
      "score": 7.2,
      "band": "minimal",
@@ -30644,7 +30644,7 @@
     {
      "name": "Inversion",
      "slug": "inversion",
-     "description": "'Inversion is a Los Angeles-based aerospace and defense company founded in 2021 by Austin",
+     "description": "Inversion is a Los Angeles-based aerospace and defense company founded in 2021 by Austin Briggs and Justin Fiaschetti, building a new class of highly maneuverable reentry vehicles. Its flagship Arc is an autonomous, reusable, low-cost space-based delivery vehicle designed to store cargo in orbit and deliver it with precision to anywhere on Earth in under an hour, descending under parachutes using non-toxic propellants so crews can approach it immediately on landing. The company also develops hypersonics and space-based interceptor technology and flew its first reentry capsule, Ray, as an early technical demonstrator. Inversion has raised roughly $54M to date, including a $44M Series A led by Spark Capital and Adjacent with participation from Lockheed Martin Ventures, Kindred Ventures, and Y Combinator. It does not currently publish a public developer API; this profile tracks the company for the API Evangelist network.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -30750,7 +30750,7 @@
     {
      "name": "Basalt",
      "slug": "basalt",
-     "description": "'Basalt (Basalt Technologies Corp.) is a San Francisco spacecraft-software company building",
+     "description": "Basalt (Basalt Technologies Corp.) is a San Francisco spacecraft-software company building Dispatch, a simulation-based operating system for satellites that makes flight software portable across dissimilar spacecraft hardware — pitched as \"Windows for spacecraft\" and \"Constellations as a Service.\" Dispatch provides a common control layer so fleets of different satellites can work together on tasking (visible, infrared, and radar imaging), in-orbit networking and telecom, signals intelligence, and monitoring or inspecting other on-orbit assets, including autonomous re-tasking for national security missions. Founded in 2023 by Max Bhatti and Alex Choi (ex-SpaceX engineers, MIT CubeSat program), Basalt is a Y Combinator W24 company that raised a $3.5M seed round led by Initialized Capital in May 2024, with participation from Y Combinator, Liquid 2 Ventures, and General Catalyst. The company publishes no public developer API, documentation, or SDK surface; this profile captures its identity and probed domain security. Sector: frontier-tech / space / defense.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basalt/refs/heads/main/screenshots/basalt-2026-07-25T202410.png",
      "score": 6.8,
      "band": "minimal",
@@ -30822,7 +30822,7 @@
     {
      "name": "Cyren Call",
      "slug": "cyren-call",
-     "description": "Cyren Call Communications Corp. was a wireless communications company founded in 2005 by",
+     "description": "Cyren Call Communications Corp. was a wireless communications company founded in 2005 by Nextel co-founder Morgan O'Brien to advocate for a nationwide public-safety broadband network. Its central proposal asked the FCC to reallocate 30 MHz of 700 MHz-band spectrum (freed by the 2009 analog-TV shutdown) to public-safety users, and it later served as advisor to the Public Safety Spectrum Trust (PSST) after PSST became the nationwide licensee for public safety's 10 MHz of 700 MHz broadband spectrum. The FCC dismissed Cyren Call's original petition as inconsistent with auction requirements, and the PSST advisory relationship ended in early 2009. The company is permanently closed. It never operated a developer program, public API, or SDK surface, so no API artifacts are available for enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -30893,7 +30893,7 @@
     {
      "name": "Distributedspectrum",
      "slug": "distributedspectrum",
-     "description": "'Distributed Spectrum, self-described as \"The World''s First AI Signals Expert,\" builds edge-AI",
+     "description": "Distributed Spectrum, self-described as \"The World's First AI Signals Expert,\" builds edge-AI radio-frequency sensing technology that detects and identifies RF signals to autonomously map threats without expensive hardware or trained operators. Its sensors process data locally to deliver real-time alerts on threat types such as tactical radios, GPS jammers, and drones, and can be deployed anywhere using commercial components to form distributed detection networks. The company is headquartered at 99 Madison Ave, New York, NY, raised a $25M Series A, and is a Felicis portfolio company. No public API or developer program is published at this time; this profile carries the identity and domain-security posture surfaced by the enrichment pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/distributedspectrum/refs/heads/main/screenshots/distributedspectrum-2026-07-25T212114.png",
      "score": 6.8,
      "band": "minimal",
@@ -31109,7 +31109,7 @@
     {
      "name": "Impossible Aerospace",
      "slug": "impossible-aerospace",
-     "description": "'Impossible Aerospace is a deep-tech aerospace hardware company founded in 2016 by Spencer",
+     "description": "Impossible Aerospace is a deep-tech aerospace hardware company founded in 2016 by Spencer Gore in Santa Clara, California. It builds the US-1, a long-range all-electric quadcopter whose lithium-ion cells form part of the airframe structure, giving it up to roughly two hours of flight time for aerial imaging, surveillance, and public-safety missions with law enforcement and first responders. The US-1 runs the third-party Auterion OS flight stack (built on the PX4 open autopilot). The company was later acquired and operates as a small team. Enrichment note (2026-07-19): the company publishes no public API, SDK, or developer surface, and its primary domain impossible.aero no longer resolves in DNS.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31180,7 +31180,7 @@
     {
      "name": "Protent",
      "slug": "protent",
-     "description": "Protent is a San Francisco based Y Combinator (Winter 2026) startup building",
+     "description": "Protent is a San Francisco based Y Combinator (Winter 2026) startup building a real-time video intelligence platform for law enforcement and public safety teams. Its software monitors many live surveillance, CCTV, and bodycam feeds at once, automatically prioritizing critical streams when escalation or volatility is detected, and lets teams run natural-language searches across active feeds (for example, \"a person in a red hoodie with a backpack\"). Founded in 2025 by Srihan Balaji (ex-Lockheed Martin Research, AWS) and Abhisheik Sharma (CTO, NLP/sentiment analysis), the company works with police departments in the Atlanta, Chicago, and St. Louis metro areas. As of this profile, Protent publishes a marketing website only and exposes no public API, developer documentation, or SDK surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31215,7 +31215,7 @@
     {
      "name": "Silver Spring Networks *",
      "slug": "silver-spring-networks",
-     "description": "'Silver Spring Networks was a smart-grid, smart-city, and IoT networking company that built",
+     "description": "Silver Spring Networks was a smart-grid, smart-city, and IoT networking company that built wireless canopy networks and the SLV/Data Platform for utilities, offering RESTful Data Platform APIs (device registration, device metadata, sensor data, and webhook event notifications) plus an SDK on its developer portal at developer.ssni.com. Itron completed its acquisition of the company in January 2018 for approximately USD 830 million and rebranded it Itron Networked Solutions; the standalone ssni.com and developer.ssni.com properties are now offline. Enrichment pass 2026-07-21 found no live API surface: all legacy domains fail to resolve and the historical developer portal is no longer reachable.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31441,7 +31441,7 @@
     {
      "name": "Olea",
      "slug": "olea",
-     "description": "'Olea is a company surfaced as a portfolio company of insight-partners and added to the API",
+     "description": "Olea is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the enrichment pipeline.",
      "score": 6.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31776,7 +31776,7 @@
     {
      "name": "Govlist",
      "slug": "govlist",
-     "description": "Govlist, Inc. (which operated as ProcureNow) was a San Francisco-based govtech startup",
+     "description": "Govlist, Inc. (which operated as ProcureNow) was a San Francisco-based govtech startup providing a multi-tenant SaaS platform for government procurement and contract management. Its Government Procurement Automation Cloud helped local and state agencies build, source, and evaluate RFPs and bids, and helped suppliers read, understand, and respond to complex public solicitations. The company, backed by 500 Global and Civstart, was acquired by OpenGov in 2021 (announced June 2021), where the product now lives as OpenGov Procurement. Govlist has no independent developer surface, API, or portal; its original domain (thegovlist.com) no longer resolves. This profile is preserved as a historical lead surfaced from the 500 Global portfolio.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31900,7 +31900,7 @@
     {
      "name": "Open Government, Romania",
      "slug": "open-government-romania",
-     "description": "\"Romania Government Open Data\"",
+     "description": "Romania Government Open Data",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -31941,7 +31941,7 @@
     {
      "name": "PRC Exam Schedule",
      "slug": "prc-exam-schedule",
-     "description": "\"Unofficial Philippine Professional Regulation Commission's examination schedule\"",
+     "description": "Unofficial Philippine Professional Regulation Commission's examination schedule",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -32484,7 +32484,7 @@
     {
      "name": "IZOIC&#8217;s",
      "slug": "izoic-and-8217-s",
-     "description": "'IZOIC&#8217;s is a company surfaced as a portfolio company of insight-partners and added",
+     "description": "IZOIC&#8217;s is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the enrichment pipeline.",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -32673,7 +32673,7 @@
     {
      "name": "Landgate",
      "slug": "landgate",
-     "description": "Landgate is the Western Australian Land Information Authority — the WA government",
+     "description": "Landgate is the Western Australian Land Information Authority — the WA government agency that maintains the state land titles register, values every rateable property in Western Australia, and curates the state's foundational location data (cadastre, tenure, property addresses, sales evidence, imagery, elevation, geographic names). In the Australian real estate value chain Landgate sits underneath the listing portals (REA Group's realestate.com.au and Domain) and underneath PEXA's electronic conveyancing rail as the authoritative source of the public land record for WA; since 2019 the automated land titling and registry operations have been operated under a commercial services arrangement while Landgate retains the Registrar of Titles function and the data custodianship. Its API posture is genuinely split and should not be overstated — a real, anonymously callable public surface exists (the SLIP Shared Location Information Platform ArcGIS REST directory plus OGC WMS/WFS services, and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.",
      "rank": 816
     },
     {
@@ -32685,7 +32685,7 @@
     {
      "name": "Ordnance Survey",
      "slug": "ordnance-survey",
-     "description": "'Ordnance Survey is Great Britain''s national mapping agency, a government-owned company",
+     "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "rank": 818
     },
     {

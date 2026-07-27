@@ -706,7 +706,7 @@
     {
      "name": "Skydropx",
      "slug": "skydropx",
-     "description": "Skydropx is a Mexican multi-carrier shipping and logistics platform that",
+     "description": "Skydropx is a Mexican multi-carrier shipping and logistics platform that lets e-commerce sellers and businesses compare rates, generate labels, schedule pickups, and track parcels across national and international carriers from a single API. Its modern Skydropx Pro API (base https://pro.skydropx.com/api/v1) is a REST interface secured with OAuth2 client-credentials Bearer tokens and covers quotations, shipments, labels/orders, pickups, address templates, tracking, and account credit balances. A separate classic Skydropx API (https://api.skydropx.com/v1, authenticated with an API key Token header) and a Radar tracking API also exist. Billing is prepaid - the platform is free to use and you pay per label from a wallet balance.",
      "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
@@ -989,7 +989,7 @@
     {
      "name": "Worky",
      "slug": "worky",
-     "description": "'Worky is a Mexican HR and payroll SaaS platform for SMBs and mid-market",
+     "description": "Worky is a Mexican HR and payroll SaaS platform for SMBs and mid-market companies that unifies operations, talent, and payroll in one system — from employee onboarding through CFDI 4.0 payroll stamping (timbrado) and salary dispersal — with direct IMSS, SUA, and INFONAVIT connectivity, digital time-clock and attendance, recruiting, performance reviews, people analytics, and an operational AI agent (SophIA). Backed by QED Investors. Worky publishes no public developer API; its backend at api.worky.mx is a private JWT-authenticated service.",
      "score": 23.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1149,7 +1149,7 @@
     {
      "name": "Cicada",
      "slug": "cicada",
-     "description": "Cicada Securities, LLC is a financial technology company revolutionizing",
+     "description": "Cicada Securities, LLC is a financial technology company revolutionizing the bond markets in Emerging Markets. It operates an Alternative Trading System (ATS) focused on local-currency-denominated government bonds in Mexico (M Bonos, UDI Bonos, and Cetes), enhancing liquidity and facilitating all-to-all access in an anonymous trading environment through central limit orderbook and request-for-quote protocols. Cicada Securities, LLC is an SEC-registered broker-dealer and FINRA member, and Cicada SEF, LLC is an applicant for swap execution facility registration with the CFTC. The company offers a trading platform, live pricing data, and a programmatic API for direct access to LatAm local-currency rates market liquidity, backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cicada/refs/heads/main/screenshots/cicada-2026-07-25T205338.png",
      "score": 19.4,
      "band": "emerging",
@@ -1233,7 +1233,7 @@
     {
      "name": "Minu",
      "slug": "minu",
-     "description": "'Minu is Mexico''s leading employee benefits and financial wellness platform,",
+     "description": "Minu is Mexico's leading employee benefits and financial wellness platform, serving more than 2,000 companies and over 1 million workers. Its flagship product is Salary On-Demand (earned wage access), which lets employees withdraw wages they have already earned before payday, alongside a high-yield savings account, low-interest payroll loans, food and gas vouchers (vales de despensa y gasolina), a rewards card, a corporate expense card, telemedicine, insurance and assistance coverage, a discount club, and a financial-education program. Employers adopt Minu to reduce talent turnover and improve workforce financial wellness. Minu is a QED Investors portfolio company. As of this enrichment pass, Minu publishes no public API, developer portal, or SDK surface.",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1315,7 +1315,7 @@
     {
      "name": "Terapify",
      "slug": "terapify",
-     "description": "Terapify is an online therapy platform for the Spanish-speaking market, connecting individuals",
+     "description": "Terapify is an online therapy platform for the Spanish-speaking market, connecting individuals in Mexico and Latin America with certified psychologists for private, secure video-call sessions. Founded in 2019 and backed by 500 Global and Y Combinator, the platform matches patients to therapists via a therapeutic-affinity test, offers individual and couples therapy, parent orientation, and workplace mental-health programs for companies, plus mindfulness, yoga, and breathing resources. It operates as a consumer web and mobile (iOS/Android) product and publishes no public developer API surface.",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1398,7 +1398,7 @@
     {
      "name": "Clivi",
      "slug": "clivi",
-     "description": "Clivi is Mexico's largest digital clinic for diabetes and obesity care,",
+     "description": "Clivi is Mexico's largest digital clinic for diabetes and obesity care, delivering fully online telehealth treatment that combines endocrinologists, internists, nutritionists, and psychologists with continuous glucose monitoring and GLP-1 medications (Ozempic, Wegovy, Mounjaro, Saxenda, Rybelsus). Founded in 2020 and based in Mexico City, Clivi serves patients nationwide through WhatsApp-based virtual care, home medication delivery via its Farmacia Clivi digital pharmacy, and tiered treatment plans (Clivi Pro, Plus, Total, and Zero). Backed by 500 Global and other investors, Clivi operates as a consumer healthtech service; it publishes no public developer API, but does expose an llms.txt content index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clivi/refs/heads/main/screenshots/clivi-2026-07-25T205636.png",
      "score": 18.3,
      "band": "emerging",
@@ -1475,7 +1475,7 @@
     {
      "name": "Boletia",
      "slug": "boletia",
-     "description": "Boletia (Boletia Mexico SA de CV) is a Mexican event ticketing, registration, and access-management",
+     "description": "Boletia (Boletia Mexico SA de CV) is a Mexican event ticketing, registration, and access-management platform headquartered in Monterrey, Nuevo Leon. Event organizers use Boletia to create and promote events, sell tickets online, manage attendee registration, assign numbered seating, publish billboards (cartelera) and venue pages, and control event-day access and check-in. The platform spans concerts, comedy and stand-up, sports, expos and congresses, festivals, theater, and workshops across Mexico, and provides the payment and infrastructure backend that powers ticket sales for its event organizers. Boletia is backed by 500 Global.",
      "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1684,7 +1684,7 @@
     {
      "name": "Crabi",
      "slug": "crabi",
-     "description": "Crabi is a Mexican digital auto-insurance company (insurtech) offering fully online",
+     "description": "Crabi is a Mexican digital auto-insurance company (insurtech) offering fully online vehicle policies purchasable in about fifteen minutes from a mobile device. Coverage spans material damage, theft, third-party civil liability, medical expenses, and roadside and legal assistance across 27 Mexican states, sold and serviced through its mobile apps, online quoter (cotizador), and customer login portal. The company is regulated in Mexico by the CNSF and CONDUSEF and is a portfolio company of 500 Global. Crabi publishes no public developer API, documentation, or SDKs; this profile captures its identity and public web surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crabi/refs/heads/main/screenshots/crabi-2026-07-25T210628.png",
      "score": 17.2,
      "band": "emerging",
@@ -1767,7 +1767,7 @@
     {
      "name": "Sofía",
      "slug": "sof-a",
-     "description": "'Sofía is a 100% Mexican health insurance company (aseguradora) offering",
+     "description": "Sofía is a 100% Mexican health insurance company (aseguradora) offering medical coverage for individuals, families, and businesses, delivered primarily through a mobile app with plans that carry no deductibles. Regulated in Mexico by the CNSF, Secretaría de Salud, and CONDUSEF, and backed by Index Ventures. This is a consumer/enterprise insurance provider surfaced as a portfolio-company lead; a live probe of the public surface found no developer program, API, or /.well-known/ discovery documents, so this profile remains identity-only pending any future API exposure.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1921,7 +1921,7 @@
     {
      "name": "Mundi",
      "slug": "mundi",
-     "description": "Mundi is a digital cross-border trade finance platform for exporters,",
+     "description": "Mundi is a digital cross-border trade finance platform for exporters, primarily connecting Mexican exporters with US importers. It provides non-recourse international factoring (invoice advances up to $10M USD / $200M MXN with rates from 0.9% per month), foreign-exchange spot and hedging across 100+ currencies, purchase-order and revolving-line financing, multi-currency virtual US accounts and international payments/collections, and digital cargo insurance. Backed by Speedinvest and Union Square Ventures, Mundi operates a customer web application but publishes no public developer API, SDK, or documentation surface at this time.",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1962,7 +1962,7 @@
     {
      "name": "Tienda Pago",
      "slug": "tienda-pago",
-     "description": "'Tienda Pago is a fintech lender providing working capital and short-term",
+     "description": "Tienda Pago is a fintech lender providing working capital and short-term inventory financing to small retailers - bodegas, convenience stores, bars and restaurants - across Mexico and Peru. Operating as a non-regulated financial entity (SOFOM E.N.R.), it offers three core products: LanaYa instant cash deposits, buy-now-pay-later 7-day terms for buying inventory from distributors, and no-upfront-cash mobile phone top-up (recargas). The platform reports serving over 80,000 businesses and more than 18 million families through mobile apps and a web onboarding portal. It is backed by QED Investors. No public API, developer portal, or SDK surface has been identified.",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2003,7 +2003,7 @@
     {
      "name": "Uniko",
      "slug": "uniko",
-     "description": "Uniko is a Mexican gift registry (mesa de regalos) SaaS platform for weddings,",
+     "description": "Uniko is a Mexican gift registry (mesa de regalos) SaaS platform for weddings, events, and baby showers, letting couples convert gifts into cash deposited directly to their bank account. The platform bundles a personalized wedding website, save-the-date digital invitations, WhatsApp-based guest confirmation, and planning tools, and also offers store-credit gift registries for ecommerce shops. Uniko is a 500 Global portfolio company; it is consumer-facing and publishes no public API or developer documentation.",
      "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2044,7 +2044,7 @@
     {
      "name": "Mercanto",
      "slug": "mercanto",
-     "description": "'Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that supplies",
+     "description": "Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that supplies restaurants, cafeterias, and food-service businesses with ingredients, groceries, cleaning supplies, and packaging bought at wholesale from vetted suppliers, with negotiated pricing and next-day delivery. Buyers order across categories including produce, groceries and pantry, dairy and eggs, proteins and cold cuts, bakery and desserts, beverages, frozen foods, and non-food items, while Mercanto handles supplier selection, negotiation, and fulfillment. The company is backed by Bain Capital Ventures. Its customer-facing storefront runs on a private backend (api.mercanto.mx) that is not publicly documented for third-party developers, so there is no public API product, developer portal, or SDK surface at this time.",
      "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2207,7 +2207,7 @@
     {
      "name": "Lamudi",
      "slug": "lamudi",
-     "description": "'Lamudi is an online real estate classifieds marketplace focused exclusively on emerging",
+     "description": "Lamudi is an online real estate classifieds marketplace focused exclusively on emerging markets, founded in 2013 and today operating consumer property portals in the Philippines (lamudi.com.ph), Indonesia (lamudi.co.id) and Mexico (lamudi.com.mx). The platform lets buyers, renters, sellers and landlords search and list houses, condominiums/apartments, land, commercial space and offices, filtered by geography, property group and operation (buy/rent). Search results pages carry area market statistics, interactive maps and nearby points of interest, alongside country-specific features such as Philippine foreclosures and home-loan comparison, Indonesian KPR mortgage simulators, and Mexican Infonavit-eligible listings and bank repossessions. Agencies and developers publish inventory through the pro.lamudi.com professional portal. Lamudi operates as part of LIFULL Connect, which supplies its legal notice, privacy policy and contact surface. Lamudi publishes no public developer API, SDK or developer portal; its notable machine-readable surface is a first-party llms.txt on each country site that documents the URL grammar of its search, new development and project pages for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lamudi/refs/heads/main/screenshots/lamudi-2026-07-25T224449.png",
      "score": 14.9,
      "band": "minimal",
@@ -2278,7 +2278,7 @@
     {
      "name": "Shuttle Central",
      "slug": "shuttle-central",
-     "description": "Shuttle Central (shuttlecentral.com) is a ground transportation booking",
+     "description": "Shuttle Central (shuttlecentral.com) is a ground transportation booking platform for airport and point-to-point shuttle transfers across Mexico, the Caribbean, the United States, and Latin America, covering 100+ destinations including Cancun, Punta Cana, Nassau, Los Cabos, Mexico City, Puerto Vallarta, Montego Bay, and Miami. Travelers book confirmed transfers online with secure payment, instant confirmation, and 24/7 support, and a separate transportation-provider program (shuttlecentralinc.com) lets ground operators sell transfers through the platform. The company is backed by 500 Global.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2313,7 +2313,7 @@
     {
      "name": "Nelo",
      "slug": "nelo",
-     "description": "'Nelo is a Mexican fintech offering consumer credit that lets shoppers buy now and",
+     "description": "Nelo is a Mexican fintech offering consumer credit that lets shoppers buy now and pay later in bi-weekly installments (quincenas). Its mobile app (iOS and Android) provides instant credit approval, an in-app marketplace (Tienda Nelo), bill payment for utilities such as CFE, water, gas and internet, phone recharges, cash withdrawals, and a premium Nelo VIP tier with a physical credit card. Backed by Homebrew, Nelo operates primarily as a consumer mobile product and, as of this enrichment pass, publishes no public developer API, developer portal, or API documentation. Sector: fintech / buy-now-pay-later (BNPL).",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2390,7 +2390,7 @@
     {
      "name": "Pixyalbum",
      "slug": "pixyalbum",
-     "description": "Pixyalbum is a Mexican consumer photo-printing service that turns digital photos",
+     "description": "Pixyalbum is a Mexican consumer photo-printing service that turns digital photos from a mobile device into physical printed products delivered across Mexico. Its catalog includes Fotolibros (soft- and hard-cover photo books of 40-100 pages), Imanes (packs of square photo magnets), and Pixycuadros (photographic prints with optional framing). Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. Pixyalbum is a direct-to-consumer product with no public API, developer portal, or documentation at the time of enrichment; this profile captures its public identity and web properties.",
      "score": 14.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2460,7 +2460,7 @@
     {
      "name": "MIDAS Technologies",
      "slug": "midas-technologies",
-     "description": "'Midas (Midas Technologies / Midas Inc.) is a free consumer cash-rewards",
+     "description": "Midas (Midas Technologies / Midas Inc.) is a free consumer cash-rewards and loyalty app in Mexico, built around the slogan \"Tu efectivo cuenta\" (your cash counts). Shoppers earn points worth up to 5% back when paying at affiliated merchants, where one Midas point equals one Mexican peso and accumulated points can be spent to pay the full total of a bill at participating stores. The app lets users create an account in under three minutes with just a name and phone number, view their points balance, browse promotions and discounts, find nearby affiliated stores on an interactive map, and track a full history of transactions and purchase tickets. Merchants can affiliate their business (\"Afilia tu negocio\") to reward customers. The company is a consumer-facing mobile app and publishes no public developer API, SDK, or API documentation. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment.",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2726,7 +2726,7 @@
     {
      "name": "Laureate Education",
      "slug": "laureate-education",
-     "description": "'Laureate Education, Inc. is a for-profit higher-education network founded",
+     "description": "Laureate Education, Inc. is a for-profit higher-education network founded in 1989 as Sylvan Learning Systems and renamed Laureate Education in May 2004. At its 2017 IPO peak the company operated more than 200 campuses across 28 countries serving over one million students; it became only the third B Corporation to go public when it listed on NASDAQ (ticker: LAUR) on 1 February 2017. Between 2018 and 2021 Laureate executed one of the largest sector-wide divestiture programs in the history of higher education, exiting Brazil (sold to Ânima Holding for ~$765M), the United States (Walden University sold to Adtalem for $1.48B), Australia / New Zealand (sold to Strategic Education), Chile (Universidad Andrés Bello transferred to Fundación Educación y Cultura in September 2020), Spain, Portugal, Morocco, Turkey, Malaysia, China, Italy, Cyprus and the United Kingdom — returning $1.29B to shareholders in October 2021. After the divestiture cycle Laureate continued as a pure-play Mexico / Peru operator with five remaining institutions and approximately 460,000 students. In May 2024 the company was acquired by an investor group led by the International Finance Corporation (IFC, a member of the World Bank Group) and Sterling Capital, taking Laureate Education private and delisting it from NASDAQ. The company is headquartered at 1000 Brickell Avenue, Suite 715, Miami, FL. Laureate does not publish a public developer API, OpenAPI specification, SDK, webhook surface, or status page. There is no Laureate Education GitHub organization. This profile therefore captures the corporate surface — institutions, divestiture history, leadership, investor status, news — rather than a programmable interface. The five remaining campus-network institutions each publish their own consumer-facing websites (UVM, UNITEC in Mexico; UPC, UPN, Cibertec in Peru) but none expose machine-readable APIs documented from the parent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/laureate-education/refs/heads/main/screenshots/laureate-education-2026-06-20T184332.png",
      "score": 12.6,
      "band": "minimal",
@@ -2833,7 +2833,7 @@
     {
      "name": "Syscap",
      "slug": "syscap",
-     "description": "Syscap is a Monterrey-based Mexican financial technology company that provides a private-credit",
+     "description": "Syscap is a Monterrey-based Mexican financial technology company that provides a private-credit and funding-management platform for non-bank financial intermediaries (SOFOMs and financieras). Its software helps loan originators manage funding lines, organize documentation, automate tax compliance, generate amortization tables and electronic signatures, and give funders a 24/7 transparency portal with balance reports and transaction tracking. More than 140 financial institutions across Mexico use Syscap to manage private debt. The company operates a web application and a mobile app; it does not publish a public API, developer portal, or API documentation.",
      "score": 12.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2868,7 +2868,7 @@
     {
      "name": "Clikalia",
      "slug": "clikalia",
-     "description": "'Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that",
+     "description": "Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer, can close a sale within days, then renovates and returns properties to the market in turnkey condition. The company pairs proprietary technology with a large operations team to digitize a historically slow home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain, Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist profile captures its public web, legal, and domain-security surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/screenshots/clikalia-2026-07-25T205624.png",
      "score": 12.3,
      "band": "minimal",
@@ -2904,7 +2904,7 @@
     {
      "name": "Flat",
      "slug": "flat",
-     "description": "'Flat (now operating as Clau) is a Mexican proptech real-estate marketplace",
+     "description": "Flat (now operating as Clau) is a Mexican proptech real-estate marketplace and financial-services platform backed by 500 Global and Anthemis. Clau lets people buy and rent apartments and houses across major Mexican cities including Mexico City, Guadalajara, Monterrey, and Queretaro, and originates mortgage credit (Cofinavit, construction, land-purchase, and liquidity loans). It also offers property valuations, a price-map database, renovation services, and seller listing tools, alongside \"El Living\", its real-estate education blog. The company is consumer-facing and does not currently publish a public developer API; this profile was surfaced from the 500 Global and Anthemis portfolios and enriched with domain-security and identity signals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flat/refs/heads/main/screenshots/flat-2026-07-25T214716.png",
      "score": 12.3,
      "band": "minimal",
@@ -2940,7 +2940,7 @@
     {
      "name": "Habi",
      "slug": "habi",
-     "description": "'Habi is a Colombian real estate technology company (proptech) that operates as a",
+     "description": "Habi is a Colombian real estate technology company (proptech) that operates as a direct home buyer and seller — an iBuyer model where Habi itself purchases apartments in cash, typically within 10 days, rather than acting as a traditional agency. It operates across Bogota, Medellin, Cali, Barranquilla and 20+ Colombian cities and is expanding into Mexico. Products include Habimetro (an online property valuation simulator), property listings and search, Habi Credit (mortgage financing), Habi Inmobiliaria (assisted longer-term sales), and an allied-agent partner network. The company reports 40,000+ families served, 4,000+ allied real estate agents, and 550+ real estate experts. Backed by Homebrew. This profile was added to the API Evangelist network and enriched from Habi's public surface; the company publishes no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/habi/refs/heads/main/screenshots/habi-2026-07-25T220508.png",
      "score": 12.3,
      "band": "minimal",
@@ -2976,7 +2976,7 @@
     {
      "name": "Shopeando",
      "slug": "shopeando",
-     "description": "Shopeando is a Mexican technology and logistics startup that manages the full international",
+     "description": "Shopeando is a Mexican technology and logistics startup that manages the full international shipping process, enabling businesses and individuals to import and export merchandise between China, Europe, the United States and Mexico. Through its platform it coordinates cross-border logistics, customs handling and last-mile delivery, and provides dedicated import, export and e-commerce fulfillment services for online stores. Shopeando is backed by 500 Global.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3011,7 +3011,7 @@
     {
      "name": "Yo Fio",
      "slug": "yo-fio",
-     "description": "YoFio is a Mexican fintech founded in 2019 that provides working-capital",
+     "description": "YoFio is a Mexican fintech founded in 2019 that provides working-capital credit to micro and small businesses, particularly neighborhood corner stores (tienditas). Through a mobile app and web platform it offers revolving credit lines of 7,000 to 200,000 Mexican pesos with up to 14 days of interest-free financing so merchants can restock inventory and pay suppliers. YoFio uses AI-powered machine-vision technology to assess creditworthiness from photos and videos of a store and its inventory, cutting the evaluation process to roughly 15 minutes. It is backed by 500 Global and Oikocredit, and serves thousands of businesses across the Valley of Mexico, Puebla, and Guadalajara. YoFio publishes no public API or developer platform; this profile captures its identity and public web surface.",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3118,7 +3118,7 @@
     {
      "name": "Gloset",
      "slug": "gloset",
-     "description": "Gloset is a Mexican peer-to-peer marketplace for buying and selling pre-owned and new fashion",
+     "description": "Gloset is a Mexican peer-to-peer marketplace for buying and selling pre-owned and new fashion — formal dresses, casual wear, handbags, accessories, footwear, jewelry, watches, sportswear, menswear, and swimwear. The platform offers a seller authentication program, curated collections and trending edits, buyer protection with returns and refunds, and integrated payments and shipping, operating primarily in Mexico. Gloset is backed by 500 Global. As of this profile the company publishes no public developer API, API reference, or technical documentation surface — it is a consumer marketplace web/app product.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gloset/refs/heads/main/screenshots/gloset-2026-07-25T215927.png",
      "score": 11.8,
      "band": "minimal",
@@ -3154,7 +3154,7 @@
     {
      "name": "Mi Dulce Hogar",
      "slug": "mi-dulce-hogar",
-     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services",
+     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3189,7 +3189,7 @@
     {
      "name": "Vioo",
      "slug": "vioo",
-     "description": "Vioo is a Mexican professional visual-content platform that connects businesses",
+     "description": "Vioo is a Mexican professional visual-content platform that connects businesses with a national network of 1,500+ certified photographers and creators across Mexico, delivering photography, videography, drone footage, 3D renders, and Matterport virtual tours. It serves real estate, gastronomy, e-commerce, hospitality, events, and portrait use cases with AI-assisted editing and 48-hour delivery, and offers scheduling either through a personalized form or automatically via an integration API. Surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3457,7 +3457,7 @@
     {
      "name": "Finaccess",
      "slug": "finaccess",
-     "description": "Finaccess Mexico, S.A. de C.V., Sociedad Operadora de Fondos de Inversion, is an independent",
+     "description": "Finaccess Mexico, S.A. de C.V., Sociedad Operadora de Fondos de Inversion, is an independent Mexican investment-fund operator (asset manager) authorized by the CNBV and the SHCP and regulated by Banco de Mexico. Founded in 2000 and headquartered in Mexico City, it is part of Grupo Finaccess and operates under the tagline \"Acceso financiero para todos\" (financial access for everyone). Finaccess manages the AXES family of mutual funds spanning short/medium/long-term local debt (AXES CP, MP, LP), domestic and international equity (AXES BMV, GLO, GSP, USA), dollar-denominated debt (AXES COB), and ESG equity (AXES ESG), and it distributes third-party funds from Franklin Templeton, Santander, and Scotiabank. It provides model portfolios, published rate-of-return tracking, and Morningstar-rated fund evaluation for retail and institutional clients. Finaccess publishes no public developer API; this profile carries company identity and domain-security enrichment only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/finaccess/refs/heads/main/screenshots/finaccess-2026-07-25T214602.png",
      "score": 9.7,
      "band": "minimal",
@@ -3493,7 +3493,7 @@
     {
      "name": "Wishbird Experiences",
      "slug": "wishbird-experiences",
-     "description": "Wishbird Experiences is Mexico's largest online marketplace for gift experiences, offering",
+     "description": "Wishbird Experiences is Mexico's largest online marketplace for gift experiences, offering more than 450 original activities across the country, from adrenaline adventures like skydiving and bungee jumping to spa treatments, gourmet dining, hot-air-balloon and helicopter flights, and weekend getaways. Experiences are sold as gift cards (Wishcards and Wishbox products) redeemable within a twelve-month window, with checkout via credit card, PayPal, and Mercado Pago. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It is a direct-to-consumer e-commerce business and does not currently publish a public developer API, developer portal, or API documentation.",
      "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3528,7 +3528,7 @@
     {
      "name": "The Fit Body Co",
      "slug": "the-fit-body-co",
-     "description": "The Fit Body Co (Fitbody) is a Mexican direct-to-consumer sports nutrition and dietary",
+     "description": "The Fit Body Co (Fitbody) is a Mexican direct-to-consumer sports nutrition and dietary supplements brand selling isolated and hydrolyzed protein powders, creatine, vitamins, and wellness products, along with digital recipe guides, through a Shopify-based online storefront at fitbody.mx. It is a portfolio company of 500 Global. As an e-commerce retail brand it publishes no public developer API, developer portal, SDK, or API documentation; this API Evangelist profile captures its company identity and domain-security posture rather than an API surface.",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3760,7 +3760,7 @@
     {
      "name": "Briko Robotics",
      "slug": "briko",
-     "description": "'Briko Robotics (Briko Robotica) was a Mexican educational technology",
+     "description": "Briko Robotics (Briko Robotica) was a Mexican educational technology startup founded in 2014 in San Luis Potosi, Mexico, that sold a modular programmable electronics kit paired with an online learning platform teaching robotics and programming to children from roughly age eight. The company was accelerated by 500 Startups LatAm (batch 7) and raised a small seed amount. Third-party company databases now classify Briko Robotics as deadpooled, and its former domain brikorobotics.com has been hijacked and serves unrelated SEO spam. No developer portal, documentation, API, or machine-readable specification was ever published, so this profile carries identity and provenance only.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3830,7 +3830,7 @@
     {
      "name": "Gurú de Viaje",
      "slug": "gur-de-viaje",
-     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas",
+     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas de viaje\") that publishes daily cheap-flight promotions and airfare offers so travelers can fly cheaply and see the world. Its Spanish-language consumer website and mobile/push experience surface daily discounted airline tickets and travel promotions, with a focus on departures from Mexican cities such as Guadalajara and Mexico City. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this pass Gurú de Viaje operates a consumer Next.js web property (gurudeviaje.com) and publishes no public developer program, API reference, or machine-readable API specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png",
      "score": 6.8,
      "band": "minimal",
@@ -3866,7 +3866,7 @@
     {
      "name": "Jüsto",
      "slug": "j-sto",
-     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered",
+     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3901,7 +3901,7 @@
     {
      "name": "Niko",
      "slug": "niko",
-     "description": "'Niko (Niko Energy) is a Mexican clean-energy company focused on energy efficiency",
+     "description": "Niko (Niko Energy) is a Mexican clean-energy company focused on energy efficiency for multi-site enterprises. It designs, installs, and finances commercial and residential solar photovoltaic systems and battery storage, wrapping them in embedded financing options that include cash purchase, 12-month interest-free plans, multi-year subscriptions, and power purchase agreements (PPAs). Its Niko Hub dashboard centralizes energy-portfolio management across locations, Niko Care provides 24/7 monitoring and maintenance, and Niko Insurance covers panel hardware. Backed by fintech venture firm QED Investors, Niko pairs solar deployment with consumption analytics and ESG / consolidated reporting. No public developer API, documentation, or specification surface was found on niko.mx as of this enrichment pass.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3936,7 +3936,7 @@
     {
      "name": "Okol",
      "slug": "okol",
-     "description": "Okol operates propiedades.com, an online real estate marketplace serving",
+     "description": "Okol operates propiedades.com, an online real estate marketplace serving Mexico where buyers and renters search residential and commercial property listings and connect with agents, developers, and brokers. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment, the company runs its consumer-facing listings platform on AWS but publishes no public developer API, documentation, or specifications at this time.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4006,7 +4006,7 @@
     {
      "name": "Portal Terreno",
      "slug": "portal-terreno",
-     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\")",
+     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\") in Latin America, operating localized classifieds portals for Chile (portalterreno.cl) and Mexico (portalterreno.com.mx) with tens of thousands of land listings. The Next.js web platform lets buyers search, filter, and contact sellers to find land for sale, while sellers and real-estate agents publish listings. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. No public developer, API, documentation, or well-known discovery surface was found during the enrichment pass; the domain-security posture was probed live.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4041,7 +4041,7 @@
     {
      "name": "Raw Apothecary",
      "slug": "raw-apothecary",
-     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at",
+     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at rawapothecary.mx (Spanish-language, powered-by Shopify), surfaced in the API Evangelist network as a 500 Global portfolio company. As of this enrichment pass the storefront returns \"Tienda no disponible\" (HTTP 402, \"Store Unavailable\"), and the company publishes no public API, developer portal, documentation, or machine-readable specification surface. This profile is retained as a company record; there is no API to enrich beyond a live domain-security probe of the storefront host.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4111,7 +4111,7 @@
     {
      "name": "SeeMexico",
      "slug": "seemexico",
-     "description": "SeeMexico is a B2B corporate travel management platform and business travel agency in Mexico",
+     "description": "SeeMexico is a B2B corporate travel management platform and business travel agency in Mexico that lets companies book flights, hotels, and car rentals from a single platform. It offers corporate rates, business credit, cashback, direct invoicing (facturacion), and a dedicated account executive to streamline managed business travel. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; the public site is a Duda-built marketing site and no public developer portal, API documentation, or programmatic surface was found during enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4146,7 +4146,7 @@
     {
      "name": "Spider Fleet",
      "slug": "spider-fleet",
-     "description": "Spiderfleet (Spider Fleet) is a Mexico-based intelligent fleet-management platform",
+     "description": "Spiderfleet (Spider Fleet) is a Mexico-based intelligent fleet-management platform that helps businesses run and maintain their vehicle fleets. Its public site (spider.com.mx, in Spanish) markets fleet onboarding (\"Flotillas\"), preventive maintenance scheduling (\"mantenimientos\"), and quote requests (\"cotizacion\") for fleet operators, and is backed by 500 Global. As of this enrichment pass the company publishes only a static marketing website with no public API, developer portal, documentation, SDKs, or machine-readable specification; two navigation links (contact and login) return 404 and the site's TLS certificate is expired.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4181,7 +4181,7 @@
     {
      "name": "Yetcargo",
      "slug": "yetcargo",
-     "description": "Yetcargo is a Mexican freight and cargo transportation company that connects",
+     "description": "Yetcargo is a Mexican freight and cargo transportation company that connects businesses needing to move goods with a network of reliable carriers, handling both local and long-distance (foráneo) shipments. Operating a Spanish-language web platform, it positions itself as a trusted cargo-transport provider (\"Tu proveedor confiable de transporte de carga\") for shippers who need to resolve local and out-of-town delivery problems. Yetcargo was surfaced through the 500 Global portfolio and added to the API Evangelist network; as of this enrichment pass it publishes no public API, developer portal, or machine-readable API specification.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4252,7 +4252,7 @@
     {
      "name": "Kalto",
      "slug": "kalto",
-     "description": "'Kalto was a B2B payments and financing platform headquartered in Mexico City, founded in",
+     "description": "Kalto was a B2B payments and financing platform headquartered in Mexico City, founded in 2021 and seed-backed by QED Investors. It offered an all-in-one B2B checkout for merchants, distributors, wholesalers, and marketplaces, accepting bank transfers, credit and debit cards, and cash, with an integrated financing product that let merchants extend net payment terms (15/30/45 days) to their business buyers. In April 2025 Kalto was acquired by Tiendanube (Nuvemshop) to power \"Pago Nube,\" a native embedded checkout and financial-services experience for Tiendanube merchants in Mexico. As of this profile the standalone kalto.la domain no longer resolves to a company site (it redirects to unrelated parked pages) and Kalto publishes no public developer portal, API documentation, or OpenAPI, so there is no live API surface to enrich.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",

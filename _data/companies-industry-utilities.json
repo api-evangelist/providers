@@ -11,7 +11,7 @@
     {
      "name": "Xcel Energy",
      "slug": "xcel-energy",
-     "description": "'Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis,",
+     "description": "Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis, Minnesota, providing service to approximately 3.7 million electricity customers and 2.1 million natural gas customers across eight Midwestern and Western states: Colorado, Minnesota, Texas, New Mexico, North Dakota, South Dakota, Michigan, and Wisconsin. Xcel Energy operates a developer portal at developer-apim.aws.xcelenergy.com that organizes APIs across customer account management, billing, payments, product and service offerings, and request service. The company provides Green Button Connect My Data APIs based on the ESPI (Energy Services Provider Interface) standard developed by NAESB, enabling authorized third-party applications to access customer energy usage data via OAuth 2.0. Xcel Energy also supports IEEE 2030.5 protocol on newer Itron Gen 5 Riva smart meters for direct local-network access to real-time energy data including solar production. Beyond data APIs, Xcel Energy is a Fortune 500 company investing in clean energy, grid modernization, electric vehicle programs, demand response, and renewable energy interconnection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png",
      "score": 45.6,
      "band": "developing",
@@ -1258,7 +1258,7 @@
     {
      "name": "Evergy",
      "slug": "evergy",
-     "description": "'Profile for Evergy in the API Evangelist network. Fortune F1000 (rank 539).'",
+     "description": "Profile for Evergy in the API Evangelist network. Fortune F1000 (rank 539).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/evergy/refs/heads/main/screenshots/evergy-2026-06-20T180906.png",
      "score": 3.9,
      "band": "minimal",
@@ -1294,7 +1294,7 @@
     {
      "name": "Alliant Energy",
      "slug": "alliant-energy",
-     "description": "'Fortune 1000 company Alliant Energy. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Alliant Energy. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliant-energy/refs/heads/main/screenshots/alliant-energy-2026-06-20T171532.png",
      "score": 3.5,
      "band": "minimal",

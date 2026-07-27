@@ -11,7 +11,7 @@
     {
      "name": "Alaska Airlines",
      "slug": "alaska-air",
-     "description": "Alaska Air Group is the parent company of Alaska Airlines and Horizon Air, providing passenger and cargo air",
+     "description": "Alaska Air Group is the parent company of Alaska Airlines and Horizon Air, providing passenger and cargo air transportation throughout the United States, Mexico, Canada, Costa Rica, and Belize. Alaska Airlines offers a developer portal at developers.alaskaair.com for accessing flight status, schedules, and other APIs, and operates Alaska Air Cargo serving 115+ destinations worldwide with dedicated cargo aircraft.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png",
      "score": 54.5,
      "band": "developing",
@@ -47,7 +47,7 @@
     {
      "name": "United Airlines",
      "slug": "united-airlines",
-     "description": "United Airlines is a major American airline headquartered in Chicago,",
+     "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
      "score": 49.7,
      "band": "developing",
@@ -93,7 +93,7 @@
     {
      "name": "Union Pacific",
      "slug": "union-pacific",
-     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states",
+     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
      "score": 44.3,
      "band": "thin",
      "band_label": "Thin",
@@ -164,7 +164,7 @@
     {
      "name": "American Airlines",
      "slug": "american-airlines",
-     "description": "American Airlines is one of the world's largest airlines, operating an",
+     "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
      "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
@@ -199,7 +199,7 @@
     {
      "name": "Southwest Airlines",
      "slug": "southwest-airlines",
-     "description": "Southwest Airlines is one of the world's most profitable airlines and",
+     "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png",
      "score": 37.0,
      "band": "thin",
@@ -353,7 +353,7 @@
     {
      "name": "Alaska Airlines",
      "slug": "alaska-airlines",
-     "description": "'A major American airline headquartered in SeaTac, Washington, operating an extensive domestic network with service across the U.S., Mexico, Canada, and Central America. Known for its customer service and West Coast focus.'",
+     "description": "A major American airline headquartered in SeaTac, Washington, operating an extensive domestic network with service across the U.S., Mexico, Canada, and Central America. Known for its customer service and West Coast focus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-airlines/refs/heads/main/screenshots/alaska-airlines-2026-06-20T171509.png",
      "score": 21.5,
      "band": "emerging",
@@ -864,7 +864,7 @@
     {
      "name": "CSX Corporation",
      "slug": "csx-corporation",
-     "description": "'A leading freight transportation company operating one of the largest rail networks in eastern North America. Moves goods across 23 states and connects to over 70 ocean, river, and lake ports with a focus on efficient and sustainable freight solutions.'",
+     "description": "A leading freight transportation company operating one of the largest rail networks in eastern North America. Moves goods across 23 states and connects to over 70 ocean, river, and lake ports with a focus on efficient and sustainable freight solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx-corporation/refs/heads/main/screenshots/csx-corporation-2026-06-20T175324.png",
      "score": 4.8,
      "band": "minimal",
@@ -900,7 +900,7 @@
     {
      "name": "Schneider National",
      "slug": "schneider-national",
-     "description": "'Profile for Schneider National in the API Evangelist network. Fortune F1000 (rank 571).'",
+     "description": "Profile for Schneider National in the API Evangelist network. Fortune F1000 (rank 571).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/schneider-national/refs/heads/main/screenshots/schneider-national-2026-06-20T193531.png",
      "score": 4.2,
      "band": "minimal",
@@ -936,7 +936,7 @@
     {
      "name": "Spirit Airlines",
      "slug": "spirit-airlines",
-     "description": "'Profile for Spirit Airlines in the API Evangelist network. Fortune F1000 (rank 658).'",
+     "description": "Profile for Spirit Airlines in the API Evangelist network. Fortune F1000 (rank 658).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spirit-airlines/refs/heads/main/screenshots/spirit-airlines-2026-06-20T194321.png",
      "score": 3.5,
      "band": "minimal",

@@ -11,7 +11,7 @@
     {
      "name": "Intuit",
      "slug": "intuit",
-     "description": "Collection of APIs offered by Intuit for financial and business management",
+     "description": "Collection of APIs offered by Intuit for financial and business management services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
      "score": 64.9,
      "band": "strong",
@@ -109,7 +109,7 @@
     {
      "name": "EY",
      "slug": "ey",
-     "description": "'One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.'",
+     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
      "score": 10.7,
      "band": "minimal",

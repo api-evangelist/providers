@@ -695,7 +695,7 @@
     {
      "name": "Opendoor Technologies",
      "slug": "opendoor-technologies",
-     "description": "'Profile for Opendoor Technologies in the API Evangelist network. Fortune F500 (rank 266).'",
+     "description": "Profile for Opendoor Technologies in the API Evangelist network. Fortune F500 (rank 266).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendoor-technologies/refs/heads/main/screenshots/opendoor-technologies-2026-06-20T191000.png",
      "score": 4.2,
      "band": "minimal",
@@ -731,7 +731,7 @@
     {
      "name": "AvalonBay Communities",
      "slug": "avalonbay-communities",
-     "description": "'Profile for AvalonBay Communities in the API Evangelist network. Fortune F1000 (rank 912).'",
+     "description": "Profile for AvalonBay Communities in the API Evangelist network. Fortune F1000 (rank 912).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalonbay-communities/refs/heads/main/screenshots/avalonbay-communities-2026-06-20T172716.png",
      "score": 3.5,
      "band": "minimal",
@@ -767,7 +767,7 @@
     {
      "name": "BrightView Holdings",
      "slug": "brightview-holdings",
-     "description": "'Profile for BrightView Holdings in the API Evangelist network. Fortune F1000 (rank 891).'",
+     "description": "Profile for BrightView Holdings in the API Evangelist network. Fortune F1000 (rank 891).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightview-holdings/refs/heads/main/screenshots/brightview-holdings-2026-06-20T173703.png",
      "score": 3.5,
      "band": "minimal",
@@ -803,7 +803,7 @@
     {
      "name": "Realty Income",
      "slug": "realty-income",
-     "description": "'Fortune 1000 company Realty Income. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Realty Income. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/realty-income/refs/heads/main/screenshots/realty-income-2026-06-20T192651.png",
      "score": 3.5,
      "band": "minimal",

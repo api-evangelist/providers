@@ -11,7 +11,7 @@
     {
      "name": "Doordash",
      "slug": "doordash",
-     "description": "DoorDash is an on-demand local commerce platform whose developer program",
+     "description": "DoorDash is an on-demand local commerce platform whose developer program exposes its logistics and marketplace network through public APIs. The Drive and Drive Classic APIs let businesses request on-demand deliveries fulfilled by DoorDash's Dasher fleet, while the Marketplace, Item Management, and Reporting APIs let merchants and retailers receive orders, synchronize menus and catalogs, and access financial and operational reporting. All APIs use JWT-based authentication and are documented at developer.doordash.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png",
      "score": 62.4,
      "band": "strong",
@@ -93,7 +93,7 @@
     {
      "name": "Uber",
      "slug": "uber",
-     "description": "Uber is a global technology platform offering transportation, food delivery,",
+     "description": "Uber is a global technology platform offering transportation, food delivery, and logistics services. Its developer platform provides APIs for integrating ride requests, food ordering, on-demand delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth 2.0 authentication with scope-based access controls and support both production and sandbox environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
      "score": 56.9,
      "band": "developing",
@@ -129,7 +129,7 @@
     {
      "name": "Grubhub",
      "slug": "grubhub",
-     "description": "Grubhub works with brands, point of sale companies, and online ordering",
+     "description": "Grubhub works with brands, point of sale companies, and online ordering providers to power an ordering experience in Grubhub Marketplace and within restaurant-branded web experiences. This documentation describes the normalized endpoints required for ingesting menu content and facilitating order transmission.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png",
      "score": 48.4,
      "band": "developing",
@@ -175,7 +175,7 @@
     {
      "name": "Instacart",
      "slug": "instacart",
-     "description": "Use the public Instacart APIs to add Instacart shopping capabilities",
+     "description": "Use the public Instacart APIs to add Instacart shopping capabilities to your applications, such as product shopping lists and recipe ingredients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png",
      "score": 40.7,
      "band": "thin",

@@ -140,7 +140,7 @@
     {
      "name": "VoPay",
      "slug": "vopay",
-     "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service",
+     "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.",
      "score": 57.1,
      "band": "developing",
      "band_label": "Developing",
@@ -423,7 +423,7 @@
     {
      "name": "OSFI",
      "slug": "osfi",
-     "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal",
+     "description": "The Office of the Superintendent of Financial Institutions (OSFI / BSIF) is Canada's federal prudential regulator, supervising more than 400 federally regulated financial institutions and over 1,200 private pension plans. On the insurance side OSFI supervises federally regulated life insurance companies, property and casualty insurers, mortgage insurers and fraternal benefit societies for solvency and capital adequacy — issuing the LICAT, MCT and BAAT capital guidelines and collecting the LF1/LF2/LF3, PC1-PC4 and MI1-MI5 regulatory returns. It does NOT regulate market conduct; that sits with the provinces (FSRA in Ontario, AMF in Quebec), and Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance entirely. OSFI publishes no first-party developer portal and no OpenAPI — developer.osfi-bsif.gc.ca, api.osfi-bsif.gc.ca and docs.osfi-bsif.gc.ca do not resolve, and /developers, /api and /developer all return 404. Its real machine-readable surface is its insurance and banking regulatory data (FINDAT) plus the \"Who we regulate\" register, published as datastore-active datasets on Canada's Open Government portal and readable anonymously through the CKAN 3 Action API (datastore_search; the SQL passthrough datastore_search_sql is disabled on the portal) — OSFI ships a step-by-step API usage guide PDF with each dataset. The filing side (the Regulatory Reporting System) is institution-gated behind a Bank of Canada Connect login. Everything else is a documentation-and-rulebook corpus of 313 guidance-library pages and 142 financial reporting instruction pages.",
      "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
@@ -464,7 +464,7 @@
     {
      "name": "Sun Life",
      "slug": "sun-life",
-     "description": "'Sun Life Financial Inc. is a Canadian multinational life and health insurer and asset manager",
+     "description": "Sun Life Financial Inc. is a Canadian multinational life and health insurer and asset manager headquartered in Toronto, one of the \"life trio\" that dominates Canada's insurance market alongside Manulife and Great-West Lifeco. Sun Life writes individual life insurance, individual and group health and dental coverage, group benefits, disability and absence management, annuities and retirement products, and runs a large wealth business through Sun Life Global Investments, SLC Management and MFS Investment Management, with operations across Canada, the United States, the United Kingdom, Ireland and Asia. In the United States it is a leading group benefits, stop-loss and dental carrier and owns DentaQuest. Sun Life publishes no developer portal under its own brand: its only named Sun Life API surface is Sun Life Link, a partner-gated benefits-connectivity program that exchanges evidence of insurability, plan setup, enrollment, billing and absence data with HR and benefits-administration platforms including Workday, ADP, UKG, PlanSource, Employee Navigator and bswift, negotiated per client rather than signed up for. The public, machine-readable APIs in the Sun Life group belong to DentaQuest, its U.S. dental subsidiary, which runs an Azure API Management developer portal at developers.dentaquest.com publishing three OpenAPI 3.0.1 definitions: a SMART-on-FHIR Patient Access API, a Da Vinci PDex Plan-Net Provider Directory API and an anonymous FHIR CapabilityStatement endpoint, all released under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F) and served for both the DentaQuest and Delta Dental of Massachusetts brands. Canada's supervisory split between OSFI and the provincial conduct regulators, and the exclusion of insurance from Consumer-Driven Banking, means no open-insurance mandate creates a forcing function for a public Sun Life API in its home market; the U.S. CMS mandate is what produced the only public one.",
      "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
@@ -807,7 +807,7 @@
     {
      "name": "TMX Group",
      "slug": "tmx-group",
-     "description": "TMX Group operates Canadian capital-markets infrastructure - Toronto",
+     "description": "TMX Group operates Canadian capital-markets infrastructure - Toronto Stock Exchange, TSX Venture Exchange, TSX Alpha, and the Montreal Exchange - and sells market data through its TMX Datalinx arm. Alongside sales-gated real-time broadcast feeds (TL1/TL2, QuantumFeed, MX Order Book Feed) it offers a self-serve TMX Analytics platform (hub.tmxanalytics.com) whose REST Data Science APIs deliver Canadian and US equity daily stats, intraday trade/quote bars, TAQ NBBO tick data, broker analytics, short interest, buybacks, corporate actions and reference data, and Montreal Exchange options and futures analytics, plus cloud/S3 flat-file and notebook delivery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png",
      "score": 43.4,
      "band": "thin",
@@ -975,7 +975,7 @@
     {
      "name": "Flinks",
      "slug": "flinks",
-     "description": "Flinks is a Canadian financial data platform (owned by National Bank",
+     "description": "Flinks is a Canadian financial data platform (owned by National Bank of Canada) that lets businesses connect to consumer and business bank accounts to aggregate account, transaction, and statement data, verify identity, and derive income, credit-risk, and fraud analytics. Access begins with a Flinks Connect authentication session and a multi-step /Authorize (MFA) call, after which banking, enrichment, and analytics endpoints are invoked with the returned RequestId.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
      "score": 38.1,
      "band": "thin",
@@ -1472,7 +1472,7 @@
     {
      "name": "Wealthsimple",
      "slug": "wealthsimple",
-     "description": "'Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014,",
+     "description": "Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014, offering a full suite of consumer financial products: managed investing (Invest), self-directed stock and ETF trading (Trade), cryptocurrency, tax filing (Tax), spending, saving, and cash and card products. It serves more than four million Canadians with roughly CAD $125 billion in assets under administration and reached a CAD $10 billion valuation in its 2025 Series F round. Wealthsimple does not publish an official public developer API or OpenAPI specification; programmatic account access is available only through open-banking aggregators (SnapTrade, Plaid) and community-built unofficial libraries. This profile captures the company's public trust, security, and developer-adjacent surface (security.txt, HackerOne bug bounty, Trust Center, status page, verified GitHub organization).",
      "score": 28.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1880,7 +1880,7 @@
     {
      "name": "KOHO",
      "slug": "koho",
-     "description": "KOHO is a Canadian financial-technology company (neobank) founded in 2014",
+     "description": "KOHO is a Canadian financial-technology company (neobank) founded in 2014 by Daniel Eberhard and headquartered in Vancouver, British Columbia, serving more than 2.5 million Canadians through a mobile-first money app. KOHO is not a chartered bank; it issues a KOHO Mastercard prepaid card through KOHO Financial Inc. and places customer balances in trust with CDIC-member institutions (its longstanding banking partner is Peoples Trust Company), while offering high-interest savings, cash back, credit building, Cover cash advances, and Pay Later. The company is in the final stages of pursuing a federal Schedule I banking licence, which would make it one of Canada's first new federally regulated banks in decades, and in May 2026 it joined the Interac e-Transfer network directly as a Participant under the broadened access for Payment Service Providers. On the open-finance front, KOHO exposes no first-party public developer API or portal; consumer account and transaction data access today is available only through third-party aggregators (Plaid and Flinks), consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework.",
      "score": 24.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2152,7 +2152,7 @@
     {
      "name": "Finaeo",
      "slug": "finaeo",
-     "description": "Finaeo Inc. is a Toronto-based Canadian insurtech operating a digital",
+     "description": "Finaeo Inc. is a Toronto-based Canadian insurtech operating a digital marketplace that connects life insurance carriers, independent brokers and their clients. Its platform gives independent life brokers a product marketplace across carriers and hundreds of products, side-by-side product comparison and quoting, a place-a-policy checkout flow with selected carriers, a white-labeled client portal with digital onboarding and custom Financial Needs Assessments, contact and document management, broker landing pages, and team and distributor white-label offerings. Its home market is Canada, with expansion into the United States through IMO and broker-agency partnerships. Line of business is life insurance distribution — Finaeo is a distribution and agency technology vendor, not a risk carrier. Its API posture is honestly one of absence — Finaeo publishes no public developer portal, no API reference, no downloadable OpenAPI or Swagger, and no SDK. No developer, docs or api subdomain resolves in DNS, and a sweep of 2,840 archived first-party URLs turns up no developer surface at all. Finaeo's own carrier marketing explicitly positions its integration story against APIs, describing a \"no-code toolkit to digitize products, configure applications, and launch custom workflows\" that works \"without the need for bulky APIs.\" The only documented carrier integration is a bilateral, partner-negotiated data handoff (Empire Life Fast & Full Life Application, 2021). Everything else sits behind a broker login or a book-a-demo form, making Finaeo a partner-gated, no-public-API provider.",
      "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2318,7 +2318,7 @@
     {
      "name": "Dialogue",
      "slug": "dialogue",
-     "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness",
+     "description": "Dialogue is a leading Canadian virtual healthcare and employee wellness provider operating an Integrated Health Platform that delivers primary care, mental health support, Employee Assistance Programs (EAP), and wellness programming to members through a single mobile and web application available 24/7/365. The company serves more than 52,000 Canadian organizations — including Sun Life, National Bank of Canada, Via Rail, Lightspeed, and Samsung — connecting employees and their families with multidisciplinary care teams of nurses, physicians, and mental health specialists. Dialogue is a consumer-facing digital health application; it does not currently publish a public developer API or OpenAPI surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialogue/refs/heads/main/screenshots/dialogue-2026-07-25T211910.png",
      "score": 20.7,
      "band": "emerging",
@@ -2528,7 +2528,7 @@
     {
      "name": "Tia Health",
      "slug": "tia-health",
-     "description": "Tia Health is a Canadian telehealth platform that connects patients with",
+     "description": "Tia Health is a Canadian telehealth platform that connects patients with licensed Canadian providers - family doctors, nurse practitioners, specialists, and naturopaths - for on-demand virtual care by phone, video, and secure messaging. Its services span virtual walk-in and family-practice appointments, prescription renewals, sick notes, lab requisitions, and mental health therapy (via partner Focus Mental Wellness), with visits covered by provincial health plans in Ontario (OHIP), British Columbia (MSP), and Alberta (AHCIP) and paid options elsewhere. Tia Health is part of the WELL Health Technologies Corp. clinic network, one of the largest outpatient networks in Canada. As of this review Tia Health is a consumer-facing virtual-care product with no public developer portal, no documented REST/OpenAPI, and no exposed HL7 FHIR CapabilityStatement or SMART-on-FHIR configuration; interoperability in the Canadian market is stewarded federally through Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications, which this platform does not publicly surface.",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3156,7 +3156,7 @@
     {
      "name": "Intact Financial",
      "slug": "intact-financial",
-     "description": "Intact Financial Corporation is the largest provider of property and",
+     "description": "Intact Financial Corporation is the largest provider of property and casualty insurance in Canada, headquartered in Toronto and trading on the TSX as IFC. It underwrites personal auto, personal property, and commercial P&C lines through the Intact Insurance, belairdirect, BrokerLink, Intact Prestige, Intact Public Entities, and On Side Restoration brands in Canada, through Intact Insurance Specialty Solutions in the United States, and through Intact Insurance UK, EU, IE and 123.ie internationally following the 2021 acquisition of RSA. Distribution runs through a network of more than 6,000 independent broker offices plus direct-to-consumer channels. Its API posture is partner-gated and closed. There is no public, self-serve developer portal, no published API reference, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI artifact on any Intact domain probed. developer/developers/docs/api subdomains on intactfc.com and intact.ca do not resolve; /developers, /api, /developer and /partners return 404. The only integration surfaces are login walls — the Intact Portal for brokers at portal.intactinsurance.com (brokers.intact.ca redirects there) and the customer Client Centre behind IBM Security WebSEAL at apps.intactinsurance.com. Broker connectivity in Canada is mediated by CSIO, the industry standards body whose EDI, XML, eDocs and JSON API standards are the Canadian analogue of ACORD. Intact Insurance is listed in the CSIO member directory but appears on none of CSIO's certified-member lists (eDocs, CL Data, Compliance/Z-code, API Security Standards, JSON API Standards) and is recorded as \"Not Yet Rated\" on both the personal and commercial tracks of CSIO's 2026 Standards Certification Ratings. No ACORD reference was found anywhere on the company's public web properties.",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3197,7 +3197,7 @@
     {
      "name": "Zensurance",
      "slug": "zensurance",
-     "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded",
+     "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded in 2016 that sells small-business and freelancer coverage online across every Canadian province, placing risk with Canadian carriers rather than underwriting it. Its book is commercial property and casualty — general and commercial general liability, professional liability and errors and omissions, cyber liability, directors and officers, commercial property, commercial auto, builder's risk, and a long tail of trade- and profession-specific packages — sold through a quote-to-bind web flow marketed as an instant online price with licensed broker support and claims advocacy behind it. It sits in the thin digital-broker layer beneath Canada's Big-Few carrier oligopoly, in a market with no open-insurance mandate — OSFI supervises federally-regulated insurers prudentially while FSRA, the AMF, and the other provincial regulators own market conduct, and Consumer-Driven Banking excludes insurance outright. Its API posture reflects that. Zensurance publishes no public, self-serve developer portal, no reference documentation, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI definition. The company's partnership page advertises \"seamless API integrations and co-branded white-label tools\" for distribution partners, but the only route to that surface is a partnership application form — the integration is partner-gated and privately negotiated. A first-party host at api.zensurance.com answers on the public internet (HTTP 200, returning a bare version string, with a /health endpoint) but it is the undocumented backend for Zensurance's own quoting and policy application, not a published product API. No ACORD, AL3, ACORD XML, NGDS, or agency-management-system integration claim appears anywhere on the company's public web properties. The one machine-addressable surface the company does publish for automated consumers is an llms.txt at www.zensurance.com/llms.txt — a 178KB marketing index of its pages, blog posts, and FAQs (which inadvertently lists its zenstage.wpengine.com staging host rather than the production domain). It describes insurance products for AI assistants; it documents no API.",
      "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3280,7 +3280,7 @@
     {
      "name": "Sonnet Insurance",
      "slug": "sonnet-insurance",
-     "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and",
+     "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and casualty insurer launched in 2016 and a member of the Definity family of companies, underwriting its own auto, home, condo, tenant, landlord and pet policies through Sonnet Insurance Company. It sells auto, home, condo, tenant and landlord coverage in Ontario, Quebec, New Brunswick, Nova Scotia and Prince Edward Island, and home-only coverage in British Columbia and Alberta, positioning itself as \"Canada's original digital-first home and auto insurance company\" with a fully online quote-and-buy flow and licensed agents for support. Sonnet is an explicit direct writer -- its own FAQ states that \"a third party -- even a licensed broker -- cannot purchase a Sonnet policy on your behalf\" -- so it operates no broker or agency distribution channel and therefore no ACORD/AL3 agency-download path. Its API posture is closed -- no developer, developers, docs or api subdomain resolves in DNS, every first-party developer path probed returns HTTP 404, and no OpenAPI, Swagger, GraphQL, Postman collection, webhook catalog or partner technical onboarding surface is published. The only third-party integrations Sonnet describes -- the Kanetix.ca (RATESDOTCA) quote-and-buy partnership and the Sonnet Connect brand referral program -- are privately negotiated commercial arrangements with no public technical documentation. Two machine-readable surfaces do exist and are captured here. Sonnet serves a real llms.txt at www.sonnet.ca/llms.txt that declares per-agent AI-Training, AI-Generation, AI-Summarization and AI-Crawling directives (Allow for OpenAI, Google-DeepMind and Anthropic) alongside a curated reference-content index -- an AI consent signal rather than an API contract. And the secure.sonnet.ca quote-and-buy application is driven by an undocumented first-party REST/JSON surface under /api/v1 covering quoting, binding, policy servicing, payments and identity; it is observable from Sonnet's own public JavaScript bundle but carries no documentation, no specification and no third-party terms of use, so it is recorded as observed evidence, not as an integratable API.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3487,7 +3487,7 @@
     {
      "name": "Bridgewater Bank",
      "slug": "bridgewater-bank",
-     "description": "Bridgewater Bank is a Canadian Schedule I chartered bank, a wholly-owned",
+     "description": "Bridgewater Bank is a Canadian Schedule I chartered bank, a wholly-owned subsidiary of the Alberta Motor Association (AMA), headquartered in Calgary, Alberta and established in 1997. It is a member of the Canada Deposit Insurance Corporation (CDIC) and operates a broker-distributed, deposit-and-lending model rather than a direct-to-consumer retail branch network — residential mortgages, Guaranteed Investment Certificates (GICs), and high-interest savings accounts sold through a select network of trusted mortgage and deposit brokers, with roughly $3.3 billion in mortgages and deposits across approximately 53,000 customer accounts nationwide. Bridgewater Bank exposes NO public first-party developer API or developer portal. Its only dedicated digital surface beyond the corporate site is a partner-gated broker information portal (bwbbrokerinfo.ca). Canada's Consumer-Driven Banking (open-banking) framework is legislated but not yet operational, so any consumer data access from a bank of this size is voluntary and today would be aggregator/screen-scraping based rather than through a documented first-party API. No Interac, Real-Time Rail (RTR), FDX, or consumer-driven-banking API participation is publicly documented by the institution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridgewater-bank/refs/heads/main/screenshots/bridgewater-bank-2026-07-25T203817.png",
      "score": 16.1,
      "band": "emerging",
@@ -3820,7 +3820,7 @@
     {
      "name": "ApplyBoard Inc.",
      "slug": "applyboard-inc",
-     "description": "'ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology",
+     "description": "ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology company that operates one of the world's largest online platforms for international student recruitment. Its marketplace connects prospective students and recruitment partners with more than 1,500 educational institutions across Australia, Canada, Germany, Ireland, the United Kingdom, and the United States, and reports having helped over 1.5 million students apply to 150,000+ programs. Beyond the core application platform, ApplyBoard offers \"360 Solutions\" spanning language-test vouchers, financial services, and student loans, along with ApplyProof (a standalone document-verification service) and ApplyBoard Test Solutions. ApplyBoard does not currently publish a public developer API or developer portal; this profile captures its public web, security, and legal surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/applyboard-inc/refs/heads/main/screenshots/applyboard-inc-2026-07-25T200803.png",
      "score": 15.6,
      "band": "emerging",
@@ -4031,7 +4031,7 @@
     {
      "name": "Dominion Dynamics",
      "slug": "dominion-dynamics",
-     "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,",
+     "description": "Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa, Ontario) building the autonomy stack for the Arctic and other extreme, infrastructure-constrained operating environments. It develops integrated autonomy, edge sensing, communications, and command-and-control systems for defence, security, and critical infrastructure. Its AuraNet platform is a peer-to-peer sensor mesh that fuses EO/IR/SAR imagery, SIGINT/EW/RF signals, telemetry, and structured reporting into a unified local intelligence stream that interoperates with existing allied C2 architectures, and its Aurion product is an open-source government procurement intelligence platform built on Canadian federal open data. Founded by Anduril alum Eliot Pence, the company raised a $139M CAD Series A (2026) led by Georgian. This profile currently has no public developer/API surface; the entry captures the company identity, security.txt, and llms.txt the company publishes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominion-dynamics/refs/heads/main/screenshots/dominion-dynamics-2026-07-25T212245.png",
      "score": 14.9,
      "band": "minimal",
@@ -4149,7 +4149,7 @@
     {
      "name": "Pine",
      "slug": "pine",
-     "description": "'Pine is a Canadian digital-first mortgage lender and real estate brokerage",
+     "description": "Pine is a Canadian digital-first mortgage lender and real estate brokerage (Pine Canada Financial Corporation / Pine Real Estate Brokerage) that makes home buying more accessible for Canadians through an online platform offering low interest rates, fast pre-approvals, and zero hidden fees. Backed by Greylock, Pine pairs mortgage origination with a REALTOR-affiliated brokerage licensed across multiple provinces (ON, AB, SK, NS, NB, NL), and reports more than $2B in mortgages funded and 100,000+ clients served. Pine is a consumer fintech product with no public developer API; its backend at api.pine.ca is a private, authenticated service.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4548,7 +4548,7 @@
     {
      "name": "Prospera Credit Union",
      "slug": "prospera-credit-union",
-     "description": "Prospera Credit Union is a member-owned cooperative financial institution",
+     "description": "Prospera Credit Union is a member-owned cooperative financial institution headquartered in British Columbia, Canada, formed on January 1, 2020 through the merger of the original Prospera Credit Union and Westminster Savings Credit Union — the largest credit-union merger in Canadian history. With roughly CA$9 billion in assets under management, about 120,000 members, and some 900 employees across branches in Metro Vancouver, the Fraser Valley, and the Okanagan, it is the third largest credit union in British Columbia and among the six largest in Canada. As a provincially regulated cooperative (credit unions in BC are overseen by BC Financial Services Authority and deposits are protected by the Credit Union Deposit Insurance Corporation of BC), Prospera serves personal and business members with chequing and savings accounts, credit cards, mortgages, loans, and Interac e-Transfer. On the open-finance side, Prospera runs NO public first-party developer portal or documented API — none of developer/api/developers.prospera.ca resolve — and Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and overseen by the FCAC, is not yet operational. Like most Canadian credit unions, Prospera reaches national payment rails and consumer data-sharing through shared credit-union-system infrastructure rather than a proprietary API, and third-party data access today is aggregator/screen-scraping based (e.g. Flinks, Plaid). This is an honest identity-only profile with no public API surface to catalog.",
      "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4748,7 +4748,7 @@
     {
      "name": "Airborne Entertainment",
      "slug": "airborne-entertainment",
-     "description": "'Airborne Entertainment was a Montreal, Quebec mobile entertainment company",
+     "description": "Airborne Entertainment was a Montreal, Quebec mobile entertainment company founded in 2000 that published and distributed premium mobile content and applications for carrier decks and early smartphones, including games, ringtones, ring-back tones, images, video and informational content, often under licensed consumer brands. The company raised a $22M round in July 2004 with participation from Insight Partners and Verizon, sold a majority stake to Japan's CYBIRD Co., Ltd. in 2005, was taken back by management in a 2008 buy-out, operated afterwards as Airborne Mobile, and was acquired by Bandsintown in October 2010. It no longer operates as an independent company: both airborneentertainment.com and airbornemobile.com are parked domain-sale listings, and the company never published a public developer portal, API, or SDK surface. This profile is retained as an API Evangelist network history record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airborne-entertainment/refs/heads/main/screenshots/airborne-entertainment-2026-07-25T195420.png",
      "score": 8.1,
      "band": "minimal",
@@ -4826,7 +4826,7 @@
     {
      "name": "First West Credit Union",
      "slug": "first-west-credit-union",
-     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is",
+     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is a member-owned Canadian cooperative financial institution headquartered in Langley, British Columbia. Formed in 2010 by the merger of Envision Credit Union and Valley First, and later joined by Island Savings and Enderby & District Financial, it operates those four regional brands over a shared branch network with roughly 291,000 members, about $20.8 billion in total assets, 45 branches, and around 1,300 employees. After members voted in 2021 for federal continuance, it received a federal charter under Canada's Bank Act and became a federal credit union / cooperative bank (CDIC-insured) as of April 1, 2026. On the open-finance front First West / Tru runs no first-party public developer portal and publishes no downloadable OpenAPI or partner API; both developer.firstwestcu.ca and developer.trucooperativebank.ca resolve to nothing (NXDOMAIN). Third-party access to member account data today is aggregator-based (screen-scraping via providers such as Plaid and Flinks), the fragmented and voluntary Canadian norm while the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) remains legislated but not yet operational.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-west-credit-union/refs/heads/main/screenshots/first-west-credit-union-2026-07-25T214610.png",
      "score": 7.7,
      "band": "minimal",
@@ -4910,7 +4910,7 @@
     {
      "name": "WayPay",
      "slug": "waypay",
-     "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered",
+     "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered in Burlington, Ontario, Canada. Its platform let businesses pay any supplier by any method (EFT, cheque, credit card, wire) from a single dashboard, reconciling against accounting and ERP software to automate the accounts-payable workflow. Royal Bank of Canada (RBC) announced its acquisition of WayPay in July 2019, after which the independent brand was retired. As of this enrichment pass the domain waypay.ca resolves via DNS (behind Akamai, enterprise mail) but serves no public site (HTTP 503), and there is no reachable public developer portal, API, or documentation surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5007,7 +5007,7 @@
     {
      "name": "HouseSigma",
      "slug": "housesigma",
-     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate",
+     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page. The subdomains developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The only machine surface is housesigma.com/bkv2/api/, the private backend that powers the web and mobile apps, which the site's own robots.txt explicitly disallows to all crawlers and which publishes no documentation, terms, keys, or versioned contract. RESO is absent. HouseSigma does not appear among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
      "rank": 124
     },
     {

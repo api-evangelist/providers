@@ -105,7 +105,7 @@
     {
      "name": "Amazon",
      "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
      "score": 62.0,
      "band": "strong",
@@ -157,7 +157,7 @@
     {
      "name": "eBay",
      "slug": "ebay",
-     "description": "eBay is a multinational e-commerce corporation that operates a website facilitating consumer-to-consumer and",
+     "description": "eBay is a multinational e-commerce corporation that operates a website facilitating consumer-to-consumer and business-to-consumer sales through its online platform. Users can buy and sell a wide range of products, including electronics, fashion, collectibles, and more, in an auction-style or buy-it-now format. eBay provides a secure and user-friendly platform for sellers to reach a global audience and for buyers to access a vast selection of items.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png",
      "score": 54.8,
      "band": "developing",
@@ -193,7 +193,7 @@
     {
      "name": "Best Buy",
      "slug": "best-buy",
-     "description": "Best Buy is a multinational consumer electronics retailer offering technology",
+     "description": "Best Buy is a multinational consumer electronics retailer offering technology products, services, and solutions through stores, online, and in-home consultations. Best Buy provides a developer API giving access to product data, store locations, categories, recommendations, open box offers, and commerce capabilities for partners and developers building retail integrations and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png",
      "score": 54.6,
      "band": "developing",
@@ -343,7 +343,7 @@
     {
      "name": "Walmart",
      "slug": "walmart",
-     "description": "Walmart is a multinational retail corporation that operates a chain of",
+     "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png",
      "score": 52.4,
      "band": "developing",
@@ -459,7 +459,7 @@
     {
      "name": "IKEA",
      "slug": "ikea",
-     "description": "'A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world''s largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.'",
+     "description": "A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.",
      "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
@@ -530,7 +530,7 @@
     {
      "name": "Home Depot",
      "slug": "home-depot",
-     "description": "The Home Depot is the world's largest home improvement retailer, offering",
+     "description": "The Home Depot is the world's largest home improvement retailer, offering tools, construction products, appliances, and services through stores, websites, and apps in the United States, Canada, and Mexico.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png",
      "score": 31.2,
      "band": "thin",
@@ -647,7 +647,7 @@
     {
      "name": "Chewy",
      "slug": "chewy",
-     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
+     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png",
      "score": 26.5,
      "band": "emerging",
@@ -689,7 +689,7 @@
     {
      "name": "Adidas",
      "slug": "adidas",
-     "description": "'A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world''s largest sportswear brands competing across performance and lifestyle markets.'",
+     "description": "A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world's largest sportswear brands competing across performance and lifestyle markets.",
      "score": 21.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1092,7 +1092,7 @@
     {
      "name": "Inditex",
      "slug": "inditex",
-     "description": "'A Spanish multinational fashion group and the world''s largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.'",
+     "description": "A Spanish multinational fashion group and the world's largest apparel retailer operating brands including Zara, Massimo Dutti, and Pull&Bear. Known for its fast-fashion model with rapid design-to-store turnaround times. No public developer portal or open API catalogue was located on inditex.com.",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1199,7 +1199,7 @@
     {
      "name": "H&M",
      "slug": "hm",
-     "description": "'A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world''s largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.'",
+     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
      "score": 5.9,
      "band": "minimal",
@@ -1235,7 +1235,7 @@
     {
      "name": "TJX Companies",
      "slug": "tjx-companies",
-     "description": "'The leading off-price retailer in the United States and worldwide operating TJ Maxx, Marshalls, HomeGoods, and Sierra. Sources brand-name and designer merchandise at discount prices through an opportunistic buying model.'",
+     "description": "The leading off-price retailer in the United States and worldwide operating TJ Maxx, Marshalls, HomeGoods, and Sierra. Sources brand-name and designer merchandise at discount prices through an opportunistic buying model.",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1306,7 +1306,7 @@
     {
      "name": "Qurate Retail",
      "slug": "qurate-retail",
-     "description": "'Profile for Qurate Retail in the API Evangelist network. Fortune F500 (rank 342).'",
+     "description": "Profile for Qurate Retail in the API Evangelist network. Fortune F500 (rank 342).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qurate-retail/refs/heads/main/screenshots/qurate-retail-2026-06-20T192453.png",
      "score": 3.5,
      "band": "minimal",

@@ -89,7 +89,7 @@
     {
      "name": "State Farm",
      "slug": "state-farm",
-     "description": "State Farm is the largest property and casualty insurance provider in",
+     "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png",
      "score": 50.9,
      "band": "developing",
@@ -255,7 +255,7 @@
     {
      "name": "AIG",
      "slug": "aig",
-     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk",
+     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk solutions including property casualty, cyber, professional liability, casualty, specialty insurance, and reinsurance services for individuals and businesses. AIG operates digital portals for brokers and clients including myAIG for North America brokers and IntelliRisk Advanced for claims management, but does not currently offer a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png",
      "score": 37.9,
      "band": "thin",
@@ -423,7 +423,7 @@
     {
      "name": "Progressive",
      "slug": "progressive",
-     "description": "The Progressive Corporation is one of the largest providers of car insurance",
+     "description": "The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png",
      "score": 30.9,
      "band": "thin",
@@ -683,7 +683,7 @@
     {
      "name": "Allianz",
      "slug": "allianz",
-     "description": "'A German multinational financial services company and one of the world''s largest insurance and asset management firms. Operates in over 70 countries providing insurance, banking, and investment products.'",
+     "description": "A German multinational financial services company and one of the world's largest insurance and asset management firms. Operates in over 70 countries providing insurance, banking, and investment products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allianz/refs/heads/main/screenshots/allianz-2026-06-20T171535.png",
      "score": 23.2,
      "band": "emerging",
@@ -761,7 +761,7 @@
     {
      "name": "Accord",
      "slug": "accord",
-     "description": "'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'",
+     "description": "A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.",
      "score": 20.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -964,7 +964,7 @@
     {
      "name": "GEICO",
      "slug": "geico",
-     "description": "The second-largest private passenger auto insurance company in the United",
+     "description": "The second-largest private passenger auto insurance company in the United States and a subsidiary of Berkshire Hathaway. Known for its direct-to-consumer model, competitive rates, and iconic advertising campaigns. GEICO serves customers through its website, GEICO Mobile app, and call centers rather than through a public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/screenshots/geico-2026-06-20T181721.png",
      "score": 17.0,
      "band": "emerging",
@@ -1225,7 +1225,7 @@
     {
      "name": "Zurich Insurance",
      "slug": "zurich-insurance",
-     "description": "'A Swiss multinational insurance company and one of the world''s largest insurers providing property, casualty, life, and specialty insurance products. Zurich operates a public API platform at exchange.zurich.com (Zurich Exchange / ConnectZ / Zurich Edge) that exposes 30+ internal and external APIs across policy, claims, quoting, partner analytics, procurement, and operations.'",
+     "description": "A Swiss multinational insurance company and one of the world's largest insurers providing property, casualty, life, and specialty insurance products. Zurich operates a public API platform at exchange.zurich.com (Zurich Exchange / ConnectZ / Zurich Edge) that exposes 30+ internal and external APIs across policy, claims, quoting, partner analytics, procurement, and operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zurich-insurance/refs/heads/main/screenshots/zurich-insurance-2026-06-20T202007.png",
      "score": 12.3,
      "band": "minimal",
@@ -1309,7 +1309,7 @@
     {
      "name": "UPMC",
      "slug": "upmc",
-     "description": "'A world-renowned health care provider and insurer headquartered in Pittsburgh, Pennsylvania. One of the largest nonprofit health systems in the United States, operating hospitals, physician practices, and a health insurance division (UPMC Health Plan) serving millions of members. UPMC Health Plan exposes an ONC 21st Century Cures Act Developer API for patient-authorized access to clinical and claims data over HL7 FHIR.'",
+     "description": "A world-renowned health care provider and insurer headquartered in Pittsburgh, Pennsylvania. One of the largest nonprofit health systems in the United States, operating hospitals, physician practices, and a health insurance division (UPMC Health Plan) serving millions of members. UPMC Health Plan exposes an ONC 21st Century Cures Act Developer API for patient-authorized access to clinical and claims data over HL7 FHIR.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/upmc/refs/heads/main/screenshots/upmc-2026-06-20T200522.png",
      "score": 10.6,
      "band": "minimal",
@@ -1435,7 +1435,7 @@
     {
      "name": "Allstate",
      "slug": "allstate",
-     "description": "Allstate is a personal lines insurer in the United States offering auto,",
+     "description": "Allstate is a personal lines insurer in the United States offering auto, home, life, and other insurance products through agents, call centers, and direct channels. The Allstate Developer Portal provides partner APIs for agency management, policy quoting, claims integration, and telematics data exchange for authorized business partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png",
      "score": 9.9,
      "band": "minimal",
@@ -2659,7 +2659,7 @@
     {
      "name": "Equitable Holdings",
      "slug": "equitable-holdings",
-     "description": "'Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Equitable Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-holdings/refs/heads/main/screenshots/equitable-holdings-2026-06-20T180821.png",
      "score": 4.2,
      "band": "minimal",
@@ -2695,7 +2695,7 @@
     {
      "name": "Federated Mutual Insurance",
      "slug": "federated-mutual-insurance",
-     "description": "'Profile for Federated Mutual Insurance in the API Evangelist network. Fortune F1000 (rank 959).'",
+     "description": "Profile for Federated Mutual Insurance in the API Evangelist network. Fortune F1000 (rank 959).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/federated-mutual-insurance/refs/heads/main/screenshots/federated-mutual-insurance-2026-06-20T181143.png",
      "score": 4.2,
      "band": "minimal",
@@ -2802,7 +2802,7 @@
     {
      "name": "NLV Financial",
      "slug": "nlv-financial",
-     "description": "'Profile for NLV Financial in the API Evangelist network. Fortune F1000 (rank 826).'",
+     "description": "Profile for NLV Financial in the API Evangelist network. Fortune F1000 (rank 826).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nlv-financial/refs/heads/main/screenshots/nlv-financial-2026-06-20T190339.png",
      "score": 3.9,
      "band": "minimal",
@@ -2838,7 +2838,7 @@
     {
      "name": "Brighthouse Financial",
      "slug": "brighthouse-financial",
-     "description": "'Profile for Brighthouse Financial in the API Evangelist network. Fortune F500 (rank 448).'",
+     "description": "Profile for Brighthouse Financial in the API Evangelist network. Fortune F500 (rank 448).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brighthouse-financial/refs/heads/main/screenshots/brighthouse-financial-2026-06-20T173700.png",
      "score": 3.5,
      "band": "minimal",
@@ -2874,7 +2874,7 @@
     {
      "name": "Brown AND Brown",
      "slug": "brown-and-brown",
-     "description": "'Fortune 1000 company Brown AND Brown. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Brown AND Brown. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-and-brown/refs/heads/main/screenshots/brown-and-brown-2026-06-20T173724.png",
      "score": 3.5,
      "band": "minimal",
@@ -2910,7 +2910,7 @@
     {
      "name": "Jackson Financial",
      "slug": "jackson-financial",
-     "description": "'Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).'",
+     "description": "Profile for Jackson Financial in the API Evangelist network. Fortune F500 (rank 282).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jackson-financial/refs/heads/main/screenshots/jackson-financial-2026-06-20T183648.png",
      "score": 3.5,
      "band": "minimal",

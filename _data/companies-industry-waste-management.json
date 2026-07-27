@@ -190,7 +190,7 @@
     {
      "name": "Veolia",
      "slug": "veolia",
-     "description": "'A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.'",
+     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
      "score": 5.2,
      "band": "minimal",

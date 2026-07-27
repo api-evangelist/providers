@@ -11,7 +11,7 @@
     {
      "name": "Kaleyra",
      "slug": "kaleyra",
-     "description": "Kaleyra is a global omnichannel CPaaS provider (a Tata Communications",
+     "description": "Kaleyra is a global omnichannel CPaaS provider (a Tata Communications company since October 2023) offering SMS, WhatsApp, RCS, Voice, Email, Verify (OTP), and Video communication APIs. Its REST APIs authenticate with an api-key header, address accounts by SID in the path, and are served from region-specific hosts for India, APAC, and EU data residency.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png",
      "score": 67.3,
      "band": "strong",
@@ -47,7 +47,7 @@
     {
      "name": "Digio",
      "slug": "digio",
-     "description": "Digio is an India-based digital trust and paperwork automation platform.",
+     "description": "Digio is an India-based digital trust and paperwork automation platform. Its REST APIs deliver legally-valid Aadhaar and OTP eSign, eStamping, KYC (CKYC, KRA, DigiLocker, offline Aadhaar, and Video KYC), eNACH/NACH eMandates and UPI Autopay recurring payments, AML/CFT screening, and template-based document and agreement management. All endpoints use HTTPS with HTTP Basic authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png",
      "score": 64.4,
      "band": "strong",
@@ -83,7 +83,7 @@
     {
      "name": "100ms",
      "slug": "100ms-live",
-     "description": "100ms is a live video and audio infrastructure company headquartered",
+     "description": "100ms is a live video and audio infrastructure company headquartered in Bengaluru, India that provides developer SDKs and a REST control plane for embedding video conferencing, interactive live streaming (HLS), RTMP ingest/egress, recording, real-time chat/messaging, polls, whiteboard, and AI-powered transcription into applications. The company was acquired by Disney+ Hotstar (JioCinema/JioHotstar) in 2023 and continues to operate as an independent commercial SaaS — the same infrastructure powering some of the largest live cricket audiences in the world (IPL on JioCinema/Hotstar). The platform exposes a single Server-Side REST API at api.100ms.live/v2 plus client SDKs for Web (JavaScript/React), iOS (Swift), Android (Kotlin), React Native, Flutter, and a Node.js server SDK, with public OpenAPI specs generated from the docs and a Postman collection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png",
      "score": 60.3,
      "band": "strong",
@@ -171,7 +171,7 @@
     {
      "name": "Xflow",
      "slug": "xflow",
-     "description": "Xflow is a cross-border payments platform for Indian businesses, freelancers,",
+     "description": "Xflow is a cross-border payments platform for Indian businesses, freelancers, and exporters, enabling them to receive international payments through local collection accounts (ACH in the US, SEPA in the EU) with one-day INR settlement, transparent FX at mid-market rates, and automated FIRA and compliance reporting. The Xflow REST API exposes accounts, receivables, payment links, deposits, payouts, transfers, balances, exchange rates, and webhook endpoints so platforms and payment aggregators can embed compliant India-bound money movement.",
      "score": 55.5,
      "band": "developing",
      "band_label": "Developing",
@@ -675,7 +675,7 @@
     {
      "name": "Reliance Jio",
      "slug": "reliance-jio",
-     "description": "Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance",
+     "description": "Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, alongside JioFiber broadband, JioAirFiber fixed wireless, IoT connectivity, and an enterprise CPaaS business branded JioCX. Jio sits at the network-operator layer of the telecom value chain and its API posture is split in two. Its BSS/OSS side is unusually standards-forward - Jio was the first communications service provider to reach TM Forum Open API Platinum conformance, with more than twenty certified Open APIs - but those interfaces are internal supplier-integration contracts, not a public developer product. Its network APIs are genuinely live, since Jio launched the CAMARA SIM Swap API alongside Bharti Airtel and Vodafone Idea under GSMA Open Gateway, and Jio is one of the twelve carrier equity owners of Aduna, the Ericsson-led network-API joint venture. There is, however, no first-party Open Gateway developer portal - opengateway.jio.com and developers.opengateway.jio.com do not resolve - so those network APIs are partner-gated and reachable only through the Aduna aggregation channel, the GSMA federated hub, and CPaaS partners rather than directly from Jio. What Jio does publish self-serve is a real developer portal for its SaaS products at dev.jiomeet.com, covering the JioMeet and JioEvents platform REST APIs with JWT and OAuth 2.0 auth and thirty-four public client SDK repositories, plus a set-top-box app developer programme at developer.jio.com. Jio serves no downloadable OpenAPI or Swagger document anywhere across those surfaces, but the dev.jiomeet.com reference is generated by the docusaurus-openapi-docs plugin and its build embeds the real OpenAPI operation objects - method, path, servers, parameters, request bodies, responses and security schemes - which API Evangelist harvested into three OpenAPI 3.0.3 documents covering 29 operations on two previously undocumented hosts, jiomeetpro.jio.com and jioevents.com.",
      "score": 46.1,
      "band": "developing",
      "band_label": "Developing",
@@ -710,7 +710,7 @@
     {
      "name": "Exotel",
      "slug": "exotel",
-     "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS)",
+     "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flow), send SMS, return call and number metadata, and manage campaigns, over region-specific subdomains (api.exotel.com for Singapore, api.in.exotel.com for Mumbai/India) using HTTP Basic auth with an API Key and API Token. Exotel AgentStream adds a documented WebSocket voice-streaming API for real-time voicebots.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
      "score": 45.9,
      "band": "developing",
@@ -756,7 +756,7 @@
     {
      "name": "Leo1",
      "slug": "leo1",
-     "description": "'LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus",
+     "description": "LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus and financial platform for Indian educational institutions. The company issues co-branded student and alumni prepaid cards, collects and reconciles institutional fees, and originates fee-financing (education loan) journeys that convert lump-sum tuition into instalments while giving institutes regularized cash flow. LEO1 exposes the LEO1 Fees SDK — a documented server-to-server and web checkout integration that lets an institute ERP start a fee transaction, embed the hosted checkout, and receive payment-gateway and fee-finance webhook notifications — backed by a public OpenAPI 3.0.2 description covering student, fee-due, fee-collection, payment, NACH/eNACH mandate, refund, penalty, waiver, settlement and institute administration operations. Backed by QED Investors, LEO1 reports partnerships with 31+ institution groups serving over half a million students across India.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png",
      "score": 44.0,
      "band": "thin",
@@ -918,7 +918,7 @@
     {
      "name": "Gupshup",
      "slug": "gupshup",
-     "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered",
+     "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most prominently the WhatsApp Business API (send session and template messages, opt-in management, templates, media, and inbound webhooks) - authenticated with an apikey header and scoped to a registered app. Separate SMS, RCS, and Partner API surfaces are also documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png",
      "score": 38.6,
      "band": "thin",
@@ -996,7 +996,7 @@
     {
      "name": "HyperVerge",
      "slug": "hyperverge",
-     "description": "HyperVerge is an AI-based identity verification and customer onboarding",
+     "description": "HyperVerge is an AI-based identity verification and customer onboarding platform (India-HQ, global) providing document OCR and KYC extraction, face match, passive liveness, government/central database verification, and field matching. Its REST APIs extract and verify Indian identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License), match a selfie against an ID photo, and validate user input against central databases for onboarding, AML, and fraud prevention. APIs are region-hosted (India `ind-*`, plus APAC/other regions) and authenticated with an appId and appKey issued by HyperVerge; enterprise onboarding is required to obtain credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
      "score": 37.9,
      "band": "thin",
@@ -1146,7 +1146,7 @@
     {
      "name": "Juspay",
      "slug": "juspay",
-     "description": "Juspay is an Indian payments orchestration and checkout platform that",
+     "description": "Juspay is an Indian payments orchestration and checkout platform that routes transactions across payment gateways, aggregators, UPI, cards, wallets, and netbanking for merchants, banks, and card networks. Its server-to-server Express Checkout / PG REST APIs create and track orders, process transactions, issue refunds, and manage customers, and pair with the HyperSDK / Hyper Checkout drop-in checkout. APIs authenticate with an API key over HTTP Basic plus a merchant ID header, against a sandbox and a production host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png",
      "score": 36.5,
      "band": "thin",
@@ -1188,7 +1188,7 @@
     {
      "name": "Easebuzz",
      "slug": "easebuzz",
-     "description": "'Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service",
+     "description": "Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service embedded with payments infrastructure for businesses across India. Its products include a payment gateway supporting 150+ payment options (cards, UPI, net banking, wallets, EMI, BNPL), payment links, and in-store POS; collections products such as EasyCollect subscriptions, InstaCollect virtual accounts, Slices payment splitting and FeesBuzz fee collection; Wire payouts over NEFT, RTGS, IMPS and UPI with vendor and tax payments; sub-merchant management for platforms and marketplaces; Easebuzz Neo connected banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official SDKs and e-commerce plugins across web and mobile platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png",
      "score": 36.4,
      "band": "thin",
@@ -1307,7 +1307,7 @@
     {
      "name": "Falcon",
      "slug": "falcon",
-     "description": "'Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance",
+     "description": "Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance and Banking-as-a-Service platform that lets fintechs, banks, and enterprises launch credit and payment products in days rather than months. Its developer-first REST APIs and no-code tooling cover the full issuance and lending lifecycle: issuer and program onboarding, enterprise and user KYC, credit-card issuance (virtual, physical, add-on, co-branded, corporate), accounts and credit limits, transactions, statements, repayments and auto-debit, EMI conversion and amortisation, disputes, rewards, interest, fees, funding, and reconciliations. Falcon holds its own lending and issuance licenses, is built on a modular multi-tenant architecture, and is certified against PCI DSS, ISO 27001:2022, and SOC 2. Product lines include Falcon CardFX (issuance), CreditFX (lending), WalletFX (prepaid/wallets), and SurgeFX (AI growth and portfolio tools).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png",
      "score": 33.4,
      "band": "thin",
@@ -1427,7 +1427,7 @@
     {
      "name": "Flipkart",
      "slug": "flipkart",
-     "description": "'Flipkart is one of India''s largest e-commerce marketplaces, headquartered in Bengaluru",
+     "description": "Flipkart is one of India's largest e-commerce marketplaces, headquartered in Bengaluru and majority-owned by Walmart. For third-party developers and sellers it publishes the Flipkart Marketplace Seller API (v3), an OAuth 2.0 protected REST API hosted at api.flipkart.net that covers listing management, order and shipment management, returns, and report generation, plus an Order Management Notification (webhook) service for order events. Flipkart also runs an affiliate program with its own tooling. This profile captures Flipkart's public developer surface: the seller API, its OAuth authentication and scopes, conventions, lifecycle, and domain security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png",
      "score": 32.3,
      "band": "thin",
@@ -1534,7 +1534,7 @@
     {
      "name": "Kotak Mahindra Bank",
      "slug": "kotak",
-     "description": "'Kotak Mahindra Bank Limited is an Indian private-sector bank headquartered",
+     "description": "Kotak Mahindra Bank Limited is an Indian private-sector bank headquartered in Mumbai, and the first non-banking finance company in India to convert into a full commercial bank. Alongside retail, corporate, and NRI banking it operates the Kotak API Platform (api.kotak.com), an enterprise open-banking developer portal offering a curated stack of corporate banking APIs across six product categories — Account Services (balance enquiry, account statement), Payment Services (24x7 NEFT/RTGS/IFT, CMS bulk payments, corporate IMPS remittance, name enquiry, UPI merchant cashback), Collection Services (UPI web collect and autopay, e-collection virtual accounts, NACH physical/e-mandate/Aadhaar e-mandate, BBPS agent and biller integration, direct debit queryback), Trade Finance (import/export letters of credit, standby LCs, bankers guarantees, collections, inward/outward remittance, shipping guarantee, document upload), Onboarding (application, dedupe, offers, OTP), and Authorization Services (OAuth 2.0 access tokens). The platform is aimed at fintechs, ERP providers, and NBFCs through its Connected Banking partner program, and pairs an integrated sandbox testing environment with per-product documentation and downloadable kits that are released after developer registration and login.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png",
      "score": 31.4,
      "band": "thin",
@@ -1576,7 +1576,7 @@
     {
      "name": "Locus",
      "slug": "locus-sh",
-     "description": "Locus is an AI-powered last-mile and dispatch logistics platform headquartered",
+     "description": "Locus is an AI-powered last-mile and dispatch logistics platform headquartered in Bengaluru, India (with US operations in Wilmington, Delaware) that helps enterprises plan, execute, and orchestrate deliveries across captive, contracted, outsourced, and hybrid fleets. The platform spans transportation management, dispatch planning and route optimization (across 180+ variables including time, distance, fuel, capacity, and SLAs), hub operations, delivery orchestration and carrier management, fulfillment automation, driver app and control tower track-and-trace, and analytics. Locus claims 360+ enterprise customers across 30+ countries — including Unilever, Nestlé, Blue Dart DHL, Meesho, Lenskart, and Justo — with 1.5B+ deliveries optimized and $320M+ in cost savings generated. The company was acquired by Ingka Group (the world's largest IKEA retailer) in 2024 while continuing to operate as an independent product organization. Locus exposes a SwaggerUI developer surface with three OpenAPI 2.0 specifications covering Order Management (oms.locus-api.com), Entity Management (locus-api.com), and Platform Entities (platform.locus-api.com); authentication is via HTTP Basic plus API key, provisioned by a Locus representative.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png",
      "score": 30.0,
      "band": "thin",
@@ -1662,7 +1662,7 @@
     {
      "name": "WIBMO",
      "slug": "wibmo",
-     "description": "'Wibmo is a full-stack PayTech company (acquired by PayU / Naspers in 2019) providing",
+     "description": "Wibmo is a full-stack PayTech company (acquired by PayU / Naspers in 2019) providing payment security, digital payments, and digital financial services to banks, fintechs, and businesses worldwide. Its platforms and products include the Areion Payment Gateway, Token Hub tokenization, Trident FRM fraud risk management, Tridentity identity and multi-factor authentication, the ACCOSA IVS 3-D Secure authentication server, and a white-label digital wallet and prepaid card-issuing platform. The Wibmo developer portal documents Token Hub, Payment Gateway (3-D Secure authentication and authorization), Prepaid card issuance and lifecycle management, Fraud Risk Management, DFS/Wallet, and Android and iOS MFA (Tridentity) SDKs.",
      "score": 28.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2011,7 +2011,7 @@
     {
      "name": "Money View",
      "slug": "money-view",
-     "description": "'Moneyview is an Indian consumer fintech platform offering a suite of",
+     "description": "Moneyview is an Indian consumer fintech platform offering a suite of financial services including personal loans (up to Rs 10L), home loans, business loans, loans against property, credit cards, fixed deposits, digital gold, motor insurance, credit tracking, and UPI payments. The platform reports serving over 12 crore users across 18,400+ pincodes. Moneyview publishes ISO 27001:2022 and PCI DSS certifications and a responsible vulnerability disclosure program, but exposes no public developer API, developer portal, or OpenAPI surface. This profile was surfaced as a portfolio company of Accel and enriched by the API Evangelist pipeline.",
      "score": 22.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2277,7 +2277,7 @@
     {
      "name": "Rupifi",
      "slug": "rupifi",
-     "description": "'Rupifi is an India-based B2B payments and embedded-credit fintech that lets marketplaces,",
+     "description": "Rupifi is an India-based B2B payments and embedded-credit fintech that lets marketplaces, distributors, and brands offer their SME and retailer buyers a line of credit and Buy Now, Pay Later (BNPL) at checkout, with flexible 15/30/45/60/90-day repayment terms. Its platform connects three parties — anchors (brands/platforms), merchants (borrowers/retailers), and lenders — through digital onboarding, real-time credit assessment, and embedded B2B checkout. Products include B2B Credit (line of credit) and B2B Checkout, integrated by partners via the Rupifi developer portal and BNPL API.",
      "score": 20.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2348,7 +2348,7 @@
     {
      "name": "Lentra",
      "slug": "lentra",
-     "description": "'Lentra is a Pune, India based cloud-native digital lending platform for banks and",
+     "description": "Lentra is a Pune, India based cloud-native digital lending platform for banks and non-banking financial companies. Built on a microservices architecture with customisable customer journeys, the platform spans loan origination (GoNoGo), loan management (1LMS), data and machine learning operations (Lentra MLOps), and data transfer (TransferX), alongside standalone modules for MultiBureau credit bureau access, identity and video KYC verification, collateral management, document management, co-lending and bank reconciliation. Lentra packages these into pre-built retail, business and agriculture lending journeys - home, personal, education, vehicle, consumer durable and credit card loans, equipment finance, working capital, supply chain finance and agri/KCC lending - delivered SaaS on a per-user or per-transaction basis to institutions including HDFC Bank, State Bank of India, IDFC and TVS Credit. The company is an Open Credit Enablement Network (OCEN) participant and maintains a public trust center covering SOC 2 Type II, SOC 3, ISO 27001:2022, ISO 27017, ISO 27018, ISO 27701, ISO 22301:2019 and CSA STAR. Lentra sells to enterprises directly; it does not operate a public self-service developer portal or publish an open API reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lentra/refs/heads/main/screenshots/lentra-2026-07-25T224920.png",
      "score": 20.2,
      "band": "emerging",
@@ -2425,7 +2425,7 @@
     {
      "name": "BestDoc",
      "slug": "bestdoc",
-     "description": "'BestDoc is a healthcare patient-relationship-management (PRM) company",
+     "description": "BestDoc is a healthcare patient-relationship-management (PRM) company that helps hospitals improve the patient experience across inpatient and outpatient care. Its platform includes BestDoc Concierge for inpatient experience management (non-clinical requests, room food ordering, discharge management), BestDoc Practice for outpatient patient-request management, BestDoc Survey for omni-channel patient feedback, an AI Reply Assistant for automated review responses, and continued-care engagement tools. BestDoc integrates with hospital information systems (HIS), EMRs, and payment gateways. BestDoc Technology Pvt. Ltd. is an ISO 27001:2013 certified company operating from Kochi, Bangalore, and Dubai. Surfaced as a portfolio company of Accel and added to the API Evangelist network. No public developer API is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bestdoc/refs/heads/main/screenshots/bestdoc-2026-07-25T202757.png",
      "score": 19.6,
      "band": "emerging",
@@ -2467,7 +2467,7 @@
     {
      "name": "Dabba",
      "slug": "dabba",
-     "description": "'Dabba (Wifi Dabba) is a Web3-powered decentralized physical infrastructure",
+     "description": "Dabba (Wifi Dabba) is a Web3-powered decentralized physical infrastructure network (DePIN) that brings affordable internet connectivity to emerging markets, starting in India. It deploys low-cost Dabba Lite WiFi hotspots through a network of local cable operators (LCOs) and rewards hotspot owners, location owners, backhaul providers, and hardware manufacturers with DBT tokens as data is consumed. Network activity — NFTs, subscriber revenue, and bandwidth usage — is reported onchain, and the token flows through a mint, buyback, and burn model. Surfaced as a Multicoin Capital portfolio company; profiled here from public developer, documentation, and onchain surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dabba/refs/heads/main/screenshots/dabba-2026-07-25T211118.png",
      "score": 19.4,
      "band": "emerging",
@@ -2503,7 +2503,7 @@
     {
      "name": "Leap To Win Technologies Private",
      "slug": "leap-to-win-technologies-private",
-     "description": "'Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated",
+     "description": "Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated on 26 June 2024 (CIN U62090KA2024PTC190203) that operates Propico (propico.in), a rental guarantee and property management service. For property owners Propico underwrites a fixed guaranteed monthly rent with zero-vacancy risk, handling tenant screening and placement, rent collection, inspections, maintenance coordination and legal compliance; for tenants it sells rental protection plans covering unfair security-deposit deductions and surprise move-out costs. The company markets two packages - a Premium Guaranteed plan and a Standard property-management plan - and serves Bangalore, Hyderabad, Mumbai, Delhi NCR and Pune. Propico runs a marketing and customer web app backed by an authenticated multi-service API gateway at api.propico.in, but publishes no public developer portal, API documentation, SDKs or OpenAPI definition. It does publish a well-formed llms.txt, making it agent-discoverable as a content surface even though it exposes no programmable interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png",
      "score": 19.3,
      "band": "emerging",
@@ -2545,7 +2545,7 @@
     {
      "name": "Jify",
      "slug": "jify",
-     "description": "'Jify is an India-based financial wellness platform (part of the Moneyview group) that partners",
+     "description": "Jify is an India-based financial wellness platform (part of the Moneyview group) that partners with employers to give employees earned wage access: its On-Demand Salary lets workers draw already-earned pay before payday. Beyond earned wage access it offers salary advances, a rewards and discount marketplace, micro-savings, digital gold investing, credit-score tracking, smart tax tools, and a money manager for budgeting and expense tracking, delivered through Android and iOS apps. Jify is a consumer / B2B2C fintech app and does not currently publish a public developer API; this profile tracks its identity, domain-security posture, and published compliance claims (ISO 27001, CISA-certified, independently tested by Appknox).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jify/refs/heads/main/screenshots/jify-2026-07-25T223150.png",
      "score": 19.2,
      "band": "emerging",
@@ -2587,7 +2587,7 @@
     {
      "name": "Cult.fit",
      "slug": "cultfit",
-     "description": "'Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian",
+     "description": "Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian health and fitness company offering a connected consumer experience across group fitness classes, gyms, at-home workouts, mental well-being and meditation, healthy food, and diagnostics. Its flagship products include CultPass gym and class memberships, sport and fitness centers, live and on-demand digital workouts, and the cult.fit and cure.fit mobile and web apps. Backed by Accel and other investors, the company operates a large consumer platform but does not publish a public developer API program; this API Evangelist profile captures its company identity, corporate web properties, and engineering surface (the curefit GitHub organization and engineering blog).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/screenshots/cultfit-2026-07-25T210923.png",
      "score": 18.7,
      "band": "emerging",
@@ -2713,7 +2713,7 @@
     {
      "name": "QwikCilver",
      "slug": "qwikcilver",
-     "description": "'QwikCilver is India''s largest gift card and prepaid commerce company, founded in 2006 and",
+     "description": "QwikCilver is India's largest gift card and prepaid commerce company, founded in 2006 and acquired by Pine Labs in 2019. It powers gift card issuance, distribution, and redemption for retailers, banks, and enterprises, and operates the consumer and corporate gifting marketplace Woohoo (woohoo.in), which sells digital and physical gift cards from 300+ brands. Its API platform (hosted on woohoo.in) lets partners programmatically browse catalogs, place bulk gift card orders, activate and redeem cards, check balances, and run reward, incentive, and channel-engagement programs. QwikCilver is an Accel portfolio company in the consumer / fintech sector.",
      "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2830,7 +2830,7 @@
     {
      "name": "Truemeds",
      "slug": "truemeds",
-     "description": "'Truemeds is an India-based online pharmacy and digital healthcare platform",
+     "description": "Truemeds is an India-based online pharmacy and digital healthcare platform operated by Intellihealth Solutions that lets consumers order branded and generic prescription and over-the-counter medicines for home delivery across India, typically positioned around savings on genuine medicines, free teleconsultation with doctors, and substitute-medicine recommendations. It runs a consumer web and mobile app experience (order medicines, upload prescriptions, health blog, help center) rather than a public developer API program; no public API documentation, developer portal, OpenAPI, or partner API surface was found during enrichment. Backed by Accel and other investors, it was added to the API Evangelist network as a company profile.",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2912,7 +2912,7 @@
     {
      "name": "Uni",
      "slug": "uni",
-     "description": "Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta,",
+     "description": "Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta, Prateek Jindal, and Laxmikant Vyas that delivers clutter-breaking credit products to consumers in India, including pay-later style credit cards and flexible repayment products. Uni is backed by Lightspeed Venture Partners and General Catalyst. The company is a consumer-facing app-first business and does not currently publish a public developer portal or API surface.",
      "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2953,7 +2953,7 @@
     {
      "name": "Indifi",
      "slug": "indifi",
-     "description": "'Indifi Technologies Pvt. Ltd. is an Indian digital lending platform that provides",
+     "description": "Indifi Technologies Pvt. Ltd. is an Indian digital lending platform that provides collateral-free business loans to micro, small, and medium enterprises (MSMEs). Founded in Gurugram, Indifi originates and underwrites term loans, working-capital lines of credit, unsecured lines of credit, invoice discounting, and merchant cash advances (against POS transaction history), funding them through a network of 15+ RBI-regulated NBFCs and banks as well as its own NBFC, Indifi Capital Pvt. Ltd. (RBI Cert. No. B-14.03389). Loans range up to INR 50 lakhs with tenures up to 36 months and rates from 1.5% per month, assessed largely on business cash-flow, GST, and platform transaction data rather than traditional collateral. Indifi works through industry partnerships with e-commerce marketplaces and sector aggregators and through co-lending/DSA lending partners; it does not currently publish a public developer API or portal. Backed by Accel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/indifi/refs/heads/main/screenshots/indifi-2026-07-25T222318.png",
      "score": 17.7,
      "band": "emerging",
@@ -2989,7 +2989,7 @@
     {
      "name": "Ferra",
      "slug": "ferra",
-     "description": "'Ferra is a smart home strength-training system for adults aged 50 and over,",
+     "description": "Ferra is a smart home strength-training system for adults aged 50 and over, built by Aroleap Fitness Private Limited in Bengaluru, India. It pairs a compact wall-mounted adaptive-resistance machine with a mobile app that queues a short guided daily workout of seven functional movements, adapts the weight in real time, tracks progress, and lets users share achievements with family. The service is sold as a no-lock-in monthly subscription (Individual, Duo, and Family tiers) billed through UPI auto-debit. Ferra is a consumer product with no public developer platform or API; this profile captures its identity and public web properties for the API Evangelist network. Backed by Prosus Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ferra/refs/heads/main/screenshots/ferra-2026-07-25T214345.png",
      "score": 17.2,
      "band": "emerging",
@@ -3031,7 +3031,7 @@
     {
      "name": "Onecard",
      "slug": "onecard",
-     "description": "'OneCard is a mobile-first metal credit card from India''s FPL Technologies, a fintech",
+     "description": "OneCard is a mobile-first metal credit card from India's FPL Technologies, a fintech unicorn that reimagines credit and payments with full-stack, in-house technology. OneCard is issued in partnership with banks including Bank of Baroda, CSB Bank, Federal Bank, SBM Bank, South Indian Bank and Indian Bank, and emphasizes simplicity, transparency and giving control back to the user. FPL Technologies also operates OneScore (credit-score monitoring) and Wizely (savings). Backed by QED Investors, OneCard is a consumer-facing product; as of this profile it publishes no public developer API, developer portal, or API documentation surface.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3072,7 +3072,7 @@
     {
      "name": "PB Health",
      "slug": "pb-health",
-     "description": "PB Health (PB Healthcare Service Pvt Ltd) is an India-based consumer healthcare",
+     "description": "PB Health (PB Healthcare Service Pvt Ltd) is an India-based consumer healthcare network offering end-to-end care through a single app - online doctor consultations, hospital visits and admissions, lab tests and radiology scans, medicine ordering, diabetes and obesity management, preventive health packages, and structured home care and recovery. The platform spans top specialities including cardiology, gastroenterology, orthopaedics, pulmonology, internal medicine, gynaecology, ENT, paediatrics, and minimal-access and bariatric surgery, and helps families coordinate their complete health and insurance journey. PB Health is a consumer mobile application (iOS and Android) and website; it does not publish a public developer API, developer portal, or API documentation.",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3148,7 +3148,7 @@
     {
      "name": "IndusInd Bank",
      "slug": "indusind",
-     "description": "'IndusInd Bank Limited is a new-generation Indian private-sector bank, established in April",
+     "description": "IndusInd Bank Limited is a new-generation Indian private-sector bank, established in April 1994 and headquartered in Mumbai, offering commercial, retail, and electronic banking across accounts, deposits, cards, loans, investments, and insurance for personal, NRI, business, and corporate customers. The bank operates a public developer portal at sandbox.indusind.com that publishes REST APIs for core banking, cards, deposits, and account services (for example Finacle FD Servicing, DCMS Card Inquiry on CIF, CBS Enquiry, Digital Account Balance Inquiry, and debit transaction APIs), each with an interactive Try console after registration. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched with its real developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/indusind/refs/heads/main/screenshots/indusind-2026-07-25T222351.png",
      "score": 16.9,
      "band": "emerging",
@@ -3190,7 +3190,7 @@
     {
      "name": "Motilal Oswal",
      "slug": "motilal-oswal",
-     "description": "'Motilal Oswal Financial Services Limited (MOFSL) is a diversified Indian",
+     "description": "Motilal Oswal Financial Services Limited (MOFSL) is a diversified Indian financial services company offering equity and derivatives broking, wealth management, asset management, mutual funds, IPO access, investment banking, private equity, and home finance. Surfaced as a portfolio company of bessemer-venture-partners and profiled in the API Evangelist network. The public surface is a consumer/corporate investing website built on Adobe Experience Manager Edge Delivery Services; no public developer API or OpenAPI is published (algorithmic/partner trading access sits behind a partner login).",
      "score": 16.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3314,7 +3314,7 @@
     {
      "name": "Game Theory",
      "slug": "game-theory",
-     "description": "Game Theory is a Bengaluru-based recreational sports and fitness membership",
+     "description": "Game Theory is a Bengaluru-based recreational sports and fitness membership platform operating 25+ centers across the city. Its consumer mobile app offers unlimited multi-sport coaching for kids and All Access adult memberships spanning 8+ sports — swimming, badminton, basketball, football, pickleball, squash, and table tennis — alongside pay-per-use slot booking, live game feeds, and corporate wellness programs. A Techstars-backed company, Game Theory publishes no public developer API, SDK, or documentation surface; this profile is maintained in the API Evangelist network as a company record awaiting any future developer platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/game-theory/refs/heads/main/screenshots/game-theory-2026-07-25T215409.png",
      "score": 16.6,
      "band": "emerging",
@@ -3622,7 +3622,7 @@
     {
      "name": "Deep Rooted",
      "slug": "deep-rooted",
-     "description": "'Deep Rooted.Co is a direct-to-consumer fresh produce brand operated by Clover",
+     "description": "Deep Rooted.Co is a direct-to-consumer fresh produce brand operated by Clover Ventures Pvt. Ltd, a Bengaluru-based agritech company founded in 2018 that launched the Deep Rooted consumer brand in 2020. The company works with a network of small-scale farmers using greenhouse and hydroponic techniques within roughly 150km of Bengaluru and Hyderabad, providing agronomy support from seed to harvest and delivering fruits, vegetables, Indian staples and greens, exotic produce and an easy-cook range direct to households the morning after ordering. Deep Rooted is backed by Accel. It sells through a consumer web storefront and mobile apps; it publishes no public developer portal, API documentation, or machine-readable API specification, so this profile captures company identity and web properties only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deep-rooted/refs/heads/main/screenshots/deep-rooted-2026-07-25T211542.png",
      "score": 15.6,
      "band": "emerging",
@@ -3693,7 +3693,7 @@
     {
      "name": "axiTrust",
      "slug": "axitrust",
-     "description": "'axiTrust is a technology and consulting platform for the Indian surety-bond",
+     "description": "axiTrust is a technology and consulting platform for the Indian surety-bond market, connecting IRDAI-licensed insurers, MSMEs, and government procurement bodies. Its platform unifies application processing, underwriting checks, and insurance surety bond issuance, with dashboards for tracking bonds, partners, and claims, plus integrations to financial, legal, banking, and ROC data sources. axiTrust also offers consulting services including discovery workshops, economic analysis comparing sureties to bank guarantees, and adoption support for enterprises and government departments. It is not an insurer or broker; all insurance surety bonds are issued by IRDAI-licensed insurance companies. axiTrust is a fintech backed by General Catalyst.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/screenshots/axitrust-2026-07-25T202058.png",
      "score": 15.0,
      "band": "emerging",
@@ -3735,7 +3735,7 @@
     {
      "name": "Coverfox",
      "slug": "coverfox",
-     "description": "'Coverfox is one of India''s largest online insurance distribution platforms,",
+     "description": "Coverfox is one of India's largest online insurance distribution platforms, offering retail insurance products including car, bike, health, and life insurance alongside embedded insurance solutions for lenders, NBFCs, and fintechs. The company partners with 37+ IRDAI-approved insurers to compare, purchase, and manage policies online, and has reached roughly 10 million households across India. Coverfox was backed by Accel and added to the API Evangelist network as a company profile; it publishes no public developer program or API at this time.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3776,7 +3776,7 @@
     {
      "name": "Edme Insurance Brokers",
      "slug": "edmeinsurance",
-     "description": "'Edme Insurance Brokers Ltd (formerly Aditya Birla Insurance Brokers, ABIBL) is an",
+     "description": "Edme Insurance Brokers Ltd (formerly Aditya Birla Insurance Brokers, ABIBL) is an India-based composite insurance broker offering corporate, retail, and reinsurance solutions across 30+ industries including aviation, marine, energy, manufacturing, pharmaceuticals, technology, and the BFSI and FMCG sectors. The company provides tailored risk management, employee benefits, and claims advisory services, backed by digital customer portals for policy and claims management and employee benefits. Edme is a portfolio company of Norwest Venture Partners. This is a company profile in the API Evangelist network; Edme publishes no public developer program or API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edmeinsurance/refs/heads/main/screenshots/edmeinsurance-2026-07-25T212856.png",
      "score": 15.0,
      "band": "emerging",
@@ -3818,7 +3818,7 @@
     {
      "name": "Fundly",
      "slug": "fundly",
-     "description": "'Fundly is a Mumbai-based fintech platform purpose-built for India''s pharmaceutical",
+     "description": "Fundly is a Mumbai-based fintech platform purpose-built for India's pharmaceutical retail supply chain, offering embedded credit, B2B commerce, and payment solutions to pharma retailers and distributors. Its lending product provides unsecured working capital with interest charged only for the period funds are actually drawn, alongside B2B commerce tooling and payment rails tailored to the cash-flow cycles of the pharma industry. Backed by Accel, Fundly distributes primarily through native iOS and Android apps and works with RBI-regulated lending partners. No public API, developer portal, or technical documentation is currently published; this profile tracks the company for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundly/refs/heads/main/screenshots/fundly-2026-07-25T215321.png",
      "score": 15.0,
      "band": "emerging",
@@ -3860,7 +3860,7 @@
     {
      "name": "MediBuddy (fka DocsApp)",
      "slug": "medibuddy-fka-docsapp",
-     "description": "'MediBuddy (formerly DocsApp) is India''s largest digital healthcare platform,",
+     "description": "MediBuddy (formerly DocsApp) is India's largest digital healthcare platform, operated by Phasorz Technologies Private Limited and founded in 2013 by Satish Kannan and Enbasekar Dinadayalane. Launched as DocsApp in 2015 for online doctor consultations, it merged with and rebranded to MediBuddy in June 2020. The consumer platform delivers teleconsultations (chat, video, voice) across 20+ specialties, at-home lab-test bookings, online medicine delivery covering 95%+ of Indian pin codes, and health checks. It is backed by Bessemer Venture Partners, Quadria Capital and Rebright Partners. No public developer / API program was found; product access is via the consumer web and mobile apps.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3942,7 +3942,7 @@
     {
      "name": "Pluro",
      "slug": "pluro",
-     "description": "'Pluro is India''s fertility and IVF platform, built as a co-creation",
+     "description": "Pluro is India's fertility and IVF platform, built as a co-creation model with doctors for patients. It delivers personalised, evidence-based reproductive care through a growing network of 15+ clinics across India, combining advanced clinical science, AI-assisted embryology, standardised treatment protocols, and transparent pricing. Founded by Dr. Bhaskar Shah, Dr. Jaydeep Tank, and Dr. Parikshit Tank, Pluro raised a Rs 125 crore Series A led by Bessemer Venture Partners in 2025. It offers IVF/ICSI, IUI, ovulation induction, and a range of diagnostic and surgical fertility treatments. Pluro publishes an llms.txt for AI agents but exposes no public developer API.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3983,7 +3983,7 @@
     {
      "name": "Policybazaar",
      "slug": "policybazaar",
-     "description": "'Policybazaar is India''s largest online insurance aggregator and digital",
+     "description": "Policybazaar is India's largest online insurance aggregator and digital marketplace, operated by PB Fintech Ltd. It lets consumers compare, buy and manage insurance across health, term life, motor, travel, investment and corporate lines from a wide panel of insurers, providing quotes, policy issuance, renewals, claims assistance and advisory. Surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network. As of this enrichment pass Policybazaar publishes a consumer-facing web and mobile marketplace but no public developer portal, API documentation, or machine-readable API surface (no developer/API subdomain, no /.well-known documents, no llms.txt).",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4024,7 +4024,7 @@
     {
      "name": "Shriram Finance",
      "slug": "shriramfinance",
-     "description": "'Shriram Finance Limited is one of India''s largest retail non-banking",
+     "description": "Shriram Finance Limited is one of India's largest retail non-banking financial companies (NBFC), with roughly Rs 3.02 lakh crore in assets under management and 3,225 branches nationwide. It offers commercial-vehicle, two-wheeler, used-car, personal, business and gold loans, fixed deposits and fixed investment plans, general and life insurance distribution, Bharat BillPay (BBPS) bill payments, and UPI through its Shriram One app. The company runs consumer web and mobile products but publishes no public developer API, developer portal, or OpenAPI specification; a partner portal and a lending-service-provider program serve authorized business partners only.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4065,7 +4065,7 @@
     {
      "name": "Sukino",
      "slug": "sukino",
-     "description": "'Sukino Healthcare is a Bangalore, India-based continuum-of-care provider",
+     "description": "Sukino Healthcare is a Bangalore, India-based continuum-of-care provider specializing in post-hospitalization recovery, rehabilitation, and transitional care for seniors and patients with chronic and neurological conditions. Founded by Rajinish Menon, it operates in-patient continuum care centers alongside home healthcare services, covering neuro, stroke, and knee-replacement rehabilitation, transitional care, and palliative care. Surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network, Sukino is a healthcare services operator and publishes no public API, developer portal, or machine-readable specification at this time; this profile captures its identity and web presence for network discovery.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4106,7 +4106,7 @@
     {
      "name": "Zopper",
      "slug": "zopper",
-     "description": "'Zopper is an Indian insurtech platform that combines insurance and technology",
+     "description": "Zopper is an Indian insurtech platform that combines insurance and technology to deliver end-to-end, embedded insurance distribution for its partners. It builds APIs that let banks, consumer-electronics brands, retailers, e-commerce, travel and fintech platforms embed insurance into their customer journeys, and it manages policy issuance, servicing, claims and compliance across consumer-durables protection, life, health, bancassurance and embedded insurance. Zopper serves 2,500+ brands including Bank of Baroda, Axis Bank, IDFC First Bank, Apple, Samsung, Croma and Vijay Sales, and is backed by Bessemer Venture Partners.",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4156,7 +4156,7 @@
     {
      "name": "Jiraaf",
      "slug": "jiraaf",
-     "description": "'Jiraaf (Jiraaf Platform Private Limited, Bangalore, India) is an online",
+     "description": "Jiraaf (Jiraaf Platform Private Limited, Bangalore, India) is an online fixed-income investment platform that lets retail investors discover, analyze, and invest in listed and secured bonds. Its curated product shelf spans listed corporate bonds, sovereign gold bonds, treasury bills, G-Secs and State Development Loans (SDLs), securitized debt instruments (SDIs), and fixed deposits, each surfaced with transparent yields, credit ratings, and a documented credit-evaluation process. Alongside the investing surface it publishes research reports, a bond analyser, a bond directory, a glossary, calculators, and educational content (Bond Gurukul webinars, blogs, and newsletters). Backed by Accel. Jiraaf is a consumer-facing web and mobile investing product and does not publish a public developer API; this profile captures its identity and public web properties for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiraaf/refs/heads/main/screenshots/jiraaf-2026-07-25T223208.png",
      "score": 14.9,
      "band": "minimal",
@@ -4192,7 +4192,7 @@
     {
      "name": "Oxyzo",
      "slug": "oxyzo",
-     "description": "'Oxyzo Financial Services is an RBI-registered Non-Banking Financial Company (NBFC)",
+     "description": "Oxyzo Financial Services is an RBI-registered Non-Banking Financial Company (NBFC) providing customized SME and corporate financing across India. Founded as the lending arm of the OfBusiness group, Oxyzo offers purchase finance, work order finance, invoice discounting, vendor finance, business loans, machinery finance, and loan against property, serving industries such as auto manufacturing, capital goods, e-mobility, logistics, pharmaceuticals, and textiles. The company operates 145+ branches, has powered 10,000+ businesses, disbursed over Rs 77,000 crore, and holds A+ ratings from CRISIL and ICRA. Oxyzo publishes no public developer/API surface; this profile captures its identity and domain-security posture for the API Evangelist network.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4227,7 +4227,7 @@
     {
      "name": "Vridhi Home Finance",
      "slug": "vridhihomefinance",
-     "description": "'Vridhi Home Finance (Vridhi Finserv Home Finance Limited) is an affordable",
+     "description": "Vridhi Home Finance (Vridhi Finserv Home Finance Limited) is an affordable housing finance company (HFC) headquartered in Bengaluru, India, founded in 2022. Operating as a tech-enabled brick-and-mortar lender across tier-2 and tier-3 cities, it provides home purchase loans, home construction loans, plot-and-construction loans, balance-transfer and top-up loans, and loans against property to salaried and self-employed customers. The company is backed by Norwest Venture Partners and Elevation Capital. It operates a public marketing website, a customer service portal, a refer-and-earn portal, and an Android mobile app, but publishes no public developer API, documentation, or machine-readable API surface.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4345,7 +4345,7 @@
     {
      "name": "Onsitego",
      "slug": "onsitego",
-     "description": "'Onsitego is a Mumbai-based Indian consumer device-protection company that",
+     "description": "Onsitego is a Mumbai-based Indian consumer device-protection company that sells extended warranty, accidental and liquid damage protection, and repair and maintenance (AMC) plans for consumer electronics and home appliances including mobile phones, laptops, televisions, refrigerators, washing machines and air conditioners. Sold at point of sale through 10,000+ retail stores and serviced via 3,300+ service centers, the company reports 2.5+ crore (25M+) customers and lets buyers activate coverage, manage devices and plans, and request service online. Onsitego is a portfolio company of Accel. No public developer API, documentation, or programmatic surface was found during enrichment; this profile captures the company identity and probed domain security posture.",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4386,7 +4386,7 @@
     {
      "name": "Policy Bazaar",
      "slug": "policy-bazaar",
-     "description": "'Policybazaar is India''s largest online insurance aggregator and marketplace,",
+     "description": "Policybazaar is India's largest online insurance aggregator and marketplace, operated by PB Fintech Limited (publicly listed on the NSE and BSE) and headquartered in Gurugram, Haryana. Founded in 2008 by Yashish Dahiya, Alok Bansal, and Avaneesh Nirjar, it is an IRDAI-licensed insurance web aggregator and broker that lets consumers compare, buy, and manage policies across life, term, health, motor (car and bike), travel, and investment (ULIP and guaranteed-return) products from more than fifty partner insurers. The platform provides quote comparison, online purchase, claims assistance, and renewal management, and is a portfolio company of Ribbit Capital. Policybazaar does not publish a public developer API; this profile captures the company identity and domain-security posture surfaced by the enrichment pipeline.",
      "score": 14.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4468,7 +4468,7 @@
     {
      "name": "BRND.ME",
      "slug": "brndme",
-     "description": "'BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based",
+     "description": "BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based house-of-brands company that acquires, builds, and scales digital-first consumer brands across Health, Wellness, Lifestyle, Fashion, Party & Celebration, and Home Decor. Founded by Ananth Narayanan and backed by Accel, the company combines technology, data insight, and centralized operations to grow market-leading D2C brands from India for global customers. Its portfolio includes brands such as Majestic Pure, Botanic Hearth, Dennis Lingo, House of Ishin, and MyFitness. This is a company/provider profile in the API Evangelist network; BRND.ME operates a corporate marketing presence and does not publish a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brndme/refs/heads/main/screenshots/brndme-2026-07-25T203942.png",
      "score": 14.3,
      "band": "minimal",
@@ -4510,7 +4510,7 @@
     {
      "name": "Clinikk",
      "slug": "clinikk",
-     "description": "Clinikk (Clinikk Health Hub) is a Bangalore, India-based primary healthcare provider",
+     "description": "Clinikk (Clinikk Health Hub) is a Bangalore, India-based primary healthcare provider offering membership-based access to unlimited doctor consultations, free prescribed medicines and lab tests, 24/7 teleconsultation, and optional group health insurance in partnership with IndusInd General Insurance. Clinikk operates in-person Health Hubs across Bangalore alongside a consumer mobile app, and was surfaced as a 500 Global portfolio company. No public developer API surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clinikk/refs/heads/main/screenshots/clinikk-2026-07-25T205627.png",
      "score": 14.3,
      "band": "minimal",
@@ -4552,7 +4552,7 @@
     {
      "name": "DeHaat",
      "slug": "dehaat",
-     "description": "'DeHaat (Green Agrevolution Private Limited) is one of India''s largest full-stack",
+     "description": "DeHaat (Green Agrevolution Private Limited) is one of India's largest full-stack agritech platforms, connecting smallholder farmers from \"seed to market\" through a phygital network of 11,000+ DeHaat Centres and 503 Farmer Producer Organisations across 12+ agrarian states. Founded in 2012 by IIT/IIM alumni, the platform serves 1.8 million+ farmers with agri-inputs (seeds, fertilizers, crop protection), AI-enabled crop advisory in multiple regional languages for 30+ crops, soil analysis, crop-health monitoring, market linkage for harvested produce, and agri-financing. Backed by Prosus Ventures and others, DeHaat operates a franchisee micro-entrepreneur model that raises farmer net incomes 30-50% while making procurement more predictable for buyers. This profile was surfaced as a portfolio company of prosus-ventures; the company publishes no public developer API portal or OpenAPI at this time, so enrichment is limited to identity, corporate link-properties, and security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dehaat/refs/heads/main/screenshots/dehaat-2026-07-25T211629.png",
      "score": 14.3,
      "band": "minimal",
@@ -4630,7 +4630,7 @@
     {
      "name": "Portea",
      "slug": "portea",
-     "description": "'Portea Medical is India''s leading home healthcare provider, delivering",
+     "description": "Portea Medical is India's leading home healthcare provider, delivering clinical care to patients at home across 40+ cities. Services include physiotherapy, nursing care, doctor consultations, medical equipment rental, trained attendants, diagnostic and lab tests, counselling, and specialized programs for eldercare, mother and baby care, diabetes, critical care, and vaccination. Portea was surfaced as a portfolio company of Accel and added to the API Evangelist network. As a consumer home-healthcare operator it publishes no public developer API, OpenAPI, or developer portal at this time; this profile captures its identity and a live domain-security probe.",
      "score": 14.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4671,7 +4671,7 @@
     {
      "name": "Apna",
      "slug": "apna",
-     "description": "Apna is India's leading professional networking and job-search platform, headquartered in",
+     "description": "Apna is India's leading professional networking and job-search platform, headquartered in Mumbai, India. Job seekers use Apna to search and apply to jobs online for free, join profession and location-based community groups, build a professional profile, and prepare for interviews, while employers post job vacancies and hire quality candidates in as little as 48 hours. Apna is a portfolio company of Insight Partners. At the time of this profile Apna does not publish a public developer API, SDKs, or API documentation; this entry captures its public identity and web properties.",
      "score": 14.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4748,7 +4748,7 @@
     {
      "name": "Indian Energy Exchange",
      "slug": "indian-energy-exchange",
-     "description": "'Indian Energy Exchange (IEX) is India''s largest electricity trading",
+     "description": "Indian Energy Exchange (IEX) is India's largest electricity trading platform, operating a nationwide automated exchange for the physical delivery of electricity, renewable energy, and certificates. IEX runs Day-Ahead, Real-Time, Term-Ahead, Renewable Energy Certificate and Energy Saving Certificate market segments, matching buy and sell bids across a member network of distribution utilities, industrial and commercial consumers, and power generators. For members with sophisticated trading needs IEX offers a members-only trading API (currently for the iDAM and RTM segments) supporting order placement, trade-data retrieval and real-time monitoring for automated and high-frequency trading; access is provisioned to registered members rather than published as a public developer portal. Surfaced as a portfolio company and added to the API Evangelist network for enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/indian-energy-exchange/refs/heads/main/screenshots/indian-energy-exchange-2026-07-25T222308.png",
      "score": 13.9,
      "band": "minimal",
@@ -4895,7 +4895,7 @@
     {
      "name": "FirstCry",
      "slug": "firstcry",
-     "description": "'FirstCry (operated by Brainbees Solutions Ltd) is India''s largest omnichannel",
+     "description": "FirstCry (operated by Brainbees Solutions Ltd) is India's largest omnichannel retailer of baby, kids, and maternity products, founded in 2010 by Supam Maheshwari and Amitava Saha and headquartered in Pune, India. It sells apparel, footwear, toys, diapers, feeding and nursery gear, and personal-care products across its website, mobile apps, and a large network of physical stores, alongside in-house brands such as BabyHug. The company is backed by SoftBank Vision Fund and listed publicly on the NSE and BSE in 2024. FirstCry publishes no public developer API or developer portal; this profile captures the company's public web, policy, and security-disclosure surface for the API Evangelist network.",
      "score": 13.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4965,7 +4965,7 @@
     {
      "name": "Dream11",
      "slug": "dream11",
-     "description": "'Dream11 is India''s largest fantasy sports platform, operated by Sporta",
+     "description": "Dream11 is India's largest fantasy sports platform, operated by Sporta Technologies Private Limited and part of the Dream Sports group founded in 2008 by Harsh Jain and Bhavit Sheth and headquartered in Mumbai. Launched as a freemium fantasy game in 2012, it lets 140 million-plus users draft virtual teams and compete in free and paid contests across cricket, football, kabaddi, basketball and hockey, scoring on the real-world performance of the athletes they pick. Dream11 is a consumer, mobile-first product with no public consumer API program; its engineering organization does maintain public open-source infrastructure (Kong rate-limiter and circuit-breaker plugins, the Odin deployment tool) on GitHub and publishes an engineering blog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dream11/refs/heads/main/screenshots/dream11-2026-07-25T212352.png",
      "score": 13.0,
      "band": "minimal",
@@ -5078,7 +5078,7 @@
     {
      "name": "Rentomojo",
      "slug": "rentomojo",
-     "description": "'Rentomojo is India''s largest tech-driven, full-stack direct-to-consumer",
+     "description": "Rentomojo is India's largest tech-driven, full-stack direct-to-consumer furniture and appliance rental platform, converting ownership into flexible monthly subscriptions. Customers rent beds, sofas, wardrobes, refrigerators, washing machines, air conditioners, water purifiers and other home essentials on plans from roughly three to thirty-six months, with delivery, installation, maintenance, relocation and upgrades handled in-house. Per its March 2026 draft red herring prospectus the company operates across 22 Indian cities with 227,511 live subscribers and 1,688 in-house technicians, carpenters and painters. Backed by Accel and Bain Capital Ventures. Added to the API Evangelist network from VC portfolio data; this pass found no public developer API, SDK or documentation surface.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5113,7 +5113,7 @@
     {
      "name": "Udaan",
      "slug": "udaan",
-     "description": "'Udaan is India''s largest eB2B trade platform, connecting small businesses",
+     "description": "Udaan is India's largest eB2B trade platform, connecting small businesses - kirana stores, chemists, hotels, restaurants, and offices - with manufacturers, brands, and wholesalers across categories including FMCG, staples, fruits and vegetables, pharma, and general merchandise. The platform combines supply chain and logistics operations with financial services for small businesses through udaanCapital, its working-capital fintech arm. Udaan is backed by Lightspeed Venture Partners and GGV Capital. It publishes no public developer API; buyer and seller experiences are delivered through its web and mobile apps, with api.udaan.com serving as the private app backend.",
      "score": 13.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5183,7 +5183,7 @@
     {
      "name": "High Mark Credit Information Services",
      "slug": "high-mark-credit-information-services",
-     "description": "High Mark Credit Information Services (now operating as CRIF High Mark) is one of India's",
+     "description": "High Mark Credit Information Services (now operating as CRIF High Mark) is one of India's four RBI-licensed credit bureaus, headquartered in Mumbai. It maintains credit information on retail, microfinance, and commercial borrowers, and delivers credit reports, bureau scores, analytics, portfolio monitoring, fraud-detection, and origination-decisioning solutions to banks, NBFCs, microfinance institutions, insurers, and telecom providers. The bureau is best known for its microfinance credit information services and pan-India retail and commercial credit databases. It was surfaced as a portfolio company of Battery Ventures and profiled in the API Evangelist network; it publishes no public developer portal or API specification, so this profile captures company identity and domain security posture only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-mark-credit-information-services/refs/heads/main/screenshots/high-mark-credit-information-services-2026-07-25T221152.png",
      "score": 12.8,
      "band": "minimal",
@@ -5255,7 +5255,7 @@
     {
      "name": "Stellapps",
      "slug": "stellapps",
-     "description": "Stellapps is an end-to-end dairy technology company from Bangalore, India",
+     "description": "Stellapps is an end-to-end dairy technology company from Bangalore, India (IIT Madras incubated, founded 2011) that digitizes milk production, milk procurement, and cold-chain management through its SmartMoo full-stack IoT platform. Sensors in milking systems, animal wearables, chilling equipment, and procurement peripherals stream data to the SmartMoo Big Data Cloud for analytics and machine learning serving dairy farmers, cooperatives, and processors, with applications including mooON herd management, smartAMCU and smartCC milk procurement, ConTrak cold-chain monitoring, mooFlow ERP, and mooPay financial services. Stellapps publishes no public developer portal, API documentation, or SDKs; the SmartMoo platform is accessed through hosted applications behind CAS single sign-on.",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5290,7 +5290,7 @@
     {
      "name": "Venwiz",
      "slug": "venwiz",
-     "description": "'Venwiz is a Bengaluru, India based B2B digital platform for the procurement",
+     "description": "Venwiz is a Bengaluru, India based B2B digital platform for the procurement of industrial and infrastructural project services, covering both CapEx and MRO requirements for the manufacturing sector. Founded in 2020 by Rajesh Reddy and Sandesh Paturi, it operates a marketplace that connects industrial buyers with a verified, pan-India database of service vendors, adding vendor discovery, order expediting, project management tooling and vendor intelligence on top. Backed by Accel and other investors (~$11.4M raised), Venwiz digitises what has traditionally been an offline, relationship-driven industrial services procurement process. No public developer API, OpenAPI/Swagger definition, SDK, or documentation surface is published as of this enrichment pass; the public presence is a marketing/content website plus a login-gated application.",
      "score": 12.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5360,7 +5360,7 @@
     {
      "name": "Transbnk",
      "slug": "transbnk",
-     "description": "'TransBnk — rebranded as TBX — is an Indian open-finance and transaction-banking",
+     "description": "TransBnk — rebranded as TBX — is an Indian open-finance and transaction-banking infrastructure company founded in 2022 and headquartered in Mumbai. It gives banks, enterprises, fintechs, corporates, and NBFCs the platforms, APIs, and connected workflows behind corporate banking: mandate management, escrow flows, virtual accounts, reconciliation, lending acceleration, and cash and treasury management. TransBnk reports partnerships with 25+ banks, 200+ APIs extended, 100+ BFSI clients, and 50M+ transactions processed. Products include TxB Hub (transaction banking), TrustHub (core banking and escrow), and the API Hub integration surface. The company is backed by Bessemer Venture Partners, 8i Ventures, and Accion Venture Lab.",
      "score": 12.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5401,7 +5401,7 @@
     {
      "name": "Unacademy",
      "slug": "unacademy",
-     "description": "Unacademy is a Bangalore-based online learning platform — one of India's",
+     "description": "Unacademy is a Bangalore-based online learning platform — one of India's largest — offering live classes, courses, study material, and test preparation for competitive exams including UPSC Civil Services, IIT JEE, NEET-UG, SSC, CA Foundation, and CSIR UGC NET, delivered through its web platform and dedicated learner, educator, and parent mobile apps. Backed by SoftBank Vision Fund, Unacademy runs a consumer platform on an internal API (api.unacademy.com) but publishes no public developer program, API documentation, or SDKs.",
      "score": 12.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5436,7 +5436,7 @@
     {
      "name": "APAC Financial Services",
      "slug": "apacfin",
-     "description": "'APAC Financial Services (Apacfin) is a Mumbai-based, Reserve Bank of India registered",
+     "description": "APAC Financial Services (Apacfin) is a Mumbai-based, Reserve Bank of India registered Non-Banking Financial Company (NBFC) that provides customized MSME business loans to underbanked and underserved micro, small, and medium enterprises across India. APAC offers tech-enabled, largely paperless digital onboarding, quick disbursal with minimal documentation, and a mobile app (APACM) for loan tracking, EMI payments, and service requests. The lender reports roughly Rs 2,479 Crore of assets under management across 226 branches in six states, serving more than 52,000 customers, and carries an ICRA A (Stable) credit rating. APAC is a portfolio company of Norwest Venture Partners. No public developer API, OpenAPI specification, or developer portal is published; customer and partner interaction is via the mobile app and hosted customer/complaint portals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apacfin/refs/heads/main/screenshots/apacfin-2026-07-25T200536.png",
      "score": 12.3,
      "band": "minimal",
@@ -5472,7 +5472,7 @@
     {
      "name": "Aramya",
      "slug": "aramya",
-     "description": "'Aramya is a direct-to-consumer (D2C) women''s ethnic wear brand from India, operated by",
+     "description": "Aramya is a direct-to-consumer (D2C) women's ethnic wear brand from India, operated by DSLR Technologies Pvt. Ltd. and based in Jaipur, Rajasthan. Founded by Ankush Goyal, Aramya sells premium cotton kurtas, kurta sets, bottoms, dresses, co-ord sets, and dupattas with a strong focus on inclusive sizing (XS to 10XL) and affordable, comfortable everyday, office, and occasion wear. The brand runs on a Shopify-based storefront at aramya.in with weekly launches, cash on delivery, and free returns, and has raised multiple rounds (seed, pre-Series A, and an ~INR 80 Cr Series A) co-led by Accel India and Z47 (formerly Matrix Partners India). Aramya is a consumer retail brand and does not publish a public developer API; it does publish an llms.txt describing its shopping surface for AI assistants.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramya/refs/heads/main/screenshots/aramya-2026-07-25T201003.png",
      "score": 12.3,
      "band": "minimal",
@@ -5508,7 +5508,7 @@
     {
      "name": "Arivihan",
      "slug": "arivihan",
-     "description": "'Arivihan is an Indian EdTech company operating an AI-based, fully automated online learning",
+     "description": "Arivihan is an Indian EdTech company operating an AI-based, fully automated online learning platform that gives each K-12 school student a personalized \"tutor in their pocket.\" It targets low- and middle-income families and students in Tier 2+ cities, delivering interactive, personalized lectures and doubt resolution in vernacular languages at roughly 10% of typical coaching fees. Products include the DoubtBuzzter mobile app and the tutor-prod / InstantGuru doubt-resolution web platform. The company was surfaced as a portfolio company of accel and prosus-ventures. No public API or developer surface was found during enrichment; this remains a consumer-facing product profile.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arivihan/refs/heads/main/screenshots/arivihan-2026-07-25T201154.png",
      "score": 12.3,
      "band": "minimal",
@@ -5544,7 +5544,7 @@
     {
      "name": "Bolt.Earth",
      "slug": "boltearth",
-     "description": "'Bolt.Earth operates what it describes as India''s largest EV charging network, with more",
+     "description": "Bolt.Earth operates what it describes as India's largest EV charging network, with more than 100,000 charging points deployed across 2,100+ cities. The company sells EV charging hardware (3.3kW smart sockets for 2/3/4-wheelers, AC chargers from 7.4kW to 22kW, and DC fast chargers from 30kW to 240kW) alongside a Charging Management System (CMS) for operators and a consumer mobile app for locating, booking, and paying for charging sessions. Services span site assessment, installation, KYC onboarding, charger activation, remote firmware updates, and 24/7 support for individuals, RWAs, enterprises, fleet operators, hospitality venues, highways, and government agencies. Bolt.Earth is backed by Version One Ventures and is tracked in the API Evangelist network as an energy-sector company profile. No public developer API portal or OpenAPI definition was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boltearth/refs/heads/main/screenshots/boltearth-2026-07-25T203543.png",
      "score": 12.3,
      "band": "minimal",
@@ -5580,7 +5580,7 @@
     {
      "name": "Brick&Bolt",
      "slug": "brick-and-bolt",
-     "description": "'Brick&Bolt (bricknbolt.com) is a Bangalore-based, tech-enabled home and commercial",
+     "description": "Brick&Bolt (bricknbolt.com) is a Bangalore-based, tech-enabled home and commercial construction marketplace that delivers end-to-end design-to-build services across major Indian cities including Bangalore, Hyderabad, Chennai, Delhi NCR, and Mysuru. The company connects homeowners with vetted contractors and manages projects through its QASCON quality system (470+ quality checks), an ESCROW-secured payment model that releases funds only as milestones complete, transparent quotations, and consumer and professional mobile apps for real-time project tracking. Backed by Accel, Brick&Bolt has delivered thousands of homes and was named to Forbes Asia's \"100 to Watch\" list. This profile was surfaced as an Accel portfolio company and enriched by the API Evangelist pipeline; Brick&Bolt operates a consumer construction platform and mobile apps but publishes no public developer API, OpenAPI, or developer portal at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brick-and-bolt/refs/heads/main/screenshots/brick-and-bolt-2026-07-25T203800.png",
      "score": 12.3,
      "band": "minimal",
@@ -5616,7 +5616,7 @@
     {
      "name": "Cashify",
      "slug": "cashify",
-     "description": "'Cashify is an Indian re-commerce platform for buying, selling, and repairing",
+     "description": "Cashify is an Indian re-commerce platform for buying, selling, and repairing used and refurbished consumer electronics — smartphones, laptops, tablets, and other gadgets. Founded in 2013 and headquartered in Gurugram, the company provides instant online price quotes, free doorstep pickup with on-the-spot payment for devices sold to it, and sells certified refurbished devices backed by warranty. Alongside its consumer website and mobile apps, Cashify operates a network of physical retail stores across India, runs device repair services, and offers a partner program for retailers. It is backed by Bessemer Venture Partners among other investors. This profile was added to the API Evangelist network as a company lead and has been enriched with identity and domain-security artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashify/refs/heads/main/screenshots/cashify-2026-07-25T204725.png",
      "score": 12.3,
      "band": "minimal",
@@ -5652,7 +5652,7 @@
     {
      "name": "CrownIT",
      "slug": "crownit",
-     "description": "\"CrownIT (Crownit.in) is India's online market-research and consumer-insights platform,",
+     "description": "CrownIT (Crownit.in) is India's online market-research and consumer-insights platform, now acquired by Ipsos, the world's leading market research company. Operating as a full-stack agency, Crownit conducts online surveys and tracks purchase and consumption behavior via shopping bills and product photos submitted through its mobile app, applying machine learning and big-data analytics to deliver fast, accurate and comprehensive consumer insights to over 200 brands and enterprises across 40+ Indian cities. Backed by Accel and surfaced in the API Evangelist network as a VC-portfolio company profile; Crownit runs a consumer rewards and survey application rather than a public developer API, so this profile carries company identity only and has no OpenAPI, developer portal, or API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crownit/refs/heads/main/screenshots/crownit-2026-07-25T210814.png",
      "score": 12.3,
      "band": "minimal",
@@ -5688,7 +5688,7 @@
     {
      "name": "Curefoods",
      "slug": "curefoods",
-     "description": "'Curefoods is a Bengaluru-based multi-brand cloud kitchen and quick-service",
+     "description": "Curefoods is a Bengaluru-based multi-brand cloud kitchen and quick-service restaurant company founded in 2020 that builds and operates iconic Indian food brands. As of March 2025 it runs roughly 502 outlets across India (about 281 cloud kitchens, 99 kiosks, and 122 restaurants) under a house-of-brands model including Kitchens of EatFit, Sharief Bhai, Olio Pizza, Nomad Pizza, Arambam, CakeZone, Frozen Bottle, and Krispy Kreme. Backed by Accel, Chiratae Ventures, and Iron Pillar, the company crossed roughly Rs 746 crore in FY25 revenue and has received SEBI approval for an IPO. Curefoods is a consumer food operator with no public developer API or documentation surface; this profile was added to the API Evangelist network as a portfolio lead and carries only identity, domain-security, and public-property signals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/curefoods/refs/heads/main/screenshots/curefoods-2026-07-25T210934.png",
      "score": 12.3,
      "band": "minimal",
@@ -5724,7 +5724,7 @@
     {
      "name": "Finova Capital",
      "slug": "finova",
-     "description": "'Finova Capital is a non-banking financial company (NBFC) licensed by the Reserve",
+     "description": "Finova Capital is a non-banking financial company (NBFC) licensed by the Reserve Bank of India, founded in 2015 by Mohit Sahney and Sunita Sahney and headquartered in Jaipur, Rajasthan. It provides secured lending to micro, small and medium enterprises (MSMEs) and self-employed customers across India, including MSME business loans, home loans, working capital and machinery loans, and personal loans, all secured against immovable property. Operating across 17 states through 450+ branches, Finova Capital is backed by investors including Peak XV Partners, Norwest Venture Partners, Faering Capital, Maj Invest, Sofina Ventures, Avataar Ventures and Madison India Capital. The company holds a Certificate of Registration issued by the RBI under Section 45-IA of the Reserve Bank of India Act, 1934. This is a financial-services provider with a public marketing and investor-relations website; it does not currently expose a public developer API surface.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5759,7 +5759,7 @@
     {
      "name": "HomeFirst",
      "slug": "homefirst",
-     "description": "'HomeFirst (Home First Finance Company India Limited) is an affordable-housing finance",
+     "description": "HomeFirst (Home First Finance Company India Limited) is an affordable-housing finance company headquartered in Mumbai, India, that provides home loans, self-construction and resale loans, loans against property, shop loans, and renovation/top-up loans to first-time and lower- to middle-income home buyers across India, marketing itself as \"India's Home Loan Expert\" with approval within 48 hours. It is a technology-led lender operating consumer-facing customer and connector portals and mobile apps, and is a publicly listed company backed by Bessemer Venture Partners. It was surfaced as a Bessemer portfolio company and added to the API Evangelist network; it publishes no public developer portal, API documentation, or machine-readable API artifacts at this time, so this profile captures its public web/identity and domain-security posture only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/homefirst/refs/heads/main/screenshots/homefirst-2026-07-25T221405.png",
      "score": 12.3,
      "band": "minimal",
@@ -5795,7 +5795,7 @@
     {
      "name": "HomeLane",
      "slug": "homelane",
-     "description": "'HomeLane is an Indian end-to-end interior design company that delivers",
+     "description": "HomeLane is an Indian end-to-end interior design company that delivers customized home interiors — modular kitchens, wardrobes, storage, bedroom, living room, bathroom, and home-office designs — pairing in-house digital design and 3D visualization tools with material selection and professional installation, backed by a 45-day delivery guarantee on end-to-end modular interiors. Founded in Bangalore and backed by Accel, HomeLane operates across major Indian cities through design studios, a franchise/partner network, and a customer mobile app. HomeLane currently exposes no public developer API; this profile tracks its digital, security, and identity surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/homelane/refs/heads/main/screenshots/homelane-2026-07-25T221341.png",
      "score": 12.3,
      "band": "minimal",
@@ -5831,7 +5831,7 @@
     {
      "name": "HouseEazy",
      "slug": "houseeazy",
-     "description": "'HouseEazy is an Indian proptech startup, founded in 2021 by Tarun Sainani",
+     "description": "HouseEazy is an Indian proptech startup, founded in 2021 by Tarun Sainani and Deepak Bhatia, that runs a full-stack platform for buying and selling ready-to-move, pre-owned residential homes across the Delhi NCR region (Noida, Ghaziabad, and Gurugram). It uses an AI/ML-based pricing algorithm built on over two million on-ground data points — registry records, market trends, and recent transactions — to price properties instantly, then pairs that with 3D walkthroughs, drone imagery, and virtual staging to make resale transactions fast, transparent, and secure. HouseEazy also offers LoanEazy home financing and a channel-partner program, and is backed by Accel, Antler, and DTU-IIF. It is a consumer-facing web application and publishes no public developer API, SDK, or documentation portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/houseeazy/refs/heads/main/screenshots/houseeazy-2026-07-25T221525.png",
      "score": 12.3,
      "band": "minimal",
@@ -5867,7 +5867,7 @@
     {
      "name": "IKF Finance",
      "slug": "ikffinance",
-     "description": "'IKF Finance Limited is an India-based non-banking financial company (NBFC)",
+     "description": "IKF Finance Limited is an India-based non-banking financial company (NBFC) that has provided asset financing for more than 35 years through a network of 300+ branches pan-India, serving over one lakh customers. Its lending products include commercial vehicle loans, construction equipment loans, tractor loans, car and MUV loans, and MSME and business loans, with home loans offered through the affiliated IKF Home Finance entity. Operating under the tagline \"Powering Progress with Prompt Financing,\" the company focuses on prompt, accessible credit for transport operators, small businesses, and individuals across India. This profile was surfaced as a portfolio lead and enriched with public identity, legal, and domain-security signals; IKF Finance publishes no public developer/API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ikffinance/refs/heads/main/screenshots/ikffinance-2026-07-25T222103.png",
      "score": 12.3,
      "band": "minimal",
@@ -5903,7 +5903,7 @@
     {
      "name": "LVX (formerly LetsVenture)",
      "slug": "letsventure",
-     "description": "'LVX — formerly LetsVenture — is an India-based private market investing",
+     "description": "LVX — formerly LetsVenture — is an India-based private market investing platform founded in 2013 by Shanti Mohan and headquartered in Bengaluru, with teams in Delhi and Mumbai. The platform connects startup founders raising capital with angel investors, family offices and VCs, and has been a SEBI-regulated entity since its Angel AIF was approved in 2018. Its product surface spans LVX start (early-stage angel investing), LVX grow (growth-stage and co-investment deals), LVXschool (private market investor education), LVX Debt (non-dilutive debt financing for startups) and LVX Track (portfolio dashboards), alongside the sister platform trica. The company publicly reports 35K+ startups, 14K+ investors and over Rs 1500 Cr of AIF assets under management. LVX rebranded from LetsVenture in July 2025 and letsventure.com now redirects to lvxventures.com. LVX operates no public developer API program: no developer portal, API reference, OpenAPI definition or SDKs were found, and the platform-backing API at api.lvxventures.com is a private token-authenticated service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/letsventure/refs/heads/main/screenshots/letsventure-2026-07-25T224932.png",
      "score": 12.3,
      "band": "minimal",
@@ -5939,7 +5939,7 @@
     {
      "name": "Meragi",
      "slug": "meragi",
-     "description": "Meragi is an Indian wedding planning and execution platform for city",
+     "description": "Meragi is an Indian wedding planning and execution platform for city and destination weddings, offering a plug-and-play alternative to bare-shell venues. It coordinates venue discovery, decor design (10,000+ options), catering, photography, vendor management, and multi-event logistics across Bangalore, Hyderabad, Goa, Delhi NCR, Jaipur, and Udaipur. Backed by Accel, the company runs a consumer-facing web presence with no public developer, API, or integration surface as of this enrichment pass.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6009,7 +6009,7 @@
     {
      "name": "Rapido",
      "slug": "rapido",
-     "description": "'Rapido is an Indian on-demand urban mobility platform that connects riders",
+     "description": "Rapido is an Indian on-demand urban mobility platform that connects riders with independent driver-partners (called \"Captains\") for bike taxis, auto rickshaws, and cabs through its consumer and Captain mobile apps. Founded in Bengaluru and backed by Accel, Rapido operates across hundreds of Indian cities and has expanded into parcel delivery and corporate mobility. As of this enrichment pass Rapido exposes only a consumer-facing web and app surface — no public developer API, developer portal, SDK, or machine-readable specification was found. This profile captures the company identity, its published policy and content pages, and a domain-security probe.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6044,7 +6044,7 @@
     {
      "name": "Seekho",
      "slug": "seekho",
-     "description": "'Seekho (operated by Keyaro Edutech Pvt Ltd, Bengaluru, India) is a consumer",
+     "description": "Seekho (operated by Keyaro Edutech Pvt Ltd, Bengaluru, India) is a consumer edutainment mobile application delivering short-form learning videos across 50+ categories including stock market investing, spoken English, YouTube monetization, business, cooking, and government-procedure (sarkari) guidance. The platform reports 10 crore+ downloads, 40+ lakh learners, 10,000+ videos, and 250+ verified mentors, and is distributed via the Apple App Store and Google Play. Surfaced as a portfolio company of Bessemer Venture Partners. As of this enrichment pass, Seekho publishes a consumer marketing site, a blog, and a creator program but exposes no public developer portal, API documentation, or partner API surface.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6114,7 +6114,7 @@
     {
      "name": "Spinny",
      "slug": "spinny",
-     "description": "'Spinny (Valuedrive Technologies Ltd.) is an India-based online marketplace",
+     "description": "Spinny (Valuedrive Technologies Ltd.) is an India-based online marketplace for buying and selling used cars. Every Spinny Assured car undergoes a 200-point quality check and comes with a 1-year warranty, a 5-day money-back guarantee, and hassle-free RC ownership transfer. The platform also offers instant online car valuation, doorstep evaluation, used-car finance and EMI, car insurance, RC transfer, scrap-car service, e-Challan and RTO lookups, servicing, the Spinny Max luxury tier, and a Partners auction platform for dealers. Backed by Accel and General Catalyst. Spinny publishes a consumer web experience and an llms.txt for AI agents but does not expose a public developer API.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6149,7 +6149,7 @@
     {
      "name": "Stanza Living",
      "slug": "stanza-living",
-     "description": "'Stanza Living is one of India''s largest managed accommodation and co-living",
+     "description": "Stanza Living is one of India's largest managed accommodation and co-living platforms, founded in 2017 by IIM-Ahmedabad alumni Anindya Dutta and Sandeep Dalmia and headquartered in Gurugram. It provides professionally managed, fully furnished, brokerage-free residences — student housing, co-living for working professionals, and managed apartments — across 24+ Indian cities, operating 450+ residences and more than 70,000 beds under the promise of \"your second home in a new city.\" The company is backed by investors including Accel, Falcon Edge, Sequoia Capital and Matrix Partners. Stanza Living operates as a consumer web and mobile brand for discovering, booking and living in managed accommodation, and does not publish a public developer API surface.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6327,7 +6327,7 @@
     {
      "name": "ApniBus",
      "slug": "apnibus",
-     "description": "'ApniBus is an India-based online bus ticket booking platform that lets travelers",
+     "description": "ApniBus is an India-based online bus ticket booking platform that lets travelers search routes, compare operators, select seats, and pay for tickets across government and private bus services. It positions itself as a leading Indian bus-booking marketplace and an official RSRTC (Rajasthan State Road Transport Corporation) booking partner, aggregating over one lakh bus services across thousands of routes. The consumer experience spans a website and Android/iOS apps, with UPI, cards, net banking, and wallet payments, instant e-ticket / m-ticket confirmation, live bus tracking, and easy cancellation. ApniBus was surfaced as a portfolio company of Version One Ventures and added to the API Evangelist network for enrichment; it publishes no public developer or API program at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apnibus/refs/heads/main/screenshots/apnibus-2026-07-25T200657.png",
      "score": 11.8,
      "band": "minimal",
@@ -6363,7 +6363,7 @@
     {
      "name": "Bachatt",
      "slug": "bachatt",
-     "description": "'Bachatt is a daily savings and investments mobile app operated by Trusave Fintech Private Limited,",
+     "description": "Bachatt is a daily savings and investments mobile app operated by Trusave Fintech Private Limited, designed for India's underserved and self-employed population. As an AMFI-registered mutual fund distributor, Bachatt lets users save from as little as INR 100/day and invest in liquid mutual funds (Insta Fund) with instant withdrawal, curated mutual fund baskets (Bachatt Wealth), gold and silver mutual funds, fixed deposits, and access instant personal and business loans (Insta Loans) up to INR 5 lakhs. The company partners with major AMCs including SBI, ICICI Prudential, Axis, and HDFC and delivers everything through a single UPI-powered mobile application on Android and iOS. Bachatt is backed by Accel. This profile is maintained in the API Evangelist network; Bachatt is a consumer fintech app and does not currently publish a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bachatt/refs/heads/main/screenshots/bachatt-2026-07-25T202206.png",
      "score": 11.8,
      "band": "minimal",
@@ -6399,7 +6399,7 @@
     {
      "name": "Book My Show",
      "slug": "book-my-show",
-     "description": "'BookMyShow (Bigtree Entertainment Pvt. Ltd.) is India''s premier online",
+     "description": "BookMyShow (Bigtree Entertainment Pvt. Ltd.) is India's premier online entertainment ticketing platform, serving as a centralized hub for discovering and booking movies, live music festivals, comedy, theatre, sports, activities, and Video-on-Demand (VOD) streaming. For enterprise partners and event organizers it also provides venue management software, box-office point-of-sale solutions, corporate vouchers, gift cards, and end-to-end event production capabilities. Added to the API Evangelist network as a portfolio company of Accel; enriched by the enrichment pipeline. No public developer API or portal was found, but BookMyShow publishes an agent-facing llms.txt describing its consumer inventory hubs and B2B services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/book-my-show/refs/heads/main/screenshots/book-my-show-2026-07-25T203606.png",
      "score": 11.8,
      "band": "minimal",
@@ -6435,7 +6435,7 @@
     {
      "name": "GrowXCD",
      "slug": "growxcd",
-     "description": "'GrowXCD (GrowXCD Finance Private Limited) is an RBI-registered Non-Banking Financial",
+     "description": "GrowXCD (GrowXCD Finance Private Limited) is an RBI-registered Non-Banking Financial Company (NBFC) headquartered in Chennai, India, focused on accelerating business growth for the small businesses and self-employed customers that form the backbone of India's economy. Its lending products include Grow Shubam small-ticket mortgage loans, Loan Against Property (LAP) secured lending, and unsecured loans up to Rs 25 lakh with tenures of 12 to 60 months, delivered through a minimal-documentation digital process with swift approvals and repayment via eMandate or NACH auto-debit. GrowXCD is a portfolio company of Prosus Ventures. It publishes a consumer website and statutory policy documents but does not currently expose a public developer portal, API, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/growxcd/refs/heads/main/screenshots/growxcd-2026-07-25T220402.png",
      "score": 11.8,
      "band": "minimal",
@@ -6507,7 +6507,7 @@
     {
      "name": "Openhouse",
      "slug": "openhouse",
-     "description": "'Openhouse is a network of neighborhood children''s learning centres in Bangalore",
+     "description": "Openhouse is a network of neighborhood children's learning centres in Bangalore and Kolkata, India, describing itself as a \"Third Space\" for children — neither home nor school, but a sanctuary for curiosity. It runs preschool programs for ages 1-6, a Parent-Toddler Club for ages 1-3, and Excel extracurriculars (robotics, public speaking, music, art and design) for ages 3-5+, built around a learning-by-doing philosophy. The consumer-facing website (openhouse.school, formerly openhouse.study) is a marketing and enrollment surface; the only network-visible technical surface is a private app backend health endpoint at api.openhouse.study. Openhouse was surfaced as a portfolio company of Accel and added to the API Evangelist network for enrichment. It publishes no public developer API, OpenAPI, SDKs, or developer documentation.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6542,7 +6542,7 @@
     {
      "name": "Rupeek",
      "slug": "rupeek",
-     "description": "'Rupeek is an asset-backed online gold loan company operating across India,",
+     "description": "Rupeek is an asset-backed online gold loan company operating across India, enabling customers to borrow money by pledging gold jewelry as collateral. Its products include gold loans (from around 30,000 up to 1.5 crore rupees), gold loan balance transfers, the Rupeek Gold Card, part/full gold release, and an online repayment portal. The company partners with banks such as Federal Bank, Indian Bank, and South Indian Bank, offers 100% insurance coverage via New India Assurance, and delivers its consumer experience primarily through its website and highly-rated mobile app. It is ISO 27001 certified. Rupeek is a consumer fintech surfaced as a portfolio company of Accel and GGV Capital; it publishes no public developer API surface, so this profile is an identity-only company record.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6577,7 +6577,7 @@
     {
      "name": "Snowman",
      "slug": "snowman",
-     "description": "'Snowman Logistics is an Indian integrated cold-chain and temperature-controlled",
+     "description": "Snowman Logistics is an Indian integrated cold-chain and temperature-controlled logistics company headquartered in Bengaluru, providing refrigerated (frozen and chilled) warehousing, cold storage, and distribution services across India. It serves frozen and chilled foods, dairy, seafood, quick-service restaurants, pharmaceuticals, and other perishables through a national network of temperature-controlled warehouses and a refrigerated transportation fleet. The company is publicly listed on Indian exchanges and was surfaced as a portfolio company of Norwest Venture Partners. This profile was enriched by the API Evangelist pipeline; the enrichment pass confirmed the company publishes a marketing/corporate website (snowman.in) but exposes no public developer, API, or well-known discovery surface.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6612,7 +6612,7 @@
     {
      "name": "Sulekha",
      "slug": "sulekha",
-     "description": "'Sulekha is an online local-services marketplace and classifieds platform",
+     "description": "Sulekha is an online local-services marketplace and classifieds platform serving Indian communities in the United States and Canada (us.sulekha.com) as well as its origin market in India (sulekha.com). It connects consumers with local service providers across housing and rentals, events and concert tickets, jobs, care services (nannies, eldercare, housekeeping), real estate, beauty, photography, immigration, astrology, travel and IT training. Sulekha operates as a consumer-facing web and mobile marketplace rather than an API producer; no public developer portal, API reference, or programmatic integration surface is published. It is tracked in the API Evangelist network as a portfolio company of Norwest Venture Partners.",
      "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6794,7 +6794,7 @@
     {
      "name": "CarWale",
      "slug": "carwale",
-     "description": "'CarWale is an Indian automotive marketplace and part of CarTrade Tech",
+     "description": "CarWale is an Indian automotive marketplace and part of CarTrade Tech Limited, connecting car buyers with new-car dealers and used-car sellers across 1,500+ cities in India. The consumer platform offers new and used vehicle listings, accurate on-road pricing sourced directly from dealers, car valuation and sell-car tools, side-by-side comparisons, expert reviews and first-drive reports, and automotive news and video content. CarWale reports over 34 million monthly unique visitors and operates alongside sister brands including BikeWale, CarTrade, CarWale abSure, Mobility Outlook, and Adroit Auto. CarWale does not currently publish a public developer portal or API; this profile captures its public identity and domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carwale/refs/heads/main/screenshots/carwale-2026-07-25T204707.png",
      "score": 11.4,
      "band": "minimal",
@@ -6830,7 +6830,7 @@
     {
      "name": "FabHotels",
      "slug": "fabhotels",
-     "description": "'FabHotels is an Indian branded-budget hotel chain and online booking platform,",
+     "description": "FabHotels is an Indian branded-budget hotel chain and online booking platform, founded in 2014 by Vaibhav Aggarwal and Adarsh Manpuria and headquartered in Gurugram. It operates a network of 1500+ standardized economy hotels across 80+ cities under the FabHotel, FabHotel Prime, and Via brands, with quality-controlled amenities such as free WiFi, air conditioning, and 24/7 security. Consumers book stays through the FabHotels website and its iOS and Android apps; the company also runs a franchise program for property owners and corporate-stay offerings, and is backed by Accel and Goldman Sachs. No public developer API, SDK, or partner integration surface is advertised — this remains a business-to-consumer travel brand rather than an API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabhotels/refs/heads/main/screenshots/fabhotels-2026-07-25T214110.png",
      "score": 11.4,
      "band": "minimal",
@@ -6938,7 +6938,7 @@
     {
      "name": "Pronto",
      "slug": "pronto",
-     "description": "'Pronto is an on-demand and subscription-based house-help marketplace",
+     "description": "Pronto is an on-demand and subscription-based house-help marketplace operating across 11 Indian cities (including Mumbai, Bangalore, Delhi, Hyderabad, and Pune). It connects urban homes with trained, background-verified Pronto Professionals for everyday household chores such as cleaning, laundry, kitchen prep, bathroom care, ironing, dusting, and window cleaning. Customers book in the Pronto mobile app (iOS and Android) for instant (a Pro in ~15 minutes), scheduled, or recurring service, and pay in-app; the withpronto.com website is the marketing surface while the booking flow runs in the app. Pronto is backed by Bain Capital Ventures and General Catalyst. No public developer API, SDK, or developer portal is currently published; the only machine-readable surface is a provider-published llms.txt.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6973,7 +6973,7 @@
     {
      "name": "Swiggy",
      "slug": "swiggy",
-     "description": "'Swiggy is an Indian hyperlocal on-demand commerce and food-delivery",
+     "description": "Swiggy is an Indian hyperlocal on-demand commerce and food-delivery platform founded in 2014 and headquartered in Bengaluru. Through a single consumer app it connects users with restaurant and merchant partners for food delivery, Swiggy Instamart (quick grocery and essentials commerce), Swiggy Genie (pick-up and drop errands), Swiggy Dineout (restaurant reservations and dining), and the Swiggy One membership program, operating across hundreds of cities in India with a large network of restaurant and delivery partners. Swiggy is a publicly listed company backed by Accel, Bessemer Venture Partners, Norwest Venture Partners and SoftBank Vision Fund. It exposes a login-gated merchant partner portal but does not publish a public developer API program.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7008,7 +7008,7 @@
     {
      "name": "Vetic",
      "slug": "vetic",
-     "description": "'Vetic is a pet healthcare company in India operating a chain of full-service",
+     "description": "Vetic is a pet healthcare company in India operating a chain of full-service veterinary clinics and hospitals across 11 cities, paired with a consumer mobile app. Founded by Gaurav Ajmera (ex-COO OYO), Vetic offers in-clinic vet consultations, vaccinations, in-house diagnostics (blood work, X-ray, imaging, endoscopy), surgery, physiotherapy, 24/7 emergency and intensive care, grooming, an in-house pharmacy, pet supplies, pet insurance, video vet consultations, digital medical records, and 2-hour pet food delivery. It is a consumer (B2C) business with no public developer API surface at this time; this profile captures its public web and app footprint.",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7121,7 +7121,7 @@
     {
      "name": "Oto Capital",
      "slug": "oto-capital",
-     "description": "OTO (Oto Capital) is India's leading platform to discover, research, and buy two-wheelers",
+     "description": "OTO (Oto Capital) is India's leading platform to discover, research, and buy two-wheelers online with embedded financing. It offers digital bike loans with eligibility checks in five minutes and loan approvals within thirty minutes, an EMI calculator, home delivery, and test rides across 22+ Indian cities, working with 10+ lending partners including Northern Arc, Western Capital, Ujjivan Small Finance Bank, and Suryoday Small Finance Bank. Backed by 500 Global. No public developer API, portal, or documentation surface is currently published by the company.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7191,7 +7191,7 @@
     {
      "name": "Rigi",
      "slug": "rigi",
-     "description": "'Rigi (Rigi TV) is an instant-entertainment mobile app that streams quick,",
+     "description": "Rigi (Rigi TV) is an instant-entertainment mobile app that streams quick, captivating, and scroll-worthy short-form video and micro-drama series across genres such as romance, drama, thriller, and suspense. Operated out of HSR Layout in Bengaluru, Karnataka, India and backed by Accel, it delivers on-demand vertical entertainment through its Android app. It is a consumer-facing streaming product; no public developer API, documentation, or developer portal surface is currently published.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7261,7 +7261,7 @@
     {
      "name": "Powerup Money",
      "slug": "powerup-money",
-     "description": "'PowerUp Money is an India-based mutual fund advisory app that helps retail",
+     "description": "PowerUp Money is an India-based mutual fund advisory app that helps retail investors select, monitor, and rebalance their mutual fund portfolios. It is operated by a SEBI-registered Investment Advisor (RIA No. INA000019798) and BSE member (IA-BSE Membership No. 2465), and describes itself as \"India's trusted Mutual Fund Advisory App\" serving 900,000+ investors. Consumer-facing features include portfolio performance analysis, fund recommendations (start/pause/exit SIP guidance), monthly portfolio reports, and Elite membership tools such as Power Rank fund selection, Rank Trends monitoring, and Power Rebalancing for tax-efficient quarterly adjustments. It is distributed as iOS and Android mobile apps; no public developer API, documentation, or SDK surface was found. Added to the API Evangelist network as an Accel portfolio company.",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7404,7 +7404,7 @@
     {
      "name": "MediSage",
      "slug": "medisage",
-     "description": "'MediSage is an India-based digital health company that operates one of",
+     "description": "MediSage is an India-based digital health company that operates one of Asia's largest online medical communities, connecting doctors and healthcare practitioners with first-hand, peer-reviewed medical information, live CME webinars, clinical discussion forums, medical news, and professional networking. Backed by Bessemer Venture Partners, MediSage delivers its knowledge platform primarily through consumer-facing web and mobile applications for physicians; no public developer API, OpenAPI specification, or partner integration surface has been identified at this time.",
      "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7445,7 +7445,7 @@
     {
      "name": "Mirana Toys",
      "slug": "mirana-toys",
-     "description": "'Mirana Toys (Mirana Innovations Pvt Ltd) is an India-based smart-toy company and OEM/ODM",
+     "description": "Mirana Toys (Mirana Innovations Pvt Ltd) is an India-based smart-toy company and OEM/ODM manufacturer of electronic toys — RC cars, monster trucks, drones, educational toys, and AI/AR toys. It pairs its consumer products with the Mirana smart app (iOS and Android), a mobile gaming platform that lets kids and adults control and play with Mirana toys over Bluetooth. As an OEM partner it offers in-house PCB/PCBA design and SMT assembly, tooling and mold design, mobile app development, compliance support (ASTM, EN-71, RoHS, ISO, SMETA), and global logistics for toy brands and retailers. Backed by Accel. The company publishes a consumer e-commerce storefront and support center but no public API or developer platform.",
      "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7516,7 +7516,7 @@
     {
      "name": "Bizongo",
      "slug": "bizongo",
-     "description": "'Bizongo is a Mumbai-based B2B commerce and supply-chain platform founded in 2015 that",
+     "description": "Bizongo is a Mumbai-based B2B commerce and supply-chain platform founded in 2015 that digitizes procurement, vendor management, and supply-chain financing for enterprises across India, with a focus on packaging, raw materials, and made-to-order goods. It operates a SaaS-led vendor digitization stack plus an embedded-finance offering, connecting large buyers with a network of manufacturing partners. Bizongo is backed by Accel, Chiratae Ventures, B Capital, and others. It was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Bizongo publishes no public developer portal, API reference, OpenAPI definition, or /.well-known discovery surface — third-party logistics integration is offered only through carrier aggregators such as ClickPost, so most API-artifact scoring dimensions are not applicable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizongo/refs/heads/main/screenshots/bizongo-2026-07-25T203219.png",
      "score": 10.2,
      "band": "minimal",
@@ -7552,7 +7552,7 @@
     {
      "name": "Cholamandalam",
      "slug": "cholamandalam",
-     "description": "'Cholamandalam Investment and Finance Company (Chola) is an Indian non-banking financial",
+     "description": "Cholamandalam Investment and Finance Company (Chola) is an Indian non-banking financial company (NBFC) headquartered in Chennai and part of the Murugappa Group (CIN L65993TN1978PLC007576). It provides lending across vehicle finance (commercial vehicles, cars, two-wheelers, three-wheelers, tractors and construction equipment), home loans and loan against property, SME/MSME and business loans, supply chain finance, gold loans, and consumer and personal loans through a branch network across India. No public developer portal, API documentation, or SDKs were found during enrichment; the company operates consumer/branch and mobile-app (Chola One) channels rather than a published developer program. Group affiliates include Chola Securities and the Gaadi Bazaar vehicle marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cholamandalam/refs/heads/main/screenshots/cholamandalam-2026-07-25T205252.png",
      "score": 10.2,
      "band": "minimal",
@@ -7588,7 +7588,7 @@
     {
      "name": "Fivestargroup",
      "slug": "fivestargroup",
-     "description": "'Five Star Group (Five Star Business Finance) is an India-based non-banking",
+     "description": "Five Star Group (Five Star Business Finance) is an India-based non-banking financial company (NBFC) that provides small-business and mortgage loans to self-employed and underserved borrowers, primarily across southern India. Its public web presence is an investor-relations and customer-service portal covering board and management disclosures, financials, annual reports, NCD and SEBI (LODR) compliances, RBI policies, credit ratings, and investor grievance redressal, alongside customer tools such as a loan mobile app, online EMI payments, and NACH mandate cancellation. It is listed in the API Evangelist network as a portfolio company of Norwest Venture Partners. No public developer program, API, or SDK was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fivestargroup/refs/heads/main/screenshots/fivestargroup-2026-07-25T214647.png",
      "score": 10.2,
      "band": "minimal",
@@ -7659,7 +7659,7 @@
     {
      "name": "Ofbusiness",
      "slug": "ofbusiness",
-     "description": "'OfBusiness is one of India''s largest B2B raw-materials procurement and",
+     "description": "OfBusiness is one of India's largest B2B raw-materials procurement and credit platforms, serving more than two million SMEs and corporates. It operates as an aggregator, manufacturer, and importer/exporter across supply chains including steel, aluminium, chemicals, polymers, and agriculture, pairing live commodity pricing, quotations, and order tracking with working-capital credit through its NBFC arm Oxyzo. Related brands include BidAssist (government tender and procurement intelligence), SMEAssist, and Ved AI. The company is backed by Norwest Venture Partners and the SoftBank Vision Fund. OfBusiness reaches customers primarily through its website and iOS/Android mobile apps; no public developer API or API documentation was found during enrichment.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7694,7 +7694,7 @@
     {
      "name": "PropTiger",
      "slug": "proptiger",
-     "description": "'PropTiger.com is one of India''s leading online real estate advisory and",
+     "description": "PropTiger.com is one of India's leading online real estate advisory and transaction platforms, founded in 2011 and now part of the REA India group (alongside Housing.com). It helps home buyers discover, evaluate, and purchase residential property across major Indian cities, combining property search and locality research with on-ground advisory, legal paperwork guidance, and home-loan assistance. The public surface is a consumer-facing web and mobile marketplace; as of this enrichment pass PropTiger publishes no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or MCP server. This profile captures verifiable company identity, published consumer pages, and live domain-security posture. Backed by Accel.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7729,7 +7729,7 @@
     {
      "name": "Veritasfin",
      "slug": "veritasfin",
-     "description": "'Veritas Finance Limited is a non-banking finance company (NBFC) in India",
+     "description": "Veritas Finance Limited is a non-banking finance company (NBFC) in India focused on retail and micro, small and medium enterprise (MSME) lending to underserved and self-employed customers. Its lending products include MSME and business loans, loan against property, home loans, mortgage and working-capital finance, and used commercial vehicle loans, supported by an EMI calculator, branch network, online payment portals and an investor-relations and corporate-governance section. It was surfaced in the API Evangelist network as a portfolio company of Norwest Venture Partners. Public probing of veritasfin.in finds a corporate financial-services website with no developer portal, documentation, or public API surface at this time.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7799,7 +7799,7 @@
     {
      "name": "Sadbhav Engineering Limited",
      "slug": "sadbhaveng",
-     "description": "'Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an",
+     "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7905,7 +7905,7 @@
     {
      "name": "ElasticRun",
      "slug": "elasticrun",
-     "description": "'ElasticRun (legally NTEx Transportation Services Pvt Ltd) is a Pune,",
+     "description": "ElasticRun (legally NTEx Transportation Services Pvt Ltd) is a Pune, India based B2B e-commerce and rural logistics platform founded in 2016 by Sandeep Deshmukh, Saurabh Nigam and Shitiz Bansal. It operates an aggregated, variable-capacity transportation network that stitches together idle logistics capacity to connect FMCG brands and manufacturers to the mom-and-pop kirana stores of rural and semi-urban India. The platform blends mobile technology with local entrepreneurs to run an assisted-commerce model spanning 125,000+ kiranas and 80,000+ villages across 26 states, offering last-mile delivery, B2B distribution and supply-chain services. ElasticRun is backed by Prosus Ventures and SoftBank Vision Fund. This profile is a network stub: no public developer API, documentation or SDKs were found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elasticrun/refs/heads/main/screenshots/elasticrun-2026-07-25T213057.png",
      "score": 9.3,
      "band": "minimal",
@@ -7941,7 +7941,7 @@
     {
      "name": "CityMall",
      "slug": "citymall",
-     "description": "'CityMall is an Indian social-commerce and e-commerce platform operated by Rashanbox",
+     "description": "CityMall is an Indian social-commerce and e-commerce platform operated by Rashanbox Retail Private Limited (CIN U52190HR2020PTC086114), serving Tier-2 and Tier-3 towns through a community-group-buying model. Customers shop across groceries, staples, fashion, electronics, home and kitchen, beauty and health, kids and toys, and books and stationery, with cash-on-delivery and free-delivery options via web and native Android/iOS apps. The company runs on modern web infrastructure (CloudFront CDN, next-gen image optimization) and is backed by Accel, General Catalyst, and Norwest Venture Partners. No public developer API, portal, or documentation surface is currently published; this profile captures the company identity and its verified domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/citymall/refs/heads/main/screenshots/citymall-2026-07-25T205443.png",
      "score": 8.9,
      "band": "minimal",
@@ -7977,7 +7977,7 @@
     {
      "name": "Vegrow",
      "slug": "vegrow",
-     "description": "'Vegrow is a Bengaluru-based B2B fruits marketplace founded in 2020 by IIT",
+     "description": "Vegrow is a Bengaluru-based B2B fruits marketplace founded in 2020 by IIT alumni that connects Indian fruit farmers with demand outlets across retail channels, using technology to match produce such as apples, bananas, pomegranates, and grapes with buyers, handling grading, sorting, quality assurance, and delivery, and paying farmers digitally. Backed by GIC, Prosus Ventures, Matrix Partners India, Elevation Capital, Lightspeed, and Ankur Capital, it raised a $46M round led by GIC in December 2023. Vegrow publishes no public API or developer program today.",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8012,7 +8012,7 @@
     {
      "name": "Nueclear",
      "slug": "nueclear",
-     "description": "'Nueclear Healthcare Limited, founded in 2011 and powered by Thyrocare,",
+     "description": "Nueclear Healthcare Limited, founded in 2011 and powered by Thyrocare, is one of India's leading cancer-diagnostics chains, operating a nationwide network of PET-CT and CT scan centres. It offers advanced whole-body, PSMA, DOPA, brain and bone PET-CT scans plus plain and contrast CT imaging for cancer diagnosis at affordable rates, with centres across Mumbai, Navi Mumbai, Delhi, Hyderabad, Bangalore, Lucknow, Nashik and Surat. Nueclear is a consumer diagnostic-imaging provider and publishes no public developer API surface.",
      "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8172,7 +8172,7 @@
     {
      "name": "Trinkerr",
      "slug": "trinkerr",
-     "description": "'Trinkerr is a Bengaluru, India algorithmic and social trading platform",
+     "description": "Trinkerr is a Bengaluru, India algorithmic and social trading platform founded in 2021 by Manvendra Singh and Gaurav Agarwal, backed by Accel and India Quotient. Its mobile app (com.trinkerr.app) automates trades with ready-made algos crafted by industry experts for stock market enthusiasts. As of 2026-07-21 the company website trinkerr.com resolves to a GoDaddy parked page, no api/docs/developer subdomains resolve, and no developer portal, API documentation, or public API surface could be found, though the Google Play listing, LinkedIn, and YouTube channel remain live. Trinkerr does not currently publish a public API.",
      "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8213,7 +8213,7 @@
     {
      "name": "BlackBuck",
      "slug": "blackbuck",
-     "description": "'BlackBuck, operated by Zinka Logistics Solutions and incorporated in 2015, runs India''s",
+     "description": "BlackBuck, operated by Zinka Logistics Solutions and incorporated in 2015, runs India's largest digital trucking platform, digitizing the truck-operator lifecycle for roughly a million truck operators (about 28% of India's truckers) across 100,000+ villages. Its super-app spans a loads marketplace, FASTag toll payments, fuel, GPS/telematics, vehicle and working-capital financing, and a used-trucks marketplace. Listed on the NSE as BLACKBUCK since November 2024, the company was surfaced as a portfolio company of Accel and added to the API Evangelist network. No public developer program, API documentation, or OpenAPI surface was found during enrichment; this profile carries the company identity plus a probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blackbuck/refs/heads/main/screenshots/blackbuck-2026-07-25T203247.png",
      "score": 8.1,
      "band": "minimal",
@@ -8249,7 +8249,7 @@
     {
      "name": "Infra.Market",
      "slug": "inframarket",
-     "description": "'Infra.Market is a technology-enabled building materials platform serving India''s",
+     "description": "Infra.Market is a technology-enabled building materials platform serving India's construction and real estate sectors across the entire project lifecycle. Operating as a house of brands, it supplies concrete, aggregates, steel, AAC blocks, plywood, tiles, sanitaryware, paints, plumbing, modular kitchens, hardware, electricals, appliances, and rental equipment through both B2B (direct corporate sales with site delivery) and B2R (retail via dealers and distributors across 17,000+ touchpoints). It is backed by 280+ manufacturing facilities across 22 Indian states under brands including Shalimar Paints, RDC, IVAS, Robo, and Ultrafine, and is headquartered in Thane, Maharashtra. Added to the API Evangelist network as an Accel portfolio company; no public developer API surface has been identified to date.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/inframarket/refs/heads/main/screenshots/inframarket-2026-07-25T222425.png",
      "score": 8.1,
      "band": "minimal",
@@ -8356,7 +8356,7 @@
     {
      "name": "Breathe Well-being",
      "slug": "breathe-well-being",
-     "description": "'Breathe Well-being is an India-based digital therapeutics and chronic-care company focused",
+     "description": "Breathe Well-being is an India-based digital therapeutics and chronic-care company focused on Type 2 diabetes reversal and management. Through a mobile app (Android/iOS) it pairs continuous health coaching, personalized nutrition and lifestyle plans, medical supervision, and progress tracking to help members reduce blood sugar, lose weight, and lower medication dependence. Founded by Aditya Kaicker and Rohan Verma, the company is backed by Accel and Y Combinator (Series A, 2021). It operates as a direct-to-consumer health program rather than an API provider: as of this enrichment pass it publishes no public developer portal, API documentation, OpenAPI specification, SDKs, or /.well-known discovery surface (paths return the SPA lander fallback). This profile captures the company identity and its probed domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-well-being/refs/heads/main/screenshots/breathe-well-being-2026-07-25T203747.png",
      "score": 7.7,
      "band": "minimal",
@@ -8398,7 +8398,7 @@
     {
      "name": "InstaPaisa",
      "slug": "instapaisa",
-     "description": "InstaPaisa was an India-based personal-finance and lending fintech surfaced as a 500 Global",
+     "description": "InstaPaisa was an India-based personal-finance and lending fintech surfaced as a 500 Global (500 Startups) portfolio company and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the company appears defunct or absorbed — its domain instapaisa.com resolves (Amazon CloudFront) but redirects to InCred Finance (incred.com), an Indian digital lending / NBFC platform, indicating an acquisition or wind-down. No public developer portal, API documentation, or machine-readable API specification was found for InstaPaisa, so no API artifacts could be harvested or derived; only live domain-security signals for instapaisa.com were probed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/instapaisa/refs/heads/main/screenshots/instapaisa-2026-07-25T222615.png",
      "score": 7.7,
      "band": "minimal",
@@ -8482,7 +8482,7 @@
     {
      "name": "Koinex",
      "slug": "koinex",
-     "description": "'Koinex was an Indian digital-asset exchange launched in 2017, describing itself as India''s",
+     "description": "Koinex was an Indian digital-asset exchange launched in 2017, describing itself as India's first and largest cryptocurrency exchange with more than one million users. It offered spot trading across multiple crypto assets with INR pairs before regulatory uncertainty around Indian banking access forced it to shut down all services in June 2019, asking users to withdraw their holdings by July 15, 2019. The company is DEFUNCT: koinex.in now serves only a single static wind-down notice directing former users to claim any crypto assets left on the platform through CoinDCX, with which Koinex partnered for the transition. There is no live product, developer portal, documentation, or API surface; the domain's TLS certificate expired in March 2025 and every path other than the notice returns 403. Retained in the API Evangelist network as a historical record of a shut-down crypto exchange and as a Pantera Capital portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/koinex/refs/heads/main/screenshots/koinex-2026-07-25T224111.png",
      "score": 7.7,
      "band": "minimal",
@@ -8524,7 +8524,7 @@
     {
      "name": "Medi Assist",
      "slug": "medi-assist",
-     "description": "'MediBuddy (Medi Assist) is a Bessemer Venture Partners-backed digital",
+     "description": "MediBuddy (Medi Assist) is a Bessemer Venture Partners-backed digital healthcare platform based in India that lets consumers and corporate health-benefit members book online doctor consultations, order lab tests and diagnostic health checkups, buy medicines, and access cashless hospitalization and insurance-linked care through a single app and website. It operates as a consumer-facing health services marketplace; at the time of this enrichment pass it publishes no public developer API, developer portal, or machine-readable API specification. This profile records what could be verified from the public web surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8565,7 +8565,7 @@
     {
      "name": "Mintifi",
      "slug": "mintifi",
-     "description": "'Mintifi is an Indian supply-chain financing platform that provides inventory",
+     "description": "Mintifi is an Indian supply-chain financing platform that provides inventory and working-capital financing to SMEs, distributors, and dealers across manufacturer distribution networks. Its products include checkout and inventory financing, an Electronic Invoice Presentment and Payment (EIPP) solution for ERP-integrated invoice settlement and reconciliation, WhatsApp-based inventory financing, and Mintifi Collect for payment collection with Tally integration. The company exposes ERP-integration APIs to partners and is backed by Norwest Venture Partners. No public developer portal, OpenAPI, or self-serve API documentation is currently published; the docs host is access-gated.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8606,7 +8606,7 @@
     {
      "name": "Moneyview",
      "slug": "moneyview",
-     "description": "'Moneyview is an India-based digital financial services platform and consumer fintech app",
+     "description": "Moneyview is an India-based digital financial services platform and consumer fintech app offering instant personal loans (up to 10 lakh), home loans, loan against property, credit cards, credit score checks, insurance, digital gold investment, UPI payments, EMI calculators, and personal-finance tools. It operates an RBI-guideline-compliant, paperless lending experience via web and mobile apps for Indian consumers. As of this enrichment pass the company publishes no public developer API surface, SDKs, developer portal, or OpenAPI: no developer/docs/api subdomain resolves and /.well-known/ discovery paths are blocked. It does publish a site-level llms.txt describing its consumer products. Backed by Ribbit Capital; surfaced to the API Evangelist network as a portfolio lead.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8647,7 +8647,7 @@
     {
      "name": "NAKAD",
      "slug": "nakad",
-     "description": "'NAKAD is India''s leading Reconciliation-as-a-Service platform, a fintech",
+     "description": "NAKAD is India's leading Reconciliation-as-a-Service platform, a fintech delivering cash-flow and working-capital solutions to small businesses and MSMEs. Its proprietary MicroBill technology enables lending and loans through invoice discounting, invoice factoring and reverse factoring so suppliers receive early payment, with built-in reconciliation for accounts receivable, accounts payable, payments, debit notes, credit notes and banking. Backed by Accel. No public developer API surface, documentation, SDKs, or well-known discovery documents were found during enrichment.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8688,7 +8688,7 @@
     {
      "name": "NephroPlus",
      "slug": "nephroplus",
-     "description": "'NephroPlus is India''s largest dialysis network, operating 500+ dialysis",
+     "description": "NephroPlus is India's largest dialysis network, operating 500+ dialysis centers across the country and delivering kidney care through in-clinic hemodialysis, home hemodialysis, and peritoneal dialysis, alongside allied nephrology services and a training academy for dialysis technicians. Backed by Bessemer Venture Partners, the company reaches patients through its consumer website and mobile apps (iOS and Android). It was surfaced as a portfolio-company lead and added to the API Evangelist network for enrichment; as of this pass NephroPlus publishes no public API, developer portal, SDK, or machine-readable discovery surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8729,7 +8729,7 @@
     {
      "name": "Nse-india",
      "slug": "nse-india",
-     "description": "'National Stock Exchange of India (NSE), operating at nseindia.com, is",
+     "description": "National Stock Exchange of India (NSE), operating at nseindia.com, is one of the world's largest stock exchanges by number of trades and derivatives contracts, headquartered in Mumbai. It runs electronic equity, derivatives, debt, and currency markets, publishes market data and corporate filings, and maintains the Nifty family of indices via NSE Indices. NSE exposes market data primarily through licensed data feeds and the undocumented endpoints powering nseindia.com rather than a published public developer API program; this profile was surfaced as an enrichment lead and has no documented public REST API surface at this time.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8811,7 +8811,7 @@
     {
      "name": "Open",
      "slug": "open",
-     "description": "Open (Open Financial Technologies) operates at open.money as an India-based",
+     "description": "Open (Open Financial Technologies) operates at open.money as an India-based fintech offering a connected digital business banking platform for SMEs and startups. It pairs a business current account with invoicing, payments, automated accounting, expense management and payroll, letting founders run their banking and finance operations from a single dashboard. Open is a Speedinvest portfolio company. This profile was added to the API Evangelist network as a portfolio lead; the company website is protected by Cloudflare and no public OpenAPI could be harvested during enrichment.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8852,7 +8852,7 @@
     {
      "name": "Paytm Payments Bank",
      "slug": "paytm-payments-bank",
-     "description": "'Paytm Payments Bank Limited is an Indian payments bank headquartered in Noida, offering",
+     "description": "Paytm Payments Bank Limited is an Indian payments bank headquartered in Noida, offering digital savings and current accounts, the Paytm Wallet, FASTag, debit cards, UPI and other retail banking services to consumers and merchants. It operates as a distinct entity from Paytm's merchant payment-gateway developer platform (One97 Communications), and does not publish its own public developer API surface. This profile was surfaced as a portfolio lead and enriched by the pipeline.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8893,7 +8893,7 @@
     {
      "name": "Regency Healthcare",
      "slug": "regencyhealthcare",
-     "description": "'Regency Healthcare is a multi-specialty tertiary and super-speciality",
+     "description": "Regency Healthcare is a multi-specialty tertiary and super-speciality hospital network in northern India, operating five centres across Kanpur, Lucknow and Gorakhpur with 240+ doctors and physicians covering 20+ medical specialties including cardiology, oncology (cancer care), nephrology, orthopedics and gastroenterology. Patient-facing services include appointment booking, emergency and ambulance care, diagnostic imaging (PET-CT), and an online lab-report portal. Surfaced as a portfolio lead of norwest-venture-partners and added to the API Evangelist network; the enrichment pipeline found no public developer/API surface for this provider.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8934,7 +8934,7 @@
     {
      "name": "Sayre Therapeutics",
      "slug": "sayre-therapeutics",
-     "description": "'Sayre Therapeutics is a healthcare company founded in 2015 that brings innovative",
+     "description": "Sayre Therapeutics is a healthcare company founded in 2015 that brings innovative treatments for rare, orphan, and life-threatening diseases to India and the broader SAARC region. It works across clinical research, regulatory strategy, and commercialization and market access, partnering with global licensors to bring US-, EU-, and Japan-approved drugs, drug-delivery devices, and diagnostics to South Asian markets under local regulatory standards. Its portfolio spans special-access and commercially approved products, diagnostics, biosimilars, and niche generics. Surfaced as a portfolio company of Accel and added to the API Evangelist network. The company publishes no public developer portal, API, or technical documentation.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8975,7 +8975,7 @@
     {
      "name": "Uni Cards",
      "slug": "uni-cards",
-     "description": "'Uni Cards (Uniorbit Technologies) is a Bangalore-based Indian consumer fintech backed by",
+     "description": "Uni Cards (Uniorbit Technologies) is a Bangalore-based Indian consumer fintech backed by Accel that builds credit-card and pay-later products, best known for its Uni Pay 1/3rd Card and co-branded credit cards delivered through its consumer mobile app. Uni Cards publishes no public developer portal, API documentation, or SDKs; its api.uni.cards and docs.uni.cards hosts resolve but are closed behind a Cloudflare challenge, so its API surface is internal-only today.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9016,7 +9016,7 @@
     {
      "name": "Captain Fresh",
      "slug": "captain-fresh",
-     "description": "'Captain Fresh is a Bangalore, India based B2B technology company building sustainable",
+     "description": "Captain Fresh is a Bangalore, India based B2B technology company building sustainable seafood and animal-protein supply chains worldwide, connecting fishermen, farmers, processors and retailers through a technology-enabled sourcing, cold-chain and distribution marketplace. Backed by Accel and Prosus Ventures, the company operates across India and international markets. It is tracked in the API Evangelist network as a consumer / supply-chain company profile; no public developer API, documentation, or developer portal was found during enrichment (a marketing website only).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/captain-fresh/refs/heads/main/screenshots/captain-fresh-2026-07-25T204440.png",
      "score": 7.6,
      "band": "minimal",
@@ -9052,7 +9052,7 @@
     {
      "name": "Material Depot",
      "slug": "material-depot",
-     "description": "'Material Depot is India''s design-first interior-materials marketplace and experience-centre",
+     "description": "Material Depot is India's design-first interior-materials marketplace and experience-centre network, headquartered in Bengaluru and founded in 2022. It helps homeowners, architects, interior designers, builders and contractors discover, compare, visualize and purchase interior-design materials — tiles, laminates, wall panels, plywood, wallpapers, flooring, sanitaryware and countertops — spanning 300,000+ products across 1,000+ brands and 100+ categories. The company blends online discovery with physical experience centres in Bengaluru and Hyderabad, offering sample ordering, store-visit booking, free design consultations, video-call shopping, mix-and-match visualization, bulk/trade quotations and pan-India delivery. Backed by Accel, Material Depot operates a consumer/B2B web marketplace and does not currently publish a public developer API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/material-depot/refs/heads/main/screenshots/material-depot-2026-07-25T230402.png",
      "score": 7.6,
      "band": "minimal",
@@ -9088,7 +9088,7 @@
     {
      "name": "Matrimony.com",
      "slug": "matrimonycom",
-     "description": "'Matrimony.com Limited is an India-based online matchmaking and wedding",
+     "description": "Matrimony.com Limited is an India-based online matchmaking and wedding services company, publicly listed on the NSE and BSE and headquartered in Chennai. Founded by Murugavel Janakiraman, it operates the flagship BharatMatrimony brand alongside a large portfolio of regional and community matrimony sites (Tamil, Telugu, Kannada, Bengali, and religion- and community-based platforms), the premium EliteMatrimony service, and wedding-services properties including WeddingBazaar and Mandap.com. The company serves millions of customers each month across its matchmaking and marriage marketplace. It was surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network. As of this enrichment pass, Matrimony.com publishes a corporate/investor and consumer-brand web presence but exposes no public developer API, developer portal, OpenAPI, SDKs, or /.well-known discovery surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matrimonycom/refs/heads/main/screenshots/matrimonycom-2026-07-25T230417.png",
      "score": 7.6,
      "band": "minimal",
@@ -9124,7 +9124,7 @@
     {
      "name": "bigbasket",
      "slug": "bigbasket",
-     "description": "'bigbasket is India''s largest online grocery and daily-essentials retailer, now part of the",
+     "description": "bigbasket is India's largest online grocery and daily-essentials retailer, now part of the Tata Group, delivering fresh produce, packaged foods, household, and personal-care products across Indian cities via web and mobile apps (bigbasket, bbnow, and bbdaily subscription delivery). Surfaced as a Bessemer Venture Partners portfolio company and added to the API Evangelist network. bigbasket operates as a consumer app rather than an API platform: it publishes no public developer portal, API documentation, or client SDKs. Its only first-party public developer surface is the github.com/BigBasket organization and the open-source @bb-tech react-admin UI component libraries on npm.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bigbasket/refs/heads/main/screenshots/bigbasket-2026-07-25T202926.png",
      "score": 7.4,
      "band": "minimal",
@@ -9160,7 +9160,7 @@
     {
      "name": "Anar",
      "slug": "anar",
-     "description": "'Anar was a B2B marketplace and business networking mobile app for small businesses,",
+     "description": "Anar was a B2B marketplace and business networking mobile app for small businesses, sellers, and buyers in India, operating from 2020 to 2023 before shutting down. At its peak it reported 1.6M+ registered businesses, 450k+ sellers, 1.1M+ buyers, and 7M+ business enquiries processed across 6.6M+ listed products. It raised roughly $6.5M from Accel and Elevation Capital plus angel investors. Added to the API Evangelist network as an Accel portfolio company; no public developer platform, API, SDK, or documentation was ever published, and the service is now defunct.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anar/refs/heads/main/screenshots/anar-2026-07-25T200155.png",
      "score": 7.2,
      "band": "minimal",
@@ -9232,7 +9232,7 @@
     {
      "name": "Nabhdrishti Aerospace",
      "slug": "nabhdrishti-aerospace",
-     "description": "'Nabhdrishti Aerospace is a Bangalore-based deep-tech startup building",
+     "description": "Nabhdrishti Aerospace is a Bangalore-based deep-tech startup building India's first fuel-flex micro gas turbine for aviation and power generation. Its ND 400 engine is a 400 N single-core micro gas turbine designed for UAVs, hybrid-electric aircraft, and small aircraft as well as oil & gas, manufacturing, and vehicle range-extender power generation, running on conventional fuels, biofuels, and hydrogen with an innovative recuperator design that targets greater than 15% efficiency at under half the cost of competing turbines. Backed by Accel, the company raised USD 3M and operates from the IISc Bangalore IHUB. As a hardware manufacturer it publishes no public API, SDK, or developer platform; this profile tracks its public web presence.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9267,7 +9267,7 @@
     {
      "name": "Ninjacart",
      "slug": "ninjacart",
-     "description": "'Ninjacart is India''s largest agritech B2B fresh-produce supply-chain",
+     "description": "Ninjacart is India's largest agritech B2B fresh-produce supply-chain company, founded in 2015 and headquartered in Bengaluru. It connects farmers and producers directly with retailers, kirana stores, and businesses, removing layers of middlemen from the fruit-and-vegetable supply chain. Its product portfolio spans Ninja Mandi (wholesale produce marketplace), Ninja Kisan (farmer sourcing), Ninja Kirana (retailer supply), and Ninja Global, alongside a technology-licensing model, Ninja Tech Ventures, and a Startup Program that gives FoodTech/AgTech startups access to its supply-chain tooling (demand forecasting, pricing intelligence, procurement, inventory, logistics, and catalog management). Ninjacart is backed by investors including Accel, Tiger Global, and Walmart/Flipkart. As of this profile it exposes no public self-serve developer API or documentation; technology access is handled through partnerships (partnerships@ninjacart.com).",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9337,7 +9337,7 @@
     {
      "name": "Quick Ride",
      "slug": "quick-ride",
-     "description": "'Quick Ride is an Indian mobility platform offering carpooling, bikepool, and taxi",
+     "description": "Quick Ride is an Indian mobility platform offering carpooling, bikepool, and taxi services across major cities including Bangalore, Chennai, Mumbai, Pune, Kochi, NCR, and Chandigarh. Riders book airport, outstation, rental, and local trips across vehicle classes from hatchbacks to luxury SUVs, or share commutes via car and bike pooling to cut cost and congestion. The service is delivered through consumer iOS and Android apps. No public developer program, API documentation, or machine-readable API surface (OpenAPI, AsyncAPI, MCP, SDKs) is published; this profile was surfaced as a portfolio company of prosus-ventures and enriched via live web and DNS/TLS probes.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9372,7 +9372,7 @@
     {
      "name": "Zepto",
      "slug": "zepto",
-     "description": "'Zepto (Zepto Marketplace Private Limited) is an Indian quick-commerce grocery",
+     "description": "Zepto (Zepto Marketplace Private Limited) is an Indian quick-commerce grocery delivery company founded in 2021 that delivers groceries, fresh fruits and vegetables, meat, pet care, beauty and household products \"in minutes\" from a network of dark stores across major Indian cities. It operates a consumer-facing mobile app and website (zepto.com, formerly zeptonow.com) and publishes no public developer API, developer portal, or API documentation; its partner-facing surfaces are limited to merchant onboarding (Sell on Zepto / brands.zepto.co.in), delivery-partner and franchise programs. Backed by General Catalyst, Lightspeed Venture Partners and Y Combinator.",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9407,7 +9407,7 @@
     {
      "name": "Aggra",
      "slug": "aggra",
-     "description": "Aggra Technologies Private Limited operates Moneytor, an autonomous,",
+     "description": "Aggra Technologies Private Limited operates Moneytor, an autonomous, self-learning platform for stressed loan recovery. Founded in 2017 in Mumbai, India by Ayush Srivastava and Anubhav Singh, Moneytor delivers debt management, collections, enterprise collections software, and distressed-debt / portfolio purchase solutions to lenders. The SaaS platform applies machine learning and automation to digitize the collections process — automating settlements, offering borrowers customized repayment plans, orchestrating multi-channel borrower communications, tracking overdue accounts, sending automated reminders, and surfacing real-time reporting and analytics — helping lenders collect and liquidate their consumer loan portfolios. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aggra/refs/heads/main/screenshots/aggra-2026-07-25T195258.png",
      "score": 6.8,
      "band": "minimal",
@@ -9443,7 +9443,7 @@
     {
      "name": "Bharat Matrimony",
      "slug": "bharat-matrimony",
-     "description": "'Bharat Matrimony is one of India''s largest online matrimonial and",
+     "description": "Bharat Matrimony is one of India's largest online matrimonial and matchmaking services and a flagship brand of Matrimony.com Ltd, a publicly listed Indian consumer-internet company. It helps prospective brides and grooms find life partners through profile creation, community- and region-specific matrimony sites, search and matching, messaging, and premium assisted-matchmaking and wedding services. Added to the API Evangelist network via VC-portfolio discovery (Bessemer Venture Partners, Canaan Partners); no public developer API program or OpenAPI surface was found at the time of enrichment. Sector: consumer.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bharat-matrimony/refs/heads/main/screenshots/bharat-matrimony-2026-07-25T202852.png",
      "score": 6.8,
      "band": "minimal",
@@ -9479,7 +9479,7 @@
     {
      "name": "Bluelearn",
      "slug": "bluelearn",
-     "description": "Bluelearn was an India-based community-driven learning and edtech startup backed by Lightspeed",
+     "description": "Bluelearn was an India-based community-driven learning and edtech startup backed by Lightspeed Venture Partners, added to the API Evangelist network as a portfolio-lead stub for enrichment. As of this enrichment pass the company appears inactive - its primary domain (bluelearn.in) no longer serves a product site and instead resolves to a parked GoDaddy lander page, with no reachable HTTPS endpoint, developer portal, documentation, or public API surface. No OpenAPI, SDK, or other machine-readable API artifacts were found to search, generate, or derive from. This profile remains a lead pending any revived public developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9514,7 +9514,7 @@
     {
      "name": "Bluestone",
      "slug": "bluestone",
-     "description": "\"BlueStone is one of India's largest online retailers of fine jewellery, founded in 2011 by",
+     "description": "BlueStone is one of India's largest online retailers of fine jewellery, founded in 2011 by Gaurav Singh Kushwaha and headquartered in Bangalore. It runs an omnichannel model spanning its e-commerce storefront and 125+ physical stores across India, offering 7,000+ BIS-hallmarked and certified designs in gold, diamond, gemstone, and platinum, plus services such as lifetime exchange, buyback, 30-day returns, and personal video consultations. The company is backed by Accel. BlueStone publishes no public developer portal or API; this profile captures the company's identity and a probed domain-security posture for the network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluestone/refs/heads/main/screenshots/bluestone-2026-07-25T203505.png",
      "score": 6.8,
      "band": "minimal",
@@ -9550,7 +9550,7 @@
     {
      "name": "Byjus",
      "slug": "byjus",
-     "description": "\"Byju's is an Indian educational technology company founded in 2011 by Byju Raveendran and Divya Gokulnath and headquartered in Bengaluru, India. It offered app-based adaptive learning for K-12 students and preparation for competitive exams such as JEE, NEET, and civil services, and expanded through acquisitions including Aakash, WhiteHat Jr, Toppr, Osmo, Epic, and Great Learning. Once among the world's most valuable edtech startups, the company entered insolvency proceedings in India following a widely reported financial collapse. Byju's does not publish a public developer program or API; this profile is maintained in the API Evangelist network as a company record awaiting any future developer surface.\"",
+     "description": "Byju's is an Indian educational technology company founded in 2011 by Byju Raveendran and Divya Gokulnath and headquartered in Bengaluru, India. It offered app-based adaptive learning for K-12 students and preparation for competitive exams such as JEE, NEET, and civil services, and expanded through acquisitions including Aakash, WhiteHat Jr, Toppr, Osmo, Epic, and Great Learning. Once among the world's most valuable edtech startups, the company entered insolvency proceedings in India following a widely reported financial collapse. Byju's does not publish a public developer program or API; this profile is maintained in the API Evangelist network as a company record awaiting any future developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/byjus/refs/heads/main/screenshots/byjus-2026-07-25T204138.png",
      "score": 6.8,
      "band": "minimal",
@@ -9586,7 +9586,7 @@
     {
      "name": "Bzaar",
      "slug": "bzaar",
-     "description": "'Bzaar is a cross-border business-to-business wholesale marketplace founded",
+     "description": "Bzaar is a cross-border business-to-business wholesale marketplace founded in 2020-2021 by Nishant Verman (previously head of corporate development at Flipkart) and Prasanth Nair (previously engineering and product at Amazon, Flipkart, and Lazada), headquartered in Palo Alto / San Francisco, California with operations in India. The platform connected small and medium retailers in the United States and other markets with curated suppliers and manufacturers in India and Southeast Asia, listing thousands of products across home, lifestyle, accessories, apparel, jewelry, cookware, and bakeware verticals, and layering sourcing services such as vendor management, quality control, consolidated logistics, and cross-border payments on top of the catalog. Bzaar raised a $4 million seed round led by Canaan Partners with participation from Binny Bansal, Sameer Nigam, Rahul Chari, Lee Fixel, and Ashish Gupta. As of this enrichment pass Bzaar publishes no public developer portal, API documentation, or machine-readable API surface, and its bzaar.com domain resolves to a registrar parking page rather than a live product site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bzaar/refs/heads/main/screenshots/bzaar-2026-07-25T204149.png",
      "score": 6.8,
      "band": "minimal",
@@ -9622,7 +9622,7 @@
     {
      "name": "CapriCoast",
      "slug": "capricoast",
-     "description": "'CapriCoast (CapriCoast Home Solutions Pvt Ltd) was a Bengaluru, India based online",
+     "description": "CapriCoast (CapriCoast Home Solutions Pvt Ltd) was a Bengaluru, India based online modular-furniture and modular-kitchen retailer, founded in 2014 and backed by Accel Partners and RB Investments. It offered an online 3D catalog of kitchens and wardrobes with designs pre-customized for project floor plans. The company was acquired by HomeLane in November 2017 and no longer operates independently; its domain (capricoast.com) is now parked/for-sale and it publishes no developer, API, or documentation surface. Sector: consumer. Retained in the network as an Accel portfolio record; no API artifacts are available to enrich.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capricoast/refs/heads/main/screenshots/capricoast-2026-07-25T204430.png",
      "score": 6.8,
      "band": "minimal",
@@ -9693,7 +9693,7 @@
     {
      "name": "Culinarybrands",
      "slug": "culinarybrands",
-     "description": "'Culinary Brands is an Indian foodservice and beverage operator on a mission",
+     "description": "Culinary Brands is an Indian foodservice and beverage operator on a mission to prove that fresh, quality food is possible without compromising on taste. The company builds and runs a portfolio of well-known food and coffee brands across India, including Subway (sandwiches / QSR), Lavazza (coffee), and Fresh & Honest (coffee and vending), with a stated focus on sustainability, diversity and inclusion, governance, and CSR. Surfaced as a portfolio company of Norwest Venture Partners and profiled in the API Evangelist network; the public web presence is a WordPress corporate site with no developer portal, documentation, or product API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/culinarybrands/refs/heads/main/screenshots/culinarybrands-2026-07-25T210914.png",
      "score": 6.8,
      "band": "minimal",
@@ -9729,7 +9729,7 @@
     {
      "name": "Edukart",
      "slug": "edukart",
-     "description": "EduKart was an Indian online education startup, backed by 500 Startups (500 Global), that sold",
+     "description": "EduKart was an Indian online education startup, backed by 500 Startups (500 Global), that sold certificate, diploma and degree courses from partner universities and training institutes to Indian learners. It was surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. The company is now defunct — repeated probes of edukart.com find a parked hosting placeholder rather than a live business, and no developer, API, documentation or SDK surface exists to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edukart/refs/heads/main/screenshots/edukart-2026-07-25T212905.png",
      "score": 6.8,
      "band": "minimal",
@@ -9765,7 +9765,7 @@
     {
      "name": "EduPristine",
      "slug": "edupristine",
-     "description": "'EduPristine is a Mumbai-based finance, accounting, and analytics training",
+     "description": "EduPristine is a Mumbai-based finance, accounting, and analytics training institute founded in 2008, offering classroom and online certification-prep and professional up-skilling programs. Its catalog spans financial modeling, CFA, FRM, ACCA, US CPA and US CMA, business analytics and data science, digital marketing, financial accounting (Big 4 aligned), and healthcare/medical coding. EduPristine runs training centers across India alongside self-paced and instructor-led online courses, and is part of Adtalem Global Education. Sector: edtech. No public developer API or documented API surface was found during enrichment; the corporate website sits behind a WAF that blocks automated discovery of a well-known or developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edupristine/refs/heads/main/screenshots/edupristine-2026-07-25T212928.png",
      "score": 6.8,
      "band": "minimal",
@@ -9801,7 +9801,7 @@
     {
      "name": "Ethereal Exploration Guild",
      "slug": "ethereal-exploration-guild",
-     "description": "'Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in",
+     "description": "Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in Bengaluru by Manu J. Nair, Prashant Sharma, and Shubhayu Sardar, building fully reusable medium-lift launch vehicles. Its lead product, the Razor Crest Mk-1 (RCM1), targets roughly 25 tons to low Earth orbit with high launch cadence, up to 16 orbit insertions per flight, and 72-96 hour turnaround. The company has manufactured its 80kN reusable upper-stage engine (Pegasus) using a proprietary Full Flow Segregated Cooling Cycle (FFSCC) and operates a large private rocket testing facility in Cuddalore, Tamil Nadu. EtherealX has raised on the order of $26M across multiple rounds, including a Series A in December 2025. The company offers launch services rather than any developer-facing API or platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ethereal-exploration-guild/refs/heads/main/screenshots/ethereal-exploration-guild-2026-07-25T213648.png",
      "score": 6.8,
      "band": "minimal",
@@ -9837,7 +9837,7 @@
     {
      "name": "Fashionara",
      "slug": "fashionara",
-     "description": "Fashionara was an Indian premium online fashion retailer that launched in 2012 as a",
+     "description": "Fashionara was an Indian premium online fashion retailer that launched in 2012 as a curated \"e-fashion mall\" selling ladies, men's and kids apparel, footwear and lifestyle goods. It ran a flash-sale \"events\" model on a Magento storefront, carried more than 200 international labels alongside Indian brands including Kenneth Cole, Calvin Klein, Fossil, Adidas, Benetton, Van Heusen, Allen Solly, Clarks and Arrow, and operated a quirky in-house sub-brand called F.lea Bazaar. It offered free shipping over Rs. 799, free returns, next-day delivery in eight Indian cities, a style-advisor booking service and an Android app (com.fnara.main). The company was backed by Lightspeed Venture Partners. Fashionara never published a public API, developer portal, SDK or OpenAPI definition — a scan of more than 8,000 archived fashionara.com URLs found no /api, /developer, /docs, /swagger, /oauth or /graphql paths, and no api/developer subdomain was ever archived. The storefront went dark in mid-2016 and the domain no longer resolves. This profile is retained as a historical record; there is no API surface to enrich.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9872,7 +9872,7 @@
     {
      "name": "Fortigo",
      "slug": "fortigo",
-     "description": "'Fortigo Network Logistics Pvt. Ltd. (4TiGO) was a Bengaluru, India technology-enabled",
+     "description": "Fortigo Network Logistics Pvt. Ltd. (4TiGO) was a Bengaluru, India technology-enabled logistics and supply-chain network platform, founded in 2015, operating an online marketplace for freight/truck transportation alongside a Digital Supply Chain Control Tower SaaS. It was backed by Accel and Nandan Nilekani's NRJN Family Trust, raising roughly $23.5M across five rounds. As of this enrichment pass the company appears deadpooled/defunct: its 4tigo.com site is unreachable (connection refused across all hosts) and no public developer portal, API documentation, or machine-readable API definition could be located. No API artifacts were enriched because there is no live developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9943,7 +9943,7 @@
     {
      "name": "GlowRoad",
      "slug": "glowroad",
-     "description": "'GlowRoad is an Indian social-commerce and reselling platform, headquartered in Bengaluru",
+     "description": "GlowRoad is an Indian social-commerce and reselling platform, headquartered in Bengaluru and founded in 2017, that enabled individuals — predominantly home-based women entrepreneurs — to resell fashion, home, and lifestyle products to their social networks over WhatsApp and Facebook without holding inventory. The company was acquired by Amazon India in 2021 and its reselling model was subsequently folded into Amazon's operations. GlowRoad runs a consumer mobile app and a supplier-onboarding funnel rather than a public developer program; as of this enrichment pass no developer portal, API documentation, OpenAPI, or partner API surface is published, and the public web endpoints return HTTP 503.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9978,7 +9978,7 @@
     {
      "name": "Good Glamm Group",
      "slug": "good-glamm-group",
-     "description": "'Good Glamm Group is an India-based content-to-commerce conglomerate",
+     "description": "Good Glamm Group is an India-based content-to-commerce conglomerate in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi, Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona, Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP) stakeholder portal, and no public developer API or documentation surface was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/screenshots/good-glamm-group-2026-07-25T220036.png",
      "score": 6.8,
      "band": "minimal",
@@ -10014,7 +10014,7 @@
     {
      "name": "Goyaz Silver Jewellery",
      "slug": "goyazjewellery",
-     "description": "'Goyaz Silver Jewellery is a Hyderabad-based Indian jewellery retail brand founded in",
+     "description": "Goyaz Silver Jewellery is a Hyderabad-based Indian jewellery retail brand founded in January 2023 by Priyanka Vemuluri, specializing in 92.5 premium and gold-plated silver jewellery that blends traditional Indian craftsmanship with contemporary, occasion-led design. Operating a chain of 18 retail stores across Telangana, Andhra Pradesh and Karnataka (including Kukatpally, Punjagutta, Suchitra Circle, Vijayawada and Visakhapatnam), Goyaz positions gold-plated silver as an accessible luxury alternative to gold. In October 2025 the company raised a Rs 130 crore (~$14.6M) Series A round led by Norwest Venture Partners, its first institutional funding, to expand its retail footprint, strengthen design and manufacturing, and enhance its omnichannel experience. The company operates an online storefront and social commerce presence but publishes no public developer API, SDK, or documentation surface. This profile entered the API Evangelist network as a Norwest Venture Partners portfolio lead.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10049,7 +10049,7 @@
     {
      "name": "HeartyyFresh",
      "slug": "heartyyfresh",
-     "description": "HeartyyFresh is a mobile-first Indian grocery delivery service that lets customers",
+     "description": "HeartyyFresh is a mobile-first Indian grocery delivery service that lets customers order fresh Indian groceries and household staples for home delivery through its iOS and Android apps. The consumer offering centers on convenience and quality, promoting a first-time incentive of 20% off the first five orders placed through the app. HeartyyFresh operates as a direct-to-consumer grocery app (published under the com.rahein.heartyyfresh Android package and the \"HeartyyFresh - Indian Grocery\" iOS listing) rather than a developer platform; it exposes no public API, developer portal, documentation, or SDKs at this time. This profile was surfaced as a portfolio-lead stub and enriched for identity only.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10084,7 +10084,7 @@
     {
      "name": "Hungama",
      "slug": "hungama",
-     "description": "'Hungama (Hungama Digital Media Entertainment Pvt. Ltd.) is an Indian digital",
+     "description": "Hungama (Hungama Digital Media Entertainment Pvt. Ltd.) is an Indian digital entertainment company operating a video-on-demand and audio OTT platform. Hungama.com offers trending web series, popular movies, Hungama Originals, music, podcasts, audiobooks, and audio stories across Hindi, Bollywood, Punjabi, and regional Indian content. The company was surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network. Hungama publishes a public LLM Access Policy (llms.txt) governing how AI systems may crawl, summarize, and reference its content, but exposes no public developer API or documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hungama/refs/heads/main/screenshots/hungama-2026-07-25T221736.png",
      "score": 6.8,
      "band": "minimal",
@@ -10155,7 +10155,7 @@
     {
      "name": "Kishlay Foods",
      "slug": "kishlayfoods",
-     "description": "'Kishlay Foods is a snack-food manufacturing company based in Guwahati,",
+     "description": "Kishlay Foods is a snack-food manufacturing company based in Guwahati, Assam, India, operating since 2003. The company produces premium potato chips, namkeens, and traditional Indian savory snacks, with regional varieties such as Aloo Bhujia, Bengali Mix, Chakna Mix, Cocktail Peanut, and Chana Jor Garam. Kishlay Foods runs a consumer/distributor marketing website and recruits distributor partners across the region; it publishes no public developer API, SDK, webhook, or developer-portal surface. This profile was surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network for enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kishlayfoods/refs/heads/main/screenshots/kishlayfoods-2026-07-25T223905.png",
      "score": 6.8,
      "band": "minimal",
@@ -10191,7 +10191,7 @@
     {
      "name": "Koo",
      "slug": "koo",
-     "description": "'Koo was an Indian microblogging and social networking platform built by Bombinate",
+     "description": "Koo was an Indian microblogging and social networking platform built by Bombinate Technologies, positioned as a multilingual, India-first alternative to Twitter/X with support for Hindi, Kannada, Tamil, Telugu, Marathi and other regional languages. Backed by Accel and Tiger Global, it grew during the 2021 Indian social-media policy disputes before ceasing operations in 2024 after funding and acquisition talks fell through. Koo never published a public developer portal, API documentation, or client SDKs, and its domain no longer serves a site — this profile is retained as a verified-defunct historical record rather than an active API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10226,7 +10226,7 @@
     {
      "name": "Mensabrands",
      "slug": "mensabrands",
-     "description": "'Mensa Brands (now operating as BRND.ME) is a Bangalore, India based \"house",
+     "description": "Mensa Brands (now operating as BRND.ME) is a Bangalore, India based \"house of brands\" / digital-first brand aggregator founded in 2021 by Ananth Narayanan. Following the Thrasio model, it acquires, operates and scales digital-native consumer brands across fashion, beauty, personal care, home and general merchandise, selling through marketplaces such as Amazon, Flipkart and Myntra as well as direct-to-consumer channels. The company reached unicorn status in 2021 and is backed by investors including Norwest Venture Partners, Accel, Prosus Ventures, Tiger Global and Alpha Wave. Its original domain mensabrands.com now redirects to brndme.in. This is a consumer-brands operating company; enrichment found no public developer or API surface (no docs/developer/api subdomains, no /.well-known documents, no llms.txt) beyond the marketing site's WordPress CMS, so no API artifacts were produced.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10261,7 +10261,7 @@
     {
      "name": "Meolaa",
      "slug": "meolaa",
-     "description": "Meolaa is an AI-first, digitally native FMCG company based in India, founded in 2023 by Ishita",
+     "description": "Meolaa is an AI-first, digitally native FMCG company based in India, founded in 2023 by Ishita Sawant. It began as a curated e-commerce marketplace for clean, sustainable, direct-to-consumer brands across fashion, beauty, home, and baby care, and is expanding into building a portfolio of purpose-driven in-house microbrands (including HIRA) powered by a shared AI and data platform for cross-brand innovation, supply-chain resilience, and marketing. The company raised a $6M Pre-Series A round led by General Catalyst with Claypond Capital, Colossa Ventures, Turbostart Global, and Kunal Shah. Meolaa is a consumer company and does not currently publish a public developer API, developer portal, or API documentation.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10296,7 +10296,7 @@
     {
      "name": "Moglix",
      "slug": "moglix",
-     "description": "'Moglix is an Indian B2B commerce platform for industrial and MRO (maintenance,",
+     "description": "Moglix is an Indian B2B commerce platform for industrial and MRO (maintenance, repair, and operations) procurement, founded in 2015 and headquartered in Noida, India, with a Singapore base. Through MoglixBusiness it supplies enterprises with industrial products — safety equipment, electricals, power tools, fasteners, packaging, and office supplies — alongside supply-chain, procurement-software, and financing services. A unicorn backed by Accel and other investors, Moglix operates across manufacturing supply chains in India and international markets. This profile was added to the API Evangelist network as a portfolio lead; enrichment probing found an internal API host (api.moglix.com) but no public developer portal, OpenAPI, or documented API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10331,7 +10331,7 @@
     {
      "name": "MyGlamm",
      "slug": "myglamm",
-     "description": "'MyGlamm is an Indian direct-to-consumer beauty and cosmetics brand operated by Sanghvi",
+     "description": "MyGlamm is an Indian direct-to-consumer beauty and cosmetics brand operated by Sanghvi Beauty and Technologies Private Limited (the Good Glamm Group), backed by Accel. It sells makeup, skincare and personal-care products online and through retail. As of mid-2026 the parent company is undergoing corporate insolvency proceedings and its primary domain serves an insolvency stakeholder notice portal. No public developer API, developer portal, or API documentation surface was found during enrichment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10366,7 +10366,7 @@
     {
      "name": "Myntra",
      "slug": "myntra",
-     "description": "'Myntra is one of India''s largest fashion and lifestyle e-commerce",
+     "description": "Myntra is one of India's largest fashion and lifestyle e-commerce platforms, offering apparel, footwear, accessories, and beauty products across its own and third-party brands. Founded in 2007 and headquartered in Bengaluru, Myntra was acquired by Flipkart (Walmart) in 2014 and operates a consumer marketplace at myntra.com. It was surfaced as a portfolio company of Accel and added to the API Evangelist network as a stub for enrichment. Myntra does not publish a public developer API program; its developer/API hosts resolve behind Akamai but are not openly documented.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10401,7 +10401,7 @@
     {
      "name": "Ola Electric",
      "slug": "ola-electric",
-     "description": "'Ola Electric is an Indian electric-vehicle manufacturer building electric scooters (the S1",
+     "description": "Ola Electric is an Indian electric-vehicle manufacturer building electric scooters (the S1 family), electric motorcycles (the Roadster line), and home energy solutions (Ola Shakti battery systems), all designed and produced in India around its in-house 4680 Bharat Cell and ferrite-motor technology. Backed by SoftBank Vision Fund, the company operates a nationwide Hypercharger fast-charging network and Hyperservice center footprint across India. As a consumer EV and energy hardware manufacturer, Ola Electric publishes no public developer API, developer portal, SDK, or API reference; this profile is maintained in the API Evangelist network as a company identity record rather than an API provider.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10436,7 +10436,7 @@
     {
      "name": "OYO",
      "slug": "oyo",
-     "description": "'OYO (Oravel Stays Limited) is an India-headquartered hospitality company that operates a",
+     "description": "OYO (Oravel Stays Limited) is an India-headquartered hospitality company that operates a franchise and aggregator platform for budget and mid-market hotels, homes, and vacation rentals across India, Southeast Asia, Europe, and other markets. Founded in 2013 by Ritesh Agarwal and backed by SoftBank Vision Fund, OYO standardizes independent properties under its brands and distributes them through its consumer apps and website. It is tracked in the API Evangelist network as a consumer-sector company; as of this enrichment pass OYO publishes no public developer API, developer portal, or API documentation, so this profile carries company identity only.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10471,7 +10471,7 @@
     {
      "name": "Pepperfry",
      "slug": "pepperfry",
-     "description": "'Pepperfry is an Indian online marketplace for furniture and home products,",
+     "description": "Pepperfry is an Indian online marketplace for furniture and home products, founded in 2011 and headquartered in Mumbai. It sells furniture, decor, lamps, kitchen and dining goods, furnishings, and modular home solutions to consumers across India through its website, mobile apps, and a network of physical studio showrooms. It was added to the API Evangelist network as a portfolio company of Norwest Venture Partners. An enrichment pass on 2026-07-20 found no public developer portal, API documentation, OpenAPI/GraphQL specification, SDKs, or /.well-known discovery surface: the consumer site is fully bot-protected (HTTP 403) and there is no evidence of an externally documented API program. The one artifact captured is a live domain-security probe of pepperfry.com.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10506,7 +10506,7 @@
     {
      "name": "PriceBaba",
      "slug": "pricebaba",
-     "description": "PriceBaba is an India-based consumer price-comparison and gadget research",
+     "description": "PriceBaba is an India-based consumer price-comparison and gadget research platform, founded in 2012 and headquartered in Mumbai. It helps shoppers compare mobile phones, consumer electronics and other gadgets by aggregating specifications, expert and user reviews, and prices across online and offline local retail stores, so buyers can find the best available deal near them. PriceBaba is backed by 500 Global (formerly 500 Startups). No public developer program or API surface was discoverable during this enrichment pass. The website is served behind Cloudflare and blocks automated access, and no api.pricebaba.com host resolves.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10541,7 +10541,7 @@
     {
      "name": "QikPod",
      "slug": "qikpod",
-     "description": "'QikPod was an Accel-backed Indian startup that built an automated parcel",
+     "description": "QikPod was an Accel-backed Indian startup that built an automated parcel locker network for last-mile e-commerce delivery, letting shoppers collect and return packages from unattended smart lockers placed in apartments, offices, and retail locations. The company has since rebranded and pivoted to Leapmile Robotics, a nano-warehouse automation and intelligent fulfillment platform that uses robotics to handle storage, retrieval, picking, auditing, and dispatch inside compact autonomous warehouse facilities. The legacy qikpod.com domain now redirects to leapmile.com/qikpod. This profile is maintained in the API Evangelist network as a company lead; no public developer API surface has been found for either the QikPod or Leapmile properties.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10611,7 +10611,7 @@
     {
      "name": "Samunnati",
      "slug": "samunnati",
-     "description": "'Samunnati is an integrated agri-enterprise platform working to de-fragment India''s",
+     "description": "Samunnati is an integrated agri-enterprise platform working to de-fragment India's agricultural value chain by connecting farmers, Farmer Producer Organizations (FPOs), and agri enterprises. It combines financial solutions (lending to farmers, FPOs, and agri businesses), trade facilitation and market linkages, and digital marketplaces (FPO Next, Trade Next, and input, output, credit, and consumer marketplaces), alongside innovation, research, and foundation-led community work. Operating across Chennai, Hyderabad, Bengaluru, Delhi, Mumbai, Kolkata, Jaipur, Odisha, Uttar Pradesh, and Bihar, it positions itself as one of India's largest agri enterprises. Samunnati runs several customer-facing digital platforms but does not publish a public developer portal or API at this time.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10646,7 +10646,7 @@
     {
      "name": "Sheroes",
      "slug": "sheroes",
-     "description": "Sheroes is a women-only social network and community platform based in",
+     "description": "Sheroes is a women-only social network and community platform based in India, founded in 2014 by Sairee Chahal. It gives women a safe, moderated space to connect, ask questions anonymously, seek support, learn, and grow across communities spanning careers, health, relationships, parenting, entrepreneurship, and personal finance. The platform operates a mobile app and website, offers helpline and expert support, and has expanded into women-focused financial services (MahilaMoney). Sheroes was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass Sheroes exposes no public developer API, OpenAPI definition, developer portal, or documented event/webhook surface; the site is a fully client-side single-page application. This profile therefore captures the company identity plus a live domain-security probe of its public host.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10681,7 +10681,7 @@
     {
      "name": "Shriram City",
      "slug": "shriram-city",
-     "description": "'Shriram City (Shriram City Union Finance Ltd) was a leading Indian non-banking",
+     "description": "Shriram City (Shriram City Union Finance Ltd) was a leading Indian non-banking financial company (NBFC) in the Shriram Group, offering personal, business, two-wheeler, gold and small-enterprise loans plus fixed deposits. Founded 1986 in Chennai, it was surfaced as a portfolio company of bessemer-venture-partners. In November 2022 the company was amalgamated into Shriram Finance Ltd; its www.shriramcity.in host no longer resolves and the shriramcity.in apex now redirects to shriramfinance.in. No public developer or API program was found. This profile was enriched by the API Evangelist pipeline: web search + live domain/security/well-known probes.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10716,7 +10716,7 @@
     {
      "name": "Silagroup",
      "slug": "silagroup",
-     "description": "'SILA is a next-generation business services and real estate platform based in India,",
+     "description": "SILA is a next-generation business services and real estate platform based in India, backed by Norwest Venture Partners. It delivers strategic solutions across Facility Management, Material Handling Services, Food & Catering, Real Estate Advisory, and Real Estate Development, supporting corporate entities, real estate funds, landowners, and developers throughout the entire real estate lifecycle. SILA runs a WordPress-based corporate website (silagroup.co.in) and publishes no public developer API surface; the only exposed HTTP API is the internal WordPress REST (wp-json) endpoint used to render the CMS. Enrichment confirmed no OpenAPI/AsyncAPI, no /.well-known discovery documents, and no developer portal, SDKs, or docs as of this pass.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10751,7 +10751,7 @@
     {
      "name": "simsim",
      "slug": "simsim",
-     "description": "'simsim was an Accel-backed India-based social / video commerce startup (sector: consumer)",
+     "description": "simsim was an Accel-backed India-based social / video commerce startup (sector: consumer) that let creators sell products through short shoppable videos; it was acquired by Google in 2021 and wound down. Enrichment probes on 2026-07-21 confirm the simsim.in zone is live for email only (Google Workspace MX + SPF), with no resolving web host (apex or www), no api/app/developer/docs subdomains, and no reachable HTTPS, developer portal, documentation, or API surface to catalog.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10786,7 +10786,7 @@
     {
      "name": "SK Finance Ltd",
      "slug": "skfin",
-     "description": "'SK Finance Ltd (skfin.in) is a Jaipur, India-based non-banking financial",
+     "description": "SK Finance Ltd (skfin.in) is a Jaipur, India-based non-banking financial company (NBFC) providing asset-backed retail lending. Its products span commercial vehicle, car, tractor, construction-equipment and two-wheeler loans alongside secured business loans and home-renovation / mortgage finance, delivered through a physical branch network with EMI calculators, online EMI payment, a branch locator, a loan-application portal and a customer \"Refer and Earn\" referral program. Backed by Norwest Venture Partners. As of this enrichment pass the company publishes a corporate/marketing website (Next.js) with no public developer portal, API documentation, SDKs or other machine-readable API surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10856,7 +10856,7 @@
     {
      "name": "Spenny",
      "slug": "spenny",
-     "description": "Spenny is an Indian personal-finance and micro-investing app that works like a digital",
+     "description": "Spenny is an Indian personal-finance and micro-investing app that works like a digital piggy bank, rounding up everyday spending on cards, UPI, and netbanking and automatically investing the spare change. Users can put round-ups and lump sums (from as little as Rs. 10) into digital gold and curated mutual fund baskets, with no lock-ins and anytime withdrawals. Spenny is a consumer mobile application and does not currently publish a public developer API, documentation, or developer portal. Backed by 500 Global.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10926,7 +10926,7 @@
     {
      "name": "SwitchMe",
      "slug": "switchme",
-     "description": "'SwitchMe was a Mumbai, India based fintech startup founded in 2012 and",
+     "description": "SwitchMe was a Mumbai, India based fintech startup founded in 2012 and backed by 500 Global that helped consumers evaluate and switch their home loans and mobile service providers, handling document collection and submission on their behalf. The company appears to be defunct: no public developer program, API, or documentation could be found, and its switchme.in domain currently resolves to unrelated content. This profile records what could be verified during the enrichment pass; there is no API surface to catalog at this time.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10961,7 +10961,7 @@
     {
      "name": "Taggle Internet Ventures",
      "slug": "taggle-internet-ventures",
-     "description": "'Taggle Internet Ventures Private Limited was an Indian online group-buying / daily-deals",
+     "description": "Taggle Internet Ventures Private Limited was an Indian online group-buying / daily-deals platform (taggle.com) incorporated in 2010 in Bangalore, Karnataka, that brought consumers together to purchase discounted products and services from merchants across food & beverage, wellness, and beauty. It raised an early venture round in 2010 and is now reported as permanently closed. The enrichment pass found no live developer program, public API, OpenAPI/AsyncAPI specification, SDKs, or documentation for this entity. Note: the taggle.com domain is now operated by an unrelated Australian digital water-metering company, Taggle Systems, which is a distinct company and not the subject of this record. This profile was surfaced during VC-portfolio mining and is retained as a historical/closed-company stub with no API surface to enrich.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11066,7 +11066,7 @@
     {
      "name": "Toolsvilla",
      "slug": "toolsvilla",
-     "description": "Toolsvilla is an India-based e-commerce marketplace for machinery, tools, and equipment,",
+     "description": "Toolsvilla is an India-based e-commerce marketplace for machinery, tools, and equipment, positioning itself as one of India's largest online stores for industrial, agricultural, and power tools serving small businesses, farmers, and trade buyers. It was surfaced as a Techstars portfolio company and added to the API Evangelist network for enrichment. No public developer API, documentation, or SDKs were found during this enrichment pass; the site's internal backend at api.toolsvilla.com is undocumented and returns a bare JSON response.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11136,7 +11136,7 @@
     {
      "name": "Tripoto Travel",
      "slug": "tripoto-travel",
-     "description": "Tripoto is a travel community and trip-planning platform where travelers discover destinations,",
+     "description": "Tripoto is a travel community and trip-planning platform where travelers discover destinations, read and publish first-person travel itineraries and stories, and browse and book curated trips, tours, and experiences. Content is largely user-generated, with travel guides organized by destination, theme, and season. Tripoto was surfaced as a portfolio company of 500 Global and is tracked in the API Evangelist network. At the time of this profile no public developer API, OpenAPI specification, or developer portal was discoverable; an api.tripoto.com host exists but serves the consumer application backend.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11171,7 +11171,7 @@
     {
      "name": "Virgio",
      "slug": "virgio",
-     "description": "'Virgio is an India-based direct-to-consumer sustainable fashion brand delivering",
+     "description": "Virgio is an India-based direct-to-consumer sustainable fashion brand delivering trend-driven, eco-conscious womens apparel built around circular fashion, recycled and natural fabrics (recycled polyester, organic cotton, viscose, modal, lyocell), ethical production, and zero-waste packaging. It operates as an online-first retail marketplace with a consumer web storefront and mobile app. Surfaced as a portfolio company of Accel and Prosus Ventures; an enrichment probe found a consumer e-commerce presence but no public developer API, developer portal, or API documentation.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11206,7 +11206,7 @@
     {
      "name": "Wiom",
      "slug": "wiom",
-     "description": "'Wiom is an Indian consumer internet company offering recharge-based home",
+     "description": "Wiom is an Indian consumer internet company offering recharge-based home broadband: shared WiFi delivered over a community mesh network so households can pay only for the internet they actually use, without a mobile-data plan or a traditional fixed-line broadband contract. It was surfaced into the API Evangelist network as a portfolio lead of Accel. As of this enrichment pass Wiom operates a consumer marketing website (a React single-page application) but publishes no public developer portal, API documentation, or machine-readable API surface, so this profile carries verified identity and a live domain-security probe rather than API artifacts.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11241,7 +11241,7 @@
     {
      "name": "ZipDial",
      "slug": "zipdial",
-     "description": "ZipDial was a Bangalore, India based mobile marketing and analytics startup founded in",
+     "description": "ZipDial was a Bangalore, India based mobile marketing and analytics startup founded in 2010 that pioneered \"missed call\" engagement, letting consumers interact with brands and campaigns by giving a toll-free number a missed call rather than paying for a call or SMS. It was acquired by Twitter in January 2015 and its standalone product was subsequently wound down. The company was backed by 500 Global (formerly 500 Startups) among other investors. As of this enrichment pass the original company is defunct and no longer operates a developer program or public API; the zipdial.com domain now resolves to an unrelated general-interest content/news aggregation site with no developer, documentation, or API surface. This profile is retained as a historical portfolio-company record.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11358,7 +11358,7 @@
     {
      "name": "Redcarpetup",
      "slug": "redcarpetup",
-     "description": "Redcarpetup is a company surfaced as a portfolio company of y-combinator and added to the",
+     "description": "Redcarpetup is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",

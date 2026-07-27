@@ -53,7 +53,7 @@
     {
      "name": "PayTabs",
      "slug": "paytabs",
-     "description": "PayTabs is a Saudi-built payment orchestration and gateway provider",
+     "description": "PayTabs is a Saudi-built payment orchestration and gateway provider serving merchants across MENA. The PT2 REST API accepts cards and local methods (mada, Meeza, KNET, OmanNet, Benefit, STC Pay, urpay) plus Apple Pay, Google Pay and Samsung Pay through hosted, managed and own-form flows, with tokenization, recurring billing and invoicing. The API is served on region-specific hosts and authenticated with a merchant server key.",
      "score": 70.6,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -223,7 +223,7 @@
     {
      "name": "HyperPay",
      "slug": "hyperpay",
-     "description": "HyperPay is a MENA / Saudi Arabia online payment gateway built on the",
+     "description": "HyperPay is a MENA / Saudi Arabia online payment gateway built on the ACI / OPPWA Open Payment Platform. Its REST API powers the COPYandPAY hosted widget and a Server-to-Server integration, accepting cards (VISA, MASTER, AMEX), the Saudi domestic mada scheme, STC Pay, and Apple Pay, priced and settled in SAR. Additional products include HyperSplit (marketplace payouts) and HyperBill (invoicing).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png",
      "score": 60.5,
      "band": "strong",
@@ -717,7 +717,7 @@
     {
      "name": "Moyasar",
      "slug": "moyasar",
-     "description": "Moyasar is a Saudi Arabian payment gateway that lets businesses accept",
+     "description": "Moyasar is a Saudi Arabian payment gateway that lets businesses accept online payments across mada, Visa, Mastercard, American Express, Apple Pay, Samsung Pay, and STC Pay. Its REST API (base https://api.moyasar.com/v1) covers payments (create, fetch, list, refund, capture, void), hosted invoices, card tokenization, webhooks, and payouts / disbursements. Authentication is HTTP Basic with a publishable or secret API key as the username and an empty password, in separate test and live modes.",
      "score": 34.2,
      "band": "thin",
      "band_label": "Thin",
@@ -758,7 +758,7 @@
     {
      "name": "Geidea",
      "slug": "geidea",
-     "description": "Geidea is a Saudi-headquartered fintech and payments platform serving",
+     "description": "Geidea is a Saudi-headquartered fintech and payments platform serving merchants across the MENA region (Saudi Arabia, Egypt, and the UAE). Its Payment Gateway lets merchants accept card and wallet payments through a hosted Geidea Checkout (HPP) page or a server-to-server Direct API for PCI-DSS-compliant merchants, covering the full transaction lifecycle - create session, 3-D Secure authentication, pay, capture, void, refund, cancel, tokenization, Pay by Link, and Pay by Invoice - with support for mada, Visa, Mastercard, Apple Pay, Google Pay, Meeza QR, and BNPL. Payments are authenticated with a merchant public key and API password over HTTP Basic auth plus an HMAC request signature, and results are delivered back to merchants via webhook (callback) notifications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/screenshots/geidea-2026-07-25T215522.png",
      "score": 33.8,
      "band": "thin",
@@ -922,7 +922,7 @@
     {
      "name": "Lendo",
      "slug": "lendo",
-     "description": "'Lendo (شركة ليندو السعودية للتمويل) is a Riyadh-based Saudi fintech licensed",
+     "description": "Lendo (شركة ليندو السعودية للتمويل) is a Riyadh-based Saudi fintech licensed by the Saudi Central Bank (SAMA, License No. 61/A SH/202203, capital SAR 50M) that operates the Kingdom's first SAMA-licensed Sharia-compliant debt-based crowdfunding platform. Lendo connects small and medium enterprises needing liquidity with retail and institutional investors, offering invoice financing, working capital financing, purchase-order financing and term loans funded within 48 hours of document completion, alongside government-backed programs with Monshaat, SME Bank, the Tourism Development Fund, the Cultural Development Fund, Modon and the Kafala guarantee scheme. On the investor side it runs tiered retail products (Basic, Premium, High Net Worth), an auto-invest engine and an A-D credit scoring engine, reporting SAR 4.5B+ in cumulative financing across 10,000+ funded deals at a 2.93% overall default rate. Lendo publishes no public developer program, API documentation or SDKs; its production API host is authentication-gated and its machine-readable public surface is limited to an llms.txt and a SafeBase-hosted trust center.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lendo/refs/heads/main/screenshots/lendo-2026-07-25T224908.png",
      "score": 26.1,
      "band": "emerging",
@@ -1030,7 +1030,7 @@
     {
      "name": "Johrh",
      "slug": "johrh",
-     "description": "Johrh (جوهره للعبايات, \"Johrh for Abayas\") is a Saudi Arabian direct-to-consumer",
+     "description": "Johrh (جوهره للعبايات, \"Johrh for Abayas\") is a Saudi Arabian direct-to-consumer women's fashion retailer specializing in abayas, jalabiyas, niqabs, scarves (طرح), bags, and complementary modest-wear. The brand operates an Arabic-language online storefront hosted on the Zid e-commerce platform, selling across price tiers (99 SAR, 199 SAR, and premium occasion pieces) with checkout through Saudi payment and buy-now-pay-later gateways (Tabby, Tamara, Madfu, Emkan, ZidPay, Tap, MisPay). It was surfaced as a portfolio-linked company and added to the API Evangelist network; its public web surface is served by the Zid \"Vitrin\" storefront application, whose OpenAPI is published at johrh.com/openapi.json.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png",
      "score": 20.6,
      "band": "emerging",
@@ -1148,7 +1148,7 @@
     {
      "name": "SiFi",
      "slug": "sifi",
-     "description": "'SiFi (الحلول المبسطة المالية) is a Saudi Arabian fintech company offering a",
+     "description": "SiFi (الحلول المبسطة المالية) is a Saudi Arabian fintech company offering a comprehensive corporate spend-management platform for businesses in the Kingdom. Licensed by the Saudi Central Bank (SAMA) and serving more than 5,000 clients, SiFi provides physical and virtual corporate cards with spending controls, real-time expense tracking, employee reimbursements, accounting automation, local vendor payments and international transfers (coming soon), and a cashback rewards program, delivered through web and iOS/Android mobile apps. SiFi is backed by QED Investors. No public developer API or documentation surface was found during this enrichment pass.",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1428,7 +1428,7 @@
     {
      "name": "Adalah for IT Systems LLC",
      "slug": "adalah-for-it-systems-llc",
-     "description": "Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal technology platform that",
+     "description": "Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal technology platform that enables companies to access, understand, and act on the latest and most accurate legal information and procedures in seconds. The AI-driven service targets legal and compliance teams across Saudi Arabia. Backed by 500 Global, the company is tracked in the API Evangelist network; no public API or developer surface has been discovered to date.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adalah-for-it-systems-llc/refs/heads/main/screenshots/adalah-for-it-systems-llc-2026-07-25T181610.png",
      "score": 14.9,
      "band": "minimal",
@@ -1464,7 +1464,7 @@
     {
      "name": "BRKZ",
      "slug": "brkz",
-     "description": "BRKZ is a Saudi Arabian construction-technology company operating a B2B online",
+     "description": "BRKZ is a Saudi Arabian construction-technology company operating a B2B online marketplace for building materials and construction equipment. Positioned as a top online building materials store in the Kingdom of Saudi Arabia (KSA), the platform connects contractors and construction businesses with material suppliers, streamlining procurement and offering nationwide delivery across Saudi Arabia. The bilingual (Arabic and English) storefront lets buyers source construction supplies online, and the company is backed by 500 Global among its investors. This profile was enriched from BRKZ's public web presence; the company runs a private, authenticated API host (api.brkz.com) but does not publish a public developer program, SDKs, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brkz/refs/heads/main/screenshots/brkz-2026-07-25T203938.png",
      "score": 14.9,
      "band": "minimal",
@@ -1572,7 +1572,7 @@
     {
      "name": "Sabbar",
      "slug": "sabbar",
-     "description": "Sabbar is a leading local employment and recruitment platform in Saudi Arabia",
+     "description": "Sabbar is a leading local employment and recruitment platform in Saudi Arabia that connects job seekers with employers across many sectors. Job seekers search listings, build a free CV, and apply to roles, while employers use subscription-based recruitment packages and candidate matching. The platform reports more than 12,000 companies and over 1 million Saudi and non-Saudi job seekers, with iOS and Android mobile apps. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1642,7 +1642,7 @@
     {
      "name": "VOO (now SideUp)",
      "slug": "voo",
-     "description": "VOO was an Egyptian logistics marketplace that rebranded as SideUp in",
+     "description": "VOO was an Egyptian logistics marketplace that rebranded as SideUp in December 2022, relocating its headquarters to Riyadh, Saudi Arabia. SideUp is a fully integrated courier marketplace that lets e-commerce businesses ship locally and globally from one dashboard, connecting merchants with multiple courier services alongside payment gateways, shipping API integration, warehousing, and fulfillment, with plugins for Shopify, Salla, and OpenCart. Backed by 500 Global, Launch Africa VC, Riyadh Angels, and Alex Angels ($1.2M seed). No public developer portal or API documentation is published as of July 2026.",
      "score": 14.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1677,7 +1677,7 @@
     {
      "name": "Barakah",
      "slug": "barakah",
-     "description": "Barakah is a Saudi foodtech company operating a consumer mobile marketplace that fights food",
+     "description": "Barakah is a Saudi foodtech company operating a consumer mobile marketplace that fights food waste by connecting restaurants, cafes, hotels, bakeries, and grocery retailers with consumers who buy their surplus, still-fresh meals and food products at discounts of up to 70 percent for pickup or delivery. Founded in Jeddah and backed by 500 Global, FoodLabs, and Salica Investments, Barakah has grown into one of the most downloaded food and drink apps in Saudi Arabia with partnerships across more than 800 merchants, including global brands. Barakah is a business-to-consumer mobile application and does not currently publish a public developer platform, API, or SDK; this profile captures its identity and public web surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/barakah/refs/heads/main/screenshots/barakah-2026-07-25T202356.png",
      "score": 14.5,
      "band": "minimal",
@@ -1827,7 +1827,7 @@
     {
      "name": "Siolla",
      "slug": "siolla",
-     "description": "Siolla is a Saudi financial-technology company offering a consumer investment-management",
+     "description": "Siolla is a Saudi financial-technology company offering a consumer investment-management mobile application. It provides professionally managed, fully Sharia-compliant investment portfolios, an in-app academy and educational resources covering financial fundamentals, budgeting and investment strategy, and simplified access to investing for modern investors. Siolla is licensed and regulated by the Saudi Capital Market Authority. The company presents a consumer app and website only; no public developer program, API, or developer documentation is published at this time.",
      "score": 14.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1904,7 +1904,7 @@
     {
      "name": "Salasa",
      "slug": "salasa",
-     "description": "Salasa is an end-to-end eCommerce logistics provider based in Saudi Arabia,",
+     "description": "Salasa is an end-to-end eCommerce logistics provider based in Saudi Arabia, offering 3PL fulfillment (warehouse storage, automated pick/pack/ship), hyperlocal dark stores with 2-hour delivery in Riyadh, domestic on-demand and scheduled shipping, cross-border shipping with customs clearance, and reverse logistics / return management. Its Operations Management System (OMS) provides real-time tracking, inventory management, and analytics, and it connects to major eCommerce platforms (Salla, Zid, Shopify, WooCommerce, Magento, Amazon, Trendyol) and offers custom API integrations for merchants automating fulfillment and order synchronization.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1939,7 +1939,7 @@
     {
      "name": "Sweater",
      "slug": "sweater",
-     "description": "Sweater (سويتر) is a Saudi Arabian on-demand mobile car-care company that brings waterless",
+     "description": "Sweater (سويتر) is a Saudi Arabian on-demand mobile car-care company that brings waterless vehicle washing, interior cleaning, detailing, and fragrance services to customers wherever their car is parked. Its app-based platform uses smart scheduling to dispatch field teams by location and uses roughly 7 liters of water per wash versus about 120 liters for traditional methods. The company reports 2M+ washes, 750K+ users, 500+ corporate partnerships, and operations across 8 Saudi cities (Riyadh, Dammam, Khobar, Jeddah, Jubail, Medina, Al-Hassa, and Mecca). Surfaced as a 500 Global portfolio company. It is a consumer/B2B services business with no public developer API surface at this time.",
      "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2009,7 +2009,7 @@
     {
      "name": "Erad",
      "slug": "erad",
-     "description": "Erad is a licensed, Sharia-compliant fintech lender providing fast, flexible",
+     "description": "Erad is a licensed, Sharia-compliant fintech lender providing fast, flexible working capital to small and medium-sized businesses across Saudi Arabia and the United Arab Emirates. Founded in 2022 (Y Combinator S22) and headquartered in Riyadh, Erad offers revenue-based financing, invoice financing (advancing up to 90% of B2B/B2G invoices in as little as 48 hours), and supplier financing to revenue-generating SMEs. The company embeds working-capital products into supplier networks and business platforms, and is backed by investors including Y Combinator, 500 Global, Nuwa Capital, Khwarizmi Ventures, Aljazira Capital, VentureSouq, Oraseya Capital and Joa Capital, alongside debt facilities from Stride Ventures and a $125M asset-backed facility led by Jefferies with Channel Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/erad/refs/heads/main/screenshots/erad-2026-07-25T213556.png",
      "score": 11.4,
      "band": "minimal",
@@ -2045,7 +2045,7 @@
     {
      "name": "Telgani",
      "slug": "telgani",
-     "description": "Telgani is an app-based car rental aggregator founded in 2018 and headquartered",
+     "description": "Telgani is an app-based car rental aggregator founded in 2018 and headquartered in Riyadh, Saudi Arabia. Its consumer iOS and Android apps let users compare prices and book cars from more than 50 partner rental companies with over 500 branches across the Kingdom, offering doorstep delivery, airport pickup, and daily, monthly, or yearly rentals. Backed by 500 Global, Impact46, and Elm, Telgani has raised roughly $8.5M across a seed round, a 2021 pre-Series A, and a 2023 Series A. Telgani operates as a consumer mobile marketplace and does not publish a public developer API program; this profile captures its public web properties (homepage, privacy policy, terms of service) and its domain security posture.",
      "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2080,7 +2080,7 @@
     {
      "name": "DailyMealz",
      "slug": "dailymealz",
-     "description": "DailyMealz is a Saudi Arabia-based meal subscription service that delivers fresh daily",
+     "description": "DailyMealz is a Saudi Arabia-based meal subscription service that delivers fresh daily lunches and full-day meal plans sourced from a network of more than sixty partner restaurants. Subscribers choose a package (healthy, keto, diet, and similar options), select meals from a rotating menu, and control delivery timing through the DailyMealz mobile app. The company also operates a DailyMealz for Business offering for corporate meal programs. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; DailyMealz is an app-first consumer brand and publishes no public developer API surface, documentation portal, or API specifications as of this profiling round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dailymealz/refs/heads/main/screenshots/dailymealz-2026-07-25T211139.png",
      "score": 10.2,
      "band": "minimal",
@@ -2116,7 +2116,7 @@
     {
      "name": "Ajeer",
      "slug": "ajeer",
-     "description": "Ajeer (iajeer.com) is a Saudi Arabian on-demand services platform for home and facility maintenance",
+     "description": "Ajeer (iajeer.com) is a Saudi Arabian on-demand services platform for home and facility maintenance and operations (خدمات الصيانة والتشغيل). Through its mobile application customers request residential maintenance, general labor, installation, plumbing, electrical, and air-conditioning services, connecting them with vetted service providers. Ajeer is a portfolio company of 500 Global, surfaced into the API Evangelist network as a company profile. No public API, developer portal, or machine-readable specification was found during enrichment; this profile captures the company's public web surface and domain-security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ajeer/refs/heads/main/screenshots/ajeer-2026-07-25T195503.png",
      "score": 9.3,
      "band": "minimal",
@@ -2415,7 +2415,7 @@
     {
      "name": "Melon Digital Insurance",
      "slug": "melon-digital-insurance",
-     "description": "Melon is a digital-first insurance agency based in Saudi Arabia, building modern",
+     "description": "Melon is a digital-first insurance agency based in Saudi Arabia, building modern Insurtech products for individuals across the Kingdom. The company has received preliminary approval from the Saudi Insurance Authority (IA) to operate as a digital insurance agency, with final licensing pending, and is currently pre-launch (\"launching soon\"). Melon uses technology and AI to deliver transparent, fair pricing, simple policies, and a seamless, fully digital customer experience. It is backed by 500 Global. As of this enrichment pass, Melon publishes only a marketing landing page (melon.sa) with no public developer portal, API documentation, or machine-readable API surface.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2538,7 +2538,7 @@
     {
      "name": "Autobia",
      "slug": "autobia",
-     "description": "Autobia is a B2B e-commerce marketplace for the automotive aftermarket",
+     "description": "Autobia is a B2B e-commerce marketplace for the automotive aftermarket in Saudi Arabia, connecting auto-parts retailers, workshops, and service centers with wholesalers and dealers. The platform offers real-time pricing and instant ordering across more than 20,000 spare parts from multiple brands, centralizing sourcing to streamline procurement and improve supply-chain efficiency for the automotive sector. Backed by Techstars, Autobia operates via a web platform and native iOS and Android apps. No public developer API, documentation, or SDK is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autobia/refs/heads/main/screenshots/autobia-2026-07-25T201816.png",
      "score": 7.6,
      "band": "minimal",
@@ -2574,7 +2574,7 @@
     {
      "name": "Esar",
      "slug": "esar",
-     "description": "Esar (ايسار) is a Saudi Arabia and UAE based car rental marketplace that connects vehicle",
+     "description": "Esar (ايسار) is a Saudi Arabia and UAE based car rental marketplace that connects vehicle owners with renters through a mobile app, offering luxury, sports, family, and 4x4 vehicles across Riyadh, Jeddah, Mecca, and Dubai. The platform lets car owners list vehicles to earn recurring returns while giving travelers on-demand access to a curated fleet at competitive daily rates. Headquartered in Jeddah, Esar is an early-stage startup backed by 500 Global and the Taqadam accelerator. This API Evangelist profile tracks the company as a portfolio lead; no public developer API surface has been found to date.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/esar/refs/heads/main/screenshots/esar-2026-07-25T213623.png",
      "score": 7.6,
      "band": "minimal",
@@ -2646,7 +2646,7 @@
     {
      "name": "Tammwel",
      "slug": "tammwel",
-     "description": "Tammwel (Tamawal) is a Saudi Arabian digital financing intermediary that connects consumers with",
+     "description": "Tammwel (Tamawal) is a Saudi Arabian digital financing intermediary that connects consumers with licensed financial institutions to compare and obtain Sharia-compliant financing. Its consumer platform and iOS/Android apps let users apply once and receive multiple offers across four products - personal loans, credit cards, auto financing, and mortgage financing (each up to 150,000 SAR) - emphasizing transparent pricing with no hidden fees. The company is a portfolio company of 500 Global. As of this enrichment pass Tammwel publishes no public API, developer portal, documentation, SDK, or /.well-known discovery surface; this profile captures its identity and infrastructure security posture.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2681,7 +2681,7 @@
     {
      "name": "Firnas Aero",
      "slug": "firnas-aero",
-     "description": "Firnas Aero is a Saudi Arabian deep-tech startup building autonomous Drone-in-a-Box (DiaB)",
+     "description": "Firnas Aero is a Saudi Arabian deep-tech startup building autonomous Drone-in-a-Box (DiaB) systems for aerial surveillance, industrial inspection, and environmental assessment. Its turnkey platform pairs self-charging, robotic battery-swapping drone stations with cloud-based remote management over 5G, Ethernet, or Wi-Fi, and applies machine-learning and deep-learning models for anomaly detection, Foreign Object Debris (FOD) detection, hazard identification, and geo-location. Based at KRTP HQ in Thuwal, Saudi Arabia, the company serves infrastructure, energy, and security clients including Red Sea Global, NEOM, and the Saudi Electricity Company, and is backed by 500 Global. It is tracked in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/firnas-aero/refs/heads/main/screenshots/firnas-aero-2026-07-25T214600.png",
      "score": 7.2,
      "band": "minimal",
@@ -2717,7 +2717,7 @@
     {
      "name": "Alwans",
      "slug": "alwans",
-     "description": "'Alwans is a Saudi technology investment and startup-development company based in",
+     "description": "Alwans is a Saudi technology investment and startup-development company based in Al Khubar, Saudi Arabia, and launched in January 2010. The firm is focused on enriching local Arabic technical content and competing globally by investing in and building startup ideas and technology projects, with an emphasis on e-commerce, online marketing, mobile applications, and mobile games. Alwans is a small team (2-10 employees) and is itself backed by 500 Global; its portfolio includes companies such as Foodics and Fnjalah. It publishes no public API, developer portal, or SDKs -- this profile is an identity record within the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alwans/refs/heads/main/screenshots/alwans-2026-07-25T195907.png",
      "score": 6.8,
      "band": "minimal",
@@ -2789,7 +2789,7 @@
     {
      "name": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED",
      "slug": "fai-and-global-solutions-holding-limited",
-     "description": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED is a Saudi Arabian holding company surfaced as a portfolio",
+     "description": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED is a Saudi Arabian holding company surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. Its site at fai.sa is a WordPress property served from nginx behind a WAF that returns HTTP 403 to every external request except /robots.txt, so no company description, developer portal, documentation, or API surface could be retrieved during the enrichment pass. No public API, specification, SDK, or event surface has been observed to date; the domain-security posture was probed successfully and is recorded in security/. Re-probe from an allowed network on a later round to confirm whether a developer surface exists behind the block.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fai-and-global-solutions-holding-limited/refs/heads/main/screenshots/fai-and-global-solutions-holding-limited-2026-07-25T214150.png",
      "score": 6.8,
      "band": "minimal",
@@ -2860,7 +2860,7 @@
     {
      "name": "Quantum",
      "slug": "quantum",
-     "description": "Quantum is a Saudi Arabian advertising-technology (adtech) enabler that bridges online",
+     "description": "Quantum is a Saudi Arabian advertising-technology (adtech) enabler that bridges online publishers and advertisers with data and technology. Its Quantum One omnichannel platform connects online and offline retail experiences across programmatic ads, in-app media buying, e-sampling, on-ground activations, influencer marketing, and out-of-home media, with goal-attainment tracking, ROI measurement, customer-engagement analytics, and conversion-rate analysis. As of this enrichment pass the company publishes no public developer API, documentation, or developer portal.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2895,7 +2895,7 @@
     {
      "name": "UTURN",
      "slug": "uturn",
-     "description": "UTURN Entertainment is a Saudi Arabian digital media and entertainment",
+     "description": "UTURN Entertainment is a Saudi Arabian digital media and entertainment company founded in 2010 that has grown into the largest Arabic Multi-Channel Network (MCN) in the MENA region. It produces original digital content — comedy sketches, gaming (Saudi Gamer), women's lifestyle (Unseen), sports (MLM), and MMA (MMAnia) shows — distributed across YouTube, TikTok, Snapchat, and other social platforms, and offers content creation, sponsored content, branded content, and digital production services to brands. A 500 Global portfolio company, UTURN publishes no public API or developer surface.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

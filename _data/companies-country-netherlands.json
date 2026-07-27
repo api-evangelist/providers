@@ -11,7 +11,7 @@
     {
      "name": "KPN",
      "slug": "kpn",
-     "description": "'Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands,",
+     "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
      "score": 59.1,
      "band": "developing",
      "band_label": "Developing",
@@ -242,7 +242,7 @@
     {
      "name": "bunq",
      "slug": "bunq",
-     "description": "bunq is a European (Dutch) neobank offering personal and business",
+     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
      "score": 47.7,
      "band": "developing",
@@ -734,7 +734,7 @@
     {
      "name": "Insify",
      "slug": "insify",
-     "description": "'Insify is a Dutch insurtech offering fully digital business insurance for freelancers,",
+     "description": "Insify is a Dutch insurtech offering fully digital business insurance for freelancers, self-employed professionals (ZZP'ers) and small-to-medium enterprises in the Netherlands. Its online-first product line covers disability/income protection (arbeidsongeschiktheid, AOV), professional liability (beroepsaansprakelijkheid, BAV), business liability (bedrijfsaansprakelijkheid, AVB), business inventory and goods, electronics, in-vehicle equipment and auto cover, sold and managed entirely online with no setup, advisory or cancellation fees and daily cancellation. Serving more than 40,000 entrepreneurs across professions from IT and photography to care and construction, Insify pairs instant quoting and fast claims with AI-assisted guidance (SmartGuide). Backed by Accel, the company is tracked in the API Evangelist network as an insurance-tech provider profile; it is a consumer-facing insurer and does not currently publish a public developer API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/insify/refs/heads/main/screenshots/insify-2026-07-25T222531.png",
      "score": 19.0,
      "band": "emerging",
@@ -776,7 +776,7 @@
     {
      "name": "Plumery",
      "slug": "plumery",
-     "description": "'Plumery is an Amsterdam, Netherlands-based fintech that provides a headless,",
+     "description": "Plumery is an Amsterdam, Netherlands-based fintech that provides a headless, mobile-first digital banking engagement platform it markets as the \"Digital Success Fabric\" — a \"Digital Engagement Platform for Banks.\" It lets banks, credit unions, and financial institutions build and launch branded mobile and web banking experiences on top of their existing core banking systems, delivered to engineering teams as an API-first, composable platform with SDKs and developer documentation (built on the Stainless docs/SDK toolchain). Plumery maintains a public GitHub organization of supporting engineering tooling and publishes a security & compliance program (SOC 2, ISO 27001). The company is backed by QED Investors and Seedcamp.",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -903,7 +903,7 @@
     {
      "name": "Otrium",
      "slug": "otrium",
-     "description": "'Otrium is an online designer fashion outlet, headquartered in Amsterdam,",
+     "description": "Otrium is an online designer fashion outlet, headquartered in Amsterdam, that connects shoppers across Europe with end-of-season and overstock apparel, footwear, and accessories from designer and premium brands at reduced prices. A Certified B Corporation, Otrium operates a curated marketplace model with dedicated brand storefronts, native iOS and Android apps, and multi-market localization across the Netherlands, Germany, Belgium, France, Italy, the United Kingdom, Spain, Poland, and the rest of Europe. It was surfaced in the API Evangelist network as a portfolio company of Bond Capital and Index Ventures. No public developer API, SDK, or documentation surface is currently published; this profile captures the company identity and its verified public web properties.",
      "score": 12.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -938,7 +938,7 @@
     {
      "name": "Leyden Labs",
      "slug": "leyden-labs",
-     "description": "'Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden,",
+     "description": "Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden, The Netherlands, with a regional office in Singapore, developing intranasal antibody products that protect people against known and newly emerging respiratory viruses. Its approach pairs mucosal immunity — delivering antibodies directly into the nasal passages, the gateway respiratory viruses use to enter the body — with broad protection, by targeting conserved regions of viral proteins so a single product can cover circulating strains and future variants. Its lead program, PanFlu, is an intranasal antibody candidate in clinical trials derived from CR9114, among the most broadly neutralizing influenza antibodies identified to date. Founded in 2021 by Koenraad Wiedhaup and Ronald Brus with founding scientist Jaap Goudsmit, the company is backed by GV and the SoftBank Vision Fund alongside the European Innovation Council Fund, the European Investment Bank and Invest-NL. Leyden Labs publishes no public developer program, API, or SDK; this profile captures its public web, security and identity surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leyden-labs/refs/heads/main/screenshots/leyden-labs-2026-07-25T225008.png",
      "score": 11.2,
      "band": "minimal",
@@ -980,7 +980,7 @@
     {
      "name": "aardaia",
      "slug": "aardaia",
-     "description": "Aardaia is a Wageningen (Netherlands) agri-biotech startup that turns wild plant species",
+     "description": "Aardaia is a Wageningen (Netherlands) agri-biotech startup that turns wild plant species into new commercial crops through accelerated domestication, combining classical plant breeding with modern genomics and AI rather than genetic modification. Its flagship is the aardaker, a nitrogen-fixing legume-tuber that yields a naturally protein-rich crop (roughly 10g protein per 100g of fresh tuber) without synthetic fertilizer. The company raised a EUR 5M seed round led by Point Nine in 2026. Aardaia does not currently publish a public API, developer portal, or SDKs; this profile is maintained in the API Evangelist network as a Point Nine portfolio lead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aardaia/refs/heads/main/screenshots/aardaia-2026-07-25T181321.png",
      "score": 8.9,
      "band": "minimal",
@@ -1128,7 +1128,7 @@
     {
      "name": "Baan",
      "slug": "baan",
-     "description": "'Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource",
+     "description": "Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource planning software vendor founded in 1978 in Barneveld, Netherlands by Jan Baan and later joined by his brother Paul Baan. Baan built one of the first genuinely component-based ERP suites, known for its Dynamic Enterprise Modeler (DEM), its Baan Tools 4GL development environment, and deep manufacturing and project-industry functionality. At its late-1990s peak Baan served roughly 3,000 customers and posted close to $700 million in revenue, making it one of the leading global ERP providers alongside SAP, Oracle and PeopleSoft. Following accounting controversy and a collapse in its share price, Baan was acquired by the British engineering group Invensys in 2000, sold on to SSA Global Technologies in 2003, and absorbed into Infor Global Solutions when Infor acquired SSA in 2006. Baan no longer exists as an operating company or an independent brand: the product line lives on as Infor LN, and the baan.com and baan.nl domains now permanently redirect to the Infor LN product page. Consequently this profile carries no first-party API surface of its own — any modern programmatic access to the Baan lineage is delivered through Infor LN REST APIs and the Infor ION API gateway on Infor's developer platform. Baan Company is listed by Battery Ventures as an exited investment.",
      "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",

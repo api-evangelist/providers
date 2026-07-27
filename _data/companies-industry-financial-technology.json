@@ -53,7 +53,7 @@
     {
      "name": "Avalara",
      "slug": "avalara",
-     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver",
+     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
      "score": 72.9,
      "band": "exemplar",
@@ -183,7 +183,7 @@
     {
      "name": "Block",
      "slug": "block",
-     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including",
+     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
      "score": 67.8,
      "band": "strong",
@@ -225,7 +225,7 @@
     {
      "name": "PayPal",
      "slug": "paypal",
-     "description": "PayPal is a global online payment system that lets individuals and businesses",
+     "description": "PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner referrals, payment experience, and webhook notifications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png",
      "score": 66.7,
      "band": "strong",
@@ -277,7 +277,7 @@
     {
      "name": "Coinbase",
      "slug": "coinbase",
-     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody,",
+     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide product surface across retail trading (Advanced Trade), professional and institutional trading (Exchange and Prime), merchant payments (Commerce), fiat onboarding (Onramp), developer wallet integration (Wallet SDK), market and on-chain data (Data API), and AI agent toolkits (AgentKit). Authentication is performed using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP), with WebSocket and FIX feeds available for low-latency market data and order management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
      "score": 59.2,
      "band": "developing",
@@ -361,7 +361,7 @@
     {
      "name": "Charles Schwab",
      "slug": "charles-schwab",
-     "description": "Charles Schwab is a financial services company providing brokerage, banking,",
+     "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
      "score": 56.0,
      "band": "developing",
@@ -445,7 +445,7 @@
     {
      "name": "Bank of America",
      "slug": "bank-of-america",
-     "description": "Bank of America is a multinational investment bank and financial services",
+     "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
      "score": 55.4,
      "band": "developing",
@@ -487,7 +487,7 @@
     {
      "name": "Mastercard",
      "slug": "mastercard",
-     "description": "Mastercard is a global technology company in the payments industry, providing",
+     "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
      "score": 52.2,
      "band": "developing",
@@ -649,7 +649,7 @@
     {
      "name": "Cboe Global Markets",
      "slug": "cboe",
-     "description": "'Cboe Global Markets is one of the world''s largest exchange holding",
+     "description": "Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
      "score": 50.7,
      "band": "developing",
@@ -853,7 +853,7 @@
     {
      "name": "Wells Fargo",
      "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
      "score": 48.3,
      "band": "developing",
@@ -925,7 +925,7 @@
     {
      "name": "Toast",
      "slug": "toast",
-     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale,",
+     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
      "score": 47.4,
      "band": "developing",
@@ -1054,7 +1054,7 @@
     {
      "name": "Visa",
      "slug": "visa",
-     "description": "Visa is a global payment technology company that facilitates electronic",
+     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
      "score": 43.7,
      "band": "thin",
@@ -1215,7 +1215,7 @@
     {
      "name": "Capital One",
      "slug": "capital-one",
-     "description": "Capital One is a US money-center bank and financial services company offering",
+     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
      "score": 40.1,
      "band": "thin",
@@ -1299,7 +1299,7 @@
     {
      "name": "ABN AMRO",
      "slug": "abn-amro",
-     "description": "'A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.'",
+     "description": "A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/screenshots/abn-amro-2026-06-20T163250.png",
      "score": 35.6,
      "band": "thin",
@@ -1673,7 +1673,7 @@
     {
      "name": "Nasdaq",
      "slug": "nasdaq",
-     "description": "'Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.'",
+     "description": "Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png",
      "score": 19.6,
      "band": "emerging",
@@ -1796,7 +1796,7 @@
     {
      "name": "HSBC",
      "slug": "hsbc",
-     "description": "'One of the world''s largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.'",
+     "description": "One of the world's largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc/refs/heads/main/screenshots/hsbc-2026-06-20T182858.png",
      "score": 12.8,
      "band": "minimal",
@@ -1880,7 +1880,7 @@
     {
      "name": "ING",
      "slug": "ing",
-     "description": "'A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.'",
+     "description": "A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing/refs/heads/main/screenshots/ing-2026-06-20T183349.png",
      "score": 10.8,
      "band": "minimal",
@@ -1922,7 +1922,7 @@
     {
      "name": "TransUnion",
      "slug": "transunion",
-     "description": "'A global information and insights company providing credit reporting, risk, fraud, and identity solutions. One of the three largest consumer credit bureaus in the United States, serving businesses and consumers across multiple international markets.'",
+     "description": "A global information and insights company providing credit reporting, risk, fraud, and identity solutions. One of the three largest consumer credit bureaus in the United States, serving businesses and consumers across multiple international markets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/screenshots/transunion-2026-06-20T195631.png",
      "score": 9.7,
      "band": "minimal",
@@ -2000,7 +2000,7 @@
     {
      "name": "Standard Chartered",
      "slug": "standard-chartered",
-     "description": "'A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.'",
+     "description": "A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png",
      "score": 7.0,
      "band": "minimal",
@@ -2042,7 +2042,7 @@
     {
      "name": "WEX",
      "slug": "wex",
-     "description": "'Fortune 1000 company WEX. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company WEX. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wex/refs/heads/main/screenshots/wex-2026-06-20T201419.png",
      "score": 4.6,
      "band": "minimal",
@@ -2078,7 +2078,7 @@
     {
      "name": "Copart",
      "slug": "copart",
-     "description": "'Fortune 1000 company Copart. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Copart. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/copart/refs/heads/main/screenshots/copart-2026-06-20T175018.png",
      "score": 4.2,
      "band": "minimal",
@@ -2114,7 +2114,7 @@
     {
      "name": "Stonex Group",
      "slug": "stonex-group",
-     "description": "'Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Stonex Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stonex-group/refs/heads/main/screenshots/stonex-group-2026-06-20T194605.png",
      "score": 4.2,
      "band": "minimal",
@@ -2150,7 +2150,7 @@
     {
      "name": "Euronet Worldwide",
      "slug": "euronet-worldwide",
-     "description": "'Profile for Euronet Worldwide in the API Evangelist network. Fortune F1000 (rank 831).'",
+     "description": "Profile for Euronet Worldwide in the API Evangelist network. Fortune F1000 (rank 831).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/euronet-worldwide/refs/heads/main/screenshots/euronet-worldwide-2026-06-20T180846.png",
      "score": 3.9,
      "band": "minimal",
@@ -2186,7 +2186,7 @@
     {
      "name": "SS AND C Technologies",
      "slug": "ss-and-c-technologies",
-     "description": "'Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png",
      "score": 3.5,
      "band": "minimal",

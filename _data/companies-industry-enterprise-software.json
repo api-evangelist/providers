@@ -11,7 +11,7 @@
     {
      "name": "HubSpot",
      "slug": "hubspot",
-     "description": "HubSpot provides a full platform of marketing, sales, customer service,",
+     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
      "score": 78.5,
      "band": "exemplar",
@@ -155,7 +155,7 @@
     {
      "name": "Avalara",
      "slug": "avalara",
-     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver",
+     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
      "score": 72.9,
      "band": "exemplar",
@@ -191,7 +191,7 @@
     {
      "name": "Oracle",
      "slug": "oracle",
-     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure,",
+     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
      "score": 72.8,
      "band": "exemplar",
@@ -227,7 +227,7 @@
     {
      "name": "Okta",
      "slug": "okta",
-     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
+     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
      "score": 71.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -262,7 +262,7 @@
     {
      "name": "Airtable",
      "slug": "airtable",
-     "description": "Airtable is a cloud-based collaboration service that combines the simplicity",
+     "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
      "score": 70.3,
      "band": "exemplar",
@@ -380,7 +380,7 @@
     {
      "name": "Meta",
      "slug": "meta",
-     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging,",
+     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising, content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png",
      "score": 69.4,
      "band": "strong",
@@ -488,7 +488,7 @@
     {
      "name": "Slack",
      "slug": "slack",
-     "description": "Slack is a cloud-based team collaboration platform that provides chat,",
+     "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
      "score": 68.4,
      "band": "strong",
@@ -524,7 +524,7 @@
     {
      "name": "Docusign",
      "slug": "docusign",
-     "description": "DocuSign helps organizations connect and automate how they prepare, sign,",
+     "description": "DocuSign helps organizations connect and automate how they prepare, sign, act on, and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature, the world's.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png",
      "score": 67.7,
      "band": "strong",
@@ -560,7 +560,7 @@
     {
      "name": "Workday",
      "slug": "workday",
-     "description": "Collection of Workday REST and SOAP APIs for human capital management,",
+     "description": "Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
      "score": 66.6,
      "band": "strong",
@@ -632,7 +632,7 @@
     {
      "name": "Snowflake",
      "slug": "snowflake",
-     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science,",
+     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
      "score": 66.1,
      "band": "strong",
@@ -668,7 +668,7 @@
     {
      "name": "Cisco",
      "slug": "cisco",
-     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure",
+     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
      "score": 65.2,
      "band": "strong",
@@ -704,7 +704,7 @@
     {
      "name": "Intuit",
      "slug": "intuit",
-     "description": "Collection of APIs offered by Intuit for financial and business management",
+     "description": "Collection of APIs offered by Intuit for financial and business management services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
      "score": 64.9,
      "band": "strong",
@@ -746,7 +746,7 @@
     {
      "name": "Amazon",
      "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
      "score": 62.0,
      "band": "strong",
@@ -824,7 +824,7 @@
     {
      "name": "Zoom",
      "slug": "zoom",
-     "description": "Zoom is a communications platform that allows users to connect with video,",
+     "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
      "score": 61.4,
      "band": "strong",
@@ -860,7 +860,7 @@
     {
      "name": "SAP",
      "slug": "sap",
-     "description": "Collection of SAP's enterprise APIs for business applications and cloud",
+     "description": "Collection of SAP's enterprise APIs for business applications and cloud services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png",
      "score": 60.9,
      "band": "strong",
@@ -942,7 +942,7 @@
     {
      "name": "Rackspace Technology",
      "slug": "rackspace-technology",
-     "description": "Rackspace Technology is a multicloud solutions provider offering managed services, professional services, and",
+     "description": "Rackspace Technology is a multicloud solutions provider offering managed services, professional services, and consulting across cloud infrastructure, applications, data, AI, and cybersecurity. The company operates as a trusted operator of the full stack from governed private cloud to AI in production, with offerings spanning private, public, and hybrid cloud, VMware, OpenStack, Kubernetes, Microsoft 365, ERP/CRM, and security services. Rackspace exposes a broad set of public APIs covering ticketing, DNS, load balancing, monitoring, metrics, cloud orchestration, billing, identity, and customer service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png",
      "score": 57.5,
      "band": "developing",
@@ -1050,7 +1050,7 @@
     {
      "name": "SPIRE",
      "slug": "spire",
-     "description": "SPIRE (SPIFFE Runtime Environment) is the reference implementation of",
+     "description": "SPIRE (SPIFFE Runtime Environment) is the reference implementation of the SPIFFE standard, providing a toolchain for establishing trust between software systems across a wide variety of hosting platforms through automated attestation and workload identity distribution. SPIRE manages a certificate authority, performs node and workload attestation, and issues SVIDs to workloads through the SPIFFE Workload API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png",
      "score": 54.0,
      "band": "developing",
@@ -1266,7 +1266,7 @@
     {
      "name": "Dropbox",
      "slug": "dropbox",
-     "description": "Dropbox is a file hosting service operated by the American company Dropbox,",
+     "description": "Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud, and client software.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png",
      "score": 50.2,
      "band": "developing",
@@ -1338,7 +1338,7 @@
     {
      "name": "ADP",
      "slug": "adp",
-     "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human",
+     "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human capital management solutions including payroll, benefits, talent, time, tax, and HR services for businesses of all sizes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
      "score": 48.4,
      "band": "developing",
@@ -1410,7 +1410,7 @@
     {
      "name": "Toast",
      "slug": "toast",
-     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale,",
+     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
      "score": 47.4,
      "band": "developing",
@@ -1569,7 +1569,7 @@
     {
      "name": "Gusto",
      "slug": "gusto",
-     "description": "A cloud-based payroll, benefits, and human resources platform designed",
+     "description": "A cloud-based payroll, benefits, and human resources platform designed for small and medium-sized businesses. Gusto Embedded enables platforms to integrate payroll, tax filing, and HR workflows directly into their products via a REST API, React SDK, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
      "score": 40.9,
      "band": "thin",
@@ -1641,7 +1641,7 @@
     {
      "name": "Snyk",
      "slug": "snyk",
-     "description": "Snyk is a developer-first security platform covering code, open-source",
+     "description": "Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, and exports for application-security teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
      "score": 40.5,
      "band": "thin",
@@ -1749,7 +1749,7 @@
     {
      "name": "Equinix",
      "slug": "equinix",
-     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to",
+     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
      "score": 36.6,
      "band": "thin",
@@ -2276,7 +2276,7 @@
     {
      "name": "Alphabet",
      "slug": "alphabet",
-     "description": "'The parent company of Google and one of the world''s most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.'",
+     "description": "The parent company of Google and one of the world's most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png",
      "score": 6.4,
      "band": "minimal",
@@ -2384,7 +2384,7 @@
     {
      "name": "Kyndryl Holdings",
      "slug": "kyndryl-holdings",
-     "description": "'Fortune 1000 company Kyndryl Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company Kyndryl Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyndryl-holdings/refs/heads/main/screenshots/kyndryl-holdings-2026-06-20T184232.png",
      "score": 4.6,
      "band": "minimal",
@@ -2456,7 +2456,7 @@
     {
      "name": "SS AND C Technologies",
      "slug": "ss-and-c-technologies",
-     "description": "'Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "description": "Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png",
      "score": 3.5,
      "band": "minimal",
